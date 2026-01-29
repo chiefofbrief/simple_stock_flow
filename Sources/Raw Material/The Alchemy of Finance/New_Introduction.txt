@@ -1,0 +1,1761 @@
+*The New Introduction replaces the Introduction and Chapter 1 from the first edition.
+--- Page 25 ---
+2 NEW INTRODUCTION
+In recent years, my attention has veered in other directions. First I
+became engaged in the transition from closed to open societies that was
+made possible by the collapse of the Soviet system. More recently I
+have become preoccupied with the problems of globalization. It would
+be inappropriate to discuss these subjects in detail here, especially as I
+have written about them in other books. However, I feel obliged to re­
+state the conceptual framework with which I have approached both
+problem areas——the transition to open society and globalization.
+The Concept of Reflexivity
+The concept of reflexivity is very simple. In situations that have think­
+ing participants, there is a two-way interaction between the partici­
+pants5 thinking and the situation in which they participate. On the one
+hand, participants seek to understand reality; on the other, they seek to
+bring about a desired outcome. The two functions work in opposite di­
+rections: in the cognitive function reality is the given; in the participat­
+ing function, the participants' understanding is the constant. The two
+functions can interfere with each other by rendering what is supposed
+to be given, contingent. I call the interference between the two func­
+tions “reflexivity.'' I envision reflexivity as a feedback loop between the
+participants' understanding and the situation in which they participate,
+and I contend that the concept of reflexivity is crucial to understanding
+situations that have thinking participants. Reflexivity renders the par-
+ticipants, understanding imperfect and ensures that their actions will
+have unintended consequences.
+The nature of the interference between the cognitive and participat­
+ing functions is not so simple, and its implications are still not properly
+understood. The assertion that our understanding of the world in which
+we live is imperfect is so banal that it hardly needs any elaboration. The
+way our senses work, the way our language is structured, and many
+other factors combine to render our understanding imperfect; but the
+imperfection introduced by reflexivity is more specific and needs further
+elucidation. The imperfection I am concerned with arises because we
+are participants. When we act as outside observers we can make state­
+ments that do or do not correspond to the facts without altering the
+facts; when we act as participants, our actions alter the situation we seek
+to understand. As a consequence, we cannot base our decisions on
+knowledge. We may know many things, and the more we know the bet­
+--- Page 26 ---
+New Introduction 3
+ter we are placed to make the right decisions, but knowledge alone is
+not a sufficient basis for making decisions. We are confronted with a sit­
+uation that is inherently unknowable in the sense that what needs to be
+a fact to make knowledge possible is, in fact, contingent on the partici­
+pantsJ view of the situation. If the participants, views corresponded to
+the situation, the situation would not be unknowable and participants
+could act on the basis of knowledge. But that is not the case. The situa­
+tion is unknowable because the participants' views do not correspond to
+the situation. If this seems like circular logic, well, it is. Participants are
+caught in a situation characterized by a circular feedback I have called
+reflexivity, and trying to understand it forces them—and us, observers
+who seek to understand situations that have thinking participants—into
+circular logic. That is the point that requires further elucidation.
+The traditional correspondence theory of truth sees knowledge as
+being expressed by true statements. The statement X is true and only
+if the fact described by X actually happens. Facts have to be independent
+of the statements that refer to them in order to constitute a reliable crite­
+rion of truth. But the participants' decisions relate to the future, and the
+fiiture is contingent on the participants' decisions in the present. There­
+fore, future facts do not constitute an independent criterion by which the
+current thinking of the participants could be qualified as knowledge.
+Even if the outcome happened to correspond to some participants' ex­
+pectations, that would not qualify those expectations as knowledge be­
+cause the correspondence may have been brought about by the various
+participants' decisions.To claim that expectations are based on knowledge
+is to deny that reflexivity plays any role in shaping the course of events.
+Reflexivity and Economic Theory
+The assertion that future outcomes are fully reflected in current expec­
+tations seems absurd, yet it is very much alive. It is at the basis of the
+prevailing paradigm in financial economics. Market prices are seen as
+passive reflections of the underlying fundamentals. The efficient market
+hypothesis claims that market prices fully reflect all extant information.
+The closely related rational expectations theory holds that, in the ab­
+sence of exogenous shocks, financial markets tend toward an equilib­
+rium that accurately reflects the participants' expectations. Tbgethet,
+these theories support the belief that financial markets, left to their own
+devices, assure the optimum allocation of resources.
+--- Page 27 ---
+4 NEW INTRODUCTION
+This paradigm is in deep trouble; the idea that financial markets tend
+toward such an equilibrium seems to be contradicted by the evidence.
+Most economists now recognize that financial markets are capable of pro­
+ducing multiple equilibria. "Yet the idea that free, unregulated markets as­
+sure the optimum allocation of resources has not been abandoned. Great
+efforts have gone into reconciling the actual behavior of financial markets
+with the efficient market hypothesis, adopting ever more elastic defini­
+tions of rationality and ever more modest definitions of efficiency These
+modifications do not go far enough. It is time for a paradigm shift.
+The Alchemy of Finance was meant to be a frontal assault on the pre­
+vailing paradigm, but it ran into a stone wall. Professional economists
+dismissed the theory of reflexivity as the work of an amateur whose fi­
+nancial success has gone to his head. I was accused either of ignoring
+the latest advances in economic theory or of restating the obvious. No
+doubt, I have to bear some of the responsibility. I gave my critics a wide
+opening by freely admitting that I was not familiar with the theories of
+rational expectations and efficient markets because, as a practitioner, I
+felt I was better off without them. My exposition also suffered from
+other limitations that I need not belabor here because readers will be
+able to judge for themselves. Nevertheless, the theory of reflexivity has
+gained ground among practitioners, and The Alchemy of Finance, with all
+its shortcomings, has found a place in the reading lists of business
+schools as distinct from economics departments.
+I should like to use this opportunity to drive my critique of the old
+paradigm home. I may be flogging a dead horse by now but the exercise
+is necessary because the prevailing paradigm has become deeply in­
+grained in peoples thinking. Even as the experts have modified their
+views, public policy in the United States and elsewhere is still guided by
+the belief that financial markets tend toward an equilibrium that assures
+the best allocation of resources and it is only government interference
+that stands in the way I have called this dogma 4 "market fundamental-
+ism" and it remains very influential.
+Let me first dispose of the theory of rational expectations. The the­
+ory, as I understand it, asserts that market participants, in pursuing their
+self-interest, base their decisions on the assumption that the other par­
+ticipants will do the same. This sounds reasonable, but it isn't, because
+participants act not on the basis of their best interests but on their per-
+ception of their best interests, and the two are not identical. Their under­
+standing is imperfect and their actions have unintended consequences.
+--- Page 28 ---
+New Introduction 5
+There is a lack of correspondence between expectations and out­
+comes—between ex ante and ex post—and it is not rational for people
+to act on the assumption that there is no divergence between the two.1
+Rational expectations theory seeks to overcome this difficulty by
+claiming that the market as a whole always knows more than any individ­
+ual participantufficiently so that markets manage to be always right.
+People may get things wrong, and misunderstandings may cause random
+disturbances; but in the ultimate analysis all market participants use the
+same model of how the world works, and when they do not, they learn
+from experience so that in the end they converge on the same model. I
+work with a different model, and the fact that I have been successful using
+it as a market participant makes nonsense out of rational expectations.
+I contend that financial markets are always wrong in the sense that
+they operate with a prevailing bias, but the bias can actually validate it­
+self by influencing not only market prices but also the so-called funda­
+mentals that market prices are supposed to reflect. That is the point that
+people steeped in the prevailing paradigm have such difficulty grasping.
+The ways in which the prevailing bias can validate itself are dis­
+cussed in detail in the book, with many concrete examples. Beyond a
+certain point the self-validating feedback loops become unsustainable.
+That is how reflexivity gives rise to initially self-fulfilling but eventually
+self-defeating prophesies and processes.The most spectacular manifesta­
+tion is in the boom/bust sequences that are characteristic of financial
+markets. The theory of reflexivity can explain such bubbles, while the
+eflficient market hypothesis cannot. A whole new literature has sprung
+up to explain away bubbles within the prevailing paradigm. But bubbles
+are not the only manifestations of reflexivity There are also many sub­
+tler forms described in the book, such as Reagans Imperial Circle or
+the mergermania of the 1980s. They cannot be explained without dis­
+carding the efficient market hypothesis.
+We can see, then, that the efficient market hypothesis and the the­
+ory of reflexivity are alternative theories about the behavior of finan­
+cial markets. The efficient market hypothesis does not fit the facts, and
+it is also questionable on theoretical grounds: the illusion that markets
+are always right is created by the reflexive interaction between the par­
+ticipating and cognitive functions. In fact, markets are almost always
+wrong but their bias is validated during both the self-fulfilling and the
+self-defeating phases of boom/bust sequences. Only at inflection
+points is the prevailing bias proven wrong.
+--- Page 29 ---
+NEW INTRODUCTION
+It is an interesting question why such an unrealistic interpretation
+of financial markets as the efficient market hypothesis should have
+gained such widespread acceptance. The answer is to be found in the
+requirements of economic theory as a scientific pursuit. Scientific theo­
+ries are supposed to have some predictive value, and the efficient mar­
+ket hypothesis seeks to meet that requirement, while the theory of
+reflexivity does not. On the contrary, it contends that the course of
+events is inherently unpredictable. Thus, the former qualifies as a scien­
+tific theory (albeit a false one) while the latter does not. I have ac­
+knowledged this fact by entitling my book The Alchemy of Finance, as
+distinct from science.
+It would be difficult for a nonscientific theory to falsify a scientific
+one without a far-reaching reconsideration of scientific method as it
+applies to human affairs in general and financial markets in particular. I
+have attempted such a reevaluation in The Alchemy of Finance, but I can­
+not claim to have made much of an impression. I consider the issue so
+important for understanding not only financial markets but human af­
+fairs in general that I feel obliged to try again.
+The Human Uncertainty Principle
+We live in the real world, but our view of the world does not corre­
+spond to the real world. The theory of rational expectations itself pro­
+vides a striking example of how far our interpretation can stray from the
+real world. Yet our view of the world is part of the real world~we are
+participants. And the gap between reality and our interpretation of it in­
+troduces an element of uncertainty into the real world. Again, this
+sounds like circular reasoning, but it accurately describes situations with
+thinking participants.
+I can now define the element of uncertainty better than I did in
+the original edition of The Alchemy of Finance. Invoking both the corre­
+spondence and coherence theories of truth, I can proclaim what I call
+the "human uncertainty principle." That principle holds that peoples
+understanding of the world in which they live cannot correspond to
+the facts and be complete and coherent at the same time. Insofar as
+peoples thinking is confined to the facts, it is not sufficient to reach de­
+cisions; and insofar as it serves as the basis of decisions, it cannot be
+confined to the facts. The human uncertainty principle applies to both
+thinking and reality: It ensures that our understanding is often incoher­
+--- Page 30 ---
+New Introduction
+ent and always incomplete and introduces an element of genuine un­
+certainty—as distinct from randomness―into the course of events.
+The human uncertainty principle bears a strong resemblance to
+Heisenbergs uncertainty principle, which holds that the position and mo­
+mentum of quantum particles cannot be measured at the same time. But
+there is an important difference. Heisenbergs uncertainty principle does
+not influence the behavior of quantum particles one iota; they would be­
+have the same way if the principle had never been discovered. The same is
+not true of the human uncertainty principle. Theories about human be­
+havior can and do influence human behavior. Marxism had a tremendous
+impact on history and market fundamentalism is having a similar influ­
+ence today A phrase like "the axis of evil" can alter the course of history;
+and calling the estate tax “the death tax" can influence public policy My
+own actions―and my performance in the financial markets~would have
+been different if they had not been based on the human uncertainty prin­
+ciple (although I had not yet given it that name).
+Just as quantum physics is subject to alternative interpretations—
+quanta can be described as particles or as waves― o it is with the hu­
+man uncertainty principle. We may speak of imperfect understanding
+but it may be more appropriate to speak of human creativity. Imperfect
+understanding has a negative sound; creativity is more inspiring. If per­
+fect understanding were possible, there would be no room for creativity
+As it is, the world in which we live is, to some extent, our own creation.
+The extent to which peoples thinking shapes reality requires further
+examination.There is a tendency to deconstruct reality into peoples per­
+ception of reality This is an overreaction to a previous tendency to inter­
+pret reality as being governed by the inexorable laws of science, which
+are capable of being discovered and prevail irrespective of what anybody
+thinks. Reality is more compEcated. To understand it properly we must
+distinguish between natural phenomena that are impervious to what
+people think and social phenomena that contain thinking participants.
+The laws that apply to natural phenomena operate independently
+of what anybody thinks—although the formulation of the laws and the
+selection of the phenomena to which they apply are very much influ­
+enced by prevailing areas in science. The availability of an independent
+criterion by which the validity of scientific hypotheses can be judged
+has been a boon to scientific method. Natural science has, in fact, pro­
+duced many more amazing results than those wrought by magic, super­
+stition, or religious beliefs.
+--- Page 31 ---
+8 NEW INTRODUCTION
+When it comes to events that have human participants, scientific
+knowledge is more difficult to attain, and thinking plays a more active,
+creative role, both in understanding them and in shaping them. As we
+have seen, people base their actions not on reality but on their view of
+the world, and the two are not identical. As a result even past history
+cannot be treated in the same way as natural phenomena because it
+does not consist only of hard facts like the birth and death of kings.
+Social situations like revolutions or political compromises have differ­
+ent meanings for difierent participants, and even after the event they
+are subject to different interpretations.2 Myths about the past have a
+bearing on the future. The battle of Kosovo in 1389 loomed large in
+the recent breakup of Yugoslavia. This poses problems for scientific
+method, but at the same time renders scientific knowledge less impor­
+tant in the understanding and shaping of human affairs. History is a
+story, and there is plenty of room for magic, superstition, rehgion, and
+other beliefs.
+Since peoples decisions are not based on knowledge, outcomes are
+liable to diverge from expectations. Events that have thinking partici­
+pants cannot be understood without taking that divergence into ac­
+count. In the case of natural phenomena, events unfold irrespective of
+what anybody thinks—although what people choose to notice is influ­
+enced by the prevailing paradigm. In the case of social events, the influ­
+ence of thinking is more pervasive: it can affect the course of events.
+This has far-reaching implications for scientific method.
+Social versus Natural Science
+The standards and criteria of scientific method are based on the
+achievements of natural science. Karl Popper~who has greatly influ­
+enced my thinking—proclaimed the doctrine of the unity of science:
+the same standards and criteria apply to both the natural and the social
+sciences? And he was not alone. The achievements of the natural sci­
+ences were so impressive that the social sciences sought to imitate
+them. Not all of the social sciences—for instance, anthropology insists
+on telling stories rather than establishing universally valid theories—
+but economic theory in particular has made a valiant effort to imitate
+natural science.
+I disagree with my mentor, Karl Popper, on the doctrine of the
+unity of science. There are two fundamental differences between the so­
+--- Page 32 ---
+New Introduction 9
+cial and the natural sciences. One relates to the subject matter, the other
+to the role of the scientist. First, reflexivity and the human uncertainty
+principle interfere with the predictability of human behavior; second,
+theories about human behavior can and do influence human behavior.
+Given these handicaps, imposing the standards and criteria of nat­
+ural science on the human sciences gives rise to false claims and mis­
+leading results. It encourages theories such as rational expectations that
+do not correspond to reality, and it disqualifies the theory of reflexivity
+because it does not yield the predictions expected of scientific theory.
+Yet if there is an element of uncertainty in the underlying phenomena,
+it ought to be reflected in the theories that deal with them.
+Heisenbergs uncertainty principle did not undermine the status of
+natural science because natural science had produced some truly amaz­
+ing results before the uncertainty inherent in quantum physics was en­
+countered. In the light of those discoveries, Heisenbergs uncertainty
+principle appears as a crowning achievement of scientific method. The
+human sciences find themselves in a much more unfavorable position
+because they encounter the element of uncertainty inherent in the par­
+ticipants * thinking at the very beginning of their enquiry, not when
+their quest is already well-advanced. They can postpone the day of
+reckoning, as economics has done, by building their theories on postu­
+lates that deliberately exclude that uncertainty but by doing so they are
+doing violence to their subject matter.
+Why did Popper embrace the doctrine of the unity of science
+when he was at least as aware of the principle of human uncertainty as
+I am? I believe he did so because he wanted to show that Marxism is
+unscientific and he needed the doctrine to make the argument stick.
+But that does not mitigate the fact that he employed the wrong argu­
+ment. It would have been much better to establish that the social sci­
+ences cannot meet the standards and requirements of natural science
+because of the two handicaps I have identified; therefore, those social
+theories that base their claim to validity on their scientific status are
+making a false claim. That is not to say that social theories cannot be
+valid, but they must establish their claim to validity on their own merit
+and not by parading in the false feathers of natural science.
+This is not an arcane theoretical argument. It has great practical rel­
+evance right now. The same critique that Popper raised against Marx­
+ism can be applied to mainstream economics. Many economic theories
+such as the theory of perfect competition cannot be disproved, because
+--- Page 33 ---
+10 NEW INTRODUCTION
+they are based on certain specified assumptions and the conclusions fol­
+low from the assumptions by deductive logic. Many thoughtful econo­
+mists have made this point perfectly clear, but market fundamentalists
+have found it convenient to ignore the difference between the artificial
+world created by those postulates and reality.
+Todays ideology of market fundamentalism was known as laissez
+faire in the nineteenth century. It is once again very influential by
+virtue of its influence on the policies of the United States and the so-
+called Washington consensus. Its dominance cannot be compared
+with the paramount position that Marxism used to enjoy in the So­
+viet Union because the United States is a democratic country but the
+two ideologies have one feature in common: they both base their
+claim to validity on the authority of science. Without holding eco­
+nomic theory responsible for the sins of market fundamentalism, I
+must contest that claim.
+I consider market fundamentalism a dangerous ideology—more
+dangerous today than Marxism because Marxism has been discredited
+while market fundamentalism is the ideology that underlies the global­
+ization of financial markets. I have been at pains to point out the ex­
+cesses and deficiencies of globalization, but every time I criticize
+market fundamentalism I have to go through the argument that I have
+presented here to show that financial markets do not tend toward a ra­
+tional expectations equilibrium. That would not be necessary if the im­
+plications of reflexivity and the principle of human uncertainty were
+generally accepted.
+SELF-CRITIQUE
+Judging by the published reviews, the concept of reflexivity as presented
+in The Alchemy of Finance has not been properly understood. I should like
+to use this occasion to correct some of the shortcomings of the original
+presentation. Many reviews described reflexivity by saying that prevailing
+sentiments greatly influence market prices. If that were all, I would be in­
+deed belaboring the obvious. What makes reflexivity interesting is that
+the prevailing bias has ways, via the market prices, to affect the so-called
+fundamentals that market prices are supposed to reflect. Only when the
+fundamentals are affected does reflexivity become significant enough to
+influence the course of events. It does not happen all the time, but when
+--- Page 34 ---
+New Introduction 1 1
+it does it gives rise to the boom/bust sequences and other far-from-
+equilibrium conditions that are so typical of financial markets.
+Terminology
+With the benefit of hindsight I have to admit that my terminology in
+expounding the theory of reflexivity is somewhat confusing. I use the
+term "reflexivity'' to describe both the two-way feedback mechanism
+between the cognitive and participating functions and the boom/bust
+process in financial markets. Both uses are legitimate: the boom/bust
+process is a particular manifestation of a more general relationship. But
+it is not the only manifestation; it is only the most spectacular one.
+There are many other, more subtle reflexive connections and there are
+times when the reflexive connections are so feeble that they can be dis­
+regarded altogether.
+Let me try to clarify matters. The relationship between the cogni­
+tive and participating functions is a universal condition; but the two-
+way interaction between the participants' bias and the fundamentals
+occurs only intermittently and it takes different forms at difierent
+times. In the book I identify such interactions but I do not have a good
+word to describe them. To speak of reflexivity is too weak because it
+can be taken to refer to a universal condition; to speak of initially seU
+reinforcing but eventually self-defeating processes is just too long;
+therefore I use the term "boom/bust" even where it is not, strictly
+speaking, appropriate. This is a source of confusion.
+I do not have a ready solution. Since writing the book I have started
+speaking of4<far-from-equilibrium,J conditions as distinct from "near-
+equilibrium,, situations. But this terminology is not entirely satisfactory
+either, because what characterizes a boom/bust process is exactly that it
+passes from near-equilibrium to far-from-equilibrium conditions and it
+is difficult to decide when the transition occurs. Nevertheless, I wish I
+had thought of these terms at the time I wrote the book. The lack of a
+suitable terminology affected not only the presentation but also the
+analysis. In retrospect I find that I laid too much emphasis on the
+boom/bust model. I identify some pure cases (see Chapter 1), and they
+are very convincing. But then I went on to develop a credit and regula­
+tory cycle (Chapter 3) which is less satisfactory
+The underlying ideas of the latter are valid. There is a reflexive con­
+nection between the act of lending and the value of the collateral, and
+--- Page 35 ---
+1 2 NEW INTRODUCTION
+it is the liquidation of credit that gives the boom/bust model its asym­
+metric shape: slowly rising and abruptly falling. Similarly, there is a re­
+flexive interaction betrween regulators and the economy they regulate,
+and financial crises usually lead to a tightening of regulations. Both
+these ideas are incorporated in the boom/bust model, but they do not
+add up to a grand pattern of credit and regulatory cycles. By looking
+for such a pattern I weakened my argument.
+Reflexivity is the rule, not the exception. If that were not the case,
+the spectacular bubbles that occasionally occur would be difficult to ex­
+plain. But reflexivity may also manifest itself in other forms. I discuss such
+non-boom/bust phenomena in the book. Freely floating exchange rates
+(Chapter 2) tend to produce wavelike patterns. Reagans Imperial Circle
+(Chapter 6) was an initially self^reinfbrcing but eventually unsustainable
+process that did not follow a boom/bust pattern. And the mergermania
+that swept through the American corporate scene in the mid-1980s
+(Chapter 8) differed in character from the conglomerate boom described
+in Chapter 1. There were no boom/bust sequences during the real-time
+experiment I recorded in Part Three, yet I kept looking for it. This was a
+defect not only in the book but also in my investment decisions at the
+time. I might have avoided it with a different terminology: This is an ex­
+ample of how misconceptions can influence reality
+Power
+I have discovered another shortcoming in the book recently after
+reading Mancur Olsons Power and Prosperity4:1 did not give sufficient
+weight to power relations. My first objective in The Alchemy of Finance
+was to disprove the prevailing paradigm, the equilibrium model of
+financial markets. For this purpose, I accepted the economists, de­
+scription of financial markets as a free exchange among willing par­
+ticipants. Using that starting point, I succeeded in showing that,
+far from tending to rational expectations equilibrium, financial mar­
+kets lend themselves to initially self^reinforcing but eventually self-
+defeating processes. Changes in the political, institutional, and regulatory
+environment play a crucial role in these processes, particularly at in­
+flection points. For instance, the conglomerate boom of the late 1960s
+reached its apogee when Saul Steinberg tried to take over Chemical
+Bank and the estabEshment united against him; the crash of 1929 led
+to the Glass-Steagal Act, and the bust beginning in March 2000 to the
+--- Page 36 ---
+New Introduction
+Sarbanes-Oxley Act. These are political developments; they cannot be
+described as a free exchange among willing participants. While I took
+full notice of them in my description of individual boom/bust
+processes, I did not make it clear that more is involved in financial
+markets than free exchange: power and politics play an important role.
+This is a serious analytical defect that detracts from the theory of fi­
+nancial markets as presented in the book.
+The neglect of power relations is especially noticeable when the book
+deals with the evolution of the global financial system: "The International
+Debt Problem" and "The Collective System of Lending55 (Chapters 4 and
+5). One of the major tenets of my recent book On Globalization (Public-
+Affairs, 2002) is the inherent disparity between center and periphery The
+center consists of countries that can borrow in financial markets in their
+own currencies; the periphery is constituted by those countries that can­
+not. The disparity arises because the countries at the center control the in­
+ternational financial institutions: when threatened by recession, they
+themselves can follow countercyclical policies; but countries that depend
+on the support of the International Monetary Fund cannot indulge in
+such luxuries. The primary interest of the IMF is to protect the system;
+maintaining economic activity in the periphery countries comes second.
+While the disparity between center and periphery was subsumed in the
+discussion, it was never made explicit. As a result, The Alchemy of Finance
+does not provide a coherent analysis of globalization. This is particularly
+relevant to Part Two: Historical Perspective.
+The globalization of financial markets was a market fundamentalist
+project. Its aim was to constrain the ability of national governments to in­
+terfere in the economy by making it easy for financial capital to move
+around internationally and making it difficult for national governments to
+tax it and regulate it. Financial capital is an essential ingredient of produc­
+tion, and it will seek to go where it is best rewarded. National govern­
+ments must therefore compete to attract and retain international capital.
+As a market fundamentalist project, globalization has been highly
+successful. The taxation and regulation of financial assets have in fact
+been greatly reduced, and the return on capital has been significantly
+increased. That engendered a global bull market that lasted—with
+minor interruptions—from the early 1980s to the year 2000. In the
+emerging markets, it came to an end earlier, in 1997. The greatest
+beneficiaries were the countries that initiated it: the United States
+and the United Kingdom. They earned a great deal of money by
+--- Page 37 ---
+1 4 NEW INTRODUCTION
+providing financial services to the world. They also attracted a signif­
+icant portion of the worlds savings, as witnessed by the large and in­
+creasing current account deficit of the United States: it now amounts
+to an amazing $500 billion a year.
+Taking power relations into account would undermine the market
+fundamentalist case even more than showing that financial markets are
+inherently unstable. Market fundamentalists insinuate that markets have
+a moral quality about them by allowing the diligent and creative partic­
+ipants to come out ahead. This argument always sufiered from neglect­
+ing the social injustice of unequal initial endowments; but it is entirely
+destroyed if financial markets do not merely permit free exchange but
+promote the dominance of the powerful. As I have pointed out else­
+where,5 the distinguishing feature of financial markets is that they are
+amoral; that is one of the factors that make them so efficient. But soci­
+ety cannot exist without morality; therefore it cannot rely exclusively
+on market discipline. Market fundamentalism is a convenient ideology
+for the rich and powerful.
+The omission of power relations also makes it impossible to un­
+derstand the present moment in history There is a dominant group
+within the Bush administration that believes that international rela­
+tions are relations of power, not law, and the United States, being the
+most powerful state, has the right to impose its will on the rest of the
+world. They held this belief before September 11,2001, and, to the ex­
+tent they could, they acted upon it. They renounced international
+treaties and sought to make American military power absolute by mil­
+itarizing space. But they were constrained by the lack of a clear politi­
+cal mandate from the voters. The terrorist attacks on September 11,
+2001, changed that. The Bush administration can now claim to be act­
+ing in self-defense and carry the nation behind it.
+The beliefs of this dominant group are incorporated in the Bush
+doctrine. It is built on two pillars: first, the United States must do what­
+ever is necessary to maintain its unquestioned military dominance, and,
+second, the United States reserves the right to engage in preemptive
+strikes. I believe this is a dangerous doctrine. Carried to its logical con­
+clusion, the Bush doctrine establishes two classes of sovereignty in the
+world: the sovereignty of the United States, which is sacrosanct and not
+subject to limitations imposed by international law and the sovereignty
+of other states, which is subject to the Bush doctrine.This carries echoes
+of George Orwell's Animal Farm: all animals are equal but the pigs are more
+--- Page 38 ---
+New Introduction 1 5
+equal than the others. Even i£ under the influence of September 11, the
+American public went along with the Bush doctrine, the rest of the
+world could never accept it. Therefore it will have to be enforced by the
+use of military power.
+The attitude of this dominant group can be described as a crude
+form of social Darwinism: the survival of the fittest in a world char­
+acterized by the struggle for survival. In the markets, the struggle
+is among individuals and enterprises; in geopolitics it is among
+states. This is a distorted view of the world. It emphasizes competi­
+tion to the exclusion of cooperation. Yet, without cooperation there
+would be no laws, no markets, no civilization. Until recently, I was
+inveighing against market fundamentalism, which I considered a
+greater current threat than Marxism. Now I regard the ideologues of
+American supremacy as even more dangerous than market funda­
+mentalists. What I am afraid of is that the pursuit of American su­
+premacy may be successful for a while because the United States in
+fact enjoys a dominant position in the world today. However, it will
+fail in the long run because the concept is flawed. If the Bush doc­
+trine passes some early tests successfully, it may give rise to a
+boom/bust process with much more devastating consequences than
+a purely financial crash.6
+A Negative Approach
+By far the greatest shortcoming of the original book was that it was
+couched almost entirely in negative terms: imperfect understanding,
+human uncertainty inability to match the achievements of natural sci­
+ence, and so on. It is easy to see why this should be so. I was trying to
+discredit a certain way of thinking by using the categories created by
+that way of thinking. No wonder that I had to take a negative view of
+those categories. I felt I had no alternative because the conceptual
+framework I was seeking to replace was so pervasive that there were no
+other categories available that would have been readily comprehensible
+to the reader.
+When I speak of categories I could not avoid using, I have in mind
+the dichotomy between statements and facts, thinking and reality. Us­
+ing these dichotomies is appropriate to natural phenomena, which oc­
+cur independently of what anybody thinks or says, but not to social
+phenomena in which the participants5 thinking plays a formative role.
+--- Page 39 ---
+16 NEW INTRODUCTION
+Nevertheless these dichotomies have become so deeply ingrained in
+our way of thinking that it is difficult to avoid them.
+The distinction between statements and facts is a very fruitful one.
+It is the foundation of logic because it creates an independent criterion
+by which the truth of statements can be judged. It also plays a very im­
+portant role in the acquisition of scientific knowledge, although that
+role has been exaggerated. The distinction applies only in natural sci­
+ence where facts and statements do indeed belong to separate uni­
+verses; in the case of social science it distorts reality
+In natural science thinking is supposed to play a purely passive role.
+The universe of facts is supposed to be governed by laws of universal
+validity, and the task of science is to discover them. Karl Popper has
+shown that this is not, strictly speaking, true because the laws of science
+are hypothetical in character and there is an element of intuition or in­
+vention in the formulation of hypotheses. Nevertheless it is accurate to
+say that the role of thinking in natural science is purely passive in the
+sense that statements can only reflect (or fail to reflect) the facts; they
+cannot affect them.
+The universe that forms the subject matter of social science is dif­
+ferent. It has participants whose thinking both reflects and affects the
+situation in which they participate. Thinking and reality cannot be
+treated as separate categories, because they are interconnected in a re­
+flexive fashion: thinking is part of the reality people have to think
+about.The subject is also the object, as in certain French verbs (e.g., il se
+lave), which are called reflexive.
+Reflexivity has been strangely neglected in economic theory By
+taking the demand supply curves as given, economic theory can treat
+market prices as a mere reflection of the underlying fundamentals (i.e.,
+supply) and the participants' preferences (i.e., demand).This leaves out
+of account the active, creative, and distortive effect of the participants'
+imperfect understanding. It gives a very misleading picture of financial
+markets. For instance, it implies that investors base their decisions on
+the fundamentals, whereas the goal of market participants is to make
+money. Only if market prices reflected the fundamentals accurately
+would it make sense for them to be guided by those fundamentals—
+and in that case, nobody could make more money than anybody else
+and everyone ought to invest in index funds. This is an absurd conclu­
+sion, yet it is still widely accepted.
+Criticizing the prevailing paradigm is not enough. The theory of
+--- Page 40 ---
+New Introduction 1
+reflexivity ought to provide some positive insight into the way financial
+markets work in order to serve as the basis of a new paradigm.
+THE NEW PARADIGM
+I have used the term reflexivity to indicate that understanding and par­
+ticipating are interconnected. So far I have iocused on the negative im­
+plications of reflexivity explaining how the two functions interfere
+with each other. Now I must face up to the challenge of exploring
+how the two functions can be best performed in the light of that inter­
+ference. That means finding a positive way of studying social situa­
+tions—and even more importantly, of participating in them—as
+opposed to explaining why they cannot be treated in the same way as
+natural phenomena. It requires a new paradigm that differs from the old
+one in acknowledging that the separation between thinking and reality
+is not as watertight as in natural science.
+The new paradigm cannot treat facts as if they constituted reality
+and statements as if they constituted thinking. Instead of drawing di­
+chotomies between thinking and reality, we must recognize that think­
+ing forms part of reality instead of being separate from it. This
+integrated reality cannot be described by statements that are separate
+and independent of it. Such statements would immediately accrue to
+the subject matter, enlarging it and requiring additional statements to
+correspond to it. The dichotomy between thinking and reality is itself
+something that was not discovered but rather invented by us in our at­
+tempt to understand reality; as such, it became part of reality and ren­
+dered reality more difficult to understand. In other words, reality always
+exceeds our capacity to understand it. Godels theorem provides a proof
+of this point for arithmetics. The method Godel used was to assign so-
+called Godel numbers to all arithmetic truths. He was then able to
+show that the number of arithmetic truths is always greater than the
+number of proofs. Arithmetical reality exceeds our capacity to under­
+stand it. A neat theorem!7
+Now that we have come to understand this point, we need to in­
+vent a new way of dealing with reality or more exactly that part of re-
+aEty that has thinking participants. The dichotomy between statements
+and facts proved very fruitful in the study of natural phenomena, which
+consist of nothing but facts. We must take a difierent approach in the
+--- Page 41 ---
+1 8 NEW INTRODUCTION
+study of reflexive phenomena, which contain both statements and facts.
+Since thinking and reality are interconnected, it seems advisable to take
+an integrated rather than an analytical approach. By that I mean that in­
+stead of looking for timelessly and universally valid laws that govern so­
+cial situations, we should accept that we, with our imperfect
+understanding, play a role in governing them. Our participation gives
+reality a difierent character from the one with which we are familiar
+from natural science.
+To establish the new paradigm I could take two avenues. One is to
+approach reality from the position of a detached observer; the other is
+to approach it from the inside, as a market participant. I shall explore
+both avenues. The first approach can be described as an attempt to re­
+duce an infinitely complex reality to something comprehensible. What
+makes the attempt difficult, and reality infinitely complex, is that the
+various attempts to accomplish that task are themselves part of reality:
+The second approach leads to some interesting revelations about man­
+aging a hedge fund, and it is an easy read.
+Having already tried the patience of the reader with my philosophi­
+cal musings and meanderings, I would have preferred to give you the in­
+side scoop on financial markets first. But there is more to be said from
+the point of view of the detached observer; so be prepared for another
+dose of philosophy I realize that I may be losing you; in that case, please
+turn to page 35 where I return to the financial markets.
+The "Shoelace" and "Ziplock" Theories
+Obviously the new paradigm has to be based on reflexivity and the hu­
+man uncertainty principle.8 To enable the principle to play that role it
+must be converted from a negative statement into a positive assertion.
+That can be accomplished by replacing the lack of correspondence be­
+tween people's views and the actual state of affairs with the assertion
+that there is a divergence between the two. This renders the assertion op­
+erational: it gives us two variables—the ex-ante expectations and the ex-
+post outcome—and it directs us to study the relationship between
+them. The divergence between expectations and outcomes provides the
+key to understanding history—and I interpret financial markets as a
+historical process. There are as many expectations as there are partici­
+pants, but there is only one outcome. It is that outcome that constitutes
+reality, and it is reaEty that needs to be understood. It cannot be under­
+--- Page 42 ---
+New Introduction 1 9
+stood, however, without taking into account expectations, both in lead­
+ing up to the outcome and in being part of that outcome.
+The benefit of this approach is that it focuses our attention on the
+divergence between outcomes and expectations. Outcomes are affected
+but not determined by expectations. There is a two-way feedback loop
+between them: the cognitive function runs from outcomes to expecta­
+tions, the participating function from expectations to outcomes. Both
+functions operate continuously and in opposite directions. The arrow
+of causation does not run from one set of outcomes to the next; it
+crisscrosses from outcomes to expectations and vice versa. I have called
+this the "shoelace theory of history."
+I need to specify what I mean by outcomes in this context. Nor­
+mally, outcomes are meant to be observable, that is to say objective,
+facts. If one adopted that definition, the "shoelace” would connect the
+objective and subjective aspects of reality. I do not think that gives an
+accurate picture of the relationship between thinking and reality be­
+cause it puts too much emphasis on the objective aspect. Thinking is
+not confined to observable facts. People think of all aspects of reality
+not only the objective one and they care a lot about what others
+think, lb give a more accurate picture, the outcome should include
+not only observable facts but all aspects of reality including the think­
+ing of the participants.
+We can achieve this effect by qualifying everything that is ex-post as
+a fact whether it is directly observable or not. That means including the
+participants' thinking among the facts. I believe that is a legitimate use
+of the word, as the expression ex-post facto attests. We may not be able to
+tell what people think but as long as it is ex-post facto, it is uniquely de­
+termined: people cannot think anything different as of that moment.
+That means that the distinction is not between the subjective and ob­
+jective aspects of reality but between ex-ante and ex-post. Ex-ante there
+is a range of possibilities that people can contemplate; ex-post there is
+only one situation that has actually prevailed. Instead of a shoelace the­
+ory of history which implies that the two sides that are connected are
+somehow symmetrical, it would be better to speak of a "zip-lock the­
+ory of historythe past is closed; the future is open. Needless to say
+neither theory claims that history can ever be fully known. Calling
+them theories is an exaggeration.
+This way of looking at reality will be difficult to get used to be­
+cause we have been conditioned to think differently We have learned
+--- Page 43 ---
+20 NEW INTRODUCTION
+to distinguish between facts and statements, reality and ideas. Now we
+are required to think of reality as incorporating ideas and facts as in­
+cluding statements; yet to make sense of such a reality we still need to
+draw a distinction between the facts and the statements that relate to
+them. It is the dual role of thinking as both a fact and an interpretation
+or a statement about, facts that causes the difficulties.
+I speak from personal experience. In my earlier attempts at for­
+mulating the concept of reflexivity I ended up with the version I am
+now rejecting, namely a connection between the objective and sub­
+jective aspects of reality. That is what led me to speak of the shoelace
+theory of history. The zip-lock theory is meant to correct that distor­
+tion by focusing on the temporal aspect, the difference between ex-
+ante and ex-post. It should be pointed out that the zip-lock theory is
+really just another way of saying that reality is path-dependent. Under
+that name the idea is much more familiar. However, the specific
+mechanism of path dependence, the reflexive feedback loop, is less
+well recognized.
+Understanding Reality
+The zip-lock theory has important implications for our ability to
+understand reality. Let s invoke Poppers model of scientific method.
+The model works with universally valid generalizations of a hypo­
+thetical character that can be tested by subjecting them to repeated
+experiments. Since the generalizations are timeless, explanations and
+predictions are symmetrical and reversible. This model is clearly not
+applicable to reflexive situations because of the asymmetry between
+ex-ante and ex-post. Experiments are not repeatable because even if
+all the observable facts are identical, the prevailing views of the par­
+ticipants are liable to be different when an experiment is repeated.
+The very fact that an experiment has been conducted is liable to
+change the perceptions of the participants. Yet, without testing, gen­
+eralizations cannot be falsified. Moreover, generalizations cannot be
+used reversibly to provide explanations and predictions because his­
+tory is path-dependent: ex-post is uniquely determined; ex-ante the
+range of possibilities is more open. Explaining ought to be easier
+than predicting.
+I am slipping into a negative frame of mind again. Instead of speci­
+fying what cannot be done, I must explore what can be done. Situa­
+--- Page 44 ---
+New Introduction 21
+tions can be explained because ex-post facto they are uniquely deter­
+mined. There is also room for predictions as long as no claim is made
+that the future is predetermined. The range of possibilities is bounded
+by the present, which is uniquely determined, and the participants' de­
+cisions, which, we know, are based on biased views. Instead of looking
+for determinate equilibria surrounded by random walks, as economic
+theory has done, it is this range of possibilities that needs to be ex­
+plored. Most importantly the zip-lock theory of history holds open the
+possibility of changing the world in which we live. Social alchemists
+can succeed where the original alchemists failed. This possibility poses a
+danger to scientific method, but it offers hope for mankind.
+The divergence between thinking and reality has emerged as an
+important factor in determining the course of events. The divergence
+varies from time to time, person to person and case to case. In some sit­
+uations it is so minimal that it can be disregarded altogether. That is the
+case in humdrum, everyday situations like driving to work or shopping
+at the supermarket. In other situations, the divergence takes on great
+significance. Not only are the participants' views far removed from real­
+ity, but they also manage to move reality further away from what it
+would be in the absence of a divergence. For instance, President Bush,
+by rejecting South Korean president Kim Dae Jungs sunshine policy,
+precipitated a crisis with North Korea and led many South Koreans to
+think that the United States is more of an aggressor than North Ko­
+reawhich is even further removed from reality than President Bushs
+statement about the "axis of evil."
+We may therefore draw a distinction between humdrum and his­
+toric events, depending on the impact that the participants' misconcep­
+tions have on the course of events. In humdrum, everyday events the
+effect is negligible; in historic events, the impact is significant enough
+to alter the participants' perceptions. I call those misconceptions that
+influence the course of history "'fertile fallacies.?,We can then assert that
+fertile fallacies and other misconceptions provide the key to history.
+Needless to say, this is a tautology: first we distinguish between hum­
+drum and historic events according to the participants' misconceptions
+and then we claim that those misconceptions are the source of historic
+change. Nevertheless, the tautology is useful in directing our attention
+to the role of misconceptions and fertile fallacies.
+The new paradigm can be formulated in purely abstract terms by as­
+serting that all human constructs are Jallible. The term <<constructsJ, includes
+--- Page 45 ---
+22 NEW INTRODUCTION
+both thinking and reality: institutions as well as conceptual frameworks,
+theories, and points of view The term "fallible'' refers to something more
+than the possibility that our constructs may be flawed; it asserts that most
+of our constructs are, in fact, flawed.
+Reality is full of flawed constructs. The fact that a certain way of
+thinking prevails does not mean that it is valid; the fact that an institution
+exists does not mean that it is well constructed. That is what sets social
+constructs like governments or religions apart from physical constructs
+like bridges or automobiles. A badly designed car will not run while so­
+cial institutions or ideologies can be badly flawed and still persist.
+The new paradigm should protect us from what may be called the
+"'fundamentalist fallacy5,: the argument that just because a construct has
+proved flawed, its opposite is bound to be flawless. The fundamentalist
+fallacy, combined with the efficient market hypothesis, has given rise to
+market fundamentalism. Tb keep things in perspective, the same funda­
+mentalist fallacy can be detected also in communism and among
+antiglobalization activists.
+Financial Markets as Laboratory
+The trouble with this way of presenting the new paradigm is that it is
+too abstract. That is why we must now turn to the financial markets for
+a practical demonstration. The Alchemy of Finance explores a variety of
+specific examples; here I want to focus on the role of flaws and miscon­
+ceptions in general terms, but I use the financial markets to make the
+discussion less abstract.
+I contend that the application of the concept of equilibrium to the
+financial markets is itself a misconception. It came about because of the
+success of natural science. Economic theory sought to mimic Newton­
+ian physics. It tried to establish universally valid generalizations about
+the conditions of equilibrium, and to a large extent it succeeded. As
+long as the analysis was confined to physical goods, no great distortion
+was involved. Both the supply and demand curves could be taken as in­
+dependently given, and the equilibrium was determined by the inter­
+section of the two curves. The distortion became more pronounced
+when credit was introduced into the analysis.
+Credit cannot be treated as if it were merely a passive reflection of
+the underlying fundamentals, since it also plays an active role in shaping
+those fundamentals. This can be seen when we consider the relationship
+--- Page 46 ---
+New Introduction 23
+between the act of lending and the value of the collateral. Banks base
+their lending on the value of the collateral; but the act of lending can also
+influence that value. When people are eager to borrow and the banks are
+willing to lend, the value of the collateral rises in a self^reinforcing man­
+ner and vice versa. Thus the act of lending activates a reflexive relation­
+ship that is absent in pure exchange. This was particularly noticeable in
+the great sovereign lending boom of the 1970s, which forms the subject
+of Chapters 4 and 5.
+In a pure exchange, equilibrium has a clearly defined meaning: it is
+the price that clears the markets. When it is applied to financial mar­
+kets, equilibrium becomes more like a theological concept: it is the
+price * that ought to clear the markets if market prices did not have any
+effect on the participantsJ attitudes and/or the fundamentals. But it is in
+the nature of financial markets that they do have such effects. Conse­
+quently financial markets often develop boom/bust sequences and
+other far-from-equilibrium conditions.
+Flaws and misconceptions play a crucial role in individual boom/
+bust sequences. Usually they involve a failure to recognize that a rela­
+tionship is reflexive. In the great sovereign lending boom of the
+1970s, the mistake was not to recognize that the banks' willingness to
+lend enhanced the various debt ratios by which the banks measured
+the b or rowersJ creditworthiness. In the conglomerate boom the error
+was the willingness of investors to put a high value on earnings
+growth generated by acquisitions that reinforced the overvaluation of
+conglomerates. The misconception in the recent technology boom
+was even more egregious. Investors valued top-line revenue growth
+disregarding that the business models could be sustained only as long
+as companies could sell stock at inflated prices. In other far-from-
+equilibrium situations the flaws take other forms. Reagans Imperial
+Circle (Chapter 6) arose out of an internal contradiction between
+monetarism and supply-side economics; mergermania (Chapter 8)
+was facilitated by the tax deductibility of interest on corporate loans
+and the hefty fees earned by the intermediaries.
+In the absence of such flaws and misconceptions, market excesses
+tend to correct themselves in short order; but when the so-called fun­
+damentals are susceptible to such influences the self-correcting mecha­
+nism of the markets is impaired and an initially seltreinfbrcing but
+eventually self-defeating process is set in motion. Seltcorrecting mar­
+kets are humdrum, everyday events; boom/bust sequences are historic
+--- Page 47 ---
+24 NEW INTRODUCTION
+in the sense that neither the fundamentals nor the participants' percep­
+tions remain the same as they were at inception. In these cases it makes
+no sense to speak of equilibrium; that is what makes the expression
+^far-from-equilibrium conditions" so apt.
+In the absence of equilibrium, it is the task of the authorities to
+prevent or correct market excesses. But they, too, are fallible. Although
+they are supposed to be above the fray, they are also participants with
+their own institutional interests and biases. The result is a reflexive in­
+teraction between regulators and markets, a kind of cat and mouse
+game, which occasionally deteriorates into a boom/bust sequence due
+to the regulators* failure to prevent it from happening.
+In the book I tried to develop a regulatory and credit cycle but it
+fell short of a full-fledged theory. That is just as well. In retrospect I feel
+I went too far in trying to impose a cyclical pattern on history. As we
+have seen, the boom/bust pattern is only one of many possibilities.
+There are other far-from-equilibrium situations; there are also long
+stretches of humdrum, everyday events and seltcorrecting misconcep-
+tions.The boom/bust pattern provides a very dramatic spectacle, and it
+is easy to be impressed by it. I am guilty of making too much of it in
+the book. Instead of interpreting history in terms of credit and regula­
+tory cycles, I should have emphasized the role of flaws and misconcep­
+tions as a key to understanding historical developments. That is what I
+am doing now.
+My starting point is that financial transactions do not take place in a
+vacuum in accordance with timelessly valid laws; there are actual laws
+and institutions at work that evolve over time and provide a historical
+context within which the timelessly valid generalizations operate.
+When we apply the timelessly valid concept of fallibility to this institu­
+tional framework we arrive at the proposition that whatever regime or
+arrangement prevails, it is bound to be flawed.
+I have actually demonstrated that proposition in the book with re­
+gard to currency markets, and events since then have reinforced my
+thesis. Jokingly, I compare the exchange rate regimes to matrimonial
+regimes: whatever regime prevails, its opposite appears more attractive.
+Fixed exchange rates are too rigid, and freely floating exchange rates
+lend themselves to long-lasting, self-validating trends that eventually
+become unsustainable. We are currently (March 2003) at a point where
+the strong dollar may have become unsustainable. Currency pegs were
+discredited by the emerging markets crisis of 1997—1998, and for a time
+--- Page 48 ---
+New Introduction 2 5
+it was believed that the answer was to be found at either extreme: a
+currency board or a free float. This belief did not survive long; it was
+put to rest by the Argentine default. Dirty floats remain out of favor, yet
+I beheve it is the right prescription for Brazil.9 (Dirty float is a floating
+exchange rate regime that includes ad hoc government intervention to
+influence a currency s directions.)
+It can be seen that whatever currency regime prevails, it is flawed.
+The fact that a regime is flawed makes its opposite more attractive, but
+that does not render its opposite flawless; the flaws will become appar­
+ent when the opposite regime prevails. This sounds discouraging, but it
+can also be interpreted in a positive way: there is infinite room for im­
+provement. Since perfection is unattainable, future generations will not
+be deprived of the opportunity to improve the world in which they
+live. But there are no universally valid solutions; all improvements have
+to be considered in the context of the prevaiEng arrangements. Re­
+forms that may work in a particular context may be inappropriate at
+another time. Those who claim to be in possession of timelessly valid
+solutions are making a false claim. That is not to say that we cannot
+make universally valid generalizations—the human uncertainty princi­
+ple is such a generalization一only that such generalizations do not and
+should not determine reality.
+In my investment career I operated on the assumption that all in­
+vestment theses are flawed. This proposition itself is flawed: it does not
+follow from the human uncertainty principle that all theories are
+flawed. But it is a very useful assumption to work with. The fact that a
+thesis is flawed does not mean that we should not invest in it as long as
+other people believe in it and there is a large group of people left to be
+convinced. The point was made by John Maynard Keynes when he
+compared the stock market to a beauty contest where the winner is not
+the most beautiful contestant but the one whom the greatest number
+of people consider beautiful. Where I have something significant to add
+is in pointing out that it pays to look for the flaws; if we find them, we
+are ahead of the game because we can limit our losses when the market
+also discovers what we already know. It is when we are unaware of
+what could go wrong that we have to worry.
+It hardly needs stressing that this approach is in contradiction with
+the efficient market hypothesis and the theory of rational expectations.
+The latter claims that the markets are always right; my proposition is that
+markets are almost always wrong but often they can vaEdate themselves.
+--- Page 49 ---
+26 NEW INTRODUCTION
+As the real-time experiment demonstrates, this interpretation of how fi­
+nancial markets operate can be much more profitable than the rational
+expectations theory would permit.
+Whether the approach works outside the financial markets is an­
+other question. I contend that it works as far as understanding a situa­
+tion is concerned. I have used it in understanding and anticipating
+events connected with the collapse of the Soviet system and I can claim
+some success.10 I am currently using it in interpreting the Bush doc­
+trine.11 But when it comes to influencing the course of events a critical
+mode of thinking may be more of a hindrance than help. People do not
+like to hear when they are wrong, and they like to follow leaders who
+can convince them that they know what they are doing. Those who
+admit their mistakes or their doubts do not stay leaders very long. This
+may be one reason why markets are more efficient than politics.
+There is a difference between what is successful and what is true.
+That is one of the great insights that the theory of reflexivity has to of­
+fer and it applies both to the financial markets and politics. It is a lesson
+that still needs to be learned. Our society worships success as if it com­
+bined truth and virtue. This view, which is dominant in present-day
+America, is false.
+The Search for Second-Best Solutions
+Where does this leave the study of social phenomena in general and
+economic theory in particular? A strong case can be made that the slav­
+ish imitation of natural science has led economic theory down the
+wrong path. In their search for universally valid generalizations, econo­
+mists largely ignored the complexities and uncertainties of the real
+world and constructed an elegant axiomatic structure based on unreal­
+istic assumptions. The assumptions underlying perfect competition in­
+clude perfect information, homogeneous commodities, a large number
+of participants engaged in profit-maximizing behavior, and no transac­
+tion costs. The contention that unregulated financial markets lead to
+the optimum allocation of resources rests on the assumption that par­
+ticipants base their decisions on rational expectations. None of these as­
+sumptions prevail in the real world.
+The edifice that has been erected on these unsound foundations is
+extremely fragile. General equilibrium prevails only under optimum
+conditions when all the assumptions are met. Remove even a few of the
+--- Page 50 ---
+New Introduction 27
+assumptions, and the edifice comes crashing down. It is not enough for
+some of the participants to act on the basis of rational expectations; they
+must all do so一otherwise it is irrational for any of them to do so. And if
+the optimum is unattainable, it is not at all certain that unregulated mar­
+kets ofier the second best solution. For instance, it might have been
+good public policy to dampen the "irrational exuberance" of the infor­
+mation technology boom by raising margin requirements; or it may be
+preferable to increase the supply of public goods. Since the optimum is
+ruled out by the principle of fallibility and only the second best is avail­
+able, the prevailing paradigm is not only unrealistic but actually mislead­
+ing because it is used to buttress market fundamentalist policies.
+I am of course not advocating demolishing the edifice of economic
+analysis. That would be another example of the fundamentalist fallacy:
+just because the results are found wanting, the method that produced
+them has to be abandoned. In fact, the same method that produced
+equilibrium theory has also led to the questioning of that theory, and to
+the exploration of alternative approaches. Critics of The Alchemy of Fi-
+nance reproached me for not being up-to-date on recent developments
+in economic theory, and their criticism was justified. While I still can­
+not claim full familiarity with the literature, I see some merit in behav­
+ioral economics and even more merit in evolutionary game theory. I
+consider the latter a practical exploration of reflexivity.
+Adaptive Behavior
+A new paradigm seems to be gradually emerging. It consists of replac­
+ing the assumption of rational behavior with the concept of adaptive
+behavior. The two concepts are very different in character. Rational be­
+havior is a postulate that lends itself to deductive logic and an axiomatic
+system. Adaptive behavior is an empirical concept and it does not lead
+to any a priori conclusions. It is what it is——a subject for exploration.
+The exploration has led to evolutionary game theory and evolutionary
+systems theory~both of which treat behavior as path-dependent and
+not necessarily internally consistent. Both disciplines are capable of
+producing determinate results. For instance, in repeated prisoners5
+dilemma games tit for tat proves to be the best strategy. But not all re­
+sults are determinate. For instance, in most predator-prey relationships
+the outcome is constantly fluctuating, and only rarely is a stable equi­
+librium reached.
+--- Page 51 ---
+28 NEW INTROOUCTION
+Does that mean that a new paradigm has superceded the old one
+and reflexivity has been recognized in fact although not in name? Not
+quite. The old paradigm is far from abandoned. Indeed, it is more influ­
+ential than ever when it comes to poEcy. And the new paradigm has
+not yet produced a coherent and comprehensive explanation of social
+phenomena. For instance, adaptive behavior is easier to reconcile with
+the recent technology boom than rational behavior, but it does not
+provide an adequate explanation of the course of events. What is miss­
+ing is exactly a recognition of reflexivity and the consequent diver­
+gence between outcomes and expectations.
+Reflexivity goes beyond the concept of adaptive human behavior
+and makes a claim about the situations in which adaptive humans par­
+ticipate. The claim is that adaptive behavior helps create what may be
+called, for lack of a better name, an "adaptive environment,and the
+two are interconnected in a reflexive manner. This means that partici­
+pants have to adapt to constantly changing situations and the process
+will never be complete. The idea is implicit in the predator-prey rela­
+tionship: one party is the other partys environment. Reflexivity makes
+the idea explicit. If the claim is valid, the prevailing paradigm cannot be
+valid: equilibrium may never be reached, because the attempt to reach
+it moves the target.
+The concept of adaptive behavior is equally applicable both to bi­
+ology and to the social sciences. There is something reassuring about
+that, because it blurs the sharp dividing line that I have drawn between
+the natural and social sciences. Dichotomies are characteristic of our at­
+tempts at understanding reality, not of reality itself It is reassuring to
+have a bridge across the divide. Vet there must be a deficiency in the
+concept of adaptive behavior because it fails to identify what is different
+between biology and human affairs. That deficiency is corrected by in­
+troducing the concept of reflexivity The divergence between outcomes
+and expectations is specific to human behavior. While it may be appro­
+priate to assign expectations and intentions to some animals, only in
+the case of humans are we in a position to study them.
+The mechanism through which adaptive behavior manifests itself is
+difierent in biology and the social sciences. In biology it operates
+through mutation and manifests itself in the propagation of particular
+genes within the species. In human affairs flaws and misconceptions
+play the same role as mutation does in biology but it is ideas and behav­
+ior patterns that are being propagated, not genes. My success in the fi­
+--- Page 52 ---
+New Introduction 29
+nancial markets will have no efiect on the gene pool of future hedge
+fund managers, but the success of trend-following behavior in currency
+markets can increase the crowd of trend-following speculators.
+Behavioral economics and evolutionary game theory were far less
+advanced when I wrote The Alchemy of Finance than they are today
+These disciplines are potentially compatible with reflexivity, and I hope
+they will make the concept more acceptable. Nevertheless I contend
+that the concept of reflexivity is needed in order to establish a new par­
+adigm. It is needed, first, to debunk the theory of rational expectations
+and the efficient market hypothesis; second, to give the proper founda­
+tions to behavioral economics and evolutionary game theory
+It may be questioned whether we need a new paradigm. Why not let
+a thousand flowers bloom? I am sympathetic to this point of view The
+best response to fallibility is pluralism. The main merit of a market econ­
+omy is not that it assures the optimum allocation of resources but that it
+allows people to have a choice and to learn from their mistakes. But falli­
+bility cannot be used to justify false theories. Reflexivity and rational ex­
+pectations are incompatible, and we therefore do have to make a choice.
+I trust that enough has been said to make the choice clear. Rational
+expectations theory could prevail only under conditions so extreme as
+to be unsuitable for human habitation. By contrast, the theory of re­
+flexivity does not provide the rigorous results we have come to expect
+from scientific theories, but it does fit the actual behavior of financial
+markets much better. There ought to be no contest.
+The Boom/Bust Model
+What about the second part of a paradigm shift: the establishment of a
+new paradigm? Let us see how my boom/bust model stands up to crit­
+ical examination. Robert Solow criticized it for incorporating so many
+escape clauses that it cannot possibly be falsified.12 He is both right and
+wrong. He is right in the sense that the boom/bust model is not a falsi­
+fiable theory. He is wrong in the sense that it was never proposed as a
+falsifiable theory but rather as an illustration, a prototype of how reflex­
+ivity works in financial markets. Reflexivity is a meta-theory a para­
+digm, like the utility maximizing model of neoclassical economics;
+neither is directly testable.
+As a prototype, the boom/bust model is perhaps even more rele­
+vant today than it was when originally published. We have just lived
+--- Page 53 ---
+30 NEW INTRODUCTION
+through the biggest boom/bust cycle since World IL The cycle
+bears a remarkable similarity to the conglomerate boom of the late
+1960s on which the boom/bust model described in The Alchemy of Fi-
+nance was based. It will be instructive to identify the similarities and
+the diflerences.
+The main similarity lies in a self-reinforcing process whereby inflated
+stock prices can accelerate an underlying trend, which in turn enhances
+expectations and inflates stock prices until the outcomes fail to sustain
+expectations and there is a crash. In the conglomerate boom the process
+had to do with using inflated stock for acquisitions. In the Internet and
+telecom boom, inflated stock prices accelerated the introduction of new
+technologies. In each case, there was a misconception involved. In the
+conglomerate boom investors put the same value on per-share earnings
+irrespective of how they were achieved; in the technology boom the er­
+ror was more egregious: stocks were valued at a multiple of revenues, not
+earnings, and growth was financed by selling stock, not by following
+sound business plans. In each case the misconceptions were reinforced by
+positive changes in the fundamentals: earnings and revenue growth accel­
+erated. Expectations were inflated until they became unsustainable, but
+before that happened the process had withstood some difficult tests.
+Eventually a turning point was reached. In the conglomerate boom
+it came when Sol Steinberg was unsuccessful in taking over Chemical
+Bank. In the technology boom the critical event was the auctioning of
+3G licenses in Europe. Telecom companies were obliged to make in­
+flated bids in order to justify their inflated stock prices. Until then, in­
+flated stock prices had been a source of cash; on that occasion they
+turned into a cash drain. As stocks began to decline the trend became
+self^reinfbrcing in the opposite direction. The excesses that could be
+concealed while stock prices were rising started to surface. During the
+boom, corporations had used every avenue at their disposal to boost
+earnings, and when they ran out of legitimate devices, some corpora­
+tions turned to illegitimate ones. When the market turned, some of
+these illegitimate practices were exposed. The coup de grace was deliv­
+ered when Enron went bust. Enron, like many companies, used special
+purpose entities (SPEs) to keep debts off its balance sheets. But unlike
+many other companies, it used its own stock to guarantee the debt of
+its SPEs. When the price of Enron fell, the scheme unraveled, exposing
+a number of other financial misdeeds the company had committed. The
+Enron bankruptcy reinforced the downtrend in the stock market,
+--- Page 54 ---
+New Introduction 31
+which led to further bankruptcies and news of further corporate and
+individual misdeeds. Both the downtrend and the clamor for corrective
+action gathered momentum in a self-reinfbrcing fashion― ust as the
+boom/bust model envisions.
+There was nothing surprising about this course of events. It has
+happened many times before. The real surprise was that people were
+surprised. After all, many of the practices that were subsequently con­
+demned were carried on quite openly Everybody knew that the best
+companies, such as General Electric and Cisco Systems, were massaging
+their numbers to maintain the appearance of a steady progression of
+earnings. Indeed, investors put a premium on managements ability to
+do just that. SPEs could be bought off the shelf, and investment banks
+maintained structured finance departments to provide custom-made
+designs. The management of Tyco International Ltd. proudly pro­
+claimed that they could generate earnings growth by acquiring compa­
+nies and moving them to Bermuda where their earnings were tax
+exempt, and Tyco was accorded a high earnings multiple. Stock options
+were not only accepted but considered a useful device for boosting
+shareholdersJ values since they provided executive compensation with­
+out incurring any costs and encouraged management to focus on the
+stock price above all other considerations. A similar change of attitudes
+had occurred in the conglomerate boom/bust sequence. During the
+boom phase investors idolized managements. After the bust, the presi­
+dent of Ogden Corporation told me ruefully at lunch that have no
+audience to play to."
+The major difference between the two instances is a difierence in
+the pervasiveness of the boom/bust process and in the extent of the
+malfeasance involved. The conglomerate boom affected only a segment
+of the stock market—the conglomerates and the companies they ac­
+quired—and a segment of the investing public, spearheaded by the so-
+called "go-go" funds. When the conglomerates began to threaten the
+overall financial establishment, that establishment closed ranks against
+them. By contrast, the recent boom encompassed the entire corporate
+and investment community, and todays establishment, including the
+poEtical establishment, was fully complicit. Enron, WorldCom, and
+Arthur Andersen could not have gotten away with their nefarious ac­
+tivities without encouragement and active reinforcement from virtually
+all sectors of American society—their corporate peers, investment pro­
+fessionals, poEticians, the media, and the public at large. Whereas the
+--- Page 55 ---
+32 NEW INTRODUCTION
+conglomerate boom ended because of resistance from the establish­
+ment, in this case the boom was allowed to run its course, and the
+search for corrective measures started only after the collapse. Even after
+the crash, a probusiness administration was trying to downplay the
+damage. The head of the Securities and Exchange Commission (SEC),
+Harvey Pitt, was so lax on enforcement that it fell to Eliot Spitzer, the
+Attorney General of New York State, to investigate the malpractices of
+New York investment bankers. Eventually Harvey Pitt had to resign.
+Most of the misdeeds of the recent boom fall into two categories: a
+decline in professional standards and a dramatic rise in conflicts of in­
+terest. And both are really symptoms of the same broader phenomenon:
+the glorification of financial gain irrespective of how it is achieved. The
+professions—lawyers, accountants, auditors, security analysts, corporate
+officers, and bankers—allowed the pursuit of profit to take precedence
+over long-standing professional values. Security analysts promoted
+stocks in order to gain investment-banking business; bankers, lawyers,
+and auditors aided and abetted deceptive practices for the same reason.
+Similarly conflicts of interest were ignored in the mad dash for profits.
+While only a small number of people committed acts that actually
+qualify as criminal, many more engaged in activities that in retrospect
+appear dubious and misleading. They did so thanks to reassuring legal
+opinions, Generally Accepted Accounting Principles (GAAP), and the
+comforting knowledge that everybody else was doing the same. When
+broad principles are minutely codified—as they are in GAAP—the
+rules paradoxicaBy become easier to evade. A whole industry was born,
+called structured finance, largely devoted to rule evasion. Once a finan­
+cial innovation was successfully introduced it was eagerly imitated, and
+the limits of the acceptable were progressively pushed out by aggressive
+and unscrupulous practitioners. A process of natural selection was at
+work: those who refused to be swayed were pushed to the sidelines;
+those leading the process could not see the danger signs because they
+were carried away by their own success and the reinforcement they re­
+ceived from others. As the Financial Times reported, 4<They couldn't see
+the iceberg because they were standing on top of it."" Underlying this
+indiscriminate pursuit of financial success was a belief that the common
+interest is best served by allowing people to pursue their narrow sei仁
+interest—or market fundamentalism, for short.
+Market fundamentalism is a false and dangerous ideology. It is false
+on at least two counts. First, it profoundly misapprehends the way fi­
+--- Page 56 ---
+New Introduction 33
+nancial markets operate. It assumes that markets tend toward an equi­
+librium that assures the optimum allocation of resources. Second, by
+equating private interests with the public interest, market fundamental­
+ism endows the pursuit of self-interest with a moral quality The second
+fallacy is even more dangerous than the first one. It accounts for the
+widespread abuses that characterized the recent bust as compared to the
+earlier one.
+It can be seen that the boom/bust model has withstood the test
+of time. The fact that people have been surprised by what happened
+indicates that the model, far from belaboring the obvious, still has
+some explanatory power. At the same time, it can also be seen that
+the model emphasizes one aspect of reality, the cyclical, at the ex­
+pense of another, the unique. The technology boom was more perva­
+sive and the abuses more widespread than in the case of the
+conglomerate boom. I attribute this unique feature to the spread of
+market fundamentalism. The fact that the pursuit of success has taken
+precedence over moral considerations is a source of instability. I have
+explored the subject in greater depth in my book Open Society: Re-
+forming Global Capitalism (PublicAfiairs, 2000).
+Toward a New Paradigm
+The fact remains that the boom/bust model does not qualify as a scien­
+tific theory because it cannot be falsified. Reflexivity may or may not
+give rise to a boom/bust sequence and the process may be aborted at
+any time. Each case contains unique features. The model has some pre­
+dictive power—for instance, a bust could never precede a boom, and
+the magnitude of the bust tends to be proportionate to the boom that
+preceded it—but it is minimal. The model can be used to predict prac­
+tically anything, and if it turns out to be false the error can be ascribed
+to the particular prophesy not to the model. It will be recalled that I
+predicted imminent catastrophe in The Crisis of Global Capitalism: Open
+Society Endangered (BBS/PublicAffairs, 1998).
+Rational expectations theory cannot be directly falsified, either.
+The postulated conditions are never met, and any deviation from the
+expected results can be ascribed to extraneous shocks. Its main conclu­
+sion, however, that it is impossible to consistently outperform the aver­
+ages, has been falsified by many outstanding performers, including
+me—and I was not even familiar with the theory These performance
+--- Page 57 ---
+34 NEW INTRODUCTION
+records could not possibly be considered random walks; yet the theory
+has not been abandoned.
+As mentioned before, reflexivity is a meta-theory, a conceptual
+framework. In considering its suitability to serve as a paradigm for the
+financial markets and even more broadly for human affairs the lack of
+falsifiability does matter. I am inclined to argue that it is inevitable, due
+to the unpredictability of the subject matter, but I am on weak grounds
+here. It may be that I have just not found the right methodology.
+I am forced to conclude that the theory of reflexivity as it stands
+today cannot serve as a new paradigm. It is a philosophical theory, not a
+scientific one. It can, however, be combined with the new departures in
+economic research that are compatible with it, such as behavioral eco­
+nomics and evolutionary game theory. The recognition of reflexivity
+may inspire other new appro aches. Together, they can form a new para­
+digm: the theory of reflexivity undermines the old paradigm, while the
+new disciplines help to build a new one.
+There is also more to be found out about boom/bust and other far-
+from-equilibrium conditions than I have done so far. Accepting that
+each sequence is unique, there are more specific facts that could be ad­
+duced with regard to each sequence. There are also more common fea­
+tures that could be established by comparative studies. The theory of
+reflexivity imposes certain limitations on what can be accomplished, but
+I am very far from pushing against those limits. A closer study of
+boom/bust processes could also produce some testable generalizations
+similar to the tit-fbr-tat solution for repeated prisoners' dilemma games.
+All this could be done, but not by me. I have taken the argument as
+far as I could. Now that my attention has veered from the financial
+markets to other pursuits I have neither the energy nor the interest to
+take it any further, (I also lack the qualifications. I have never been
+good at math. As a student, I started questioning the assumptions of
+economic theory because I had difficulty practicing it.) I am putting
+my faith in the emerging new disciplines I have already mentioned.
+They seem to possess the methodology that the new paradigm needs:
+nonlinear programming and empirical testing. The old paradigm relied
+on solving equations; the new paradigm is likely to rely on running
+scenarios on computers and experiments in real life.
+Many professional economists do not feel the need for a new para­
+digm. Fifteen years ago they could dismiss my attack on the old para­
+digm on the grounds that I did not understand it; now they can claim
+--- Page 58 ---
+New Introduction 35
+that reflexivity is already incorporated in the latest advances in eco­
+nomic analysis. It is true that some progress has been made in that di­
+rection, but it is mostly at the margin. More importantly, public
+discourse is still dominated by the old paradigm, and that stands in the
+way of some much-needed improvement in public policy. Recognizing
+reflexivity could definitely improve public policy The management of
+currencies would benefit from a greater willingness to modify the pre­
+vailing regime when its deficiency becomes apparent; and a better un­
+derstanding of the boom/bust process could help the authorities to
+prevent it from getting out of hand.
+At the same time, I have to admit that the boom/bust model as it
+stands today is of limited use to market participants. It has not even al­
+ways helped me to make money. For instance, I managed to lose money
+in the technology boom by selling short Internet stocks too soon. How
+to convert theory into practice is the next subject to be discussed.
+SECRETS OF A SUCCESSFUL SPECULATOR
+Theories about financial markets look at them from the perspective of
+the outside observer. I should now like to change the perspective and
+describe what it is like to be an active participant. This will not change
+any of the conclusions I have reached so far because the theory of re­
+flexivity was designed to illuminate the role of the active participant,
+but it will shed some additional light on the subject.The book contains
+a real-time experiment, a sequence of investment decisions recorded at
+the time they were made. Here I shall go a step further and give a sub­
+jective account of my decision-making process. In other words, I shall
+try to reveal "the secret of my success." Needless to say, I leave behind
+any pretense of scientific objectivity.
+As a money manager I was emotionally engaged in managing my
+fund. I managed it as if my existence depended on it, as indeed it did. I
+relied on my instincts and intuition as well as my conceptual frame­
+work to guide me through uncertainty. A number of factors conspired
+to increase my dependence on emotions. For one thing, I had less
+knowledge and information at my disposal than most other fund man­
+agers. I had never studied security analysis, I was not part of a team, and
+I was ready to engage in a much broader range of activities than most
+others. I was not well positioned to perform better than others if I had
+--- Page 59 ---
+36 NEW IHTRODUCTION
+tried to play the market by a particular set of rules; my competitive ad­
+vantage lay in recognizing changes in the rules of the game. I started
+with hypotheses relating to individual companies; with the passage of
+time my interests veered increasingly toward macroeconomic themes.
+This was due partly to the growth of the fund and partly to the grow­
+ing instability of the macroeconomic environment. For instance, ex­
+change rates were fixed until 1973; subsequently, they became a fertile
+field for speculation.
+Specializing in reflexive change put me under tremendous time
+pressure. I had to familiarize myself with particular industries or coun­
+tries at short notice, and having done so I did not have the luxury of
+keeping up-to-date. I used to claim, only half jokingly, that it took me
+48 hours to become an expert on any subject; if I spent any more time
+on it my judgment would be clouded by the facts. Specialists often de­
+velop a vested interest in their subject; the information they collect is
+never enough for them. I was only interested in the information that
+was sufficient to make a decision; the rest would merely confuse the is­
+sues. I called it "going for the jugular?5
+I also developed the practice of "'investing first and investigating
+later." It worked very well because if an idea was appealing enough to
+attract me on first hearing, it was likely to have the same effect on oth­
+ers. on further investigation, I found it to be flawed I could always
+turn around and Equidate my position with a profit provided I was not
+the last one to hear it. If the idea checked out, I was better situated to
+increase my position because I had already bought at a lower price or
+sold short at a higher one.
+The fact that I was managing a hedge fund also contributed to
+my emotional engagement. The use of leverage adds an additional di­
+mension of risk to an investment portfolio. A portfolio without lever­
+age is flat, as its name indicates. It can get larger or smaller but it
+cannot be subject to margin calls and disappear altogether. The use of
+credit, whether on the long or the short side, makes a hedge fund
+three-dimensional. The equity base can support more or less leverage,
+and if the structure is not properly balanced it can collapse. This made
+the uncertainty with which all fund managers have to contend existen­
+tial. The very survival of the fund depended on me. At the same time,
+my reward was directly tied to the performance of the fund.
+I was well qualified to deal with existential uncertainty. If I had to
+sum up my qualifications, I would use one word: survival. When I was
+--- Page 60 ---
+New Introduction 37
+an adolescent, the Second World War gave me a lesson in survival that
+I have never forgotten. I was fortunate enough to have a father who
+was a grand master in the art of survival, having lived through the
+Russian revolution as an escaped prisoner of war. Under his tutelage
+the holocaust in Hungary served as an advanced course at a tender
+age.14 I have no doubt that my experiences as an adolescent played a
+major role in my subsequent success as a hedge fund manager. So did
+my conceptual framework.
+Those who want to belittle the theory of reflexivity deny that it
+has had much, if anything, to do with my financial success. They at­
+tribute my performance to an uncanny intuition, and they treat the
+theory as the self-indulgence of a successful speculator. My biographer
+quotes my son Robert as saying:
+My father will sit down and give you theories to explain why he does
+this or that. But I remember seeing it as a kid and thinking, Jesus Christ,
+at least half of this is bullshit. I mean, you know the reason he changes his
+position on the market or whatever is because his back starts killing him.
+It has nothing to do with reason. He literally goes into a spasm, and its
+this early warning sign.15
+My son is right about the backache. I used to treat it as a warning
+sign that something was wrong in the portfolio. It used to occur be­
+fore I knew what was wrong, often even before the fund began to de­
+cline in value. That is what made it so valuable as a signal. It would be
+wrong, however, to dismiss the theory on that account, because it was
+the theory that made me take the signal seriously. I knew that I did
+not act on the basis of knowledge; I was acutely aware of uncertainty
+and I was always on the lookout for mistakes. As I mentioned earlier,
+it is when I did not know the flaws in my positions that I had to
+worry. When I finally discovered what was wrong my backache usu­
+ally went away.
+The major insight I gained from the theory of reflexivity and what
+I now call the human uncertainty principle is that all human constructs
+(concepts, business plans or institutional arrangements) are flawed. The
+flaws may be revealed only after the construct has come into existence.
+That is the key to understanding reflexive processes. Recognizing the
+flaws that are likely to appear when a hypothesis becomes reality puts
+you ahead of the game.
+--- Page 61 ---
+38 NEW INTRODUCTION
+The existential uncertainty the close connection to my own for­
+tunes, and the three-dimensional structure of the fund made me treat it
+as a living organism that was tied to me like a Siamese twin. This was
+more than a figure of speech; it was intensely felt. The fund was drain­
+ing me and feeding me at the same time. Conversely, I endowed the
+fond with the attributes of a living organism.
+The thinking in which a living organism engages is very different
+from the kind of thinking envisioned by the theory of rational expecta­
+tions. The latter is akin to the thinking of an outside observer. It involves
+information processing with the assumed objective of maximizing self^
+interest. The former involves emotions as well as reason. Indeed, emo­
+tions often take precedence over reason because of the time element:
+decisions often have to be taken in a hurry, and the less time there is to
+weigh all the relevant considerations the greater the role of instincts and
+primal emotions. Perhaps I did not make this point sufficiently clear
+when I spoke of the cognitive function; it might be better to speak of
+precognition, which is carried on in different parts of the brain and the
+cortex than rational thought. Precognition predates the evolution of rea­
+son. It is more like animal behavior. Indeed, descriptions of the financial
+markets are full of animal imagery: bulls, bears, herd instinct. And scien­
+tific theories have remarkably little traction among practitioners. That
+does not mean that there is no room for reason. Reason and emotion
+are intricately interwoven, and human behavior cannot be properly un­
+derstood as wholly rational. I relied on reason more than most practi­
+tioners and I prided myself on a conceptual framework that recognized
+the role of emotions and the Emitations of reason.
+The thinking of the active participant is very difierent from that of
+the outside observer. We may call it "organic" as distinct from rational.
+Scientists are interested in timeless generalizations and statistical proba­
+bilities; participants need to focus on the one particular case in which
+they are participating. Probabilities and generalizations can be useful,
+but they are misleading if they are based on the viewpoint of the out­
+side observer. That is what happened in economic theory
+Classical economics allotted a purely passive role to the partici-
+pants, thinking. That made it possible to postulate perfect knowledge,
+which was, in turn, the foundation of perfect competition. The concept
+has undergone an intricate evolution in which the assumption of per­
+fect knowledge was replaced by the assumption of perfect information,
+and it was supplemented by a so-called methodological convention,
+--- Page 62 ---
+New Introduction 39
+which took the supply and demand curves as independently given. This
+convention managed to exclude the reflexive feedback mechanism
+whereby market prices can afiect those curves. More recently, devia­
+tions from the equilibrium position have been attributed to asymmet­
+ric information. It may seem as if the theoretical framework has been
+gradually brought closer to reality; in fact, it has become ever further
+removed from it because the active, participating function has not been
+taken into account. By contrast, the theory of reflexivity takes the ac­
+tive participants as its starting point. Therefore, it can provide them
+with a useful conceptual framework, and I have used it in that capacity.
+What it cannot do is to enable the participant to occupy the position of
+a detached observer.
+I have, in fact, tried to put myself into the position of an outside
+observer and remain as detached as possible. I realize that it is impossi­
+ble to rid oneself of emotions, yet it is important to keep ones emo­
+tional state as stable as possible in order to have a solid platform from
+which changes in the outside world can be evaluated. If the platform it­
+self is responding to difierent emotions than the market, it becomes dif­
+ficult to observe changes in the market. The task is easier if the
+participant is moved by the same emotions. That is what I sought to
+achieve by identifying myself with my fund. It should be recognized,
+however, that the process involves something very different from ratio­
+nal thought; it is better described as empathy The participant enters
+into the mind of the market and tries to understand it from the inside. I
+found the task easier than most other investors, partly because of my
+conceptual framework and partly because I identified myself with my
+hedge fund so intimately. I assumed that the market felt the same way as
+I did, and by keeping myself detached from other personal feelings I
+could sense changes in its mood. This was a hard discipline. It meant
+subordinating my own emotions to those of the market. It made it di仁
+ficult to maintain other emotional involvements. My family had good
+reason to resent it. I looked on myself as an athlete or a boxer in train­
+ing who had to sacrifice many other things for the sake of success.
+Managing a hedge fund requires single-minded devotion. When I be­
+came engaged in setting up a foundation network, I found that my
+philanthropy did not mix well with managing a hedge fund. The trou­
+ble was not only the amount of time it took but, even more, the con­
+flicting emotional signals. It was confusing to feel good about
+something I was doing in philanthropy when I ought to feel bad about
+--- Page 63 ---
+40 HEW INTRODUCTION
+the way I was positioned in the market, or vice versa. I resolved the
+conflict by giving up the active management of my fund. I ceased to be
+a boxer in training and became the coach.
+I should clarify what I meant when I said that I felt the same way
+the market did. I was referring to the mood of the market, not to the
+content of the hypotheses I formulated. On the contrary, I was acutely
+aware that I was operating with a conceptual framework that was at
+loggerheads with the prevailing wisdom. I made a conscious effort to
+find investment theses that were at odds with the prevailing opinion
+because that is where the best profit opportunities are to be found. I
+defined my task as engaging in an arbitrage between my own judgment
+and the prevailing view. Both my conceptual framework and my animal
+instincts formed part of what I have called "organic thinking.^, When I
+identified the makings of a self-reinforcing process, I could almost feel
+my mouth water like one of Pavlov's dogs.
+It is an interesting question whether I would still enjoy a competi­
+tive advantage if I were an active participant. My conceptual framework
+has become common knowledge. It used to be easy to write circles
+around institutional investors, but they have become much more so­
+phisticated; hedge funds have proliferated, and methods of risk control
+have greatly improved. Nevertheless, I have a sneaking suspicion that I
+would still be able to discover some flaws that can be exploited. For in­
+stance, the prevailing methods of risk control are built on the old para­
+digm, and they are bound to break down from time to time. But to take
+advantage of the flaws I would have to learn how the risk control sys­
+tems work. It would be like learning how to play against a chess ma­
+chine: empathy would be less useful, and some knowledge of
+mathematics―which is not my long suitwould probably be unavoid­
+able. I had the luxury of ignoring rational expectations theory; I could
+not ignore modern risk and performance management techniques even
+if I consider them flawed. I would have to understand how they work
+because, in contrast to rational expectations theory they do influence
+investor behavior.
+In my view, risk management techniques cannot account for the
+element of genuine uncertainty introduced by the improved tech­
+niques一although it is possible to make allowances for it by so-called
+stress testing. But the past is an unreliable guide to the future. I used to
+take a much more primitive, organic view of risk and uncertainty Two
+days——one up day and one down daywere sufficient to tell me
+--- Page 64 ---
+New Introduction 41
+whether my fund was well positioned. Usually this gave me timely no­
+tice to make some adjustments. I was willing to risk only my gains, not
+my capital. This gave the fund its own momentum: picking up speed
+when the wind was behind us and trimming sails in stormy weather.
+My favorite saying was: "He who runs away lives to fight another day”
+I refused to be bound by the calendar in deciding what counts as profit
+and what is principal. After a good run, I was willing to give back a
+portion of the gains even if it pushed me into negative territory in a
+new year. As a result, we had multiyear runs. I find it amusing that most
+hedge funds today do not use these simple guidelines. With their help, I
+managed~with one exception—to confine declines to within 20% of
+the highest point reached by the fund, calculated on a daily basis. There
+were no similar limitations on the upside.
+Where I have doubts whether I would be able to perform as I used
+to is in the currency markets, particularly in the euro. Currencies used
+to be like lakes with a few rivers feeding into them; by going upriver it
+used to be possible to anticipate the level of the lakes. Now the lakes
+are interconnected, and there are just too many tributaries to consider
+to be able to predict currency movements.
+The symbiotic relationship between me and my fund gave rise to
+some serious identity problems. When I first started managing the fund,
+I identified with it completely. I came from the trading and sales side,
+where I had made it a point of keeping myself scrupulously insulated
+from my work. I had had some experience as a salesman before enter­
+ing the securities business. After finishing college in England I joined as
+management trainee a firm making and selling handbags, custom jew­
+elry and fancy goods, and I ended up as a salesman. I developed a the­
+ory of salesmanship based on the principle that one must not on any
+account identify oneself with the merchandise one is selling. Selling is a
+game where you score when you make a sale. If you allow your ego to
+be involved, the customer can brush you off and you lose; but if you do
+not identify yourself with your work you will be able to redouble your
+efforts when you are rejected, and if you make a sale you come out the
+winner. I carried this principle over into the securities business, so it
+came as a great relief when I switched from the sell to the buy side and
+I could finally identify myself with my merchandise.
+I soon discovered that running a hedge fund is a deadly serious
+game: once you identify with your portfolio, your survival is at stake.
+That is what makes financial markets such a good laboratory for testing
+--- Page 65 ---
+42 NEW INTRODUCTION
+your ideas: failing a test can be very painful; passing a test brings relief.
+The objective evidence is reinforced by emotions. Short on knowl­
+edge, I relied heavily on the pain mechanism. There was also a positive
+side to it: the sense of mastery that comes with success. I remember a
+moment in time when I stood back and looked at myself with awe: I
+saw a perfectly honed machine. Whatever happened in the world—
+economists call them exogenous shocks—I could immediately put
+them into perspective and relate them to everything else. I was operat­
+ing in a state of heightened awareness.
+The fund performed well, but the bigger it grew the more
+money I had to manage and the greater the pressures became. I re­
+member an occasion when I urgently had to find some new bank
+credit lines. I was walking along Leadenhall Street in the City of
+London and I thought I was going to have a heart attack. It made me
+realize that if I died I would be the loser, and the insight undermined
+the identity of interests between me and my fund. I decided to pay
+more attention to myself and less to the fund. I relaxed the reins.
+Amazingly, the fund performed even better. Evidently I had been too
+cautious and controlling, replacing one investment thesis with an­
+other too soon. When I let the reins loose, the fund rose nearly four­
+fold in the ^pace of two years. I was enjoying myself and the success
+of the fond but the identity problem remained unresolved. I was
+aware that the underlying position of the fund was gradually deteri­
+orating because I was depleting my store of investment ideas; it was
+only a matter of time before we would run into trouble. 4
+Eventually the internal conflict came to a head. I posed myself the
+question, who is more important: I or my fund? Am I the master of my
+destiny or the slave of my own creation? I resolved the question in fa­
+vor of myself: I won, but my fund lost—the only occasion when the
+loss exceeded 20%; it was 22.9% in 1981, to be precise. I informed my
+shareholders of the identity crisis, and many of them redeemed their
+shares. The size of the fund was cut in half. I withdrew from active
+management while I reflected on what I really cared about. Out of this
+soul-searching came the Open Society Foundation and this book. To
+engage in the real-time experiment I had to go back to active man­
+agement of the fund. The experiment held my attention and the fund
+exceeded its previous performance. I was well rewarded for writing
+this book.
+It can be seen that I care for my conceptual framework more than I
+--- Page 66 ---
+New Introduction 43
+care about making money (That framework also includes the concept
+of open society and the foundation network devoted to it, which I do
+not discuss in detail here.) The fact is, I have a passionate interest in the
+truth, but I do not care much for money; otherwise I would not give so
+much of it away To be truthful, my interest in the truth takes prece­
+dence over even my interest in humanity—it is through my philosophy
+that I arrived at my philanthropy I am glad I did because my philan­
+thropy rescued me from the isolation to which my pursuit of profit
+consigned me. I am much happier identifying with my foundation net­
+work than I ever was identifying with my hedge fund—but the pursuit
+of truth takes precedence over both, as this admission demonstrates.
+I note this as a fact, not as something I can explain. I could hazard a
+guess, but that would take me too deeply into my personal history It is
+not at all self-evident that the pursuit of truth should take precedence
+over other considerations. My love of truth is something personal. I did
+not sacrifice everything for its sake, as my adventures as a salesman at­
+test, but I feel happy when I can indulge in it.
+Taking my passionate interest in the truth as a starting point, I can
+build a couple of interesting arguments on it. One will establish the
+merits of financial markets as a laboratory for the pursuit of truth, and
+the other will extoll the merits of philosophy.
+Financial Markets as Laboratory
+First, the financial markets offer an excellent laboratory for the pursuit
+of truth. The reason is to be found not only in the quantitative and
+public character of the data but even more in the emotional reality of
+financial markets. This will come as a surprise to many who regard fi-
+nancial markets as far removed from reaHty, but it is their concept of re­
+ality that is far removed, not the financial markets. Playing the markets
+is about as real as a game can get. There is, of course, a divergence be­
+tween expectations and outcomes, but the outcome has an inexorable
+quality about it. In most social situations——in politics and in personal
+and business relations—it is possible to deceive oneself and others. In
+the financial markets, the actual results do not leave much room for il­
+lusions. The financial markets are very unkind to the ego: those who
+have illusions about themselves have to pay a heavy price in the literal
+sense. It turns out that a passionate interest in the truth is a good quali­
+fication for financial success.
+--- Page 67 ---
+44 NEW INTRODUCTION
+How does the actual course of events relate to the truth? The rela­
+tionship is not as straightforward as it may appear at first sight. Deci­
+sions have unintended consequences; so a successful outcome does not
+assure that the initial decision was based on correct understanding. Fi­
+nancial markets may reinforce illusions, after all; that is how boom/bust
+processes are generated. But the process eventually becomes unsustain­
+able and the moment of truth dawns. So the truth lies somewhere be­
+neath the surface of reality as expressed in market prices, and financial
+success serves as a rather unreliable indicator of true understanding.
+This point is well made in Part Four: Evaluation.
+Testing theories in the financial markets is a useful substitute for
+scientific testing. The tests are not as reliable as scientific ones but at
+least the participant has a powerful incentive not to deceive him- or
+herself about the results because of the financial and emotional costs in­
+volved. If I were deceiving myself in the real-time experiment, I could
+not have performed as well as I did. Admittedly the 32-year perfor­
+mance record of Quantum Fund cannot be attributed solely to my
+conceptual framework, especially as I was not personally in charge over
+the entire period; but the theory of reflexivity undoubtedly played
+some part in it~~~how big a part I shall leave to those who are better
+versed in regression analysis than I.
+Once you leave the confines of scientific method you are in con­
+stant danger of getting lost in a world of your own creation and leaving
+reality far behind. It has happened before, in medieval theology and in
+nineteenth-century German metaphysics. I have experienced it per­
+sonally in my earlier philosophical endeavors. That is why testing your
+ideas in the financial markets can be so useful: the markets provide a
+merciless reality check. Again, I speak from personal experience. I used
+to be able to write much better whenever I was actually engaged in
+money management. Now that my moneymaking days are over, I
+sorely miss the reality check that playing the markets used to impose.
+The Case for Philosophy
+I should like to end with an impassioned plea for reinstating philosophy
+as the source of all knowledge and wisdom. Obviously I have a passion­
+ate interest in the pursuit of truth; I have established it as a fact. Now I
+want to make a case for it.
+Philosophy has fallen out of favor. Without the constraints imposed
+--- Page 68 ---
+New Introduction 45
+by scientific method, the philosophers of the nineteenth century lost
+contact with the physical world and became immerged in the meta­
+physics of their own creation. Encouraged by the success of natural sci­
+ence, logical positivists launched a frontal attack on metaphysics. Logical
+positivism did not survive long―Ludwig Wittgenstein himself aban­
+doned the conclusions of his Tractatus Logico-Philosophicus in favor of lan­
+guage analysis—but old-fashioned philosophy that seeks to address real
+problems as opposed to the problems of language never recovered from
+the onslaught. Analytical philosophy; which has come to dominate the
+philosophy departments, is a branch of knowledge, not the source of all
+knowledge. That is not satisfactory Our knowledge is not so securely
+based that we can afford to stop asking the eternal questions about the
+relationship between thinking and reality, the meaning of meaning, and
+so on, even if we cannot find satisfactory answers to them, or, more ex­
+actly, even if the answers always raise new questions. We are fed up with
+philosophy because the questions never end. But the questions are in­
+herent in the human uncertainty principle. If the principle is valid, we
+must never stop questioning. A critical mode of thinking is indispensable
+to a better understanding of the world and also for making the world a
+better place. It is the foundation of an open society.
+I contend that the human uncertainty principle is a step forward in
+understanding the human condition. It tells us that all human con­
+structs are flawed, philosophy included. But that is not a valid reason for
+abandoning philosophy; we must just learn to watch out that the never-
+ending questions should not lead to answers that become ever more re­
+moved from reality The theory of reflexivity is a philosophical theory,
+not a scientific one. It should not be dismissed on that account, but it
+should be held to the test of reality What better laboratory could we
+find for it than the financial markets, which brook no excuses?
+There was a famous discussion between Karl Popper and Ludwig
+Wittgenstein in Cambridge, England, that became the subject of a pop­
+ular book, (cid:0)ittgenstein^ Poker.16 Popper argued that philosophy ought to
+address real problems, while Wittgenstein took the position that it can
+address only problems of language. I am testifying on behalf of Popper.
+--- Page 70 ---
+Part One
+THEORY
+--- Page 72 ---

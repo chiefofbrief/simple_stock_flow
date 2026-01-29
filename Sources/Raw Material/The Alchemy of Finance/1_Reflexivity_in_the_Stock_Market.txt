@@ -1,0 +1,860 @@
+Reflexivity in
+the Stock Market
+n trying to develop a theory of reflexivity, I shall start with the stock
+i
+market. For one thing, it is the market I am most familiar with: I have
+been a professional investor for more than twenty-five years. For an­
+other, the stock market provides an excellent laboratory for testing the­
+ories: changes are expressed in quantitative terms and the data are easily
+accessible. Even the participants, views are usually available in the form
+of brokers* reports. Most important, I have actually tested my theory in
+the stock market and I have some interesting case studies to present.
+As I mentioned in the Introduction, I did not develop my ideas
+on reflexivity in connection with my activities in the stock market.
+The theory of reflexivity started out as abstract philosophical specu­
+lation and only gradually did I discover its relevance to the behavior
+of stock prices. I was singularly unsuccessful in formulating my the­
+ory at the level of abstraction at which I conceived it: my failure as a
+philosopher stands in stark contrast with my career as an investment
+professional. I hope that by presenting my ideas in the reverse order
+from the one in which I arrived at them I may be able to avoid get­
+ting lost in arcane abstractions.
+There is yet another reason why the stock market may provide the
+best entry point for the study of reflexive phenomena. The stock mar­
+ket comes as close to meeting the criteria of perfect competition as any
+market: a central marketplace, homogeneous products, low transaction
+49
+--- Page 73 ---
+50 THEORY
+and transportation costs, instant communications, a large enough crowd
+of participants to ensure that no individual can influence market prices
+in the ordinary course of events, and special rules for insider transac­
+tions as well as special safeguards to provide all participants with access
+to relevant information. What more can one ask for? If there is any
+place where the theory of perfect competition ought to be translated
+into practice, it is in the stock market.
+Vet there is little empirical evidence of an equilibrium or even a
+tendency for prices to move toward an equilibrium. The concept of an
+equilibrium seems irrelevant at best and misleading at worst. The evi­
+dence shows persistent fluctuations, whatever length of time is chosen
+as the period of observation. Admittedly, the underlying conditions that
+are supposed to be reflected in stock prices are also constantly chang­
+ing, but it is difficult to establish any firm relationship between changes
+in stock prices and changes in underlying conditions. Whatever rela­
+tionship can be established has to be imputed rather than observed. I
+intend to use the theory of reflexivity to criticize the preoccupation of
+economic theory with the equilibrium position. What better example
+could I find than the stock market?
+Existing theories about the behavior of stock prices are remarkably
+inadequate. They are of so little value to the practitioner that I am not
+even fully familiar with them. The fact that I could get by without
+them speaks for itself.
+Generally theories fall into two categories: fundamentalist and
+technical. More recently, the random walk theory has come into vogue;
+this theory holds that the market fully discounts all future develop­
+ments so that the individual participants chances of over- or underper­
+forming the market as a whole are even. This line of argument has
+served as theoretical justification for the increasing number of institu­
+tions that invest their money in index funds. The theory is manifestly
+false—I have disproved it by consistently outperforming the averages
+over a period of twelve years. Institutions may be well advised to invest
+in index funds rather than making specific investment decisions, but the
+reason is to be found in their substandard performance, not in the im­
+possibility of outperforming the averages.
+Technical analysis studies market patterns and the demand and sup­
+ply of stocks. It has undoubted merit in predicting probabilities but not
+the actual course of events. For the purposes of this discussion it is of
+no particular interest, because it has little theoretical foundation other
+--- Page 74 ---
+Reflexivity in the Stock Market 5 1
+than the assertions that stock prices are determined by their supply and
+demand and that past experience is relevant in predicting the future.
+Fundamental analysis is more interesting because it is an out­
+growth of equilibrium theory. Stocks are supposed to have a true or
+fundamental value as distinct from their current market price. The fun­
+damental value of a stock may be defined either in relation to the earn­
+ing power of the underlying assets or in relation to the fundamental
+value of other stocks. In either case, the market price of a stock is sup­
+posed to tend toward its fundamental value over a period of time so
+that the analysis of fundamental values provides a useful guide to invest­
+ment decisions.
+The important point about this approach is that the connection be­
+tween stock prices and the companies whose stocks are traded is as­
+sumed to be in one direction. The fortunes of the companies
+determine—however belatedly一the relative values of the various
+stocks traded in the stock market. The possibility that stock market de­
+velopments may affect the fortunes of the companies is left out of ac­
+count. There is a clear parallel with the theory of price where the
+indifference curve determines the relative amounts consumed, and the
+possibility that the market may influence the indifference curve is dis­
+regarded. The parallel is not accidental: the fundamentalist approach is
+based on the theory of price. But the omission is more glaring in the
+stock market than in other markets. Stock market valuations have a di­
+rect way of influencing underlying values: through the issue and repur­
+chase of shares and options and through corporate transactions of all
+kinds—mergers, acquisitions, going public, going private, and so on.
+There are also more subtle ways in which stock prices may influence
+the standing of a company: credit rating, consumer acceptance, man­
+agement credibility, etc. The influence of these factors on stock prices
+is, of course, fully recognized; it is the influence of stock prices on these
+factors that is so strangely ignored by the fundamentalist approach.
+If there are any glaring discrepancies between prevailing stock
+prices and fundamental values, they are attributed to future develop­
+ments in the companies concerned that are not yet known but are cor­
+rectly anticipated by the stock market. Movements in stock prices are
+believed to precede the developments that subsequently justify them.
+How future developments ought to be discounted is the subject of an
+ongoing debate, but it is presumed that the market is doing the job cor­
+rectly even if the correct method cannot be theoretically established.
+--- Page 75 ---
+52 THEORY
+This point of view follows naturally from the theory of perfect compe­
+tition. It is summed up in the assertion that44the market is always right."
+The assertion is generally accepted, even by people who do not put
+much faith in fundamental analysis.
+I take a totally opposite point of view: I do not accept the proposi­
+tion that stock prices are a passive reflection of underlying values, nor
+do I accept the proposition that the reflection tends to correspond to
+the underlying value. I contend that market valuations are always dis­
+torted; moreover—and this is the crucial departure from equilibrium
+theory—the distortions can afiect the underlying values. Stock prices
+are not merely passive reflections; they are active ingredients in a
+process in which both stock prices and the fortunes of the companies
+whose stocks are traded are determined. In other words, I regard
+changes in stock prices as part of a historical process and I focus on the
+discrepancy between the participants' expectations and the actual
+course of events as a causal factor in that process.
+To explain the process, I take the discrepancy as my starting point. I
+do not rule out the possibility that events may actually correspond to
+peoples expectations, but I treat it as a limiting case.Translating this as­
+sertion into market terms, I claim that market participants are always
+biased in one way or another. I do not deny that markets have a predic­
+tive or anticipating power that seems uncanny at times, but I argue that
+it can be explained by the influence that the participants' bias has on
+the course of events. For instance, the stock market is generally believed
+to anticipate recessions; it would be more correct to say that it can help
+to precipitate them. Thus I replace the assertion that markets are always
+right with two others:
+1. Markets are always biased in one direction or another.
+2. Markets can influence the events that they anticipate.
+The combination of these two assertions explains why markets may so
+often appear to anticipate events correctly
+Using the participants' bias as our starting point, we can try to build
+a model of the interaction between the participants' views and the situ­
+ation in which they participate. What makes the analysis so difficult is
+that the participants' views are part of the situation to which they re­
+late. To make any sense of such a complex situation, we need to simpEfy
+it. I introduced a simplifying concept when I spoke of the participants'
+--- Page 76 ---
+Reflexivity in the Stock Market 5 3
+bias. Now I want to take the argument a step further and introduce the
+concept of a prevailing bias.
+Markets have many participants, whose views are bound to differ. I
+shall assume that many of the individual biases cancel each other out,
+leaving what I call the 4"prevailing bias." This assumption is not appro­
+priate to all historical processes but it does apply to the stock market
+and to other markets as well. What makes the procedure of aggregating
+individual perceptions legitimate is that they can be related to a com­
+mon denominator, namely, stock prices. In other historical processes,
+the participants' views are too diffuse to be aggregated and the concept
+of a prevailing bias becomes little more than a metaphor. In these cases
+a different model may be needed, but in the stock market the partici-
+pants, bias finds expression in purchases and sales. Other things being
+equal, a positive bias leads to rising stock prices and a negative one to
+falling prices. Thus the prevailing bias is an observable phenomenon.
+Other things are, of course, never equal. We need to know a little
+more about those "other things^, in order to build our model. At this
+point I shall introduce a second simplifying concept. I shall postulate an
+"'underlying trend" that influences the movement of stock prices
+whether it is recognized by investors or not. The influence on stock
+prices will, of course, vary, depending on the market participantsJ views.
+The trend in stock prices can then be envisioned as a composite of the
+"'underlying trend" and the '"prevailing bias."
+How do these two factors interact? It will be recalled that there
+are two connections at play: the participating and the cognitive func­
+tions. The underlying trend influences the participants' perceptions
+through the cognitive function; the resulting change in perceptions
+affects the situation through the participating function. In the case of
+the stock market, the primary impact is on stock prices. The change
+in stock prices may in turn, affect both the participants' bias and the
+underlying trend.
+We have here a reflexive relationship in which stock prices are de­
+termined by two factors—underlying trend and prevailing bias—both
+of which are, in turn, influenced by stock prices. The interplay be­
+tween stock prices and the other two factors has no constant: what is
+supposed to be the independent variable in one function is the depen­
+dent variable in the other. Without a constant, there is no tendency to­
+ward equilibrium. The sequence of events is best interpreted as a
+process of historical change in which none of the variables—stock
+--- Page 77 ---
+54 THEORY
+prices, underlying trend, and prevailing bias—remains as it was before.
+In the typical sequence the three variables reinforce each other first in
+one direction and then in the other in a pattern that is known, in its
+simplest form, as boom and bust.
+First, we must start with some definitions. When stock prices rein­
+force the underlying trend, we shall call the trend self-reinforcing;
+when they work in the opposite direction, self^correcting. The same
+terminology holds for the prevailing bias: it can be self-reinforcing or
+self^correcting. It is important to realize what these terms mean. When
+a trend is reinforced, it accelerates. When the bias is reinforced, the di­
+vergence between expectations and the actual course of future stock
+prices gets wider and, conversely when it is seltcorrecting, the diver­
+gence gets narrower. As far as stock prices are concerned, we shall de­
+scribe them simply as rising and failing. When the prevailing bias helps
+to raise prices we shall call it positive; when it works in the opposite di­
+rection, negative. Thus rising prices are reinforced by a positive bias and
+falling prices by a negative one. In a boom/bust sequence we would
+expect to find at least one stretch where rising prices are reinforced by
+a positive bias and another where falling prices are reinforced by a neg­
+ative bias. There must also be a point where the underlying trend and
+the prevailing bias combine to reverse the trend in stock prices.
+Let us now try to build a rudimentary model of boom and bust. We
+start with an underlying trend that is not yet recognized—although a
+prevailing bias that is not yet reflected in stock prices is also conceiv­
+able. Thus, the prevailing bias is negative to start with. When the market
+participants recognize the trend, this change in perceptions will affect
+stock prices. The change in stock prices may or may not affect the un­
+derlying trend. In the latter case, there is little more to discuss. In the
+former case we have the beginning of a self-reinforcing process.
+The enhanced trend will affect the prevailing bias in one of two
+ways: it will lead to the expectation of further acceleration or to the
+expectation of a correction. In the latter case, the underlying trend
+may or may not survive the correction in stock prices. In the former
+case, a positive bias develops causing a further rise in stock prices and a
+further acceleration in the underlying trend. As long as the bias is selE
+reinforcing, expectations rise even faster than stock prices. The under­
+lying trend becomes increasingly influenced by stock prices and the
+rise in stock prices becomes increasingly dependent on the prevailing
+bias, so that both the underlying trend and the prevailing bias become
+--- Page 78 ---
+Reflexivity in the Stock Market 55
+increasingly vulnerable. Eventually, the trend in prices cannot sustain
+prevailing expectations and a correction sets in. Disappointed expecta­
+tions have a negative effect on stock prices, and faltering stock prices
+weaken the underlying trend. If the underlying trend has become
+overly dependent on stock prices, the correction may turn into a total
+reversal. In that case, stock prices fall, the underlying trend is reversed,
+and expectations fall even further. In this way a self-reinforcing process
+gets started in the opposite direction. Eventually the downturn also
+reaches a climax and reverses itself
+Typically a self-reinforcing process undergoes orderly corrections
+in the early stages, and, if it survives them, the bias tends to be rein­
+forced, and is less easily shaken. When the process is advanced, correc­
+tions become scarcer and the danger of a climactic reversal greater.
+I have sketched out a typical boom/bust sequence. It can be il­
+lustrated by two curves that follow more or less the same direction.
+One represents stock prices, and the other, earnings per share. It
+would be natural to envision the earnings curve as a measure of the
+underlying trend, and the divergence between the two curves as an
+indication of the underlying bias. The relationship is much more
+complex. The earnings curve incorporates not only the underlying
+trend but also the influence of stock prices on that trend; the prevail­
+ing bias is expressed only partially by the divergence between the
+two curves—partially it is already reflected in those curves. Concepts
+that are only partially observable are extremely difficult to work
+with; that is why we have chosen variables that can be observed and
+quantified—although, as we shall see later, the quantification of
+earnings per share can be very misleading. For present purposes, we
+shall assume that the "fundamentals" in which investors are inter­
+ested are properly measured by earnings per share.
+A typical path for the two curves may be as follows. (See the figure
+on page 56.) At first, recognition of an underlying trend is lagging but
+the trend is strong enough to manifest itself in earnings per share (AB).
+When the underlying trend is finally recognized, it is reinforced by ris­
+ing expectations (BC). Doubts arise, but the trend survives. Alterna­
+tively, the trend waivers but reasserts itself. Such testing may be repeated
+several times, but here I show it only once (CD). Eventually conviction
+develops and it is no longer shaken by a setback in the earning trend
+(DE). Expectations become excessive, and fail to be sustained by reality
+(EF).The bias is recognized as such and expectations are lowered (FG).
+--- Page 79 ---
+56 THEORY
+Stock prices lose their last prop and plunge (G).The underlying trend is
+reversed, reinforcing the decline (GH). Eventually, the pessimism be­
+comes overdone and the market stabilizes (HI).
+It should be emphasized that this is only one possible path that re­
+sults from the interplay of a single underlying trend and a prevailing
+bias. There could be more than one trend at work and the prevailing
+bias could have many nuances, so that the sequence of events might re­
+quire a totally difierent representation.
+A few words about the theoretical construction of the model may
+be in order. We are interested in the interplay between the participants'
+bias and the actual course of events. Yet the participants, bias is not di­
+rectly represented in our model; both curves denote the actual course
+of events. The prevailing bias is partially incorporated in the two curves
+and partially denoted by the divergence between them.
+The great merit of this construction is that it uses variables that
+can be quantified. Stock prices serve as a convenient proxy for the sit­
+uation to which the participants' bias relates. In other historical
+processes the situation that is interconnected with the participants5
+perception by the cognitive and participating functions is more diffi­
+cult to identify and impossible to quantify. It is the availability of a
+--- Page 80 ---
+Reflexivity in the Stock Market 5 7
+convenient proxy that renders the stock market such a useful labora­
+tory for studying reflexivity.
+Unfortunately, the model offers only a partial explanation of how
+stock prices are determined. The concept of an underlying trend has
+been introduced as a placeholder term, to denote changes in the 4"fun­
+damentals ?J What the fundamentals are has not been defined. Even the
+question of how the fundamentals are to be measured has not been an­
+swered. Earnings, dividends, asset value, free cash flow: all these yard­
+sticks are relevant, as well as many others, but the relative weight given
+to each depends on the investorsJ judgments and is therefore subject to
+their bias. We may use earnings per share for purposes of illustration,
+but that merely begs the question. It is a question security analysts have
+been struggling with for a long time. We do not need to answer it here
+in order to develop a theory of reflexivity
+Without knowing anything about the fundamentals we can make
+some worthwhile generalizations. The first generalization is that stock
+prices must have some effect on the fundamentals (whatever they
+are), in order to create a boom/bust pattern. Sometimes the connec­
+tion is direct, as in the examples I shall use in this chapter, but gener­
+ally it is indirect. Often it makes its effect felt through a political
+process, such as changes in taxation, or regulation, or attitudes toward
+saving and investment.
+It is possible to have a reflexive connection between stock prices and
+the prevailing bias even if the fundamentals remain unaffected, but the
+connection becomes interesting only if the fundamentals are also in­
+volved. Without a change in fondamentals, the prevailing bias is likely to
+be corrected in short order, as we can observe in the daily fluctuations of
+stock prices. It would be quite in order to ignore the bias as mere noise.
+That is what the theory of perfect competition and the fundamentalist ap­
+proach to security analysis have done. By contrast, when the fundamentals
+are affected, the bias cannot be left out of account without serious distor­
+tion, because the bias gives rise to a seltreinfbrcing/self-defeating process
+that leaves neither stock prices, nor the fundamentals, nor the participants'
+views the same as they were before.
+The second generalization is that there is bound to be a flaw in the
+participants5 perception of the fundamentals. The flaw may not be ap­
+parent in the early stages but it is likely to manifest itself later on.
+When it does, it sets the stage fbr a reversal in the prevailing bias. If the
+--- Page 81 ---
+58 THEORY
+change in bias reverses the underlying trend a seltreinforcing process
+is set in motion in the opposite direction. What the flaw is and how
+and when it is likely to manifest itself are the keys to understanding
+boom/bust sequences.
+The model I presented above is built on these two generalizations.
+It hardly needs emphasizing how crude the model is. Nevertheless, it is
+valuable in identifying the crucial features of a typical boom/bust se­
+quence. These are the unrecognized trend; the beginning of a self^rein-
+fbrcing process; the successful test; the growing conviction, resulting in
+a widening divergence between reality and expectations; the flaw in
+perceptions; the climax; a self^reinfbrcing process in the opposite direc­
+tion. Just by identifying these features we can gain some insight into the
+behavior of stock prices. We cannot expect much more from our rudi­
+mentary model.
+In any case, a reflexive model cannot take the place of fundamental
+analysis: all it can do is to provide an ingredient that is missing from it.
+In principle, the two approaches could be reconciled. Fundamental
+analysis seeks to establish how underlying values are reflected in stock
+prices, whereas the theory of reflexivity shows how stock prices can
+influence underlying values. One provides a static picture, the other a
+dynamic one.
+A theory that offers a partial explanation of stock price movements
+can be very useful to the investor especially if it illuminates a relation­
+ship that other investors fail to grasp. Investors operate with limited
+funds and limited intelligence: they do not need to know everything.
+As long as they understand something better than others, they have an
+edge. The trouble with any kind of specialized knowledge is that ones
+area of expertise may not be especially interesting, but the theory of re­
+flexivity serves to identify historically significant price movements, so it
+goes right to the heart of the matter.
+The rudimentary model I have outlined above has proved ex­
+tremely rewarding in my career as an investor. That may seem surpris­
+ing because the model is so simple and it fits a well-trodden stock
+market pattern so well that one would expect every investor to be fa­
+miliar with it.Yet, that is not the case. Why? Part of the answer must be
+that market participants have been misguided by a different theoretical
+construction, one derived from classical economics and, even more
+important, from the natural sciences. The ingrained attitude is that
+stock prices are the passive reflection of some underlying reality and
+--- Page 82 ---
+Reflexivity in the Stock Market 59
+not an active ingredient in the historical process. This view is simply
+false. It is remarkable that the error has still not been fully recognized.
+Nevertheless, investors do recognize the sequence I have described
+and do respond to it, only they respond later than someone who is
+working with the appropriate model and is on the lookout for the
+crucial features that define the shape of the price curve. That is what
+has given me my edge.
+The first time I used the model systematically was in the conglom­
+erate boom of the late 1960s. It enabled me to make money both on
+the way up and on the way down.
+The key to the conglomerate boom was a prevailing misconcep­
+tion among investors. Investors had come to value growth in per-share
+earnings and failed to discriminate about the way the earnings growth
+was accomplished. A few companies learned to produce earnings
+growth through acquisitions. Once the market started to reward them
+for their performance, their task became easier because they could offer
+their own highly priced stock in acquiring other companies.
+In theory, the process works as follows. Let us assume that all of
+the companies involved have the same intrinsic growth in earnings
+but the stock of the acquiring company sells at twice the earnings
+multiple of the acquired ones; if the acquiring company manages to
+double its size, its earnings per share jump by 50%, and its growth
+rate increases accordingly.
+In practice, the early conglomerates started out with high intrinsic
+growth rates that were rewarded by high multiples. Several of the path­
+breakers were high-technology companies with a strong defense com­
+ponent whose managements recognized that their historic growth rate
+could not be sustained indefinitely: Textron, Teledyne, Ling-Temco-
+Vought (later LTV), to mention a few. They started to acquire more
+mundane companies, but, as their per-share earnings growth acceler­
+ated, the multiples expanded instead of contracting. Their success at­
+tracted imitators and later on even the most humdrum companies
+could attain a high multiple by going on an acquisition spree. For in­
+stance, the bulk of Ogdens earnings was derived from trading scrap
+metal; nevertheless, the stock sold at more than twenty times earnings
+at its peak. Eventually a company could achieve a high multiple just by
+promising to put it to good use by making acquisitions.
+Managements developed special accounting techniques that en­
+hanced the impact of acquisitions. They also introduced changes in
+--- Page 83 ---
+60 THEORY
+the acquired companies, streamlining operations, disposing of assets,
+and generally focusing on the bottom line, but these changes were
+less significant than the impact on per-share earnings of the acquisi­
+tions themselves.
+Investors responded like Indians to firewater. At first, the record of
+each company was judged on its own merit, but gradually conglomer­
+ates became recognized as a group. A new breed of investors emerged,
+the so-called go-go fund managers, or gunslingers, who developed a
+special affinity with the managements of conglomerates. Direct lines of
+communication were opened between them and conglomerates would
+place so-called Tetter stock" directly with investors. Eventually, con­
+glomerates learned to manage their stock prices as well as their earnings.
+Events followed the sequence described in my model. Multiples
+expanded and eventually reality could not sustain expectations. More
+and more people realized the misconception on which the boom
+rested even as they continued to play the game. Acquisitions had to get
+larger and larger in order to maintain the momentum, and in the end
+they ran into the limits of size. The climactic event was the attempt by
+Saul Steinberg to acquire Chemical Bank: it was fought and defeated
+by the establishment.
+When stock prices started to fall, the decline fed on itself. The fa­
+vorable impact of acquisitions on per-share earnings diminished and
+eventually it became impractical to make new acquisitions.The internal
+problems that had been swept under the carpet during the period of
+rapid external growth began to surface. Earnings reports revealed un­
+pleasant surprises. Investors became disillusioned and managements
+went through their own crises: after the heady days of success, few were
+willing to buckle down to the burdens of day-to-day management. The
+situation was aggravated by recession, and many of the high-flying con­
+glomerates literally disintegrated. Investors were prepared to believe the
+worst and in some cases the worst actually occurred. In others, reality
+turned out to be better than expectations and eventually the situation
+stabilized with the surviving companies, often under new management,
+slowly working themselves out from under the debris.
+The conglomerate boom is particularly well suited to serve as an il­
+lustration of my rudimentary model because the "fiindamentals" are
+readily quantified. Investors based their valuations on reported per-
+share earnings. However meaningless the figures, they provide charts
+that closely conform to my theoretical prototype. Here they are:
+--- Page 84 ---
+Reflexivity in the Stock Market 61
+$ LTV CORP [LTV]
+7 CAPITALIZATION 160
+B PR O E N F D E S R RED . . ・ . . S1 $ J 2 0 1 4 5 . . 3 7 150
+COM.SHRS.. . 6,520.0 140
+一 1一953 LOW 130
+， Formerly 120(cid:0)
+7 Ling lemco-Vought d10(cid:0)
+6
+.O5
+.100
+6
+.O 90
+Earns, from(cid:0)
+12/66 include .(cid:0)
+Wilson & Co..(cid:0)
+merged 6/19/67(cid:0)
+and are based(cid:0)
+on average shsJ
+Pd.23/100th£
+Saturn Ind/
+Adj. for(cid:0)
+3 for 3(cid:0)
+8/1/67
+E 3 a / r 3 n 1 s / 71 D 12 1 m 0 o .7 s. 0 [ _ \ X(cid:0) 41/2
+Earns 12 mos.(cid:0) -6/30/71 D 7.42____ ,4
+25 1 3 2 / / 3 3 1 1 / / 7 6 0 9 D D 2 . 3 0 5 5 1 9 2 / / 3 3 0 1 / / 7 7 1 1 D D 7 3 . , 8 3 2 0 _(cid:0) I*(cid:0) 3也
+■ — Earns. 12 mo$・ *(cid:0) 6/30/70 D 5.44(cid:0)*^T*|Earns 12 mos(cid:0) ■3V2
+o--12/31/61 DS3.14 9/30/70 D 7.20 3/31/72 D 3.35 31/4
+50 o —6/30/62 D 2.28 12/31/70 D12J3 1500
+20 o 1200
+90 o o 9 5 0 0 0 0
+60 o 300
+30 0
+(Courtesy of Securities Research Company, a Division of
+Babson-United Investment Advisors, Inc., 208 Newbury St., Boston, MA 02116.)
+--- Page 85 ---
+62 THEORY
+$
+70
+60
+50
+46
+42
+40
+38
+36
+34
+32
+30
+28
+26
+24
+22
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+(Courtesy of Securities Research Company, a Division of
+Babson-United Investment Advisors, Inc., 208 Newbury St., Boston, MA 02116.)
+--- Page 86 ---
+Reflexivity in the Stock Market 63
+(Courtesy of Securities Research Company, a Division of
+Babson-United Investment Advisors, Inc., 208 Newbury St., Boston, MA 02116.)
+My best documented encounter with a boom/bust sequence is that
+of Real Estate Investment Trusts. REITs, as they are called, are a special
+corporate form brought into existence by legislation. Their key feature is
+that they can distribute their income free of corporate taxation, provided
+they distribute all the income they receive. The opportunity created by
+this legislation remained largely unexploited until 1969 when a large
+number of REITs were founded. I was present at the creation and, fresh
+from my experience with conglomerates, recognized their boom/bust
+potential. I published a research report whose key part reads as follows:
+--- Page 87 ---
+64 THEORY
+THE CASE FOR MORTGAGE TRUSTS
+(February 1970)
+THE CONCEPT
+Superficially, mortgage trusts seem to resemble mutual funds de­
+signed to provide high current yields. But the analogy is mislead­
+ing. The true attraction of mortgage trusts lies in their ability to
+generate capital gains for their shareholders by selling additional
+shares at a premium over book value. If a trust with a book value
+of $10 and a 12% return on equity doubles its equity by selling
+additional shares at $20, the book value jumps to $13.33 and per-
+share earnings go from $1.20 to $1.60.
+Investors are willing to pay a premium because of the high
+yield and the expectation of per-share earnings growth. The
+higher the premium, the easier it is for the trust to fulfill this ex­
+pectation. The process is a self^reinforcing one. Once it gets under
+way, the trust can show a steady growth in per-share earnings de­
+spite the fact that it distributes practically all its earnings as divi­
+dends. Investors who participate in the process early enough can
+enjoy the compound benefits of a high return on equity a rising
+book value, and a rising premium over book value.
+ANALYTICAL APPROACH
+The conventional method of security analysis is to try and predict
+the future course of earnings and then to estimate the price that
+investors may be willing to pay for those earnings. This method is
+inappropriate to the analysis of mortgage trusts because the price
+that investors are willing to pay for the shares is an important fac­
+tor in determining the future course of earnings.
+Instead of predicting future earnings and valuations sepa­
+rately, we shall try to predict the future course of the entire self­
+reinforcing process. We shall identify three major factors which
+reinforce each other and we shall sketch out a scenario of the
+probable course of development. The three factors are:
+1. The effective rate of return on the mortgage trusts capital
+2. The rate of growth of the mortgage trusts size
+--- Page 88 ---
+Reflexivity in the Stock Market 65
+3. Investor recognition, i.e., the multiple investors are willing to
+pay for a given rate of growth in per-share earnings
+THE SCENARIO
+Act One: At present, the effective yield on construction loans is at
+an optimum. Not only are interest rates high but losses are at a
+relatively low level. There is a pent-up demand for housing and
+new houses readily find buyers. There is a shortage of funds so that
+the projects which do get oflF the ground are economically well
+justified. Builders who are still in business are more substantial and
+more reliable than at the tail end of a boom. Moreover, they do
+their utmost to complete the construction phase as fast as possible
+because money is so expensive. Shortages of labor and material do
+cause defaults and delays but rising costs permit mortgage trusts to
+liquidate their commitments without loss.
+Money is tight and alternative sources of interim financing are
+in short supply. Investor recognition of the mortgage trust concept
+has progressed far enough to permit the formation of new trusts
+and the rapid expansion of existing ones. The self-reinforcing
+process gets under way
+Act Two: If and when inflation abates, the effective yield on con­
+struction loans will decline. On the other hand, there will be a
+housing boom and bank credit will be available at advantageous
+rates. With higher leverage, the rate of return on equity can be
+maintained despite a lower effective yield. With a growing market
+and growing investor recognition, the premium over book value
+may continue to increase. Mortgage trusts are likely to take full
+advantage of the premium and show a rapid rise in both size and
+per-share earnings. Since entry into the field is unrestricted, the
+number of mortgage trusts will also increase.
+Act Three: The self^reinforcing process will continue until mort­
+gage trusts have captured a significant part of the construction
+loan market. Increasing competition will then force them to take
+greater risks. Construction activity itself will have become more
+(Continued)
+--- Page 89 ---
+66 THEORY
+speculative and bad loans will increase. Eventually, the housing
+boom will slacken off and housing surpluses will appear in various
+parts of the country, accompanied by a slack real estate market and
+temporary declines in real estate prices. At this point, some of the
+mortgage trusts will be bound to have a large number of delin­
+quent loans in their portfolios and the banks will panic and de­
+mand that their lines of credit be paid off.
+Act Four: Investor disappointment will affect the valuation of the
+group, and a lower premium coupled with slower growth will in
+turn reduce the per-share earnings progression. The multiple will
+decline and the group will go through a shakeout period. After
+the shakeout, the industry will have attained maturity: there will
+be few new entries, regulations may be introduced, and existing
+trusts will settle down to a more moderate growth.
+EVALUATION
+The shakeout is a long time away Before it occurs, mortgage
+trusts will have grown manifold in size and mortgage trust shares
+will have shown tremendous gains. It is not a danger that should
+deter investors at the present time.
+The only real danger at present is that the self^reinfbrcing
+process may not get under way at all. In a really serious stock mar­
+ket decline investors may be unwilling to pay any premium even
+for a 12% return on equity. We doubt that such conditions would
+arise; we are more inclined to expect an environment in which a
+12% return is more exceptional than it has been recently and in
+which the self-reinforcing processes of the last few years, notably
+conglomerates and computer leasing companies, are going
+through their shakeout period. In such an environment there
+should be enough money available for a self^reinforcing process
+which is just starting, especially if it is the only game in town.
+If the process fails to get under way investors would find
+downside protection in the book value. The new trusts are coming
+to the market at book value plus underwriting commission (usu­
+ally 10%). Most recently formed trusts are selling at a premium
+which is still modest. It will be recalled that when their assets are
+--- Page 90 ---
+Reflexivity in the Stock Market 67
+fully employed in interim loans, mortgage trusts can earn 11% on
+their book without leverage and 12% with a 1:1 leverage. A mod­
+est premium over book value would seem justified even in the ab­
+sence of growth.
+If the self^reinfbrcing process does get under way, shareholders
+in well-managed mortgage trusts should enjoy the compound
+benefits of a high return on equity a rising book value, and a rising
+premium over book value for the next few years. The capital gains
+potential is of the same order of magnitude as at the beginning of
+other self-reinforcing processes in recent stock market history
+My report had an interesting history. It came at a time when go-go
+fond managers had suffered severe losses in the collapse of the con­
+glomerates. Since they were entitled to share in the profits but did not
+have to share in the losses of the funds they managed, they were in­
+clined to grasp at anything that held out the prospect of a quick profit.
+They instinctively understood how a self^reinforcing process works
+since they had just participated in one and they were anxious to play.
+The report found a tremendous response whose extent I realized only
+when I received a telephone call from a bank in Cleveland asking for a
+new copy because theirs had gone through so many Xerox incarnations
+that it was no longer legible. There were only a few mortgage trusts in
+existence at the time but the shares were so eagerly sought after that
+they nearly doubled in price in the space of a month or so. Demand
+generated supply and there was a flood of new issues coming to mar­
+ket. When it became clear that the stream of new mortgage trusts was
+inexhaustible, prices fell almost as rapidly as they had gone up. Obvi­
+ously the readers of the report failed to take into account the ease of
+entry and their mistake was corrected in short order. Nevertheless their
+enthusiastic reception helped to get the self^reinforcing process de­
+scribed in the report under way Subsequent events took the course
+outlined in the report. Mortgage trust shares enjoyed a boom that was
+not as violent as the one that followed the publication of the report but
+turned out to be more enduring.
+I had invested heavily in mortgage trusts and took some profits
+when the reception of my study exceeded my expectations. But I was
+--- Page 91 ---
+68 THEORY
+sufficiently carried away by my own success to be caught in the down­
+draft with a significant inventory. I hung on and even increased my po­
+sitions. I followed the industry closely fbr a year or so and sold my
+holdings with good profits. Then I lost touch with the group until a
+few years later when problems began to surface. I was tempted to estab­
+lish a short position but was handicapped in that I was no longer famil­
+iar with the terrain. Nevertheless, when I reread the report I had
+written several years earlier, I was persuaded by my own prediction. I
+decided to sell the group short more or less indiscriminately Moreover,
+as the shares fell I maintained the same level of exposure by selling ad­
+ditional shares short. My original prediction was fulfilled and most REITs
+went broke. The result was that I reaped more than 100% profit on my
+short positions——a seeming impossibility since the maximum profit on
+a short position is 100%. (The explanation is that I kept on selling addi­
+tional shares.)
+Self^reinforcing/self-defeating cycles like the conglomerate boom
+and the REITs do not occur every day. There are long fallow periods
+when the specialist in such cycles remains unemployed. He need not
+starve, however. The divergence between underlying trends and in­
+vestor recognition persists at all times and the astute investor can take
+advantage of it. New industries arise, or old ones come back into favor.
+Typically, they are inadequately followed at first. For instance, when de­
+fense spending started to rise in the early 1970s after a long decline,
+there were only two or three analysts left who followed the industry al­
+though it still represented a substantial portion of the economy Those
+who were left were too demoralized to recognize the beginning of a
+major new trend.That was a wonderful time to invest in defense stocks.
+There were high-tech defense stocks that had never been visited by an
+analyst, like E-Systems, Inc., and well-established companies that had
+fallen on evil days trying to diversify out of defense, like Sanders Asso­
+ciates, or getting caught up in scandals trying to sell airplanes through
+bribery, like Northrop and Lockheed.
+In the case of defense stocks, there was no self-reinforcing process
+involved but investor recognition certainly helped the price of the
+stocks. Actually it is a rare case where the investors' bias leaves the fun­
+damentals totally unaffected. Even with defense stocks the prevailing
+bias played a role, but it was a negative one. Lockheed had to be bailed
+out by the government and companies like Sanders Associates had to
+restructure their debt by oflfering convertible bonds at prices that
+--- Page 92 ---
+Reflexivity in the Stock Market 69
+turned out to be very low in retrospect. Only when the negative bias
+was corrected was there very little further feedback: companies had lit­
+tle need for additional capital, and managements, having been burned
+once before, were leery of diversifying out of defense. There were ex­
+ceptions, like United Aircraft, but investorsJ bias never turned positive
+enough to allow a self-reinforcing process to get under way: many of
+United Aircrafts acquisitions were for cash and those that involved
+stock did not enhance earnings significantly. The result was a larger, di­
+versified company, but no boom and bust in the stock.
+Perhaps the most interesting case of negative bias occurred in tech­
+nology stocks. After the stock market debacle of 1974, investors were
+leery of any company that needed to raise equity capital from outside
+sources. Distributed data processing was in the early stages of its devel­
+opment. New companies like Datapoint and Four-Phase were in the
+vanguard with IBM lagging badly. The market was practically explod­
+ing but these little companies were hamstrung by their inability to raise
+capital. The stocks were selling at very low multiples of anticipated
+earnings and the main argument against them was that they would not
+be able to grow fast enough to meet the demand and eventually IBM
+would move into the market. The argument turned out to be valid, but
+not before these companies became large and prosperous and investors
+became eager to throw money at them at high multiples. Those who
+had been willing to fight the negative bias were amply rewarded.
+As the various niches occupied by these small companies converged
+to form a large market, most of them were absorbed by larger compa­
+nies and those that stayed independent fell on evil days. Datapoint is cur­
+rently looking for a home at a much reduced multiple. Four-Phase was
+recently acquired by Motorola, which proceeded to lose its shirt on it. If
+the initial market reaction to distributed data-processing companies had
+been more positive, it is possible that some of the early starters might
+have grown fast enough to survive,just as the earlier wave of microcom­
+puter manufacturers did spawn a few enduring companies like Digital
+Equipment and Data General.
+The negative bias of the 1975-1976 period gave way to the oppo­
+site extreme. It found expression in a venture capital boom that culmi­
+nated in the second quarter of 1983. The sequence of events is not as
+clear cut as in the case of RJEITs, but that is only because high tech­
+nology is not as homogeneous an industry The same reflexive interac­
+tion between stock prices, prevailing bias, and fundamentals can be
+--- Page 93 ---
+7 0 THEORY
+observed but much more specific knowledge is required to trace the
+course of events.
+The availability of venture capital on attractive terms led to a pro­
+liferation of new ventures. Every new company needed equipment, as
+well as inventory so that electronic equipment manufacturers enjoyed a
+boom, and so did the manufacturers of products and components. The
+electronics industry is a large customer of its own products so that the
+boom was self^reinfbrcing. But the proliferation of companies intensi­
+fied competition. Industry leaders lost their market position as a new
+generation of products was introduced because the individuals who
+were responsible for developing them left their companies and set up
+new ones. Instead of companies growing in step with their industry, the
+industry grew by the multiplication of companies. Investors failed to
+recognize this trend; as a result, technology stocks in general and new
+issues in particular became substantially overvalued.
+The new issue boom culminated in the second quarter of 1983.
+When prices started to decline, fewer issues could be sold and eventu­
+ally venture capitalists became less venturesome. As fewer companies
+were formed and the existing ones depleted their cash, the market for
+technology products softened. Competition intensified and profit mar­
+gins deteriorated. The process started to feed on itself and the low point
+has probably still not been reached.*
+The venture capital boom was not the only cause of the subsequent
+shakeout一the strong dollar and the rise of Japanese competition were
+at least as important—but it is clear that stock prices had an impact on
+the "fundamentals'' in both directions.
+What distinguishes the conglomerate and REIT sequences from
+the venture capital boom is that in the first two cases the underlying
+trend itself was based on the exploitation of the investors7 bias while in
+the third it was not. In the case of conglomerates the idea was to ac­
+quire other companies with inflated paper; in the case of REITs the
+idea was equity leveraging. The idea behind the latest generation of
+technology products had nothing to do with the stock market.
+To understand the ups and downs of technology stocks we must
+know something about the underlying trends in technology; in the case
+★PS., February 1987: No longer true after the current explosive rally
+--- Page 94 ---
+Reflexivity in the Stock Market 7 1
+of conglomerates and REITs we need to know little else than the the­
+ory of reflexivity
+It is important to realize, however, that knowing everything
+about underlying trends in technology is not sufficient to explain the
+ups and downs of technology stocks: the reflexive interaction be­
+tween underlying trends, prevailing biases, and stock prices also
+needs to be understood. Combining the two kinds of understanding
+is extremely difficult. Those who want to be familiar with technol­
+ogy must follow the industry closely and continuously; those who
+want to exploit the divergence between perception and reality must
+move from group to group. Most technology experts are ignorant of
+reflexivity and tend to remain fully invested at all times. Their popu­
+larity and influence wax and wane in a reflexive fashion. After the re­
+cent decline in technology stocks, a new breed of analysts seems to
+be emerging who are overly sensitive to the importance of investorsJ
+perceptions. After a decent interval it may be once again profitable to
+go against the prevailing bias and invest in technology stocks on the
+basis of fundamental trends.
+I have always had a lot of difficulty investing in technology stocks
+because of the specialized knowledge required. Finally, I managed to
+gain a good insight into the computer industry during the 1975—1976
+period and profited from the prevailing negative bias. I held on to my
+positions for a few years but then I sold them and lost my grip on the
+industry. In 1981 I made the mistake of not participating in a venture
+capital fund operated by one of the most successful venture capitalists
+of the period in the belief that the boom could not last long enough to
+allow investors to exit in time. In this, I was undoubtedly influenced by
+misgivings about the larger picture. In any event, his investors realized a
+good profit in 1983. By that time I was totally out of touch with tech­
+nology stocks and the boom passed me by.
+Even the conglomerate and REIT sequences were not totally
+self-contained. Extraneous developments, such as the level of eco­
+nomic activity, regulation, or specific events (e.g., the attempted
+takeoyer of Chemical Bank), played a crucial role in the conglomer­
+ate boom. In less "pure" sequences the importance of outside influ­
+ences is even greater.
+We are currently in the midst of another self^reinfbrcing/self-
+defeating cycle that will go down in history as the mergermania of the
+1980s. Instead of inflated paper, it is cash that serves as the currency. The
+--- Page 95 ---
+72 THEORY
+scale of transactions already dwarfs the conglomerate boom. Merger­
+mania is but an element in a much larger ongoing historical drama
+whose ramifications reach far beyond the stock market and involve pol­
+itics, exchange rates, monetary and fiscal policies, quirks of taxation, in­
+ternational capital movements, and many other developments.
+I shall make an attempt at unraveling the ongoing historical drama,
+but that is not as simple as analyzing a more or less self-contained
+boom/bust sequence. The larger picture is full of reflexive interactions
+as well as nonreflexive fundamental trends. We need a more complex
+model that allows for the transition from one boom/bust sequence to
+another and for the coexistence of several reflexive processes at the
+same time.
+Before I embark on such an ambitious project, I want to examine
+another market that is characterized by vicious and benign circles: the
+currency market.
