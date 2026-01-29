@@ -1,0 +1,135 @@
+8
+BROKER SELECTION
+T o enhance your success at trading options, it is important that
+you give careful consideration to your choice of a brokerage
+firm. If you were only going to trade stocks, there are plenty of
+brokers whose services are adequate. To trade options, you must be
+more selective in picking a broker.
+All brokers claim that they are “options friendly,”but you need to exam-
+ine their services closely to see whether this claim is justified.The goal
+here is to outline elements ofbroker services that are most important to
+options trading.
+Types of Brokers
+For purposes of this discussion,we refer to three types of brokers: full
+service,discount,and options specialty.
+Although your broker should address all ofyour investment needs,you
+need to check that their options service is suitable for your purposes.
+You do not necessarily need an options specialty broker,but you should
+review the various items discussed in this chapter to make sure that
+your broker is truly options friendly.
+Commissions
+If you are going to trade options on a regular basis,you should be con-
+cerned about commissions.Because commissions on options trades are
+always higher than on similar stock trades, it is worthwhile to pick a
+broker who offers a reasonable rate.
+With some full-service brokers,the commissions are so expensive that
+your potential to make a profit is significantly diminished.Until recently,
+59
+
+even the so-called discount brokers were charging relatively high com-
+missions on options trades. Fortunately, this is changing as several of
+the big-name discount brokers have reduced their commissions to be
+more competitive with the options specialty firms.
+Nowadays,there is no need to use a broker who is charging $2 per con-
+tract along with a ticket charge of $15 or more.Some of the top-notch
+discount brokers,who offer almost as many benefits as the full service
+brokers,have reduced their commission rates to $1 or less per contract
+along with a $10 ticket charge.
+Essentially,all of the options specialty brokers charge $1.50 or less per
+contract with a ticket charge of$7.50 to $10.Some now apply only one
+ticket charge for a multi-leg options trade. This is a great savings for
+those who do a lot of spread trading.
+All brokerage firms charge more for phone orders handled by one of
+the brokers on their staff.It is worthwhile to get the lower commission
+rate by learning to place your options trades online.With a little prac-
+tice, you will soon be better at initiating options trades than many of
+the broker staff.
+Trading Platform
+When you do your own trades online, you definitely want a high-
+quality trading platform.This is essential to getting good entry and exit
+prices for your options trades.
+Most brokers offer some kind of free trial examination of their trading
+platform.You should take advantage of such an offer to see whether a
+particular platform seems options friendly.
+The most important feature is that you have real-time stock and option
+quotes.In today’s market,things move way too fast for you to be mak-
+ing decisions based on delayed quotes.
+Your platform should provide a convenient means to view option
+chains, where you can quickly and easily identify the various strike
+prices and expiration months.Good platforms also show you the vol-
+ume and open interest numbers for each option. The best platforms
+additionally provide deltas and implied volatilities for the options.
+60
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+A good platform enables you to trade directly from the option chain.
+You can simply highlight the option of interest and bring up a window
+to execute the trade. The best platforms also show you the bid/ask
+prices at each options exchange and enable you to direct your trade to
+the exchange of your choice.
+Good platforms provide stock charting on several time frames,includ-
+ing daily and one-minute intervals.These platforms also offer a variety
+of tools (moving averages,stochastic oscillators,and so on) that can be
+added to the charts. The best platforms enable you to simultaneously
+view several charts with different time frames. Being able to follow
+minute-by-minute stock movement can prove helpful in selecting entry
+and exit points for your options trades.
+Most brokers do not charge for the use of their trading platform,pro-
+vided that you do a sufficient number of trades per month. If your
+trading activity falls below the required level, a nominal monthly
+charge applies.
+The best platforms for options trades enable you to enter multi-leg
+trades as a single entry. A few brokers even have platforms that allow
+contingent option orders,whereby an option trade can be triggered by
+the priceaction in the underlying stock.
+Margin and Trading Limitations
+Margin requirements vary markedly from one brokerage firm to
+another. Also, wide variations exist among brokers as to the types of
+allowed options trades,particularly in retirement accounts.
+The most restrictive brokers require margin that corresponds to the
+worst-case scenario for every option in your account, regardless of
+other options in the account that ensure a hedged position. The most
+liberal brokers only require margin on short option positions to the
+extent that they are not appropriately hedged.
+An easy way to get an overall sense of a broker’s policy on margin
+requirements is to inquire whether they require margin on butterfly
+trades.(Chapter 23,“Butterfly Spreads,”discusses this type of trade.) It
+does not matter whether you plan to do butterfly trades.The answer to
+this one question will provide a good gauge of the broker’s policy on
+61
+Chapter 8 Broker Selection
+
+margin.The more restrictive brokers do require margin on butterflies,
+whereas the most liberal brokers do not.
+In most cases, the options trading restrictions imposed by a broker
+relate to their policy on margin.This connection becomes quite appar-
+ent in retirement accounts. The most restrictive brokers forbid all
+spread trades in retirement accounts, as well as any option trade that
+might require margin. The most liberal brokers allow almost any
+option trade for which there is sufficient cash and/or equity in the
+account to close the trade ifnecessary.
+Live Broker Assistance
+Sooner or later, the time will come when you urgently need the assis-
+tance ofa live broker.Almost all brokerage firms provide a phone num-
+ber to connect you with some kind of live assistance,but the quality of
+that assistance varies dramatically from one firm to another.
+The first issue is how quickly you can get through to live assistance.
+Being on hold for 10 minutes could prove costly when trying to resolve
+a sensitive trade problem.
+The second issue is the competence level of the person who takes
+yourcall.
+Many brokerage firms have a severely limited staff of people who are
+thoroughly familiar with options trades.When you need help with an
+options trade, you want someone on the line who understands your
+problem.Good brokers provide you with direct access to a team ofbro-
+kers who specialize in assistance with options trades.
+In principle,the options specialty brokers should be the best at provid-
+ing competent assistance.Although this is true for many ofthem,there
+are some whose access toa live broker is restricted.
+Comments
+If you are going to be trading options on a regular basis, it is impor-
+tantto be able to execute your trades in the most convenient and cost-
+effective manner.Picking a brokerage firm that is truly options friendly
+will go a long way toward achieving that goal.
+62
+OPTIONS FOR THE BEGINNER AND BEYOND

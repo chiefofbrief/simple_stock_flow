@@ -1,0 +1,195 @@
+22
+BACKSPREADS
+T hebackspread tradeis usedto take advantage of large moves (up
+or down) in the price of a stock or index. A backspread trade
+consists of more long options than short options with the strike
+prices selected so that the cost of the spread is small and even some-
+times can be initiated for a credit.
+The main drawback to a backspread trade is that it returns a significant
+profit only for large moves in the underlying stock or index.In fact,the
+spread incurs its maximum loss when the stock or index has achieved
+only a modest move in price at the option’s expiration date.
+Let’s begin by looking at a typical example of a bullish backspread
+trade:
+■ Example 1.In February,XYZ stock is at $19,and you feel that
+this stock has the possibility of being at $35 or higher within
+the next year.To take advantage of this potentially large move
+at little cost,you consider a backspread trade that uses LEAPS
+calls that will expire in about 11 months.
+Trade:Buy 2 Jan 22.5 calls at $1.70 per share,and sell 1 Jan
+20call at $2.80 per share.
+Cost = $60 [2(1.70 ×100) – (2.80 ×100) = 60].
+Max risk = $310.
+See Figure 22-1 for a risk graph that depicts this trade.
+To better understand this backspread trade,it is useful to think of it as
+a combination of (1) one long Jan 22.5 call purchased for $1.70 per
+share and (2) a bear call spread composed ofone long Jan 22.5 call and
+169
+
+Today: 338 days left
+226 days left
+113 days left
+Expiry: 0 days left
+–1000 0 1000
+one short Jan call, which generates a credit of $1.10 per share [2.80 –
+1.70 = 1.10]. The idea here is that the credit spread is being used to
+finance the cost of the long call.
+At expiration, if XYZ is anywhere above $22.5, the cost of closing the
+credit spread will be $250 [(22.5 – 20.0) × 100 = 250].The one unen-
+cumbered Jan 22.5 call can realize unlimited profit. The break-even
+point for the trade at expiration is XYZ at $25.60. At that point,
+the long call has a profit of $310 [(25.60 – 22.50) × 100 = 310]. This
+exactly offsets the $250 cost of closing the credit spread along with the
+original $60 cost to initiate the trade.
+Suppose that XYZ has risen to $35 as the January option’s expiration
+date arrives.The net profit on the trade is the profit that the unencum-
+bered call makes beyond its break-even price of$25.60.In this case,the
+profit is $940 [(35.00 – 25.60) × 100 = 940]. The return on this trade
+relative to maximum risk is 269 percent.
+170
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+03
+02
+01
+Figure 22-1
+
+The maximum risk on the above trade is $310. This corresponds to
+XYZ closing at exactly $22.50 at expiration,as seen in Figure 22-1.Then
+the two long calls expire worthless,and the short call must be bought
+back for $250 [(22.5 – 20.0) ×100 = 2.5].This loss of $250 in addition
+to the original cost of $60 to initiate the trade gives a total loss of $310.
+If XYZ closes above $22.50,the long calls have some value to offset the
+cost of buying back the short call.If XYZ closes below $22.50,it costs
+less to buy back the short call. If XYZ closes below $20, the short call
+expires worthless and the loss is limited to the $60 cost to initiate the
+trade.
+Next, let’s look at an example of a bearish backspread trade where we
+start out with a credit:
+■ Example 2.In October,ZYX is flying high with a price of $76.
+You feel that this stock is sure to fall back to the level of $45
+over the next several months.Consider playing this scenario
+with a backspread trade using March puts,which expire in
+sixmonths.
+Trade:Buy 2 Mar 65 puts at $4.20 per share and sell 1 Mar
+75put at $9.60 per share.
+Initial credit = $120 [(9.6 ×100) – 2(4.2 ×100) = 120].
+Max risk = $880.
+See Figure 22-2 for a risk graph that depicts this trade.
+This trade can be thought of as a combination of (1) one long
+Mar 65 put purchased for $4.20 per share and (2) a bull put spread
+composed of one long Mar 65 put and one short Mar 75 put, which
+generates a credit of $5.40 per share [9.6 – 4.2 = 5.4]. The credit
+morethan pays for the long put,leaving us a net credit of $120 on the
+combination.
+At expiration, if ZYX is anywhere below $65, the cost of closing the
+credit spread will be $1,000 [(75.0 – 65.0) × 100 = 1,000]. The one
+unencumbered Mar 65 put can realize unlimited profit.The break-even
+point for this trade at expiration is ZYX at $56.20. At that point, the
+long put has a profit of $880 [(65.0 – 56.2) × 100 = 880]. This profit
+171
+Chapter 22 Backspreads
+
+Today: 179 days left
+120 days left
+60 days left
+Expiry: 0 days left
+–1000 0 1000
+together with the initial credit of $120 exactly offsets the $1,000 cost of
+closing the credit spread.
+Suppose that ZYX has fallen to $45 as the March 2005 option’s expira-
+tion date arrives. The net profit on the put backspread trade is the
+profit that the unencumbered put makes beyond its break-even price of
+$56.20.In this case,the profit is $1,120 [(56.20 – 45.00) ×100 = 1,120].
+The return on this trade relative to maximum risk is 127 percent.
+The maximum risk on the above trade is $880. This corresponds to
+ZYX closing at exactly $65 at expiration.Then,the two long puts expire
+worthless, and the short put must be bought back for 1,000 [(75.0 –
+65.0)×100 = 1,000].This loss of $1,000 is offset by the original credit
+of $120 to cause a net loss of $880. If ZYX closes below $65, the long
+puts have some value to offset the cost of buying back the short put.If
+ZYX closes above $65,it costs less to buy back the short put.
+172
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+08
+07
+06
+05
+04
+Figure 22-2
+
+If ZYX closes above $75,the short put expires worthless,and we have a
+net profit on the trade from the original credit received of $120.So,if
+you are completely wrong about this high-flying stock and it fails to fall
+over the next six months,this spread yields a small profit.
+The basic concept ofthe backspread trade is to finance a long option by
+combining it with a credit spread. The standard version of the trade
+uses a ratio of two long options versus one short option, as seen in
+Examples 1 and 2.It is possible to use other ratios of long options ver-
+sus short options.
+Let’s look at an example trade that uses a ratio ofthree long calls versus
+two short calls:
+■ Example 3.In October,ZYX is trading at $28.40.There seems
+to be a good possibility that ZXY is about to break out and will
+be at $40 within the next six months.Let’s see how we might
+play this with a 3:2 backspread trade using April calls.
+Trade:Buy 3 Apr 32.5 calls at $.85 per share and sell 2 Apr
+30calls at $2.10 per share.
+Initial credit = $165 [2(2.1 ×100) – 3(.85 ×100) = 165].
+Max risk = $335.
+See Figure 22-3 for a risk graph that depicts this trade.
+This trade can be thought ofas a combination of(1) one long Apr 32.5
+call purchased for $85 [.85 × 100 = 85] and (2) two bear call spreads
+composed of two long Apr 32.5 calls and two short Apr 30 calls which
+generate a credit of $250 [2(2.1 – .85) × 100 = 250]. The credit
+more than pays for the long call, leaving a net credit of $165 on the
+combination.
+Thebreak-evenpointforthistradeatexpirationisZYXat$35.85.Atthat
+point,thelongcallhasaprofitof$335[(35.85–32.50)×100=335].This
+profittogetherwiththeinitialcreditof$165exactlyoffsetsthe$500cost
+ofclosingthetwocreditspreads[2(32.5–30.0)×100=500].
+Suppose that ZYX has risen to $40 as the April option’s expiration date
+arrives. The net profit on the 3:2 call backspread is the profit that the
+unencumbered call makes above its break-even price of $35.85.In this
+173
+Chapter 22 Backspreads
+
+Today: 169 days left
+113 days left
+57 days left
+Expiry: 0 days left
+–1000 0 1000
+case,the profit would be $415 [(40.0 – 35.85) ×100 = 415].The return
+on this trade relative to maximum risk is 124 percent.
+Comments
+The backspread trade is cheap to initiate, possibly even providing an
+initial credit.In comparing the previous examples,note that to have an
+initial credit, the strike prices of the long and short options must be
+further apart.
+These trades have unlimited potential to profit from large moves in the
+stock price. If the strike prices of the long and short options are far
+apart,a larger move in the stock price is required to produce a profit.
+Unlike most spreads, the backspread trade can achieve a maximum
+profit if the big move in the stock price occurs before expiration.
+174
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+04
+03
+Figure 22-3
+
+The maximum loss in a backspread trade occurs at expiration when the
+stock price coincides with the strike price of the short option(s). This
+loss is always greater than the original debit to initiate the trade.
+The backspread trade will require some margin in your brokerage
+account. The two legs of the trade that represent a credit spread will
+require margin equal to the difference in strike prices between the long
+and shortoptions.
+175
+Chapter 22 Backspreads
+
+This page intentionally left blank

@@ -1,0 +1,340 @@
+13*
+ADVANCED
+CALENDAR SPREADS
+T his chapter discuses some advanced concepts for calendar
+spreads.
+Volatility Skew Trades
+Implied volatility (IV) is one of the most important pieces of options
+data used in finding a good calendar spread.The primary use ofIV is to
+determine whether an option is comparatively overpriced or under-
+priced. Most options friendly brokerage firms provide IV data for
+options.The value of the IV for an option is calculated from a theoret-
+ical model for options pricing known as the Black-Scholes formula.
+Some discussion of the calculation of implied volatility is provided in
+Chapter 29,“Implied Volatility and the Black-Scholes Formula.”
+Ifthe current IV ofan option is high compared to an annual average,it
+means that the price of the option is inflated with extra time value.In
+the case of calendar spreads,the IV data is used to make a comparison
+between the long and short legs of the spread.To increase our chance
+for success with a calendar spread,we want the short leg of the spread
+to be overpriced as compared with the long leg. This volatility skew is
+observed when the IV of the short option is larger than the IV of the
+long option.
+The numeric value of the volatility skew is the percentage increase in
+the IV of the short option as compared with the IV of the long option.
+You might think that the greater the skew, the better the chance for a
+95
+
+successful calendar spread. Unfortunately, this is not necessarily true.
+Typically,volatility skews between 10 percent and 25 percent work best.
+Be suspicious of IV skews that are 30 percent or greater, particularly
+when both options have unusually high IVs.
+An unusually high volatility skew often means that the front-month
+options are being used for wild speculation in the underlying stock due
+to some impending event that could dramatically alter the stock price.
+For example, prior to an announcement of FDA approval (or disap-
+proval) of a drug,it is common to observe IV skews of 50 percent and
+greater.The danger here for a calendar spread is twofold:(1) When the
+event happens,it may instantaneously move the stock price out of the
+profitability range of the calendar spread. (2) Even if the stock price
+remains unchanged,all the volatility will quickly collapse back to more
+normal levels after the event has passed. This IV collapse is called a
+volatility crush. Because this crush affects all the options, the price of
+the long option in the calendar spread will be crushed to a fraction of
+its original value, thereby destroying the potential for a profit in the
+trade.
+The bottom line here is that we want a “Goldilocks”IV skew: not too
+cold and not too hot,but just right.
+Let’s look at some examples of calendar spreads with a reasonable
+volatility skew:
+■ Example 1.In early May,XYZ is trading at $16.90,which
+makes the $17.50 strike price a reasonable choice for a call cal-
+endar spread.The IV for the Jun 17.5 call is 49,whereas the IV
+for the Jan 17.5 call is only 41.That gives a skew of 19.5 percent
+[(49 – 41)/41 = 0.195].
+Trade 1:Buy 1 Jan (05) 17.5 call for $2.10 per share and sell 1 Jun
+17.5 call for $1.15 per share.The net debit and maximum risk on
+this trade is $95 [(2.10 – 1.15) ×100 = 95].
+See Figure 13-1 for a risk graph that depicts this trade.
+This risk graph shows that the range of profitability is between $15
+and $23.A maximum profit of $125 for a gain of 132 percent occurs if
+96
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+Today: 46 days left
+31 days left
+16 days left
+Expiry: 0 days left
+–100 0 100
+XYZ closes at exactly $17.50 at the June options expiration. If XYZ
+closes between $16 and $20.50, the spread should show a profit
+between $50 and $125, for a gain between 53 percent and the maxi-
+mum of 132 percent.
+For a comparison,let’s look at a calendar spread on XYZ that uses put
+options.With XYZ trading at $16.90, the $15 strike price seems like a
+reasonable choice for a put calendar spread.
+Trade 2:Buy 1 Jan 15 put for $1.60 per share and sell 1 Jun 15 put
+for $.80 per share. Then, net debit and maximum risk on this
+trade is $80 [(1.60 – .80) ×100 = 80].
+The IV for the Jan (05) 15 put is 44,whereas the IV for theJun 15 put
+is 52.That gives a skew of 18.2 percent [(52 – 44)/44 = 0.182].
+See Figure 13-2 for a risk graph that depicts this trade.
+97
+Chapter 13 Advanced Calendar Spreads
+ecirP
+kcotS
+02
+01
+Figure 13-1
+
+Today: 46 days left
+31 days left
+16 days left
+Expiry: 0 days left
+–100 0 100
+This risk graph shows that the range ofprofitability is between $13 and
+$18. A maximum profit of $100, for a gain of 125 percent, occurs if
+XYZ closes at exactly $15 at the June options expiration.If XYZ closes
+between $13.50 and $17, the spread should show a profit between
+$30 and $100, for a gain between 38 percent and the maximum of
+125percent.
+Comments
+Always do a little research on the stock you are considering for a calen-
+dar spread.You want to determine whether there is any upcoming com-
+pany event that might affect the IV of its options.
+In comparing the call calendar spread (Trade 1) with the put calendar
+spread (Trade 2),we note that the call spread is shifted toward a higher
+98
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+02
+01
+Figure 13-2
+
+price range,whereas the put spread is shifted toward a lower price range.
+This is typical ofslightly out-of-the-money calendar spreads becausethe
+maximum gain always occurs at the strike price.
+The call spread and the put spread had about the same volatility skew,
+but the call spread had a wider range ofprofitability ($15 to $23 for the
+call spread versus $13 to $18 for the put spread).Part of the reason for
+this was that the $17.50 strike used for the calls was closer to the stock
+price of $16.90 than was the $15 strike price used for the puts.
+If we had used in-the-money options instead of slightly out-of-the-
+money options for these calendar spreads, the range of profitability
+would have been a little narrower, whereas the maximum gain at the
+strike price would have been larger. The reason for the larger gain is
+that the option being sold has intrinsic value as well as time value.
+Then, as the stock price moves toward the strike price, both intrinsic
+value and time value are being captured.Of course,the long option is
+also losing intrinsic value,but its overall price may be less affected.The
+bottom line here is that ifthere is any benefit from using in-the-money
+options for a calendar spread,it must be determined on an individual
+case basis.
+Ratio Calendar Spread Trades
+A useful modification of the classic calendar spread trade is the ratio
+calendar spread trade.The ratio concept simply means that fewer con-
+tracts are sold than are bought.The purpose of having more long con-
+tacts than short ones is to remove the constraint on one end of the
+profitability range, thereby allowing for unlimited profit if the stock
+price makes a large move in the appropriate direction.
+Using either call or put options for the ratio calendar spread,fewer near
+month contracts are sold than the number purchased ofdistant month
+contacts.With calls,this has the effect of opening the upper end of the
+risk graph for unlimited profit if the stock price moves higher.
+Analogously,with puts,this has the effect of opening the lower end of
+the risk graph for unlimited profit if the stock price moves lower.
+The key issue here is what should be the ratio oflong contracts to short
+contracts to achieve the best return.On the one hand,we want to keep
+99
+Chapter 13 Advanced Calendar Spreads
+
+the cost basis low by having almost as many short options as long ones.
+On the other hand,we want to achieve an increasing profit level if the
+stock moves in the appropriate direction.Although there is no unique
+answer here, some experience shows that ratios such as 3:2 or 4:3 are
+good ones to consider.
+To illustrate a ratio call calendar spread,let’s modify the above Trade 1
+with a 4:3 ratio.
+Trade 3:Buy 4 Jan (05) 17.5 calls for $2.10 per share and sell 3
+Jun 17.5 calls for $1.15 per share.The net debit and maximum
+risk on this trade is $495 [(2.10 ×400) – (1.15 ×300) = 495].
+See Figure 13-3 for a risk graph that depicts this trade.
+Today: 46 days left
+31 days left
+16 days left
+Expiry: 0 days left
+–1000 –700 –500 –300 –100 100 300 500 700 900
+100
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+02
+01
+Figure 13-3
+
+It is seen that the range of profitability at expiration is any price above
+$15.60.In comparison with Trade 1,the lower bound of the profitabil-
+ity range has been raised only slightly, whereas the upper bound has
+been entirely removed.
+For the standard calendar spread of Trade 1,the maximum return was
+achieved only if XYZ closed at exactly the strike price of $17.50 at the
+June expiration. Although the maximum return on investment was
+132percent,that figure dropped offquickly ifthe closing price deviated
+up or down from $17.50.By comparison,the ratio calendar spread of
+Trade 3 has a return on investment of 81 percent at the strike price
+$17.50,but has the benefit that the return is essentially the same for any
+stock price up to $21. Above $21, things get even better as the return
+rapidly increases without limit.
+Comments
+If you want to allow for a possible move in the stock price that would
+take it outside ofthe range ofprofitability,consider modifying the stan-
+dard calendar spread to that of a ratio calendar spread. As a starting
+point,look at the number oflong contracts versus the number ofshort
+contracts in ratios of 3:2 or 4:3.
+Deep-in-the-Money LEAPS Put
+Calendar Spreads
+This is a special type of calendar spread intended for a 9 to 12-month
+bullish position on stocks that have LEAPS put options. These trades
+provide high leverage,but may require some unusual maintenance.To
+do this type oftrade,the stock must offer LEAPS puts with strike prices
+well above the current stock price. It helps if those puts also have sig-
+nificant open interest, although you may be able to work around that
+issue if necessary.
+Basic strategy: Buy one long-term LEAPS put (21 to 24 months until
+expiration) with a strike price that is well above the current price ofthe
+stock and sell one nearer-term LEAPS put (9 to 12 months until expi-
+ration) with the same strike price.
+101
+Chapter 13 Advanced Calendar Spreads
+
+This creates a calendar spread where both legs are deep-in-the-money
+puts.
+The important feature ofthese deep-in-the-money puts is that they will
+have relatively little time value included in their prices. Thus, even
+though the long and short options are a year apart in expiration dates,
+they will have nearly the same price.This will make the cost ofthis cal-
+endar spread quite low and hence offer substantial leverage.
+In the scenario for maximum profit on this spread, the stock will rise
+over time so as to reach the strike price of the options at the expiration
+date of the short leg. With the short put expiring worthless, the long
+put will still have one full year’s worth of value,which can be immedi-
+ately sold to achieve maximum profit.
+The maintenance issue on this type of spread arises if you receive an
+assignment on the short option. Typically, this only occurs if all the
+time value disappears and the open interest is quite low.The remedy is
+to sell the stock assigned to you and resell the same put option simulta-
+neously.Be sure to do these two transactions together so as to reestab-
+lish the spread at no net cost (aside from trade commissions).That is,
+make sure that the proceeds received from the reselling the put option
+will match the difference between the prices at which you buy and sell
+the stock.
+To illustrate this deep-in-the-money LEAPS put calendar spread,con-
+sider ZYX stock with a current price of $49.You expect ZYX to be at
+$65 in nine months.
+Trade 4:Buy 1 Jan (08) 65 put at $19.30 per share and sell 1 Jan
+(07) 65 put at $17.90 per share for a net debit of$1.40 per share.
+Cost = $140.
+Max risk = $140.
+See Figure 13-4 for a risk graph that depicts this trade.
+Note that although the options being bought and sold are individually
+quite expensive,the net cost for establishing the spread is only $140.
+102
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+Today: 38 days left
+254 days left
+127 days left
+Expiry: 0 days left
+–200 –100 0 100 200 300 400 500 600
+The maximum profit occurs when ZYX stock is at $65 as the Jan (07)
+put expires worthless.An option calculator indicates the long Jan (08)
+65 put would have a price of$8.20 per share.That represents a profit of
+$680 [820 – 140 = 680],as seen in Figure 13-4,for a gain of485 percent.
+If the price of ZYX is in the range of $57 to $77,the profit would be at
+least $310,for a gain of225 percent or better.The downside break-even
+point is ZYX at $49 at expiration.
+Diagonal Calendar Spread Trades
+Another version of the calendar spread is the diagonal spread, which
+uses a different strike price in the front-month option than in the back
+month.The basic idea is to select the long option to have a strike price
+that is out-of-the-money compared to the strike price of the short
+option. This reduces the cost of the calendar and in some cases even
+creates an initial credit.
+103
+Chapter 13 Advanced Calendar Spreads
+ecirP
+kcotS
+011
+001
+09
+08
+07
+06
+05
+04
+03
+Figure 13-4
+
+The diagonal spread trade frequently works best when the two strike
+prices are no more than $2.50 apart,because it keeps the maximum risk
+on the trade at a reasonable level. This means restricting this type of
+trade to either low-priced or some medium-priced stocks, as well as
+various indexes that have closely spaced strike prices.
+Let’s look at an example involving the S&P 500 index as represented by
+the SPDRs Trust (SPY), which has strike prices separated by $1. The
+SPY is currently trading at $124.
+Trade:Buy 1 Oct 126 call and sell 1 Sept 124 call for a net credit
+of $.25 per share.
+Initial Credit = $25.
+Max risk = $175.
+See Figure 13-5 for a risk graph that depicts this trade.
+Today: 45 days left
+30 days left
+15 days left
+Expiry: 0 days left
+–200 –100 0 100
+104
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+031
+021
+Figure 13-5
+
+The risk graph in Figure 13-5 is typical of a diagonal spread with call
+options, which is done for an initial credit. The risk graph calculator
+estimates a break-even price of $126.25 at the September options expi-
+ration date.Any price ofthe SPY below that level leads to a profit.Ifthe
+SPY price falls to a low level,the profit is the initial credit received on
+the trade.To suffer the maximum loss requires the SPY price to rise to
+an extremely high level.In practice,the risk would be significantly less
+than the theoretical maximum of $175.
+An alternate view of the diagonal spread trade is the combination of a
+regular calendar spread and a front-month credit spread.In the case of
+the preceding example trade,consider the following two trades:
+Calendar spread:Buy 1 Oct 126 call and sell 1 Sept 126 call for a
+net debit of $.30 per share.
+Vertical spread:Buy 1 Sept 126 call and sell 1 Sept 124 call for a
+net credit of $.55 per share.
+When both of these trades are done together, the sale of the Sept 124
+call in the calendar spread is cancelled by the purchase of the same
+option in the vertical spread.The result of this cancellation is the diag-
+onal spread trade shown in Figure 13-5.In essence,the vertical spread
+provides a credit that finances the cost of the calendar spread.
+The diagonal spread offers several alternatives at the expiration date of
+the front-month option.In the SPY trade shown above,ifthe price ofthe
+SPY is below $124 at the September options expiration date, the short
+call will expire worthless.This leaves the Oct 126 call free to become part
+of another trade. For example, a bear call spread could be created by
+selling Oct 124 call.
+When the diagonal spread is created with calls,the attitude is that the
+price of the underlying stock or index will move either sideways or
+downward.As seen in Figure 13-5,the profit zone caters to a sideways
+or downward movement of the SPY price. When the diagonal spread
+is done with puts, the profit zone caters to a sideways or upward
+movement.
+105
+Chapter 13 Advanced Calendar Spreads
+
+This page intentionally left blank

@@ -1,0 +1,192 @@
+29*
+IMPLIED VOLATILITY
+AND THE BLACK-
+SCHOLES FORMULA
+T he concept of implied volatility (IV) is important in evaluating
+an options trade. Experienced options traders have learned to
+appreciate that the implied volatility of an option suggests
+whether the option is overpriced or underpriced. To fully understand
+the meaning of implied volatility, you need some basic knowledge of
+the theory of options pricing,as expressed in the famous Black-Scholes
+formula.
+The goal of this chapter is to provide some background and insight
+into the Black-Scholes formula and how IV is determined from that
+formula.Also,the use of IV data in trading is briefly discussed.
+Historical Background
+Back in the early 1970s when options on U.S. stocks were first intro-
+duced,everyone was guessing as to how they should be priced.Clearly,
+the option price should be related to the underlying stock price, but
+beyond that things were vague.At the time,there were three men on the
+forefront of theoretical finance trying to solve this problem, namely
+Fischer Black,Myron Scholes,and Robert Merton.
+The work of these men led to an important formula for the pricing of
+options. This result became known as the Black-Scholes formula,
+because it first appeared in a 1973 paper authored by Black and Scholes.
+215
+
+Twenty-four years later,in 1997,Merton and Scholes were awarded the
+Nobel Prize in Economics for their groundbreaking work on the pric-
+ing of options.If Black had not passed away,he would have shared in
+the award.
+Derivation of the Black-Scholes Formula
+This section is intended to provide an overview of how the Black-
+Scholes formula is derived without presenting any of the mathematical
+details. Those readers who find this discussion a bit too technical can
+skip to the next section.
+■ Part 1.The first part of the theory is the development of an
+equation to describe the movement of stock prices.The equa-
+tion contains two fundamental components that contribute to
+the change in the price of a stock.One component represents a
+simple return on your investment,which is proportional to the
+price of the stock.This component is something like com-
+pound interest earned on the money invested in buying the
+stock,and it always acts to increase the stock price.The other
+component is the random influence arising from minute-by-
+minute news,rumors,and spurious actions that create interest
+or disinterest in owning the stock.This random component can
+either positively affect the price change (due to good news),or
+negatively affect the price change (due to bad news).When a
+stock price drops,it is because the random component is suffi-
+ciently negative to overwhelm the simple return component.
+The sensitivity of the random component to minute-by-minute
+events is measured by a parameter called the volatility.This
+volatility parameter is different for each stock.For example,a
+recently released IPO stock often exhibits high volatility as it
+moves up or down 30 percent in reaction to a minor news item.
+Contrast this with the low volatility nature of a staid Dow stock
+that moves up or down only 3 percent on what appears to be
+important news.More about this volatility parameter will
+follow later.
+216
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+■ Part 2.The second part of the theory represents the essential
+contribution of Black,Scholes,and Merton.They proposed an
+idealized portfolio that is long several shares of stock and short
+one call option.The objective in this hypothetical portfolio is
+to continually adjust the number of shares of stock so as to
+counteract the random influence component described in
+Part1.This requires an ongoing,second-by-second buying
+andselling of stock,which could only be achieved in an
+idealized setting.
+Next,it is reasoned that if this idealized portfolio is continually
+adjusted so as to be independent of random influences,it is
+guaranteed to earn a profit.In an efficient U.S.market,the
+bestguaranteed profit is derived from a U.S.treasury bill or
+similar instrument whose return is based on the interest rate set
+by the Fed.The important conclusion to this reasoning is that
+the short-term increase in the value of the idealized portfolio
+must be exactly the same as the return from a U.S.treasury bill
+held over the same period of time.
+■ Part 3.In the final stage of the theory,the elements described
+in Parts 1 and 2 are linked together mathematically.Then,
+through the application of stochastic calculus (an extension of
+classical calculus that accounts for random effects),there
+emerges a partial differential equation that governs the price of
+the call option in the idealized portfolio.Solving that partial
+differential equation yields the “Black-Scholes formula”for
+calculating the price of a call option.
+Application of the Black-Scholes Formula
+Now let’s discuss how the Black-Scholes formula might be used. The
+formula is a complicated mathematical expression and is not shown
+here.It is not essential to see the formula to appreciate how it is used.
+To actually calculate something from the formula requires using one of
+the many special calculators or software programs that has the formula
+programmed into its operation.
+217
+Chapter 29 Implied Volatility and the Black-Scholes Formula
+
+To calculate the current price of a call option, the Black-Scholes for-
+mula requires the input of five pieces of information, namely (1) the
+current price of the stock, (2) the strike price of the option, (3) the
+amount of time remaining until the option expires, (4) the current
+interest rate,and (5) the value of the volatility parameter for the stock,
+as described previously in Part 1.
+Each of the required pieces of information is readily available, except
+for the value ofthe volatility parameter.There have been a multitude of
+ideas proposed as to how the value of this volatility parameter should
+be determined.
+One possible choice for the value ofthe volatility parameter is the“his-
+torical volatility”associated with the stock.The historical volatility of a
+stock is calculated as the annualized standard deviation of the daily
+closing stock price relative to a mean value.
+Using the value of historical volatility along with the other four pieces
+of input information,the Black-Scholes formula (via an options calcu-
+lator) will provide a theoretical price for the option. As might be
+expected,the theoretically predicted price obtained by this calculation
+rarely agrees with the actual option price observed in the marketplace.
+This suggests that historical volatility is not the appropriate volatility
+parameter to accurately determine the price of an option.
+Even though there is a disagreement between the actual option price
+and that predicted by the Black-Scholes formula using historical
+volatility of the stock, this discrepancy can be viewed as useful infor-
+mation.Ifwe think ofthe predicted price as some sort ofnormal value
+based on an annualized average volatility,the actual price ofthe option
+can be viewed as either expensive or cheap by comparison.When the
+actual option price appears to be undervalued,we may want to buy it.
+If it appears to be overvalued, we may want to structure a trade in
+which that option is sold.
+Implied Volatility
+The application ofthe Black-Scholes formula as described in the last sec-
+tion is not the modern way in which it is used.As pointed out,the weak
+link in applying the formula is the choice of the volatility parameter.
+218
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+Tocircumvent this issue,a different way to apply the formula was devised
+in which the volatility parameter was given a new interpretation.
+Rather than trying to guess what value to use for the volatility parameter,
+the modern approach is to insert the actual option price from the mar-
+ketplace into the Black-Scholes formula,and then let the formula tell us
+what the volatility should be.The value ofthe volatility parameter deter-
+mined in this manner is called the implied volatility,or IV for short.
+A major drawback in using the historical volatility to calculate theoret-
+ical options prices is that the same parameter value is used for all strike
+prices and all expiration months.In the modern approach of inserting
+actual option prices into the Black-Scholes formula,it is possible to cal-
+culate an IV for each individual option. These calculations reveal that
+the IV is generally quite different for each option.Also,the value of the
+IV can change quickly in response to changing circumstances sur-
+rounding the stock.
+Applications of Implied Volatility
+How is this IV used in trading? To begin with,we can compare the IV
+figure to the historical volatility.Also,we can examine the history ofthe
+IV itself to see how its current value differs from its values in the past.
+These comparisons will suggest if the option is currently overpriced or
+underpriced.
+As a trading tool, IV proves particularly useful in selecting calendar
+spreads.To evaluate a possible calendar spread trade,compare the IV of
+two call (or put) options that have the same strike price but different
+expiration months.If the front-month option has a higher IV than the
+distant month,this is calleda volatility skew.Such skews are important in
+initiating a calendar spread by buying the relatively cheap distant month
+option and selling the relatively expensive front-month option.This con-
+cept is discussed more fully in Chapter 13,“Advanced Calendar Spreads.”
+Checking the IV of an option is also a good way to avoid a trap,which
+is known in options trading as the volatility crush. Buying an option
+with an extremely high IV can be a costly mistake. High IV is often
+associated with some intense excitement about the underlying stock,
+219
+Chapter 29 Implied Volatility and the Black-Scholes Formula
+
+such as the rumor of a buyout, FDA drug approval, settlement of a
+court case,and so on.As soon as the excitement is over,the IV falls back
+to some more normal level,and the value ofthe option is “crushed.”An
+option purchased when its IV is high will be reduced to a fraction ofits
+purchaseprice when the IV suddenly reverts to its mean value.
+Comments
+The Black-Scholes formula, and some modern variations of the
+formula,continue to play an important role in guiding options traders.
+It may seem backward to use the Black-Scholes formula to determine
+the IV ofan option rather than to determine the theoretical price ofan
+option.But,experience has shown that the IV of an option is a useful
+concept, because the prices in the marketplace are providing the true
+value of the volatility parameter for each individual option.
+Comparison of the current IV against historical norms leads to a more
+reliable estimation of whether an option is currently overpriced or
+underpriced.
+The brokerage firms that are options friendly will provide IV values in
+their data feed.Also, the CBOE Web site offers a service that provides
+volatility data.
+220
+OPTIONS FOR THE BEGINNER AND BEYOND

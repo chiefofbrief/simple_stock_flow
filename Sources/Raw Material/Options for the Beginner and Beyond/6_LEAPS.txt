@@ -1,0 +1,179 @@
+6
+LEAPS
+S ome stocks and indexes have options with expiration dates that
+occur two to three years into the future.These options are called
+LEAPS, which is an acronym for Long-term Equity AnticiPation
+Securities.Most LEAPS expire in January of their designated expiration
+year. These options include both calls and puts that function in the
+same manner as options associated with more-current expiration dates.
+Of course, these long-term options are relatively expensive because of
+their greatly extended lifetime.
+You can use LEAPS in numerous ways.We discuss some of those uses
+here, while pointing out both the advantages and disadvantages of
+LEAPS. Because there can be drawbacks to using these long-term
+options,you should always “Look before you LEAPS.”
+One ofthe more popular uses ofLEAPS is as a substitute for a buy-and-
+hold stock.In fact,LEAPS are sometimes referred to as the poor man’s
+stock.This is because they can be purchased for a fraction ofthe cost of
+stock and then held for a long period of time.
+To explore this concept of using a LEAPS call as a stock surrogate,let’s
+look at an example in which we compare the performances of the
+option and the stock.
+In early December 2004,XYZ stock is trading near $98 per share.If we
+buy 100 shares of stock, the cost is $9,800. Suppose instead, we buy a
+LEAPS call that will expire in about 25 months.
+Trade:Buy 1 Jan (07) 100 call option for $11.50 per share.
+Cost = $1,150.
+Max risk = $1,150.
+See Figure 6-1 for a risk graph that depicts this trade.
+47
+
+Today: 753 days left
+502 days left
+251 days left
+Expiry: 0 days left
+–2000 –1000 0 1000 2000
+For a cost that is only 12 percent the cost of owning the stock,we can
+participate in the price movementof 100 shares of XYZ until the third
+Friday ofJanuary 2007,which is a little more than 2 years in the future.
+This sounds like a fantastic deal, and under the right circumstances it
+can be fantastic.But there are also circumstances in which it may not be
+advantageous to own the LEAPS call in place of the stock.
+Now let’s look ahead to some possible outcomes after 8 months and
+after 17 months:
+■ Scenario 1.After 8 months
+XYZ is at $120 for a 22 percent gain in stock value.The Jan (07)
+100 call will show a profit of about $1,400,for a 122 percent
+gain in value.This dramatically illustrates the leverage of
+LEAPS options.
+48
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+021
+011
+001
+09
+Figure 6–1
+
+XYZ is at $110,for a 12 percent gain in stock value.The Jan (07)
+100 call will show a profit of about $600,for a 52 percent gain
+in value.The LEAPS call is still providing a fantastic return.
+XYZ is at $104,for a 6 percent gain in stock value.The Jan (07)
+100 call will show a profit of about $90,for an 8 percent gain in
+value.The LEAPS call is slightly better.
+XYZ is at $100 for a 2 percent gain in stock value.The Jan (07)
+100 call will show a loss of about $100,for a 9 percent drop in
+value.This illustrates that even a LEAPS call experiences some
+loss in time value over the first eight months of its lifetime.
+XYZ is at $95,for a 3 percent loss in stock value.The Jan (07)
+100 call will show a loss of about $500,for a 43 percent drop in
+value.Here the LEAPS call has suffered a more dramatic loss of
+value because the stock price issignificantly below the strike
+price of the option.
+You can see the results for Scenario 1 in Figure 6-1 by looking
+near the line for 502 days left.
+■ Scenario 2.After 17 months
+XYZ is at $120,for a 22 percent gain in stock value.The Jan (07)
+100 call will show a profit of about $1,200,for a 104 percent
+gain in value.The return on the LEAPS call is still dramatically
+better after a full year.
+XYZ is at $110,for a 12 percent gain in stock value.The Jan (07)
+100 call will show a profit of about $400,for a 35 percent gain in
+value.Again,the LEAPS call provides a much better return.
+XYZ is at $105,for a 7 percent gain in stock value.The Jan (07)
+100 call will be nearly at a break-even status.After a full year,
+the LEAPS call has suffered enough loss of time value to offset
+a small gain in its intrinsic value.
+XYZ is at $100,for a 2 percent gain in stock value.The Jan (07)
+100 call will show a loss of about $300,for a 26 percent drop in
+value.The time decay over an additional 9 months has increased
+the loss of value in the option from 9 percent to 26 percent.
+49
+Chapter 6 Leaps
+
+XYZ is at $95,for a 3 percent loss in stock value.The Jan (07)
+100 call will show a loss of about $700,for a 61 percent drop in
+value.After a full year,a relatively small drop in the stock price
+results in a large loss of value in the LEAPS call,even though
+the option still has another year remaining in its lifetime.
+You can see these results for Scenario 2 in Figure 6-1 by looking
+near the line for 251 days left.
+The main lesson to be learned from the preceding example is that a
+LEAPS call performs much differently than stock.Ifthe stock performs
+well, the LEAPS call will provide a greatly enhanced return. On the
+other hand, if the stock price gains little or experiences a small drop
+during the first quarter or first half of the LEAPS lifetime, the call
+option will perform poorly.The option may even suffer a loss while the
+stock makes a small gain,and it can suffer a substantial loss even if the
+stock has only a small drop in price.
+In the preceding example, no illustration of performance has been
+shown when the stock price has fallen by a large amount after 8 months
+or 17 months.It is assumed that some stop loss feature is in place for
+either the stock or the option that would mitigate that situation. It is
+worthwhile,however,to note that if a catastrophic collapse of the stock
+price occurs,the dollar amount at risk with 100 shares of stock greatly
+exceeds that of one LEAPS call.
+As a further illustration of the performance of LEAPS calls in compar-
+ison with stock,let’s look at some actual results.On January 15,2004,a
+group of 10 long-term options trades were issued to subscribers of The
+Options Professor Newsletter (a product of Independent Investor, Inc).
+The Options Medley 2004 consisted of 10 LEAPS Jan (05) calls based
+on 10 stocks drawn from a broad range of market interests. These
+options trades were designed to be aggressive,because they were using
+LEAPS that had only a one-year lifetime and whose strike prices were
+about 10 percent out-of-the-money.
+When it was recommended that the Medley trades be closed on
+December 28,2004,the total return was 121 percent,even though not
+all ofthe 10 trades were profitable.Here are actual results oftwo trades
+50
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+from the Medley,selected to illustrate one trade that was profitable and
+one that was not.
+■ D.R.Horton (DHI).The stock price was at $26 on January 15,
+2004,when the Jan (05) 30 call was purchased for $2.80 per
+share.On March 3,2004,DHI was at $33,for a 27 percent gain
+in the stock price.The LEAPS call was priced at $5.80,for a
+gain of 108 percent.By December 28,2004,DHI was near $40,
+for a 54 percent gain in the stock price.The LEAPS call was
+priced at $9.60,for a gain of 243 percent.
+■ Verizon Communications (VZ).The stock price was at $37 on
+January 15,2004,when the Jan (05) 40 call was purchased for
+$1.70 per share.When this trade was closed on December 28,
+2004,VZ was near $41,for an 11 percent gain.The LEAPS call
+was priced at $1.20,for a loss of 29 percent.
+The Medley concept illustrates an important aspect of using LEAPS
+calls instead ofbuying stock.For the same cost as owning 100 shares of
+a single stock,it is possible to participate in the price movement of 100
+shares of several stocks by buying LEAPS calls, thereby spreading risk
+across a diversified portfolio.
+Another trading strategy that uses LEAPS calls involves the selling of
+front-month premium against the long-term calls.This is similar to the
+covered call strategy, which is discussed later in Chapter 14,“Covered
+Calls.” In the previous example with the XYZ Jan (07) 100 call, you
+could begin by selling the Feb (05) 105 call for $.50 per share, which
+brings $50 cash credit into your brokerage account. If this could
+berepeated on a month-by-month basis,it would generate $600 over a
+12-month period. This would substantially offset the loss situations
+described in Scenario 2.Ofcourse,this strategy could lead to situations
+in which profit from the upward movement ofthe stock price would be
+limited by the short call.
+The use of both LEAPS calls and puts is essential to the collar trade
+strategy. This strategy is also discussed later in Chapter 18,“Collars,”
+and Chapter 19,“Advanced Collars.”
+51
+Chapter 6 Leaps
+
+Comments
+Some remarks are in order regarding the role ofdividends when LEAPS
+calls are used in place ofstock.Unlike owning the stock,the owner ofa
+LEAPS call does not receive any dividend distributed by the company.
+You must take this into account when comparing the performance of
+the option with the stock. In the previous example with XYZ, if the
+annual yield from dividends issued to stockholders is less than 1 per-
+cent, the performance comparisons shown previously are essentially
+unaffected. If XYZ paid annual dividends of 6 percent, however, this
+would significantly influence the performance comparison.
+52
+OPTIONS FOR THE BEGINNER AND BEYOND

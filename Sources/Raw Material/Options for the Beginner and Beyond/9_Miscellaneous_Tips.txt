@@ -1,0 +1,161 @@
+9
+MISCELLANEOUS TIPS
+H ere are some miscellaneous tips to help you become more
+successful in trading options.Some of these have already been
+suggested in earlier chapters, but are worthy of repeating here
+for emphasis.
+Time Is Money
+The expression“time is money”is one of the most important concepts
+in options trading. It is most relevant to those who either own an
+option or are planning to buy an option.
+If you own an option,time is your enemy.You must keep in mind that
+the time value ofyour option will diminish,particularly during the last
+two to three weeks before expiration. If your option is out-of-the-
+money,you are especially vulnerable to a total loss ofinvestment in the
+trade.Never hold an out-of-the-money option until the very end with
+only the faint hope that unforeseen circumstances will cause the stock
+to move favorably for you. An early exit from a few of these hopeless
+trades can salvage enough capital to fully finance a new trade. Forget
+about those rare instances in which the stock did finally move favorably
+during expiration week, because those highly infrequent payoffs will
+not offset several trades with a 100 percent loss.
+When you are considering an option to buy,make sure that you allow
+enough time to be proven right in your judgment about the stock.
+Itmay be tempting to select that cheap front-month option on a stock
+that you expect to soon move up,but three to four weeks can pass very
+quickly.The option with the same strike price that expires two to three
+months later may seem expensive,but it is usually worth paying more
+to get the extra time to participate in the expected stock movement.
+63
+
+Trading with the Trend
+Before initiating an option trade,check thecurrent trend of your stock
+as well as the overall trend in the market. Because option trades are
+time limited,make sure that the trend is working with you.
+It is usually not wise to take an option position that attempts to capture
+a bottom or a top in the stock price.Wait for some confirmation of the
+move you want to capture.You can afford to be patient about entering
+a trade,because,with the leverage of options,you do not need to catch
+much of a move in the stock to make a nice profit.
+If the stock you like has pulled back,look for a clear indication that it
+has resumed its uptrend before buying a call.If the overall market has
+been in a bearish mode, be careful about initiating a bullish option
+trade until a reversal seemsevident.
+Risk Capital for Options Trading
+Beginning options traders often ask,“How much of my total trading
+capital should I devote to options trading?” To answer this question,
+you must decide how much of your total investment capital you are
+willing to use for high-risk trading. This individual decision depends
+on many factors,not the least ofwhich is your tolerance for risk.Ifyou
+are conservative,allot no more than 10 percent ofyour total investment
+capital for trading options.
+After you have decided on an amount that you feel comfortable using
+for high-risk trading,commit only about 15 percent of that amount to
+any single options trade. For example, if you initially decide that of
+your $50,000 trading capital, you can devote $5,000 toward trading
+options,risk no more than about $750 in any individual trade.
+In the very beginning,limit yourselfto only two to three trades that are
+open at the same time.As you gain confidence,you can increase that up
+to five to six trades,which at 15 percent per trade would involve essen-
+tially all ofyour allowed high-risk capital.It is wise to always keep a lit-
+tle cash in reserve for special purposes.
+As you become more knowledgeable about options, you can devote a
+larger portion of your total trading capital toward trades that use
+64
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+options.For example,you can begin to use long-term options (LEAPS
+if available) as a substitute for stock,even in some of the more conser-
+vative portions ofyour portfolio.Also you may want to use put options
+as a low-cost insurance for your total portfolio.
+Tracking Trades
+It is important for you to acquire an appreciation for the progress of
+your trades over time.You need to develop a feel for the change in the
+price of an option as the underlying stock price changes and as time
+passes. The best way to achieve this is to systematically track your
+trades.
+After you have initiated a trade, begin a tracking process.You can do
+this either in a spreadsheet or simply by hand with a sheet of paper.
+Enter the symbol for the underlying stock at the left end ofthe first row
+and immediately to the right indicate the price of the stock when the
+trade was entered.On the row below,just under the stock symbol,enter
+the option that you have purchased along with the number ofcontracts
+(for example,5 Nov 20 calls).Immediately to the right,enter the price
+per share paid for the option,which should line up just under the stock
+price at the time of purchase.
+Then, on a regular schedule, record the prices of the stock and the
+option in horizontal rows while moving from left to right across the
+page.Each new entry will show the current price ofthe stock in the first
+row and the corresponding price of the option in the row just below it.
+These log entries can be done as frequently as day by day or as infre-
+quently as once a week,depending on how closely the trade needs mon-
+itoring.To keep track ofthe passage oftime,you can occasionally enter
+a date next to the stock and option prices recorded on that day.
+This tracking process will provide you with a record of how your trade
+is progressing over time.By following this record,you will soon devel-
+op a good sense of two basic option properties:(1) the response of the
+option price to a change in the stock price, and (2) the decay in the
+value of the option as the expiration date is neared.
+After you have some experience with this record-keeping process, you
+will be able to make a very good guess ofthe option price as soon as you
+65
+Chapter 9 Miscellaneous Tips
+
+have seen the stock price.This tracking process will help you to devel-
+op a keen sense of when to exit a trade.
+Anticipating Events
+It is important tokeep abreast ofany upcoming events that concern the
+stock associated with your option trade. Any event that might have a
+significant influence on the stock price has the potential to produce a
+huge change in the price of a related option.
+Of course,some events cannot be anticipated,but there are many that
+can be.Perhaps the most important event for any stock is the quarterly
+earnings report. Also, dates for stock splits and dividends are impor-
+tant.These dates are known well in advance and can be easily found on
+free Web sites (for example, Yahoo! Financial). Less-common events
+such as a drug approval or a court decision may not have a specifically
+announced date, but the likely time may be known within a couple
+of weeks.
+If you are tracking your trades as suggested,you can enter the impor-
+tant dates as part of the log process.
+Real-Time Quotes
+Nowadays,it is fairly easy to obtain cheap,if not free,streaming quotes
+of stock and options prices in real time.Many of the major brokerage
+firms offer this data free to customers who are even mildly active
+traders. Access to real-time price data is very important for entering
+and exiting option trades. By watching option prices in real time, you
+can make a more intelligent decision about executing a trade at the best
+price available.
+Market Orders with Options
+Don’t usethem except in extreme circumstances.If you enter a market
+order to buy or sell an option,you will very frequently be disappointed
+with the fill.It is usually worth the extra trouble to enter a limit order,
+monitor the price movement of the option, and then adjust the limit
+price if necessary to get filled at a fair price.
+66
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+Options Calculator
+This is something you should consider as soon as you have developed
+some preliminary experience with options trades. Many traders now
+rely on an options calculator to evaluate a potential trade before they
+initiate it.These calculators can do a variety ofthings to help you make
+an informed decision about a trade.They can estimate the profit or loss
+in an option trade that would exist for any price ofthe underlying stock
+at any time before the expiration date of an option.They can compute
+the probability of your trade being profitable based on the volatility of
+the underlying stock.
+The most useful options calculators generate a visual image in the form
+of a risk graph,as seen in Chapter 5,“Risk Graphs”.These risk graphs
+are particularly useful when evaluating a trade that involves multiple
+options and more than one expiration month.
+Unfortunately,many of the best options calculators come with a hefty
+price tag. Some of the options friendly brokers provide a free options
+calculator as part of their data feed service.
+If nothing else,these options calculators can save you from initiating a
+trade that has little chance for success.Avoid a few hopeless tradesand
+you have justified paying for a calculator.
+67
+Chapter 9 Miscellaneous Tips
+
+This page intentionally left blank

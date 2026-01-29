@@ -1,0 +1,242 @@
+25
+AN END-OF-YEAR
+TAX STRATEGY
+S uppose you own a stock that has made a nice gain during the year,
+but you are concerned about a substantial pullback near the end
+ofthe year.Ofcourse,you are reluctant to sell your stock and take
+your profit before January 1,because ofthe tax implications.You would
+like to avoid having to pay tax on that nice profit when the next April
+15 arrives.
+The IRS regulations make it essentially impossible for you to install any
+kind of cost-free hedge of your stock profit that would defer a tax pay-
+ment into the next year.There is,however,a way to use options to pro-
+vide some degree ofcost-free protection ofyour profit without creating
+a taxable transaction. This chapter demonstrates a strategy that offers
+some limited protection ofyour profit while postponing a tax payment
+and staying within the IRS guidelines.
+Tax Code Restrictions
+Several options strategies are available to provide a complete,cost-free
+hedge of your stock profit.Unfortunately,the IRS does not allow such
+strategies to be employed for the purpose ofpostponing a tax payment.
+The IRS refers to such disallowed hedges as constructive sales.There is
+no need to dwell on the complicated definition of what constitutes a
+constructive sale,because our concern here is in a useful strategy that is
+allowed.
+The IRS does permit the use of the married put strategy (see
+Chapter 17,“Married Puts”) to protect profit in a stock. This strategy
+191
+
+has the drawback that it is not cost-free,and in factcan be quite expen-
+sive in some circumstances.The married put strategy involves buying a
+put option to protect the stock,which could result in a significant cost
+for the desired protection of a large stock holding.A cost-free strategy
+is preferable.
+An ideal cost-free protection strategy is to sell a deep-in-the-money
+call against your stock position, but the IRS interprets this as one of
+the disallowed constructive sales. The IRS does permit selling an in-
+the-money call,but restricts just how deep in-the-money you can go.
+Those in-the-money calls that are allowed by the IRS are referred to as
+qualified covered calls. The strategy presented here shows how to
+achieve a reasonable level of profit protection by using qualified
+covered calls.
+Qualified Covered Calls
+Because our interest is to defer taking profit in the stock until the next
+year,it is assumed that any covered call will have an expiration date in
+January or later. For our purposes, we follow the IRS guidelines for a
+qualified covered call that is sold when there are at least 31 days before
+it expires,but not more than 90 days until it expires.
+The basic IRS rule is that you can only drop down to the first strike
+price level below a certain specified stock price. The specified stock
+price is the closing price of the stock on the day before the covered call
+transaction is to be initiated, provided that the stock does not open
+more than 10 percent higher on the day planned for the transaction.If
+the stock does open more than 10 percent higher on the planned trans-
+action day,you can only drop down to the first strike price level below
+the opening stock price.
+The IRS guidelines also stipulate that,for stocks whose specified price
+is $150 or less,the strike price of the covered call cannot be more than
+$10 in-the-money when the trade is initiated.For stocks whose speci-
+fied price is $25 or less,there is an additional restriction,namely that
+the strike price cannot be less than 85 percent of the specified stock
+price.
+192
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+Basic Strategy
+The goal here is to achieve a reasonable level of cost-free profit protec-
+tion by selling a covered call that meets the IRS guidelines.
+The benefit of selling a covered call is that the cash received serves to
+offset a pullback in the stock price. By selling an in-the-money call,
+more cash is received,which provides a bigger cushion in case the price
+of your stock begins to fall before the new year arrives. To create the
+largest cushion,you want to maximize the difference between the stock
+price and the strike price of the qualified covered call.
+The cash received from the sale of the call does not become a taxable
+transaction until the option position is resolved by one ofthe following
+events: (1) option expires, (2) option is exercised, or (3) option is
+bought back to close the short position. Outcome 1 does not occur
+before the January expiration date.As a practical matter, it is unlikely
+that outcome 2 would happen until after January 1.There is no reason
+for outcome 3 because the owner of the stock controls that decision.
+The first step of the basic strategy is to sell 1 January call for every
+100 shares of stock you own. Typically, it is most convenient to use a
+January call so that an early resolution of the position can be made
+soon after January 1.
+The selection of the strike price must comply with the IRS guidelines
+for a qualified covered call. On the day planned for selling the call,
+check to make sure that the stock opened no more than 10 percent
+higher than the previous day’s close.After this is verified,the acceptable
+strike price for the covered call is the first one below the closing price of
+the previous day.Ifthe stock did open more than 10 percent higher,the
+acceptable strike price for the covered call is the first one below the
+opening price of the stock.
+The second step is to make sure that you are complying with the time
+constraints for initiating the covered trade.Because we are considering
+an end-of-year strategy, it is relatively easy to comply with the con-
+straint of initiating the trade with no more than 90 days until expira-
+tion of the January call.As a rough guide,this implies that the covered
+call would be sold sometime after the October option’s expiration date.
+To comply with the 31-day rule, the sale needs to take place no later
+193
+Chapter 25 An End-of-Year Tax Strategy
+
+than the December date that is 31 days from the January option’s expi-
+ration date.
+Keep in mind that you are not required to initiate the trade on any
+particular date, so long as you do not get within the 31 days until the
+January options expire.If you planned to do the trade on a certain day
+only to find that the stock price is unfavorable on that day,wait until a
+better opportunity presents itself.
+Ifforsomereasonyouweretodecidetoinitiatethiscoveredcallstrategy
+with less than 31 days until the January option’s expiration date, you
+mustconsidersellingacallthathasaFebruaryorlaterexpirationdate.
+Suppose that you have succeeded in initiatingthe covered call strategy.
+Let’s examine the more likely outcomes.If the stock price is above the
+strike price at the January option’s expiration date, your stock will
+be called away and sold at the strike price of the option. The sum of
+thecash received from selling the call option plus the proceeds from the
+stock sale at the strike price will usually exceed the price of the stock at
+the time you initiated the option trade. Of course, these transactions
+will have tax consequences for profit earned in the year that the stock is
+sold.
+In some circumstances, you may decide to buy back the covered call
+after January 1, to be able to continue holding the stock without any
+concern that it might be called away from you. This may or may not
+be a wise investment decision, but it will nevertheless delay the tax
+consequences.
+Ifthe stock price has fallen below the strike price at expiration,you may
+still receive a return that exceeds the price of the stock at the time you
+initiated the options trade.Furthermore,if the stock price is below the
+strike price at expiration,the option will not be exercised and you can
+continue to hold your stock if that seems to be a desirable choice.
+To illustrate the basic strategy,here are some examples:
+■ Example 1.You paid $3,300 to buy 100 shares of XYZ at $33 in
+August.In early December,XYZ is at $68.You would like to sell
+the stock to collect more than 100 percent profit,but you
+arereluctant to create such a substantial taxable event in the
+194
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+current year.Let’s employ the covered call strategy described
+above:
+Suppose the stock closes at $68 on December 5 and opens at
+$69 on December 6.The stock price opened less than 10 per-
+cent above the previous day’s close,so $68 is the price that
+determines the strike price for the qualified covered call.
+Because it is more than 31 days before the January option’s
+expiration date,the Jan 65 call can be sold without incurring
+acurrent year tax consequence on your stock profit.
+Suppose that on December 6 you sell one Jan 65 call for $7 per
+share.This brings $700 into your brokerage account with no
+tax implications until the option is resolved.You have now
+established some protection of your profit in XYZ stock.
+Note that this call option has $3 of time value included in its
+price [(65 + 7) – 69 = 3],which makes it highly unlikely that
+itwould be exercised against you before that time value
+disappears.
+If XYZ is above $65 at the January option’s expiration date,
+your stock will be called away and sold for $65 per share,which
+brings another $6,500 into your brokerage account.Then you
+will have received a total of $7,200 [700 + 6,500 = 7,200],
+which represents a profit of $3,800 [7,200 – 3,400 = 3,800].
+Note that this profit exceeds that which would have been
+received from selling the stock at $69.For tax purposes this
+profit is generated in the new year.
+The break-even price for this covered call position is $62.If
+XYZ is at $62 at the January expiration,the short option
+expires worthless and the stock could be sold for $62 per share.
+Then you will have received a total of $6,900 [700 + 6200 =
+6,900],which is exactly what you would have received if the
+stock had been sold at $69 on December 6.Earning the profit
+of $3,500 [6,900 – 3,400 = 3,500] would be a taxable transac-
+tion in the new year.
+Note that if the price of XYZ is below $65 at the January
+option’s expiration,it is not necessary that the stock be sold,
+195
+Chapter 25 An End-of-Year Tax Strategy
+
+which would avoid any tax on the gain in stock value.The $700
+profit received from selling the Jan 65 call would be a taxable
+transaction in the new year.
+■ Example 2.Assume that the scenario is the same as Example 1,
+except that XYZ opens at $72 on December 6.This is still less
+than a 10 percent gain over the previous day’s closing price,so
+the Jan 65 call is again the qualified covered call.The Jan 65 call
+might be sold for $8 or more per share,for an even greater
+cushion than in Example 1.
+■ Example 3.Assume that the scenario is the same as Example 1,
+except that XYZ opens at $75.50 on December 6.This is an 11
+percent gain over the previous day’s close.By the IRS rules,this
+raises the allowed strike level to the Jan 75 call.This is not the
+best opportunity to employ the covered call strategy,because
+the Jan 75 call might be priced at only about $1.50 per share,
+which does not provide much downside protection.
+Follow-Up Variations
+1. At any time before your stock is called away,you can elect to
+keep your stock by buying back the short call option.Of
+course,this could be costly if the stock price has risen signif-
+icantly since you sold the option.Do not let greed overpower
+good judgment by deciding not to give up the stock for a
+price that was originally acceptable to you.
+On the other hand,if the stock price has gone down,you can
+buy back the short call for less than it was sold and make a
+profit on the option,while you continue to hold the stock
+for future gains.In this situation,avoid buying back the
+option before January,because the profit on the option
+transactions would be treated as a taxable gain in the
+currentyear.
+2. In January,you might decide to “roll out”of the short call
+option and replace it with one that has a later expiration
+date.This postpones the need to give up your stock.Suppose
+the stock price has risen slightly and you decide that you
+196
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+want to keep your stock.Then,buy back the January call
+option at a small loss and complete the rollout by selling
+another option from a later month with a strike price above
+the level of the current stock price.Your objective in this
+rollout maneuver is to bring in enough cash from selling the
+new option to offset the loss incurred from buying back the
+January option.
+Comments
+When looking for a favorable set up to employ this covered call strategy,
+watch for those days in which the stock closes with a price that is just
+below a strike. If the stock then opens higher the next day (but not
+more than 10 percent higher),this allows you to capture a large intrin-
+sic value from the sale of the option in addition to its time value.This
+approach will provide the greatest protective cushion in case the stock
+price does begin to fall (see Example 2).
+Make sure that the covered call has some time value included in its
+price. This guards against an early exercise that would require you to
+sell your stock before January 1.
+It should be noted that after the trade is initiated,the maximum return
+from the stock has been capped.Further increases in the stock price will
+not provide any more profit.
+Consult your professional tax adviser before
+implementing thestrategy described here to determine
+its suitability for your individual circumstances.
+197
+Chapter 25 An End-of-Year Tax Strategy
+
+This page intentionally left blank

@@ -1,0 +1,136 @@
+28*
+THEORY OF
+MAXIMUM PAIN
+A lot ofmystery surrounds the theory ofmaximum pain.This the-
+ory, more familiarly known as max pain or strike price pegging,
+attempts to explain the curious price movement of a stock (or
+index) that is sometimes observed during the last few days leading up
+to an option’s expiration date.
+Briefly, max pain refers to the situation in which the price of a stock
+seems to lock in on an option strike price as expiration nears.During
+the last few days,the stock price will vacillate around the strike price as
+if tethered by an elastic cord. The targeted strike price is typically the
+one that has the largest amount of open interest in the about-to-expire
+options.
+A variety of explanations have been offered for the max pain effect.
+Some explanations describe a grand conspiracy on the part ofthe mar-
+ket makers to manipulate the stock price.It is suggested that the market
+makers collectively agree to steer the stock price to a level that would
+cause the largest number of at-the-money options to expire worthless.
+This explanation further assumes that it will be the retail traders left
+holding all ofthose worthless options at expiration,and hence the mar-
+ket makers exert the maximum financial pain on the investing public.
+This interpretation appears to be the source of the name for the max
+pain effect.
+Because the max pain effect does seems to focus on a strike price,elab-
+orate systems have been devised to predict an exact target price (some-
+where near a strike price) at expiration.These predictions are based on
+211
+
+algorithms that account for the amount of open interest associated
+with each ofthe front-month options.There are fee-based services that
+will provide these predicted target prices on any stock or index.Suffice
+to say that these predictions are frequently inaccurate.
+Every month,as the option’s expiration date draws near,you will find
+some stocks that exhibit fluctuations consistent with the max pain
+concept.But,there will be other stocks,apparently motivated by simi-
+lar circumstances,where the price action is decidedly not like that sug-
+gested by max pain.
+There has yet to be found a reliable theory that can consistently predict
+when the max pain effect will be observed and what price will be tar-
+geted.There is,however,a rational explanation as to what is happening
+when the max pain effect is observed. And this explanation does not
+require any grand conspiracy of the market makers. It only requires
+that some market makerstake individual actions consistent with a log-
+ical,low-risk strategy to exploit the special circumstances that prevail as
+options expire.
+It should be clear that the max pain effect will always be overridden by
+any breaking news that alters the fundamental outlook for a stock.If a
+company releases an earnings warning during options expiration week,
+it will be difficult to target a strike price while every major institution is
+dumping huge volumes of the stock.
+Let’s consider a more reasonable scenario to understand the market
+dynamics that produce the max pain effect without the need for any
+conspiracy. Suppose that XYZ is trading at $26 a few days before the
+expiration date of the front-month options.Also,suppose that there is
+a fairly high level of open interest in the about-to-expire calls and puts
+with a $25 strike price.
+If the price of XYZ dips to $25.50,those retail traders who are long the
+front-month $25 calls will sense that time is working against them
+and be inclined to quickly sell their options to salvage some portion
+of their original investment.The market maker,who is well aware that
+the option owner is running out of time, will post a discounted bid
+price of only $.45 per share for the about-to-expire $25 call option.
+212
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+The retail trader sells his option to the market maker for $.45 per share.
+Now the market maker is long the $25 call with a short lifetime.To pro-
+tect himself,the market maker shorts 100 shares ofXYZ at $25.50.This
+combination places him in a no-lose position with the potential for a
+windfall profit.
+If the stock has gone up in price as expiration is reached, the market
+maker’s short position in the stock will have lost money. But, he can
+exercise his long call to buy 100 shares of stock at $25 per share and
+cover his short stock position. In fact, there will be a profit of $5 per
+contract [(25.50 – 25 – .45) ×100 = 5],which may seem miniscule until
+you multiply that $5 by the hundreds of contracts handled by the
+market maker.
+A windfall profit for the market maker occurs if XYZ incurs a signifi-
+cant drop in price. Suppose that XYZ has fallen to $24 at expiration.
+The market maker loses all of the $.45 per share that he paid for
+the long call, which expires worthless. On the other hand, he makes
+a profit of $1.50 per share on his short stock position, for a nice net
+profit of $105 per contract [(25.50 – 24 – .45) ×100 = 105].
+What does this have to do with max pain? When the market maker
+shorts XYZ stock,a downward pressure is exerted on the stock price.If
+there is a large open interest in the $25 calls,the market maker could be
+shorting a large amount ofstock.This action will tend to force the price
+of XYZ toward and possibly below $25.
+Now let’s turn our attention to another market maker who sees the
+price of XYZ fall to $24.50.He posts a discounted bid price of $.45 per
+share for the about-to-expire $25 puts. Those retail traders who are
+long these $25 puts rush to sell their options to salvage some portion of
+their original investment.
+As soon as the market maker buys the put, he also buys 100 shares of
+XYZstockat$24.50.Asbefore,thiscombinationplaceshiminano-lose
+positionwiththepotentialforawindfallprofit.
+Ifthe stock has gone down in price as expiration is reached,the market
+maker’s long position in the stock will have lost money. But he can
+exercise his long put and force someone to buy his 100 shares of stock
+at $25 per share.Again,this produces a profit of$5 per contract,which
+213
+Chapter 28 Theory ofMaximum Pain
+
+can add up to a tidy sum if it is repeated over hundreds of contracts
+handled by the market maker.
+A windfall profit for this market maker occurs if XYZ makes a signifi-
+cant gain in price.Suppose that XYZ has risen to $26 at expiration.The
+market maker loses all of the $.45 per share that he paid for the long
+put, which expires worthless. On the other hand, he makes a profit
+of $1.50 per share on his long stock position for a nice net profit of
+$105 per contract.
+This market maker also contributes to the max pain effect by buying
+XYZ stock,which exerts an upward pressure on the stock price.Ifthere
+is a large open interest in the $25 puts,the market maker could be buy-
+ing a large amount of stock.This action will tend to force the price of
+XYZ toward and possibly above $25.
+Now we see that these two market makers,while acting independently,
+are actually working against each other in a dynamical manner that will
+tend to keep the stock price of XYZ close to $25.If there are large and
+roughly equal open interest numbers for both the $25 puts and $25
+calls,this can lead to a high volume of buying and selling stock around
+the $25 level. The result of this back and forth action is a stock price
+that fluctuates around $25.
+The previously described low-risk strategy used by the market makers
+during expiration week can also be employed by sophisticated retail
+traders. The retail trader will not be able to create a no-lose position,
+because he will not be able to buy the option at the discounted bid
+price.Instead,he will have to buy the option near the ask price,which
+will include some time value.If the trader is skillful in simultaneously
+buying the option and entering the corresponding stock position, the
+risk is limited to the time value in the option. Once established, this
+low-risk position has the potential for a windfall profit when the stock
+price moves in theright direction.
+214
+OPTIONS FOR THE BEGINNER AND BEYOND

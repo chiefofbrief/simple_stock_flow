@@ -1,0 +1,207 @@
+19*
+ADVANCED COLLARS
+I n this chapter, we consider some variations of the standard collar
+trades that were presented in Chapter 18, “Collars.” These varia-
+tions do introduce some additional risk with the goal of enhancing
+the return.
+Let’s consider a variation of Example 1 in Chapter 18 that introduces a
+deep-in-the-money call with a high delta as a substitute for stock.
+■ Example 1A.In November 2004,you are interested in holding
+XYZ stock for the next 14 months.Instead of buying the stock
+at $19 per share,the Jan (06) 10 call is used as a substitute for
+the stock.The Jan (06) call is priced at $9.60 per share.This
+option is a good surrogate for XYZ stock because it has a delta
+of .95 and its time value is only $.60 per share [(10.00 + 9.60) –
+19.00 = .60].
+Trade:Buy 1 Jan (06) 10 call for $9.60 per share as a substitute
+for 100 shares of XYZ stock.As before,buy 1 Jan (06) 20 put
+for $2.90 per share and sell 1 Jan (06) 25 call for $1.00 per
+share.The net cost of the three options is $1,150 [(9.60 +
+2.90– 1.00) ×100 = 1,150].
+See Figure 19-1 for a risk graph that depicts this trade.
+For this collar trade,the worst-case scenario is not as simple to
+describe,because we have substituted an option for stock.The
+maximum loss is incurred at the option’s expiration date if the
+stock price is below $20 but above $10,as seen in Figure 19-1.
+Inthis situation,the Jan (06) 25 call expires worthless,while the
+net value of the Jan (06) 10 call and the Jan (06) 20 put will be
+145
+
+Today: 506 days left
+338 days left
+169 days left
+Expiry: 0 days left
+–200 0 100 200 300 400 500 600 700 800
+exactly $10 per share.This allows you to cash out those two
+options for $1,000,resulting in a loss of $150 [1,150 – 1,000 =
+150].This represents a loss of 13 percent of the original
+investment.
+If the stock price is above $25 at the option’s expiration date,
+the Jan (06) 20 put expires worthless.The long Jan (06) 10 call
+and the short Jan (06) 25 call constitute a Bull Call Spread with
+a value of $1,500 [(25 – 10) ×100 = 1,500].The net profit is
+then $350 [1,500 – 1,150 = 350].This represents a gain of
+30percent on your original investment.For the 14-month
+period that you are in this trade,that translates to a 26 percent
+return on an annualized basis.
+It is an interesting anomaly of this trade that the largest poten-
+tial profit is realized if the stock price is significantly below $10
+146
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+03
+02
+01
+0
+Figure 19-1
+
+at the option’s expiration date,as seen in Figure 19-1.Suppose
+the XYZ stock price had dropped to $3.Then the Jan (06) 10
+call would expire worthless,while the Jan (06) 20 put would be
+worth $17 per share.Selling that put for $1,700 [(20 – 3) ×
+100= 1,700] results in a profit of $550 [1,700 – 1,150 = 550].
+This represents a profit of 48 percent.If the price of XYZ fell
+allthe way to 0,the profit would expand to 74 percent.
+Let’s consider another variation of Example 1 in Chapter 18
+that introduces some short-term riskin an effort to reduce the
+cost of the collar.
+■ Example 1B.In November 2004,you buy XYZ stock for
+$19per share with the intention of holding it for the next
+14months.The standard collar trade is amended by also selling
+a near-term put to reduce the cost basis of the long-term put.
+Trade:Buy 100 shares of XYZ stock for $1,900.Buy 1 Jan (06)
+20 put for $2.90 per share and sell 1 Jan (06) 25 call for $1 per
+share.Additionally,sell 1 Dec (04) 17.5 put for $.70 per share.
+The net cost of the three options is $120 [(2.90 – 1.00 – .70) ×
+100 = 120].The net cost for the whole trade is $2,020 [1,900 +
+120 = 2,020].
+See Figure 19-2 for a risk graph that depicts this trade.
+The idea here is to collect some short-term premium by selling
+the Dec (04) 17.5 put.The Jan (06) put serves as a hedge for
+the short Dec (04) 17.5 put in case the stock price falls.Of
+course,this means that the Jan (06) put is not fully available to
+protect the 100 shares of XYZ stock until the December put
+expires in about 6 weeks.The increased downside risk is seen in
+Figure 19-2.Under these circumstances,it is wise to initiate a
+stop loss order on the stock until the December put expires.
+Assuming that the Dec (04) 17.5 put expires worthless,the
+original trade then reverts to a standard collar trade with a
+reduced cost basis of $2,020.See Figure 19-3 for a risk graph
+that depicts that trade.
+147
+Chapter 19 Advanced Collars
+
+Today: 46 days left
+31 days left
+16 days left
+Expiry: 0 days left
+–1000 –700 –500 –300 –100 100 300 500 700 900
+For this updated collar trade,the worst-case scenario at the
+January 2006 option’s expiration is a loss of only $20 [2,020 –
+2,000 = 20],as seen in Figure 19-3.This represents a maximum
+lossof only 1.0 percent based on the reduced cost of the trade.
+The maximum potential profit from the collar trade also bene-
+fits from the premium collected from the Dec (04) 17.5 put.If
+XYZ is above $25 at the January 2006 option’s expiration,the
+net profit is $480 [2,500 – 2,020 = 480].This represents a gain
+of 24 percent on the original investment.
+Clearly,the drawback to this variation is the six weeks of expo-
+sure while waiting for the short Dec (04) 17.5 put to expire.If
+the price of XYZ is only slightly below $17.50 at the December
+2004 option’s expiration,it may be possible to roll the Dec (04)
+17.5 put into the Jan (05) 15 put for a small loss.
+148
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+03
+02
+Figure 19-2
+
+Today: 396 days left
+264 days left
+132 days left
+Expiry: 0 days left
+–100 0 100 200 300 400
+Let’s consider another modification of the collar trade that
+allows for unlimited profit with only a small increase in the
+risk.This strategy requires the purchase of more than
+100shares of stock.The idea is to sell fewer calls than corre-
+sponds to the total shares of stock owned.This will free up
+some shares of stock for unlimited gain.
+■ Example 1C.In November 2004,you buy 400 shares of XYZ
+stock for $19 per share with the intention of holding it for the
+next 14 months.As in the standard collar trade,puts are pur-
+chased to protect all 400 shares of the stock.But calls are sold
+against only 300 shares of the stock.This combination allows
+for 100 shares of stock to remain uncapped by the presence of
+ashort call.
+Trade:Buy 400 shares of XYZ stock at $19 per share for a total
+of $7,600.Buy 4 Jan (06) 20 puts for $2.90 per share and sell 3
+149
+Chapter 19 Advanced Collars
+ecirP
+kcotS
+03
+02
+Figure 19-3
+
+Today: 213 days left
+142 days left
+71 days left
+Expiry: 0 days left
+–1000 0 1000 2000
+Jan (06) 25 calls for $1 per share.The net cost of this trade is
+$8,460 [7,600 + (2.90 ×400) – (1.00 ×300) = 8,460.
+See Figure 19-4 for a risk graph that depicts this trade.
+The worst-case scenario means that the stock price is below $20
+on the option’s expiration date.In this situation,the 3 Jan (06)
+25 calls expire worthless,while you exercise the 4 Jan (06)
+20puts to force someone to buyyour 400 shares of stock at
+$20per share.You receive $8,000 from the sale of your stock
+and your net loss on the trade is $460 [8,460 – 8,000 = 460].
+This represents a loss of 5.4 percent of your original investment.
+The best-case scenario for this trade is an unlimited return on
+the 100 shares of stock that are uncapped by the short calls.For
+example,if the stock price is at $32 on the option’s expiration
+date,the 4 Jan (06) 20 puts expire worthless and someone
+150
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+03
+02
+01
+Figure 19-4
+
+exercises the 3 Jan (06) 25 call against you,so that 300 shares of
+your stock are sold for $25 per share.The remaining 100 shares
+of stock can be sold for $3,200.The net profit on the trade is
+$2,240 [(25 ×300) + (32 ×100) – 8,460 = 2,240].This repre-
+sents a gain of 26 percent on your original investment.For the
+14-month period that you are in this trade,that translates to a
+23 percent gain on an annualized basis.
+It should be noted that the unencumbered 100 shares of stock
+can be sold at anytime before the expiration date,if the stock
+price has risen sufficiently to warrant that action.If those 100
+shares are sold,one of the protective puts is no longer needed
+and can be sold for whatever residual value remains.
+Comments
+The key to understanding the collar trade is the realization that long-
+term calls have more time value than comparable long-term puts.And
+the more distant the expiration date, the larger is this difference. An
+explanation of this disparity in the pricing of call and put options is
+given in Chapter 30,“The Put-Call Parity Relationship.” Thus, selling
+an out-of-the-money long-term call provides extra cash to offset the
+purchase price of an at-the-money put. This explains why short or
+intermediate-term collar trades are generally unattractive.
+The maximum potential loss on a collar trade is reduced by moving the
+strike prices of the call and put options closer together.Unfortunately,
+this adjustment also reduces the maximum potential profit.The strike
+price of the short call must always exceed that of the long put for a
+profit to be possible.
+151
+Chapter 19 Advanced Collars
+
+This page intentionally left blank

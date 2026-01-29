@@ -1,0 +1,192 @@
+27*
+DELTA-NEUTRAL
+TRADING
+D elta-neutral trading cantake on a variety ofdifferent forms and
+encompasses much more material than can be covered in this
+one chapter.There are delta-neutral strategies designed to gen-
+erate profits,as well as delta-neutral strategies designed to protect prof-
+its. In this chapter, the basic concept of delta-neutral portfolios is
+discussed,and an example is used to demonstrate how trading a delta-
+neutral position can generate profits.
+Before discussing delta-neutral trading, it is worthwhile to review the
+concept of the “delta”of a financial instrument (stock, option, future,
+and so on).Extending the definition stated in Chapter 4,“The Greeks,”
+the delta ofa financial instrument is the change in value ofthat instru-
+ment when the price ofthe underlying stock (or index) increases by $1,
+while all other influences are held fixed.The delta can be either positive
+or negative depending on whether the value ofthe financial instrument
+increases or decreases in response to a $1 increase in the stock price.
+To review the concept of the delta,let’s see how it applies to some sim-
+ple stock and options positions:
+■ As an almost trivial case,suppose the financial instrument is
+that of being long one share of XYZ stock.If the price of XYZ
+increases by $1,the long position of one share increases in
+value by $1 and hence the delta = 1.00 [1.00/1.00 = 1.00].
+Likewise,if the financial instrument is that of being long
+100shares of XYZ and the price of XYZ increases by $1,the
+value of the long position increases by $100,and hence the
+delta = 100 [100/1.00 = 100].
+205
+
+■ Suppose that the financial instrument is that of being short one
+share of XYZ stock.If the price of XYZ increases by $1,the
+short position of one share decreases in value by $1 and hence
+the delta = –1.00 [–1.00/1.00 = –1.00].Likewise,if the financial
+instrument is being short 100 shares of XYZ and the price of
+XYZ increases by $1,the value of the short position decreases
+by $100,and hence the delta = –100 [–100/1.00 = –100].
+Let’s also look at the delta ofthose cases where the financial instrument
+is an at-the-money option on XYZ. In each case, we assume that the
+price of XYZ stock is initially at $30.
+The price of an at-the-money call option will typically increase by $.50
+when the price of the stock increases by $1, and hence it has a delta
+= .50 on a per-share basis. So, if the $30 call has a price of $2, and
+XYZ stock goes up to $31, the price of the $30 call should increase to
+$2.50 [2.00 + (.50 × 1.00) = 2.50]. Because 1 call contract represents
+100 shares of stock,it follows that 1 long at-the-money call has a total
+delta = 50 [.50 ×100 = 50].
+For a short $30 call,the position has a delta = –.50 on a per-share basis.
+Accounting for 100 shares ofstock in the contract,the position ofbeing
+short one at-the-money call has a total delta = –50 [–.50 ×100 = –50].
+The price ofan at-the-money put option will typically decrease by $.50
+when the price ofthe stock increases by $1.So,ifthe $30 put has a price
+of $1.75, and XYZ goes up to $31, the price of the $30 put should
+decrease to $1.25 [1.75 + (–.50 ×1.00) = 1.25].Because 1 put contract
+represents 100 shares of stock, it follows that one long at-the-money
+put has a total delta = –50 [–.50 ×100 = –50].
+For a short $30 put,the position has a delta = .50 on a per-share basis.
+Accounting for 100 shares ofstock in the contract,the position ofbeing
+short one at-the-moneycall has a total delta = 50 [.50 ×100 = 50].
+When the strike price of the call or put option is deeper in-the-money,
+the magnitude ofthe delta increases.Analogously,when the strike price
+is further out-of-the-money,the magnitude of the delta decreases.For
+example,a long XYZ $25 call might have a delta = .75,whereas a long
+XYZ $40 call might have a delta = .25. Likewise, a long XYZ $35 put
+206
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+might have a delta = –.75, whereas a long XYZ $20 put might have a
+delta = –.25.
+In the preceding discussion,values ofthe delta have been suggested that
+are fairly typical ofthe various at-the-money,in-the-money,and out-of-
+the-money options.The actual values ofthe deltas change continuously
+as the stock price changes.These actual values are determined from the
+Black-Scholes model for pricing options.A good market data feed serv-
+ice will provide accurate values of the deltas for options in real time.
+Now let’s turn our attention to the general concept of a delta-neutral
+position for a portfolio that involves a combination of financial instru-
+ments.The definition of a delta-neutral portfoliois that the net delta of
+all the components of the portfolio is zero.Why is this significant?
+The significance of a delta-neutral portfolio is that a small change in
+the price of the underlying stock will have essentially no effect on the
+net value of the portfolio. In other words, a delta-neutral portfolio is
+insensitive to small changes in the value of the stock that governs its
+components.
+To illustrate the concept of a delta-neutral portfolio,consider one that
+is long 100 shares of XYZ stock at $30 and also long 2 XYZ $30 puts
+with a price of $1.75 per share.The long stock represents a delta = 100
+[1.00 × 100 = 100], while the long puts represent a delta = –100 [2 ×
+(–.50×100) = –100].For the portfolio as a whole,the net delta is zero
+[100 – 100 = 0].The total value ofthis portfolio is $3,350 [(100 ×30) +
+(200×1.75) = 3,350].
+See Figure 27-1 for a risk graph that depicts this portfolio.
+Let’s see how the value of the preceding portfolio is insensitive to a
+modest decrease in the stock price. Suppose the price of XYZ falls to
+$29,which then reduces the value of the stock to $2,900.Because each
+long put has a delta = –.50 per share,a decrease in the stock price of$1
+will increase the value to $2.25 per share [1.75 + ((–.50) × (–1.0)) =
+2.25].Thus,the total value of the two puts increases to $450 [2 × (100
+× 2.25) = 450]. So, after a decrease of $1 in the stock price, the puts
+increase in value in a manner that maintains the portfolio value at
+$3,350 [2,900 + 450 = 3,350].
+207
+Chapter 27 Delta-Neutral Trading
+
+Today: 147 days left
+98 days left
+49 days left
+Expiry: 0 days left
+–1000 –700 –500 –300 –100 100 300 500 700 900
+Ifinstead the price ofXYZ stock increased to $31,the value ofthe port-
+folio would again maintain the value of$3,350.In this case,the value of
+the stock would increase to $3,100,but the value ofthe two puts would
+be reduced to $250.
+The delta-neutral effect is seen in the risk graph of Figure 27-1. Note
+that the short-term profit/loss curve is flat for stock prices near $30.
+If the stock price undergoes larger changes (up or down),the net delta
+of the preceding portfolio would not remain near zero. Some adjust-
+ment would be required to return the portfolio to a delta-neutral sta-
+tus.Such adjustments can be employed as part of a trading strategy to
+generate profits from a delta-neutral portfolio.
+Let’s see how to use a delta-neutral trading strategy to produce profits
+from the preceding portfolio that is long 100 shares ofXYZ stock at $30
+and long 2 XYZ $30 puts with a price of $1.75 per share. For this
+208
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+04
+03
+02
+Figure 27-1
+
+strategy to be most effective,we need for the price ofXYZ to swing back
+and forth in a price range centered around $30.
+To begin, suppose fairly soon after the portfolio is set up, the price of
+XYZ drops to $25.The stock will have lost value,while the put options
+will have gained in value. The net value of the portfolio might even
+have increased,but not enough to justify cashing out for a profit.The
+puts are now sufficiently in-the-money for them to have a delta =
+–.75 per share and thus the two put contacts represent a total delta =
+–150 [2×(–.75×100) = 150].Because the long stock has a delta = 100,
+the whole portfolio has a delta = –50 [100 – 150 = –50].
+To bring the portfolio back to a delta-neutral status, we can buy an
+additional 50 shares of stock at $25 per share. Then, with a portfolio
+that is long 150 shares ofXYZ and long 2 XYZ $30 puts,the net delta is
+zero [150 – 150 = 0].
+Now move forward in time and suppose the price of XYZ goes up to
+$31.The puts would return to a status ofdelta = –.50 per share and for
+the two contacts the total delta = –100.With the portfolio now having
+150 shares of XYZ,the net delta = 50 [150 – 50 = 50].
+To bring the portfolio back to a delta-neutral status,we can now sell the
+50 shares ofstock that were purchased at $25.This generates a profit of
+$300 [50 ×(31 – 25) = 300].
+Now suppose the price of XYZ continues up to $35. The $30 puts
+would then have a delta = –.25 per share and for the two contracts the
+total delta = –50.For the portfolio,the net delta = 50 [100 – 50 = 50].
+To bring the portfolio back to a delta-neutral status, we can buy one
+XYZ $35 put for $2 per share and hence a total cost of $200. Because
+this new long put is at-the-money, it would have a delta = –.50 per
+share,and thus for one contract have a total delta = –50.Then,with a
+portfolio that is long 100 shares ofXYZ,long 2 $30 puts and long 1 $35
+put,the net delta is 0 [100 + {2 ×(–25)} + {1 ×(–50)} = 0].
+Finally,as time continues to evolve,suppose the price of XYZ drops to
+$30. The $30 puts would again have a delta = –.50 per share, and for
+the two contracts the total delta = –100. The $35 put would have a
+209
+Chapter 27 Delta-Neutral Trading
+
+delta = –.75, and for the one contract the total delta = –75. For the
+portfolio,the net delta = –75 [100 + {2 ×(–50)} + {1 ×(–.75) } = –75].
+To bring the portfolio back to delta-neutral status, we can now sell
+the $35 put,which originally cost $2 per share,but now has a price of
+$6 per share.This generates a profit of $400 [100 ×(6.0 – 2.0) = 400].
+To summarize the results of this delta-neutral trading strategy, we see
+that a total profit of $700 [300 + $400 = 700] was generated by the
+adjustments that keep returning the portfolio to a status of zero net
+delta.
+This example of delta-neutral trading was idealized to illustrate how
+the process is intended to work.In reality,it may be considerably more
+difficult to achieve these results.One issue not addressed here is the loss
+oftime value in the options.This loss will offset some ofthe gains gen-
+erated by the delta-neutral adjustments. A related issue is having the
+desired cycle of stock price movement occur within the lifetime of the
+options.
+There are many other portfolios (combinations ofoptions or stock and
+options) that enjoy a delta-neutral status,but which may be much less
+suitable for trading to maintain the neutral condition. For example,
+the iron condor trades discussed in Chapter 24, “Iron Condors and
+Double Diagonals,” start out as delta-neutral, but can be difficult to
+continually adjust so as to maintainthat status.
+210
+OPTIONS FOR THE BEGINNER AND BEYOND

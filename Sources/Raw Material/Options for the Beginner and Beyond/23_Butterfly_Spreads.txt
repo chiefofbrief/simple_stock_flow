@@ -1,0 +1,218 @@
+23
+BUTTERFLY SPREADS
+T he butterfly spread trade is typically a cheap trade with low risk
+and lots ofleverage.The drawback ofthe butterfly trade is that it
+focuses on a narrow range of profitability. The trade can be
+arranged to have a wider profit range,but then it becomes considerably
+more expensive.
+These spreads can be used in various ways.The most common strategy
+utilizes a butterfly trade to target a strike price toward which a stock or
+index is trending.They can also be traded with adjustments,although
+this usually adds additional risk to the trade. Another version of the
+butterfly has an unbalanced form,so as to favor price movement in one
+direction.
+Standard Butterfly Trade
+Let’s consider an example of the standard butterfly trade:
+■ Example 1.In early July,XYZ stock is trading at $30 per share.
+Your feeling is that over the next four to five months,this stock
+is going to move sideways.To focus on the $30 price with
+plenty of leverage,you initiate the following butterfly trade.
+Trade:
+Buy 1 Nov 25 call for $6.30 per share.Cost = 6.30 ×100 = $630.
+Sell 2 Nov 30 calls for $2.80 per share.Credit = 2.75 ×200 = $560.
+Buy 1 Nov 35 call for $.60 per share.Cost = .60 ×100 = $60.
+Net cost = $130 [630 + 60 – 560 = 130].
+Max risk = $130.
+177
+
+Today: 144 days left
+96 days left
+48 days left
+Expiry: 0 days left
+–200 –100 0 100 200 300
+See Figure 23-1 for a risk graph that depicts this trade.
+The butterfly trade derives its name from the appearance of its risk
+graph.This is best seen ifthe risk graph ofFigure 23-1 is rotated clock-
+wise through ninety degrees.Then the body of the butterfly lies in the
+V between $25 and $35. The top edges of the V are connected to the
+wings ofthe butterfly as represented by the straight portions ofthe risk
+graph that extend out from $25 and $35.
+Another interpretation of this butterfly trade is a combination of a
+Nov 25 through Nov 30 bull call spread and a Nov 30 through
+Nov 35 bear call spread. The bull call spread has a net debit of $350
+[630 – 280 = 350], whereas the bear call spread creates a net credit of
+$220 [280 – 60 = 220]. The combination then has a net cost of $130
+[350 – 220 = 130].
+178
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+04
+03
+02
+Figure 23-1
+
+As seen in Figure 23-1, the maximum return on the butterfly spread
+occurs if XYZ closes at exactly $30 on the November option’s expira-
+tion date. In that case, the Nov 25 call can be sold for $500, while the
+other options all expire worthless. Thus, the net profit on the trade is
+$370 [500 – 130 = 370],which represents a 285 percent return on the
+initial investment. Options traders often refer to the price that maxi-
+mizes the return from the butterfly spread as the sweet spot.
+IfXYZ closes below $30 at expiration,the net profit will be less because
+the Nov 25 call will be worth less than $500.If XYZ closes above $30,
+the 2 Nov 30 calls must be bought back to close the trade, which
+decreases the net return. The maximum loss of $130 occurs in the
+extreme cases when XYZ closes either below $25 or above $35 at expi-
+ration. The spread makes a profit whenever XYZ is between $26 and
+$34 at expiration.
+Comments
+Example 1 illustrates both the positive and negative features ofthe but-
+terfly spread. The positive features are that (1) it is typically an inex-
+pensive trade,and (2) its maximum return provides plenty of leverage.
+The negative features are that (1) the price range for a profit is rather
+narrow, and (2) to achieve the maximum return, the timing is critical
+because the stock price needs to be exactly at the sweet spot on the
+expiration date.
+As an alternate approach to Example 1, puts could have been used
+rather than calls.That is,buy one Nov 35 put and one Nov 25 put,while
+selling two Nov 30 puts. The cost and results for this put butterfly
+would have been similar to those for the call butterfly,because the ini-
+tial price of XYZ was at the sweet spot of both trades.
+To target a sweet spot either above or below the current price of XYZ,
+you should examine both a call butterfly and a put butterfly to see
+which offers the cheaper price.The cost of a butterfly spread that has a
+sweet spot significantly far from the current stock price is usually going
+to be more expensive.Going out to a more distant expiration date will
+generally reduce the cost of the butterfly.
+179
+Chapter 23 Butterfly Spreads
+
+Butterfly Trade with Adjustments
+Let’s look at a different way of handling a butterfly spread that involves
+an adjustment that is made somewhat later in the trade.This approach
+will cater to a more volatile stock whose price tends to make dramatic
+swings between price extremes during the timeframe of a few months.
+■ Example 2.In early July,suppose XYZ is trading near $30,but
+there is an indication that it may be moving up in the near
+future.Set up a butterfly spread to initially focus on the $35 level.
+Trade:
+Buy 1 Nov 40 put for $9.90 per share.Cost = 9.90 ×100 = $990.
+Sell 2 Nov 35 puts for $4.60 per share.Credit = 4.60 ×200 =
+$920.
+Buy 1 Nov 30 put for $.80 per share.Cost = .80 ×100 = $80.
+Net credit = $150 [990 + 80 – 920 = 150].
+Max risk = $150.
+See Figure 23-2 for a risk graph that depicts this trade.
+Now let’s examine a couple of scenarios to see how this trade might
+progress:
+■ The ideal scenario is for the price of XYZ to coincide with the
+sweet spot of $35 when the November options expire.In that
+case,the Nov 40 put could be sold for $500,while the other
+options all expire worthless.Thus,the net profit on the trade is
+$350 [500 – 150 = 350],which represents a 233 percent return
+on theinitial cost.
+■ In another scenario that caters to more volatile price swings,
+suppose that XYZ has run up to $38 in late September and
+appears to have stalled at that level.The butterfly spread
+mightshow a slight profit,but it would be too small to warrant
+exiting the whole trade.However,the Nov 35 puts that were
+originally sold for $4.60 might now be worth only $1.
+180
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+Today: 144 days left
+96 days left
+48 days left
+Expiry: 0 days left
+–200 –100 0 100 200 300
+An adjustment that could be made here is to buy back the
+2Nov 35 puts to secure a $720 profit [920 – (1.0 ×200) = 720]
+on those options.This adjustment leaves you with the following
+residual position:
+Long 1 Nov 40 put.Cost basis = $270 [990 – 720 = 270].
+Long 1 Nov 30 put.Cost basis = $80.
+Note:In this residual position,the $720 profit was applied to
+the cost of the Nov 40 put,but could have been applied in any
+convenient manner to the cost of the long puts.
+The total cost basis ofthe residual position is $350 [270 + 80 =
+350].This means that we have taken on an extra $200 ofrisk
+beyond the original cost in an attempt to expand our profit range.
+See Figure 23-3 for a risk graph that depicts the residual position.
+This residual position has a great profit potential for any downside
+move in XYZ.Suppose XYZ falls to $31 in early November.The Nov 40
+181
+Chapter 23 Butterfly Spreads
+ecirP
+kcotS
+04
+03
+02
+Figure 23-2
+
+Today: 49 days left
+33 days left
+17 days left
+Expiry: 0 days left
+–1000 0 1000
+put might be worth $9.20, and the Nov 30 put might be worth $.50.
+Selling both options would bring in $970 [(9.20 + .50) ×100 = 970] for
+a net profit of $620 [970 – 350 = 620]. That represents a 177 percent
+gain based on the $350 cost basis of the residual position.
+Comment
+A word ofcaution about the butterfly spread ofExample 2.IfXYZ fails
+to move up,the short Nov 35 puts are deep-in-the-money and will have
+lost most of their time value by early November.In this case,there is a
+danger of early assignment.
+Unbalanced Butterfly Trade
+Let’s consider an example of an unbalanced butterfly trade:
+■ Example 3.In early July,the ZYX index is trading at $150 per
+share.Your feeling is that,over the next two months,this index
+182
+OPTIONS FOR THE BEGINNER AND BEYOND
+ecirP
+kcotS
+04
+03
+Figure 23-3
+
+is going to move sideways with a slight bias toward also moving
+higher.To focus on the $150 price while also allowing for
+upward movement,you initiate an unbalanced butterfly trade.
+Trade:
+Buy 1 Aug 145 put for $1.40 per share.Cost = 1.40 ×100 = $140.
+Sell 2 Aug 150 puts for $3.20 per share.Credit = 3.20 ×200 =
+$640.
+Buy 1 Aug 152.50 put for $4.50 per share.Cost = 4.50 ×100 =
+$450.
+Net credit = $50 [640 – 140 – 450 = 50].
+Max risk = $200.
+See Figure 23-4 for a risk graph that depicts this trade.
+Today: 49 days left
+33 days left
+17 days left
+Expiry: 0 days left
+–200 –100 0 100 200
+183
+Chapter 23 Butterfly Spreads
+ecirP
+kcotS
+061
+051
+041
+Figure 23-4
+
+This trade is established for a small credit. If ZYX is above $152.50 at
+expiration,all the puts will expire worthless,and the credit becomes a
+profit.As seen in Figure 23-4, this credit gives the butterfly an unbal-
+anced bias toward the upside.
+As with a standard butterfly,the maximum return occurs if ZYX closes
+at the sweet spot of$150 on the August option’s expiration date.In that
+case,the Aug $152.50 put can be sold for $250,while the other options
+all expire worthless.Thus,the net profit on the trade is $300 [250 + 50 =
+300],which includes the initial credit.
+The maximum loss of $200 occurs whenever ZYX closes below $145 at
+expiration.This unbalanced butterflyspread has a break-even point of
+$147 at expiration.
+184
+OPTIONS FOR THE BEGINNER AND BEYOND

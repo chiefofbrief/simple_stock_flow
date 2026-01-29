@@ -1,0 +1,145 @@
+30*
+THE PUT-CALL PARITY
+RELATIONSHIP
+Calls Cost More Than Puts
+It is easy to verify that calls are actually more expensive than puts by
+making the following observation: Find a stock whose price coincides
+with a strike price. Then check the prices of the call and put options
+associated with that same strike price and which have the same expira-
+tion month.You might guess that these options would have the same
+price, but instead you would find that the price of the call is always
+greater than that ofthe put.The difference would be small in the front-
+month options,but becomes significantly larger as you go out to more
+distant expiration dates. The most pronounced difference in price is
+seen in the LEAPS options.
+This price difference between puts and calls is known in option pric-
+ingtheory as put-call parity,even though it might seem more appropri-
+ately titled as put-call disparity. What is the reason for this price
+difference and why is it important in options trading? This chapter dis-
+cusses the answers to these questions.
+To understand why calls are more expensive than puts,we need to delve
+just a bit into the theory of options pricing. A method frequently
+employed in the theoretical investigations ofoptions is the use ofhypo-
+thetical portfolios. The idea is to formulate an idealized portfolio,
+which can be compared against a more realistic portfolio in order to
+reveal some fundamental truth.
+Let’s consider a hypothetical portfolio that is long 100 shares of stock
+with a price per share denoted by S(t).This portfolio will also include
+221
+
+one long put contract with a price per share denoted by P(t).The final
+component of this portfolio will be one short call contract with a price
+per share denoted by C(t).
+Both options have the same strike price, K, and the same expiration
+date.The per-share value ofthe total portfolio is denoted by V(t).It can
+be expressed as follows:
+V(t) = S(t) + P(t) – C(t). [1]
+Note that the letters used to designate various prices have been aug-
+mented with a (t) notation. This notation is used in mathematics to
+remind us that the value of each price can change as time progresses.
+The strike price K does not carry this notation because its value does
+not change with time.
+In this idealized portfolio,we want to rule out the possibility that either
+of the options is exercised. So, we assume that both options retain
+enough time value to avoid any assignment before the expiration date.
+To gain some insight into the nature of the idealized portfolio of [1],
+let’s see what its value will be when the expiration date ofthe options is
+reached. We signify that the expiration time has arrived by denoting
+t =T. At expiration, the stock price S(T) could be either higher or
+lower than the strike price K of the options.We need to examine both
+possibilities.
+If the stock price at expiration S(T) exceeds the strike price K,the call
+option will have a value of C(T) = S(T) – K,while the put option will
+be worthless, implying that P(T) = 0. In this case, it follows from [1]
+that V(T) = K.This says that the value ofthe idealized portfolio at expi-
+ration will be equal to the dollar value of the option strike price K.
+If the stock price at expiration S(T) is less than the strike price K, the
+put option will have a value of P(T) = K – S(T),while the call option
+will be worthless,implying that C(T) = 0.In this case,it follows from
+[1] that V(T) = K.Again,we find that the value ofthe idealized portfo-
+lio at expiration is equal to the dollar value ofthe option strike price K.
+After having examined both possible outcomes, we conclude that
+regardless of the price of the stock at the expiration date,this idealized
+222
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+portfolio described by [1] will always have the same value,namely the
+following:
+V(T) = K. [2]
+We can now develop a logical argument as to what the value ofthe ide-
+alized portfolio should be at any time before expiration when t < T.The
+logic of the argument goes like this.
+If you were to buy the portfolio described by [1] at any time before
+expiration,what would be a fair price for it? We see from [2] that it is
+guaranteed to be worth K dollars at expiration.Should we be willing to
+buy it for K dollars? Certainly not.We would be foolish to pay someone
+K dollars to own a portfolio that will be worth only K dollars several
+months later.That person would happily take our money and invest it
+in a riskless,interest-bearing product such as a U.S.treasury bill.At the
+option’s expiration date,they would cash out the treasury bill and use
+K dollars to buy back the portfolio,while pocketing the interest earned.
+Thus,we conclude that the true value ofthe portfolio [1] prior to expi-
+ration should be K dollars discounted so as to compensate for the inter-
+est it could earn until the options expire.We can express this value of
+the portfolio as follows:
+V(t) = K exp{- r (T – t)}, t < T. [3]
+In [3],r stands for the interest rate associated with the treasury bill,and
+T – t denotes the amount of time remaining until the options expire.
+The exp{ } notation denotes the exponential function,which is used to
+describe the continuous compounding of interest.
+We combine [1] and [3] to obtain the put-call parity relationship:
+C(t) – P(t) = S(t) – K exp{-r (T – t)}, t < T. [4]
+Now we can apply this put-call parity relationship [4] to demonstrate
+that calls are more expensive than puts.To fairly compare the prices of
+the call and put, we want the stock price to coincide with the strike
+223
+Chapter 30 The Put-Call Parity Relationship
+
+price.That is,we want to make the comparison when S(t) = K.In that
+special situation,[4] becomes the following:
+C(t) – P(t) = K [ 1 – exp{- r (T-t)}] > 0, t < T. [5]
+Because the right side of[5] is positive,it follows that C(t) > P(t).That
+is,the price of the call is always greater than the price of the put.
+Applications of Put-Call Parity
+1. Animportantapplicationof[4]isthenotionof“synthetic
+stock.”Asanalternativetobuying100sharesofstockatthe
+strikepriceK,itispossibletocreateasyntheticreplicaofthe
+stockbybuyingonecallcontractandsellingoneputcontract
+withthesamestrikepriceKandthesameexpirationmonth.
+Howwelldoesthissyntheticstocktracktherealthing?At
+expiration,whent=T,[4]impliesthefollowing:
+C(T) – P(T) = S(T) – K. [6]
+That is,the synthetic stock,which has a value of C(T) – P(T)
+is exactly equal to the profit or loss that results from buying
+the stock at the strike price K.
+This notion of synthetic stock was presented in Chapter 21,
+“Stock Substitutes.”It is particularly appealing because the
+cost of C(t) – P(t) is relatively small compared to the cost of
+buying the stock.This means that it is possible to mimic
+stock performance for a small fraction of the price of real
+stock.Of course,you must keep in mind that the short put
+will be viewed as “naked”by your broker,who will require
+some margin to hold this position.
+2. A useful options trade for long-term,buy-and-hold stocks is
+the “collar trade”using LEAPS.Collar trades are discussedin
+Chapters 18,“Collars,”and 19,“Advanced Collars.”In this
+trade,a stock is purchased for the long term,while an at-the-
+money LEAPS put is bought to protect the purchase price of
+the stock and an out-of-the money LEAPS call is sold to
+224
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+finance the cost of the put.Under the right circumstances,
+this collar trade can be set up so that there is essentially no
+risk to your investment,while still allowing for a possible
+upside profit of 15 percent to 20 percent on an annualized
+basis.
+The riskless aspect of the collar trade is possible because LEAPS calls
+carry much more time value than LEAPS puts,as implied by [4].The
+cash received from selling the more-expensive LEAPS call is used in
+paying for the relatively inexpensive LEAPS put. It is this disparity in
+price that allows for a good collartrade.
+225
+Chapter 30 The Put-Call Parity Relationship
+
+This page intentionally left blank

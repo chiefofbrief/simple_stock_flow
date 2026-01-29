@@ -1,0 +1,132 @@
+26*
+DAY TRADING AN
+INDEX WITH OPTIONS
+I f you are ready to try your hand at day trading an index using
+options,here is an overview of how to get started.Some ideas will
+be included on what index to use as well as the basic tools you will
+need to pursue this endeavor.
+A large number of indexes have options.For day trading purposes,you
+want an index with highly liquid options,and you want an index with
+a range of daily price movement that is sufficient to create opportuni-
+ties for profit.A favorite index ofmany traders that meets these criteria
+is the S&P 100,better known as the OEX.
+The OEX has an average daily price range of about 4 points.Seldom is
+the daily price range less than 2 points, and during every month you
+can expect to see several days with a price range of 7 to 8 points.Days
+with a price range of 10 points or more are relatively infrequent. An
+OEX price movement of 5 to 6 points is typically accompanied by a
+Dow price movement of about 100 points.
+The most conservative way to day trade the OEX is simply to buy a call
+or a put, depending on which way you anticipate the index price to
+move. The recommended option is the front-month, slightly out-of-
+the-money call or put.Depending on how close it is to the expiration
+date,the price of this option will be in the range of $2 to $7.The mag-
+nitude ofthe delta ofthis option typically is about 0.40 to 0.50.Keep in
+mind that as the index price moves in the desired direction,the magni-
+tude of the delta of the option will increase, thereby improving your
+potential for profit.
+201
+
+A reasonable goal is to capture about 60 percent ofthe price movement
+of the index for the day.On a typical day when there is a 4-point price
+movement in the OEX,you are looking to participate in a movement of
+about 2.5 points.With a delta of .40,this suggests that you are looking
+for a $1 per share gain in the price of the option; however, with slip-
+page,the gain is more likely to be about $.80 to $.90 per share.If you
+are trading 10 contracts, this translates to a profit of $800 to $900.
+Commissions will diminish that profit by $50 or less.
+Ideally,you would like to limit the average loss on your losing trades to
+less than the average profit on your winning trades.Realistically,this is
+difficult to achieve.Ifyou set your stops too tight in an effort to restrict
+loss,you will be prematurely taken out of many trades that would ulti-
+mately become profitable. For the typical 4-point price movement in
+the OEX, a good goal is to hold the loss on your losing 10 contract
+trades to $1,000,including commissions.
+Based on the average profit and loss per trade suggested previously,you
+will need to have at least two winning trades for every losing trade to
+make day trading the OEX a worthwhile venture.For every three trades
+involving a 4-point move in the OEX,you need two winners for a profit
+of $1,500 [2 × (800 – 50) = 1,500] to offset one loser with a loss of
+$1,000.That produces a net gain of $500 on the three trades.
+This projected return of $500 on every three trades based on a 10 con-
+tract trade can be adjusted to suit your tolerance for risk by using a dif-
+ferent number of contracts. Using a different lot size does bring some
+other issues into consideration.With fewer contracts,there is the advan-
+tage of quicker and better fills on your trades,but the disadvantage that
+commissions represent a larger percentage of the trade. With signifi-
+cantly more contracts,some liquidity may be lost,but theeffect ofcom-
+missions will be diminished. On those days where the price range is
+significantly more or less than the typical 4 points,theexpected profits
+and losses on the trades must be appropriately scaled.
+It should be emphasized that “day trading” means that you are not
+going to hold any position overnight. Of course, you can decide that
+you want to hold a position overnight or even for several days,but then
+you are into a whole new philosophy of trading. If you do decide to
+202
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+hold a position overnight,be aware that you are vulnerable to substan-
+tially more risk.
+The most important element in the day trading approach described
+previously is achieving the 2:1 ratio of winning trades to losing trades.
+Accomplishing this goal will depend on your skill in reading market
+direction,as well as your skill at entering and exiting trades.Developing
+these skills will require time and practice.
+Some basic tools can prove useful in helping you to develop the neces-
+sary skills for day trading.First of all,you need a trading platform that
+enables you to view all the important data in real time. You must be
+able to simultaneously view the option price and the index price in real
+time. The trading platform must also enable you to quickly issue an
+order to either enter or exit a trade.In day trading,it is imperative that
+you are able to see what is happening in real time and be able to act
+swiftly on your observations.
+Your visualization of the index price movement should be in the form
+of a chart.It is best if you can follow the index price movement on at
+least two charts whosebars are based on different time frames.A com-
+mon choice is one chart with 1-minute bars and another chart with
+10-minute bars.The 1-minute bar chart is useful in deciding on precise
+entry and exit points,whereas the 10-minute bar chart helps you to rec-
+ognize general trends in the price movement of the index.
+Your charts should be supplemented with some technical indicators
+that will assist you in determining a trend in the index price. While
+gaining experience,you can experiment with a variety oftechnical indi-
+cators,but almost all day traders use some type of stochastic oscillator
+in their analysis of short-term market movement.
+Probably the most common stochastic oscillator is the (14,3,3) slow
+stochastic. This is the default setting on many data services that offer
+stochastic analysis. You should set up this oscillator on both your
+1-minute bar chart and your 10-minute bar chart. Loosely speaking,
+the stochastic oscillator is used to indicate when a sustained trend in
+one direction (up or down) is likely to reverse and go the other way.
+The day trader uses these indications ofa change in direction as poten-
+tial entry and exit points for trading. The most reliable indications
+203
+Chapter 26 Day Trading an Index with Options
+
+occur when the stochastics of both the 1-minute and 10-minute charts
+agree on a change in price direction.
+Even though you may be day trading the OEX, it is wise to always be
+aware of the general trend in the market on a longer time frame. For
+example, if the market is in a strong bullish trend, you should give
+some preference to bullish day trades in the OEX. Keep in mind that
+favorite cliché of traders—“the trend is your friend.” During periods
+when the market is choppy,day trading can be particularly challenging
+because you are more likely to react to a false signal ofmarket direction.
+The discussion here is not sufficient for you to immediately step into
+the role of a successful OEX day trader,but it should be useful in get-
+ting you started in the right direction. It is highly recommended that
+you begin by practice trading and keeping a journal of your “paper
+trades.”This will help you to get a feel for how the option price reacts
+in response to changes in the index price. You also want to become
+comfortable with reading the signals provided by the stochastic oscilla-
+tor before you attempt any real trades.
+Comments
+Day trading is not for everyone.It requires lots of discipline and a per-
+sonality that can handle the rollercoaster of emotions that come from
+watching minute-by-minute market movement.
+If you plan to do some day trading, check with your broker about
+requirements for your account.The basic requirement of all brokers is
+that you maintain an account balance of $25,000, but some brokers
+may have additional restrictions.
+204
+OPTIONS FOR THE BEGINNER AND BEYOND

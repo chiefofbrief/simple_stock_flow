@@ -1,0 +1,179 @@
+24
+IRON CONDORS AND
+DOUBLE DIAGONALS
+T he iron condor trade and the double diagonal trade are popular
+nondirectional strategies.These trades are designed for a stock or
+index whose price is expected to remain within a reasonably nar-
+row range during a one-to-two-month time period.Both ofthese trades
+are credit trades.That is,the initial result of doing the trade is that cash
+is brought into your brokerage account. With these credit trades, the
+plan becomes one of waiting for the time value of the short options to
+dissipate as the stock price moves in a generally sideways direction.
+The Iron Condor Trade
+The basic setup of the iron condor is to sell one out-of-the-money call
+and one out-of-the-money put with strike prices that are about equally
+placed from the middle of the price range of the stock. To hedge
+these short positions, buy one call and one put that are even further
+out-of-the-money.All of these options have the same expiration date.
+Because the purchase prices of the long options are less than the sale
+prices of the short options,the iron condor creates a net credit.
+Another interpretation of an iron condor is a combination of two ver-
+tical credit spreads.A bull put spread is established with the short put
+strike price near the bottom of the price range of the stock.
+Additionally, a bear call spread is established with the short call strike
+price near the top ofthe price range ofthe stock.Both spreads have the
+same expiration date.The combined credit from both vertical spreads
+is the total credit for the iron condor.
+185
+
+The goal ofthe iron condor is to have both short options expire worth-
+less and hence retain all ofthe initial credit received when the trade was
+initiated.
+By using options that will expire in one to two months,the expectation
+is that the price of the stock will not have time to drift outside of its
+normal trading range.For the maximum return on the iron condor,the
+stock price at expiration needs to be between the strike prices of the
+short options.
+Let’s look at an example of an iron condor trade:
+■ Example 1.You observe that XYZ stock has recently been trad-
+ing in a range of $50 to $60.In late December,the stock is at
+$56,and you decide to set up an iron condor trade using
+February options.
+Trade:Sell 1 Feb 60 call for $1.85 and sell 1 Feb 50 put for
+$1.10.Buy 1 Feb 65 call for $.70 and buy 1 Feb 45 put for $.40.
+This creates a net credit of $1.85 per share,thereby bringing
+$185 [(1.85 + 1.10 – .70 – .40) ×100 = 185] into your
+brokerage account.
+See Figure 24-1 for a risk graph that depicts this trade.
+As Figure 24-1 shows,the best-case scenario is for the price of XYZ to
+be between $50 and $60 at the February option’s expiration. In this
+case,all the options expire worthless and the original credit of $185 is
+converted to profit.
+The worst-case scenario arises ifthe price ofXYZ is either below $45 or
+above $65. In either of these cases, one of the credit spreads must be
+closed for a cost of $5 per share.This results in a net loss on the trade
+of $315 [(5.0 ×100) – 185 = 315].
+Typically,there is no need to allow the trade to progress to the stage of
+a worst-case scenario. As seen in Figure 24-1, reasonable exit points
+would be if the price of XYZ falls to $48 or rises to $62. In either of
+these cases,the trade could be exited for a loss of about $100.
+There is a margin requirement on iron condor trades.Because the two
+vertical spreads that make up the iron condor are credit spreads,some
+186
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+Today: 56 days left
+38 days left
+19 days left
+Expiry: 0 days left
+–400 –300 –200 –100 0 100
+brokers will require margin on both.The more options-friendly brokers
+will only require margin on one ofthe vertical spreads in recognition of
+the fact that at least one of the two spreads must expire worthless.
+The Double Diagonal Trade
+The basic setup of thedouble diagonal is to sell one out-of-the-money
+call and one out-of-the-money put with strike prices that are about
+equally placed from the middle of the price range of the stock. These
+two short options have the same expiration date, usually one to two
+months until expiration. To hedge these short positions, buy one call
+and one put that are even further out-of-the-money,and with at least
+one additional month until expiration.Because the purchase prices of
+the long options are less than the sale prices of the short options, the
+double diagonal creates a net credit.
+187
+Chapter 24 Iron Condors and Double Diagonals
+ecirP
+kcotS
+07
+06
+05
+04
+03
+Figure 24-1
+
+Another interpretation of the double diagonal is a combination of two
+diagonal calendar spreads. A diagonal calendar spread with puts is
+established with the short put strike price near the bottom of the price
+range ofthe stock.Another diagonal calendar spread with calls is estab-
+lished with the short call strike price near the top of the price range of
+the stock.Both ofthe short options have the same expiration date.Both
+of the long options have the same expiration date, usually one to two
+months later than the short options.
+As with the iron condor,the goal of the double diagonal is to have both
+short options expire worthless. Assuming that the short options do
+expire worthless, you will have choices about how to handle the trade
+going forward.(1) One choice is to sell the long options for their residual
+value,even though they do not expire for at least one month.(2)Another
+choice is to sell new options,thereby creating either another double diag-
+onal or an iron condor.
+Let’s look at an example of a double diagonal trade:
+■ Example 2.You observe that XYZ stock has recently been
+trading in a range of $50 to $60.In late December,the stock is
+at $56,and you decide to set up a double diagonal trade using
+February and March options.
+Trade:Sell 1 Feb 60 call for $1.85 and sell 1 Feb 50 put for
+$1.10.Buy 1 Mar 65 call for $1.20 and buy 1 Mar 45 put for
+$.70.This creates a net credit of $1.05 per share,thereby bring-
+ing $105 [(1.85 + 1.10 – 1.20 – .70) ×100 = 105] into your bro-
+kerage account.
+See Figure 24-2 for a risk graph that depicts this trade.
+As suggested by Figure 24-2, if XYZ is between $50 and $60 at the
+February expiration date, the short options will expire and the long
+options sold,leading to a profit of $150 to $180 on the trade.
+The worst-case scenario arises ifthe price ofXYZ is either below $35 or
+above $75.In either of these cases,Figure 24-2 suggests that the trade
+will be showing a loss of about $400.
+As with the iron condor,there is typically no need to allow the double
+diagonal trade to progress to the stage of a worst-case scenario.As seen
+188
+OPTIONS FOR THE BEGINNER AND BEYOND
+
+Today: 56 days left
+38 days left
+19 days left
+Expiry: 0 days left
+–400 –300 –200 –100 0 100
+in Figure 24-2,reasonable exit points would be if the price of XYZ falls
+to $48 or rises to $63.In either of these cases,the trade could be exited
+for a loss of about $100.
+The margin requirement for the double diagonal trade is essentially the
+same as for an iron condor trade.Some brokers require margin on both
+diagonal calendar spreads, whereas the more options-friendly brokers
+will only require marginon one spread.
+Comments
+The main advantage of the iron condor is its simplicity at expiration if
+the stock price is between the strike prices of the short options. All
+options expire worthless and the trade is automatically closed without
+the need for any action.No commissions are incurred.
+189
+Chapter 24 Iron Condors and Double Diagonals
+ecirP
+kcotS
+07
+06
+05
+04
+03
+Figure 24-2
+
+The main advantage ofthe double diagonal is the flexibility it offers for
+adjustments. In Example 2, if the price of XYZ moves up toward the
+$60 strike price of the short call or down toward the $50 strike price of
+the short put,the short February option can be rolled out to a March
+option. Alternatively, the Feb 60 calls can be rolled up to the Feb 65
+calls,or the Feb 50 puts can be rolled down to the Feb 45 puts;either of
+which creates a Feb–Mar calendar spread with no margin issue.
+Another advantage of the double diagonal is the possibility of continu-
+ation into the next month.In Example 2,ifXYZ is between $50 and $60
+at the February expiration, you have achieved a profit, and the long
+March options become free positions that can be played for another
+month. For example, those long options could be used as the outside
+legs of an iron condor for March.
+A disadvantage ofthe double diagonal is the decision process that must
+take place following the expiration of the short options.Some action is
+required to either (1) sell the long options or (2) initiate new short legs
+so as to extend the trade for another month.In either case,this neces-
+sarily involves some decision about obtaining the best prices. Also,
+there will be additional commission charges.
+190
+OPTIONS FOR THE BEGINNER AND BEYOND
