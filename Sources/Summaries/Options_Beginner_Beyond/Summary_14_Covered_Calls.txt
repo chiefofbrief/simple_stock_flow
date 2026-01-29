@@ -1,0 +1,61 @@
+# Chapter 14: Covered Calls Playbook
+
+## 1. Core Strategy
+
+A Covered Call is executed by owning 100 shares of a stock and selling one out-of-the-money (OTM) call option against those shares. This is not a "conservative" strategy; its risk profile is nearly identical to selling a cash-secured or naked put.
+
+### Key Objective
+The primary goal is to generate income (from the call premium) on a stock you already own. This income reduces your cost basis in the stock. The trade-off is that you cap the potential upside of the stock at the strike price of the call you sell.
+
+## 2. Walkthrough: Ideal vs. Reality
+
+### The "Ideal" (But Unrealistic) Scenario
+- **Setup:** Buy 100 shares of XYZ at $30.
+- **Action:** Sell a call 10-15% OTM for a $1.20 premium ($120).
+- **Outcome:** Over 7 months, the stock rises to $50. Each month, the call expires worthless, and you re-sell another.
+- **Result:**
+    - Stock Profit: $2,000 ($50 - $30)
+    - Option Profit: $840 ($120 x 7)
+    - Total Profit: $2,840 (a 95% return on the initial $3,000 investment).
+- **Author's Critique:** This scenario is rare because it requires the stock to rise steadily without ever breaching the short call's strike price at expiration.
+
+### The Realistic Scenario (QCOM Example)
+This example illustrates the difficult decisions required in managing the trade.
+
+- **May 2003:** Buy 100 QCOM @ $30. Sell 1 June $35 Call for $1.00.
+    - **Max Profit:** $600 ([$35 strike - $30 cost] + $1 premium).
+- **June Expiration:** QCOM is at $37.
+    - **Decision Point:**
+        1.  **Let it Go:** Allow the stock to be called away at $35 for a $600 profit (20% in one month).
+        2.  **Keep the Stock:** Buy back the call for its current price of $2.00 (a $100 loss on the option) to hold the stock for more potential upside.
+- **If You Keep the Stock:** You've now paid $100 to continue holding it. You then sell a July $40 Call for $2.00.
+- **July Expiration:** QCOM falls back to $35. The July $40 call expires worthless.
+    - **Decision Point:** The stock has fallen.
+        1.  Sell an August $40 Call for a very low premium (e.g., $0.35).
+        2.  Sell an August $35 Call for a higher premium (e.g., $2.00) but cap your upside at the current price.
+
+**Conclusion:** Real-world covered call management involves continuous, tough decisions as the stock price moves.
+
+## 3. Risk Profile: Covered Call vs. Naked Put
+
+The author demonstrates that the risk/reward profile of a covered call is identical to that of a naked put.
+
+| **Metric** | **Covered Call** | **Naked Put** |
+| :--- | :--- | :--- |
+| **Setup** | Buy 100 QCOM @ $53, Sell Feb $55 Call @ $2 | Sell Feb $55 Put @ $4 |
+| **Effective Cost** | $51 ($53 stock price - $2 premium) | $51 ($55 strike - $4 premium) |
+| **Max Risk** | $5,100 (if stock goes to zero) | $5,100 (if stock goes to zero) |
+| **Profit if QCOM > $55**| $400 ($55 sale price - $51 cost basis) | $400 ($4 premium kept) |
+| **Loss if QCOM @ $45** | -$600 ($51 cost basis - $45 stock value) | -$600 ($51 cost basis - $45 stock value) |
+
+- **Advantage of Covered Call:** You receive any dividends paid by the stock.
+- **Advantage of Naked Put:** Ties up less capital, offering better leverage. However, this carries margin call risk if the stock drops sharply.
+
+## 4. Actionable Trade Management Rules
+
+1.  **Manage the Stock, Not the Option:** Your primary risk is the stock. Set a stop-loss price for your **stock holding**. If it's hit, sell the stock and buy back the short call simultaneously. Do not hold a declining stock just to eke out a small profit on the option.
+2.  **Select a Strike You Mean:** Only sell a call at a strike price where you would be genuinely happy to sell your stock.
+    - **To Keep Stock:** If your main goal is long-term holding, sell calls at a **higher strike price** (further OTM) for a smaller premium.
+    - **To Generate Income:** If you are willing to part with the stock for a good profit, sell calls at a **closer strike price** to collect a larger premium.
+3.  **Stay Near-Term:** Avoid selling long-dated calls (more than 2 months out). Stick to the front-month or second-month options (4-8 weeks). This gives you the flexibility to adjust to significant price moves.
+4.  **Don't Be Greedy:** If the stock is above your strike at expiration, let it be called away. You made your profit. Resista the urge to buy the call back for a loss to chase further gains. This can lead to a "double loss": a loss on the option followed by a loss on the stock if it subsequently falls.

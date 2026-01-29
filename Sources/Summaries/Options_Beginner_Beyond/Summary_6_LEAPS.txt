@@ -1,0 +1,52 @@
+# Summary of Chapter 6: LEAPS (Long-term Equity AnticiPation Securities)
+
+This chapter explains how to use LEAPS (options with expirations up to two or three years in the future) as a stock substitute, often called the "poor man's stock." This strategy allows an investor to control a large stock position for a fraction of the capital required to buy the shares outright. The chapter uses a detailed, multi-stage example to walk through the significant advantages and disadvantages of this approach.
+
+## Core Example: LEAPS as a Stock Substitute
+
+The primary illustration compares buying 100 shares of a stock (XYZ) versus buying a long-term LEAPS call.
+
+- **The Setup:**
+  - XYZ stock is trading at **$98 per share**.
+  - **Option 1 (Buy Stock):** Purchase 100 shares for a total cost of **$9,800**.
+  - **Option 2 (Buy LEAPS):** Purchase 1 LEAPS call with a $100 strike price expiring in ~2 years (Jan 07) for **$11.50 per share**, a total cost of **$1,150**.
+
+- **The Key Advantage:** The LEAPS call allows the trader to participate in the price movement of 100 shares for only **12% of the cost** of owning the stock, dramatically increasing leverage and freeing up capital.
+
+## Performance Walkthrough: LEAPS vs. Stock
+
+The chapter demonstrates that while LEAPS provide leverage, their performance is very different from stock due to time decay.
+
+#### The Upside: Dramatic Leverage
+- **Scenario:** After 8 months, XYZ stock rises to **$120** (a **22% gain**).
+- **Result:** The LEAPS call shows a profit of approximately **$1,400**, a **122% gain** on the initial $1,150 investment.
+
+#### The Downside: Time Decay and Amplified Losses
+Time decay is a major risk, even with long-term options. The LEAPS call can lose value even if the underlying stock goes up.
+
+- **Scenario 1 (Stock Stagnates):** After 8 months, XYZ stock is at **$100** (a **2% gain**).
+- **Result:** The LEAPS call shows a loss of about **$100**, a **-9% return** due to the erosion of time value.
+
+- **Scenario 2 (Stock Drops Slightly):** After 17 months, XYZ stock is at **$95** (a **-3% loss**).
+- **Result:** The LEAPS call shows a loss of about **$700**, a **-61% return**.
+
+**Lesson:** A LEAPS call will provide a greatly enhanced return if the stock performs well. However, if the stock price gains little or drops even slightly, the option will perform poorly and can suffer a substantial loss while the stock itself might be profitable or only down a small amount.
+
+## Real-World Examples & Diversification
+
+The chapter analyzes a real portfolio of 10 LEAPS calls ("The Options Medley") to show these principles in action.
+
+- **A Winning Trade (DHI):**
+  - The stock gained **54%**.
+  - The LEAPS call gained **243%**.
+
+- **A Losing Trade (VZ):**
+  - The stock gained **11%**.
+  - The LEAPS call **lost 29%** due to time decay, as the stock price did not rise enough to overcome it.
+
+**Key Takeaway on Diversification:** For the same cost as owning 100 shares of a single stock, an investor can buy LEAPS calls on several different stocks, thereby spreading risk across a diversified portfolio.
+
+## Other Strategies & Considerations
+
+- **Generating Income:** The chapter briefly introduces selling shorter-term calls against a LEAPS call position to generate monthly income, which can help offset the cost and time decay of the long-term option.
+- **Dividends:** A crucial point is that LEAPS holders **do not receive dividends**. If the stock pays a significant dividend, this must be factored in when comparing the performance of a LEAPS call to owning the stock.

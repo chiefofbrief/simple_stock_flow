@@ -1,0 +1,79 @@
+# Summary of Chapter 10: Vertical Spreads
+
+This chapter introduces vertical spreads, which involve buying one option and selling another with the same expiration date but a different strike price. The primary goal is to reduce the cost and risk of a standard long option trade, potentially offering an improved probability of profit.
+
+The chapter breaks them down into two main types: **Debit Spreads** (you pay to enter) and **Credit Spreads** (you get paid to enter).
+
+---
+
+## 1. Bull Call Spread (A Bullish Debit Spread)
+
+-   **Your Outlook:** Bullish. You expect the stock to make a **significant move up** over an intermediate to long-term period.
+-   **The Goal:** To profit from a stock's rise while reducing the high cost and time-decay risk of buying a single call option.
+-   **Trade Construction (from the book):**
+    -   **Scenario:** XYZ is at $35. You believe it will be at or above $40 by November.
+    -   **Action:**
+        -   **BUY** 1 Nov 35 call @ $4.10
+        -   **SELL** 1 Nov 40 call @ $2.10
+    -   **Cost:** The net debit is **$2.00 per share** ($200 per contract).
+
+-   **Risk vs. Reward:**
+    -   **Maximum Risk:** The initial debit paid: **$200**.
+    -   **Maximum Profit:** The difference between the strike prices minus the debit paid. This is achieved if the stock is at or above the short strike ($40) at expiration.
+        -   Calculation: ($40 - $35) - $2.00 = **$3.00 per share** ($300 per contract).
+        -   The return on risk is **150%** ($300 profit / $200 risk).
+
+---
+
+## 2. Bear Put Spread (A Bearish Debit Spread)
+
+-   **Your Outlook:** Bearish. You expect the stock to make a **significant move down** over an intermediate to long-term period.
+-   **The Goal:** To profit from a stock's fall while reducing the high cost of buying a single put option.
+-   **Trade Construction (from the book):**
+    -   **Scenario:** XYZ is at $35. You believe it will be at or below $30 by November.
+    -   **Action:**
+        -   **BUY** 1 Nov 35 put @ $3.90
+        -   **SELL** 1 Nov 30 put @ $1.80
+    -   **Cost:** The net debit is **$2.10 per share** ($210 per contract).
+
+-   **Risk vs. Reward:**
+    -   **Maximum Risk:** The initial debit paid: **$210**.
+    -   **Maximum Profit:** The difference between the strike prices minus the debit. This is achieved if the stock is at or below the short strike ($30) at expiration.
+        -   Calculation: ($35 - $30) - $2.10 = **$2.90 per share** ($290 per contract).
+        -   The return on risk is **138%** ($290 profit / $210 risk).
+
+---
+
+## 3. Bull Put Spread (A Bullish Credit Spread)
+
+-   **Your Outlook:** Bullish to Neutral. You expect the stock to **rise, move sideways, or not fall below a certain price** over a *short-term* period.
+-   **The Goal:** To collect a premium (a credit) with the expectation that both options will expire worthless.
+-   **Trade Construction (from the book):**
+    -   **Scenario:** ZYX is at $45. You believe it will stay **above $50** in the next 6 weeks.
+    -   **Action:**
+        -   **SELL** 1 May 50 put @ $5.30
+        -   **BUY** 1 May 45 put @ $2.70
+    -   **Credit Received:** You are paid **$2.60 per share** ($260 per contract) to open the trade.
+
+-   **Risk vs. Reward:**
+    -   **Maximum Risk:** The difference between the strikes minus the credit received: ($50 - $45) - $2.60 = **$2.40 per share** ($240 per contract). This loss occurs if the stock finishes below the lower strike ($45) at expiration.
+    -   **Maximum Profit:** The initial credit received: **$260**. This is achieved if the stock is at or above the short strike ($50) at expiration, as both puts expire worthless.
+    -   The return on risk is **108%** ($260 profit / $240 risk).
+
+---
+
+## 4. Bear Call Spread (A Bearish Credit Spread)
+
+-   **Your Outlook:** Bearish to Neutral. You expect the stock to **fall, move sideways, or not rise above a certain price** over a *short-term* period.
+-   **The Goal:** To collect a premium with the expectation that both options will expire worthless.
+-   **Trade Construction (from the book):**
+    -   **Scenario:** ZYX is at $45. You believe it will stay **below $40** by mid-May.
+    *   **Action:**
+        -   **SELL** 1 May 40 call @ $5.70
+        -   **BUY** 1 May 45 call @ $3.00
+    *   **Credit Received:** You are paid **$2.70 per share** ($270 per contract) to open the trade.
+
+-   **Risk vs. Reward:**
+    -   **Maximum Risk:** The difference between the strikes minus the credit received: ($45 - $40) - $2.70 = **$2.30 per share** ($230 per contract). This loss occurs if the stock finishes above the higher strike ($45) at expiration.
+    -   **Maximum Profit:** The initial credit received: **$270**. This is achieved if the stock is at or below the short strike ($40) at expiration.
+    -   The return on risk is **117%** ($270 profit / $230 risk).

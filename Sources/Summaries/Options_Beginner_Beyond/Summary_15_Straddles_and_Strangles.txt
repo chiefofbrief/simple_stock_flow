@@ -1,0 +1,90 @@
+# Chapter 15: Straddles & Strangles Playbook
+
+This playbook is for strategies designed to profit from a large stock price movement, regardless of direction. These are difficult trades due to the negative impact of time decay on two long options.
+
+## 1. The Long Straddle
+
+A straddle involves buying a call and a put with the **same strike price** and **same expiration date**.
+
+### Key Objective
+To profit from a significant price move that is large enough for the gains on the winning option to overwhelm the total cost of both premiums. A small or sideways move will result in a loss.
+
+### Walkthrough: The Anatomy of a Straddle
+
+- **Scenario:** XYZ stock is trading at $30. There are rumors of a major event (either a buyout or an earnings disaster).
+- **Trade Setup (Example):**
+    - Buy 1 August $30 Call @ $2.10
+    - Buy 1 August $30 Put @ $1.90
+    - **Total Cost & Max Risk:** $400 per straddle (`[$2.10 + $1.90] x 100`)
+
+---
+
+### Profit & Loss Scenarios
+
+The success of a straddle depends heavily on the **magnitude** and **timing** of the stock's move.
+
+#### **Profitable Scenarios (Ideal Outcomes):**
+
+1.  **Fast, Large Down Move:**
+    - **Event:** In mid-June, an earnings warning sends the stock to $25.
+    - **Option Value:** The put's price expands to $6.20. The call holds some value ($0.50) due to remaining time.
+    - **Result:** Selling both nets $670, for a **$270 profit** (68% gain).
+
+2.  **Buyout:**
+    - **Event:** In early July, a buyout is announced at $35.
+    - **Option Value:** The call is now worth $5.30. The put is nearly worthless at $0.20.
+    - **Result:** Selling both nets $550, for a **$150 profit** (38% gain).
+
+3.  **Whipsaw (Profit on Both Legs):**
+    - **Event 1:** Stock drops to $25. **Sell the put only** for $6.20 (a $430 profit on that leg).
+    - **Event 2:** Weeks later, a buyout is announced at $35. **Sell the call** for $5.30 (a $320 profit on that leg).
+    - **Result:** A combined **$750 profit** (188% gain).
+
+#### **Losing Scenarios (Common Pitfalls):**
+
+1.  **Move Too Small, Too Late (Down):**
+    - **Event:** In *late* July, stock only drifts down to $27.50.
+    - **Problem:** Most of the time value has decayed.
+    - **Result:** The options are only worth a combined $3.00. The trade loses **$100** (-25%).
+
+2.  **Move Too Small, Too Late (Up):**
+    - **Event:** In *early* August, a hostile bid is announced at just $32.
+    - **Problem:** Not enough movement to offset the cost and time decay.
+    - **Result:** The options are worth a combined $2.45. The trade loses **$155** (-39%).
+
+3.  **No Movement (Time Decay's Maximum Toll):**
+    - **Event:** Nothing happens. The stock stays near $30.
+    - **Problem:** By the second week of August, both options have lost most of their value to time decay.
+    - **Result:** The options are worth a combined $1.40. The trade loses **$260** (-65%).
+
+---
+### Hidden Danger: Implied Volatility (IV) Crush
+
+If a catalyst is widely known, the options' Implied Volatility (IV) will be high, making the straddle expensive to buy. After the event, IV "crushes," and the option prices collapse, even if the stock moved. This can turn a winning trade into a loser.
+
+---
+## 2. Straddle Trade Management Rules
+
+### Setup Checklist: Finding a Candidate
+
+1.  **Price Range:** Target stocks between **$20 and $50**. Cheaper stocks may not have room to fall; more expensive stocks have costly options.
+2.  **Define the Catalyst:** Identify a specific, upcoming event (e.g., earnings, FDA ruling, court case) that is **30-60 days away**.
+3.  **Choose Expiration:** Select an option expiration date that is at least **30 days AFTER the catalyst date**. This means buying options with 60-90 Days to Expiration (DTE).
+4.  **Check for Low IV:** Ensure the event hasn't already inflated option prices. Compare the current IV to historical averages. A stock trading sideways in a narrow range is a good sign.
+
+### Exit Rules
+
+1.  **Leg Out Before the Event:** If the stock runs up sharply *before* an earnings call, consider selling the call to lock in profits and holding the put through the announcement as a hedge against a "sell the news" event.
+2.  **Sell the Post-Event Spike:** Once the catalyst triggers a large move, the winning option will be temporarily inflated with extra time value. Sell it before this value evaporates.
+3.  **Abandon a Failed Trade:** **Never hold a straddle to expiration.** If the expected move doesn't happen, exit the entire position with at least **3-4 weeks remaining** to recover a portion of your capital.
+
+## 3. The Long Strangle
+
+A strangle is a cheaper, more aggressive version of the straddle. It involves buying an **out-of-the-money (OTM) call** and an **OTM put** with the same expiration.
+
+- **Example:** With XYZ at $30, a strangle might be:
+    - Buy 1 August $35 Call @ $0.80
+    - Buy 1 August $25 Put @ $0.70
+    - **Total Cost & Max Risk:** $150
+
+**The Trade-Off:** The strangle is significantly cheaper to initiate ($150 vs. $400), but it requires a much larger move in the stock price to become profitable, as the stock must first travel from its current price to the strike price of one of the options.

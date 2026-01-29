@@ -1,0 +1,45 @@
+# Summary of Chapter 12: Calendar Spreads (Time Spreads)
+
+This chapter introduces calendar spreads (also called time or horizontal spreads), a strategy designed to profit from the passage of time. Unlike vertical spreads, which use a single expiration date, calendar spreads use two different expiration dates.
+
+## The Core Concept: Profiting from Time Decay (Theta)
+
+The fundamental principle is that **a short-term option loses its time value (theta) at a much faster rate than a long-term option**.
+
+A calendar spread captures this difference. You sell a rapidly decaying front-month option to help pay for a slower-decaying distant-month option. The goal is for the credit gained from the short option's decay to be greater than the value lost from the long option's decay.
+
+**Ideal Stock Condition:** This strategy works best on stocks that are expected to trade within a **reasonably narrow price range**. The author states that highly volatile stocks are generally **not suitable** for calendar spreads.
+
+## The Playbook: Trade Construction
+
+The basic structure is to sell a near-month option and buy a distant-month option, both with the same strike price, which is typically at-the-money (ATM).
+
+-   **Scenario:** In early May, XYZ stock is at **$34.70**. You expect it to stay in a narrow range.
+-   **Action:**
+    -   **SELL** 1 **June** 35 call @ $1.30
+    -   **BUY** 1 **November** 35 call @ $3.50
+-   **Cost:** The net debit is **$2.20 per share** ($220 per contract).
+
+## How Profit Is Made: An Idealized Walkthrough
+
+-   **At June Expiration:** Assume XYZ is still at $34.70.
+    -   The short June 35 call expires worthless. **You keep the full $1.30 premium.**
+    -   The long November 35 call has also lost *some* time value, with its price falling from $3.50 to an estimated $3.00. **This is a $0.50 loss.**
+-   **Net Profit:** You made $1.30 from the short call's decay and lost $0.50 on the long call's decay, for a net profit of **$0.80 per share** ($80).
+
+## Key Management Techniques
+
+#### 1. The "Rollout" Maneuver
+This is the process of closing the current spread and opening the next one **before expiration**. It involves buying back the expiring front-month option while simultaneously selling the next month's option.
+
+-   **When to Roll:** The author suggests the best time is often **8-10 days before expiration**.
+-   **Why Roll Early?** At this point, the front-month option (especially if it's in-the-money) has very little time value left to decay. Meanwhile, the option for the *next* month still has significant premium. Rolling early allows you to lock in the most favorable price difference between the option you are buying back and the new one you are selling. It is a necessity if your short option is in-the-money to avoid assignment.
+
+#### 2. The Profit "Tent"
+A calendar spread is only profitable if the stock price is within a specific range at the front-month's expiration. In the book's example, the profitable range was between **$33 and $38**. If the stock moves too far in either direction, the trade will result in a loss.
+
+## Author's Rules for Managing the Trade
+
+-   **Taking a Loss:** Consider exiting the trade to limit your loss if it reaches **50% of the initial debit** you paid.
+-   **Taking a Profit:** Consider closing the entire trade for a profit if you can realize **at least 50% of the maximum possible profit** before expiration, rather than rolling to the next month.
+-   **Calls vs. Puts:** While the mechanics are the same, the author suggests using **call calendars** if you expect a slight upward drift and **put calendars** if you expect a slight downward drift.

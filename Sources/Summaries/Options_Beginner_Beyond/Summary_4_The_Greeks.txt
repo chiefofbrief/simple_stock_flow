@@ -1,0 +1,33 @@
+### **Revised Summary of Chapter 4: The Greeks**
+
+This chapter provides a practical overview of the "Greeks," which are essential one-word metrics that describe how an option's price changes in response to key factors. The author stresses that a working knowledge of Delta is the most critical first step to becoming a better options trader.
+
+### **Key Concepts & Takeaways:**
+
+#### **1. Delta (Δ) - The "How Much"**
+-   **Definition:** The amount an option's price is expected to change for every **$1 change** in the underlying stock price.
+-   **Practical Application (Call Options):**
+    -   **At-the-Money (ATM):** Delta is ~**.50**. An option costs $2.00. The stock rises $2. The option price increases by ~$1.00 ($2 stock move x .50 Delta).
+    -   **In-the-Money (ITM):** Delta is **.50 to 1.0**. An option costs $6.00 with a .80 Delta. The stock rises $2. The option price increases by ~$1.60 ($2 stock move x .80 Delta).
+    -   **Out-of-the-Money (OTM):** Delta is **less than .50**. An option costs $0.60 with a .10 Delta. The stock rises $2. The option price increases by only ~$0.20 ($2 stock move x .10 Delta).
+-   **Puts have a negative Delta** (e.g., ATM is ~-.50) because their value increases as the stock price falls.
+-   **Critical Insight: Delta vs. Time Decay.** A high delta isn't a guarantee of profit. The chapter provides a follow-up example showing that if the stock move takes too long, the loss from time decay can erase the gains from Delta, turning a potential winner into a break-even or losing trade.
+
+#### **2. Theta (Θ) - The "How Fast" of Time Decay**
+-   **Definition:** The amount an option's price will decrease *each day* purely due to the passage of time. Theta is always negative for the option buyer.
+-   **Accelerating Decay:** The rate of decay is not linear; it accelerates dramatically as expiration approaches.
+    -   **Rule of Thumb:** The author notes that theta decay is proportional to the square root of time remaining. An option with **10 days** left will lose value **6 times faster** than it did when it had **360 days** left.
+    -   Because of this, the author notes some traders make a practice of never holding long ATM options with **less than three weeks** to expiration.
+-   **Practical Measurement:** You can estimate an option's daily theta by comparing it to an option with the same strike but a later expiration. If a 4-month option is $1.80 more expensive than a 2-month option, it's expected to lose that $1.80 over 60 days, for a daily theta of about -$0.03.
+
+#### **3. Gamma (Γ) - The "Acceleration"**
+-   **Definition:** The rate of change of an option's **Delta**. It measures how much the delta will change for every $1 move in the stock.
+-   **Gamma Risk:** This risk is highest for ATM options near expiration. A small move in the stock can cause Delta to swing dramatically from near 0 to near 1.0 (or vice versa), making the option's value highly unstable.
+
+#### **4. Vega (ν) - The "Volatility"**
+-   **Definition:** How much an option's price changes for every 1% change in the stock's **implied volatility**.
+-   **Practical Application:** Vega is highest during periods of "excitement" (e.g., earnings, takeover rumors). During these times, option prices can become inflated from a rise in implied volatility (a high vega), even if the stock price itself hasn't moved much.
+
+#### **5. Rho (ρ) - The "Interest Rate"**
+-   **Definition:** How much an option's price changes for every 1% change in risk-free interest rates.
+-   **Relevance:** Considered to have only a "slight" influence on option prices in a typical interest rate environment.

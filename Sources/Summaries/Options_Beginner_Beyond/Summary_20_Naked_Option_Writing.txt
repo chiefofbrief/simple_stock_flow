@@ -1,0 +1,60 @@
+# Chapter 20: Naked Option Writing Playbook
+
+"Naked" or "uncovered" option writing involves selling an option without holding an offsetting position. This strategy carries substantial, and in the case of naked calls, theoretically unlimited risk. It should only be approached with a complete understanding of the potential for catastrophic loss.
+
+## 1. The Dangers of Naked Option Writing
+
+The primary allure of selling naked options is collecting premium, based on the assumption that most out-of-the-money (OTM) options will expire worthless. This is a dangerous oversimplification that ignores "black swan" events that can cause devastating losses far exceeding the premium received.
+
+### Case Study 1: The Naked Put Disaster (OVTI)
+
+-   **The "Safe" Bet:** With OVTI stock at $25 and a positive earnings report expected, a trader sells 5 naked puts with a $25 strike, collecting **$500** in premium. The trade seems like "easy money."
+-   **The Black Swan:** The company unexpectedly delays its earnings report due to an internal investigation.
+-   **The Aftermath:** The stock collapses to $15.50 by expiration. The trader is now faced with a **$4,250 loss**—either by buying back the puts at a massively inflated price or by being forced to buy shares at $25 that are only worth $15.50.
+-   **Lesson:** A small premium collection was dwarfed by an unforeseen event, resulting in a loss of over 8 times the initial credit.
+
+### Case Study 2: The Naked Call Disaster (CYBX)
+
+-   **The "Smart" Bet:** With CYBX stock at $18, a trader sells 3 naked calls with a $20 strike, collecting **$1,050**. The consensus is that even on good news, the stock won't rise much.
+-   **The Black Swan:** The company receives a surprise FDA approval for a new device.
+-   **The Aftermath:** The stock explodes to $37 by expiration. The trader is now faced with a **$4,650 loss**, forced to either buy back the calls at a huge price or buy stock at $37 on the open market just to deliver it for $20.
+-   **Lesson:** The risk on a naked call is unlimited because a stock's price can rise indefinitely. "Expert" projections can be spectacularly wrong.
+
+**Risk Equivalence Note:** A **covered call** carries the *exact same risk profile* as a **naked put**. The fact that brokers often allow one but not the other in retirement accounts is a historical quirk, not a reflection of a difference in risk.
+
+---
+
+## 2. The One Acceptable Strategy: Using Naked Puts to Acquire Stock
+
+This strategy is not about income generation; it is a **stock acquisition tactic**. It allows you to get paid while you wait to buy a stock you already want at a better price.
+
+### Prerequisites for This Strategy
+
+1.  **Fundamental Conviction:** You have thoroughly researched a stock and are ready and willing to own it for the long term at its current price.
+2.  **Sufficient Capital:** You MUST have enough cash set aside to buy 100 shares of the stock for every put contract you sell (this is known as a **Cash-Secured Put**).
+3.  **Desire for a Better Price:** Your goal is to own the stock, but you would be happier buying it at a discount.
+
+### Walkthrough: Getting Paid to Buy XYZ
+
+-   **Situation:** You want to buy 200 shares of XYZ, which is currently trading at $31.
+-   **The Trade (Instead of buying shares directly):**
+    -   Sell 2 front-month **$30 strike puts** for a $1.25 premium each.
+    -   **Result:** You immediately receive **$250** in cash. You are now obligated to buy 200 shares of XYZ at $30 if the price is below $30 at expiration.
+
+### The Two Possible Outcomes at Expiration
+
+1.  **Stock Stays ABOVE $30:**
+    -   The puts expire worthless. You keep the **$250** free and clear. You did not acquire the stock, but you were paid for your willingness to buy it. If you still want the stock, you can repeat the process.
+
+2.  **Stock Falls BELOW $30:**
+    -   The puts are assigned to you. You are forced to buy 200 shares at the $30 strike price.
+    -   However, because you received a $1.25 per share premium, your actual cost basis for the stock is only **$28.75 per share**.
+
+**The Advantage:** If the stock had pulled back from $31 to $29, a direct buyer would be down $2 per share. The naked put seller, in contrast, just acquired the stock at an effective price of $28.75—below the current market price—and is already in a better position.
+
+### Risk Management for the Acquisition Strategy
+
+Even with this "safer" strategy, you must manage risk. Treat the position as if you already own the stock.
+
+-   **Set a Mental Stop-Loss:** If you would normally use a 10% stop-loss when buying a stock, apply that same logic here. If you sell the $30 put when the stock is at $31, your mental stop is around $28.
+-   **Action:** If the stock falls to your stop-loss price ($28) before expiration, **buy back the put** to close the position and realize your loss. This loss will be smaller than if you had bought the stock outright at $31 and sold it at $28.

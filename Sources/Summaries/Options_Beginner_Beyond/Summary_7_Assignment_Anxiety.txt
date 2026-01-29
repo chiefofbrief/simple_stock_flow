@@ -1,0 +1,35 @@
+### **Revised Summary of Chapter 7: Assignment Anxiety**
+
+This chapter aims to reduce the anxiety associated with having an option that you've sold get "assigned" (i.e., the buyer exercises their right). The advice is predicated on the assumption that the trader is using **covered positions** (like covered calls or spreads) and not selling "naked" options, which carry entirely different and substantial risks.
+
+### **Key Concepts & Takeaways:**
+
+#### **When Is Early Assignment UNLIKELY?**
+-   **Guideline 1: Out-of-the-Money (OTM) Options.** You will **"(essentially) never"** be assigned on a short option that is OTM.
+    -   *Reasoning:* It makes no financial sense. A buyer won't exercise their right to buy stock from you at a $40 strike when they can buy it on the open market for $38.
+
+-   **Guideline 2: In-the-Money (ITM) Options with Sufficient Time Value.** Early assignment is **"not going to happen"** as long as the option's price includes a meaningful amount of extrinsic (time) value.
+    -   *Reasoning:* The option holder is always better off selling the option to capture its full value. Exercising a $40 call when the stock is $41 only captures the $1 of intrinsic value. Selling the option itself for $2 captures both the $1 of intrinsic value *and* the $1 of time value.
+
+#### **When Does Early Assignment Become LIKELY?**
+-   **Guideline 3: ITM Options with Low Time Value.** The risk of early assignment becomes **"much more likely"** when an ITM option's time value has decayed to almost nothing, which often happens near expiration.
+    -   **The "Time Value" Threshold:** The author provides a practical rule of thumb:
+        -   If an option has **$0.20 or more** in time value, early assignment is **unlikely**.
+        -   If an option has **$0.15 or less** in time value, early assignment becomes a **real possibility**.
+
+-   **Other Factors that Increase Assignment Risk:**
+    -   **Deep-in-the-Money:** A deep ITM option has very little time value, even far from expiration.
+    -   **Dividends:** A short call is at higher risk of assignment just before an ex-dividend date, as a buyer may want to capture the dividend payment.
+    -   **Puts vs. Calls:** Early assignment is often more common with puts. The reasoning is that a put holder exercising is trying to get cash immediately, while a call holder exercising is committing cash and may prefer to wait.
+
+### **How to Manage Assignment in Common Strategies**
+1.  **Covered Calls:** If assignment looks imminent, you have two choices:
+    -   **Do Nothing:** Let your shares be called away. The author notes this "need not be viewed as an undesirable outcome," as you lock in a profit and keep the option premium.
+    -   **"Roll Out":** Buy back the expiring short call and sell a new one with a higher strike price and a later expiration date to continue the position.
+
+2.  **Vertical Spreads (at Expiration):**
+    -   If an ITM spread is held until the final moments of expiration, bid-ask spreads can widen, preventing you from closing the trade for its full value.
+    -   **Author's Advice:** The best approach is often to **allow the short option to be assigned and simultaneously exercise your long option**. This is the surest way to capture the full, intended profit of the spread (e.g., the full $5 difference on a $35/$40 call spread).
+
+3.  **Calendar Spreads (in a Buyout):**
+    -   In a cash buyout, all time value evaporates. The author advises simply **exercising your long-dated option to counteract the inevitable assignment** of your short-dated option. The loss is limited to the initial debit paid to enter the spread.

@@ -1,0 +1,35 @@
+### **Revised Summary of Chapter 3: Entering and Exiting Option Trades**
+
+This chapter asserts that careful price negotiation during trade entry and exit is critical and can dramatically impact profitability. A price improvement of just $0.10 per share on an option can be enough to cover brokerage fees and significantly boost percentage returns.
+
+### **Key Concepts & Takeaways:**
+
+#### **The Bid-Ask Spread**
+-   **Bid:** The price a market maker will pay to buy an option from you.
+-   **Ask:** The price a market maker will charge to sell an option to you.
+-   **Spread:** The difference between the bid and ask. This is the market maker's potential profit.
+-   **Spread Width as an Indicator:**
+    -   **Narrow Spreads ($0.05 - $0.10):** Indicate high liquidity (many buyers and sellers). There is little to no room for price negotiation.
+    -   **Wide Spreads (e.g., $0.30+):** Indicate low liquidity or high volatility. This presents a clear opportunity to negotiate a better price.
+
+#### **Option Pricing Increments**
+-   Options priced **under $3.00** trade in **$0.05** increments (e.g., $2.40, $2.45).
+-   Options priced **at or above $3.00** trade in **$0.10** increments (e.g., $4.10, $4.20).
+-   This is a critical detail. You cannot place a limit order at an invalid price (e.g., $4.25 is not allowed and will be rejected).
+
+#### **Recommendations for Entering a Trade (Buying an Option)**
+-   **Market Orders:** The author's recommendation is to **NEVER use a market order**. You will get a price at or worse than the ask, especially in a fast market.
+-   **Limit Orders:** This is the **only recommended method** for entering a trade.
+    -   **Negotiation Strategy:** When a spread is wide, place your limit order between the bid and ask.
+    -   **Example 1:** If Bid is **$2.40** and Ask is **$2.80**, try placing a limit order to buy at **$2.60** or **$2.70**.
+    -   **Example 2:** If Bid is **$4.10** and Ask is **$4.40**, a realistic limit order would be **$4.30**, giving the market maker a favorable portion of the spread. An order at $4.20 is less likely to be filled.
+
+#### **Recommendations for Exiting a Trade (Selling an Option)**
+-   **Market Orders:** Avoid except in **extreme emergencies** where you must exit immediately to prevent a larger loss.
+-   **Limit Orders:** This is the preferred method for taking profits. The negotiation logic is the same, but in reverse.
+    -   **Example:** If Bid is **$4.10** and Ask is **$4.40**, a realistic limit order to sell would be **$4.20**.
+-   **Stop-Loss Orders:** This becomes a **market order** once a trigger price is hit. The author advises against them for the same reason as standard market orders—risk of a very poor fill price.
+-   **Stop-Limit Orders:** This becomes a **limit order** once a trigger price is hit.
+    -   **Critical Risk:** The order might not be filled. If the price gaps down, the bid can be below your limit price by the time the order activates, leaving you stuck in a losing position.
+    -   **Mitigation Strategy:** To improve the chance of a fill, set the trigger price higher than the limit price by at least the amount of the expected bid-ask spread.
+    -   **Example:** To ensure you sell for no less than **$3.50**, if you anticipate a $0.20 spread, you should set the trigger at **$3.70**. When the ask price hits $3.70, your limit order to sell at $3.50 activates. If the bid is now $3.50, you will get filled. If you had set the trigger at $3.60, the bid might be $3.40, and you would not be filled.

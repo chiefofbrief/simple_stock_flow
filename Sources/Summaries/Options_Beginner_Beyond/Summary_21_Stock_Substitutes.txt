@@ -1,0 +1,67 @@
+# Chapter 21: Stock Substitutes Playbook
+
+This playbook covers advanced strategies that use options to mimic the behavior of owning or shorting stock. These methods are highly capital-efficient but involve the risks of naked options, including margin requirements and early assignment.
+
+## 1. Synthetic Long Stock
+
+This strategy creates a position that behaves exactly like owning 100 shares of stock, but for a fraction of the capital.
+
+-   **Structure:**
+    -   **Buy 1 At-the-Money (ATM) Call**
+    -   **Sell 1 At-the-Money (ATM) Put**
+    -   Both options must have the same strike price and expiration date.
+-   **How it Works:** The combined delta of the long call (+0.5) and the short put (+0.5) is **+1.0**, identical to 100 shares of stock. The position moves dollar-for-dollar with the underlying.
+-   **Primary Advantage (Capital Efficiency):** The premium received from selling the put nearly covers the cost of buying the call, making the entry cost close to zero. You only need to post margin for the naked put, which is significantly less than the cost of buying the stock outright.
+
+### Walkthrough: Synthetic XYZ
+
+-   **Scenario:** XYZ stock is trading at $76. You want a long position for 3 months.
+-   **Trade Setup:**
+    -   Buy 1 October $75 Call for $4.50
+    -   Sell 1 October $75 Put for $2.70
+-   **Cost Analysis:**
+    -   **Net Cost:** $1.80/share, or **$180**.
+    -   **Margin Required:** ~$2,070 (broker-dependent).
+    -   **Capital Saved:** This compares favorably to the **$7,600** required to buy 100 shares.
+-   **The P/L Profile:** The profit and loss graph of this position is identical to owning 100 shares of stock purchased at $76.80 ($75 strike + $1.80 net debit).
+
+### Key Drawbacks of Synthetic Stock
+
+1.  **No Dividends:** You do not receive dividends.
+2.  **Early Assignment Risk:** The short put can be assigned if it goes deep-in-the-money, which dismantles the synthetic position.
+3.  **Expiration & Rolling:** The position has an expiration date and must be "rolled" to a later date to maintain exposure, incurring transaction costs.
+
+*Note: A **Synthetic Short Stock** position (delta of -1.0) can be created by buying a put and selling a call at the same strike.*
+
+---
+
+## 2. Deep-in-the-Money (DITM) Naked Put
+
+This is another capital-efficient way to create a bullish position that mimics long stock, but with a different risk/reward profile.
+
+-   **Structure:**
+    -   **Sell 1 Deep-in-the-Money (DITM) Naked Put.**
+-   **How it Works:** A DITM put has a delta approaching +1.0, so it moves nearly dollar-for-dollar with the stock (up to the strike price).
+-   **Primary Advantage (Cash Flow):** Selling a DITM put generates a large immediate cash credit. This cash can earn interest and be used to offset the margin requirement.
+
+### Walkthrough: DITM Put on XYZ
+
+-   **Scenario:** XYZ is at $76. You want a bullish position.
+-   **Trade Setup:** Sell 1 October **$90 Put** for $14.80.
+-   **Cost Analysis:**
+    -   **Net Credit:** **$1,480** cash is immediately credited to your account.
+    -   **Effective Margin:** While the nominal margin might be ~$3,380, the cash credit reduces the effective capital required to just **$1,900**.
+-   **The P/L Profile:** The position profits as the stock rises, but the profit is CAPPED at the premium received. You do not participate in gains if the stock price rises above the put's strike price ($90).
+
+### Key Drawbacks of DITM Naked Puts
+
+1.  **Capped Profit:** The maximum gain is limited to the premium received.
+2.  **High Early Assignment Risk:** This is the main disadvantage. Because DITM options have very little time value, they are prime candidates for early assignment.
+
+#### **How to Mitigate Assignment Risk:**
+
+-   **Check Time Value:** Choose a strike that is not *so* deep that the time value is zero. Ensure there is some extrinsic value left.
+-   **Check Open Interest:** Select an option with high open interest (e.g., >300 contracts). This statistically reduces the chance that your specific contract will be assigned.
+
+---
+*A **DITM Naked Call** can be used as a substitute for a short stock position, but the author notes it offers little advantage over shorting the stock directly and carries significant assignment risk, especially around dividend dates.*

@@ -1,0 +1,91 @@
+# Chapter 22: Backspreads Playbook
+
+A backspread is a volatility strategy designed to profit from a **large move** in a stock's price, either up or down. It is constructed with more long options than short options and is often cheap to initiate, sometimes even providing a credit.
+
+**The core trade-off:** The strategy has unlimited profit potential but suffers its maximum loss if the stock only makes a modest move and lands at a specific price point at expiration.
+
+## 1. How a Backspread Works
+
+The strategy finances the purchase of long options using the credit from selling a smaller number of options closer to the money.
+
+A standard **2-to-1 Call Backspread** (Buy 2 OTM calls, Sell 1 ITM/ATM call) can be deconstructed into two parts:
+1.  **One outright long call**, which provides the unlimited profit potential.
+2.  **One bear call spread**, which generates a credit to help pay for the outright long call.
+
+The goal is to have the profit from the unencumbered long option vastly overpower the loss from the embedded spread when a large move occurs.
+
+---
+
+## 2. Bullish Call Backspread (2:1 Ratio)
+
+Use this when you expect a massive upward move in a stock.
+
+### Walkthrough: Expecting a Huge Rally
+
+-   **Scenario:** In February, XYZ stock is at **$19**. You believe it could soar to $35 or higher over the next year.
+-   **Trade Setup (11-month LEAPS):**
+    -   **Buy 2** January **$22.50 Calls** @ $1.70 each.
+    -   **Sell 1** January **$20 Call** @ $2.80.
+-   **Cost Analysis:**
+    -   **Net Debit:** $60 `([2 x $170] - $280)`.
+    -   **Maximum Risk:** **$310**.
+
+### Payoff Scenarios at Expiration
+
+-   **Max Loss (XYZ closes at exactly $22.50):** The "valley of death."
+    -   Your 2 long calls expire worthless.
+    -   Your 1 short call is $2.50 in-the-money, costing $250 to close.
+    -   **Total Loss = $250 (spread loss) + $60 (initial debit) = $310.**
+
+-   **Small Loss (XYZ closes below $20):**
+    -   All options expire worthless. Your loss is limited to your initial **$60 debit**.
+
+-   **Break-Even Point (XYZ at $25.60):**
+    -   At this price, the profit from your single unencumbered long call is enough to cover the maximum loss of the embedded spread and the initial debit.
+
+-   **Large Profit (XYZ closes at $35):**
+    -   You have unlimited upside potential above the break-even point.
+    -   Profit = `($35.00 - $25.60) x 100` = **$940**.
+
+---
+
+## 3. Bearish Put Backspread (2:1 Ratio)
+
+Use this when you expect a massive downward move in a stock. This can often be set up for a credit.
+
+### Walkthrough: Expecting a Major Drop
+
+-   **Scenario:** In October, ZYX is flying high at **$76**. You believe it's due for a collapse to the $45 level.
+-   **Trade Setup (6-month puts):**
+    -   **Buy 2** March **$65 Puts** @ $4.20 each.
+    -   **Sell 1** March **$75 Put** @ $9.60.
+-   **Cost Analysis:**
+    -   **Net Credit:** **$120** `($960 - [2 x $420])`. The trade pays you to open it.
+    -   **Maximum Risk:** **$880**.
+
+### Payoff Scenarios at Expiration
+
+-   **Max Loss (ZYX closes at exactly $65):**
+    -   Your 2 long puts expire worthless.
+    -   Your 1 short put is $10 in-the-money, costing $1,000 to close.
+    -   **Total Loss = $1,000 (spread loss) - $120 (initial credit) = $880.**
+
+-   **Small Profit (ZYX closes above $75):**
+    -   A unique feature. If you are completely wrong and the stock stays high, all options expire worthless. You keep the initial **$120 credit** as profit.
+
+-   **Break-Even Point (ZYX at $56.20):**
+    -   The profit from your single unencumbered long put, combined with the initial credit, covers the loss of the embedded spread.
+
+-   **Large Profit (ZYX closes at $45):**
+    -   You have unlimited profit potential below the break-even point.
+    -   Profit = `($56.20 - $45.00) x 100` = **$1,120**.
+
+---
+
+## 4. Key Rules and Characteristics
+
+-   **Cost & Structure:** Backspreads are cheap to enter. To get a credit, the strike prices of the long and short options typically need to be further apart.
+-   **Profit Potential:** The profit potential is theoretically unlimited, but it requires a very large move in the stock.
+-   **Maximum Loss:** The maximum loss **always occurs if the stock price finishes exactly at the long strike price** at expiration. This is the worst possible outcome.
+-   **Early Profit:** Unlike some spreads, a backspread can realize significant profits *before* expiration if the expected large move happens quickly.
+-   **Margin:** The embedded credit spread portion of the trade will require margin, which is typically the difference between the strike prices.

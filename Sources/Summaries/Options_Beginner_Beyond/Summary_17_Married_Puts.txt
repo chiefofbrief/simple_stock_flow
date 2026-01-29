@@ -1,0 +1,72 @@
+# Chapter 17: Married Puts Playbook
+
+The Married Put is an insurance strategy. It involves buying a protective put option at the same time as purchasing 100 shares of a stock to strictly define and limit downside risk.
+
+## 1. Core Strategy & Purpose
+
+This strategy is designed to replace traditional stop-loss orders and their associated flaws (e.g., getting stopped out on a temporary dip or suffering a large loss on an overnight gap down). It allows you to hold a new stock position with peace of mind, giving your investment thesis time to play out without fear of a major pullback.
+
+### Walkthrough: The "Arranged Marriage"
+
+-   **Scenario:** In late August, you identify XYZ as a bullish opportunity and decide to buy.
+-   **Trade Setup:**
+    -   Buy 100 shares of XYZ @ **$31.00**/share.
+    -   Simultaneously, buy 1 September **$30 Put** @ **$0.80**/share.
+-   **Total Investment:** $3,180 per 100 shares (`[$31 stock cost + $0.80 put cost] x 100`).
+
+### Risk Analysis: Defined and Capped
+
+-   **Maximum Risk:** The total risk on this trade is capped at **$180**.
+-   **Calculation:**
+    1.  **Loss on Stock (if exercised):** The $30 put guarantees you can sell your shares at $30. Your loss on the stock is therefore limited to $1.00/share ($31 purchase price - $30 sale price), or **$100**.
+    2.  **Cost of Insurance:** The premium paid for the put is a sunk cost of $0.80/share, or **$80**.
+    3.  **Total Max Risk = $100 (stock loss) + $80 (put cost) = $180.**
+-   **Comparison:** A stock-only owner faces a maximum risk of $3,100. If the stock gapped down to $25 overnight, the stock-only owner loses $600, while the married put owner loses only the predefined $180.
+
+## 2. How to Select the Protective Put
+
+Choosing the right put involves balancing the desired protection period with the cost of the option.
+
+### Rule 1: Choosing the Expiration Month
+
+The goal is to give your stock **3 to 7 weeks** to begin its expected move.
+
+-   If the front-month expiration is **more than 3 weeks away**, use the front-month.
+-   If the front-month expiration is **less than 3 weeks away**, use the **next month out**.
+-   **AVOID** going further in time, as the options become too expensive for simple insurance.
+
+### Rule 2: Choosing the Strike Price
+
+The goal is to protect your capital without overpaying for the put.
+
+-   **General Rule:** Select the **nearest strike price that is just BELOW the stock's purchase price.**
+    -   *Example:* Stock bought at $31. Use the $30 strike put. This ensures you are primarily paying for time value, keeping the cost low.
+-   **Exception:** If the stock is purchased very close to a higher strike.
+    -   *Example:* Stock bought at $34. The nearest strike below is $30, leaving $4 of unprotected risk. In this case, consider the **$35 strike put**. Although it will cost more, it provides more complete protection.
+
+## 3. Managing the Position at Put Expiration
+
+The expiration date is the critical decision point. You have had a risk-free "test drive" of the stock.
+
+### Scenario 1: Stock Price Has GONE UP
+
+-   **Decision:** The trade is a success.
+-   **Action:** Let the now-worthless put expire. Immediately place a traditional **stop-loss order** to protect a portion of your profits. You can now hold the stock for further gains with a safety net.
+
+### Scenario 2: Stock Price Has GONE DOWN
+
+-   **Decision:** The stock has failed your test. You have two choices.
+-   **Action 1 (Exit Position):** **Exercise the put.** This forces the sale of your stock at the strike price, realizing your maximum, calculated loss ($180 in the example).
+-   **Action 2 (Stay in Position):** If you still believe in the stock, **sell the put option** to recover its time value (it will be profitable). This lowers the cost basis of your shares, but you will now hold the stock with no downside protection.
+
+### Scenario 3: Stock Price Has GONE SIDEWAYS
+
+-   **Decision:** The stock has shown no strength, which is a bearish signal.
+-   **Action:** The author strongly suggests **selling both the stock and the put** (to recover any remaining value).
+-   **Justification:** Continuing to hold would require buying another put, adding to your cost basis and making it even harder to turn a profit.
+
+## 4. Other Use Cases & Variations
+
+-   **Protecting Existing Profits:** Buy a put to insure a profitable stock position through a high-risk event like an earnings announcement.
+-   **Reduce Cost (Bear Put Spread):** For volatile stocks with expensive puts, you can lower your insurance cost by selling a further-OTM put, creating a bear put spread. This provides protection, but only within a limited range.
+-   **Finance the Put (Collar):** Sell an OTM call against your stock and put position. The premium from the call helps pay for the put, but it also caps your upside profit potential.

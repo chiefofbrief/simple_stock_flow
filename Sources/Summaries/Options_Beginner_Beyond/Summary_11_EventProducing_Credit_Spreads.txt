@@ -1,0 +1,37 @@
+# Summary of Chapter 11: The "Event-Driven" Credit Spread Strategy
+
+This chapter outlines a specific, actionable playbook for trading vertical credit spreads. The core idea is to identify a major, conclusive, one-time stock event that causes a dramatic price move and temporarily "pumps extra premium" (inflates implied volatility) into the front-month options. The strategy is to then sell a credit spread, taking advantage of this inflated premium.
+
+## The Core Criteria for a Good Setup
+
+According to the author, a good event-driven credit spread has three key characteristics:
+1.  **Inflated Premium:** The option you are selling has extra time value packed into it because of the recent event.
+2.  **No Movement Required:** The trade is structured so the stock can move sideways or even slightly reverse for you to achieve maximum profit.
+3.  **Short-Term:** The setup uses front-month options to capitalize on rapid time decay.
+
+## Qualifying Events: What to Look For
+
+Look for a concluded, "one-and-done" news event. Examples include:
+-   **A major earnings surprise:** Once the report is out, the news is known and the story is over for the near term.
+-   **A definitive government ruling:** A final FDA decision on a drug is a binary event that resolves uncertainty.
+-   **A questionable buyout offer:** A stock gaps up on a buyout rumor but then fades as the deal's likelihood is questioned.
+
+## The Execution Playbook: How to Trade the Event
+
+1.  **Identify the Event:** A stock makes a major price move on exceptionally high volume.
+2.  **Wait for the Dust to Settle:** Do **not** enter the trade immediately. Wait a day or two for the initial price burst to exhaust itself and for the stock to stabilize.
+3.  **Place the Short Strike Strategically:** The goal is to place the short leg of the credit spread *near the extreme price* the stock reached during the event.
+    -   If the stock gapped **down** (bad news), sell a **Bull Put Spread** with the short put strike near the bottom of the drop.
+    -   If the stock gapped **up** (good news), sell a **Bear Call Spread** with the short call strike near the peak of the rally.
+4.  **Target a High Credit-to-Risk Ratio:** The author states a "good goal" is to receive a credit that **nearly equals or even exceeds the maximum risk** on the trade. This high potential reward is the key feature of this setup.
+
+### Example in Action (RMBS)
+
+-   **Event:** A patent revocation caused RMBS to fall from $30 to ~$24. The bad news was out.
+-   **Execution:** After the stock stabilized and rebounded slightly to $25, a Bull Put Spread was opened.
+    -   **Trade:** Sell the March 25 Put / Buy the March 22.5 Put.
+    -   **Result:** A **$1.25 credit** was received against a **$1.25 max risk**. The stock stayed above $25, and the trade achieved max profit.
+
+## Critical Risk-Management Rule
+
+**Avoid Unfolding Stories.** The author explicitly warns to avoid events like "accounting irregularities" or "possible restatement of earnings." These situations are often followed by more bad news, causing the stock to fall further and break through your spread. The event must be conclusive.

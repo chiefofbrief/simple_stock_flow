@@ -1,0 +1,79 @@
+### **Playbook: Chapter 23 - Butterfly Spreads**
+
+**Core Concept:** A low-cost, high-leverage strategy focused on a narrow price target (the "sweet spot"). It involves buying two options and selling two options, creating a position that looks like a butterfly's wings and body on a risk graph.
+
+---
+
+### **1. Standard Butterfly (Sideways Market)**
+
+**When to Use:**
+*   You expect a stock to remain stable and trade sideways for several months.
+*   You can pinpoint a specific target price where the stock will likely be at expiration.
+
+**Author's Walkthrough (Example 1):**
+*   **Scenario:** XYZ is at $30 in July. You believe it will stay at $30 for the next 4-5 months.
+*   **The Play:** Construct a butterfly targeting the $30 strike.
+    *   **Buy 1 Nov 25 Call** for $6.30
+    *   **Sell 2 Nov 30 Calls** for $2.80 each
+    *   **Buy 1 Nov 35 Call** for $0.60
+*   **Financials:**
+    *   **Net Cost (Max Risk):** $130. This is the most you can lose.
+    *   **Sweet Spot:** $30. If XYZ is exactly $30 at November expiration, the trade hits max profit.
+    *   **Max Profit:** $370 (a 285% return on the $130 risk).
+    *   **Profit Range:** The trade is profitable if XYZ is between $26 and $34 at expiration.
+
+**Implementation Rules & Risks:**
+*   **Structure:** This is effectively a bull call spread (Nov 25/30) and a bear call spread (Nov 30/35) combined.
+*   **Puts vs. Calls:** You can use puts to build the same trade. The author advises checking which (calls or puts) offers a cheaper entry price, especially if your target price is far from the current stock price.
+*   **Cost Management:** To reduce the initial cost of the spread, use a more distant expiration date.
+*   **Primary Risk:** The profitable price range is very narrow. For maximum profit, the stock must hit the sweet spot *exactly* at expiration, making timing critical.
+
+---
+
+### **2. Butterfly with Adjustments (Volatile Swings)**
+
+**When to Use:**
+*   You expect a stock to be volatile, making a significant move in one direction before potentially reversing or stalling. This strategy allows you to profit from the initial move and then reposition for another.
+
+**Author's Walkthrough (Example 2):**
+*   **Scenario:** XYZ is at $30, but you expect a near-term move up to the $35 level.
+*   **The Initial Play:** Set up a put butterfly targeting $35.
+    *   **Buy 1 Nov 40 Put** for $9.90
+    *   **Sell 2 Nov 35 Puts** for $4.60 each
+    *   **Buy 1 Nov 30 Put** for $0.80
+*   **Financials:**
+    *   **Net Cost (Max Risk):** $150.
+    *   **Sweet Spot:** $35.
+
+*   **The Adjustment (If the stock moves as predicted):**
+    *   **Trigger:** In late September, XYZ runs up to $38 and stalls. The short Nov 35 puts are now cheap (e.g., $1.00).
+    *   **Action:** **Buy back the 2 Nov 35 puts** to secure the profit on that leg ($720 in this example).
+    *   **Resulting Position:** You are now left with a **long strangle** (Long 1 Nov 40 put, Long 1 Nov 30 put).
+    *   **New Cost Basis:** The position now has a cost basis of $350 (Original $150 + $200 of additional risk assumed).
+    *   **New Goal:** Profit from a subsequent downside move in XYZ. If XYZ falls to $31, the strangle could be sold for a net profit of $620.
+
+**Implementation Rules & Risks:**
+*   **CRITICAL RISK:** If the initial upward move *does not* happen, your short Nov 35 puts will go deep-in-the-money. This carries a high risk of **early assignment**, which you must be prepared to manage.
+
+---
+
+### **3. Unbalanced Butterfly (Directional Bias)**
+
+**When to Use:**
+*   You expect the stock to trade sideways but have a slight bias that it might also move higher. This structure allows for a small profit even if the stock breaks out of the range to the upside.
+
+**Author's Walkthrough (Example 3):**
+*   **Scenario:** An index (ZYX) is at $150. You feel it will be sideways over the next two months but could also drift higher.
+*   **The Play:** Construct an unbalanced put butterfly.
+    *   **Buy 1 Aug 145 Put** for $1.40
+    *   **Sell 2 Aug 150 Puts** for $3.20 each
+    *   **Buy 1 Aug 152.50 Put** for $4.50
+*   **Financials:**
+    *   **Net Credit:** $50. You are paid to enter the trade.
+    *   **Max Risk:** $200. This is your loss if ZYX closes below $145 at expiration.
+    *   **Sweet Spot:** $150. If ZYX is at $150 at expiration, max profit is $300 ($250 from the options + $50 initial credit).
+    *   **Upside Bias:** If ZYX closes anywhere above $152.50, all puts expire worthless and you **keep the $50 credit as profit**.
+    *   **Downside Break-even:** $147.
+
+**Implementation Rules & Risks:**
+*   The key to the "unbalanced" nature is creating the spread for a credit. This credit becomes your profit if the stock moves strongly against the primary direction of the puts (i.e., moves up).

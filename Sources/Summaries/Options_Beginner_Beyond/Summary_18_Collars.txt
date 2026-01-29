@@ -1,0 +1,76 @@
+# Chapter 18: Collars Playbook
+
+The collar is a long-term strategy for conservative investors who want to hold a stock while strictly limiting downside risk. It is ideal for capital preservation while still allowing for modest, defined gains.
+
+## 1. Core Strategy: The LEAPS Collar
+
+A collar is constructed by "collaring" a stock position with two long-term options (LEAPS), which are required for this strategy. The holding period is typically 10-12 months or longer.
+
+-   **Structure (for every 100 shares):**
+    1.  **Own 100 Shares of the Stock.**
+    2.  **Buy a Protective LEAPS Put:** This sets the minimum price (the "floor") at which you can sell your stock.
+    3.  **Sell a LEAPS Call:** This generates premium to help pay for the put, but it also sets the maximum price (the "ceiling") at which your stock could be sold.
+
+The trade is designed to be held until the options expire to achieve the calculated return.
+
+---
+
+## 2. Walkthrough: Risk vs. Reward Scenarios
+
+The key to understanding collars is to see how adjusting the option strike prices changes the risk/reward profile of the trade. All examples assume buying 100 shares of XYZ at **$19/share** with a **14-month** time horizon.
+
+### Scenario 1: The Standard Collar (Balanced Profile)
+
+This provides a good balance between strong protection and a reasonable return.
+
+-   **Trade Setup:**
+    -   Buy 100 XYZ @ $19.00 (Cost: $1,900)
+    -   Buy 1 Jan '06 **$20 Put** @ $2.90
+    -   Sell 1 Jan '06 **$25 Call** @ $1.00
+-   **Cost Analysis:**
+    -   Net Option Cost: $1.90/share ($2.90 paid - $1.00 received).
+    -   **Total Investment:** **$2,090** ($1,900 for stock + $190 for options).
+-   **Payoff at Expiration:**
+    -   **Max Loss (if stock is below $20):** Your stock is sold at $20 via the put for $2,000. Your net loss is **$90** ($2,090 cost - $2,000 sale value), or **-4.3%**.
+    -   **Max Gain (if stock is above $25):** Your stock is called away at $25 for $2,500. Your net profit is **$410** ($2,500 sale value - $2,090 cost), or **+20%** (17% annualized).
+
+### Scenario 2: The Zero-Risk Collar (Maximum Protection)
+
+This structure is designed to eliminate any risk to the initial principal.
+
+-   **Trade Setup:**
+    -   Buy 100 XYZ @ $19.00
+    -   Buy 1 Jan '06 **$22.50 Put** @ $4.50 (a more expensive, more protective put)
+    -   Sell 1 Jan '06 **$25 Call** @ $1.00
+-   **Cost Analysis:**
+    -   Net Option Cost: $3.50/share.
+    -   **Total Investment:** **$2,250**.
+-   **Payoff at Expiration:**
+    -   **Max Loss (if stock is below $22.50):** Your stock is sold at $22.50 via the put for $2,250. Your net loss is **$0**, achieving full capital preservation.
+    -   **Max Gain (if stock is above $25):** Your stock is called away at $25 for $2,500. Your net profit is **$250**, or **+11%** (9.5% annualized).
+-   **Trade-Off:** You sacrifice significant upside potential to achieve zero risk.
+
+### Scenario 3: The Loose Collar (Enhanced Return)
+
+This structure widens the collar to allow for more profit, but this comes with higher risk.
+
+-   **Trade Setup:**
+    -   Buy 100 XYZ @ $19.00
+    -   Buy 1 Jan '06 **$20 Put** @ $2.90
+    -   Sell 1 Jan '06 **$30 Call** @ $0.60 (a higher strike call brings in less premium)
+-   **Cost Analysis:**
+    -   Net Option Cost: $2.30/share.
+    -   **Total Investment:** **$2,130**.
+-   **Payoff at Expiration:**
+    -   **Max Loss (if stock is below $20):** Your stock is sold at $20 for $2,000. Your net loss is **$130**, or **-6.1%**.
+    -   **Max Gain (if stock is above $30):** Your stock is called away at $30 for $3,000. Your net profit is **$870**, or **+41%** (35% annualized).
+-   **Trade-Off:** Increasing the profit potential directly increases the maximum potential loss.
+
+---
+
+## 3. Key Implementation Details & Enhancements
+
+-   **Dividends are a Bonus:** Any dividends received during the holding period are kept by you. They directly increase your total return and reduce your max loss. In Scenario 1, a $0.65 dividend would have turned the -4.3% max loss into a negligible -0.3%.
+-   **Longer Duration:** Using a 2-year LEAPS cycle instead of a 1-year cycle can often create a nearly riskless trade with a higher absolute profit, but the *annualized* return will be lower. The main drawback is having capital tied up for so long with a capped upside.
+-   **Volatility is a Negative:** Collars are less effective on highly volatile stocks. High IV makes the protective puts very expensive, which increases the overall cost and maximum loss of the trade.
+-   **Hold to Expiration:** The strategy is designed to be held to expiration. Exiting early will almost always result in a return that is lower than the calculated maximum profit.

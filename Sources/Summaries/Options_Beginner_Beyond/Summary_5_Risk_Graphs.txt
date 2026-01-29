@@ -1,0 +1,33 @@
+### **Revised Summary of Chapter 5: Risk Graphs**
+
+This chapter introduces the risk graph as an essential visual tool for tracking an options trade, embodying the proverb, "One picture is worth more than ten thousand words." It allows a trader to instantly see how profit and loss are affected by stock price and time.
+
+### **Key Concepts & Takeaways:**
+
+#### **How to Read a Risk Graph**
+The book uses a specific style of graph:
+-   **Vertical Axis:** Represents the **Stock Price**.
+-   **Horizontal Axis:** Represents the **Net Profit or Loss** of the entire trade. The center (zero) separates profit from loss.
+-   **Time Lines:** Each graph shows multiple curves to represent the passage of time: a "Today" line, an "Expiry" line, and two intermediate lines.
+
+#### **Using the Graph: A Practical Walkthrough**
+The true value of the graph is in using it to project outcomes. The chapter walks through an example of a long call option to show how:
+
+-   **To Find a Future Profit/Loss:**
+    1.  Locate your target stock price on the **vertical axis** (e.g., $73).
+    2.  Move horizontally to the right until you intersect with the desired **time line** (e.g., the "6 days left" curve).
+    3.  From that intersection point, drop straight down to the **horizontal axis** to read your projected profit or loss.
+
+-   **To Find the Breakeven at Expiration:**
+    1.  Locate the **"Expiry" line** (which is typically a sharp, angled line).
+    2.  Find the exact point where this line crosses the central **zero Profit/Loss axis**.
+    3.  The corresponding stock price on the vertical axis is the price the stock must be at on expiration day to break even.
+
+#### **Key Insights Revealed by Risk Graphs**
+-   **Visualizing Time Decay:** For any given stock price, you can see how your profit potential diminishes as time passes by comparing the positions of the different time lines.
+-   **Understanding Complex Trades:** The graph's power is most evident in multi-option strategies. For a "calendar spread," the chapter notes that the graph instantly reveals a tent-shaped profit zone between two stock prices—an insight that is "very difficult to otherwise determine" and would be a "mystery" without the visual aid.
+
+#### **Important Details**
+-   **Slippage:** The graph shows a small initial loss ("slippage") the moment a trade is opened, reflecting the cost of crossing the bid-ask spread.
+-   **Multi-Expiration Trades:** For trades with options expiring on different dates (like a calendar spread), the risk graph is **only valid until the earliest option expires**. A new graph must be calculated after that point.
+-   **Volatility:** The author notes that risk graphs can also be adjusted to show the effects of changes in implied volatility.
