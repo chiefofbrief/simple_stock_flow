@@ -2,10 +2,10 @@
 **Objective:** Synthesize news data into actionable investment flags by applying the "Stock Analysis Guidelines" framework.
 
 ## Phase 1: Comprehensive Data Intake
-Before beginning any analysis, read **every** headline and post title within **@stockmarket_YYYY-MM-DD.txt**. Ensure no data point is skipped or overlooked.
+Before beginning any analysis, read **every** headline and post title within **@stockmarket_2026-MM-DD.txt**. Ensure no data point is skipped or overlooked.
 
 ## Phase 2: Operating System & Hierarchy
-Use **Sources/Summaries/Investment Analysis Guidelines.md** as your primary framework for interpreting market events.
+Use **Guidance/Investment Analysis Guidelines.md** as your primary framework for interpreting market events.
 * **Efficiency Rule:** Use the *Guidelines* doc for all standard analysis. 
 * **Deep Dives:** Only consult **Sources/Summaries/Insights Index.md** or **Raw Material** if a specific red flag is identified that requires a deeper framework (e.g., complex revenue recognition issues or specialized valuation methodologies) to be fully explained.
 
