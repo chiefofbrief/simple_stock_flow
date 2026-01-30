@@ -1,6 +1,16 @@
-# Investment Analysis Guidelines
+# Stock Analysis Guidelines
 
 Core principles and their applications. Supplemented by detailed insights in the [Insights Index](Insights%20Index.md).
+
+## How to Use This System
+
+When analyzing or answering questions, consult sources in this order:
+
+1. **Investment Analysis Guidelines** (this document) — Core principles and application criteria
+2. **Insights Index** → **Insight Files** — Detailed frameworks, concepts, and source quotes
+3. **Raw Material** — Original source text when maximum context is needed
+
+Move down the hierarchy only when the higher level doesn't provide sufficient depth.
 
 ---
 
