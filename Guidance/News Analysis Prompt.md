@@ -11,7 +11,10 @@ Use **Stock Analysis Guidelines.md** as your primary framework for interpreting 
 * **Deep Dives:** Only consult **Sources/Summaries/Insights Index.md** or **Raw Material** if a specific red flag is identified that requires a deeper framework (e.g., complex revenue recognition issues or specialized valuation methodologies) to be fully explained.
 
 ## Phase 3: The Analysis (The Output)
-*Append this analysis to the **top** of the @stockmarket_YYYY-MM-DD.txt file.*
+*Append this analysis to the **top** of the News_YYYY-MM-DD.txt file (below the main "Peter's Digest" header).*
+
+The analysis must begin with the title:
+## Stock & Markets Analysis
 
 ### 1. Market & Macro Overview
 Briefly set the scene using **Part III** of the Guidelines.
