@@ -271,6 +271,29 @@ def filter_articles_by_days(articles, days=None):
     return filtered
 
 
+def html_to_markdown(html_content):
+    """
+    Convert HTML content to standard markdown.
+
+    Args:
+        html_content (str): HTML content
+
+    Returns:
+        str: Markdown text
+    """
+    if not html_content or html_content == 'No description':
+        return html_content
+
+    # Convert HTML to markdown
+    h = html2text.HTML2Text()
+    h.ignore_links = False
+    h.ignore_images = True
+    h.ignore_emphasis = False
+    h.body_width = 0
+    h.unicode_snob = True
+    
+    return h.handle(html_content).strip()
+
 def html_to_formatted_text(html_content):
     """
     Convert HTML content to formatted text with rich markup.
@@ -430,41 +453,68 @@ def main():
         default=DEFAULT_DAYS,
         help=f'Filter articles to only include those from the past N days (default: {DEFAULT_DAYS} for today + yesterday)'
     )
+    parser.add_argument(
+        '--markdown',
+        action='store_true',
+        help='Output raw markdown without terminal formatting (for file saving)'
+    )
     args = parser.parse_args()
 
     console = Console()
 
     try:
         # Step 1: Fetch RSS feed
-        console.print("[cyan]Fetching WSJ Markets RSS feed...[/cyan]")
+        if not args.markdown:
+            console.print("[cyan]Fetching WSJ Markets RSS feed...[/cyan]")
         rss_xml = fetch_rss_feed(RSS_FEED_URL)
 
         # Step 2: Parse RSS feed
-        console.print("[cyan]Parsing feed content...[/cyan]")
+        if not args.markdown:
+            console.print("[cyan]Parsing feed content...[/cyan]")
         articles = parse_rss_feed(rss_xml)
 
         if not articles:
-            console.print("[yellow]No articles found in the feed.[/yellow]")
+            if not args.markdown:
+                console.print("[yellow]No articles found in the feed.[/yellow]")
             return 1
 
         # Step 3: Filter articles by date if requested
         if args.days is not None:
             articles = filter_articles_by_days(articles, args.days)
             if not articles:
-                console.print(f"[yellow]No articles found from the past {args.days} day(s).[/yellow]")
+                if not args.markdown:
+                    console.print(f"[yellow]No articles found from the past {args.days} day(s).[/yellow]")
                 return 1
 
         # Step 4: Display articles
-        display_articles(articles, summary_only=args.summary, count=args.count, console=console)
+        if args.markdown:
+            print(f"## WSJ Markets News")
+            print(f"_Showing {len(articles[:args.count])} articles_")
+            print("\n")
+            for i, article in enumerate(articles[:args.count], 1):
+                print(f"### {i}. {article['title']}")
+                print(f"_{format_date(article['pubDate'])}_")
+                if article['link']:
+                    print(f"<{article['link']}>")
+                
+                if not args.summary and article['description']:
+                    print(f"\n{html_to_markdown(article['description'])}")
+                print("\n---\n")
+        else:
+            display_articles(articles, summary_only=args.summary, count=args.count, console=console)
 
         return 0
 
     except KeyboardInterrupt:
-        console.print("\n[yellow]Interrupted by user[/yellow]")
+        if not args.markdown:
+            console.print("\n[yellow]Interrupted by user[/yellow]")
         return 1
     except Exception as e:
-        console.print(f"\n[red]Error: {str(e)}[/red]", markup=False)
-        console.print("[yellow]If you encountered a connection error, please check your internet connection and try again.[/yellow]")
+        if not args.markdown:
+            console.print(f"\n[red]Error: {str(e)}[/red]", markup=False)
+            console.print("[yellow]If you encountered a connection error, please check your internet connection and try again.[/yellow]")
+        else:
+            print(f"Error: {str(e)}")
         return 1
 
 

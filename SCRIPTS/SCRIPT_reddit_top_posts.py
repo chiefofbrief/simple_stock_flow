@@ -349,6 +349,11 @@ def main():
         choices=["hour", "day", "week", "month", "year", "all"],
         help=f'Time period to fetch posts from (default: {DEFAULT_TIMEFRAME})'
     )
+    parser.add_argument(
+        '--markdown',
+        action='store_true',
+        help='Output raw markdown without terminal formatting (for file saving)'
+    )
     args = parser.parse_args()
 
     console = Console()
@@ -356,9 +361,12 @@ def main():
     # Get API key from environment
     api_key = os.environ.get('SOCIAVAULT_API_KEY')
     if not api_key:
-        console.print("[red]Error: SOCIAVAULT_API_KEY environment variable not set[/red]")
-        console.print("\n[yellow]Please set your API key:[/yellow]")
-        console.print("  export SOCIAVAULT_API_KEY='your_api_key_here'")
+        if not args.markdown:
+            console.print("[red]Error: SOCIAVAULT_API_KEY environment variable not set[/red]")
+            console.print("\n[yellow]Please set your API key:[/yellow]")
+            console.print("  export SOCIAVAULT_API_KEY='your_api_key_here'")
+        else:
+            print("Error: SOCIAVAULT_API_KEY environment variable not set")
         return 1
 
     try:
@@ -366,35 +374,82 @@ def main():
         client = SociaVaultClient(api_key)
 
         # Check credits (0 cost)
-        console.print("[cyan]Checking API credits...[/cyan]")
+        if not args.markdown:
+            console.print("[cyan]Checking API credits...[/cyan]")
         credits_info = client.check_credits()
         available_credits = credits_info.get('credits', 'unknown')
-        console.print(f"[green]✓ Available credits: {available_credits}[/green]\n")
+        if not args.markdown:
+            console.print(f"[green]✓ Available credits: {available_credits}[/green]\n")
 
         # Warn if low on credits
         if isinstance(available_credits, (int, float)) and available_credits < len(SUBREDDITS):
-            console.print(f"[yellow]⚠ Warning: Low credits. This operation requires {len(SUBREDDITS)} credits.[/yellow]\n")
+            if not args.markdown:
+                console.print(f"[yellow]⚠ Warning: Low credits. This operation requires {len(SUBREDDITS)} credits.[/yellow]\n")
 
         # Fetch posts from all subreddits
-        console.print(f"[cyan]Fetching top posts from {len(SUBREDDITS)} subreddits...[/cyan]")
+        if not args.markdown:
+            console.print(f"[cyan]Fetching top posts from {len(SUBREDDITS)} subreddits...[/cyan]")
         all_posts = fetch_all_subreddit_posts(client, SUBREDDITS, args.timeframe, console)
 
         # Display results
-        console.print(f"\n[green]✓ Successfully fetched posts (cost: {len(SUBREDDITS)} API credits)[/green]")
-        display_posts(all_posts, args.count, args.timeframe, console)
+        if args.markdown:
+            print(f"## Reddit Top Posts")
+            print(f"_Top {args.count} posts from {args.timeframe} • r/{', r/'.join(all_posts.keys())}_")
+            print("\n")
+            
+            for subreddit, posts in all_posts.items():
+                if not posts:
+                    continue
+                
+                print(f"### r/{subreddit}")
+                posts_to_show = posts[:args.count]
+                
+                for i, post in enumerate(posts_to_show, 1):
+                    title = post.get('title', 'No title')
+                    score = post.get('score', 0)
+                    num_comments = post.get('num_comments', 0)
+                    url = post.get('url', '')
+                    selftext = post.get('selftext', '')
+                    author = post.get('author', 'unknown')
+                    
+                    print(f"#### {i}. {title}")
+                    print(f"**Score:** {score:,} | **Comments:** {num_comments:,} | **Author:** u/{author}")
+                    if url:
+                        print(f"<{url}>")
+                    
+                    if selftext:
+                        # Truncate long posts
+                        max_length = 300
+                        clean_text = selftext.strip()
+                        if len(clean_text) > max_length:
+                            clean_text = clean_text[:max_length] + "..."
+                        print(f"\n> {clean_text.replace(chr(10), chr(10)+'> ')}")
+                    
+                    print("\n")
+                print("---\n")
+        else:
+            console.print(f"\n[green]✓ Successfully fetched posts (cost: {len(SUBREDDITS)} API credits)[/green]")
+            display_posts(all_posts, args.count, args.timeframe, console)
 
         return 0
 
     except KeyboardInterrupt:
-        console.print("\n[yellow]Interrupted by user[/yellow]")
+        if not args.markdown:
+            console.print("\n[yellow]Interrupted by user[/yellow]")
         return 1
     except requests.exceptions.HTTPError as e:
-        console.print(f"\n[red]HTTP Error: {str(e)}[/red]")
-        if hasattr(e, 'response') and e.response.status_code == 402:
-            console.print("[yellow]Insufficient credits. Please check your SociaVault account.[/yellow]")
+        if not args.markdown:
+            console.print(f"\n[red]HTTP Error: {str(e)}[/red]")
+            if hasattr(e, 'response') and e.response.status_code == 402:
+                console.print("[yellow]Insufficient credits. Please check your SociaVault account.[/yellow]")
+        else:
+            print(f"HTTP Error: {str(e)}")
         return 1
     except Exception as e:
-        console.print(f"\n[red]Error: {str(e)}[/red]")
+        if not args.markdown:
+            console.print(f"\n[red]Error: {str(e)}[/red]")
+        else:
+            print(f"Error: {str(e)}")
         return 1
 
 

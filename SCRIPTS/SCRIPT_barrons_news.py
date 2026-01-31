@@ -300,6 +300,11 @@ def main():
         default=DEFAULT_DAYS_BACK,
         help=f'Number of days back to fetch articles (default: {DEFAULT_DAYS_BACK})'
     )
+    parser.add_argument(
+        '--markdown',
+        action='store_true',
+        help='Output raw markdown without terminal formatting (for file saving)'
+    )
     args = parser.parse_args()
 
     console = Console()
@@ -307,16 +312,20 @@ def main():
     # Get API key from environment
     api_key = os.environ.get('PERIGON_API_KEY')
     if not api_key:
-        console.print("[red]Error: PERIGON_API_KEY environment variable not set[/red]")
-        console.print("\n[yellow]Please set your API key:[/yellow]")
-        console.print("  export PERIGON_API_KEY='your_api_key_here'")
-        console.print("\n[dim]Get an API key at: https://www.goperigon.com/[/dim]")
+        if not args.markdown:
+            console.print("[red]Error: PERIGON_API_KEY environment variable not set[/red]")
+            console.print("\n[yellow]Please set your API key:[/yellow]")
+            console.print("  export PERIGON_API_KEY='your_api_key_here'")
+            console.print("\n[dim]Get an API key at: https://www.goperigon.com/[/dim]")
+        else:
+            print("Error: PERIGON_API_KEY environment variable not set")
         return 1
 
     try:
         # Step 1: Fetch articles from API
         day_text = "day" if args.days == 1 else f"{args.days} days"
-        console.print(f"[cyan]Fetching Barron's articles from past {day_text}...[/cyan]")
+        if not args.markdown:
+            console.print(f"[cyan]Fetching Barron's articles from past {day_text}...[/cyan]")
         data = fetch_barrons_articles(api_key, days_back=args.days)
 
         # Step 2: Extract articles
@@ -324,17 +333,37 @@ def main():
         num_results = data.get('numResults', len(articles))
 
         if num_results == 0:
-            console.print(f"[yellow]No articles found from Barron's in the past {day_text}.[/yellow]")
+            if not args.markdown:
+                console.print(f"[yellow]No articles found from Barron's in the past {day_text}.[/yellow]")
             return 0
 
         # Step 3: Display articles
-        display_articles(
-            articles,
-            count=args.count,
-            show_all=args.all,
-            days_back=args.days,
-            console=console
-        )
+        if args.markdown:
+            print(f"## Barron's News")
+            print(f"_Showing {len(articles[:args.count or DEFAULT_ARTICLE_COUNT])} articles from past {day_text}_")
+            print("\n")
+            for i, article in enumerate(articles[:args.count or DEFAULT_ARTICLE_COUNT], 1):
+                title = article.get('title', 'No title')
+                description = article.get('description', '')
+                url = article.get('url', '')
+                pub_date = article.get('pubDate', '')
+                
+                print(f"### {i}. {title}")
+                if pub_date:
+                    print(f"_{format_date(pub_date)}_")
+                if url:
+                    print(f"<{url}>")
+                if description:
+                    print(f"\n{description.strip()}")
+                print("\n---\n")
+        else:
+            display_articles(
+                articles,
+                count=args.count,
+                show_all=args.all,
+                days_back=args.days,
+                console=console
+            )
 
         return 0
 

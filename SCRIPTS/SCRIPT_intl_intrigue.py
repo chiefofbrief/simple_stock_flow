@@ -55,6 +55,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.markdown import Markdown
 from rich.text import Text
+from rich.markup import escape
 import html2text
 from datetime import datetime
 
@@ -95,12 +96,29 @@ def fetch_html(url, session=None):
         if session is None:
             session = requests.Session()
 
+        # Add explicit headers to look more like a real browser
+        headers = {
+            'User-Agent': USER_AGENT,
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Referer': 'https://google.com',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'cross-site',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0',
+        }
+
         # curl_cffi automatically mimics Chrome's TLS fingerprint
+        # Updated to chrome124 for better bypass success
         response = session.get(
             url,
             timeout=REQUEST_TIMEOUT,
             allow_redirects=True,
-            impersonate="chrome120"  # Mimic Chrome 120
+            impersonate="safari15_5",
+            headers=headers
         )
         response.raise_for_status()
         return response.text
@@ -344,10 +362,9 @@ def display_post(post_data, summary_only=False, console=None):
 
         if summary_lines:
             body = '\n'.join(summary_lines)
-            body += "\n\n[dim italic](Run without --summary to see full article)[/dim italic]"
         else:
             # Fallback to first ~1000 chars if we can't find structure
-            body = body[:1000] + "\n\n[dim italic]...(Run without --summary to see full article)[/dim italic]"
+            body = body[:1000]
 
     # Clean up the markdown before rendering
     # Remove excessive blank lines
@@ -358,6 +375,9 @@ def display_post(post_data, summary_only=False, console=None):
 
     # Remove images
     body = re.sub(r'!\[[^\]]*\]\([^\)]+\)', '', body)
+
+    # Escape the body to prevent accidental tags from content
+    body = escape(body)
 
     # Convert markdown formatting to rich markup
     # **bold** -> [bold]bold[/bold]
@@ -377,6 +397,9 @@ def display_post(post_data, summary_only=False, console=None):
     body = re.sub(r'^  -\s+', '    ◦ ', body, flags=re.MULTILINE)
     body = re.sub(r'^-\s+', '  • ', body, flags=re.MULTILINE)
     body = re.sub(r'^—\s+', '  — ', body, flags=re.MULTILINE)
+
+    if summary_only:
+         body += "\n\n[dim italic](Run without --summary to see full article)[/dim italic]"
 
     # Print with rich markup enabled
     console.print(body, markup=True, highlight=False, soft_wrap=True)
@@ -400,6 +423,11 @@ def main():
         action='store_true',
         help='Show brief summary only (default: show full article)'
     )
+    parser.add_argument(
+        '--markdown',
+        action='store_true',
+        help='Output raw markdown without terminal formatting (for file saving)'
+    )
     args = parser.parse_args()
 
     console = Console()
@@ -409,27 +437,38 @@ def main():
         session = requests.Session()
 
         # Step 1: Fetch archive page
-        console.print("[cyan]Fetching archive page...[/cyan]")
+        if not args.markdown:
+            console.print("[cyan]Fetching archive page...[/cyan]")
         archive_html = fetch_html(ARCHIVE_URL, session=session)
 
         # Step 2: Find latest post URL
-        console.print("[cyan]Finding latest post...[/cyan]")
+        if not args.markdown:
+            console.print("[cyan]Finding latest post...[/cyan]")
         post_url = find_latest_post_url(archive_html)
-        console.print(f"[dim]Post URL: {post_url}[/dim]\n")
+        if not args.markdown:
+            console.print(f"[dim]Post URL: {post_url}[/dim]\n")
 
         # Add a small delay between requests to appear more human-like
         time.sleep(1)
 
         # Step 3: Fetch post content
-        console.print("[cyan]Fetching post content...[/cyan]")
+        if not args.markdown:
+            console.print("[cyan]Fetching post content...[/cyan]")
         post_html = fetch_html(post_url, session=session)
 
         # Step 4: Extract post data
-        console.print("[cyan]Parsing content...[/cyan]")
+        if not args.markdown:
+            console.print("[cyan]Parsing content...[/cyan]")
         post_data = extract_post_content(post_html)
 
         # Step 5: Display the post
-        display_post(post_data, summary_only=args.summary, console=console)
+        if args.markdown:
+            print(f"# {post_data['title']}")
+            print(f"_{post_data['date']}_")
+            print("\n---\n")
+            print(post_data['body'])
+        else:
+            display_post(post_data, summary_only=args.summary, console=console)
 
         return 0
 
@@ -437,7 +476,7 @@ def main():
         console.print("\n[yellow]Interrupted by user[/yellow]")
         return 1
     except Exception as e:
-        console.print(f"\n[red]Error: {str(e)}[/red]")
+        console.print(f"\n[red]Error: {escape(str(e))}[/red]")
         return 1
 
 
