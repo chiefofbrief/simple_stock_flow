@@ -34,7 +34,7 @@ RETRY_DELAY = 30  # seconds
 # ============================================================================
 
 def get_data_directory(ticker, target_ticker=None):
-    """Get the data directory for a ticker using nested structure
+    """Get the data directory for a ticker using nested structure under data/analysis/
 
     Args:
         ticker: The ticker to get directory for
@@ -42,17 +42,13 @@ def get_data_directory(ticker, target_ticker=None):
 
     Returns:
         Path to data directory (nested if ticker is a peer)
-
-    Examples:
-        get_data_directory('IBM') -> 'IBM'
-        get_data_directory('IBM', 'IBM') -> 'IBM'
-        get_data_directory('MSFT', 'IBM') -> 'IBM/MSFT'
     """
+    base_dir = os.path.join("data", "analysis")
     if target_ticker is None or ticker == target_ticker:
-        return ticker
+        return os.path.join(base_dir, ticker)
     else:
         # Peer ticker - nest under target
-        return os.path.join(target_ticker, ticker)
+        return os.path.join(base_dir, target_ticker, ticker)
 
 def ensure_directory_exists(directory):
     """Create directory if it doesn't exist

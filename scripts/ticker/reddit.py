@@ -506,21 +506,49 @@ def save_ticker_data(ticker_data: dict, console: Console):
         ticker_data: Ticker data dictionary
         console: Rich console object
     """
+    import sys
+    import os
+    # Add parent directory to path for shared_utils
+    sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    from shared_utils import get_data_directory, ensure_directory_exists
+
     ticker = ticker_data.get('ticker', 'UNKNOWN')
 
     # Create directory structure
-    output_dir = Path("data/stocks") / ticker
-    output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir = get_data_directory(ticker)
+    ensure_directory_exists(output_dir)
 
     # Generate filename with timestamp
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    filename = output_dir / f"reddit_{timestamp}.json"
+    filename = os.path.join(output_dir, f"{ticker}_reddit_{timestamp}.json")
 
     # Save data
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(ticker_data, f, indent=2, ensure_ascii=False)
 
-    console.print(f"[green]💾 Saved to: {filename}[/green]")
+    # Generate Markdown Summary
+    md_filename = os.path.join(output_dir, f"{ticker}_reddit.md")
+    with open(md_filename, 'w', encoding='utf-8') as f:
+        f.write(f"# Reddit Analysis: {ticker}\n\n")
+        f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        
+        posts = ticker_data.get('posts', [])
+        f.write(f"## Top Posts ({len(posts)})\n\n")
+        
+        for p in posts[:30]: # Show top 30 in summary
+            f.write(f"### {p.get('title')}\n")
+            f.write(f"- **Score:** {p.get('score')} | **Comments:** {p.get('num_comments')}\n")
+            f.write(f"- **Subreddit:** r/{p.get('subreddit')}\n")
+            f.write(f"- **Link:** {p.get('url')}\n\n")
+            
+            # Short snippet of text if available
+            body = p.get('selftext', '')
+            if body:
+                f.write(f"> {body[:300]}...\n\n")
+            f.write("---\n\n")
+
+    console.print(f"[green]💾 Saved JSON to: {filename}[/green]")
+    console.print(f"[green]📄 Saved MD Summary to: {md_filename}[/green]")
 
 
 # ============================================================================

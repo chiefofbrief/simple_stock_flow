@@ -42,6 +42,10 @@ import sys
 import argparse
 from datetime import datetime, timedelta
 from collections import defaultdict
+
+# Add parent directory to path for shared_utils
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from shared_utils import (
     make_request_with_retry,
     get_data_directory,
@@ -401,19 +405,8 @@ def save_alphavantage_data(data, ticker, from_date, to_date):
 # FORMATTED MARKDOWN GENERATION
 # ============================================================================
 
-def generate_formatted_markdown(ticker, perigon_data, alphavantage_data, from_date, to_date):
-    """Generate human-readable formatted markdown combining both news sources
-
-    Args:
-        ticker: Stock ticker symbol
-        perigon_data: Processed Perigon data dict (with 'stories' key)
-        alphavantage_data: Processed AlphaVantage data dict (with 'articles' key)
-        from_date: Start date for metadata
-        to_date: End date for metadata
-
-    Returns:
-        str: Filename of saved markdown file, or None if failed
-    """
+def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, to_date, filename):
+    """Generate human-readable formatted markdown combining both news sources"""
     from datetime import datetime
     from collections import Counter
 
@@ -540,7 +533,7 @@ def generate_formatted_markdown(ticker, perigon_data, alphavantage_data, from_da
     # Sort by date descending
     sorted_stories = sorted(perigon_stories, key=lambda x: x.get('updatedAt', ''), reverse=True)
 
-    for story in sorted_stories:
+    for story in sorted_stories[:30]:
         date_str = story.get('updatedAt', '')[:10] if story.get('updatedAt') else 'Unknown'
         title = story.get('name', 'Untitled')
 
@@ -587,7 +580,7 @@ def generate_formatted_markdown(ticker, perigon_data, alphavantage_data, from_da
     # Sort by date descending
     sorted_articles = sorted(av_articles, key=lambda x: x.get('time_published', ''), reverse=True)
 
-    for article in sorted_articles:
+    for article in sorted_articles[:30]:
         date_str = article.get('time_published', '')
         if date_str and len(date_str) >= 8:
             formatted_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
@@ -675,68 +668,19 @@ def main():
     alphavantage_data = fetch_alphavantage_news(ticker, alphavantage_key, from_date, to_date)
 
     # Process and save data
+    # Perigon data is already simplified by save_perigon_data
+    # AlphaVantage data is already simplified by save_alphavantage_data
     perigon_file = save_perigon_data(perigon_data, ticker, from_date, to_date)
     av_file = save_alphavantage_data(alphavantage_data, ticker, from_date, to_date)
 
-    # Count results
-    perigon_count = len(perigon_data.get('results', [])) if 'error' not in perigon_data else 0
-    av_count = len(alphavantage_data.get('feed', [])) if 'error' not in alphavantage_data else 0
-
-    # Generate formatted markdown (only if at least one source succeeded)
-    formatted_file = None
     if perigon_file or av_file:
-        # Build processed data structures for markdown
-        perigon_processed = {}
-        if perigon_file:
-            stories = perigon_data.get('results', [])
-            perigon_processed = {
-                'stories': [simplify_perigon_story(story) for story in stories]
-            }
-
-        av_processed = {}
-        if av_file:
-            articles = alphavantage_data.get('feed', [])[:30]
-            av_processed = {
-                'articles': [simplify_alphavantage_article(article) for article in articles]
-            }
-
-        formatted_file = generate_formatted_markdown(ticker, perigon_processed, av_processed, from_date, to_date)
-
-    # Summary
-    print("\n" + "="*60)
-    print("PROCESSING COMPLETE")
-    print("="*60)
-
-    success = False
-    if perigon_file:
-        print(f"\n✓ Perigon: {perigon_count} stories fetched")
-        success = True
-    else:
-        print(f"\n❌ Perigon: Failed to fetch data")
-
-    if av_file:
-        print(f"✓ AlphaVantage: {av_count} articles fetched")
-        success = True
-    else:
-        print(f"❌ AlphaVantage: Failed to fetch data")
-
-    if not success:
-        print("\n❌ No news data was successfully fetched")
-        print("This may indicate:")
-        print("  - API rate limits exceeded")
-        print("  - Invalid API keys")
-        print("  - Ticker symbol is invalid")
-        print("  - Network connectivity issues")
-        sys.exit(1)
-
-    print(f"\nOutput files saved to: {ticker}/")
-    if perigon_file:
-        print(f"  ├── {ticker}_news_perigon.json")
-    if av_file:
-        print(f"  ├── {ticker}_news_alphavantage.json")
-    if formatted_file:
-        print(f"  ├── {ticker}_news_formatted.md")
-    print()
+        # Load the processed data to generate the MD
+        p_data = load_json(perigon_file) if perigon_file else {}
+        a_data = load_json(av_file) if av_file else {}
+        
+        md_filename = os.path.join(get_data_directory(ticker), f"{ticker}_news.md")
+        generate_news_markdown(ticker, p_data, a_data, from_date, to_date, md_filename)
+        print(f"✓ Saved formatted news: {md_filename}")
 
 
 if __name__ == "__main__":

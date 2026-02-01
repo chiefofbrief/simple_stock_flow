@@ -359,20 +359,51 @@ Examples:
         include_details=not args.no_details
     )
 
+    # Add parent directory to path for shared_utils
+    sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    from shared_utils import get_data_directory, ensure_directory_exists
+
     # Save results
     if args.output:
         output_file = args.output
     else:
         # Default output path
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-        output_dir = '/home/user/social_media/data/youtube'
-        os.makedirs(output_dir, exist_ok=True)
-        output_file = f"{output_dir}/{args.ticker.upper()}_{args.time_period}_{timestamp}.json"
+        output_dir = get_data_directory(args.ticker.upper())
+        ensure_directory_exists(output_dir)
+        output_file = f"{output_dir}/{args.ticker.upper()}_youtube_{timestamp}.json"
 
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=2)
 
+    # Generate Markdown Summary
+    md_filename = output_file.replace('.json', '.md')
+    if '_youtube_' in md_filename:
+        # Standardize name to {TICKER}_youtube.md
+        md_filename = os.path.join(output_dir, f"{args.ticker.upper()}_youtube.md")
+
+    with open(md_filename, 'w', encoding='utf-8') as f:
+        f.write(f"# YouTube Research: {args.ticker.upper()}\n\n")
+        f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        
+        videos = results.get('videos', [])
+        f.write(f"## Top Videos ({len(videos)})\n\n")
+        
+        for v in videos[:30]:
+            channel = v.get('channel', {}).get('title', 'Unknown')
+            f.write(f"### {v.get('title')}\n")
+            f.write(f"- **Channel:** {channel}\n")
+            f.write(f"- **Views:** {v.get('viewCountInt', 0):,} | **Likes:** {v.get('likeCountInt', 0):,}\n")
+            
+            sent = v.get('sentiment_analysis', {})
+            if sent:
+                f.write(f"- **Sentiment:** {sent.get('sentiment', 'N/A').upper()}\n")
+            
+            f.write(f"- **Link:** {v.get('url')}\n\n")
+            f.write("---\n\n")
+
     print(f"\n💾 Results saved to: {output_file}")
+    print(f"📄 Summary saved to: {md_filename}")
 
     # Print top videos
     print(f"\n📊 Top 5 Videos by Views:")
