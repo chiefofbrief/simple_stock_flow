@@ -73,11 +73,43 @@ Data is cached in `data/analysis/{TICKER}/`.
 
 
 
+- **Fundamentals (Financial Statements):** `python scripts/ticker/fetch_financials.py AAPL`
+
+
+
+  *(Fetches raw statements. Outputs: `AAPL_financial_raw.json`)*
 
 
 
 
-### Step 2: Sentiment Analysis
+
+
+
+### Step 2: Financial Calculations
+
+
+
+Process the raw financial data into modular components.
+
+
+
+- **Calculate Seeds:** `python scripts/ticker/calc_seeds.py AAPL`
+
+
+
+- **Calculate Metrics:** `python scripts/ticker/calc_metrics.py AAPL`
+
+
+
+- **Compare Peers:** `python scripts/ticker/compare_financials.py AAPL MSFT GOOGL`
+
+
+
+
+
+
+
+### Step 3: Sentiment Analysis
 
 
 
@@ -101,11 +133,15 @@ Data is cached in `data/analysis/{TICKER}/`.
 
 
 
-### Step 3: LLM Analysis
+### Step 4: LLM Analysis
 
 
 
 Copy the contents of `PROMPTS.md` to analyze the generated JSON files.
+
+
+
+
 
 
 
