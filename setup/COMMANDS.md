@@ -54,26 +54,35 @@ python scripts/ticker/earnings.py AAPL MSFT
 python scripts/valuation.py AAPL MSFT
 ```
 
-### Step 2: Fetch Financial Statements
-Fetches raw statements (Income, Balance, Cash Flow) for downstream calculations.
+### Step 2: Financial Statements Analysis
+
+#### Master Script (Recommended)
+Orchestrates full financial statements pipeline: fetches data, calculates seeds and metrics, generates markdown tables. Saves to `data/analysis/{TICKER}/{TICKER}_statements.md`.
 ```bash
+# Single ticker analysis
+python scripts/financial_statements.py AAPL
+
+# With peer comparison (3-ticker comparison tables)
+python scripts/financial_statements.py AAPL --compare MSFT GOOGL
+```
+
+#### Individual Scripts (For Custom Workflows)
+Run individual components of the pipeline separately.
+```bash
+# 1. Fetch raw statements (Income, Balance, Cash Flow)
 python scripts/ticker/fetch_financials.py AAPL
-```
 
-### Step 3: Financial Calculations
-Process raw data into projection seeds and priority metrics.
-```bash
+# 2. Calculate projection seeds (8 seeds: Revenue, COGS%, SG&A%, R&D%, D&A, CapEx, Debt, WC)
 python scripts/ticker/calc_seeds.py AAPL
-python scripts/ticker/calc_metrics.py AAPL
-```
 
-### Step 4: Comparative Analysis
-Compare the target ticker side-by-side with two peers.
-```bash
+# 3. Calculate financial metrics (13 priority + 17 secondary)
+python scripts/ticker/calc_metrics.py AAPL
+
+# 4. Standalone peer comparison (if not using master script)
 python scripts/ticker/compare_financials.py AAPL MSFT GOOGL
 ```
 
-### Step 5: Sentiment Analysis
+### Step 3: Sentiment Analysis
 
 #### Master Script (Recommended)
 Aggregates all sentiment sources into a single analysis file. Saves to `data/analysis/{TICKER}/{TICKER}_sentiment.md`.
@@ -112,9 +121,7 @@ python scripts/ticker/youtube.py AAPL --time-period this_week
 
 ### Step 4: LLM Analysis
 
-
-
-Copy the contents of `PROMPTS.md` to analyze the generated JSON files.
+Use the generated markdown files (`{TICKER}_statements.md`, `{TICKER}_sentiment.md`) for qualitative analysis with Gemini or other LLM tools.
 
 
 

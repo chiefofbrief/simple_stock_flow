@@ -10,8 +10,6 @@ Endpoints Fetched:
 - INCOME_STATEMENT
 - BALANCE_SHEET
 - CASH_FLOW
-- OVERVIEW
-- SHARES_OUTSTANDING
 
 Usage:
     python fetch_financials.py TICKER
@@ -41,9 +39,7 @@ def fetch_all_raw_data(ticker):
     endpoints = {
         'income': 'INCOME_STATEMENT',
         'balance': 'BALANCE_SHEET',
-        'cashflow': 'CASH_FLOW',
-        'overview': 'OVERVIEW',
-        'shares': 'SHARES_OUTSTANDING'
+        'cashflow': 'CASH_FLOW'
     }
     
     raw_data = {
