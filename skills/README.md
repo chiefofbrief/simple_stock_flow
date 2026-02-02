@@ -1,6 +1,6 @@
 # Skills Directory
 
-This directory contains analysis skill files for stock analysis workflows. Each skill file provides structured guidance for a specific analysis type.
+Analysis skill files provide structured guidance for stock analysis workflows. Think of these as prompts with context rather than rigid instructions.
 
 **⚠️ All skill files are currently in DRAFT status and may require refinement based on actual usage patterns.**
 
@@ -8,209 +8,79 @@ This directory contains analysis skill files for stock analysis workflows. Each 
 
 ## Skill Files Overview
 
-| Skill File | Purpose | Prerequisites | Output |
-|------------|---------|---------------|---------|
-| `SKILL_screening.md` | Preliminary fundamental screening | Price + earnings data | Screening decision (PASS/MAYBE/FAIL) |
-| `SKILL_statement_analysis.md` | Deep financial statement analysis | Statements markdown | Qualitative analysis + investigation items |
-| `SKILL_news.md` | News sentiment and validation | News JSON files | News analysis + narrative validation |
-| `SKILL_sentiment_analysis.md` | Multi-source sentiment synthesis | Sentiment markdown | Cross-source sentiment analysis |
+| Skill File | Purpose | Key Questions |
+|------------|---------|---------------|
+| `SKILL_screening.md` | Preliminary screening | Price behavior, earnings trends, P/E positioning, price-earnings correlation |
+| `SKILL_statement_analysis.md` | Deep financial analysis | 8 projection seeds, 8 undervaluation metrics, 5 risk metrics |
+| `SKILL_news.md` | News coverage analysis | Material events, investigation items, narrative validation, sentiment |
+| `SKILL_sentiment_analysis.md` | Multi-source sentiment | Cross-source synthesis, material themes, brand perception |
 
 ---
 
 ## Analysis Workflow
 
-### Recommended Sequence
+**Recommended Sequence:**
 
 ```
-1. Discovery (scripts/discovery.py)
-   └─ Identify candidates from market scan
-
-2. Screening (SKILL_screening.md)
-   └─ Quick filter: Price behavior + earnings trends + P/E analysis
-   └─ Decision: PASS / MAYBE / FAIL
-
-3. Statement Analysis (SKILL_statement_analysis.md)
-   └─ Deep dive: 8 projection seeds + 13 priority metrics
-   └─ Output: Investigation items + projection confidence
-
-4. News Analysis (SKILL_news.md) [Optional]
-   └─ Standalone: Institutional perspective from news
-   └─ Output: Narrative validation + sentiment
-
-   OR
-
-   Sentiment Analysis (SKILL_sentiment_analysis.md)
-   └─ Comprehensive: News + Reddit + Social media
-   └─ Output: Multi-source sentiment + cross-source analysis
-
-5. Synthesis
-   └─ Combine all analyses for investment thesis
+Discovery → Screening → Statement Analysis → Sentiment/News → Synthesis
 ```
+
+1. **Discovery** (`scripts/discovery.py`) - Identify candidates from market scan
+2. **Screening** (`SKILL_screening.md`) - Quick filter: Is this worth deeper analysis?
+3. **Statement Analysis** (`SKILL_statement_analysis.md`) - Deep dive on financials
+4. **Sentiment/News** - External perspective:
+   - `SKILL_news.md` - News only (institutional perspective)
+   - OR `SKILL_sentiment_analysis.md` - Multi-source (news + social media)
+5. **Synthesis** - Combine analyses for investment thesis
 
 ---
 
-## Skill File Structure
+## Design Philosophy
 
-Each skill file follows a consistent structure:
+**Flexibility over Prescription:**
+- Skill files provide questions to address, not rigid steps
+- Let materiality drive depth of analysis
+- Adapt format to the situation
+- Trust the LLM to handle nuance
 
-```markdown
-# {Skill Name}
+**Context over Instructions:**
+- Reference external resources (glossaries, tracking docs)
+- Provide framework, not deterministic rules
+- Guidelines, not hard requirements
 
-**⚠️ DRAFT**
-
-## Prerequisites
-- Required files
-- How to generate data
-- Context sources
-
-## Analysis Methodology
-- Framework
-- Tool guidance
-- Materiality filtering
-
-## Workflow
-- Pass-by-pass structure
-- PAUSE points for review
-- Progressive output building
-
-## Required Output Format
-- Detailed markdown template
-- Sections and structure
-
-## Notes
-- Best practices
-- Tool usage
-- Flexibility guidance
-```
+**Key Concepts:**
+- **Projection Seeds**: 8 fundamental metrics for forward projections
+- **Investigation Items**: Flagged questions tracked in `{TICKER}_tracking.md`
+- **Three-Dimension Analysis**: Absolute level, trends, volatility (for statement metrics)
 
 ---
 
 ## Data Flow
 
-### Screening Phase
+### Screening
 ```
-prices.py → {TICKER}_prices.json
-earnings.py → {TICKER}_earnings.json
-valuation.py → Terminal output
-                     ↓
-              SKILL_screening.md
-                     ↓
-              Screening Decision
+prices.py + earnings.py + valuation.py → SKILL_screening.md
 ```
 
-### Statement Analysis Phase
+### Statement Analysis
 ```
-financial_statements.py → {TICKER}_statements.md
-                                    ↓
-                         SKILL_statement_analysis.md
-                                    ↓
-                         {TICKER}_ANALYSIS_statement.md
-                         {TICKER}_tracking.md (created/updated)
+financial_statements.py → {TICKER}_statements.md + Glossaries → SKILL_statement_analysis.md
 ```
 
-### Sentiment Phase (Option A: News Only)
+### Sentiment Analysis
 ```
-news.py → {TICKER}_news_*.json
-                 ↓
-          SKILL_news.md
-                 ↓
-          {TICKER}_ANALYSIS_news.md
-          {TICKER}_tracking.md (updated)
+sentiment.py → {TICKER}_sentiment.md → SKILL_sentiment_analysis.md
+OR
+news.py → {TICKER}_news_*.json → SKILL_news.md
 ```
-
-### Sentiment Phase (Option B: Multi-Source)
-```
-sentiment.py → {TICKER}_sentiment.md
-                      ↓
-           SKILL_sentiment_analysis.md
-                      ↓
-           {TICKER}_ANALYSIS_sentiment.md
-           {TICKER}_tracking.md (updated)
-```
-
----
-
-## Key Concepts
-
-### Projection Seeds
-8 fundamental metrics used for forward projections:
-1. Revenue
-2. COGS %
-3. SG&A %
-4. R&D %
-5. Depreciation & Amortization
-6. Capital Expenditures
-7. Total Debt
-8. Working Capital Components
-
-### Investigation Items
-Flagged questions or concerns from analysis, tracked in `{TICKER}_tracking.md`:
-- **Seed-Linked:** Items affecting specific projection seeds
-- **Non-Seed:** General concerns (governance, competitive, regulatory, etc.)
-- **Critical:** High-priority items requiring resolution
-
-### Three-Dimension Analysis Framework
-Applied to all financial metrics:
-1. **Absolute Level & Peer Positioning** - Current value vs. historical and vs. peers
-2. **Trends & Divergences** - CAGR, slope, recent changes
-3. **Volatility & Outliers** - Consistency (CV) and anomalies
-
----
-
-## Usage Guidelines
-
-### When to Use Each Skill
-
-**SKILL_screening.md:**
-- Screening multiple candidates quickly
-- Before committing to deep analysis
-- When you need a go/no-go decision
-
-**SKILL_statement_analysis.md:**
-- After passing screening
-- When you need projection baseline
-- Core analysis for any stock
-
-**SKILL_news.md:**
-- When news is the primary external source
-- For institutional perspective only
-- Faster than multi-source sentiment
-
-**SKILL_sentiment_analysis.md:**
-- When you need comprehensive sentiment view
-- Cross-source validation important
-- Retail + institutional + consumer perspective
-
-### Skill File Flexibility
-
-These are **guidance documents**, not rigid scripts:
-- Adapt workflows to the specific situation
-- Skip sections if not applicable
-- Adjust depth based on materiality
-- Combine insights across skills
-
-### Tool Recommendations
-
-**For JSON files (news data):**
-- Start with Explore agent (Task tool)
-- Use Read tool only for targeted sections
-
-**For markdown files (statements, sentiment):**
-- Read tool is sufficient
-- Direct reading of structured content
-
-**For analysis:**
-- Focus on materiality, not completeness
-- Cite specific evidence
-- Let importance drive length
 
 ---
 
 ## Output Locations
 
-| Output Type | Location | Filename Pattern |
-|-------------|----------|------------------|
-| Screening | Not saved to file | Terminal or redirected |
+| Analysis Type | Output Location | Filename |
+|---------------|-----------------|----------|
+| Screening | Not saved | Terminal or redirected |
 | Statement Analysis | `data/analysis/{TICKER}/` | `{TICKER}_ANALYSIS_statement.md` |
 | News Analysis | `data/analysis/{TICKER}/` | `{TICKER}_ANALYSIS_news.md` |
 | Sentiment Analysis | `data/analysis/{TICKER}/` | `{TICKER}_ANALYSIS_sentiment.md` |
@@ -218,23 +88,8 @@ These are **guidance documents**, not rigid scripts:
 
 ---
 
-## Draft Status & Feedback
-
-**All skill files are in DRAFT status.**
-
-Expected refinements:
-- Materiality thresholds
-- Decision criteria calibration
-- Tool usage patterns
-- Output format optimization
-- Cross-skill integration
-
-Feedback on actual usage will inform future versions.
-
----
-
 ## Related Documentation
 
 - `CONTEXT_MAP.md` - Repository structure and script purposes
 - `setup/COMMANDS.md` - CLI commands and usage examples
-- Individual skill files - Detailed workflow guidance
+- Glossaries (to be added) - Interpretation guidance for metrics
