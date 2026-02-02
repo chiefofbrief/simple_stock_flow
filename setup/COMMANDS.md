@@ -38,7 +38,7 @@ Preliminary fundamental screening for one or more tickers.
 ### Multi-Ticker Screener
 Uses the valuation model to check P/E vs history and Price-EPS correlation. Automatically fetches missing Price/Earnings data.
 ```bash
-python scripts/ticker/valuation.py AAPL MSFT GOOGL
+python scripts/valuation.py AAPL MSFT GOOGL
 ```
 
 ---
@@ -51,7 +51,7 @@ Fetch Price, Earnings, and Valuation for a list of stocks.
 ```bash
 python scripts/ticker/prices.py AAPL MSFT
 python scripts/ticker/earnings.py AAPL MSFT
-python scripts/ticker/valuation.py AAPL MSFT
+python scripts/valuation.py AAPL MSFT
 ```
 
 ### Step 2: Fetch Financial Statements
@@ -74,11 +74,34 @@ python scripts/ticker/compare_financials.py AAPL MSFT GOOGL
 ```
 
 ### Step 5: Sentiment Analysis
+
+#### Master Script (Recommended)
+Aggregates all sentiment sources into a single analysis file. Saves to `data/analysis/{TICKER}/{TICKER}_sentiment.md`.
 ```bash
-python scripts/ticker/news.py AAPL
-python scripts/ticker/reddit.py --ticker AAPL
-python scripts/ticker/tiktok.py AAPL
-python scripts/ticker/youtube.py AAPL
+# All sources with defaults (news: 3mo, reddit: 30d, social: this-month)
+python scripts/sentiment.py AAPL --all
+
+# Specific sources only
+python scripts/sentiment.py AAPL --news --reddit
+
+# Override timelines
+python scripts/sentiment.py AAPL --all --news-months 1 --reddit-days 7
+```
+
+#### Individual Scripts (For Testing)
+Run scripts individually with rich terminal output. Data saved to `data/stocks/{TICKER}/`.
+```bash
+python scripts/ticker/news.py AAPL              # Default: 3 months
+python scripts/ticker/news.py AAPL --months 6   # Custom lookback
+
+python scripts/ticker/reddit.py --ticker AAPL   # Default: 30 days
+python scripts/ticker/reddit.py --ticker AAPL --days 14
+
+python scripts/ticker/tiktok.py AAPL            # Default: this-month
+python scripts/ticker/tiktok.py AAPL --time-period this-week
+
+python scripts/ticker/youtube.py AAPL           # Default: this_month
+python scripts/ticker/youtube.py AAPL --time-period this_week
 ```
 
 

@@ -89,7 +89,7 @@ except ImportError:
 # ============================================================================
 
 SOCIAVAULT_BASE_URL = "https://api.sociavault.com/v1"
-DEFAULT_DAYS = 14  # 2 weeks
+DEFAULT_DAYS = 30  # 1 month
 DEFAULT_MIN_SCORE = 50  # Minimum upvotes to be considered
 DEFAULT_MIN_COMMENTS = 10  # Minimum comments to be considered
 DEFAULT_MAX_RESULTS = 50  # Max posts to return per ticker
@@ -319,7 +319,7 @@ def extract_posts_from_response(data: dict) -> list:
 
 
 def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
-                     min_score: int, min_comments: int, max_results: int, console: Console) -> dict:
+                     min_score: int, min_comments: int, max_results: int, console: Console, quiet: bool = False) -> dict:
     """
     Fetch and filter Reddit posts for a specific ticker.
 
@@ -342,14 +342,16 @@ def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
         # Fetch from each target subreddit (1 credit per subreddit = 3 credits total)
         for subreddit in TARGET_SUBREDDITS:
             try:
-                console.print(f"[cyan]  Fetching r/{subreddit}...[/cyan]")
+                if not quiet:
+                    console.print(f"[cyan]  Fetching r/{subreddit}...[/cyan]")
 
                 # Use month timeframe and filter locally for precise date control
                 data = client.fetch_subreddit_posts(subreddit, timeframe="month", sort="top")
 
                 # Extract posts
                 posts = extract_posts_from_response(data)
-                console.print(f"[dim]    Found {len(posts)} posts in r/{subreddit}[/dim]")
+                if not quiet:
+                    console.print(f"[dim]    Found {len(posts)} posts in r/{subreddit}[/dim]")
 
                 all_posts.extend(posts)
 
@@ -358,22 +360,27 @@ def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
                     time.sleep(0.5)
 
             except Exception as e:
-                console.print(f"[yellow]    ⚠ Error fetching r/{subreddit}: {str(e)}[/yellow]")
+                if not quiet:
+                    console.print(f"[yellow]    ⚠ Error fetching r/{subreddit}: {str(e)}[/yellow]")
                 continue
 
-        console.print(f"[dim]  Total posts from all subreddits: {len(all_posts)}[/dim]")
+        if not quiet:
+            console.print(f"[dim]  Total posts from all subreddits: {len(all_posts)}[/dim]")
 
         # Filter by ticker mention
         posts = filter_posts_by_ticker(all_posts, ticker, company_name)
-        console.print(f"[dim]  After ticker filter: {len(posts)} posts[/dim]")
+        if not quiet:
+            console.print(f"[dim]  After ticker filter: {len(posts)} posts[/dim]")
 
         # Filter by date
         posts = filter_posts_by_date(posts, days)
-        console.print(f"[dim]  After date filter ({days} days): {len(posts)} posts[/dim]")
+        if not quiet:
+            console.print(f"[dim]  After date filter ({days} days): {len(posts)} posts[/dim]")
 
         # Filter by engagement
         posts = filter_posts_by_engagement(posts, min_score, min_comments)
-        console.print(f"[dim]  After engagement filter: {len(posts)} posts[/dim]")
+        if not quiet:
+            console.print(f"[dim]  After engagement filter: {len(posts)} posts[/dim]")
 
         # Sort by score (highest engagement first)
         posts.sort(key=lambda p: p.get('score', 0), reverse=True)
@@ -381,7 +388,8 @@ def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
         # Limit results
         posts = posts[:max_results]
 
-        console.print(f"[green]✓ {ticker}: {len(posts)} posts found[/green]")
+        if not quiet:
+            console.print(f"[green]✓ {ticker}: {len(posts)} posts found[/green]")
 
         return {
             "ticker": ticker,
@@ -396,7 +404,8 @@ def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
         }
 
     except Exception as e:
-        console.print(f"[yellow]⚠ Error fetching {ticker}: {str(e)}[/yellow]")
+        if not quiet:
+            console.print(f"[yellow]⚠ Error fetching {ticker}: {str(e)}[/yellow]")
         return {
             "ticker": ticker,
             "error": str(e),
@@ -498,13 +507,85 @@ def display_ticker_results(ticker_data: dict, console: Console):
     console.print("\n" + "═" * console.width + "\n")
 
 
-def save_ticker_data(ticker_data: dict, console: Console):
+def generate_markdown_output(ticker_data: dict) -> str:
+    """
+    Generate markdown output for ticker data.
+
+    Args:
+        ticker_data: Ticker data dictionary with posts
+
+    Returns:
+        Markdown formatted string
+    """
+    ticker = ticker_data.get('ticker', 'UNKNOWN')
+    posts = ticker_data.get('posts', [])
+    company_name = ticker_data.get('company_name', '')
+
+    if not posts:
+        return f"## Reddit: ${ticker}\n\nNo posts found.\n"
+
+    lines = []
+
+    # Header
+    header = f"Reddit: ${ticker}"
+    if company_name:
+        header += f" - {company_name}"
+    lines.append(f"## {header}\n")
+
+    # Stats
+    total_score = sum(p.get('score', 0) for p in posts)
+    total_comments = sum(p.get('num_comments', 0) for p in posts)
+    avg_upvote_ratio = sum(p.get('upvote_ratio', 0) for p in posts) / len(posts) if posts else 0
+
+    lines.append(f"**Posts Found:** {len(posts)}")
+    lines.append(f"**Total Upvotes:** {total_score:,}")
+    lines.append(f"**Total Comments:** {total_comments:,}")
+    lines.append(f"**Avg Upvote Ratio:** {avg_upvote_ratio:.1%}")
+    lines.append(f"**Timeframe:** {ticker_data.get('days_back', 'N/A')} days")
+    lines.append(f"**Subreddits:** r/{', r/'.join(TARGET_SUBREDDITS)}\n")
+
+    # Top posts
+    for i, post in enumerate(posts[:30], 1):  # Show top 30
+        title = post.get('title', 'No title')
+        score = post.get('score', 0)
+        num_comments = post.get('num_comments', 0)
+        upvote_ratio = post.get('upvote_ratio', 0)
+        subreddit = post.get('subreddit', 'unknown')
+        created_utc = post.get('created_utc', 0)
+
+        # Format date
+        post_date = datetime.fromtimestamp(created_utc).strftime("%b %d, %Y")
+
+        lines.append(f"### {i}. {title}")
+        lines.append(f"**↑ {score:,}** • {num_comments:,} comments • {int(upvote_ratio * 100)}% upvoted • r/{subreddit} • {post_date}")
+
+        # URL
+        permalink = post.get('permalink', '')
+        if permalink:
+            url = f"https://reddit.com{permalink}"
+            lines.append(f"[View on Reddit]({url})")
+
+        # Post body preview
+        selftext = post.get('selftext', '')
+        if selftext:
+            clean_text = selftext.strip()
+            if len(clean_text) > 200:
+                clean_text = clean_text[:200] + "..."
+            lines.append(f"\n> {clean_text}\n")
+
+        lines.append("")  # Blank line between posts
+
+    return "\n".join(lines)
+
+
+def save_ticker_data(ticker_data: dict, console: Console, quiet: bool = False):
     """
     Save ticker data to JSON file.
 
     Args:
         ticker_data: Ticker data dictionary
         console: Rich console object
+        quiet: Suppress console output
     """
     import sys
     import os
@@ -526,29 +607,8 @@ def save_ticker_data(ticker_data: dict, console: Console):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(ticker_data, f, indent=2, ensure_ascii=False)
 
-    # Generate Markdown Summary
-    md_filename = os.path.join(output_dir, f"{ticker}_reddit.md")
-    with open(md_filename, 'w', encoding='utf-8') as f:
-        f.write(f"# Reddit Analysis: {ticker}\n\n")
-        f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        
-        posts = ticker_data.get('posts', [])
-        f.write(f"## Top Posts ({len(posts)})\n\n")
-        
-        for p in posts[:30]: # Show top 30 in summary
-            f.write(f"### {p.get('title')}\n")
-            f.write(f"- **Score:** {p.get('score')} | **Comments:** {p.get('num_comments')}\n")
-            f.write(f"- **Subreddit:** r/{p.get('subreddit')}\n")
-            f.write(f"- **Link:** {p.get('url')}\n\n")
-            
-            # Short snippet of text if available
-            body = p.get('selftext', '')
-            if body:
-                f.write(f"> {body[:300]}...\n\n")
-            f.write("---\n\n")
-
-    console.print(f"[green]💾 Saved JSON to: {filename}[/green]")
-    console.print(f"[green]📄 Saved MD Summary to: {md_filename}[/green]")
+    if not quiet:
+        console.print(f"[green]💾 Saved JSON to: {filename}[/green]")
 
 
 # ============================================================================
@@ -581,17 +641,23 @@ def main():
     # Output arguments
     parser.add_argument('--no-save', action='store_true',
                        help='Do not save results to file')
+    parser.add_argument('--markdown', action='store_true',
+                       help='Output markdown to stdout (for master script aggregation)')
 
     args = parser.parse_args()
 
     console = Console()
+    markdown_mode = args.markdown
 
     # Get API key from environment
     api_key = os.environ.get('SOCIAVAULT_API_KEY')
     if not api_key:
-        console.print("[red]Error: SOCIAVAULT_API_KEY environment variable not set[/red]")
-        console.print("\n[yellow]Please set your API key:[/yellow]")
-        console.print("  export SOCIAVAULT_API_KEY='your_api_key_here'")
+        if not markdown_mode:
+            console.print("[red]Error: SOCIAVAULT_API_KEY environment variable not set[/red]")
+            console.print("\n[yellow]Please set your API key:[/yellow]")
+            console.print("  export SOCIAVAULT_API_KEY='your_api_key_here'")
+        else:
+            print("Error: SOCIAVAULT_API_KEY environment variable not set", file=sys.stderr)
         return 1
 
     # Determine tickers to fetch
@@ -605,57 +671,67 @@ def main():
         client = SociaVaultClient(api_key)
 
         # Check credits
-        console.print("[cyan]Checking API credits...[/cyan]")
+        if not markdown_mode:
+            console.print("[cyan]Checking API credits...[/cyan]")
         credits_info = client.check_credits()
         available_credits = credits_info.get('credits', 'unknown')
-        console.print(f"[green]✓ Available credits: {available_credits}[/green]\n")
+        if not markdown_mode:
+            console.print(f"[green]✓ Available credits: {available_credits}[/green]\n")
 
         # Warn if low on credits (3 credits per ticker)
         required_credits = len(tickers) * 3
         if isinstance(available_credits, (int, float)) and available_credits < required_credits:
-            console.print(f"[yellow]⚠ Warning: Low credits. This operation requires {required_credits} credits.[/yellow]\n")
+            if not markdown_mode:
+                console.print(f"[yellow]⚠ Warning: Low credits. This operation requires {required_credits} credits.[/yellow]\n")
 
         # Display search parameters
-        console.print("[cyan]Search Parameters:[/cyan]")
-        console.print(f"  Tickers: {', '.join(tickers)}")
-        console.print(f"  Days back: {args.days}")
-        console.print(f"  Min score: {args.min_score}")
-        console.print(f"  Min comments: {args.min_comments}")
-        console.print(f"  Max results per ticker: {args.max_results}")
-        console.print(f"  Target subreddits: r/{', r/'.join(TARGET_SUBREDDITS)}")
-        console.print()
+        if not markdown_mode:
+            console.print("[cyan]Search Parameters:[/cyan]")
+            console.print(f"  Tickers: {', '.join(tickers)}")
+            console.print(f"  Days back: {args.days}")
+            console.print(f"  Min score: {args.min_score}")
+            console.print(f"  Min comments: {args.min_comments}")
+            console.print(f"  Max results per ticker: {args.max_results}")
+            console.print(f"  Target subreddits: r/{', r/'.join(TARGET_SUBREDDITS)}")
+            console.print()
 
         # Fetch data for each ticker
         all_results = []
         for ticker in tickers:
-            console.print(f"\n[bold cyan]Fetching ${ticker}...[/bold cyan]")
+            if not markdown_mode:
+                console.print(f"\n[bold cyan]Fetching ${ticker}...[/bold cyan]")
 
             ticker_data = fetch_ticker_data(
                 client, ticker, args.days,
                 args.min_score, args.min_comments, args.max_results,
-                console
+                console, quiet=markdown_mode
             )
 
             all_results.append(ticker_data)
 
-            # Display results
-            display_ticker_results(ticker_data, console)
+            if markdown_mode:
+                # Output markdown to stdout
+                print(generate_markdown_output(ticker_data))
+            else:
+                # Display rich terminal output
+                display_ticker_results(ticker_data, console)
 
             # Save to file
             if not args.no_save:
-                save_ticker_data(ticker_data, console)
+                save_ticker_data(ticker_data, console, quiet=markdown_mode)
 
             # Add delay between tickers to avoid rate limiting
             if len(tickers) > 1 and ticker != tickers[-1]:
                 time.sleep(1)
 
         # Summary
-        console.print("\n" + "═" * console.width)
-        console.print(f"\n[green]✓ Completed! Processed {len(tickers)} ticker(s)[/green]")
-        console.print(f"[dim]Total API credits used: {len(tickers) * 3}[/dim]")
+        if not markdown_mode:
+            console.print("\n" + "═" * console.width)
+            console.print(f"\n[green]✓ Completed! Processed {len(tickers)} ticker(s)[/green]")
+            console.print(f"[dim]Total API credits used: {len(tickers) * 3}[/dim]")
 
-        total_posts = sum(len(r.get('posts', [])) for r in all_results)
-        console.print(f"[dim]Total posts found: {total_posts}[/dim]\n")
+            total_posts = sum(len(r.get('posts', [])) for r in all_results)
+            console.print(f"[dim]Total posts found: {total_posts}[/dim]\n")
 
         return 0
 

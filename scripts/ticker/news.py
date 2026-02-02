@@ -52,6 +52,7 @@ from shared_utils import (
     ensure_directory_exists,
     get_date_range_months_back,
     save_json,
+    load_json,
     REQUEST_TIMEOUT
 )
 
@@ -154,7 +155,7 @@ def group_by_month(items, date_field, date_format='iso', sentiment_field=None):
 # PERIGON API
 # ============================================================================
 
-def fetch_perigon_stories(ticker, api_key, from_date, to_date):
+def fetch_perigon_stories(ticker, api_key, from_date, to_date, quiet=False):
     """Fetch news stories from Perigon API
 
     Args:
@@ -162,12 +163,14 @@ def fetch_perigon_stories(ticker, api_key, from_date, to_date):
         api_key: Perigon API key
         from_date: Start date (YYYY-MM-DD)
         to_date: End date (YYYY-MM-DD)
+        quiet: Suppress console output
 
     Returns:
         dict: API response
     """
-    print(f"\nFetching Perigon stories for {ticker}...")
-    print(f"  Date range: {from_date} to {to_date}")
+    if not quiet:
+        print(f"\nFetching Perigon stories for {ticker}...")
+        print(f"  Date range: {from_date} to {to_date}")
 
     params = {
         'apiKey': api_key,
@@ -237,7 +240,7 @@ def simplify_perigon_story(story):
 # ALPHAVANTAGE API
 # ============================================================================
 
-def fetch_alphavantage_news(ticker, api_key, from_date, to_date):
+def fetch_alphavantage_news(ticker, api_key, from_date, to_date, quiet=False):
     """Fetch news sentiment from AlphaVantage API
 
     Args:
@@ -245,12 +248,14 @@ def fetch_alphavantage_news(ticker, api_key, from_date, to_date):
         api_key: AlphaVantage API key
         from_date: Start date (YYYY-MM-DD)
         to_date: End date (YYYY-MM-DD)
+        quiet: Suppress console output
 
     Returns:
         dict: API response
     """
-    print(f"\nFetching AlphaVantage NEWS_SENTIMENT for {ticker}...")
-    print(f"  Date range: {from_date} to {to_date}")
+    if not quiet:
+        print(f"\nFetching AlphaVantage NEWS_SENTIMENT for {ticker}...")
+        print(f"  Date range: {from_date} to {to_date}")
 
     # Convert date format to YYYYMMDDTHHMM
     from_datetime = datetime.strptime(from_date, "%Y-%m-%d")
@@ -295,7 +300,7 @@ def simplify_alphavantage_article(article):
 # FILE SAVING
 # ============================================================================
 
-def save_perigon_data(data, ticker, from_date, to_date):
+def save_perigon_data(data, ticker, from_date, to_date, quiet=False):
     """Save Perigon data to JSON file
 
     Args:
@@ -303,6 +308,7 @@ def save_perigon_data(data, ticker, from_date, to_date):
         ticker: Stock ticker symbol
         from_date: Start date for metadata
         to_date: End date for metadata
+        quiet: Suppress console output
 
     Returns:
         str: Filename of saved file, or None if failed
@@ -312,7 +318,8 @@ def save_perigon_data(data, ticker, from_date, to_date):
 
     # Check for errors
     if 'error' in data:
-        print(f"⚠️  Warning: Perigon API error: {data['error']}")
+        if not quiet:
+            print(f"⚠️  Warning: Perigon API error: {data['error']}")
         return None
 
     # Extract stories and simplify
@@ -336,15 +343,16 @@ def save_perigon_data(data, ticker, from_date, to_date):
     filename = os.path.join(data_dir, f"{ticker}_news_perigon.json")
 
     if save_json(output, filename):
-        print(f"✓ Saved Perigon data: {filename}")
-        print(f"  - {len(simplified_stories)} total stories")
-        print(f"  - {len(last_30_days)} stories in last 30 days")
-        print(f"  - {len(monthly_summary)} months of data")
+        if not quiet:
+            print(f"✓ Saved Perigon data: {filename}")
+            print(f"  - {len(simplified_stories)} total stories")
+            print(f"  - {len(last_30_days)} stories in last 30 days")
+            print(f"  - {len(monthly_summary)} months of data")
         return filename
     else:
         return None
 
-def save_alphavantage_data(data, ticker, from_date, to_date):
+def save_alphavantage_data(data, ticker, from_date, to_date, quiet=False):
     """Save AlphaVantage data to JSON file
 
     Args:
@@ -352,6 +360,7 @@ def save_alphavantage_data(data, ticker, from_date, to_date):
         ticker: Stock ticker symbol
         from_date: Start date for metadata
         to_date: End date for metadata
+        quiet: Suppress console output
 
     Returns:
         str: Filename of saved file, or None if failed
@@ -361,15 +370,18 @@ def save_alphavantage_data(data, ticker, from_date, to_date):
 
     # Check for errors
     if 'error' in data:
-        print(f"⚠️  Warning: AlphaVantage API error: {data['error']}")
+        if not quiet:
+            print(f"⚠️  Warning: AlphaVantage API error: {data['error']}")
         return None
 
     if 'Error Message' in data:
-        print(f"⚠️  Warning: AlphaVantage API error: {data['Error Message']}")
+        if not quiet:
+            print(f"⚠️  Warning: AlphaVantage API error: {data['Error Message']}")
         return None
 
     if 'Note' in data:
-        print(f"⚠️  Warning: AlphaVantage rate limit: {data['Note']}")
+        if not quiet:
+            print(f"⚠️  Warning: AlphaVantage rate limit: {data['Note']}")
         return None
 
     # Extract articles and simplify (truncate to 30 for equal representation with Perigon)
@@ -393,10 +405,11 @@ def save_alphavantage_data(data, ticker, from_date, to_date):
     filename = os.path.join(data_dir, f"{ticker}_news_alphavantage.json")
 
     if save_json(output, filename):
-        print(f"✓ Saved AlphaVantage data: {filename}")
-        print(f"  - {len(simplified_articles)} total articles")
-        print(f"  - {len(last_30_days)} articles in last 30 days")
-        print(f"  - {len(monthly_summary)} months of data")
+        if not quiet:
+            print(f"✓ Saved AlphaVantage data: {filename}")
+            print(f"  - {len(simplified_articles)} total articles")
+            print(f"  - {len(last_30_days)} articles in last 30 days")
+            print(f"  - {len(monthly_summary)} months of data")
         return filename
     else:
         return None
@@ -613,16 +626,8 @@ def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, t
         md.append("---")
         md.append("")
 
-    # Save file
-    filename = os.path.join(data_dir, f"{ticker}_news_formatted.md")
-    try:
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(md))
-        print(f"✓ Saved formatted markdown: {filename}")
-        return filename
-    except Exception as e:
-        print(f"❌ Failed to save formatted markdown: {e}")
-        return None
+    # Return markdown string
+    return '\n'.join(md)
 
 # ============================================================================
 # MAIN
@@ -636,6 +641,10 @@ def main():
     """
     parser = argparse.ArgumentParser(description="News Data Preparation Tool")
     parser.add_argument('target', type=str, help='Target company ticker')
+    parser.add_argument('--months', type=int, default=3,
+                       help='Number of months to look back (default: 3)')
+    parser.add_argument('--markdown', action='store_true',
+                       help='Output markdown to stdout (for master script aggregation)')
 
     args = parser.parse_args()
 
@@ -653,34 +662,47 @@ def main():
         print("Error: ALPHAVANTAGE_API_KEY environment variable not set")
         sys.exit(1)
 
-    print("\n" + "="*60)
-    print("NEWS DATA PREPARATION")
-    print("="*60)
-    print(f"Target Company: {ticker}")
-    print("="*60 + "\n")
+    markdown_mode = args.markdown
 
-    # Get date range (6 months back)
-    from_date, to_date = get_date_range_months_back(6)
-    print(f"Date range: {from_date} to {to_date} (~6 months)")
+    if not markdown_mode:
+        print("\n" + "="*60)
+        print("NEWS DATA PREPARATION")
+        print("="*60)
+        print(f"Target Company: {ticker}")
+        print("="*60 + "\n")
+
+    # Get date range
+    from_date, to_date = get_date_range_months_back(args.months)
+    if not markdown_mode:
+        print(f"Date range: {from_date} to {to_date} (~{args.months} months)")
 
     # Fetch from both APIs
-    perigon_data = fetch_perigon_stories(ticker, perigon_key, from_date, to_date)
-    alphavantage_data = fetch_alphavantage_news(ticker, alphavantage_key, from_date, to_date)
+    perigon_data = fetch_perigon_stories(ticker, perigon_key, from_date, to_date, quiet=markdown_mode)
+    alphavantage_data = fetch_alphavantage_news(ticker, alphavantage_key, from_date, to_date, quiet=markdown_mode)
 
     # Process and save data
     # Perigon data is already simplified by save_perigon_data
     # AlphaVantage data is already simplified by save_alphavantage_data
-    perigon_file = save_perigon_data(perigon_data, ticker, from_date, to_date)
-    av_file = save_alphavantage_data(alphavantage_data, ticker, from_date, to_date)
+    perigon_file = save_perigon_data(perigon_data, ticker, from_date, to_date, quiet=markdown_mode)
+    av_file = save_alphavantage_data(alphavantage_data, ticker, from_date, to_date, quiet=markdown_mode)
 
     if perigon_file or av_file:
-        # Load the processed data to generate the MD
+        # Load the processed data to generate the markdown
         p_data = load_json(perigon_file) if perigon_file else {}
         a_data = load_json(av_file) if av_file else {}
-        
-        md_filename = os.path.join(get_data_directory(ticker), f"{ticker}_news.md")
-        generate_news_markdown(ticker, p_data, a_data, from_date, to_date, md_filename)
-        print(f"✓ Saved formatted news: {md_filename}")
+
+        markdown_output = generate_news_markdown(ticker, p_data, a_data, from_date, to_date, None)
+
+        if markdown_mode:
+            # Output to stdout for master script
+            print(markdown_output)
+        else:
+            # Display summary to terminal
+            print("\n" + "="*60)
+            print(f"✓ News data fetched successfully for {ticker}")
+            print(f"  - Perigon: {len(p_data.get('stories', []))} stories")
+            print(f"  - AlphaVantage: {len(a_data.get('articles', []))} articles")
+            print("="*60 + "\n")
 
 
 if __name__ == "__main__":
