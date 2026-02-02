@@ -37,14 +37,14 @@ def get_command(module, mode='daily'):
     
     # Base commands
     cmds = {
-        'movers':   ['python', 'scripts/market/movers.py', '--markdown'],
-        'intrigue': ['python', 'scripts/market/intrigue.py', '--markdown'],
-        'macro':    ['python', 'scripts/market/macro.py', '--markdown'],
+        'movers':   [sys.executable, 'scripts/market/movers.py', '--markdown'],
+        'intrigue': [sys.executable, 'scripts/market/intrigue.py', '--markdown'],
+        'macro':    [sys.executable, 'scripts/market/macro.py', '--markdown'],
         
         # Modules with variable timeframes
-        'barrons':  ['python', 'scripts/market/barrons.py', '--markdown'],
-        'wsj':      ['python', 'scripts/market/wsj.py', '--markdown'],
-        'reddit':   ['python', 'scripts/market/reddit.py', '--markdown']
+        'barrons':  [sys.executable, 'scripts/market/barrons.py', '--markdown'],
+        'wsj':      [sys.executable, 'scripts/market/wsj.py', '--markdown'],
+        'reddit':   [sys.executable, 'scripts/market/reddit.py', '--markdown']
     }
     
     cmd = cmds.get(module).copy()
@@ -80,7 +80,7 @@ def run_module(module, mode):
         return result.stdout
     except subprocess.CalledProcessError as e:
         error_header = f"\n> **Error running {module}**\n"
-        error_details = f"> Command: {' '.join(cmd)}\n> Error: {e.stderr}\n\n"
+        error_details = f"> Command: {' '.join(cmd)}\n> Error: {e.stderr}\n> Output: {e.stdout}\n\n"
         print(f"Error running {module}: {e.stderr}", file=sys.stderr)
         return error_header + error_details
     except Exception as e:
@@ -128,7 +128,7 @@ def main():
 
     # Generate Header
     now = datetime.datetime.now()
-    title = "Weekly Market Digest" if mode == 'weekly' else "Daily Market Digest"
+    title = "Weekly Market Digest" if mode == 'weekly' else "Peter's Daily Digest"
     if not args.weekly and not args.daily:
         title = "Market Discovery Report"
 
