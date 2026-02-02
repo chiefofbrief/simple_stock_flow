@@ -258,6 +258,8 @@ def calculate_secondary_metrics(aligned_data, seeds, priority_metrics):
     cogs = [safe_float(r.get('costOfRevenue')) for r in income]
     ar = [safe_float(r.get('currentNetReceivables')) for r in balance]
     capex = seeds['capex']['values']
+    current_assets = [safe_float(r.get('totalCurrentAssets')) for r in balance]
+    current_liab = [safe_float(r.get('totalCurrentLiabilities')) for r in balance]
 
     # Helper for growth comparisons
     def growth_diff(val1, val2):
@@ -380,14 +382,17 @@ def main():
         subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), "calc_seeds.py"), ticker], check=True)
         
     raw_data = load_json(raw_path)
-    seeds = load_json(seeds_path)
-    
+    seeds_data = load_json(seeds_path)
+
     # Import logic for alignment and YTD (duplicated or move to shared_utils if frequent)
     from calc_seeds import extract_annual_reports, calculate_ytd_annualized
-    
+
     aligned = extract_annual_reports(raw_data)
     ytd = calculate_ytd_annualized(raw_data)
-    
+
+    # Extract projection_seeds from the full seeds file structure
+    seeds = seeds_data.get('projection_seeds', {})
+
     priority = calculate_priority_metrics(aligned, seeds, ytd)
     secondary = calculate_secondary_metrics(aligned, seeds, priority)
     
