@@ -1,5 +1,6 @@
-data/
+# data/
 __pycache__/
 *.pyc
 .DS_Store
 *.env
+setup_env.sh
