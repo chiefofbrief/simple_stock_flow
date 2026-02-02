@@ -320,6 +320,31 @@ class YouTubeStockResearch:
         return summary
 
 
+def generate_markdown_output(ticker: str, results: Dict) -> str:
+    """Generate markdown output for YouTube results."""
+    lines = []
+    lines.append(f"## YouTube: {ticker}\n")
+    lines.append(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+
+    videos = results.get('videos', [])
+    lines.append(f"### Top Videos ({len(videos)})\n")
+
+    for v in videos[:30]:
+        channel = v.get('channel', {}).get('title', 'Unknown')
+        lines.append(f"#### {v.get('title')}")
+        lines.append(f"**Channel:** {channel}")
+        lines.append(f"**Views:** {v.get('viewCountInt', 0):,} | **Likes:** {v.get('likeCountInt', 0):,}")
+
+        sent = v.get('sentiment_analysis', {})
+        if sent:
+            lines.append(f"**Sentiment:** {sent.get('sentiment', 'N/A').upper()}")
+
+        lines.append(f"**Link:** {v.get('url')}\n")
+        lines.append("---\n")
+
+    return "\n".join(lines)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Research stock ticker sentiment on YouTube',
@@ -344,8 +369,11 @@ Examples:
     parser.add_argument('--max-videos', type=int, default=20, help='Maximum videos to fetch (default: 20)')
     parser.add_argument('--no-details', action='store_true', help='Skip fetching video details and transcripts')
     parser.add_argument('--output', help='Output file path (default: data/youtube/{ticker}_{timestamp}.json)')
+    parser.add_argument('--markdown', action='store_true',
+                       help='Output markdown to stdout (for master script aggregation)')
 
     args = parser.parse_args()
+    markdown_mode = args.markdown
 
     # Initialize researcher
     researcher = YouTubeStockResearch(API_KEY)
@@ -376,62 +404,40 @@ Examples:
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=2)
 
-    # Generate Markdown Summary
-    md_filename = output_file.replace('.json', '.md')
-    if '_youtube_' in md_filename:
-        # Standardize name to {TICKER}_youtube.md
-        md_filename = os.path.join(output_dir, f"{args.ticker.upper()}_youtube.md")
+    if markdown_mode:
+        # Output markdown to stdout for master script
+        print(generate_markdown_output(args.ticker.upper(), results))
+    else:
+        # Terminal output
+        print(f"\n💾 Results saved to: {output_file}")
 
-    with open(md_filename, 'w', encoding='utf-8') as f:
-        f.write(f"# YouTube Research: {args.ticker.upper()}\n\n")
-        f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        
-        videos = results.get('videos', [])
-        f.write(f"## Top Videos ({len(videos)})\n\n")
-        
-        for v in videos[:30]:
-            channel = v.get('channel', {}).get('title', 'Unknown')
-            f.write(f"### {v.get('title')}\n")
-            f.write(f"- **Channel:** {channel}\n")
-            f.write(f"- **Views:** {v.get('viewCountInt', 0):,} | **Likes:** {v.get('likeCountInt', 0):,}\n")
-            
-            sent = v.get('sentiment_analysis', {})
-            if sent:
-                f.write(f"- **Sentiment:** {sent.get('sentiment', 'N/A').upper()}\n")
-            
-            f.write(f"- **Link:** {v.get('url')}\n\n")
-            f.write("---\n\n")
+        # Print top videos
+        print(f"\n📊 Top 5 Videos by Views:")
+        print("─" * 100)
 
-    print(f"\n💾 Results saved to: {output_file}")
-    print(f"📄 Summary saved to: {md_filename}")
+        sorted_videos = sorted(
+            results['videos'],
+            key=lambda v: v.get('viewCountInt', 0),
+            reverse=True
+        )
 
-    # Print top videos
-    print(f"\n📊 Top 5 Videos by Views:")
-    print("─" * 100)
+        for i, video in enumerate(sorted_videos[:5], 1):
+            title = video.get('title', 'Unknown')
+            views = video.get('viewCountInt', 0)
+            likes = video.get('likeCountInt', 0)
+            channel = video.get('channel', {}).get('title', 'Unknown')
+            url = video.get('url', '')
 
-    sorted_videos = sorted(
-        results['videos'],
-        key=lambda v: v.get('viewCountInt', 0),
-        reverse=True
-    )
+            sentiment_info = ""
+            if 'sentiment_analysis' in video:
+                sent = video['sentiment_analysis']
+                emoji = "🟢" if sent['sentiment'] == 'bullish' else "🔴" if sent['sentiment'] == 'bearish' else "⚪"
+                sentiment_info = f" {emoji} {sent['sentiment'].upper()}"
 
-    for i, video in enumerate(sorted_videos[:5], 1):
-        title = video.get('title', 'Unknown')
-        views = video.get('viewCountInt', 0)
-        likes = video.get('likeCountInt', 0)
-        channel = video.get('channel', {}).get('title', 'Unknown')
-        url = video.get('url', '')
-
-        sentiment_info = ""
-        if 'sentiment_analysis' in video:
-            sent = video['sentiment_analysis']
-            emoji = "🟢" if sent['sentiment'] == 'bullish' else "🔴" if sent['sentiment'] == 'bearish' else "⚪"
-            sentiment_info = f" {emoji} {sent['sentiment'].upper()}"
-
-        print(f"{i}. {title[:70]}")
-        print(f"   Channel: {channel} | Views: {views:,} | Likes: {likes:,}{sentiment_info}")
-        print(f"   {url}")
-        print()
+            print(f"{i}. {title[:70]}")
+            print(f"   Channel: {channel} | Views: {views:,} | Likes: {likes:,}{sentiment_info}")
+            print(f"   {url}")
+            print()
 
 
 if __name__ == "__main__":

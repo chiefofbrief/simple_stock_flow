@@ -375,6 +375,36 @@ class TikTokStockResearch:
         return summary
 
 
+def generate_markdown_output(ticker: str, results: Dict) -> str:
+    """Generate markdown output for TikTok results."""
+    lines = []
+    lines.append(f"## TikTok: {ticker}\n")
+    lines.append(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+
+    videos = results.get('videos', [])
+    lines.append(f"### Top Videos ({len(videos)})\n")
+
+    for v in videos[:30]:
+        author = v.get('author', {}).get('unique_id', 'Unknown')
+        stats = v.get('statistics', {})
+        lines.append(f"#### Video by @{author}")
+        lines.append(f"**Views:** {stats.get('play_count', 0):,} | **Likes:** {stats.get('digg_count', 0):,}")
+
+        sent = v.get('sentiment_analysis', {})
+        if sent:
+            lines.append(f"**Sentiment:** {sent.get('sentiment', 'N/A').upper()}")
+
+        video_id = v.get('aweme_id', '')
+        video_url = f"https://www.tiktok.com/@{author}/video/{video_id}"
+        lines.append(f"**URL:** {video_url}")
+
+        desc = v.get('desc', 'No description')
+        lines.append(f"\n{desc[:300]}...\n")
+        lines.append("---\n")
+
+    return "\n".join(lines)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Research stock ticker sentiment on TikTok',
@@ -405,8 +435,11 @@ Examples:
     parser.add_argument('--max-videos', type=int, default=20, help='Maximum videos to fetch (default: 20)')
     parser.add_argument('--no-details', action='store_true', help='Skip fetching video details and transcripts')
     parser.add_argument('--output', help='Output file path (default: data/tiktok/{ticker}_{timestamp}.json)')
+    parser.add_argument('--markdown', action='store_true',
+                       help='Output markdown to stdout (for master script aggregation)')
 
     args = parser.parse_args()
+    markdown_mode = args.markdown
 
     # Initialize researcher
     researcher = TikTokStockResearch(API_KEY)
@@ -438,68 +471,45 @@ Examples:
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=2)
 
-    # Generate Markdown Summary
-    md_filename = output_file.replace('.json', '.md')
-    if '_tiktok_' in md_filename:
-        # Standardize name to {TICKER}_tiktok.md
-        md_filename = os.path.join(output_dir, f"{args.ticker.upper()}_tiktok.md")
+    if markdown_mode:
+        # Output markdown to stdout for master script
+        print(generate_markdown_output(args.ticker.upper(), results))
+    else:
+        # Terminal output
+        print(f"\n💾 Results saved to: {output_file}")
 
-    with open(md_filename, 'w', encoding='utf-8') as f:
-        f.write(f"# TikTok Research: {args.ticker.upper()}\n\n")
-        f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-        
-        videos = results.get('videos', [])
-        f.write(f"## Top Videos ({len(videos)})\n\n")
-        
-        for v in videos[:30]:
-            author = v.get('author', {}).get('unique_id', 'Unknown')
-            stats = v.get('statistics', {})
-            f.write(f"### Video by @{author}\n")
-            f.write(f"- **Views:** {stats.get('play_count', 0):,} | **Likes:** {stats.get('digg_count', 0):,}\n")
-            
-            sent = v.get('sentiment_analysis', {})
-            if sent:
-                f.write(f"- **Sentiment:** {sent.get('sentiment', 'N/A').upper()}\n")
-            
-            desc = v.get('desc', 'No description')
-            f.write(f"\n{desc[:300]}...\n\n")
-            f.write("---\n\n")
+        # Print top videos
+        print(f"\n📊 Top 5 Videos by Views:")
+        print("─" * 100)
 
-    print(f"\n💾 Results saved to: {output_file}")
-    print(f"📄 Summary saved to: {md_filename}")
+        sorted_videos = sorted(
+            results['videos'],
+            key=lambda v: v.get('statistics', {}).get('play_count', 0),
+            reverse=True
+        )
 
-    # Print top videos
-    print(f"\n📊 Top 5 Videos by Views:")
-    print("─" * 100)
+        for i, video in enumerate(sorted_videos[:5], 1):
+            desc = video.get('desc', 'No description')
+            stats = video.get('statistics', {})
+            views = stats.get('play_count', 0)
+            likes = stats.get('digg_count', 0)
 
-    sorted_videos = sorted(
-        results['videos'],
-        key=lambda v: v.get('statistics', {}).get('play_count', 0),
-        reverse=True
-    )
+            author = video.get('author', {})
+            username = author.get('unique_id', 'Unknown')
 
-    for i, video in enumerate(sorted_videos[:5], 1):
-        desc = video.get('desc', 'No description')
-        stats = video.get('statistics', {})
-        views = stats.get('play_count', 0)
-        likes = stats.get('digg_count', 0)
+            sentiment_info = ""
+            if 'sentiment_analysis' in video:
+                sent = video['sentiment_analysis']
+                emoji = "🟢" if sent['sentiment'] == 'bullish' else "🔴" if sent['sentiment'] == 'bearish' else "⚪"
+                sentiment_info = f" {emoji} {sent['sentiment'].upper()}"
 
-        author = video.get('author', {})
-        username = author.get('unique_id', 'Unknown')
+            video_id = video.get('aweme_id', '')
+            video_url = f"https://www.tiktok.com/@{username}/video/{video_id}"
 
-        sentiment_info = ""
-        if 'sentiment_analysis' in video:
-            sent = video['sentiment_analysis']
-            emoji = "🟢" if sent['sentiment'] == 'bullish' else "🔴" if sent['sentiment'] == 'bearish' else "⚪"
-            sentiment_info = f" {emoji} {sent['sentiment'].upper()}"
-
-        video_id = video.get('aweme_id', '')
-        video_url = f"https://www.tiktok.com/@{username}/video/{video_id}"
-
-        print(f"{i}. {desc[:70]}")
-        print(f"   @{username} | Views: {views:,} | Likes: {likes:,}{sentiment_info}")
-        print(f"   {video_url}")
-        print()
+            print(f"{i}. {desc[:70]}")
+            print(f"   @{username} | Views: {views:,} | Likes: {likes:,}{sentiment_info}")
+            print(f"   {video_url}")
+            print()
 
 
 if __name__ == "__main__":
