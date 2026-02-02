@@ -1,5 +1,7 @@
 # Financial Statement Analysis Skill
 
+**⚠️ DRAFT - This skill file is a preliminary draft and may require refinement based on actual usage patterns.**
+
 ## Prerequisites
 
 **Before executing this skill, you must:**
