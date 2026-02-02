@@ -9,6 +9,7 @@ Orchestration scripts that wrap individual modules for specific workflows.
 | :--- | :--- |
 | `scripts/discovery.py` | Generates Market Discovery digests (Daily/Weekly). Supports `--daily`, `--weekly`, and individual module flags. |
 | `scripts/sentiment.py` | Aggregates sentiment analysis from news and social media sources. Outputs to `data/analysis/{TICKER}/{TICKER}_sentiment.md`. Supports `--all` or individual source flags with timeline overrides. |
+| `scripts/financial_statements.py` | Orchestrates financial statements analysis: fetches raw data, calculates seeds and metrics, generates comparison tables. Outputs to `data/analysis/{TICKER}/{TICKER}_statements.md`. Supports optional `--compare PEER1 PEER2` for peer comparison. |
 
 ## 2. Market Scripts (`scripts/market/`)
 Broad market scans used for discovery and trend identification.
@@ -28,12 +29,12 @@ Deep-dive analysis tools for individual stocks. Outputs are saved to `data/stock
 ### Fundamentals & Valuation
 | File | Purpose | Key Outputs |
 | :--- | :--- | :--- |
-| `fetch_financials.py` | Fetches raw statements (IS, BS, CF) and Overview. | `_financial_raw.json` |
-| `calc_seeds.py` | Extracts 8 projection seeds (Revenue, COGS%, etc) from raw data. | `_seeds.json` |
-| `calc_metrics.py` | Calculates 30+ metrics for undervaluation and risk. | `_metrics.json` |
+| `fetch_financials.py` | Fetches raw financial statements (income, balance, cashflow). | `_financial_raw.json` |
+| `calc_seeds.py` | Extracts 8 projection seeds (Revenue, COGS%, SG&A%, R&D%, D&A, CapEx, Debt, WC) from raw data. | `_seeds.json` |
+| `calc_metrics.py` | Calculates 30+ metrics (13 priority + 17 secondary) for undervaluation and risk analysis. | `_metrics.json` |
 | `prices.py` | Fetches price history; calculates 1-mo/1-yr returns, 5-yr CAGR, and Price vs 5-yr Avg. Supports batch processing. | `_prices.json`, `_prices.txt` |
 | `earnings.py` | Fetches EPS history and consensus; calculates "Forward Delta" and "Stability (CV)". Supports batch processing. | `_earnings.json`, `_earnings.txt` |
-| `compare_financials.py` | Compares fundamental metrics across multiple tickers. | Markdown table |
+| `compare_financials.py` | Standalone peer comparison tool (also integrated into `financial_statements.py` master script). | Markdown table |
 
 **Note:** `valuation.py` is located in `scripts/` (master script level) as it's used for preliminary screening.
 
