@@ -26,8 +26,8 @@ from datetime import datetime, timedelta
 # ============================================================================
 
 REQUEST_TIMEOUT = 30  # seconds
-MAX_RETRIES = 3
-RETRY_DELAY = 30  # seconds
+MAX_RETRIES = 5
+RETRY_DELAY = 60  # seconds
 
 # ============================================================================
 # DIRECTORY & FILE MANAGEMENT
@@ -75,8 +75,15 @@ def fetch_alpha_vantage(url, max_retries=MAX_RETRIES):
         dict: JSON response data, or None if failed
     """
     for attempt in range(max_retries):
-        print(f"  Fetching..." + (f" (retry {attempt + 1}/{max_retries})" if attempt > 0 else ""))
-        r = requests.get(url, timeout=REQUEST_TIMEOUT)
+        if attempt > 0:
+            print(f"  ...Retry {attempt}/{max_retries}...")
+        
+        try:
+            r = requests.get(url, timeout=REQUEST_TIMEOUT)
+        except requests.exceptions.RequestException as e:
+            print(f"  Error: Network request failed: {e}")
+            time.sleep(RETRY_DELAY)
+            continue
 
         if r.status_code != 200:
             print(f"  Error: HTTP {r.status_code}")
@@ -86,21 +93,32 @@ def fetch_alpha_vantage(url, max_retries=MAX_RETRIES):
                 continue
             return None
 
-        data = r.json()
+        try:
+            data = r.json()
+        except ValueError:
+            print("  Error: Invalid JSON response")
+            return None
 
         if "Error Message" in data:
             print(f"  API Error: {data['Error Message']}")
             return None
 
-        if "Note" in data:
-            print(f"  API Note (rate limit): {data['Note']}")
-            if attempt < max_retries - 1:
-                print(f"  Waiting {RETRY_DELAY} seconds before retry...")
-                time.sleep(RETRY_DELAY)
-                continue
+        # Check for rate limit messages (Note or Information)
+        if "Note" in data or "Information" in data:
+            msg = data.get("Note") or data.get("Information")
+            if "rate limit" in msg.lower() or "call frequency" in msg.lower():
+                print(f"  ⚠️  Rate Limit Hit: {msg}")
+                if attempt < max_retries - 1:
+                    print(f"  ⏳ Waiting {RETRY_DELAY} seconds...")
+                    time.sleep(RETRY_DELAY)
+                    continue
+                else:
+                    print(f"  ❌ Max retries reached. Rate limit persists.")
+                    return None
             else:
-                print(f"  Max retries reached, skipping this endpoint")
-                return None
+                # Some other note, seemingly fine but warn just in case
+                # print(f"  API Note: {msg}") 
+                pass
 
         return data
 

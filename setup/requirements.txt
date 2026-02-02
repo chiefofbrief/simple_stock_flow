@@ -1,0 +1,1 @@
+requests\ntabulate\nrich\npython-dateutil\nbeautifulsoup4\nhtml2text\nlxml\ncurl_cffi

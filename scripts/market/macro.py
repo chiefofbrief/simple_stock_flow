@@ -38,6 +38,7 @@ import requests
 import os
 import sys
 import time
+import argparse
 from datetime import datetime, timedelta
 from tabulate import tabulate
 
@@ -771,36 +772,84 @@ def display_economic_indicators(indicator_analyses):
     print("\nEconomic Indicators")
     print(tabulate(table_data, headers=headers, tablefmt='simple'))
 
+def display_markdown_results(market_analyses, treasury_analyses, indicator_analyses):
+    """Display results in Markdown format for LLM consumption"""
+    
+    print("## Macro Market Health Check")
+    print(f"_Generated: {get_today()}_")
+    print("\n")
+
+    # --- Market Indices ---
+    print("### Market Indices")
+    print("| Asset | Price | 1W | 1M | 3M | 6M | vs 50D SMA | vs 200D SMA |")
+    print("|---|---|---|---|---|---|---|---|")
+    
+    for analysis in market_analyses:
+        if analysis is None: continue
+        print(f"| {analysis['symbol']} | ${analysis['price']:.2f} | {format_percentage(analysis['changes'].get('1W'))} | {format_percentage(analysis['changes'].get('1M'))} | {format_percentage(analysis['changes'].get('3M'))} | {format_percentage(analysis['changes'].get('6M'))} | {format_percentage(analysis['sma_50_diff'])} | {format_percentage(analysis['sma_200_diff'])} |")
+    print("\n")
+
+    # --- Treasuries ---
+    print("### Treasury Yields")
+    print("| Maturity | Yield | 1W Change | 1M Change | 3M Change | Trend |")
+    print("|---|---|---|---|---|---|")
+    
+    maturity_names = {'2year': '2-Year', '10year': '10-Year'}
+    for maturity, analysis in treasury_analyses.items():
+        if analysis is None: continue
+        name = maturity_names.get(maturity, maturity)
+        print(f"| {name} | {analysis['current']:.2f}% | {format_change(analysis['changes'].get('1W'))} | {format_change(analysis['changes'].get('1M'))} | {format_change(analysis['changes'].get('3M'))} | {analysis['trend']} |")
+    print("\n")
+
+    # --- Economic Indicators ---
+    print("### Economic Indicators")
+    print("| Indicator | Value | 1M Change | 3M Change |")
+    print("|---|---|---|---|")
+    
+    labels = {'inflationRate': 'Inflation (CPI)', 'unemploymentRate': 'Unemployment', 'consumerSentiment': 'Consumer Sentiment'}
+    for indicator, analysis in indicator_analyses.items():
+        if analysis is None: continue
+        label = labels.get(indicator, indicator)
+        
+        current_val = analysis['current']
+        current_str = f"{current_val:.1f}%" if indicator in ['inflationRate', 'unemploymentRate'] else f"{current_val:.1f}"
+        
+        print(f"| {label} | {current_str} | {format_change(analysis['changes'].get('1M'), decimals=1)} | {format_change(analysis['changes'].get('3M'), decimals=1)} |")
+    print("\n")
+
+
 # ============================================================================
 # MAIN
 # ============================================================================
 
 def main():
     """Main execution function"""
-    print("\n" + "="*80)
-    print(f"MACRO MARKET HEALTH CHECK - {get_today()}")
-    print("="*80 + "\n")
+    parser = argparse.ArgumentParser(description='Weekly Macro Market Health Check')
+    parser.add_argument('--markdown', action='store_true', help='Output in Markdown format')
+    args = parser.parse_args()
 
     # Check for API keys
     fmp_api_key = os.getenv('FMP_API_KEY')
     av_api_key = os.getenv('ALPHAVANTAGE_API_KEY')
 
-    if not fmp_api_key:
-        print("❌ Error: FMP_API_KEY environment variable not set")
-        print("   Set it with: export FMP_API_KEY='your_key_here'")
+    if not fmp_api_key or not av_api_key:
+        if not args.markdown:
+            print("❌ Error: Missing API Keys (FMP_API_KEY or ALPHAVANTAGE_API_KEY)")
+        else:
+            print("Error: Missing API Keys")
         sys.exit(1)
 
-    if not av_api_key:
-        print("❌ Error: ALPHAVANTAGE_API_KEY environment variable not set")
-        print("   Set it with: export ALPHAVANTAGE_API_KEY='your_key_here'")
-        sys.exit(1)
-
-    print("Fetching market data...\n")
+    if not args.markdown:
+        print("\n" + "="*80)
+        print(f"MACRO MARKET HEALTH CHECK - {get_today()}")
+        print("="*80 + "\n")
+        print("Fetching market data...\n")
 
     # Analyze market indices
-    print("=" * 80)
-    print("MARKET INDICES")
-    print("=" * 80)
+    if not args.markdown:
+        print("=" * 80)
+        print("MARKET INDICES")
+        print("=" * 80)
 
     market_analyses = []
 
@@ -821,12 +870,14 @@ def main():
             market_analyses.append(gold_analysis)
     time.sleep(API_CALL_DELAY)  # Rate limit delay
 
-    display_market_indices(market_analyses)
+    if not args.markdown:
+        display_market_indices(market_analyses)
 
     # Analyze treasury rates from AlphaVantage
-    print("\n" + "=" * 80)
-    print("TREASURY RATES")
-    print("=" * 80)
+    if not args.markdown:
+        print("\n" + "=" * 80)
+        print("TREASURY RATES")
+        print("=" * 80)
 
     treasury_analyses = {}
     for maturity in TREASURY_MATURITIES:
@@ -836,12 +887,14 @@ def main():
             treasury_analyses[maturity] = analysis
         time.sleep(API_CALL_DELAY)  # Rate limit delay
 
-    display_treasuries(treasury_analyses)
+    if not args.markdown:
+        display_treasuries(treasury_analyses)
 
     # Analyze economic indicators
-    print("\n" + "=" * 80)
-    print("ECONOMIC INDICATORS")
-    print("=" * 80)
+    if not args.markdown:
+        print("\n" + "=" * 80)
+        print("ECONOMIC INDICATORS")
+        print("=" * 80)
 
     from_date = get_date_n_days_ago(180)  # Get 6 months of data
     to_date = get_today()
@@ -862,11 +915,13 @@ def main():
             indicator_analyses[indicator] = analysis
         # No delay needed for FMP calls (different API)
 
-    display_economic_indicators(indicator_analyses)
-
-    print("\n" + "="*80)
-    print("✓ Analysis complete")
-    print("="*80 + "\n")
+    if args.markdown:
+        display_markdown_results(market_analyses, treasury_analyses, indicator_analyses)
+    else:
+        display_economic_indicators(indicator_analyses)
+        print("\n" + "="*80)
+        print("✓ Analysis complete")
+        print("="*80 + "\n")
 
 if __name__ == '__main__':
     main()

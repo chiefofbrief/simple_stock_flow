@@ -13,7 +13,7 @@ Metrics:
 - Price-EPS Correlation (5yr)
 
 Usage:
-    python valuation.py TICKER
+    python valuation.py TICKER [TICKER ...]
 
 Output:
     data/analysis/{TICKER}/{TICKER}_valuation.json
@@ -103,7 +103,7 @@ def analyze_valuation(ticker):
     earnings_data = ensure_data_exists(ticker, "earnings.py", f"{ticker}_earnings.json")
     
     if not prices_data or not earnings_data:
-        print("❌ Failed to load input data")
+        print(f"❌ Failed to load input data for {ticker}")
         return None
 
     # Extract Key Metrics
@@ -123,7 +123,6 @@ def analyze_valuation(ticker):
         trailing_pe = current_price / ttm_eps
 
     # Historical P/E (Year End Price / Annual EPS)
-    # We need to match Annual History from prices with Annual Trend from earnings
     price_hist = {str(h['year']): h['close'] for h in prices_data.get("history_annual", [])}
     eps_hist = {str(a['fiscalDate'])[:4]: a['eps'] for a in earnings_data.get("annual_trend", [])}
     
@@ -151,7 +150,6 @@ def analyze_valuation(ticker):
         vs_5yr_avg = (trailing_pe - mean_5yr) / mean_5yr
 
     # Price-EPS Correlation
-    # Align the lists strictly by year for correlation
     price_vals_corr = []
     eps_vals_corr = []
     for year in common_years:
@@ -184,7 +182,7 @@ def save_output(ticker, data):
     # 1. JSON (Data)
     json_path = os.path.join(data_dir, f"{ticker}_valuation.json")
     save_json(data, json_path)
-    print(f"✓ Saved JSON to {json_path}")
+    print(f"   ✓ Saved JSON to {json_path}")
     
     # 2. Text (Summary Table)
     txt_path = os.path.join(data_dir, f"{ticker}_valuation.txt")
@@ -193,35 +191,40 @@ def save_output(ticker, data):
     t = data["trends"]
     
     lines = []
-    lines.append(f"VALUATION SUMMARY: {ticker}")
-    lines.append("=" * 40)
+    lines.append(f"VALUATION ANALYSIS: {ticker}")
+    curr_pe = f"{s['trailing_pe']:.2f}" if s['trailing_pe'] else "N/A"
+    avg_pe = f"{s['pe_5yr_avg']:.2f}" if s['pe_5yr_avg'] else "N/A"
+    lines.append(f"CURRENT P/E: {curr_pe} | 5-YR AVG: {avg_pe}")
+    lines.append("=" * 45)
     
     # Main Table
     table = [
-        ["Trailing P/E", f"{s['trailing_pe']:.2f}" if s['trailing_pe'] else "-"],
-        ["5-Yr Avg P/E", f"{s['pe_5yr_avg']:.2f}" if s['pe_5yr_avg'] else "-"],
+        ["Trailing P/E", curr_pe],
+        ["5-Yr Avg P/E", avg_pe],
         ["vs 5-Yr Avg", f"{s['vs_5yr_avg_pct']:.1%}" if s['vs_5yr_avg_pct'] else "-"],
         ["P/E CAGR", f"{t['pe_cagr_5yr']:.1%}" if t['pe_cagr_5yr'] else "-"],
         ["Price-EPS Corr", f"{t['price_eps_correlation']:.2f}" if t['price_eps_correlation'] else "-"]
     ]
     lines.append(tabulate(table, tablefmt="simple"))
-    lines.append("-" * 40)
+    lines.append("-" * 45)
     
     # History Table
-    lines.append("P/E HISTORY")
+    lines.append("\nP/E HISTORY (Annual)")
     h_table = [[h['year'], f"{h['pe']:.2f}"] for h in data['history']]
     lines.append(tabulate(h_table, headers=["Year", "P/E"], tablefmt="simple"))
     
     with open(txt_path, "w") as f:
         f.write("\n".join(lines))
         
-    print(f"✓ Saved Summary to {txt_path}")
+    print(f"   ✓ Saved Summary to {txt_path}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("ticker", help="Stock ticker symbol")
+    parser.add_argument("tickers", nargs='+', help="Ticker symbol(s)")
     args = parser.parse_args()
     
-    result = analyze_valuation(args.ticker.upper())
-    if result:
-        save_output(args.ticker.upper(), result)
+    for ticker in args.tickers:
+        print(f"\nProcessing Valuation for {ticker.upper()}...")
+        result = analyze_valuation(ticker.upper())
+        if result:
+            save_output(ticker.upper(), result)

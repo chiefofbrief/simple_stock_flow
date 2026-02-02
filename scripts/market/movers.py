@@ -28,6 +28,7 @@ Output:
 import requests
 import os
 import sys
+import argparse
 from tabulate import tabulate
 
 # ============================================================================
@@ -345,50 +346,101 @@ def display_most_actives(most_actives_data):
     print("-"*80 + "\n")
 
 
+def display_markdown_results(losers_stocks, most_actives_data):
+    """Display results in Markdown format for LLM consumption"""
+    
+    # --- LOSERS ---
+    print("## Biggest Stock Losers (Price >= $1)")
+    print("| Symbol | Price | Change % | Company Name | Source | Flags |")
+    print("|---|---|---|---|---|---|")
+    
+    filtered_losers = [s for s in losers_stocks if s['price'] >= MIN_PRICE]
+    
+    for stock in filtered_losers:
+        flags = []
+        if stock['in_both']: flags.append("In Both APIs")
+        if stock['high_volume']: flags.append("High Volume")
+        flag_str = ", ".join(flags) if flags else "-"
+        
+        print(f"| {stock['symbol']} | ${stock['price']:.2f} | {stock['change_pct']:.2f}% | {stock['name']} | {stock['source']} | {flag_str} |")
+    
+    print("\n")
+
+    # --- MOST ACTIVES ---
+    print("## Most Actively Traded Stocks (Price >= $1)")
+    print("| Symbol | Price | Change % | Company Name |")
+    print("|---|---|---|---|")
+
+    if most_actives_data:
+        normalized_actives = []
+        for stock in most_actives_data:
+            price = float(stock.get('price', 0))
+            if price >= MIN_PRICE:
+                normalized_actives.append(stock)
+
+        for stock in normalized_actives:
+             print(f"| {stock.get('symbol')} | ${float(stock.get('price', 0)):.2f} | {float(stock.get('changesPercentage', 0)):.2f}% | {stock.get('name')} |")
+    else:
+        print("_No most actives data available_")
+    
+    print("\n")
+
+
 # ============================================================================
 # MAIN
 # ============================================================================
 
 def main():
     """Main execution function"""
-    print("\n" + "="*80)
-    print("MARKET LOSERS & MOST ACTIVES DATA FETCHER")
-    print("="*80 + "\n")
+    parser = argparse.ArgumentParser(description='Fetch Market Losers and Most Actives')
+    parser.add_argument('--markdown', action='store_true', help='Output in Markdown format')
+    args = parser.parse_args()
+
+    if not args.markdown:
+        print("\n" + "="*80)
+        print("MARKET LOSERS & MOST ACTIVES DATA FETCHER")
+        print("="*80 + "\n")
 
     # Check for API keys
     fmp_key = os.getenv('FMP_API_KEY')
     av_key = os.getenv('ALPHAVANTAGE_API_KEY')
 
-    if not fmp_key:
-        print("❌ Error: FMP_API_KEY environment variable not set")
-        print("   Set it with: export FMP_API_KEY='your_key_here'")
-        sys.exit(1)
-
-    if not av_key:
-        print("❌ Error: ALPHAVANTAGE_API_KEY environment variable not set")
-        print("   Set it with: export ALPHAVANTAGE_API_KEY='your_key_here'")
+    if not fmp_key or not av_key:
+        if not args.markdown:
+             print("❌ Error: Missing API Keys (FMP_API_KEY or ALPHAVANTAGE_API_KEY)")
+        else:
+             print("Error: Missing API Keys")
         sys.exit(1)
 
     # Fetch data from APIs
+    if not args.markdown:
+        print("Fetching data from APIs...")
+        
     fmp_losers = fetch_fmp_losers(fmp_key)
     av_losers = fetch_alphavantage_losers(av_key)
     most_actives = fetch_fmp_most_actives(fmp_key)
 
     if not fmp_losers and not av_losers:
-        print("\n❌ Failed to fetch losers data from both APIs")
+        if not args.markdown:
+            print("\n❌ Failed to fetch losers data from both APIs")
         sys.exit(1)
 
-    # Process and display losers results
-    print("\nProcessing losers data...")
+    # Process losers data
     stocks, overlap_count, high_volume_count = normalize_losers_data(fmp_losers, av_losers, most_actives)
-    display_results(stocks, overlap_count, high_volume_count)
 
-    # Display most actives if available
-    if most_actives:
-        print("\nProcessing most actives data...")
-        display_most_actives(most_actives)
+    if args.markdown:
+        display_markdown_results(stocks, most_actives)
     else:
-        print("\n⚠️  Most actives data unavailable")
+        # Process and display losers results
+        print("\nProcessing losers data...")
+        display_results(stocks, overlap_count, high_volume_count)
+
+        # Display most actives if available
+        if most_actives:
+            print("\nProcessing most actives data...")
+            display_most_actives(most_actives)
+        else:
+            print("\n⚠️  Most actives data unavailable")
 
 
 if __name__ == '__main__':
