@@ -8,6 +8,7 @@ Orchestration scripts that wrap individual modules for specific workflows.
 | File | Purpose |
 | :--- | :--- |
 | `scripts/discovery.py` | Generates Market Discovery digests (Daily/Weekly). Supports `--daily`, `--weekly`, and individual module flags. |
+| `scripts/sentiment.py` | Aggregates sentiment analysis from news and social media sources. Outputs to `data/analysis/{TICKER}/{TICKER}_sentiment.md`. Supports `--all` or individual source flags with timeline overrides. |
 
 ## 2. Market Scripts (`scripts/market/`)
 Broad market scans used for discovery and trend identification.
@@ -22,7 +23,7 @@ Broad market scans used for discovery and trend identification.
 | `reddit.py` | SociaVault API | Top posts from r/ValueInvesting, r/stocks, and r/options. |
 
 ## 3. Ticker Scripts (`scripts/ticker/`)
-Deep-dive analysis tools for individual stocks. Outputs are saved to `data/analysis/{TICKER}/`.
+Deep-dive analysis tools for individual stocks. Outputs are saved to `data/stocks/{TICKER}/`.
 
 ### Fundamentals & Valuation
 | File | Purpose | Key Outputs |
@@ -32,16 +33,19 @@ Deep-dive analysis tools for individual stocks. Outputs are saved to `data/analy
 | `calc_metrics.py` | Calculates 30+ metrics for undervaluation and risk. | `_metrics.json` |
 | `prices.py` | Fetches price history; calculates 1-mo/1-yr returns, 5-yr CAGR, and Price vs 5-yr Avg. Supports batch processing. | `_prices.json`, `_prices.txt` |
 | `earnings.py` | Fetches EPS history and consensus; calculates "Forward Delta" and "Stability (CV)". Supports batch processing. | `_earnings.json`, `_earnings.txt` |
-| `valuation.py` | Primary Screener. Combines Price/Earnings for P/E vs 5-yr Avg and Price-EPS correlation. Supports batch processing. | `_valuation.json`, `_valuation.txt` |
 | `compare_financials.py` | Compares fundamental metrics across multiple tickers. | Markdown table |
 
+**Note:** `valuation.py` is located in `scripts/` (master script level) as it's used for preliminary screening.
+
 ### Sentiment & Social
-| File | Data Source | Purpose |
-| :--- | :--- | :--- |
-| `news.py` | Perigon / AlphaVantage | Aggregates and formats ticker-specific news and sentiment. |
-| `reddit.py` | SociaVault API | Ticker-specific Reddit discussion analysis. |
-| `tiktok.py` | SociaVault API | Ticker-specific TikTok trend analysis. |
-| `youtube.py` | SociaVault API | Ticker-specific YouTube video metadata and analysis. |
+Individual scripts save raw JSON data to `data/stocks/{TICKER}/`. Use with `--markdown` flag for master script aggregation. Timeline defaults: news (3 months), reddit (30 days), social media (this-month).
+
+| File | Data Source | Purpose | Default Lookback |
+| :--- | :--- | :--- | :--- |
+| `news.py` | Perigon / AlphaVantage | Ticker-specific news and sentiment. Configurable with `--months`. | 3 months |
+| `reddit.py` | SociaVault API | Reddit discussion from r/stocks, r/ValueInvesting, r/options. Configurable with `--days`. | 30 days |
+| `tiktok.py` | SociaVault API | TikTok trend analysis. Configurable with `--time-period`. | this-month |
+| `youtube.py` | SociaVault API | YouTube video metadata and analysis. Configurable with `--time-period`. | this_month |
 
 ## 4. Shared Infrastructure
 | File | Purpose |
