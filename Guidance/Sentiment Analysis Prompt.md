@@ -86,7 +86,9 @@ Provide a narrative assessment addressing:
 
 ---
 
-## Output Guidance
+## Output
+
+**Save to:** `data/analysis/{TICKER}/{TICKER}_ANALYSIS_sentiment.md`
 
 Provide a clear narrative that:
 - Synthesizes sentiment across sources

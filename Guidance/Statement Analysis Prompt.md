@@ -157,7 +157,9 @@ Based on the analysis, identify items requiring further investigation:
 
 ---
 
-## Output Guidance
+## Output
+
+**Save to:** `data/analysis/{TICKER}/{TICKER}_ANALYSIS_statement.md`
 
 Provide a clear narrative that:
 - Applies three-dimension framework systematically

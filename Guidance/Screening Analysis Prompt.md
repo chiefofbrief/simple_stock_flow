@@ -46,6 +46,8 @@ Address the following questions for each ticker. Use evidence from the data and 
 
 ## Output
 
+**Display:** Terminal output (not saved to file). This is a preliminary filter - redirect to file if needed.
+
 Provide a narrative assessment addressing the questions above. Focus on:
 - **What the data shows** and **why it matters**
 - **Downtrends to avoid** or **uptrends with remaining upside**
