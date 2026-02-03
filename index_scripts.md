@@ -41,9 +41,19 @@ Deep-dive analysis tools for individual stocks. Outputs are saved to `data/stock
 ### Sentiment & Social
 Individual scripts save raw JSON data to `data/stocks/{TICKER}/`. Use with `--markdown` flag for master script aggregation. Timeline defaults: news (3 months), reddit (30 days), social media (this-month).
 
+#### News Scripts (Modular)
+| File | Data Source | Purpose | Output | Default Lookback |
+| :--- | :--- | :--- | :--- | :--- |
+| `news_new.py` | Wrapper | Orchestrates Perigon + AlphaVantage news collection. Calls individual API scripts and generates combined markdown. | `_news_perigon.json`, `_news_alphavantage.json` | 3 months |
+| `news_perigon.py` | Perigon API | Standalone Perigon news fetcher. Can run independently or via wrapper. | `_news_perigon.json` | 3 months |
+| `news_alphavantage.py` | AlphaVantage API | Standalone AlphaVantage news fetcher. Can run independently or via wrapper. | `_news_alphavantage.json` | 3 months |
+| `news.py` | Legacy | Original combined script (deprecated - use `news_new.py` after testing). | `_news_perigon.json`, `_news_alphavantage.json` | 3 months |
+
+**Note:** Modular news scripts enable running individual sources independently. After testing, `news_new.py` will replace `news.py`.
+
+#### Social Media Scripts
 | File | Data Source | Purpose | Default Lookback |
 | :--- | :--- | :--- | :--- |
-| `news.py` | Perigon / AlphaVantage | Ticker-specific news and sentiment. Configurable with `--months`. | 3 months |
 | `reddit.py` | SociaVault API | Reddit discussion from r/stocks, r/ValueInvesting, r/options. Configurable with `--days`. | 30 days |
 | `tiktok.py` | SociaVault API | TikTok trend analysis. Configurable with `--time-period`. | this-month |
 | `youtube.py` | SociaVault API | YouTube video metadata and analysis. Configurable with `--time-period`. | this_month |
