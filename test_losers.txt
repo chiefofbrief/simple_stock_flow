@@ -1,7 +1,0 @@
-
-================================================================================
-MARKET LOSERS & MOST ACTIVES DATA FETCHER
-================================================================================
-
-❌ Error: FMP_API_KEY environment variable not set
-   Set it with: export FMP_API_KEY='your_key_here'
