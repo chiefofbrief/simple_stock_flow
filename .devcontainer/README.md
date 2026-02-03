@@ -5,8 +5,9 @@ This configuration automatically sets up your development environment when you o
 ## What Gets Installed
 
 - **Python 3.11** with all project dependencies from `setup/requirements.txt`
-- **Claude Code CLI** - Anthropic's CLI tool (optional)
-- **Gemini CLI** - Google's generative AI SDK (`google-generativeai`)
+- **Node.js 20** - Required for CLI tools
+- **Claude Code CLI** - Anthropic's AI coding assistant (`claude` command)
+- **Gemini CLI** - Google's AI terminal agent (`gemini` command via `@google/gemini-cli`)
 - **Git & GitHub CLI** - Version control and GitHub integration
 - **VS Code Extensions** - Python, Pylance, Jupyter support
 - **Development Tools** - iPython, pytest
@@ -74,6 +75,12 @@ bash .devcontainer/setup.sh
 - Check `setup/requirements.txt` is present
 - Run manually: `pip install -r setup/requirements.txt`
 
-**Claude/Gemini CLI Not Working:**
-- These may need manual installation or authentication
-- Check their respective documentation for latest install methods
+**Claude Code CLI Not Working:**
+- Manual installation: `curl -fsSL https://claude.ai/install.sh | bash`
+- Authentication: Run `claude` and follow the prompts to authenticate
+- Documentation: https://code.claude.com/docs/en/setup.md
+
+**Gemini CLI Not Working:**
+- Manual installation: `npm install -g @google/gemini-cli`
+- Authentication: Run `gemini` and follow the prompts to authenticate
+- Documentation: https://geminicli.com/docs/get-started/installation/
