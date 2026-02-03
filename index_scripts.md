@@ -1,6 +1,6 @@
-# Project Context Map: LLM Stock Analysis
+# Scripts Index
 
-This document serves as an index for the Gemini CLI to understand the repository structure and the purpose of each script.
+Comprehensive catalog of all Python scripts: orchestrators, data collectors, analyzers, and utilities.
 
 ## 1. Master Scripts
 Orchestration scripts that wrap individual modules for specific workflows.
