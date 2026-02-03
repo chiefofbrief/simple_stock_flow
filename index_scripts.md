@@ -1,6 +1,6 @@
-# Project Context Map: LLM Stock Analysis
+# Scripts Index
 
-This document serves as an index for the Gemini CLI to understand the repository structure and the purpose of each script.
+Comprehensive catalog of all Python scripts: orchestrators, data collectors, analyzers, and utilities.
 
 ## 1. Master Scripts
 Orchestration scripts that wrap individual modules for specific workflows.
@@ -41,9 +41,19 @@ Deep-dive analysis tools for individual stocks. Outputs are saved to `data/stock
 ### Sentiment & Social
 Individual scripts save raw JSON data to `data/stocks/{TICKER}/`. Use with `--markdown` flag for master script aggregation. Timeline defaults: news (3 months), reddit (30 days), social media (this-month).
 
+#### News Scripts (Modular)
+| File | Data Source | Purpose | Output | Default Lookback |
+| :--- | :--- | :--- | :--- | :--- |
+| `news.py` | Wrapper | Orchestrates Perigon + AlphaVantage news collection. Calls individual API scripts and generates combined markdown. **Production script.** | `_news_perigon.json`, `_news_alphavantage.json` | 3 months |
+| `news_perigon.py` | Perigon API | Standalone Perigon news fetcher. Can run independently or via wrapper. | `_news_perigon.json` | 3 months |
+| `news_alphavantage.py` | AlphaVantage API | Standalone AlphaVantage news fetcher. Can run independently or via wrapper. | `_news_alphavantage.json` | 3 months |
+| `news_legacy.py` | Legacy | Original monolithic script (archived - use modular scripts instead). | `_news_perigon.json`, `_news_alphavantage.json` | 3 months |
+
+**Note:** Modular architecture enables running individual news sources independently. Production `news.py` is now the wrapper that orchestrates both APIs.
+
+#### Social Media Scripts
 | File | Data Source | Purpose | Default Lookback |
 | :--- | :--- | :--- | :--- |
-| `news.py` | Perigon / AlphaVantage | Ticker-specific news and sentiment. Configurable with `--months`. | 3 months |
 | `reddit.py` | SociaVault API | Reddit discussion from r/stocks, r/ValueInvesting, r/options. Configurable with `--days`. | 30 days |
 | `tiktok.py` | SociaVault API | TikTok trend analysis. Configurable with `--time-period`. | this-month |
 | `youtube.py` | SociaVault API | YouTube video metadata and analysis. Configurable with `--time-period`. | this_month |

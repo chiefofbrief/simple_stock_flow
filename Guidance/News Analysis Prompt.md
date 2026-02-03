@@ -35,12 +35,21 @@ Analyze the intake data through the full lens of **Parts I & II** of the *Stock 
 * **The Glamour Metrics Trap:** Identify stocks rising on top-line growth that doesn't translate to EPS or margin improvement.
 * **Reflexivity & Fertile Fallacies:** Identify where price action is artificially boosting "fundamentals" or where a misconception is being reinforced by temporary price moves.
 * **The Flaw in Consensus:** Identify the prevailing "beauty contest" narrative and highlight potential flaws currently ignored by the market.
+* **Edge Opportunities:** Look for claims in news coverage that might be disputed or validated using financial statements or research - where perception may diverge from reality.
 
 ### 4. Screening Candidates
 Identify 1–5 specific stocks or themes for deeper investigation.
+
+For each candidate, provide:
+
 * **Ticker/Theme:**
 * **The Signal:** Cite the specific headline/post (e.g., Barron's #3, r/ValueInvesting #5).
+* **What News Says:** Summarize what the news specifically says about this stock - price drivers, material events, claims made about performance or outlook.
 * **The Why:** State what triggered your interest.
+* **Investigation Items:** What claims or narratives should be investigated further?
+  - Items to verify with financial statements
+  - Items to dispute or validate with research
+  - External factors requiring web search or additional data
 * **Data Gap:** What specific "Economic Reality" or data point needs to be verified next?
 
 ---
