@@ -113,21 +113,3 @@ python scripts/ticker/compare_financials.py AAPL MSFT GOOGL
 ```
 
 **Note:** Master scripts are recommended for standard workflows. Individual scripts provide flexibility for custom analysis pipelines.
-
----
-
-## Analysis Workflow
-
-See `CLAUDE.md` for workflow overview and `index_guidance.md` for analysis prompts.
-
-**Typical sequence:**
-1. **Identify** - Run market discovery to find candidates
-2. **Screen** - Run valuation script to filter opportunities
-3. **Analyze** - Run financial_statements.py and sentiment.py for deep dive
-4. **Iterate** - Use indexes to navigate sources, data, and additional tools
-
-**Analysis Prompts:** Use `Guidance/*Analysis Prompt.md` files with script outputs:
-- `Screening Analysis Prompt.md` - Price/earnings screening
-- `Statement Analysis Prompt.md` - Financial statement deep dive
-- `Sentiment Analysis Prompt.md` - Multi-source sentiment synthesis
-- `News Analysis Prompt.md` - Market news synthesis
