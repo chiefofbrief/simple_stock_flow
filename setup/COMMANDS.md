@@ -1,93 +1,65 @@
-# Runbook
+# Command Reference
 
-## Setup
-
-```bash
-pip install tabulate requests rich curl_cffi beautifulsoup4 html2text lxml python-dateutil
-```
+Quick reference for running scripts. See `index_scripts.md` for detailed script documentation.
 
 ---
 
-## 1. Discovery (Market Scan)
-Broad market scans to find stocks worth investigating.
+## Installation
 
-### Daily Digest
-Runs movers, Barron's (1 day), WSJ (1 day), International Intrigue, and Reddit (1 day).
 ```bash
+# Install all dependencies
+pip install -r setup/requirements.txt
+
+# Or install manually
+pip install requests tabulate rich python-dateutil beautifulsoup4 html2text lxml curl_cffi
+```
+
+**Environment Variables Required:**
+- `PERIGON_API_KEY` - Perigon news API
+- `ALPHAVANTAGE_API_KEY` - AlphaVantage market data
+- `FMP_API_KEY` - Financial Modeling Prep
+- `SOCIAVAULT_API_KEY` - SociaVault social media data
+
+---
+
+## Master Scripts
+
+Orchestration scripts that run complete workflows.
+
+### Market Discovery
+
+Generate daily or weekly market digests.
+
+```bash
+# Daily digest (movers, news, reddit - 1 day lookback)
 python scripts/discovery.py --daily > "data/discovery/Daily_Digest_$(date +%Y-%m-%d).md"
-```
 
-### Weekly Digest
-Runs Macro analysis, movers, Barron's (7 days), WSJ (7 days), International Intrigue, and Reddit (7 days).
-```bash
+# Weekly digest (macro, movers, news, reddit - 7 day lookback)
 python scripts/discovery.py --weekly > "data/discovery/Weekly_Digest_$(date +%Y-%m-%d).md"
+
+# Run specific modules only
+python scripts/discovery.py --barrons --wsj
+python scripts/discovery.py --macro
 ```
 
-### Individual Market Scripts
-Run specific modules individually.
+### Financial Statements Analysis
+
+Fetch statements, calculate seeds and metrics, generate markdown report.
+
 ```bash
-python scripts/discovery.py --barrons --wsj    # Run only Barron's and WSJ
-python scripts/discovery.py --macro            # Run only Macro health check
-```
-
----
-
-## 2. Screening (The Bridge)
-Preliminary fundamental screening for one or more tickers.
-
-### Multi-Ticker Screener
-Uses the valuation model to check P/E vs history and Price-EPS correlation. Automatically fetches missing Price/Earnings data.
-```bash
-python scripts/valuation.py AAPL MSFT GOOGL
-```
-
----
-
-## 3. Analysis (Deep Dive)
-In-depth data collection for specific stocks. Data is saved in `data/analysis/{TICKER}/`.
-
-### Step 1: Batch Fetch Fundamentals
-Fetch Price, Earnings, and Valuation for a list of stocks.
-```bash
-python scripts/ticker/prices.py AAPL MSFT
-python scripts/ticker/earnings.py AAPL MSFT
-python scripts/valuation.py AAPL MSFT
-```
-
-### Step 2: Financial Statements Analysis
-
-#### Master Script (Recommended)
-Orchestrates full financial statements pipeline: fetches data, calculates seeds and metrics, generates markdown tables. Saves to `data/analysis/{TICKER}/{TICKER}_statements.md`.
-```bash
-# Single ticker analysis
+# Single ticker - outputs to data/analysis/{TICKER}/{TICKER}_statements.md
 python scripts/financial_statements.py AAPL
 
-# With peer comparison (3-ticker comparison tables)
+# With peer comparison (3-ticker tables)
 python scripts/financial_statements.py AAPL --compare MSFT GOOGL
 ```
 
-#### Individual Scripts (For Custom Workflows)
-Run individual components of the pipeline separately.
+### Sentiment Analysis
+
+Aggregate news and social media sentiment into single report.
+
 ```bash
-# 1. Fetch raw statements (Income, Balance, Cash Flow)
-python scripts/ticker/fetch_financials.py AAPL
-
-# 2. Calculate projection seeds (8 seeds: Revenue, COGS%, SG&A%, R&D%, D&A, CapEx, Debt, WC)
-python scripts/ticker/calc_seeds.py AAPL
-
-# 3. Calculate financial metrics (13 priority + 17 secondary)
-python scripts/ticker/calc_metrics.py AAPL
-
-# 4. Standalone peer comparison (if not using master script)
-python scripts/ticker/compare_financials.py AAPL MSFT GOOGL
-```
-
-### Step 3: Sentiment Analysis
-
-#### Master Script (Recommended)
-Aggregates all sentiment sources into a single analysis file. Saves to `data/analysis/{TICKER}/{TICKER}_sentiment.md`.
-```bash
-# All sources with defaults (news: 3mo, reddit: 30d, social: this-month)
+# All sources with default lookbacks (news: 3mo, reddit: 30d, social: this-month)
 python scripts/sentiment.py AAPL --all
 
 # Specific sources only
@@ -97,36 +69,47 @@ python scripts/sentiment.py AAPL --news --reddit
 python scripts/sentiment.py AAPL --all --news-months 1 --reddit-days 7
 ```
 
-#### Individual Scripts (For Testing)
-Run scripts individually with rich terminal output. Data saved to `data/stocks/{TICKER}/`.
+### Screening / Valuation
+
+Quick multi-ticker screening using P/E vs history and price-earnings correlation.
+
 ```bash
-python scripts/ticker/news.py AAPL              # Default: 3 months
-python scripts/ticker/news.py AAPL --months 6   # Custom lookback
-
-python scripts/ticker/reddit.py --ticker AAPL   # Default: 30 days
-python scripts/ticker/reddit.py --ticker AAPL --days 14
-
-python scripts/ticker/tiktok.py AAPL            # Default: this-month
-python scripts/ticker/tiktok.py AAPL --time-period this-week
-
-python scripts/ticker/youtube.py AAPL           # Default: this_month
-python scripts/ticker/youtube.py AAPL --time-period this_week
+# Screen multiple tickers (auto-fetches missing price/earnings data)
+python scripts/valuation.py AAPL MSFT GOOGL
 ```
 
+---
 
+## Individual Scripts
 
+Individual scripts can be run independently. See `index_scripts.md` for complete documentation.
 
+### Common Individual Script Usage
 
+```bash
+# Prices (batch supported)
+python scripts/ticker/prices.py AAPL MSFT
 
+# Earnings (batch supported)
+python scripts/ticker/earnings.py AAPL MSFT
 
-### Step 4: LLM Analysis
+# News - modular (Perigon + AlphaVantage wrapper)
+python scripts/ticker/news.py AAPL --months 3
 
-Use the generated markdown files (`{TICKER}_statements.md`, `{TICKER}_sentiment.md`) for qualitative analysis with Gemini or other LLM tools.
+# News - individual sources
+python scripts/ticker/news_perigon.py AAPL --months 3
+python scripts/ticker/news_alphavantage.py AAPL --months 3
 
+# Social media
+python scripts/ticker/reddit.py --ticker AAPL --days 30
+python scripts/ticker/tiktok.py AAPL --time-period this-month
+python scripts/ticker/youtube.py AAPL --time-period this_month
 
+# Financial statement components
+python scripts/ticker/fetch_financials.py AAPL
+python scripts/ticker/calc_seeds.py AAPL
+python scripts/ticker/calc_metrics.py AAPL
+python scripts/ticker/compare_financials.py AAPL MSFT GOOGL
+```
 
-
-
-
-
-
+**Note:** Master scripts are recommended for standard workflows. Individual scripts provide flexibility for custom analysis pipelines.
