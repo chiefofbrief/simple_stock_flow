@@ -33,13 +33,6 @@ echo "Installing additional development tools..."
 pip install ipython  # Better Python REPL
 pip install pytest   # Testing framework (if needed later)
 
-# Create data directories
-echo ""
-echo "Creating data directories..."
-mkdir -p data/discovery
-mkdir -p data/analysis
-mkdir -p data/stocks
-
 # Set up git configuration helpers
 echo ""
 echo "Configuring git..."

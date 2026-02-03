@@ -5,7 +5,7 @@ This configuration automatically sets up your development environment when you o
 ## What Gets Installed
 
 - **Python 3.11** with all project dependencies from `setup/requirements.txt`
-- **Claude Code CLI** - Anthropic's CLI tool
+- **Claude Code CLI** - Anthropic's CLI tool (optional)
 - **Gemini CLI** - Google's generative AI SDK (`google-generativeai`)
 - **Git & GitHub CLI** - Version control and GitHub integration
 - **VS Code Extensions** - Python, Pylance, Jupyter support
