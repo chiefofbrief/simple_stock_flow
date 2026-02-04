@@ -89,12 +89,12 @@ def ensure_data_exists(ticker, script_name, json_name):
     """Checks for data file, runs script if missing."""
     data_dir = get_data_directory(ticker)
     file_path = os.path.join(data_dir, json_name)
-    
+
     if not os.path.exists(file_path):
         print(f"🔄 Missing {json_name}, running {script_name}...")
-        script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), script_name)
+        script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ticker", script_name)
         subprocess.run([sys.executable, script_path, ticker], check=True)
-    
+
     return load_json(file_path)
 
 def analyze_valuation(ticker):
