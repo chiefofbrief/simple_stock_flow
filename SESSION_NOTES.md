@@ -8,6 +8,17 @@
     - **Affected Scripts**: `prices.py`, `earnings.py`, and any other scripts using Alpha Vantage API.
     - **Current Behavior**: Hitting rate limit → wait 60 seconds → retry. With multiple tickers, this causes 10+ minute delays.
     - **Desired Behavior**: Add small delays between requests to stay under rate limit from the start.
+- **Data File Synchronization (TBD)**: Current .gitignore tracks Daily analysis files but ignores raw data (JSON, ticker subdirectories).
+    - **Issue**: Working across multiple environments (local, Claude Code web, GitHub web) creates inconsistency for raw data files.
+    - **Current State**: Daily_Digest and Daily_Screening files sync via git. Raw JSON data does NOT sync.
+    - **Implication**: Each environment has its own raw data. Running scripts in one environment won't make that data available elsewhere.
+    - **Workaround**: Scripts check for missing data and fetch from API if needed, but this hits rate limits and takes time.
+    - **Options to Consider**:
+        1. Keep current (Daily files only) - accept environment-specific raw data
+        2. Track all data files - ensures consistency but bloats repo
+        3. Hybrid (track daily snapshots) - balance between consistency and repo size
+        4. External storage (S3, Dropbox) - separate data sync from code sync
+    - **Decision needed**: Depends on workflow - single environment vs frequent platform switching.
 - **Valuation Script Enhancement**: Add aggregated output file when processing multiple tickers.
     - **Current**: Each ticker gets individual `{TICKER}_prices.txt`, `{TICKER}_earnings.txt`, `{TICKER}_valuation.txt` files.
     - **Enhancement**: Create combined output file `Daily_Screening_YYYY-MM-DD.txt` that stacks all three txt files for each ticker.
