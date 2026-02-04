@@ -1,6 +1,21 @@
-data/
+# Ignore ticker-specific raw data (JSON files, individual ticker subdirectories)
+data/analysis/*/
+
+# Ignore non-Daily files in discovery
+data/discovery/*
+!data/discovery/Daily_Digest_*.md
+
+# Ignore non-Daily files in analysis root
+data/analysis/*
+!data/analysis/Daily_Screening_*.txt
+
+# Python
 __pycache__/
 *.pyc
+
+# System
 .DS_Store
+
+# Environment
 *.env
 setup_env.sh

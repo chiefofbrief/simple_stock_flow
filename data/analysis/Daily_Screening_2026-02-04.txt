@@ -1,0 +1,577 @@
+================================================================================
+SCREENING ANALYSIS - February 4, 2026
+TICKERS: PYPL, UNH, AMZN, MSFT
+================================================================================
+
+## Comparative Summary
+
+| Ticker | Price vs 5yr Avg | EPS 5yr Trend | Current P/E | P/E vs Avg | Price-EPS Corr | Key Signal |
+|--------|------------------|---------------|-------------|------------|----------------|------------|
+| PYPL | -59.6% | Flat (~$5) | 8.03 | -59.2% | -0.31 | Extreme P/E compression, price/earnings decoupled |
+| UNH | -36.0% | Declining* | 17.81 | -16.3% | 0.81 | Strong fundamentals deteriorating, price tracking down |
+| AMZN | +43.5% | Strong (+19% CAGR) | 33.70 | -43.9% | 0.94 | Earnings-driven recovery, normalized valuation |
+| MSFT | +17.3% | Growing (+11% CAGR) | 25.72 | -23.3% | 0.91 | Steady growth, modest P/E compression |
+
+*UNH 2024 EPS ($27.03) appears anomalous vs 2025 ($15.96) - needs investigation
+
+================================================================================
+
+## Individual Assessments
+
+### PYPL - Deep Value or Value Trap?
+
+**Price Behavior:**
+- Catastrophic decline: -82.8% over 5 years, -35.9% in past year, -20.9% past month
+- Extreme volatility (CV: 0.67) - highest among the four
+- Trading at all-time lows relative to 5-year average (-59.6%)
+- Recent acceleration downward ($74 in June 2025 → $42 today)
+
+**Earnings Trends:**
+- **5-year**: Essentially flat (~$4-5 range), slight recovery from 2022 trough
+- **Recent quarters**: Stable around $1.30/quarter, one miss in Q4 2025 (-4.7%)
+- **Low volatility** (CV: 0.08) - earnings are predictable despite price chaos
+- Forward estimates show modest growth ($5.67 in 2026 → $6.33 in 2027)
+
+**Price-Earnings Relationship:**
+- **Critical divergence**: Correlation of -0.31 means price moved *opposite* to earnings
+- P/E collapsed from 41x (2021) to 8x today while earnings remained stable
+- This is pure sentiment-driven repricing, not fundamental deterioration
+- P/E CAGR of -27.6% indicates persistent multiple compression
+
+**Assessment:**
+Classic "melting ice cube" market perception. Earnings are stable and growing slightly, but the market is pricing in terminal decline. The negative correlation is the key signal - this is **not** an earnings problem, it's a sentiment problem. At 8x P/E with 12% implied FCF yield (per session notes thesis), this is either a deep value opportunity or the market knows something the numbers don't show. **Warrants deep dive** - investigate: competitive position erosion, market share trends, management capital allocation under new CEO.
+
+---
+
+### UNH - Structural Headwind Confirmation
+
+**Price Behavior:**
+- Severe recent decline: -44.6% past year, though only -1% past month (stabilizing?)
+- Moderate volatility (CV: 0.18) - relatively stable historically  
+- Sharp collapse from $513 (March 2025) to $284 today
+- Trading well below 5-year average (-36%)
+
+**Earnings Trends:**
+- **Anomaly alert**: 2024 EPS of $27.03 vs 2025 of $15.96 - massive drop
+- If 2024 is genuine, this represents -41% YoY earnings decline
+- Recent quarters show declining trend: $6.85 → $4.08 → $2.92 → $2.11
+- Forward estimates show recovery: $16.32 (2025) → $17.85 (2026) → $20.11 (2027)
+- Earnings volatility (CV: 0.18) elevated vs PYPL's 0.08
+
+**Price-Earnings Relationship:**
+- Strong correlation (0.81) - price is tracking fundamentals
+- P/E compression modest (-16.3% vs 5-year avg)  
+- P/E declining steadily: 24.68 (2021) → 17.81 (current)
+- **This is not a sentiment story** - price is responding to real earnings pressure
+
+**Assessment:**
+This confirms the "margin death" thesis from session notes. Unlike PYPL, UNH's price decline is **earnings-driven** (0.81 correlation). The 2024-2025 earnings collapse needs investigation - is this a one-time event or the structural CMS rate pressure manifesting? Forward estimates show recovery, but at lower levels than 2022-2024. The market is pricing in permanently lower profitability. **Deep dive needed**: Verify the 2024/2025 earnings discrepancy, examine Medicare Advantage margins, assess whether cost controls can offset rate pressure.
+
+---
+
+### AMZN - The Normalizer
+
+**Price Behavior:**
+- Strong recent performance: +25.4% past year, +54.2% over 5 years
+- Trading 43.5% above 5-year average - momentum is real
+- Moderate volatility (CV: 0.26)
+- Steady climb from $184 (April 2025) to $239 today
+
+**Earnings Trends:**
+- **Exceptional recovery**: $0.97 (2022) → $5.53 (2024) → $7.07 (2025 est)
+- Strong EPS CAGR over 5 years (calculated ~19% from the numbers)
+- Recent quarters show consistent beats (16-26% above estimates)
+- Forward growth continuing: $7.07 (2025) → $7.87 (2026)
+- **But**: High earnings volatility (CV: 0.53) - least predictable of the four
+
+**Price-Earnings Relationship:**
+- **Textbook correlation** (0.94) - price tracking earnings almost perfectly
+- P/E normalized from absurd levels: 86x (2022) → 34x (current)
+- Still below 5-year average P/E (-43.9%), suggesting room for re-rating
+- P/E CAGR of -13.1% reflects multiple compression despite earnings growth
+
+**Assessment:**
+This is an **earnings-driven recovery story**. The 2022 trough ($0.97 EPS, 86x P/E) was peak COVID profitability reversal. Since then, AWS margins and retail efficiency have driven robust EPS growth. The 0.94 correlation means there's no sentiment premium - market is paying for realized results. At 34x P/E with 19% earnings growth, the PEG ratio is attractive (~1.8). However, high earnings volatility (0.53) creates uncertainty. **May warrant screening approval** without deep fundamentals dive - this appears fairly priced for quality and growth. Risk: Can they sustain earnings momentum as easy comp comparisons fade?
+
+---
+
+### MSFT - The AI Capex Question
+
+**Price Behavior:**
+- Solid long-term: +81.4% over 5 years (+12.9% CAGR)
+- Recent weakness: +10.1% past year but -4.4% past month
+- Trading +17.3% above 5-year average
+- Peak was $532 (July 2025), now $411 - modest pullback
+- Low volatility (CV: 0.25)
+
+**Earnings Trends:**
+- **Mixed signals**: Strong fiscal year data but strange recent quarter spike
+- Q4 2025 showed $5.16 vs estimate of $3.91 (+32% surprise) - unusually large
+- Annual EPS growing steadily: $9.20 (FY2022) → $13.64 (FY2025)  
+- Forward estimates strong: $17.18 (FY2026) → $19.04 (FY2027)
+- Low earnings volatility (CV: 0.17) - historically predictable
+
+**Price-Earnings Relationship:**
+- Strong correlation (0.91) - price following fundamentals
+- P/E compression: 37.77 (2023) → 25.72 (current), below 5-year avg (-23.3%)
+- **But**: P/E CAGR of +11.7% shows recent expansion trend
+- Currently at 26x P/E with ~15% EPS growth (PEG ~1.7)
+
+**Assessment:**
+The session notes flag the GPU CapEx transition risk: can MSFT maintain SaaS/Azure margins while investing heavily in unproven LLM infrastructure? The Q4 2025 earnings beat of 32% needs verification - is this sustainable or a one-time item? Price pulled back from $532 to $411 (-23%) while forward earnings remain strong, suggesting market is pricing in margin compression risk. The P/E of 26x is reasonable for quality + growth, but below the 2023 peak of 38x when AI hype was maximum. **Warrants investigation**: CapEx trajectory, Azure margin trends, whether LLM investments are expensed or capitalized, and if the Q4 beat was operational or accounting-driven.
+
+---
+
+## Recommendations
+
+**Proceed to Deep Analysis:**
+1. **PYPL** - Extreme mispricing candidate. Sentiment/fundamentals divergence (-0.31 correlation) at 8x P/E demands investigation.
+2. **UNH** - Structural thesis validation. Need to understand if earnings collapse is permanent or temporary.
+3. **MSFT** - AI transition risk assessment. Verify Q4 beat sustainability and CapEx impact.
+
+**Lower Priority:**
+4. **AMZN** - Appears fairly valued. Earnings-driven recovery with appropriate P/E. Unless seeking high-growth exposure, less urgent than the others.
+
+**Key Investigation Items:**
+- PYPL: Competitive dynamics, market share trends, capital allocation under new CEO
+- UNH: 2024 vs 2025 earnings discrepancy, MA margin trends, CMS rate impact
+- MSFT: CapEx breakdown, Q4 2025 earnings composition, LLM profitability path
+- AMZN: Sustainability of AWS margins, retail efficiency gains (lower priority)
+
+
+================================================================================
+RAW SCREENING DATA
+================================================================================
+
+================================================================================
+SCREENING DATA - 2026-02-04
+TICKERS: PYPL, UNH, AMZN, MSFT
+================================================================================
+
+
+================================================================================
+PYPL - PRICE ANALYSIS
+================================================================================
+
+PRICE ANALYSIS: PYPL
+Price: $41.70 | Date: 2026-02-03
+==================================================
+---------------  ---------------
+1-Month Return   -20.9%
+1-Year Return    -35.9%
+5-Year Return    -82.8%
+5-Year CAGR      -30.1%
+vs 5-Yr Avg      -59.6%
+Volatility (CV)  0.67
+52w Range        $41.70 - $74.15
+---------------  ---------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close
+----------  -------
+2026-02-03  $41.70
+2026-01-30  $52.69
+2025-12-31  $58.38
+2025-11-28  $62.69
+2025-10-31  $69.11
+2025-09-30  $66.90
+2025-08-29  $70.03
+2025-07-31  $68.60
+2025-06-30  $74.15
+2025-05-30  $70.12
+2025-04-30  $65.69
+2025-03-31  $65.10
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close
+------  -------
+  2021  $188.14
+  2022  $71.05
+  2023  $61.27
+  2024  $85.15
+  2025  $58.38
+  2026  $41.70
+
+================================================================================
+PYPL - EARNINGS ANALYSIS
+================================================================================
+
+EARNINGS ANALYSIS: PYPL
+Last Reported: $1.23 | Next Est: $6.33
+Forward Delta: +5.10
+Stability (CV): 0.08
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $1.23       $1.29          -0.06  -4.7%
+2025-09-30  $1.34       $1.21           0.13  10.7%
+2025-06-30  $1.29       $1.25           0.04  3.2%
+2025-03-31  $1.33       $1.16           0.17  14.7%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-12-31     next fiscal year           $6.33
+2026-12-31     historical fiscal year     $5.67
+2026-06-30     next fiscal quarter        $1.42
+2026-03-31     historical fiscal quarter  $1.35
+2025-12-31     historical fiscal year     $5.36
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS
+-----------------  --------------
+2025-12-31         $5.19
+2024-12-31         $4.98
+2023-12-31         $5.11
+2022-12-31         $4.13
+2021-12-31         $4.59
+
+================================================================================
+PYPL - VALUATION ANALYSIS
+================================================================================
+
+VALUATION ANALYSIS: PYPL
+CURRENT P/E: 8.03 | 5-YR AVG: 19.71
+=============================================
+--------------  ------
+Trailing P/E    8.03
+5-Yr Avg P/E    19.71
+vs 5-Yr Avg     -59.2%
+P/E CAGR        -27.6%
+Price-EPS Corr  -0.31
+--------------  ------
+---------------------------------------------
+
+P/E HISTORY (Annual)
+  Year    P/E
+------  -----
+  2021  40.99
+  2022  17.2
+  2023  11.99
+  2024  17.1
+  2025  11.25
+
+
+
+================================================================================
+UNH - PRICE ANALYSIS
+================================================================================
+
+PRICE ANALYSIS: UNH
+Price: $284.18 | Date: 2026-02-03
+==================================================
+---------------  -----------------
+1-Month Return   -1.0%
+1-Year Return    -44.6%
+5-Year Return    -17.4%
+5-Year CAGR      -3.8%
+vs 5-Yr Avg      -36.0%
+Volatility (CV)  0.18
+52w Range        $246.30 - $513.23
+---------------  -----------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close
+----------  -------
+2026-02-03  $284.18
+2026-01-30  $286.93
+2025-12-31  $330.11
+2025-11-28  $327.53
+2025-10-31  $339.24
+2025-09-30  $342.96
+2025-08-29  $305.83
+2025-07-31  $246.30
+2025-06-30  $307.90
+2025-05-30  $295.84
+2025-04-30  $403.17
+2025-03-31  $513.23
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close
+------  -------
+  2021  $469.16
+  2022  $501.75
+  2023  $505.74
+  2024  $493.54
+  2025  $330.11
+  2026  $284.18
+
+================================================================================
+UNH - EARNINGS ANALYSIS
+================================================================================
+
+EARNINGS ANALYSIS: UNH
+Last Reported: $2.11 | Next Est: $20.11
+Forward Delta: +18.00
+Stability (CV): 0.18
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $2.11       $2.11           0     -
+2025-09-30  $2.92       $2.81           0.11  3.9%
+2025-06-30  $4.08       $4.45          -0.37  -8.3%
+2025-03-31  $6.85       $6.93          -0.08  -1.2%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-12-31     next fiscal year           $20.11
+2026-12-31     historical fiscal year     $17.85
+2026-06-30     next fiscal quarter        $4.46
+2026-03-31     historical fiscal quarter  $6.89
+2025-12-31     historical fiscal year     $16.32
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS
+-----------------  --------------
+2025-12-31         $15.96
+2024-12-31         $27.03
+2023-12-31         $25.12
+2022-12-31         $22.19
+2021-12-31         $19.01
+
+================================================================================
+UNH - VALUATION ANALYSIS
+================================================================================
+
+VALUATION ANALYSIS: UNH
+CURRENT P/E: 17.81 | 5-YR AVG: 21.27
+=============================================
+--------------  ------
+Trailing P/E    17.81
+5-Yr Avg P/E    21.27
+vs 5-Yr Avg     -16.3%
+P/E CAGR        -4.3%
+Price-EPS Corr  0.81
+--------------  ------
+---------------------------------------------
+
+P/E HISTORY (Annual)
+  Year    P/E
+------  -----
+  2021  24.68
+  2022  22.61
+  2023  20.13
+  2024  18.26
+  2025  20.68
+
+
+
+================================================================================
+AMZN - PRICE ANALYSIS
+================================================================================
+
+PRICE ANALYSIS: AMZN
+Price: $238.62 | Date: 2026-02-03
+==================================================
+---------------  -----------------
+1-Month Return   -0.3%
+1-Year Return    25.4%
+5-Year Return    54.2%
+5-Year CAGR      9.2%
+vs 5-Yr Avg      43.5%
+Volatility (CV)  0.26
+52w Range        $184.42 - $244.22
+---------------  -----------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close
+----------  -------
+2026-02-03  $238.62
+2026-01-30  $239.30
+2025-12-31  $230.82
+2025-11-28  $233.22
+2025-10-31  $244.22
+2025-09-30  $219.57
+2025-08-29  $229.00
+2025-07-31  $234.11
+2025-06-30  $219.39
+2025-05-30  $205.01
+2025-04-30  $184.42
+2025-03-31  $190.26
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close
+------  -------
+  2021  $166.72
+  2022  $84.00
+  2023  $151.94
+  2024  $219.39
+  2025  $230.82
+  2026  $238.62
+
+================================================================================
+AMZN - EARNINGS ANALYSIS
+================================================================================
+
+EARNINGS ANALYSIS: AMZN
+Last Reported: $1.95 | Next Est: $7.87
+Forward Delta: +5.92
+Stability (CV): 0.53
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-09-30  $1.95       $1.54           0.41  26.6%
+2025-06-30  $1.68       $1.33           0.35  26.3%
+2025-03-31  $1.59       $1.36           0.23  16.9%
+2024-12-31  $1.86       $1.48           0.38  25.4%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2026-12-31     next fiscal year           $7.87
+2026-03-31     next fiscal quarter        $1.72
+2025-12-31     historical fiscal year     $7.07
+2025-09-30     historical fiscal quarter  $1.56
+2025-06-30     historical fiscal quarter  $1.33
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS
+-----------------  --------------
+2025-12-31         $5.22
+2024-12-31         $5.53
+2023-12-31         $2.90
+2022-12-31         $0.97
+2021-12-31         $2.15
+
+================================================================================
+AMZN - VALUATION ANALYSIS
+================================================================================
+
+VALUATION ANALYSIS: AMZN
+CURRENT P/E: 33.70 | 5-YR AVG: 60.08
+=============================================
+--------------  ------
+Trailing P/E    33.70
+5-Yr Avg P/E    60.08
+vs 5-Yr Avg     -43.9%
+P/E CAGR        -13.1%
+Price-EPS Corr  0.94
+--------------  ------
+---------------------------------------------
+
+P/E HISTORY (Annual)
+  Year    P/E
+------  -----
+  2021  77.54
+  2022  86.6
+  2023  52.39
+  2024  39.67
+  2025  44.22
+
+
+
+================================================================================
+MSFT - PRICE ANALYSIS
+================================================================================
+
+PRICE ANALYSIS: MSFT
+Price: $411.21 | Date: 2026-02-03
+==================================================
+---------------  -----------------
+1-Month Return   -4.4%
+1-Year Return    10.1%
+5-Year Return    81.4%
+5-Year CAGR      12.9%
+vs 5-Yr Avg      17.3%
+Volatility (CV)  0.25
+52w Range        $373.38 - $531.61
+---------------  -----------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close
+----------  -------
+2026-02-03  $411.21
+2026-01-30  $430.29
+2025-12-31  $483.62
+2025-11-28  $492.01
+2025-10-31  $516.83
+2025-09-30  $516.97
+2025-08-29  $505.73
+2025-07-31  $531.61
+2025-06-30  $495.65
+2025-05-30  $458.73
+2025-04-30  $393.14
+2025-03-31  $373.38
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close
+------  -------
+  2021  $325.39
+  2022  $234.23
+  2023  $370.53
+  2024  $418.41
+  2025  $483.62
+  2026  $411.21
+
+================================================================================
+MSFT - EARNINGS ANALYSIS
+================================================================================
+
+EARNINGS ANALYSIS: MSFT
+Last Reported: $5.16 | Next Est: $19.04
+Forward Delta: +13.88
+Stability (CV): 0.17
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $5.16       $3.91           1.25  32.0%
+2025-09-30  $3.72       $3.66           0.06  1.6%
+2025-06-30  $3.65       $3.38           0.27  8.0%
+2025-03-31  $3.46       $3.22           0.24  7.5%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-06-30     next fiscal year           $19.04
+2026-06-30     historical fiscal year     $17.18
+2026-03-31     historical fiscal quarter  $4.08
+2025-12-31     historical fiscal quarter  $3.85
+2025-09-30     historical fiscal quarter  $3.66
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS
+-----------------  --------------
+2025-12-31         $8.88
+2025-06-30         $13.64
+2024-06-30         $11.81
+2023-06-30         $9.81
+2022-06-30         $9.20
+
+================================================================================
+MSFT - VALUATION ANALYSIS
+================================================================================
+
+VALUATION ANALYSIS: MSFT
+CURRENT P/E: 25.72 | 5-YR AVG: 33.53
+=============================================
+--------------  ------
+Trailing P/E    25.72
+5-Yr Avg P/E    33.53
+vs 5-Yr Avg     -23.3%
+P/E CAGR        11.7%
+Price-EPS Corr  0.91
+--------------  ------
+---------------------------------------------
+
+P/E HISTORY (Annual)
+  Year    P/E
+------  -----
+  2022  25.46
+  2023  37.77
+  2024  35.43
+  2025  35.46
+
+
