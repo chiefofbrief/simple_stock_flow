@@ -1,0 +1,31 @@
+EARNINGS ANALYSIS: MSFT
+Last Reported: $5.16 | Next Est: $19.04
+Forward Delta: +13.88
+Stability (CV): 0.17
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $5.16       $3.91           1.25  32.0%
+2025-09-30  $3.72       $3.66           0.06  1.6%
+2025-06-30  $3.65       $3.38           0.27  8.0%
+2025-03-31  $3.46       $3.22           0.24  7.5%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-06-30     next fiscal year           $19.04
+2026-06-30     historical fiscal year     $17.18
+2026-03-31     historical fiscal quarter  $4.08
+2025-12-31     historical fiscal quarter  $3.85
+2025-09-30     historical fiscal quarter  $3.66
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS
+-----------------  --------------
+2025-12-31         $8.88
+2025-06-30         $13.64
+2024-06-30         $11.81
+2023-06-30         $9.81
+2022-06-30         $9.20
