@@ -31,7 +31,7 @@ import shutil
 from datetime import datetime
 
 # Add parent directory to path
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 from scripts.shared_utils import get_data_directory
 
 class Colors:

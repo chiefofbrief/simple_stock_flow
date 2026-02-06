@@ -1,6 +1,6 @@
 # Command Reference
 
-Quick reference for running scripts. See `index_scripts.md` for detailed script documentation.
+Quick reference for running scripts. See `docs/index_scripts.md` for detailed script documentation.
 
 ---
 
@@ -8,7 +8,7 @@ Quick reference for running scripts. See `index_scripts.md` for detailed script 
 
 ```bash
 # Install all dependencies
-pip install -r setup/requirements.txt
+pip install -r requirements.txt
 
 # Or install manually
 pip install requests tabulate rich python-dateutil beautifulsoup4 html2text lxml curl_cffi
@@ -82,7 +82,7 @@ python scripts/valuation.py AAPL MSFT GOOGL
 
 ## Individual Scripts
 
-Individual scripts can be run independently. See `index_scripts.md` for complete documentation.
+Individual scripts can be run independently. See `docs/index_scripts.md` for complete documentation.
 
 ### Common Individual Script Usage
 

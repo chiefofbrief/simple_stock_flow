@@ -13,6 +13,10 @@ setup_env.sh
 data/discovery/*
 !data/discovery/Daily_Digest_*.md
 
+# Data Screening
+data/screening/*
+!data/screening/Daily_Screening_*.txt
+
 # Data Analysis
 # Ignore raw data files (JSON) but allow analysis summaries (.md, .txt)
 data/analysis/*/*.json              # Raw JSON data in ticker subdirs
@@ -24,4 +28,4 @@ data/analysis/*/*_earnings.txt      # Intermediate earnings output files
 # - data/analysis/TICKER/TICKER_statements.md
 # - data/analysis/TICKER/TICKER_sentiment.md
 # - data/analysis/TICKER/TICKER_valuation.txt
-# - data/analysis/Daily_Screening_YYYY-MM-DD.txt
+# - data/screening/Daily_Screening_YYYY-MM-DD.txt

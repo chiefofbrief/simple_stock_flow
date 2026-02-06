@@ -11,9 +11,9 @@
 
 **Available Data:**
 - `{TICKER}_statements.md` - Consolidated statement analysis with historical data, statistics, peer comparisons
-- `GLOSSARY_seeds.md` - Interpretation guidance for 8 projection seeds
-- `GLOSSARY_priority_metrics.md` - Interpretation guidance for 13 priority metrics (8 undervaluation + 5 risk)
-- `GLOSSARY_secondary_metrics.md` - Interpretation guidance for 17 secondary metrics
+- `../glossaries/seeds.md` - Interpretation guidance for 8 projection seeds
+- `../glossaries/priority_metrics.md` - Interpretation guidance for 13 priority metrics (8 undervaluation + 5 risk)
+- `../glossaries/secondary_metrics.md` - Interpretation guidance for 17 secondary metrics
 
 ---
 
@@ -40,7 +40,7 @@ Apply this framework to all metrics:
 
 ## Pass 1: Projection Seeds Baseline
 
-Read `GLOSSARY_seeds.md` and review the **Projection Seeds** section in statements markdown.
+Read `../glossaries/seeds.md` and review the **Projection Seeds** section in statements markdown.
 
 Analyze each of the 8 seeds using the three-dimension framework:
 
@@ -64,7 +64,7 @@ Analyze each of the 8 seeds using the three-dimension framework:
 
 ## Pass 2: Undervaluation & Risk Assessment
 
-Read `GLOSSARY_priority_metrics.md` and review the **Priority Metrics** section in statements markdown.
+Read `../glossaries/priority_metrics.md` and review the **Priority Metrics** section in statements markdown.
 
 ### Undervaluation Metrics (8 priority metrics)
 
@@ -106,7 +106,7 @@ Analyze using the three-dimension framework:
 
 ## Pass 3: Secondary Metrics (Brief Scan)
 
-Read `GLOSSARY_secondary_metrics.md` as needed.
+Read `../glossaries/secondary_metrics.md` as needed.
 
 Review the 17 secondary metrics grouped by category. Detail only if anomalies warrant investigation.
 

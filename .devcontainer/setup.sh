@@ -9,7 +9,7 @@ echo "=========================================="
 echo ""
 echo "Installing Python dependencies..."
 pip install --upgrade pip
-pip install -r setup/requirements.txt
+pip install -r requirements.txt
 
 # Install Claude Code CLI
 echo ""
@@ -64,6 +64,6 @@ if [ -n "$FMP_API_KEY" ]; then echo "  ✓ FMP_API_KEY"; else echo "  ✗ FMP_AP
 if [ -n "$SOCIAVAULT_API_KEY" ]; then echo "  ✓ SOCIAVAULT_API_KEY"; else echo "  ✗ SOCIAVAULT_API_KEY (not set)"; fi
 echo ""
 echo "Ready to start analyzing stocks!"
-echo "See CLAUDE.md for workflow overview"
-echo "See setup/COMMANDS.md for command reference"
+echo "See docs/CLAUDE.md for workflow overview"
+echo "See docs/COMMANDS.md for command reference"
 echo "=========================================="

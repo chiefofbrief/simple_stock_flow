@@ -7,8 +7,8 @@ Script outputs and analysis artifacts. Directory structure and file naming conve
 ```
 data/
 ├── discovery/               # Market discovery digests
-├── stocks/{TICKER}/         # Ticker-specific raw data
-└── analysis/{TICKER}/       # LLM analysis outputs
+├── screening/               # Multi-ticker screening outputs
+└── analysis/{TICKER}/       # Ticker-specific analysis and raw data
 ```
 
 ---
@@ -22,7 +22,15 @@ data/
 
 ---
 
-## Ticker Raw Data (`data/stocks/{TICKER}/`)
+## Screening Outputs (`data/screening/`)
+
+| File Pattern | Source Script | Description |
+|--------------|---------------|-------------|
+| `Daily_Screening_YYYY-MM-DD.txt` | `valuation.py` | Multi-ticker screening results from daily workflow |
+
+---
+
+## Ticker Raw Data (`data/analysis/{TICKER}/`)
 
 ### Fundamentals & Valuation
 
@@ -82,7 +90,8 @@ Master script outputs and LLM analysis documents.
 ## Data Flow
 
 ```
-Individual Scripts → data/stocks/{TICKER}/     (raw JSON/text)
+Individual Scripts → data/analysis/{TICKER}/   (raw JSON/text)
 Master Scripts     → data/analysis/{TICKER}/   (consolidated markdown)
 LLM Analysis       → data/analysis/{TICKER}/   (analysis markdown)
+Screening Scripts  → data/screening/           (multi-ticker results)
 ```

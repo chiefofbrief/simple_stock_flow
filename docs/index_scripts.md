@@ -24,7 +24,7 @@ Broad market scans used for discovery and trend identification.
 | `reddit.py` | SociaVault API | Top posts from r/ValueInvesting, r/stocks, and r/options. |
 
 ## 3. Ticker Scripts (`scripts/ticker/`)
-Deep-dive analysis tools for individual stocks. Outputs are saved to `data/stocks/{TICKER}/`.
+Deep-dive analysis tools for individual stocks. Outputs are saved to `data/analysis/{TICKER}/`.
 
 ### Fundamentals & Valuation
 | File | Purpose | Key Outputs |
@@ -39,7 +39,7 @@ Deep-dive analysis tools for individual stocks. Outputs are saved to `data/stock
 **Note:** `valuation.py` is located in `scripts/` (master script level) as it's used for preliminary screening.
 
 ### Sentiment & Social
-Individual scripts save raw JSON data to `data/stocks/{TICKER}/`. Use with `--markdown` flag for master script aggregation. Timeline defaults: news (3 months), reddit (30 days), social media (this-month).
+Individual scripts save raw JSON data to `data/analysis/{TICKER}/`. Use with `--markdown` flag for master script aggregation. Timeline defaults: news (3 months), reddit (30 days), social media (this-month).
 
 #### News Scripts (Modular)
 | File | Data Source | Purpose | Output | Default Lookback |

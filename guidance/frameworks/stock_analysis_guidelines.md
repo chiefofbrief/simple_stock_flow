@@ -1,6 +1,6 @@
 # Stock Analysis Guidelines
 
-Core principles and their applications. Supplemented by detailed insights in the [Insights Index](Insights%20Index.md).
+Core principles and their applications. Supplemented by detailed insights in the [Insights Index](../../sources/summaries/insights_index.md).
 
 ## How to Use This System
 

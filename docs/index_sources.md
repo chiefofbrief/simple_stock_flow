@@ -5,15 +5,18 @@ Reference material: investment theory, financial analysis frameworks, and market
 ## Directory Structure
 
 ```
-Sources/
-├── Raw Material/          # Original full-text sources
-└── Summaries/             # Extracted insights and summaries
-    └── Insights Index.md  # Thematic map to source files
+sources/
+├── raw/                   # Original full-text sources
+│   ├── financial_statement_analysis/
+│   ├── securities_analysis/
+│   └── alchemy_of_finance/
+└── summaries/             # Extracted insights and summaries
+    └── insights_index.md  # Thematic map to source files
 ```
 
 ---
 
-## Raw Material (`Sources/Raw Material/`)
+## Raw Material (`sources/raw/`)
 
 ### Financial Statement Analysis
 - `Financial Statement Analysis [FULL TEXT].md` - Comprehensive financial analysis textbook (Fridson & Alvarez)
@@ -35,9 +38,9 @@ Sources/
 
 ---
 
-## Summaries (`Sources/Summaries/`)
+## Summaries (`sources/summaries/`)
 
-### Insights Index (`Insights Index.md`)
+### Insights Index (`insights_index.md`)
 Thematic map organizing concepts by category:
 - Reflexivity & Market Dynamics
 - Valuation & Investment Analysis
@@ -79,4 +82,4 @@ Files in `Options_Beginner_Beyond/`: Condensed summaries of select chapters cove
 
 ## Usage Notes
 
-The `Insights Index.md` provides thematic navigation. Source files contain extracted quotes and frameworks. Raw material provides full context when needed.
+The `insights_index.md` provides thematic navigation. Source files contain extracted quotes and frameworks. Raw material provides full context when needed.

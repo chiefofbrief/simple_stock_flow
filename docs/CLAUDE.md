@@ -21,7 +21,7 @@ You're working with a system that combines **pre-built workflows** with **flexib
 
 **Tools:**
 - Market scripts: `discovery.py`, `movers.py`, `macro.py`, news sources (Barron's, WSJ)
-- Guidance: `News Analysis Prompt.md`
+- Guidance: `guidance/prompts/news_analysis.md`
 
 ---
 
@@ -40,7 +40,7 @@ We're looking for downtrends to avoid or uptrends with remaining upside. Screeni
 
 **Tools:**
 - Ticker scripts: `prices.py`, `earnings.py`, `valuation.py`
-- Guidance: `Screening Analysis Prompt.md`
+- Guidance: `guidance/prompts/screening_analysis.md`
 
 ---
 
@@ -60,7 +60,7 @@ Deep investigation of screened candidates. Two primary dimensions:
 **Tools:**
 - Ticker scripts: `news.py`, `reddit.py`, `youtube.py`, `tiktok.py`
 - Master script: `sentiment.py` (aggregates all sources)
-- Guidance: `SKILL_news.md`, `SKILL_sentiment_analysis.md`
+- Guidance: `guidance/prompts/news_analysis.md`, `guidance/prompts/sentiment_analysis.md`
 
 #### B. Fundamental Analysis
 **Purpose:** Assess intrinsic value, risk, and earnings drivers.
@@ -77,7 +77,7 @@ Deep investigation of screened candidates. Two primary dimensions:
 **Tools:**
 - Ticker scripts: `fetch_financials.py`, `calc_seeds.py`, `calc_metrics.py`, `compare_financials.py`
 - Master script: `financial_statements.py`
-- Guidance: `SKILL_statement_analysis.md`, `Stock Analysis Guidelines.md`
+- Guidance: `guidance/prompts/statement_analysis.md`, `guidance/frameworks/stock_analysis_guidelines.md`
 
 ---
 
@@ -97,8 +97,8 @@ The activities above are starting points, not endpoints. After running scripts a
 - Screen semiconductor stocks; NVDA shows strong price momentum but flat earnings
 - Run fundamental analysis; notice inventory buildup in recent quarters
 - Question: Is inventory buildup a warning signal?
-- Check `index_sources.md` → Locate financial statement analysis insights on inventory
-- Review `Sources/Summaries/Financial_Statement_Analysis/Insights - Chapter 13 - Credit Analysis.md` for cash conversion cycle and inventory interpretation
+- Check `docs/index_sources.md` → Locate financial statement analysis insights on inventory
+- Review `sources/summaries/financial_statement_analysis/Insights - Chapter 13 - Credit Analysis.md` for cash conversion cycle and inventory interpretation
 - Web search: "NVDA inventory buildup 2026" for recent industry perspective
 - Synthesize: Is this normal lead-time buying or demand weakness?
 
@@ -109,22 +109,22 @@ This iterative process is where the system shines. The indexes, guidance files, 
 ## Navigation & Key Files
 
 ### Start Here
-- **INDEX.md** - Master index linking to all subindexes
-- **This file (CLAUDE.md)** - Workflow context and philosophy
+- **docs/INDEX.md** - Master index linking to all subindexes
+- **This file (docs/CLAUDE.md)** - Workflow context and philosophy
 
 ### Subindexes
-- **index_scripts.md** - All Python scripts (master, market, ticker, utilities)
-- **index_guidance.md** - Guidance files and skill files (prompts)
-- **index_sources.md** - Reference materials (investment theory, financial analysis)
-- **index_data.md** - Data outputs, directory structure, file naming
+- **docs/index_scripts.md** - All Python scripts (master, market, ticker, utilities)
+- **docs/index_guidance.md** - Guidance files and skill files (prompts)
+- **docs/index_sources.md** - Reference materials (investment theory, financial analysis)
+- **docs/index_data.md** - Data outputs, directory structure, file naming
 
 ### Key Guidance Files
-- **Stock Analysis Guidelines.md** - Core investment principles (margin of safety, intrinsic value, GAAP vs. economic reality)
-- **News Analysis Prompt.md** - Market news synthesis framework
-- **SKILL_*.md files** - Task-specific prompts (screening, statement analysis, sentiment analysis, news analysis)
+- **guidance/frameworks/stock_analysis_guidelines.md** - Core investment principles (margin of safety, intrinsic value, GAAP vs. economic reality)
+- **guidance/prompts/news_analysis.md** - Market news synthesis framework
+- **guidance/prompts/** - Task-specific prompts (screening, statement analysis, sentiment analysis, news analysis)
 
 ### Command Reference
-- **setup/COMMANDS.md** - CLI command examples and usage
+- **docs/COMMANDS.md** - CLI command examples and usage
 
 ---
 
