@@ -1,14 +1,3 @@
-# Ignore ticker-specific raw data (JSON files, individual ticker subdirectories)
-data/analysis/*/
-
-# Ignore non-Daily files in discovery
-data/discovery/*
-!data/discovery/Daily_Digest_*.md
-
-# Ignore non-Daily files in analysis root
-data/analysis/*
-!data/analysis/Daily_Screening_*.txt
-
 # Python
 __pycache__/
 *.pyc
@@ -19,3 +8,23 @@ __pycache__/
 # Environment
 *.env
 setup_env.sh
+
+# Data Discovery
+data/discovery/*
+!data/discovery/Daily_Digest_*.md
+
+# Data Analysis
+# Ignore raw data files
+**/*.json
+**/*_earnings.txt
+**/*_prices.txt
+
+# Specific ignores for data/analysis subdirectories if needed
+# but generally we want to allow .md and .txt summaries.
+# Based on current structure:
+# data/analysis/TICKER/TICKER_statements.md -> Track
+# data/analysis/TICKER/TICKER_ANALYSIS_sentiment.md -> Track
+# data/analysis/Daily_Screening_YYYY-MM-DD.txt -> Track
+
+# If we want to be safe and only allow specific extensions in data/
+data/analysis/analysis/

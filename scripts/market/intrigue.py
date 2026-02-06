@@ -463,7 +463,8 @@ def main():
 
         # Step 5: Display the post
         if args.markdown:
-            print(f"# {post_data['title']}")
+            print("## International Intrigue")
+            print(f"### {post_data['title']}")
             print(f"_{post_data['date']}_")
             print("\n---\n")
             print(post_data['body'])

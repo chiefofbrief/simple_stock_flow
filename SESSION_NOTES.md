@@ -1,3 +1,73 @@
+# Session Notes - February 5, 2026
+
+## Daily Screening Feedback (valuation.py / Daily_Screening output)
+
+### Price & Trend Data
+- **Enhancement**: Add deltas between periods to "RECENT TREND (Last 12 Months)" and "LONG-TERM CONTEXT (5 Years)".
+    - *Example*: Show percentage change or absolute change to highlight momentum.
+
+### Earnings Analysis
+- **Data Mismatch**: "Next Est" appears to be annual while "Last Reported" is quarterly.
+    - **Action**: Update to ensure "Next Est" uses the next fiscal quarter estimate to match "Last Reported" quarterly figures.
+- **Key Dates**: Add "Earnings Due Date" and "Last Earnings Reported Date" (if available) to the summary.
+    - *Format*: `Last Reported: $1.23 (YYYY-MM-DD) | Next Est: $6.33 (Due: YYYY-MM-DD)`
+- **AMZN Specific**: User noted AMZN earnings were due "today" (Feb 5), but screener showed "2026-03-31" as next fiscal quarter. Needs verification of date handling.
+
+### Upcoming Estimates Table
+- **Confusion**: "Historical" labels seem incorrect or confusing (e.g., 2026-12-31 listed as historical).
+- **Structure**: The mixture of fiscal years and quarters in the table is confusing.
+- **Enhancement**: Clarify table headers and logic. Add deltas to "LONG-TERM CONTEXT (5 Years)" table (Reported EPS).
+
+### Valuation (P/E)
+- **Data Integrity**: PYPL Current P/E of 8.03 seemed suspiciously low.
+    - **Action**: Verify the price and earnings inputs used for this calculation.
+- **P/E History**: Add deltas.
+- **Quarterly Data**: Add a table for quarterly P/E data to complement annual history.
+
+### Presentation
+- **Comparative Summary**: Format is hard to read.
+    - **Action**: Improve readability (e.g., better spacing, clear separators, or a different text format).
+- **External Data**: If citing external data in the assessment (like for PYPL), explicitly state the source.
+
+## Sentiment Analysis Script (`scripts/sentiment.py`)
+
+### Path Bug (FIXED)
+- **Issue**: Output file was saved to incorrect path with duplicated directory structure.
+- **Expected Path**: `data/analysis/{TICKER}/{TICKER}_sentiment.md`
+- **Actual Path**: `data/analysis/analysis/{TICKER}/{TICKER}_sentiment.md`
+- **Root Cause**: Line 98 in `sentiment.py` incorrectly constructed the output directory by adding `'..'` and `'analysis'`.
+- **Fix**: Line 98 was updated to `output_dir = get_data_directory(ticker)`.
+- **Verified With**: AMZN sentiment analysis run on 2026-02-05. File now correctly generated.
+
+### AMZN Analysis & Trade
+- **Analysis Completion**: Comprehensive financial statement analysis for AMZN completed and saved to `data/analysis/AMZN/AMZN_ANALYSIS_statement.md`.
+- **Key Findings**: 
+    - **CapEx Pivot**: AMZN has shifted from "harvest" to "hyper-investment," with CapEx hitting a $123B run-rate (consuming all FCF).
+    - **Strong Core**: Operating Cash Flow remains robust ($116B), and credit quality is exceptional (Debt/OCF < 0.5).
+    - **Earnings**: Q3 2025 EPS was $1.95 (beating est. by $0.41). Q4 2025 consensus is ~$1.98.
+- **Trade Execution**:
+    - **Order**: Buy $5,000.00 of AMZN Limit at $222.71 (Day)
+    - **Account**: Individual ***4222
+    - **Status**: Filled at $222.71
+    - **Total**: $4,999.84
+
+### Workflow & Config Issues
+- **Statement Analysis Workflow**: The analysis output should be **appended to the TOP** of the existing `{TICKER}_statements.md` file (similar to the sentiment workflow) rather than creating a separate `_ANALYSIS_` file.
+- **Ignore Patterns**: The `.gitignore` issue persists, blocking access to `data/analysis/*/` subdirectories and hindering the reading of generated analysis files. This needs to be resolved to allow seamless appending and reading of these files.
+
+### Tool/Config Issue: Ignore Patterns
+- **Issue**: `read_file` fails on `data/analysis/AMZN/AMZN_statements.md` and other analysis markdown files because they are matched by broad `.gitignore` patterns.
+- **Root Cause**: `.gitignore` contains `data/analysis/*/`, which ignores all ticker-specific subdirectories containing the generated analysis.
+- **Impact**: Prevents the agent from reading consolidated statements and analysis files using standard tools.
+- **Workaround**: Use `run_shell_command` with `cat` or temporarily modify `.gitignore`.
+- **Action Item**: Refine `.gitignore` to allow `.md` and `.txt` analysis summaries while still ignoring raw data (JSON, etc.).
+
+## Sentiment Analysis Workflow Update
+- **Requirement**: The synthesis/analysis output from the `Sentiment Analysis Prompt.md` should be appended to the **TOP** of the existing `{TICKER}_sentiment.md` file, rather than being saved as a separate `_ANALYSIS_` file. This mirrors the `Daily_Screening` workflow and keeps the synthesis and supporting data in a single artifact.
+
+## Stocks Screened
+- **AMZN**: Sentiment Analysis completed. Synthesis appended to `AMZN_sentiment.md`.
+
 # Session Notes - February 4, 2026
 - **Tool Issue**: `read_file` failed to read `data/discovery/stockmarket_2026-02-04.txt` due to ignore patterns, even when `file_filtering_options` were set to `false`.
 - **Workaround**: Used `run_shell_command` with `cat` to retrieve file contents.
