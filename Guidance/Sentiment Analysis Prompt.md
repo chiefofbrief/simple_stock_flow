@@ -53,6 +53,11 @@ Based on sentiment analysis, identify:
 - Are there assertions that could be disputed or validated using financial statements or research?
 - What questions does sentiment raise that weren't apparent from financials alone?
 
+**Guidance on Investigation Items:**
+- Favor slightly broader categories over overly specific items
+- Examples: "review earnings calls", "examine competitive dynamics", "investigate brand perception trends"
+- Avoid naming specific manipulation techniques or overly narrow concerns
+
 **Examples:**
 - News claims "sales have slowed" → Investigate: Why? How much? Real or misinterpretation?
 - Social media shows brand perception decline → Investigate: Quantifiable impact? Temporary or trend?
@@ -127,3 +132,4 @@ Provide a clear narrative that:
 - Focus on perception analysis, not investment decisions
 - Divergence between sentiment and strong fundamentals can reveal opportunities
 - Look for items to investigate or dispute using data and research
+- **External Data:** If citing data not from the script outputs, explicitly state the source

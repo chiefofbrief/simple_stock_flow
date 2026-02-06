@@ -144,6 +144,11 @@ Based on the analysis, identify items requiring further investigation:
 - What patterns need explanation or validation?
 - Are there claims in news/sentiment that can be disputed using this data?
 
+**Guidance on Investigation Items:**
+- Favor slightly broader categories over overly specific items
+- Examples: "review earnings calls", "examine notes to financial statements", "investigate working capital trends"
+- Avoid naming specific manipulation techniques unless clearly indicated by the data
+
 **Examples:**
 - High inventory buildup → Investigate: Normal lead-time buying or demand weakness?
 - Depreciation below peer average → Investigate: Conservative accounting or asset understatement?
@@ -198,3 +203,4 @@ Provide a clear narrative that:
 - Peer context adds valuable perspective
 - Focus on analysis, not investment decisions
 - GAAP vs. economic reality matters (per Stock Analysis Guidelines.md)
+- **External Data:** If citing data not from the script outputs, explicitly state the source

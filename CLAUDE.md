@@ -28,6 +28,8 @@ You're working with a system that combines **pre-built workflows** with **flexib
 ### 2. Screening
 **Purpose:** Put candidates in context. Check if the opportunity is real or if we're chasing a trend that's already played out—or one that's heading in the wrong direction.
 
+**Definition:** "Screening" specifically refers to running the `scripts/valuation.py` script, which generates price, earnings, and valuation analysis for one or more tickers.
+
 **Approach:** Examine price and earnings behavior to understand:
 - Recent price movements (1-month, 1-year, 5-year)
 - Earnings trends and volatility
@@ -38,7 +40,7 @@ We're looking for downtrends to avoid or uptrends with remaining upside. Screeni
 
 **Tools:**
 - Ticker scripts: `prices.py`, `earnings.py`, `valuation.py`
-- Guidance: `SKILL_screening.md`
+- Guidance: `Screening Analysis Prompt.md`
 
 ---
 

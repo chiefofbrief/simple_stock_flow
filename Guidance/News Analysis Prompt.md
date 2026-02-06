@@ -35,6 +35,7 @@ Analyze the intake data through the full lens of **Parts I & II** of the *Stock 
 * **The Glamour Metrics Trap:** Identify stocks rising on top-line growth that doesn't translate to EPS or margin improvement.
 * **Reflexivity & Fertile Fallacies:** Identify where price action is artificially boosting "fundamentals" or where a misconception is being reinforced by temporary price moves.
 * **The Flaw in Consensus:** Identify the prevailing "beauty contest" narrative and highlight potential flaws currently ignored by the market.
+* **Narrative vs. Reality:** Note the facts, but don't accept explanations at face value. Market narratives often rationalize price movements after the fact. Example: If AI hardware companies drop when the media says Wall Street fears SaaS being replaced by AI, consider alternative explanations—it might just be rotation out of tech into other sectors like mining, not the narrative being sold.
 * **Edge Opportunities:** Look for claims in news coverage that might be disputed or validated using financial statements or research - where perception may diverge from reality.
 
 ### 4. Screening Candidates

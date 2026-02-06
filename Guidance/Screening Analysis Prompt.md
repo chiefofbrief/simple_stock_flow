@@ -86,3 +86,4 @@ Provide a narrative assessment addressing the questions above. Focus on:
 - Financial statement analysis (`financial_statements.py`) is the deep dive
 - Sentiment analysis provides external context after screening
 - Weaknesses in one area may be offset by strengths elsewhere
+- **External Data:** If citing data not from the script outputs, explicitly state the source

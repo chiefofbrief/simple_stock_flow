@@ -43,28 +43,7 @@ AMZN
 
 ---
 
-## Analysis Notes
-
-### Best Practices
-- **External Data Sourcing**: When citing external data in analysis (not from scripts), explicitly state the source.
-- **Investigation Items**: Favor slightly broader categories ("review earnings calls," "notes to financial statements") over overly specific items (e.g., naming a specific manipulation type).
-
-### Examples
-- **News Analysis (Narrative vs. Rotation)**: Note the facts, but don't accept the explanation at face value. Example: If AI hardware companies drop when Wall Street is supposedly afraid of SaaS being replaced by AI, it might just be a narrative concocted by the media. Often it's just a rotation of money out of broader tech back into other sectors like mining.
-
----
-
-## Workflow Reference
-
-### Definitions
-- **"Screening"**: Specifically refers to running `scripts/valuation.py` script.
-
-### Analysis Workflow Patterns
-- **Statement Analysis**: Append analysis to TOP of `{TICKER}_statements.md` (not separate `_ANALYSIS_` file)
-- **Sentiment Analysis**: Append analysis to TOP of `{TICKER}_sentiment.md` (not separate `_ANALYSIS_` file)
-- **Screening Analysis**: Append analysis to TOP of `Daily_Screening_YYYY-MM-DD.txt` (not separate file)
-
-### Open Decisions
+## Open Decisions
 - **Data File Synchronization (TBD)**: Current .gitignore tracks Daily analysis files but ignores raw data (JSON, ticker subdirectories).
     - **Current State**: Daily_Digest and Daily_Screening files sync via git. Raw JSON data does NOT sync.
     - **Options**: (1) Keep current (2) Track all data files (3) Hybrid snapshots (4) External storage
