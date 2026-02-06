@@ -88,7 +88,21 @@ Provide a narrative assessment addressing:
 
 ## Output
 
-**Save to:** `data/analysis/{TICKER}/{TICKER}_ANALYSIS_sentiment.md`
+**Append to TOP of:** `data/analysis/{TICKER}/{TICKER}_sentiment.md`
+
+Read the existing file first, then prepend your analysis with a date header separator:
+
+```
+---
+# SENTIMENT ANALYSIS - [DATE]
+---
+
+[Your analysis here]
+
+---
+```
+
+Then append the existing file content below.
 
 Provide a clear narrative that:
 - Synthesizes sentiment across sources

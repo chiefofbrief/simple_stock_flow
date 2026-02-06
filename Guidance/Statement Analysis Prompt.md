@@ -159,7 +159,21 @@ Based on the analysis, identify items requiring further investigation:
 
 ## Output
 
-**Save to:** `data/analysis/{TICKER}/{TICKER}_ANALYSIS_statement.md`
+**Append to TOP of:** `data/analysis/{TICKER}/{TICKER}_statements.md`
+
+Read the existing file first, then prepend your analysis with a date header separator:
+
+```
+---
+# STATEMENT ANALYSIS - [DATE]
+---
+
+[Your analysis here]
+
+---
+```
+
+Then append the existing file content below.
 
 Provide a clear narrative that:
 - Applies three-dimension framework systematically

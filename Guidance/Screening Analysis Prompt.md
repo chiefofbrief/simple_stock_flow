@@ -46,7 +46,23 @@ Address the following questions for each ticker. Use evidence from the data and 
 
 ## Output
 
-**Display:** Terminal output (not saved to file). This is a preliminary filter - redirect to file if needed.
+**Append to TOP of:** `data/analysis/Daily_Screening_YYYY-MM-DD.txt`
+
+Read the existing Daily_Screening file first, then prepend your analysis with a date header separator:
+
+```
+===================================================================
+SCREENING ANALYSIS - [DATE & TIME]
+===================================================================
+
+[Your analysis here]
+
+===================================================================
+RAW SCREENING DATA BELOW
+===================================================================
+```
+
+Then append the existing file content (raw screening data) below.
 
 Provide a narrative assessment addressing the questions above. Focus on:
 - **What the data shows** and **why it matters**

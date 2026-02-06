@@ -14,17 +14,14 @@ data/discovery/*
 !data/discovery/Daily_Digest_*.md
 
 # Data Analysis
-# Ignore raw data files
-**/*.json
-**/*_earnings.txt
-**/*_prices.txt
+# Ignore raw data files (JSON) but allow analysis summaries (.md, .txt)
+data/analysis/*/*.json              # Raw JSON data in ticker subdirs
+data/analysis/*/*/*.json            # Raw JSON data in nested subdirs (peers)
+data/analysis/*/*_prices.txt        # Intermediate price output files
+data/analysis/*/*_earnings.txt      # Intermediate earnings output files
 
-# Specific ignores for data/analysis subdirectories if needed
-# but generally we want to allow .md and .txt summaries.
-# Based on current structure:
-# data/analysis/TICKER/TICKER_statements.md -> Track
-# data/analysis/TICKER/TICKER_ANALYSIS_sentiment.md -> Track
-# data/analysis/Daily_Screening_YYYY-MM-DD.txt -> Track
-
-# If we want to be safe and only allow specific extensions in data/
-data/analysis/analysis/
+# Track these analysis outputs:
+# - data/analysis/TICKER/TICKER_statements.md
+# - data/analysis/TICKER/TICKER_sentiment.md
+# - data/analysis/TICKER/TICKER_valuation.txt
+# - data/analysis/Daily_Screening_YYYY-MM-DD.txt

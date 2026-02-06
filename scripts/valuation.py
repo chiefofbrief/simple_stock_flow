@@ -18,6 +18,9 @@ Usage:
 Output:
     data/analysis/{TICKER}/{TICKER}_valuation.json
     data/analysis/{TICKER}/{TICKER}_valuation.txt
+
+    When multiple tickers provided:
+    data/analysis/Daily_Screening_YYYY-MM-DD.txt (aggregated)
 """
 
 import sys
@@ -25,6 +28,7 @@ import os
 import argparse
 import json
 import subprocess
+from datetime import datetime
 from tabulate import tabulate
 
 # Add parent directory to path for shared_utils
@@ -155,8 +159,28 @@ def analyze_valuation(ticker):
     for year in common_years:
         price_vals_corr.append(price_hist[year])
         eps_vals_corr.append(eps_hist[year])
-        
+
     correlation = calculate_correlation(price_vals_corr, eps_vals_corr)
+
+    # Quarterly P/E Calculation
+    quarterly_pe = []
+    price_monthly = {p['date']: p['close'] for p in prices_data.get("history_recent", [])}
+
+    for q in recent_q:
+        q_date = q.get("fiscalDate")
+        q_eps = q.get("reported")
+
+        # Try to find matching price (exact match or closest month)
+        q_price = price_monthly.get(q_date)
+
+        if q_price and q_eps and q_eps > 0:
+            q_pe = q_price / q_eps
+            quarterly_pe.append({
+                "date": q_date,
+                "price": q_price,
+                "eps": q_eps,
+                "pe": q_pe
+            })
 
     return {
         "ticker": ticker,
@@ -172,59 +196,161 @@ def analyze_valuation(ticker):
             "pe_slope": slope,
             "price_eps_correlation": correlation
         },
-        "history": pe_history
+        "history": pe_history,
+        "quarterly_pe": quarterly_pe
     }
 
 def save_output(ticker, data):
     data_dir = get_data_directory(ticker)
     ensure_directory_exists(data_dir)
-    
+
     # 1. JSON (Data)
     json_path = os.path.join(data_dir, f"{ticker}_valuation.json")
     save_json(data, json_path)
     print(f"   ✓ Saved JSON to {json_path}")
-    
+
     # 2. Text (Summary Table)
     txt_path = os.path.join(data_dir, f"{ticker}_valuation.txt")
-    
+
     s = data["current_stats"]
     t = data["trends"]
-    
+
     lines = []
+    lines.append("=" * 70)
     lines.append(f"VALUATION ANALYSIS: {ticker}")
+    lines.append("=" * 70)
     curr_pe = f"{s['trailing_pe']:.2f}" if s['trailing_pe'] else "N/A"
     avg_pe = f"{s['pe_5yr_avg']:.2f}" if s['pe_5yr_avg'] else "N/A"
-    lines.append(f"CURRENT P/E: {curr_pe} | 5-YR AVG: {avg_pe}")
-    lines.append("=" * 45)
-    
+    lines.append(f"\nCURRENT P/E: {curr_pe} | 5-YR AVG: {avg_pe}")
+    lines.append("")
+
     # Main Table
+    lines.append("SUMMARY METRICS")
+    lines.append("-" * 70)
     table = [
         ["Trailing P/E", curr_pe],
         ["5-Yr Avg P/E", avg_pe],
         ["vs 5-Yr Avg", f"{s['vs_5yr_avg_pct']:.1%}" if s['vs_5yr_avg_pct'] else "-"],
-        ["P/E CAGR", f"{t['pe_cagr_5yr']:.1%}" if t['pe_cagr_5yr'] else "-"],
-        ["Price-EPS Corr", f"{t['price_eps_correlation']:.2f}" if t['price_eps_correlation'] else "-"]
+        ["P/E CAGR (5yr)", f"{t['pe_cagr_5yr']:.1%}" if t['pe_cagr_5yr'] else "-"],
+        ["Price-EPS Correlation", f"{t['price_eps_correlation']:.2f}" if t['price_eps_correlation'] else "-"]
     ]
     lines.append(tabulate(table, tablefmt="simple"))
-    lines.append("-" * 45)
-    
+    lines.append("")
+
     # History Table
-    lines.append("\nP/E HISTORY (Annual)")
-    h_table = [[h['year'], f"{h['pe']:.2f}"] for h in data['history']]
-    lines.append(tabulate(h_table, headers=["Year", "P/E"], tablefmt="simple"))
-    
+    lines.append("=" * 70)
+    lines.append("P/E HISTORY (Annual)")
+    lines.append("=" * 70)
+    h_table = []
+    for i, h in enumerate(data['history']):
+        pe_str = f"{h['pe']:.2f}"
+        if i > 0:
+            prev_pe = data['history'][i-1]['pe']
+            delta = h['pe'] - prev_pe
+            delta_pct = (delta / prev_pe) if prev_pe else 0
+            change_str = f"{delta:+.2f} ({delta_pct:+.1%})"
+        else:
+            change_str = "-"
+        h_table.append([h['year'], pe_str, change_str])
+    lines.append(tabulate(h_table, headers=["Year", "P/E", "Change"], tablefmt="simple"))
+    lines.append("=" * 70)
+
+    # Quarterly P/E Table
+    if data.get('quarterly_pe'):
+        lines.append("")
+        lines.append("=" * 70)
+        lines.append("P/E HISTORY (Quarterly)")
+        lines.append("=" * 70)
+        q_table = []
+        for i, q in enumerate(data['quarterly_pe']):
+            pe_str = f"{q['pe']:.2f}"
+            price_str = f"${q['price']:.2f}"
+            eps_str = f"${q['eps']:.2f}"
+            if i > 0:
+                prev_pe = data['quarterly_pe'][i-1]['pe']
+                delta = q['pe'] - prev_pe
+                delta_pct = (delta / prev_pe) if prev_pe else 0
+                change_str = f"{delta:+.2f} ({delta_pct:+.1%})"
+            else:
+                change_str = "-"
+            q_table.append([q['date'], price_str, eps_str, pe_str, change_str])
+        lines.append(tabulate(q_table, headers=["Quarter", "Price", "EPS", "P/E", "Change"], tablefmt="simple"))
+        lines.append("=" * 70)
+
     with open(txt_path, "w") as f:
         f.write("\n".join(lines))
-        
+
     print(f"   ✓ Saved Summary to {txt_path}")
+
+def create_aggregated_screening_report(tickers):
+    """Create aggregated Daily_Screening report combining all ticker data
+
+    Args:
+        tickers: List of ticker symbols that were processed
+    """
+    today = datetime.now().strftime("%Y-%m-%d")
+    output_path = os.path.join("data", "analysis", f"Daily_Screening_{today}.txt")
+
+    lines = []
+    lines.append("=" * 80)
+    lines.append(f"                    DAILY SCREENING REPORT - {today}")
+    lines.append("=" * 80)
+    lines.append("")
+    lines.append(f"Tickers Analyzed: {', '.join(tickers)}")
+    lines.append(f"Total Count: {len(tickers)}")
+    lines.append("")
+    lines.append("=" * 80)
+    lines.append("")
+
+    for i, ticker in enumerate(tickers, 1):
+        data_dir = get_data_directory(ticker)
+
+        # Section header
+        lines.append("")
+        lines.append("")
+        lines.append("█" * 80)
+        lines.append(f"█  TICKER {i}/{len(tickers)}: {ticker}".ljust(79) + "█")
+        lines.append("█" * 80)
+        lines.append("")
+
+        # Read and append each component
+        for filename in [f"{ticker}_prices.txt", f"{ticker}_earnings.txt", f"{ticker}_valuation.txt"]:
+            filepath = os.path.join(data_dir, filename)
+            if os.path.exists(filepath):
+                with open(filepath, 'r') as f:
+                    content = f.read()
+                    lines.append(content)
+                    lines.append("")
+            else:
+                lines.append(f"⚠️  WARNING: {filename} not found")
+                lines.append("")
+
+        lines.append("─" * 80)
+        lines.append("")
+
+    # Write aggregated report
+    ensure_directory_exists(os.path.dirname(output_path))
+    with open(output_path, 'w') as f:
+        f.write("\n".join(lines))
+
+    print(f"\n📊 Aggregated Screening Report: {output_path}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("tickers", nargs='+', help="Ticker symbol(s)")
     args = parser.parse_args()
-    
+
+    # Process each ticker
+    processed_tickers = []
     for ticker in args.tickers:
         print(f"\nProcessing Valuation for {ticker.upper()}...")
         result = analyze_valuation(ticker.upper())
         if result:
             save_output(ticker.upper(), result)
+            processed_tickers.append(ticker.upper())
+
+    # Create aggregated report if multiple tickers
+    if len(processed_tickers) > 1:
+        create_aggregated_screening_report(processed_tickers)
+    elif len(processed_tickers) == 1:
+        print(f"\n💡 Tip: Run with multiple tickers to generate Daily_Screening report")

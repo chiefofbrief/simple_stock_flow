@@ -182,14 +182,33 @@ def save_output(ticker, data):
     # Recent Trend (12 Months)
     lines.append("\nRECENT TREND (Last 12 Months)")
     recent = []
-    for p in reversed(data['history_recent']):
-        recent.append([p['date'], f"${p['close']:.2f}"])
-    lines.append(tabulate(recent, headers=["Month", "Close"], tablefmt="simple"))
+    recent_list = list(reversed(data['history_recent']))
+    for i, p in enumerate(recent_list):
+        close_str = f"${p['close']:.2f}"
+        if i > 0:
+            prev = recent_list[i-1]['close']
+            delta = p['close'] - prev
+            delta_pct = (delta / prev) if prev else 0
+            change_str = f"{delta:+.2f} ({delta_pct:+.1%})"
+        else:
+            change_str = "-"
+        recent.append([p['date'], close_str, change_str])
+    lines.append(tabulate(recent, headers=["Month", "Close", "Change"], tablefmt="simple"))
 
     # Long-Term Context (5 Years)
     lines.append("\nLONG-TERM CONTEXT (5 Years)")
-    hist = [[h['year'], f"${h['close']:.2f}"] for h in data['history_annual']]
-    lines.append(tabulate(hist, headers=["Year", "Close"], tablefmt="simple"))
+    hist = []
+    for i, h in enumerate(data['history_annual']):
+        close_str = f"${h['close']:.2f}"
+        if i > 0:
+            prev = data['history_annual'][i-1]['close']
+            delta = h['close'] - prev
+            delta_pct = (delta / prev) if prev else 0
+            change_str = f"{delta:+.2f} ({delta_pct:+.1%})"
+        else:
+            change_str = "-"
+        hist.append([h['year'], close_str, change_str])
+    lines.append(tabulate(hist, headers=["Year", "Close", "Change"], tablefmt="simple"))
 
     with open(txt_path, "w") as f:
         f.write("\n".join(lines))

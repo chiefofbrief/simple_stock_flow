@@ -28,6 +28,7 @@ from datetime import datetime, timedelta
 REQUEST_TIMEOUT = 30  # seconds
 MAX_RETRIES = 5
 RETRY_DELAY = 60  # seconds
+API_CALL_DELAY = 13  # seconds - proactive delay between API calls (safe for free tier: 5 calls/min)
 
 # ============================================================================
 # DIRECTORY & FILE MANAGEMENT
@@ -117,8 +118,12 @@ def fetch_alpha_vantage(url, max_retries=MAX_RETRIES):
                     return None
             else:
                 # Some other note, seemingly fine but warn just in case
-                # print(f"  API Note: {msg}") 
+                # print(f"  API Note: {msg}")
                 pass
+
+        # Proactive rate limiting: delay before next call
+        if attempt == 0:  # Only on first successful attempt (not retries)
+            time.sleep(API_CALL_DELAY)
 
         return data
 

@@ -100,9 +100,19 @@ def analyze_earnings(ticker):
 
     # Forward Delta Calculation
     estimates = data_est.get("estimates", []) if data_est else []
-    next_est = safe_float(estimates[0].get("eps_estimate_average")) if estimates else None
+
+    # Find next fiscal quarter estimate (not annual)
+    next_est = None
+    next_est_date = None
+    for est in estimates:
+        if est.get("horizon") == "next fiscal quarter":
+            next_est = safe_float(est.get("eps_estimate_average"))
+            next_est_date = est.get("date")
+            break
+
     last_reported = recent_quarters[0]["reported"] if recent_quarters else None
-    
+    last_reported_date = recent_quarters[0]["fiscalDate"] if recent_quarters else None
+
     forward_delta = None
     if next_est is not None and last_reported is not None:
         forward_delta = next_est - last_reported
@@ -112,7 +122,9 @@ def analyze_earnings(ticker):
         "stability_cv": stability_cv,
         "forward_metrics": {
             "next_est": next_est,
+            "next_est_date": next_est_date,
             "last_reported": last_reported,
+            "last_reported_date": last_reported_date,
             "forward_delta": forward_delta
         },
         "annual_trend": annual_trend,
@@ -138,9 +150,14 @@ def save_output(ticker, data):
     lines = []
     lines.append(f"EARNINGS ANALYSIS: {ticker}")
     fm = data["forward_metrics"]
+
+    # Format with dates
     lr_str = f"${fm['last_reported']:.2f}" if fm['last_reported'] is not None else "N/A"
+    lr_date = f" ({fm['last_reported_date']})" if fm.get('last_reported_date') else ""
     ne_str = f"${fm['next_est']:.2f}" if fm['next_est'] is not None else "N/A"
-    lines.append(f"Last Reported: {lr_str} | Next Est: {ne_str}")
+    ne_date = f" (Due: {fm['next_est_date']})" if fm.get('next_est_date') else ""
+
+    lines.append(f"Last Reported: {lr_str}{lr_date} | Next Est: {ne_str}{ne_date}")
     delta_str = f"{fm['forward_delta']:+.2f}" if fm['forward_delta'] is not None else "N/A"
     lines.append(f"Forward Delta: {delta_str}")
     lines.append(f"Stability (CV): {data['stability_cv']:.2f}" if data['stability_cv'] is not None else "Stability (CV): N/A")
@@ -164,8 +181,18 @@ def save_output(ticker, data):
 
     # Long-Term Trend
     lines.append("\nLONG-TERM CONTEXT (5 Years)")
-    trend = [[a['fiscalDate'], f"${a['eps']:.2f}"] for a in data['annual_trend']]
-    lines.append(tabulate(trend, headers=["Fiscal Year End", "Reported EPS"], tablefmt="simple"))
+    trend = []
+    for i, a in enumerate(data['annual_trend']):
+        eps_str = f"${a['eps']:.2f}" if a['eps'] is not None else "N/A"
+        if i > 0 and a['eps'] is not None and data['annual_trend'][i-1]['eps'] is not None:
+            prev = data['annual_trend'][i-1]['eps']
+            delta = a['eps'] - prev
+            delta_pct = (delta / abs(prev)) if prev != 0 else 0
+            change_str = f"{delta:+.2f} ({delta_pct:+.1%})"
+        else:
+            change_str = "-"
+        trend.append([a['fiscalDate'], eps_str, change_str])
+    lines.append(tabulate(trend, headers=["Fiscal Year End", "Reported EPS", "Change"], tablefmt="simple"))
 
     with open(txt_path, "w") as f:
         f.write("\n".join(lines))
