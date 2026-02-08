@@ -54,11 +54,7 @@ Analyze each of the 8 seeds using the three-dimension framework:
 - **Total Debt** - Debt obligations
 - **Working Capital Components** - Current assets and liabilities
 
-### Questions to Address:
-- What are the baseline patterns for each seed? (5-year average, CAGR, trends, volatility)
-- How do patterns compare to peers? (If peer data available)
-- Are there concerning patterns or notable changes?
-- What do these patterns suggest about the business model and stability?
+For each seed, apply the three-dimension framework and use `seeds.md` for interpretation guidance.
 
 ---
 
@@ -79,11 +75,7 @@ Analyze using the three-dimension framework:
 - **Revenue (trends)** - Business growth trajectory
 - **Operating Margin %** - Core business profitability before financing
 
-### Questions to Address:
-- What do these metrics reveal about value generation?
-- Are returns attractive relative to capital deployed?
-- Is the business generating cash or consuming it?
-- What's driving profitability or constraining it?
+For each metric, apply the three-dimension framework and use `priority_metrics.md` for interpretation guidance.
 
 ### Risk Metrics (5 priority metrics)
 
@@ -95,12 +87,7 @@ Analyze using the three-dimension framework:
 - **Depreciation & Amortization** - Manipulation detection via peer comparison
 - **Working Capital (trends)** - Income statement validation (harder to manipulate than earnings)
 
-### Questions to Address:
-- What are the key risk factors?
-- Is credit quality strong, adequate, or concerning?
-- Are earnings converting to cash?
-- Any signals of earnings manipulation or quality issues?
-- How does risk compare to peers?
+For each metric, apply the three-dimension framework and use `priority_metrics.md` for interpretation guidance.
 
 ---
 
@@ -119,10 +106,7 @@ Review the 17 secondary metrics grouped by category. Detail only if anomalies wa
 ### Efficiency Context (5 metrics):
 - Receivables vs Revenue Growth, DSO (Days), Inventory vs COGS Growth, Inventory Turnover, Capex/Depreciation
 
-### Questions to Address:
-- Are there any notable anomalies or outliers?
-- Do any secondary metrics warrant deeper investigation?
-- What additional context do they provide?
+Detail only if anomalies warrant investigation. Use `secondary_metrics.md` for interpretation guidance.
 
 ---
 
@@ -179,14 +163,6 @@ Read the existing file first, then prepend your analysis with a date header sepa
 ```
 
 Then append the existing file content below.
-
-Provide a clear narrative that:
-- Applies three-dimension framework systematically
-- Addresses what the data shows and why it matters
-- Uses glossaries for interpretation guidance
-- Compares to peers when available
-- Identifies items requiring further investigation
-- Looks for opportunities where data disputes or validates external claims
 
 **Flexibility:** Let materiality drive depth. Elaborate on critical items, be brief on standard items. Use evidence from the data.
 

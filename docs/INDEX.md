@@ -6,13 +6,12 @@ LLM-powered stock analysis workflow combining discovery, screening, fundamental 
 
 ```
 simple_stock_flow/
-├── docs/              # All documentation and indexes
+├── docs/              # Documentation, indexes, and navigation
 ├── guidance/          # Analysis frameworks, prompts, and glossaries
 ├── sources/           # Reference material and investment theory
 ├── scripts/           # Data collection and orchestration scripts
 ├── data/              # Script outputs and analysis artifacts
-├── workspace/         # Session notes and TODO tracking
-└── tests/             # Test files
+└── SESSION_NOTES.md   # Active investigation log and decision tracking
 ```
 
 ## Subindexes
@@ -29,5 +28,4 @@ simple_stock_flow/
 | File | Description |
 |------|-------------|
 | `docs/COMMANDS.md` | CLI command reference and usage examples |
-| `workspace/TODO.md` | Project development roadmap |
-| `workspace/SESSION_NOTES.md` | Development session documentation |
+| `SESSION_NOTES.md` | Active investigation log and decision tracking |

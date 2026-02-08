@@ -4,7 +4,7 @@ This configuration automatically sets up your development environment when you o
 
 ## What Gets Installed
 
-- **Python 3.11** with all project dependencies from `setup/requirements.txt`
+- **Python 3.11** with all project dependencies from `requirements.txt`
 - **Node.js 20** - Required for CLI tools
 - **Claude Code CLI** - Anthropic's AI coding assistant (`claude` command)
 - **Gemini CLI** - Google's AI terminal agent (`gemini` command via `@google/gemini-cli`)
@@ -72,8 +72,8 @@ bash .devcontainer/setup.sh
 - Rebuild the container: Command Palette (Cmd/Ctrl+Shift+P) → "Codespaces: Rebuild Container"
 
 **Package Installation Fails:**
-- Check `setup/requirements.txt` is present
-- Run manually: `pip install -r setup/requirements.txt`
+- Check `requirements.txt` is present
+- Run manually: `pip install -r requirements.txt`
 
 **Claude Code CLI Not Working:**
 - Manual installation: `curl -fsSL https://claude.ai/install.sh | bash`

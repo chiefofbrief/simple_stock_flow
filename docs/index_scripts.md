@@ -47,7 +47,6 @@ Individual scripts save raw JSON data to `data/analysis/{TICKER}/`. Use with `--
 | `news.py` | Wrapper | Orchestrates Perigon + AlphaVantage news collection. Calls individual API scripts and generates combined markdown. **Production script.** | `_news_perigon.json`, `_news_alphavantage.json` | 3 months |
 | `news_perigon.py` | Perigon API | Standalone Perigon news fetcher. Can run independently or via wrapper. | `_news_perigon.json` | 3 months |
 | `news_alphavantage.py` | AlphaVantage API | Standalone AlphaVantage news fetcher. Can run independently or via wrapper. | `_news_alphavantage.json` | 3 months |
-| `news_legacy.py` | Legacy | Original monolithic script (archived - use modular scripts instead). | `_news_perigon.json`, `_news_alphavantage.json` | 3 months |
 
 **Note:** Modular architecture enables running individual news sources independently. Production `news.py` is now the wrapper that orchestrates both APIs.
 
@@ -62,5 +61,5 @@ Individual scripts save raw JSON data to `data/analysis/{TICKER}/`. Use with `--
 | File | Purpose |
 | :--- | :--- |
 | `scripts/shared_utils.py` | Shared logic for API retries, directory management, and date utilities. |
-| `setup/requirements.txt` | Project dependencies. |
-| `setup/COMMANDS.md` | Runbook for all valid CLI commands. |
+| `requirements.txt` | Project dependencies. |
+| `docs/COMMANDS.md` | Runbook for all valid CLI commands. |

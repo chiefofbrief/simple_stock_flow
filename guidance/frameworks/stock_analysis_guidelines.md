@@ -1,16 +1,6 @@
 # Stock Analysis Guidelines
 
-Core principles and their applications. Supplemented by detailed insights in the [Insights Index](../../sources/summaries/insights_index.md).
-
-## How to Use This System
-
-When analyzing or answering questions, consult sources in this order:
-
-1. **Investment Analysis Guidelines** (this document) — Core principles and application criteria
-2. **Insights Index** → **Insight Files** — Detailed frameworks, concepts, and source quotes
-3. **Raw Material** — Original source text when maximum context is needed
-
-Move down the hierarchy only when the higher level doesn't provide sufficient depth.
+Core principles and their applications. For source material navigation and deeper reference, see `docs/CLAUDE.md`.
 
 ---
 
@@ -20,11 +10,15 @@ Move down the hierarchy only when the higher level doesn't provide sufficient de
 Only answer when you have data. If data doesn't exist, say so explicitly—never fill gaps with estimates or assumptions. Ground all interpretations in glossaries or explicitly stated general financial knowledge—never fabricate explanations.
 
 ### GAAP vs. Economic Reality
-GAAP profits ≠ bona fide profits—true profit means owners are wealthier afterward. GAAP systematically understates value for intangible-heavy businesses (R&D, IT, brands) by expensing rather than capitalizing. Book value has fallen from 95% (1978) to ~10% (modern FAANG) of market value. Non-GAAP adjustments often exceed GAAP income by 2x. Remember: the purpose of financial reporting is often to obtain cheap capital, not to present economic reality. Focus on cash generation and economic substance over accounting presentation.
+**Focus on cash generation and economic substance, not accounting presentation.**
+
+GAAP profits ≠ bona fide profits—true profit means owners are wealthier afterward. GAAP systematically understates value for intangible-heavy businesses (R&D, IT, brands) by expensing rather than capitalizing. Book value has fallen from 95% (1978) to ~10% (modern FAANG) of market value. Non-GAAP adjustments often exceed GAAP income by 2x. Remember: the purpose of financial reporting is often to obtain cheap capital, not to present economic reality.
 
 > **Related**: Insights - Chapter 5 (What is Profit), Chapter 8 (EBITDA Limitations), Chapter 14 (Intangibles Problem)
 
 ### Investment vs. Speculation
+**True investment requires both thorough analysis and safety of principal.**
+
 Investment requires both: (1) thorough analysis of value, and (2) safety of principal. Operations failing either test are speculative. True investment occupies middle ground between two speculative extremes:
 
 - Low-quality at low prices (speculative due to doubtful quality)
@@ -35,6 +29,7 @@ At sufficiently low prices, even troubled businesses can become safe investments
 > **Related**: Security Analysis Part IV (Investment vs. Speculation framework)
 
 ### Margin of Safety
+**Buy at a discount to intrinsic value — precision isn't required, a range suffices.**
 
 **Intrinsic Value**: Value justified by assets, earnings, and definite prospects (approximates present value of future cash flows). Precision is unnecessary—establish whether value is adequate, considerably higher, or lower than price. A range suffices, widening with business uncertainty. Historical performance establishes credibility—consistent returns suggest continuation and provide confidence for buying temporary discounts.
 
@@ -43,15 +38,21 @@ At sufficiently low prices, even troubled businesses can become safe investments
 > **Related**: Security Analysis Part IV (Margin of Safety), Financial Statement Analysis Ch. 14 (Valuation methods)
 
 ### Market Pricing
+**Sentiment drives prices, creating opportunities when popularity diverges from value.**
+
 Prices reflect sentiment, not mathematical risk: public attitude → bids/offers → price. Sentiment-driven pricing creates opportunities when popularity diverges from value. Returns aren't inherent to asset classes—they result from fundamentals and prices paid.
 
 ### Analysis Limitations
 Analysis works best for stable businesses, not those with wide variations. Valuing future growth is hazardous—"little of definite value can be said" about determining prospects. Limit analysis depth to match investment importance; accept information gaps when additional data requires disproportionate effort.
 
 ### Opportunity Sources
+**Best opportunities combine high-quality businesses with large but solvable one-time problems.**
+
 Mispricings concentrate in out-of-favor situations: litigation, scandal, distress, disappointment, management upheaval, downgrades. Best opportunities combine high-quality businesses with large but solvable one-time problems—quality limits downside, pessimism creates bargain prices. Distinguish temporary problems (depress prices) from permanent impairments (justify low valuations).
 
 ### The Two Hazards of Forecasting
+**The forecast may be wrong, or it may already be priced in.**
+
 (1) Forecast may be wrong. (2) Even if correct, may already be priced in. Current market price already reflects consensus future prospects—accurate forecasts provide no edge if market already discounts them.
 
 ### EPS Growth Drivers
@@ -60,6 +61,8 @@ Sales appears in both numerator and denominator—cancels out. Sustainable growt
 > **Related**: Financial Statement Analysis Ch. 14 (Sustainable Growth Rate, Du Pont Formula)
 
 ### All Theses Are Flawed
+**The edge is in finding the flaws before the market does.**
+
 That a thesis is flawed does not mean we should not invest—as long as other people believe in it and there is a large group left to be convinced. The edge is in looking for the flaws: if we find them, we can limit losses when the market discovers what we already know. Recognizing flaws that are likely to appear when a hypothesis becomes reality puts you ahead of the game. It is when we are unaware of what could go wrong that we have to worry.
 
 > **Related**: Alchemy Introduction (The Flaw, Fertile Fallacies)
@@ -67,9 +70,6 @@ That a thesis is flawed does not mean we should not invest—as long as other pe
 ---
 
 ## Part II: Stock-Level Application
-
-### Mispricing Candidates
-The best opportunities combine a high-quality business with a large but solvable one-time problem. Quality limits downside while pessimism creates bargain prices. The critical distinction: temporary problems (depress prices) vs. permanent impairments (justify low valuations).
 
 ### Brand Name Dynamics
 Brand name stocks deserve special attention. Because market participants are more likely to hear news about popular companies, these stocks benefit from good news quickly and recover faster than secondary stocks—making them better mispricing candidates when quality remains intact.
@@ -101,7 +101,7 @@ When evaluating individual stocks, watch for:
 
 ---
 
-## Part III: Market-Level Application
+## Part III: Market Context & Indicators
 
 ### Boom/Bust Anatomy
 Watch for reflexive feedback loops where inflated stock prices accelerate an underlying trend, which enhances expectations and inflates prices further—until outcomes fail to sustain expectations.

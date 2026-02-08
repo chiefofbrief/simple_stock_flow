@@ -70,13 +70,13 @@ Deep investigation of screened candidates. Two primary dimensions:
 - Calculate undervaluation and risk metrics (13 priority + 17 secondary)
 - Investigate trends: What's driving earnings? What's constraining them?
 - Check risk levels: credit quality, cash flow, leverage
-- Compare to peers (optional)
+- Compare to peers (optional): use `financial_statements.py --compare PEER1 PEER2` to include peer comparison tables in the output
 
 **Future additions:** Notes to financial statements, MD&A analysis.
 
 **Tools:**
+- Master script: `financial_statements.py` (orchestrates fetch, seeds, metrics, and optional peer comparison)
 - Ticker scripts: `fetch_financials.py`, `calc_seeds.py`, `calc_metrics.py`, `compare_financials.py`
-- Master script: `financial_statements.py`
 - Guidance: `guidance/prompts/statement_analysis.md`, `guidance/frameworks/stock_analysis_guidelines.md`
 
 ---
@@ -88,9 +88,8 @@ The activities above are starting points, not endpoints. After running scripts a
 **How it works:**
 1. Run some or all of the core scripts (identification, screening, analysis)
 2. Review outputs and identify questions or gaps
-3. Use indexes to locate relevant information (sources, additional scripts, data)
-4. Investigate further: web searches, source material consultation, additional API calls, new script creation
-5. Synthesize findings and make decisions
+3. Investigate further using source material, web searches, additional API calls, or new scripts
+4. Synthesize findings and make decisions
 
 **Example scenario:**
 - Market news flags concerns about AI chip supply constraints
@@ -102,7 +101,17 @@ The activities above are starting points, not endpoints. After running scripts a
 - Web search: "NVDA inventory buildup 2026" for recent industry perspective
 - Synthesize: Is this normal lead-time buying or demand weakness?
 
-This iterative process is where the system shines. The indexes, guidance files, and modular scripts enable flexible investigation.
+---
+
+## Source Material
+
+The repository includes reference material from investment and financial analysis texts organized in a hierarchy:
+
+1. **Guidance files** (`guidance/frameworks/`) — Core principles and sector frameworks. Start here.
+2. **Insight summaries** (`sources/summaries/`) — Extracted concepts, frameworks, and source quotes organized by topic. Use `sources/summaries/insights_index.md` as the entry point for navigating by theme.
+3. **Raw material** (`sources/raw/`) — Original full-text sources for maximum context when summaries aren't sufficient.
+
+Move down the hierarchy when the current level doesn't provide enough depth for the question at hand.
 
 ---
 
