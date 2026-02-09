@@ -12,7 +12,7 @@ Usage:
     python scripts/sentiment.py TICKER --all --news-months 1    # Override timeline
 
 Output:
-    data/analysis/{TICKER}/{TICKER}_sentiment.md
+    data/tickers/{TICKER}/{TICKER}_sentiment.md
 """
 
 import argparse
@@ -93,9 +93,9 @@ def save_output(ticker, content):
     """Save aggregated sentiment output to file."""
     # Add parent directory to path for shared_utils
     sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from shared_utils import get_data_directory, ensure_directory_exists
+    from shared_utils import get_writeup_directory, ensure_directory_exists
 
-    output_dir = os.path.join(get_data_directory(ticker), '..', 'analysis', ticker)
+    output_dir = get_writeup_directory(ticker)
     ensure_directory_exists(output_dir)
 
     filename = os.path.join(output_dir, f"{ticker}_sentiment.md")

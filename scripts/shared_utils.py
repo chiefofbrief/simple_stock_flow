@@ -2,11 +2,7 @@
 Shared Utility Functions for Stock Data Preparation Scripts
 ============================================================
 
-Common functions used across all data preparation scripts:
-- SCRIPT_statements.py
-- SCRIPT_notes.py
-- SCRIPT_calls.py
-- SCRIPT_news.py
+Common functions used across data preparation scripts in scripts/ and scripts/ticker/.
 
 This module provides:
 - API request handling with retry logic
@@ -35,21 +31,32 @@ API_CALL_DELAY = 13  # seconds - proactive delay between API calls (safe for fre
 # ============================================================================
 
 def get_data_directory(ticker, target_ticker=None):
-    """Get the data directory for a ticker using nested structure under data/analysis/
+    """Get the raw data directory for a ticker.
 
     Args:
         ticker: The ticker to get directory for
         target_ticker: The target (main) ticker. If None, assumes ticker is target.
 
     Returns:
-        Path to data directory (nested if ticker is a peer)
+        Path to raw data directory (e.g., data/tickers/TICKER/raw)
     """
-    base_dir = os.path.join("data", "analysis")
+    base_dir = os.path.join("data", "tickers")
     if target_ticker is None or ticker == target_ticker:
-        return os.path.join(base_dir, ticker)
+        return os.path.join(base_dir, ticker, "raw")
     else:
         # Peer ticker - nest under target
-        return os.path.join(base_dir, target_ticker, ticker)
+        return os.path.join(base_dir, target_ticker, ticker, "raw")
+
+def get_writeup_directory(ticker):
+    """Get the write-up directory for a ticker (top level of ticker folder).
+
+    Args:
+        ticker: The ticker to get directory for
+
+    Returns:
+        Path to write-up directory (e.g., data/tickers/TICKER)
+    """
+    return os.path.join("data", "tickers", ticker)
 
 def ensure_directory_exists(directory):
     """Create directory if it doesn't exist
@@ -205,7 +212,7 @@ def create_or_update_tracking(ticker, target_ticker, analysis_type, key_findings
         analysis_type: Type of analysis (e.g., "Earnings Call Data Preparation")
         key_findings: List of strings describing key findings/actions
     """
-    data_dir = get_data_directory(ticker, target_ticker)
+    data_dir = get_writeup_directory(ticker if target_ticker is None else target_ticker)
     tracking_file = os.path.join(data_dir, f"{ticker}_tracking.md")
 
     # Create tracking file if it doesn't exist

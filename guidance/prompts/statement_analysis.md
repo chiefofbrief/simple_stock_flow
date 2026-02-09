@@ -15,6 +15,12 @@
 - `../glossaries/priority_metrics.md` - Interpretation guidance for 13 priority metrics (8 undervaluation + 5 risk)
 - `../glossaries/secondary_metrics.md` - Interpretation guidance for 17 secondary metrics
 
+**Prior Analyses (if available):**
+- Screening analysis (from `data/screening/Daily_Screening_YYYY-MM-DD.txt`)
+- Sentiment analysis (from `data/tickers/{TICKER}/{TICKER}_sentiment.md`)
+
+If prior analyses exist, review them before starting. Identify claims, concerns, or investigation items flagged in earlier steps — these provide context for interpreting financial data and should be addressed in the synthesis (Pass 4).
+
 ---
 
 ## Analysis Framework: Three-Dimension Analysis
@@ -121,12 +127,14 @@ Provide a comprehensive narrative addressing:
 - How does the company compare to peers? (If available)
 
 ### Investigation Items
-Based on the analysis, identify items requiring further investigation:
 
-**From Financial Analysis:**
-- What questions does the data raise?
+**From Prior Analyses (if available):**
+- What claims or concerns from screening/sentiment are confirmed, challenged, or unresolved by the financial data?
+- Where does financial reality diverge from market perception?
+
+**From This Analysis:**
+- What new questions does the financial data raise?
 - What patterns need explanation or validation?
-- Are there claims in news/sentiment that can be disputed using this data?
 
 **Guidance on Investigation Items:**
 - Favor slightly broader categories over overly specific items
@@ -148,7 +156,7 @@ Based on the analysis, identify items requiring further investigation:
 
 ## Output
 
-**Append to TOP of:** `data/analysis/{TICKER}/{TICKER}_statements.md`
+**Append to TOP of:** `data/tickers/{TICKER}/{TICKER}_statements.md`
 
 Read the existing file first, then prepend your analysis with a date header separator:
 

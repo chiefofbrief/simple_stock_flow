@@ -18,8 +18,8 @@ Usage:
     python earnings.py TICKER [TICKER ...]
 
 Output:
-    data/analysis/{TICKER}/{TICKER}_earnings.json
-    data/analysis/{TICKER}/{TICKER}_earnings.txt
+    data/tickers/{TICKER}/raw/{TICKER}_earnings.json
+    data/tickers/{TICKER}/raw/{TICKER}_earnings.txt
 """
 
 import sys

@@ -16,11 +16,11 @@ Usage:
     python valuation.py TICKER [TICKER ...]
 
 Output:
-    data/analysis/{TICKER}/{TICKER}_valuation.json
-    data/analysis/{TICKER}/{TICKER}_valuation.txt
+    data/tickers/{TICKER}/raw/{TICKER}_valuation.json
+    data/tickers/{TICKER}/raw/{TICKER}_valuation.txt
 
     When multiple tickers provided:
-    data/analysis/Daily_Screening_YYYY-MM-DD.txt (aggregated)
+    data/screening/Daily_Screening_YYYY-MM-DD.txt (aggregated)
 """
 
 import sys
@@ -289,7 +289,7 @@ def create_aggregated_screening_report(tickers):
         tickers: List of ticker symbols that were processed
     """
     today = datetime.now().strftime("%Y-%m-%d")
-    output_path = os.path.join("data", "analysis", f"Daily_Screening_{today}.txt")
+    output_path = os.path.join("data", "screening", f"Daily_Screening_{today}.txt")
 
     lines = []
     lines.append("=" * 80)

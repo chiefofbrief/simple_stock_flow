@@ -10,7 +10,7 @@ Usage:
 Example:
     python news.py IBM --months 3
 
-Outputs (in data/stocks/{TICKER}/ folder):
+Outputs (in data/tickers/{TICKER}/raw/ folder):
     - {TICKER}_news_perigon.json - Perigon Stories results
     - {TICKER}_news_alphavantage.json - AlphaVantage NEWS_SENTIMENT results
     - {TICKER}_news_formatted.md - Human-readable formatted markdown combining both sources

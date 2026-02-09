@@ -12,6 +12,25 @@ You're working with a system that combines **pre-built workflows** with **flexib
 
 ---
 
+## Default Workflow
+
+The standard analysis pipeline progresses through these steps. Each step builds on prior findings — later analyses should review and reference earlier results.
+
+1. **News Analysis** — Identify candidate tickers from market news. User may add or substitute tickers.
+2. **Screening** — Quick price and earnings filter to assess whether candidates warrant deeper analysis.
+3. **Sentiment Analysis** — News and social media perception. Informed by screening context.
+4. **Financial Statement Analysis** — Fundamental assessment of value drivers, risk, and earnings quality. Informed by screening and sentiment findings.
+5. **Notes & MD&A Analysis** — SEC filing investigation targeting items raised in steps 3–4, plus disclosure-level red flags.
+
+**This is a default, not a rigid pipeline.** Steps can be reordered, skipped, or repeated as the situation demands. The system is expected to:
+
+- **Complete the current step** before branching into follow-ups
+- **Suggest follow-up analyses or intermediate steps** when the data warrants it (e.g., a claim in sentiment that can be checked with a quick script run before moving to statement analysis)
+- **Use existing scripts or create new ones** to fetch data that supports the analysis — the repo is built modularly for this purpose
+- **Flag when earlier findings materially affect later interpretation** (e.g., sentiment flags margin pressure → statement analysis should investigate margin trends specifically)
+
+---
+
 ## Core Activities
 
 ### 1. Identification
@@ -46,7 +65,7 @@ We're looking for downtrends to avoid or uptrends with remaining upside. Screeni
 
 ### 3. Analysis
 
-Deep investigation of screened candidates. Two primary dimensions:
+Deep investigation of screened candidates. Three dimensions:
 
 #### A. Sentiment Analysis
 **Purpose:** Understand market perception and external narratives.
@@ -72,12 +91,22 @@ Deep investigation of screened candidates. Two primary dimensions:
 - Check risk levels: credit quality, cash flow, leverage
 - Compare to peers (optional): use `financial_statements.py --compare PEER1 PEER2` to include peer comparison tables in the output
 
-**Future additions:** Notes to financial statements, MD&A analysis.
-
 **Tools:**
 - Master script: `financial_statements.py` (orchestrates fetch, seeds, metrics, and optional peer comparison)
 - Ticker scripts: `fetch_financials.py`, `calc_seeds.py`, `calc_metrics.py`, `compare_financials.py`
 - Guidance: `guidance/prompts/statement_analysis.md`, `guidance/frameworks/stock_analysis_guidelines.md`
+
+#### C. Notes & MD&A Analysis
+**Purpose:** Investigate SEC filing disclosures to address open questions from prior analyses and surface disclosure-level risks.
+
+**Approach:** Search MD&A and Notes to Financial Statements (10-K and 10-Q) to:
+- Address investigation items raised by statement and sentiment analyses
+- Scan for disclosure red flags (contingent liabilities, off-balance-sheet items, revenue recognition changes, etc.)
+- Compare management narrative (MD&A) with accounting detail (Notes)
+
+**Tools:**
+- Ticker script: `sec_filings.py` (fetches and extracts SEC filings from EDGAR)
+- Guidance: `guidance/prompts/notes_analysis.md`, `guidance/glossaries/notes.md`
 
 ---
 
@@ -149,4 +178,5 @@ Flexibility is the goal. Some sessions will follow the full identification → s
 
 - **Investigation items:** During analysis, flag questions or gaps in `{TICKER}_tracking.md` for resolution through multiple data sources
 - **Objectivity:** Never introduce external knowledge or opinions on financial/stock analysis beyond what's in the data, sources, or established financial theory
+- **Explain before acting autonomously:** You are expected to seek additional data, run scripts, make API calls, or create new scripts when the analysis calls for it—that's why the repo is built modularly. The requirement is: before starting autonomous preparation or analysis, explain *what* you plan to do and *why* the data or computation is needed, so the user is aware and can provide feedback on the approach.
 - **Iteration expected:** Prompts and guidance files are drafts. We'll refine them through actual use.

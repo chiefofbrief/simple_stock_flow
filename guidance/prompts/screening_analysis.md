@@ -46,7 +46,7 @@ Address the following questions for each ticker. Use evidence from the data and 
 
 ## Output
 
-**Append to TOP of:** `data/analysis/Daily_Screening_YYYY-MM-DD.txt`
+**Append to TOP of:** `data/screening/Daily_Screening_YYYY-MM-DD.txt`
 
 Read the existing Daily_Screening file first, then prepend your analysis with a date header separator:
 

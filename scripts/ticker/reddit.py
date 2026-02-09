@@ -41,7 +41,7 @@ FILTERING LOGIC:
 
 OUTPUT:
     - Terminal: Formatted display with post title, stats, URL, body preview
-    - File: data/stocks/{TICKER}/reddit_{timestamp}.json
+    - File: data/tickers/{TICKER}/raw/{TICKER}_reddit_{timestamp}.json
 
 API COST:
     - Credit check: 0 credits
@@ -49,7 +49,7 @@ API COST:
     - Example: 5 tickers = 15 credits = $0.072
 
 EXAMPLE OUTPUT:
-    data/stocks/TSLA/reddit_2026-02-01_15-30-45.json
+    data/tickers/TSLA/raw/TSLA_reddit_2026-02-01_15-30-45.json
 
 FEATURES:
     - Smart engagement filtering (quality over quantity)

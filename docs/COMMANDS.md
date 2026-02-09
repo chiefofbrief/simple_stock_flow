@@ -47,7 +47,7 @@ python scripts/discovery.py --macro
 Fetch statements, calculate seeds and metrics, generate markdown report.
 
 ```bash
-# Single ticker - outputs to data/analysis/{TICKER}/{TICKER}_statements.md
+# Single ticker - outputs to data/tickers/{TICKER}/{TICKER}_statements.md
 python scripts/financial_statements.py AAPL
 
 # With peer comparison (3-ticker tables)
@@ -110,6 +110,9 @@ python scripts/ticker/fetch_financials.py AAPL
 python scripts/ticker/calc_seeds.py AAPL
 python scripts/ticker/calc_metrics.py AAPL
 python scripts/ticker/compare_financials.py AAPL MSFT GOOGL
+
+# SEC filings (10-K and 10-Q from EDGAR)
+python scripts/ticker/sec_filings.py AAPL
 ```
 
 **Note:** Master scripts are recommended for standard workflows. Individual scripts provide flexibility for custom analysis pipelines.

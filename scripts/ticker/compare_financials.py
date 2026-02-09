@@ -20,6 +20,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from shared_utils import (
     get_data_directory,
+    get_writeup_directory,
     load_json
 )
 
@@ -153,7 +154,7 @@ def main():
     md += build_metric_table(target, p1, p2, t_data, p1_data, p2_data, "Free Cash Flow", "free_cashflow", "metrics", "dollars")
     md += build_metric_table(target, p1, p2, t_data, p1_data, p2_data, "ROTC", "rotc", "metrics", "percent")
 
-    output_path = os.path.join(get_data_directory(target), f"{target}_comparison.md")
+    output_path = os.path.join(get_writeup_directory(target), f"{target}_comparison.md")
     with open(output_path, "w") as f:
         f.write(md)
     print(f"✓ Comparison report generated: {output_path}")

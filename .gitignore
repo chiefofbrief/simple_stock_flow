@@ -17,15 +17,12 @@ data/discovery/*
 data/screening/*
 !data/screening/Daily_Screening_*.txt
 
-# Data Analysis
-# Ignore raw data files (JSON) but allow analysis summaries (.md, .txt)
-data/analysis/*/*.json              # Raw JSON data in ticker subdirs
-data/analysis/*/*/*.json            # Raw JSON data in nested subdirs (peers)
-data/analysis/*/*_prices.txt        # Intermediate price output files
-data/analysis/*/*_earnings.txt      # Intermediate earnings output files
+# Data Tickers
+# Ignore raw data subdirectory entirely
+data/tickers/*/raw/
+data/tickers/*/*/raw/               # Peer ticker raw data
 
-# Track these analysis outputs:
-# - data/analysis/TICKER/TICKER_statements.md
-# - data/analysis/TICKER/TICKER_sentiment.md
-# - data/analysis/TICKER/TICKER_valuation.txt
+# Track these write-up outputs:
+# - data/tickers/TICKER/TICKER_statements.md
+# - data/tickers/TICKER/TICKER_sentiment.md
 # - data/screening/Daily_Screening_YYYY-MM-DD.txt

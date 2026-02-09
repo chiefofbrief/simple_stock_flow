@@ -10,7 +10,7 @@ Usage:
 Example:
     python news_alphavantage.py IBM --months 3
 
-Outputs (in data/stocks/{TICKER}/ folder):
+Outputs (in data/tickers/{TICKER}/raw/ folder):
     - {TICKER}_news_alphavantage.json - AlphaVantage NEWS_SENTIMENT results with time-based aggregations
 
 Output Structure:
@@ -258,7 +258,7 @@ def main():
     """Fetch and save news data from AlphaVantage API
 
     Requires ALPHAVANTAGE_API_KEY environment variable.
-    Outputs JSON file to data/stocks/{TICKER}/ directory.
+    Outputs JSON file to data/tickers/{TICKER}/raw/ directory.
     """
     parser = argparse.ArgumentParser(description="AlphaVantage News Data Tool")
     parser.add_argument('target', type=str, help='Target company ticker')

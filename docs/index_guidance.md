@@ -21,22 +21,13 @@ Structured prompts designed for `@[prompt file]` invocation with script outputs.
 | `screening_analysis.md` | Preliminary screening: price behavior, earnings trends, price-earnings correlation, P/E positioning. Filter to identify candidates worth deeper analysis. | `prices.py`, `earnings.py`, `valuation.py` |
 | `sentiment_analysis.md` | Multi-source sentiment synthesis: cross-source themes, material events, narrative validation, perception vs. reality gaps, investigation items. | `sentiment.py` master output |
 | `statement_analysis.md` | Deep financial analysis: 8 projection seeds, 13 priority metrics (8 undervaluation + 5 risk), 17 secondary metrics. Three-dimension framework (absolute/trends/volatility). | `financial_statements.py` master output |
+| `notes_analysis.md` | Notes & MD&A disclosure analysis: investigation-driven search of SEC filings, red flag scan, synthesis. Builds on prior statement and sentiment analyses. | `sec_filings.py` output + prior analyses |
 
 ---
 
-## Typical Workflow Sequence
+## Workflow Sequence
 
-From `docs/CLAUDE.md`:
-
-```
-Discovery → Screening → Analysis (Sentiment + Fundamentals) → Iterative Investigation
-```
-
-1. **Discovery** - `discovery.py` → `guidance/prompts/news_analysis.md`
-2. **Screening** - `prices.py`, `earnings.py`, `valuation.py` → `guidance/prompts/screening_analysis.md`
-3. **Sentiment Analysis** - `sentiment.py` → `guidance/prompts/sentiment_analysis.md`
-4. **Fundamental Analysis** - `financial_statements.py` → `guidance/prompts/statement_analysis.md`
-5. **Iterative Investigation** - Use indexes, sources, and additional tools
+See **`docs/CLAUDE.md` → Default Workflow** for the standard 5-step pipeline and system initiative expectations.
 
 ---
 
@@ -63,13 +54,15 @@ Referenced by analysis prompts for metric interpretation.
 | `seeds.md` | Interpretation guidance for 8 projection seeds |
 | `priority_metrics.md` | Interpretation guidance for 13 priority metrics |
 | `secondary_metrics.md` | Interpretation guidance for 17 secondary metrics |
+| `notes.md` | Search terms, red flag patterns, and interpretation guidance for disclosure analysis |
 
 ---
 
 ## Analysis Output Conventions
 
-Outputs are saved to `data/analysis/{TICKER}/`:
-- Screening analysis: Typically displayed in terminal (not saved)
-- Statement analysis: `{TICKER}_ANALYSIS_statement.md`
-- Sentiment analysis: `{TICKER}_ANALYSIS_sentiment.md`
+Outputs are saved to `data/tickers/{TICKER}/`:
+- Screening analysis: Prepended to `data/screening/Daily_Screening_YYYY-MM-DD.txt`
+- Statement analysis: Prepended to `{TICKER}_statements.md`
+- Sentiment analysis: Prepended to `{TICKER}_sentiment.md`
+- Notes & MD&A analysis: Prepended to `{TICKER}_notes_mda.md`
 - News analysis: Appended to discovery digest or separate file

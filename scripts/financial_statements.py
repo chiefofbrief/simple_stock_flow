@@ -9,7 +9,7 @@ Orchestrates the complete financial statements analysis pipeline:
 3. Calculates 30+ financial metrics (13 priority + 17 secondary)
 4. Generates markdown comparison tables
 
-Outputs structured markdown analysis to data/analysis/{TICKER}/{TICKER}_statements.md
+Outputs structured markdown analysis to data/tickers/{TICKER}/{TICKER}_statements.md
 
 Usage:
     python financial_statements.py TICKER
@@ -31,6 +31,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from shared_utils import (
     get_data_directory,
+    get_writeup_directory,
     ensure_directory_exists,
     load_json
 )
@@ -449,8 +450,8 @@ Examples:
     # Generate markdown
     markdown = generate_markdown(target, target_data, peer_data_list if peer_data_list else None)
 
-    # Save to data/analysis/{TICKER}/{TICKER}_statements.md
-    analysis_dir = os.path.join(get_data_directory(target), '..', '..', 'analysis', target)
+    # Save to data/tickers/{TICKER}/{TICKER}_statements.md
+    analysis_dir = get_writeup_directory(target)
     ensure_directory_exists(analysis_dir)
 
     output_path = os.path.join(analysis_dir, f"{target}_statements.md")

@@ -10,7 +10,7 @@ Usage:
 Example:
     python news_perigon.py IBM --months 3
 
-Outputs (in data/stocks/{TICKER}/ folder):
+Outputs (in data/tickers/{TICKER}/raw/ folder):
     - {TICKER}_news_perigon.json - Perigon Stories results with time-based aggregations
 
 Output Structure:
@@ -276,7 +276,7 @@ def main():
     """Fetch and save news data from Perigon API
 
     Requires PERIGON_API_KEY environment variable.
-    Outputs JSON file to data/stocks/{TICKER}/ directory.
+    Outputs JSON file to data/tickers/{TICKER}/raw/ directory.
     """
     parser = argparse.ArgumentParser(description="Perigon News Data Tool")
     parser.add_argument('target', type=str, help='Target company ticker')

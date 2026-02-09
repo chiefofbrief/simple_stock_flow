@@ -12,6 +12,11 @@
 **Available Data:**
 - `{TICKER}_sentiment.md` - Aggregated sentiment from master script
 
+**Prior Analyses (if available):**
+- Screening analysis (from `data/screening/Daily_Screening_YYYY-MM-DD.txt`)
+
+If screening analysis exists for this ticker, review it before starting. Price behavior and earnings context help calibrate whether sentiment aligns with or diverges from actual financial performance.
+
 **Data Sources:**
 - **News** (3-month default): Institutional and analytical perspective
 - **Reddit** (30-day default): Retail investor perspective
@@ -89,7 +94,7 @@ Provide a narrative assessment addressing:
 
 ## Output
 
-**Append to TOP of:** `data/analysis/{TICKER}/{TICKER}_sentiment.md`
+**Append to TOP of:** `data/tickers/{TICKER}/{TICKER}_sentiment.md`
 
 Read the existing file first, then prepend your analysis with a date header separator:
 

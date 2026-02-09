@@ -434,7 +434,7 @@ Examples:
     )
     parser.add_argument('--max-videos', type=int, default=20, help='Maximum videos to fetch (default: 20)')
     parser.add_argument('--no-details', action='store_true', help='Skip fetching video details and transcripts')
-    parser.add_argument('--output', help='Output file path (default: data/tiktok/{ticker}_{timestamp}.json)')
+    parser.add_argument('--output', help='Output file path (default: data/tickers/{TICKER}/raw/{TICKER}_tiktok_{timestamp}.json)')
     parser.add_argument('--markdown', action='store_true',
                        help='Output markdown to stdout (for master script aggregation)')
 

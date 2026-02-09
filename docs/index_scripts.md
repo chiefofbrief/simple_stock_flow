@@ -8,8 +8,8 @@ Orchestration scripts that wrap individual modules for specific workflows.
 | File | Purpose |
 | :--- | :--- |
 | `scripts/discovery.py` | Generates Market Discovery digests (Daily/Weekly). Supports `--daily`, `--weekly`, and individual module flags. |
-| `scripts/sentiment.py` | Aggregates sentiment analysis from news and social media sources. Outputs to `data/analysis/{TICKER}/{TICKER}_sentiment.md`. Supports `--all` or individual source flags with timeline overrides. |
-| `scripts/financial_statements.py` | Orchestrates financial statements analysis: fetches raw data, calculates seeds and metrics, generates comparison tables. Outputs to `data/analysis/{TICKER}/{TICKER}_statements.md`. Supports optional `--compare PEER1 PEER2` for peer comparison. |
+| `scripts/sentiment.py` | Aggregates sentiment analysis from news and social media sources. Outputs to `data/tickers/{TICKER}/{TICKER}_sentiment.md`. Supports `--all` or individual source flags with timeline overrides. |
+| `scripts/financial_statements.py` | Orchestrates financial statements analysis: fetches raw data, calculates seeds and metrics, generates comparison tables. Outputs to `data/tickers/{TICKER}/{TICKER}_statements.md`. Supports optional `--compare PEER1 PEER2` for peer comparison. |
 
 ## 2. Market Scripts (`scripts/market/`)
 Broad market scans used for discovery and trend identification.
@@ -24,7 +24,7 @@ Broad market scans used for discovery and trend identification.
 | `reddit.py` | SociaVault API | Top posts from r/ValueInvesting, r/stocks, and r/options. |
 
 ## 3. Ticker Scripts (`scripts/ticker/`)
-Deep-dive analysis tools for individual stocks. Outputs are saved to `data/analysis/{TICKER}/`.
+Deep-dive analysis tools for individual stocks. Outputs are saved to `data/tickers/{TICKER}/`.
 
 ### Fundamentals & Valuation
 | File | Purpose | Key Outputs |
@@ -35,11 +35,12 @@ Deep-dive analysis tools for individual stocks. Outputs are saved to `data/analy
 | `prices.py` | Fetches price history; calculates 1-mo/1-yr returns, 5-yr CAGR, and Price vs 5-yr Avg. Supports batch processing. | `_prices.json`, `_prices.txt` |
 | `earnings.py` | Fetches EPS history and consensus; calculates "Forward Delta" and "Stability (CV)". Supports batch processing. | `_earnings.json`, `_earnings.txt` |
 | `compare_financials.py` | Standalone peer comparison tool (also integrated into `financial_statements.py` master script). | Markdown table |
+| `sec_filings.py` | Fetches latest 10-K and 10-Q from SEC EDGAR, extracts MD&A and Notes sections, generates consolidated markdown. | `_10k_mda.txt`, `_10k_notes.txt`, `_10q_mda.txt`, `_10q_notes.txt`, `_filings_metadata.json`, `_notes_mda.md` |
 
 **Note:** `valuation.py` is located in `scripts/` (master script level) as it's used for preliminary screening.
 
 ### Sentiment & Social
-Individual scripts save raw JSON data to `data/analysis/{TICKER}/`. Use with `--markdown` flag for master script aggregation. Timeline defaults: news (3 months), reddit (30 days), social media (this-month).
+Individual scripts save raw JSON data to `data/tickers/{TICKER}/`. Use with `--markdown` flag for master script aggregation. Timeline defaults: news (3 months), reddit (30 days), social media (this-month).
 
 #### News Scripts (Modular)
 | File | Data Source | Purpose | Output | Default Lookback |

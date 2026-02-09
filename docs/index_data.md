@@ -8,7 +8,9 @@ Script outputs and analysis artifacts. Directory structure and file naming conve
 data/
 ├── discovery/               # Market discovery digests
 ├── screening/               # Multi-ticker screening outputs
-└── analysis/{TICKER}/       # Ticker-specific analysis and raw data
+└── tickers/{TICKER}/        # Ticker-specific write-ups and raw data
+    ├── *.md                 #   Analysis write-ups (top level)
+    └── raw/                 #   Raw script outputs (JSON, txt)
 ```
 
 ---
@@ -30,7 +32,7 @@ data/
 
 ---
 
-## Ticker Raw Data (`data/analysis/{TICKER}/`)
+## Ticker Raw Data (`data/tickers/{TICKER}/raw/`)
 
 ### Fundamentals & Valuation
 
@@ -43,6 +45,18 @@ data/
 | `{TICKER}_prices.txt` | `prices.py` | Text | Human-readable price summary |
 | `{TICKER}_earnings.json` | `earnings.py` | JSON | EPS history, consensus estimates, Forward Delta, Stability (CV) |
 | `{TICKER}_earnings.txt` | `earnings.py` | Text | Human-readable earnings summary |
+
+### SEC Filings
+
+| File Pattern | Source Script | Format | Description |
+|--------------|---------------|--------|-------------|
+| `{TICKER}_10k_latest.html` | `sec_filings.py` | HTML | Full 10-K annual report |
+| `{TICKER}_10q_latest.html` | `sec_filings.py` | HTML | Full 10-Q quarterly report |
+| `{TICKER}_10k_mda.txt` | `sec_filings.py` | Text | MD&A section extracted from 10-K |
+| `{TICKER}_10k_notes.txt` | `sec_filings.py` | Text | Notes to Financial Statements from 10-K |
+| `{TICKER}_10q_mda.txt` | `sec_filings.py` | Text | MD&A section extracted from 10-Q |
+| `{TICKER}_10q_notes.txt` | `sec_filings.py` | Text | Notes to Financial Statements from 10-Q |
+| `{TICKER}_filings_metadata.json` | `sec_filings.py` | JSON | Filing dates, accession numbers, section statistics |
 
 ### Sentiment & Social
 
@@ -58,7 +72,7 @@ Individual source files (raw JSON). Use `--markdown` flag for formatted intermed
 
 ---
 
-## Analysis Outputs (`data/analysis/{TICKER}/`)
+## Analysis Outputs (`data/tickers/{TICKER}/`)
 
 Master script outputs and LLM analysis documents.
 
@@ -66,11 +80,10 @@ Master script outputs and LLM analysis documents.
 |--------------|--------|--------|-------------|
 | `{TICKER}_statements.md` | `financial_statements.py` | Markdown | Consolidated financial analysis: seeds, metrics, comparison tables, peer analysis (if `--compare` used) |
 | `{TICKER}_sentiment.md` | `sentiment.py` | Markdown | Aggregated sentiment from all sources: news, Reddit, TikTok, YouTube |
+| `{TICKER}_notes_mda.md` | `sec_filings.py` | Markdown | Consolidated SEC filing text: MD&A + Notes from 10-K and 10-Q with section summary |
 | `{TICKER}_tracking.md` | Manual/LLM | Markdown | Investigation items flagged during analysis, cross-referenced across data sources |
-| `{TICKER}_ANALYSIS_screening.md` | LLM analysis | Markdown | Screening analysis output (typically not saved, terminal display) |
-| `{TICKER}_ANALYSIS_statement.md` | LLM analysis | Markdown | Deep financial statement analysis |
-| `{TICKER}_ANALYSIS_news.md` | LLM analysis | Markdown | News coverage analysis |
-| `{TICKER}_ANALYSIS_sentiment.md` | LLM analysis | Markdown | Multi-source sentiment analysis |
+
+LLM analyses are prepended to their corresponding data files (e.g., statement analysis is prepended to `{TICKER}_statements.md`). Screening analysis is prepended to `data/screening/Daily_Screening_YYYY-MM-DD.txt`.
 
 ---
 
@@ -83,15 +96,15 @@ Master script outputs and LLM analysis documents.
   - `.json` - Structured data
   - `.txt` - Human-readable summaries
   - `.md` - Formatted reports and analysis
-  - `_ANALYSIS_` - LLM-generated analysis documents
+  - LLM analyses are prepended to their data files (no separate `_ANALYSIS_` files)
 
 ---
 
 ## Data Flow
 
 ```
-Individual Scripts → data/analysis/{TICKER}/   (raw JSON/text)
-Master Scripts     → data/analysis/{TICKER}/   (consolidated markdown)
-LLM Analysis       → data/analysis/{TICKER}/   (analysis markdown)
+Individual Scripts → data/tickers/{TICKER}/raw/  (raw JSON/text)
+Master Scripts     → data/tickers/{TICKER}/     (consolidated markdown)
+LLM Analysis       → data/tickers/{TICKER}/     (analysis markdown)
 Screening Scripts  → data/screening/           (multi-ticker results)
 ```

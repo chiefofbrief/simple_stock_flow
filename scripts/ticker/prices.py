@@ -18,8 +18,8 @@ Usage:
     python prices.py TICKER [TICKER ...]
 
 Output:
-    data/analysis/{TICKER}/{TICKER}_prices.json
-    data/analysis/{TICKER}/{TICKER}_prices.txt
+    data/tickers/{TICKER}/raw/{TICKER}_prices.json
+    data/tickers/{TICKER}/raw/{TICKER}_prices.txt
 """
 
 import sys
