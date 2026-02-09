@@ -6,4 +6,4 @@ beautifulsoup4
 html2text
 lxml
 curl_cffi
-google-generativeai
+google-genai

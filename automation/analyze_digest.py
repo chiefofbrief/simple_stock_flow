@@ -5,7 +5,7 @@ Analyze Market Digest & Send Email
 
 This script:
 1. Reads a generated market digest (Markdown).
-2. Uses the Gemini API (google-generativeai) to analyze the data.
+2. Uses the Gemini API (google-genai SDK) to analyze the data.
 3. Inserts the analysis into the digest.
 4. Emails the final report via Gmail SMTP.
 
@@ -22,13 +22,15 @@ import smtplib
 from datetime import datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
 
-GEMINI_MODEL = "gemini-1.5-flash"
+# Using the latest model as requested
+GEMINI_MODEL = "gemini-3.0-pro"
 
 # File Paths
 PROMPT_PATH = "guidance/prompts/news_analysis.md"
@@ -82,8 +84,8 @@ def main():
         print("Error: No digest content found in stdin.")
         sys.exit(1)
 
-    # 3. Prepare AI
-    genai.configure(api_key=api_key)
+    # 3. Prepare AI Client
+    client = genai.Client(api_key=api_key)
     
     news_prompt = load_file(PROMPT_PATH)
     general_guidelines = load_file(GENERAL_GUIDELINES_PATH)
@@ -99,19 +101,14 @@ def main():
 {ai_guidelines}
 """
     
-    model = genai.GenerativeModel(
-        model_name=GEMINI_MODEL,
-        system_instruction=system_instruction
-    )
-
     # 4. Analyze
     print(f"Analyzing market data with {GEMINI_MODEL}...")
     try:
-        # Use a raw string or escaped newlines to ensure syntax is correct
-        prompt_text = f"DATA INTAKE:\n\n{digest_content}"
-        response = model.generate_content(
-            prompt_text,
-            generation_config=genai.types.GenerationConfig(
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=f"DATA INTAKE:\n\n{digest_content}",
+            config=types.GenerateContentConfig(
+                system_instruction=system_instruction,
                 temperature=0.2,
             )
         )
@@ -125,7 +122,6 @@ def main():
         sys.exit(1)
 
     # 5. Reconstruct Digest
-    # Split by newline and rejoin with newlines
     lines = digest_content.split('\n')
     header = lines[:3]
     rest = lines[3:]
