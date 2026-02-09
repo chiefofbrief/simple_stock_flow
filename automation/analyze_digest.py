@@ -107,10 +107,10 @@ def main():
     # 4. Analyze
     print(f"Analyzing market data with {GEMINI_MODEL}...")
     try:
+        # Use a raw string or escaped newlines to ensure syntax is correct
+        prompt_text = f"DATA INTAKE:\n\n{digest_content}"
         response = model.generate_content(
-            f"DATA INTAKE:
-
-{digest_content}",
+            prompt_text,
             generation_config=genai.types.GenerationConfig(
                 temperature=0.2,
             )
@@ -125,21 +125,12 @@ def main():
         sys.exit(1)
 
     # 5. Reconstruct Digest
-    # Prompt asks to append below the main "Peter's Digest" header (first 3 lines in discovery.py)
-    lines = digest_content.split('
-')
+    # Split by newline and rejoin with newlines
+    lines = digest_content.split('\n')
     header = lines[:3]
     rest = lines[3:]
     
-    final_report = "
-".join(header) + "
-
-" + analysis + "
-
----
-
-" + "
-".join(rest)
+    final_report = "\n".join(header) + "\n\n" + analysis + "\n\n---\n\n" + "\n".join(rest)
 
     # 6. Save locally (backup)
     os.makedirs("data/discovery", exist_ok=True)
