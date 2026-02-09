@@ -30,7 +30,7 @@ from google.genai import types
 # ============================================================================
 
 # Using the specific preview model string for Gemini 3.0 Pro
-GEMINI_MODEL = "gemini-3.0-pro-preview-001"
+GEMINI_MODEL = "gemini-3-pro-preview"
 
 # File Paths
 PROMPT_PATH = "guidance/prompts/news_analysis.md"
