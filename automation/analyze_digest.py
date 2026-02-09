@@ -29,8 +29,8 @@ from google.genai import types
 # CONFIGURATION
 # ============================================================================
 
-# Using the latest model as requested
-GEMINI_MODEL = "gemini-3.0-pro"
+# Using the specific preview model string for Gemini 3.0 Pro
+GEMINI_MODEL = "gemini-3.0-pro-preview-001"
 
 # File Paths
 PROMPT_PATH = "guidance/prompts/news_analysis.md"
