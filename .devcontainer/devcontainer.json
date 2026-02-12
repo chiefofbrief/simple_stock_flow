@@ -5,6 +5,13 @@
   "postCreateCommand": "bash .devcontainer/setup.sh",
 
   "customizations": {
+    "codespaces": {
+      "repositories": {
+        "chiefofbrief/social_media": {
+          "permissions": "write-all"
+        }
+      }
+    },
     "vscode": {
       "extensions": [
         "ms-python.python",

@@ -1,0 +1,1038 @@
+===================================================================
+SCREENING ANALYSIS - 2026-02-11
+===================================================================
+
+COMPARATIVE SUMMARY
+-------------------------------------------------------------------
+Ticker | Price vs 5yr Avg | EPS CAGR (5yr)  | P/E vs Avg | PE-Price Corr | Key Observation
+-------|------------------|-----------------|------------|---------------|----------------
+CRM    | -17.4%           | +12.9%          | -45.6%     | 0.53          | Brand name at deep P/E discount; EPS peaked and declining
+NOW    | -20.7%           | +39.8%          | -62.2%     | 0.56          | Strongest EPS growth; largest P/E compression
+KD     | -47.3%           | N/A (losses)    | -74.5%     | 0.86          | Turnaround destroyed; SEC + mgmt exodus
+IT     | -53.9%           | +2.1%           | -50.4%     | 0.76          | Anomalous Q3 EPS collapse needs explanation
+CLVT   | -80.9%           | -21.3%          | -68.3%     | 0.32          | Chronic value destruction; earnings deteriorating
+QCOM   | -0.4%            | -1.0% (cycl.)   | -13.8%     | -0.18         | Fairly priced cyclical; no significant dislocation
+ARM    | +1.7%            | -6.7% (short)   | -15.9%     | -1.00         | 73x P/E; price rises as EPS falls; speculative
+
+-------------------------------------------------------------------
+
+TIER 1 — WORTH DEEPER ANALYSIS
+-------------------------------------------------------------------
+
+NOW (ServiceNow)
+    Price Behavior: Down -33.1% YoY, at 52-week low ($106.48). Has given
+    back all of its 2023-2024 gains. The -9.0% 1-month decline is accelerating
+    a trend that started mid-2025 from a $205 peak.
+
+    Earnings Trends: The standout in this group. EPS has grown every year
+    for five straight years: $0.92 -> $1.21 -> $2.14 -> $2.45 -> $3.51.
+    That's roughly 40% CAGR. Recent quarters all beat estimates (3-15%
+    surprises). Earnings CV of 0.45 reflects the growth trajectory itself,
+    not instability. Forward estimates expect continued growth ($4.16 FY2026,
+    $5.01 FY2027).
+
+    Earnings vs. Expectations: Consistent beater. Q3 2025 surprise of +12.9%
+    and Q2 of +15.5% are meaningful. Analyst consensus is tight, suggesting
+    high confidence in the earnings trajectory.
+
+    Price-Earnings Relationship: This is where it gets interesting. P/E has
+    compressed from 141x (2021) to 30x today — an 80% decline in multiple.
+    The 5-year average P/E of 80x is being dragged by historically absurd
+    multiples. At 30x with ~40% EPS growth, this is the cheapest NOW has
+    ever been on an earnings basis. Price-EPS correlation of 0.56 suggests
+    sentiment, not fundamentals, is driving the selloff. The AI-fear
+    narrative (that AI disrupts enterprise SaaS) is driving the discount
+    per the daily digest context.
+
+    Key Consideration: The central question is whether AI genuinely threatens
+    NOW's workflow automation moat, or whether this is a "brand name stock"
+    (Guidelines Part II) experiencing a solvable one-time sentiment problem.
+    JPM's "AI-Resilient" screen explicitly includes NOW as a heavyweight
+    opportunity. At 30x with 40% EPS CAGR, the margin of safety argument is
+    stronger than anything else in this screen. Proceed to financial
+    statement analysis.
+
+CRM (Salesforce)
+    Price Behavior: Down -27.4% YoY, also at 52-week low ($193.45). 5-year
+    return is negative (-7.6%) despite a 2023 recovery from the 2022 crash.
+    The stock has now round-tripped back below its 2021 level. CV of 0.21
+    is moderate — not a wild stock historically.
+
+    Earnings Trends: More complicated than NOW. EPS grew from $4.80 (FY2022)
+    to a peak of $10.19 (FY2025), then fell to $7.79 (FY2026) — a -23.6%
+    drop. This is the critical question: why did EPS decline? The quarterly
+    data shows volatile results ($2.78, $2.58, $1.96, $3.25) with a CV of
+    0.27. Forward estimates expect recovery ($11.77 FY, $13.12 next FY) but
+    the current year decline is real.
+
+    Earnings vs. Expectations: Has beaten estimates in all 4 recent quarters
+    (1-14% surprises), so the EPS decline isn't a "miss" story — analysts
+    were already expecting it. The forward delta of -$0.24 suggests next
+    quarter is expected slightly lower than last.
+
+    Price-Earnings Relationship: Trailing P/E of 18.3x vs. 5-year avg of
+    33.6x is a 46% discount. This is a significant compression for a brand
+    name stock. The P/E has been declining steadily (49x -> 40x -> 26x -> 25x).
+    Price-EPS correlation of 0.53 is moderate — suggests some disconnect
+    between price and fundamentals. The Emanuel "battered stocks" screen
+    includes CRM as a squeeze candidate.
+
+    Key Consideration: CRM is cheap on a P/E basis, but unlike NOW, EPS is
+    actually declining. The question is whether this is a temporary cost
+    investment cycle (AI integration, restructuring) or structural margin
+    erosion. The fact that CRM keeps beating estimates while EPS declines
+    suggests the decline is expected/deliberate. Worth a financial statement
+    deep dive to check cash flow trends and the source of EPS pressure.
+    Proceed to financial statement analysis, but lower conviction than NOW.
+
+IT (Gartner)
+    Price Behavior: The most dramatic decline in the group: -61.9% YoY,
+    -23.7% in the last month alone. From $484 (2024) to $160 — a 67%
+    drawdown from peak. This is severe for a data/research business
+    historically characterized by stable revenues.
+
+    Earnings Trends: 5-year EPS trend appears solid on the surface ($9.26
+    -> $11.29 -> $11.33 -> $16.58 -> $10.07). But the 2024 spike to $16.58
+    was an outlier, and the reversion to $10.07 is a -39% drop. More
+    critically: Q3 2025 reported $0.47 vs. $2.12 estimate — a -77.8%
+    miss. This is an enormous anomaly. The surrounding quarters ($2.71,
+    $3.53, $3.36) are normal, so $0.47 almost certainly reflects a one-time
+    charge or write-down, not operational collapse.
+
+    Earnings vs. Expectations: Outside of the Q3 anomaly, IT beats
+    estimates by 5-8%. Forward estimates of $13.17 (FY2026) and $14.48
+    (FY2027) assume normalization. The consensus is narrow and expects
+    recovery. But the market clearly does not believe it at $160.
+
+    Price-Earnings Relationship: P/E of 15.9x vs. 5-year avg of 32x — a
+    50% discount. Price-EPS correlation is strong at 0.76, meaning price
+    historically tracks earnings well. The current divergence (price
+    collapsing while normalized earnings are stable) is exactly the kind
+    of signal the Guidelines describe under "Opportunity Sources" — a
+    high-quality business with a large but potentially solvable problem.
+    The AI-fear narrative (that AI disrupts Gartner's research/advisory
+    moat) is the driver.
+
+    Key Consideration: The Q3 $0.47 EPS needs to be explained — was it
+    a restructuring charge, goodwill impairment, or something operational?
+    If one-time, the normalized P/E around 12-13x for a historically
+    30x stock is a massive discount. The AI disruption thesis has some
+    validity (LLMs could compete with analyst reports), but Gartner's
+    brand and enterprise relationships are sticky. Proceed to financial
+    statement analysis to clarify the Q3 anomaly and assess cash flow
+    durability.
+
+-------------------------------------------------------------------
+
+TIER 2 — MONITOR / CONDITIONAL
+-------------------------------------------------------------------
+
+KD (Kyndryl)
+    Price Behavior: The worst performer: -51.7% in one month, -64.6% YoY.
+    At $11.12, it's back to its 2022 low. The stock had been recovering
+    from its IBM spin-off losses ($-11.72 EPS in FY2022) and was
+    successfully turning around — then collapsed in February.
+
+    Earnings Trends: The turnaround was real: from -$11.72 to -$6.06 to
+    -$1.49 to +$1.09 to +$1.27. Four straight years of improvement.
+    But the earnings CV of 1.46 reflects the massive swing from deep
+    losses to profitability — this is inherently unstable. Last quarter
+    missed estimates (-16.1%), which is concerning in the context of
+    everything else happening.
+
+    Price-Earnings Relationship: P/E of 6.2x vs. only 1 year of positive
+    earnings history. Price-EPS correlation is strong at 0.86, meaning
+    the market had been correctly pricing the turnaround — and is now
+    correctly pricing the risk of that turnaround failing.
+
+    Key Consideration: This fits the Guidelines' "Opportunity Sources"
+    framework perfectly — management upheaval, SEC scrutiny, and
+    confidence collapse. The question is whether CFO/GC/Controller
+    departures + SEC document requests signal an isolated governance
+    issue or a fundamental accounting problem (the "snowballing dynamic"
+    from Part II red flags). FCF guidance was slashed from $550M to $350M.
+    Do NOT proceed to financial statement analysis yet. Wait for: (1)
+    SEC inquiry resolution or disclosure, (2) next earnings report under
+    new management. The risk of permanent impairment is too high to
+    invest analytical time now. Revisit if the SEC matter clarifies.
+
+QCOM (Qualcomm)
+    Price Behavior: Modest decline: -7.6% 1-month, -7.3% YoY. Currently
+    right at its 5-year average price (-0.4%). CV of 0.17 is the lowest
+    in this group — a relatively stable stock.
+
+    Earnings Trends: Classic cyclical: $12.53 -> $8.41 -> $10.21 -> $12.03.
+    Earnings swing with the semiconductor cycle. Recent quarters show a
+    recovery trend ($2.85 -> $2.77 -> $3.00 -> $3.50) with consistent
+    small beats (1-5%). Earnings are heading in the right direction.
+
+    Price-Earnings Relationship: P/E of 11.6x vs. 5-year avg of 13.4x is
+    a modest -14% discount. Not dramatic. The negative price-EPS
+    correlation (-0.18) is characteristic of cyclical stocks where the
+    market looks through the cycle. The memory crunch narrative from
+    the daily digests (forcing phone production cuts) is a headwind.
+
+    Key Consideration: QCOM is fairly priced for a cyclical semiconductor
+    company. No margin of safety signal. The forward delta of -$1.01 (next
+    quarter estimate well below last) suggests analysts expect a
+    seasonal/cyclical dip. No compelling reason to proceed to deeper
+    analysis — this is a "market price reflects reality" situation. Skip.
+
+-------------------------------------------------------------------
+
+TIER 3 — AVOID
+-------------------------------------------------------------------
+
+CLVT (Clarivate)
+    This is chronic value destruction, not temporary dislocation. Price is
+    down -92.2% over 5 years ($23.52 -> $2.06), with a -40.5% CAGR. Every
+    single year has been a decline since 2021. Earnings peaked at $0.85
+    (2022) and have fallen to $0.21 — with a negative quarter (-$0.11) in
+    Q2 2025. Price-EPS correlation of 0.32 suggests the price is
+    disconnected from even these deteriorating fundamentals. The AI-fear
+    selloff adds to an already terminal-looking trend. Forward estimates
+    project flat EPS ($0.66 for both FY2025 and FY2026 — no growth).
+    Per the Guidelines: "Distinguish temporary problems from permanent
+    impairments." This looks like permanent impairment. Skip.
+
+ARM (ARM Holdings)
+    ARM is the opposite problem — not undervalued but overvalued. The stock
+    is UP +19.5% in the last month and +17.9% YoY. It trades at 73x P/E
+    with EPS actually declining ($1.45 -> $1.25 -> $1.17 over 3 years of
+    available data). The price-EPS correlation of -1.00 means price moves
+    in the exact opposite direction of earnings. This is textbook
+    "speculative due to excessive valuation" per Part I of the Guidelines.
+    Only 3 years of public data (post-IPO). The market is pricing ARM for
+    the AI/chip design narrative, not for current economic reality. No
+    margin of safety. Skip.
+
+===================================================================
+RAW SCREENING DATA BELOW
+===================================================================
+
+================================================================================
+                    DAILY SCREENING REPORT - 2026-02-11
+================================================================================
+
+Tickers Analyzed: CRM, NOW, KD, IT, CLVT, QCOM, ARM
+Total Count: 7
+
+================================================================================
+
+
+
+████████████████████████████████████████████████████████████████████████████████
+█  TICKER 1/7: CRM                                                             █
+████████████████████████████████████████████████████████████████████████████████
+
+PRICE ANALYSIS: CRM
+Price: $193.45 | Date: 2026-02-10
+==================================================
+---------------  -----------------
+1-Month Return   -8.9%
+1-Year Return    -27.4%
+5-Year Return    -7.6%
+5-Year CAGR      -1.6%
+vs 5-Yr Avg      -17.4%
+Volatility (CV)  0.21
+52w Range        $193.45 - $271.78
+---------------  -----------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close    Change
+----------  -------  ---------------
+2026-02-10  $193.45  -
+2026-01-30  $212.29  +18.84 (+9.7%)
+2025-12-31  $264.91  +52.62 (+24.8%)
+2025-11-28  $230.17  -34.74 (-13.1%)
+2025-10-31  $259.99  +29.82 (+13.0%)
+2025-09-30  $236.62  -23.37 (-9.0%)
+2025-08-29  $255.40  +18.78 (+7.9%)
+2025-07-31  $257.47  +2.07 (+0.8%)
+2025-06-30  $271.78  +14.31 (+5.6%)
+2025-05-30  $264.06  -7.72 (-2.8%)
+2025-04-30  $267.39  +3.32 (+1.3%)
+2025-03-31  $266.61  -0.78 (-0.3%)
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close    Change
+------  -------  ----------------
+  2021  $251.04  -
+  2022  $130.98  -120.06 (-47.8%)
+  2023  $259.94  +128.96 (+98.5%)
+  2024  $332.14  +72.20 (+27.8%)
+  2025  $264.91  -67.23 (-20.2%)
+  2026  $193.45  -71.46 (-27.0%)
+
+EARNINGS ANALYSIS: CRM
+Last Reported: $3.25 (2025-10-31) | Next Est: $3.01 (Due: 2026-04-30)
+Forward Delta: -0.24
+Stability (CV): 0.27
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-10-31  $3.25       $2.86           0.39  13.6%
+2025-07-31  $1.96       $1.81           0.15  8.3%
+2025-04-30  $2.58       $2.55           0.03  1.2%
+2025-01-31  $2.78       $2.61           0.17  6.5%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-01-31     next fiscal year           $13.12
+2026-04-30     next fiscal quarter        $3.01
+2026-01-31     historical fiscal year     $11.77
+2025-10-31     historical fiscal quarter  $2.86
+2025-07-31     historical fiscal quarter  $2.78
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  --------------
+2026-01-31         $7.79           -
+2025-01-31         $10.19          +2.40 (+30.8%)
+2024-01-31         $8.21           -1.98 (-19.4%)
+2023-01-31         $5.25           -2.96 (-36.1%)
+2022-01-31         $4.80           -0.45 (-8.6%)
+
+======================================================================
+VALUATION ANALYSIS: CRM
+======================================================================
+
+CURRENT P/E: 18.30 | 5-YR AVG: 33.62
+
+SUMMARY METRICS
+----------------------------------------------------------------------
+---------------------  ------
+Trailing P/E           18.30
+5-Yr Avg P/E           33.62
+vs 5-Yr Avg            -45.6%
+P/E CAGR (5yr)         -2.3%
+Price-EPS Correlation  0.53
+---------------------  ------
+
+======================================================================
+P/E HISTORY (Annual)
+======================================================================
+  Year    P/E  Change
+------  -----  ---------------
+  2022  27.29  -
+  2023  49.51  +22.23 (+81.5%)
+  2024  40.46  -9.06 (-18.3%)
+  2025  26     -14.46 (-35.7%)
+  2026  24.83  -1.16 (-4.5%)
+======================================================================
+
+======================================================================
+P/E HISTORY (Quarterly)
+======================================================================
+Quarter     Price    EPS       P/E  Change
+----------  -------  -----  ------  ---------------
+2025-10-31  $259.99  $3.25   80     -
+2025-07-31  $257.47  $1.96  131.36  +51.37 (+64.2%)
+2025-04-30  $267.39  $2.58  103.64  -27.72 (-21.1%)
+======================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+████████████████████████████████████████████████████████████████████████████████
+█  TICKER 2/7: NOW                                                             █
+████████████████████████████████████████████████████████████████████████████████
+
+PRICE ANALYSIS: NOW
+Price: $106.48 | Date: 2026-02-10
+==================================================
+---------------  -----------------
+1-Month Return   -9.0%
+1-Year Return    -33.1%
+5-Year Return    6.5%
+5-Year CAGR      1.3%
+vs 5-Yr Avg      -20.7%
+Volatility (CV)  0.29
+52w Range        $106.48 - $205.62
+---------------  -----------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close    Change
+----------  -------  ---------------
+2026-02-10  $106.48  -
+2026-01-30  $117.01  +10.53 (+9.9%)
+2025-12-31  $153.19  +36.18 (+30.9%)
+2025-11-28  $162.48  +9.29 (+6.1%)
+2025-10-31  $183.86  +21.37 (+13.2%)
+2025-09-30  $184.06  +0.20 (+0.1%)
+2025-08-29  $183.49  -0.56 (-0.3%)
+2025-07-31  $188.62  +5.13 (+2.8%)
+2025-06-30  $205.62  +16.99 (+9.0%)
+2025-05-30  $202.22  -3.40 (-1.7%)
+2025-04-30  $191.00  -11.22 (-5.5%)
+2025-03-31  $159.23  -31.77 (-16.6%)
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close    Change
+------  -------  ---------------
+  2021  $129.82  -
+  2022  $77.65   -52.17 (-40.2%)
+  2023  $141.30  +63.64 (+82.0%)
+  2024  $212.02  +70.73 (+50.1%)
+  2025  $153.19  -58.83 (-27.7%)
+  2026  $106.48  -46.71 (-30.5%)
+
+EARNINGS ANALYSIS: NOW
+Last Reported: $0.92 (2025-12-31) | Next Est: $0.96 (Due: 2026-06-30)
+Forward Delta: +0.04
+Stability (CV): 0.45
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $0.92       $0.89           0.03  3.4%
+2025-09-30  $0.96       $0.85           0.11  12.9%
+2025-06-30  $0.82       $0.71           0.11  15.5%
+2025-03-31  $0.81       $0.77           0.04  5.2%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-12-31     next fiscal year           $5.01
+2026-12-31     historical fiscal year     $4.16
+2026-06-30     next fiscal quarter        $0.96
+2026-03-31     historical fiscal quarter  $0.97
+2025-12-31     historical fiscal year     $3.41
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  --------------
+2025-12-31         $3.51           -
+2024-12-31         $2.45           -1.06 (-30.2%)
+2023-12-31         $2.14           -0.31 (-12.7%)
+2022-12-31         $1.21           -0.93 (-43.5%)
+2021-12-31         $0.92           -0.29 (-24.0%)
+
+======================================================================
+VALUATION ANALYSIS: NOW
+======================================================================
+
+CURRENT P/E: 30.34 | 5-YR AVG: 80.30
+
+SUMMARY METRICS
+----------------------------------------------------------------------
+---------------------  ------
+Trailing P/E           30.34
+5-Yr Avg P/E           80.30
+vs 5-Yr Avg            -62.2%
+P/E CAGR (5yr)         -25.4%
+Price-EPS Correlation  0.56
+---------------------  ------
+
+======================================================================
+P/E HISTORY (Annual)
+======================================================================
+  Year     P/E  Change
+------  ------  ---------------
+  2021  141.11  -
+  2022   64.18  -76.93 (-54.5%)
+  2023   66.03  +1.85 (+2.9%)
+  2024   86.54  +20.51 (+31.1%)
+  2025   43.64  -42.90 (-49.6%)
+======================================================================
+
+======================================================================
+P/E HISTORY (Quarterly)
+======================================================================
+Quarter     Price    EPS       P/E  Change
+----------  -------  -----  ------  ---------------
+2025-12-31  $153.19  $0.92  166.51  -
+2025-09-30  $184.06  $0.96  191.73  +25.21 (+15.1%)
+2025-06-30  $205.62  $0.82  250.75  +59.03 (+30.8%)
+2025-03-31  $159.23  $0.81  196.58  -54.17 (-21.6%)
+======================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+████████████████████████████████████████████████████████████████████████████████
+█  TICKER 3/7: KD                                                              █
+████████████████████████████████████████████████████████████████████████████████
+
+PRICE ANALYSIS: KD
+Price: $11.12 | Date: 2026-02-10
+==================================================
+---------------  ---------------
+1-Month Return   -51.7%
+1-Year Return    -64.6%
+5-Year Return    -29.6%
+5-Year CAGR      -7.9%
+vs 5-Yr Avg      -47.3%
+Volatility (CV)  0.43
+52w Range        $11.12 - $41.96
+---------------  ---------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close    Change
+----------  -------  ----------------
+2026-02-10  $11.12   -
+2026-01-30  $23.00   +11.88 (+106.8%)
+2025-12-31  $26.56   +3.56 (+15.5%)
+2025-11-28  $25.83   -0.73 (-2.7%)
+2025-10-31  $28.92   +3.09 (+12.0%)
+2025-09-30  $30.03   +1.11 (+3.8%)
+2025-08-29  $31.79   +1.76 (+5.9%)
+2025-07-31  $37.77   +5.98 (+18.8%)
+2025-06-30  $41.96   +4.19 (+11.1%)
+2025-05-30  $39.04   -2.92 (-7.0%)
+2025-04-30  $32.42   -6.62 (-17.0%)
+2025-03-31  $31.40   -1.02 (-3.1%)
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close    Change
+------  -------  ---------------
+  2021  $18.10   -
+  2022  $11.12   -6.98 (-38.6%)
+  2023  $20.78   +9.66 (+86.9%)
+  2024  $34.60   +13.82 (+66.5%)
+  2025  $26.56   -8.04 (-23.2%)
+  2026  $11.12   -15.44 (-58.1%)
+
+EARNINGS ANALYSIS: KD
+Last Reported: $0.52 (2025-12-31) | Next Est: $0.69 (Due: 2026-06-30)
+Forward Delta: +0.17
+Stability (CV): 1.46
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $0.52       $0.62          -0.1   -16.1%
+2025-09-30  $0.38       $0.35           0.03  8.6%
+2025-06-30  $0.37       $0.36           0.01  2.8%
+2025-03-31  $0.52       $0.51           0.01  2.0%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-03-31     next fiscal year           $3.00
+2026-06-30     next fiscal quarter        $0.69
+2026-03-31     historical fiscal year     $1.95
+2025-12-31     historical fiscal quarter  $0.60
+2025-09-30     historical fiscal quarter  $0.36
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  ---------------
+2025-12-31         $1.27           -
+2025-03-31         $1.09           -0.18 (-14.2%)
+2024-03-31         $-1.49          -2.58 (-236.7%)
+2023-03-31         $-6.06          -4.57 (-306.7%)
+2022-03-31         $-11.72         -5.66 (-93.4%)
+
+======================================================================
+VALUATION ANALYSIS: KD
+======================================================================
+
+CURRENT P/E: 6.21 | 5-YR AVG: 24.37
+
+SUMMARY METRICS
+----------------------------------------------------------------------
+---------------------  ------
+Trailing P/E           6.21
+5-Yr Avg P/E           24.37
+vs 5-Yr Avg            -74.5%
+P/E CAGR (5yr)         -
+Price-EPS Correlation  0.86
+---------------------  ------
+
+======================================================================
+P/E HISTORY (Annual)
+======================================================================
+  Year    P/E  Change
+------  -----  --------
+  2025  24.37  -
+======================================================================
+
+======================================================================
+P/E HISTORY (Quarterly)
+======================================================================
+Quarter     Price    EPS       P/E  Change
+----------  -------  -----  ------  ---------------
+2025-12-31  $26.56   $0.52   51.08  -
+2025-09-30  $30.03   $0.38   79.03  +27.95 (+54.7%)
+2025-06-30  $41.96   $0.37  113.41  +34.38 (+43.5%)
+2025-03-31  $31.40   $0.52   60.38  -53.02 (-46.8%)
+======================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+████████████████████████████████████████████████████████████████████████████████
+█  TICKER 4/7: IT                                                              █
+████████████████████████████████████████████████████████████████████████████████
+
+PRICE ANALYSIS: IT
+Price: $159.89 | Date: 2026-02-10
+==================================================
+---------------  -----------------
+1-Month Return   -23.7%
+1-Year Return    -61.9%
+5-Year Return    -12.4%
+5-Year CAGR      -2.7%
+vs 5-Yr Avg      -53.9%
+Volatility (CV)  0.28
+52w Range        $159.89 - $436.42
+---------------  -----------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close    Change
+----------  -------  ---------------
+2026-02-10  $159.89  -
+2026-01-30  $209.61  +49.72 (+31.1%)
+2025-12-31  $252.28  +42.67 (+20.4%)
+2025-11-28  $232.74  -19.54 (-7.7%)
+2025-10-31  $248.34  +15.60 (+6.7%)
+2025-09-30  $262.87  +14.53 (+5.9%)
+2025-08-29  $251.19  -11.68 (-4.4%)
+2025-07-31  $338.65  +87.46 (+34.8%)
+2025-06-30  $404.22  +65.57 (+19.4%)
+2025-05-30  $436.42  +32.20 (+8.0%)
+2025-04-30  $421.08  -15.34 (-3.5%)
+2025-03-31  $419.74  -1.34 (-0.3%)
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close    Change
+------  -------  ----------------
+  2021  $334.32  -
+  2022  $336.14  +1.82 (+0.5%)
+  2023  $451.11  +114.97 (+34.2%)
+  2024  $484.47  +33.36 (+7.4%)
+  2025  $252.28  -232.19 (-47.9%)
+  2026  $159.89  -92.39 (-36.6%)
+
+EARNINGS ANALYSIS: IT
+Last Reported: $3.36 (2025-12-31) | Next Est: $3.70 (Due: 2026-06-30)
+Forward Delta: +0.34
+Stability (CV): 0.22
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $3.36       $3.20           0.16  5.0%
+2025-09-30  $0.47       $2.12          -1.65  -77.8%
+2025-06-30  $3.53       $3.31           0.22  6.6%
+2025-03-31  $2.71       $2.51           0.2   8.0%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-12-31     next fiscal year           $14.48
+2026-12-31     historical fiscal year     $13.17
+2026-06-30     next fiscal quarter        $3.70
+2026-03-31     historical fiscal quarter  $2.91
+2025-12-31     historical fiscal year     $12.79
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  --------------
+2025-12-31         $10.07          -
+2024-12-31         $16.58          +6.51 (+64.6%)
+2023-12-31         $11.33          -5.25 (-31.7%)
+2022-12-31         $11.29          -0.04 (-0.4%)
+2021-12-31         $9.26           -2.03 (-18.0%)
+
+======================================================================
+VALUATION ANALYSIS: IT
+======================================================================
+
+CURRENT P/E: 15.88 | 5-YR AVG: 31.99
+
+SUMMARY METRICS
+----------------------------------------------------------------------
+---------------------  ------
+Trailing P/E           15.88
+5-Yr Avg P/E           31.99
+vs 5-Yr Avg            -50.4%
+P/E CAGR (5yr)         -8.7%
+Price-EPS Correlation  0.76
+---------------------  ------
+
+======================================================================
+P/E HISTORY (Annual)
+======================================================================
+  Year    P/E  Change
+------  -----  ---------------
+  2021  36.1   -
+  2022  29.77  -6.33 (-17.5%)
+  2023  39.82  +10.04 (+33.7%)
+  2024  29.22  -10.60 (-26.6%)
+  2025  25.05  -4.17 (-14.3%)
+======================================================================
+
+======================================================================
+P/E HISTORY (Quarterly)
+======================================================================
+Quarter     Price    EPS       P/E  Change
+----------  -------  -----  ------  -----------------
+2025-12-31  $252.28  $3.36   75.08  -
+2025-09-30  $262.87  $0.47  559.3   +484.21 (+644.9%)
+2025-06-30  $404.22  $3.53  114.51  -444.79 (-79.5%)
+2025-03-31  $419.74  $2.71  154.89  +40.38 (+35.3%)
+======================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+████████████████████████████████████████████████████████████████████████████████
+█  TICKER 5/7: CLVT                                                            █
+████████████████████████████████████████████████████████████████████████████████
+
+PRICE ANALYSIS: CLVT
+Price: $2.06 | Date: 2026-02-10
+==================================================
+---------------  -------------
+1-Month Return   -22.3%
+1-Year Return    -47.6%
+5-Year Return    -92.2%
+5-Year CAGR      -40.5%
+vs 5-Yr Avg      -80.9%
+Volatility (CV)  0.69
+52w Range        $2.06 - $4.35
+---------------  -------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close    Change
+----------  -------  --------------
+2026-02-10  $2.06    -
+2026-01-30  $2.65    +0.59 (+28.6%)
+2025-12-31  $3.34    +0.69 (+26.0%)
+2025-11-28  $3.76    +0.42 (+12.6%)
+2025-10-31  $3.40    -0.36 (-9.6%)
+2025-09-30  $3.83    +0.43 (+12.6%)
+2025-08-29  $4.35    +0.52 (+13.6%)
+2025-07-31  $3.85    -0.50 (-11.5%)
+2025-06-30  $4.30    +0.45 (+11.7%)
+2025-05-30  $4.22    -0.08 (-1.9%)
+2025-04-30  $4.31    +0.09 (+2.1%)
+2025-03-31  $3.93    -0.38 (-8.8%)
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close    Change
+------  -------  ---------------
+  2021  $23.52   -
+  2022  $8.34    -15.18 (-64.5%)
+  2023  $9.26    +0.92 (+11.0%)
+  2024  $5.08    -4.18 (-45.1%)
+  2025  $3.34    -1.74 (-34.3%)
+  2026  $2.06    -1.28 (-38.3%)
+
+EARNINGS ANALYSIS: CLVT
+Last Reported: $0.18 (2025-09-30) | Next Est: $0.14 (Due: 2026-03-31)
+Forward Delta: -0.04
+Stability (CV): 0.35
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-09-30  $0.18       $0.16           0.02  12.5%
+2025-06-30  $-0.11      $0.17          -0.28  -164.7%
+2025-03-31  $0.14       $0.12           0.02  20.7%
+2024-12-31  $0.21       $0.20           0.01  3.8%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2026-12-31     next fiscal year           $0.66
+2026-03-31     next fiscal quarter        $0.14
+2025-12-31     historical fiscal year     $0.66
+2025-09-30     historical fiscal quarter  $0.16
+2025-06-30     historical fiscal quarter  $0.17
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  ---------------
+2025-12-31         $0.21           -
+2024-12-31         $0.74           +0.53 (+252.4%)
+2023-12-31         $0.83           +0.09 (+12.2%)
+2022-12-31         $0.85           +0.02 (+2.4%)
+2021-12-31         $0.70           -0.15 (-17.6%)
+
+======================================================================
+VALUATION ANALYSIS: CLVT
+======================================================================
+
+CURRENT P/E: 4.90 | 5-YR AVG: 15.47
+
+SUMMARY METRICS
+----------------------------------------------------------------------
+---------------------  ------
+Trailing P/E           4.90
+5-Yr Avg P/E           15.47
+vs 5-Yr Avg            -68.3%
+P/E CAGR (5yr)         -17.1%
+Price-EPS Correlation  0.32
+---------------------  ------
+
+======================================================================
+P/E HISTORY (Annual)
+======================================================================
+  Year    P/E  Change
+------  -----  ---------------
+  2021  33.6   -
+  2022   9.81  -23.79 (-70.8%)
+  2023  11.16  +1.34 (+13.7%)
+  2024   6.86  -4.29 (-38.5%)
+  2025  15.9   +9.04 (+131.7%)
+======================================================================
+
+======================================================================
+P/E HISTORY (Quarterly)
+======================================================================
+Quarter     Price    EPS      P/E  Change
+----------  -------  -----  -----  --------------
+2025-09-30  $3.83    $0.18  21.28  -
+2025-03-31  $3.93    $0.14  28.07  +6.79 (+31.9%)
+======================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+████████████████████████████████████████████████████████████████████████████████
+█  TICKER 6/7: QCOM                                                            █
+████████████████████████████████████████████████████████████████████████████████
+
+PRICE ANALYSIS: QCOM
+Price: $140.09 | Date: 2026-02-10
+==================================================
+---------------  -----------------
+1-Month Return   -7.6%
+1-Year Return    -7.3%
+5-Year Return    17.1%
+5-Year CAGR      3.3%
+vs 5-Yr Avg      -0.4%
+Volatility (CV)  0.17
+52w Range        $140.09 - $179.98
+---------------  -----------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close    Change
+----------  -------  ---------------
+2026-02-10  $140.09  -
+2026-01-30  $151.59  +11.50 (+8.2%)
+2025-12-31  $171.05  +19.46 (+12.8%)
+2025-11-28  $167.24  -3.81 (-2.2%)
+2025-10-31  $179.98  +12.75 (+7.6%)
+2025-09-30  $165.52  -14.47 (-8.0%)
+2025-08-29  $159.03  -6.49 (-3.9%)
+2025-07-31  $145.21  -13.82 (-8.7%)
+2025-06-30  $157.57  +12.37 (+8.5%)
+2025-05-30  $142.80  -14.77 (-9.4%)
+2025-04-30  $146.01  +3.21 (+2.2%)
+2025-03-31  $151.07  +5.06 (+3.5%)
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close    Change
+------  -------  ---------------
+  2021  $167.28  -
+  2022  $102.70  -64.59 (-38.6%)
+  2023  $138.71  +36.01 (+35.1%)
+  2024  $150.26  +11.56 (+8.3%)
+  2025  $171.05  +20.79 (+13.8%)
+  2026  $140.09  -30.96 (-18.1%)
+
+EARNINGS ANALYSIS: QCOM
+Last Reported: $3.50 (2025-12-31) | Next Est: $2.49 (Due: 2026-06-30)
+Forward Delta: -1.01
+Stability (CV): 0.35
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $3.50       $3.40           0.1   2.9%
+2025-09-30  $3.00       $2.87           0.13  4.5%
+2025-06-30  $2.77       $2.71           0.06  2.2%
+2025-03-31  $2.85       $2.82           0.03  1.1%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-09-30     next fiscal year           $11.34
+2026-09-30     historical fiscal year     $11.18
+2026-06-30     next fiscal quarter        $2.49
+2026-03-31     historical fiscal quarter  $2.59
+2025-12-31     historical fiscal quarter  $3.40
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  ---------------
+2025-12-31         $3.50           -
+2025-09-30         $12.03          +8.53 (+243.7%)
+2024-09-30         $10.21          -1.82 (-15.1%)
+2023-09-30         $8.41           -1.80 (-17.6%)
+2022-09-30         $12.53          +4.12 (+49.0%)
+
+======================================================================
+VALUATION ANALYSIS: QCOM
+======================================================================
+
+CURRENT P/E: 11.56 | 5-YR AVG: 13.41
+
+SUMMARY METRICS
+----------------------------------------------------------------------
+---------------------  ------
+Trailing P/E           11.56
+5-Yr Avg P/E           13.41
+vs 5-Yr Avg            -13.8%
+P/E CAGR (5yr)         20.2%
+Price-EPS Correlation  -0.18
+---------------------  ------
+
+======================================================================
+P/E HISTORY (Annual)
+======================================================================
+  Year    P/E  Change
+------  -----  ---------------
+  2022   8.2   -
+  2023  16.49  +8.30 (+101.2%)
+  2024  14.72  -1.78 (-10.8%)
+  2025  14.22  -0.50 (-3.4%)
+======================================================================
+
+======================================================================
+P/E HISTORY (Quarterly)
+======================================================================
+Quarter     Price    EPS      P/E  Change
+----------  -------  -----  -----  --------------
+2025-12-31  $171.05  $3.50  48.87  -
+2025-09-30  $165.52  $3.00  55.17  +6.30 (+12.9%)
+2025-06-30  $157.57  $2.77  56.89  +1.71 (+3.1%)
+2025-03-31  $151.07  $2.85  53.01  -3.88 (-6.8%)
+======================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+
+
+
+████████████████████████████████████████████████████████████████████████████████
+█  TICKER 7/7: ARM                                                             █
+████████████████████████████████████████████████████████████████████████████████
+
+PRICE ANALYSIS: ARM
+Price: $125.95 | Date: 2026-02-10
+==================================================
+---------------  -----------------
+1-Month Return   19.5%
+1-Year Return    17.9%
+5-Year Return    155.5%
+5-Year CAGR      49.5%
+vs 5-Yr Avg      1.7%
+Volatility (CV)  0.24
+52w Range        $105.36 - $169.82
+---------------  -----------------
+--------------------------------------------------
+
+RECENT TREND (Last 12 Months)
+Month       Close    Change
+----------  -------  ---------------
+2026-02-10  $125.95  -
+2026-01-30  $105.36  -20.59 (-16.3%)
+2025-12-31  $109.31  +3.95 (+3.7%)
+2025-11-28  $135.56  +26.25 (+24.0%)
+2025-10-31  $169.82  +34.26 (+25.3%)
+2025-09-30  $141.49  -28.33 (-16.7%)
+2025-08-29  $138.31  -3.18 (-2.2%)
+2025-07-31  $141.38  +3.06 (+2.2%)
+2025-06-30  $161.74  +20.37 (+14.4%)
+2025-05-30  $124.54  -37.20 (-23.0%)
+2025-04-30  $114.05  -10.49 (-8.4%)
+2025-03-31  $106.79  -7.26 (-6.4%)
+
+LONG-TERM CONTEXT (5 Years)
+  Year  Close    Change
+------  -------  ---------------
+  2023  $75.14   -
+  2024  $123.36  +48.22 (+64.2%)
+  2025  $109.31  -14.05 (-11.4%)
+  2026  $125.95  +16.64 (+15.2%)
+
+EARNINGS ANALYSIS: ARM
+Last Reported: $0.43 (2025-12-31) | Next Est: $0.39 (Due: 2026-06-30)
+Forward Delta: -0.04
+Stability (CV): 0.09
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $0.43       $0.41           0.02  4.9%
+2025-09-30  $0.39       $0.33           0.06  18.2%
+2025-06-30  $0.35       $0.35           0     -
+2025-03-31  $0.55       $0.52           0.03  5.8%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-03-31     next fiscal year           $2.16
+2026-06-30     next fiscal quarter        $0.39
+2026-03-31     historical fiscal year     $1.75
+2025-12-31     historical fiscal quarter  $0.41
+2025-09-30     historical fiscal quarter  $0.33
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  --------------
+2025-12-31         $1.17           -
+2025-03-31         $1.45           +0.28 (+23.9%)
+2024-03-31         $1.25           -0.20 (-13.8%)
+
+======================================================================
+VALUATION ANALYSIS: ARM
+======================================================================
+
+CURRENT P/E: 73.23 | 5-YR AVG: 87.05
+
+SUMMARY METRICS
+----------------------------------------------------------------------
+---------------------  ------
+Trailing P/E           73.23
+5-Yr Avg P/E           87.05
+vs 5-Yr Avg            -15.9%
+P/E CAGR (5yr)         -23.6%
+Price-EPS Correlation  -1.00
+---------------------  ------
+
+======================================================================
+P/E HISTORY (Annual)
+======================================================================
+  Year    P/E  Change
+------  -----  ---------------
+  2024  98.72  -
+  2025  75.39  -23.33 (-23.6%)
+======================================================================
+
+======================================================================
+P/E HISTORY (Quarterly)
+======================================================================
+Quarter     Price    EPS       P/E  Change
+----------  -------  -----  ------  ----------------
+2025-12-31  $109.31  $0.43  254.21  -
+2025-09-30  $141.49  $0.39  362.79  +108.59 (+42.7%)
+2025-06-30  $161.74  $0.35  462.11  +99.32 (+27.4%)
+2025-03-31  $106.79  $0.55  194.16  -267.95 (-58.0%)
+======================================================================
+
+────────────────────────────────────────────────────────────────────────────────

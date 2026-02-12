@@ -11,7 +11,7 @@ Use **Stock Analysis Guidelines.md** as your primary framework for interpreting 
 * **Deep dives:** Consult source material when a specific red flag or concept benefits from additional context (e.g., complex revenue recognition, specialized valuation methodologies). See `docs/CLAUDE.md` for source navigation.
 
 ## The Analysis
-*Append this analysis to the **top** of the News_YYYY-MM-DD.txt file (below the main "Peter's Digest" header).*
+*Append this analysis to the **top** of the data/discovery/Daily_Digest_YYYY-MM-DD.md file (below the main "Peter's Digest" header).*
 
 The analysis must begin with the title:
 ## Stock & Markets Analysis
