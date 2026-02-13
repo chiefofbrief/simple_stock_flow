@@ -47,19 +47,15 @@ The standard analysis pipeline progresses through these steps. Each step builds 
 ### 2. Screening
 **Purpose:** Put candidates in context. Check if the opportunity is real or if we're chasing a trend that's already played out—or one that's heading in the wrong direction.
 
-**Definition:** "Screening" specifically refers to running the `scripts/valuation.py` script, which generates price, earnings, and valuation analysis for one or more tickers.
+**Process:** Two-step funnel. See `SCREENING_PROCESS.md` for full details.
 
-**Approach:** Examine price and earnings behavior to understand:
-- Recent price movements (1-month, 1-year, 5-year)
-- Earnings trends and volatility
-- Price-earnings correlation and divergences
-- P/E positioning (current vs. historical)
-
-We're looking for downtrends to avoid or uptrends with remaining upside. Screening filters candidates before committing to deep analysis.
+1. **Price** (`scripts/price.py` → `guidance/prompts/price.md`): Price context for all tickers. LLM triages — cuts non-candidates, prioritizes survivors.
+2. **Earnings** (`scripts/earnings.py` → `guidance/prompts/earnings.md`): Earnings + P/E for survivors only. LLM assesses combined price + earnings picture.
 
 **Tools:**
-- Ticker scripts: `prices.py`, `earnings.py`, `valuation.py`
-- Guidance: `guidance/prompts/screening_analysis.md`
+- Scripts: `scripts/price.py`, `scripts/earnings.py`
+- Prompts: `guidance/prompts/price.md`, `guidance/prompts/earnings.md`
+- Process doc: `SCREENING_PROCESS.md`
 
 ---
 

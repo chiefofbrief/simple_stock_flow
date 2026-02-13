@@ -69,13 +69,29 @@ python scripts/sentiment.py AAPL --news --reddit
 python scripts/sentiment.py AAPL --all --news-months 1 --reddit-days 7
 ```
 
-### Screening / Valuation
+### Screening — Price Context (Step 1)
 
-Quick multi-ticker screening using P/E vs history and price-earnings correlation.
+Batch price context for screening triage. See `SCREENING_PROCESS.md` for full process.
 
 ```bash
-# Screen multiple tickers (auto-fetches missing price/earnings data)
-python scripts/valuation.py AAPL MSFT GOOGL
+# Specific tickers
+python scripts/price.py NOW CRM ADBE KD MAT
+
+# By category (reads tickers from SESSION_NOTES.md)
+python scripts/price.py --category losers
+python scripts/price.py --category ai other
+
+# All screening candidates
+python scripts/price.py --all
+```
+
+### Screening — Earnings (Step 2)
+
+Earnings + valuation for survivors of price triage. *Not yet implemented — pending FMP earnings endpoints.*
+
+```bash
+# Screen survivors from Step 1
+python scripts/earnings.py NOW CRM ADBE
 ```
 
 ---
@@ -87,11 +103,11 @@ Individual scripts can be run independently. See `docs/index_scripts.md` for com
 ### Common Individual Script Usage
 
 ```bash
-# Prices (batch supported)
-python scripts/ticker/prices.py AAPL MSFT
+# Prices (archived — use scripts/price.py instead)
+# python scripts/ticker/prices.py AAPL MSFT
 
-# Earnings (batch supported)
-python scripts/ticker/earnings.py AAPL MSFT
+# Earnings (archived — use scripts/earnings.py instead, when implemented)
+# python scripts/ticker/earnings.py AAPL MSFT
 
 # News - modular (Perigon + AlphaVantage wrapper)
 python scripts/ticker/news.py AAPL --months 3

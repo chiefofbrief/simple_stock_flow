@@ -9,6 +9,8 @@ Orchestration scripts that wrap individual modules for specific workflows.
 | :--- | :--- |
 | `scripts/discovery.py` | Generates Market Discovery digests (Daily/Weekly). Supports `--daily`, `--weekly`, and individual module flags. |
 | `scripts/sentiment.py` | Aggregates sentiment analysis from news and social media sources. Outputs to `data/tickers/{TICKER}/{TICKER}_sentiment.md`. Supports `--all` or individual source flags with timeline overrides. |
+| `scripts/price.py` | Screening Step 1: Batch price context for triage. Fetches 5yr dividend-adjusted daily prices from FMP, computes metrics (vs1Y–vs5Y, CV, z-score, 52w position, max drawdown, CAGR). Supports `--category losers/ai/other`, `--all`, or positional tickers. Outputs summary table + per-ticker JSON. |
+| `scripts/earnings.py` | Screening Step 2: Earnings + P/E for survivors of price triage. *Not yet implemented.* |
 | `scripts/financial_statements.py` | Orchestrates financial statements analysis: fetches raw data, calculates seeds and metrics, generates comparison tables. Outputs to `data/tickers/{TICKER}/{TICKER}_statements.md`. Supports optional `--compare PEER1 PEER2` for peer comparison. |
 
 ## 2. Market Scripts (`scripts/market/`)
@@ -32,12 +34,12 @@ Deep-dive analysis tools for individual stocks. Outputs are saved to `data/ticke
 | `fetch_financials.py` | Fetches raw financial statements (income, balance, cashflow). | `_financial_raw.json` |
 | `calc_seeds.py` | Extracts 8 projection seeds (Revenue, COGS%, SG&A%, R&D%, D&A, CapEx, Debt, WC) from raw data. | `_seeds.json` |
 | `calc_metrics.py` | Calculates 30+ metrics (13 priority + 17 secondary) for undervaluation and risk analysis. | `_metrics.json` |
-| `prices.py` | Fetches price history; calculates 1-mo/1-yr returns, 5-yr CAGR, and Price vs 5-yr Avg. Supports batch processing. | `_prices.json`, `_prices.txt` |
-| `earnings.py` | Fetches EPS history and consensus; calculates "Forward Delta" and "Stability (CV)". Supports batch processing. | `_earnings.json`, `_earnings.txt` |
+| `prices.py` | **Archived** → `scripts/archive/prices_alphavantage.py`. Replaced by `scripts/price.py`. | `_prices.json`, `_prices.txt` |
+| `earnings.py` | **Archived** → `scripts/archive/earnings_alphavantage.py`. Replaced by `scripts/earnings.py` (not yet implemented). | `_earnings.json`, `_earnings.txt` |
 | `compare_financials.py` | Standalone peer comparison tool (also integrated into `financial_statements.py` master script). | Markdown table |
 | `sec_filings.py` | Fetches latest 10-K and 10-Q from SEC EDGAR, extracts MD&A and Notes sections, generates consolidated markdown. | `_10k_mda.txt`, `_10k_notes.txt`, `_10q_mda.txt`, `_10q_notes.txt`, `_filings_metadata.json`, `_notes_mda.md` |
 
-**Note:** `valuation.py` is located in `scripts/` (master script level) as it's used for preliminary screening.
+**Note:** `valuation.py` has been archived to `scripts/archive/valuation_alphavantage.py`. Replaced by the two-step screening process (`scripts/price.py` + `scripts/earnings.py`).
 
 ### Sentiment & Social
 Individual scripts save raw JSON data to `data/tickers/{TICKER}/`. Use with `--markdown` flag for master script aggregation. Timeline defaults: news (3 months), reddit (30 days), social media (this-month).
@@ -64,3 +66,12 @@ Individual scripts save raw JSON data to `data/tickers/{TICKER}/`. Use with `--m
 | `scripts/shared_utils.py` | Shared logic for API retries, directory management, and date utilities. |
 | `requirements.txt` | Project dependencies. |
 | `docs/COMMANDS.md` | Runbook for all valid CLI commands. |
+
+## 5. Archived Scripts (`scripts/archive/`)
+Previous AlphaVantage-based scripts, preserved in case of provider switch-back.
+
+| File | Replaced By |
+| :--- | :--- |
+| `prices_alphavantage.py` | `scripts/price.py` (FMP) |
+| `earnings_alphavantage.py` | `scripts/earnings.py` (FMP, not yet implemented) |
+| `valuation_alphavantage.py` | `scripts/earnings.py` (FMP, not yet implemented) |
