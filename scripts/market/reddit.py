@@ -9,7 +9,6 @@ from the past day using the SociaVault API in a clean, readable terminal format.
 SUBREDDITS COVERED:
     - r/ValueInvesting (value investing strategies and discussions)
     - r/stocks (stock market discussions and analysis)
-    - r/options (options trading strategies and education)
 
 INSTALLATION:
     pip install requests rich
@@ -37,7 +36,7 @@ OUTPUT FORMAT:
 API COST:
     - Credit check: 0 credits (runs automatically)
     - Per subreddit: 1 credit
-    - Total per run: 3 credits
+    - Total per run: 2 credits
 
 FEATURES:
     - Smart retry logic with exponential backoff
@@ -80,7 +79,7 @@ except ImportError:
 SOCIAVAULT_BASE_URL = "https://api.sociavault.com/v1"
 DEFAULT_POST_COUNT = 15  # Show top 15 posts per subreddit
 DEFAULT_TIMEFRAME = "day"  # Fetch from past day
-SUBREDDITS = ["ValueInvesting", "stocks", "options"]
+SUBREDDITS = ["ValueInvesting", "stocks"]
 REQUEST_TIMEOUT = 30  # seconds
 MAX_RETRIES = 3  # Max retries for rate limiting/timeouts
 RETRY_DELAY = 2  # Initial delay in seconds for exponential backoff

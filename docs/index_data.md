@@ -19,8 +19,8 @@ data/
 
 | File Pattern | Source Script | Description |
 |--------------|---------------|-------------|
-| `Daily_Digest_YYYY-MM-DD.md` | `discovery.py --daily` | Market movers, macro indicators, news headlines (Barron's, WSJ, Intrigue), Reddit posts |
-| `Weekly_Digest_YYYY-MM-DD.md` | `discovery.py --weekly` | Same components as daily, with expanded lookback periods |
+| `Daily_Digest_YYYY-MM-DD.md` | `peters_digest.py --daily` | Market movers, macro indicators, news headlines (Barron's, WSJ, Intrigue), Reddit posts |
+| `Weekly_Digest_YYYY-MM-DD.md` | `peters_digest.py --weekly` | Same components as daily, with expanded lookback periods |
 
 ---
 

@@ -39,7 +39,7 @@ The standard analysis pipeline progresses through these steps. Each step builds 
 **Approach:** Analyze market news and trends to identify potential candidates. This involves synthesizing broad market signals (movers, macro indicators, sector news, sentiment) to spot opportunities or areas of interest.
 
 **Tools:**
-- Market scripts: `discovery.py`, `movers.py`, `macro.py`, news sources (Barron's, WSJ)
+- Market scripts: `peters_digest.py`, `movers.py`, `macro.py`, news sources (Barron's, WSJ)
 - Guidance: `guidance/prompts/news_analysis.md`
 
 ---

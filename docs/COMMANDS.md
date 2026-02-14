@@ -31,15 +31,15 @@ Orchestration scripts that run complete workflows.
 Generate daily or weekly market digests.
 
 ```bash
-# Daily digest (movers, news, reddit - 1 day lookback)
-python scripts/discovery.py --daily > "data/discovery/Daily_Digest_$(date +%Y-%m-%d).md"
+# Peter's Daily Digest (Movers, Barron's, Reddit, AI News, Intrigue - 1 day lookback)
+python scripts/peters_digest.py --daily > "data/discovery/Daily_Digest_$(date +%Y-%m-%d).md"
 
-# Weekly digest (macro, movers, news, reddit - 7 day lookback)
-python scripts/discovery.py --weekly > "data/discovery/Weekly_Digest_$(date +%Y-%m-%d).md"
+# Weekly digest (Macro, AI News, Movers, Reddit - 7 day lookback)
+python scripts/peters_digest.py --weekly > "data/discovery/Weekly_Digest_$(date +%Y-%m-%d).md"
 
 # Run specific modules only
-python scripts/discovery.py --barrons --wsj
-python scripts/discovery.py --macro
+python scripts/peters_digest.py --barrons --ai-news
+python scripts/peters_digest.py --macro
 ```
 
 ### Financial Statements Analysis
@@ -111,6 +111,12 @@ Individual scripts can be run independently. See `docs/index_scripts.md` for com
 
 # News - modular (Perigon + AlphaVantage wrapper)
 python scripts/ticker/news.py AAPL --months 3
+
+# AI Infrastructure News (Perigon Stories)
+python scripts/market/ai_news.py                 # Default: 1 day, 30 stories
+python scripts/market/ai_news.py --markdown      # Raw markdown output
+python scripts/market/ai_news.py --days 7        # Past 7 days
+python scripts/market/ai_news.py --count 30      # Explicitly set cap (default is 30)
 
 # News - individual sources
 python scripts/ticker/news_perigon.py AAPL --months 3

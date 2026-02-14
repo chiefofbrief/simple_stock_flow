@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
-Market Discovery Master Script
-==============================
+Peter's Market Digest
+=====================
 
 Runs a collection of market analysis scripts and aggregates their Markdown output.
 Supports both Daily and Weekly digest modes.
 
 Usage:
-    python scripts/discovery.py --daily        # Standard Daily Digest (Movers, News, Reddit)
-    python scripts/discovery.py --weekly       # Weekly Digest (Macro + 7-day lookback)
-    python scripts/discovery.py --barrons      # Run individual modules... 
+    python scripts/peters_digest.py --daily        # Peter's Daily Digest (AI News, Movers, Reddit)
+    python scripts/peters_digest.py --weekly       # Weekly Digest (Macro + 7-day lookback)
+    python scripts/peters_digest.py --barrons      # Run individual modules... 
 
 Output:
     Prints combined Markdown to stdout. Redirect to a file to save.
-    Example: python scripts/discovery.py --daily > "data/discovery/Digest_$(date +%F).md"
+    Example: python scripts/peters_digest.py --daily > "data/discovery/Digest_$(date +%F).md"
 """
 
 import argparse
@@ -27,10 +27,11 @@ import os
 # ============================================================================
 
 # Order of execution for Daily Digest
-DAILY_ORDER = ['movers', 'barrons', 'wsj', 'intrigue', 'reddit']
+# Prioritizing Movers -> Barron's -> Reddit -> AI News -> Intrigue
+DAILY_ORDER = ['movers', 'barrons', 'reddit', 'ai_news', 'intrigue']
 
 # Order of execution for Weekly Digest (Macro comes first)
-WEEKLY_ORDER = ['macro', 'movers', 'barrons', 'wsj', 'intrigue', 'reddit']
+WEEKLY_ORDER = ['macro', 'ai_news', 'movers', 'barrons', 'intrigue', 'reddit']
 
 def get_command(module, mode='daily'):
     """Get the specific command list for a module based on the mode."""
@@ -43,14 +44,14 @@ def get_command(module, mode='daily'):
         
         # Modules with variable timeframes
         'barrons':  [sys.executable, 'scripts/market/barrons.py', '--markdown'],
-        'wsj':      [sys.executable, 'scripts/market/wsj.py', '--markdown'],
+        'ai_news':  [sys.executable, 'scripts/market/ai_news.py', '--markdown'],
         'reddit':   [sys.executable, 'scripts/market/reddit.py', '--markdown']
     }
     
     cmd = cmds.get(module).copy()
     
     # Append specific arguments based on mode
-    if module == 'barrons' or module == 'wsj':
+    if module == 'barrons' or module == 'ai_news':
         days = '7' if mode == 'weekly' else '1'
         cmd.extend(['--days', days])
         
@@ -87,7 +88,7 @@ def run_module(module, mode):
         return f"\n> **Error running {module}**\n> {str(e)}\n\n"
 
 def main():
-    parser = argparse.ArgumentParser(description="Market Discovery - Digest Generator")
+    parser = argparse.ArgumentParser(description="Peter's Market Digest - Generator")
     
     # Modes
     mode_group = parser.add_mutually_exclusive_group()
@@ -98,7 +99,7 @@ def main():
     parser.add_argument('--movers', action='store_true', help="Run Movers")
     parser.add_argument('--macro', action='store_true', help="Run Macro")
     parser.add_argument('--barrons', action='store_true', help="Run Barron's")
-    parser.add_argument('--wsj', action='store_true', help="Run WSJ")
+    parser.add_argument('--ai-news', action='store_true', dest='ai_news', help="Run AI News")
     parser.add_argument('--intrigue', action='store_true', help="Run Intrigue")
     parser.add_argument('--reddit', action='store_true', help="Run Reddit")
 
