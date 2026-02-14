@@ -7,7 +7,7 @@ Orchestration scripts that wrap individual modules for specific workflows.
 
 | File | Purpose |
 | :--- | :--- |
-| `scripts/discovery.py` | Generates Market Discovery digests (Daily/Weekly). Supports `--daily`, `--weekly`, and individual module flags. |
+| `scripts/peters_digest.py` | Generates Peter's Market Digest (Daily/Weekly). Supports `--daily`, `--weekly`, and individual module flags. Prioritizes Movers, Barron's, Reddit, AI News, Intrigue. |
 | `scripts/sentiment.py` | Aggregates sentiment analysis from news and social media sources. Outputs to `data/tickers/{TICKER}/{TICKER}_sentiment.md`. Supports `--all` or individual source flags with timeline overrides. |
 | `scripts/price.py` | Screening Step 1: Batch price context for triage. Fetches 5yr dividend-adjusted daily prices from FMP, computes metrics (vs1Y–vs5Y, CV, z-score, 52w position, max drawdown, CAGR). Supports `--category losers/ai/other`, `--all`, or positional tickers. Outputs summary table + per-ticker JSON. |
 | `scripts/earnings.py` | Screening Step 2: Earnings + P/E for survivors of price triage. *Not yet implemented.* |

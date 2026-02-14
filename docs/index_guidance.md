@@ -17,7 +17,7 @@ Structured prompts designed for `@[prompt file]` invocation with script outputs.
 
 | File | Purpose | Data Inputs |
 |------|---------|-------------|
-| `news_analysis.md` | Market news synthesis: macro overview, AI ecosystem positioning, investment flags, screening candidates with investigation items. | `discovery.py` daily/weekly digest |
+| `news_analysis.md` | Market news synthesis: macro overview, AI ecosystem positioning, investment flags, screening candidates with investigation items. | `peters_digest.py` daily/weekly digest |
 | `screening_analysis.md` | Preliminary screening: price behavior, earnings trends, price-earnings correlation, P/E positioning. Filter to identify candidates worth deeper analysis. | `prices.py`, `earnings.py`, `valuation.py` |
 | `sentiment_analysis.md` | Multi-source sentiment synthesis: cross-source themes, material events, narrative validation, perception vs. reality gaps, investigation items. | `sentiment.py` master output |
 | `statement_analysis.md` | Deep financial analysis: 8 projection seeds, 13 priority metrics (8 undervaluation + 5 risk), 17 secondary metrics. Three-dimension framework (absolute/trends/volatility). | `financial_statements.py` master output |

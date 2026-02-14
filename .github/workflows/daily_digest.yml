@@ -36,4 +36,4 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: |
           # Core logic (scripts/) | Automation logic (automation/)
-          python scripts/discovery.py --daily | python automation/analyze_digest.py
+          python scripts/peters_digest.py --daily | python automation/analyze_digest.py
