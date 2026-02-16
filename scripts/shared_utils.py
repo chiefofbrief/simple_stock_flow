@@ -14,6 +14,7 @@ This module provides:
 import requests
 import json
 import os
+import re
 import time
 from datetime import datetime, timedelta
 
@@ -21,10 +22,67 @@ from datetime import datetime, timedelta
 # CONSTANTS
 # ============================================================================
 
+CATEGORY_HEADERS = {
+    "losers": "### Screening Candidates — Losers",
+    "ai": "### Screening Candidates — AI",
+    "other": "### Screening Candidates — Other",
+}
+
 REQUEST_TIMEOUT = 30  # seconds
 MAX_RETRIES = 5
 RETRY_DELAY = 60  # seconds
 API_CALL_DELAY = 13  # seconds - proactive delay between API calls (safe for free tier: 5 calls/min)
+
+# ============================================================================
+# TICKER EXTRACTION
+# ============================================================================
+
+def parse_tickers_from_session_notes(categories):
+    """Extract bold ticker symbols from SESSION_NOTES.md for given categories."""
+    # Find project root (up one level from scripts/)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    notes_path = os.path.join(os.path.dirname(current_dir), "SESSION_NOTES.md")
+    
+    if not os.path.exists(notes_path):
+        # Fallback if run from root
+        notes_path = "SESSION_NOTES.md"
+        if not os.path.exists(notes_path):
+            print(f"Error: SESSION_NOTES.md not found")
+            return []
+
+    with open(notes_path, "r") as f:
+        content = f.read()
+
+    tickers = []
+    for cat in categories:
+        header = CATEGORY_HEADERS.get(cat)
+        if not header:
+            print(f"Warning: unknown category '{cat}', skipping")
+            continue
+
+        idx = content.find(header)
+        if idx == -1:
+            continue
+
+        # Extract from header to next ### or --- section break
+        section_start = idx + len(header)
+        next_section = re.search(r"\n###\s|\n---", content[section_start:])
+        section_end = section_start + (next_section.start() if next_section else len(content[section_start:]))
+        section = content[section_start:section_end]
+
+        # Match **TICKER** patterns (uppercase letters, possibly with dots for BRK.B etc.)
+        found = re.findall(r"\*\*([A-Z][A-Z0-9.]+)\*\*", section)
+        tickers.extend(found)
+
+    # Deduplicate while preserving order
+    seen = set()
+    unique = []
+    for t in tickers:
+        if t not in seen:
+            seen.add(t)
+            unique.append(t)
+
+    return unique
 
 # ============================================================================
 # DIRECTORY & FILE MANAGEMENT

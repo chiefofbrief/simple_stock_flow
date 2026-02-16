@@ -87,11 +87,17 @@ python scripts/price.py --all
 
 ### Screening — Earnings (Step 2)
 
-Earnings + valuation for survivors of price triage. Uses FMP API.
+Earnings + valuation for survivors of price triage. Uses FMP API. Requires `price.py` to have been run first for the ticker.
 
 ```bash
-# Screen survivors from Step 1 (reads local _price.json and fetches earnings)
+# Specific tickers
 python scripts/earnings.py NOW CRM ADBE
+
+# By category (reads tickers from SESSION_NOTES.md)
+python scripts/earnings.py --category losers
+
+# All screening candidates
+python scripts/earnings.py --all
 ```
 
 ---

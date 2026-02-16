@@ -10,7 +10,7 @@ Orchestration scripts that wrap individual modules for specific workflows.
 | `scripts/peters_digest.py` | Generates Peter's Market Digest (Daily/Weekly). Supports `--daily`, `--weekly`, and individual module flags. Prioritizes Movers, Barron's, Reddit, AI News, Intrigue. |
 | `scripts/sentiment.py` | Aggregates sentiment analysis from news and social media sources. Outputs to `data/tickers/{TICKER}/{TICKER}_sentiment.md`. Supports `--all` or individual source flags with timeline overrides. |
 | `scripts/price.py` | Screening Step 1: Batch price context for triage. Fetches 5yr dividend-adjusted daily prices from FMP, computes metrics (vs1Y–vs5Y, CV, z-score, 52w position, max drawdown, CAGR). Supports `--category losers/ai/other`, `--all`, or positional tickers. Outputs summary table + per-ticker JSON. |
-| `scripts/earnings.py` | Screening Step 2: Earnings + P/E for survivors of price triage. Computes P/E trends, Price-EPS correlation (1yr), EPS CAGR (5yr), Stability (CV), and Forward Delta (Next Est vs Last Actual). Reads local Price JSON. |
+| `scripts/earnings.py` | Screening Step 2: Earnings + P/E for survivors of price triage. Computes P/E trends, Price-EPS correlation (1yr), EPS CAGR (5yr), Stability (CV), and Forward Delta (Next Est vs Last Actual). Reads local Price JSON. Supports `--category losers/ai/other`, `--all`, or positional tickers. |
 | `scripts/financial_statements.py` | Orchestrates financial statements analysis: fetches raw data, calculates seeds and metrics, generates comparison tables. Outputs to `data/tickers/{TICKER}/{TICKER}_statements.md`. Supports optional `--compare PEER1 PEER2` for peer comparison. |
 
 ## 2. Market Scripts (`scripts/market/`)

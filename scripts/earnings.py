@@ -31,11 +31,12 @@ from shared_utils import (
     ensure_directory_exists,
     save_json,
     load_json,
+    parse_tickers_from_session_notes,
 )
 
 FMP_API_KEY = os.getenv("FMP_API_KEY")
 FMP_BASE = "https://financialmodelingprep.com/stable"
-API_CALL_DELAY = 1.0
+API_CALL_DELAY = 2.0
 
 def fetch_earnings_data(ticker):
     """Fetch earnings history (includes next estimate if available)."""
@@ -233,20 +234,59 @@ def get_legend():
     return "\nLEGEND:\nvsXYr: % difference between Current P/E and P/E X years ago.\n1yCorr: Correlation (0-1) between Price and Earnings over last 12 months.\nStability: CV of Annual EPS (Lower = Smoother growth).\nFwd Delta: Next Quarter Estimate minus Last Reported EPS. (+ = Growth exp).\n"
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("tickers", nargs="+")
+    parser = argparse.ArgumentParser(description="Earnings & Valuation Analysis")
+    parser.add_argument("tickers", nargs="*", help="Ticker symbol(s)")
+    parser.add_argument(
+        "--category",
+        nargs="+",
+        choices=["losers", "ai", "other"],
+        help="Read tickers from SESSION_NOTES by category",
+    )
+    parser.add_argument("--all", action="store_true", help="All categories from SESSION_NOTES")
     args = parser.parse_args()
+
+    # Resolve ticker list
+    tickers = []
+    if args.all:
+        tickers = parse_tickers_from_session_notes(["losers", "ai", "other"])
+    elif args.category:
+        tickers = parse_tickers_from_session_notes(args.category)
+
+    if args.tickers:
+        tickers.extend(t.upper() for t in args.tickers)
+
+    if not tickers:
+        print("Error: no tickers specified. Use positional args, --category, or --all")
+        sys.exit(1)
+
+    # Deduplicate
+    seen = set()
+    unique_tickers = []
+    for t in tickers:
+        if t not in seen:
+            seen.add(t)
+            unique_tickers.append(t)
+    tickers = unique_tickers
+
+    print(f"Processing {len(tickers)} tickers: {', '.join(tickers)}\n")
+
     results = []
-    for ticker in [t.upper() for t in args.tickers]:
+    for i, ticker in enumerate(tickers):
+        if i > 0:
+            time.sleep(API_CALL_DELAY)
+        
         price_data = get_local_price_data(ticker)
-        if not price_data: continue
+        if not price_data:
+            print(f"Skipping {ticker}: No local price data found (run price.py first)")
+            continue
+            
         print(f"Fetching {ticker}...")
         history = fetch_earnings_data(ticker)
         res = analyze_ticker(ticker, history, price_data)
         if res:
             results.append(res)
             save_json(res, os.path.join(get_data_directory(ticker), f"{ticker}_earnings.json"))
-        time.sleep(API_CALL_DELAY)
+
     if not results: return
     today = datetime.now().strftime("%Y-%m-%d")
     summary = format_summary_table(results)

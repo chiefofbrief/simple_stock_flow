@@ -128,12 +128,19 @@ List of tickers advancing to Step 2, organized by category. Brief rationale for 
 
 ### Script: `scripts/earnings.py`
 
-Fetches earnings data, computes P/E and valuation metrics. Runs only on survivors from Step 1.
+Earnings + valuation for survivors of price triage. Uses FMP API.
 
-**Input**: Tickers from CLI args.
+**Input**: Tickers from CLI args or parsed from SESSION_NOTES by category.
 
-```
+```bash
+# Specific tickers
 python scripts/earnings.py NOW CRM ADBE
+
+# By category (reads tickers from SESSION_NOTES.md)
+python scripts/earnings.py --category losers
+
+# All screening candidates
+python scripts/earnings.py --all
 ```
 
 **Data Source**: FMP API.
@@ -212,6 +219,6 @@ Replacing AlphaVantage due to pricing. Existing AlphaVantage scripts archived in
 | 1 | Update `SCREENING_PROCESS.md` | Done |
 | 2 | Archive existing scripts to `archive/scripts/` | Done |
 | 3 | Create `scripts/price.py` — price context script with FMP API | Done |
-| 4 | Create `guidance/prompts/price.md` — price triage prompt | Pending |
+| 4 | Create `guidance/prompts/price_analysis.md` — price triage prompt | In Progress |
 | 5 | Create `scripts/earnings.py` — earnings/valuation script with FMP API | Done |
-| 6 | Create `guidance/prompts/earnings.md` — combined screening prompt | Pending |
+| 6 | Create `guidance/prompts/earnings_analysis.md` — combined screening prompt | In Progress |

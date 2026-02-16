@@ -38,6 +38,7 @@ from shared_utils import (
     get_data_directory,
     ensure_directory_exists,
     save_json,
+    parse_tickers_from_session_notes,
 )
 
 import requests
@@ -46,63 +47,6 @@ import time
 FMP_API_KEY = os.getenv("FMP_API_KEY")
 FMP_BASE = "https://financialmodelingprep.com/stable"
 API_CALL_DELAY = 2  # seconds between API calls
-
-# ---------------------------------------------------------------------------
-# SESSION_NOTES ticker extraction
-# ---------------------------------------------------------------------------
-
-CATEGORY_HEADERS = {
-    "losers": "### Screening Candidates — Losers",
-    "ai": "### Screening Candidates — AI",
-    "other": "### Screening Candidates — Other",
-}
-
-
-def parse_tickers_from_session_notes(categories):
-    """Extract bold ticker symbols from SESSION_NOTES.md for given categories."""
-    notes_path = os.path.join(
-        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-        "SESSION_NOTES.md",
-    )
-    if not os.path.exists(notes_path):
-        print(f"Error: {notes_path} not found")
-        sys.exit(1)
-
-    with open(notes_path, "r") as f:
-        content = f.read()
-
-    tickers = []
-    for cat in categories:
-        header = CATEGORY_HEADERS.get(cat)
-        if not header:
-            print(f"Warning: unknown category '{cat}', skipping")
-            continue
-
-        idx = content.find(header)
-        if idx == -1:
-            print(f"Warning: header '{header}' not found in SESSION_NOTES.md")
-            continue
-
-        # Extract from header to next ### or --- section break
-        section_start = idx + len(header)
-        next_section = re.search(r"\n###\s|\n---", content[section_start:])
-        section_end = section_start + next_section.start() if next_section else len(content)
-        section = content[section_start:section_end]
-
-        # Match **TICKER** patterns (uppercase letters, possibly with dots for BRK.B etc.)
-        found = re.findall(r"\*\*([A-Z][A-Z0-9.]+)\*\*", section)
-        tickers.extend(found)
-
-    # Deduplicate while preserving order
-    seen = set()
-    unique = []
-    for t in tickers:
-        if t not in seen:
-            seen.add(t)
-            unique.append(t)
-
-    return unique
-
 
 # ---------------------------------------------------------------------------
 # FMP data fetching
