@@ -1,3 +1,24 @@
+**screening prompts:**
+- we have completed the script updates fr our screening phase. we have two scripts, price and earnings.
+- now we need to make two prompts, one for price, and the other for earnings (really the second is price and eanrings, kind of a holistic thing). the price prompt will be used after running the price script. the earnings prompt will be used after running the earnings script. both prompts will rely on/use the script outputs as their primary input.
+- the prompts can be relatively simple; the output from the scripts is already strcutured in such a way that they 'feed' the llm the data we care about in an easy-to-digest fashion.
+- for price, these are our primary questions; the output is already well-formatted to answer these questions: "How does the current price compare to historical levels?" — The vs1Y–vs5Y columns, 52w position, CAGR, and reversion upside tell this story. Is the stock actually cheap, or just cheaper than a recent peak? "How volatile is the price?" — CV, z-score, and drop/max drawdown. A 20% drop in a stock with 0.15 CV is a different signal than a 20% drop in a stock with 0.50 CV. Losers — additional question: "How does the recent drop compare to historical drops and volatility?" 
+- questions for earnings: 1) What is the earnings trend and volatility; 2) How do recent earnings compare to earnings estimates by analysts?; 3) What is the relationhsip between price and earnings?
+- these questions should be answered for each ticker an appended/prepended to the txt file ouput. the answers should be 1-2 sentences each. the answers should be copied and pasted over to the session notes as subsections/bullets under each ticker in the screening list (once we move to the deeper analyses like sentinment or ststaments we make a file for the ticker, but until then all context should be saved in session notes).
+- what questions do you propose for price and earnings? Perhaps you can do a better job of phrasing my questions, but now you know what I care about and why the output is designed as it is. 
+
+let's discuss all these updates prior to implementation. 
+
+
+**additional screening items:**
+- we have successfuly updated the price and earnings scripts, as well as the daily digest. our screening phase is almost ready for deployment in its new form. however, we have a coupld more items to address.
+- first, what is the usage/behavior of the price/earnings scripts with regard to tickers/commands? Do they accept tickers in the command line? Is there a limit on the number of tickers for either (I wouldn't do more than 20 at a time most likely but just asking).
+- does either script allow, or defualt to, capturing tickers from the session notes in the screening list)? I think the price script may have something, but not sure. If not, how can we implement this while also preserving the ability to manually enter tickers? A wrapper? To be clear, I am asking to have a script that captures the tickers from the screening list in session notes file, and runs them. let's think about how to do this.
+- i would like to include concise answers to our critical 2-3 questions for price and earnings in the session notes post-analysis. we can discuss formatting, and how we should design the prompts to do this (we will have two promppts, one for price analysis and the other for price and earnings analysis). these will likely replace the current screening prompt (which will be archived). we may also need to update the session notes structure to reflect this multi-pass approach (maybe, it maye have already been updated). 
+
+for now, let's focus on the items other than the prompts; we'll return to those.
+
+
 **Peter's Digest:**
 - did we implement vector search for ai news? Or just boolean? (check ai_news script)
 - can we add prominent section headers for each source? and clear breaks between section? Review the format of the last 2 daily digests for context. This is a nice to have, not a need to have; only implement if it doesn't take a lot of work.
