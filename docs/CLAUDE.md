@@ -73,7 +73,7 @@ Deep investigation of screened candidates. Three dimensions:
 - Validate or challenge company narratives
 
 **Tools:**
-- Ticker scripts: `news.py`, `reddit.py`, `youtube.py`, `tiktok.py`
+- Ticker scripts: `scripts/ticker/news.py`, `scripts/ticker/reddit.py`, `scripts/ticker/youtube.py`, `scripts/ticker/tiktok.py`
 - Master script: `sentiment.py` (aggregates all sources)
 - Guidance: `guidance/prompts/news_analysis.md`, `guidance/prompts/sentiment_analysis.md`
 
@@ -89,7 +89,7 @@ Deep investigation of screened candidates. Three dimensions:
 
 **Tools:**
 - Master script: `financial_statements.py` (orchestrates fetch, seeds, metrics, and optional peer comparison)
-- Ticker scripts: `fetch_financials.py`, `calc_seeds.py`, `calc_metrics.py`, `compare_financials.py`
+- Ticker scripts: `scripts/ticker/fetch_financials.py`, `scripts/ticker/calc_seeds.py`, `scripts/ticker/calc_metrics.py`, `scripts/ticker/compare_financials.py`
 - Guidance: `guidance/prompts/statement_analysis.md`, `guidance/frameworks/stock_analysis_guidelines.md`
 
 #### C. Notes & MD&A Analysis
@@ -101,7 +101,7 @@ Deep investigation of screened candidates. Three dimensions:
 - Compare management narrative (MD&A) with accounting detail (Notes)
 
 **Tools:**
-- Ticker script: `sec_filings.py` (fetches and extracts SEC filings from EDGAR)
+- Ticker script: `scripts/ticker/sec_filings.py` (fetches and extracts SEC filings from EDGAR)
 - Guidance: `guidance/prompts/notes_analysis.md`, `guidance/glossaries/notes.md`
 
 ---

@@ -210,8 +210,8 @@ Replacing AlphaVantage due to pricing. Existing AlphaVantage scripts archived in
 | # | Item | Status |
 |---|------|--------|
 | 1 | Update `SCREENING_PROCESS.md` | Done |
-| 2 | Archive existing scripts to `scripts/archive/` | Done — `prices_alphavantage.py`, `earnings_alphavantage.py`, `valuation_alphavantage.py` |
-| 3 | Create `scripts/price.py` — price context script with FMP API | Done — tested with AAPL, TSLA |
-| 4 | Create `guidance/prompts/price.md` — price triage prompt | Not started |
-| 5 | Create `scripts/earnings.py` — earnings/valuation script with FMP API | Not started — needs FMP earnings endpoints |
-| 6 | Create `guidance/prompts/earnings.md` — combined screening prompt | Not started |
+| 2 | Archive existing scripts to `archive/scripts/` | Done |
+| 3 | Create `scripts/price.py` — price context script with FMP API | Done |
+| 4 | Create `guidance/prompts/price.md` — price triage prompt | Pending |
+| 5 | Create `scripts/earnings.py` — earnings/valuation script with FMP API | Done |
+| 6 | Create `guidance/prompts/earnings.md` — combined screening prompt | Pending |

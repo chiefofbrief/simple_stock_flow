@@ -311,6 +311,22 @@ def analyze_ticker(ticker, daily_prices):
     slope_1yr = linear_regression_slope(monthly_1yr_prices)
     slope_5yr = linear_regression_slope(monthly_prices)
 
+    # --- Recent 12-month data for display ---
+    recent_12m = monthly_closes[-12:] if len(monthly_closes) >= 12 else monthly_closes
+    start_idx = len(monthly_closes) - len(recent_12m)
+    prev_close_for_delta = monthly_closes[start_idx - 1][1] if start_idx > 0 else None
+    
+    recent_trend_data = []
+    current_prev = prev_close_for_delta
+    for date, close in recent_12m:
+        delta_pct = (close - current_prev) / current_prev if current_prev and current_prev > 0 else None
+        recent_trend_data.append({
+            "date": date,
+            "close": close,
+            "change_pct": delta_pct
+        })
+        current_prev = close
+
     return {
         "ticker": ticker,
         "as_of": current_date,
@@ -338,6 +354,7 @@ def analyze_ticker(ticker, daily_prices):
             "avg_price_1yr": avg_1yr,
             "avg_price_5yr": avg_5yr,
             "monthly_returns": monthly_returns,
+            "recent_trend": recent_trend_data,
         },
     }
 
@@ -393,6 +410,44 @@ def format_table(results):
     return "\n".join(lines)
 
 
+def format_trend_table(ticker, trend_data):
+    """Format the 12-month trend data into a string table."""
+    headers = ["Date", "Close", "MoM %"]
+    rows = []
+    for d in reversed(trend_data):  # Show newest first
+        rows.append([
+            d["date"],
+            f"${d['close']:.2f}",
+            format_pct(d["change_pct"], 1)
+        ])
+    
+    col_widths = [max(len(str(row[i])) for row in [headers] + rows) for i in range(len(headers))]
+    
+    def fmt_row(row):
+        return " | ".join(str(row[i]).rjust(col_widths[i]) for i in range(len(headers)))
+
+    lines = []
+    lines.append(f"Recent Trend: {ticker}")
+    lines.append(fmt_row(headers))
+    lines.append("-+-".join("-" * w for w in col_widths))
+    for row in rows:
+        lines.append(fmt_row(row))
+    
+    return "\n".join(lines)
+
+
+def get_legend():
+    """Return concise legend for table columns."""
+    return """
+LEGEND:
+CV (Coeff. Variation): Volatility relative to price. Higher = more volatile.
+Z-Score: Std devs of recent 1mo return vs history. <-2.0 is anomalous drop.
+52w Pos: Position in 52-week range. 0% = Low, 100% = High.
+Drop/MaxDD: Recent 1mo drop as % of worst 5yr drawdown. >80% = nearing historic worst.
+Revert↑: Upside if price reverts to 1yr average.
+"""
+
+
 def save_results(results):
     """Save per-ticker JSON and batch summary."""
     for r in results:
@@ -409,10 +464,23 @@ def save_results(results):
         screening_dir = os.path.join("data", "screening")
         ensure_directory_exists(screening_dir)
         summary_path = os.path.join(screening_dir, f"Price_{today}.txt")
+        
+        # 1. Main Table
         table = format_table(results)
         header = f"PRICE CONTEXT — {today}\nTickers: {', '.join(r['ticker'] for r in results)}\n\n"
+        
+        # 2. Detailed Trend Tables
+        details = []
+        for r in results:
+            if "recent_trend" in r["supplementary"]:
+                details.append("\n" + "-" * 40 + "\n")
+                details.append(format_trend_table(r["ticker"], r["supplementary"]["recent_trend"]))
+        
+        # 3. Legend
+        legend = get_legend()
+
         with open(summary_path, "w") as f:
-            f.write(header + table + "\n")
+            f.write(header + table + "\n".join(details) + "\n" + legend + "\n")
         print(f"\n  Batch summary: {summary_path}")
 
 

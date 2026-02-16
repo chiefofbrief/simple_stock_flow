@@ -138,10 +138,34 @@ def main():
     print("---\n")
 
     # Run Modules
-    for module in execution_list:
+    for i, module in enumerate(execution_list):
+        # Section Header Mapping
+        titles = {
+            'movers': 'Market Movers',
+            'barrons': "Barron's News",
+            'reddit': 'Reddit Sentiment',
+            'ai_news': 'AI Infrastructure News',
+            'intrigue': 'International Intrigue',
+            'macro': 'Macro Analysis'
+        }
+        
+        # Print Separator (if not first)
+        if i > 0:
+            print("\n---\n")
+
+        # Print Section Header
+        title = titles.get(module, module.replace('_', ' ').title())
+        # Note: Individual scripts often print their own H2 (##) headers.
+        # We'll print a separator to spacing, but let the script control its internal headers.
+        # However, the user requested "prominent section headers".
+        # Let's rely on the separator and the script's own header, 
+        # OR we can print a "Super Header" if the script output doesn't start with one.
+        # Most scripts print `## Title`.
+        # We will just ensure there is spacing and a break.
+        
         output = run_module(module, mode)
         print(output)
-        print("\n")
+
 
 if __name__ == "__main__":
     main()

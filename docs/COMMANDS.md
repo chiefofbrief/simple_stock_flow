@@ -87,10 +87,10 @@ python scripts/price.py --all
 
 ### Screening — Earnings (Step 2)
 
-Earnings + valuation for survivors of price triage. *Not yet implemented — pending FMP earnings endpoints.*
+Earnings + valuation for survivors of price triage. Uses FMP API.
 
 ```bash
-# Screen survivors from Step 1
+# Screen survivors from Step 1 (reads local _price.json and fetches earnings)
 python scripts/earnings.py NOW CRM ADBE
 ```
 
@@ -103,11 +103,11 @@ Individual scripts can be run independently. See `docs/index_scripts.md` for com
 ### Common Individual Script Usage
 
 ```bash
-# Prices (archived — use scripts/price.py instead)
-# python scripts/ticker/prices.py AAPL MSFT
+# Prices (Step 1)
+python scripts/price.py AAPL MSFT
 
-# Earnings (archived — use scripts/earnings.py instead, when implemented)
-# python scripts/ticker/earnings.py AAPL MSFT
+# Earnings (Step 2)
+python scripts/earnings.py AAPL MSFT
 
 # News - modular (Perigon + AlphaVantage wrapper)
 python scripts/ticker/news.py AAPL --months 3
