@@ -1,8 +1,10 @@
 **PROCESS:**
+
+**First Analysis:**
 1. price.
 2. earnings.
 3. earnings risk:
-   -  Debt: [S]
+   -  Debt / Total Assets: [S]
    -  Debt / Operating Cash Flow: [P]
    -  NCAV (Net Current Asset Value): [P]
    -  Accruals Gap: [P]
@@ -15,12 +17,23 @@
     - Operating Cash Flow: [P]
     - Free Cash Flow: [P]
     - OCF / Net Income: [P]
-5. ROI
+5. roi:
     - ROTC (Return on Total Capital): [P]
     - ROE (Return on Equity): [P]
     - Operating Leverage: [P]
 
-  
+**Second Analysis**:
+1. sentiment:
+    - What are "authoratative" sources saying about the stock?
+    - What is social media saying about the stock?
+    - Are there particular catalysts/events that are driving sentiment?
+    - Does our quantiative analysis support or reject the prevailing sentiment?
+2. Notes (financial statments) / MD&A:
+    - What do the filings reveal about questions/concerns raised by prior analyses?
+    - Do the filings align with prior analyses, or are there areas of divergence?
+    - Are there risks that were not identified in prior analyses?
+3. 
+
 
 
 **screening prompts:**
