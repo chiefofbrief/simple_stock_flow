@@ -1,7 +1,26 @@
 **PROCESS:**
 1. price.
 2. earnings.
-3. debt. 
+3. earnings risk:
+   -  Debt: [S]
+   -  Debt / Operating Cash Flow: [P]
+   -  NCAV (Net Current Asset Value): [P]
+   -  Accruals Gap: [P]
+   -  CapEx: [S]
+   -  Depreciation & Amortization: [P, S]
+   -  Working Capital: [P]
+4. earnings quality:
+    - Revenue: [P, S]
+    - Operating Margin: [P]
+    - Operating Cash Flow: [P]
+    - Free Cash Flow: [P]
+    - OCF / Net Income: [P]
+5. ROI
+    - ROTC (Return on Total Capital): [P]
+    - ROE (Return on Equity): [P]
+    - Operating Leverage: [P]
+
+  
 
 
 **screening prompts:**
