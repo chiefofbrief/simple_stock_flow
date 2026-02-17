@@ -32,14 +32,14 @@ Generate daily or weekly market digests.
 
 ```bash
 # Peter's Daily Digest (Movers, Barron's, Reddit, AI News, Intrigue - 1 day lookback)
-python scripts/peters_digest.py --daily > "data/discovery/Daily_Digest_$(date +%Y-%m-%d).md"
+python "WORKFLOW v1/Scripts/peters_digest.py" --daily
 
 # Weekly digest (Macro, AI News, Movers, Reddit - 7 day lookback)
-python scripts/peters_digest.py --weekly > "data/discovery/Weekly_Digest_$(date +%Y-%m-%d).md"
+python "WORKFLOW v1/Scripts/peters_digest.py" --weekly
 
 # Run specific modules only
-python scripts/peters_digest.py --barrons --ai-news
-python scripts/peters_digest.py --macro
+python "WORKFLOW v1/Scripts/peters_digest.py" --barrons --ai-news
+python "WORKFLOW v1/Scripts/peters_digest.py" --macro
 ```
 
 ### Financial Statements Analysis
@@ -75,14 +75,14 @@ Batch price context for screening triage. See `SCREENING_PROCESS.md` for full pr
 
 ```bash
 # Specific tickers
-python scripts/price.py NOW CRM ADBE KD MAT
+python "WORKFLOW v1/Scripts/price.py" NOW CRM ADBE KD MAT
 
 # By category (reads tickers from SESSION_NOTES.md)
-python scripts/price.py --category losers
-python scripts/price.py --category ai other
+python "WORKFLOW v1/Scripts/price.py" --category losers
+python "WORKFLOW v1/Scripts/price.py" --category ai other
 
 # All screening candidates
-python scripts/price.py --all
+python "WORKFLOW v1/Scripts/price.py" --all
 ```
 
 ### Screening — Earnings (Step 2)
@@ -91,13 +91,13 @@ Earnings + valuation for survivors of price triage. Uses FMP API. Requires `pric
 
 ```bash
 # Specific tickers
-python scripts/earnings.py NOW CRM ADBE
+python "WORKFLOW v1/Scripts/earnings.py" NOW CRM ADBE
 
 # By category (reads tickers from SESSION_NOTES.md)
-python scripts/earnings.py --category losers
+python "WORKFLOW v1/Scripts/earnings.py" --category losers
 
 # All screening candidates
-python scripts/earnings.py --all
+python "WORKFLOW v1/Scripts/earnings.py" --all
 ```
 
 ---

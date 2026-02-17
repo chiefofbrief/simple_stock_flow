@@ -405,9 +405,10 @@ def save_results(results):
     # Batch summary
     if results:
         today = datetime.now().strftime("%Y-%m-%d")
-        screening_dir = os.path.join("data", "screening")
-        ensure_directory_exists(screening_dir)
-        summary_path = os.path.join(screening_dir, f"Price_{today}.txt")
+        # Save to WORKFLOW v1 directory
+        output_dir = "WORKFLOW v1"
+        ensure_directory_exists(output_dir)
+        summary_path = os.path.join(output_dir, f"Price_Data_{today}.txt")
         
         # 1. Main Table
         table = format_table(results)

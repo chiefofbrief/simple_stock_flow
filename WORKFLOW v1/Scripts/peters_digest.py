@@ -38,14 +38,14 @@ def get_command(module, mode='daily'):
     
     # Base commands
     cmds = {
-        'movers':   [sys.executable, 'scripts/market/movers.py', '--markdown'],
-        'intrigue': [sys.executable, 'scripts/market/intrigue.py', '--markdown'],
-        'macro':    [sys.executable, 'scripts/market/macro.py', '--markdown'],
+        'movers':   [sys.executable, 'WORKFLOW v1/Scripts/Digest Scripts/movers.py', '--markdown'],
+        'intrigue': [sys.executable, 'WORKFLOW v1/Scripts/Digest Scripts/intrigue.py', '--markdown'],
+        'macro':    [sys.executable, 'WORKFLOW v1/Scripts/Digest Scripts/macro.py', '--markdown'],
         
         # Modules with variable timeframes
-        'barrons':  [sys.executable, 'scripts/market/barrons.py', '--markdown'],
-        'ai_news':  [sys.executable, 'scripts/market/ai_news.py', '--markdown'],
-        'reddit':   [sys.executable, 'scripts/market/reddit.py', '--markdown']
+        'barrons':  [sys.executable, 'WORKFLOW v1/Scripts/Digest Scripts/barrons.py', '--markdown'],
+        'ai_news':  [sys.executable, 'WORKFLOW v1/Scripts/Digest Scripts/ai_news.py', '--markdown'],
+        'reddit':   [sys.executable, 'WORKFLOW v1/Scripts/Digest Scripts/reddit.py', '--markdown']
     }
     
     cmd = cmds.get(module).copy()
@@ -127,44 +127,54 @@ def main():
             parser.print_help()
             sys.exit(1)
 
-    # Generate Header
+    # Generate Output Content
+    output_content = []
+    
     now = datetime.datetime.now()
     title = "Weekly Market Digest" if mode == 'weekly' else "Peter's Daily Digest"
-    if not args.weekly and not args.daily:
-        title = "Market Discovery Report"
+    
+    # Simple check if neither flag was set (and list matches neither default)
+    is_custom = (not args.weekly and not args.daily and 
+                 execution_list != DAILY_ORDER and execution_list != WEEKLY_ORDER)
+    
+    if is_custom:
+         title = "Market Discovery Report"
 
-    print(f"# {title}")
-    print(f"**Generated:** {now.strftime('%A, %B %d, %Y')}")
-    print("---\n")
+    output_content.append(f"# {title}")
+    output_content.append(f"**Generated:** {now.strftime('%A, %B %d, %Y')}")
+    output_content.append("---\n")
 
     # Run Modules
     for i, module in enumerate(execution_list):
-        # Section Header Mapping
-        titles = {
-            'movers': 'Market Movers',
-            'barrons': "Barron's News",
-            'reddit': 'Reddit Sentiment',
-            'ai_news': 'AI Infrastructure News',
-            'intrigue': 'International Intrigue',
-            'macro': 'Macro Analysis'
-        }
-        
-        # Print Separator (if not first)
         if i > 0:
-            print("\n---\n")
-
-        # Print Section Header
-        title = titles.get(module, module.replace('_', ' ').title())
-        # Note: Individual scripts often print their own H2 (##) headers.
-        # We'll print a separator to spacing, but let the script control its internal headers.
-        # However, the user requested "prominent section headers".
-        # Let's rely on the separator and the script's own header, 
-        # OR we can print a "Super Header" if the script output doesn't start with one.
-        # Most scripts print `## Title`.
-        # We will just ensure there is spacing and a break.
+            output_content.append("\n---\n")
         
         output = run_module(module, mode)
-        print(output)
+        output_content.append(output)
+
+    full_report = "\n".join(output_content)
+
+    # Save to File
+    date_str = now.strftime("%Y-%m-%d")
+    file_prefix = "Weekly_Digest" if mode == 'weekly' else "Daily_Digest"
+    if is_custom:
+        file_prefix = "Custom_Digest"
+        
+    filename = f"{file_prefix}_{date_str}.md"
+    
+    # Save to WORKFLOW v1/Peter's Digest
+    # We assume script is run from project root, so relative path is safe
+    output_dir = os.path.join("WORKFLOW v1", "Peter's Digest")
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        
+    output_path = os.path.join(output_dir, filename)
+    
+    with open(output_path, "w") as f:
+        f.write(full_report)
+        
+    print(f"Digest generated and saved to: {output_path}")
 
 
 if __name__ == "__main__":
