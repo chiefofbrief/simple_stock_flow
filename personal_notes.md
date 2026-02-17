@@ -1,3 +1,9 @@
+**PROCESS:**
+1. price.
+2. earnings.
+3. debt. 
+
+
 **screening prompts:**
 - we have completed the script updates fr our screening phase. we have two scripts, price and earnings.
 - now we need to make two prompts, one for price, and the other for earnings (really the second is price and eanrings, kind of a holistic thing). the price prompt will be used after running the price script. the earnings prompt will be used after running the earnings script. both prompts will rely on/use the script outputs as their primary input.
