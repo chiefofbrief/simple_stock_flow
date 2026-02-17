@@ -1,3 +1,29 @@
+  Summary of Completed Actions:
+   1. Workflow V1 Setup: Created WORKFLOW v1 directory structure.
+   2. Script Migration: Moved peters_digest.py, price.py, earnings.py, shared_utils.py and all digest scripts to WORKFLOW v1/Scripts/.
+   3. Path Updates: Updated peters_digest.py to point to the new location of digest scripts and save output to WORKFLOW v1/Peter's Digest/. Updated docs/COMMANDS.md.
+   4. Prompt Creation: Created WORKFLOW v1/Prompts/price_analysis_prompt.md.
+   5. Execution: Ran Peter's Digest for today.
+   6. Analysis: Generated and prepended the market analysis to the daily digest file.
+   7. Git Sync: Pushed all changes to the remote repository.
+
+We are updating our workflow. You are not permitted to make any edits to files without my written approval. Review my instructions carefully at all times, and never assume or hallucinate or use your own knowledge unless you ask first; always rely on my instructions and our source material. 
+
+We will begin first by creating a new folder called 'WORKFLOW v1'. Move the current peters digest, price, and earnings scripts into this folder. All new files will also go in this folder. Second, create a new file called 'Stock Tracker.md' which will replace the list of stocks in the session notes (do not make the replacement yet, just create the file). Third, create a section in that file called 'Price Analysis' which will bs used to track findings from price analyses. 
+
+Our first main deliverable will be the new price prompt. The price script alreads provides the data exaclty as we need it; the job of the prompt is analysis. Our focus is on these questions; the analysis should explicitly answer each of these questions concisely: 
+   - How does the current price compare to historical levels?
+   - What is the long-term price trend and volatility? (past 5 years)
+   - What is the short-term price trend and volatility? (past 12 months)
+   - FOR LOSERS ONLY:
+        - How does the current price drop compare to the biggest drawdowns in the stock's history?
+        - What is the delta between the current price and its average over the past 12 months?
+
+The objective of the price analysis is to understand if the current price is low/normal/high, and in the case of losers, if the price drop is an anomaly (or if it's part of the stock's normal volatility or a larger downward trend). In addition to answering the questions above, the analysis should also produce a 'price summary' which concisely articulates the findings from each question (if insightful). After the analysis has been completed for all stocks/tickers, the price summaries for approved stocks should be copied and pasted into the STOCK TRACKER file in the Price Analaysis section.  
+
+
+
+
 **PROCESS:**
 
 **Quant Analysis:**
