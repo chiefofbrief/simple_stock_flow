@@ -1,10 +1,10 @@
 **PROCESS:**
 
-**First Analysis:**
+**Quant Analysis:**
 1. price.
 2. earnings.
 3. earnings risk:
-   -  Debt / Total Assets: [S]
+   -  Debt / Total Assets: [Debt = S]
    -  Debt / Operating Cash Flow: [P]
    -  NCAV (Net Current Asset Value): [P]
    -  Accruals Gap: [P]
@@ -22,17 +22,20 @@
     - ROE (Return on Equity): [P]
     - Operating Leverage: [P]
 
-**Second Analysis**:
-1. sentiment:
+**Qual Analysis**:
+1. external sentiment (news and social media):
     - What are "authoratative" sources saying about the stock?
     - What is social media saying about the stock?
     - Are there particular catalysts/events that are driving sentiment?
     - Does our quantiative analysis support or reject the prevailing sentiment?
-2. Notes (financial statments) / MD&A:
+2. internal sentiment (earnings calls):
+    - What are analysts paying attention to?
+    - What narrative is management trying to push?
+    - Does internal sentiment align with external sentiment?
+4. Notes (financial statments) / MD&A:
     - What do the filings reveal about questions/concerns raised by prior analyses?
     - Do the filings align with prior analyses, or are there areas of divergence?
     - Are there risks that were not identified in prior analyses?
-3. 
 
 
 
