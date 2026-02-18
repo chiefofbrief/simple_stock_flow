@@ -123,7 +123,7 @@ def fetch_all_financials(ticker):
     data['annual']['balance'] = fetch_endpoint(f"{FMP_BASE_URL}/balance-sheet-statement?symbol={ticker}&limit=10&apikey={FMP_API_KEY}")
     data['annual']['cash_flow'] = fetch_endpoint(f"{FMP_BASE_URL}/cash-flow-statement?symbol={ticker}&limit=10&apikey={FMP_API_KEY}")
     
-    # Fetch Quarterly (Limit 6 for TTM calculation)
+    # Fetch Quarterly (Limit 6 for TTM calculation and recent trend)
     data['quarterly']['income'] = fetch_endpoint(f"{FMP_BASE_URL}/income-statement?symbol={ticker}&period=quarter&limit=6&apikey={FMP_API_KEY}")
     data['quarterly']['balance'] = fetch_endpoint(f"{FMP_BASE_URL}/balance-sheet-statement?symbol={ticker}&period=quarter&limit=6&apikey={FMP_API_KEY}")
     data['quarterly']['cash_flow'] = fetch_endpoint(f"{FMP_BASE_URL}/cash-flow-statement?symbol={ticker}&period=quarter&limit=6&apikey={FMP_API_KEY}")
@@ -198,8 +198,8 @@ def calculate_ttm_metrics(quarterly_data):
         "_oi": oi, "_rev": rev # internal use
     }
 
-def extract_annual_metrics(inc, bal, cf):
-    """Extracts metrics for a single annual period."""
+def extract_period_metrics(inc, bal, cf):
+    """Extracts metrics for a single period (annual or quarterly)."""
     def get(d, k): return safe_float(d.get(k))
     
     rev = get(inc, 'revenue')
@@ -241,9 +241,9 @@ def extract_annual_metrics(inc, bal, cf):
     }
 
 def process_metrics(raw_data):
-    """Process Annual and TTM metrics."""
+    """Process Annual, Quarterly, and TTM metrics."""
     
-    # 1. Annual
+    # --- 1. Annual Processing ---
     # Sort oldest first
     ann_inc = sorted(raw_data['annual']['income'], key=lambda x: x['date'])
     ann_bal = sorted(raw_data['annual']['balance'], key=lambda x: x['date'])
@@ -259,35 +259,70 @@ def process_metrics(raw_data):
     
     # Last 5 years
     aligned_annual = aligned_annual[-5:]
-    dates = [x['year'] for x in aligned_annual]
+    annual_dates = [x['year'] for x in aligned_annual]
     
-    annual_metrics = [extract_annual_metrics(x['inc'], x['bal'], x['cf']) for x in aligned_annual]
+    annual_metrics = [extract_period_metrics(x['inc'], x['bal'], x['cf']) for x in aligned_annual]
     
-    # 2. TTM
-    ttm_metrics = calculate_ttm_metrics(raw_data['quarterly'])
-    
-    # 3. Series Construction
-    final_data = {
-        "dates": dates,
-        "risk": {},
-        "quality": {},
-        "roi": {}
-    }
-    
-    # Op Leverage Series
-    op_lev_series = []
+    # Annual Op Leverage
+    ann_op_lev = []
     for i in range(len(annual_metrics)):
         if i == 0:
-            op_lev_series.append(None)
+            ann_op_lev.append(None)
         else:
             cur = annual_metrics[i]
             prev = annual_metrics[i-1]
             oi_chg = pct_change(cur['_oi'], prev['_oi'])
             rev_chg = pct_change(cur['_rev'], prev['_rev'])
             if rev_chg and rev_chg != 0 and oi_chg is not None:
-                op_lev_series.append(oi_chg / rev_chg)
+                ann_op_lev.append(oi_chg / rev_chg)
             else:
-                op_lev_series.append(None)
+                ann_op_lev.append(None)
+                
+    # --- 2. Quarterly Processing ---
+    q_inc = sorted(raw_data['quarterly']['income'], key=lambda x: x['date'])
+    q_bal = sorted(raw_data['quarterly']['balance'], key=lambda x: x['date'])
+    q_cf = sorted(raw_data['quarterly']['cash_flow'], key=lambda x: x['date'])
+    
+    aligned_quarterly = []
+    for inc in q_inc:
+        date = inc['date']
+        bal = next((x for x in q_bal if x['date'] == date), None)
+        cf = next((x for x in q_cf if x['date'] == date), None)
+        if bal and cf:
+            aligned_quarterly.append({"date": date, "inc": inc, "bal": bal, "cf": cf})
+            
+    # Need last 5 quarters to show 4 with deltas
+    recent_quarters = aligned_quarterly[-5:]
+    quarterly_dates = [x['date'] for x in recent_quarters]
+    
+    quarterly_metrics = [extract_period_metrics(x['inc'], x['bal'], x['cf']) for x in recent_quarters]
+    
+    # Quarterly Op Leverage
+    quart_op_lev = []
+    for i in range(len(quarterly_metrics)):
+        if i == 0:
+            quart_op_lev.append(None)
+        else:
+            cur = quarterly_metrics[i]
+            prev = quarterly_metrics[i-1]
+            oi_chg = pct_change(cur['_oi'], prev['_oi'])
+            rev_chg = pct_change(cur['_rev'], prev['_rev'])
+            if rev_chg and rev_chg != 0 and oi_chg is not None:
+                quart_op_lev.append(oi_chg / rev_chg)
+            else:
+                quart_op_lev.append(None)
+
+    # --- 3. TTM Processing ---
+    ttm_metrics = calculate_ttm_metrics(raw_data['quarterly'])
+    
+    # --- 4. Series Construction ---
+    final_data = {
+        "dates": annual_dates,
+        "quarterly_dates": quarterly_dates,
+        "risk": {},
+        "quality": {},
+        "roi": {}
+    }
     
     categories = {
         "risk": ['debt_to_assets', 'debt_to_ocf', 'ncav', 'accruals_gap', 'capex', 'da', 'working_capital'],
@@ -297,8 +332,9 @@ def process_metrics(raw_data):
     
     for cat, keys in categories.items():
         for key in keys:
+            # -- Annual Values --
             if key == 'operating_leverage':
-                vals = op_lev_series
+                vals = ann_op_lev
                 ttm_val = None 
             else:
                 vals = [m[key] for m in annual_metrics]
@@ -314,8 +350,15 @@ def process_metrics(raw_data):
                 "mean_5yr": statistics.mean(clean_vals) if clean_vals else None
             }
             
+            # -- Quarterly Values --
+            if key == 'operating_leverage':
+                q_vals = quart_op_lev
+            else:
+                q_vals = [m[key] for m in quarterly_metrics]
+            
             final_data[cat][key] = {
                 "annual_values": vals,
+                "quarterly_values": q_vals,
                 "ttm_value": ttm_val,
                 "stats": stats
             }
@@ -338,32 +381,54 @@ def format_cell(val, fmt, div=1, is_delta=False):
 
 def generate_markdown(ticker, data):
     dates = data['dates']
+    q_dates = data['quarterly_dates']
+    
     # Pad dates if < 5
     display_dates = ["-"] * (5 - len(dates)) + dates
     
     md = f"# Financial Statement Analysis: {ticker}\n\n"
     md += f"**Date:** {datetime.now().strftime('%Y-%m-%d')}\n\n"
     
-    # Header Construction
+    # --- Annual Header ---
     # Y1 | Y2 | Δ% | Y3 | Δ% | Y4 | Δ% | Y5 | Δ% | TTM | ...
-    
     header_cols = [display_dates[0]]
     for d in display_dates[1:]:
         header_cols.extend([d, "Δ%"])
         
-    header = f"| Metric | {' | '.join(header_cols)} | TTM | 5yr Avg | 5yr CAGR | CV |\n"
-    sep = f"|---|{'---|'*len(header_cols)}---|---|---|---|\n"
+    ann_header = f"| Metric | {' | '.join(header_cols)} | TTM | 5yr Avg | 5yr CAGR | CV |\n"
+    ann_sep = f"|---|{'---|'*len(header_cols)}---|---|---|---|\n"
     
+    # --- Quarterly Header ---
+    # We display up to 4 recent quarters. 
+    # Logic: we have up to 5 q_vals to calculate 4 deltas.
+    # Display: Q(N-3) | Δ | Q(N-2) | Δ | Q(N-1) | Δ | Q(N) | Δ
+    
+    # Identify displayable quarters (exclude the very first one used for delta only)
+    disp_q_dates = q_dates[1:] if len(q_dates) > 1 else q_dates
+    # Pad if needed (unlikely given FMP returns, but good for safety)
+    if len(disp_q_dates) < 4:
+        disp_q_dates = ["-"] * (4 - len(disp_q_dates)) + disp_q_dates
+        
+    q_header_cols = []
+    for d in disp_q_dates:
+        q_header_cols.extend([d, "Δ%"])
+    
+    q_header = f"| Metric | {' | '.join(q_header_cols)} |\n"
+    q_sep = f"|---|{'---|'*len(q_header_cols)}|\n"
+
     def build_section(title, category, rows):
-        section_md = f"## {title}\n\n{header}{sep}"
+        section_md = f"## {title}\n\n"
+        
+        # 1. Annual Table
+        section_md += f"### {title} - Annual & Long-Term Trends\n"
+        section_md += ann_header + ann_sep
+        
         for label, key, fmt, *divisor in rows:
             div = divisor[0] if divisor else 1
             metric_data = data[category][key]
             
             vals = metric_data['annual_values']
-            # Pad vals
             d_vals = [None]*(5 - len(vals)) + vals
-            
             ttm = metric_data['ttm_value']
             stats = metric_data['stats']
             
@@ -376,30 +441,57 @@ def generate_markdown(ticker, data):
             for i in range(1, 5):
                 curr = d_vals[i]
                 prev = d_vals[i-1]
-                
-                # Value Column
                 row += f" {format_cell(curr, fmt, div)} |"
-                
-                # Delta Column
                 if curr is not None and prev is not None and prev != 0:
                     delta = (curr - prev) / abs(prev)
                     row += f" {format_cell(delta, '{:.1%}', 1, True)} |"
                 else:
                     row += " - |"
             
-            # TTM
+            # Stats
             row += f" {format_cell(ttm, fmt, div)} |"
-            # 5yr Avg
             row += f" {format_cell(stats['mean_5yr'], fmt, div)} |"
-            # CAGR
             row += f" {format_cell(stats['cagr_5yr'], '{:.1%}')} |"
-            # CV
             row += f" {format_cell(stats['cv'], '{:.2f}')} |"
             
             section_md += row + "\n"
+        
+        section_md += "\n"
+        
+        # 2. Quarterly Table
+        section_md += f"### {title} - Recent Quarterly Trends\n"
+        section_md += q_header + q_sep
+        
+        for label, key, fmt, *divisor in rows:
+            div = divisor[0] if divisor else 1
+            metric_data = data[category][key]
+            
+            # We expect up to 5 values. We want to display the last 4 with deltas.
+            q_vals = metric_data['quarterly_values']
+            
+            # Pad to 5 so logic holds
+            if len(q_vals) < 5:
+                q_vals = [None]*(5 - len(q_vals)) + q_vals
+            
+            row = f"| {label} |"
+            
+            # Loop 1 to 4 (Indices 1,2,3,4 of 0-based list size 5)
+            # This corresponds to the 4 display columns
+            for i in range(1, 5):
+                curr = q_vals[i]
+                prev = q_vals[i-1]
+                
+                row += f" {format_cell(curr, fmt, div)} |"
+                if curr is not None and prev is not None and prev != 0:
+                    delta = (curr - prev) / abs(prev)
+                    row += f" {format_cell(delta, '{:.1%}', 1, True)} |"
+                else:
+                    row += " - |"
+            section_md += row + "\n"
+            
         return section_md + "\n"
 
-    md += build_section("1. Earnings Risk", "risk", [
+    md += build_section("Earnings Risk", "risk", [
         ("Debt / Assets", "debt_to_assets", "{:.1%}"),
         ("Debt / OCF", "debt_to_ocf", "{:.2f}x"),
         ("NCAV ($B)", "ncav", "${:,.2f}", 1e9),
@@ -409,7 +501,7 @@ def generate_markdown(ticker, data):
         ("Working Capital ($B)", "working_capital", "${:,.2f}", 1e9),
     ])
     
-    md += build_section("2. Earnings Quality", "quality", [
+    md += build_section("Earnings Quality", "quality", [
         ("Revenue ($B)", "revenue", "${:,.2f}", 1e9),
         ("Operating Margin", "operating_margin", "{:.1%}"),
         ("Op Cash Flow ($B)", "ocf", "${:,.2f}", 1e9),
@@ -417,7 +509,7 @@ def generate_markdown(ticker, data):
         ("OCF / Net Income", "ocf_to_ni", "{:.2f}x"),
     ])
     
-    md += build_section("3. ROI", "roi", [
+    md += build_section("ROI", "roi", [
         ("ROTC", "rotc", "{:.1%}"),
         ("ROE", "roe", "{:.1%}"),
         ("Op Leverage", "operating_leverage", "{:.2f}"),
