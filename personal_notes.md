@@ -7,9 +7,54 @@
    6. Analysis: Generated and prepended the market analysis to the daily digest file.
    7. Git Sync: Pushed all changes to the remote repository.
 
-We are updating our workflow. You are not permitted to make any edits to files without my written approval. Review my instructions carefully at all times, and never assume or hallucinate or use your own knowledge unless you ask first; always rely on my instructions and our source material. 
+We are updating our workflow. You are not permitted to make any edits to files without my written approval. Any old files should be archived, not deleted (unless we are just moving them). Review my instructions carefully at all times, and never assume or hallucinate or use your own knowledge unless you ask first; always rely on my instructions and our source material. All new files will go in the folder WORKFLOW v1.
 
-We will begin first by creating a new folder called 'WORKFLOW v1'. Move the current peters digest, price, and earnings scripts into this folder. All new files will also go in this folder. Second, create a new file called 'Stock Tracker.md' which will replace the list of stocks in the session notes (do not make the replacement yet, just create the file). Third, create a section in that file called 'Price Analysis' which will bs used to track findings from price analyses. 
+Let's start by creating a section in the Stock Tracker file called Earnings/Valuation Analysis. This will be the second section after price analysis. 
+
+After that, we will work on the new earnings analysis prompt. Review the price_analysis prompt for context; the earnings prompt should follow a similar format. The earnings script alreads provides the data exaclty as we need it; the job of the prompt is analysis. Our focus is on these questions; the analysis should explicitly answer each of these questions concisely:
+  - How does the current P/E ratio compare to historical levels?
+  - What is the long-term earnings trend and volatility? (past 5 years)
+  - What is the short-term earnings trend and volatility? (past 12 months)
+  - What is the correlation between price and earnings?
+  - How do the upcoming earnings estimates compare to the company’s past performance?
+  - FOR LOSERS ONLY:
+      - Are earnings decreasing along with the price?
+   
+the prompt should be created inside the prompts folder inside workflow v1. again, the structure should mirror that of the price analysis prompt. 
+
+next, we will break the financial statement analysis into 3 smaller analyses, all 3 of which will occur following earnings analysis in this order:
+  1. earnings risk.
+  2. earnings quality.
+  3. roi.
+
+We need to create a new script for this updated structure, and for switching to the FMP API (not Alphavantage). Each sub-analysis has its own set of metrics, which should already be included in the old scripts (fetch_financials, calc_metrics, calc_seeds, financial_statements, etc.), and the old scripts do a great job of calculating metrics and presenting the data. We should keep the output as is generally speaking, and the analysis approach will be geenrally the same as it is now. 
+
+However, we need to create new scripts that perfectly match the data/metrics we want; much of the same logic will likely remain with tweaks. Here are the metrics we want to include for each section; if you have any uncertainty about the calculation, refer to the glossaries (primary metrics glossary, seed glossary):
+1. earnings risk:
+   -  Debt / Total Assets: [Debt = S]
+   -  Debt / Operating Cash Flow: [P]
+   -  NCAV (Net Current Asset Value): [P]
+   -  Accruals Gap: [P]
+   -  CapEx: [S]
+   -  Depreciation & Amortization: [P, S]
+   -  Working Capital: [P]
+2. earnings quality:
+    - Revenue: [P, S]
+    - Operating Margin: [P]
+    - Operating Cash Flow: [P]
+    - Free Cash Flow: [P]
+    - OCF / Net Income: [P]
+3. roi:
+    - ROTC (Return on Total Capital): [P]
+    - ROE (Return on Equity): [P]
+    - Operating Leverage: [P]
+
+Let's start by reviewing the old scripts to see if/where we currently fetch/tabulate all of these metrics. After that is established, we can determine how to create the new script. 
+
+This is the workflow: Use one script to fetch the financial statement data (income statement, cash flow, balance sheet) using FMP's API. Save each statement as JSON (raw data), and create an aggregated JSON file with the metrics we want. We can also create a markdown file/txt file to view the output. Use the earnings risk prompt for that analysis, the earnigns quality prompt for that analysis, and the roi prompt for its analysis. These are 3 separate steps, but they all leverage the same data. 
+
+Here are the metrics we care about for each section. I believe all of these metircs are already calculated in the script
+
 
 Our first main deliverable will be the new price prompt. The price script alreads provides the data exaclty as we need it; the job of the prompt is analysis. Our focus is on these questions; the analysis should explicitly answer each of these questions concisely: 
    - How does the current price compare to historical levels?
