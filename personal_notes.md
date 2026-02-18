@@ -1,5 +1,5 @@
 
-We are updating our workflow. You are not permitted to make any edits to files without my written approval. Any old files should be archived, not deleted (unless we are just moving them). Review my instructions carefully at all times, and never assume or hallucinate or use your own knowledge unless you ask first; always rely on my instructions and our source material. All new files will go in the folder WORKFLOW v1. Here is what we did yesterday: 
+We are updating our workflow. You are not permitted to make any edits to files without my written approval. Any old files should be archived, not deleted (unless we are just moving them). Review my instructions carefully at all times, and never assume or hallucinate or use your own knowledge unless you ask first; always rely on my instructions and our source material. All new files will go in the folder WORKFLOW v1. Here is what we have done thus far: 
    1. Workflow V1 Setup: Created WORKFLOW v1 directory structure.
    2. Script Migration: Moved peters_digest.py, price.py, earnings.py, shared_utils.py and all digest scripts to WORKFLOW v1/Scripts/.
    3. Path Updates: Updated peters_digest.py to point to the new location of digest scripts and save output to WORKFLOW v1/Peter's Digest/. Updated docs/COMMANDS.md.
@@ -13,23 +13,30 @@ We are updating our workflow. You are not permitted to make any edits to files w
        markdown reports with statistical analysis (CAGR, CV, Deltas).
    11. Script Validation: Verified financials.py accuracy against AAPL SEC filings and confirmed manual TTM calculation logic.
 
-Let's start by creating a section in the Stock Tracker file called Earnings/Valuation Analysis. This will be the second section after price analysis. 
+Let's start by creating 3 new sections in the Stock Tracker file: Earnings Risk, Earnings Quality, ROI. 
 
-Now, we will work on the new earnings analysis prompt. Review the price_analysis prompt for context; the earnings prompt should follow a similar format. The earnings script alreads provides the data exaclty as we need it; the job of the prompt is analysis. Our focus is on these questions; the analysis should explicitly answer each of these questions concisely:
-  - How does the current P/E ratio compare to historical levels?
-  - What is the long-term earnings trend and volatility? (past 5 years)
-  - What is the short-term earnings trend and volatility? (past 12 months)
-  - What is the correlation between price and earnings?
-  - How do the upcoming earnings estimates compare to the company’s past performance?
-  - FOR LOSERS ONLY:
-      - Are earnings decreasing along with the price?
-   
-the prompt should be created inside the prompts folder inside workflow v1. again, the structure should mirror that of the price analysis prompt. 
+Next, let's add quarterly data to the financial statement script output. What I mean is, like with price and earnings, let's show the recent data as well as the long-term data. Perhaps we can leave the output as is (I really like having all the key metrics summarized in tables), and add the data for the past 4 quarters below. 
 
-next, we will break the financial statement analysis into 3 smaller analyses, all 3 of which will occur in this order following earnings analysis. These are 3 separate steps, but they all leverage the same data:
-  1. earnings risk.
-  2. earnings quality.
-  3. roi.
+Next, let's create our prompts for earnings risk, earnings risk, and roi. This will be 3 prompts, one for each section. While the prompts will be very similar, I prefer to keep them separate so that the LLM only focuses on one set of metrics at a time. Let's start with the earnings risk prompt. While this prompt may be a bit more robust than the price and earnings prompts, review the price analysis and earnings analysis prompts in workflow v1 to see the two prompts we have created thus far for context. Here are the key components/questions for analysis:
+   - Metrics we are analyzing:
+        - Debt / Total Assets
+        - Debt / Operating Cash Flow
+        - NCAV (Net Current Asset Value)
+        - Accruals Gap
+        - CapEx
+        - Depreciation & Amortization
+        - Working Capital
+   - Questions to answer for each metric:
+      - How does the current figure compare to historical levels?
+      - What is the long-term trend and volatility? (past 5 years)
+      - What is the short-term trend and volatility? (past 1-4 quarters)
+      - Based on the glossary, what can we infer about the trend and current value?
+   - Overall questions (key takeaways):
+      - What do the metrics reveal about the stock's risk?
+      - Are there any concering figures or trends?
+      - What new questions does the financial data raise, and which items (if any) should be investigated further?
+
+-------------------------------
 
 This is the workflow: Use one script to fetch the financial statement data (income statement, cash flow, balance sheet) using FMP's API. Save each statement as JSON (raw data), and create an aggregated JSON file with the metrics we want. We can also create a markdown file/txt file to view the output as we do now in the old script. Then, use one to three prompts for analysis (we can have one prompt that gets re-used for all 3 analyses since they largely share the same guidance, one prompts with 3 passes, or one prompt for each analysis). Don't worry about the prompts now, we will address that later.
 
