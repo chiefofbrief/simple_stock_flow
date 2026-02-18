@@ -31,10 +31,43 @@ Next, let's create our prompts for earnings risk, earnings risk, and roi. This w
       - What is the long-term trend and volatility? (past 5 years)
       - What is the short-term trend and volatility? (past 1-4 quarters)
       - Based on the glossary, what can we infer about the trend and current value?
-   - Overall questions (key takeaways):
-      - What do the metrics reveal about the stock's risk?
-      - Are there any concering figures or trends?
-      - What new questions does the financial data raise, and which items (if any) should be investigated further?
+   - Overall questions:
+      - What do the metrics reveal about the stock's risk/downside?
+      - What do the metrics reveal about the stock's potential/upside?
+      - What new questions or opportunities do the metrics raise, and which items (if any) should be investigated further?
+    
+Next, let's create the earnings quality prompt. The questions remain identical to the earnings risk prompt:
+   - Metrics we are analyzing:
+       - Revenue
+       - Operating Margin
+       - Operating Cash Flow
+       - Free Cash Flow
+       - OCF / Net Income
+   - Questions to answer for each metric:
+      - How does the current figure compare to historical levels?
+      - What is the long-term trend and volatility? (past 5 years)
+      - What is the short-term trend and volatility? (past 1-4 quarters)
+      - Based on the glossary, what can we infer about the trend and current value?
+   - Overall questions:
+      - What do the metrics reveal about the stock's risk/downside?
+      - What do the metrics reveal about the stock's potential/upside?
+      - What new questions or opportunities do the metrics raise, and which items (if any) should be investigated further?
+    
+Next, let's create the roi prompt. The questions remain identical to the earnings risk prompt:
+   - Metrics we are analyzing:
+       - ROTC (Return on Total Capital)
+       - ROE (Return on Equity)
+       - Operating Leverage
+   - Questions to answer for each metric:
+      - How does the current figure compare to historical levels?
+      - What is the long-term trend and volatility? (past 5 years)
+      - What is the short-term trend and volatility? (past 1-4 quarters)
+      - Based on the glossary, what can we infer about the trend and current value?
+   - Overall questions:
+      - What do the metrics reveal about the stock's risk/downside?
+      - What do the metrics reveal about the stock's potential/upside?
+      - What new questions or opportunities do the metrics raise, and which items (if any) should be investigated further?
+
 
 -------------------------------
 
