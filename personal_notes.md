@@ -98,7 +98,64 @@ Measures the difference between reported earnings and operating cash flow, scale
 - Large positive gaps indicate significant differences between accounting profits and cash reality.
 - Adding working capital changes to cash flow analysis frequently reveals problems not apparent from EBITDA or net income trends alone. Reported earnings often exceed true economic profits specifically through gambits involving inventories or receivables—delayed write-offs, premature revenue recognition, inadequate reserves. Amount of working capital needed represents fairly constant percentage of sales, so material increases in inventories or receivables as percentage of sales is red flag that accruals gap will detect.
 
+5. **Capital Expenditures**
 
+**Description**:
+reveals how much cash a business must reinvest just to maintain its competitive position — and how much it's spending to grow. 
+
+**Interpretation**:
+- The capex/depreciation ratio is a quick lens on capital intensity and growth posture:
+      - Ratio <1.0: The company is spending less than its assets are depreciating. This is either an asset-light business model (positive) or underinvestment that will eventually impair competitiveness (negative). 
+      - Ratio ≈1.0: Maintenance mode. The company is replacing assets roughly as they wear out, consistent with a mature, stable business not in aggressive growth or contraction.
+      - Ratio >1.5: Active growth investment beyond replacement. Acceptable, even desirable, if returns on that investment are strong. Concerning if sustained high capex isn't translating into revenue or margin growth.
+
+**Context and Considerations**:
+- A business that grows with minimal capex generates far more free cash flow than one that must constantly reinvest to stay competitive.
+- A company that must spend heavily just to defend its current position (airlines, telecom, utilities) is in a fundamentally different position than one choosing to invest from a position of strength.
+- Industry context is essential: software and asset-light business models can scale with minimal incremental capex; manufacturing, energy, and infrastructure businesses require capex roughly proportional to revenue. Cross-industry comparisons are misleading without this adjustment.
+- Watch for capex cuts during downturns as a warning sign. Management may be protecting near-term cash flow at the expense of future competitiveness.
+- Contrarian opportunity: Companies with a history of high capex that are transitioning to lower-intensity models (e.g., outsourcing manufacturing, shifting to software/services) may generate a step-change in free cash flow that the market hasn't priced in yet.
+
+6. **Depreciation & Amortization**
+
+**Description**:
+Represent non-cash charges that reduce reported earnings but don't require cash outlays in the current period. 
+
+**Interpretation**:
+- Historical depreciation rate (as % of PP&E) reveals asset intensity:
+      - High rates (8-10%) signal asset-heavy business requiring continuous reinvestment. 
+      - Low rates (2-3%) indicate asset-light model with better cash conversion. 
+
+**Context and Considerations**:
+- The gap between reported earnings and cash generation is particularly important for assessing highly leveraged companies and detecting accounting manipulation. For highly leveraged companies, depreciation provides an interest coverage cushion—the company may generate sufficient cash to service debt even when reported earnings appear inadequate. This non-cash nature means actual cash available exceeds what income statements suggest. However, over the long term, companies must replace depreciating assets, so this cushion is temporary.
+- Companies showing materially lower depreciation rates than peers may be understating expenses to inflate earnings.
+- Write-down schemes involve management writing down assets in bad years to reduce future depreciation, manufacturing higher future earnings through accounting rather than operations.
+- Companies extending useful lives when under earnings pressure signal potential manipulation.
+- Lack of depreciation policy disclosure, arbitrary year-to-year changes, or no clear relationship between charges and property account size are all red flags.
+- High D&A companies generate more cash than income statements suggest—particularly valuable in leveraged situations
+- Overly conservative depreciation (rates above peers) understates true earnings, creating hidden value
+- Historical capex/depreciation relationship shows growth trajectory: capex consistently exceeding depreciation by wide margin indicates growth requiring external funding; capex approximating depreciation signals self-funding maturity.
+- New asset additions generate future depreciation based on useful lives and methods
+- Changes to useful life assumptions or depreciation methods; verify consistency with historical policy
+
+7. **Working Capital (Formula: Current Assets - Current Liabilities)**
+
+**Description**:
+Measures the capital employed in day-to-day operation. It tells you how efficiently a company converts its operations into actual cash, and whether growth is self-funding or a cash drain.
+
+**Interpretation**:
+- When WC grows faster than revenue (e.g., 30% versus 10%), it indicates cash consumption through deteriorating collection, inventory accumulation, or supplier payment issues. in other words, the company is consuming cash beyond what growth justifies. 
+- Two distinct patterns:
+       - Healthy pattern: Payables grow faster than receivables and inventory, meaning vendors' trade credit funds working capital expansion from sales growth. Suppliers are essentially financing the company's growth through trade credit. The company isn't tying up its own cash to fund expansion.
+       - Dangerous pattern: Inventory builds disproportionately to sales (goods sitting unsold), while receivables expand (customers paying slowly). This widens the gap between cash needs and supplier financing. It can cascade: deteriorating credit quality causes vendors to tighten terms, which forces the company to seek expensive external financing or cut operations.
+- During periods with losses, pattern recognition becomes critical:
+      - Favorable: Inventory shrinks faster than losses accumulate, and cash actually improves or payables decline. Current-asset value is maintained while cash-asset position improves—management is preserving liquidity.
+      - Unfavorable: Losses are financed by drawing down cash or piling up current liabilities. Working capital depletes, indicating the company is burning through liquidity concurrent with operational losses.
+
+**Context and Considerations**:
+- Growing businesses consume cash building working capital, but working capital as percentage of sales should remain fairly constant absent business model changes.
+- Watch for covenant risk in leveraged companies. Bank agreements often cap total debt. Once a company hits that ceiling, it loses the ability to borrow its way through a rough patch and may be forced to cut investment or operations to stay compliant — potentially at the worst possible time.
+- The contrarian opportunity: When the market fixates on near-term earnings weakness, it sometimes ignores a strong working capital position — a liquid, well-managed balance sheet that gives the company staying power through a downturn. That gap between perception and financial reality can be where value hides.
 
 ---------------------------------
 
