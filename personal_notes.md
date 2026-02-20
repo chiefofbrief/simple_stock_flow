@@ -21,27 +21,7 @@ Here is what we have done thus far; review the list of completed tasks below, an
 
 -----------------------------------------
 
-Let's create WORKFLOW v1/financials_glossary.md to define key terms and interpretation guidelines referenced in the new prompts. The glossary should include the following metrics, all of which are in the financials script and are addressed in the prompts:
-1. earnings risk:
-   -  Debt / Total Assets: [Debt = S]
-   -  Debt / Operating Cash Flow: [P]
-   -  NCAV (Net Current Asset Value): [P]
-   -  Accruals Gap: [P]
-   -  CapEx: [S]
-   -  Depreciation & Amortization: [P, S]
-   -  Working Capital: [P]
-2. earnings quality:
-    - Revenue: [P, S]
-    - Operating Margin: [P]
-    - Operating Cash Flow: [P]
-    - Free Cash Flow: [P]
-    - OCF / Net Income: [P]
-3. roi:
-    - ROTC (Return on Total Capital): [P]
-    - ROE (Return on Equity): [P]
-    - Operating Leverage: [P]
-  
-Let's structure the glossary in 3 primary sections that correspond to the sections above. For items with 'S' in brackets, include '[Seed]' next to its title (you don't need to know what this means and it need not be explained; it's just for me to have for reference). Let's start with the earnings risk section; here is what to include for each item:
+We are going to 'redo' our 3 prompots for earnings risk, quality and roi. Instead of 3 prompts, we will make one. Instead of a glosssary, we will provide all guidanace in the prompt. The questions will remin exactly the same; we are just consolidating into one prompt, and changing the metrics. See below for the final list of metrics; note that this is similar to, but different from, the list of metrics we had. Create a new prompt called 'financials'. Copy over the questions, role, and stats. Update the list of metrics to the list below. And append the content below, verbatim exactly as is, as a guidance section. So the new file will have the same role, stats, and questions as the other prompts, but an updated list of metrics and the addition of the guidance. There are no 'section', just a list of key metrics. After this is complete, we will make some adjustments to the script to reflect the update. If you have any questions, ask them before making edits. 
 
 1. **Revenue**
 
