@@ -18,6 +18,17 @@ Here is what we have done thus far; review the list of completed tasks below, an
    13. Script Update (Quarterly Data): Enhanced financials.py to output "Recent Quarterly Trends" (last 4 quarters + deltas) alongside the annual data tables.
    14. Script Testing: Verified the enhanced financials.py output with AAPL.
    15. Metrics Prompts: Created WORKFLOW v1/Prompts/earnings_risk_prompt.md, earnings_quality_prompt.md, and roi_prompt.md with interchangeable roles and specific metrics.
+   16. Prompt Consolidation: Consolidated earnings_risk, earnings_quality, and roi prompts into a single WORKFLOW v1/Prompts/prompt_financials.md, updated with a refined metrics
+       list and embedded guidance.
+   17. Prompt Renaming: Renamed all analysis prompts to follow the prompt_<type>.md convention (prompt_price.md, prompt_earnings.md, prompt_financials.md).
+   18. Financials Script Update: Updated WORKFLOW v1/Scripts/financials.py to match the new prompt_financials.md structure (flattened JSON, single table output, updated metrics).
+       Verified with AAPL.
+   19. Sentiment Prompt Creation: Created WORKFLOW v1/Prompts/prompt_sentiment.md for analyzing news and social media sentiment.
+   20. Sentiment Script Migration: Migrated scripts/sentiment.py and dependencies (news.py, reddit.py, etc.) to WORKFLOW v1/Scripts/ and WORKFLOW v1/Scripts/Sentiment Scripts/.
+   21. Sentiment Script Optimization: Fixed a bug in the YouTube script and lowered Reddit engagement thresholds (10 upvotes, 0 comments) to capture more data. Verified with AAPL.
+   22. Archive Cleanup: Archived old sentiment scripts to archive/scripts/ with _old suffixes to prevent confusion.
+
+**Change reddit to 3 month pooknck, not 1 month. **
 
 -----------------------------------------
 
@@ -264,8 +275,9 @@ Measures the time required to eliminate all debt if 100% of operating cash flow 
 1. external sentiment (news and social media):
     - What are "authoratative" sources saying about the stock?
     - What is social media saying about the stock?
-    - Are there particular catalysts/events that are driving sentiment?
-    - Does our quantiative analysis support or reject the prevailing sentiment?
+    - Is there a particular catalyst(s) that is driving sentiment?
+    - Does sentiment align with our financial analysis, or are there significant divergences?
+    - Are there concerns or opportunities we should investigate further?
 2. internal sentiment (earnings calls):
     - What are analysts paying attention to?
     - What narrative is management trying to push?
