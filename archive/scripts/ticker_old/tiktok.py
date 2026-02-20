@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-YouTube Stock Research Script
+TikTok Stock Research Script
 
-Searches YouTube for videos about a specific stock ticker or company,
+Searches TikTok for videos about specific stock tickers or companies,
 retrieves video details including transcripts, and analyzes sentiment.
 
 Usage:
-    python youtube_stock_research.py TICKER [options]
+    python tiktok_stock_research.py TICKER [options]
 
 Examples:
-    python youtube_stock_research.py TSLA
-    python youtube_stock_research.py AMZN --query "Amazon earnings" --time-period this_week
-    python youtube_stock_research.py NVDA --max-videos 50 --include-comments
+    python tiktok_stock_research.py TSLA
+    python tiktok_stock_research.py AMZN --query "Amazon stock news" --time-period this_week
+    python tiktok_stock_research.py NVDA --max-videos 50 --sort-by most-liked
 """
 
 import os
@@ -26,11 +26,11 @@ API_KEY = os.getenv('SOCIAVAULT_API_KEY')
 if not API_KEY:
     raise ValueError("SOCIAVAULT_API_KEY environment variable not set")
 
-BASE_URL = "https://api.sociavault.com/v1/scrape/youtube"
+BASE_URL = "https://api.sociavault.com/v1/scrape/tiktok"
 
 
-class YouTubeStockResearch:
-    """YouTube stock research tool"""
+class TikTokStockResearch:
+    """TikTok stock research tool"""
 
     def __init__(self, api_key: str):
         self.api_key = api_key
@@ -39,46 +39,43 @@ class YouTubeStockResearch:
     def search_videos(
         self,
         query: str,
-        upload_date: Optional[str] = None,
+        date_posted: Optional[str] = None,
         sort_by: str = "relevance",
-        max_videos: int = 20,
-        include_extras: bool = True
+        max_videos: int = 20
     ) -> List[Dict[str, Any]]:
         """
-        Search YouTube for videos matching query
+        Search TikTok for videos matching query
 
         Args:
-            query: Search query (e.g., "TSLA stock", "$AMZN earnings")
-            upload_date: Filter by upload date (last_hour, today, this_week, this_month, this_year)
-            sort_by: Sort by relevance or upload_date
+            query: Search query (e.g., "TSLA stock", "$AMZN", "#stocks")
+            date_posted: Filter by date (yesterday, this-week, this-month, last-3-months, last-6-months, all-time)
+            sort_by: Sort by relevance, most-liked, or date-posted
             max_videos: Maximum number of videos to fetch
-            include_extras: Get like/comment counts in search results
 
         Returns:
             List of video objects
         """
-        url = f"{BASE_URL}/search"
+        url = f"{BASE_URL}/search/keyword"
 
         params = {
             'query': query,
-            'sortBy': sort_by,
-            'includeExtras': str(include_extras).lower()
+            'sort_by': sort_by
         }
 
-        if upload_date:
-            params['uploadDate'] = upload_date
+        if date_posted:
+            params['date_posted'] = date_posted
 
         all_videos = []
-        continuation_token = None
+        cursor = None
 
-        print(f"🔍 Searching YouTube for: '{query}'")
-        if upload_date:
-            print(f"📅 Time filter: {upload_date}")
+        print(f"🔍 Searching TikTok for: '{query}'")
+        if date_posted:
+            print(f"📅 Time filter: {date_posted}")
         print(f"📊 Fetching up to {max_videos} videos...")
 
         while len(all_videos) < max_videos:
-            if continuation_token:
-                params['continuationToken'] = continuation_token
+            if cursor:
+                params['cursor'] = cursor
 
             try:
                 response = requests.get(url, headers=self.headers, params=params)
@@ -91,10 +88,23 @@ class YouTubeStockResearch:
                     break
 
                 data = result.get('data', {})
-                videos_dict = data.get('videos', {})
+                search_items_dict = data.get('search_item_list', {})
 
-                # Convert videos object to list
-                videos = list(videos_dict.values()) if isinstance(videos_dict, dict) else videos_dict
+                # Convert search_item_list object to list
+                if isinstance(search_items_dict, dict):
+                    search_items = list(search_items_dict.values())
+                else:
+                    search_items = search_items_dict
+
+                if not search_items:
+                    break
+
+                # Extract aweme_info from each search item
+                videos = []
+                for item in search_items:
+                    aweme_info = item.get('aweme_info', {})
+                    if aweme_info:
+                        videos.append(aweme_info)
 
                 if not videos:
                     break
@@ -102,8 +112,9 @@ class YouTubeStockResearch:
                 all_videos.extend(videos)
                 print(f"   Found {len(all_videos)} videos so far...")
 
-                continuation_token = data.get('continuationToken')
-                if not continuation_token:
+                # Get cursor for next page
+                cursor = data.get('cursor')
+                if not cursor or cursor == 0:
                     break
 
             except Exception as e:
@@ -114,36 +125,61 @@ class YouTubeStockResearch:
         print(f"✅ Retrieved {len(result)} videos\n")
         return result
 
-    def get_video_details(self, video_url: str) -> Optional[Dict[str, Any]]:
+    def get_video_details(self, video_id: str, author_unique_id: str) -> Optional[Dict[str, Any]]:
         """
         Get detailed information about a video including transcript
 
         Args:
-            video_url: YouTube video URL
+            video_id: TikTok video ID
+            author_unique_id: Author's unique ID
 
         Returns:
             Video details dictionary or None if error
         """
-        url = f"{BASE_URL}/video"
-        params = {'url': video_url}
+        # Construct TikTok URL
+        video_url = f"https://www.tiktok.com/@{author_unique_id}/video/{video_id}"
+
+        url = f"{BASE_URL}/video-info"
+        params = {
+            'url': video_url,
+            'get_transcript': 'true'
+        }
 
         try:
             response = requests.get(url, headers=self.headers, params=params)
             response.raise_for_status()
-            result = response.json()
+            data = response.json()
 
-            # Handle nested data structure
-            if not result.get('success'):
-                return None
+            aweme_detail = data.get('aweme_detail', {})
 
-            return result.get('data', {})
+            # Add transcript to main object if available
+            if 'transcript' in data and data['transcript']:
+                aweme_detail['transcript_text'] = self._parse_webvtt(data['transcript'])
+
+            return aweme_detail
         except Exception as e:
-            print(f"⚠️  Error getting details for {video_url}: {e}")
+            print(f"⚠️  Error getting details for video {video_id}: {e}")
             return None
+
+    def _parse_webvtt(self, webvtt: str) -> str:
+        """Parse WEBVTT transcript to plain text"""
+        if not webvtt:
+            return ""
+
+        lines = webvtt.split('\n')
+        text_lines = []
+
+        for line in lines:
+            line = line.strip()
+            # Skip WEBVTT header, timestamps, and empty lines
+            if line and not line.startswith('WEBVTT') and '-->' not in line:
+                text_lines.append(line)
+
+        return ' '.join(text_lines)
 
     def analyze_video_sentiment(self, video: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Analyze sentiment in video title, description, and transcript
+        Analyze sentiment in video description and transcript
 
         Args:
             video: Video details dictionary
@@ -165,11 +201,10 @@ class YouTubeStockResearch:
         ]
 
         # Combine all text for analysis
-        title = (video.get('title') or '').lower()
-        description = (video.get('description') or '').lower()
-        transcript = (video.get('transcript_only_text') or '').lower()
+        desc = (video.get('desc') or '').lower()
+        transcript = (video.get('transcript_text') or '').lower()
 
-        all_text = f"{title} {description} {transcript}"
+        all_text = f"{desc} {transcript}"
 
         # Count sentiment keywords
         bullish_count = sum(1 for keyword in bullish_keywords if keyword in all_text)
@@ -198,18 +233,20 @@ class YouTubeStockResearch:
         self,
         ticker: str,
         custom_query: Optional[str] = None,
-        time_period: str = "this_month",
+        time_period: str = "this-month",
         max_videos: int = 20,
+        sort_by: str = "relevance",
         include_details: bool = True
     ) -> Dict[str, Any]:
         """
-        Research a stock ticker on YouTube
+        Research a stock ticker on TikTok
 
         Args:
             ticker: Stock ticker symbol (e.g., "TSLA", "AMZN")
             custom_query: Custom search query (overrides default ticker search)
             time_period: Time filter for videos
             max_videos: Maximum videos to analyze
+            sort_by: Sort method (relevance, most-liked, date-posted)
             include_details: Whether to fetch full video details + transcripts
 
         Returns:
@@ -219,13 +256,14 @@ class YouTubeStockResearch:
         if custom_query:
             query = custom_query
         else:
-            # Search for multiple formats: ticker, $ticker, ticker stock
-            query = f"{ticker} stock"
+            # Try both ticker formats: "#TSLA stock" and "$TSLA"
+            query = f"#{ticker} stock"
 
         # Search for videos
         videos = self.search_videos(
             query=query,
-            upload_date=time_period if time_period != "all_time" else None,
+            date_posted=time_period if time_period != "all_time" else None,
+            sort_by=sort_by,
             max_videos=max_videos
         )
 
@@ -246,13 +284,20 @@ class YouTubeStockResearch:
         if include_details:
             print(f"📹 Fetching details for {len(videos)} videos...")
             for i, video in enumerate(videos, 1):
-                video_url = video.get('url')
-                if not video_url:
+                # Extract necessary info from basic video object
+                video_id = video.get('aweme_id')
+                author = video.get('author', {})
+                author_unique_id = author.get('unique_id', '')
+
+                if not video_id or not author_unique_id:
+                    enriched_videos.append(video)
                     continue
 
-                print(f"   [{i}/{len(videos)}] {video.get('title', 'Unknown')[:60]}...")
+                desc = video.get('desc', 'Unknown')
+                print(f"   [{i}/{len(videos)}] {desc[:60]}...")
 
-                details = self.get_video_details(video_url)
+                details = self.get_video_details(video_id, author_unique_id)
+
                 if details:
                     # Merge search result with detailed info
                     enriched = {**video, **details}
@@ -274,7 +319,7 @@ class YouTubeStockResearch:
         print(f"\n✅ Research complete!")
         print(f"   Total videos: {summary['total_videos']}")
         print(f"   Total views: {summary['total_views']:,}")
-        if include_details:
+        if include_details and 'sentiment_breakdown' in summary:
             print(f"   Sentiment: {summary['sentiment_breakdown']}")
 
         return {
@@ -288,15 +333,25 @@ class YouTubeStockResearch:
 
     def _generate_summary(self, videos: List[Dict[str, Any]], include_sentiment: bool = True) -> Dict[str, Any]:
         """Generate summary statistics from videos"""
-        total_views = sum((v.get('viewCountInt') or 0) for v in videos)
-        total_likes = sum((v.get('likeCountInt') or 0) for v in videos)
-        total_comments = sum((v.get('commentCountInt') or 0) for v in videos)
+        # Get stats from statistics object in TikTok response
+        total_views = 0
+        total_likes = 0
+        total_comments = 0
+        total_shares = 0
+
+        for v in videos:
+            stats = v.get('statistics', {})
+            total_views += (stats.get('play_count') or 0)
+            total_likes += (stats.get('digg_count') or 0)
+            total_comments += (stats.get('comment_count') or 0)
+            total_shares += (stats.get('share_count') or 0)
 
         summary = {
             'total_videos': len(videos),
             'total_views': total_views,
             'total_likes': total_likes,
             'total_comments': total_comments,
+            'total_shares': total_shares,
             'avg_views': int(total_views / len(videos)) if videos else 0,
             'avg_likes': int(total_likes / len(videos)) if videos else 0,
         }
@@ -321,25 +376,30 @@ class YouTubeStockResearch:
 
 
 def generate_markdown_output(ticker: str, results: Dict) -> str:
-    """Generate markdown output for YouTube results."""
+    """Generate markdown output for TikTok results."""
     lines = []
-    lines.append(f"## YouTube: {ticker}\n")
+    lines.append(f"## TikTok: {ticker}\n")
     lines.append(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
     videos = results.get('videos', [])
     lines.append(f"### Top Videos ({len(videos)})\n")
 
     for v in videos[:30]:
-        channel = v.get('channel', {}).get('title', 'Unknown')
-        lines.append(f"#### {v.get('title')}")
-        lines.append(f"**Channel:** {channel}")
-        lines.append(f"**Views:** {v.get('viewCountInt', 0):,} | **Likes:** {v.get('likeCountInt', 0):,}")
+        author = v.get('author', {}).get('unique_id', 'Unknown')
+        stats = v.get('statistics', {})
+        lines.append(f"#### Video by @{author}")
+        lines.append(f"**Views:** {stats.get('play_count', 0):,} | **Likes:** {stats.get('digg_count', 0):,}")
 
         sent = v.get('sentiment_analysis', {})
         if sent:
             lines.append(f"**Sentiment:** {sent.get('sentiment', 'N/A').upper()}")
 
-        lines.append(f"**Link:** {v.get('url')}\n")
+        video_id = v.get('aweme_id', '')
+        video_url = f"https://www.tiktok.com/@{author}/video/{video_id}"
+        lines.append(f"**URL:** {video_url}")
+
+        desc = v.get('desc', 'No description')
+        lines.append(f"\n{desc[:300]}...\n")
         lines.append("---\n")
 
     return "\n".join(lines)
@@ -347,14 +407,14 @@ def generate_markdown_output(ticker: str, results: Dict) -> str:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Research stock ticker sentiment on YouTube',
+        description='Research stock ticker sentiment on TikTok',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   %(prog)s TSLA
-  %(prog)s AMZN --query "Amazon earnings Q4" --time-period this_week
-  %(prog)s NVDA --max-videos 50
-  %(prog)s MSFT --time-period today --no-details
+  %(prog)s AMZN --query "Amazon stock news" --time-period this-week
+  %(prog)s NVDA --max-videos 50 --sort-by most-liked
+  %(prog)s MSFT --time-period yesterday --no-details
         """
     )
 
@@ -362,13 +422,19 @@ Examples:
     parser.add_argument('--query', help='Custom search query (overrides default ticker search)')
     parser.add_argument(
         '--time-period',
-        choices=['last_hour', 'today', 'this_week', 'this_month', 'this_year', 'all_time'],
-        default='this_month',
-        help='Time filter for videos (default: this_month)'
+        choices=['yesterday', 'this-week', 'this-month', 'last-3-months', 'last-6-months', 'all_time'],
+        default='this-month',
+        help='Time filter for videos (default: this-month)'
+    )
+    parser.add_argument(
+        '--sort-by',
+        choices=['relevance', 'most-liked', 'date-posted'],
+        default='relevance',
+        help='Sort method (default: relevance)'
     )
     parser.add_argument('--max-videos', type=int, default=20, help='Maximum videos to fetch (default: 20)')
     parser.add_argument('--no-details', action='store_true', help='Skip fetching video details and transcripts')
-    parser.add_argument('--output', help='Output file path (default: data/tickers/{TICKER}/raw/{TICKER}_youtube_{timestamp}.json)')
+    parser.add_argument('--output', help='Output file path (default: data/tickers/{TICKER}/raw/{TICKER}_tiktok_{timestamp}.json)')
     parser.add_argument('--markdown', action='store_true',
                        help='Output markdown to stdout (for master script aggregation)')
 
@@ -376,7 +442,7 @@ Examples:
     markdown_mode = args.markdown
 
     # Initialize researcher
-    researcher = YouTubeStockResearch(API_KEY)
+    researcher = TikTokStockResearch(API_KEY)
 
     # Run research
     results = researcher.research_stock(
@@ -384,6 +450,7 @@ Examples:
         custom_query=args.query,
         time_period=args.time_period,
         max_videos=args.max_videos,
+        sort_by=args.sort_by,
         include_details=not args.no_details
     )
 
@@ -399,7 +466,7 @@ Examples:
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
         output_dir = get_data_directory(args.ticker.upper())
         ensure_directory_exists(output_dir)
-        output_file = f"{output_dir}/{args.ticker.upper()}_youtube_{timestamp}.json"
+        output_file = f"{output_dir}/{args.ticker.upper()}_tiktok_{timestamp}.json"
 
     with open(output_file, 'w') as f:
         json.dump(results, f, indent=2)
@@ -417,16 +484,18 @@ Examples:
 
         sorted_videos = sorted(
             results['videos'],
-            key=lambda v: v.get('viewCountInt', 0),
+            key=lambda v: v.get('statistics', {}).get('play_count', 0),
             reverse=True
         )
 
         for i, video in enumerate(sorted_videos[:5], 1):
-            title = video.get('title', 'Unknown')
-            views = video.get('viewCountInt', 0)
-            likes = video.get('likeCountInt', 0)
-            channel = video.get('channel', {}).get('title', 'Unknown')
-            url = video.get('url', '')
+            desc = video.get('desc', 'No description')
+            stats = video.get('statistics', {})
+            views = stats.get('play_count', 0)
+            likes = stats.get('digg_count', 0)
+
+            author = video.get('author', {})
+            username = author.get('unique_id', 'Unknown')
 
             sentiment_info = ""
             if 'sentiment_analysis' in video:
@@ -434,9 +503,12 @@ Examples:
                 emoji = "🟢" if sent['sentiment'] == 'bullish' else "🔴" if sent['sentiment'] == 'bearish' else "⚪"
                 sentiment_info = f" {emoji} {sent['sentiment'].upper()}"
 
-            print(f"{i}. {title[:70]}")
-            print(f"   Channel: {channel} | Views: {views:,} | Likes: {likes:,}{sentiment_info}")
-            print(f"   {url}")
+            video_id = video.get('aweme_id', '')
+            video_url = f"https://www.tiktok.com/@{username}/video/{video_id}"
+
+            print(f"{i}. {desc[:70]}")
+            print(f"   @{username} | Views: {views:,} | Likes: {likes:,}{sentiment_info}")
+            print(f"   {video_url}")
             print()
 
 

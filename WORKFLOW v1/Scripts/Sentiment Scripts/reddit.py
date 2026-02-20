@@ -90,15 +90,15 @@ except ImportError:
 
 SOCIAVAULT_BASE_URL = "https://api.sociavault.com/v1"
 DEFAULT_DAYS = 30  # 1 month
-DEFAULT_MIN_SCORE = 50  # Minimum upvotes to be considered
-DEFAULT_MIN_COMMENTS = 10  # Minimum comments to be considered
+DEFAULT_MIN_SCORE = 10  # Minimum upvotes to be considered
+DEFAULT_MIN_COMMENTS = 0  # Minimum comments to be considered
 DEFAULT_MAX_RESULTS = 50  # Max posts to return per ticker
 REQUEST_TIMEOUT = 30  # seconds
 MAX_RETRIES = 3
 RETRY_DELAY = 2
 
 # Target subreddits for stock discussions
-TARGET_SUBREDDITS = ["stocks", "ValueInvesting", "options"]
+TARGET_SUBREDDITS = ["stocks", "ValueInvesting"]
 
 # Ticker to company name mapping for better search results
 TICKER_MAPPING = {

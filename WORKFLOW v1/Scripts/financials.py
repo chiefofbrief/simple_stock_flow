@@ -161,8 +161,6 @@ def calculate_ttm_metrics(quarterly_data):
     rev = sum_q(q_inc, 'revenue')
     oi = sum_q(q_inc, 'operatingIncome')
     ni = sum_q(q_inc, 'netIncome')
-    ie = sum_q(q_inc, 'interestExpense')
-    tax = sum_q(q_inc, 'incomeTaxExpense')
     
     ocf = sum_q(q_cf, 'operatingCashFlow')
     capex = sum_q(q_cf, 'capitalExpenditure')
@@ -172,28 +170,28 @@ def calculate_ttm_metrics(quarterly_data):
     assets = latest(q_bal, 'totalAssets')
     ca = latest(q_bal, 'totalCurrentAssets')
     cl = latest(q_bal, 'totalCurrentLiabilities')
-    tl = latest(q_bal, 'totalLiabilities')
     debt = latest(q_bal, 'totalDebt')
-    equity = latest(q_bal, 'totalStockholdersEquity') or latest(q_bal, 'totalEquity')
     
     # Calculate Metrics
+    # Note: Capex is usually negative in CF statement
+    abs_capex = abs(capex) if capex is not None else 0
+    
     return {
-        "debt_to_assets": safe_div(debt, assets),
-        "debt_to_ocf": safe_div(debt, ocf),
-        "ncav": (ca - tl) if ca is not None and tl is not None else None,
-        "accruals_gap": safe_div(ni - ocf, assets) if ni is not None and ocf is not None and assets else None,
-        "working_capital": (ca - cl) if ca is not None and cl is not None else None,
-        "capex": capex,
-        "da": da,
-        
         "revenue": rev,
         "operating_margin": safe_div(oi, rev),
         "ocf": ocf,
-        "fcf": (ocf - abs(capex)) if ocf is not None and capex is not None else None,
+        "fcf": (ocf - abs_capex) if ocf is not None else None,
         "ocf_to_ni": safe_div(ocf, ni),
-        
-        "rotc": (ni + ie + tax) / (debt + equity) if (debt is not None and equity is not None and (debt+equity) != 0) else None,
-        "roe": safe_div(ni, equity),
+        "working_capital": (ca - cl) if ca is not None and cl is not None else None,
+        # Operating Leverage is calculated via deltas in process_metrics, not here directly for TTM usually, 
+        # but we need a placeholder or calculation if possible. TTM Op Lev is tricky without TTM-1. 
+        # We will handle Op Lev in process_metrics.
+        "capex": capex,
+        "da": da,
+        "capex_to_dep": safe_div(abs_capex, da),
+        "dep_to_rev": safe_div(da, rev),
+        "debt_to_assets": safe_div(debt, assets),
+        "debt_to_ocf": safe_div(debt, ocf),
         
         "_oi": oi, "_rev": rev # internal use
     }
@@ -205,37 +203,31 @@ def extract_period_metrics(inc, bal, cf):
     rev = get(inc, 'revenue')
     oi = get(inc, 'operatingIncome')
     ni = get(inc, 'netIncome')
-    ie = get(inc, 'interestExpense') or 0
-    tax = get(inc, 'incomeTaxExpense') or 0
     
     assets = get(bal, 'totalAssets')
     ca = get(bal, 'totalCurrentAssets')
     cl = get(bal, 'totalCurrentLiabilities')
-    tl = get(bal, 'totalLiabilities')
     debt = get(bal, 'totalDebt')
-    equity = get(bal, 'totalStockholdersEquity') or get(bal, 'totalEquity')
     
     ocf = get(cf, 'operatingCashFlow')
     capex = get(cf, 'capitalExpenditure')
     da = get(cf, 'depreciationAndAmortization')
+
+    abs_capex = abs(capex) if capex is not None else 0
     
     return {
-        "debt_to_assets": safe_div(debt, assets),
-        "debt_to_ocf": safe_div(debt, ocf),
-        "ncav": (ca - tl) if ca is not None and tl is not None else None,
-        "accruals_gap": safe_div(ni - ocf, assets) if ni is not None and ocf is not None and assets else None,
-        "working_capital": (ca - cl) if ca is not None and cl is not None else None,
-        "capex": capex,
-        "da": da,
-        
         "revenue": rev,
         "operating_margin": safe_div(oi, rev),
         "ocf": ocf,
-        "fcf": (ocf - abs(capex)) if ocf is not None and capex is not None else None,
+        "fcf": (ocf - abs_capex) if ocf is not None else None,
         "ocf_to_ni": safe_div(ocf, ni),
-        
-        "rotc": (ni + ie + tax) / (debt + equity) if (debt is not None and equity is not None and (debt+equity) != 0) else None,
-        "roe": safe_div(ni, equity),
+        "working_capital": (ca - cl) if ca is not None and cl is not None else None,
+        "capex": capex,
+        "da": da,
+        "capex_to_dep": safe_div(abs_capex, da),
+        "dep_to_rev": safe_div(da, rev),
+        "debt_to_assets": safe_div(debt, assets),
+        "debt_to_ocf": safe_div(debt, ocf),
         
         "_oi": oi, "_rev": rev
     }
@@ -319,49 +311,57 @@ def process_metrics(raw_data):
     final_data = {
         "dates": annual_dates,
         "quarterly_dates": quarterly_dates,
-        "risk": {},
-        "quality": {},
-        "roi": {}
+        "financials": {}
     }
     
-    categories = {
-        "risk": ['debt_to_assets', 'debt_to_ocf', 'ncav', 'accruals_gap', 'capex', 'da', 'working_capital'],
-        "quality": ['revenue', 'operating_margin', 'ocf', 'fcf', 'ocf_to_ni'],
-        "roi": ['rotc', 'roe', 'operating_leverage']
-    }
+    # Flattened list of metrics
+    metric_keys = [
+        'revenue', 
+        'operating_margin', 
+        'ocf', 
+        'fcf', 
+        'ocf_to_ni', 
+        'working_capital', 
+        'operating_leverage', 
+        'capex', 
+        'da', 
+        'capex_to_dep', 
+        'dep_to_rev', 
+        'debt_to_assets', 
+        'debt_to_ocf'
+    ]
     
-    for cat, keys in categories.items():
-        for key in keys:
-            # -- Annual Values --
-            if key == 'operating_leverage':
-                vals = ann_op_lev
-                ttm_val = None 
-            else:
-                vals = [m[key] for m in annual_metrics]
-                ttm_val = ttm_metrics[key] if ttm_metrics else None
-            
-            clean_vals = [v for v in vals if v is not None]
-            
-            stats = {
-                "cagr_5yr": calculate_cagr(vals),
-                "cv": calculate_cv(vals),
-                "slope": calculate_slope(vals),
-                "recent_delta": calculate_recent_delta(vals),
-                "mean_5yr": statistics.mean(clean_vals) if clean_vals else None
-            }
-            
-            # -- Quarterly Values --
-            if key == 'operating_leverage':
-                q_vals = quart_op_lev
-            else:
-                q_vals = [m[key] for m in quarterly_metrics]
-            
-            final_data[cat][key] = {
-                "annual_values": vals,
-                "quarterly_values": q_vals,
-                "ttm_value": ttm_val,
-                "stats": stats
-            }
+    for key in metric_keys:
+        # -- Annual Values --
+        if key == 'operating_leverage':
+            vals = ann_op_lev
+            ttm_val = None 
+        else:
+            vals = [m[key] for m in annual_metrics]
+            ttm_val = ttm_metrics[key] if ttm_metrics else None
+        
+        clean_vals = [v for v in vals if v is not None]
+        
+        stats = {
+            "cagr_5yr": calculate_cagr(vals),
+            "cv": calculate_cv(vals),
+            "slope": calculate_slope(vals),
+            "recent_delta": calculate_recent_delta(vals),
+            "mean_5yr": statistics.mean(clean_vals) if clean_vals else None
+        }
+        
+        # -- Quarterly Values --
+        if key == 'operating_leverage':
+            q_vals = quart_op_lev
+        else:
+            q_vals = [m[key] for m in quarterly_metrics]
+        
+        final_data['financials'][key] = {
+            "annual_values": vals,
+            "quarterly_values": q_vals,
+            "ttm_value": ttm_val,
+            "stats": stats
+        }
             
     return final_data
 
@@ -399,13 +399,11 @@ def generate_markdown(ticker, data):
     ann_sep = f"|---|{'---|'*len(header_cols)}---|---|---|---|\n"
     
     # --- Quarterly Header ---
-    # We display up to 4 recent quarters. 
-    # Logic: we have up to 5 q_vals to calculate 4 deltas.
     # Display: Q(N-3) | Δ | Q(N-2) | Δ | Q(N-1) | Δ | Q(N) | Δ
     
     # Identify displayable quarters (exclude the very first one used for delta only)
     disp_q_dates = q_dates[1:] if len(q_dates) > 1 else q_dates
-    # Pad if needed (unlikely given FMP returns, but good for safety)
+    # Pad if needed
     if len(disp_q_dates) < 4:
         disp_q_dates = ["-"] * (4 - len(disp_q_dates)) + disp_q_dates
         
@@ -416,104 +414,90 @@ def generate_markdown(ticker, data):
     q_header = f"| Metric | {' | '.join(q_header_cols)} |\n"
     q_sep = f"|---|{'---|'*len(q_header_cols)}|\n"
 
-    def build_section(title, category, rows):
-        section_md = f"## {title}\n\n"
-        
-        # 1. Annual Table
-        section_md += f"### {title} - Annual & Long-Term Trends\n"
-        section_md += ann_header + ann_sep
+    def build_table_rows(category_key, rows):
+        table_md_annual = ""
+        table_md_quarterly = ""
         
         for label, key, fmt, *divisor in rows:
             div = divisor[0] if divisor else 1
-            metric_data = data[category][key]
+            metric_data = data[category_key][key]
             
+            # --- Annual Row ---
             vals = metric_data['annual_values']
             d_vals = [None]*(5 - len(vals)) + vals
             ttm = metric_data['ttm_value']
             stats = metric_data['stats']
             
-            row = f"| {label} |"
+            row_a = f"| {label} |"
             
             # Y1
-            row += f" {format_cell(d_vals[0], fmt, div)} |"
+            row_a += f" {format_cell(d_vals[0], fmt, div)} |"
             
             # Y2-Y5 (Val | Delta)
             for i in range(1, 5):
                 curr = d_vals[i]
                 prev = d_vals[i-1]
-                row += f" {format_cell(curr, fmt, div)} |"
+                row_a += f" {format_cell(curr, fmt, div)} |"
                 if curr is not None and prev is not None and prev != 0:
                     delta = (curr - prev) / abs(prev)
-                    row += f" {format_cell(delta, '{:.1%}', 1, True)} |"
+                    row_a += f" {format_cell(delta, '{:.1%}', 1, True)} |"
                 else:
-                    row += " - |"
+                    row_a += " - |"
             
             # Stats
-            row += f" {format_cell(ttm, fmt, div)} |"
-            row += f" {format_cell(stats['mean_5yr'], fmt, div)} |"
-            row += f" {format_cell(stats['cagr_5yr'], '{:.1%}')} |"
-            row += f" {format_cell(stats['cv'], '{:.2f}')} |"
+            row_a += f" {format_cell(ttm, fmt, div)} |"
+            row_a += f" {format_cell(stats['mean_5yr'], fmt, div)} |"
+            row_a += f" {format_cell(stats['cagr_5yr'], '{:.1%}')} |"
+            row_a += f" {format_cell(stats['cv'], '{:.2f}')} |"
             
-            section_md += row + "\n"
-        
-        section_md += "\n"
-        
-        # 2. Quarterly Table
-        section_md += f"### {title} - Recent Quarterly Trends\n"
-        section_md += q_header + q_sep
-        
-        for label, key, fmt, *divisor in rows:
-            div = divisor[0] if divisor else 1
-            metric_data = data[category][key]
+            table_md_annual += row_a + "\n"
             
-            # We expect up to 5 values. We want to display the last 4 with deltas.
+            # --- Quarterly Row ---
             q_vals = metric_data['quarterly_values']
-            
-            # Pad to 5 so logic holds
             if len(q_vals) < 5:
                 q_vals = [None]*(5 - len(q_vals)) + q_vals
             
-            row = f"| {label} |"
-            
-            # Loop 1 to 4 (Indices 1,2,3,4 of 0-based list size 5)
-            # This corresponds to the 4 display columns
+            row_q = f"| {label} |"
             for i in range(1, 5):
                 curr = q_vals[i]
                 prev = q_vals[i-1]
                 
-                row += f" {format_cell(curr, fmt, div)} |"
+                row_q += f" {format_cell(curr, fmt, div)} |"
                 if curr is not None and prev is not None and prev != 0:
                     delta = (curr - prev) / abs(prev)
-                    row += f" {format_cell(delta, '{:.1%}', 1, True)} |"
+                    row_q += f" {format_cell(delta, '{:.1%}', 1, True)} |"
                 else:
-                    row += " - |"
-            section_md += row + "\n"
+                    row_q += " - |"
+            table_md_quarterly += row_q + "\n"
             
-        return section_md + "\n"
+        return table_md_annual, table_md_quarterly
 
-    md += build_section("Earnings Risk", "risk", [
-        ("Debt / Assets", "debt_to_assets", "{:.1%}"),
-        ("Debt / OCF", "debt_to_ocf", "{:.2f}x"),
-        ("NCAV ($B)", "ncav", "${:,.2f}", 1e9),
-        ("Accruals Gap", "accruals_gap", "{:.1%}"),
-        ("CapEx ($B)", "capex", "${:,.2f}", 1e9),
-        ("D&A ($B)", "da", "${:,.2f}", 1e9),
-        ("Working Capital ($B)", "working_capital", "${:,.2f}", 1e9),
-    ])
-    
-    md += build_section("Earnings Quality", "quality", [
+    # Define the rows in specific order
+    metric_rows = [
         ("Revenue ($B)", "revenue", "${:,.2f}", 1e9),
         ("Operating Margin", "operating_margin", "{:.1%}"),
         ("Op Cash Flow ($B)", "ocf", "${:,.2f}", 1e9),
         ("Free Cash Flow ($B)", "fcf", "${:,.2f}", 1e9),
         ("OCF / Net Income", "ocf_to_ni", "{:.2f}x"),
-    ])
+        ("Working Capital ($B)", "working_capital", "${:,.2f}", 1e9),
+        ("Operating Leverage", "operating_leverage", "{:.2f}"),
+        ("CapEx ($B)", "capex", "${:,.2f}", 1e9),
+        ("D&A ($B)", "da", "${:,.2f}", 1e9),
+        ("  ↳ Capex / D&A", "capex_to_dep", "{:.1%}"),
+        ("  ↳ D&A / Revenue", "dep_to_rev", "{:.1%}"),
+        ("Debt / Assets", "debt_to_assets", "{:.1%}"),
+        ("Debt / OCF", "debt_to_ocf", "{:.2f}x"),
+    ]
+
+    ann_rows, quart_rows = build_table_rows("financials", metric_rows)
+
+    md += "## Financial Analysis\n\n"
     
-    md += build_section("ROI", "roi", [
-        ("ROTC", "rotc", "{:.1%}"),
-        ("ROE", "roe", "{:.1%}"),
-        ("Op Leverage", "operating_leverage", "{:.2f}"),
-    ])
+    md += "### Annual & Long-Term Trends\n"
+    md += ann_header + ann_sep + ann_rows + "\n"
+    
+    md += "### Recent Quarterly Trends\n"
+    md += q_header + q_sep + quart_rows + "\n"
     
     md += "---\n*TTM = Trailing Twelve Months. CV = Coefficient of Variation.*\n"
     return md
