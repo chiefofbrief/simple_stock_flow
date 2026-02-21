@@ -35,9 +35,7 @@ Here is what we have done thus far; review the list of completed tasks below, an
 
 -----------------------------------------
 
-Let's start by making one edit to our sentiment script to hopefully capture more results: Let's change the lookback period to 3 months from 1 month. 
-
-next, let's create the prompt for earnings calls. don't worry about the script for now, we will handle that later. Here are the questions; add these verbatim while preserving the structure (role, etc.) from previous prompts, and reusing content where applicable:
+Let's create the prompt for 'earnings calls'. don't worry about the script for now, we will handle that later. Here are the questions; add these verbatim while preserving the structure (role, etc.) from previous prompts, and reusing content where applicable:
 
 # Earnings Call
 
@@ -46,8 +44,6 @@ next, let's create the prompt for earnings calls. don't worry about the script f
 * Has management's language or tone shifted relative to the prior call — increased hedging, new risk disclosures, or topics that have quietly disappeared from discussion?
 * What are analysts concerned or excited about?
 * How do analysts' focus areas align with our previous analyses?
-
-
 
 
 
