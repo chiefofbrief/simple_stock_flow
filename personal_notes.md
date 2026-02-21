@@ -40,15 +40,99 @@ Here is what we have done thus far; review the list of completed tasks below, an
 
 -----------------------------------------
 
-Let's create the prompt for 'earnings calls'. don't worry about the script for now, we will handle that later. Here are the questions; add these verbatim while preserving the structure (role, etc.) from previous prompts, and reusing content where applicable:
+  Workflow Integration Plan
 
-# Earnings Call
 
-* Does management's characterization of the business align with previous analyses — or are there notable deflections, omissions, or contradictions?
-* Are there any explanations that add meaningful context to specific findings from the previous analyses?
-* Has management's language or tone shifted relative to the prior call — increased hedging, new risk disclosures, or topics that have quietly disappeared from discussion?
-* What are analysts concerned or excited about?
-* How do analysts' focus areas align with our previous analyses?
+  This plan establishes a modular yet cohesive workflow for connecting our prompts and scripts, defining data flow, dependencies, and execution contexts.
+
+  Core Architecture: The Two-Stage Funnel
+
+
+  We separate the workflow into two distinct phases to optimize for volume (screening) vs. depth (research).
+
+
+  Phase 1: Screening (Batch Processing)
+  Goal: Rapidly filter 20+ tickers to find candidates worth investigating.
+   * Trigger: Daily screening routine.
+   * Output Destination: data/screening/Daily_Screening_{DATE}.md (Single aggregate file).
+   * Process:
+       1. Run Price and Earnings scripts for a batch of tickers.
+       2. LLM analyzes results using prompt_price.md and prompt_earnings.md.
+       3. Output is appended to the daily screening file.
+       4. Decision Point: User reviews the file and selects tickers for "Deep Dive."
+
+
+
+  ┌─────────────┬─────────────┬────────────────────┬──────────────────────────────┬───────────────────────────────────┐
+  │ Step        │ Script      │ Prompt             │ Dependency                   │ Output                            │
+  ├─────────────┼─────────────┼────────────────────┼──────────────────────────────┼───────────────────────────────────┤
+  │ 1. Price    │ price.py    │ prompt_price.md    │ None                         │ Append to Daily_Screening_{DATE}.md │
+  │ 2. Earnings │ earnings.py │ prompt_earnings.md │ None (Price context helpful) │ Append to Daily_Screening_{DATE}.md │
+  └─────────────┴─────────────┴────────────────────┴──────────────────────────────┴───────────────────────────────────┘
+
+
+
+  Phase 2: Deep Dive (Research Thesis)
+  Goal: Build a comprehensive investment thesis for selected candidates.
+   * Trigger: User "promotes" a ticker from Screening.
+   * Output Destination: data/tickers/{TICKER}/{TICKER}_Research_Thesis.md (Dedicated thesis file).
+   * Initialization: Create the Thesis file and pre-populate it with the Screening notes (Price + Earnings).
+   * Process: Run subsequent analysis scripts; each prompt reads the current state of the Thesis file for context and appends its new findings.
+
+
+
+  ┌───────────────────┬───────────────────┬────────────────────────┬─────────────────────────────────┬─────────────────────────────┐
+  │ Step              │ Script            │ Prompt                 │ Context Dependency              │ Output                      │
+  ├───────────────────┼───────────────────┼────────────────────────┼─────────────────────────────────┼─────────────────────────────┤
+  │ 3. Financials     │ financials.py     │ prompt_financials.md   │ Thesis (Screening Notes)        │ Append to _Research_Thesis.md │
+  │ 4. Sentiment      │ sentiment.py      │ prompt_sentiment.md    │ Thesis (Financials)             │ Append to _Research_Thesis.md │
+  │ 5. Footnotes      │ sec_filings.py    │ prompt_footnotes.md    │ Thesis (Financials + Sentiment) │ Append to _Research_Thesis.md │
+  │ 6. Earnings Calls │ earnings_calls.py │ prompt_earnings_calls.md │ Thesis (Financials + Sentiment) │ Append to _Research_Thesis.md │
+  └───────────────────┴───────────────────┴────────────────────────┴─────────────────────────────────┴─────────────────────────────┘
+
+  ---
+
+  Implementation Tasks
+
+  1. Update Prompts (Standardization)
+  Add a "Context Configuration" header to every prompt file to define execution logic and data sources.
+
+  Template Header:
+
+
+    1 # Context Configuration
+    2 - **Target Ticker:** {TICKER}
+    3 - **Required Data File:** `data/tickers/{TICKER}/{TICKER}_{TYPE}_data.md`
+    4 - **Missing Data?** Run: `python WORKFLOW\ v1/Scripts/{SCRIPT_NAME}.py {TICKER}`
+    5 - **Context Source:**
+    6     - *Screening Phase:* None.
+    7     - *Research Phase:* Read `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`.
+    8 - **Output Destination:**
+    9     - *Screening Phase:* Append to `data/screening/Daily_Screening_{DATE}.md`.
+   10     - *Research Phase:* Append to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under header "## {ANALYSIS_TYPE}".
+
+
+  2. Update GEMINI.md (Routing Logic)
+  Define the high-level instructions for the CLI to manage this workflow.
+   * Screening Mode: Instructions for batch running and aggregate filing.
+   * Research Mode: Instructions for creating the Thesis file and sequencing the Deep Dive prompts.
+   * Analysis Principles: Reference the external guidance document.
+
+
+  3. Create guidance/analysis_principles.md (Foundation)
+  Centralize the analytical philosophy (skepticism, verification, specific frameworks) to keep individual prompts focused and lightweight.
+   * Content:
+       * "Trust but verify" (Data vs. Narrative).
+       * Soros/Graham frameworks (Reflexivity, Margin of Safety).
+       * Specific red flags to always check.
+
+  ---
+
+
+  Execution Order
+   1. Update Prompts: Add headers and context logic.
+   2. Update `GEMINI.md`: Define the workflow rules.
+   3. Create Guidance: Write analysis_principles.md.
 
 
 
