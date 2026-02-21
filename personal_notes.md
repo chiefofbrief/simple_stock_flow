@@ -1,5 +1,5 @@
 
-We are updating our workflow. You are not permitted to make any edits to files without my written approval. Any old files should be archived, not deleted (unless we are just moving them). Review my instructions carefully at all times, and never assume or hallucinate or use your own knowledge unless you ask first; always rely on my instructions and our source material. All new files will go in the folder WORKFLOW v1. 
+We are updating our workflow. You are not permitted to make any edits to files without my written approval. Any old files should be archived, not deleted (unless we are just moving them). Review my instructions carefully at all times, and never assume or hallucinate or use your own knowledge unless you ask first; always rely on my instructions and our source material. All new files will go in the folder WORKFLOW v1. Also note that we will eventually move these files from worfklowv1 to another area, so only update paths which are necessary to run the scripts/analyze the output, not for 'cleaning up'. 
 
 Here is what we have done thus far; review the list of completed tasks below, and standby for instructions: 
    1. Workflow V1 Setup: Created WORKFLOW v1 directory structure.
@@ -28,11 +28,36 @@ Here is what we have done thus far; review the list of completed tasks below, an
    21. Sentiment Script Optimization: Fixed a bug in the YouTube script and lowered Reddit engagement thresholds (10 upvotes, 0 comments) to capture more data. Verified with AAPL.
    22. Archive Cleanup: Archived old sentiment scripts to archive/scripts/ with _old suffixes to prevent confusion.
 
-**Change reddit to 3 month pooknck, not 1 month. **
-
 -----------------------------------------
 
-We are going to 'redo' our 3 prompots for earnings risk, quality and roi. Instead of 3 prompts, we will make one. Instead of a glosssary, we will provide all guidanace in the prompt. The questions will remin exactly the same; we are just consolidating into one prompt, and changing the metrics. See below for the final list of metrics; note that this is similar to, but different from, the list of metrics we had. Create a new prompt called 'financials'. Copy over the questions, role, and stats. Update the list of metrics to the list below. And append the content below, verbatim exactly as is, as a guidance section. So the new file will have the same role, stats, and questions as the other prompts, but an updated list of metrics and the addition of the guidance. There are no 'section', just a list of key metrics. After this is complete, we will make some adjustments to the script to reflect the update. If you have any questions, ask them before making edits. 
+Let's start by making one edit to our sentiment script to hopefully capture more results: Let's change the lookback period to 3 months from 1 month. 
+
+next, let's create the prompt for the footnoes to financial statements/MD&A. don't worry about the script for now, we will handle that later. Here are the questions; add these verbatim while preserving the structure (role, etc.) from previous prompts, and reusing content where applicable:
+
+# Footnotes / MD&A
+
+* Do the footnotes/MD&A reveal anything material not captured in the financial statements?
+* Do the footnotes/MD&A add any meaningful context to the sentiment analysis?
+* If there is negative sentiment or concerns, do the footnotes/MD&A alleviate or heighten those concerns?
+* If there is positive sentiment or opportunities, do the footnotes/MD&A support or undermine them?
+* Are there any disclosures that appear incomplete, inconsistent with the financial statements, or that warrant deeper investigation?
+
+---
+
+# Earnings Call
+
+* Does management's characterization of the business align with previous analyses — or are there notable deflections, omissions, or contradictions?
+* Are there any explanations that add meaningful context to specific findings from the previous analyses?
+* Has management's language or tone shifted relative to the prior call — increased hedging, new risk disclosures, or topics that have quietly disappeared from discussion?
+* What are analysts concerned or excited about?
+* How do analysts' focus areas align with our previous analyses?
+
+
+
+
+
+------------------------------------------
+
 
 1. **Revenue**
 
@@ -272,12 +297,6 @@ Measures the time required to eliminate all debt if 100% of operating cash flow 
     - Operating Leverage: [P]
 
 **Qual Analysis**:
-1. external sentiment (news and social media):
-    - What are "authoratative" sources saying about the stock?
-    - What is social media saying about the stock?
-    - Is there a particular catalyst(s) that is driving sentiment?
-    - Does sentiment align with our financial analysis, or are there significant divergences?
-    - Are there concerns or opportunities we should investigate further?
 2. internal sentiment (earnings calls):
     - What are analysts paying attention to?
     - What narrative is management trying to push?
