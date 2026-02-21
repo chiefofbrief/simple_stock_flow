@@ -27,7 +27,7 @@ import os
 
 # Default timeline parameters
 DEFAULT_NEWS_MONTHS = 3
-DEFAULT_REDDIT_DAYS = 30  # 1 month
+DEFAULT_REDDIT_DAYS = 90  # 3 months
 DEFAULT_TIKTOK_PERIOD = 'this-month'
 DEFAULT_YOUTUBE_PERIOD = 'this_month'
 

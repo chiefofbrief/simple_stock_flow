@@ -89,7 +89,7 @@ except ImportError:
 # ============================================================================
 
 SOCIAVAULT_BASE_URL = "https://api.sociavault.com/v1"
-DEFAULT_DAYS = 30  # 1 month
+DEFAULT_DAYS = 90  # 3 months
 DEFAULT_MIN_SCORE = 10  # Minimum upvotes to be considered
 DEFAULT_MIN_COMMENTS = 0  # Minimum comments to be considered
 DEFAULT_MAX_RESULTS = 50  # Max posts to return per ticker
@@ -345,8 +345,8 @@ def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
                 if not quiet:
                     console.print(f"[cyan]  Fetching r/{subreddit}...[/cyan]")
 
-                # Use month timeframe and filter locally for precise date control
-                data = client.fetch_subreddit_posts(subreddit, timeframe="month", sort="top")
+                # Use year timeframe and filter locally for precise date control
+                data = client.fetch_subreddit_posts(subreddit, timeframe="year", sort="top")
 
                 # Extract posts
                 posts = extract_posts_from_response(data)
