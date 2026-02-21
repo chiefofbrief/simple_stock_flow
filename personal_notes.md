@@ -2,47 +2,42 @@
 We are updating our workflow. You are not permitted to make any edits to files without my written approval. Any old files should be archived, not deleted (unless we are just moving them). Review my instructions carefully at all times, and never assume or hallucinate or use your own knowledge unless you ask first; always rely on my instructions and our source material. All new files will go in the folder WORKFLOW v1. Also note that we will eventually move these files from worfklowv1 to another area, so only update paths which are necessary to run the scripts/analyze the output, not for 'cleaning up'. 
 
 Here is what we have done thus far; review the list of completed tasks below, and standby for instructions: 
-   1. Workflow V1 Setup: Created WORKFLOW v1 directory structure.
-   2. Script Migration: Moved peters_digest.py, price.py, earnings.py, shared_utils.py and all digest scripts to WORKFLOW v1/Scripts/.
-   3. Path Updates: Updated peters_digest.py to point to the new location of digest scripts and save output to WORKFLOW v1/Peter's Digest/. Updated docs/COMMANDS.md.
-   4. Prompt Creation: Created WORKFLOW v1/Prompts/price_analysis_prompt.md.
-   5. Execution: Ran Peter's Digest for today.
-   6. Analysis: Generated and prepended the market analysis to the daily digest file.
-   7. Git Sync: Pushed all changes to the remote repository.
-   8. Stock Tracker Update: Added "Earnings/Valuation Analysis" section to WORKFLOW v1/Stock Tracker.md.
-   9. Earnings Prompt: Created WORKFLOW v1/Prompts/earnings_analysis_prompt.md with specific analysis questions and data inputs.
-   10. Financials Script: Created WORKFLOW v1/Scripts/financials.py to fetch FMP data (Annual & Quarterly), calculate Earnings Risk, Quality, and ROI metrics, and generate detailed
-       markdown reports with statistical analysis (CAGR, CV, Deltas).
-   11. Script Validation: Verified financials.py accuracy against AAPL SEC filings and confirmed manual TTM calculation logic.
-   12. Tracker Enhancements: Added "Earnings Risk", "Earnings Quality", and "ROI" subsections to WORKFLOW v1/Stock Tracker.md.
-   13. Script Update (Quarterly Data): Enhanced financials.py to output "Recent Quarterly Trends" (last 4 quarters + deltas) alongside the annual data tables.
-   14. Script Testing: Verified the enhanced financials.py output with AAPL.
-   15. Metrics Prompts: Created WORKFLOW v1/Prompts/earnings_risk_prompt.md, earnings_quality_prompt.md, and roi_prompt.md with interchangeable roles and specific metrics.
-   16. Prompt Consolidation: Consolidated earnings_risk, earnings_quality, and roi prompts into a single WORKFLOW v1/Prompts/prompt_financials.md, updated with a refined metrics
-       list and embedded guidance.
-   17. Prompt Renaming: Renamed all analysis prompts to follow the prompt_<type>.md convention (prompt_price.md, prompt_earnings.md, prompt_financials.md).
-   18. Financials Script Update: Updated WORKFLOW v1/Scripts/financials.py to match the new prompt_financials.md structure (flattened JSON, single table output, updated metrics).
-       Verified with AAPL.
-   19. Sentiment Prompt Creation: Created WORKFLOW v1/Prompts/prompt_sentiment.md for analyzing news and social media sentiment.
-   20. Sentiment Script Migration: Migrated scripts/sentiment.py and dependencies (news.py, reddit.py, etc.) to WORKFLOW v1/Scripts/ and WORKFLOW v1/Scripts/Sentiment Scripts/.
-   21. Sentiment Script Optimization: Fixed a bug in the YouTube script and lowered Reddit engagement thresholds (10 upvotes, 0 comments) to capture more data. Verified with AAPL.
-   22. Archive Cleanup: Archived old sentiment scripts to archive/scripts/ with _old suffixes to prevent confusion.
+   * Workflow V1 Setup: Created WORKFLOW v1 directory structure.
+   * Script Migration: Moved peters_digest.py, price.py, earnings.py, shared_utils.py and all digest scripts to WORKFLOW v1/Scripts/.
+   * Path Updates: Updated peters_digest.py to point to the new location of digest scripts and save output to WORKFLOW v1/Peter's Digest/. Updated docs/COMMANDS.md.
+   * Prompt Creation: Created WORKFLOW v1/Prompts/price_analysis_prompt.md.
+   * Execution: Ran Peter's Digest for today.
+   * Analysis: Generated and prepended the market analysis to the daily digest file.
+   * Git Sync: Pushed all changes to the remote repository.
+   * Stock Tracker Update: Added "Earnings/Valuation Analysis" section to WORKFLOW v1/Stock Tracker.md.
+   * Earnings Prompt: Created WORKFLOW v1/Prompts/earnings_analysis_prompt.md with specific analysis questions and data inputs.
+   * Financials Script: Created WORKFLOW v1/Scripts/financials.py to fetch FMP data (Annual & Quarterly), calculate Earnings Risk, Quality, and ROI metrics, and generate detailed
+     markdown reports with statistical analysis (CAGR, CV, Deltas).
+   * Script Validation: Verified financials.py accuracy against AAPL SEC filings and confirmed manual TTM calculation logic.
+   * Tracker Enhancements: Added "Earnings Risk", "Earnings Quality", and "ROI" subsections to WORKFLOW v1/Stock Tracker.md.
+   * Script Update (Quarterly Data): Enhanced financials.py to output "Recent Quarterly Trends" (last 4 quarters + deltas) alongside the annual data tables.
+   * Script Testing: Verified the enhanced financials.py output with AAPL.
+   * Metrics Prompts: Created WORKFLOW v1/Prompts/earnings_risk_prompt.md, earnings_quality_prompt.md, and roi_prompt.md with interchangeable roles and specific metrics.
+   * Prompt Consolidation: Consolidated earnings_risk, earnings_quality, and roi prompts into a single WORKFLOW v1/Prompts/prompt_financials.md, updated with a refined metrics list
+     and embedded guidance.
+   * Prompt Renaming: Renamed all analysis prompts to follow the prompt_.md convention (prompt_price.md, prompt_earnings.md, prompt_financials.md).
+   * Financials Script Update: Updated WORKFLOW v1/Scripts/financials.py to match the new prompt_financials.md structure (flattened JSON, single table output, updated metrics).
+     Verified with AAPL.
+   * Sentiment Prompt Creation: Created WORKFLOW v1/Prompts/prompt_sentiment.md for analyzing news and social media sentiment.
+   * Sentiment Script Migration: Migrated scripts/sentiment.py and dependencies (news.py, reddit.py, etc.) to WORKFLOW v1/Scripts/ and WORKFLOW v1/Scripts/Sentiment Scripts/.
+   * Sentiment Script Optimization: Fixed a bug in the YouTube script and lowered Reddit engagement thresholds (10 upvotes, 0 comments) to capture more data. Verified with AAPL.
+   * Archive Cleanup: Archived old sentiment scripts to archive/scripts/ with _old suffixes to prevent confusion.
+   * Sentiment Lookback Update: Updated WORKFLOW v1/Scripts/Sentiment Scripts/reddit.py and WORKFLOW v1/Scripts/sentiment.py to use a 90-day (3-month) lookback period by default.
+   * Footnotes Prompt Creation: Created WORKFLOW v1/Prompts/prompt_footnotes.md for analyzing MD&A and footnotes, ensuring consistency with other analysis prompts.
+   * SEC Filings Script Migration: Migrated sec_filings.py to WORKFLOW v1/Scripts/ and updated it to use the new shared_utils location.
+   * SEC Filings Script Optimization: Enhanced sec_filings.py with robust extraction logic (whitespace normalization, flexible regex) to correctly handle 10-Q Notes sections, fixing
+     a failure on AAPL. Verified successful extraction for both AAPL and AMZN.
 
 -----------------------------------------
 
 Let's start by making one edit to our sentiment script to hopefully capture more results: Let's change the lookback period to 3 months from 1 month. 
 
-next, let's create the prompt for the footnoes to financial statements/MD&A. don't worry about the script for now, we will handle that later. Here are the questions; add these verbatim while preserving the structure (role, etc.) from previous prompts, and reusing content where applicable:
-
-# Footnotes / MD&A
-
-* Do the footnotes/MD&A reveal anything material not captured in the financial statements?
-* Do the footnotes/MD&A add any meaningful context to the sentiment analysis?
-* If there is negative sentiment or concerns, do the footnotes/MD&A alleviate or heighten those concerns?
-* If there is positive sentiment or opportunities, do the footnotes/MD&A support or undermine them?
-* Are there any disclosures that appear incomplete, inconsistent with the financial statements, or that warrant deeper investigation?
-
----
+next, let's create the prompt for earnings calls. don't worry about the script for now, we will handle that later. Here are the questions; add these verbatim while preserving the structure (role, etc.) from previous prompts, and reusing content where applicable:
 
 # Earnings Call
 
