@@ -30,8 +30,13 @@ Here is what we have done thus far; review the list of completed tasks below, an
    * Sentiment Lookback Update: Updated WORKFLOW v1/Scripts/Sentiment Scripts/reddit.py and WORKFLOW v1/Scripts/sentiment.py to use a 90-day (3-month) lookback period by default.
    * Footnotes Prompt Creation: Created WORKFLOW v1/Prompts/prompt_footnotes.md for analyzing MD&A and footnotes, ensuring consistency with other analysis prompts.
    * SEC Filings Script Migration: Migrated sec_filings.py to WORKFLOW v1/Scripts/ and updated it to use the new shared_utils location.
-   * SEC Filings Script Optimization: Enhanced sec_filings.py with robust extraction logic (whitespace normalization, flexible regex) to correctly handle 10-Q Notes sections, fixing
-     a failure on AAPL. Verified successful extraction for both AAPL and AMZN.
+   * SEC Filings Script Optimization: Enhanced sec_filings.py with robust extraction logic (whitespace normalization, flexible regex) to correctly handle 10-Q Notes sections, fixing a failure on AAPL. Verified successful extraction for both AAPL and AMZN.
+   * Earnings Call Prompt Creation: Created WORKFLOW v1/Prompts/prompt_earnings_calls.md for analyzing earnings call transcripts, focusing on management tone shifts and alignment
+     with previous financial/sentiment analyses.
+   * Earnings Call Script Implementation: Developed WORKFLOW v1/Scripts/earnings_calls.py to fetch the two most recent quarterly transcripts via AlphaVantage, processing them into a
+     consolidated markdown file with clear "Prepared Remarks" and "Q&A" sections for LLM analysis.
+   * Earnings Call Script Testing: Verified earnings_calls.py functionality with IBM and AMZN, confirming correct quarter detection (2025Q4/2025Q3), file generation, and markdown
+     structure.
 
 -----------------------------------------
 
