@@ -1,0 +1,1816 @@
+{
+  "date_range": {
+    "from": "2025-11-22",
+    "to": "2026-02-20"
+  },
+  "articles": [
+    {
+      "title": "PayPal Is Back Near IPO-Era Prices\u2014Value Setup or Value Trap?",
+      "summary": "PayPal's stock (PYPL) has fallen to near its IPO-era prices, trading just above $40, and its P/E ratio has collapsed to a historic low of 7.67. This presents a potential contrarian opportunity due to its durable profitability, deep market embedment, and extremely oversold technical indicators, despite concerns about slowing growth and competitive pressures. With a leadership transition underway, a strategic reset could shift sentiment and unlock significant upside, according to some analysts who maintain Buy ratings.",
+      "url": "https://www.marketbeat.com/originals/paypal-is-back-near-ipo-era-pricesvalue-setup-or-value-trap/",
+      "time_published": "20260220T191324",
+      "source": "MarketBeat",
+      "overall_sentiment_score": 0.159108,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.258563",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.659584",
+          "ticker_sentiment_score": "-0.125032",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ORCL",
+          "relevance_score": "0.625236",
+          "ticker_sentiment_score": "0.334395",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.594042",
+          "ticker_sentiment_score": "0.120452",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "DVN",
+          "relevance_score": "0.592639",
+          "ticker_sentiment_score": "0.110101",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Tesla canceled the car of the century",
+      "summary": "Bloomberg reports on the discontinuation of Tesla's Model S and Model X, highlighting the Model S's significant impact on the automotive industry despite its upcoming phase-out. The article reminisces about the Model S's early days and its role in popularizing electric vehicles, challenging traditional sales models, and pioneering over-the-air updates, even as Tesla shifts its focus towards robots and autonomous technology.",
+      "url": "https://www.mercurynews.com/2026/02/20/tesla-canceled-the-car-of-the-century/",
+      "time_published": "20260220T132810",
+      "source": "The Mercury News",
+      "overall_sentiment_score": 0.161986,
+      "ticker_sentiment": [
+        {
+          "ticker": "TSLA",
+          "relevance_score": "0.997676",
+          "ticker_sentiment_score": "0.309746",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "F",
+          "relevance_score": "0.618556",
+          "ticker_sentiment_score": "0.149189",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.587970",
+          "ticker_sentiment_score": "0.118784",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.596547",
+          "ticker_sentiment_score": "0.137337",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.573374",
+          "ticker_sentiment_score": "0.146860",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Meta and Apple face serious questions about child safety and privacy",
+      "summary": "Meta and Apple are facing intense scrutiny regarding child safety and privacy on their platforms, stemming from legal proceedings in California, New Mexico, and West Virginia. Unsealed documents from Meta's New Mexico case reveal internal discussions about 7.5 million child sexual abuse material reports that would no longer be disclosed due to the company's shift to end-to-end encryption on Messenger. Meanwhile, Apple faces a lawsuit in West Virginia alleging insufficient efforts to prevent child sexual abuse material on its iOS devices and iCloud services.",
+      "url": "https://www.cnbc.com/2026/02/20/meta-apple-child-safety-zuckerberg-cook.html",
+      "time_published": "20260220T130615",
+      "source": "CNBC",
+      "overall_sentiment_score": -0.580614,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.998489",
+          "ticker_sentiment_score": "-0.630486",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.994083",
+          "ticker_sentiment_score": "-0.615922",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.603448",
+          "ticker_sentiment_score": "-0.417498",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Should Invesco NASDAQ 100 ETF (QQQM) Be on Your Investing Radar?",
+      "summary": "The Invesco NASDAQ 100 ETF (QQQM) is a cost-effective alternative to the popular QQQ, offering exposure to 100 of the largest non-financial companies on the Nasdaq with a low 0.15% expense ratio. The fund is heavily weighted toward Information Technology, with top holdings including Nvidia, Apple, and Microsoft, and currently carries a Zacks ETF Rank of 1 (Strong Buy).",
+      "url": "https://www.bitget.com/amp/news/detail/12560605210234",
+      "time_published": "20260220T122100",
+      "source": "Bitget",
+      "overall_sentiment_score": 0.332645,
+      "ticker_sentiment": [
+        {
+          "ticker": "QQQM",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.885148",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.636386",
+          "ticker_sentiment_score": "0.302884",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.578527",
+          "ticker_sentiment_score": "0.230860",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.599521",
+          "ticker_sentiment_score": "0.208316",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "IVZ",
+          "relevance_score": "0.540067",
+          "ticker_sentiment_score": "0.136057",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Billionaires Buy an AI Index Fund That Could Turn $500 Per Month Into $485,000",
+      "summary": "Billionaires Cliff Asness and Israel Englander recently invested in the Invesco QQQ ETF, an index fund heavily weighted in technology stocks poised to benefit from the AI boom. This ETF, which tracks the Nasdaq-100, has historically delivered strong returns, with projections suggesting a monthly investment of $500 could grow to over $485,000 in two decades. The article highlights the fund's top holdings, including major AI players like Nvidia, Apple, and Microsoft, and discusses the potential for significant growth in the AI sector.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/323728/billionaires-buy-an-ai-index-fund-that-could-turn-500-per-month-into-485000/",
+      "time_published": "20260220T115718",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.371727,
+      "ticker_sentiment": [
+        {
+          "ticker": "QQQ",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.499610",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.850310",
+          "ticker_sentiment_score": "0.409847",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.713504",
+          "ticker_sentiment_score": "0.335768",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.743983",
+          "ticker_sentiment_score": "0.326157",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.815980",
+          "ticker_sentiment_score": "0.418360",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "W.Va. sues Apple over alleged child abuse material on iCloud",
+      "summary": "West Virginia's Attorney General, J.B. McCuskey, announced a lawsuit against Apple Inc. for allegedly allowing its iCloud platform to be used for distributing and storing child sexual abuse material (CSAM). The lawsuit claims Apple knowingly allowed this activity and failed to report detected CSAM, unlike other tech companies that filed millions of reports. McCuskey stated that Apple prioritized user privacy over protecting children and is seeking statutory and punitive damages, injunctive relief, and equitable remedies to mandate safer product design.",
+      "url": "https://www.register-herald.com/news/local_news/w-va-sues-apple-over-alleged-child-abuse-material-on-icloud/article_dd16aefc-80d5-4575-b0f1-8e563713b209.html",
+      "time_published": "20260220T093227",
+      "source": "The Register-Herald",
+      "overall_sentiment_score": -0.43455,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.428425",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Kodiak AI adds Haas Alert\u2019s \u2018Safety Cloud\u2019 to its autonomous trucking solution",
+      "summary": "Kodiak AI has integrated Haas Alert's Safety Cloud digital alerting platform into its autonomous trucking solution to enhance roadway safety. This collaboration allows Kodiak's autonomous trucks to send real-time safety alerts to approaching vehicles through cellular networks, appearing on infotainment screens or digital devices. The integration aims to provide an additional layer of safety beyond current regulatory requirements and supports the wider adoption of autonomous trucking technology.",
+      "url": "https://roboticsandautomationnews.com/2026/02/20/kodiak-ai-adds-haas-alerts-safety-cloud-to-its-autonomous-trucking-solution/99025/",
+      "time_published": "20260220T042825",
+      "source": "Robotics & Automation News",
+      "overall_sentiment_score": 0.129053,
+      "ticker_sentiment": [
+        {
+          "ticker": "KDK",
+          "relevance_score": "0.327199",
+          "ticker_sentiment_score": "0.023501",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.718457",
+          "ticker_sentiment_score": "0.208945",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "F",
+          "relevance_score": "0.646437",
+          "ticker_sentiment_score": "0.141278",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GM",
+          "relevance_score": "0.627105",
+          "ticker_sentiment_score": "0.122560",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Blackstone Inc. boosts Apple stake with 17,763 shares",
+      "summary": "Blackstone Inc., managed by Stephen A. Schwarzman, has significantly increased its stake in Apple Inc. (AAPL) by purchasing an additional 17,763 shares. This transaction comes as Apple shows modest gains over the past year, with analysts citing strong iPhone 17 demand, a rebound in China, high gross margins, and growth in Services and AI initiatives. TipRanks\u2019 AI Analyst, Spark, rates AAPL as \"Outperform\" due to its financial performance and earnings outlook, despite some technical and valuation concerns.",
+      "url": "https://www.tipranks.com/news/company-announcements/blackstone-inc-boosts-apple-stake-with-17763-shares",
+      "time_published": "20260220T032553",
+      "source": "TipRanks",
+      "overall_sentiment_score": 0.383026,
+      "ticker_sentiment": [
+        {
+          "ticker": "BX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.354918",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.925243",
+          "ticker_sentiment_score": "0.391060",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Talos Energy stock hits 52-week high at 13.45 USD By Investing.com",
+      "summary": "Talos Energy stock has reached a new 52-week high of $13.45 USD, marking a significant 40.13% increase over the past year, reflecting strong investor confidence and positive market sentiment. The company is set to announce earnings in five days, with analysts predicting a price target as high as $20 USD, suggesting it may still be undervalued. Recent developments include an Amended and Restated Credit Agreement extending their borrowing base to January 2030, and KeyBanc Capital Markets raising its price target to $13.50 due to potential balance sheet improvements and M&A opportunities.",
+      "url": "https://ca.investing.com/news/company-news/talos-energy-stock-hits-52week-high-at-1345-usd-93CH-4467105",
+      "time_published": "20260220T015944",
+      "source": "Investing.com Canada",
+      "overall_sentiment_score": 0.282102,
+      "ticker_sentiment": [
+        {
+          "ticker": "TALO",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.839888",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.614254",
+          "ticker_sentiment_score": "0.141781",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.616219",
+          "ticker_sentiment_score": "0.144352",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "TSLA",
+          "relevance_score": "0.606892",
+          "ticker_sentiment_score": "0.143906",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Volume spike on XETRA for EQQX.F Invesco NASDAQ-100 ETF: what it means",
+      "summary": "The Invesco NASDAQ-100 Swap UCITS ETF (EQQX.F) experienced a significant volume spike on XETRA on February 19, 2026, trading 6,084 shares compared to an average of 6.00, indicating increased trader activity and improved intraday liquidity. Despite short-term technical weakness, the ETF's price of \u20ac66.03 shows medium-term strength, trading above its 200-day average. Meyka AI projects a yearly target of \u20ac79.04, highlighting potential upside for this \"HOLD\" rated ETF.",
+      "url": "https://meyka.com/blog/volume-spike-on-xetra-for-eqqxf-invesco-nasdaq-100-etf-what-it-means-1902/",
+      "time_published": "20260219T222656",
+      "source": "Meyka",
+      "overall_sentiment_score": 0.148605,
+      "ticker_sentiment": [
+        {
+          "ticker": "QQQM",
+          "relevance_score": "0.318091",
+          "ticker_sentiment_score": "0.032891",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "IVZ",
+          "relevance_score": "0.806563",
+          "ticker_sentiment_score": "-0.109914",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.600834",
+          "ticker_sentiment_score": "0.243491",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.605476",
+          "ticker_sentiment_score": "0.208636",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.616415",
+          "ticker_sentiment_score": "0.242769",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Google Gemini, Apple add music-focused generative AI features",
+      "summary": "Google and Apple are enhancing their core consumer apps with music-focused generative AI features. Google's Gemini AI assistant can now create 30-second music tracks and custom cover art using Google DeepMind's Lyria 3 model, available to users 18 and older, with usage limits based on subscription tier. Apple Music is introducing \"Playlist Playground\" which allows users to create playlists from text prompts, integrated with Apple Intelligence and rolling out in iOS 26.4.",
+      "url": "https://techxplore.com/news/2026-02-google-gemini-apple-music-focused.html",
+      "time_published": "20260219T222547",
+      "source": "Tech Xplore",
+      "overall_sentiment_score": 0.235334,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.978574",
+          "ticker_sentiment_score": "0.250696",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.860839",
+          "ticker_sentiment_score": "0.244977",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.877422",
+          "ticker_sentiment_score": "0.246790",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Pool Corporation Q4 2025 Earnings Call Insights",
+      "summary": "Pool Corporation reported stable revenue of $5.3 billion for 2025 and Q4 sales of $982 million, despite a slowdown in new pool construction, demonstrating a solid market position. The company improved its gross margin to 29.7% for 2025 due to cost control and operational efficiency, and distributed $530 million to shareholders, including a 4% dividend increase. Management projects low single-digit net sales growth for 2026, supported by resilient maintenance revenues and digital expansion.",
+      "url": "https://intellectia.ai/news/stock/pool-corporation-q4-2025-earnings-call-insights",
+      "time_published": "20260219T211425",
+      "source": "Intellectia AI",
+      "overall_sentiment_score": -0.060085,
+      "ticker_sentiment": [
+        {
+          "ticker": "POOL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.206602",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.621727",
+          "ticker_sentiment_score": "0.109360",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Valley Wealth Sells $20 Million of Sonoco Products Stock",
+      "summary": "Valley Wealth Managers, Inc. has reduced its stake in Sonoco Products Company (NYSE:SON) by selling 479,832 shares, valued at approximately $19.9 million. This transaction, disclosed in a February 4, 2026 SEC filing, reflects a strategic shift towards broader growth stock exposure, as the fund also increased positions in the Vanguard Russell 1000 Growth ETF and Apple, while decreasing stakes in other tech giants like Broadcom and Alphabet. The move indicates a rotation away from slower-growing businesses like Sonoco and recent big tech winners, towards a diversified approach in the current bull market.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/STX/pressreleases/304063/valley-wealth-sells-20-million-of-sonoco-products-stock/",
+      "time_published": "20260219T211222",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": -0.139199,
+      "ticker_sentiment": [
+        {
+          "ticker": "SON",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.216673",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.649231",
+          "ticker_sentiment_score": "-0.117607",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.614641",
+          "ticker_sentiment_score": "-0.115417",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "The legal fight that could force Apple to rethink iCloud design",
+      "summary": "West Virginia's Attorney General, John B. McCuskey, has filed a lawsuit against Apple, accusing the company of knowingly allowing child sexual abuse material to be stored and shared through iOS and iCloud. The lawsuit seeks damages, changes to Apple's child abuse imagery detection practices, and product design modifications. This legal action follows a previous lawsuit in late 2024 where sexual abuse survivors sued Apple for over $1 billion.",
+      "url": "https://www.fastcompany.com/91495492/the-legal-fight-that-could-force-apple-to-rethink-icloud-design",
+      "time_published": "20260219T205553",
+      "source": "Fast Company",
+      "overall_sentiment_score": -0.41139,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.989906",
+          "ticker_sentiment_score": "-0.384132",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Wealth Manager Bets Big on International ETF",
+      "summary": "Financial Council, LLC made a significant investment of $10.55 million in the iShares MSCI ACWI ex U.S. ETF (ACWX), purchasing 159,189 shares in Q4 2025. This transaction increased the ETF's representation to 5.65% of their reportable assets, reflecting a strategy to seek value and growth opportunities outside the U.S. The ACWX ETF has shown strong performance, outperforming the S&P 500 significantly over the past year.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/AAPL/pressreleases/313148/wealth-manager-bets-big-on-international-etf/",
+      "time_published": "20260219T203111",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.263594,
+      "ticker_sentiment": [
+        {
+          "ticker": "ACWX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.422440",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.616380",
+          "ticker_sentiment_score": "0.114257",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Roper Technologies announces $0.91 per share dividend for April By Investing.com",
+      "summary": "Roper Technologies, Inc. has announced a dividend of $0.91 per share, continuing its record of 12 consecutive years of dividend increases and 35 years of maintenance. The payment is scheduled for April 22, 2026, to stockholders of record as of April 6, 2026, reflecting a current dividend yield of 1.11%. This announcement follows the company's Q4 2025 earnings, where it surpassed EPS expectations but slightly missed revenue forecasts.",
+      "url": "https://ca.investing.com/news/company-news/roper-technologies-announces-091-per-share-dividend-for-april-93CH-4467718",
+      "time_published": "20260219T202636",
+      "source": "Investing.com Canada",
+      "overall_sentiment_score": 0.088462,
+      "ticker_sentiment": [
+        {
+          "ticker": "ROP",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.323159",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.554998",
+          "ticker_sentiment_score": "0.010059",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.585708",
+          "ticker_sentiment_score": "-0.102781",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "TSLA",
+          "relevance_score": "0.589684",
+          "ticker_sentiment_score": "0.000541",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "West Virginia AG says Apple enables sharing of child sex abuse materials",
+      "summary": "West Virginia's Attorney General, JB McCuskey, has filed a lawsuit against Apple, accusing the company of knowingly enabling the storage and distribution of child sex abuse materials on its iOS and iCloud servers. The lawsuit alleges that Apple has refused to implement industry-standard detection tools and that its internal communications indicated the company was aware of the issue. McCuskey is seeking for a court order for Apple to take reasonable measures to abate the materials, and also seeks restitution, disgorgement, and civil penalties.",
+      "url": "https://www.upi.com/Top_News/US/2026/02/19/apple-lawsuit/7291771528818/",
+      "time_published": "20260219T200138",
+      "source": "upi",
+      "overall_sentiment_score": -0.635622,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.620165",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "West Virginia Sues Apple Over Alleged Child Sexual Abuse Content on iCloud",
+      "summary": "West Virginia is suing Apple, alleging that the company \"knowingly allowed its iCloud platform to be used as a vehicle for distributing and storing child sexual abuse material\" (CSAM). The lawsuit seeks to compel Apple to implement a system for tracking CSAM on iCloud, years after the company abandoned a similar system due to privacy concerns. The state argues that Apple's end-to-end encryption for iCloud provides a sanctuary for such illegal content, making it inaccessible to law enforcement.",
+      "url": "https://www.pcmag.com/news/west-virginia-sues-apple-over-alleged-child-sexual-abuse-content-on-icloud",
+      "time_published": "20260219T195107",
+      "source": "PCMag",
+      "overall_sentiment_score": -0.309993,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.970539",
+          "ticker_sentiment_score": "-0.621339",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.687824",
+          "ticker_sentiment_score": "-0.214350",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.628543",
+          "ticker_sentiment_score": "-0.244368",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.576075",
+          "ticker_sentiment_score": "-0.108565",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Will Uber Tie-Up Deepening Family Mobility Integration Change Life360's (ASX:360) Super App Narrative?",
+      "summary": "Life360's expanded partnership with Uber enables linked accounts, real-time trip tracking, and integrated membership benefits to help families coordinate transportation. This integration supports Life360\u2019s ambition to become a comprehensive family coordination app, strengthening its \"super app\" narrative. The success of this move will depend on Life360's ability to execute on monetization amidst competition and evolving privacy expectations.",
+      "url": "https://simplywall.st/stocks/au/software/asx-360/life360-shares/news/will-uber-tie-up-deepening-family-mobility-integration-chang",
+      "time_published": "20260219T185728",
+      "source": "Simply Wall St",
+      "overall_sentiment_score": 0.060359,
+      "ticker_sentiment": [
+        {
+          "ticker": "LIF",
+          "relevance_score": "0.309864",
+          "ticker_sentiment_score": "0.017136",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "UBER",
+          "relevance_score": "0.703349",
+          "ticker_sentiment_score": "0.261714",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.611177",
+          "ticker_sentiment_score": "-0.130034",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.552880",
+          "ticker_sentiment_score": "-0.092766",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Liberty Wealth Buys $19 Million of Dimensional Global Ex US Core Fixed Income ETF",
+      "summary": "Liberty Wealth Management LLC recently acquired 367,041 shares of Dimensional Global Ex US Core Fixed Income ETF (DFGX) for an estimated value of $19.3 million, marking a new position that represents 2.5% of its U.S. equity assets under management. This investment highlights Liberty Wealth's balanced strategy, incorporating bond funds like DFGX for diversification and income, alongside growth-oriented assets. The move is strategically timed, with investors anticipating further interest rate cuts in 2026, making bond funds a way to secure higher yields.",
+      "url": "https://www.nasdaq.com/articles/liberty-wealth-buys-19-million-dimensional-global-ex-us-core-fixed-income-etf",
+      "time_published": "20260219T175041",
+      "source": "Nasdaq",
+      "overall_sentiment_score": 0.33668,
+      "ticker_sentiment": [
+        {
+          "ticker": "DFGX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.342421",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.746781",
+          "ticker_sentiment_score": "0.319985",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Masimo's Board Backs Danaher's $9.9B Cash Acquisition Proposal",
+      "summary": "Masimo's board has unanimously approved a definitive agreement to be acquired by Danaher for $9.9 billion in cash, with Danaher offering $180 per Masimo share. The acquisition is expected to close in the second half of 2026 and will see Masimo operate as a standalone unit within Danaher\u2019s Diagnostics segment, enhancing Danaher's acute care portfolio. This deal follows a period where Masimo explored various opportunities, including a significant drop in share price after controversial acquisitions and an ongoing patent lawsuit with Apple.",
+      "url": "https://finviz.com/news/316234/masimos-board-backs-danahers-99b-cash-acquisition-proposal",
+      "time_published": "20260219T172712",
+      "source": "Finviz",
+      "overall_sentiment_score": 0.188603,
+      "ticker_sentiment": [
+        {
+          "ticker": "MASI",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.405478",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "DHR",
+          "relevance_score": "0.909952",
+          "ticker_sentiment_score": "0.307487",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.711492",
+          "ticker_sentiment_score": "-0.227468",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Apple knowingly ignored child sexual abuse material on iCloud, West Virginia lawsuit alleges",
+      "summary": "West Virginia Attorney General JB McCuskey has filed a lawsuit against Apple Inc., alleging the company knowingly allowed its iCloud platform to be used for child sexual abuse material distribution without reporting it to federal authorities. The lawsuit contends that Apple prioritized user privacy over child safety by failing to implement standard detection tools, despite internal communications describing iCloud as a significant platform for such material. The state is seeking damages and injunctive relief to compel Apple to adopt effective detection measures and safer product designs.",
+      "url": "https://www.wtap.com/2026/02/19/apple-knowingly-ignored-child-sexual-abuse-material-icloud-west-virginia-lawsuit-alleges/",
+      "time_published": "20260219T172638",
+      "source": "WTAP",
+      "overall_sentiment_score": -0.201602,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.408147",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.640190",
+          "ticker_sentiment_score": "-0.143694",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.646093",
+          "ticker_sentiment_score": "-0.111610",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.635117",
+          "ticker_sentiment_score": "-0.148758",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Viridian Therapeutics (VRDN) Projected to Post Quarterly Earnings on Thursday",
+      "summary": "Viridian Therapeutics (NASDAQ:VRDN) is expected to report its Q4 2025 earnings before market open on Thursday, February 26th, with analysts projecting a loss of ($0.88) per share. The company currently holds a \"Moderate Buy\" consensus rating with an average price target of $42.64. Recent insider trading activity includes a sale of shares by Jennifer Tousignant, and various institutional investors have adjusted their holdings in VRDN.",
+      "url": "https://www.marketbeat.com/instant-alerts/viridian-therapeutics-vrdn-projected-to-post-quarterly-earnings-on-thursday-2026-02-19/",
+      "time_published": "20260219T172342",
+      "source": "MarketBeat",
+      "overall_sentiment_score": 0.238597,
+      "ticker_sentiment": [
+        {
+          "ticker": "VRDN",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.182135",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "DVN",
+          "relevance_score": "0.541983",
+          "ticker_sentiment_score": "0.259594",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.550550",
+          "ticker_sentiment_score": "0.245189",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.557308",
+          "ticker_sentiment_score": "0.266410",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Garmin Shares Explode 10% on Record Q4 Earnings and Aggressive 2026 Growth Forecast",
+      "summary": "Garmin shares surged nearly 12% following a \"blowout\" fourth-quarter earnings report, which saw record revenue and exceeded Wall Street expectations. The company also announced a 17% increase in its annual dividend and a $500 million share buyback, expressing strong confidence in its financial future. Garmin's focus on specialized, high-margin products like fitness wearables and aviation technology is proving successful against broader consumer electronics competitors.",
+      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-2-19-garmin-shares-explode-10-on-record-q4-earnings-and-aggressive-2026-growth-forecast",
+      "time_published": "20260219T171500",
+      "source": "The Chronicle-Journal",
+      "overall_sentiment_score": 0.208079,
+      "ticker_sentiment": [
+        {
+          "ticker": "GRMN",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.929786",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.733824",
+          "ticker_sentiment_score": "-0.221648",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.628339",
+          "ticker_sentiment_score": "-0.201205",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Garmin Shares Explode 10% on Record Q4 Earnings and Aggressive 2026 Growth Forecast",
+      "summary": "Garmin Ltd. (NYSE: GRMN) shares surged by almost 12% following a record-breaking fourth-quarter earnings report, which exceeded Wall Street expectations. The company reported over $2 billion in revenue, increased its annual dividend by 17%, and authorized a $500 million share buyback, demonstrating strong financial health and confidence in future growth. Garmin also issued an optimistic 2026 revenue projection of nearly $8 billion, driven by robust performance in its high-end fitness wearables, aviation, and marine technology segments, leading to analyst upgrades and solidifying its position against competitors.",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-19-garmin-shares-explode-10-on-record-q4-earnings-and-aggressive-2026-growth-forecast",
+      "time_published": "20260219T171500",
+      "source": "FinancialContent",
+      "overall_sentiment_score": 0.181055,
+      "ticker_sentiment": [
+        {
+          "ticker": "GRMN",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.846221",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.743255",
+          "ticker_sentiment_score": "-0.233594",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.615247",
+          "ticker_sentiment_score": "-0.118537",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "IMAX (IMAX) Partners with Apple TV for Formula One Race Screenin",
+      "summary": "IMAX has announced a partnership with Apple TV to broadcast five Formula One World Championship races in 50 U.S. IMAX locations, aiming to enhance the immersive viewing experience for fans. The collaboration builds on the success of \"F1: The Movie.\" IMAX demonstrates strong financial health with robust revenue growth, profitability metrics, and a healthy balance sheet, though investors should note recent insider selling activity.",
+      "url": "https://www.gurufocus.com/news/8632742/imax-imax-partners-with-apple-tv-for-formula-one-race-screenings",
+      "time_published": "20260219T162711",
+      "source": "GuruFocus",
+      "overall_sentiment_score": 0.399731,
+      "ticker_sentiment": [
+        {
+          "ticker": "IMAX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.406821",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.732810",
+          "ticker_sentiment_score": "0.328371",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Valley Wealth Sells $20 Million of Sonoco Products Stock",
+      "summary": "Valley Wealth Managers, Inc. has significantly reduced its stake in Sonoco Products Company by selling 479,832 shares, valued at $19.9 million. This transaction decreased their position to just 475 shares. The sale reflects a rotation from slower-growing companies like Sonoco and recent big tech winners towards broader growth stock exposure through ETFs.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/GOOGL/pressreleases/304063/valley-wealth-sells-20-million-of-sonoco-products-stock/",
+      "time_published": "20260219T155708",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.132093,
+      "ticker_sentiment": [
+        {
+          "ticker": "SON",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.202490",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.701451",
+          "ticker_sentiment_score": "0.338711",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.639865",
+          "ticker_sentiment_score": "0.220470",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.648858",
+          "ticker_sentiment_score": "0.204196",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "STX",
+          "relevance_score": "0.562912",
+          "ticker_sentiment_score": "0.106932",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "W.Va. Attorney General files lawsuit against Apple",
+      "summary": "West Virginia Attorney General JB McCuskey has filed a lawsuit against Apple Inc., alleging the company knowingly allowed its iCloud platform to be used for distributing and storing child sexual abuse material (CSAM). The lawsuit claims Apple neglected its responsibility to protect children, citing internal communications where Apple described itself as the \"greatest platform for distributing child porn\" and its low number of CSAM reports compared to other tech companies. McCuskey is seeking statutory and punitive damages, injunctive relief, and equitable remedies for safer product design.",
+      "url": "https://www.wsaz.com/2026/02/19/wva-attorney-general-files-lawsuit-against-apple/",
+      "time_published": "20260219T145619",
+      "source": "WSAZ",
+      "overall_sentiment_score": -0.285179,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.722087",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.624393",
+          "ticker_sentiment_score": "-0.141517",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.618297",
+          "ticker_sentiment_score": "-0.108011",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.611324",
+          "ticker_sentiment_score": "-0.136501",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Valley Wealth Sells $20 Million of Sonoco Products Stock",
+      "summary": "Valley Wealth Managers, Inc. sold 479,832 shares of Sonoco Products Company (NYSE:SON), valued at approximately $19.9 million, according to a recent SEC filing. This transaction significantly reduced Valley Wealth's position in Sonoco to just 475 shares. The move reflects a broader strategy shift from individual, slower-growing stocks like Sonoco and recent big tech winners to a more diversified exposure in growth stocks through ETFs, aiming for a safer ride in the current bull market.",
+      "url": "https://www.fool.com/coverage/filings/2026/02/19/valley-wealth-sells-20-million-sonoco-products-stock/",
+      "time_published": "20260219T135708",
+      "source": "The Motley Fool",
+      "overall_sentiment_score": 0.095008,
+      "ticker_sentiment": [
+        {
+          "ticker": "SON",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.233162",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.744010",
+          "ticker_sentiment_score": "0.242056",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.619052",
+          "ticker_sentiment_score": "0.113383",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.625443",
+          "ticker_sentiment_score": "0.106511",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Valley Wealth Reduces Sonoco Stake by Nearly 480K Shares",
+      "summary": "Valley Wealth Managers significantly reduced its stake in Sonoco Products Company by selling 479,832 shares for $19.9 million, reflecting a cautious outlook despite Sonoco's recent revenue surge. This move led to a $20.7 million quarter-over-quarter decline in the fund's position value. The firm is shifting its investment strategy towards higher-growth tech stocks and ETFs like Vanguard Russell 1000 Growth ETF and Apple, indicating a preference for broader market opportunities.",
+      "url": "https://intellectia.ai/news/stock/valley-wealth-reduces-sonoco-stake-by-nearly-480k-shares",
+      "time_published": "20260219T135708",
+      "source": "Intellectia AI",
+      "overall_sentiment_score": 0.30948,
+      "ticker_sentiment": [
+        {
+          "ticker": "SON",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.148798",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.725467",
+          "ticker_sentiment_score": "0.340252",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "LUV",
+          "relevance_score": "0.597376",
+          "ticker_sentiment_score": "0.420803",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    }
+  ],
+  "last_30_days": [
+    {
+      "title": "PayPal Is Back Near IPO-Era Prices\u2014Value Setup or Value Trap?",
+      "summary": "PayPal's stock (PYPL) has fallen to near its IPO-era prices, trading just above $40, and its P/E ratio has collapsed to a historic low of 7.67. This presents a potential contrarian opportunity due to its durable profitability, deep market embedment, and extremely oversold technical indicators, despite concerns about slowing growth and competitive pressures. With a leadership transition underway, a strategic reset could shift sentiment and unlock significant upside, according to some analysts who maintain Buy ratings.",
+      "url": "https://www.marketbeat.com/originals/paypal-is-back-near-ipo-era-pricesvalue-setup-or-value-trap/",
+      "time_published": "20260220T191324",
+      "source": "MarketBeat",
+      "overall_sentiment_score": 0.159108,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.258563",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.659584",
+          "ticker_sentiment_score": "-0.125032",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ORCL",
+          "relevance_score": "0.625236",
+          "ticker_sentiment_score": "0.334395",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.594042",
+          "ticker_sentiment_score": "0.120452",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "DVN",
+          "relevance_score": "0.592639",
+          "ticker_sentiment_score": "0.110101",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Tesla canceled the car of the century",
+      "summary": "Bloomberg reports on the discontinuation of Tesla's Model S and Model X, highlighting the Model S's significant impact on the automotive industry despite its upcoming phase-out. The article reminisces about the Model S's early days and its role in popularizing electric vehicles, challenging traditional sales models, and pioneering over-the-air updates, even as Tesla shifts its focus towards robots and autonomous technology.",
+      "url": "https://www.mercurynews.com/2026/02/20/tesla-canceled-the-car-of-the-century/",
+      "time_published": "20260220T132810",
+      "source": "The Mercury News",
+      "overall_sentiment_score": 0.161986,
+      "ticker_sentiment": [
+        {
+          "ticker": "TSLA",
+          "relevance_score": "0.997676",
+          "ticker_sentiment_score": "0.309746",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "F",
+          "relevance_score": "0.618556",
+          "ticker_sentiment_score": "0.149189",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.587970",
+          "ticker_sentiment_score": "0.118784",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.596547",
+          "ticker_sentiment_score": "0.137337",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.573374",
+          "ticker_sentiment_score": "0.146860",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Meta and Apple face serious questions about child safety and privacy",
+      "summary": "Meta and Apple are facing intense scrutiny regarding child safety and privacy on their platforms, stemming from legal proceedings in California, New Mexico, and West Virginia. Unsealed documents from Meta's New Mexico case reveal internal discussions about 7.5 million child sexual abuse material reports that would no longer be disclosed due to the company's shift to end-to-end encryption on Messenger. Meanwhile, Apple faces a lawsuit in West Virginia alleging insufficient efforts to prevent child sexual abuse material on its iOS devices and iCloud services.",
+      "url": "https://www.cnbc.com/2026/02/20/meta-apple-child-safety-zuckerberg-cook.html",
+      "time_published": "20260220T130615",
+      "source": "CNBC",
+      "overall_sentiment_score": -0.580614,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.998489",
+          "ticker_sentiment_score": "-0.630486",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.994083",
+          "ticker_sentiment_score": "-0.615922",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.603448",
+          "ticker_sentiment_score": "-0.417498",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Should Invesco NASDAQ 100 ETF (QQQM) Be on Your Investing Radar?",
+      "summary": "The Invesco NASDAQ 100 ETF (QQQM) is a cost-effective alternative to the popular QQQ, offering exposure to 100 of the largest non-financial companies on the Nasdaq with a low 0.15% expense ratio. The fund is heavily weighted toward Information Technology, with top holdings including Nvidia, Apple, and Microsoft, and currently carries a Zacks ETF Rank of 1 (Strong Buy).",
+      "url": "https://www.bitget.com/amp/news/detail/12560605210234",
+      "time_published": "20260220T122100",
+      "source": "Bitget",
+      "overall_sentiment_score": 0.332645,
+      "ticker_sentiment": [
+        {
+          "ticker": "QQQM",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.885148",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.636386",
+          "ticker_sentiment_score": "0.302884",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.578527",
+          "ticker_sentiment_score": "0.230860",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.599521",
+          "ticker_sentiment_score": "0.208316",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "IVZ",
+          "relevance_score": "0.540067",
+          "ticker_sentiment_score": "0.136057",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Billionaires Buy an AI Index Fund That Could Turn $500 Per Month Into $485,000",
+      "summary": "Billionaires Cliff Asness and Israel Englander recently invested in the Invesco QQQ ETF, an index fund heavily weighted in technology stocks poised to benefit from the AI boom. This ETF, which tracks the Nasdaq-100, has historically delivered strong returns, with projections suggesting a monthly investment of $500 could grow to over $485,000 in two decades. The article highlights the fund's top holdings, including major AI players like Nvidia, Apple, and Microsoft, and discusses the potential for significant growth in the AI sector.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/323728/billionaires-buy-an-ai-index-fund-that-could-turn-500-per-month-into-485000/",
+      "time_published": "20260220T115718",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.371727,
+      "ticker_sentiment": [
+        {
+          "ticker": "QQQ",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.499610",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.850310",
+          "ticker_sentiment_score": "0.409847",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.713504",
+          "ticker_sentiment_score": "0.335768",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.743983",
+          "ticker_sentiment_score": "0.326157",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.815980",
+          "ticker_sentiment_score": "0.418360",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "W.Va. sues Apple over alleged child abuse material on iCloud",
+      "summary": "West Virginia's Attorney General, J.B. McCuskey, announced a lawsuit against Apple Inc. for allegedly allowing its iCloud platform to be used for distributing and storing child sexual abuse material (CSAM). The lawsuit claims Apple knowingly allowed this activity and failed to report detected CSAM, unlike other tech companies that filed millions of reports. McCuskey stated that Apple prioritized user privacy over protecting children and is seeking statutory and punitive damages, injunctive relief, and equitable remedies to mandate safer product design.",
+      "url": "https://www.register-herald.com/news/local_news/w-va-sues-apple-over-alleged-child-abuse-material-on-icloud/article_dd16aefc-80d5-4575-b0f1-8e563713b209.html",
+      "time_published": "20260220T093227",
+      "source": "The Register-Herald",
+      "overall_sentiment_score": -0.43455,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.428425",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Kodiak AI adds Haas Alert\u2019s \u2018Safety Cloud\u2019 to its autonomous trucking solution",
+      "summary": "Kodiak AI has integrated Haas Alert's Safety Cloud digital alerting platform into its autonomous trucking solution to enhance roadway safety. This collaboration allows Kodiak's autonomous trucks to send real-time safety alerts to approaching vehicles through cellular networks, appearing on infotainment screens or digital devices. The integration aims to provide an additional layer of safety beyond current regulatory requirements and supports the wider adoption of autonomous trucking technology.",
+      "url": "https://roboticsandautomationnews.com/2026/02/20/kodiak-ai-adds-haas-alerts-safety-cloud-to-its-autonomous-trucking-solution/99025/",
+      "time_published": "20260220T042825",
+      "source": "Robotics & Automation News",
+      "overall_sentiment_score": 0.129053,
+      "ticker_sentiment": [
+        {
+          "ticker": "KDK",
+          "relevance_score": "0.327199",
+          "ticker_sentiment_score": "0.023501",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.718457",
+          "ticker_sentiment_score": "0.208945",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "F",
+          "relevance_score": "0.646437",
+          "ticker_sentiment_score": "0.141278",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GM",
+          "relevance_score": "0.627105",
+          "ticker_sentiment_score": "0.122560",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Blackstone Inc. boosts Apple stake with 17,763 shares",
+      "summary": "Blackstone Inc., managed by Stephen A. Schwarzman, has significantly increased its stake in Apple Inc. (AAPL) by purchasing an additional 17,763 shares. This transaction comes as Apple shows modest gains over the past year, with analysts citing strong iPhone 17 demand, a rebound in China, high gross margins, and growth in Services and AI initiatives. TipRanks\u2019 AI Analyst, Spark, rates AAPL as \"Outperform\" due to its financial performance and earnings outlook, despite some technical and valuation concerns.",
+      "url": "https://www.tipranks.com/news/company-announcements/blackstone-inc-boosts-apple-stake-with-17763-shares",
+      "time_published": "20260220T032553",
+      "source": "TipRanks",
+      "overall_sentiment_score": 0.383026,
+      "ticker_sentiment": [
+        {
+          "ticker": "BX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.354918",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.925243",
+          "ticker_sentiment_score": "0.391060",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Talos Energy stock hits 52-week high at 13.45 USD By Investing.com",
+      "summary": "Talos Energy stock has reached a new 52-week high of $13.45 USD, marking a significant 40.13% increase over the past year, reflecting strong investor confidence and positive market sentiment. The company is set to announce earnings in five days, with analysts predicting a price target as high as $20 USD, suggesting it may still be undervalued. Recent developments include an Amended and Restated Credit Agreement extending their borrowing base to January 2030, and KeyBanc Capital Markets raising its price target to $13.50 due to potential balance sheet improvements and M&A opportunities.",
+      "url": "https://ca.investing.com/news/company-news/talos-energy-stock-hits-52week-high-at-1345-usd-93CH-4467105",
+      "time_published": "20260220T015944",
+      "source": "Investing.com Canada",
+      "overall_sentiment_score": 0.282102,
+      "ticker_sentiment": [
+        {
+          "ticker": "TALO",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.839888",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.614254",
+          "ticker_sentiment_score": "0.141781",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.616219",
+          "ticker_sentiment_score": "0.144352",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "TSLA",
+          "relevance_score": "0.606892",
+          "ticker_sentiment_score": "0.143906",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Volume spike on XETRA for EQQX.F Invesco NASDAQ-100 ETF: what it means",
+      "summary": "The Invesco NASDAQ-100 Swap UCITS ETF (EQQX.F) experienced a significant volume spike on XETRA on February 19, 2026, trading 6,084 shares compared to an average of 6.00, indicating increased trader activity and improved intraday liquidity. Despite short-term technical weakness, the ETF's price of \u20ac66.03 shows medium-term strength, trading above its 200-day average. Meyka AI projects a yearly target of \u20ac79.04, highlighting potential upside for this \"HOLD\" rated ETF.",
+      "url": "https://meyka.com/blog/volume-spike-on-xetra-for-eqqxf-invesco-nasdaq-100-etf-what-it-means-1902/",
+      "time_published": "20260219T222656",
+      "source": "Meyka",
+      "overall_sentiment_score": 0.148605,
+      "ticker_sentiment": [
+        {
+          "ticker": "QQQM",
+          "relevance_score": "0.318091",
+          "ticker_sentiment_score": "0.032891",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "IVZ",
+          "relevance_score": "0.806563",
+          "ticker_sentiment_score": "-0.109914",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.600834",
+          "ticker_sentiment_score": "0.243491",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.605476",
+          "ticker_sentiment_score": "0.208636",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.616415",
+          "ticker_sentiment_score": "0.242769",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Google Gemini, Apple add music-focused generative AI features",
+      "summary": "Google and Apple are enhancing their core consumer apps with music-focused generative AI features. Google's Gemini AI assistant can now create 30-second music tracks and custom cover art using Google DeepMind's Lyria 3 model, available to users 18 and older, with usage limits based on subscription tier. Apple Music is introducing \"Playlist Playground\" which allows users to create playlists from text prompts, integrated with Apple Intelligence and rolling out in iOS 26.4.",
+      "url": "https://techxplore.com/news/2026-02-google-gemini-apple-music-focused.html",
+      "time_published": "20260219T222547",
+      "source": "Tech Xplore",
+      "overall_sentiment_score": 0.235334,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.978574",
+          "ticker_sentiment_score": "0.250696",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.860839",
+          "ticker_sentiment_score": "0.244977",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.877422",
+          "ticker_sentiment_score": "0.246790",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Pool Corporation Q4 2025 Earnings Call Insights",
+      "summary": "Pool Corporation reported stable revenue of $5.3 billion for 2025 and Q4 sales of $982 million, despite a slowdown in new pool construction, demonstrating a solid market position. The company improved its gross margin to 29.7% for 2025 due to cost control and operational efficiency, and distributed $530 million to shareholders, including a 4% dividend increase. Management projects low single-digit net sales growth for 2026, supported by resilient maintenance revenues and digital expansion.",
+      "url": "https://intellectia.ai/news/stock/pool-corporation-q4-2025-earnings-call-insights",
+      "time_published": "20260219T211425",
+      "source": "Intellectia AI",
+      "overall_sentiment_score": -0.060085,
+      "ticker_sentiment": [
+        {
+          "ticker": "POOL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.206602",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.621727",
+          "ticker_sentiment_score": "0.109360",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Valley Wealth Sells $20 Million of Sonoco Products Stock",
+      "summary": "Valley Wealth Managers, Inc. has reduced its stake in Sonoco Products Company (NYSE:SON) by selling 479,832 shares, valued at approximately $19.9 million. This transaction, disclosed in a February 4, 2026 SEC filing, reflects a strategic shift towards broader growth stock exposure, as the fund also increased positions in the Vanguard Russell 1000 Growth ETF and Apple, while decreasing stakes in other tech giants like Broadcom and Alphabet. The move indicates a rotation away from slower-growing businesses like Sonoco and recent big tech winners, towards a diversified approach in the current bull market.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/STX/pressreleases/304063/valley-wealth-sells-20-million-of-sonoco-products-stock/",
+      "time_published": "20260219T211222",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": -0.139199,
+      "ticker_sentiment": [
+        {
+          "ticker": "SON",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.216673",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.649231",
+          "ticker_sentiment_score": "-0.117607",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.614641",
+          "ticker_sentiment_score": "-0.115417",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "The legal fight that could force Apple to rethink iCloud design",
+      "summary": "West Virginia's Attorney General, John B. McCuskey, has filed a lawsuit against Apple, accusing the company of knowingly allowing child sexual abuse material to be stored and shared through iOS and iCloud. The lawsuit seeks damages, changes to Apple's child abuse imagery detection practices, and product design modifications. This legal action follows a previous lawsuit in late 2024 where sexual abuse survivors sued Apple for over $1 billion.",
+      "url": "https://www.fastcompany.com/91495492/the-legal-fight-that-could-force-apple-to-rethink-icloud-design",
+      "time_published": "20260219T205553",
+      "source": "Fast Company",
+      "overall_sentiment_score": -0.41139,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.989906",
+          "ticker_sentiment_score": "-0.384132",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Wealth Manager Bets Big on International ETF",
+      "summary": "Financial Council, LLC made a significant investment of $10.55 million in the iShares MSCI ACWI ex U.S. ETF (ACWX), purchasing 159,189 shares in Q4 2025. This transaction increased the ETF's representation to 5.65% of their reportable assets, reflecting a strategy to seek value and growth opportunities outside the U.S. The ACWX ETF has shown strong performance, outperforming the S&P 500 significantly over the past year.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/AAPL/pressreleases/313148/wealth-manager-bets-big-on-international-etf/",
+      "time_published": "20260219T203111",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.263594,
+      "ticker_sentiment": [
+        {
+          "ticker": "ACWX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.422440",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.616380",
+          "ticker_sentiment_score": "0.114257",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Roper Technologies announces $0.91 per share dividend for April By Investing.com",
+      "summary": "Roper Technologies, Inc. has announced a dividend of $0.91 per share, continuing its record of 12 consecutive years of dividend increases and 35 years of maintenance. The payment is scheduled for April 22, 2026, to stockholders of record as of April 6, 2026, reflecting a current dividend yield of 1.11%. This announcement follows the company's Q4 2025 earnings, where it surpassed EPS expectations but slightly missed revenue forecasts.",
+      "url": "https://ca.investing.com/news/company-news/roper-technologies-announces-091-per-share-dividend-for-april-93CH-4467718",
+      "time_published": "20260219T202636",
+      "source": "Investing.com Canada",
+      "overall_sentiment_score": 0.088462,
+      "ticker_sentiment": [
+        {
+          "ticker": "ROP",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.323159",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.554998",
+          "ticker_sentiment_score": "0.010059",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.585708",
+          "ticker_sentiment_score": "-0.102781",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "TSLA",
+          "relevance_score": "0.589684",
+          "ticker_sentiment_score": "0.000541",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "West Virginia AG says Apple enables sharing of child sex abuse materials",
+      "summary": "West Virginia's Attorney General, JB McCuskey, has filed a lawsuit against Apple, accusing the company of knowingly enabling the storage and distribution of child sex abuse materials on its iOS and iCloud servers. The lawsuit alleges that Apple has refused to implement industry-standard detection tools and that its internal communications indicated the company was aware of the issue. McCuskey is seeking for a court order for Apple to take reasonable measures to abate the materials, and also seeks restitution, disgorgement, and civil penalties.",
+      "url": "https://www.upi.com/Top_News/US/2026/02/19/apple-lawsuit/7291771528818/",
+      "time_published": "20260219T200138",
+      "source": "upi",
+      "overall_sentiment_score": -0.635622,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.620165",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "West Virginia Sues Apple Over Alleged Child Sexual Abuse Content on iCloud",
+      "summary": "West Virginia is suing Apple, alleging that the company \"knowingly allowed its iCloud platform to be used as a vehicle for distributing and storing child sexual abuse material\" (CSAM). The lawsuit seeks to compel Apple to implement a system for tracking CSAM on iCloud, years after the company abandoned a similar system due to privacy concerns. The state argues that Apple's end-to-end encryption for iCloud provides a sanctuary for such illegal content, making it inaccessible to law enforcement.",
+      "url": "https://www.pcmag.com/news/west-virginia-sues-apple-over-alleged-child-sexual-abuse-content-on-icloud",
+      "time_published": "20260219T195107",
+      "source": "PCMag",
+      "overall_sentiment_score": -0.309993,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.970539",
+          "ticker_sentiment_score": "-0.621339",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.687824",
+          "ticker_sentiment_score": "-0.214350",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.628543",
+          "ticker_sentiment_score": "-0.244368",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.576075",
+          "ticker_sentiment_score": "-0.108565",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Will Uber Tie-Up Deepening Family Mobility Integration Change Life360's (ASX:360) Super App Narrative?",
+      "summary": "Life360's expanded partnership with Uber enables linked accounts, real-time trip tracking, and integrated membership benefits to help families coordinate transportation. This integration supports Life360\u2019s ambition to become a comprehensive family coordination app, strengthening its \"super app\" narrative. The success of this move will depend on Life360's ability to execute on monetization amidst competition and evolving privacy expectations.",
+      "url": "https://simplywall.st/stocks/au/software/asx-360/life360-shares/news/will-uber-tie-up-deepening-family-mobility-integration-chang",
+      "time_published": "20260219T185728",
+      "source": "Simply Wall St",
+      "overall_sentiment_score": 0.060359,
+      "ticker_sentiment": [
+        {
+          "ticker": "LIF",
+          "relevance_score": "0.309864",
+          "ticker_sentiment_score": "0.017136",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "UBER",
+          "relevance_score": "0.703349",
+          "ticker_sentiment_score": "0.261714",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.611177",
+          "ticker_sentiment_score": "-0.130034",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.552880",
+          "ticker_sentiment_score": "-0.092766",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Liberty Wealth Buys $19 Million of Dimensional Global Ex US Core Fixed Income ETF",
+      "summary": "Liberty Wealth Management LLC recently acquired 367,041 shares of Dimensional Global Ex US Core Fixed Income ETF (DFGX) for an estimated value of $19.3 million, marking a new position that represents 2.5% of its U.S. equity assets under management. This investment highlights Liberty Wealth's balanced strategy, incorporating bond funds like DFGX for diversification and income, alongside growth-oriented assets. The move is strategically timed, with investors anticipating further interest rate cuts in 2026, making bond funds a way to secure higher yields.",
+      "url": "https://www.nasdaq.com/articles/liberty-wealth-buys-19-million-dimensional-global-ex-us-core-fixed-income-etf",
+      "time_published": "20260219T175041",
+      "source": "Nasdaq",
+      "overall_sentiment_score": 0.33668,
+      "ticker_sentiment": [
+        {
+          "ticker": "DFGX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.342421",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.746781",
+          "ticker_sentiment_score": "0.319985",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Masimo's Board Backs Danaher's $9.9B Cash Acquisition Proposal",
+      "summary": "Masimo's board has unanimously approved a definitive agreement to be acquired by Danaher for $9.9 billion in cash, with Danaher offering $180 per Masimo share. The acquisition is expected to close in the second half of 2026 and will see Masimo operate as a standalone unit within Danaher\u2019s Diagnostics segment, enhancing Danaher's acute care portfolio. This deal follows a period where Masimo explored various opportunities, including a significant drop in share price after controversial acquisitions and an ongoing patent lawsuit with Apple.",
+      "url": "https://finviz.com/news/316234/masimos-board-backs-danahers-99b-cash-acquisition-proposal",
+      "time_published": "20260219T172712",
+      "source": "Finviz",
+      "overall_sentiment_score": 0.188603,
+      "ticker_sentiment": [
+        {
+          "ticker": "MASI",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.405478",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "DHR",
+          "relevance_score": "0.909952",
+          "ticker_sentiment_score": "0.307487",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.711492",
+          "ticker_sentiment_score": "-0.227468",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Apple knowingly ignored child sexual abuse material on iCloud, West Virginia lawsuit alleges",
+      "summary": "West Virginia Attorney General JB McCuskey has filed a lawsuit against Apple Inc., alleging the company knowingly allowed its iCloud platform to be used for child sexual abuse material distribution without reporting it to federal authorities. The lawsuit contends that Apple prioritized user privacy over child safety by failing to implement standard detection tools, despite internal communications describing iCloud as a significant platform for such material. The state is seeking damages and injunctive relief to compel Apple to adopt effective detection measures and safer product designs.",
+      "url": "https://www.wtap.com/2026/02/19/apple-knowingly-ignored-child-sexual-abuse-material-icloud-west-virginia-lawsuit-alleges/",
+      "time_published": "20260219T172638",
+      "source": "WTAP",
+      "overall_sentiment_score": -0.201602,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.408147",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.640190",
+          "ticker_sentiment_score": "-0.143694",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.646093",
+          "ticker_sentiment_score": "-0.111610",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.635117",
+          "ticker_sentiment_score": "-0.148758",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Viridian Therapeutics (VRDN) Projected to Post Quarterly Earnings on Thursday",
+      "summary": "Viridian Therapeutics (NASDAQ:VRDN) is expected to report its Q4 2025 earnings before market open on Thursday, February 26th, with analysts projecting a loss of ($0.88) per share. The company currently holds a \"Moderate Buy\" consensus rating with an average price target of $42.64. Recent insider trading activity includes a sale of shares by Jennifer Tousignant, and various institutional investors have adjusted their holdings in VRDN.",
+      "url": "https://www.marketbeat.com/instant-alerts/viridian-therapeutics-vrdn-projected-to-post-quarterly-earnings-on-thursday-2026-02-19/",
+      "time_published": "20260219T172342",
+      "source": "MarketBeat",
+      "overall_sentiment_score": 0.238597,
+      "ticker_sentiment": [
+        {
+          "ticker": "VRDN",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.182135",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "DVN",
+          "relevance_score": "0.541983",
+          "ticker_sentiment_score": "0.259594",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.550550",
+          "ticker_sentiment_score": "0.245189",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.557308",
+          "ticker_sentiment_score": "0.266410",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Garmin Shares Explode 10% on Record Q4 Earnings and Aggressive 2026 Growth Forecast",
+      "summary": "Garmin shares surged nearly 12% following a \"blowout\" fourth-quarter earnings report, which saw record revenue and exceeded Wall Street expectations. The company also announced a 17% increase in its annual dividend and a $500 million share buyback, expressing strong confidence in its financial future. Garmin's focus on specialized, high-margin products like fitness wearables and aviation technology is proving successful against broader consumer electronics competitors.",
+      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-2-19-garmin-shares-explode-10-on-record-q4-earnings-and-aggressive-2026-growth-forecast",
+      "time_published": "20260219T171500",
+      "source": "The Chronicle-Journal",
+      "overall_sentiment_score": 0.208079,
+      "ticker_sentiment": [
+        {
+          "ticker": "GRMN",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.929786",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.733824",
+          "ticker_sentiment_score": "-0.221648",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.628339",
+          "ticker_sentiment_score": "-0.201205",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Garmin Shares Explode 10% on Record Q4 Earnings and Aggressive 2026 Growth Forecast",
+      "summary": "Garmin Ltd. (NYSE: GRMN) shares surged by almost 12% following a record-breaking fourth-quarter earnings report, which exceeded Wall Street expectations. The company reported over $2 billion in revenue, increased its annual dividend by 17%, and authorized a $500 million share buyback, demonstrating strong financial health and confidence in future growth. Garmin also issued an optimistic 2026 revenue projection of nearly $8 billion, driven by robust performance in its high-end fitness wearables, aviation, and marine technology segments, leading to analyst upgrades and solidifying its position against competitors.",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-19-garmin-shares-explode-10-on-record-q4-earnings-and-aggressive-2026-growth-forecast",
+      "time_published": "20260219T171500",
+      "source": "FinancialContent",
+      "overall_sentiment_score": 0.181055,
+      "ticker_sentiment": [
+        {
+          "ticker": "GRMN",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.846221",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.743255",
+          "ticker_sentiment_score": "-0.233594",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.615247",
+          "ticker_sentiment_score": "-0.118537",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "IMAX (IMAX) Partners with Apple TV for Formula One Race Screenin",
+      "summary": "IMAX has announced a partnership with Apple TV to broadcast five Formula One World Championship races in 50 U.S. IMAX locations, aiming to enhance the immersive viewing experience for fans. The collaboration builds on the success of \"F1: The Movie.\" IMAX demonstrates strong financial health with robust revenue growth, profitability metrics, and a healthy balance sheet, though investors should note recent insider selling activity.",
+      "url": "https://www.gurufocus.com/news/8632742/imax-imax-partners-with-apple-tv-for-formula-one-race-screenings",
+      "time_published": "20260219T162711",
+      "source": "GuruFocus",
+      "overall_sentiment_score": 0.399731,
+      "ticker_sentiment": [
+        {
+          "ticker": "IMAX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.406821",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.732810",
+          "ticker_sentiment_score": "0.328371",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Valley Wealth Sells $20 Million of Sonoco Products Stock",
+      "summary": "Valley Wealth Managers, Inc. has significantly reduced its stake in Sonoco Products Company by selling 479,832 shares, valued at $19.9 million. This transaction decreased their position to just 475 shares. The sale reflects a rotation from slower-growing companies like Sonoco and recent big tech winners towards broader growth stock exposure through ETFs.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/GOOGL/pressreleases/304063/valley-wealth-sells-20-million-of-sonoco-products-stock/",
+      "time_published": "20260219T155708",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.132093,
+      "ticker_sentiment": [
+        {
+          "ticker": "SON",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.202490",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.701451",
+          "ticker_sentiment_score": "0.338711",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.639865",
+          "ticker_sentiment_score": "0.220470",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.648858",
+          "ticker_sentiment_score": "0.204196",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "STX",
+          "relevance_score": "0.562912",
+          "ticker_sentiment_score": "0.106932",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "W.Va. Attorney General files lawsuit against Apple",
+      "summary": "West Virginia Attorney General JB McCuskey has filed a lawsuit against Apple Inc., alleging the company knowingly allowed its iCloud platform to be used for distributing and storing child sexual abuse material (CSAM). The lawsuit claims Apple neglected its responsibility to protect children, citing internal communications where Apple described itself as the \"greatest platform for distributing child porn\" and its low number of CSAM reports compared to other tech companies. McCuskey is seeking statutory and punitive damages, injunctive relief, and equitable remedies for safer product design.",
+      "url": "https://www.wsaz.com/2026/02/19/wva-attorney-general-files-lawsuit-against-apple/",
+      "time_published": "20260219T145619",
+      "source": "WSAZ",
+      "overall_sentiment_score": -0.285179,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.722087",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.624393",
+          "ticker_sentiment_score": "-0.141517",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.618297",
+          "ticker_sentiment_score": "-0.108011",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.611324",
+          "ticker_sentiment_score": "-0.136501",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Valley Wealth Sells $20 Million of Sonoco Products Stock",
+      "summary": "Valley Wealth Managers, Inc. sold 479,832 shares of Sonoco Products Company (NYSE:SON), valued at approximately $19.9 million, according to a recent SEC filing. This transaction significantly reduced Valley Wealth's position in Sonoco to just 475 shares. The move reflects a broader strategy shift from individual, slower-growing stocks like Sonoco and recent big tech winners to a more diversified exposure in growth stocks through ETFs, aiming for a safer ride in the current bull market.",
+      "url": "https://www.fool.com/coverage/filings/2026/02/19/valley-wealth-sells-20-million-sonoco-products-stock/",
+      "time_published": "20260219T135708",
+      "source": "The Motley Fool",
+      "overall_sentiment_score": 0.095008,
+      "ticker_sentiment": [
+        {
+          "ticker": "SON",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.233162",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.744010",
+          "ticker_sentiment_score": "0.242056",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.619052",
+          "ticker_sentiment_score": "0.113383",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.625443",
+          "ticker_sentiment_score": "0.106511",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Valley Wealth Reduces Sonoco Stake by Nearly 480K Shares",
+      "summary": "Valley Wealth Managers significantly reduced its stake in Sonoco Products Company by selling 479,832 shares for $19.9 million, reflecting a cautious outlook despite Sonoco's recent revenue surge. This move led to a $20.7 million quarter-over-quarter decline in the fund's position value. The firm is shifting its investment strategy towards higher-growth tech stocks and ETFs like Vanguard Russell 1000 Growth ETF and Apple, indicating a preference for broader market opportunities.",
+      "url": "https://intellectia.ai/news/stock/valley-wealth-reduces-sonoco-stake-by-nearly-480k-shares",
+      "time_published": "20260219T135708",
+      "source": "Intellectia AI",
+      "overall_sentiment_score": 0.30948,
+      "ticker_sentiment": [
+        {
+          "ticker": "SON",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.148798",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.725467",
+          "ticker_sentiment_score": "0.340252",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "LUV",
+          "relevance_score": "0.597376",
+          "ticker_sentiment_score": "0.420803",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    }
+  ],
+  "monthly_summary": {
+    "2026-02": {
+      "count": 30,
+      "avg_sentiment": 0.055
+    }
+  }
+}

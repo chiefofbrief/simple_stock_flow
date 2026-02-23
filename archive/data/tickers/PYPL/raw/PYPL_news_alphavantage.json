@@ -1,0 +1,1648 @@
+{
+  "date_range": {
+    "from": "2025-11-10",
+    "to": "2026-02-08"
+  },
+  "articles": [
+    {
+      "title": "Gartner, Stellantis, And Novo Nordisk Are Among Top 10 Large Cap Losers Last Week (Feb. 2-Feb. 6): Are the Others in Your Portfolio?",
+      "summary": "This article identifies the top ten large-cap stock losers from February 2nd to February 6th. Companies like Stellantis, Gartner, Reddit, PayPal, IREN, Thomson Reuters, Atlassian, Novo Nordisk, IQVIA Holdings, and Boston Scientific experienced significant declines due to various factors including disappointing financial results, lowered guidance, and analyst price target reductions. The piece asks if these underperforming stocks are present in the reader's investment portfolio.",
+      "url": "https://www.benzinga.com/markets/equities/26/02/50469802/gartner-stellantis-and-novo-nordisk-are-among-top-10-large-cap-losers-last-week-feb-2-feb-6-are-the-others-in-your-portfolio",
+      "time_published": "20260208T134228",
+      "source": "Benzinga",
+      "overall_sentiment_score": -0.688305,
+      "ticker_sentiment": [
+        {
+          "ticker": "IT",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.645740",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.700157",
+          "ticker_sentiment_score": "-0.728660",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "SA Asks: How can PayPal turn its business around?",
+      "summary": "PayPal's shares dropped 20% after a weaker-than-expected Q4 earnings report and financial outlook, partly due to increased competition. The company needs to address these challenges to revive growth. Analysts suggest strategies like disciplined execution in branded checkout, focusing on high-impact merchants, creating a robust financial ecosystem, and coherent network economics.",
+      "url": "https://seekingalpha.com/news/4548786-sa-asks-how-can-paypal-turn-its-business-around",
+      "time_published": "20260207T205804",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": -0.439656,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.448342",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Will Sezzle\u2019s (SEZL) New CFO Deepen Its Subscription Pivot or Reshape Capital Allocation Priorities?",
+      "summary": "Sezzle Inc. has appointed Lee Brading as its new Chief Financial Officer, succeeding Karen Hartje. Brading's internal knowledge from his previous role as SVP of Corporate Development and Investor Relations suggests continuity in Sezzle's strategic focus on its subscription-driven business model and disciplined capital allocation. While the appointment is unlikely to cause immediate major shifts, it could refine execution in these areas, with ongoing risks related to credit performance and competition.",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-sezl/sezzle/news/will-sezzles-sezl-new-cfo-deepen-its-subscription-pivot-or-r",
+      "time_published": "20260207T125850",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": 0.029832,
+      "ticker_sentiment": [
+        {
+          "ticker": "SEZL",
+          "relevance_score": "0.980908",
+          "ticker_sentiment_score": "0.128105",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.631877",
+          "ticker_sentiment_score": "-0.146001",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Flywire Corporation (FLYW): A Bull Case Theory",
+      "summary": "This article summarizes a bullish thesis on Flywire Corporation (FLYW), a company specializing in digitizing complex payments in education, travel, and healthcare. Despite past inefficiencies and macro pressures, Flywire is showing improved margins and growth, particularly with the Sertifi acquisition and expansion in healthcare. The thesis highlights Flywire's strong market position in cross-border higher-education payments and potential for significant upside from normalized growth.",
+      "url": "https://finviz.com/news/303649/flywire-corporation-flyw-a-bull-case-theory",
+      "time_published": "20260207T123700",
+      "source": "Finviz",
+      "overall_sentiment_score": 0.307811,
+      "ticker_sentiment": [
+        {
+          "ticker": "FLYW",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.485795",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.744816",
+          "ticker_sentiment_score": "0.117274",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Weekly Market Update: Stocks End Week Flat as Consumer Defensives Rise and Consumer Cyclicals Fall",
+      "summary": "The Morningstar US Market Index remained nearly flat, rising 0.04% for the week ending February 6, 2026. Consumer defensive stocks saw significant gains, while consumer cyclical stocks experienced declines. XPO Inc. was the top-gaining stock, while Molina Healthcare and Gartner were among the biggest losers.",
+      "url": "https://www.morningstar.com/markets/weekly-market-update-stocks-gain-004-consumer-defensives-rise-consumer-cyclicals-fall",
+      "time_published": "20260206T215933",
+      "source": "Morningstar",
+      "overall_sentiment_score": -0.392578,
+      "ticker_sentiment": [
+        {
+          "ticker": "MORN",
+          "relevance_score": "0.335683",
+          "ticker_sentiment_score": "0.031375",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MOH",
+          "relevance_score": "0.932146",
+          "ticker_sentiment_score": "-0.642773",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "IT",
+          "relevance_score": "0.935040",
+          "ticker_sentiment_score": "-0.592505",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.784617",
+          "ticker_sentiment_score": "-0.433102",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "The Truth About Global Payments: Is This Fintech Giant Still Worth Your Money?",
+      "summary": "This article analyzes Global Payments (GPN), a fintech company, evaluating its worth as an investment. It posits that GPN is a \"low-key\" payment giant that powers billions in transactions, operating as critical infrastructure rather than a flashy consumer brand. The author suggests it's a \"builder stock\" for patient, long-term investors seeking digital payments exposure without the volatility of highly hyped meme stocks.",
+      "url": "https://www.ad-hoc-news.de/boerse/ueberblick/the-truth-about-global-payments-is-this-fintech-giant-still-worth-your/68558288",
+      "time_published": "20260206T174857",
+      "source": "AD HOC NEWS",
+      "overall_sentiment_score": 0.135126,
+      "ticker_sentiment": [
+        {
+          "ticker": "GPN",
+          "relevance_score": "0.982467",
+          "ticker_sentiment_score": "0.288435",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "FI",
+          "relevance_score": "0.836653",
+          "ticker_sentiment_score": "0.062507",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.705558",
+          "ticker_sentiment_score": "0.041505",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MA",
+          "relevance_score": "0.643969",
+          "ticker_sentiment_score": "0.138984",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "V",
+          "relevance_score": "0.626171",
+          "ticker_sentiment_score": "0.136303",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "The Truth About Global Payments: Is This Fintech Giant Still Worth Your Money?",
+      "summary": "This article analyzes whether Global Payments (GPN), a backend payment processing giant, is a worthwhile investment. It evaluates the company's business model, financial performance, and risk profile, comparing it to competitors like Fiserv, Adyen, and PayPal. The author concludes that Global Payments is an underappreciated \"builder stock\" for long-term investors seeking digital payment exposure without chasing high-hype names, recommending diligence before investing.",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/the-truth-about-global-payments-is-this-fintech-giant-still-worth-your/68558288",
+      "time_published": "20260206T165333",
+      "source": "AD HOC NEWS",
+      "overall_sentiment_score": 0.18568,
+      "ticker_sentiment": [
+        {
+          "ticker": "GPN",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.444109",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "FI",
+          "relevance_score": "0.602666",
+          "ticker_sentiment_score": "0.112693",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.649798",
+          "ticker_sentiment_score": "0.023191",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "PayPal: Buy The Dip If You Want To Gamble (NASDAQ:PYPL)",
+      "summary": "PayPal's stock plummeted 20% after its Q4 earnings, revealing market share loss and a challenging outlook for fiscal year 2026 with expected declines in financial metrics. Management has withdrawn its FY2027 outlook due to increased competition, and a new CEO has been brought in to improve performance. Despite a low valuation, the article suggests that fundamental deterioration makes PYPL a value trap rather than a buying opportunity.",
+      "url": "https://seekingalpha.com/article/4867166-paypal-buy-the-dip-if-you-want-to-gamble",
+      "time_published": "20260206T162850",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": -0.614204,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.648660",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "For e.l.f. Beauty's CFO, Super Bowl ads are a long-term investment",
+      "summary": "E.l.f. Beauty's CFO, Mandy Fields, views Super Bowl advertisements as a long-term investment aimed at increasing brand awareness, rather than seeking immediate returns. The company's brand awareness has grown significantly from 10% to over 40% due to these strategies. Their upcoming Super Bowl ad will feature their best-selling Glow Reviver Lip Oil in a telenovela-inspired campaign, targeting diverse audiences through various language platforms.",
+      "url": "https://fortune.com/2026/02/06/e-l-f-beauty-super-bowl-ads-rocket-10-percent-brand-awareness-40-percent-cfo/",
+      "time_published": "20260206T125849",
+      "source": "Fortune",
+      "overall_sentiment_score": 0.202853,
+      "ticker_sentiment": [
+        {
+          "ticker": "ELF",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.465595",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "UBER",
+          "relevance_score": "0.715367",
+          "ticker_sentiment_score": "0.142327",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.608432",
+          "ticker_sentiment_score": "0.117253",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GS",
+          "relevance_score": "0.594416",
+          "ticker_sentiment_score": "0.118546",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "IBM",
+          "relevance_score": "0.593361",
+          "ticker_sentiment_score": "0.111361",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Why Investors Shouldn't Be Surprised By PayPal Holdings, Inc.'s (NASDAQ:PYPL) 31% Share Price Plunge",
+      "summary": "PayPal Holdings, Inc. (NASDAQ:PYPL) shares have significantly dropped by 31% in the last month and 48% over the past year. The company's low P/E ratio of 7.2x reflects investor expectations of limited future growth, as analyst forecasts project only 6.4% annual earnings growth over the next three years, trailing the broader market's anticipated 12% growth. Despite impressive past earnings growth, this modest future outlook is likely the reason for the suppressed share price and P/E ratio.",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-pypl/paypal-holdings/news/why-investors-shouldnt-be-surprised-by-paypal-holdings-incs",
+      "time_published": "20260206T082851",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": -0.439101,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.415684",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "PayPal Q4 Earnings Review: The Capitulation Bottom Or A Deep Value Trap? (NASDAQ:PYPL)",
+      "summary": "PayPal Holdings is experiencing a structural crisis due to stagnating growth in its core branded checkout and impaired investor confidence. Despite management changes and a pivot to AI under the new CEO, doubts persist about its ability to compete with rivals like Apple Pay. While Venmo and BNPL segments show some growth, they are not enough to offset weaknesses in the core business, leading to a low single-digit revenue growth guidance for FY 2026, prompting a \"Hold\" rating due to persistent structural risks and no clear reversal catalyst.",
+      "url": "https://seekingalpha.com/article/4866510-paypal-q4-earnings-review-capitulation-bottom-or-deep-value-trap",
+      "time_published": "20260206T002805",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": -0.230098,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.476830",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.728297",
+          "ticker_sentiment_score": "-0.116399",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.739001",
+          "ticker_sentiment_score": "-0.122836",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Is PayPal (PYPL) Offering Opportunity After Recent Share Price Slide And Earnings Reassessment?",
+      "summary": "PayPal Holdings (PYPL) has seen a significant share price slide, but an analysis by Simply Wall St suggests it is undervalued. Using both Excess Returns and Price vs Earnings models, the company appears to trade below its intrinsic value and a tailored Fair Ratio, indicating a potential investment opportunity despite recent market sentiment shifts regarding fintech competitors.",
+      "url": "https://finance.yahoo.com/news/paypal-pypl-offering-opportunity-recent-043325232.html",
+      "time_published": "20260205T203300",
+      "source": "Yahoo Finance",
+      "overall_sentiment_score": 0.252905,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.263454",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Why This Stock Could Become the \u201cApple of AI\u201d",
+      "summary": "The article argues that PayPal Holdings Inc. (PYPL) could become the \"Apple of AI\" as the artificial intelligence industry shifts from infrastructure building (\"Stage 1\") to user experience and practical applications (\"Stage 2\"). PayPal's walled-garden payment system, known for its fraud detection capabilities, makes it an ideal partner for AI companies looking to integrate e-commerce securely. Despite PayPal's recent stock struggles, the author sees significant upside potential due to its essential role in agentic AI e-commerce, citing its partnerships with major AI platforms like ChatGPT, Microsoft CoPilot, Perplexity AI, and Google Gemini.",
+      "url": "https://investorplace.com/smartmoney/2026/02/why-this-stock-the-apple-of-ai/",
+      "time_published": "20260205T195744",
+      "source": "InvestorPlace",
+      "overall_sentiment_score": 0.061776,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.922119",
+          "ticker_sentiment_score": "0.348645",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.940577",
+          "ticker_sentiment_score": "0.510205",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "INTC",
+          "relevance_score": "0.628273",
+          "ticker_sentiment_score": "-0.311005",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.606969",
+          "ticker_sentiment_score": "-0.304976",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.604298",
+          "ticker_sentiment_score": "-0.122955",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Offer Insights on Financial Companies: American Financial Group (AFG), PayPal Holdings (PYPL) and Washington Federal (WAFD)",
+      "summary": "Analysts have provided insights into three financial companies: American Financial Group (AFG), PayPal Holdings (PYPL), and Washington Federal (WAFD). Piper Sandler maintained a Hold rating for AFG with a $139.00 price target, while Goldman Sachs maintained a Sell rating for PYPL with a $41.00 price target. Piper Sandler also maintained a Hold rating for WAFD, setting a price target of $30.50.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/WAFD/pressreleases/42738/analysts-offer-insights-on-financial-companies-american-financial-group-afg-paypal-holdings-pypl-and-washington-federal-wafd/",
+      "time_published": "20260205T155905",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.067661,
+      "ticker_sentiment": [
+        {
+          "ticker": "AFGD",
+          "relevance_score": "0.339465",
+          "ticker_sentiment_score": "0.007959",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.928461",
+          "ticker_sentiment_score": "0.077485",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Fiserv Fell 8% on Strategy Shift: Why the Stock Could Rebound to $85 in 2026",
+      "summary": "Fiserv (FISV) shares dropped 7.7% to $58 after CEO Mike Lyons discussed strategic shifts at a recent conference, emphasizing the expansion of direct distribution channels alongside existing bank partnerships. Despite the market's \"wait-and-see\" approach, TIKR's Advanced Valuation Model suggests a potential rebound to $85 by 2026, indicating a 45.4% upside for the stock as the company transitions to a high-margin commerce enablement platform. This move is seen as an addition to, rather than a change from, its primary competitive advantage in distribution.",
+      "url": "https://www.tikr.com/blog/fiserv-fell-8-on-strategy-shift-why-the-stock-could-rebound-to-85-in-2026",
+      "time_published": "20260205T144500",
+      "source": "TIKR.com",
+      "overall_sentiment_score": 0.226,
+      "ticker_sentiment": [
+        {
+          "ticker": "FI",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.410033",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.642451",
+          "ticker_sentiment_score": "0.134662",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GPN",
+          "relevance_score": "0.551462",
+          "ticker_sentiment_score": "0.112172",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Have Conflicting Sentiments on These Financial Companies: PayPal Holdings (PYPL) and M&T Bank (MTB)",
+      "summary": "Analysts have issued conflicting sentiments on PayPal Holdings (PYPL) and M&T Bank (MTB). RBC Capital maintained a Buy rating on PayPal with a $59.00 price target, while UBS maintained a Hold rating on M&T Bank with a $230.00 price target. The consensus for PayPal is a Hold with a 33.4% upside, and for M&T Bank, it's also a Hold with a 2.9% upside.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PYPL-Q/pressreleases/41938/analysts-have-conflicting-sentiments-on-these-financial-companies-paypal-holdings-pypl-and-mt-bank-mtb/",
+      "time_published": "20260205T121622",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.178538,
+      "ticker_sentiment": [
+        {
+          "ticker": "MTB",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.081278",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.974940",
+          "ticker_sentiment_score": "0.266464",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Jones Financial Companies Lllp Has $10.69 Million Stock Holdings in HP Inc. $HPQ",
+      "summary": "Jones Financial Companies Lllp increased its stake in HP Inc. by 34.6% in the third quarter, bringing its total holdings to $10.69 million. Other institutional investors also adjusted their positions in the computer maker. The article also discusses various positive, neutral, and negative news sentiments impacting HP, including a recent CEO change and analyst rating adjustments, alongside HP's financial performance and dividend announcements.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-jones-financial-companies-lllp-has-1069-million-stock-holdings-in-hp-inc-hpq-2026-02-05/",
+      "time_published": "20260205T082941",
+      "source": "MarketBeat",
+      "overall_sentiment_score": -0.276746,
+      "ticker_sentiment": [
+        {
+          "ticker": "HPQ",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.187491",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.590811",
+          "ticker_sentiment_score": "-0.303280",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "The 1% Problem: How PayPal's Most Profitable Engine Stalled While The Board Watched",
+      "summary": "Former PayPal leader David Marcus criticizes PayPal for prioritizing financial predictability over product innovation, leading to its \"branded checkout\" engine growing at only 1%. He argues the company shifted from product-led to finance-led leadership, failing to build new platforms like rivals and instead creating mere add-ons. Marcus suggests that without a change in board incentives, PayPal risks not achieving its potential as a network.",
+      "url": "https://www.sahmcapital.com/news/content/the-1-problem-how-paypals-most-profitable-engine-stalled-while-the-board-watched-2026-02-04",
+      "time_published": "20260205T075926",
+      "source": "Sahm",
+      "overall_sentiment_score": -0.239618,
+      "ticker_sentiment": [
+        {
+          "ticker": "AFRM",
+          "relevance_score": "0.629961",
+          "ticker_sentiment_score": "-0.102867",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.440353",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.742666",
+          "ticker_sentiment_score": "-0.225268",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "V",
+          "relevance_score": "0.625687",
+          "ticker_sentiment_score": "-0.219866",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "PayPal Holdings, Inc. (PYPL): A Bull Case Theory",
+      "summary": "This article summarizes a bullish thesis on PayPal Holdings, Inc. (PYPL) from CompoundingLab, highlighting the company's investment opportunity due to a strategic pivot under CEO Alex Chriss and market mispricing. Key growth initiatives include Fastlane by PayPal, unbranded processing via Braintree, Venmo monetization, and expansion into SMBs with PayPal Open. Despite recent stock depreciation, the bull case emphasizes PayPal\u2019s strong free cash flow, self-correcting valuation, and underappreciated margin recovery, suggesting a favorable entry point for investors.",
+      "url": "https://finviz.com/news/300663/paypal-holdings-inc-pypl-a-bull-case-theory",
+      "time_published": "20260205T072847",
+      "source": "Finviz",
+      "overall_sentiment_score": 0.39705,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.533649",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.620849",
+          "ticker_sentiment_score": "0.244893",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "A Look At Annaly Capital Management (NLY) Valuation After Its Q4 2025 Earnings Beat And Dividend Confidence",
+      "summary": "Annaly Capital Management (NLY) recently reported better-than-expected Q4 2025 earnings and revenue, leading to a focus on its valuation. Despite a 27.60% 1-year total shareholder return, the stock is considered 2.2% undervalued with a fair value of $23.34 per share, slightly above its current trading price of $22.83. This undervaluation is attributed to improved financing costs and increased earnings available for distribution, although risks such as rising interest rates and higher competition remain.",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-nly/annaly-capital-management/news/a-look-at-annaly-capital-management-nly-valuation-after-its",
+      "time_published": "20260205T040247",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": 0.215847,
+      "ticker_sentiment": [
+        {
+          "ticker": "NLY-P-G",
+          "relevance_score": "0.322896",
+          "ticker_sentiment_score": "0.025699",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.602834",
+          "ticker_sentiment_score": "0.310382",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.642617",
+          "ticker_sentiment_score": "0.317311",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Are Neutral on Top Financial Stocks: PayPal Holdings (PYPL), Prudential Financial (PRU)",
+      "summary": "Analysts have issued neutral ratings for major financial stocks including PayPal Holdings (PYPL), Prudential Financial (PRU), and Chain Bridge Bancorp, Inc. Class A (CBNA). This indicates that experts are neither strongly bullish nor bearish on these companies. The article details specific analyst ratings, price targets, and success rates for each company.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PYPL/pressreleases/34662/analysts-are-neutral-on-top-financial-stocks-paypal-holdings-pypl-prudential-financial-pru/",
+      "time_published": "20260205T032802",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.041152,
+      "ticker_sentiment": [
+        {
+          "ticker": "PRU",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.043168",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.037757",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Are Neutral on Top Financial Stocks: PayPal Holdings (PYPL), Prudential Financial (PRU)",
+      "summary": "Analysts have issued neutral ratings for several top financial stocks, including PayPal Holdings (PYPL), Prudential Financial (PRU), and Chain Bridge Bancorp, Inc. Class A (CBNA). This indicates that experts are neither strongly bullish nor bearish on these specific stocks. The article details individual analyst ratings, price targets, and analyst performance metrics for each company.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PYPL-Q/pressreleases/34662/analysts-are-neutral-on-top-financial-stocks-paypal-holdings-pypl-prudential-financial-pru/",
+      "time_published": "20260205T031024",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.019318,
+      "ticker_sentiment": [
+        {
+          "ticker": "PRU",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.019682",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.913353",
+          "ticker_sentiment_score": "0.028838",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Former PayPal exec says company has 'lost its mojo' as stock continues slide (PYPL:NASDAQ)",
+      "summary": "PayPal's stock experienced a significant decline following disappointing earnings, negative guidance, and a management change. A former executive, David Marcus, criticized the company for losing its innovative edge and prioritizing predictability, which he believes has negatively impacted its competitiveness in the payments market. Investors are concerned about leadership lacking payments experience, further contributing to the stock's slide.",
+      "url": "https://seekingalpha.com/news/4547388-former-paypal-exec-says-company-has-lost-its-mojo-as-stock-continues-slide",
+      "time_published": "20260205T005809",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": 0.031235,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.318215",
+          "ticker_sentiment_score": "0.009957",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "PayPal downgraded, Five Below upgraded: Wall Street's top analyst calls",
+      "summary": "This article details Wall Street's top analyst calls, highlighting several upgrades and downgrades for major companies. PayPal saw multiple downgrades to Hold due to maturing e-commerce payment volume and unclear growth plans, while Five Below was upgraded to Buy, anticipating improved results under new leadership. Other companies like Airbnb, Booking Holdings, and GE Vernova received upgrades, while TransDigm, Teradyne, and CF Industries faced downgrades.",
+      "url": "https://finance.yahoo.com/news/paypal-downgraded-five-below-upgraded-143348437.html",
+      "time_published": "20260205T003300",
+      "source": "Yahoo Finance",
+      "overall_sentiment_score": 0.086733,
+      "ticker_sentiment": [
+        {
+          "ticker": "FIVE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.439979",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.942068",
+          "ticker_sentiment_score": "0.041779",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "BKNG",
+          "relevance_score": "0.722385",
+          "ticker_sentiment_score": "0.018191",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GEV",
+          "relevance_score": "0.616054",
+          "ticker_sentiment_score": "0.328274",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "CF",
+          "relevance_score": "0.641489",
+          "ticker_sentiment_score": "-0.405319",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "3 Reasons KTB is Risky and 1 Stock to Buy Instead",
+      "summary": "This article analyzes Kontoor Brands (KTB), arguing that despite a recent stock price increase, the company is risky due to weak constant currency growth, mediocre free cash flow margin, and declining return on invested capital. The author advises caution against buying KTB and suggests looking into other high-quality stocks.",
+      "url": "https://finviz.com/news/301382/3-reasons-ktb-is-risky-and-1-stock-to-buy-instead",
+      "time_published": "20260204T230200",
+      "source": "Finviz",
+      "overall_sentiment_score": 0.13318,
+      "ticker_sentiment": [
+        {
+          "ticker": "KTB",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.613823",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.607524",
+          "ticker_sentiment_score": "0.277218",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.618735",
+          "ticker_sentiment_score": "0.288796",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.608646",
+          "ticker_sentiment_score": "0.530734",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Assessing Summit Therapeutics (SMMT) Valuation After FDA Acceptance Of Ivonescimab BLA",
+      "summary": "Summit Therapeutics (SMMT) recently had its Biologics License Application for ivonescimab accepted by the FDA, with a PDUFA action date set for November 14, 2026. Despite a high Price-to-Book ratio of 58.5x, suggesting overvaluation compared to industry peers, Simply Wall St's Discounted Cash Flow model indicates a significant undervaluation at $14.59 per share against an estimated future cash flow value of $213.88. Investors face a mixed signal from the market, with recent share price declines contrasting with long-term returns and a projected large discount based on future cash flow.",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-smmt/summit-therapeutics/news/assessing-summit-therapeutics-smmt-valuation-after-fda-accep",
+      "time_published": "20260204T222949",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": -0.095997,
+      "ticker_sentiment": [
+        {
+          "ticker": "SMMT",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.113635",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.567125",
+          "ticker_sentiment_score": "-0.073666",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.570351",
+          "ticker_sentiment_score": "-0.096374",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.570646",
+          "ticker_sentiment_score": "-0.057251",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.593539",
+          "ticker_sentiment_score": "-0.093827",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Are Neutral on Top Financial Stocks: PayPal Holdings (PYPL), Prudential Financial (PRU)",
+      "summary": "Analysts have issued neutral ratings for top financial stocks PayPal Holdings (PYPL), Prudential Financial (PRU), and Chain Bridge Bancorp, Inc. Class A (CBNA). This indicates that experts are neither strongly bullish nor bearish on these stocks. The reports detail specific analyst ratings, price targets, and potential upsides for each company.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CBNA/pressreleases/34662/analysts-are-neutral-on-top-financial-stocks-paypal-holdings-pypl-prudential-financial-pru/",
+      "time_published": "20260204T213023",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.024633,
+      "ticker_sentiment": [
+        {
+          "ticker": "CBNA",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.015787",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.932711",
+          "ticker_sentiment_score": "0.045817",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PRU",
+          "relevance_score": "0.807159",
+          "ticker_sentiment_score": "0.040025",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "PayPal Leadership Shake-Up - Former HP Exec Hired As New CEO",
+      "summary": "PayPal Holdings, Inc. (PYPL) experienced a leadership change with Enrique Lores, former HP Inc. CEO, appointed as its new President and CEO, effective March 1. The announcement led to a premarket stock decline, reflecting investor uncertainty despite the Board's confidence in Lores's ability to drive innovation. This shift follows PayPal's subpar Q4 performance, missing analyst estimates for both earnings and sales, and comes as analysts maintain a \"Hold\" rating on the stock with a cautious outlook due to weak momentum and quality scores.",
+      "url": "https://finance.yahoo.com/news/paypal-leadership-shake-former-hp-223115840.html",
+      "time_published": "20260204T193100",
+      "source": "Yahoo Finance",
+      "overall_sentiment_score": 0.022669,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.953557",
+          "ticker_sentiment_score": "-0.265510",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "HPQ",
+          "relevance_score": "0.732835",
+          "ticker_sentiment_score": "0.119034",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.579908",
+          "ticker_sentiment_score": "0.095676",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.576296",
+          "ticker_sentiment_score": "0.084172",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.561569",
+          "ticker_sentiment_score": "0.083661",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Ex-PayPal President David Marcus Says 'Defensive' BNPL Strategy Handed PYPL's Market Share To Rivals, Leading To Stagnant Growth",
+      "summary": "Former PayPal President David Marcus criticizes PayPal's \"defensive\" approach to Buy Now, Pay Later (BNPL) and its shift from product-led innovation to financial optimization, which he believes led to the company losing market share to rivals. He argues that PayPal's failure to make BNPL a core consumer relationship amidst its internal focus allowed competitors like Klarna and Affirm to thrive, leading to stagnant growth and a significant drop in PayPal's stock price. Marcus also expressed skepticism about the new leadership appointed to turn the company around.",
+      "url": "https://www.benzinga.com/markets/equities/26/02/50362942/ex-paypal-president-david-marcus-says-defensive-bnpl-strategy-handed-pypls-market-share-to-rivals-leading-to-stagnant-growth",
+      "time_published": "20260204T175727",
+      "source": "Benzinga",
+      "overall_sentiment_score": -0.257326,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.473219",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.716734",
+          "ticker_sentiment_score": "-0.141238",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.743121",
+          "ticker_sentiment_score": "-0.233413",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "HPQ",
+          "relevance_score": "0.636466",
+          "ticker_sentiment_score": "-0.102618",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Paychex stock hits 52-week low at 96.5 USD",
+      "summary": "Paychex Inc. stock has dropped to a 52-week low of $96.5, marking a 35.61% decline over the past year, though it maintains a 4.45% dividend yield and has consistently paid dividends for 39 years. Despite this downturn, InvestingPro analysis suggests the stock is undervalued and oversold, with the company demonstrating strong gross profit margins. Recent corporate actions include surpassing Q2 fiscal 2026 earnings expectations, expanding credit facilities, announcing a new share repurchase program, and declaring a cash dividend.",
+      "url": "https://www.investing.com/news/company-news/paychex-stock-hits-52week-low-at-965-usd-93CH-4485192",
+      "time_published": "20260204T144129",
+      "source": "Investing.com",
+      "overall_sentiment_score": -0.118902,
+      "ticker_sentiment": [
+        {
+          "ticker": "PAYX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.273441",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.599948",
+          "ticker_sentiment_score": "0.146134",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    }
+  ],
+  "last_30_days": [
+    {
+      "title": "Gartner, Stellantis, And Novo Nordisk Are Among Top 10 Large Cap Losers Last Week (Feb. 2-Feb. 6): Are the Others in Your Portfolio?",
+      "summary": "This article identifies the top ten large-cap stock losers from February 2nd to February 6th. Companies like Stellantis, Gartner, Reddit, PayPal, IREN, Thomson Reuters, Atlassian, Novo Nordisk, IQVIA Holdings, and Boston Scientific experienced significant declines due to various factors including disappointing financial results, lowered guidance, and analyst price target reductions. The piece asks if these underperforming stocks are present in the reader's investment portfolio.",
+      "url": "https://www.benzinga.com/markets/equities/26/02/50469802/gartner-stellantis-and-novo-nordisk-are-among-top-10-large-cap-losers-last-week-feb-2-feb-6-are-the-others-in-your-portfolio",
+      "time_published": "20260208T134228",
+      "source": "Benzinga",
+      "overall_sentiment_score": -0.688305,
+      "ticker_sentiment": [
+        {
+          "ticker": "IT",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.645740",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.700157",
+          "ticker_sentiment_score": "-0.728660",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "SA Asks: How can PayPal turn its business around?",
+      "summary": "PayPal's shares dropped 20% after a weaker-than-expected Q4 earnings report and financial outlook, partly due to increased competition. The company needs to address these challenges to revive growth. Analysts suggest strategies like disciplined execution in branded checkout, focusing on high-impact merchants, creating a robust financial ecosystem, and coherent network economics.",
+      "url": "https://seekingalpha.com/news/4548786-sa-asks-how-can-paypal-turn-its-business-around",
+      "time_published": "20260207T205804",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": -0.439656,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.448342",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Will Sezzle\u2019s (SEZL) New CFO Deepen Its Subscription Pivot or Reshape Capital Allocation Priorities?",
+      "summary": "Sezzle Inc. has appointed Lee Brading as its new Chief Financial Officer, succeeding Karen Hartje. Brading's internal knowledge from his previous role as SVP of Corporate Development and Investor Relations suggests continuity in Sezzle's strategic focus on its subscription-driven business model and disciplined capital allocation. While the appointment is unlikely to cause immediate major shifts, it could refine execution in these areas, with ongoing risks related to credit performance and competition.",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-sezl/sezzle/news/will-sezzles-sezl-new-cfo-deepen-its-subscription-pivot-or-r",
+      "time_published": "20260207T125850",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": 0.029832,
+      "ticker_sentiment": [
+        {
+          "ticker": "SEZL",
+          "relevance_score": "0.980908",
+          "ticker_sentiment_score": "0.128105",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.631877",
+          "ticker_sentiment_score": "-0.146001",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Flywire Corporation (FLYW): A Bull Case Theory",
+      "summary": "This article summarizes a bullish thesis on Flywire Corporation (FLYW), a company specializing in digitizing complex payments in education, travel, and healthcare. Despite past inefficiencies and macro pressures, Flywire is showing improved margins and growth, particularly with the Sertifi acquisition and expansion in healthcare. The thesis highlights Flywire's strong market position in cross-border higher-education payments and potential for significant upside from normalized growth.",
+      "url": "https://finviz.com/news/303649/flywire-corporation-flyw-a-bull-case-theory",
+      "time_published": "20260207T123700",
+      "source": "Finviz",
+      "overall_sentiment_score": 0.307811,
+      "ticker_sentiment": [
+        {
+          "ticker": "FLYW",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.485795",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.744816",
+          "ticker_sentiment_score": "0.117274",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Weekly Market Update: Stocks End Week Flat as Consumer Defensives Rise and Consumer Cyclicals Fall",
+      "summary": "The Morningstar US Market Index remained nearly flat, rising 0.04% for the week ending February 6, 2026. Consumer defensive stocks saw significant gains, while consumer cyclical stocks experienced declines. XPO Inc. was the top-gaining stock, while Molina Healthcare and Gartner were among the biggest losers.",
+      "url": "https://www.morningstar.com/markets/weekly-market-update-stocks-gain-004-consumer-defensives-rise-consumer-cyclicals-fall",
+      "time_published": "20260206T215933",
+      "source": "Morningstar",
+      "overall_sentiment_score": -0.392578,
+      "ticker_sentiment": [
+        {
+          "ticker": "MORN",
+          "relevance_score": "0.335683",
+          "ticker_sentiment_score": "0.031375",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MOH",
+          "relevance_score": "0.932146",
+          "ticker_sentiment_score": "-0.642773",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "IT",
+          "relevance_score": "0.935040",
+          "ticker_sentiment_score": "-0.592505",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.784617",
+          "ticker_sentiment_score": "-0.433102",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "The Truth About Global Payments: Is This Fintech Giant Still Worth Your Money?",
+      "summary": "This article analyzes Global Payments (GPN), a fintech company, evaluating its worth as an investment. It posits that GPN is a \"low-key\" payment giant that powers billions in transactions, operating as critical infrastructure rather than a flashy consumer brand. The author suggests it's a \"builder stock\" for patient, long-term investors seeking digital payments exposure without the volatility of highly hyped meme stocks.",
+      "url": "https://www.ad-hoc-news.de/boerse/ueberblick/the-truth-about-global-payments-is-this-fintech-giant-still-worth-your/68558288",
+      "time_published": "20260206T174857",
+      "source": "AD HOC NEWS",
+      "overall_sentiment_score": 0.135126,
+      "ticker_sentiment": [
+        {
+          "ticker": "GPN",
+          "relevance_score": "0.982467",
+          "ticker_sentiment_score": "0.288435",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "FI",
+          "relevance_score": "0.836653",
+          "ticker_sentiment_score": "0.062507",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.705558",
+          "ticker_sentiment_score": "0.041505",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MA",
+          "relevance_score": "0.643969",
+          "ticker_sentiment_score": "0.138984",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "V",
+          "relevance_score": "0.626171",
+          "ticker_sentiment_score": "0.136303",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "The Truth About Global Payments: Is This Fintech Giant Still Worth Your Money?",
+      "summary": "This article analyzes whether Global Payments (GPN), a backend payment processing giant, is a worthwhile investment. It evaluates the company's business model, financial performance, and risk profile, comparing it to competitors like Fiserv, Adyen, and PayPal. The author concludes that Global Payments is an underappreciated \"builder stock\" for long-term investors seeking digital payment exposure without chasing high-hype names, recommending diligence before investing.",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/the-truth-about-global-payments-is-this-fintech-giant-still-worth-your/68558288",
+      "time_published": "20260206T165333",
+      "source": "AD HOC NEWS",
+      "overall_sentiment_score": 0.18568,
+      "ticker_sentiment": [
+        {
+          "ticker": "GPN",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.444109",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "FI",
+          "relevance_score": "0.602666",
+          "ticker_sentiment_score": "0.112693",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.649798",
+          "ticker_sentiment_score": "0.023191",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "PayPal: Buy The Dip If You Want To Gamble (NASDAQ:PYPL)",
+      "summary": "PayPal's stock plummeted 20% after its Q4 earnings, revealing market share loss and a challenging outlook for fiscal year 2026 with expected declines in financial metrics. Management has withdrawn its FY2027 outlook due to increased competition, and a new CEO has been brought in to improve performance. Despite a low valuation, the article suggests that fundamental deterioration makes PYPL a value trap rather than a buying opportunity.",
+      "url": "https://seekingalpha.com/article/4867166-paypal-buy-the-dip-if-you-want-to-gamble",
+      "time_published": "20260206T162850",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": -0.614204,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.648660",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "For e.l.f. Beauty's CFO, Super Bowl ads are a long-term investment",
+      "summary": "E.l.f. Beauty's CFO, Mandy Fields, views Super Bowl advertisements as a long-term investment aimed at increasing brand awareness, rather than seeking immediate returns. The company's brand awareness has grown significantly from 10% to over 40% due to these strategies. Their upcoming Super Bowl ad will feature their best-selling Glow Reviver Lip Oil in a telenovela-inspired campaign, targeting diverse audiences through various language platforms.",
+      "url": "https://fortune.com/2026/02/06/e-l-f-beauty-super-bowl-ads-rocket-10-percent-brand-awareness-40-percent-cfo/",
+      "time_published": "20260206T125849",
+      "source": "Fortune",
+      "overall_sentiment_score": 0.202853,
+      "ticker_sentiment": [
+        {
+          "ticker": "ELF",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.465595",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "UBER",
+          "relevance_score": "0.715367",
+          "ticker_sentiment_score": "0.142327",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.608432",
+          "ticker_sentiment_score": "0.117253",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GS",
+          "relevance_score": "0.594416",
+          "ticker_sentiment_score": "0.118546",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "IBM",
+          "relevance_score": "0.593361",
+          "ticker_sentiment_score": "0.111361",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Why Investors Shouldn't Be Surprised By PayPal Holdings, Inc.'s (NASDAQ:PYPL) 31% Share Price Plunge",
+      "summary": "PayPal Holdings, Inc. (NASDAQ:PYPL) shares have significantly dropped by 31% in the last month and 48% over the past year. The company's low P/E ratio of 7.2x reflects investor expectations of limited future growth, as analyst forecasts project only 6.4% annual earnings growth over the next three years, trailing the broader market's anticipated 12% growth. Despite impressive past earnings growth, this modest future outlook is likely the reason for the suppressed share price and P/E ratio.",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nasdaq-pypl/paypal-holdings/news/why-investors-shouldnt-be-surprised-by-paypal-holdings-incs",
+      "time_published": "20260206T082851",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": -0.439101,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.415684",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "PayPal Q4 Earnings Review: The Capitulation Bottom Or A Deep Value Trap? (NASDAQ:PYPL)",
+      "summary": "PayPal Holdings is experiencing a structural crisis due to stagnating growth in its core branded checkout and impaired investor confidence. Despite management changes and a pivot to AI under the new CEO, doubts persist about its ability to compete with rivals like Apple Pay. While Venmo and BNPL segments show some growth, they are not enough to offset weaknesses in the core business, leading to a low single-digit revenue growth guidance for FY 2026, prompting a \"Hold\" rating due to persistent structural risks and no clear reversal catalyst.",
+      "url": "https://seekingalpha.com/article/4866510-paypal-q4-earnings-review-capitulation-bottom-or-deep-value-trap",
+      "time_published": "20260206T002805",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": -0.230098,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.476830",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.728297",
+          "ticker_sentiment_score": "-0.116399",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.739001",
+          "ticker_sentiment_score": "-0.122836",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Is PayPal (PYPL) Offering Opportunity After Recent Share Price Slide And Earnings Reassessment?",
+      "summary": "PayPal Holdings (PYPL) has seen a significant share price slide, but an analysis by Simply Wall St suggests it is undervalued. Using both Excess Returns and Price vs Earnings models, the company appears to trade below its intrinsic value and a tailored Fair Ratio, indicating a potential investment opportunity despite recent market sentiment shifts regarding fintech competitors.",
+      "url": "https://finance.yahoo.com/news/paypal-pypl-offering-opportunity-recent-043325232.html",
+      "time_published": "20260205T203300",
+      "source": "Yahoo Finance",
+      "overall_sentiment_score": 0.252905,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.263454",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Why This Stock Could Become the \u201cApple of AI\u201d",
+      "summary": "The article argues that PayPal Holdings Inc. (PYPL) could become the \"Apple of AI\" as the artificial intelligence industry shifts from infrastructure building (\"Stage 1\") to user experience and practical applications (\"Stage 2\"). PayPal's walled-garden payment system, known for its fraud detection capabilities, makes it an ideal partner for AI companies looking to integrate e-commerce securely. Despite PayPal's recent stock struggles, the author sees significant upside potential due to its essential role in agentic AI e-commerce, citing its partnerships with major AI platforms like ChatGPT, Microsoft CoPilot, Perplexity AI, and Google Gemini.",
+      "url": "https://investorplace.com/smartmoney/2026/02/why-this-stock-the-apple-of-ai/",
+      "time_published": "20260205T195744",
+      "source": "InvestorPlace",
+      "overall_sentiment_score": 0.061776,
+      "ticker_sentiment": [
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.922119",
+          "ticker_sentiment_score": "0.348645",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.940577",
+          "ticker_sentiment_score": "0.510205",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "INTC",
+          "relevance_score": "0.628273",
+          "ticker_sentiment_score": "-0.311005",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.606969",
+          "ticker_sentiment_score": "-0.304976",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.604298",
+          "ticker_sentiment_score": "-0.122955",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Offer Insights on Financial Companies: American Financial Group (AFG), PayPal Holdings (PYPL) and Washington Federal (WAFD)",
+      "summary": "Analysts have provided insights into three financial companies: American Financial Group (AFG), PayPal Holdings (PYPL), and Washington Federal (WAFD). Piper Sandler maintained a Hold rating for AFG with a $139.00 price target, while Goldman Sachs maintained a Sell rating for PYPL with a $41.00 price target. Piper Sandler also maintained a Hold rating for WAFD, setting a price target of $30.50.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/WAFD/pressreleases/42738/analysts-offer-insights-on-financial-companies-american-financial-group-afg-paypal-holdings-pypl-and-washington-federal-wafd/",
+      "time_published": "20260205T155905",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.067661,
+      "ticker_sentiment": [
+        {
+          "ticker": "AFGD",
+          "relevance_score": "0.339465",
+          "ticker_sentiment_score": "0.007959",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.928461",
+          "ticker_sentiment_score": "0.077485",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Fiserv Fell 8% on Strategy Shift: Why the Stock Could Rebound to $85 in 2026",
+      "summary": "Fiserv (FISV) shares dropped 7.7% to $58 after CEO Mike Lyons discussed strategic shifts at a recent conference, emphasizing the expansion of direct distribution channels alongside existing bank partnerships. Despite the market's \"wait-and-see\" approach, TIKR's Advanced Valuation Model suggests a potential rebound to $85 by 2026, indicating a 45.4% upside for the stock as the company transitions to a high-margin commerce enablement platform. This move is seen as an addition to, rather than a change from, its primary competitive advantage in distribution.",
+      "url": "https://www.tikr.com/blog/fiserv-fell-8-on-strategy-shift-why-the-stock-could-rebound-to-85-in-2026",
+      "time_published": "20260205T144500",
+      "source": "TIKR.com",
+      "overall_sentiment_score": 0.226,
+      "ticker_sentiment": [
+        {
+          "ticker": "FI",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.410033",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.642451",
+          "ticker_sentiment_score": "0.134662",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GPN",
+          "relevance_score": "0.551462",
+          "ticker_sentiment_score": "0.112172",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Have Conflicting Sentiments on These Financial Companies: PayPal Holdings (PYPL) and M&T Bank (MTB)",
+      "summary": "Analysts have issued conflicting sentiments on PayPal Holdings (PYPL) and M&T Bank (MTB). RBC Capital maintained a Buy rating on PayPal with a $59.00 price target, while UBS maintained a Hold rating on M&T Bank with a $230.00 price target. The consensus for PayPal is a Hold with a 33.4% upside, and for M&T Bank, it's also a Hold with a 2.9% upside.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PYPL-Q/pressreleases/41938/analysts-have-conflicting-sentiments-on-these-financial-companies-paypal-holdings-pypl-and-mt-bank-mtb/",
+      "time_published": "20260205T121622",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.178538,
+      "ticker_sentiment": [
+        {
+          "ticker": "MTB",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.081278",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.974940",
+          "ticker_sentiment_score": "0.266464",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Jones Financial Companies Lllp Has $10.69 Million Stock Holdings in HP Inc. $HPQ",
+      "summary": "Jones Financial Companies Lllp increased its stake in HP Inc. by 34.6% in the third quarter, bringing its total holdings to $10.69 million. Other institutional investors also adjusted their positions in the computer maker. The article also discusses various positive, neutral, and negative news sentiments impacting HP, including a recent CEO change and analyst rating adjustments, alongside HP's financial performance and dividend announcements.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-jones-financial-companies-lllp-has-1069-million-stock-holdings-in-hp-inc-hpq-2026-02-05/",
+      "time_published": "20260205T082941",
+      "source": "MarketBeat",
+      "overall_sentiment_score": -0.276746,
+      "ticker_sentiment": [
+        {
+          "ticker": "HPQ",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.187491",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.590811",
+          "ticker_sentiment_score": "-0.303280",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "The 1% Problem: How PayPal's Most Profitable Engine Stalled While The Board Watched",
+      "summary": "Former PayPal leader David Marcus criticizes PayPal for prioritizing financial predictability over product innovation, leading to its \"branded checkout\" engine growing at only 1%. He argues the company shifted from product-led to finance-led leadership, failing to build new platforms like rivals and instead creating mere add-ons. Marcus suggests that without a change in board incentives, PayPal risks not achieving its potential as a network.",
+      "url": "https://www.sahmcapital.com/news/content/the-1-problem-how-paypals-most-profitable-engine-stalled-while-the-board-watched-2026-02-04",
+      "time_published": "20260205T075926",
+      "source": "Sahm",
+      "overall_sentiment_score": -0.239618,
+      "ticker_sentiment": [
+        {
+          "ticker": "AFRM",
+          "relevance_score": "0.629961",
+          "ticker_sentiment_score": "-0.102867",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.440353",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.742666",
+          "ticker_sentiment_score": "-0.225268",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "V",
+          "relevance_score": "0.625687",
+          "ticker_sentiment_score": "-0.219866",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "PayPal Holdings, Inc. (PYPL): A Bull Case Theory",
+      "summary": "This article summarizes a bullish thesis on PayPal Holdings, Inc. (PYPL) from CompoundingLab, highlighting the company's investment opportunity due to a strategic pivot under CEO Alex Chriss and market mispricing. Key growth initiatives include Fastlane by PayPal, unbranded processing via Braintree, Venmo monetization, and expansion into SMBs with PayPal Open. Despite recent stock depreciation, the bull case emphasizes PayPal\u2019s strong free cash flow, self-correcting valuation, and underappreciated margin recovery, suggesting a favorable entry point for investors.",
+      "url": "https://finviz.com/news/300663/paypal-holdings-inc-pypl-a-bull-case-theory",
+      "time_published": "20260205T072847",
+      "source": "Finviz",
+      "overall_sentiment_score": 0.39705,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.533649",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.620849",
+          "ticker_sentiment_score": "0.244893",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "A Look At Annaly Capital Management (NLY) Valuation After Its Q4 2025 Earnings Beat And Dividend Confidence",
+      "summary": "Annaly Capital Management (NLY) recently reported better-than-expected Q4 2025 earnings and revenue, leading to a focus on its valuation. Despite a 27.60% 1-year total shareholder return, the stock is considered 2.2% undervalued with a fair value of $23.34 per share, slightly above its current trading price of $22.83. This undervaluation is attributed to improved financing costs and increased earnings available for distribution, although risks such as rising interest rates and higher competition remain.",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-nly/annaly-capital-management/news/a-look-at-annaly-capital-management-nly-valuation-after-its",
+      "time_published": "20260205T040247",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": 0.215847,
+      "ticker_sentiment": [
+        {
+          "ticker": "NLY-P-G",
+          "relevance_score": "0.322896",
+          "ticker_sentiment_score": "0.025699",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.602834",
+          "ticker_sentiment_score": "0.310382",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.642617",
+          "ticker_sentiment_score": "0.317311",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Are Neutral on Top Financial Stocks: PayPal Holdings (PYPL), Prudential Financial (PRU)",
+      "summary": "Analysts have issued neutral ratings for major financial stocks including PayPal Holdings (PYPL), Prudential Financial (PRU), and Chain Bridge Bancorp, Inc. Class A (CBNA). This indicates that experts are neither strongly bullish nor bearish on these companies. The article details specific analyst ratings, price targets, and success rates for each company.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PYPL/pressreleases/34662/analysts-are-neutral-on-top-financial-stocks-paypal-holdings-pypl-prudential-financial-pru/",
+      "time_published": "20260205T032802",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.041152,
+      "ticker_sentiment": [
+        {
+          "ticker": "PRU",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.043168",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.037757",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Are Neutral on Top Financial Stocks: PayPal Holdings (PYPL), Prudential Financial (PRU)",
+      "summary": "Analysts have issued neutral ratings for several top financial stocks, including PayPal Holdings (PYPL), Prudential Financial (PRU), and Chain Bridge Bancorp, Inc. Class A (CBNA). This indicates that experts are neither strongly bullish nor bearish on these specific stocks. The article details individual analyst ratings, price targets, and analyst performance metrics for each company.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PYPL-Q/pressreleases/34662/analysts-are-neutral-on-top-financial-stocks-paypal-holdings-pypl-prudential-financial-pru/",
+      "time_published": "20260205T031024",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.019318,
+      "ticker_sentiment": [
+        {
+          "ticker": "PRU",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.019682",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.913353",
+          "ticker_sentiment_score": "0.028838",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Former PayPal exec says company has 'lost its mojo' as stock continues slide (PYPL:NASDAQ)",
+      "summary": "PayPal's stock experienced a significant decline following disappointing earnings, negative guidance, and a management change. A former executive, David Marcus, criticized the company for losing its innovative edge and prioritizing predictability, which he believes has negatively impacted its competitiveness in the payments market. Investors are concerned about leadership lacking payments experience, further contributing to the stock's slide.",
+      "url": "https://seekingalpha.com/news/4547388-former-paypal-exec-says-company-has-lost-its-mojo-as-stock-continues-slide",
+      "time_published": "20260205T005809",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": 0.031235,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.318215",
+          "ticker_sentiment_score": "0.009957",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "PayPal downgraded, Five Below upgraded: Wall Street's top analyst calls",
+      "summary": "This article details Wall Street's top analyst calls, highlighting several upgrades and downgrades for major companies. PayPal saw multiple downgrades to Hold due to maturing e-commerce payment volume and unclear growth plans, while Five Below was upgraded to Buy, anticipating improved results under new leadership. Other companies like Airbnb, Booking Holdings, and GE Vernova received upgrades, while TransDigm, Teradyne, and CF Industries faced downgrades.",
+      "url": "https://finance.yahoo.com/news/paypal-downgraded-five-below-upgraded-143348437.html",
+      "time_published": "20260205T003300",
+      "source": "Yahoo Finance",
+      "overall_sentiment_score": 0.086733,
+      "ticker_sentiment": [
+        {
+          "ticker": "FIVE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.439979",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.942068",
+          "ticker_sentiment_score": "0.041779",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "BKNG",
+          "relevance_score": "0.722385",
+          "ticker_sentiment_score": "0.018191",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GEV",
+          "relevance_score": "0.616054",
+          "ticker_sentiment_score": "0.328274",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "CF",
+          "relevance_score": "0.641489",
+          "ticker_sentiment_score": "-0.405319",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "3 Reasons KTB is Risky and 1 Stock to Buy Instead",
+      "summary": "This article analyzes Kontoor Brands (KTB), arguing that despite a recent stock price increase, the company is risky due to weak constant currency growth, mediocre free cash flow margin, and declining return on invested capital. The author advises caution against buying KTB and suggests looking into other high-quality stocks.",
+      "url": "https://finviz.com/news/301382/3-reasons-ktb-is-risky-and-1-stock-to-buy-instead",
+      "time_published": "20260204T230200",
+      "source": "Finviz",
+      "overall_sentiment_score": 0.13318,
+      "ticker_sentiment": [
+        {
+          "ticker": "KTB",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.613823",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.607524",
+          "ticker_sentiment_score": "0.277218",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.618735",
+          "ticker_sentiment_score": "0.288796",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.608646",
+          "ticker_sentiment_score": "0.530734",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Assessing Summit Therapeutics (SMMT) Valuation After FDA Acceptance Of Ivonescimab BLA",
+      "summary": "Summit Therapeutics (SMMT) recently had its Biologics License Application for ivonescimab accepted by the FDA, with a PDUFA action date set for November 14, 2026. Despite a high Price-to-Book ratio of 58.5x, suggesting overvaluation compared to industry peers, Simply Wall St's Discounted Cash Flow model indicates a significant undervaluation at $14.59 per share against an estimated future cash flow value of $213.88. Investors face a mixed signal from the market, with recent share price declines contrasting with long-term returns and a projected large discount based on future cash flow.",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-smmt/summit-therapeutics/news/assessing-summit-therapeutics-smmt-valuation-after-fda-accep",
+      "time_published": "20260204T222949",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": -0.095997,
+      "ticker_sentiment": [
+        {
+          "ticker": "SMMT",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.113635",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.567125",
+          "ticker_sentiment_score": "-0.073666",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.570351",
+          "ticker_sentiment_score": "-0.096374",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.570646",
+          "ticker_sentiment_score": "-0.057251",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.593539",
+          "ticker_sentiment_score": "-0.093827",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Are Neutral on Top Financial Stocks: PayPal Holdings (PYPL), Prudential Financial (PRU)",
+      "summary": "Analysts have issued neutral ratings for top financial stocks PayPal Holdings (PYPL), Prudential Financial (PRU), and Chain Bridge Bancorp, Inc. Class A (CBNA). This indicates that experts are neither strongly bullish nor bearish on these stocks. The reports detail specific analyst ratings, price targets, and potential upsides for each company.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CBNA/pressreleases/34662/analysts-are-neutral-on-top-financial-stocks-paypal-holdings-pypl-prudential-financial-pru/",
+      "time_published": "20260204T213023",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.024633,
+      "ticker_sentiment": [
+        {
+          "ticker": "CBNA",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.015787",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.932711",
+          "ticker_sentiment_score": "0.045817",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "PRU",
+          "relevance_score": "0.807159",
+          "ticker_sentiment_score": "0.040025",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "PayPal Leadership Shake-Up - Former HP Exec Hired As New CEO",
+      "summary": "PayPal Holdings, Inc. (PYPL) experienced a leadership change with Enrique Lores, former HP Inc. CEO, appointed as its new President and CEO, effective March 1. The announcement led to a premarket stock decline, reflecting investor uncertainty despite the Board's confidence in Lores's ability to drive innovation. This shift follows PayPal's subpar Q4 performance, missing analyst estimates for both earnings and sales, and comes as analysts maintain a \"Hold\" rating on the stock with a cautious outlook due to weak momentum and quality scores.",
+      "url": "https://finance.yahoo.com/news/paypal-leadership-shake-former-hp-223115840.html",
+      "time_published": "20260204T193100",
+      "source": "Yahoo Finance",
+      "overall_sentiment_score": 0.022669,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.953557",
+          "ticker_sentiment_score": "-0.265510",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "HPQ",
+          "relevance_score": "0.732835",
+          "ticker_sentiment_score": "0.119034",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.579908",
+          "ticker_sentiment_score": "0.095676",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.576296",
+          "ticker_sentiment_score": "0.084172",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.561569",
+          "ticker_sentiment_score": "0.083661",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Ex-PayPal President David Marcus Says 'Defensive' BNPL Strategy Handed PYPL's Market Share To Rivals, Leading To Stagnant Growth",
+      "summary": "Former PayPal President David Marcus criticizes PayPal's \"defensive\" approach to Buy Now, Pay Later (BNPL) and its shift from product-led innovation to financial optimization, which he believes led to the company losing market share to rivals. He argues that PayPal's failure to make BNPL a core consumer relationship amidst its internal focus allowed competitors like Klarna and Affirm to thrive, leading to stagnant growth and a significant drop in PayPal's stock price. Marcus also expressed skepticism about the new leadership appointed to turn the company around.",
+      "url": "https://www.benzinga.com/markets/equities/26/02/50362942/ex-paypal-president-david-marcus-says-defensive-bnpl-strategy-handed-pypls-market-share-to-rivals-leading-to-stagnant-growth",
+      "time_published": "20260204T175727",
+      "source": "Benzinga",
+      "overall_sentiment_score": -0.257326,
+      "ticker_sentiment": [
+        {
+          "ticker": "PYPL",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.473219",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.716734",
+          "ticker_sentiment_score": "-0.141238",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.743121",
+          "ticker_sentiment_score": "-0.233413",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "HPQ",
+          "relevance_score": "0.636466",
+          "ticker_sentiment_score": "-0.102618",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Paychex stock hits 52-week low at 96.5 USD",
+      "summary": "Paychex Inc. stock has dropped to a 52-week low of $96.5, marking a 35.61% decline over the past year, though it maintains a 4.45% dividend yield and has consistently paid dividends for 39 years. Despite this downturn, InvestingPro analysis suggests the stock is undervalued and oversold, with the company demonstrating strong gross profit margins. Recent corporate actions include surpassing Q2 fiscal 2026 earnings expectations, expanding credit facilities, announcing a new share repurchase program, and declaring a cash dividend.",
+      "url": "https://www.investing.com/news/company-news/paychex-stock-hits-52week-low-at-965-usd-93CH-4485192",
+      "time_published": "20260204T144129",
+      "source": "Investing.com",
+      "overall_sentiment_score": -0.118902,
+      "ticker_sentiment": [
+        {
+          "ticker": "PAYX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.273441",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "PYPL",
+          "relevance_score": "0.599948",
+          "ticker_sentiment_score": "0.146134",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    }
+  ],
+  "monthly_summary": {
+    "2026-02": {
+      "count": 30,
+      "avg_sentiment": -0.039
+    }
+  }
+}

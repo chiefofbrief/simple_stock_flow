@@ -1,0 +1,41 @@
+{
+  "ticker": "PYPL",
+  "cik": "0001633917",
+  "fetch_date": "2026-02-10",
+  "filings": {
+    "10-K": {
+      "report_date": "2025-12-31",
+      "accession": "0001633917-26-000024",
+      "document": "pypl-20251231.htm",
+      "sections": {
+        "mda": {
+          "lines": 710,
+          "words": 10670,
+          "chars": 70441
+        },
+        "notes": {
+          "lines": 514,
+          "words": 3546,
+          "chars": 22477
+        }
+      }
+    },
+    "10-Q": {
+      "report_date": "2025-09-30",
+      "accession": "0001633917-25-000196",
+      "document": "pypl-20250930.htm",
+      "sections": {
+        "mda": {
+          "lines": 3,
+          "words": 14,
+          "chars": 96
+        },
+        "notes": {
+          "lines": 40,
+          "words": 376,
+          "chars": 2572
+        }
+      }
+    }
+  }
+}

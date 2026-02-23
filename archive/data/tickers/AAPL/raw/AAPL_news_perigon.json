@@ -1,0 +1,4610 @@
+{
+  "date_range": {
+    "from": "2025-11-22",
+    "to": "2026-02-20"
+  },
+  "stories": [
+    {
+      "clusterId": null,
+      "name": "North West, 12, reportedly signs Gamma deal",
+      "summary": "North West, 12, has signed a recording deal with Gamma, the independent entertainment company led by former Apple executive Larry Jackson that represents artists including Mariah Carey. According to reports, she has already begun studio sessions and released the single \u201cPiercing On My Hand,\u201d which she debuted live alongside her father in Mexico City in front of a large crowd. Gamma\u2019s roster and its professional ties to her father underscore the label\u2019s confidence in developing her as a young artist and mark a significant step toward a serious music career. North\u2019s recent fashion choices\u2014temporary finger piercings, blue hair and edgy looks\u2014sparked online debate, and Kim Kardashian publicly defended her daughter as experimenting and asked for grace. Parallel to the music push, Kardashian has filed trademarks for a NOR11 fashion and accessories line, suggesting coordinated plans for North in both music and brand ventures.",
+      "keyPoints": [
+        "North debuted \u201cPiercing On My Hand\u201d live in Mexico City in January before an audience of nearly 40,000 fans.",
+        "The single \u201cPiercing On My Hand\u201d was released on February 6.",
+        "The track\u2019s production credits include North\u2019s father Ye (Kanye West) and producer Will Frenchman."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "TikTok",
+          "symbols": []
+        },
+        {
+          "name": "Under Armour, Inc.",
+          "symbols": [
+            "0R2I.L",
+            "U9R.DE",
+            "U9RA.DE",
+            "UA",
+            "UAA"
+          ]
+        },
+        {
+          "name": "Yahoo Inc.",
+          "symbols": []
+        },
+        {
+          "name": "Spotify",
+          "symbols": [
+            "639.DE",
+            "SPF.SW",
+            "SPOT"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Kim Kardashian"
+        },
+        {
+          "name": "Sexyy Red"
+        },
+        {
+          "name": "Snoop Dogg"
+        },
+        {
+          "name": "North West"
+        },
+        {
+          "name": "Mariah Carey"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Music",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.4901469,
+        "negative": 0.15068334,
+        "neutral": 0.35916975
+      },
+      "createdAt": "2026-02-19T04:44:03.209891+00:00",
+      "updatedAt": "2026-02-20T19:23:13.910228+00:00",
+      "uniqueCount": 12,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple TV Becomes U.S. Home For F1",
+      "summary": "Apple has rolled out a dedicated, unremovable Formula 1 channel in the Apple TV app as part of a five-year U.S. broadcast rights deal, populating it with schedules, practice/qualifying placeholders and bonus content ahead of the 2026 season. In the United States, all 24 races will be available to Apple TV subscribers (with some practice sessions and select race weekends free) and the subscription will include F1.TV Premium at no extra cost. Apple and IMAX will screen five 2026 Grands Prix live at select IMAX theaters \u2014 Miami (May 3), Monaco (June 7), Silverstone (July 5), Monza (Sept. 6) and Austin (Oct. 25) \u2014 across at least 50 locations. DirecTV has agreed to carry Apple TV\u2019s full F1 circuit nationwide to residential customers and in 300,000+ commercial venues, expanding distribution to bars, restaurants and casinos. Apple has not finalized all production details for race presentation \u2014 the channel references a Sky Sports event schedule, suggesting it may use Sky commentary \u2014 and says more Apple-specific enhancements will be announced before the season starts.",
+      "keyPoints": [
+        "Apple secured rights tied to the F1 feature film (F1: The Movie), which has been a box\u2011office hit \u2014 reporting roughly $654M globally and strong IMAX results (the top\u2011grossing IMAX Hollywood release of 2025 at $97.6M) \u2014 and IMAX even re\u2011released the film after an Oscar Best Picture nomination.",
+        "DirecTV\u2019s carriage agreement with Apple TV not only covers the full 24\u2011race F1 circuit for residential and 300,000+ commercial venues, it also renews those customers\u2019 access to Apple TV\u2019s MLB \u201cFriday Night Baseball\u201d doubleheaders and includes a new season of MLS coverage.",
+        "The new Formula 1 channel on Apple TV contains more than just live event links \u2014 it includes a weekend \u2018warm\u2011up\u2019 show, clips/highlights from the 2025 season, a recap of the 2026 rule changes, and options to pre\u2011add races to Apple TV\u2019s Up Next."
+      ],
+      "companies": [
+        {
+          "name": "ESPN Inc.",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Major League Soccer (MLS)",
+          "symbols": []
+        },
+        {
+          "name": "Sky Group",
+          "symbols": []
+        },
+        {
+          "name": "Formula One Group",
+          "symbols": [
+            "0JUJ.L",
+            "FWONA",
+            "FWONB",
+            "FWONK"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Eddy Cue"
+        },
+        {
+          "name": "Lewis Hamilton"
+        },
+        {
+          "name": "Brad Pitt"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Formula 1",
+          "count": 24
+        },
+        {
+          "name": "TV",
+          "count": 17
+        },
+        {
+          "name": "Motorsports",
+          "count": 24
+        }
+      ],
+      "sentiment": {
+        "positive": 0.521608,
+        "negative": 0.072602846,
+        "neutral": 0.4057892
+      },
+      "createdAt": "2026-02-15T21:57:42.912120+00:00",
+      "updatedAt": "2026-02-20T19:19:52.533076+00:00",
+      "uniqueCount": 19,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "West Virginia AG sues Apple over iCloud CSAM",
+      "summary": "West Virginia Attorney General JB McCuskey filed a lawsuit on Feb. 19 alleging Apple knowingly allowed its iCloud platform to be used to store and distribute child sexual abuse material and that the platform\u2019s design makes it easy to maintain and repeatedly access large illicit collections. The complaint argues Apple ignored advanced automated hashing and detection tools and scrapped a planned 2021 iCloud image\u2011scanning system after privacy backlash rather than keeping stronger protections. McCuskey said internal communications described iCloud as the \u201cgreatest platform for distributing child porn\u201d and the state is seeking statutory and punitive damages plus injunctive and equitable relief to force Apple to implement effective CSAM detection and safer product design. Apple says it remains committed to child safety and user privacy and has defended its decision to pause the scanning feature while balancing those goals. The suit, framed as the first government action of its kind against Apple over CSAM, adds to broader legal pressure on tech companies over the distribution of sexually explicit material.",
+      "keyPoints": [
+        "The lawsuit was filed in the Circuit Court of Mason County, West Virginia.",
+        "Attorney General JB McCuskey said at a press conference: \u201cPreserving the privacy of child predators is absolutely inexcusable,\u201d and added, \u201cI am filing this lawsuit to demand Apple follow the law, report these images, and stop re-victimizing children by allowing these images to be stored and shared.\u201d",
+        "Apple\u2019s planned 2021 iCloud image\u2011scanning system would have compared image data to a database of confirmed abuse material and sent reports when a predefined threshold was met \u2014 a technical reporting mechanism cited in the complaint."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "Dropbox, Inc.",
+          "symbols": [
+            "0SGO.L",
+            "DBX"
+          ]
+        },
+        {
+          "name": "Dartmouth College",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Tim Cook"
+        },
+        {
+          "name": "John McCuskey"
+        },
+        {
+          "name": "Brad Smith"
+        },
+        {
+          "name": "Dick Costolo"
+        },
+        {
+          "name": "Lindsey Graham"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Sexual Exploitation",
+          "count": 94
+        },
+        {
+          "name": "Crime",
+          "count": 94
+        },
+        {
+          "name": "Lawsuits",
+          "count": 141
+        },
+        {
+          "name": "Markets",
+          "count": 14
+        },
+        {
+          "name": "Stocks",
+          "count": 5
+        }
+      ],
+      "sentiment": {
+        "positive": 0.05985005,
+        "negative": 0.69957805,
+        "neutral": 0.2405719
+      },
+      "createdAt": "2026-02-19T15:04:41.617853+00:00",
+      "updatedAt": "2026-02-20T19:02:07.354949+00:00",
+      "uniqueCount": 65,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Rivian launches Apple Watch controls for R1S, R1T",
+      "summary": "Rivian has launched a native Apple Watch app for R1S and R1T owners that lets users control key vehicle functions from their wrist and, in many cases, leave their iPhone behind. The app supports up to four customizable one-tap controls for actions like locking/unlocking, venting windows, opening trunks, and sounding the alarm, plus an Apple Watch complication that shows battery charge at a glance. It uses the Digital Crown to adjust cabin temperature and set a battery charging target, and the watch interface mirrors Rivian\u2019s iPhone and in-vehicle design for a consistent experience. Capabilities vary by vehicle generation: Gen 1 cars can lock/unlock and be driven with the app open, while Gen 2 models support passive entry via Apple Wallet car key and Ultra Wideband proximity. Rivian says the app is part of its broader software-first strategy and will receive additional features through future over-the-air updates.",
+      "keyPoints": [
+        "Passive-entry on second\u2011generation R1S/R1T requires relatively recent Apple hardware: an iPhone 11 or newer (explicitly excluding iPhone SE and iPhone 16e models) or an Apple Watch Series 6 or newer.",
+        "After updating the Rivian iPhone app from the App Store, the Apple Watch companion installs automatically \u2014 no separate App Store download on the Watch is required.",
+        "The watch UI mirrors Rivian\u2019s broader design language \u2014 it visualizes vehicle color and configuration, preserves iconography for Climate, Energy and Gear Guard, and even shows the Gear Guard yeti on the small watch screen."
+      ],
+      "companies": [
+        {
+          "name": "Rivian Automotive, Inc.",
+          "symbols": [
+            "RIVN"
+          ]
+        },
+        {
+          "name": "Volkswagen",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Tesla, Inc.",
+          "symbols": [
+            "TSLA",
+            "TL0.DE"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Apple Watch",
+          "count": 22
+        },
+        {
+          "name": "Electronics",
+          "count": 22
+        },
+        {
+          "name": "Electric Vehicles",
+          "count": 1
+        },
+        {
+          "name": "Green Energy",
+          "count": 1
+        },
+        {
+          "name": "ESG",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.42604318,
+        "negative": 0.06353853,
+        "neutral": 0.5104183
+      },
+      "createdAt": "2026-02-19T15:06:28.722412+00:00",
+      "updatedAt": "2026-02-20T19:00:52.558194+00:00",
+      "uniqueCount": 15,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "iPhone SOS helps rescue six Lake Tahoe skiers",
+      "summary": "A deadly avalanche in mid-February near Lake Tahoe\u2019s Castle Peak engulfed a guided backcountry group of 15 skiers, killing eight, leaving six survivors and one person still missing. The six survivors used Apple\u2019s Emergency SOS via satellite on their iPhones\u2014along with a separate personal locator/emergency beacon\u2014to text emergency responders and maintain two-way contact for several hours, helping pinpoint their location while they sheltered under a tarp. Nevada County and California Office of Emergency Services personnel, including Don O\u2019Keefe, said staff communicated with a guide for roughly four hours to relay information to the sheriff\u2019s office and coordinate rescue efforts. Rescuers reached and extracted the survivors after coordinating with crews, with officials noting the phone feature played a direct role but was not the sole factor in the operation. The incident is being cited as a real-world life\u2011saving example of Apple\u2019s satellite SOS capability (introduced with iPhone 14 and available on newer models), which can transmit location, Medical ID and other details when cellular or Wi\u2011Fi are unavailable and works best with a clear view of the sky.",
+      "keyPoints": [
+        "The group was returning from a three-day guided ski expedition led by Blackbird Mountain Guides in the Castle Peak area of the Tahoe National Forest; witnesses said one skier shouted \u201cAvalanche!\u201d moments before the slide struck.",
+        "Authorities received an emergency alert around 11:30 a.m.; rescuers reached the survivors shortly after 5:30 p.m. \u2014 more than six hours after the avalanche \u2014 and used a snowcat to evacuate them; two survivors were treated for non-life-threatening injuries at a hospital.",
+        "Avalanche danger in the area had been rated 4 out of 5, and severe winter-storm conditions, deep snow and unstable terrain significantly hampered search and rescue operations."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "The Mercury News",
+          "symbols": []
+        },
+        {
+          "name": "The New York Times Company",
+          "symbols": [
+            "NYT"
+          ]
+        },
+        {
+          "name": "Globalstar, Inc.",
+          "symbols": [
+            "GSAT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 23
+        },
+        {
+          "name": "iPhone",
+          "count": 23
+        }
+      ],
+      "sentiment": {
+        "positive": 0.18155268,
+        "negative": 0.30923113,
+        "neutral": 0.5092162
+      },
+      "createdAt": "2026-02-18T22:15:33.295368+00:00",
+      "updatedAt": "2026-02-20T18:44:39.118063+00:00",
+      "uniqueCount": 17,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Sarvam Unveils Kaze Glasses and 105B LLM",
+      "summary": "India\u2019s AI Impact Summit showcased a wave of homegrown projects and highlighted Bengaluru startup Sarvam AI. Sarvam, founded in 2023, unveiled a 105-billion-parameter foundational LLM the company says was trained from scratch in India and that it performs strongly across 22 Indic languages as well as speech, TTS and OCR tasks. The company said the models are more efficient for many real-world use cases than larger global systems, has a partnership with Qualcomm, and was cited by Google CEO Sundar Pichai as an example of domestic progress. Sarvam also unveiled consumer hardware \u2014 Sarvam Kaze smart glasses that Prime Minister Narendra Modi tried on \u2014 and said the product will go on sale in May 2026 with developer-customization features. Important details remain unanswered, including pricing, battery life, hardware specs and how much inference runs on-device versus in the cloud, making the May launch the test of whether Sarvam\u2019s Indic-focused strengths can translate into a competitive consumer wearable.",
+      "keyPoints": [
+        "Sarvam says its 105B model was built with \u201czero external data dependency\u201d and that its stack is \u201cdeveloped, deployed, and governed entirely in India,\u201d emphasizing a domestically controlled data and engineering pipeline.",
+        "Sarvam claims its smaller vision model outperforms much larger systems at extracting Indic scripts from documents and images, and said it has beaten a DeepSeek model as well as compared favourably with a model six times larger.",
+        "Sarvam was one of 12 organisations appointed by the Indian government to develop AI models built specifically on Indian datasets, with training data drawn from sources such as documents, textbooks, newspapers and scanned records."
+      ],
+      "companies": [
+        {
+          "name": "Asian News International",
+          "symbols": []
+        },
+        {
+          "name": "Government of India",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Narendra Modi"
+        },
+        {
+          "name": "Ashwini Vaishnaw"
+        },
+        {
+          "name": "Mark Zuckerberg"
+        },
+        {
+          "name": "Donald Trump"
+        },
+        {
+          "name": "Satya Nadella"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 62
+        },
+        {
+          "name": "Electronics",
+          "count": 3
+        },
+        {
+          "name": "Fitness",
+          "count": 3
+        },
+        {
+          "name": "Business Leaders",
+          "count": 1
+        },
+        {
+          "name": "SaaS",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.3399292,
+        "negative": 0.29881626,
+        "neutral": 0.3612545
+      },
+      "createdAt": "2026-02-17T06:58:25.937327+00:00",
+      "updatedAt": "2026-02-20T17:50:45.735645+00:00",
+      "uniqueCount": 58,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Nothing to Unveil Phone (4a) Series March 5",
+      "summary": "Nothing will unveil the Phone (4a) and Phone (4a) Pro on March 5, 2026, at Central Saint Martins in London with a livestreamed event. The series is positioned to push the A-line toward flagship territory, with leaks and company hints pointing to Qualcomm 7-series chips for the vanilla and a higher-end Snapdragon for the Pro, larger batteries, and faster UFS storage. Reported hardware includes a 6.78-inch 1.5K 120Hz AMOLED for the 4a and a 6.83-inch 1.5K 144Hz panel for the Pro, triple 50MP cameras on the base (up to ~70x digital zoom) and a 50MP Sony sensor on the Pro (up to ~140x zoom), and a retained transparent design with Glyph lighting (including a 63-mini LED Glyph Bar). Leaks also indicate faster 50W wired charging, an aluminum unibody for the Pro, multiple colorways, and base storage options similar to earlier reports. Estimated euro prices roughly span \u20ac389\u2013\u20ac549 (about under \u20b935,000 for the base and under \u20b945,000 for the Pro), with reported sale windows in mid\u2011March for the 4a and later in March for the Pro. Nothing will run a Community Review Program to test the phones ahead of release and plans to sell them globally, including in India via Flipkart and its Nothing retail outlet.",
+      "keyPoints": [
+        "The standard Phone (4a) is reported to include a 32MP front-facing (selfie) camera.",
+        "Leaked colour options list the Phone (4a) in Black, Blue, Pink and White, while the Phone (4a) Pro is said to come in Black, Pink and Silver.",
+        "More specific sale dates have leaked: the Phone (4a) is tipped to go on sale March 12, 2026, and the Phone (4a) Pro on March 26, 2026."
+      ],
+      "companies": [
+        {
+          "name": "Nothing Technology Ltd.",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "International Data Corporation",
+          "symbols": []
+        },
+        {
+          "name": "X",
+          "symbols": []
+        },
+        {
+          "name": "OnePlus",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Carl Pei"
+        },
+        {
+          "name": "Dharmendra Pradhan"
+        },
+        {
+          "name": "Roshni Nadar"
+        },
+        {
+          "name": "Sridhar Vembu"
+        },
+        {
+          "name": "Bill Gates"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Business Leaders",
+          "count": 2
+        },
+        {
+          "name": "Electronics",
+          "count": 5
+        },
+        {
+          "name": "iPhone",
+          "count": 4
+        },
+        {
+          "name": "Style",
+          "count": 1
+        },
+        {
+          "name": "Celebrities",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.38388148,
+        "negative": 0.067413636,
+        "neutral": 0.5487049
+      },
+      "createdAt": "2026-02-16T05:19:40.585073+00:00",
+      "updatedAt": "2026-02-20T17:45:43.310691+00:00",
+      "uniqueCount": 70,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Indiana lawmakers pass parental consent social media bill",
+      "summary": "Indiana lawmakers passed an amended bill requiring parental consent for anyone 17 and younger to use social media after Governor Mike Braun pushed for action following the abduction and death of 17-year-old Hailey Buzbee. The measure requires platforms to use \u201ccommercially reasonable means\u201d to verify a user\u2019s age and state residency and to obtain verifiable parental approval before accounts are created. It also includes protections for younger teens\u2014restricting certain addictive design features and barring the sale or exploitation of children\u2019s data for advertising\u2014and would allow parents to sue providers that permit access without consent. Lawmakers are simultaneously fast-tracking a new \u201cPink Alert\u201d emergency notification system with lower thresholds than an Amber Alert for missing juveniles. The bill has passed the legislature and is headed to Governor Braun\u2019s desk.",
+      "keyPoints": [
+        "The legislation was authored by Republican Senator Mike Bohacek; he has said the bill is not an attempt to regulate content.",
+        "The bill spells out specific design restrictions for younger teens (identified as 15 and under), including limits on algorithms and 'addictive' features such as infinite scrolling and automatic video playback.",
+        "Different reports identify the legislation by different bill numbers \u2014 one article refers to it as SB 129/HB 129, while another refers to Senate Bill 199."
+      ],
+      "companies": [
+        {
+          "name": "Snapchat",
+          "symbols": []
+        },
+        {
+          "name": "TikTok",
+          "symbols": []
+        },
+        {
+          "name": "European Union",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Mike Braun"
+        },
+        {
+          "name": "JB Pritzker"
+        },
+        {
+          "name": "Robert Pittman"
+        },
+        {
+          "name": "Kristi Noem"
+        },
+        {
+          "name": "Leslie Heinemann"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Media",
+          "count": 12
+        },
+        {
+          "name": "Social Media",
+          "count": 12
+        },
+        {
+          "name": "Second Amendment",
+          "count": 1
+        },
+        {
+          "name": "NRA",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.088211395,
+        "negative": 0.5109848,
+        "neutral": 0.40080383
+      },
+      "createdAt": "2026-02-17T23:44:47.708891+00:00",
+      "updatedAt": "2026-02-20T17:23:54.073998+00:00",
+      "uniqueCount": 17,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "8-year-old becomes youngest speaker at India AI summit",
+      "summary": "Ranvir Sachdeva, an eight-year-old technologist and author, became the youngest keynote speaker at the India AI Impact Summit 2026 in New Delhi, addressing a room of policymakers, CEOs and industry leaders. He framed his talk around linking ancient Indian philosophies to modern AI, presented a use case for a recently released Indian AI model, and said he is using that work to drive AI literacy and contribute to India\u2019s GDP. Ranvir\u2019s tech journey began very early\u2014he has been coding since age three\u2014and his profile includes a one-on-one demo with Apple CEO Tim Cook in 2023 and meetings with Google CEO Sundar Pichai and OpenAI\u2019s Sam Altman at the summit. He has previously spoken at global forums (including TEDx and the UN\u2019s AI for Good summit), earned awards such as a Global Reading Challenge gold medal, and built projects ranging from an API-powered chatbot to a prototype rocket. His confident delivery drew widespread praise on social media and highlighted narratives about India\u2019s indigenous AI development and youth-led technological leadership.",
+      "keyPoints": [
+        "Ranvir is studying machine learning at Harvard.",
+        "He serves as an ITU160 Ambassador for the International Telecommunication Union (ITU).",
+        "Ranvir holds a Google Responsible AI certificate."
+      ],
+      "companies": [
+        {
+          "name": "Salesforce, Inc.",
+          "symbols": [
+            "CRM",
+            "CRM.BA",
+            "FOO.DE"
+          ]
+        },
+        {
+          "name": "Asian News International",
+          "symbols": []
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Tim Cook"
+        },
+        {
+          "name": "Ant\u00f3nio Guterres"
+        },
+        {
+          "name": "Marc Benioff"
+        },
+        {
+          "name": "Sundar Pichai"
+        },
+        {
+          "name": "Sam Altman"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 12
+        },
+        {
+          "name": "Business Leaders",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.5643817,
+        "negative": 0.08067916,
+        "neutral": 0.3549391
+      },
+      "createdAt": "2026-02-19T11:46:34.420745+00:00",
+      "updatedAt": "2026-02-20T17:20:17.404403+00:00",
+      "uniqueCount": 9,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple TV restores 'The Hunt', sets March 4",
+      "summary": "After a roughly three\u2011month plagiarism probe, Apple TV+ set the six\u2011episode French thriller The Hunt (Traqu\u00e9s) to debut March 4 with the first two episodes, followed by weekly releases. The series was pulled days before its original Dec. 3, 2025 premiere after reporting surfaced that creator\u2011director C\u00e9dric Anger's \"original\" project bore significant similarities to Douglas Fairbairn\u2019s 1973 novel Shoot and its 1976 film adaptation. Producer Gaumont said its internal review identified the rights holders and obtained the necessary authorizations, and Apple updated credits to officially bill the series as based on Shoot. The drama \u2014 starring Beno\u00eet Magimel and M\u00e9lanie Laurent \u2014 returns after the revisions, though outlets noted the last\u2011minute pause was financially and operationally disruptive for Apple.",
+      "keyPoints": [
+        "Supporting cast includes Damien Bonnard, Manuel Guillot, C\u00e9dric Appietto and Fr\u00e9d\u00e9ric Maranber in addition to Beno\u00eet Magimel and M\u00e9lanie Laurent.",
+        "Douglas Fairbairn\u2019s novel Shoot was previously adapted into a 1976 feature film directed by Harvey Hart from a screenplay by Richard Berg; Fairbairn died in 1997.",
+        "The Hunt\u2019s executive producers are Sidonie Dumas, Isabelle Degeorges, Cl\u00e9mentine Vaudaux and Alexis Barqueiro."
+      ],
+      "companies": [
+        {
+          "name": "Gaumont SA",
+          "symbols": [
+            "GAM.PA"
+          ]
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "X",
+          "symbols": []
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "M\u00e9lanie Laurent"
+        },
+        {
+          "name": "Sidonie Dumas"
+        },
+        {
+          "name": "Douglas Fairbairn"
+        },
+        {
+          "name": "Benoit Magimel"
+        },
+        {
+          "name": "Christa Miller"
+        }
+      ],
+      "topics": [
+        {
+          "name": "TV",
+          "count": 20
+        }
+      ],
+      "sentiment": {
+        "positive": 0.0747265,
+        "negative": 0.5745537,
+        "neutral": 0.35071975
+      },
+      "createdAt": "2026-02-19T15:02:05.343548+00:00",
+      "updatedAt": "2026-02-20T17:05:13.311065+00:00",
+      "uniqueCount": 12,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Berkshire Adds New York Times Stake",
+      "summary": "Berkshire Hathaway disclosed a roughly $350 million stake in The New York Times \u2014 about 5.07 million shares \u2014 in its Dec. 31, 2025 13F filing, marking a return to news/media after selling its newspaper portfolio in 2020. The purchase occurred in Warren Buffett\u2019s final quarter as CEO; Buffett handed the role to Greg Abel on Jan. 1, 2026, and Berkshire has not said whether Buffett, Abel or other managers directed the buy. The filing also showed trims to Apple, Bank of America and a large reduction in Amazon, while the firm added to holdings including Chevron and Alphabet and kept a record cash hoard. Investors are watching Greg Abel\u2019s forthcoming first shareholder letter and the Q4 report for clues on how Berkshire will deploy its cash and whether its investment approach will shift under new leadership. Berkshire\u2019s capital\u2011intensive businesses \u2014 railroads, utilities and energy \u2014 remain the conglomerate\u2019s cash\u2011generating backbone supporting long-term strategy.",
+      "keyPoints": [
+        "Tim Franklin of Northwestern\u2019s Medill School called Berkshire\u2019s move \u201ca full circle moment,\u201d noting The New York Times has become a thriving digital business with more than 12 million digital subscribers and successful products such as Wordle and The Athletic.",
+        "Berkshire increased its Chevron stake just before President Donald Trump ordered the arrest of Venezuela\u2019s president, highlighting a timing element to that energy bet noted in the filing.",
+        "The SEC filing showed specific portfolio moves: Berkshire trimmed Apple by about 4% and Bank of America by about 9%, and it sold roughly 77% of its Amazon position (value falling from about $2.2 billion to $525 million). It also added to Chubb, sold down Aon, and left its Alphabet stake untouched as that position rose in value from roughly $4.3 billion to $5.6 billion."
+      ],
+      "companies": [
+        {
+          "name": "Berkshire Hathaway Inc.",
+          "symbols": [
+            "BRH.DE",
+            "BRK-A",
+            "BRK-B",
+            "BRYN.DE",
+            "BRK.NE",
+            "BRKA.VI"
+          ]
+        },
+        {
+          "name": "Union Pacific Corporation",
+          "symbols": [
+            "0R2E.L",
+            "UNP",
+            "UNP.DE"
+          ]
+        },
+        {
+          "name": "NextEra Energy, Inc.",
+          "symbols": [
+            "0K80.L",
+            "NEE"
+          ]
+        },
+        {
+          "name": "BNSF Railway",
+          "symbols": []
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbols": [
+            "ABEA.DE",
+            "ABEC.DE",
+            "GOOG",
+            "GOOGL",
+            "GOOGL.SW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Greg Abel"
+        },
+        {
+          "name": "Warren Buffett"
+        },
+        {
+          "name": "Todd Combs"
+        },
+        {
+          "name": "Jamie Dimon"
+        },
+        {
+          "name": "Jeff Bezos"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 84
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        },
+        {
+          "name": "Business Leaders",
+          "count": 126
+        },
+        {
+          "name": "Media",
+          "count": 109
+        },
+        {
+          "name": "Economy",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.3303928,
+        "negative": 0.27314895,
+        "neutral": 0.39645824
+      },
+      "createdAt": "2026-02-15T09:21:57.367481+00:00",
+      "updatedAt": "2026-02-20T16:44:41.461204+00:00",
+      "uniqueCount": 40,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Confirms March 4 Event, iPhone 17e Expected",
+      "summary": "Apple confirmed a \u201cspecial Apple Experience\u201d for March 4 with in-person gatherings in New York, London and Shanghai and is expected to unveil iPhones, iPads and Macs. The event is widely tipped to introduce an iPhone 17e \u2014 a lower-cost model rumored to include an A19 chip, a C1X modem, improved MagSafe/wireless charging and a single 48MP main camera while omitting ultrawide/telephoto modules and some high-end features. Leaks also point to a 6.1-inch 60Hz OLED display and a 12MP front shooter, with Apple keeping ProMotion 120Hz and other premium hardware for the Pro lineup. Reports say Apple plans substantial Mac updates including a lower-cost MacBook using an A18 Pro-class chip with 8GB of RAM priced around $699\u2013$799, plus refreshed MacBook Pros with M5 Pro and M5 Max chiplet designs. Separately, the iPhone 17 Pro Max is reportedly retaining unusually high resale value and driving many trade-ins, and critics warn the 17e may be priced higher than Android rivals like the Pixel 10a, weakening its mid-range value proposition.",
+      "keyPoints": [
+        "SellCell data cited by PhoneArena shows the iPhone 17 Pro Max has depreciated just 25.4% after ~145 days versus 32.5% for the 16 Pro Max in the same timeframe, and the 17 Pro Max\u2019s share of trade-ins rose to 11.5% (from 5.1% at end\u2011Nov 2025, 7.7% on Jan 5, 2026, and 9.5% later), helping explain unusually strong resale/trade\u2011in activity.",
+        "Industry reporting (cited by Moneycontrol/TechRadar) estimates initial shipments of the rumored lower\u2011cost MacBook could be as high as eight million units, underscoring Apple\u2019s potential volume push in the sub\u2011Air segment.",
+        "Coverage (Forbes/Mark Gurman context) suggests the March 4 \u201cspecial Apple Experience\u201d may be atypical \u2014 possibly staged as hands\u2011on experiences in three cities simultaneously (New York, London, Shanghai) rather than a traditional single keynote, and could follow press release announcements earlier in the week."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "AT&T Inc",
+          "symbols": [
+            "0QZ1.L",
+            "T-PC",
+            "T-PA",
+            "T",
+            "SOBA.DE",
+            "TBB",
+            "TBC"
+          ]
+        },
+        {
+          "name": "Verizon Communications Inc.",
+          "symbols": [
+            "BAC.DE",
+            "VZ"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Costco Wholesale Corporation",
+          "symbols": [
+            "0I47.L",
+            "CTO.DE",
+            "COST"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "iPhone",
+          "count": 30
+        },
+        {
+          "name": "Electronics",
+          "count": 30
+        },
+        {
+          "name": "5G",
+          "count": 1
+        },
+        {
+          "name": "Europe Public Private Sector",
+          "count": 1
+        },
+        {
+          "name": "Android",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.44872314,
+        "negative": 0.11244086,
+        "neutral": 0.438836
+      },
+      "createdAt": "2026-02-16T11:06:18.962070+00:00",
+      "updatedAt": "2026-02-20T16:33:34.579016+00:00",
+      "uniqueCount": 29,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple TV releases Imperfect Women trailer",
+      "summary": "Apple TV released the first trailer for Imperfect Women, an eight-episode psychological thriller adapted from Araminta Hall\u2019s novel that premieres March 18, 2026, with the first two episodes debuting together and new installments rolling out weekly. The series stars and is executive produced by Elisabeth Moss and Kerry Washington and follows three friends\u2014Moss\u2019s Mary, Washington\u2019s Eleanor and Kate Mara\u2019s Nancy\u2014whose decades-long bond unravels after Nancy\u2019s suspicious death, revealing buried secrets. Annie Weisman created and showruns the series, Lesli Linka Glatter directs multiple episodes, and a supporting ensemble includes Joel Kinnaman, Corey Stoll, Leslie Odom Jr., Sheryl Lee Ralph and others. The show is billed as an unconventional thriller exploring guilt and retribution, love and betrayal, and the compromises that irrevocably reshape lives.",
+      "keyPoints": [
+        "Elisabeth Moss said of the source material: \"From the moment I received Araminta\u2019s novel, I couldn\u2019t put it down. It was such an electrifying read; I fell in love with it immediately.\"",
+        "Kerry Washington said she \"could not have been more thrilled to get this call from Elisabeth\" and praised showrunner Annie Weisman, calling her someone she \"couldn't think of a better person to bring this project to life on screen.\"",
+        "Imperfect Women is a co-production between 20th Television and Apple Studios; Moss and Lindsey McManus executive produce via Love & Squalor Pictures, while Washington executive produces under her Simpson Street banner alongside Pilar Savone. Author Araminta Hall and writer Kay Oyegun are also credited as executive producers."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "symbols": []
+        },
+        {
+          "name": "X",
+          "symbols": []
+        },
+        {
+          "name": "Yahoo Inc.",
+          "symbols": []
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Kerry Washington"
+        },
+        {
+          "name": "Kate Mara"
+        },
+        {
+          "name": "Joel Kinnaman"
+        },
+        {
+          "name": "Elisabeth Moss"
+        },
+        {
+          "name": "Sheryl Lee Ralph"
+        }
+      ],
+      "topics": [
+        {
+          "name": "TV",
+          "count": 24
+        },
+        {
+          "name": "Celebrities",
+          "count": 1
+        },
+        {
+          "name": "Movies",
+          "count": 4
+        }
+      ],
+      "sentiment": {
+        "positive": 0.2930063,
+        "negative": 0.20157076,
+        "neutral": 0.50542295
+      },
+      "createdAt": "2026-02-16T10:39:12.668345+00:00",
+      "updatedAt": "2026-02-20T16:16:15.121702+00:00",
+      "uniqueCount": 30,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "2026 Toyota RAV4 Gains Digital Wallet Car Key",
+      "summary": "Toyota has begun rolling out a digital wallet Car Key for the 2026 RAV4, a rollout confirmed by Toyota and reporting. The capability is built into Toyota\u2019s latest Audio Multimedia system as an enhanced Digital Key managed through device wallets, and it lets owners lock, unlock, start, and share keys with up to five drivers. It uses Ultra Wideband passive entry on supported devices (iPhone 11+/Apple Watch Series 6+) and appears to require a Toyota Remote Connect subscription (about $15/month) with a one-year trial for new-vehicle buyers. Toyota\u2019s implementation integrates with native wallets including Apple Wallet, Google Wallet and Samsung Wallet, though Apple\u2019s public Car Key compatibility list has not yet been updated to show the RAV4. Toyota says additional models, including some 2026 Lexus vehicles, will receive the feature as the rollout continues.",
+      "keyPoints": [
+        "The initial discovery of Apple Car Key support on the 2026 RAV4 came from a Reddit post rather than an official Toyota press release; the owner described approaching the car with phone in pocket and the vehicle unlocking and starting automatically.",
+        "Reports indicate Toyota had already been added to Apple\u2019s backend database (a December report), which presaged the recent public rollout of Car Key support.",
+        "Observers say the feature appears to be launching on just two models initially, with more vehicles to follow later this year (including the new 2026 Lexus ES on the Lexus side)."
+      ],
+      "companies": [
+        {
+          "name": "Hyundai Motor Company",
+          "symbols": [
+            "005380.KS",
+            "005385.KS",
+            "005387.KS",
+            "005389.KS"
+          ]
+        },
+        {
+          "name": "Toyota Motor Corporation",
+          "symbols": [
+            "7203.T",
+            "TYT.L",
+            "TM"
+          ]
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Audi",
+          "symbols": []
+        },
+        {
+          "name": "Reddit, Inc.",
+          "symbols": [
+            "RDDT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 10
+        },
+        {
+          "name": "iPhone",
+          "count": 10
+        }
+      ],
+      "sentiment": {
+        "positive": 0.33716092,
+        "negative": 0.127165,
+        "neutral": 0.5356741
+      },
+      "createdAt": "2026-02-17T20:40:17.296364+00:00",
+      "updatedAt": "2026-02-20T16:06:31.183047+00:00",
+      "uniqueCount": 15,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple CarPlay expected to support AI chatbots",
+      "summary": "Apple\u2019s iOS 26.4 beta adds support for \u201cvoice\u2011based conversational apps\u201d on CarPlay, enabling third\u2011party AI chatbots such as Claude, Gemini and ChatGPT to run with a vehicle\u2011optimized voice control screen. Developers will need to update their apps to meet CarPlay\u2019s requirements, which force a voice\u2011first design optimized for driving and restrict visual output to minimize distraction. Apple also bars these apps from controlling the vehicle or iPhone and does not support hotword wake\u2011phrases, meaning they must generally be launched manually. At the same time Apple is keeping Siri the dominant in\u2011car assistant \u2014 requiring SiriKit for most voice interactions and pursuing a Gemini-powered overhaul of Siri \u2014 so third\u2011party chatbots face practical limits to becoming the default. The move opens new opportunities for AI services and marketers as CarPlay (and the deeper CarPlay Ultra) expands capability, but safety, UX and default\u2011assistant rules mean adoption will likely be gradual and constrained.",
+      "keyPoints": [
+        "The CarPlay conversational-app support is currently limited to the iOS 26.4 beta \u2014 Apple has unlocked the new app category in the beta build, with a production rollout not yet delivered.",
+        "While Apple bars third\u2011party voice apps from controlling the vehicle or the iPhone, the developer guide notes conversational apps could still 'take action on your behalf' if the AI service is linked to other external systems (for example, signing you up for services or triggering remote actions outside the car).",
+        "Apple requires voice apps to only hold an audio session when voice features are actively used and to optimize responses for voice (minimizing or avoiding text/imagery) \u2014 technical constraints aimed specifically at reducing driver distraction."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Getty Images Holdings, Inc.",
+          "symbols": [
+            "GETY"
+          ]
+        },
+        {
+          "name": "Ziff Davis, Inc.",
+          "symbols": [
+            "JCOM",
+            "ZD",
+            "ZDVSV"
+          ]
+        },
+        {
+          "name": "Stripe",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 9
+        },
+        {
+          "name": "Android",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.1386377,
+        "negative": 0.36904606,
+        "neutral": 0.49231622
+      },
+      "createdAt": "2026-02-18T20:26:30.508278+00:00",
+      "updatedAt": "2026-02-20T16:00:22.527410+00:00",
+      "uniqueCount": 9,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple TV brings F1, MLS, MLB nationwide",
+      "summary": "Apple TV has struck a distribution deal with EverPass Media to bring its live sports \u2014 including Formula 1, every Major League Soccer match, and Major League Baseball\u2019s Friday Night Baseball \u2014 to commercial venues such as bars, restaurants, hotels and gyms via EverPass\u2019s Core package at no additional cost. The EverPass Core platform, which already aggregates properties like Paramount+\u2019s UEFA Champions League, Prime Video\u2019s Thursday Night Football, and NBA/WNBA coverage, handles the licensing and streaming needs so venues can show games without managing individual consumer subscriptions. Participating locations will receive full F1 coverage (practice, qualifying, Sprint and races), every MLS match with enhanced weekend programming and event coverage, and weekly MLB doubleheaders with pre- and postgame coverage. EverPass CEO Alex Kaplan said the addition strengthens and diversifies the company\u2019s premium sports library, and the agreement is part of Apple TV\u2019s broader push to expand its sports footprint and presence in public viewing locations to attract more viewers and subscribers.",
+      "keyPoints": [
+        "EverPass Media launched in 2023 and works directly with premium rightsholders and distributors; its platform already includes additional properties such as NFL Sunday Ticket and Peacock.",
+        "Apple rebranded its streaming service last year, dropping the \u201c+\u201d from Apple TV+ and relaunching the service as 'Apple TV' with a new identity.",
+        "Apple's rollout of sports rights has been gradual: it began airing Friday Night Baseball in April 2022, acquired MLS Season Pass less than a year later, and in 2026 became the exclusive U.S. home for Formula 1 races."
+      ],
+      "companies": [
+        {
+          "name": "Major League Soccer (MLS)",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Major League Baseball",
+          "symbols": []
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        },
+        {
+          "name": "Comcast Corporation",
+          "symbols": [
+            "CMCSA",
+            "CTP2.DE"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Anthony Joshua"
+        },
+        {
+          "name": "Jake Paul"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Formula 1",
+          "count": 7
+        },
+        {
+          "name": "Motorsports",
+          "count": 7
+        },
+        {
+          "name": "TV",
+          "count": 36
+        },
+        {
+          "name": "MLB",
+          "count": 5
+        },
+        {
+          "name": "Baseball",
+          "count": 7
+        }
+      ],
+      "sentiment": {
+        "positive": 0.682001,
+        "negative": 0.038312785,
+        "neutral": 0.2796862
+      },
+      "createdAt": "2026-02-19T17:07:51.372715+00:00",
+      "updatedAt": "2026-02-20T15:46:21.903823+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Accelerates AI Wearables; AirPods Could Launch 2026",
+      "summary": "Apple is accelerating development of three AI wearables \u2014 smart glasses (codenamed N50), an AirTag-sized pendant/pin, and camera-equipped AirPods \u2014 all designed to connect to the iPhone and feed visual context into a revamped Siri, according to multiple reports. The glasses are said to use two cameras (a high-resolution sensor plus a computer-vision sensor), omit an on-lens display in favor of voice interactions, be built in-house with premium frames, and target production in late 2026 for a likely 2027 launch. Camera-equipped AirPods are reported to be furthest along and could arrive as soon as late 2026, while the pendant is earlier-stage and may target 2027. The devices emphasize contextual AI features \u2014 object recognition, navigation, reminders, live translation and other Siri actions \u2014 and will rely on the iPhone plus a mix of on-device and cloud models (reports note potential use of Google\u2019s Gemini). Apple has bolstered audio/AI capabilities via acquisitions such as Q.ai and is positioning the lineup to extend its hardware ecosystem, differentiate on industrial design and privacy, and create new revenue opportunities.",
+      "keyPoints": [
+        "The stock market reacted to the reports: Apple shares jumped about 2.7% to a session high, while partner eyewear maker EssilorLuxottica\u2019s ADRs fell more than 7%, signaling investor appetite and competitive market impact.",
+        "The effort is being led by Apple\u2019s internal Vision Products Group \u2014 the same team that developed the Vision Pro headset \u2014 rather than an outside hardware partner.",
+        "The AirTag\u2011sized pendant is explicitly compared to the Humane AI Pin but without a projector; it leans heavily on the iPhone for processing, may or may not include a speaker for two\u2011way Siri conversations, and remains early\u2011stage enough that it could still be canceled."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbols": [
+            "FB",
+            "FB2A.DE",
+            "META"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Tim Cook"
+        },
+        {
+          "name": "Carl Pei"
+        },
+        {
+          "name": "Sundar Pichai"
+        },
+        {
+          "name": "Alexandr Wang"
+        },
+        {
+          "name": "Alex Karp"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 123
+        },
+        {
+          "name": "Markets",
+          "count": 12
+        },
+        {
+          "name": "AirPods",
+          "count": 55
+        },
+        {
+          "name": "Electronics",
+          "count": 63
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.3692324,
+        "negative": 0.1646701,
+        "neutral": 0.4660975
+      },
+      "createdAt": "2026-02-17T18:18:45.038764+00:00",
+      "updatedAt": "2026-02-20T15:22:47.534409+00:00",
+      "uniqueCount": 93,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Podcasts Adds HLS Video, Ad Network Fees",
+      "summary": "Apple is adding native HLS-based integrated video support to Apple Podcasts, available now in iOS/iPadOS/visionOS 26.4 developer betas with a public beta and broader web/device rollout planned ahead of a spring release. The HLS implementation combines audio and video in a single feed with adaptive streaming so listeners can seamlessly switch between audio and video within an episode, watch in portrait or landscape (including full-screen and picture-in-picture), download episodes for offline viewing, and preserve synced transcripts and chapters. For creators, the unified playback removes the need for separate RSS audio and video entries and enables dynamic video ad insertion and other monetization options. Apple says it will not charge creators for distribution but will levy impression-based fees on participating ad networks later this year, and it is working with hosting and ad partners including Acast, ART19, Omny Studio, SiriusXM, AdsWizz and Simplecast to support HLS video. Apple frames the change as part of a broader services strategy to boost engagement and better compete with platforms that already embrace video podcasting.",
+      "keyPoints": [
+        "Edison Research data cited by Apple/tech coverage shows video podcasting penetration is already large: 51% of U.S. adults have consumed a video podcast and 37% consume video podcasts monthly.",
+        "The Podcasts UI includes a clear 'Turn video off/on' control above the existing progress bar to switch between audio and video playback.",
+        "Competing platforms already host massive podcast audiences: YouTube reported about 1 billion monthly podcast viewers, and Spotify said it hosts roughly 500,000 video podcasts that nearly 400 million users have watched."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Spotify",
+          "symbols": [
+            "639.DE",
+            "SPF.SW",
+            "SPOT"
+          ]
+        },
+        {
+          "name": "Netflix, Inc.",
+          "symbols": [
+            "NFC.DE",
+            "NFLX"
+          ]
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        },
+        {
+          "name": "Sirius XM Holdings Inc",
+          "symbols": [
+            "RDO.DE"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Eddy Cue"
+        },
+        {
+          "name": "Harrison Ford"
+        },
+        {
+          "name": "Jason Segel"
+        },
+        {
+          "name": "Michael J. Fox"
+        },
+        {
+          "name": "Zane Lowe"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Podcasts",
+          "count": 37
+        },
+        {
+          "name": "Markets",
+          "count": 7
+        },
+        {
+          "name": "Electronics",
+          "count": 2
+        },
+        {
+          "name": "iPhone",
+          "count": 2
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.49138272,
+        "negative": 0.077662475,
+        "neutral": 0.4309548
+      },
+      "createdAt": "2026-02-16T18:18:13.301666+00:00",
+      "updatedAt": "2026-02-20T14:08:26.450844+00:00",
+      "uniqueCount": 88,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Kelly, Cuomo Trade Barbs Over Guthrie Coverage",
+      "summary": "Megyn Kelly and Chris Cuomo have publicly exchanged barbs over Kelly's coverage of the suspected disappearance of Nancy Guthrie, with Cuomo calling her reporting \u201cclick bait\u201d and criticizing \u201csloppy influencers\u201d on X and NewsNation. Kelly defended continued scrutiny, ridiculed Cuomo on air\u2014repeatedly calling him \u201cFredo\u201d\u2014and accused him of jealousy while Cuomo noted her high\u2011profile NBC payout. Kelly and other broadcasters, including Ashleigh Banfield, have suggested Savannah Guthrie\u2019s brother\u2011in\u2011law, Tommaso Cioni, could be a suspect; the Pima County Sheriff\u2019s Department says no suspects have been identified and has warned against public speculation. Kelly has pointed to changes in a police press release and sheriff quotes to justify not ruling out family members, while Pima County Sheriff Chris Nanos has urged the public not to suspect the family. The dispute has intensified debate about media sleuthing, privacy and responsible reporting and has revived past controversies involving both hosts.",
+      "keyPoints": [
+        "Kelly said explicitly on air, \u201cEveryone remains a suspect until we have somebody in handcuffs,\u201d framing her refusal to rule out family members as part of standard investigative caution.",
+        "Chris Cuomo directly replied on X to Kelly\u2019s segment with, \u201cGet over yourself, little hater. Odd language choice for a mom with young kids. Classy,\u201d and has also called her coverage \u201csloppy\u201d and accused sleuths of seeking \u201cclicks and ragebait.\u201d",
+        "Kelly attacked Cuomo\u2019s past coverage and family ties on air, accusing him of putting his \u201closer brother\u201d on his show and of failing to report honestly about his brother\u2019s alleged misconduct \u2014 invoking #MeToo-era criticisms."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Sirius XM Holdings Inc",
+          "symbols": [
+            "RDO.DE"
+          ]
+        },
+        {
+          "name": "Daily Mail",
+          "symbols": []
+        },
+        {
+          "name": "NBC",
+          "symbols": []
+        },
+        {
+          "name": "Yahoo Inc.",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Chris Cuomo"
+        },
+        {
+          "name": "Andrew Cuomo"
+        },
+        {
+          "name": "Elizabeth Vargas"
+        },
+        {
+          "name": "Jamie Lee Curtis"
+        },
+        {
+          "name": "Marjorie Taylor Greene"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Law Enforcement",
+          "count": 1
+        },
+        {
+          "name": "Australia",
+          "count": 1
+        },
+        {
+          "name": "Media",
+          "count": 3
+        }
+      ],
+      "sentiment": {
+        "positive": 0.12771025,
+        "negative": 0.43606877,
+        "neutral": 0.43622097
+      },
+      "createdAt": "2026-02-17T20:43:49.793204+00:00",
+      "updatedAt": "2026-02-20T13:12:19.843378+00:00",
+      "uniqueCount": 14,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Earbuds Expand into Health, Sleep in 2026",
+      "summary": "Personal-audio best-of lists for 2026 show earbuds evolving beyond sound into health, sleep and accessibility tools while continuing improvements in active noise cancellation, comfort and battery life. Apple\u2019s newest AirPods add a heart-rate sensor, concert-mode hearing protection and features intended to function as a clinical-grade hearing aid for mild-to-moderate loss. Reviewers in India\u2019s budget (under Rs 5,000) segment favor the OnePlus Buds 3 as the best all-round pick, with EarFun models offering strong value; midrange options such as OnePlus Nord Buds 3R/3 Pro, Realme Buds T110 and CMF Buds 2A balance ANC and comfort. For sleep-focused use, Soundcore\u2019s Sleep A30 provides snore tracking, adaptive masking audio and about nine hours per charge (45 with case). At the premium end, Bose\u2019s QuietComfort Ultra Earbuds remain the benchmark for pure noise-blocking and personalized tuning, though immersive spatial features can reduce runtimes.",
+      "keyPoints": [
+        "The OnePlus Buds 3 use dual drivers per bud, offer smart touch controls including slide gestures for volume, and a companion app with a 6\u2011band equaliser and Audio ID 2.0; they deliver about 5.5 hours per charge with ANC on (7 hours without) and roughly 24\u201330 hours total with the charging case.",
+        "Soundcore\u2019s Sleep A30 implements a three\u2011stage masking system that includes snore tracking via the included charging case and uses comfortable foam tips designed for side sleepers; Mashable testing noted its ANC noticeably diminishes room air\u2011conditioner, partner movement and street noise.",
+        "Bose\u2019s QuietComfort Ultra Earbuds include a CustomTune tool that analyzes the shape of your ears to personalize sound and ANC; they excel at blocking airplane noise and human voices, and battery life is about 6 hours with ANC on (falling to about 4 hours when Immersive/ spatial audio is enabled)."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Molex",
+          "symbols": []
+        },
+        {
+          "name": "QUALCOMM Incorporated",
+          "symbols": [
+            "QCI.DE",
+            "QCOM"
+          ]
+        },
+        {
+          "name": "Sony Group Corporation",
+          "symbols": [
+            "6758.T",
+            "SONY"
+          ]
+        },
+        {
+          "name": "Spotify",
+          "symbols": [
+            "639.DE",
+            "SPF.SW",
+            "SPOT"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Kid Cudi"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 20
+        },
+        {
+          "name": "Shopping",
+          "count": 17
+        },
+        {
+          "name": "AirPods",
+          "count": 3
+        }
+      ],
+      "sentiment": {
+        "positive": 0.30055177,
+        "negative": 0.18630332,
+        "neutral": 0.5131449
+      },
+      "createdAt": "2026-02-14T08:42:46.189520+00:00",
+      "updatedAt": "2026-02-20T12:44:01.211341+00:00",
+      "uniqueCount": 20,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Samsung Galaxy Z TriFold Reportedly Sells Out",
+      "summary": "Android 17\u2019s new desktop mode \u2014 with resizable apps, floating windows, and a taskbar \u2014 could finally give foldable phones a distinct, laptop-like productivity edge rather than feeling like oversized slab phones. Reporters and reviewers are already finding Samsung foldables usable as laptop replacements in daily life, suggesting the software features could have immediate practical impact. Samsung\u2019s recent hardware moves reinforce that shift: the Galaxy Z TriFold\u2019s dual-hinge, folding protocol, and ergonomic design solve many durability and usability concerns, while the lighter, thinner Galaxy Z Fold 7 improves battery life and pocketability. Rumors of a wider, passport\u2011style Galaxy Z Wide Fold point to more experiments with aspect ratios aimed at multitasking and media consumption. Taken together, evolving software (Android 17) plus iterative hardware innovations indicate foldables are maturing into genuine productivity devices, though some device-level tradeoffs (like S Pen support and fingerprint reliability on some models) remain to be resolved.",
+      "keyPoints": [
+        "Samsung priced the Galaxy Z TriFold at $2,900 and the device sold out quickly in both South Korea and the United States after launch.",
+        "The Z TriFold enforces a specific folding sequence (left side first); attempting the wrong order triggers an auto-alarm with haptic feedback and an on\u2011screen warning to prevent damage.",
+        "The Verge\u2019s Allison Johnson has been routinely leaving her laptop at home and using a Samsung foldable as her daily computer replacement, arguing it can effectively replace a laptop for many users."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "S-LCD",
+          "symbols": []
+        },
+        {
+          "name": "Oppo",
+          "symbols": []
+        },
+        {
+          "name": "Boy Genius Report",
+          "symbols": []
+        },
+        {
+          "name": "GSMA",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Xu Mengtao"
+        },
+        {
+          "name": "Nicholas Tse"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "count": 9
+        },
+        {
+          "name": "iPhone",
+          "count": 7
+        },
+        {
+          "name": "Electronics",
+          "count": 11
+        },
+        {
+          "name": "Gadgets",
+          "count": 1
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.4164133,
+        "negative": 0.16773033,
+        "neutral": 0.41585636
+      },
+      "createdAt": "2026-02-16T21:01:16.477916+00:00",
+      "updatedAt": "2026-02-20T11:25:33.172134+00:00",
+      "uniqueCount": 14,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Pakistan Plans 20% Excise Duty on Mobile Imports",
+      "summary": "Pakistan\u2019s Engineering Development Board has finalized a Mobile and Electronics Manufacturing Framework that would introduce a 20% federal excise duty on completely built-up (CBU) imported mobile phones and will be submitted to Prime Minister Shehbaz Sharif for approval. The policy also proposes a 10% customs duty on CBU notebooks, desktops and tablets, with duties on completely knocked down (CKD) units phased in from 5% to 10% to encourage local assembly and address competition from the Pakistan\u2013China FTA. A Rs56 billion technology investment fund and a dedicated implementation cell are proposed to attract manufacturers and scale up domestic production. The framework envisions refurbishment and re-export of 30\u201340 million phones and laptops annually\u2014generating an estimated $300\u2013400 million\u2014via gated facilities in export processing zones operating under strict IMEI registration, inventory controls and time\u2011bound re\u2011export rules. Two operational models under review would allow either temporary imports for processing without upfront foreign\u2011exchange remittance (backed by bank guarantees) or commercial imports followed by refurbishment and bonded re\u2011export, both designed to prevent diversion into the domestic market.",
+      "keyPoints": [
+        "The framework is formalised as the 'Mobile and Electronics Manufacturing Policy 2026-33' with an explicit aim to position Pakistan as a regional hub for mobile phones and electronics manufacturing.",
+        "The policy explicitly seeks to attract major global manufacturers \u2014 naming Apple and Samsung as targets \u2014 to establish production plants in Pakistan.",
+        "Officials say the proposed 20% excise duty is also intended to reduce pressure on Pakistan\u2019s foreign-exchange reserves and to promote domestic value addition, not just to raise revenue."
+      ],
+      "companies": [
+        {
+          "name": "Eurasian Development Bank",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "IMI plc",
+          "symbols": [
+            "IMI.L",
+            "IMIAY"
+          ]
+        },
+        {
+          "name": "The Express Tribune",
+          "symbols": []
+        },
+        {
+          "name": "Community Bank System, Inc.",
+          "symbols": [
+            "CBU"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Shehbaz Sharif"
+        }
+      ],
+      "topics": [
+        {
+          "name": "iPhone",
+          "count": 10
+        },
+        {
+          "name": "Electronics",
+          "count": 10
+        },
+        {
+          "name": "US Politics",
+          "count": 1
+        },
+        {
+          "name": "Markets",
+          "count": 1
+        },
+        {
+          "name": "Business Leaders",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.44847834,
+        "negative": 0.12775782,
+        "neutral": 0.42376384
+      },
+      "createdAt": "2026-02-18T02:34:59.940797+00:00",
+      "updatedAt": "2026-02-20T11:18:19.739615+00:00",
+      "uniqueCount": 20,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Shares Rise, Wedbush Calls Selloff Unwarranted",
+      "summary": "Wedbush says the recent pullback in Apple shares is unwarranted, reiterating an Outperform rating and a $350 price target while estimating AI could add roughly $75\u2013$100 per share over the coming years. The firm argues investor concern has centered on potential delays to Siri and other AI features but believes advanced capabilities remain on track to begin appearing by summer, with fuller implementation phased later. Apple shares traded up about 1\u20132% after the note as investors await further signals at the company\u2019s Feb. 24 annual meeting and its March 4 New York event. Wedbush emphasizes that Apple\u2019s priority is building a correct, sustainable AI platform for developers and consumers, and points to the company\u2019s large installed base\u2014around 2.5 billion iOS devices, including roughly 1.5 billion iPhones\u2014as underpinning its ability to accelerate AI adoption and monetization.",
+      "keyPoints": [
+        "Wedbush analyst Dan Ives explicitly called the recent share-price decline \u201cunwarranted\u201d and wrote that \u201cthe time is now for Apple to accelerate its AI efforts.\u201d",
+        "Wedbush said advanced AI features may roll out incrementally in iOS 26.4 and iOS 26.5, with fuller implementation targeted for iOS 27 in September, and the firm expects Apple\u2019s AI strategy to fully mature by 2026.",
+        "The note\u2019s timing stood out against weaker trade in other AI-linked megacaps that day: Alphabet fell about 1.5%, Microsoft about 1.4% and Nvidia roughly 1.5% in early trading."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Wedbush Securities",
+          "symbols": []
+        },
+        {
+          "name": "Danaher Corporation",
+          "symbols": [
+            "0R2B.L",
+            "DAP.DE",
+            "DHR",
+            "DHR-PA",
+            "DHR-PB"
+          ]
+        },
+        {
+          "name": "Masimo Corporation",
+          "symbols": [
+            "0JZ2.L",
+            "MASI"
+          ]
+        },
+        {
+          "name": "Getty Images Holdings, Inc.",
+          "symbols": [
+            "GETY"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Tim Cook"
+        },
+        {
+          "name": "Eddy Cue"
+        },
+        {
+          "name": "Emmanuel Macron"
+        },
+        {
+          "name": "Narendra Modi"
+        },
+        {
+          "name": "Rishi Sunak"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 9
+        },
+        {
+          "name": "Markets",
+          "count": 4
+        },
+        {
+          "name": "iPhone",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.33508086,
+        "negative": 0.31266212,
+        "neutral": 0.352257
+      },
+      "createdAt": "2026-02-17T13:38:42.225260+00:00",
+      "updatedAt": "2026-02-20T11:02:05.174044+00:00",
+      "uniqueCount": 15,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Google releases Android 17 public beta",
+      "summary": "Google has opened the Android 17 Public Beta to eligible Pixel handsets (generally Pixel 6 through Pixel 10 Pro Fold), but warns it\u2019s an early build that can be buggy. Many Android improvements arrive piecemeal\u2014through system updates, Play Services, and app patches\u2014and Google\u2019s rolling releases and A/B tests mean users often miss new features. Android 16 introduced the Material 3 Expressive redesign (brighter colors, reshaped icons, updated typography and animations) and Google has been aligning core apps to that look, which has drawn mixed reactions about oversized icons and inconsistency. The update also adds optional security upgrades like Advanced Protection Mode for higher-risk users and features such as Live Updates similar to Apple\u2019s Live Activities. Pixel owners frequently tweak settings for privacy and battery (for example, disabling Now Playing), and Google is likely to expand or adjust features across the Android 17 beta and subsequent updates.",
+      "keyPoints": [
+        "To join the Android 17 Public Beta you must enroll via Google\u2019s Android Beta release page and have an eligible device linked to your Google account before opting in.",
+        "The Android 17 Public Beta is limited to Pixel handsets (generally Pixel 6 through Pixel 10 Pro Fold); third\u2011party OEM devices (eg. Samsung, Motorola) aren\u2019t supported for this beta, and Google\u2019s forthcoming Pixel 10a is expected to receive beta support when it launches.",
+        "Pixel\u2019s Now Playing runs offline, periodically 'listens' in short bursts and builds a Now Playing playlist \u2014 which is why some users disable it for privacy and battery reasons; you can turn it off at Settings > Sound and Vibration > Now Playing."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "DoorDash, Inc.",
+          "symbols": [
+            "DASH"
+          ]
+        },
+        {
+          "name": "Uber Technologies, Inc.",
+          "symbols": [
+            "UBER",
+            "UBER.SW"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Android",
+          "count": 6
+        },
+        {
+          "name": "Google Pixel",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.26204622,
+        "negative": 0.21956803,
+        "neutral": 0.51838577
+      },
+      "createdAt": "2026-02-17T22:27:03.376468+00:00",
+      "updatedAt": "2026-02-20T08:31:16.444269+00:00",
+      "uniqueCount": 6,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Peak Design launches phone, camera crossbody straps",
+      "summary": "Peak Design has launched three Mobile Straps\u2014the Mobile Crossbody Multi\u2011Strap, Mobile Crossbody Strap, and Mobile Cuff\u2014built around its quick\u2011release Micro Anchor system to carry smartphones and compact point\u2011and\u2011shoot cameras securely and accessibly. The rope\u2011style straps use glass\u2011reinforced nylon hardware, a built\u2011in swivel and a machined anodized aluminum carabiner that holds up to three anchors, and they\u2019re compatible with Peak Design cases, Apple\u2019s iPhone 17 case, and most third\u2011party cases via an included adapter. The family is positioned as low\u2011profile, quick\u2011adjusting, comfortable and durable carry options for creators, travelers and everyday users, with each Micro Anchor rated to withstand heavy force. Pricing is tiered\u2014about $60 for the Multi\u2011Strap, $50 for the Crossbody, and $30 for the Cuff\u2014and the straps are available now in multiple colors. Early hands\u2011on reviews praise the compact cuff as particularly convenient for everyday use while noting that repeatedly attaching/removing straps can be a hassle and that hauling multiple items on the Multi\u2011Strap may make a small bag a more practical choice.",
+      "keyPoints": [
+        "Each Micro Anchor is rated to withstand 50 pounds (23 kilograms) of force per attachment point.",
+        "Adjustable length details: the Mobile Crossbody Multi\u2011Strap adjusts roughly between 35.4 inches and 66 inches, the Mobile Crossbody Strap ranges about 35\u201365 inches, and the Mobile Cuff is very compact (the cuff measures about 7.9 inches at its shortest length).",
+        "The custom machined, anodized aluminum carabiner not only holds up to three Micro Anchors but also locks shut for added security; the system includes an integrated swivel intended to keep multiple items tangle\u2011free and prevent twisting."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Casetify",
+          "symbols": []
+        },
+        {
+          "name": "Ricoh Company, Ltd.",
+          "symbols": [
+            "7752.T",
+            "RICO.L",
+            "RICOY"
+          ]
+        },
+        {
+          "name": "Future plc",
+          "symbols": [
+            "FUTR.L"
+          ]
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Fashion",
+          "count": 9
+        },
+        {
+          "name": "Style",
+          "count": 8
+        },
+        {
+          "name": "Celebrities",
+          "count": 8
+        },
+        {
+          "name": "Internet of Things",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.38022766,
+        "negative": 0.11222656,
+        "neutral": 0.50754577
+      },
+      "createdAt": "2026-02-17T14:04:27.842860+00:00",
+      "updatedAt": "2026-02-20T08:05:55.823320+00:00",
+      "uniqueCount": 14,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Project Toscana May Debut on Pixel 11 in 2026",
+      "summary": "Google is reportedly developing an advanced facial-recognition system codenamed Project Toscana for future Pixel phones and Chromebooks. Insider tests say Toscana works reliably in low light and matches the speed and accuracy of Apple\u2019s Face ID, addressing limitations of current selfie-camera unlock methods. Reporters describe testing on a Pixel prototype with a single hole\u2011punch front camera and on Chromebook test rigs (including external cameras), and say the system likely combines IR capture, depth/liveness checks, and advanced on-device processing tied to new Tensor silicon to achieve IR\u2011grade performance without large bezels. Google has not publicly confirmed the project or provided timelines, though some outlets suggest a Pixel 11 debut and Chromebook rollouts could arrive as early as 2026\u2014claims that remain unverified.",
+      "keyPoints": [
+        "The Android Police report says Project Toscana was recently tested with UX testers in Mountain View, California, indicating internal user-experience trials rather than just isolated lab demos.",
+        "Google previously implemented a more complete IR/dot\u2011projector face unlock system on the Pixel 4 (including radar/IR hardware) but removed that infrastructure starting with the Pixel 5 in favor of a fingerprint scanner \u2014 a historical context driving the need for a new solution.",
+        "Reporting in Digital Trends suggests Project Toscana may rely on hybrid camera sensors capable of capturing both visible and near\u2011infrared (NIR) wavelengths, plus potential time\u2011of\u2011flight integration and computational liveness checks handled by an image\u2011signal\u2011processor on a proposed Tensor G6 chip."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "National Institute of Standards and Technology (NIST)",
+          "symbols": []
+        },
+        {
+          "name": "MediaTek Inc.",
+          "symbols": [
+            "2454.TW"
+          ]
+        },
+        {
+          "name": "Realme",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 12
+        },
+        {
+          "name": "iPhone",
+          "count": 7
+        },
+        {
+          "name": "Google Pixel",
+          "count": 7
+        },
+        {
+          "name": "Android",
+          "count": 1
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.42127135,
+        "negative": 0.09940969,
+        "neutral": 0.47931895
+      },
+      "createdAt": "2026-02-17T16:39:09.103990+00:00",
+      "updatedAt": "2026-02-20T08:01:58.909630+00:00",
+      "uniqueCount": 24,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Garmin reported joining Apple, Samsung race for HbA1c",
+      "summary": "A newly spotted Garmin patent describes an optical system and algorithm intended to estimate HbA1c from light passing through tissue, positioning the watch as a trend-focused metabolic decoder rather than a real-time glucometer like continuous glucose monitors. That approach aims to provide a clinician-style, longer-term indicator rather than instant glucose alerts and differs from simpler diabetic-risk categorizations offered by some competitors. Market-wise, analyses find the Apple Watch leads on health-measurement accuracy and ecosystem integration, Wear OS offers device variety, and Garmin stands out for long battery life and deep training analytics. Head-to-head testing finds fitness-tracking between Apple\u2019s Ultra 3 and Garmin\u2019s Venu 4 can be very close, with step counts often separated by only a razor-thin margin. Reviewers also note that performance-focused Garmins (for example the Forerunner line) offer practical advantages for endurance athletes\u2014physical buttons and workout-first interfaces that can outperform touchscreen-first Apple models in bad weather or race conditions.",
+      "keyPoints": [
+        "The Garmin patent\u2019s approach is explicitly contrasted with continuous glucose monitors such as the Dexcom G7 and Abbott Libre, which provide frequent (hourly or near-real-time) glucose readings \u2014 underscoring that Garmin intends an estimated, longer-term metric rather than CGM-style continuous measurements.",
+        "In the head-to-head step-count test, the tester manually tallied 7,500 steps (using a handheld click counter); Strava logged 7,520 steps on an iPhone 16 Plus, and the reviewer notes that a smartwatch count within 100 steps of the control is considered very impressive.",
+        "Price positioning differs notably: the Apple Watch Ultra 3 carries a premium MSRP of about $799, while the Garmin Venu 4 starts around $549 \u2014 the Venu 4 is presented as Garmin\u2019s answer to Apple\u2019s mainstream Series line."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Garmin Ltd.",
+          "symbols": [
+            "GRMN"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "DexCom, Inc.",
+          "symbols": [
+            "DXCM"
+          ]
+        },
+        {
+          "name": "Huawei",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 4
+        },
+        {
+          "name": "Apple Watch",
+          "count": 4
+        },
+        {
+          "name": "Fitness",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.28952175,
+        "negative": 0.20977436,
+        "neutral": 0.5007039
+      },
+      "createdAt": "2026-02-17T09:38:57.247232+00:00",
+      "updatedAt": "2026-02-20T05:01:13.322228+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Samsung May Raise S26 Prices Ahead of Feb. 25",
+      "summary": "Samsung is preparing to raise prices for the Galaxy S26 as component and DRAM costs rise due to AI-driven demand, though pricing is not finalized ahead of Galaxy Unpacked (expected Feb. 25 reveal with early-March sales). Leaks indicate Samsung has shifted the baseline storage to 256GB and is adding premium materials and features\u2014including Galaxy AI support and possible titanium construction\u2014that could increase costs. Reports name an advanced Exynos 2600 chip built on a 2nm GAA process and cite higher wafer/yield costs and constrained DRAM supply as key drivers that make it hard for Samsung to fully absorb price increases. Some outlets estimate per-model hikes of $31\u2013$62 with U.S. entry prices reported around $859/$1,059/$1,359, though other posts say prices may hold and nothing is confirmed. The S26 Ultra is expected to debut novel hardware such as a privacy display and camera innovations (variable-aperture-like ideas), which could further raise manufacturing costs, while Samsung is promoting ecosystem discounts (for example Galaxy Watch 8 deals) and may alter pre-order perks toward store credits and trade-in offers.",
+      "keyPoints": [
+        "Samsung previously absorbed extra manufacturing costs to keep Galaxy S25 pricing unchanged \u2014 a decision personally approved by Roh Tae-moon \u2014 but that cushion may be exhausted for the S26.",
+        "Regional chipset split is expected to continue: Europe is tipped to get Exynos 2600 variants while U.S. models are expected to ship with Qualcomm\u2019s Snapdragon 8 Elite Gen 5.",
+        "Memory makers are prioritizing higher\u2011margin enterprise-grade HBM for AI servers, shrinking the supply of general-purpose smartphone DRAM; Apple has reportedly leveraged its large memory purchases to help stabilize prices, putting additional pressure on Samsung."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Mercedes-Benz",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "OnePlus",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Narendra Modi"
+        },
+        {
+          "name": "Sundar Pichai"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 20
+        },
+        {
+          "name": "5G",
+          "count": 1
+        },
+        {
+          "name": "Holidays",
+          "count": 1
+        },
+        {
+          "name": "Presidents' Day",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.34611446,
+        "negative": 0.1810187,
+        "neutral": 0.47286683
+      },
+      "createdAt": "2026-02-13T19:19:42.531689+00:00",
+      "updatedAt": "2026-02-20T03:01:20.079287+00:00",
+      "uniqueCount": 34,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Launches Music Connect For Labels, Distributors",
+      "summary": "Apple has relaunched Apple Music Connect as a closed, industry-only portal for labels, distributors and partners to manage promotion, editorial pitching and media assets from a single dashboard. The platform bundles Promote (customizable social and marketing templates), Pitch (priority submissions to Apple Music\u2019s global editorial team), and Media Requests (for uploading press images and responding to editorial asks), with quick links to Console and the Marketing Toolbox. Account controls mirror iTunes Connect permissions, allowing admins to assign Marketing Manager roles that grant catalog and upcoming-release access. While the service reuses the old Connect name rather than introducing radically new features, publishers say its consolidation of pitching, promotion, and asset management should help labels move faster and keep releases coordinated with Apple Music\u2019s editorial workflow.",
+      "keyPoints": [
+        "After logging in, users are shown a list of their artists and content releasing that week, with access to each artist\u2019s full catalog from the dashboard.",
+        "Promote can generate customizable social-media cards that can be resized and have color adjustments applied before export, making assets ready for external channels.",
+        "Pitch submissions can include detailed release metadata such as pre-orders or pre-adds, focus tracks, and fields for genres and moods to help Apple Music\u2019s editorial teams assess priority releases."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbols": [
+            "NVD.DE",
+            "NVDA"
+          ]
+        },
+        {
+          "name": "Spotify",
+          "symbols": [
+            "639.DE",
+            "SPF.SW",
+            "SPOT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Music",
+          "count": 2
+        },
+        {
+          "name": "iPhone",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.26372704,
+        "negative": 0.19904806,
+        "neutral": 0.5372249
+      },
+      "createdAt": "2026-02-18T10:06:57.383056+00:00",
+      "updatedAt": "2026-02-20T01:26:13.504824+00:00",
+      "uniqueCount": 10,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Melbourne mother found dead, suspect arrested",
+      "summary": "Two recent reports underscore both the emotional complexity and the potential danger of stalking: an advice column describes a 57-year-old woman who broke off a three-year relationship after learning the man had been stalking her yet still feels drawn to him because he was the only one to tell her he loved her, and in Melbourne a mother of three, Belinda Nicholls, who had publicly begged a stalker to leave her alone months earlier, was found dead and a man who was known to her was arrested. In the advice column, the woman says she cannot afford therapy and receives guidance to change her routines to avoid encounters and to seek free or low-cost counseling through county mental-health services or university programs. The Melbourne case reveals social-media pleas and visible fear preceding the killing, neighbors and friends describing Nicholls as devoted to her children and proud of her Indigenous heritage, and police continuing inquiries after the arrest. Together, the stories illustrate how stalking can produce powerful emotional bonds that are difficult to break and, in some cases, can escalate into lethal violence, underscoring the importance of safety planning and access to support services.",
+      "keyPoints": [
+        "The Dear Abby writer says she met the man, \u201cBill,\u201d at a resort casino three years ago, tried repeatedly to break off the relationship but took him back because she felt guilty, and finally ended things for good about four months ago after he did something \u201cvery rude\u201d; she also says a neighbor told her Bill was stalking her and that she has proof, though he denies it.",
+        "Police arrested a 39-year-old Bayswater man at a nearby bus stop less than an hour after Belinda Nicholls' body was found; as of the latest reports he had not been charged while detectives continued their enquiries.",
+        "Nicholls' social-media posts included a profanity-laced public plea \u2014 \"F*** off Stalker, stop being a bulls*** TALKER YA PARROT\" \u2014 and a video of Snow White running with the caption 'When I see my crazy obsessed stalker satan hamster,' documenting visible fear and harassment prior to her death."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "The Morning Sun",
+          "symbols": []
+        },
+        {
+          "name": "Andrews McMeel Universal",
+          "symbols": []
+        },
+        {
+          "name": "University of Arizona",
+          "symbols": []
+        },
+        {
+          "name": "23andMe Holding Co.",
+          "symbols": [
+            "ME",
+            "MEUSW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Eva LaRue"
+        },
+        {
+          "name": "Sarah Michelle Gellar"
+        },
+        {
+          "name": "Joseph James Dengelo"
+        }
+      ],
+      "topics": [],
+      "sentiment": {
+        "positive": 0.16486683,
+        "negative": 0.43091762,
+        "neutral": 0.40421554
+      },
+      "createdAt": "2026-02-17T21:22:37.978990+00:00",
+      "updatedAt": "2026-02-20T01:16:35.617818+00:00",
+      "uniqueCount": 12,
+      "first_article": null
+    }
+  ],
+  "last_30_days": [
+    {
+      "clusterId": null,
+      "name": "North West, 12, reportedly signs Gamma deal",
+      "summary": "North West, 12, has signed a recording deal with Gamma, the independent entertainment company led by former Apple executive Larry Jackson that represents artists including Mariah Carey. According to reports, she has already begun studio sessions and released the single \u201cPiercing On My Hand,\u201d which she debuted live alongside her father in Mexico City in front of a large crowd. Gamma\u2019s roster and its professional ties to her father underscore the label\u2019s confidence in developing her as a young artist and mark a significant step toward a serious music career. North\u2019s recent fashion choices\u2014temporary finger piercings, blue hair and edgy looks\u2014sparked online debate, and Kim Kardashian publicly defended her daughter as experimenting and asked for grace. Parallel to the music push, Kardashian has filed trademarks for a NOR11 fashion and accessories line, suggesting coordinated plans for North in both music and brand ventures.",
+      "keyPoints": [
+        "North debuted \u201cPiercing On My Hand\u201d live in Mexico City in January before an audience of nearly 40,000 fans.",
+        "The single \u201cPiercing On My Hand\u201d was released on February 6.",
+        "The track\u2019s production credits include North\u2019s father Ye (Kanye West) and producer Will Frenchman."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "TikTok",
+          "symbols": []
+        },
+        {
+          "name": "Under Armour, Inc.",
+          "symbols": [
+            "0R2I.L",
+            "U9R.DE",
+            "U9RA.DE",
+            "UA",
+            "UAA"
+          ]
+        },
+        {
+          "name": "Yahoo Inc.",
+          "symbols": []
+        },
+        {
+          "name": "Spotify",
+          "symbols": [
+            "639.DE",
+            "SPF.SW",
+            "SPOT"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Kim Kardashian"
+        },
+        {
+          "name": "Sexyy Red"
+        },
+        {
+          "name": "Snoop Dogg"
+        },
+        {
+          "name": "North West"
+        },
+        {
+          "name": "Mariah Carey"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Music",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.4901469,
+        "negative": 0.15068334,
+        "neutral": 0.35916975
+      },
+      "createdAt": "2026-02-19T04:44:03.209891+00:00",
+      "updatedAt": "2026-02-20T19:23:13.910228+00:00",
+      "uniqueCount": 12,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple TV Becomes U.S. Home For F1",
+      "summary": "Apple has rolled out a dedicated, unremovable Formula 1 channel in the Apple TV app as part of a five-year U.S. broadcast rights deal, populating it with schedules, practice/qualifying placeholders and bonus content ahead of the 2026 season. In the United States, all 24 races will be available to Apple TV subscribers (with some practice sessions and select race weekends free) and the subscription will include F1.TV Premium at no extra cost. Apple and IMAX will screen five 2026 Grands Prix live at select IMAX theaters \u2014 Miami (May 3), Monaco (June 7), Silverstone (July 5), Monza (Sept. 6) and Austin (Oct. 25) \u2014 across at least 50 locations. DirecTV has agreed to carry Apple TV\u2019s full F1 circuit nationwide to residential customers and in 300,000+ commercial venues, expanding distribution to bars, restaurants and casinos. Apple has not finalized all production details for race presentation \u2014 the channel references a Sky Sports event schedule, suggesting it may use Sky commentary \u2014 and says more Apple-specific enhancements will be announced before the season starts.",
+      "keyPoints": [
+        "Apple secured rights tied to the F1 feature film (F1: The Movie), which has been a box\u2011office hit \u2014 reporting roughly $654M globally and strong IMAX results (the top\u2011grossing IMAX Hollywood release of 2025 at $97.6M) \u2014 and IMAX even re\u2011released the film after an Oscar Best Picture nomination.",
+        "DirecTV\u2019s carriage agreement with Apple TV not only covers the full 24\u2011race F1 circuit for residential and 300,000+ commercial venues, it also renews those customers\u2019 access to Apple TV\u2019s MLB \u201cFriday Night Baseball\u201d doubleheaders and includes a new season of MLS coverage.",
+        "The new Formula 1 channel on Apple TV contains more than just live event links \u2014 it includes a weekend \u2018warm\u2011up\u2019 show, clips/highlights from the 2025 season, a recap of the 2026 rule changes, and options to pre\u2011add races to Apple TV\u2019s Up Next."
+      ],
+      "companies": [
+        {
+          "name": "ESPN Inc.",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Major League Soccer (MLS)",
+          "symbols": []
+        },
+        {
+          "name": "Sky Group",
+          "symbols": []
+        },
+        {
+          "name": "Formula One Group",
+          "symbols": [
+            "0JUJ.L",
+            "FWONA",
+            "FWONB",
+            "FWONK"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Eddy Cue"
+        },
+        {
+          "name": "Lewis Hamilton"
+        },
+        {
+          "name": "Brad Pitt"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Formula 1",
+          "count": 24
+        },
+        {
+          "name": "TV",
+          "count": 17
+        },
+        {
+          "name": "Motorsports",
+          "count": 24
+        }
+      ],
+      "sentiment": {
+        "positive": 0.521608,
+        "negative": 0.072602846,
+        "neutral": 0.4057892
+      },
+      "createdAt": "2026-02-15T21:57:42.912120+00:00",
+      "updatedAt": "2026-02-20T19:19:52.533076+00:00",
+      "uniqueCount": 19,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "West Virginia AG sues Apple over iCloud CSAM",
+      "summary": "West Virginia Attorney General JB McCuskey filed a lawsuit on Feb. 19 alleging Apple knowingly allowed its iCloud platform to be used to store and distribute child sexual abuse material and that the platform\u2019s design makes it easy to maintain and repeatedly access large illicit collections. The complaint argues Apple ignored advanced automated hashing and detection tools and scrapped a planned 2021 iCloud image\u2011scanning system after privacy backlash rather than keeping stronger protections. McCuskey said internal communications described iCloud as the \u201cgreatest platform for distributing child porn\u201d and the state is seeking statutory and punitive damages plus injunctive and equitable relief to force Apple to implement effective CSAM detection and safer product design. Apple says it remains committed to child safety and user privacy and has defended its decision to pause the scanning feature while balancing those goals. The suit, framed as the first government action of its kind against Apple over CSAM, adds to broader legal pressure on tech companies over the distribution of sexually explicit material.",
+      "keyPoints": [
+        "The lawsuit was filed in the Circuit Court of Mason County, West Virginia.",
+        "Attorney General JB McCuskey said at a press conference: \u201cPreserving the privacy of child predators is absolutely inexcusable,\u201d and added, \u201cI am filing this lawsuit to demand Apple follow the law, report these images, and stop re-victimizing children by allowing these images to be stored and shared.\u201d",
+        "Apple\u2019s planned 2021 iCloud image\u2011scanning system would have compared image data to a database of confirmed abuse material and sent reports when a predefined threshold was met \u2014 a technical reporting mechanism cited in the complaint."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "Dropbox, Inc.",
+          "symbols": [
+            "0SGO.L",
+            "DBX"
+          ]
+        },
+        {
+          "name": "Dartmouth College",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Tim Cook"
+        },
+        {
+          "name": "John McCuskey"
+        },
+        {
+          "name": "Brad Smith"
+        },
+        {
+          "name": "Dick Costolo"
+        },
+        {
+          "name": "Lindsey Graham"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Sexual Exploitation",
+          "count": 94
+        },
+        {
+          "name": "Crime",
+          "count": 94
+        },
+        {
+          "name": "Lawsuits",
+          "count": 141
+        },
+        {
+          "name": "Markets",
+          "count": 14
+        },
+        {
+          "name": "Stocks",
+          "count": 5
+        }
+      ],
+      "sentiment": {
+        "positive": 0.05985005,
+        "negative": 0.69957805,
+        "neutral": 0.2405719
+      },
+      "createdAt": "2026-02-19T15:04:41.617853+00:00",
+      "updatedAt": "2026-02-20T19:02:07.354949+00:00",
+      "uniqueCount": 65,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Rivian launches Apple Watch controls for R1S, R1T",
+      "summary": "Rivian has launched a native Apple Watch app for R1S and R1T owners that lets users control key vehicle functions from their wrist and, in many cases, leave their iPhone behind. The app supports up to four customizable one-tap controls for actions like locking/unlocking, venting windows, opening trunks, and sounding the alarm, plus an Apple Watch complication that shows battery charge at a glance. It uses the Digital Crown to adjust cabin temperature and set a battery charging target, and the watch interface mirrors Rivian\u2019s iPhone and in-vehicle design for a consistent experience. Capabilities vary by vehicle generation: Gen 1 cars can lock/unlock and be driven with the app open, while Gen 2 models support passive entry via Apple Wallet car key and Ultra Wideband proximity. Rivian says the app is part of its broader software-first strategy and will receive additional features through future over-the-air updates.",
+      "keyPoints": [
+        "Passive-entry on second\u2011generation R1S/R1T requires relatively recent Apple hardware: an iPhone 11 or newer (explicitly excluding iPhone SE and iPhone 16e models) or an Apple Watch Series 6 or newer.",
+        "After updating the Rivian iPhone app from the App Store, the Apple Watch companion installs automatically \u2014 no separate App Store download on the Watch is required.",
+        "The watch UI mirrors Rivian\u2019s broader design language \u2014 it visualizes vehicle color and configuration, preserves iconography for Climate, Energy and Gear Guard, and even shows the Gear Guard yeti on the small watch screen."
+      ],
+      "companies": [
+        {
+          "name": "Rivian Automotive, Inc.",
+          "symbols": [
+            "RIVN"
+          ]
+        },
+        {
+          "name": "Volkswagen",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Tesla, Inc.",
+          "symbols": [
+            "TSLA",
+            "TL0.DE"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Apple Watch",
+          "count": 22
+        },
+        {
+          "name": "Electronics",
+          "count": 22
+        },
+        {
+          "name": "Electric Vehicles",
+          "count": 1
+        },
+        {
+          "name": "Green Energy",
+          "count": 1
+        },
+        {
+          "name": "ESG",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.42604318,
+        "negative": 0.06353853,
+        "neutral": 0.5104183
+      },
+      "createdAt": "2026-02-19T15:06:28.722412+00:00",
+      "updatedAt": "2026-02-20T19:00:52.558194+00:00",
+      "uniqueCount": 15,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "iPhone SOS helps rescue six Lake Tahoe skiers",
+      "summary": "A deadly avalanche in mid-February near Lake Tahoe\u2019s Castle Peak engulfed a guided backcountry group of 15 skiers, killing eight, leaving six survivors and one person still missing. The six survivors used Apple\u2019s Emergency SOS via satellite on their iPhones\u2014along with a separate personal locator/emergency beacon\u2014to text emergency responders and maintain two-way contact for several hours, helping pinpoint their location while they sheltered under a tarp. Nevada County and California Office of Emergency Services personnel, including Don O\u2019Keefe, said staff communicated with a guide for roughly four hours to relay information to the sheriff\u2019s office and coordinate rescue efforts. Rescuers reached and extracted the survivors after coordinating with crews, with officials noting the phone feature played a direct role but was not the sole factor in the operation. The incident is being cited as a real-world life\u2011saving example of Apple\u2019s satellite SOS capability (introduced with iPhone 14 and available on newer models), which can transmit location, Medical ID and other details when cellular or Wi\u2011Fi are unavailable and works best with a clear view of the sky.",
+      "keyPoints": [
+        "The group was returning from a three-day guided ski expedition led by Blackbird Mountain Guides in the Castle Peak area of the Tahoe National Forest; witnesses said one skier shouted \u201cAvalanche!\u201d moments before the slide struck.",
+        "Authorities received an emergency alert around 11:30 a.m.; rescuers reached the survivors shortly after 5:30 p.m. \u2014 more than six hours after the avalanche \u2014 and used a snowcat to evacuate them; two survivors were treated for non-life-threatening injuries at a hospital.",
+        "Avalanche danger in the area had been rated 4 out of 5, and severe winter-storm conditions, deep snow and unstable terrain significantly hampered search and rescue operations."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "The Mercury News",
+          "symbols": []
+        },
+        {
+          "name": "The New York Times Company",
+          "symbols": [
+            "NYT"
+          ]
+        },
+        {
+          "name": "Globalstar, Inc.",
+          "symbols": [
+            "GSAT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 23
+        },
+        {
+          "name": "iPhone",
+          "count": 23
+        }
+      ],
+      "sentiment": {
+        "positive": 0.18155268,
+        "negative": 0.30923113,
+        "neutral": 0.5092162
+      },
+      "createdAt": "2026-02-18T22:15:33.295368+00:00",
+      "updatedAt": "2026-02-20T18:44:39.118063+00:00",
+      "uniqueCount": 17,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Sarvam Unveils Kaze Glasses and 105B LLM",
+      "summary": "India\u2019s AI Impact Summit showcased a wave of homegrown projects and highlighted Bengaluru startup Sarvam AI. Sarvam, founded in 2023, unveiled a 105-billion-parameter foundational LLM the company says was trained from scratch in India and that it performs strongly across 22 Indic languages as well as speech, TTS and OCR tasks. The company said the models are more efficient for many real-world use cases than larger global systems, has a partnership with Qualcomm, and was cited by Google CEO Sundar Pichai as an example of domestic progress. Sarvam also unveiled consumer hardware \u2014 Sarvam Kaze smart glasses that Prime Minister Narendra Modi tried on \u2014 and said the product will go on sale in May 2026 with developer-customization features. Important details remain unanswered, including pricing, battery life, hardware specs and how much inference runs on-device versus in the cloud, making the May launch the test of whether Sarvam\u2019s Indic-focused strengths can translate into a competitive consumer wearable.",
+      "keyPoints": [
+        "Sarvam says its 105B model was built with \u201czero external data dependency\u201d and that its stack is \u201cdeveloped, deployed, and governed entirely in India,\u201d emphasizing a domestically controlled data and engineering pipeline.",
+        "Sarvam claims its smaller vision model outperforms much larger systems at extracting Indic scripts from documents and images, and said it has beaten a DeepSeek model as well as compared favourably with a model six times larger.",
+        "Sarvam was one of 12 organisations appointed by the Indian government to develop AI models built specifically on Indian datasets, with training data drawn from sources such as documents, textbooks, newspapers and scanned records."
+      ],
+      "companies": [
+        {
+          "name": "Asian News International",
+          "symbols": []
+        },
+        {
+          "name": "Government of India",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Narendra Modi"
+        },
+        {
+          "name": "Ashwini Vaishnaw"
+        },
+        {
+          "name": "Mark Zuckerberg"
+        },
+        {
+          "name": "Donald Trump"
+        },
+        {
+          "name": "Satya Nadella"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 62
+        },
+        {
+          "name": "Electronics",
+          "count": 3
+        },
+        {
+          "name": "Fitness",
+          "count": 3
+        },
+        {
+          "name": "Business Leaders",
+          "count": 1
+        },
+        {
+          "name": "SaaS",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.3399292,
+        "negative": 0.29881626,
+        "neutral": 0.3612545
+      },
+      "createdAt": "2026-02-17T06:58:25.937327+00:00",
+      "updatedAt": "2026-02-20T17:50:45.735645+00:00",
+      "uniqueCount": 58,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Nothing to Unveil Phone (4a) Series March 5",
+      "summary": "Nothing will unveil the Phone (4a) and Phone (4a) Pro on March 5, 2026, at Central Saint Martins in London with a livestreamed event. The series is positioned to push the A-line toward flagship territory, with leaks and company hints pointing to Qualcomm 7-series chips for the vanilla and a higher-end Snapdragon for the Pro, larger batteries, and faster UFS storage. Reported hardware includes a 6.78-inch 1.5K 120Hz AMOLED for the 4a and a 6.83-inch 1.5K 144Hz panel for the Pro, triple 50MP cameras on the base (up to ~70x digital zoom) and a 50MP Sony sensor on the Pro (up to ~140x zoom), and a retained transparent design with Glyph lighting (including a 63-mini LED Glyph Bar). Leaks also indicate faster 50W wired charging, an aluminum unibody for the Pro, multiple colorways, and base storage options similar to earlier reports. Estimated euro prices roughly span \u20ac389\u2013\u20ac549 (about under \u20b935,000 for the base and under \u20b945,000 for the Pro), with reported sale windows in mid\u2011March for the 4a and later in March for the Pro. Nothing will run a Community Review Program to test the phones ahead of release and plans to sell them globally, including in India via Flipkart and its Nothing retail outlet.",
+      "keyPoints": [
+        "The standard Phone (4a) is reported to include a 32MP front-facing (selfie) camera.",
+        "Leaked colour options list the Phone (4a) in Black, Blue, Pink and White, while the Phone (4a) Pro is said to come in Black, Pink and Silver.",
+        "More specific sale dates have leaked: the Phone (4a) is tipped to go on sale March 12, 2026, and the Phone (4a) Pro on March 26, 2026."
+      ],
+      "companies": [
+        {
+          "name": "Nothing Technology Ltd.",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "International Data Corporation",
+          "symbols": []
+        },
+        {
+          "name": "X",
+          "symbols": []
+        },
+        {
+          "name": "OnePlus",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Carl Pei"
+        },
+        {
+          "name": "Dharmendra Pradhan"
+        },
+        {
+          "name": "Roshni Nadar"
+        },
+        {
+          "name": "Sridhar Vembu"
+        },
+        {
+          "name": "Bill Gates"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Business Leaders",
+          "count": 2
+        },
+        {
+          "name": "Electronics",
+          "count": 5
+        },
+        {
+          "name": "iPhone",
+          "count": 4
+        },
+        {
+          "name": "Style",
+          "count": 1
+        },
+        {
+          "name": "Celebrities",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.38388148,
+        "negative": 0.067413636,
+        "neutral": 0.5487049
+      },
+      "createdAt": "2026-02-16T05:19:40.585073+00:00",
+      "updatedAt": "2026-02-20T17:45:43.310691+00:00",
+      "uniqueCount": 70,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Indiana lawmakers pass parental consent social media bill",
+      "summary": "Indiana lawmakers passed an amended bill requiring parental consent for anyone 17 and younger to use social media after Governor Mike Braun pushed for action following the abduction and death of 17-year-old Hailey Buzbee. The measure requires platforms to use \u201ccommercially reasonable means\u201d to verify a user\u2019s age and state residency and to obtain verifiable parental approval before accounts are created. It also includes protections for younger teens\u2014restricting certain addictive design features and barring the sale or exploitation of children\u2019s data for advertising\u2014and would allow parents to sue providers that permit access without consent. Lawmakers are simultaneously fast-tracking a new \u201cPink Alert\u201d emergency notification system with lower thresholds than an Amber Alert for missing juveniles. The bill has passed the legislature and is headed to Governor Braun\u2019s desk.",
+      "keyPoints": [
+        "The legislation was authored by Republican Senator Mike Bohacek; he has said the bill is not an attempt to regulate content.",
+        "The bill spells out specific design restrictions for younger teens (identified as 15 and under), including limits on algorithms and 'addictive' features such as infinite scrolling and automatic video playback.",
+        "Different reports identify the legislation by different bill numbers \u2014 one article refers to it as SB 129/HB 129, while another refers to Senate Bill 199."
+      ],
+      "companies": [
+        {
+          "name": "Snapchat",
+          "symbols": []
+        },
+        {
+          "name": "TikTok",
+          "symbols": []
+        },
+        {
+          "name": "European Union",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Mike Braun"
+        },
+        {
+          "name": "JB Pritzker"
+        },
+        {
+          "name": "Robert Pittman"
+        },
+        {
+          "name": "Kristi Noem"
+        },
+        {
+          "name": "Leslie Heinemann"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Media",
+          "count": 12
+        },
+        {
+          "name": "Social Media",
+          "count": 12
+        },
+        {
+          "name": "Second Amendment",
+          "count": 1
+        },
+        {
+          "name": "NRA",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.088211395,
+        "negative": 0.5109848,
+        "neutral": 0.40080383
+      },
+      "createdAt": "2026-02-17T23:44:47.708891+00:00",
+      "updatedAt": "2026-02-20T17:23:54.073998+00:00",
+      "uniqueCount": 17,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "8-year-old becomes youngest speaker at India AI summit",
+      "summary": "Ranvir Sachdeva, an eight-year-old technologist and author, became the youngest keynote speaker at the India AI Impact Summit 2026 in New Delhi, addressing a room of policymakers, CEOs and industry leaders. He framed his talk around linking ancient Indian philosophies to modern AI, presented a use case for a recently released Indian AI model, and said he is using that work to drive AI literacy and contribute to India\u2019s GDP. Ranvir\u2019s tech journey began very early\u2014he has been coding since age three\u2014and his profile includes a one-on-one demo with Apple CEO Tim Cook in 2023 and meetings with Google CEO Sundar Pichai and OpenAI\u2019s Sam Altman at the summit. He has previously spoken at global forums (including TEDx and the UN\u2019s AI for Good summit), earned awards such as a Global Reading Challenge gold medal, and built projects ranging from an API-powered chatbot to a prototype rocket. His confident delivery drew widespread praise on social media and highlighted narratives about India\u2019s indigenous AI development and youth-led technological leadership.",
+      "keyPoints": [
+        "Ranvir is studying machine learning at Harvard.",
+        "He serves as an ITU160 Ambassador for the International Telecommunication Union (ITU).",
+        "Ranvir holds a Google Responsible AI certificate."
+      ],
+      "companies": [
+        {
+          "name": "Salesforce, Inc.",
+          "symbols": [
+            "CRM",
+            "CRM.BA",
+            "FOO.DE"
+          ]
+        },
+        {
+          "name": "Asian News International",
+          "symbols": []
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Tim Cook"
+        },
+        {
+          "name": "Ant\u00f3nio Guterres"
+        },
+        {
+          "name": "Marc Benioff"
+        },
+        {
+          "name": "Sundar Pichai"
+        },
+        {
+          "name": "Sam Altman"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 12
+        },
+        {
+          "name": "Business Leaders",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.5643817,
+        "negative": 0.08067916,
+        "neutral": 0.3549391
+      },
+      "createdAt": "2026-02-19T11:46:34.420745+00:00",
+      "updatedAt": "2026-02-20T17:20:17.404403+00:00",
+      "uniqueCount": 9,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple TV restores 'The Hunt', sets March 4",
+      "summary": "After a roughly three\u2011month plagiarism probe, Apple TV+ set the six\u2011episode French thriller The Hunt (Traqu\u00e9s) to debut March 4 with the first two episodes, followed by weekly releases. The series was pulled days before its original Dec. 3, 2025 premiere after reporting surfaced that creator\u2011director C\u00e9dric Anger's \"original\" project bore significant similarities to Douglas Fairbairn\u2019s 1973 novel Shoot and its 1976 film adaptation. Producer Gaumont said its internal review identified the rights holders and obtained the necessary authorizations, and Apple updated credits to officially bill the series as based on Shoot. The drama \u2014 starring Beno\u00eet Magimel and M\u00e9lanie Laurent \u2014 returns after the revisions, though outlets noted the last\u2011minute pause was financially and operationally disruptive for Apple.",
+      "keyPoints": [
+        "Supporting cast includes Damien Bonnard, Manuel Guillot, C\u00e9dric Appietto and Fr\u00e9d\u00e9ric Maranber in addition to Beno\u00eet Magimel and M\u00e9lanie Laurent.",
+        "Douglas Fairbairn\u2019s novel Shoot was previously adapted into a 1976 feature film directed by Harvey Hart from a screenplay by Richard Berg; Fairbairn died in 1997.",
+        "The Hunt\u2019s executive producers are Sidonie Dumas, Isabelle Degeorges, Cl\u00e9mentine Vaudaux and Alexis Barqueiro."
+      ],
+      "companies": [
+        {
+          "name": "Gaumont SA",
+          "symbols": [
+            "GAM.PA"
+          ]
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "X",
+          "symbols": []
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "M\u00e9lanie Laurent"
+        },
+        {
+          "name": "Sidonie Dumas"
+        },
+        {
+          "name": "Douglas Fairbairn"
+        },
+        {
+          "name": "Benoit Magimel"
+        },
+        {
+          "name": "Christa Miller"
+        }
+      ],
+      "topics": [
+        {
+          "name": "TV",
+          "count": 20
+        }
+      ],
+      "sentiment": {
+        "positive": 0.0747265,
+        "negative": 0.5745537,
+        "neutral": 0.35071975
+      },
+      "createdAt": "2026-02-19T15:02:05.343548+00:00",
+      "updatedAt": "2026-02-20T17:05:13.311065+00:00",
+      "uniqueCount": 12,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Berkshire Adds New York Times Stake",
+      "summary": "Berkshire Hathaway disclosed a roughly $350 million stake in The New York Times \u2014 about 5.07 million shares \u2014 in its Dec. 31, 2025 13F filing, marking a return to news/media after selling its newspaper portfolio in 2020. The purchase occurred in Warren Buffett\u2019s final quarter as CEO; Buffett handed the role to Greg Abel on Jan. 1, 2026, and Berkshire has not said whether Buffett, Abel or other managers directed the buy. The filing also showed trims to Apple, Bank of America and a large reduction in Amazon, while the firm added to holdings including Chevron and Alphabet and kept a record cash hoard. Investors are watching Greg Abel\u2019s forthcoming first shareholder letter and the Q4 report for clues on how Berkshire will deploy its cash and whether its investment approach will shift under new leadership. Berkshire\u2019s capital\u2011intensive businesses \u2014 railroads, utilities and energy \u2014 remain the conglomerate\u2019s cash\u2011generating backbone supporting long-term strategy.",
+      "keyPoints": [
+        "Tim Franklin of Northwestern\u2019s Medill School called Berkshire\u2019s move \u201ca full circle moment,\u201d noting The New York Times has become a thriving digital business with more than 12 million digital subscribers and successful products such as Wordle and The Athletic.",
+        "Berkshire increased its Chevron stake just before President Donald Trump ordered the arrest of Venezuela\u2019s president, highlighting a timing element to that energy bet noted in the filing.",
+        "The SEC filing showed specific portfolio moves: Berkshire trimmed Apple by about 4% and Bank of America by about 9%, and it sold roughly 77% of its Amazon position (value falling from about $2.2 billion to $525 million). It also added to Chubb, sold down Aon, and left its Alphabet stake untouched as that position rose in value from roughly $4.3 billion to $5.6 billion."
+      ],
+      "companies": [
+        {
+          "name": "Berkshire Hathaway Inc.",
+          "symbols": [
+            "BRH.DE",
+            "BRK-A",
+            "BRK-B",
+            "BRYN.DE",
+            "BRK.NE",
+            "BRKA.VI"
+          ]
+        },
+        {
+          "name": "Union Pacific Corporation",
+          "symbols": [
+            "0R2E.L",
+            "UNP",
+            "UNP.DE"
+          ]
+        },
+        {
+          "name": "NextEra Energy, Inc.",
+          "symbols": [
+            "0K80.L",
+            "NEE"
+          ]
+        },
+        {
+          "name": "BNSF Railway",
+          "symbols": []
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbols": [
+            "ABEA.DE",
+            "ABEC.DE",
+            "GOOG",
+            "GOOGL",
+            "GOOGL.SW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Greg Abel"
+        },
+        {
+          "name": "Warren Buffett"
+        },
+        {
+          "name": "Todd Combs"
+        },
+        {
+          "name": "Jamie Dimon"
+        },
+        {
+          "name": "Jeff Bezos"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 84
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        },
+        {
+          "name": "Business Leaders",
+          "count": 126
+        },
+        {
+          "name": "Media",
+          "count": 109
+        },
+        {
+          "name": "Economy",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.3303928,
+        "negative": 0.27314895,
+        "neutral": 0.39645824
+      },
+      "createdAt": "2026-02-15T09:21:57.367481+00:00",
+      "updatedAt": "2026-02-20T16:44:41.461204+00:00",
+      "uniqueCount": 40,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Confirms March 4 Event, iPhone 17e Expected",
+      "summary": "Apple confirmed a \u201cspecial Apple Experience\u201d for March 4 with in-person gatherings in New York, London and Shanghai and is expected to unveil iPhones, iPads and Macs. The event is widely tipped to introduce an iPhone 17e \u2014 a lower-cost model rumored to include an A19 chip, a C1X modem, improved MagSafe/wireless charging and a single 48MP main camera while omitting ultrawide/telephoto modules and some high-end features. Leaks also point to a 6.1-inch 60Hz OLED display and a 12MP front shooter, with Apple keeping ProMotion 120Hz and other premium hardware for the Pro lineup. Reports say Apple plans substantial Mac updates including a lower-cost MacBook using an A18 Pro-class chip with 8GB of RAM priced around $699\u2013$799, plus refreshed MacBook Pros with M5 Pro and M5 Max chiplet designs. Separately, the iPhone 17 Pro Max is reportedly retaining unusually high resale value and driving many trade-ins, and critics warn the 17e may be priced higher than Android rivals like the Pixel 10a, weakening its mid-range value proposition.",
+      "keyPoints": [
+        "SellCell data cited by PhoneArena shows the iPhone 17 Pro Max has depreciated just 25.4% after ~145 days versus 32.5% for the 16 Pro Max in the same timeframe, and the 17 Pro Max\u2019s share of trade-ins rose to 11.5% (from 5.1% at end\u2011Nov 2025, 7.7% on Jan 5, 2026, and 9.5% later), helping explain unusually strong resale/trade\u2011in activity.",
+        "Industry reporting (cited by Moneycontrol/TechRadar) estimates initial shipments of the rumored lower\u2011cost MacBook could be as high as eight million units, underscoring Apple\u2019s potential volume push in the sub\u2011Air segment.",
+        "Coverage (Forbes/Mark Gurman context) suggests the March 4 \u201cspecial Apple Experience\u201d may be atypical \u2014 possibly staged as hands\u2011on experiences in three cities simultaneously (New York, London, Shanghai) rather than a traditional single keynote, and could follow press release announcements earlier in the week."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "AT&T Inc",
+          "symbols": [
+            "0QZ1.L",
+            "T-PC",
+            "T-PA",
+            "T",
+            "SOBA.DE",
+            "TBB",
+            "TBC"
+          ]
+        },
+        {
+          "name": "Verizon Communications Inc.",
+          "symbols": [
+            "BAC.DE",
+            "VZ"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Costco Wholesale Corporation",
+          "symbols": [
+            "0I47.L",
+            "CTO.DE",
+            "COST"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "iPhone",
+          "count": 30
+        },
+        {
+          "name": "Electronics",
+          "count": 30
+        },
+        {
+          "name": "5G",
+          "count": 1
+        },
+        {
+          "name": "Europe Public Private Sector",
+          "count": 1
+        },
+        {
+          "name": "Android",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.44872314,
+        "negative": 0.11244086,
+        "neutral": 0.438836
+      },
+      "createdAt": "2026-02-16T11:06:18.962070+00:00",
+      "updatedAt": "2026-02-20T16:33:34.579016+00:00",
+      "uniqueCount": 29,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple TV releases Imperfect Women trailer",
+      "summary": "Apple TV released the first trailer for Imperfect Women, an eight-episode psychological thriller adapted from Araminta Hall\u2019s novel that premieres March 18, 2026, with the first two episodes debuting together and new installments rolling out weekly. The series stars and is executive produced by Elisabeth Moss and Kerry Washington and follows three friends\u2014Moss\u2019s Mary, Washington\u2019s Eleanor and Kate Mara\u2019s Nancy\u2014whose decades-long bond unravels after Nancy\u2019s suspicious death, revealing buried secrets. Annie Weisman created and showruns the series, Lesli Linka Glatter directs multiple episodes, and a supporting ensemble includes Joel Kinnaman, Corey Stoll, Leslie Odom Jr., Sheryl Lee Ralph and others. The show is billed as an unconventional thriller exploring guilt and retribution, love and betrayal, and the compromises that irrevocably reshape lives.",
+      "keyPoints": [
+        "Elisabeth Moss said of the source material: \"From the moment I received Araminta\u2019s novel, I couldn\u2019t put it down. It was such an electrifying read; I fell in love with it immediately.\"",
+        "Kerry Washington said she \"could not have been more thrilled to get this call from Elisabeth\" and praised showrunner Annie Weisman, calling her someone she \"couldn't think of a better person to bring this project to life on screen.\"",
+        "Imperfect Women is a co-production between 20th Television and Apple Studios; Moss and Lindsey McManus executive produce via Love & Squalor Pictures, while Washington executive produces under her Simpson Street banner alongside Pilar Savone. Author Araminta Hall and writer Kay Oyegun are also credited as executive producers."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "symbols": []
+        },
+        {
+          "name": "X",
+          "symbols": []
+        },
+        {
+          "name": "Yahoo Inc.",
+          "symbols": []
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Kerry Washington"
+        },
+        {
+          "name": "Kate Mara"
+        },
+        {
+          "name": "Joel Kinnaman"
+        },
+        {
+          "name": "Elisabeth Moss"
+        },
+        {
+          "name": "Sheryl Lee Ralph"
+        }
+      ],
+      "topics": [
+        {
+          "name": "TV",
+          "count": 24
+        },
+        {
+          "name": "Celebrities",
+          "count": 1
+        },
+        {
+          "name": "Movies",
+          "count": 4
+        }
+      ],
+      "sentiment": {
+        "positive": 0.2930063,
+        "negative": 0.20157076,
+        "neutral": 0.50542295
+      },
+      "createdAt": "2026-02-16T10:39:12.668345+00:00",
+      "updatedAt": "2026-02-20T16:16:15.121702+00:00",
+      "uniqueCount": 30,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "2026 Toyota RAV4 Gains Digital Wallet Car Key",
+      "summary": "Toyota has begun rolling out a digital wallet Car Key for the 2026 RAV4, a rollout confirmed by Toyota and reporting. The capability is built into Toyota\u2019s latest Audio Multimedia system as an enhanced Digital Key managed through device wallets, and it lets owners lock, unlock, start, and share keys with up to five drivers. It uses Ultra Wideband passive entry on supported devices (iPhone 11+/Apple Watch Series 6+) and appears to require a Toyota Remote Connect subscription (about $15/month) with a one-year trial for new-vehicle buyers. Toyota\u2019s implementation integrates with native wallets including Apple Wallet, Google Wallet and Samsung Wallet, though Apple\u2019s public Car Key compatibility list has not yet been updated to show the RAV4. Toyota says additional models, including some 2026 Lexus vehicles, will receive the feature as the rollout continues.",
+      "keyPoints": [
+        "The initial discovery of Apple Car Key support on the 2026 RAV4 came from a Reddit post rather than an official Toyota press release; the owner described approaching the car with phone in pocket and the vehicle unlocking and starting automatically.",
+        "Reports indicate Toyota had already been added to Apple\u2019s backend database (a December report), which presaged the recent public rollout of Car Key support.",
+        "Observers say the feature appears to be launching on just two models initially, with more vehicles to follow later this year (including the new 2026 Lexus ES on the Lexus side)."
+      ],
+      "companies": [
+        {
+          "name": "Hyundai Motor Company",
+          "symbols": [
+            "005380.KS",
+            "005385.KS",
+            "005387.KS",
+            "005389.KS"
+          ]
+        },
+        {
+          "name": "Toyota Motor Corporation",
+          "symbols": [
+            "7203.T",
+            "TYT.L",
+            "TM"
+          ]
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Audi",
+          "symbols": []
+        },
+        {
+          "name": "Reddit, Inc.",
+          "symbols": [
+            "RDDT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 10
+        },
+        {
+          "name": "iPhone",
+          "count": 10
+        }
+      ],
+      "sentiment": {
+        "positive": 0.33716092,
+        "negative": 0.127165,
+        "neutral": 0.5356741
+      },
+      "createdAt": "2026-02-17T20:40:17.296364+00:00",
+      "updatedAt": "2026-02-20T16:06:31.183047+00:00",
+      "uniqueCount": 15,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple CarPlay expected to support AI chatbots",
+      "summary": "Apple\u2019s iOS 26.4 beta adds support for \u201cvoice\u2011based conversational apps\u201d on CarPlay, enabling third\u2011party AI chatbots such as Claude, Gemini and ChatGPT to run with a vehicle\u2011optimized voice control screen. Developers will need to update their apps to meet CarPlay\u2019s requirements, which force a voice\u2011first design optimized for driving and restrict visual output to minimize distraction. Apple also bars these apps from controlling the vehicle or iPhone and does not support hotword wake\u2011phrases, meaning they must generally be launched manually. At the same time Apple is keeping Siri the dominant in\u2011car assistant \u2014 requiring SiriKit for most voice interactions and pursuing a Gemini-powered overhaul of Siri \u2014 so third\u2011party chatbots face practical limits to becoming the default. The move opens new opportunities for AI services and marketers as CarPlay (and the deeper CarPlay Ultra) expands capability, but safety, UX and default\u2011assistant rules mean adoption will likely be gradual and constrained.",
+      "keyPoints": [
+        "The CarPlay conversational-app support is currently limited to the iOS 26.4 beta \u2014 Apple has unlocked the new app category in the beta build, with a production rollout not yet delivered.",
+        "While Apple bars third\u2011party voice apps from controlling the vehicle or the iPhone, the developer guide notes conversational apps could still 'take action on your behalf' if the AI service is linked to other external systems (for example, signing you up for services or triggering remote actions outside the car).",
+        "Apple requires voice apps to only hold an audio session when voice features are actively used and to optimize responses for voice (minimizing or avoiding text/imagery) \u2014 technical constraints aimed specifically at reducing driver distraction."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Getty Images Holdings, Inc.",
+          "symbols": [
+            "GETY"
+          ]
+        },
+        {
+          "name": "Ziff Davis, Inc.",
+          "symbols": [
+            "JCOM",
+            "ZD",
+            "ZDVSV"
+          ]
+        },
+        {
+          "name": "Stripe",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 9
+        },
+        {
+          "name": "Android",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.1386377,
+        "negative": 0.36904606,
+        "neutral": 0.49231622
+      },
+      "createdAt": "2026-02-18T20:26:30.508278+00:00",
+      "updatedAt": "2026-02-20T16:00:22.527410+00:00",
+      "uniqueCount": 9,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple TV brings F1, MLS, MLB nationwide",
+      "summary": "Apple TV has struck a distribution deal with EverPass Media to bring its live sports \u2014 including Formula 1, every Major League Soccer match, and Major League Baseball\u2019s Friday Night Baseball \u2014 to commercial venues such as bars, restaurants, hotels and gyms via EverPass\u2019s Core package at no additional cost. The EverPass Core platform, which already aggregates properties like Paramount+\u2019s UEFA Champions League, Prime Video\u2019s Thursday Night Football, and NBA/WNBA coverage, handles the licensing and streaming needs so venues can show games without managing individual consumer subscriptions. Participating locations will receive full F1 coverage (practice, qualifying, Sprint and races), every MLS match with enhanced weekend programming and event coverage, and weekly MLB doubleheaders with pre- and postgame coverage. EverPass CEO Alex Kaplan said the addition strengthens and diversifies the company\u2019s premium sports library, and the agreement is part of Apple TV\u2019s broader push to expand its sports footprint and presence in public viewing locations to attract more viewers and subscribers.",
+      "keyPoints": [
+        "EverPass Media launched in 2023 and works directly with premium rightsholders and distributors; its platform already includes additional properties such as NFL Sunday Ticket and Peacock.",
+        "Apple rebranded its streaming service last year, dropping the \u201c+\u201d from Apple TV+ and relaunching the service as 'Apple TV' with a new identity.",
+        "Apple's rollout of sports rights has been gradual: it began airing Friday Night Baseball in April 2022, acquired MLS Season Pass less than a year later, and in 2026 became the exclusive U.S. home for Formula 1 races."
+      ],
+      "companies": [
+        {
+          "name": "Major League Soccer (MLS)",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Major League Baseball",
+          "symbols": []
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        },
+        {
+          "name": "Comcast Corporation",
+          "symbols": [
+            "CMCSA",
+            "CTP2.DE"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Anthony Joshua"
+        },
+        {
+          "name": "Jake Paul"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Formula 1",
+          "count": 7
+        },
+        {
+          "name": "Motorsports",
+          "count": 7
+        },
+        {
+          "name": "TV",
+          "count": 36
+        },
+        {
+          "name": "MLB",
+          "count": 5
+        },
+        {
+          "name": "Baseball",
+          "count": 7
+        }
+      ],
+      "sentiment": {
+        "positive": 0.682001,
+        "negative": 0.038312785,
+        "neutral": 0.2796862
+      },
+      "createdAt": "2026-02-19T17:07:51.372715+00:00",
+      "updatedAt": "2026-02-20T15:46:21.903823+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Accelerates AI Wearables; AirPods Could Launch 2026",
+      "summary": "Apple is accelerating development of three AI wearables \u2014 smart glasses (codenamed N50), an AirTag-sized pendant/pin, and camera-equipped AirPods \u2014 all designed to connect to the iPhone and feed visual context into a revamped Siri, according to multiple reports. The glasses are said to use two cameras (a high-resolution sensor plus a computer-vision sensor), omit an on-lens display in favor of voice interactions, be built in-house with premium frames, and target production in late 2026 for a likely 2027 launch. Camera-equipped AirPods are reported to be furthest along and could arrive as soon as late 2026, while the pendant is earlier-stage and may target 2027. The devices emphasize contextual AI features \u2014 object recognition, navigation, reminders, live translation and other Siri actions \u2014 and will rely on the iPhone plus a mix of on-device and cloud models (reports note potential use of Google\u2019s Gemini). Apple has bolstered audio/AI capabilities via acquisitions such as Q.ai and is positioning the lineup to extend its hardware ecosystem, differentiate on industrial design and privacy, and create new revenue opportunities.",
+      "keyPoints": [
+        "The stock market reacted to the reports: Apple shares jumped about 2.7% to a session high, while partner eyewear maker EssilorLuxottica\u2019s ADRs fell more than 7%, signaling investor appetite and competitive market impact.",
+        "The effort is being led by Apple\u2019s internal Vision Products Group \u2014 the same team that developed the Vision Pro headset \u2014 rather than an outside hardware partner.",
+        "The AirTag\u2011sized pendant is explicitly compared to the Humane AI Pin but without a projector; it leans heavily on the iPhone for processing, may or may not include a speaker for two\u2011way Siri conversations, and remains early\u2011stage enough that it could still be canceled."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "symbols": [
+            "FB",
+            "FB2A.DE",
+            "META"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Tim Cook"
+        },
+        {
+          "name": "Carl Pei"
+        },
+        {
+          "name": "Sundar Pichai"
+        },
+        {
+          "name": "Alexandr Wang"
+        },
+        {
+          "name": "Alex Karp"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 123
+        },
+        {
+          "name": "Markets",
+          "count": 12
+        },
+        {
+          "name": "AirPods",
+          "count": 55
+        },
+        {
+          "name": "Electronics",
+          "count": 63
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.3692324,
+        "negative": 0.1646701,
+        "neutral": 0.4660975
+      },
+      "createdAt": "2026-02-17T18:18:45.038764+00:00",
+      "updatedAt": "2026-02-20T15:22:47.534409+00:00",
+      "uniqueCount": 93,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Podcasts Adds HLS Video, Ad Network Fees",
+      "summary": "Apple is adding native HLS-based integrated video support to Apple Podcasts, available now in iOS/iPadOS/visionOS 26.4 developer betas with a public beta and broader web/device rollout planned ahead of a spring release. The HLS implementation combines audio and video in a single feed with adaptive streaming so listeners can seamlessly switch between audio and video within an episode, watch in portrait or landscape (including full-screen and picture-in-picture), download episodes for offline viewing, and preserve synced transcripts and chapters. For creators, the unified playback removes the need for separate RSS audio and video entries and enables dynamic video ad insertion and other monetization options. Apple says it will not charge creators for distribution but will levy impression-based fees on participating ad networks later this year, and it is working with hosting and ad partners including Acast, ART19, Omny Studio, SiriusXM, AdsWizz and Simplecast to support HLS video. Apple frames the change as part of a broader services strategy to boost engagement and better compete with platforms that already embrace video podcasting.",
+      "keyPoints": [
+        "Edison Research data cited by Apple/tech coverage shows video podcasting penetration is already large: 51% of U.S. adults have consumed a video podcast and 37% consume video podcasts monthly.",
+        "The Podcasts UI includes a clear 'Turn video off/on' control above the existing progress bar to switch between audio and video playback.",
+        "Competing platforms already host massive podcast audiences: YouTube reported about 1 billion monthly podcast viewers, and Spotify said it hosts roughly 500,000 video podcasts that nearly 400 million users have watched."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Spotify",
+          "symbols": [
+            "639.DE",
+            "SPF.SW",
+            "SPOT"
+          ]
+        },
+        {
+          "name": "Netflix, Inc.",
+          "symbols": [
+            "NFC.DE",
+            "NFLX"
+          ]
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        },
+        {
+          "name": "Sirius XM Holdings Inc",
+          "symbols": [
+            "RDO.DE"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Eddy Cue"
+        },
+        {
+          "name": "Harrison Ford"
+        },
+        {
+          "name": "Jason Segel"
+        },
+        {
+          "name": "Michael J. Fox"
+        },
+        {
+          "name": "Zane Lowe"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Podcasts",
+          "count": 37
+        },
+        {
+          "name": "Markets",
+          "count": 7
+        },
+        {
+          "name": "Electronics",
+          "count": 2
+        },
+        {
+          "name": "iPhone",
+          "count": 2
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.49138272,
+        "negative": 0.077662475,
+        "neutral": 0.4309548
+      },
+      "createdAt": "2026-02-16T18:18:13.301666+00:00",
+      "updatedAt": "2026-02-20T14:08:26.450844+00:00",
+      "uniqueCount": 88,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Kelly, Cuomo Trade Barbs Over Guthrie Coverage",
+      "summary": "Megyn Kelly and Chris Cuomo have publicly exchanged barbs over Kelly's coverage of the suspected disappearance of Nancy Guthrie, with Cuomo calling her reporting \u201cclick bait\u201d and criticizing \u201csloppy influencers\u201d on X and NewsNation. Kelly defended continued scrutiny, ridiculed Cuomo on air\u2014repeatedly calling him \u201cFredo\u201d\u2014and accused him of jealousy while Cuomo noted her high\u2011profile NBC payout. Kelly and other broadcasters, including Ashleigh Banfield, have suggested Savannah Guthrie\u2019s brother\u2011in\u2011law, Tommaso Cioni, could be a suspect; the Pima County Sheriff\u2019s Department says no suspects have been identified and has warned against public speculation. Kelly has pointed to changes in a police press release and sheriff quotes to justify not ruling out family members, while Pima County Sheriff Chris Nanos has urged the public not to suspect the family. The dispute has intensified debate about media sleuthing, privacy and responsible reporting and has revived past controversies involving both hosts.",
+      "keyPoints": [
+        "Kelly said explicitly on air, \u201cEveryone remains a suspect until we have somebody in handcuffs,\u201d framing her refusal to rule out family members as part of standard investigative caution.",
+        "Chris Cuomo directly replied on X to Kelly\u2019s segment with, \u201cGet over yourself, little hater. Odd language choice for a mom with young kids. Classy,\u201d and has also called her coverage \u201csloppy\u201d and accused sleuths of seeking \u201cclicks and ragebait.\u201d",
+        "Kelly attacked Cuomo\u2019s past coverage and family ties on air, accusing him of putting his \u201closer brother\u201d on his show and of failing to report honestly about his brother\u2019s alleged misconduct \u2014 invoking #MeToo-era criticisms."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Sirius XM Holdings Inc",
+          "symbols": [
+            "RDO.DE"
+          ]
+        },
+        {
+          "name": "Daily Mail",
+          "symbols": []
+        },
+        {
+          "name": "NBC",
+          "symbols": []
+        },
+        {
+          "name": "Yahoo Inc.",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Chris Cuomo"
+        },
+        {
+          "name": "Andrew Cuomo"
+        },
+        {
+          "name": "Elizabeth Vargas"
+        },
+        {
+          "name": "Jamie Lee Curtis"
+        },
+        {
+          "name": "Marjorie Taylor Greene"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Law Enforcement",
+          "count": 1
+        },
+        {
+          "name": "Australia",
+          "count": 1
+        },
+        {
+          "name": "Media",
+          "count": 3
+        }
+      ],
+      "sentiment": {
+        "positive": 0.12771025,
+        "negative": 0.43606877,
+        "neutral": 0.43622097
+      },
+      "createdAt": "2026-02-17T20:43:49.793204+00:00",
+      "updatedAt": "2026-02-20T13:12:19.843378+00:00",
+      "uniqueCount": 14,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Earbuds Expand into Health, Sleep in 2026",
+      "summary": "Personal-audio best-of lists for 2026 show earbuds evolving beyond sound into health, sleep and accessibility tools while continuing improvements in active noise cancellation, comfort and battery life. Apple\u2019s newest AirPods add a heart-rate sensor, concert-mode hearing protection and features intended to function as a clinical-grade hearing aid for mild-to-moderate loss. Reviewers in India\u2019s budget (under Rs 5,000) segment favor the OnePlus Buds 3 as the best all-round pick, with EarFun models offering strong value; midrange options such as OnePlus Nord Buds 3R/3 Pro, Realme Buds T110 and CMF Buds 2A balance ANC and comfort. For sleep-focused use, Soundcore\u2019s Sleep A30 provides snore tracking, adaptive masking audio and about nine hours per charge (45 with case). At the premium end, Bose\u2019s QuietComfort Ultra Earbuds remain the benchmark for pure noise-blocking and personalized tuning, though immersive spatial features can reduce runtimes.",
+      "keyPoints": [
+        "The OnePlus Buds 3 use dual drivers per bud, offer smart touch controls including slide gestures for volume, and a companion app with a 6\u2011band equaliser and Audio ID 2.0; they deliver about 5.5 hours per charge with ANC on (7 hours without) and roughly 24\u201330 hours total with the charging case.",
+        "Soundcore\u2019s Sleep A30 implements a three\u2011stage masking system that includes snore tracking via the included charging case and uses comfortable foam tips designed for side sleepers; Mashable testing noted its ANC noticeably diminishes room air\u2011conditioner, partner movement and street noise.",
+        "Bose\u2019s QuietComfort Ultra Earbuds include a CustomTune tool that analyzes the shape of your ears to personalize sound and ANC; they excel at blocking airplane noise and human voices, and battery life is about 6 hours with ANC on (falling to about 4 hours when Immersive/ spatial audio is enabled)."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Molex",
+          "symbols": []
+        },
+        {
+          "name": "QUALCOMM Incorporated",
+          "symbols": [
+            "QCI.DE",
+            "QCOM"
+          ]
+        },
+        {
+          "name": "Sony Group Corporation",
+          "symbols": [
+            "6758.T",
+            "SONY"
+          ]
+        },
+        {
+          "name": "Spotify",
+          "symbols": [
+            "639.DE",
+            "SPF.SW",
+            "SPOT"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Kid Cudi"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 20
+        },
+        {
+          "name": "Shopping",
+          "count": 17
+        },
+        {
+          "name": "AirPods",
+          "count": 3
+        }
+      ],
+      "sentiment": {
+        "positive": 0.30055177,
+        "negative": 0.18630332,
+        "neutral": 0.5131449
+      },
+      "createdAt": "2026-02-14T08:42:46.189520+00:00",
+      "updatedAt": "2026-02-20T12:44:01.211341+00:00",
+      "uniqueCount": 20,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Samsung Galaxy Z TriFold Reportedly Sells Out",
+      "summary": "Android 17\u2019s new desktop mode \u2014 with resizable apps, floating windows, and a taskbar \u2014 could finally give foldable phones a distinct, laptop-like productivity edge rather than feeling like oversized slab phones. Reporters and reviewers are already finding Samsung foldables usable as laptop replacements in daily life, suggesting the software features could have immediate practical impact. Samsung\u2019s recent hardware moves reinforce that shift: the Galaxy Z TriFold\u2019s dual-hinge, folding protocol, and ergonomic design solve many durability and usability concerns, while the lighter, thinner Galaxy Z Fold 7 improves battery life and pocketability. Rumors of a wider, passport\u2011style Galaxy Z Wide Fold point to more experiments with aspect ratios aimed at multitasking and media consumption. Taken together, evolving software (Android 17) plus iterative hardware innovations indicate foldables are maturing into genuine productivity devices, though some device-level tradeoffs (like S Pen support and fingerprint reliability on some models) remain to be resolved.",
+      "keyPoints": [
+        "Samsung priced the Galaxy Z TriFold at $2,900 and the device sold out quickly in both South Korea and the United States after launch.",
+        "The Z TriFold enforces a specific folding sequence (left side first); attempting the wrong order triggers an auto-alarm with haptic feedback and an on\u2011screen warning to prevent damage.",
+        "The Verge\u2019s Allison Johnson has been routinely leaving her laptop at home and using a Samsung foldable as her daily computer replacement, arguing it can effectively replace a laptop for many users."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "S-LCD",
+          "symbols": []
+        },
+        {
+          "name": "Oppo",
+          "symbols": []
+        },
+        {
+          "name": "Boy Genius Report",
+          "symbols": []
+        },
+        {
+          "name": "GSMA",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Xu Mengtao"
+        },
+        {
+          "name": "Nicholas Tse"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Android",
+          "count": 9
+        },
+        {
+          "name": "iPhone",
+          "count": 7
+        },
+        {
+          "name": "Electronics",
+          "count": 11
+        },
+        {
+          "name": "Gadgets",
+          "count": 1
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.4164133,
+        "negative": 0.16773033,
+        "neutral": 0.41585636
+      },
+      "createdAt": "2026-02-16T21:01:16.477916+00:00",
+      "updatedAt": "2026-02-20T11:25:33.172134+00:00",
+      "uniqueCount": 14,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Pakistan Plans 20% Excise Duty on Mobile Imports",
+      "summary": "Pakistan\u2019s Engineering Development Board has finalized a Mobile and Electronics Manufacturing Framework that would introduce a 20% federal excise duty on completely built-up (CBU) imported mobile phones and will be submitted to Prime Minister Shehbaz Sharif for approval. The policy also proposes a 10% customs duty on CBU notebooks, desktops and tablets, with duties on completely knocked down (CKD) units phased in from 5% to 10% to encourage local assembly and address competition from the Pakistan\u2013China FTA. A Rs56 billion technology investment fund and a dedicated implementation cell are proposed to attract manufacturers and scale up domestic production. The framework envisions refurbishment and re-export of 30\u201340 million phones and laptops annually\u2014generating an estimated $300\u2013400 million\u2014via gated facilities in export processing zones operating under strict IMEI registration, inventory controls and time\u2011bound re\u2011export rules. Two operational models under review would allow either temporary imports for processing without upfront foreign\u2011exchange remittance (backed by bank guarantees) or commercial imports followed by refurbishment and bonded re\u2011export, both designed to prevent diversion into the domestic market.",
+      "keyPoints": [
+        "The framework is formalised as the 'Mobile and Electronics Manufacturing Policy 2026-33' with an explicit aim to position Pakistan as a regional hub for mobile phones and electronics manufacturing.",
+        "The policy explicitly seeks to attract major global manufacturers \u2014 naming Apple and Samsung as targets \u2014 to establish production plants in Pakistan.",
+        "Officials say the proposed 20% excise duty is also intended to reduce pressure on Pakistan\u2019s foreign-exchange reserves and to promote domestic value addition, not just to raise revenue."
+      ],
+      "companies": [
+        {
+          "name": "Eurasian Development Bank",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "IMI plc",
+          "symbols": [
+            "IMI.L",
+            "IMIAY"
+          ]
+        },
+        {
+          "name": "The Express Tribune",
+          "symbols": []
+        },
+        {
+          "name": "Community Bank System, Inc.",
+          "symbols": [
+            "CBU"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Shehbaz Sharif"
+        }
+      ],
+      "topics": [
+        {
+          "name": "iPhone",
+          "count": 10
+        },
+        {
+          "name": "Electronics",
+          "count": 10
+        },
+        {
+          "name": "US Politics",
+          "count": 1
+        },
+        {
+          "name": "Markets",
+          "count": 1
+        },
+        {
+          "name": "Business Leaders",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.44847834,
+        "negative": 0.12775782,
+        "neutral": 0.42376384
+      },
+      "createdAt": "2026-02-18T02:34:59.940797+00:00",
+      "updatedAt": "2026-02-20T11:18:19.739615+00:00",
+      "uniqueCount": 20,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Shares Rise, Wedbush Calls Selloff Unwarranted",
+      "summary": "Wedbush says the recent pullback in Apple shares is unwarranted, reiterating an Outperform rating and a $350 price target while estimating AI could add roughly $75\u2013$100 per share over the coming years. The firm argues investor concern has centered on potential delays to Siri and other AI features but believes advanced capabilities remain on track to begin appearing by summer, with fuller implementation phased later. Apple shares traded up about 1\u20132% after the note as investors await further signals at the company\u2019s Feb. 24 annual meeting and its March 4 New York event. Wedbush emphasizes that Apple\u2019s priority is building a correct, sustainable AI platform for developers and consumers, and points to the company\u2019s large installed base\u2014around 2.5 billion iOS devices, including roughly 1.5 billion iPhones\u2014as underpinning its ability to accelerate AI adoption and monetization.",
+      "keyPoints": [
+        "Wedbush analyst Dan Ives explicitly called the recent share-price decline \u201cunwarranted\u201d and wrote that \u201cthe time is now for Apple to accelerate its AI efforts.\u201d",
+        "Wedbush said advanced AI features may roll out incrementally in iOS 26.4 and iOS 26.5, with fuller implementation targeted for iOS 27 in September, and the firm expects Apple\u2019s AI strategy to fully mature by 2026.",
+        "The note\u2019s timing stood out against weaker trade in other AI-linked megacaps that day: Alphabet fell about 1.5%, Microsoft about 1.4% and Nvidia roughly 1.5% in early trading."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Wedbush Securities",
+          "symbols": []
+        },
+        {
+          "name": "Danaher Corporation",
+          "symbols": [
+            "0R2B.L",
+            "DAP.DE",
+            "DHR",
+            "DHR-PA",
+            "DHR-PB"
+          ]
+        },
+        {
+          "name": "Masimo Corporation",
+          "symbols": [
+            "0JZ2.L",
+            "MASI"
+          ]
+        },
+        {
+          "name": "Getty Images Holdings, Inc.",
+          "symbols": [
+            "GETY"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Tim Cook"
+        },
+        {
+          "name": "Eddy Cue"
+        },
+        {
+          "name": "Emmanuel Macron"
+        },
+        {
+          "name": "Narendra Modi"
+        },
+        {
+          "name": "Rishi Sunak"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 9
+        },
+        {
+          "name": "Markets",
+          "count": 4
+        },
+        {
+          "name": "iPhone",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.33508086,
+        "negative": 0.31266212,
+        "neutral": 0.352257
+      },
+      "createdAt": "2026-02-17T13:38:42.225260+00:00",
+      "updatedAt": "2026-02-20T11:02:05.174044+00:00",
+      "uniqueCount": 15,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Google releases Android 17 public beta",
+      "summary": "Google has opened the Android 17 Public Beta to eligible Pixel handsets (generally Pixel 6 through Pixel 10 Pro Fold), but warns it\u2019s an early build that can be buggy. Many Android improvements arrive piecemeal\u2014through system updates, Play Services, and app patches\u2014and Google\u2019s rolling releases and A/B tests mean users often miss new features. Android 16 introduced the Material 3 Expressive redesign (brighter colors, reshaped icons, updated typography and animations) and Google has been aligning core apps to that look, which has drawn mixed reactions about oversized icons and inconsistency. The update also adds optional security upgrades like Advanced Protection Mode for higher-risk users and features such as Live Updates similar to Apple\u2019s Live Activities. Pixel owners frequently tweak settings for privacy and battery (for example, disabling Now Playing), and Google is likely to expand or adjust features across the Android 17 beta and subsequent updates.",
+      "keyPoints": [
+        "To join the Android 17 Public Beta you must enroll via Google\u2019s Android Beta release page and have an eligible device linked to your Google account before opting in.",
+        "The Android 17 Public Beta is limited to Pixel handsets (generally Pixel 6 through Pixel 10 Pro Fold); third\u2011party OEM devices (eg. Samsung, Motorola) aren\u2019t supported for this beta, and Google\u2019s forthcoming Pixel 10a is expected to receive beta support when it launches.",
+        "Pixel\u2019s Now Playing runs offline, periodically 'listens' in short bursts and builds a Now Playing playlist \u2014 which is why some users disable it for privacy and battery reasons; you can turn it off at Settings > Sound and Vibration > Now Playing."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "DoorDash, Inc.",
+          "symbols": [
+            "DASH"
+          ]
+        },
+        {
+          "name": "Uber Technologies, Inc.",
+          "symbols": [
+            "UBER",
+            "UBER.SW"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Android",
+          "count": 6
+        },
+        {
+          "name": "Google Pixel",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.26204622,
+        "negative": 0.21956803,
+        "neutral": 0.51838577
+      },
+      "createdAt": "2026-02-17T22:27:03.376468+00:00",
+      "updatedAt": "2026-02-20T08:31:16.444269+00:00",
+      "uniqueCount": 6,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Peak Design launches phone, camera crossbody straps",
+      "summary": "Peak Design has launched three Mobile Straps\u2014the Mobile Crossbody Multi\u2011Strap, Mobile Crossbody Strap, and Mobile Cuff\u2014built around its quick\u2011release Micro Anchor system to carry smartphones and compact point\u2011and\u2011shoot cameras securely and accessibly. The rope\u2011style straps use glass\u2011reinforced nylon hardware, a built\u2011in swivel and a machined anodized aluminum carabiner that holds up to three anchors, and they\u2019re compatible with Peak Design cases, Apple\u2019s iPhone 17 case, and most third\u2011party cases via an included adapter. The family is positioned as low\u2011profile, quick\u2011adjusting, comfortable and durable carry options for creators, travelers and everyday users, with each Micro Anchor rated to withstand heavy force. Pricing is tiered\u2014about $60 for the Multi\u2011Strap, $50 for the Crossbody, and $30 for the Cuff\u2014and the straps are available now in multiple colors. Early hands\u2011on reviews praise the compact cuff as particularly convenient for everyday use while noting that repeatedly attaching/removing straps can be a hassle and that hauling multiple items on the Multi\u2011Strap may make a small bag a more practical choice.",
+      "keyPoints": [
+        "Each Micro Anchor is rated to withstand 50 pounds (23 kilograms) of force per attachment point.",
+        "Adjustable length details: the Mobile Crossbody Multi\u2011Strap adjusts roughly between 35.4 inches and 66 inches, the Mobile Crossbody Strap ranges about 35\u201365 inches, and the Mobile Cuff is very compact (the cuff measures about 7.9 inches at its shortest length).",
+        "The custom machined, anodized aluminum carabiner not only holds up to three Micro Anchors but also locks shut for added security; the system includes an integrated swivel intended to keep multiple items tangle\u2011free and prevent twisting."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Casetify",
+          "symbols": []
+        },
+        {
+          "name": "Ricoh Company, Ltd.",
+          "symbols": [
+            "7752.T",
+            "RICO.L",
+            "RICOY"
+          ]
+        },
+        {
+          "name": "Future plc",
+          "symbols": [
+            "FUTR.L"
+          ]
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Fashion",
+          "count": 9
+        },
+        {
+          "name": "Style",
+          "count": 8
+        },
+        {
+          "name": "Celebrities",
+          "count": 8
+        },
+        {
+          "name": "Internet of Things",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.38022766,
+        "negative": 0.11222656,
+        "neutral": 0.50754577
+      },
+      "createdAt": "2026-02-17T14:04:27.842860+00:00",
+      "updatedAt": "2026-02-20T08:05:55.823320+00:00",
+      "uniqueCount": 14,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Project Toscana May Debut on Pixel 11 in 2026",
+      "summary": "Google is reportedly developing an advanced facial-recognition system codenamed Project Toscana for future Pixel phones and Chromebooks. Insider tests say Toscana works reliably in low light and matches the speed and accuracy of Apple\u2019s Face ID, addressing limitations of current selfie-camera unlock methods. Reporters describe testing on a Pixel prototype with a single hole\u2011punch front camera and on Chromebook test rigs (including external cameras), and say the system likely combines IR capture, depth/liveness checks, and advanced on-device processing tied to new Tensor silicon to achieve IR\u2011grade performance without large bezels. Google has not publicly confirmed the project or provided timelines, though some outlets suggest a Pixel 11 debut and Chromebook rollouts could arrive as early as 2026\u2014claims that remain unverified.",
+      "keyPoints": [
+        "The Android Police report says Project Toscana was recently tested with UX testers in Mountain View, California, indicating internal user-experience trials rather than just isolated lab demos.",
+        "Google previously implemented a more complete IR/dot\u2011projector face unlock system on the Pixel 4 (including radar/IR hardware) but removed that infrastructure starting with the Pixel 5 in favor of a fingerprint scanner \u2014 a historical context driving the need for a new solution.",
+        "Reporting in Digital Trends suggests Project Toscana may rely on hybrid camera sensors capable of capturing both visible and near\u2011infrared (NIR) wavelengths, plus potential time\u2011of\u2011flight integration and computational liveness checks handled by an image\u2011signal\u2011processor on a proposed Tensor G6 chip."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "National Institute of Standards and Technology (NIST)",
+          "symbols": []
+        },
+        {
+          "name": "MediaTek Inc.",
+          "symbols": [
+            "2454.TW"
+          ]
+        },
+        {
+          "name": "Realme",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 12
+        },
+        {
+          "name": "iPhone",
+          "count": 7
+        },
+        {
+          "name": "Google Pixel",
+          "count": 7
+        },
+        {
+          "name": "Android",
+          "count": 1
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.42127135,
+        "negative": 0.09940969,
+        "neutral": 0.47931895
+      },
+      "createdAt": "2026-02-17T16:39:09.103990+00:00",
+      "updatedAt": "2026-02-20T08:01:58.909630+00:00",
+      "uniqueCount": 24,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Garmin reported joining Apple, Samsung race for HbA1c",
+      "summary": "A newly spotted Garmin patent describes an optical system and algorithm intended to estimate HbA1c from light passing through tissue, positioning the watch as a trend-focused metabolic decoder rather than a real-time glucometer like continuous glucose monitors. That approach aims to provide a clinician-style, longer-term indicator rather than instant glucose alerts and differs from simpler diabetic-risk categorizations offered by some competitors. Market-wise, analyses find the Apple Watch leads on health-measurement accuracy and ecosystem integration, Wear OS offers device variety, and Garmin stands out for long battery life and deep training analytics. Head-to-head testing finds fitness-tracking between Apple\u2019s Ultra 3 and Garmin\u2019s Venu 4 can be very close, with step counts often separated by only a razor-thin margin. Reviewers also note that performance-focused Garmins (for example the Forerunner line) offer practical advantages for endurance athletes\u2014physical buttons and workout-first interfaces that can outperform touchscreen-first Apple models in bad weather or race conditions.",
+      "keyPoints": [
+        "The Garmin patent\u2019s approach is explicitly contrasted with continuous glucose monitors such as the Dexcom G7 and Abbott Libre, which provide frequent (hourly or near-real-time) glucose readings \u2014 underscoring that Garmin intends an estimated, longer-term metric rather than CGM-style continuous measurements.",
+        "In the head-to-head step-count test, the tester manually tallied 7,500 steps (using a handheld click counter); Strava logged 7,520 steps on an iPhone 16 Plus, and the reviewer notes that a smartwatch count within 100 steps of the control is considered very impressive.",
+        "Price positioning differs notably: the Apple Watch Ultra 3 carries a premium MSRP of about $799, while the Garmin Venu 4 starts around $549 \u2014 the Venu 4 is presented as Garmin\u2019s answer to Apple\u2019s mainstream Series line."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Garmin Ltd.",
+          "symbols": [
+            "GRMN"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "DexCom, Inc.",
+          "symbols": [
+            "DXCM"
+          ]
+        },
+        {
+          "name": "Huawei",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Electronics",
+          "count": 4
+        },
+        {
+          "name": "Apple Watch",
+          "count": 4
+        },
+        {
+          "name": "Fitness",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.28952175,
+        "negative": 0.20977436,
+        "neutral": 0.5007039
+      },
+      "createdAt": "2026-02-17T09:38:57.247232+00:00",
+      "updatedAt": "2026-02-20T05:01:13.322228+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Samsung May Raise S26 Prices Ahead of Feb. 25",
+      "summary": "Samsung is preparing to raise prices for the Galaxy S26 as component and DRAM costs rise due to AI-driven demand, though pricing is not finalized ahead of Galaxy Unpacked (expected Feb. 25 reveal with early-March sales). Leaks indicate Samsung has shifted the baseline storage to 256GB and is adding premium materials and features\u2014including Galaxy AI support and possible titanium construction\u2014that could increase costs. Reports name an advanced Exynos 2600 chip built on a 2nm GAA process and cite higher wafer/yield costs and constrained DRAM supply as key drivers that make it hard for Samsung to fully absorb price increases. Some outlets estimate per-model hikes of $31\u2013$62 with U.S. entry prices reported around $859/$1,059/$1,359, though other posts say prices may hold and nothing is confirmed. The S26 Ultra is expected to debut novel hardware such as a privacy display and camera innovations (variable-aperture-like ideas), which could further raise manufacturing costs, while Samsung is promoting ecosystem discounts (for example Galaxy Watch 8 deals) and may alter pre-order perks toward store credits and trade-in offers.",
+      "keyPoints": [
+        "Samsung previously absorbed extra manufacturing costs to keep Galaxy S25 pricing unchanged \u2014 a decision personally approved by Roh Tae-moon \u2014 but that cushion may be exhausted for the S26.",
+        "Regional chipset split is expected to continue: Europe is tipped to get Exynos 2600 variants while U.S. models are expected to ship with Qualcomm\u2019s Snapdragon 8 Elite Gen 5.",
+        "Memory makers are prioritizing higher\u2011margin enterprise-grade HBM for AI servers, shrinking the supply of general-purpose smartphone DRAM; Apple has reportedly leveraged its large memory purchases to help stabilize prices, putting additional pressure on Samsung."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Mercedes-Benz",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "OnePlus",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Narendra Modi"
+        },
+        {
+          "name": "Sundar Pichai"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 20
+        },
+        {
+          "name": "5G",
+          "count": 1
+        },
+        {
+          "name": "Holidays",
+          "count": 1
+        },
+        {
+          "name": "Presidents' Day",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.34611446,
+        "negative": 0.1810187,
+        "neutral": 0.47286683
+      },
+      "createdAt": "2026-02-13T19:19:42.531689+00:00",
+      "updatedAt": "2026-02-20T03:01:20.079287+00:00",
+      "uniqueCount": 34,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Launches Music Connect For Labels, Distributors",
+      "summary": "Apple has relaunched Apple Music Connect as a closed, industry-only portal for labels, distributors and partners to manage promotion, editorial pitching and media assets from a single dashboard. The platform bundles Promote (customizable social and marketing templates), Pitch (priority submissions to Apple Music\u2019s global editorial team), and Media Requests (for uploading press images and responding to editorial asks), with quick links to Console and the Marketing Toolbox. Account controls mirror iTunes Connect permissions, allowing admins to assign Marketing Manager roles that grant catalog and upcoming-release access. While the service reuses the old Connect name rather than introducing radically new features, publishers say its consolidation of pitching, promotion, and asset management should help labels move faster and keep releases coordinated with Apple Music\u2019s editorial workflow.",
+      "keyPoints": [
+        "After logging in, users are shown a list of their artists and content releasing that week, with access to each artist\u2019s full catalog from the dashboard.",
+        "Promote can generate customizable social-media cards that can be resized and have color adjustments applied before export, making assets ready for external channels.",
+        "Pitch submissions can include detailed release metadata such as pre-orders or pre-adds, focus tracks, and fields for genres and moods to help Apple Music\u2019s editorial teams assess priority releases."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbols": [
+            "NVD.DE",
+            "NVDA"
+          ]
+        },
+        {
+          "name": "Spotify",
+          "symbols": [
+            "639.DE",
+            "SPF.SW",
+            "SPOT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Music",
+          "count": 2
+        },
+        {
+          "name": "iPhone",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.26372704,
+        "negative": 0.19904806,
+        "neutral": 0.5372249
+      },
+      "createdAt": "2026-02-18T10:06:57.383056+00:00",
+      "updatedAt": "2026-02-20T01:26:13.504824+00:00",
+      "uniqueCount": 10,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Melbourne mother found dead, suspect arrested",
+      "summary": "Two recent reports underscore both the emotional complexity and the potential danger of stalking: an advice column describes a 57-year-old woman who broke off a three-year relationship after learning the man had been stalking her yet still feels drawn to him because he was the only one to tell her he loved her, and in Melbourne a mother of three, Belinda Nicholls, who had publicly begged a stalker to leave her alone months earlier, was found dead and a man who was known to her was arrested. In the advice column, the woman says she cannot afford therapy and receives guidance to change her routines to avoid encounters and to seek free or low-cost counseling through county mental-health services or university programs. The Melbourne case reveals social-media pleas and visible fear preceding the killing, neighbors and friends describing Nicholls as devoted to her children and proud of her Indigenous heritage, and police continuing inquiries after the arrest. Together, the stories illustrate how stalking can produce powerful emotional bonds that are difficult to break and, in some cases, can escalate into lethal violence, underscoring the importance of safety planning and access to support services.",
+      "keyPoints": [
+        "The Dear Abby writer says she met the man, \u201cBill,\u201d at a resort casino three years ago, tried repeatedly to break off the relationship but took him back because she felt guilty, and finally ended things for good about four months ago after he did something \u201cvery rude\u201d; she also says a neighbor told her Bill was stalking her and that she has proof, though he denies it.",
+        "Police arrested a 39-year-old Bayswater man at a nearby bus stop less than an hour after Belinda Nicholls' body was found; as of the latest reports he had not been charged while detectives continued their enquiries.",
+        "Nicholls' social-media posts included a profanity-laced public plea \u2014 \"F*** off Stalker, stop being a bulls*** TALKER YA PARROT\" \u2014 and a video of Snow White running with the caption 'When I see my crazy obsessed stalker satan hamster,' documenting visible fear and harassment prior to her death."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "The Morning Sun",
+          "symbols": []
+        },
+        {
+          "name": "Andrews McMeel Universal",
+          "symbols": []
+        },
+        {
+          "name": "University of Arizona",
+          "symbols": []
+        },
+        {
+          "name": "23andMe Holding Co.",
+          "symbols": [
+            "ME",
+            "MEUSW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Eva LaRue"
+        },
+        {
+          "name": "Sarah Michelle Gellar"
+        },
+        {
+          "name": "Joseph James Dengelo"
+        }
+      ],
+      "topics": [],
+      "sentiment": {
+        "positive": 0.16486683,
+        "negative": 0.43091762,
+        "neutral": 0.40421554
+      },
+      "createdAt": "2026-02-17T21:22:37.978990+00:00",
+      "updatedAt": "2026-02-20T01:16:35.617818+00:00",
+      "uniqueCount": 12,
+      "first_article": null
+    }
+  ],
+  "monthly_summary": {
+    "2026-02": {
+      "count": 30,
+      "avg_sentiment": 0.103
+    }
+  }
+}

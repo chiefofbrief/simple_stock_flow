@@ -1,0 +1,41 @@
+{
+  "ticker": "AMZN",
+  "cik": "0001018724",
+  "fetch_date": "2026-02-21",
+  "filings": {
+    "10-K": {
+      "report_date": "2025-12-31",
+      "accession": "0001018724-26-000004",
+      "document": "amzn-20251231.htm",
+      "sections": {
+        "mda": {
+          "lines": 1,
+          "words": 6877,
+          "chars": 46333
+        },
+        "notes": {
+          "lines": 1,
+          "words": 9000,
+          "chars": 57274
+        }
+      }
+    },
+    "10-Q": {
+      "report_date": "2025-09-30",
+      "accession": "0001018724-25-000123",
+      "document": "amzn-20250930.htm",
+      "sections": {
+        "mda": {
+          "lines": 1,
+          "words": 6360,
+          "chars": 41664
+        },
+        "notes": {
+          "lines": 1,
+          "words": 4832,
+          "chars": 30593
+        }
+      }
+    }
+  }
+}

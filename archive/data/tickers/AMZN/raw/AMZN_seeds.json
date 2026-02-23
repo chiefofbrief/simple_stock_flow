@@ -1,0 +1,229 @@
+{
+  "ticker": "AMZN",
+  "fiscal_years": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "ytd_info": {
+    "num_quarters": 3,
+    "is_annualized": true
+  },
+  "projection_seeds": {
+    "revenue": {
+      "values": [
+        386064000000.0,
+        469822000000.0,
+        513983000000.0,
+        574785000000.0,
+        637959000000.0
+      ],
+      "unit": "dollars",
+      "current": 637959000000.0,
+      "avg_5yr": 516522600000.0,
+      "cv": 16.73,
+      "slope": 60875300000.0,
+      "recent_delta": {
+        "absolute": 63174000000.0,
+        "percent": 10.99
+      },
+      "outlier_years": [],
+      "cagr": 13.38,
+      "ytd_value": 671384000000.0,
+      "description": "Total Revenue"
+    },
+    "cogs_pct": {
+      "values": [
+        60.43,
+        57.97,
+        56.19,
+        53.02,
+        51.15
+      ],
+      "unit": "percent",
+      "current": 51.15,
+      "avg_5yr": 55.75,
+      "cv": 5.98,
+      "slope": -2.35,
+      "recent_delta": {
+        "absolute": -1.87,
+        "percent": -3.53
+      },
+      "outlier_years": [],
+      "ytd_value": 48.94,
+      "description": "COGS as % of Revenue"
+    },
+    "sga_pct": {
+      "values": [
+        1.73,
+        1.88,
+        2.31,
+        2.06,
+        1.78
+      ],
+      "unit": "percent",
+      "current": 1.78,
+      "avg_5yr": 1.95,
+      "cv": 10.84,
+      "slope": 0.03,
+      "recent_delta": {
+        "absolute": -0.28,
+        "percent": -13.59
+      },
+      "outlier_years": [],
+      "ytd_value": 1.68,
+      "description": "SG&A as % of Revenue"
+    },
+    "rd_pct": {
+      "values": [
+        11.07,
+        11.93,
+        14.24,
+        14.9,
+        13.88
+      ],
+      "unit": "percent",
+      "current": 13.88,
+      "avg_5yr": 13.2,
+      "cv": 11.02,
+      "slope": 0.86,
+      "recent_delta": {
+        "absolute": -1.02,
+        "percent": -6.85
+      },
+      "outlier_years": [],
+      "ytd_value": 15.71,
+      "description": "R&D as % of Revenue"
+    },
+    "depreciation_amortization": {
+      "values": [
+        25180000000.0,
+        34433000000.0,
+        41921000000.0,
+        48663000000.0,
+        52795000000.0
+      ],
+      "unit": "dollars",
+      "current": 52795000000.0,
+      "avg_5yr": 40598400000.0,
+      "cv": 24.42,
+      "slope": 6946000000.0,
+      "recent_delta": {
+        "absolute": 4132000000.0,
+        "percent": 8.49
+      },
+      "outlier_years": [],
+      "ytd_value": 61713333333.33333,
+      "description": "Depreciation & Amortization"
+    },
+    "capex": {
+      "values": [
+        40140000000.0,
+        61053000000.0,
+        63645000000.0,
+        52729000000.0,
+        82999000000.0
+      ],
+      "unit": "dollars",
+      "current": 82999000000.0,
+      "avg_5yr": 60113200000.0,
+      "cv": 23.41,
+      "slope": 7739400000.0,
+      "recent_delta": {
+        "absolute": 30270000000.0,
+        "percent": 57.41
+      },
+      "outlier_years": [],
+      "ytd_value": 123062666666.66666,
+      "description": "Capital Expenditures"
+    },
+    "total_debt": {
+      "values": [
+        47931000000.0,
+        64667000000.0,
+        82004000000.0,
+        77259000000.0,
+        52774000000.0
+      ],
+      "unit": "dollars",
+      "current": 52774000000.0,
+      "avg_5yr": 64927000000.0,
+      "cv": 20.44,
+      "slope": 2227800000.0,
+      "recent_delta": {
+        "absolute": -24485000000.0,
+        "percent": -31.69
+      },
+      "outlier_years": [],
+      "ytd_value": 50962000000.0,
+      "description": "Total Debt"
+    },
+    "working_capital_components": {
+      "ar_pct_revenue": {
+        "values": [
+          6.36,
+          7.0,
+          8.24,
+          9.09,
+          8.69
+        ],
+        "unit": "percent",
+        "current": 8.69,
+        "avg_5yr": 7.88,
+        "cv": 13.11,
+        "slope": 0.67,
+        "recent_delta": {
+          "absolute": -0.4,
+          "percent": -4.4
+        },
+        "outlier_years": [],
+        "ytd_value": 9.11,
+        "description": "A/R as % of Revenue"
+      },
+      "inventory_pct_cogs": {
+        "values": [
+          10.2,
+          11.98,
+          11.91,
+          10.93,
+          10.49
+        ],
+        "unit": "percent",
+        "current": 10.49,
+        "avg_5yr": 11.1,
+        "cv": 6.55,
+        "slope": -0.05,
+        "recent_delta": {
+          "absolute": -0.44,
+          "percent": -4.03
+        },
+        "outlier_years": [],
+        "ytd_value": 12.63,
+        "description": "Inventory as % of COGS"
+      },
+      "ap_pct_cogs": {
+        "values": [
+          31.09,
+          28.88,
+          27.56,
+          27.89,
+          28.92
+        ],
+        "unit": "percent",
+        "current": 28.92,
+        "avg_5yr": 28.87,
+        "cv": 4.27,
+        "slope": -0.53,
+        "recent_delta": {
+          "absolute": 1.03,
+          "percent": 3.69
+        },
+        "outlier_years": [],
+        "ytd_value": 32.27,
+        "description": "A/P as % of COGS"
+      }
+    }
+  }
+}

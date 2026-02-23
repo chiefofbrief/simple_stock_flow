@@ -1,0 +1,31 @@
+EARNINGS ANALYSIS: NOW
+Last Reported: $0.92 (2025-12-31) | Next Est: $0.96 (Due: 2026-06-30)
+Forward Delta: +0.04
+Stability (CV): 0.45
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $0.92       $0.89           0.03  3.4%
+2025-09-30  $0.96       $0.85           0.11  12.9%
+2025-06-30  $0.82       $0.71           0.11  15.5%
+2025-03-31  $0.81       $0.77           0.04  5.2%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-12-31     next fiscal year           $5.01
+2026-12-31     historical fiscal year     $4.16
+2026-06-30     next fiscal quarter        $0.96
+2026-03-31     historical fiscal quarter  $0.97
+2025-12-31     historical fiscal year     $3.41
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  --------------
+2025-12-31         $3.51           -
+2024-12-31         $2.45           -1.06 (-30.2%)
+2023-12-31         $2.14           -0.31 (-12.7%)
+2022-12-31         $1.21           -0.93 (-43.5%)
+2021-12-31         $0.92           -0.29 (-24.0%)

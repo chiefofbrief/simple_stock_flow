@@ -1,0 +1,90 @@
+EARNINGS & VALUATION — 2026-02-16
+
+Ticker | Cur P/E | vs1Y |  vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+---------+------+-------+------+-------+--------+----+----------+-----------+----------
+  AAPL |   32.3x |  -4% |  +34% |  +1% |   +6% |   0.70 | || |   +16.4% |      0.12 |         -
+  TSLA |  250.0x | +50% | +487% | -17% |  +32% |  -0.79 | || |   +17.4% |      0.34 |    $-0.12
+
+
+LEGEND:
+vsXYr: % difference between Current P/E and P/E X years ago.
+1yCorr: Correlation (0-1) between Price and Earnings over last 12 months.
+Stability: CV of Annual EPS (Lower = Smoother growth).
+Fwd Delta: Next Quarter Estimate minus Last Reported EPS. (+ = Growth exp).
+
+================================================================================
+TICKER: AAPL | Price Date: 2026-02-13
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   32.3x |   33.7x |   24.1x |   31.9x | 30.5x
+   vs Cur   |       - |     -4% |    +34% |     +1% |   +6%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: 0.70
+   > 5-Year EPS CAGR:    +16.4%
+   > Earnings Stability: 0.12
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |      N/A |        - |        - | (No estimate found)
+   2026-01-29  |    $2.67 |    $2.84 |    +6.4% | $0.17
+   2025-10-30  |    $1.78 |    $1.85 |    +3.9% | $0.07
+   2025-07-31  |    $1.44 |    $1.57 |    +9.0% | $0.13
+   2025-05-01  |    $1.63 |    $1.65 |    +1.2% | $0.02
+
+   > Forward Delta: - (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-01-29  |    $7.91 | +13.5%
+   2025-01-30  |    $6.97 |  +8.6%
+   2024-02-01  |    $6.42 |  +9.0%
+   2023-02-02  |    $5.89 |  -2.5%
+   2022-01-27  |    $6.04 | +63.2%
+   2021-01-27  |    $3.70 | +16.4%
+   2020-01-28  |    $3.18 |  +4.3%
+   2019-01-29  |    $3.05 | +25.0%
+   2018-02-01  |    $2.44 |      -
+================================================================================
+TICKER: TSLA | Price Date: 2026-02-13
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|  250.0x |  167.2x |   42.6x |  300.2x | 190.0x
+   vs Cur   |       - |    +50% |   +487% |    -17% |  +32%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.79
+   > 5-Year EPS CAGR:    +17.4%
+   > Earnings Stability: 0.34
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $0.38 |        - |        - | (Due: 2026-04-28)
+   2026-01-28  |    $0.45 |    $0.50 |   +10.8% | $0.05
+   2025-10-22  |    $0.56 |    $0.50 |   -10.4% | $-0.06
+   2025-07-23  |    $0.40 |    $0.40 |    +0.7% | $0.00
+   2025-04-22  |    $0.41 |    $0.27 |   -34.7% | $-0.14
+
+   > Forward Delta: $-0.12 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-01-28  |    $1.67 | -31.0%
+   2025-01-29  |    $2.42 | -22.7%
+   2024-01-24  |    $3.13 | -23.1%
+   2023-01-25  |    $4.07 | +80.1%
+   2022-01-26  |    $2.26 | +201.3%
+   2021-01-27  |    $0.75 |      -
+   2020-01-29  |    $0.00 | +100.0%
+   2019-01-30  |   $-0.10 | +82.5%
+   2018-02-07  |   $-0.57 |      -

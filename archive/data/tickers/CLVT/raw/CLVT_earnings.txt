@@ -1,0 +1,31 @@
+EARNINGS ANALYSIS: CLVT
+Last Reported: $0.18 (2025-09-30) | Next Est: $0.14 (Due: 2026-03-31)
+Forward Delta: -0.04
+Stability (CV): 0.35
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-09-30  $0.18       $0.16           0.02  12.5%
+2025-06-30  $-0.11      $0.17          -0.28  -164.7%
+2025-03-31  $0.14       $0.12           0.02  20.7%
+2024-12-31  $0.21       $0.20           0.01  3.8%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2026-12-31     next fiscal year           $0.66
+2026-03-31     next fiscal quarter        $0.14
+2025-12-31     historical fiscal year     $0.66
+2025-09-30     historical fiscal quarter  $0.16
+2025-06-30     historical fiscal quarter  $0.17
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  ---------------
+2025-12-31         $0.21           -
+2024-12-31         $0.74           +0.53 (+252.4%)
+2023-12-31         $0.83           +0.09 (+12.2%)
+2022-12-31         $0.85           +0.02 (+2.4%)
+2021-12-31         $0.70           -0.15 (-17.6%)

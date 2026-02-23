@@ -1,0 +1,31 @@
+EARNINGS ANALYSIS: KD
+Last Reported: $0.52 (2025-12-31) | Next Est: $0.69 (Due: 2026-06-30)
+Forward Delta: +0.17
+Stability (CV): 1.46
+=================================================================
+RECENT PERFORMANCE (Last 4 Quarters)
+Date        Reported    Estimated      Delta  Surp %
+----------  ----------  -----------  -------  --------
+2025-12-31  $0.52       $0.62          -0.1   -16.1%
+2025-09-30  $0.38       $0.35           0.03  8.6%
+2025-06-30  $0.37       $0.36           0.01  2.8%
+2025-03-31  $0.52       $0.51           0.01  2.0%
+-----------------------------------------------------------------
+
+UPCOMING ESTIMATES
+Fiscal Date    Horizon                    Consensus
+-------------  -------------------------  -----------
+2027-03-31     next fiscal year           $3.00
+2026-06-30     next fiscal quarter        $0.69
+2026-03-31     historical fiscal year     $1.95
+2025-12-31     historical fiscal quarter  $0.60
+2025-09-30     historical fiscal quarter  $0.36
+
+LONG-TERM CONTEXT (5 Years)
+Fiscal Year End    Reported EPS    Change
+-----------------  --------------  ---------------
+2025-12-31         $1.27           -
+2025-03-31         $1.09           -0.18 (-14.2%)
+2024-03-31         $-1.49          -2.58 (-236.7%)
+2023-03-31         $-6.06          -4.57 (-306.7%)
+2022-03-31         $-11.72         -5.66 (-93.4%)

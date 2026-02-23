@@ -1,0 +1,41 @@
+{
+  "ticker": "AAPL",
+  "cik": "0000320193",
+  "fetch_date": "2026-02-21",
+  "filings": {
+    "10-K": {
+      "report_date": "2025-09-27",
+      "accession": "0000320193-25-000079",
+      "document": "aapl-20250927.htm",
+      "sections": {
+        "mda": {
+          "lines": 1,
+          "words": 2805,
+          "chars": 18017
+        },
+        "notes": {
+          "lines": 1,
+          "words": 2134,
+          "chars": 13079
+        }
+      }
+    },
+    "10-Q": {
+      "report_date": "2025-12-27",
+      "accession": "0000320193-26-000006",
+      "document": "aapl-20251227.htm",
+      "sections": {
+        "mda": {
+          "lines": 1,
+          "words": 2740,
+          "chars": 17816
+        },
+        "notes": {
+          "lines": 1,
+          "words": 1545,
+          "chars": 9100
+        }
+      }
+    }
+  }
+}

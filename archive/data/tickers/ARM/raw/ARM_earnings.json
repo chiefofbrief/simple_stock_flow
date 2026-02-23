@@ -1,0 +1,157 @@
+{
+  "ticker": "ARM",
+  "stability_cv": 0.09132900933280282,
+  "forward_metrics": {
+    "next_est": 0.3886,
+    "next_est_date": "2026-06-30",
+    "last_reported": 0.43,
+    "last_reported_date": "2025-12-31",
+    "forward_delta": -0.04139999999999999
+  },
+  "annual_trend": [
+    {
+      "fiscalDate": "2025-12-31",
+      "eps": 1.17
+    },
+    {
+      "fiscalDate": "2025-03-31",
+      "eps": 1.45
+    },
+    {
+      "fiscalDate": "2024-03-31",
+      "eps": 1.2496
+    }
+  ],
+  "recent_quarters": [
+    {
+      "fiscalDate": "2025-12-31",
+      "reported": 0.43,
+      "estimated": 0.41,
+      "delta": 0.020000000000000018,
+      "surprise_pct": 0.04878048780487809
+    },
+    {
+      "fiscalDate": "2025-09-30",
+      "reported": 0.39,
+      "estimated": 0.33,
+      "delta": 0.06,
+      "surprise_pct": 0.1818181818181818
+    },
+    {
+      "fiscalDate": "2025-06-30",
+      "reported": 0.35,
+      "estimated": 0.35,
+      "delta": 0.0,
+      "surprise_pct": 0.0
+    },
+    {
+      "fiscalDate": "2025-03-31",
+      "reported": 0.55,
+      "estimated": 0.52,
+      "delta": 0.030000000000000027,
+      "surprise_pct": 0.057692307692307744
+    }
+  ],
+  "estimates": [
+    {
+      "date": "2027-03-31",
+      "horizon": "next fiscal year",
+      "eps_estimate_average": "2.1599",
+      "eps_estimate_high": "2.5200",
+      "eps_estimate_low": "1.9700",
+      "eps_estimate_analyst_count": "39.0000",
+      "eps_estimate_average_7_days_ago": "2.2816",
+      "eps_estimate_average_30_days_ago": "2.2700",
+      "eps_estimate_average_60_days_ago": "2.2675",
+      "eps_estimate_average_90_days_ago": "2.2657",
+      "eps_estimate_revision_up_trailing_7_days": "5.0000",
+      "eps_estimate_revision_down_trailing_7_days": null,
+      "eps_estimate_revision_up_trailing_30_days": "4.0000",
+      "eps_estimate_revision_down_trailing_30_days": "22.0000",
+      "revenue_estimate_average": "5891644700.00",
+      "revenue_estimate_high": "6023000000.00",
+      "revenue_estimate_low": "5630000000.00",
+      "revenue_estimate_analyst_count": "40.00"
+    },
+    {
+      "date": "2026-06-30",
+      "horizon": "next fiscal quarter",
+      "eps_estimate_average": "0.3886",
+      "eps_estimate_high": "0.5500",
+      "eps_estimate_low": "0.3100",
+      "eps_estimate_analyst_count": "26.0000",
+      "eps_estimate_average_7_days_ago": "0.4604",
+      "eps_estimate_average_30_days_ago": "0.4608",
+      "eps_estimate_average_60_days_ago": "0.4608",
+      "eps_estimate_average_90_days_ago": "0.4614",
+      "eps_estimate_revision_up_trailing_7_days": "2.0000",
+      "eps_estimate_revision_down_trailing_7_days": null,
+      "eps_estimate_revision_up_trailing_30_days": "3.0000",
+      "eps_estimate_revision_down_trailing_30_days": "17.0000",
+      "revenue_estimate_average": "1277507190.00",
+      "revenue_estimate_high": "1420700000.00",
+      "revenue_estimate_low": "1200000000.00",
+      "revenue_estimate_analyst_count": "24.00"
+    },
+    {
+      "date": "2026-03-31",
+      "horizon": "historical fiscal year",
+      "eps_estimate_average": "1.7478",
+      "eps_estimate_high": "1.8900",
+      "eps_estimate_low": "1.6000",
+      "eps_estimate_analyst_count": "37.0000",
+      "eps_estimate_average_7_days_ago": "1.7232",
+      "eps_estimate_average_30_days_ago": "1.7181",
+      "eps_estimate_average_60_days_ago": "1.7187",
+      "eps_estimate_average_90_days_ago": "1.7186",
+      "eps_estimate_revision_up_trailing_7_days": "26.0000",
+      "eps_estimate_revision_down_trailing_7_days": null,
+      "eps_estimate_revision_up_trailing_30_days": "25.0000",
+      "eps_estimate_revision_down_trailing_30_days": "0.0000",
+      "revenue_estimate_average": "4896448090.00",
+      "revenue_estimate_high": "4978000000.00",
+      "revenue_estimate_low": "4796000000.00",
+      "revenue_estimate_analyst_count": "37.00"
+    },
+    {
+      "date": "2025-12-31",
+      "horizon": "historical fiscal quarter",
+      "eps_estimate_average": "0.4092",
+      "eps_estimate_high": "0.4223",
+      "eps_estimate_low": "0.3900",
+      "eps_estimate_analyst_count": "28.0000",
+      "eps_estimate_average_7_days_ago": "0.4095",
+      "eps_estimate_average_30_days_ago": "0.4095",
+      "eps_estimate_average_60_days_ago": "0.4095",
+      "eps_estimate_average_90_days_ago": "0.3552",
+      "eps_estimate_revision_up_trailing_7_days": "0.0000",
+      "eps_estimate_revision_down_trailing_7_days": null,
+      "eps_estimate_revision_up_trailing_30_days": "0.0000",
+      "eps_estimate_revision_down_trailing_30_days": "0.0000",
+      "revenue_estimate_average": "1226802300.00",
+      "revenue_estimate_high": "1260000000.00",
+      "revenue_estimate_low": "1211300000.00",
+      "revenue_estimate_analyst_count": "28.00"
+    },
+    {
+      "date": "2025-09-30",
+      "horizon": "historical fiscal quarter",
+      "eps_estimate_average": "0.3318",
+      "eps_estimate_high": "0.3600",
+      "eps_estimate_low": "0.3100",
+      "eps_estimate_analyst_count": "27.0000",
+      "eps_estimate_average_7_days_ago": "0.3325",
+      "eps_estimate_average_30_days_ago": "0.3334",
+      "eps_estimate_average_60_days_ago": "0.3334",
+      "eps_estimate_average_90_days_ago": "0.3364",
+      "eps_estimate_revision_up_trailing_7_days": "1.0000",
+      "eps_estimate_revision_down_trailing_7_days": null,
+      "eps_estimate_revision_up_trailing_30_days": "1.0000",
+      "eps_estimate_revision_down_trailing_30_days": "18.0000",
+      "revenue_estimate_average": "1061018910.00",
+      "revenue_estimate_high": "1090000000.00",
+      "revenue_estimate_low": "1038000000.00",
+      "revenue_estimate_analyst_count": "26.00"
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "priority": {
+    "operating_cashflow": {
+      "values": [
+        5797000000.0,
+        5813000000.0,
+        4843000000.0,
+        7450000000.0,
+        6416000000.0
+      ],
+      "unit": "dollars",
+      "current": 6416000000.0,
+      "avg_5yr": 6063800000.0,
+      "cv": 14.13,
+      "slope": 287500000.0,
+      "recent_delta": {
+        "absolute": -1034000000.0,
+        "percent": -13.88
+      },
+      "outlier_years": [],
+      "cagr": 2.57,
+      "ytd_value": 6416000000.0,
+      "category": "undervaluation",
+      "description": "Operating Cash Flow"
+    },
+    "free_cashflow": {
+      "values": [
+        4889000000.0,
+        5107000000.0,
+        4220000000.0,
+        6767000000.0,
+        5564000000.0
+      ],
+      "unit": "dollars",
+      "current": 5564000000.0,
+      "avg_5yr": 5309400000.0,
+      "cv": 15.97,
+      "slope": 301000000.0,
+      "recent_delta": {
+        "absolute": -1203000000.0,
+        "percent": -17.78
+      },
+      "outlier_years": [],
+      "cagr": 3.29,
+      "ytd_value": 5564000000.0,
+      "category": "undervaluation",
+      "description": "Free Cash Flow"
+    },
+    "ncav": {
+      "values": [
+        -1502000000.0,
+        -926000000.0,
+        1454000000.0,
+        -102000000.0,
+        -158000000.0
+      ],
+      "unit": "dollars",
+      "current": -158000000.0,
+      "avg_5yr": -246800000.0,
+      "cv": 403.5,
+      "slope": 351200000.0,
+      "recent_delta": {
+        "absolute": -56000000.0,
+        "percent": 54.9
+      },
+      "outlier_years": [],
+      "ytd_value": -158000000.0,
+      "category": "undervaluation",
+      "description": "Net Current Asset Value"
+    },
+    "rotc": {
+      "values": [
+        14.18,
+        11.68,
+        17.93,
+        18.85,
+        22.26
+      ],
+      "unit": "percent",
+      "current": 22.26,
+      "avg_5yr": 16.98,
+      "cv": 21.75,
+      "slope": 2.33,
+      "recent_delta": {
+        "absolute": 3.41,
+        "percent": 18.09
+      },
+      "outlier_years": [],
+      "ytd_value": null,
+      "category": "undervaluation",
+      "description": "Return on Total Capital"
+    },
+    "roe": {
+      "values": [
+        19.19,
+        11.93,
+        20.17,
+        20.31,
+        25.83
+      ],
+      "unit": "percent",
+      "current": 25.83,
+      "avg_5yr": 19.49,
+      "cv": 22.79,
+      "slope": 2.17,
+      "recent_delta": {
+        "absolute": 5.52,
+        "percent": 27.18
+      },
+      "outlier_years": [],
+      "ytd_value": null,
+      "category": "undervaluation",
+      "description": "Return on Equity"
+    },
+    "operating_leverage": {
+      "values": [
+        null,
+        -1.18,
+        3.79,
+        0.87,
+        4.82
+      ],
+      "unit": "ratio",
+      "current": 4.82,
+      "avg_5yr": 2.08,
+      "cv": 114.36,
+      "slope": 1.51,
+      "recent_delta": {
+        "absolute": 3.95,
+        "percent": 454.02
+      },
+      "outlier_years": [],
+      "ytd_value": null,
+      "category": "undervaluation",
+      "description": "Operating Leverage"
+    },
+    "revenue_trends": {
+      "values": [
+        25371000000.0,
+        27518000000.0,
+        29771000000.0,
+        31797000000.0,
+        33338000000.0
+      ],
+      "unit": "dollars",
+      "current": 33338000000.0,
+      "avg_5yr": 29559000000.0,
+      "cv": 9.69,
+      "slope": 2021300000.0,
+      "recent_delta": {
+        "absolute": 1541000000.0,
+        "percent": 4.85
+      },
+      "outlier_years": [],
+      "cagr": 7.07,
+      "ytd_value": 33254000000.0,
+      "category": "undervaluation",
+      "description": "Revenue (trend analysis)"
+    },
+    "operating_margin": {
+      "values": [
+        16.8,
+        13.94,
+        16.89,
+        16.75,
+        19.7
+      ],
+      "unit": "percent",
+      "current": 19.7,
+      "avg_5yr": 16.82,
+      "cv": 10.84,
+      "slope": 0.86,
+      "recent_delta": {
+        "absolute": 2.95,
+        "percent": 17.61
+      },
+      "outlier_years": [],
+      "ytd_value": null,
+      "category": "undervaluation",
+      "description": "Operating Margin"
+    },
+    "debt_to_ocf": {
+      "values": [
+        1.52,
+        1.92,
+        2.29,
+        1.33,
+        1.56
+      ],
+      "unit": "years",
+      "current": 1.56,
+      "avg_5yr": 1.72,
+      "cv": 19.8,
+      "slope": -0.05,
+      "recent_delta": {
+        "absolute": 0.23,
+        "percent": 17.29
+      },
+      "outlier_years": [],
+      "ytd_value": 1.56,
+      "category": "risk",
+      "description": "Debt / OCF (years to repay)"
+    },
+    "ocf_to_ni": {
+      "values": [
+        1.39,
+        2.4,
+        1.14,
+        1.8,
+        1.23
+      ],
+      "unit": "ratio",
+      "current": 1.23,
+      "avg_5yr": 1.59,
+      "cv": 29.09,
+      "slope": -0.09,
+      "recent_delta": {
+        "absolute": -0.57,
+        "percent": -31.67
+      },
+      "outlier_years": [],
+      "ytd_value": null,
+      "category": "risk",
+      "description": "OCF / Net Income"
+    },
+    "accruals_gap": {
+      "values": [
+        -2.15,
+        -4.31,
+        -0.73,
+        -4.05,
+        -1.48
+      ],
+      "unit": "percent",
+      "current": -1.48,
+      "avg_5yr": -2.54,
+      "cv": 55.49,
+      "slope": 0.16,
+      "recent_delta": {
+        "absolute": 2.57,
+        "percent": -63.46
+      },
+      "outlier_years": [],
+      "ytd_value": null,
+      "category": "risk",
+      "description": "Accruals Gap (% of assets)"
+    },
+    "depreciation_amortization_risk": {
+      "values": [
+        1265000000.0,
+        1317000000.0,
+        1072000000.0,
+        1032000000.0,
+        963000000.0
+      ],
+      "unit": "dollars",
+      "current": 963000000.0,
+      "avg_5yr": 1129800000.0,
+      "cv": 12.14,
+      "slope": -88900000.0,
+      "recent_delta": {
+        "absolute": -69000000.0,
+        "percent": -6.69
+      },
+      "outlier_years": [],
+      "ytd_value": 963000000.0,
+      "category": "risk",
+      "description": "D&A (for peer comparison)"
+    },
+    "working_capital": {
+      "values": [
+        9545000000.0,
+        12416000000.0,
+        14103000000.0,
+        12716000000.0,
+        13316000000.0
+      ],
+      "unit": "dollars",
+      "current": 13316000000.0,
+      "avg_5yr": 12419200000.0,
+      "cv": 12.47,
+      "slope": 784200000.0,
+      "recent_delta": {
+        "absolute": 600000000.0,
+        "percent": 4.72
+      },
+      "outlier_years": [],
+      "cagr": 8.68,
+      "ytd_value": 13316000000.0,
+      "category": "risk",
+      "description": "Working Capital (trend analysis)"
+    }
+  },
+  "secondary": {
+    "gross_margin": {
+      "values": [
+        55.17,
+        50.05,
+        46.03,
+        46.1,
+        47.03
+      ],
+      "unit": "percent",
+      "current": 47.03,
+      "avg_5yr": 48.88,
+      "cv": 7.1,
+      "slope": -2.02,
+      "recent_delta": {
+        "absolute": 0.93,
+        "percent": 2.02
+      },
+      "outlier_years": [],
+      "category": "operations",
+      "description": "Gross Margin"
+    },
+    "net_margin": {
+      "values": [
+        16.43,
+        8.79,
+        14.26,
+        13.04,
+        15.7
+      ],
+      "unit": "percent",
+      "current": 15.7,
+      "avg_5yr": 13.64,
+      "cv": 19.75,
+      "slope": 0.28,
+      "recent_delta": {
+        "absolute": 2.66,
+        "percent": 20.4
+      },
+      "outlier_years": [],
+      "category": "operations",
+      "description": "Net Margin"
+    },
+    "da_pct_revenue": {
+      "values": [
+        4.99,
+        4.79,
+        3.6,
+        3.25,
+        2.89
+      ],
+      "unit": "percent",
+      "current": 2.89,
+      "avg_5yr": 3.9,
+      "cv": 21.47,
+      "slope": -0.57,
+      "recent_delta": {
+        "absolute": -0.36,
+        "percent": -11.08
+      },
+      "outlier_years": [],
+      "category": "operations",
+      "description": "D&A % of Revenue"
+    },
+    "da_pct_ocf": {
+      "values": [
+        21.82,
+        22.66,
+        22.14,
+        13.85,
+        15.01
+      ],
+      "unit": "percent",
+      "current": 15.01,
+      "avg_5yr": 19.1,
+      "cv": 20.09,
+      "slope": -2.24,
+      "recent_delta": {
+        "absolute": 1.16,
+        "percent": 8.38
+      },
+      "outlier_years": [],
+      "category": "operations",
+      "description": "D&A % of OCF"
+    },
+    "debt_to_assets": {
+      "values": [
+        11.62,
+        14.15,
+        13.47,
+        12.1,
+        12.46
+      ],
+      "unit": "percent",
+      "current": 12.46,
+      "avg_5yr": 12.76,
+      "cv": 7.24,
+      "slope": -0.04,
+      "recent_delta": {
+        "absolute": 0.36,
+        "percent": 2.98
+      },
+      "outlier_years": [],
+      "category": "financial_health",
+      "description": "Debt / Total Assets"
+    },
+    "tangible_equity_to_assets": {
+      "values": [
+        11.8,
+        10.51,
+        11.55,
+        11.34,
+        11.46
+      ],
+      "unit": "percent",
+      "current": 11.46,
+      "avg_5yr": 11.33,
+      "cv": 3.86,
+      "slope": 0.01,
+      "recent_delta": {
+        "absolute": 0.12,
+        "percent": 1.06
+      },
+      "outlier_years": [],
+      "category": "financial_health",
+      "description": "Tangible Equity / Assets"
+    },
+    "current_ratio": {
+      "values": [
+        1.22,
+        1.28,
+        1.29,
+        1.26,
+        1.29
+      ],
+      "unit": "ratio",
+      "current": 1.29,
+      "avg_5yr": 1.27,
+      "cv": 2.08,
+      "slope": 0.01,
+      "recent_delta": {
+        "absolute": 0.03,
+        "percent": 2.38
+      },
+      "outlier_years": [],
+      "category": "financial_health",
+      "description": "Current Ratio"
+    },
+    "quick_ratio": {
+      "values": [
+        1.22,
+        1.27,
+        1.3,
+        1.26,
+        1.29
+      ],
+      "unit": "ratio",
+      "current": 1.29,
+      "avg_5yr": 1.27,
+      "cv": 2.2,
+      "slope": 0.01,
+      "recent_delta": {
+        "absolute": 0.03,
+        "percent": 2.38
+      },
+      "outlier_years": [],
+      "category": "financial_health",
+      "description": "Quick Ratio"
+    },
+    "ebit_coverage": {
+      "values": [
+        18.67,
+        12.07,
+        16.59,
+        14.95,
+        15.27
+      ],
+      "unit": "ratio",
+      "current": 15.27,
+      "avg_5yr": 15.51,
+      "cv": 13.94,
+      "slope": -0.39,
+      "recent_delta": {
+        "absolute": 0.32,
+        "percent": 2.14
+      },
+      "outlier_years": [],
+      "category": "financial_health",
+      "description": "EBIT Coverage"
+    },
+    "debt_to_tangible_equity": {
+      "values": [
+        98.55,
+        134.55,
+        116.66,
+        106.75,
+        108.74
+      ],
+      "unit": "percent",
+      "current": 108.74,
+      "avg_5yr": 113.05,
+      "cv": 10.79,
+      "slope": -0.74,
+      "recent_delta": {
+        "absolute": 1.99,
+        "percent": 1.86
+      },
+      "outlier_years": [],
+      "category": "financial_health",
+      "description": "Debt to Tangible Equity"
+    },
+    "std_pct_current_liabilities": {
+      "values": [
+        0.33,
+        0.33,
+        2.87,
+        0.0,
+        0.0
+      ],
+      "unit": "percent",
+      "current": 0.0,
+      "avg_5yr": 0.71,
+      "cv": 154.68,
+      "slope": -0.1,
+      "recent_delta": {
+        "absolute": 0.0,
+        "percent": null
+      },
+      "outlier_years": [],
+      "category": "financial_health",
+      "description": "Short-Term Debt % of Current Liab"
+    },
+    "cash_pct_assets": {
+      "values": [
+        6.86,
+        9.88,
+        11.05,
+        8.04,
+        10.04
+      ],
+      "unit": "percent",
+      "current": 10.04,
+      "avg_5yr": 9.17,
+      "cv": 16.47,
+      "slope": 0.45,
+      "recent_delta": {
+        "absolute": 2.0,
+        "percent": 24.88
+      },
+      "outlier_years": [],
+      "category": "financial_health",
+      "description": "Cash % of Assets"
+    },
+    "receivables_vs_revenue_growth": {
+      "values": [
+        null,
+        -1.37,
+        -5.4,
+        -7.64,
+        -0.7
+      ],
+      "unit": "percent",
+      "current": -0.7,
+      "avg_5yr": -3.78,
+      "cv": 75.83,
+      "slope": -0.02,
+      "recent_delta": {
+        "absolute": 6.94,
+        "percent": -90.84
+      },
+      "outlier_years": [],
+      "category": "efficiency",
+      "description": "Receivables Growth - Revenue Growth"
+    },
+    "dso": {
+      "values": [
+        601.17,
+        593.58,
+        563.97,
+        523.65,
+        520.16
+      ],
+      "unit": "days",
+      "current": 520.16,
+      "avg_5yr": 560.51,
+      "cv": 6.05,
+      "slope": -23.19,
+      "recent_delta": {
+        "absolute": -3.49,
+        "percent": -0.67
+      },
+      "outlier_years": [],
+      "category": "efficiency",
+      "description": "Days Sales Outstanding"
+    },
+    "inventory_vs_cogs_growth": {
+      "values": [
+        null,
+        null,
+        -2840.42,
+        null,
+        null
+      ],
+      "unit": "percent",
+      "current": null,
+      "avg_5yr": -2840.42,
+      "cv": null,
+      "slope": null,
+      "recent_delta": {
+        "absolute": null,
+        "percent": null
+      },
+      "outlier_years": [],
+      "category": "efficiency",
+      "description": "Inventory Growth - COGS Growth"
+    },
+    "inventory_turnover": {
+      "values": [
+        null,
+        808.53,
+        null,
+        null,
+        null
+      ],
+      "unit": "ratio",
+      "current": null,
+      "avg_5yr": 808.53,
+      "cv": null,
+      "slope": null,
+      "recent_delta": {
+        "absolute": null,
+        "percent": null
+      },
+      "outlier_years": [],
+      "category": "efficiency",
+      "description": "Inventory Turnover"
+    },
+    "capex_to_depreciation": {
+      "values": [
+        0.72,
+        0.54,
+        0.58,
+        0.66,
+        0.88
+      ],
+      "unit": "ratio",
+      "current": 0.88,
+      "avg_5yr": 0.68,
+      "cv": 17.69,
+      "slope": 0.04,
+      "recent_delta": {
+        "absolute": 0.22,
+        "percent": 33.33
+      },
+      "outlier_years": [],
+      "category": "efficiency",
+      "description": "Capex / Depreciation"
+    }
+  }
+}

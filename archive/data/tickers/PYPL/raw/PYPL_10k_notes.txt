@@ -1,0 +1,514 @@
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS—(Continued)
+US state and local:
+Other
+Foreign:
+Singapore
+Luxembourg
+Other
+Total cash taxes paid, net of refunds received
+$
+Deferred tax assets and liabilities are recognized for the future tax consequences of differences between the carrying amounts of assets and liabilities and their respective tax basis using enacted tax rates in effect for the year in which the differences are expected to reverse.
+$
+Accruals and allowances
+Lease liabilities
+Stock-based compensation
+Capitalized research and development
+Other items
+Total deferred tax assets
+Valuation allowance
+(1)
+()
+()
+Total deferred tax assets, net of valuation allowance
+$
+$
+Deferred tax liabilities:
+ROU lease assets
+$
+()
+$
+()
+Capitalized software development costs
+()
+()
+Net unrealized gains
+()
+()
+Other items
+()
+()
+Total deferred tax liabilities
+()
+()
+Net deferred tax assets
+$
+$
+(1)
+For the year ended December 31, 2025, we had an increase in our valuation allowance of $ million, primarily driven by an increase in our U.S. federal tax attributes generated as part of an internal legal entity restructuring, as well as an increase in our U.S. state tax attributes due to a change in our state apportionment rates, which are not more-likely-than-not to be realized.
+As of December 31, 2025, our net foreign net operating loss carryforwards for income tax purposes were approximately $ million, and certain of these amounts are subject to an annual limitation. If not utilized, a portion of these losses will begin to expire in 2026. As of December 31, 2025, our net U.S. Federal capital loss carryforward was approximately $ million, which will expire in 2030. As of December 31, 2025, our net California research and development tax credit carryforwards for income tax purposes were approximately $ million, which may be carried forward indefinitely. As of December 31, 2025, our Federal corporate alternative minimum tax credit carryforward was approximately $ million, which may be carried forward indefinitely. It is more likely than not that most of these net operating loss, capital loss, and research and development tax credit carryforward deferred tax assets will not be realized and a valuation allowance has been recorded against these assets.
+Repatriation of our foreign earnings for use in the U.S. is generally not expected to result in a significant amount of income taxes; as a result, the corresponding deferred tax liability we have accrued is not material.
+FY 2025 FORM 10-K
+115
+Table of Contents
+PayPal Holdings, Inc.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS—(Continued)
+million, $ million, and $ million in 2025, 2024, and 2023, respectively. Excluding the effect of U.S. and foreign tax legislation, the benefit of this agreement on our diluted net income (loss) per share was approximately $, $, and $ in 2025, 2024, and 2023, respectively. These results may further vary based on our overall tax profile.
+On July 4, 2025, the One Big Beautiful Bill Act (the “Act”) was enacted into law in the U.S., with certain provisions of the Act effective in 2025 and other provisions becoming effective in 2026 and beyond. The provisions of the Act effective in 2025 were not material and have been reflected in our results, as applicable.
+$
+$
+Increases related to prior period tax positions
+Decreases related to prior period tax positions
+()
+()
+()
+Increases related to current period tax positions
+Settlements
+()
+Statute of limitation expirations
+()
+()
+()
+Gross amounts of unrecognized tax benefits as of the end of the period
+$
+$
+$
+If the remaining balance of unrecognized tax benefits were realized in a future period, it would result in a tax benefit of $ billion.
+For the years ended December 31, 2025, 2024, and 2023, we recognized net interest and penalties of $ million, $ million, and $ million, respectively, related to uncertain tax positions in income tax expense. This expense is reflected in the “Changes in unrecognized tax benefits” line of our effective income tax rate schedule for 2025 and “Other” line of our effective income tax rate schedule for 2024 and 2023. The amount of interest and penalties accrued as of December 31, 2025 and 2024 was approximately $ million and $ million, respectively.
+We are subject to taxation in the U.S. and various state and foreign jurisdictions. We are currently under examination by certain tax authorities for the 2013 to 2024 tax years. The material jurisdictions in which we are subject to examination by tax authorities for tax years after 2012 primarily include the U.S. (Federal and California), India, Singapore, and Israel. We believe that adequate amounts have been reserved for any adjustments that may ultimately result from our open examinations.
+Due to various factors, including uncertainties of the judicial, administrative, and regulatory processes in certain jurisdictions, the timing of the resolution of these unrecognized tax benefits is highly uncertain. It is reasonably possible that within the next twelve months, we may receive additional tax adjustments by various tax authorities or possibly reach resolution of audits in one or more jurisdictions. These adjustments or settlements could result in changes to our unrecognized tax benefits related to positions on prior year tax filings.
+In connection with our separation from eBay in 2015, we entered into various agreements that govern the relationship between the parties going forward, including a tax matters agreement. Under the tax matters agreement, eBay is generally responsible for all additional taxes (and will be entitled to all related refunds of taxes) imposed on eBay and its subsidiaries (including subsidiaries that were transferred to PayPal pursuant to the separation) arising after the separation date with respect to the taxable periods (or portions thereof) ended on or prior to July 17, 2015, except for those taxes for which PayPal reflected an unrecognized tax benefit on the separation date.
+FY 2025 FORM 10-K
+116
+Table of Contents
+PayPal Holdings, Inc.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS—(Continued)
+NOTE 17—
+to  months with the workforce component to be substantially completed in 2027 and the technology infrastructure component to be substantially completed in 2028. The associated restructuring charges during the year ended December 31, 2025 were $ million, consisting of $ million in employee severance and benefits costs and $ million in other restructuring costs.
+In connection with this restructuring, we expect to incur employee severance and benefits costs of approximately $ million to $ million, asset impairment and accelerated depreciation charges of approximately $ million to $ million, and other restructuring costs of approximately $ million to $ million over the term of the 2Q 2025 Plan. Other restructuring costs relate to process re-engineering and one-time migration to cloud solutions and consist of contractor costs, consulting fees, and prepaid software and maintenance costs without future economic benefit. The timing of activities and cost estimates continue to be developed and are subject to change.
+$
+$
+Charges
+Payments
+()
+()
+Accrued liability as of December 31, 2025
+$
+$
+$
+1Q 2025 Plan
+During the first quarter of 2025, management initiated a workforce reduction to ensure compliance with a new regulation impacting operations in an international market. The associated restructuring charges during the year ended December 31, 2025 were $ million and included employee severance and benefits costs, which was completed in the third quarter of 2025.
+Charges
+Payments
+()
+Accrued liability as of December 31, 2025
+$
+FY 2025 FORM 10-K
+117
+Table of Contents
+PayPal Holdings, Inc.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS—(Continued)
+million, and included employee severance and benefits costs and stock-based compensation expense, which were substantially completed in the fourth quarter of 2024.
+1Q 2023 Plan
+During the first quarter of 2023, management initiated a global workforce reduction intended to focus resources on core strategic priorities and improve our cost structure and operating efficiency. The associated restructuring charges in 2023 were $ million. We primarily incurred employee severance and benefits costs, which were substantially completed by the fourth quarter of 2023.
+We continue to review our real estate and facility capacity requirements due to our new and evolving work models. We incurred asset impairment charges of
+in 2025 and 2024, and $ million in 2023 due to exiting certain leased properties, which resulted in a reduction of ROU lease assets and related leasehold improvements. Additionally, we recognized a gain of $ million due to the sale of an owned property and incurred a loss of $ million related to another owned property held for sale in the year ended December 31, 2023.
+OTHER
+During the years ended December 31, 2025, 2024 and 2023, approximately $ million, $ million and $ million, respectively, of losses were recorded in restructuring and other, which included net loss on sale of loans and interest receivable previously held for sale (inclusive of transaction costs) and fair value adjustments to measure loans and interest receivable, held for sale, at the lower of cost or fair value.
+In the fourth quarter of 2023, we completed the sale of Happy Returns and recorded a pre-tax gain of $ million, net of transaction costs, in
+restructuring and other
+. For additional information on the divestiture, see “Note 4—Business Combinations and Divestitures”.
+FY 2025 FORM 10-K
+118
+PayPal Holdings, Inc.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS—(Continued)
+NOTE 18—
+segment and have  reportable segment that constitutes consolidated results.
+$
+$
+Less (add):
+Transaction expense
+Transaction losses
+Credit losses
+Customer support and operations
+(1)
+Sales and marketing
+(1)
+Technology and development
+(1)
+General and administrative
+(1)
+Restructuring and other
+()
+Other income (expense), net
+()
+()
+()
+Income tax expense
+Segment net income (loss)
+$
+$
+$
+(1)
+Includes depreciation and amortization expense. Total depreciation and amortization expense was $
+billion for both years ended December 31, 2025 and 2024 and $ billion for the year ended December 31, 2023.
+There are no reconciling items or adjustments between segment net revenues, net income, total assets and consolidated net revenues, net income, and total assets.
+For disclosure of geographical information, please refer to “Note 2—Revenue” and “Note 7—Other Financial Statement Details”.
+FY 2025 FORM 10-K
+119
+Table of Contents
+$
+$
+()
+$
+Year Ended December 31, 2024
+$
+$
+$
+()
+$
+Year Ended December 31, 2025
+$
+$
+$
+()
+$
+Allowance for Loans and Interest Receivable
+Year Ended December 31, 2023
+$
+$
+$
+()
+$
+Year Ended December 31, 2024
+$
+$
+$
+()
+$
+Year Ended December 31, 2025
+$
+$
+$
+()
+$
+FY 2025 FORM 10-K
+120
+Table of Contents
+ITEM 16. FORM 10-K SUMMARY
+None.
+INDEX OF EXHIBITS
+Incorporated by Reference
+Exhibit
+Number
+Exhibit Description
+Filed with this Form 10-K
+Form
+Date Filed
+2.01
+Separation and Distribution Agreement by and between eBay Inc. and PayPal Holdings, Inc.
+10-12B/A
+6/26/2015
+3.01
+PayPal Holdings, Inc. Restated Certificate of Incorporation
+10-Q
+7/27/2017
+3.02
+PayPal Holdings, Inc. Amended and Restated Bylaws effective September 27, 2023
+8-K
+10/2/2023
+4.01
+Description of Securities
+10-K
+2/6/2020
+4.02
+Indenture, dated as of September 26, 2019, by and between PayPal Holdings, Inc. and Wells Fargo Bank, National Association, as Trustee
+8-K
+9/26/2019
+4.03
+Officer’s Certificate, dated as of September 26, 2019, pursuant to the Indenture, dated as of September 26, 2019, by and between PayPal Holdings, Inc. and Wells Fargo Bank, National Association, as Trustee, containing Forms of 2026 Note and 2029 Note
+8-K
+9/26/2019
+4.04
+Officer’s Certificate, dated as of May 18, 2020, pursuant to the Indenture, dated as of September 26, 2019, by and between PayPal Holdings, Inc. and Wells Fargo Bank, National Association, as Trustee, containing Forms of 2030 Note and 2050 Note
+8-K
+5/18/2020
+4.05
+Officer’s Certificate, dated as of May 23, 2022, pursuant to the Indenture, dated as of September 26, 2019, by and between PayPal Holdings, Inc. and Computershare Trust Company, N.A. as successor to Wells Fargo Bank, National Association, as Trustee, containing Forms of 2027 Note, 2032 Note, 2052 Note, and 2062 Note
+8-K
+5/23/2022
+4.06
+Officer’s Certificate, dated as of June 9, 2023, pursuant to the Indenture, dated as of September 26, 2019, by and between PayPal Holdings, Inc. and Computershare Trust Company, N.A. as successor to Wells Fargo Bank, National Association, as Trustee, containing Forms of Note for 0.972% Notes due 2026 and 1.240% Notes due 2028
+8-K
+6/9/2023
+4.07
+Officer’s Certificate, dated as of May 28, 2024, pursuant to the Indenture, dated as of September 26, 2019, by and between PayPal Holdings, Inc. and Computershare Trust Company, N.A. as successor to Wells Fargo Bank, National Association, as Trustee, containing Forms of Note for 5.150% Notes due 2034 and 5.500% Notes due 2054
+8-K
+5/28/2024
+4.08
+Officer’s Certificate, dated as of March 6, 2025, pursuant to the Indenture, dated as of September 26, 2019, by and between PayPal Holdings, Inc. and Computershare Trust Company, N.A. as successor to Wells Fargo Bank, National Association, as Trustee, containing Forms of Note for Floating Rate Notes due 2028, 4.450% Notes due 2028 and 5.100% Notes due 2035
+8-K
+3/6/2025
+10.01
+Tax Matters Agreement by and between eBay Inc. and PayPal Holdings, Inc. dated July 17, 2015
+8-K
+7/20/2015
+10.02+
+PayPal Employee Incentive Plan, as amended and restated
+DEF 14A
+4/14/2016
+10.03+
+PayPal Holdings, Inc. 2015 Equity Incentive Award Plan, as Amended and Restated
+8-K
+6/9/2025
+10.04+
+PayPal Holdings, Inc. Amended and Restated Deferred Compensation Plan effective November 6, 2018
+10-K
+2/7/2019
+FY 2025 FORM 10-K
+121
+Table of Contents
+Incorporated by Reference
+Exhibit
+Number
+Exhibit Description
+Filed with this Form 10-K
+Form
+Date Filed
+10.05+
+PayPal Holdings, Inc. Executive Change in Control and Severance Plan, as amended and restated, effective as of November 24, 2025
+X
+10.06+
+Form of Indemnity Agreement between PayPal Holdings, Inc. and individual directors and officers
+10-12B/A
+5/14/2015
+10.07+
+Form of Global Restricted Stock Unit Award Grant Notice and Restricted Stock Unit Award Agreement under the PayPal Holdings, Inc. 2015 Equity Incentive Award Plan
+10-12B/A
+5/14/2015
+10.08+
+Form of Global Performance Based Restricted Stock Unit Award Grant Notice and Performance Based Restricted Stock Unit Award Agreement under the PayPal Holdings, Inc. 2015 Equity Incentive Award Plan, as amended and restated
+10-Q
+4/30/2024
+10.09+
+Form of Global Notice of Grant of Stock Option and Stock Option Agreement under the PayPal Holdings, Inc. 2015 Equity Incentive Award Plan
+10-12B/A
+5/14/2015
+1
+0.
+10+
+Form of Global Restricted Stock Unit Award Grant Notice and Restricted Stock Unit Award Agreement under the PayPal Holdings, Inc. 2015 Equity Incentive Award Plan, as amended and restated (2026)
+X
+1
+0.
+11+
+Form of Global Performance Based Restricted Stock Unit Award Grant Notice and Performance Based Restricted Stock Unit Award Agreement under the PayPal Holdings, Inc. 2015 Equity Incentive Award Plan, as amended and restated (2026)
+X
+10.1
+2
++
+Form of Director Annual Award Agreement under the PayPal Holdings, Inc. 2015 Equity Incentive Award Plan
+10-12B/A
+5/14/2015
+10.1
+3
++
+Form of Electing Director Quarterly Award Agreement under the PayPal Holdings, Inc. 2015 Equity Incentive Award Plan
+10-12B/A
+5/14/2015
+10.1
+4
++
+PayPal Holdings, Inc. Amended and Restated Employee Stock Purchase Plan
+8-K
+5/25/2018
+10.
+1
+5
++
+Amendment to PayPal Holdings, Inc. Amended and Restated Employee Stock Purchase Plan
+10-Q
+11/9/2021
+10.1
+6
++
+PayPal Holdings, Inc. 2022 Inducement Plan
+S-8
+7/15/2022
+10.1
+7
++
+Letter Agreement by and between PayPal Holdings, Inc. and Alex Chriss, dated August 10, 2023
+8-K
+8/14/2023
+10.1
+8
++
+Offer Letter, dated October 29, 2023, by and between PayPal Holdings, Inc. and Jamie Miller
+8-K
+11/1/2023
+10.19
+Credit Agreement, dated as of June 7, 2023, among PayPal Holdings, Inc. the Designated Borrowers party thereto, the Lenders party thereto and JPMorgan Chase Bank, N.A. and J.P. Morgan Securities Australia Limited, as the Administrative Agents
+8-K
+6/13/2023
+10.20^†
+Deed of Amendment and Restatement dated November 11, 2025 in relation to the Receivables Purchase Agreement and the Receivables Management Agreement dated as of December 12, 2023, by and between PayPal (Europe) S.à r.l. et Cie, SCA (as Receivables Manager and Seller), PayPal UK Ltd (as Receivables Manager), Alps Partners S.à r.l. (as Purchaser), BNY Mellon Corporate Trustee Services Limited (as Security Agent), Avega S.à r.l. (as Back-Up Receivables Manager Facilitator) and Alps Partners (Holding) S.à r.l. (as Class C Lender)
+X
+FY 2025 FORM 10-K
+122
+Table of Contents
+Incorporated by Reference
+Exhibit
+Number
+Exhibit Description
+Filed with this Form 10-K
+Form
+Date Filed
+10.21^†
+Receivables Purchase Agreement, dated as of November 11, 2025 by and between PayPal (Europe) S.à r.l. et Cie, SCA (as Seller and a Receivables Manager), PayPal UK Ltd (as a Receivables Manager and collectively with PayPal (Europe) S.à r.l. et Cie, SCA, the Receivables Managers), Alps 2.0 Partners S.à r.l. (as Purchaser), BNY Mellon Corporate Trustee Services limited (as Security Agent), Avega S.à r.l. (as Back-Up Receivables Manager Facilitator) and Alps 2.0 Partners (Holding) as Class C Lender)
+8-K
+11/17/2025
+10.22^†
+Receivables Management Agreement, dated as of November 11, 2025 by and between PayPal (Europe) S.à r.l. et Cie, SCA (as Seller and EU Receivables Manager), PayPal UK Ltd (as UK Receivables Manager), Alps 2.0 Partners S.à r.l. (as Purchaser), Avega S.à r.l. (as Back-Up Receivables Manager Facilitator) and Alps 2.0 Partners ( Holding) S.à r.l. as Class C Lender)
+8-K
+11/17/2025
+10.2
+3
++
+Offer Letter, dated October 23, 2023, by and between PayPal Holdings, Inc. and Michelle Gill
+10-K
+2/8/2024
+10.2
+4
++
+Offer Letter, dated October 23, 2023, by and between PayPal Holdings, Inc. and Diego Scotti
+10-K
+2/8/2024
+10.2
+5
++
+Offer Letter, dated December 4, 2023, by and between PayPal Holdings, Inc. and Suzan Kereere
+10-K
+2/8/2024
+10.
+26
++
+Offer Letter, dated May 28, 2024, by and between PayPal Holdings, Inc. and Christopher Natali
+8-K
+6/3/2024
+10.
+27
++
+Letter agreement by and between PayPal Holdings, Inc. and Aaron Webster, dated February 5, 2024
+10-Q
+4/30/2024
+10.
+28
++
+Independent Director Compensation Policy
+X
+10.29
+Form of Commercial Paper Dealer Agreement between the Company, as issuer, and the applicable Dealer party thereto
+8-K
+11/14/2025
+19.01
+^
+PayPal Holdings, Inc. Insider Trading Policy
+X
+21.01
+List of Subsidiaries
+X
+23.01
+PricewaterhouseCoopers LLP consent
+X
+24.01
+Power of Attorney (see signature page)
+X
+31.01
+Certification of PayPal Holdings, Inc.’s Chief Executive Officer and Chief Financial Officer, as required by Section 302 of the Sarbanes-Oxley Act of 2002
+X
+32.01
+Certification of PayPal Holdings, Inc.’s Chief Executive Officer and Chief Financial Officer, as required by Section 906 of the Sarbanes-Oxley Act of 2002
+X
+97.01+
+PayPal Holdings, Inc. Mandatory Recovery Policy for Executive Officers
+X
+101
+The following financial information related to the Company’s Annual Report on Form 10-K for the year ended December 31, 2025, formatted in iXBRL (Inline Extensible Business Reporting Language): (i) the Consolidated Balance Sheets, (ii) the Consolidated Statements of Income (Loss), (iii) the Consolidated Statements of Comprehensive Income (Loss), (iv) the Consolidated Statements of Stockholders’ Equity, (v) the Consolidated Statements of Cash Flows; and (vi) the related Notes to Consolidated Financial Statements
+X
+104
+Cover Page Interactive Data File, formatted in iXBRL and contained in Exhibit 101
+X
++ Indicates a management contract or compensatory plan or arrangement.
+† Certain portions of this exhibit have been omitted pursuant to Item 601(b)(10)(iv) of Regulation S‑K.
+^ Schedules and exhibits have been omitted pursuant to Item 601(a)(5) of Regulation S-K. The Registrant agrees to furnish supplementally a copy of any omitted schedule or exhibit to the SEC upon request.
+FY 2025 FORM 10-K
+123
+Table of Contents
+SIGNATURES
+Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934, as amended, the Registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized, on February 3, 2026.
+PayPal Holdings, Inc.
+By:
+/s/ Jamie Miller
+Name:
+Title:
+Jamie Miller
+Interim President and Chief Executive Officer and Executive Vice President, Chief Financial and Operating Officer
+Table of Contents
+POWER OF ATTORNEY
+KNOW ALL PERSONS BY THESE PRESENTS, that each person whose signature appears below constitutes and appoints Jamie Miller, Bimal Patel, Brian Y. Yamasaki and Christopher Natali, and each or any one of them, each with the power of substitution, his or her attorney-in-fact, to sign any amendments to this report, with exhibits thereto and other documents in connection therewith, with the Securities and Exchange Commission, hereby ratifying and confirming all that each of said attorneys-in-fact, or his or her substitute or substitutes, may do or cause to be done by virtue hereof.
+Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, this report has been signed below by the following persons on behalf of the Registrant and in the capacities indicated on February 3, 2026.
+Principal Executive Officer and Principal Financial Officer:
+Principal Accounting Officer:
+By:
+/s/ Jamie Miller
+By:
+/s/ Christopher Natali
+Jamie Miller
+Christopher Natali
+Interim President and Chief Executive Officer and Executive Vice President, Chief Financial and Operating Officer
+Senior Vice President, Chief Accounting Officer
+Directors
+By:
+/s/ Joy Chik
+By:
+/s/ Jonathan Christodoro
+Joy Chik
+Jonathan Christodoro
+Director
+Director
+By:
+/s/ Carmine Di Sibio
+By:
+/s/ David W. Dorman
+Carmine Di Sibio
+David W. Dorman
+Director
+Director
+By:
+/s/ Enrique Lores
+By:
+/s/ Gail J. McGovern
+Enrique Lores
+Gail J. McGovern
+Director
+Director
+By:
+/s/ Deborah M. Messemer
+By:
+/s/ David M. Moffett
+Deborah M. Messemer
+David M. Moffett
+Director
+Director
+By:
+/s/ Ann M. Sarnoff
+By:
+/s/ Deirdre Stanley
+Ann M. Sarnoff
+Deirdre Stanley
+Director
+Director
+By:
+/s/ Frank D. Yeary
+Frank D. Yeary
+Director
