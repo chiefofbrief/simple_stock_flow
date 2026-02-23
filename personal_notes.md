@@ -145,7 +145,102 @@ Single source of truth for all tickers across all phases. Updated automatically 
 ```
 -----------------------------------------
 
+Let's start by creating GEMINI.md (the file that should always be loaded into context at the start of each session). Below is content for you to add verbatim; we will make adjustments later.
 
+# Workflow Overview
+
+This document summarizes the end-to-end investment research workflow, including phases, steps, file structure, and key dependencies. See `INDEX.md` for a complete map of repository files, folders, scripts, prompts, and source material.
+
+---
+
+## Design Philosophy
+
+The repository is modular by design. Scripts, prompts, data, and source material are organized as independent components that can be run individually or as part of the default workflow. The default workflow is a starting point, not a rigid pipeline — steps can be reordered, skipped, or repeated as the situation demands.
+
+The system follows the default workflow but is expected to suggest deviations — additional scripts, API calls, source material consultation, or new analyses — when the data warrants it. All deviations require user notification and written approval before execution.
+
+---
+
+## Two-Phase Architecture
+
+### Phase 1: Screening
+Rapidly filter tickers to identify candidates worth a deep dive. All output is tracked in the Tracker — no per-ticker files are created at this stage.
+
+### Phase 2: Deep Dive
+Build a comprehensive investment thesis for promoted candidates. A dedicated thesis file is created per ticker and populated sequentially as each analysis step completes.
+
+---
+
+## Workflow Steps
+
+| Step              | Phase      | Script            | Prompt                   | Reads                            | Writes          |
+|-------------------|------------|-------------------|--------------------------|----------------------------------|-----------------|
+| 1. Price          | Screening  | price.py          | prompt_price.md          | Nothing                          | Tracker         |
+| 2. Earnings       | Screening  | earnings.py       | prompt_earnings.md       | Nothing                          | Tracker         |
+| 3. Financials     | Deep Dive  | financials.py     | prompt_financials.md     | Nothing                          | Thesis, Tracker |
+| 4. Sentiment      | Deep Dive  | sentiment.py      | prompt_sentiment.md      | Financials                       | Thesis, Tracker |
+| 5. Footnotes      | Deep Dive  | sec_filings.py    | prompt_footnotes.md      | Financials, Sentiment            | Thesis, Tracker |
+| 6. Earnings Calls | Deep Dive  | earnings_calls.py | prompt_earnings_calls.md | Financials, Sentiment, Footnotes | Thesis, Tracker |
+
+---
+
+## Key Files
+
+### Tracker
+`data/screening/Tracker.md`
+Single source of truth for all tickers across all phases. Contains a status dashboard table and a concise LLM-generated summary for each completed analysis step per ticker. Updated automatically after each step.
+```
+# Ticker Tracker
+
+| Ticker | Last Run   | Current Phase | Status   | Thesis File             |
+|--------|------------|---------------|----------|-------------------------|
+| AAPL   | 2026-02-22 | Earnings      | PASS     | —                       |
+| MSFT   | 2026-02-22 | Price         | FILTERED | —                       |
+| NVDA   | 2026-02-20 | Earnings Calls| ACTIVE   | NVDA_Research_Thesis.md |
+
+---
+
+### AAPL
+**Price** | 2026-02-22 | PASS
+{LLM-generated summary}
+
+**Earnings** | 2026-02-22 | PASS
+{LLM-generated summary}
+
+---
+
+### NVDA
+**Price** | 2026-02-20 | PASS
+{LLM-generated summary}
+
+...
+```
+
+### Research Thesis (per ticker)
+`data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`
+Created when a ticker is promoted to Deep Dive. Seeded with the ticker's screening summaries from the Tracker. Each subsequent analysis step appends its full findings under a dedicated section header.
+
+---
+
+## Source Material
+
+Source material is organized into summaries and raw chapters under `sources/`. When deeper context is needed, search summaries first. Consult raw chapters only if summaries are insufficient. See `INDEX.md` for the full Insights Index mapping topics to specific source files.
+
+**Quick reference — source strengths:**
+- **Security Analysis** (Graham & Dodd) — investment principles, fundamental analysis philosophy, valuation
+- **Financial Statement Analysis** (Fridson & Alvarez) — accounting mechanics, financial statement specifics, earnings quality
+- **The Alchemy of Finance** (Soros) — reflexivity, market psychology, boom/bust cycles
+- **Options: Beginner to Beyond** — options strategies
+
+---
+
+## Filtering
+
+Candidates may be filtered out between any step. Status is updated in the Tracker at each decision point:
+- `PASS` — completed step, proceeding
+- `FILTERED` — eliminated, no further analysis
+- `PROMOTED` — advancing from Screening to Deep Dive
+- `ACTIVE` — Deep Dive in progress
 
 
 -----------------------------------------
