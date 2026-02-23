@@ -40,6 +40,116 @@ Here is what we have done thus far; review the list of completed tasks below, an
 
 -----------------------------------------
 
+Below is our workflow summary. Review it thoroughly and standby; this will serve as the basis for all of our work today, and details matter.
+
+# Investment Research Workflow
+
+## Core Architecture: Two-Phase Funnel
+
+---
+
+## Phase 1: Screening
+
+**Goal:** Rapidly filter tickers to identify candidates worth a deep dive.
+
+**Process:**
+1. Run price analysis for all tickers. Review output and filter.
+2. Run earnings analysis for surviving tickers only. Review output and filter.
+3. Tracker is updated automatically after each step.
+4. Promote candidates to Deep Dive phase.
+
+| Step        | Script      | Prompt             | Prereq         |
+|-------------|-------------|--------------------|----------------|
+| 1. Price    | price.py    | prompt_price.md    | None           |
+| 2. Earnings | earnings.py | prompt_earnings.md | Price analysis |
+
+---
+
+## Phase 2: Deep Dive
+
+**Goal:** Build a comprehensive investment thesis for promoted candidates.
+
+**Trigger:** User promotes a ticker from Screening.
+
+**Initialization:** Create `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` and seed it with the ticker's screening summaries from the Tracker.
+
+**Context dependencies per step:**
+
+| Step              | Script            | Prompt                   | Reads from Thesis                        |
+|-------------------|-------------------|--------------------------|------------------------------------------|
+| 3. Financials     | financials.py     | prompt_financials.md     | Nothing                                  |
+| 4. Sentiment      | sentiment.py      | prompt_sentiment.md      | Financials                               |
+| 5. Footnotes      | sec_filings.py    | prompt_footnotes.md      | Financials, Sentiment                    |
+| 6. Earnings Calls | earnings_calls.py | prompt_earnings_calls.md | Financials, Sentiment, Footnotes         |
+
+---
+
+## Tracker File
+
+`data/screening/Tracker.md`
+
+Single source of truth for all tickers across all phases. Updated automatically after each step with a concise LLM-generated summary of that step's findings.
+```
+# Ticker Tracker
+
+| Ticker | Last Run   | Current Phase | Status   | Thesis File             |
+|--------|------------|---------------|----------|-------------------------|
+| AAPL   | 2026-02-22 | Earnings      | PASS     | —                       |
+| MSFT   | 2026-02-22 | Price         | FILTERED | —                       |
+| NVDA   | 2026-02-20 | Earnings Calls| ACTIVE   | NVDA_Research_Thesis.md |
+
+---
+
+### AAPL
+**Price** | 2026-02-22 | PASS
+{LLM-generated summary}
+
+**Earnings** | 2026-02-22 | PASS
+{LLM-generated summary}
+
+---
+
+### NVDA
+**Price** | 2026-02-20 | PASS
+{LLM-generated summary}
+
+**Earnings** | 2026-02-20 | PASS
+{LLM-generated summary}
+
+**Financials** | 2026-02-20 | PASS
+{LLM-generated summary}
+
+**Sentiment** | 2026-02-20 | PASS
+{LLM-generated summary}
+
+**Footnotes** | 2026-02-20 | PASS
+{LLM-generated summary}
+
+**Earnings Calls** | 2026-02-20 | ACTIVE
+{LLM-generated summary}
+```
+
+---
+
+## Prompt Header Template
+```
+# Context Configuration
+- **Target Ticker:** {TICKER}
+- **Required Data File:** `data/tickers/{TICKER}/{TICKER}_{TYPE}_data.md`
+- **Missing Data?** Run: `python scripts/{SCRIPT_NAME}.py {TICKER}`
+- **Context File:** `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`
+    - Sections required: {REQUIRED_SECTIONS}
+- **Output:**
+    - Append full analysis to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under `## {ANALYSIS_TYPE}`.
+    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **{ANALYSIS_TYPE}**`.
+```
+-----------------------------------------
+
+
+
+
+-----------------------------------------
+
 **Immediate items**
 - Properly leverage the Indexes
       - Use planning – have the llm describe the sequence of actions it will take.
