@@ -1,3 +1,11 @@
+# Context Configuration
+- **Target Ticker:** {TICKER}
+- **Required Data:** `data/tickers/{TICKER}/{TICKER}_financial_analysis.md` (Run: `python scripts/financials.py {TICKER}`)
+- **Required Context:** None
+- **Output:**
+    - Append full analysis to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under `## Financials`.
+    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Financials**`.
+
 # Financials Analysis Prompt
 
 ## Role

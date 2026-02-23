@@ -1,3 +1,11 @@
+# Context Configuration
+- **Target Ticker:** {TICKER}
+- **Required Data:** `data/tickers/{TICKER}/{TICKER}_earnings_calls.md` (Run: `python scripts/earnings_calls.py {TICKER}`)
+- **Required Context:** Financials, Sentiment, Footnotes (from `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`)
+- **Output:**
+    - Append full analysis to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under `## Earnings Calls`.
+    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Earnings Calls**`.
+
 # Earnings Call Analysis Prompt
 
 ## Role

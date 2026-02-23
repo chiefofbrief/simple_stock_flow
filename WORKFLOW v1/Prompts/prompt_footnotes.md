@@ -1,3 +1,11 @@
+# Context Configuration
+- **Target Ticker:** {TICKER}
+- **Required Data:** `data/tickers/{TICKER}/{TICKER}_notes_mda.md` (Run: `python scripts/sec_filings.py {TICKER}`)
+- **Required Context:** Financials, Sentiment (from `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`)
+- **Output:**
+    - Append full analysis to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under `## Footnotes`.
+    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Footnotes**`.
+
 # Footnotes & MD&A Analysis Prompt
 
 ## Role

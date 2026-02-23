@@ -1,3 +1,11 @@
+# Context Configuration
+- **Target Ticker:** {TICKER}
+- **Required Data:** `data/tickers/{TICKER}/{TICKER}_sentiment.md` (Run: `python scripts/sentiment.py {TICKER}`)
+- **Required Context:** Financials Analysis (from `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`)
+- **Output:**
+    - Append full analysis to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under `## Sentiment`.
+    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Sentiment**`.
+
 # Sentiment Analysis Prompt
 
 ## Role
