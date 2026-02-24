@@ -1,13 +1,13 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `data/tickers/{TICKER}/{TICKER}_sentiment.md` (Run: `python scripts/sentiment.py {TICKER}`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_sentiment.md` (Run: `python scripts/sentiment.py {TICKER}`)
 - **Required Context:** 
-    - Financials Analysis (from `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`)
+    - Financials Analysis (from `Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
     - `Discovery_Context.md` (Read to see if it mentions why the stock is being screened)
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
 - **Output:**
-    - Append full analysis to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under `## Sentiment`.
-    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Sentiment**`.
+    - Append full analysis to `Data/tickers/{TICKER}/{TICKER}_Thesis.md` under `## Sentiment`.
+    - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Sentiment**`.
 
 # Sentiment Analysis Prompt
 

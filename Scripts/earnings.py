@@ -291,7 +291,11 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
     summary = format_summary_table(results)
     content = f"EARNINGS & VALUATION — {today}\n\n{summary}\n\n{get_legend()}\n" + "\n".join([format_detailed(r) for r in results])
-    with open(os.path.join("data", "screening", f"Earnings_{today}.txt"), "w") as f:
+    
+    output_dir = os.path.join("Data", "screening")
+    ensure_directory_exists(output_dir)
+    
+    with open(os.path.join(output_dir, f"Earnings_{today}.txt"), "w") as f:
         f.write(content)
     print(f"\nReport saved.\n\n{summary}\n")
 

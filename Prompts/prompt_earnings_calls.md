@@ -1,12 +1,12 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `data/tickers/{TICKER}/{TICKER}_earnings_calls.md` (Run: `python scripts/earnings_calls.py {TICKER}`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_earnings_calls.md` (Run: `python scripts/earnings_calls.py {TICKER}`)
 - **Required Context:** 
-    - Financials, Sentiment, Footnotes (from `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`)
+    - Financials, Sentiment, Footnotes (from `Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
 - **Output:**
-    - Append full analysis to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under `## Earnings Calls`.
-    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Earnings Calls**`.
+    - Append full analysis to `Data/tickers/{TICKER}/{TICKER}_Thesis.md` under `## Earnings Calls`.
+    - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Earnings Calls**`.
 
 # Earnings Call Analysis Prompt
 

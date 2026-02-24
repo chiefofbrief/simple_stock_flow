@@ -86,9 +86,9 @@ def get_data_directory(ticker, target_ticker=None):
         target_ticker: The target (main) ticker. If None, assumes ticker is target.
 
     Returns:
-        Path to raw data directory (e.g., data/tickers/TICKER/raw)
+        Path to raw data directory (e.g., Data/tickers/TICKER/raw)
     """
-    base_dir = os.path.join("data", "tickers")
+    base_dir = os.path.join("Data", "tickers")
     if target_ticker is None or ticker == target_ticker:
         return os.path.join(base_dir, ticker, "raw")
     else:
@@ -102,9 +102,9 @@ def get_writeup_directory(ticker):
         ticker: The ticker to get directory for
 
     Returns:
-        Path to write-up directory (e.g., data/tickers/TICKER)
+        Path to write-up directory (e.g., Data/tickers/TICKER)
     """
-    return os.path.join("data", "tickers", ticker)
+    return os.path.join("Data", "tickers", ticker)
 
 def ensure_directory_exists(directory):
     """Create directory if it doesn't exist

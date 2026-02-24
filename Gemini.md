@@ -16,6 +16,7 @@ Build a comprehensive investment thesis for promoted candidates. A dedicated the
 ## Workflow Steps
 | Step | Phase | Script | Prompt | Reads | Writes |
 |------|-------|--------|--------|-------|--------|
+| 0. Discovery | Discovery | — | prompt_discovery.md | Digest, User Text | Tracker, Context |
 | 1. Price | Screening | price.py | prompt_price.md | Nothing | Tracker |
 | 2. Earnings | Screening | earnings.py | prompt_earnings.md | Nothing | Tracker |
 | 3. Financials | Deep Dive | financials.py | prompt_financials.md | Nothing | Thesis, Tracker |
@@ -68,7 +69,7 @@ Build a comprehensive investment thesis for promoted candidates. A dedicated the
 ```
 
 ### Thesis (per ticker)
-`data/tickers/{TICKER}/{TICKER}_Thesis.md` — Created when a ticker is promoted to Deep Dive. Seeded with the ticker's screening summaries from the Tracker. Each subsequent analysis step appends its full findings under a dedicated section header.
+`Data/tickers/{TICKER}/{TICKER}_Thesis.md` — Created when a ticker is promoted to Deep Dive. Seeded with the ticker's screening summaries from the Tracker. Each subsequent analysis step appends its full findings under a dedicated section header.
 
 ## Source Material
 Source material is organized into summaries and raw chapters under `sources/`. When deeper context is needed, search summaries first. Consult raw chapters only if summaries are insufficient. **CRITICAL:** Before reading any large raw source files (`sources/raw/`), you must explicitly state your plan and ask the user for permission to avoid burning compute. See `Index.md` for the full Insights Index mapping topics to specific source files.

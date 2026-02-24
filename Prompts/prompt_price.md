@@ -1,10 +1,10 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `data/tickers/{TICKER}/{TICKER}_price_data.md` (Run: `python scripts/price.py {TICKER}`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_price_data.md` (Run: `python scripts/price.py {TICKER}`)
 - **Required Context:** 
     - `Discovery_Context.md` (Read to see if it mentions why the stock is being screened)
 - **Output:**
-    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Price**`.
+    - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Price**`.
 
 # Price Analysis Prompt
 

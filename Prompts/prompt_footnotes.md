@@ -1,12 +1,12 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `data/tickers/{TICKER}/{TICKER}_notes_mda.md` (Run: `python scripts/footnotes.py {TICKER}`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_notes_mda.md` (Run: `python scripts/footnotes.py {TICKER}`)
 - **Required Context:** 
-    - Financials, Sentiment (from `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md`)
+    - Financials, Sentiment (from `Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
 - **Output:**
-    - Append full analysis to `data/tickers/{TICKER}/{TICKER}_Research_Thesis.md` under `## Footnotes`.
-    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Footnotes**`.
+    - Append full analysis to `Data/tickers/{TICKER}/{TICKER}_Thesis.md` under `## Footnotes`.
+    - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Footnotes**`.
 
 # Footnotes & MD&A Analysis Prompt
 

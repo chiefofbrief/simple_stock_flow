@@ -21,8 +21,8 @@ Usage:
 
 Output:
     Summary table to stdout
-    data/tickers/{TICKER}/raw/{TICKER}_price.json
-    data/screening/Price_YYYY-MM-DD.txt
+    Data/tickers/{TICKER}/raw/{TICKER}_price.json
+    Data/screening/Price_YYYY-MM-DD.txt
 """
 
 import sys
@@ -405,8 +405,8 @@ def save_results(results):
     # Batch summary
     if results:
         today = datetime.now().strftime("%Y-%m-%d")
-        # Save to WORKFLOW v1 directory
-        output_dir = "WORKFLOW v1"
+        # Save to Data/screening directory
+        output_dir = os.path.join("Data", "screening")
         ensure_directory_exists(output_dir)
         summary_path = os.path.join(output_dir, f"Price_Data_{today}.txt")
         

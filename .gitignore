@@ -25,4 +25,4 @@ data/tickers/*/*/raw/               # Peer ticker raw data
 # Track these write-up outputs:
 # - data/tickers/TICKER/TICKER_statements.md
 # - data/tickers/TICKER/TICKER_sentiment.md
-# - data/screening/Daily_Screening_YYYY-MM-DD.txt
+# - data/screening/Daily_Screening_YYYY-MM-DD.txtarchive/

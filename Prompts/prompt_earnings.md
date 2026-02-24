@@ -1,9 +1,9 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `data/tickers/{TICKER}/{TICKER}_earnings_data.md` (Run: `python scripts/earnings.py {TICKER}`)
-- **Required Context:** Price Analysis (from `data/screening/Tracker.md`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_earnings_data.md` (Run: `python scripts/earnings.py {TICKER}`)
+- **Required Context:** Price Analysis (from `Stock_Tracker.md`)
 - **Output:**
-    - Append concise summary to `data/screening/Tracker.md` under `### {TICKER} > **Earnings**`.
+    - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Earnings**`.
 
 # Earnings/Valuation Analysis Prompt
 
