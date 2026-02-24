@@ -49,6 +49,21 @@ We finished version 0.5 of the workflow on 02-23-2026. Changes mades included:
 * Documentation Update: Updated `Index.md` and `Gemini.md` to include the new Discovery step and correct paths.
 * Archive Protection: Added `archive/` to `.gitignore` to prevent accidental LLM/script interaction with legacy files.
 * Workspace Initialization: Created the `Data/` directory structure (`Data/screening/`, `Data/tickers/`).
+* Tools Section: Added "Options APIs" (MarketData, Alpaca, Tradier) to Session Notes.
+* Prompt Standardization: Unified roles to "Expert Financial Analyst" and standardized `Context Configuration` headers across updated prompts (`digest`, `discovery`, `price`, `earnings`).
+* Digest Prompt: Renamed "Applied Investment Flags" to "General Stock News Analysis", reordered flow (Macro -> General -> AI -> Candidates), removed "Deep Dives", and clarified output location.
+* Discovery Prompt: Added explicit workflow for "Context Synchronization" (appending to `Discovery_Context.md`) and "Gap Analysis" (handling duplicates vs. updates). Refined "Context Quality Guidance" integration.
+* Price Prompt: Updated to support batch tickers, corrected data inputs to point to script output/text files, and added `Stock_Tracker.md` as required context for Tag checking.
+* Earnings Prompt: Updated to support batch tickers, flattened input metrics list, and aligned `[LOSER]` guidance with Price prompt.
+
+### Pending Prompt Updates (Next Session)
+The following updates are required for `prompt_financials.md`, `prompt_sentiment.md`, `prompt_footnotes.md`, and `prompt_earnings_calls.md`:
+
+1.  **Standardize Context Configuration:** Update all to use the `Target Ticker`, `Required Data`, `Required Context`, `Output` structure.
+2.  **Role Update:** Change all to "Expert Financial Analyst".
+3.  **Reference/Guidance:** Replace generic "Consult... Gemini.md" instructions with the robust directive: *"Consult source material (Source Material/) when a specific red flag or concept benefits from additional context... Refer to Index.md..."*
+4.  **Financials Specific:** Add explicit instruction to consult the internal `Guidance` section at the bottom of the prompt.
+5.  **Data Paths:** Verify and standardize paths to point to the correct Markdown outputs (e.g., `_financial_analysis.md`, `_sentiment.md`).
 
 ---
 
@@ -97,3 +112,10 @@ We finished version 0.5 of the workflow on 02-23-2026. Changes mades included:
 - pandas for working with tabular data.
 - dotenv to load environment variables (e.g., API keys)
 - Google workspace extensions (or gmail) for emails
+
+## Tools
+
+### Options APIs
+* https://www.marketdata.app/pricing/
+* https://alpaca.markets/
+* https://tradier.com/individuals/pricing

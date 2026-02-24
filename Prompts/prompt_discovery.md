@@ -1,12 +1,16 @@
-# Discovery & Tracker Update Prompt
+# Context Configuration
+- **Target Ticker:** All tickers in the Daily Digest and User Input
+- **Required Data:**
+    - `Peter's Digest/Daily_Digest_{DATE}.md`
+    - User Chat Input (Tickers, notes, excerpts)
+- **Required Context:**
+    - `Stock_Tracker.md`
+    - `Discovery_Context.md`
+    - Analysis Philosophy & Guidelines (`Gemini.md`)
+- **Output:** Structured proposal for updating `Stock_Tracker.md` and `Discovery_Context.md`.
 
+# Role: Expert Financial Analyst
 **Objective:** Bridge the gap between daily research (Peter's Digest, User Inputs) and the system's tracking files (`Stock_Tracker.md` and `Discovery_Context.md`). Synthesize inputs into structured, actionable updates.
-
-**Inputs:**
-1.  **Daily Digest:** The latest market digest (specifically Section 4: Screening Candidates).
-2.  **User Input:** Raw tickers, notes, or excerpts pasted in chat.
-3.  **Current Tracker:** `Stock_Tracker.md`.
-4.  **Current Context:** `Discovery_Context.md`.
 
 ---
 
@@ -15,24 +19,30 @@
 **1. The system proposes, the user decides.**
 Never edit files directly. Present all proposed additions as a structured plan in the chat. Wait for explicit user approval (e.g., "add them," "looks good") before applying changes.
 
-**2. Screening Candidates (Auto-Add):**
+**2. Daily Digest Processing (Auto-Add)**
 *   **Source:** Read **Section 4** of the latest Daily Digest.
-*   **Action:** For each candidate in Section 4, propose adding it to `Stock_Tracker.md` if not already present.
+*   **Action (Tracker):** For every candidate listed, propose adding it to `Stock_Tracker.md`.
+*   **Action (Context):** Synthesize a high-quality context entry (see "Context Quality Guidance").
 *   **Tagging Logic:**
     *   If the "Signal" or "Why" involves significant drops/weakness -> `[LOSER]`
     *   If related to Artificial Intelligence/Hardware/Data Centers -> `[AI]`
     *   Otherwise -> `[OTHER]`
 
-**3. User Input Analysis:**
-*   **Source:** Tickers mentioned in the user's chat message.
-*   **Action:** Propose adding them to `Stock_Tracker.md`.
+**3. User Input Analysis**
+*   **Source:** Analyze any raw text, tickers, or notes provided by the user in the chat.
+*   **Action (Tracker):** Propose adding identified tickers to `Stock_Tracker.md`.
+*   **Action (Context):** Synthesize a high-quality context entry.
 *   **Tagging:** Infer tags based on the user's context (e.g., "add this AI play" -> `[AI]`). Default to `[OTHER]` if unclear.
 *   **Context Generation:** Extract *rich* context (preserving numbers, dates, specifics). See "Context Quality Guidance" below.
 
-**4. Consistency Check (Missing Tracker Entries):**
-*   **Source:** Scan `Discovery_Context.md` for tickers that are NOT in `Stock_Tracker.md`.
-*   **Action:** Propose adding these missing tickers to `Stock_Tracker.md`.
-*   **Tagging:** Infer tags based on the existing context entry.
+**4. Gap Analysis & Proposal (Handling Duplicates)**
+Compare your synthesized candidates against the current files:
+*   **Tracker Check:**
+    *   **New:** Propose adding.
+    *   **Existing:** Check if Tags need updating (e.g., upgrade `[OTHER]` to `[LOSER]` based on new info). Do NOT propose adding duplicates.
+*   **Context Check:**
+    *   **New Ticker:** Propose creating a new entry.
+    *   **Existing Ticker:** If the inputs provide *new* data/thesis, propose *appending* the new details to the existing entry. Do NOT create duplicate blocks.
 
 ---
 
@@ -74,6 +84,6 @@ Present the proposal in this exact format:
 ---
 
 **Instructions for the Assistant:**
-1.  **Check Duplicates:** Do not propose adding tickers that are already in `Stock_Tracker.md`.
+1.  **Check Duplicates:** Do not propose adding tickers that are already in `Stock_Tracker.md` (unless updating tags).
 2.  **Context Matching:** Ensure every proposed Tracker addition has a corresponding Context entry.
 3.  **Wait for Approval:** Ask "Do you want to apply these updates?" after the proposal.
