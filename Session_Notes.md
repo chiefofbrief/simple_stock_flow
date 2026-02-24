@@ -43,6 +43,12 @@ We finished version 0.5 of the workflow on 02-23-2026. Changes mades included:
 * Context Linking: Updated all screening and deep dive prompts to correctly reference Discovery_Context.md, AI_Guidelines.md, and the Stock Tracker tags.
 * Legacy Archival: Archived all outdated v0 data, docs, guidance, and script folders.
 * V1 Unpacking: Extracted the contents of WORKFLOW v1 into the project root and updated all internal paths across prompts and scripts.
+* Directory Structure: Capitalized `data/` to `Data/` across all scripts (`shared_utils.py`, `price.py`, `earnings.py`) and documentation to ensure consistency.
+* Discovery Prompt: Created `Prompts/prompt_discovery.md` to bridge Peter's Digest/User Input with the Stock Tracker, incorporating auto-add logic and context generation.
+* Prompt Updates: Updated all 6 analysis prompts (`price`, `earnings`, `financials`, `sentiment`, `footnotes`, `earnings_calls`) to reference `Data/`, `Stock_Tracker.md`, and the simplified `_Thesis.md` filename.
+* Documentation Update: Updated `Index.md` and `Gemini.md` to include the new Discovery step and correct paths.
+* Archive Protection: Added `archive/` to `.gitignore` to prevent accidental LLM/script interaction with legacy files.
+* Workspace Initialization: Created the `Data/` directory structure (`Data/screening/`, `Data/tickers/`).
 
 ---
 
