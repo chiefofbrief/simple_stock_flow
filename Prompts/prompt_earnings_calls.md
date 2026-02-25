@@ -1,6 +1,6 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_earnings_calls.md` (Run: `python scripts/earnings_calls.py {TICKER}`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_earnings_calls.md` (Run: `python Scripts/earnings_calls.py {TICKER}`)
 - **Required Context:** 
     - Financials, Sentiment, Footnotes (from `Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
@@ -23,7 +23,7 @@ You will be provided with:
 
 Analyze the data to answer the following questions. **Crucially, all insights must leverage the provided transcript. You must explicitly cite specific statements or excerpts that led to your conclusion.**
 
-*   **Reference:** Consult the "Analysis Philosophy & Guidelines" and "Source Material" sections in your system instructions (`Gemini.md`) for additional context or analytical frameworks if needed.
+*   **Reference:** Consult source material summaries (`Source Material/summaries/`) when an item would benefit from additional context, especially as it pertains to fundamental analysis, financial statement analysis, accounting mechanics and gimmicks, options strategies, or reflexivity theory and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. CRITICAL WARNING:* Do not access Source Material/raw/ without explicit user permission to avoid burning compute.
 
 ## Output Format
 

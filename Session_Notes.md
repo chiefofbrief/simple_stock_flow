@@ -55,6 +55,13 @@ We finished version 0.5 of the workflow on 02-23-2026. Changes mades included:
 * Discovery Prompt: Added explicit workflow for "Context Synchronization" (appending to `Discovery_Context.md`) and "Gap Analysis" (handling duplicates vs. updates). Refined "Context Quality Guidance" integration.
 * Price Prompt: Updated to support batch tickers, corrected data inputs to point to script output/text files, and added `Stock_Tracker.md` as required context for Tag checking.
 * Earnings Prompt: Updated to support batch tickers, flattened input metrics list, and aligned `[LOSER]` guidance with Price prompt.
+* Workflow Alignment: Updated the `Gemini.md` workflow table to include the `-1. Digest` step and fixed the "Reads" column dependencies across steps to accurately reflect prompt instructions.
+* Path Corrections: Fixed case-sensitivity issues in all 6 prompt files (changing `scripts/` to `Scripts/` in run commands) to ensure Linux compatibility.
+* Script Output Routing: Updated `Scripts/peters_digest.py` to correctly output directly to `Peter's Digest/` instead of an obsolete legacy path.
+* Command Flags: Updated `Prompts/prompt_sentiment.md` and `Commands.md` to correctly include the mandatory `--all` flag for the sentiment script execution.
+* Source Material Links: Updated `Gemini.md` to reference the correct `Source Material/` directory instead of the legacy `sources/` folder.
+* Index Documentation: Updated `Index.md` to properly map `Discovery_Context.md` and document the `Data/screening/` output directory.
+* Commands Documentation: Restructured `Commands.md` to list the Digest Generation and Market Discovery phases, and added `python` prefixes to all execution commands.
 
 ### Pending Prompt Updates (Next Session)
 The following updates are required for `prompt_financials.md`, `prompt_sentiment.md`, `prompt_footnotes.md`, and `prompt_earnings_calls.md`:

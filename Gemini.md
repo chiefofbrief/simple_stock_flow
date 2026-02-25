@@ -16,11 +16,12 @@ Build a comprehensive investment thesis for promoted candidates. A dedicated the
 ## Workflow Steps
 | Step | Phase | Script | Prompt | Reads | Writes |
 |------|-------|--------|--------|-------|--------|
+| -1. Digest | Discovery | peters_digest.py | prompt_digest.md | News APIs, Digest | Digest |
 | 0. Discovery | Discovery | — | prompt_discovery.md | Digest, User Text | Tracker, Context |
-| 1. Price | Screening | price.py | prompt_price.md | Nothing | Tracker |
-| 2. Earnings | Screening | earnings.py | prompt_earnings.md | Nothing | Tracker |
+| 1. Price | Screening | price.py | prompt_price.md | Tracker, Context | Tracker |
+| 2. Earnings | Screening | earnings.py | prompt_earnings.md | Tracker, Context | Tracker |
 | 3. Financials | Deep Dive | financials.py | prompt_financials.md | Nothing | Thesis, Tracker |
-| 4. Sentiment | Deep Dive | sentiment.py | prompt_sentiment.md | Financials | Thesis, Tracker |
+| 4. Sentiment | Deep Dive | sentiment.py | prompt_sentiment.md | Financials, Context | Thesis, Tracker |
 | 5. Footnotes | Deep Dive | footnotes.py | prompt_footnotes.md | Financials, Sentiment | Thesis, Tracker |
 | 6. Earnings Calls | Deep Dive | earnings_calls.py | prompt_earnings_calls.md | Financials, Sentiment, Footnotes | Thesis, Tracker |
 
@@ -72,7 +73,7 @@ Build a comprehensive investment thesis for promoted candidates. A dedicated the
 `Data/tickers/{TICKER}/{TICKER}_Thesis.md` — Created when a ticker is promoted to Deep Dive. Seeded with the ticker's screening summaries from the Tracker. Each subsequent analysis step appends its full findings under a dedicated section header.
 
 ## Source Material
-Source material is organized into summaries and raw chapters under `sources/`. When deeper context is needed, search summaries first. Consult raw chapters only if summaries are insufficient. **CRITICAL:** Before reading any large raw source files (`sources/raw/`), you must explicitly state your plan and ask the user for permission to avoid burning compute. See `Index.md` for the full Insights Index mapping topics to specific source files.
+Source material is organized into summaries and raw chapters under `Source Material/`. When deeper context is needed, search summaries first. Consult raw chapters only if summaries are insufficient. **CRITICAL:** Before reading any large raw source files (`Source Material/raw/`), you must explicitly state your plan and ask the user for permission to avoid burning compute. See `Index.md` for the full Insights Index mapping topics to specific source files.
 
 **Quick reference — source strengths:**
 

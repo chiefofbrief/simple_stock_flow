@@ -1,6 +1,6 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_sentiment.md` (Run: `python scripts/sentiment.py {TICKER}`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_sentiment.md` (Run: `python Scripts/sentiment.py {TICKER} --all`)
 - **Required Context:** 
     - Financials Analysis (from `Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
     - `Discovery_Context.md` (Read to see if it mentions why the stock is being screened)
@@ -24,7 +24,7 @@ You will be provided with:
 
 Analyze the data to answer the following questions. **Crucially, all insights must derive from the provided news and social media content. You must explicitly reference specific articles, posts, or trends that support your conclusions.**
 
-*   **Reference:** Consult the "Analysis Philosophy & Guidelines" and "Source Material" sections in your system instructions (`Gemini.md`) for additional context or analytical frameworks if needed.
+*   **Reference:** Consult source material summaries (`Source Material/summaries/`) when an item would benefit from additional context, especially as it pertains to fundamental analysis, financial statement analysis, accounting mechanics and gimmicks, options strategies, or reflexivity theory and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. CRITICAL WARNING:* Do not access Source Material/raw/ without explicit user permission to avoid burning compute.
 
 ## Output Format
 

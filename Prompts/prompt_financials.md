@@ -1,6 +1,6 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_financial_analysis.md` (Run: `python scripts/financials.py {TICKER}`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_financial_analysis.md` (Run: `python Scripts/financials.py {TICKER}`)
 - **Required Context:** 
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
 - **Output:**
@@ -39,7 +39,8 @@ You will be provided with:
 
 Analyze the data to answer the following questions. **Crucially, all insights must leverage the provided data. You must explicitly specify which data points led to your conclusion or contributed to your answer.**
 
-*   **Reference:** Consult the "Analysis Philosophy & Guidelines" and "Source Material" sections in your system instructions (`Gemini.md`) for additional context or analytical frameworks if needed.
+*   **Reference:** Consult source material summaries (`Source Material/summaries/`) when an item would benefit from additional context, especially as it pertains to fundamental analysis, financial statement analysis, accounting mechanics and gimmicks, options strategies, or reflexivity theory and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. CRITICAL WARNING:* Do not access Source Material/raw/ without explicit user permission to avoid burning compute.
+*   **Metric Interpretations:** The section at the bottom of this prompt matches exactly the metrics being analyzed and should serve as your primary source of context for each metric before formulating your analysis.
 
 ## Output Format
 
@@ -76,7 +77,7 @@ Please structure your response exactly as follows:
 [A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
 
 ---
-## Guidance
+## Metric Interpretations
 
 1. **Revenue**
 

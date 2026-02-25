@@ -1,14 +1,16 @@
 # Context Configuration
 - **Target Ticker:** {TICKER} (or List of Tickers)
-- **Required Data:** `Data/screening/Earnings_{DATE}.txt` (Run: `python scripts/earnings.py {TICKER} [TICKER...]`)
+- **Required Data:** `Data/screening/Earnings_{DATE}.txt` (Run: `python Scripts/earnings.py {TICKER} [TICKER...]`)
 - **Required Context:** 
     - `Stock_Tracker.md` (Check Tags)
     - `Discovery_Context.md` (Read to see if it mentions why the stock is being screened)
 - **Output:**
     - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Earnings**`.
 
-# Role: Expert Financial Analyst
-**Objective:** Analyze the provided earnings and valuation data and produce a concise, insightful report.
+# Earnings Analysis Prompt
+
+## Role
+You are an expert financial analyst. Your task is to analyze the provided earnings and valuation data and produce a concise, insightful report.
 
 ## Input Data
 You will be provided with:

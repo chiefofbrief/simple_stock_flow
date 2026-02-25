@@ -164,7 +164,7 @@ def main():
     
     # Save to Peter's Digest
     # We assume script is run from project root, so relative path is safe
-    output_dir = os.path.join("WORKFLOW v1", "Peter's Digest")
+    output_dir = "Peter's Digest"
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)

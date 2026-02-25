@@ -1,14 +1,16 @@
 # Context Configuration
 - **Target Ticker:** {TICKER} (or List of Tickers)
-- **Required Data:** `Data/screening/Price_Data_{DATE}.txt` (Run: `python scripts/price.py {TICKER} [TICKER...]`)
+- **Required Data:** `Data/screening/Price_Data_{DATE}.txt` (Run: `python Scripts/price.py {TICKER} [TICKER...]`)
 - **Required Context:** 
     - `Stock_Tracker.md` (Check Tags)
     - `Discovery_Context.md` (Read to see if it mentions why the stock is being screened)
 - **Output:**
     - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Price**`.
 
-# Role: Expert Financial Analyst
-**Objective:** Analyze the provided stock price data and produce a concise, insightful report.
+# Price Analysis Prompt
+
+## Role
+You are an expert financial analyst. Your task is to analyze the provided stock price data and produce a concise, insightful report.
 
 ## Input Data
 You will be provided with:

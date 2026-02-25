@@ -1,6 +1,6 @@
 # Context Configuration
 - **Target Ticker:** {TICKER}
-- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_notes_mda.md` (Run: `python scripts/footnotes.py {TICKER}`)
+- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_notes_mda.md` (Run: `python Scripts/footnotes.py {TICKER}`)
 - **Required Context:** 
     - Financials, Sentiment (from `Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
@@ -23,7 +23,7 @@ You will be provided with:
 
 Analyze the text to answer the following questions. **Crucially, all insights must leverage the provided text.**
 
-*   **Reference:** Consult the "Analysis Philosophy & Guidelines" and "Source Material" sections in your system instructions (`Gemini.md`) for additional context or analytical frameworks if needed.
+*   **Reference:** Consult source material summaries (`Source Material/summaries/`) when an item would benefit from additional context, especially as it pertains to fundamental analysis, financial statement analysis, accounting mechanics and gimmicks, options strategies, or reflexivity theory and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. CRITICAL WARNING:* Do not access Source Material/raw/ without explicit user permission to avoid burning compute.
 
 ## Output Format
 
