@@ -1,0 +1,41 @@
+{
+  "ticker": "ADBE",
+  "cik": "0000796343",
+  "fetch_date": "2026-02-26",
+  "filings": {
+    "10-K": {
+      "report_date": "2025-11-28",
+      "accession": "0000796343-26-000003",
+      "document": "adbe-20251128.htm",
+      "sections": {
+        "mda": {
+          "lines": 1,
+          "words": 7102,
+          "chars": 46644
+        },
+        "notes": {
+          "lines": 1,
+          "words": 1281,
+          "chars": 8747
+        }
+      }
+    },
+    "10-Q": {
+      "report_date": "2025-08-29",
+      "accession": "0000796343-25-000107",
+      "document": "adbe-20250829.htm",
+      "sections": {
+        "mda": {
+          "lines": 1,
+          "words": 7047,
+          "chars": 45369
+        },
+        "notes": {
+          "lines": 1,
+          "words": 3587,
+          "chars": 24412
+        }
+      }
+    }
+  }
+}

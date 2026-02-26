@@ -1,0 +1,1636 @@
+{
+  "date_range": {
+    "from": "2025-11-28",
+    "to": "2026-02-26"
+  },
+  "articles": [
+    {
+      "title": "1 Picture-Perfect Short Iron Condor Trade Returning 35% on Adobe Stock Now",
+      "summary": "Adobe stock recently hit a five-year low amid concerns about the \"software apocalypse\" and AI-driven competition, pushing its options premiums to attractive levels. This creates a compelling opportunity for a short iron condor strategy, offering a potential 35% return. The recommended trade uses a MAR 20\u2019 215P-220P / 270C-275C short iron condor, capturing credit from Adobe's high implied volatility.",
+      "url": "https://www.barchart.com/story/news/420822/1-picture-perfect-short-iron-condor-trade-returning-35-on-adobe-stock-now",
+      "time_published": "20260225T175700",
+      "source": "Barchart.com",
+      "overall_sentiment_score": -0.280183,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.180745",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADSK",
+          "relevance_score": "0.616368",
+          "ticker_sentiment_score": "-0.381900",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.634414",
+          "ticker_sentiment_score": "-0.331838",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Stock: Is ADBE Underperforming the Technology Sector?",
+      "summary": "Adobe Inc. (ADBE) has underperformed the technology sector recently, with its stock dropping significantly over the past three months and year-to-date, contrasting with gains in the broader sector ETF. Investor concerns include AI disruption and competition from companies like Canva, despite Adobe reporting strong revenue growth in Q4 FY25 and analysts projecting continued profit growth. Wall Street analysts maintain a \"Moderate Buy\" rating for ADBE, forecasting a substantial upside from current levels.",
+      "url": "https://www.barchart.com/story/news/416260/adobe-stock-is-adbe-underperforming-the-technology-sector",
+      "time_published": "20260225T144938",
+      "source": "Barchart.com",
+      "overall_sentiment_score": 0.000633,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.328701",
+          "ticker_sentiment_score": "0.048976",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe's Still All In on AI. Next Up: The One-Click Tool That Edits Videos for You",
+      "summary": "Adobe is introducing a new AI video tool called \"Quick Cut\" within its Firefly video editor, designed to help social media creators quickly generate a first draft of their videos from raw footage. This tool, accessible via a Firefly subscription, aims to streamline the initial editing process, allowing users to create a basic video in under two minutes using dialogue-driven prompts. Adobe continues to integrate AI into its creative software, emphasizing that these tools are meant to enhance creators' work rather than replace human creativity, despite ongoing concerns about AI-generated content and potential intellectual property issues.",
+      "url": "https://www.cnet.com/tech/services-and-software/adobe-firefly-quick-cut-ai-video-year-ahead/",
+      "time_published": "20260225T135938",
+      "source": "CNET",
+      "overall_sentiment_score": 0.255914,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.435437",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.604048",
+          "ticker_sentiment_score": "0.236850",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.642678",
+          "ticker_sentiment_score": "0.233570",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.611894",
+          "ticker_sentiment_score": "0.223368",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Attribution Software Market Set to Witness Rapid Growth Through 2033 | Market DominanceAdobe Inc., Google LLC, Salesforce, Inc., HubSpot",
+      "summary": "Coherent Market Insights has published a new research study on the Global \"Marketing Attribution Software Market\" for 2026, forecasting growth through 2033. The report offers an extensive examination of market patterns, including key strategic developments, agreements, new product launches, collaborations, and regional growth of major competitors like Adobe Inc., Google LLC, and Salesforce, Inc. It segments the market by product type (Single-Touch, Multi-Touch, Algorithmic Attribution) and applications (Retail & E-commerce, Media & Entertainment, BFSI), providing qualitative and quantitative analysis across various regions.",
+      "url": "https://www.openpr.com/news/4404793/marketing-attribution-software-market-set-to-witness-rapid",
+      "time_published": "20260225T125210",
+      "source": "openPR.com",
+      "overall_sentiment_score": 0.324127,
+      "ticker_sentiment": [
+        {
+          "ticker": "HUBS",
+          "relevance_score": "0.907983",
+          "ticker_sentiment_score": "0.300163",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.854046",
+          "ticker_sentiment_score": "0.311747",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.815701",
+          "ticker_sentiment_score": "0.343212",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.752959",
+          "ticker_sentiment_score": "0.339563",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ORCL",
+          "relevance_score": "0.636806",
+          "ticker_sentiment_score": "0.266507",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Who is Shantanu Narayen? Indian-origin CEO of Adobe: Career, net worth, family; all you need to know",
+      "summary": "Shantanu Narayen, the Indian-origin CEO of Adobe Inc., has led the company for nearly two decades, transforming its business model from boxed software to a cloud-based subscription service and growing annual revenue significantly. Born and educated in India, he pursued advanced studies and an MBA in the US before joining Adobe in 1998, eventually becoming CEO in 2007 and Chairman in 2017. The article details his career progression, family life, net worth, and his views on India's role in the future of AI.",
+      "url": "https://timesofindia.indiatimes.com/world/us/who-is-shantanu-narayen-indian-origin-ceo-of-adobe-career-net-worth-family-all-you-need-to-know/articleshow/128778586.cms",
+      "time_published": "20260225T120137",
+      "source": "The Times of India",
+      "overall_sentiment_score": 0.470206,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.480448",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Fluent Inc. Marks Three Years of Commerce Media Growth",
+      "summary": "Fluent Inc. announced three years of significant growth in its Commerce Media Solutions business, driven by an expanding commerce network and a relevance-first monetization strategy. Since its launch in Q1 2023, the segment has achieved triple-digit compound annual revenue growth, reaching 40% of consolidated revenue by Q3 2025. This success is attributed to tailored strategies based on experimentation and predictive capabilities that prioritize impression quality and customer experience.",
+      "url": "https://www.martechcube.com/fluent-inc-marks-three-years-of-commerce-media-growth/",
+      "time_published": "20260225T105243",
+      "source": "MarTech Cube",
+      "overall_sentiment_score": 0.385497,
+      "ticker_sentiment": [
+        {
+          "ticker": "FLNT",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.850069",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "ABNB",
+          "relevance_score": "0.581866",
+          "ticker_sentiment_score": "0.294183",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.581781",
+          "ticker_sentiment_score": "0.248562",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "HD",
+          "relevance_score": "0.586608",
+          "ticker_sentiment_score": "0.231757",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NKE",
+          "relevance_score": "0.590049",
+          "ticker_sentiment_score": "0.245288",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft Corporation $MSFT Shares Acquired by one8zero8 LLC",
+      "summary": "one8zero8 LLC increased its stake in Microsoft Corporation (NASDAQ:MSFT) by 4.6% in the third quarter, making Microsoft its third largest position. Other institutional investors have also adjusted their holdings. Wall Street analysts maintain a \"Moderate Buy\" consensus rating with an average price target of $591.95 for Microsoft.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-shares-acquired-by-one8zero8-llc-2026-02-25/",
+      "time_published": "20260225T100912",
+      "source": "MarketBeat",
+      "overall_sentiment_score": 0.04708,
+      "ticker_sentiment": [
+        {
+          "ticker": "MSFT",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.246984",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.623295",
+          "ticker_sentiment_score": "-0.406308",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.624581",
+          "ticker_sentiment_score": "0.308032",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Easing AI Fears and Options Shifts Could Be A Game Changer For Adobe (ADBE)",
+      "summary": "Adobe (ADBE) is seeing easing investor fears regarding AI disruption and slowing Digital Media growth, alongside an options market shift indicating reduced downside protection. Despite ongoing concerns about AI competition affecting pricing, a robust share repurchase program and renewed interest in online learning platforms suggest a potentially shifting, more positive sentiment for the company's investment narrative. Adobe's forecast shows projected revenue of $29.3 billion and earnings of $8.7 billion by 2028, with a fair value estimate of $447.56, implying a significant upside.",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-adbe/adobe/news/easing-ai-fears-and-options-shifts-could-be-a-game-changer-f",
+      "time_published": "20260225T034938",
+      "source": "Simply Wall St",
+      "overall_sentiment_score": 0.221144,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.289708",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.645838",
+          "ticker_sentiment_score": "0.103867",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Is It Time To Reconsider Fair Isaac (FICO) After A 26% One Year Share Price Slide",
+      "summary": "Fair Isaac (FICO) has seen a 26% share price slide over the past year, prompting a reevaluation of its valuation. Despite strong long-term returns, recent declines suggest a need for closer analysis. Simply Wall St's valuation checks, using Discounted Cash Flow (DCF) and Price-to-Earnings (P/E) ratio, indicate that FICO might be undervalued by 14.1% based on DCF but overvalued based on its P/E ratio compared to industry averages and its Fair Ratio.",
+      "url": "https://simplywall.st/stocks/us/software/nyse-fico/fair-isaac/news/is-it-time-to-reconsider-fair-isaac-fico-after-a-26-one-year",
+      "time_published": "20260224T215115",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": -0.044041,
+      "ticker_sentiment": [
+        {
+          "ticker": "FICO",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.086367",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.554446",
+          "ticker_sentiment_score": "-0.135508",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Are Neutral on These Technology Stocks: Advantest (ADTTF), Fortinet (FTNT)",
+      "summary": "Analysts have issued neutral ratings for several technology stocks including Advantest (ADTTF), Fortinet (FTNT), and Snowflake (SNOW). These ratings suggest that experts are neither particularly optimistic nor pessimistic about these companies' stock performance. Price targets and analyst consensus vary for each company, with Advantest and Snowflake having a \"Strong Buy\" consensus, while Fortinet's consensus is \"Hold.\"",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/FTNT-Q/pressreleases/386989/analysts-are-neutral-on-these-technology-stocks-advantest-adttf-fortinet-ftnt/",
+      "time_published": "20260224T135017",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.047251,
+      "ticker_sentiment": [
+        {
+          "ticker": "FTNT",
+          "relevance_score": "0.972719",
+          "ticker_sentiment_score": "-0.077539",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.560003",
+          "ticker_sentiment_score": "0.054404",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "WPP and Adobe expand partnership to drive AI transformation for client marketing operations",
+      "summary": "WPP and Adobe have expanded their global partnership to deliver integrated solutions for brands, aiming to optimize media, drive business growth, and scale creativity through AI transformation. The collaboration will leverage Adobe's AI capabilities and content platforms with WPP\u2019s strategic insights and agentic marketing platform, WPP Open, to streamline end-to-end marketing processes and enable personalized experiences at scale. This initiative also includes integrating Adobe Firefly Foundry into WPP Open for on-brand content creation and committing to training creative AI forward-deployed engineers to maximize the value of AI solutions for clients.",
+      "url": "https://news.adobe.com/news/2026/02/wpp-adobe-expand-partnership",
+      "time_published": "20260224T134942",
+      "source": "Adobe Newsroom",
+      "overall_sentiment_score": 0.49243,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.486577",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Infosys, Wipro & TCS shares hit 1-yr low amid AI concerns over IT pack; what analysts say",
+      "summary": "Shares of Infosys, Wipro, and TCS plunged to 52-week lows, reflecting sustained selling pressure due to uncertainties surrounding artificial intelligence (AI), global demand, and elevated bond yields. Market analysts suggest that while these IT stocks are currently in a downtrend, long-term holders might consider gradual additions as a contrarian bet once more clarity on AI's impact emerges. Technically, all three stocks are in oversold territory, with potential for a pullback relief rally.",
+      "url": "https://www.businesstoday.in/markets/stocks/story/infosys-wipro-tcs-shares-hit-1-year-low-amid-ai-concerns-what-analysts-say-517790-2026-02-24",
+      "time_published": "20260224T125413",
+      "source": "Business Today",
+      "overall_sentiment_score": -0.196991,
+      "ticker_sentiment": [
+        {
+          "ticker": "WIT",
+          "relevance_score": "0.333237",
+          "ticker_sentiment_score": "0.023437",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ACN",
+          "relevance_score": "0.701481",
+          "ticker_sentiment_score": "-0.281940",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "NOW",
+          "relevance_score": "0.629353",
+          "ticker_sentiment_score": "-0.238582",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.602525",
+          "ticker_sentiment_score": "-0.186121",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Innovex International Stock Pre-Market (-7.1%): Q4 Earnings Miss and Weak Guidance",
+      "summary": "Innovex International (INVX) shares are down 7.1% pre-market due to a significant Q4 EPS miss despite a revenue beat, coupled with weak Q1 guidance. The market is reacting negatively to profitability concerns and a sequential decline implied by the Q1 revenue forecast. The upcoming conference call at 9:00 AM EST is critical for management to address margin issues and potentially salvage investor sentiment.",
+      "url": "https://www.trefis.com/stock/invx/articles/591428/innovex-international-stock-pre-market-7-1-q4-earnings-miss-and-weak-guidance/2026-02-24",
+      "time_published": "20260224T115300",
+      "source": "Trefis",
+      "overall_sentiment_score": -0.085428,
+      "ticker_sentiment": [
+        {
+          "ticker": "INVX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.737569",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.627683",
+          "ticker_sentiment_score": "-0.204505",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "PLTR",
+          "relevance_score": "0.643417",
+          "ticker_sentiment_score": "0.309565",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.601656",
+          "ticker_sentiment_score": "0.218153",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MU",
+          "relevance_score": "0.627563",
+          "ticker_sentiment_score": "0.224487",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Offer Insights on Technology Companies: PicS N.V. Class A (PICS) and Adobe (ADBE)",
+      "summary": "Analysts have provided insights on two technology companies: PicS N.V. Class A (PICS) and Adobe (ADBE). Citi initiated coverage on PicS N.V. Class A with a Buy rating and a $28.00 price target, leading to a Strong Buy consensus, while Jefferies maintained a Hold rating on Adobe with a $290.00 price target, resulting in a Moderate Buy consensus.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/ADBE/pressreleases/381813/analysts-offer-insights-on-technology-companies-pics-nv-class-a-pics-and-adobe-adbe/",
+      "time_published": "20260224T104935",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.1897,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.919090",
+          "ticker_sentiment_score": "0.174766",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Dana Investment Advisors Inc. Has $30.28 Million Stock Holdings in Adobe Inc. $ADBE",
+      "summary": "Dana Investment Advisors Inc. increased its stake in Adobe Inc. (NASDAQ:ADBE) by 24.4% in the third quarter, bringing its total holdings to 85,828 shares valued at $30.28 million. Despite this, Adobe shares are trading near a 52-week low, down approximately 43% from their high, due to negative market sentiment and analyst downgrades, even after a recent earnings beat and positive FY2026 guidance. Insider selling activity and a \"Hold\" average analyst rating reflect ongoing market concerns about AI competition and a lack of immediate catalysts for stock re-rating.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-dana-investment-advisors-inc-has-3028-million-stock-holdings-in-adobe-inc-adbe-2026-02-24/",
+      "time_published": "20260224T094937",
+      "source": "MarketBeat",
+      "overall_sentiment_score": -0.197338,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.291195",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "NOW",
+          "relevance_score": "0.594313",
+          "ticker_sentiment_score": "-0.119786",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "A Look At Procore Technologies (PCOR) Valuation After Q4 2025 Earnings And AI Progress Update",
+      "summary": "Procore Technologies (PCOR) is currently regarded as undervalued, trading at $48.86 compared to a fair value estimate of $83.89, following its Q4 2025 earnings and 2026 revenue guidance. Despite solid sales growth and AI initiatives, its share price has seen a significant pullback. The valuation narrative highlights expanding market opportunities due to regulatory complexity and public sector digital transformation, but potential risks include heavy North American exposure and rising competition in AI construction tools.",
+      "url": "https://simplywall.st/stocks/us/software/nyse-pcor/procore-technologies/news/a-look-at-procore-technologies-pcor-valuation-after-q4-2025",
+      "time_published": "20260224T065202",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": -0.063406,
+      "ticker_sentiment": [
+        {
+          "ticker": "PCOR",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.279419",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.634199",
+          "ticker_sentiment_score": "0.112673",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADSK",
+          "relevance_score": "0.631717",
+          "ticker_sentiment_score": "0.132634",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Can Uber Technologies Stock Recover If Markets Fall?",
+      "summary": "Uber Technologies (UBER) stock has recently fallen by 14.3% due to concerns over weak earnings, rising operating costs, and autonomous vehicle investments. Despite this, its strong operational performance and moderate valuation make it attractive. The article analyzes UBER's resilience during past market downturns, showing that while it fell more sharply than the S&P 500, it eventually fully recovered.",
+      "url": "https://www.trefis.com/stock/uber/articles2/591374/can-uber-technologies-stock-recover-if-markets-fall-2/2026-02-24",
+      "time_published": "20260224T061531",
+      "source": "Trefis",
+      "overall_sentiment_score": 0.197311,
+      "ticker_sentiment": [
+        {
+          "ticker": "UBER",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.227425",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.624777",
+          "ticker_sentiment_score": "0.128815",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Trades 43% Below 52-Week High: Buy, Sell or Hold the Stock?",
+      "summary": "Adobe's shares have fallen 43% from their 52-week high, underperforming the tech sector due to macroeconomic volatility and AI disruption fears. Despite a strong AI push and expanding portfolio, competition from giants like Microsoft and Alphabet presents significant headwinds. Zacks Investment Research currently rates Adobe as a \"Hold\" due to these competitive risks, suggesting investors await a more favorable entry point.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CRM-N/pressreleases/367817/adobe-trades-43-below-52-week-high-buy-sell-or-hold-the-stock/",
+      "time_published": "20260224T051441",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.106568,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.133752",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.684889",
+          "ticker_sentiment_score": "0.127217",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.645771",
+          "ticker_sentiment_score": "0.256472",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.629299",
+          "ticker_sentiment_score": "0.053668",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Autodesk Lawsuit Against Alphabet Puts Focus On Flow And Investor Sentiment",
+      "summary": "Autodesk has filed a lawsuit against Alphabet, alleging infringement of its \"Flow\" trademark for visual effects and production management products, amidst a period of weak share performance for Autodesk. This legal action highlights Autodesk's commitment to defending its intellectual property in a crucial growth area and could impact investor sentiment. The outcome will be significant for Autodesk's market positioning and its ability to focus on product development and AI-driven features.",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-adsk/autodesk/news/autodesk-lawsuit-against-alphabet-puts-focus-on-flow-and-inv",
+      "time_published": "20260224T004937",
+      "source": "Simply Wall St",
+      "overall_sentiment_score": -0.172045,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADSK",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.250702",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.700649",
+          "ticker_sentiment_score": "-0.185574",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.690124",
+          "ticker_sentiment_score": "-0.164545",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.642092",
+          "ticker_sentiment_score": "-0.093154",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "SNPS",
+          "relevance_score": "0.558740",
+          "ticker_sentiment_score": "-0.077263",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Here's Why Adobe Systems (ADBE) Fell More Than Broader Market",
+      "summary": "Adobe Systems (ADBE) recently experienced a decline of 4.61% in trading, underperforming the broader market and its sector over the past month. Despite this, analysts project an EPS increase of 15.75% and revenue growth of 9.92% for its upcoming earnings report on March 12, 2026. The company currently holds a Zacks Rank of #3 (Hold) and is trading at a Forward P/E ratio of 11.02, which is a discount compared to its industry's average of 16.72.",
+      "url": "https://sg.finance.yahoo.com/news/heres-why-adobe-systems-adbe-224503686.html",
+      "time_published": "20260223T224500",
+      "source": "Yahoo Finance Singapore",
+      "overall_sentiment_score": -0.209287,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.236885",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Best Monday.com Alternatives in 2026: The Complete Guide",
+      "summary": "This guide explores the top alternatives to Monday.com in 2026, driven by user frustrations over pricing, complex automation, and lack of AI features. It provides a comprehensive comparison of tools like ClickUp, Asana, and BridgeApp, focusing on costs for different team sizes, AI capabilities, and migration feasibility. The article aims to help teams choose the best project management solution based on their specific needs and budget.",
+      "url": "https://www.openpr.com/news/4402038/best-monday-com-alternatives-in-2026-the-complete-guide",
+      "time_published": "20260223T205612",
+      "source": "openPR.com",
+      "overall_sentiment_score": 0.055224,
+      "ticker_sentiment": [
+        {
+          "ticker": "MNDY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.321019",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.645336",
+          "ticker_sentiment_score": "0.107195",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.607542",
+          "ticker_sentiment_score": "0.104049",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.628034",
+          "ticker_sentiment_score": "0.117127",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NOW",
+          "relevance_score": "0.631384",
+          "ticker_sentiment_score": "0.120367",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce Inc (CRM) Expands AI Capabilities With Momentum Acquisition",
+      "summary": "Salesforce Inc. (CRM) has acquired Momentum, a conversational insights and revenue orchestration platform, to enhance its AI capabilities in Agentforce 360 and Slackbot. This acquisition aims to better ingest and analyze unstructured data from third-party voice and video channels, thereby accelerating the company's efforts to leverage conversational data. Despite a recent price target cut by UBS, feedback on Agentforce has improved, and customers are not switching to AI alternatives, although backlog and revenue growth rates show no significant increase.",
+      "url": "https://finviz.com/news/319264/salesforce-inc-crm-expands-ai-capabilities-with-momentum-acquisition",
+      "time_published": "20260223T195304",
+      "source": "Finviz",
+      "overall_sentiment_score": -0.055325,
+      "ticker_sentiment": [
+        {
+          "ticker": "CRM",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.146916",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.621766",
+          "ticker_sentiment_score": "-0.120277",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.622724",
+          "ticker_sentiment_score": "-0.147937",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Inc (ADBE) Shares Down 4.64% on Feb 23",
+      "summary": "Shares of Adobe Inc (ADBE) fell 4.64% to $246.60 in mid-day trading on February 23rd, placing the stock significantly below its 52-week high. Wall Street analysts maintain an \"Outperform\" status with an average price target of $418.63, while GuruFocus estimates a one-year GF Value of $673.50, suggesting a substantial potential upside.",
+      "url": "https://www.gurufocus.com/news/8643079/adobe-inc-adbe-shares-down-464-on-feb-23",
+      "time_published": "20260223T172007",
+      "source": "GuruFocus",
+      "overall_sentiment_score": -0.264138,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.288764",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Trades 43% Below 52-Week High: Buy, Sell or Hold the Stock?",
+      "summary": "Adobe (ADBE) shares are trading 43% below their 52-week high, underperforming relevant sectors due to macroeconomic volatility and AI disruption concerns. The company is intensifying its AI efforts and expanding its product portfolio, but faces stiff competition from major tech players. Despite a strong outlook and steady earnings estimates, Zacks Investment Research rates Adobe a \"Hold\" due to AI-related disruption and competitive pressures, advising investors to await a more favorable entry point.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CRM/pressreleases/367815/adobe-trades-43-below-52-week-high-buy-sell-or-hold-the-stock/",
+      "time_published": "20260223T170052",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.008894,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.081646",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.600463",
+          "ticker_sentiment_score": "-0.107721",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.591011",
+          "ticker_sentiment_score": "0.069555",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Trades 43% Below 52-Week High: Buy, Sell or Hold the Stock?",
+      "summary": "Adobe's stock has fallen 43% from its 52-week high, underperforming the broader tech sector due to macroeconomic volatility and AI disruption fears. While the company is pushing AI initiatives and expanding its partner base to drive future growth, it faces stiff competition from major tech players like Microsoft, Alphabet, and Salesforce. Adobe's valuation suggests it might be cheap, but its Zacks Rank #3 (Hold) implies investors should wait for a more favorable entry point given the competitive landscape.",
+      "url": "https://www.nasdaq.com/articles/adobe-trades-43-below-52-week-high-buy-sell-or-hold-stock",
+      "time_published": "20260223T160412",
+      "source": "Nasdaq",
+      "overall_sentiment_score": 0.08447,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.090787",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.703507",
+          "ticker_sentiment_score": "0.305364",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.695518",
+          "ticker_sentiment_score": "-0.143211",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.604869",
+          "ticker_sentiment_score": "-0.117633",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Trades 43% Below 52-Week High: Buy, Sell or Hold the Stock?",
+      "summary": "Adobe's stock has fallen 43% from its 52-week high, underperforming the broader tech sector due to macroeconomic volatility and AI disruption fears, despite the company's significant AI investments across its product portfolio. While Adobe anticipates continued revenue and earnings growth for fiscal 2026 driven by AI initiatives and a strong partner base, stiff competition from tech giants like Microsoft, Alphabet, and Salesforce, combined with AI-related market disruption, leads Zacks Investment Research to recommend a \"Hold\" rating for the stock.",
+      "url": "https://www.tradingview.com/news/zacks:388bdf26a094b:0-adobe-trades-43-below-52-week-high-buy-sell-or-hold-the-stock/",
+      "time_published": "20260223T154326",
+      "source": "TradingView",
+      "overall_sentiment_score": -0.074079,
+      "ticker_sentiment": [
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.715421",
+          "ticker_sentiment_score": "-0.248173",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.994830",
+          "ticker_sentiment_score": "0.018652",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.666441",
+          "ticker_sentiment_score": "-0.206628",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.600940",
+          "ticker_sentiment_score": "0.218970",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "DEPT\u00ae Launches AI-Powered Global Content Engine Powered by Adobe",
+      "summary": "DEPT\u00ae has launched DEPT\u00ae Studios, an AI-powered global content engine built in partnership with Adobe. This enterprise content operating system combines AI automation with human creativity to help businesses manage increased content demands and personalize customer interactions at scale. The platform integrates Adobe GenStudio solutions and currently supports over 25 enterprise brands, with plans for significant expansion.",
+      "url": "https://lbbonline.com/news/DEPTr-AI-Content-Engine-Adobe",
+      "time_published": "20260223T112117",
+      "source": "Little Black Book | LBBOnline",
+      "overall_sentiment_score": 0.04914,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.333956",
+          "ticker_sentiment_score": "0.003250",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Looks Like A Value Trap",
+      "summary": "Adobe, despite appearing inexpensive at 12.4 times earnings, faces significant competitive threats from companies like Canva, Figma, and Apple, leading the author to believe it might be a value trap. Although the author previously held Adobe stock and profited, the increased competition in the creative software market makes them cautious about its future prospects. The article argues that Adobe's once-wide moat, driven by its Creative Cloud suite, is now being challenged.",
+      "url": "https://seekingalpha.com/article/4873692-adobe-looks-like-a-value-trap",
+      "time_published": "20260223T103000",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": -0.248244,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.387854",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.615621",
+          "ticker_sentiment_score": "-0.140223",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Are Wall Street Analysts Predicting Assurant Stock Will Climb or Sink?",
+      "summary": "Assurant Inc. (AIZ) has underperformed the broader market and the S&P 500 Index over the past year, with its stock gaining 11.6% compared to the S&P 500's 13% gains. Despite posting a 17% increase in adjusted operating EPS for FY2025 Q4, the shares dipped after earnings. Analysts maintain a \"Moderate Buy\" consensus rating for AIZ, with a mean price target suggesting a 16.1% premium to current levels.",
+      "url": "https://finance.yahoo.com/news/wall-street-analysts-predicting-assurant-124600022.html",
+      "time_published": "20260223T074600",
+      "source": "Yahoo Finance",
+      "overall_sentiment_score": 0.170172,
+      "ticker_sentiment": [
+        {
+          "ticker": "AIZ",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.177595",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.628100",
+          "ticker_sentiment_score": "0.191870",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PLTR",
+          "relevance_score": "0.611766",
+          "ticker_sentiment_score": "0.178610",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Adobe, Microsoft and Change Healthcare Deliver Next-Gen Patient Experience",
+      "summary": "Adobe, Microsoft, and Change Healthcare have partnered to launch the Digital Patient Experience Manager, a platform designed to streamline digital care management and improve the patient experience. This initiative addresses the growing need for digital engagement in healthcare, exacerbated by the COVID-19 pandemic, allowing patients to manage appointments, payments, and communications online. The platform integrates Adobe's HIPAA-ready customer experience tools and resides on Microsoft's Azure cloud, providing a unified system for patients, providers, and payers.",
+      "url": "https://blog.adobe.com/en/publish/2020/07/06/adobe-microsoft-and-change-healthcare-deliver-next-gen-patient-experience",
+      "time_published": "20260223T070527",
+      "source": "Adobe",
+      "overall_sentiment_score": 0.378697,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.409923",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.949144",
+          "ticker_sentiment_score": "0.448032",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "GEHC",
+          "relevance_score": "0.706890",
+          "ticker_sentiment_score": "0.318047",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    }
+  ],
+  "last_30_days": [
+    {
+      "title": "1 Picture-Perfect Short Iron Condor Trade Returning 35% on Adobe Stock Now",
+      "summary": "Adobe stock recently hit a five-year low amid concerns about the \"software apocalypse\" and AI-driven competition, pushing its options premiums to attractive levels. This creates a compelling opportunity for a short iron condor strategy, offering a potential 35% return. The recommended trade uses a MAR 20\u2019 215P-220P / 270C-275C short iron condor, capturing credit from Adobe's high implied volatility.",
+      "url": "https://www.barchart.com/story/news/420822/1-picture-perfect-short-iron-condor-trade-returning-35-on-adobe-stock-now",
+      "time_published": "20260225T175700",
+      "source": "Barchart.com",
+      "overall_sentiment_score": -0.280183,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.180745",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADSK",
+          "relevance_score": "0.616368",
+          "ticker_sentiment_score": "-0.381900",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.634414",
+          "ticker_sentiment_score": "-0.331838",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Stock: Is ADBE Underperforming the Technology Sector?",
+      "summary": "Adobe Inc. (ADBE) has underperformed the technology sector recently, with its stock dropping significantly over the past three months and year-to-date, contrasting with gains in the broader sector ETF. Investor concerns include AI disruption and competition from companies like Canva, despite Adobe reporting strong revenue growth in Q4 FY25 and analysts projecting continued profit growth. Wall Street analysts maintain a \"Moderate Buy\" rating for ADBE, forecasting a substantial upside from current levels.",
+      "url": "https://www.barchart.com/story/news/416260/adobe-stock-is-adbe-underperforming-the-technology-sector",
+      "time_published": "20260225T144938",
+      "source": "Barchart.com",
+      "overall_sentiment_score": 0.000633,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.328701",
+          "ticker_sentiment_score": "0.048976",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe's Still All In on AI. Next Up: The One-Click Tool That Edits Videos for You",
+      "summary": "Adobe is introducing a new AI video tool called \"Quick Cut\" within its Firefly video editor, designed to help social media creators quickly generate a first draft of their videos from raw footage. This tool, accessible via a Firefly subscription, aims to streamline the initial editing process, allowing users to create a basic video in under two minutes using dialogue-driven prompts. Adobe continues to integrate AI into its creative software, emphasizing that these tools are meant to enhance creators' work rather than replace human creativity, despite ongoing concerns about AI-generated content and potential intellectual property issues.",
+      "url": "https://www.cnet.com/tech/services-and-software/adobe-firefly-quick-cut-ai-video-year-ahead/",
+      "time_published": "20260225T135938",
+      "source": "CNET",
+      "overall_sentiment_score": 0.255914,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.435437",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.604048",
+          "ticker_sentiment_score": "0.236850",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.642678",
+          "ticker_sentiment_score": "0.233570",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.611894",
+          "ticker_sentiment_score": "0.223368",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Attribution Software Market Set to Witness Rapid Growth Through 2033 | Market DominanceAdobe Inc., Google LLC, Salesforce, Inc., HubSpot",
+      "summary": "Coherent Market Insights has published a new research study on the Global \"Marketing Attribution Software Market\" for 2026, forecasting growth through 2033. The report offers an extensive examination of market patterns, including key strategic developments, agreements, new product launches, collaborations, and regional growth of major competitors like Adobe Inc., Google LLC, and Salesforce, Inc. It segments the market by product type (Single-Touch, Multi-Touch, Algorithmic Attribution) and applications (Retail & E-commerce, Media & Entertainment, BFSI), providing qualitative and quantitative analysis across various regions.",
+      "url": "https://www.openpr.com/news/4404793/marketing-attribution-software-market-set-to-witness-rapid",
+      "time_published": "20260225T125210",
+      "source": "openPR.com",
+      "overall_sentiment_score": 0.324127,
+      "ticker_sentiment": [
+        {
+          "ticker": "HUBS",
+          "relevance_score": "0.907983",
+          "ticker_sentiment_score": "0.300163",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.854046",
+          "ticker_sentiment_score": "0.311747",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.815701",
+          "ticker_sentiment_score": "0.343212",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.752959",
+          "ticker_sentiment_score": "0.339563",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ORCL",
+          "relevance_score": "0.636806",
+          "ticker_sentiment_score": "0.266507",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Who is Shantanu Narayen? Indian-origin CEO of Adobe: Career, net worth, family; all you need to know",
+      "summary": "Shantanu Narayen, the Indian-origin CEO of Adobe Inc., has led the company for nearly two decades, transforming its business model from boxed software to a cloud-based subscription service and growing annual revenue significantly. Born and educated in India, he pursued advanced studies and an MBA in the US before joining Adobe in 1998, eventually becoming CEO in 2007 and Chairman in 2017. The article details his career progression, family life, net worth, and his views on India's role in the future of AI.",
+      "url": "https://timesofindia.indiatimes.com/world/us/who-is-shantanu-narayen-indian-origin-ceo-of-adobe-career-net-worth-family-all-you-need-to-know/articleshow/128778586.cms",
+      "time_published": "20260225T120137",
+      "source": "The Times of India",
+      "overall_sentiment_score": 0.470206,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.480448",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Fluent Inc. Marks Three Years of Commerce Media Growth",
+      "summary": "Fluent Inc. announced three years of significant growth in its Commerce Media Solutions business, driven by an expanding commerce network and a relevance-first monetization strategy. Since its launch in Q1 2023, the segment has achieved triple-digit compound annual revenue growth, reaching 40% of consolidated revenue by Q3 2025. This success is attributed to tailored strategies based on experimentation and predictive capabilities that prioritize impression quality and customer experience.",
+      "url": "https://www.martechcube.com/fluent-inc-marks-three-years-of-commerce-media-growth/",
+      "time_published": "20260225T105243",
+      "source": "MarTech Cube",
+      "overall_sentiment_score": 0.385497,
+      "ticker_sentiment": [
+        {
+          "ticker": "FLNT",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.850069",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "ABNB",
+          "relevance_score": "0.581866",
+          "ticker_sentiment_score": "0.294183",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.581781",
+          "ticker_sentiment_score": "0.248562",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "HD",
+          "relevance_score": "0.586608",
+          "ticker_sentiment_score": "0.231757",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NKE",
+          "relevance_score": "0.590049",
+          "ticker_sentiment_score": "0.245288",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft Corporation $MSFT Shares Acquired by one8zero8 LLC",
+      "summary": "one8zero8 LLC increased its stake in Microsoft Corporation (NASDAQ:MSFT) by 4.6% in the third quarter, making Microsoft its third largest position. Other institutional investors have also adjusted their holdings. Wall Street analysts maintain a \"Moderate Buy\" consensus rating with an average price target of $591.95 for Microsoft.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-shares-acquired-by-one8zero8-llc-2026-02-25/",
+      "time_published": "20260225T100912",
+      "source": "MarketBeat",
+      "overall_sentiment_score": 0.04708,
+      "ticker_sentiment": [
+        {
+          "ticker": "MSFT",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.246984",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.623295",
+          "ticker_sentiment_score": "-0.406308",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.624581",
+          "ticker_sentiment_score": "0.308032",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Easing AI Fears and Options Shifts Could Be A Game Changer For Adobe (ADBE)",
+      "summary": "Adobe (ADBE) is seeing easing investor fears regarding AI disruption and slowing Digital Media growth, alongside an options market shift indicating reduced downside protection. Despite ongoing concerns about AI competition affecting pricing, a robust share repurchase program and renewed interest in online learning platforms suggest a potentially shifting, more positive sentiment for the company's investment narrative. Adobe's forecast shows projected revenue of $29.3 billion and earnings of $8.7 billion by 2028, with a fair value estimate of $447.56, implying a significant upside.",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-adbe/adobe/news/easing-ai-fears-and-options-shifts-could-be-a-game-changer-f",
+      "time_published": "20260225T034938",
+      "source": "Simply Wall St",
+      "overall_sentiment_score": 0.221144,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.289708",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.645838",
+          "ticker_sentiment_score": "0.103867",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Is It Time To Reconsider Fair Isaac (FICO) After A 26% One Year Share Price Slide",
+      "summary": "Fair Isaac (FICO) has seen a 26% share price slide over the past year, prompting a reevaluation of its valuation. Despite strong long-term returns, recent declines suggest a need for closer analysis. Simply Wall St's valuation checks, using Discounted Cash Flow (DCF) and Price-to-Earnings (P/E) ratio, indicate that FICO might be undervalued by 14.1% based on DCF but overvalued based on its P/E ratio compared to industry averages and its Fair Ratio.",
+      "url": "https://simplywall.st/stocks/us/software/nyse-fico/fair-isaac/news/is-it-time-to-reconsider-fair-isaac-fico-after-a-26-one-year",
+      "time_published": "20260224T215115",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": -0.044041,
+      "ticker_sentiment": [
+        {
+          "ticker": "FICO",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.086367",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.554446",
+          "ticker_sentiment_score": "-0.135508",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Are Neutral on These Technology Stocks: Advantest (ADTTF), Fortinet (FTNT)",
+      "summary": "Analysts have issued neutral ratings for several technology stocks including Advantest (ADTTF), Fortinet (FTNT), and Snowflake (SNOW). These ratings suggest that experts are neither particularly optimistic nor pessimistic about these companies' stock performance. Price targets and analyst consensus vary for each company, with Advantest and Snowflake having a \"Strong Buy\" consensus, while Fortinet's consensus is \"Hold.\"",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/FTNT-Q/pressreleases/386989/analysts-are-neutral-on-these-technology-stocks-advantest-adttf-fortinet-ftnt/",
+      "time_published": "20260224T135017",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.047251,
+      "ticker_sentiment": [
+        {
+          "ticker": "FTNT",
+          "relevance_score": "0.972719",
+          "ticker_sentiment_score": "-0.077539",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.560003",
+          "ticker_sentiment_score": "0.054404",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "WPP and Adobe expand partnership to drive AI transformation for client marketing operations",
+      "summary": "WPP and Adobe have expanded their global partnership to deliver integrated solutions for brands, aiming to optimize media, drive business growth, and scale creativity through AI transformation. The collaboration will leverage Adobe's AI capabilities and content platforms with WPP\u2019s strategic insights and agentic marketing platform, WPP Open, to streamline end-to-end marketing processes and enable personalized experiences at scale. This initiative also includes integrating Adobe Firefly Foundry into WPP Open for on-brand content creation and committing to training creative AI forward-deployed engineers to maximize the value of AI solutions for clients.",
+      "url": "https://news.adobe.com/news/2026/02/wpp-adobe-expand-partnership",
+      "time_published": "20260224T134942",
+      "source": "Adobe Newsroom",
+      "overall_sentiment_score": 0.49243,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.486577",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Infosys, Wipro & TCS shares hit 1-yr low amid AI concerns over IT pack; what analysts say",
+      "summary": "Shares of Infosys, Wipro, and TCS plunged to 52-week lows, reflecting sustained selling pressure due to uncertainties surrounding artificial intelligence (AI), global demand, and elevated bond yields. Market analysts suggest that while these IT stocks are currently in a downtrend, long-term holders might consider gradual additions as a contrarian bet once more clarity on AI's impact emerges. Technically, all three stocks are in oversold territory, with potential for a pullback relief rally.",
+      "url": "https://www.businesstoday.in/markets/stocks/story/infosys-wipro-tcs-shares-hit-1-year-low-amid-ai-concerns-what-analysts-say-517790-2026-02-24",
+      "time_published": "20260224T125413",
+      "source": "Business Today",
+      "overall_sentiment_score": -0.196991,
+      "ticker_sentiment": [
+        {
+          "ticker": "WIT",
+          "relevance_score": "0.333237",
+          "ticker_sentiment_score": "0.023437",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ACN",
+          "relevance_score": "0.701481",
+          "ticker_sentiment_score": "-0.281940",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "NOW",
+          "relevance_score": "0.629353",
+          "ticker_sentiment_score": "-0.238582",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.602525",
+          "ticker_sentiment_score": "-0.186121",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Innovex International Stock Pre-Market (-7.1%): Q4 Earnings Miss and Weak Guidance",
+      "summary": "Innovex International (INVX) shares are down 7.1% pre-market due to a significant Q4 EPS miss despite a revenue beat, coupled with weak Q1 guidance. The market is reacting negatively to profitability concerns and a sequential decline implied by the Q1 revenue forecast. The upcoming conference call at 9:00 AM EST is critical for management to address margin issues and potentially salvage investor sentiment.",
+      "url": "https://www.trefis.com/stock/invx/articles/591428/innovex-international-stock-pre-market-7-1-q4-earnings-miss-and-weak-guidance/2026-02-24",
+      "time_published": "20260224T115300",
+      "source": "Trefis",
+      "overall_sentiment_score": -0.085428,
+      "ticker_sentiment": [
+        {
+          "ticker": "INVX",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.737569",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.627683",
+          "ticker_sentiment_score": "-0.204505",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "PLTR",
+          "relevance_score": "0.643417",
+          "ticker_sentiment_score": "0.309565",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.601656",
+          "ticker_sentiment_score": "0.218153",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MU",
+          "relevance_score": "0.627563",
+          "ticker_sentiment_score": "0.224487",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Analysts Offer Insights on Technology Companies: PicS N.V. Class A (PICS) and Adobe (ADBE)",
+      "summary": "Analysts have provided insights on two technology companies: PicS N.V. Class A (PICS) and Adobe (ADBE). Citi initiated coverage on PicS N.V. Class A with a Buy rating and a $28.00 price target, leading to a Strong Buy consensus, while Jefferies maintained a Hold rating on Adobe with a $290.00 price target, resulting in a Moderate Buy consensus.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/ADBE/pressreleases/381813/analysts-offer-insights-on-technology-companies-pics-nv-class-a-pics-and-adobe-adbe/",
+      "time_published": "20260224T104935",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.1897,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.919090",
+          "ticker_sentiment_score": "0.174766",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Dana Investment Advisors Inc. Has $30.28 Million Stock Holdings in Adobe Inc. $ADBE",
+      "summary": "Dana Investment Advisors Inc. increased its stake in Adobe Inc. (NASDAQ:ADBE) by 24.4% in the third quarter, bringing its total holdings to 85,828 shares valued at $30.28 million. Despite this, Adobe shares are trading near a 52-week low, down approximately 43% from their high, due to negative market sentiment and analyst downgrades, even after a recent earnings beat and positive FY2026 guidance. Insider selling activity and a \"Hold\" average analyst rating reflect ongoing market concerns about AI competition and a lack of immediate catalysts for stock re-rating.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-dana-investment-advisors-inc-has-3028-million-stock-holdings-in-adobe-inc-adbe-2026-02-24/",
+      "time_published": "20260224T094937",
+      "source": "MarketBeat",
+      "overall_sentiment_score": -0.197338,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.291195",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "NOW",
+          "relevance_score": "0.594313",
+          "ticker_sentiment_score": "-0.119786",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "A Look At Procore Technologies (PCOR) Valuation After Q4 2025 Earnings And AI Progress Update",
+      "summary": "Procore Technologies (PCOR) is currently regarded as undervalued, trading at $48.86 compared to a fair value estimate of $83.89, following its Q4 2025 earnings and 2026 revenue guidance. Despite solid sales growth and AI initiatives, its share price has seen a significant pullback. The valuation narrative highlights expanding market opportunities due to regulatory complexity and public sector digital transformation, but potential risks include heavy North American exposure and rising competition in AI construction tools.",
+      "url": "https://simplywall.st/stocks/us/software/nyse-pcor/procore-technologies/news/a-look-at-procore-technologies-pcor-valuation-after-q4-2025",
+      "time_published": "20260224T065202",
+      "source": "Simply Wall Street",
+      "overall_sentiment_score": -0.063406,
+      "ticker_sentiment": [
+        {
+          "ticker": "PCOR",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.279419",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.634199",
+          "ticker_sentiment_score": "0.112673",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADSK",
+          "relevance_score": "0.631717",
+          "ticker_sentiment_score": "0.132634",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Can Uber Technologies Stock Recover If Markets Fall?",
+      "summary": "Uber Technologies (UBER) stock has recently fallen by 14.3% due to concerns over weak earnings, rising operating costs, and autonomous vehicle investments. Despite this, its strong operational performance and moderate valuation make it attractive. The article analyzes UBER's resilience during past market downturns, showing that while it fell more sharply than the S&P 500, it eventually fully recovered.",
+      "url": "https://www.trefis.com/stock/uber/articles2/591374/can-uber-technologies-stock-recover-if-markets-fall-2/2026-02-24",
+      "time_published": "20260224T061531",
+      "source": "Trefis",
+      "overall_sentiment_score": 0.197311,
+      "ticker_sentiment": [
+        {
+          "ticker": "UBER",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.227425",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.624777",
+          "ticker_sentiment_score": "0.128815",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Trades 43% Below 52-Week High: Buy, Sell or Hold the Stock?",
+      "summary": "Adobe's shares have fallen 43% from their 52-week high, underperforming the tech sector due to macroeconomic volatility and AI disruption fears. Despite a strong AI push and expanding portfolio, competition from giants like Microsoft and Alphabet presents significant headwinds. Zacks Investment Research currently rates Adobe as a \"Hold\" due to these competitive risks, suggesting investors await a more favorable entry point.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CRM-N/pressreleases/367817/adobe-trades-43-below-52-week-high-buy-sell-or-hold-the-stock/",
+      "time_published": "20260224T051441",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.106568,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.133752",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.684889",
+          "ticker_sentiment_score": "0.127217",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.645771",
+          "ticker_sentiment_score": "0.256472",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.629299",
+          "ticker_sentiment_score": "0.053668",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Autodesk Lawsuit Against Alphabet Puts Focus On Flow And Investor Sentiment",
+      "summary": "Autodesk has filed a lawsuit against Alphabet, alleging infringement of its \"Flow\" trademark for visual effects and production management products, amidst a period of weak share performance for Autodesk. This legal action highlights Autodesk's commitment to defending its intellectual property in a crucial growth area and could impact investor sentiment. The outcome will be significant for Autodesk's market positioning and its ability to focus on product development and AI-driven features.",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-adsk/autodesk/news/autodesk-lawsuit-against-alphabet-puts-focus-on-flow-and-inv",
+      "time_published": "20260224T004937",
+      "source": "Simply Wall St",
+      "overall_sentiment_score": -0.172045,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADSK",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.250702",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.700649",
+          "ticker_sentiment_score": "-0.185574",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.690124",
+          "ticker_sentiment_score": "-0.164545",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.642092",
+          "ticker_sentiment_score": "-0.093154",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "SNPS",
+          "relevance_score": "0.558740",
+          "ticker_sentiment_score": "-0.077263",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Here's Why Adobe Systems (ADBE) Fell More Than Broader Market",
+      "summary": "Adobe Systems (ADBE) recently experienced a decline of 4.61% in trading, underperforming the broader market and its sector over the past month. Despite this, analysts project an EPS increase of 15.75% and revenue growth of 9.92% for its upcoming earnings report on March 12, 2026. The company currently holds a Zacks Rank of #3 (Hold) and is trading at a Forward P/E ratio of 11.02, which is a discount compared to its industry's average of 16.72.",
+      "url": "https://sg.finance.yahoo.com/news/heres-why-adobe-systems-adbe-224503686.html",
+      "time_published": "20260223T224500",
+      "source": "Yahoo Finance Singapore",
+      "overall_sentiment_score": -0.209287,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.236885",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Best Monday.com Alternatives in 2026: The Complete Guide",
+      "summary": "This guide explores the top alternatives to Monday.com in 2026, driven by user frustrations over pricing, complex automation, and lack of AI features. It provides a comprehensive comparison of tools like ClickUp, Asana, and BridgeApp, focusing on costs for different team sizes, AI capabilities, and migration feasibility. The article aims to help teams choose the best project management solution based on their specific needs and budget.",
+      "url": "https://www.openpr.com/news/4402038/best-monday-com-alternatives-in-2026-the-complete-guide",
+      "time_published": "20260223T205612",
+      "source": "openPR.com",
+      "overall_sentiment_score": 0.055224,
+      "ticker_sentiment": [
+        {
+          "ticker": "MNDY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.321019",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.645336",
+          "ticker_sentiment_score": "0.107195",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.607542",
+          "ticker_sentiment_score": "0.104049",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.628034",
+          "ticker_sentiment_score": "0.117127",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NOW",
+          "relevance_score": "0.631384",
+          "ticker_sentiment_score": "0.120367",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce Inc (CRM) Expands AI Capabilities With Momentum Acquisition",
+      "summary": "Salesforce Inc. (CRM) has acquired Momentum, a conversational insights and revenue orchestration platform, to enhance its AI capabilities in Agentforce 360 and Slackbot. This acquisition aims to better ingest and analyze unstructured data from third-party voice and video channels, thereby accelerating the company's efforts to leverage conversational data. Despite a recent price target cut by UBS, feedback on Agentforce has improved, and customers are not switching to AI alternatives, although backlog and revenue growth rates show no significant increase.",
+      "url": "https://finviz.com/news/319264/salesforce-inc-crm-expands-ai-capabilities-with-momentum-acquisition",
+      "time_published": "20260223T195304",
+      "source": "Finviz",
+      "overall_sentiment_score": -0.055325,
+      "ticker_sentiment": [
+        {
+          "ticker": "CRM",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.146916",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.621766",
+          "ticker_sentiment_score": "-0.120277",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.622724",
+          "ticker_sentiment_score": "-0.147937",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Inc (ADBE) Shares Down 4.64% on Feb 23",
+      "summary": "Shares of Adobe Inc (ADBE) fell 4.64% to $246.60 in mid-day trading on February 23rd, placing the stock significantly below its 52-week high. Wall Street analysts maintain an \"Outperform\" status with an average price target of $418.63, while GuruFocus estimates a one-year GF Value of $673.50, suggesting a substantial potential upside.",
+      "url": "https://www.gurufocus.com/news/8643079/adobe-inc-adbe-shares-down-464-on-feb-23",
+      "time_published": "20260223T172007",
+      "source": "GuruFocus",
+      "overall_sentiment_score": -0.264138,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.288764",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Trades 43% Below 52-Week High: Buy, Sell or Hold the Stock?",
+      "summary": "Adobe (ADBE) shares are trading 43% below their 52-week high, underperforming relevant sectors due to macroeconomic volatility and AI disruption concerns. The company is intensifying its AI efforts and expanding its product portfolio, but faces stiff competition from major tech players. Despite a strong outlook and steady earnings estimates, Zacks Investment Research rates Adobe a \"Hold\" due to AI-related disruption and competitive pressures, advising investors to await a more favorable entry point.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CRM/pressreleases/367815/adobe-trades-43-below-52-week-high-buy-sell-or-hold-the-stock/",
+      "time_published": "20260223T170052",
+      "source": "The Globe and Mail",
+      "overall_sentiment_score": 0.008894,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.081646",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.600463",
+          "ticker_sentiment_score": "-0.107721",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.591011",
+          "ticker_sentiment_score": "0.069555",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Trades 43% Below 52-Week High: Buy, Sell or Hold the Stock?",
+      "summary": "Adobe's stock has fallen 43% from its 52-week high, underperforming the broader tech sector due to macroeconomic volatility and AI disruption fears. While the company is pushing AI initiatives and expanding its partner base to drive future growth, it faces stiff competition from major tech players like Microsoft, Alphabet, and Salesforce. Adobe's valuation suggests it might be cheap, but its Zacks Rank #3 (Hold) implies investors should wait for a more favorable entry point given the competitive landscape.",
+      "url": "https://www.nasdaq.com/articles/adobe-trades-43-below-52-week-high-buy-sell-or-hold-stock",
+      "time_published": "20260223T160412",
+      "source": "Nasdaq",
+      "overall_sentiment_score": 0.08447,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.090787",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.703507",
+          "ticker_sentiment_score": "0.305364",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.695518",
+          "ticker_sentiment_score": "-0.143211",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.604869",
+          "ticker_sentiment_score": "-0.117633",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Trades 43% Below 52-Week High: Buy, Sell or Hold the Stock?",
+      "summary": "Adobe's stock has fallen 43% from its 52-week high, underperforming the broader tech sector due to macroeconomic volatility and AI disruption fears, despite the company's significant AI investments across its product portfolio. While Adobe anticipates continued revenue and earnings growth for fiscal 2026 driven by AI initiatives and a strong partner base, stiff competition from tech giants like Microsoft, Alphabet, and Salesforce, combined with AI-related market disruption, leads Zacks Investment Research to recommend a \"Hold\" rating for the stock.",
+      "url": "https://www.tradingview.com/news/zacks:388bdf26a094b:0-adobe-trades-43-below-52-week-high-buy-sell-or-hold-the-stock/",
+      "time_published": "20260223T154326",
+      "source": "TradingView",
+      "overall_sentiment_score": -0.074079,
+      "ticker_sentiment": [
+        {
+          "ticker": "CRM",
+          "relevance_score": "0.715421",
+          "ticker_sentiment_score": "-0.248173",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.994830",
+          "ticker_sentiment_score": "0.018652",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.666441",
+          "ticker_sentiment_score": "-0.206628",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.600940",
+          "ticker_sentiment_score": "0.218970",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "DEPT\u00ae Launches AI-Powered Global Content Engine Powered by Adobe",
+      "summary": "DEPT\u00ae has launched DEPT\u00ae Studios, an AI-powered global content engine built in partnership with Adobe. This enterprise content operating system combines AI automation with human creativity to help businesses manage increased content demands and personalize customer interactions at scale. The platform integrates Adobe GenStudio solutions and currently supports over 25 enterprise brands, with plans for significant expansion.",
+      "url": "https://lbbonline.com/news/DEPTr-AI-Content-Engine-Adobe",
+      "time_published": "20260223T112117",
+      "source": "Little Black Book | LBBOnline",
+      "overall_sentiment_score": 0.04914,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.333956",
+          "ticker_sentiment_score": "0.003250",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Adobe Looks Like A Value Trap",
+      "summary": "Adobe, despite appearing inexpensive at 12.4 times earnings, faces significant competitive threats from companies like Canva, Figma, and Apple, leading the author to believe it might be a value trap. Although the author previously held Adobe stock and profited, the increased competition in the creative software market makes them cautious about its future prospects. The article argues that Adobe's once-wide moat, driven by its Creative Cloud suite, is now being challenged.",
+      "url": "https://seekingalpha.com/article/4873692-adobe-looks-like-a-value-trap",
+      "time_published": "20260223T103000",
+      "source": "Seeking Alpha",
+      "overall_sentiment_score": -0.248244,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.387854",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.615621",
+          "ticker_sentiment_score": "-0.140223",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Are Wall Street Analysts Predicting Assurant Stock Will Climb or Sink?",
+      "summary": "Assurant Inc. (AIZ) has underperformed the broader market and the S&P 500 Index over the past year, with its stock gaining 11.6% compared to the S&P 500's 13% gains. Despite posting a 17% increase in adjusted operating EPS for FY2025 Q4, the shares dipped after earnings. Analysts maintain a \"Moderate Buy\" consensus rating for AIZ, with a mean price target suggesting a 16.1% premium to current levels.",
+      "url": "https://finance.yahoo.com/news/wall-street-analysts-predicting-assurant-124600022.html",
+      "time_published": "20260223T074600",
+      "source": "Yahoo Finance",
+      "overall_sentiment_score": 0.170172,
+      "ticker_sentiment": [
+        {
+          "ticker": "AIZ",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.177595",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ADBE",
+          "relevance_score": "0.628100",
+          "ticker_sentiment_score": "0.191870",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PLTR",
+          "relevance_score": "0.611766",
+          "ticker_sentiment_score": "0.178610",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Adobe, Microsoft and Change Healthcare Deliver Next-Gen Patient Experience",
+      "summary": "Adobe, Microsoft, and Change Healthcare have partnered to launch the Digital Patient Experience Manager, a platform designed to streamline digital care management and improve the patient experience. This initiative addresses the growing need for digital engagement in healthcare, exacerbated by the COVID-19 pandemic, allowing patients to manage appointments, payments, and communications online. The platform integrates Adobe's HIPAA-ready customer experience tools and resides on Microsoft's Azure cloud, providing a unified system for patients, providers, and payers.",
+      "url": "https://blog.adobe.com/en/publish/2020/07/06/adobe-microsoft-and-change-healthcare-deliver-next-gen-patient-experience",
+      "time_published": "20260223T070527",
+      "source": "Adobe",
+      "overall_sentiment_score": 0.378697,
+      "ticker_sentiment": [
+        {
+          "ticker": "ADBE",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.409923",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.949144",
+          "ticker_sentiment_score": "0.448032",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "GEHC",
+          "relevance_score": "0.706890",
+          "ticker_sentiment_score": "0.318047",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    }
+  ],
+  "monthly_summary": {
+    "2026-02": {
+      "count": 30,
+      "avg_sentiment": 0.053
+    }
+  }
+}

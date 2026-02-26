@@ -1,0 +1,3859 @@
+{
+  "date_range": {
+    "from": "2025-11-28",
+    "to": "2026-02-26"
+  },
+  "stories": [
+    {
+      "clusterId": null,
+      "name": "WPP, Adobe deepen global AI marketing partnership",
+      "summary": "On Feb. 24, 2026 WPP and Adobe deepened their global partnership to deliver a unified, AI-driven marketing solution by embedding Adobe Firefly Foundry into WPP\u2019s agentic marketing platform, WPP Open. The collaboration combines Adobe\u2019s generative AI, content platforms and data orchestration with WPP\u2019s strategic, creative and media expertise to automate planning, creation, production and activation through agentic workflows that generate and adapt content while optimizing media spend. Firefly Foundry enables brands to train models on cleared IP so generated content is brand-safe and suitable for commercial use, and the integrated approach is designed to be privacy-conscious across the marketing lifecycle. The partners say the move tackles the industry\u2019s pressure to produce more personalized content across more channels by streamlining fragmented tools and multistep processes into a single flow that frees human teams for higher-level creativity. WPP and Adobe also plan investments in training creative AI engineers to help clients adopt AI-led marketing processes and ensure human oversight remains central.",
+      "keyPoints": [
+        "WPP Open is already in wide internal use across the group \u2014 more than 85,000 WPP employees use the platform.",
+        "WPP CTO Stephan Pretorius: \u201cFor years, we\u2019ve watched brilliant creative ideas get stuck in production queues\u2026 With Adobe, we\u2019re shattering the barriers between ideation and impact, building agentic content systems that handle the complexity so human creativity can soar.\u201d",
+        "Adobe says Firefly Foundry enables development of generative AI models that are 'responsibly trained' on a customer's cleared IP and can be 'approved for commercial deployment', a phrasing the partners use to emphasise legal/brand safety for generated content."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 17
+        }
+      ],
+      "sentiment": {
+        "positive": 0.5197229,
+        "negative": 0.13072987,
+        "neutral": 0.34954727
+      },
+      "createdAt": "2026-02-24T15:35:25.457313+00:00",
+      "updatedAt": "2026-02-26T01:20:07.196539+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Telangana CM, Adobe CEO Discuss Investments, AI Impact",
+      "summary": "On Feb. 25, Telangana Chief Minister A. Revanth Reddy met Adobe CEO Shantanu Narayen, a member of the Telangana Rising 2047 vision board, to discuss a roadmap for positioning the state as a global manufacturing hub and attracting major firms. The two discussed global manufacturing trends, green energy and the impact of artificial intelligence on the economy, emphasizing the need for skilling and reskilling to address job disruption. Reddy urged more cooperation from Narayen and called for new, aggressive plans by the state government to secure large international investments. The meeting aligns with Reddy\u2019s broader push\u2014outlined at the India AI Summit\u2014for a national assessment of AI-driven job displacement and significant investment in workforce retraining.",
+      "keyPoints": [
+        "The meeting was held at Chief Minister Revanth Reddy\u2019s official residence in Jubilee Hills.",
+        "Shantanu Narayen\u2019s visit was described as a courtesy call on the Chief Minister.",
+        "Details of the interaction were released through an official government release, which summarised the topics discussed and the need for a roadmap to attract investments."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Revanth Reddy"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 2
+        },
+        {
+          "name": "Business Leaders",
+          "count": 7
+        }
+      ],
+      "sentiment": {
+        "positive": 0.41151556,
+        "negative": 0.19743608,
+        "neutral": 0.39104837
+      },
+      "createdAt": "2026-02-25T07:57:33.927938+00:00",
+      "updatedAt": "2026-02-26T00:19:20.127074+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe launches Firefly Quick Cut, auto-assembles rough edits",
+      "summary": "Adobe\u2019s Firefly has a new Quick Cut feature that turns uploaded or AI-generated footage into a structured first cut from plain-language prompts, with optional scripts or shot lists to guide the assembly. The tool automatically selects takes, trims filler, inserts transitions (and can even generate brief transition shots from frames), and lets users set aspect ratio, pacing, duration, and optional B-roll while producing an editable timeline rather than a locked render. Firefly combines models from Adobe, Google, OpenAI, and Runway in a single app and Adobe is offering unlimited image and video generations up to 2K on select plans through March 16. Adobe frames Quick Cut as a way to eliminate grunt work and give creators a clear starting point while preserving creative control. Creators such as Brandon Baum and Sophia Kianni praise Firefly for speeding ideation and providing multiasset support for small businesses, podcasters, and marketers. Adobe positions Quick Cut as useful for both whole-project assembly edits and localized fixes, helping product reviewers, reporters, podcasters, and marketers iterate faster.",
+      "keyPoints": [
+        "YouTuber Brandon Baum said he uses Firefly as a \u201cthought starter,\u201d adding: \u201cI like to generate a few things, iterate on my ideas quickly, try, try, try, fail fast, and hopefully find the gold.\u201d",
+        "Adobe product lead Mike Polner framed Quick Cut around speed and iteration: \u201cWhen inspiration strikes, video creators need tools that keep pace with the speed of their minds... They need to fill their timeline quickly, so they can build on top of it and when necessary, tear it down and build anew.\u201d",
+        "The March 16 promotion applies to specific Firefly plans (Firefly Pro, Firefly Premium, and 4,000\u2011, 7,000\u2011, and 50,000\u2011credit plans) and includes unlimited generations with several image models named by Adobe: Google Nano Banana Pro, GPT Image Generation, Runway Gen\u20114 Image, as well as Adobe\u2019s own Firefly image and video models."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 3
+        }
+      ],
+      "sentiment": {
+        "positive": 0.28771603,
+        "negative": 0.12895562,
+        "neutral": 0.58332837
+      },
+      "createdAt": "2026-02-25T14:34:46.057336+00:00",
+      "updatedAt": "2026-02-25T22:05:09.193388+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Major funds raise Adobe holdings",
+      "summary": "Multiple institutional investors raised stakes in Adobe Inc. according to recent Form 13F filings, with Vanguard Mega Cap Index Fund adding 8,837 shares to hold about 88,149 shares (~$28.2M) and Vanguard S&P 500 Growth Index Fund adding 2,710 shares to hold about 120,876 shares (~$38.7M). Eagle Global Advisors increased its position by 1,010 shares to 1,988 shares (about $695,780), while other firms including Leelyn Smith, Salomon & Ludwin and Allen Mooney & Barnes also reported meaningful increases (Allen Mooney & Barnes added 32,864 shares to hold 38,403 shares, per filings). The coverage highlights a broad institutional buying trend across both large index funds and smaller advisors. Reported market-market details show Adobe trading in the mid-$250s with a 52-week low near $251 and reported highs in the mid-$400s, a market capitalization around $106 billion and a price-to-earnings ratio near 15.5.",
+      "keyPoints": [
+        "Allen Mooney & Barnes Investment Advisors LLC boosted its Adobe stake by 593.32%, purchasing 32,864 shares to bring its total to 38,403 shares valued at about $13,440,670.",
+        "Capital Group Growth ETF bought 31,632 shares of Adobe, raising its position to 246,352 shares worth approximately $78,864,670.",
+        "Sparkline Intangible Value ETF initiated a new position in Adobe, purchasing 1,142 shares valued at roughly $365,590."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Mizuho Information & Research Institute",
+          "symbols": []
+        },
+        {
+          "name": "Jefferies Financial Group Inc.",
+          "symbols": [
+            "JEF"
+          ]
+        },
+        {
+          "name": "Barclays",
+          "symbols": []
+        },
+        {
+          "name": "Vanguard ETF Series - Vanguard S&P 500 Index ETF",
+          "symbols": [
+            "3140.HK"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "John Warnock"
+        },
+        {
+          "name": "Charles Geschke"
+        },
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Elon Musk"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 4
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.3491511,
+        "negative": 0.21268524,
+        "neutral": 0.43816364
+      },
+      "createdAt": "2026-02-20T13:18:41.393402+00:00",
+      "updatedAt": "2026-02-23T21:09:38.193559+00:00",
+      "uniqueCount": 10,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe announces free creative tools for Indian students",
+      "summary": "Adobe announced a program giving students in accredited Indian higher-education institutions free access to flagship tools including Photoshop, Acrobat and Firefly, with access routed through participating colleges and institutions rather than direct public sign-up. The offering includes AI-first learning modules, structured curriculum and guided training, plus industry-recognized certifications through a partnership with NASSCOM FutureSkills Prime supported by MeitY. Adobe said the move is intended to boost AI skills and the country\u2019s creator economy while aligning with the government\u2019s digital-skill and 'Create in India' priorities. The initiative also plans to extend to thousands of schools and hundreds of colleges establishing Content Creator Labs to support practical learning. Company chair and CEO Shantanu Narayen framed the effort as empowering students with AI capabilities to help advance the nation\u2019s development goals.",
+      "keyPoints": [
+        "Adobe announced the programme at the AI Impact Summit 2026 in New Delhi.",
+        "Some reports describe the announcement as having been made in Chandigarh, indicating differing accounts of the event location in media coverage.",
+        "Adobe said this new offering extends its existing Digital Academy programme in India through the NASSCOM FutureSkills Prime partnership."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Government of India",
+          "symbols": []
+        },
+        {
+          "name": "Ministry of Electronics and Information Technology",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Sam Altman"
+        },
+        {
+          "name": "Sundar Pichai"
+        },
+        {
+          "name": "Emmanuel Macron"
+        },
+        {
+          "name": "Ant\u00f3nio Guterres"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 2
+        },
+        {
+          "name": "AI",
+          "count": 31
+        },
+        {
+          "name": "US Politics",
+          "count": 5
+        },
+        {
+          "name": "Academia",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.6743455,
+        "negative": 0.073697835,
+        "neutral": 0.25195664
+      },
+      "createdAt": "2026-02-19T09:01:56.784959+00:00",
+      "updatedAt": "2026-02-21T05:20:37.333871+00:00",
+      "uniqueCount": 30,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Faces AI-Training Lawsuits, Analyst Downgrades",
+      "summary": "Adobe shares have plunged roughly 43% over the past year and now trade near $264 as investors reassess large software names and several firms (Goldman Sachs, UBS, Piper Sandler) have downgraded the stock, citing weaker near-term revenue and EPS versus peers. The company now faces renewed legal pressure from lawsuits alleging it used pirated books to train its AI models\u2014new suits in February follow a December filing\u2014which raises regulatory, reputational and financial risk for its AI roadmap. At the same time Adobe is pushing an enterprise AI strategy, announcing an AI-focused collaboration with Cognizant and promoting Firefly/GenStudio and Acrobat AI Assistant as monetization levers aimed at scaled content supply chains. Valuation views diverge sharply: a Simply Wall St. DCF implies a much higher intrinsic value (around $545 per share), while analysts cutting ratings highlight near-term execution risk and competition from AI-native rivals. The near-term investor debate centers on whether Adobe can translate its AI products into sustainable revenue and pricing power without legal setbacks eroding its creative and document franchises.",
+      "keyPoints": [
+        "TV host Jim Cramer criticized Adobe\u2019s positioning in the AI market, saying, \"Well Adobe\u2019s been cut in half. And I think Adobe, you can very quickly disable the 660 dollar Adobe [inaudible] that I have. I don\u2019t need it anymore. I got the same thing going for 60 bucks. So that\u2019s in trouble, that\u2019s trouble.\"",
+        "A Bloomberg-reported lawsuit filed Feb. 9 in the U.S. District Court for the Northern District of California alleges Adobe willfully used pirated books to train its AI models and cites infringement of hundreds of thousands of books.",
+        "Adobe\u2019s published growth narrative projects $29.3 billion in revenue and $8.7 billion in earnings by 2028, implying roughly 9.0% annual revenue growth and about a $1.8 billion increase in earnings from $6.9 billion today \u2014 assumptions investors must accept for the bullish case."
+      ],
+      "companies": [
+        {
+          "name": "Cognizant Technology Solutions Corporation",
+          "symbols": [
+            "0QZ5.L",
+            "CTSH",
+            "COZ.DE"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "The Goldman Sachs Group, Inc.",
+          "symbols": [
+            "GS",
+            "GS-PA",
+            "GS-PD",
+            "GS-PJ",
+            "GS-PK",
+            "GS.SW",
+            "GOS.DE"
+          ]
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbols": [
+            "ABEA.DE",
+            "ABEC.DE",
+            "GOOG",
+            "GOOGL",
+            "GOOGL.SW"
+          ]
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Andy Jassy"
+        },
+        {
+          "name": "Warren Buffett"
+        },
+        {
+          "name": "Elon Musk"
+        },
+        {
+          "name": "Jeff Bezos"
+        },
+        {
+          "name": "Bill Gates"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Lawsuits",
+          "count": 4
+        },
+        {
+          "name": "Markets",
+          "count": 6
+        },
+        {
+          "name": "AI",
+          "count": 3
+        },
+        {
+          "name": "Stocks",
+          "count": 1
+        },
+        {
+          "name": "SaaS",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.30734268,
+        "negative": 0.3452157,
+        "neutral": 0.3474416
+      },
+      "createdAt": "2026-02-17T11:16:25.650911+00:00",
+      "updatedAt": "2026-02-19T17:41:44.513621+00:00",
+      "uniqueCount": 9,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Canva Hits $4B ARR, AI Fuels Growth",
+      "summary": "Canva closed 2025 with about $4 billion in annual recurring revenue as monthly active users rose roughly 20% to ~265 million and paid subscribers exceeded 31 million, growth company leaders attribute largely to new AI features. The company doubled its B2B ARR to $500 million while remaining skewed to North America and pursuing lower-priced subscriptions in markets like Pakistan, Uruguay, Morocco and Jamaica to expand monetization. Management is repositioning Canva as an AI-first platform\u2014a \u201cdesign agency in your pocket\u201d\u2014anchored by tools such as Magic Write/Magic Design and an AI mini-app/website generator that has over 10 million monthly users. Deepening integrations with large language models and chatbots (including ChatGPT and Claude) produced millions of in-chat interactions (26M+ by October 2025) and rising double-digit LLM-driven referral traffic, creating a new low-cost discovery channel. The results validate Canva\u2019s AI pivot and sharpen competition with legacy creative software vendors as LLMs emerge as a major distribution gateway.",
+      "keyPoints": [
+        "Canva\u2019s co-founder and COO Cliff Obrecht said the company is \u201cinverting\u201d its strategy\u2014moving from a design platform with AI tools to an AI platform with design tools, calling Canva more like a \u201ccursor for design.\u201d",
+        "Canva is actively dedicating resources to appear in LLM-driven search results and is investing in SEO and content around user search intents because it sees ChatGPT and other LLMs as the new top-of-funnel for user acquisition.",
+        "Canva faces named competition from established players including Adobe and Freepik as well as Apple, which is pushing a bundled Creator Studio (apps like Final Cut Pro, Logic Pro, Pixelmator Pro, Motion, Compressor and MainStage) as a rival creative offering."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Canva",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 3
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.7168504,
+        "negative": 0.04452544,
+        "neutral": 0.23862419
+      },
+      "createdAt": "2026-02-18T14:08:17.672019+00:00",
+      "updatedAt": "2026-02-18T18:57:08.531211+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "51 AVGC-XR startups expected at WAVES Corner",
+      "summary": "Union Minister Ashwini Vaishnaw inaugurated the WAVES Creators Corner at the India AI Impact Summit in New Delhi, highlighting the growing use of AI in creative content and noting India has onboarded more than 38,000 high-end GPUs (with plans to add more), subsidized access and large AI investment commitments tied to the summit. The WAVES Creators Corner, powered by the Ministry of Information & Broadcasting and facilitated by WaveX, brings 51 AVGC-XR and media-tech startups to the India AI Impact Expo to showcase AI-driven animation pipelines, real-time rendering, immersive XR, virtual production, gaming and content-monetization technologies. Demonstrations include a Zero-Touch Autonomous Newsroom that converts live feeds into multilingual breaking news, the Bhasha-Wall offering real-time lip-synced dubbing across multiple Indian languages alongside an AI sign-language avatar, and immersive exhibits such as Samvad Setu, The Director\u2019s Chair, an AI podcast studio, conversational humanoid robots and voice cloning. The pavilion pairs these showcases with panels, masterclasses and industry collaborations \u2014 including Adobe\u2019s Kathavatar and a masterclass by Shekhar Kapur \u2014 to discuss responsible AI, cultural authenticity and tools for preserving linguistic and cultural heritage. Overall, the showcase aims to position India as a leader in responsible creative AI by connecting startups, investors, policymakers and global stakeholders and shifting focus from foundational compute to India-specific design, R&D and productization.",
+      "keyPoints": [
+        "Union Minister Ashwini Vaishnaw singled out Kuku\u2019s platform at the event, saying, \u201cAI is being used very effectively in the world of creative content... you should definitely check out Kuku\u2019s platform. It has immense potential.\u201d",
+        "Under the IndiaAI Mission India has onboarded more than 38,000 high\u2011end GPUs and is expected to add another 20,000; these GPUs are available at about Rs 65 per hour \u2014 roughly one\u2011third of the global average cost.",
+        "Vaishnaw indicated AI\u2011related investments tied to the summit are likely to exceed USD 200 billion, with about USD 90 billion already committed, and that the government is in talks with several large companies on further AI infrastructure investments."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Amazon Web Services",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Asian News International",
+          "symbols": []
+        },
+        {
+          "name": "National Film Development Corporation of India",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Ashwini Vaishnaw"
+        },
+        {
+          "name": "Shradha Sharma"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Startups",
+          "count": 13
+        },
+        {
+          "name": "AI",
+          "count": 20
+        }
+      ],
+      "sentiment": {
+        "positive": 0.5389729,
+        "negative": 0.071847074,
+        "neutral": 0.38918
+      },
+      "createdAt": "2026-02-16T13:28:58.445552+00:00",
+      "updatedAt": "2026-02-18T13:02:56.952010+00:00",
+      "uniqueCount": 12,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Top fund warns few software firms survive AI",
+      "summary": "Nick Evans, manager of Polar Capital\u2019s $12 billion global technology fund that outperformed 99% of peers over one year and 97% over five, warns that application software faces an \u201cexistential threat\u201d from AI and has largely sold off his holdings in major software firms. He says rapidly improving AI tools \u2014 and companies building in\u2011house solutions \u2014 will replicate and undercut many application vendors, creating substantial valuation and free\u2011cash\u2011flow uncertainty. The market is already reacting: an ETF tracking U.S. software is down roughly 22% this year while semiconductor stocks have surged as AI boosts chip demand, with Nvidia holding a near\u201110% position in his fund. Evans urges investors to be significantly underweight application software, warns that only a few firms will survive the reckoning, and notes that falling stock\u2011based compensation could force companies to use more cash, further straining finances.",
+      "keyPoints": [
+        "Evans said Polar Capital has sold virtually all holdings in specific large software names \u2014 including SAP SE, ServiceNow, Adobe and HubSpot \u2014 adding, \u201cWe won\u2019t go back to these companies.\u201d",
+        "Beyond exiting most application software, the fund still holds a small position and some call options in Microsoft.",
+        "Semiconductors dominate the fund: seven of the top ten positions were semiconductor companies, with Nvidia making up nearly 10% of the portfolio."
+      ],
+      "companies": [
+        {
+          "name": "Polar Capital Holdings plc",
+          "symbols": [
+            "POLR.L"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "HubSpot, Inc.",
+          "symbols": [
+            "0TZZ.L",
+            "HUBS"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "ServiceNow, Inc.",
+          "symbols": [
+            "0L5N.L",
+            "NOW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Jensen Huang"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 11
+        },
+        {
+          "name": "Markets",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.11968216,
+        "negative": 0.732765,
+        "neutral": 0.14755279
+      },
+      "createdAt": "2026-02-16T09:11:31.479317+00:00",
+      "updatedAt": "2026-02-17T18:38:37.110601+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "USISPF plans largest US delegation, India AI Summit",
+      "summary": "The US\u2013India Strategic Partnership Forum (USISPF) will lead the largest-ever U.S. business delegation to the India AI Impact Summit, bringing more than 100 companies and over 120 senior leaders to New Delhi for the Feb. 16\u201320, 2026 event organized by India\u2019s Ministry of Electronics and Information Technology. USISPF announced a new Board AI Task Force, chaired by John Chambers, to push joint U.S.-India work on strengthening AI ecosystems, accelerating responsible, population-scale deployment, and advancing trusted, scalable governance frameworks. The delegation\u2014reported to include CEOs such as Adobe\u2019s Shantanu Narayen and FedEx\u2019s Raj Subramaniam\u2014reflects growing alignment between American companies and Indian policymakers on how AI should be built and governed. Organizers frame the summit (theme: \u201cPeople, Planet, Progress\u201d) as the first global AI summit of this scale in the Global South, with more than 35,000 registrants and a focus on moving AI from experimentation to real-world impact.",
+      "keyPoints": [
+        "USISPF is participating as an \"Official Partner\" of the India AI Impact Summit, not just leading a delegation.",
+        "USISPF Chairman John Chambers characterized the US\u2011India AI relationship as \u201cthe defining strategic partnership of our time\u201d and said the task force will leverage USISPF\u2019s public\u2011private partnership experience to support AI development and deployment for \u201cnearly two billion people across our countries.\u201d",
+        "Delegation co-leaders such as Adobe\u2019s Shantanu Narayen and FedEx\u2019s Raj Subramaniam are expected to drive discussions on AI\u2019s role in supply\u2011chain resilience and improving digital access."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "FedEx Corporation",
+          "symbols": [
+            "0QZX.L",
+            "FDX",
+            "FDX.DE",
+            "FDX.SW"
+          ]
+        },
+        {
+          "name": "Ministry of Electronics and Information Technology",
+          "symbols": []
+        },
+        {
+          "name": "Rubrik",
+          "symbols": [
+            "RBRK"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Brad Smith"
+        },
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Sergio Gor"
+        },
+        {
+          "name": "John Chambers"
+        },
+        {
+          "name": "Jensen Huang"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 50
+        },
+        {
+          "name": "Business Leaders",
+          "count": 3
+        },
+        {
+          "name": "Markets",
+          "count": 9
+        },
+        {
+          "name": "US Politics",
+          "count": 6
+        }
+      ],
+      "sentiment": {
+        "positive": 0.52572304,
+        "negative": 0.1211214,
+        "neutral": 0.35315555
+      },
+      "createdAt": "2026-02-10T05:52:55.004640+00:00",
+      "updatedAt": "2026-02-14T11:32:12.171833+00:00",
+      "uniqueCount": 27,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "SaaS Market Reported $1T Repricing, IPO Freeze",
+      "summary": "The software sector has undergone a fast, severe repricing\u2014dubbed the \u201cSaaSpocalypse\u201d\u2014that has erased hundreds of billions to over $1 trillion in market value, driven by steep sell\u2011offs and large ETF declines. The rout accelerated in late January\u2013early February 2026 after advanced agentic AI tools (notably Anthropic\u2019s Claude Cowork and Opus 4.6) raised fears that agents can automate complex workflows and undermine traditional per\u2011seat SaaS revenue, prompting investors to rotate into AI infrastructure. The sell-off has frozen IPOs and M&A, produced dramatic single\u2011week plunges for major names, and begun to leak into other tech and high\u2011flyer stocks beyond pure software. At the same time, Deloitte says the \u201cSaaS is dead\u201d narrative is premature: incumbents are likely to evolve into full\u2011stack, agentic, outcome\u2011focused platforms, adopt hybrid pricing, and coexist with AI\u2011native specialists. For buyers and investors, the market is shifting toward capability\u2011 and outcome\u2011driven procurement and investing, with winners those who can reliably build, orchestrate, and govern agentic workflows\u2014though disruption will vary across categories like dev tools, cybersecurity, productivity, and industry systems.",
+      "keyPoints": [
+        "Market watchers point to Salesforce\u2019s mid\u20112024 collapse \u2014 a 20% one\u2011day drop after a rare revenue miss \u2014 as the early warning that the SaaS premium was vulnerable and helped kick off the shift in sentiment.",
+        "Between Jan. 30 and Feb. 4, 2026, nearly $300 billion in market value was erased from the application\u2011software layer specifically, a concentrated hit within the broader SaaS sell\u2011off.",
+        "The S&P 500 software & services index plunged about 26% from its late\u2011October 2025 peak, underscoring the severity of the sector\u2019s repricing beyond isolated company moves."
+      ],
+      "companies": [
+        {
+          "name": "Duolingo, Inc.",
+          "symbols": [
+            "DUOL"
+          ]
+        },
+        {
+          "name": "Confluent, Inc.",
+          "symbols": [
+            "CFLT"
+          ]
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbols": [
+            "NVD.DE",
+            "NVDA"
+          ]
+        },
+        {
+          "name": "Fortinet, Inc.",
+          "symbols": [
+            "0IR9.L",
+            "FTNT"
+          ]
+        },
+        {
+          "name": "Tyler Technologies, Inc.",
+          "symbols": [
+            "TYL"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 7
+        },
+        {
+          "name": "SaaS",
+          "count": 10
+        },
+        {
+          "name": "Stocks",
+          "count": 1
+        },
+        {
+          "name": "US Politics",
+          "count": 1
+        },
+        {
+          "name": "IPO",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.14953168,
+        "negative": 0.5228823,
+        "neutral": 0.32758602
+      },
+      "createdAt": "2026-02-10T14:02:32.905849+00:00",
+      "updatedAt": "2026-02-14T00:33:45.164317+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "New Documents Show FBI Rebuilt Epstein Video",
+      "summary": "Newly released Justice Department and FBI records show the bureau authorized destruction in June 2024 of the master surveillance recording labeled 1B60 from Jeffrey Epstein\u2019s Manhattan jail and later produced a reconstructed NiceVision screen-capture that left a 62-second gap around midnight on the night he died. The public July release therefore showed a timestamp jump from 11:58:58 p.m. to 12:00:00 a.m., a discrepancy that fueled widespread conspiracy theories. Attorney General Pam Bondi had blamed a nightly surveillance reset for the missing minute, but the documents indicate her explanation rested on an unverified technician theory and was undermined by the FBI\u2019s disposal of the original files. The revelations prompted a scramble to recreate footage, increased congressional scrutiny, and criticism of the FBI\u2019s evidence-handling and technical procedures rather than evidence of deliberate tampering.",
+      "keyPoints": [
+        "Then\u2013Deputy FBI Director Dan Bongino publicly promised the agency would release the original surveillance footage \u2018so you don't think there are any shenanigans,\u2019 a pledge that raised expectations before the reconstructed video was posted.",
+        "The FBI's master evidence item labeled 1B60 had been stored in a Bronx evidence facility before agents received authorization in June 2024 to destroy it.",
+        "An FBI digital-forensics specialist attempted to recreate the footage by screen-capturing the NiceVision system on May 21, 2025, a step that produced the low-quality reconstruction later released publicly."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "CBS",
+          "symbols": []
+        },
+        {
+          "name": "Columbia University",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Dan Bongino"
+        },
+        {
+          "name": "Pam Bondi"
+        },
+        {
+          "name": "penile"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Epstein Case",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.06535853,
+        "negative": 0.59099716,
+        "neutral": 0.34364435
+      },
+      "createdAt": "2026-02-12T03:02:52.039975+00:00",
+      "updatedAt": "2026-02-12T22:42:13.044556+00:00",
+      "uniqueCount": 9,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "FDA recalls M&M's for undeclared allergens",
+      "summary": "The Food and Drug Administration classified a nationwide recall as Class II after Beacon Promotions Inc. repackaged and distributed more than 6,000 promotional 1.3\u2011oz bags of M&M\u2019s across roughly 20 states without declaring milk, soy, and peanut allergens. The affected products were promotional/marketing repackages (branded with names such as Make Your Mark, Subaru, Adobe and others) rather than standard retail bags, and the original factory packaging does list those allergens. No illnesses have been reported, but consumers with milk, soy, or peanut allergies are advised to discard the repackaged promotional bags or return them for a refund. Affected states include California, New York, Pennsylvania, Texas and many others nationwide.",
+      "keyPoints": [
+        "Beacon Promotions initiated a voluntary recall on January 26 for 5,788 units and expanded the recall on February 4 to include additional lot codes and products.",
+        "The recall covers two product codes: BB458BG (5,788 units across four lot codes) and BB471BG (541 units from a single lot); affected best-by dates range from December 2025 through September 2026.",
+        "Some recalled promotional bags carry lot code M1823200 with a best-by date of April 30, 2026, and branding on repackaged bags includes names such as 'xfinity' in addition to Make Your Mark, Subaru and Adobe."
+      ],
+      "companies": [
+        {
+          "name": "University of Maryland",
+          "symbols": []
+        },
+        {
+          "name": "Berkshire Hathaway GUARD Insurance Companies",
+          "symbols": []
+        },
+        {
+          "name": "Morgan Stanley",
+          "symbols": [
+            "0QYU.L",
+            "DWD.DE",
+            "MS",
+            "MS-PA",
+            "MS-PE",
+            "MS-PF",
+            "MS-PI",
+            "MS-PK",
+            "MS-PL",
+            "MS-PO"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Freeport-McMoRan Inc.",
+          "symbols": [
+            "FPMB.DE",
+            "FCX"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "FDA",
+          "count": 79
+        },
+        {
+          "name": "Consumer Alerts",
+          "count": 30
+        },
+        {
+          "name": "Food & Drink",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.08416301,
+        "negative": 0.45021978,
+        "neutral": 0.4656172
+      },
+      "createdAt": "2026-02-06T02:12:07.861971+00:00",
+      "updatedAt": "2026-02-11T13:39:00.052117+00:00",
+      "uniqueCount": 46,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Ending Animate Sales March 1, 2026",
+      "summary": "Adobe announced it will discontinue Adobe Animate \u2014 the 2D animation tool that evolved from Macromedia Flash and has existed for more than 25 years \u2014 and will stop selling the app on March 1, 2026. Support and download access will continue through March 1, 2027 for non-enterprise customers and through March 1, 2029 for enterprise customers; Adobe urged users to export FLA/XFL and other assets before those dates. The company framed the move as a strategic pivot toward AI-driven creative tools and said new platforms better meet users\u2019 needs. Adobe offered no dedicated, full-featured successor, instead pointing creators to other Creative Cloud apps such as After Effects (for keyframe work) and Adobe Express (for simpler motion). The announcement provoked widespread frustration among longtime users, creators and studios, many urging Adobe to consider open-sourcing Animate and warning the shutdown threatens workflows, jobs and archival access to past works.",
+      "keyPoints": [
+        "Animate\u2019s lineage dates back to 1996: it began as FutureSplash Animator, was acquired and rebranded as Macromedia Flash, became Adobe Flash Professional after Adobe\u2019s 2005 purchase, and was renamed Adobe Animate in 2015.",
+        "Adobe posted an end-of-life FAQ on its support site and sent emails to customers announcing the shutdown; the FAQ includes Adobe\u2019s wording that \u201cAnimate has been a product that has existed for over 25 years and has served its purpose well for creating, nurturing, and developing the animation ecosystem.\u201d",
+        "Several creators and studios that still rely on Animate warned of real-world impacts \u2014 for example, the creators of the short-form series Chikn Nuggit and Salad Fingers creator David Firth said they still use Animate, and a Jackbox Games technical artist (Megacharlie) noted the app is used in many high\u2011budget TV, film and animation productions."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "International Data Corporation",
+          "symbols": []
+        },
+        {
+          "name": "Gartner, Inc.",
+          "symbols": [
+            "0ITV.L",
+            "IT"
+          ]
+        },
+        {
+          "name": "Jackbox Games",
+          "symbols": []
+        },
+        {
+          "name": "Fresh TV",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "David Firth"
+        },
+        {
+          "name": "Steve Jobs"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 25
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        },
+        {
+          "name": "Gaming",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        },
+        {
+          "name": "iPhone",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.0980296,
+        "negative": 0.5513413,
+        "neutral": 0.3506291
+      },
+      "createdAt": "2026-02-02T22:26:20.146148+00:00",
+      "updatedAt": "2026-02-06T18:07:31.890681+00:00",
+      "uniqueCount": 60,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Piper Sandler Downgrades Adobe, Lowers Target to $330",
+      "summary": "Piper Sandler downgraded Adobe from \u2018Overweight\u2019 to \u2018Neutral\u2019 and slashed its price target to $330 from $470, a nearly 30% cut. That move adds to a wave of recent analyst downgrades and target trims for Adobe by firms such as UBS, Oppenheimer, BMO and Jefferies, reflecting a more cautious consensus on the stock. Piper Sandler also downgraded other enterprise-software names and lowered multiple price targets across the sector, citing investor apathy and a thesis that AI-driven efficiencies could constrain headcount growth and revenue upside. The cluster of cuts has pressured Adobe shares lower as investors reassess growth and margin prospects for software companies.",
+      "keyPoints": [
+        "The Piper Sandler analyst who issued the downgrade was Hannah Rudoff.",
+        "Piper Sandler downgraded three enterprise-software stocks \u2014 Adobe, Freshworks and Vertex \u2014 and also cut price targets on other large software names (including Salesforce).",
+        "Several other analysts recently adjusted their Adobe ratings/targets: Jefferies cut Adobe from 'Buy' to 'Hold' and lowered its target from $500 to $400 on Jan. 5, 2026 (a 20% cut); UBS kept a 'Neutral' view but trimmed its target from $375 to $340 on Jan. 26, 2026; Oppenheimer downgraded from 'Outperform' to 'Perform' on Jan. 13, 2026; BMO cut from 'Outperform' to 'Market Perform' on Jan. 9, 2026; and Citigroup maintained 'Neutral' but raised its target from $366 to $387 on Dec. 17, 2025."
+      ],
+      "companies": [
+        {
+          "name": "Piper Sandler Companies",
+          "symbols": [
+            "PIPR"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Oppenheimer Holdings Inc.",
+          "symbols": [
+            "OPY"
+          ]
+        },
+        {
+          "name": "Jefferies Financial Group Inc.",
+          "symbols": [
+            "JEF"
+          ]
+        },
+        {
+          "name": "Citigroup Inc.",
+          "symbols": [
+            "C",
+            "C-PJ",
+            "C-PK",
+            "TRVC.DE"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Jensen Huang"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Stocks",
+          "count": 4
+        },
+        {
+          "name": "Markets",
+          "count": 5
+        },
+        {
+          "name": "AI",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.13667302,
+        "negative": 0.5310577,
+        "neutral": 0.33226925
+      },
+      "createdAt": "2026-02-02T23:31:52.686998+00:00",
+      "updatedAt": "2026-02-06T02:19:43.374854+00:00",
+      "uniqueCount": 10,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Figma integrates Weave AI, shares slump",
+      "summary": "Figma has acquired AI startup Weavy, rebranding it as Figma Weave and folding its AI tools into the core design platform to accelerate AI\u2011powered workflows. Management points to continued growth among large enterprise customers and recurring revenue\u2014Figma has crossed roughly $1 billion in ARR and serves about 13 million monthly users, including most of the Fortune 500\u2014suggesting healthy product adoption beyond designers. Despite those fundamentals, the stock has plunged to about $21.39, down roughly 40\u201343% over recent weeks and about 85% from its post\u2011IPO peak, erasing tens of billions in market value. Market responses are mixed: heavy options activity shows deep\u2011pocketed traders taking both bullish and bearish positions, while analysts' fair\u2011value estimates diverge widely (variously cited near $43\u2013$66 or about $52), reflecting uncertainty about Figma\u2019s outlook. Investors will be watching how quickly and deeply Figma Weave\u2019s AI features are adopted, how enterprise usage and recurring revenue trends evolve, and whether competitors can match its AI capabilities before the valuation gap closes.",
+      "keyPoints": [
+        "Benzinga flagged an unusual surge in options activity for FIG: 48 'extraordinary' trades in the period analyzed (29 puts totaling $2,692,098 and 19 calls totaling $1,201,238), with big players targeting strikes roughly between $12.50 and $55.00; the report also noted very high trading volume (about 18.3 million) and technicals suggesting the stock may be oversold.",
+        "Figma\u2019s 2025 IPO was dramatic: the July 31, 2025 listing priced at $33, opened near $85 and closed the first day at $115.50, later touching $143 and briefly valuing the company at over $60 billion \u2014 a peak that has since shrunk to roughly $10.5 billion, erasing more than $50 billion in market value.",
+        "Beyond ARR and user counts, Figma\u2019s underlying business showed strong operational performance: quarterly revenue was rising at close to a 40% year\u2011over\u2011year pace and the company was described as profitable on an operating basis."
+      ],
+      "companies": [
+        {
+          "name": "Figma",
+          "symbols": []
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Sequoia Capital",
+          "symbols": []
+        },
+        {
+          "name": "Greylock Partners",
+          "symbols": []
+        },
+        {
+          "name": "Index Ventures",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 5
+        },
+        {
+          "name": "IPO",
+          "count": 2
+        },
+        {
+          "name": "Markets",
+          "count": 12
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        },
+        {
+          "name": "Startups",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.10506527,
+        "negative": 0.6795806,
+        "neutral": 0.21535407
+      },
+      "createdAt": "2026-02-03T04:20:51.660207+00:00",
+      "updatedAt": "2026-02-05T19:54:20.776298+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Barnsley named UK's first Tech Town",
+      "summary": "The UK government has named Barnsley the country\u2019s first government-backed \u201cTech Town,\u201d with Technology Secretary Liz Kendall and the Department for Science, Innovation and Technology committing support to trial AI across schools, businesses, NHS services and public infrastructure as a potential national blueprint. Over the next 18 months the programme will pilot AI tutoring in schools, offer free AI and digital training for residents via local colleges, expand the Seam Digital Campus to help small businesses adopt new tech, and test AI tools to speed hospital check-ins, triage and outpatient care. Major vendors including Microsoft, Cisco and Adobe have pledged support and senior executives will join Kendall in visiting the town to help boost local skills and infrastructure. Residents will be invited to \u201cTech Town Halls\u201d to give feedback, and ministers say lessons from Barnsley will shape how AI is rolled out elsewhere in the UK. Local leaders hailed the investment as a major opportunity to revive a post\u2011industrial economy, though community figures and opposition councillors have warned of anxieties about whether AI will be a force for good even as the council already uses AI in services such as adult social care and road scanning.",
+      "keyPoints": [
+        "The programme includes upgrades to Barnsley\u2019s tech infrastructure such as installing Wi\u2011Fi in public buildings and strengthening cybersecurity for critical services.",
+        "The Seam Digital Campus already houses 33 tech companies and there are plans to expand it into an AI Campus centred on a new National Centre for Digital Technologies to help small firms scale and create local jobs.",
+        "In addition to Microsoft, Cisco and Adobe, some reporting names Google among the major tech firms that have agreed to support the Barnsley initiative."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "Cisco Systems, Inc.",
+          "symbols": [
+            "4333.HK",
+            "CIS.BR",
+            "CIS.DE",
+            "CSCO"
+          ]
+        },
+        {
+          "name": "Alamy",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Liz Kendall"
+        },
+        {
+          "name": "Oliver Coppard"
+        },
+        {
+          "name": "Margaret Thatcher"
+        },
+        {
+          "name": "Will Alsop"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 23
+        },
+        {
+          "name": "Europe Public Private Sector",
+          "count": 6
+        }
+      ],
+      "sentiment": {
+        "positive": 0.41250178,
+        "negative": 0.2053361,
+        "neutral": 0.38216212
+      },
+      "createdAt": "2026-02-03T01:14:57.652031+00:00",
+      "updatedAt": "2026-02-05T17:48:14.667062+00:00",
+      "uniqueCount": 23,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe shares rebound near $280 after AI jitters",
+      "summary": "Adobe\u2019s stock and options activity have shown heightened volatility as investors debate whether generative AI will erode subscription pricing or convert into higher-paid users, with shares recently rebounding near $280 even as implied volatility and bearish option interest rose following a Piper Sandler downgrade. The central market question is AI monetization\u2014investors want tangible proof that Firefly, embedded AI assistants and other features are driving new paid seats rather than only increasing productivity for existing users. Bulls argue Adobe is leveraging AI to deepen its moat via Firefly Foundry for enterprise-safe models, broad partnerships (including Google and OpenAI) and integrations that expand its addressable market. At the same time, management is making strategic product shifts\u2014most visibly the decision to discontinue Adobe Animate\u2014framed as platform evolution rather than an explicit AI pivot. All attention now turns to the March 12, 2026 earnings report as the pivotal test of Adobe\u2019s guidance, AI-driven recurring revenue targets and the status of the pending Semrush acquisition.",
+      "keyPoints": [
+        "Options-market metrics show elevated bearish positioning and volatility: put/call ratio was about 1.18, implied volatility sat near 40.41 (up ~7 points), options volume ran roughly 66,000 contracts and traders were pricing an expected daily move of about $6.93.",
+        "On Feb. 2 Adobe updated Firefly subscriber benefits to include unlimited image and video generations and access to multiple AI models inside the Firefly app (not limited to Adobe\u2019s proprietary models).",
+        "Adobe's full-year fiscal 2026 guidance calls for total revenue of $25.90 billion to $26.10 billion and targets Annual Recurring Revenue (ARR) growth of more than 10%, accompanied by a new, more detailed reporting framework."
+      ],
+      "companies": [
+        {
+          "name": "Figma",
+          "symbols": []
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Piper Sandler Companies",
+          "symbols": [
+            "PIPR"
+          ]
+        },
+        {
+          "name": "Semrush Holdings, Inc.",
+          "symbols": [
+            "SEMR"
+          ]
+        },
+        {
+          "name": "Seeking Alpha",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Elon Musk"
+        },
+        {
+          "name": "Sam Altman"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 2
+        },
+        {
+          "name": "Stocks",
+          "count": 1
+        },
+        {
+          "name": "AI",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.37240076,
+        "negative": 0.33096883,
+        "neutral": 0.2966304
+      },
+      "createdAt": "2026-02-03T02:00:32.288427+00:00",
+      "updatedAt": "2026-02-05T12:52:51.425178+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Firefly offers unlimited image, video generations",
+      "summary": "Adobe announced that Firefly subscribers can now create unlimited image and video generations, removing previous monthly caps to let creators iterate freely. The change applies across Adobe\u2019s Firefly models and supported third\u2011party engines including Google Nano Banana Pro, GPT Image Generation, and Runway Gen\u20114. Unlimited generations are available on firefly.adobe.com, in Firefly Boards and the Firefly mobile apps, and extend to the video editor, sound and music generators and \u201cPrompt to Edit,\u201d with video output up to 2K and continued editing in Creative Cloud apps like Photoshop and Premiere. Adobe frames the move as helping creators stay \u201cin the flow,\u201d noting that 86% of creators now use generative AI daily and that average prompt length doubled in 2025. Adobe said subscribers must sign up for standalone Firefly plans by March 16 to get the lifted caps, and the offer does not apply to Creative Cloud subscriptions.",
+      "keyPoints": [
+        "The unlimited\u2011generation offer applies to specific Firefly subscription tiers \u2014 including Firefly Pro, Premium and the named credit plans (4,000, 7,000 and 50,000 credit plans) \u2014 not just a single flat plan.",
+        "Adobe now distributes Firefly as a standalone platform beyond Creative Cloud: it\u2019s available on the web and dedicated mobile apps for iOS and Android \u2014 and has even been released for Apple\u2019s visionOS \u2014 after originally rolling Firefly out inside Creative Cloud apps.",
+        "Adobe and coverage emphasize that the unlimited generations are positioned to help small business owners and creative professionals experiment more freely \u2014 enabling rapid iteration for marketing, product design and branding work."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Mozilla Corporation",
+          "symbols": []
+        },
+        {
+          "name": "BMO Capital and Income Investment Trust PLC",
+          "symbols": [
+            "BCI.L"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 13
+        }
+      ],
+      "sentiment": {
+        "positive": 0.36911166,
+        "negative": 0.11265955,
+        "neutral": 0.51822877
+      },
+      "createdAt": "2026-02-02T14:16:09.584887+00:00",
+      "updatedAt": "2026-02-04T08:29:08.153752+00:00",
+      "uniqueCount": 15,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "FA proposes Women's FA Cup overhaul; clubs oppose",
+      "summary": "The FA has floated major changes to the Women\u2019s FA Cup \u2014 including a \u2018road-to-Wembley\u2019 bracket from the last 32, seeding the previous season\u2019s top four so they cannot meet until the semi-finals, removing the round-by-round draw, and even proposals to exclude some lower-tier (tier seven) clubs \u2014 as part of a drive to make the competition more marketable and create clearer storytelling. The governing body says the ideas were informed by fan surveys and form part of its wider 2024\u201328 strategy to boost commercial value and reinvest in the women\u2019s game. That rationale has met fierce backlash from supporters\u2019 clubs, WSL teams and lower-league sides, who warn the changes would erode the FA Cup\u2019s \u201cmagic,\u201d damage sporting integrity and cement advantages for already affluent elite clubs. Critics note the competition is already heavily dominated by the same top sides and argue recent League Cup reforms aimed at increasing competitiveness make further changes unnecessary. The proposals were presented for consultation and the FA stresses no decisions have been made, but sources say the plans could be implemented as soon as next season if approved.",
+      "keyPoints": [
+        "FA documents circulated with clubs describe the proposed top-four seeding as a \u201ctemporary\u201d measure intended to create the \u201chighest chances of consistent high-quality matches throughout the later rounds.\u201d",
+        "Supporters\u2019 groups have posted direct criticism on social media \u2014 for example SheGulls (Brighton & Hove Albion fans) said: \u201cThe sporting merit in our game is slowly being eroded in favour of 'super matches' between elite level teams. The rich will only get richer\u2026\", reflecting fan anger beyond club statements.",
+        "Critics point to the entrenched dominance of a specific \u2018big four\u2019 \u2014 Chelsea, Arsenal, Manchester City and Manchester United \u2014 and note no club outside that quartet has won the Women\u2019s FA Cup since Birmingham City in 2012."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Manchester United plc",
+          "symbols": [
+            "0Z1Q.L",
+            "MANU"
+          ]
+        },
+        {
+          "name": "The Athletic",
+          "symbols": []
+        },
+        {
+          "name": "Guardian Media Group",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Football",
+          "count": 5
+        },
+        {
+          "name": "World Cup",
+          "count": 3
+        },
+        {
+          "name": "European Football",
+          "count": 4
+        }
+      ],
+      "sentiment": {
+        "positive": 0.11114923,
+        "negative": 0.48220876,
+        "neutral": 0.40664202
+      },
+      "createdAt": "2026-02-03T13:32:54.066729+00:00",
+      "updatedAt": "2026-02-04T04:25:53.342267+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe plans $1.9B Semrush acquisition",
+      "summary": "Adobe is aggressively shifting its product strategy to embed generative AI\u2014notably Firefly\u2014directly into enterprise content and marketing workflows rather than offering it as a standalone tool. To accelerate that push it has expanded enterprise partnerships (including with Cognizant) and agreed to acquire Semrush to combine creative AI with SEO, data-driven marketing and content-performance capabilities. Management points to record fiscal 2025 revenue, rising monthly AI users and a projected ARR growth above 10% for 2026 as evidence the strategy can drive recurring revenue. Yet investors remain skeptical: Adobe shares have fallen roughly 16% recently, UBS cut its price target, and analysts warn that AI could compress valuations by threatening traditional subscription economics across the software sector. The market\u2019s anxiety reflects broader sector weakness and the key question of whether AI will commoditize software or whether enterprise integrations and governance will keep platforms sticky. The Semrush deal and Cognizant tie-up position Adobe to bridge creative generation and audience/operational workflows at scale, but the company must still prove that rising engagement converts into sustainable recurring revenue to satisfy investors.",
+      "keyPoints": [
+        "Adobe\u2019s free AI services saw monthly active users surge 35% to over 70 million, a growth metric management cites as underpinning its ARR guidance.",
+        "Adobe reported specific fiscal 2025 results underpinning its position: Q4 revenue of $6.19 billion (up 10% year-over-year), full-year revenue of $23.77 billion and operating cash flow above $10 billion.",
+        "The expanded Cognizant partnership explicitly pairs Adobe Firefly and creative tools with Cognizant\u2019s managed services and AI capabilities to help large, regulated organizations produce personalized, compliant content at scale \u2014 emphasizing implementation, governance and industry-specific deployments."
+      ],
+      "companies": [
+        {
+          "name": "Semrush Holdings, Inc.",
+          "symbols": [
+            "SEMR"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Cognizant Technology Solutions Corporation",
+          "symbols": [
+            "0QZ5.L",
+            "CTSH",
+            "COZ.DE"
+          ]
+        },
+        {
+          "name": "Canva",
+          "symbols": []
+        },
+        {
+          "name": "Salesforce, Inc.",
+          "symbols": [
+            "CRM",
+            "CRM.BA",
+            "FOO.DE"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 10
+        },
+        {
+          "name": "Markets",
+          "count": 2
+        },
+        {
+          "name": "SEO",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.55668795,
+        "negative": 0.13177297,
+        "neutral": 0.31153908
+      },
+      "createdAt": "2026-01-30T15:00:19.664387+00:00",
+      "updatedAt": "2026-02-02T15:14:47.348637+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple launches Creator Studio subscription $12.99",
+      "summary": "Apple launched Creator Studio in January 2026, a $12.99/month (or $129/year) subscription that bundles Final Cut Pro, Logic Pro, Pixelmator Pro and upgraded iWork apps with AI-powered image and presentation generation that leverages an OpenAI backend. The company frames the package as an affordable, integrated alternative to expensive creative suites like Adobe\u2019s, targeting individual creators and small teams with pro-grade tools and deep ecosystem integration. In practice, several features that were previously free or standalone\u2014new templates, advanced editing tools, and certain stock assets\u2014are now gated behind the subscription, with upsell banners, watermarks for non-subscribers, and apps that limit functionality without a plan. Reviewers highlight clear benefits such as transcript and visual search in Final Cut and AI-assisted music tools in Logic, but caution that the shift intensifies subscription fatigue and risks diluting Apple\u2019s premium user experience if paid extras proliferate. The rollout signals Apple is actively rethinking software monetization across its services, with more bundles and paid upgrades widely expected and debated.",
+      "keyPoints": [
+        "Creator Studio bundles six full creative apps \u2014 Final Cut Pro, Logic Pro, Pixelmator Pro, Motion, Compressor and MainStage \u2014 and includes premium templates, royalty-free graphics, and promises upcoming premium tools for Freeform.",
+        "The new subscription-only Pixelmator Pro build won\u2019t function at all unless you subscribe (an older App Store version remains available), and the Creator Studio Pixelmator adds subscriber-only features such as a Warp tool and full iPad support with Apple Pencil integration.",
+        "In Pages/Keynote/Numbers the subscription-only features are visually marked (purple highlights and a small crown on premium templates), stock images are delivered watermarked unless you license them via a Creator Studio subscription (there is no pay-per-file licensing), and the apps jump from revision 14 to 15 with a refreshed toolbar and unified icon regime."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Eddy Cue"
+        }
+      ],
+      "topics": [],
+      "sentiment": {
+        "positive": 0.3687312,
+        "negative": 0.1909798,
+        "neutral": 0.44028902
+      },
+      "createdAt": "2026-01-30T14:24:43.432046+00:00",
+      "updatedAt": "2026-02-02T14:36:21.653508+00:00",
+      "uniqueCount": 10,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Airtel offers free Adobe Express to 360M users",
+      "summary": "Bharti Airtel is offering all of its roughly 360 million mobile, broadband and DTH customers a free one-year subscription to Adobe Express Premium\u2014an offer valued at about Rs. 4,000\u2014that can be claimed via the Airtel Thanks app with no credit card required. Adobe Express Premium bundles AI-powered tools (including Adobe Firefly image generation), instant background removal, one\u2011tap video editing, auto captions and instant resize, plus premium Adobe Stock assets, thousands of templates and fonts, 100GB cloud storage and monthly generative AI credits. The service supports multiple Indian languages and is available across desktop, web and mobile, aiming to help creators, students and small businesses produce social posts, videos, marketing materials and festival or wedding designs quickly. Airtel frames the perk as part of its broader digital rewards program (it previously offered Perplexity Pro), while Adobe\u2019s move is also seen as an aggressive push into India to defend its creative-market share against AI-native rivals like Google\u2019s Gemini and ChatGPT. The partnership underscores rising competition among global tech firms to win Indian users by bundling advanced AI creative tools with large distribution networks.",
+      "keyPoints": [
+        "Adobe Express Premium includes 250 generative AI credits per month (effectively ~250 AI-generated edits/month) as part of the Premium plan.",
+        "The subscription provides access to a very large Adobe Stock library \u2014 cited as over 200 million Adobe Stock assets for Premium users.",
+        "Exports from Adobe Express Premium are watermark-free and projects sync seamlessly across devices, enabling consistent editing on desktop, web and mobile."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Bharti Airtel Limited",
+          "symbols": [
+            "BHARTIARTL.NS"
+          ]
+        },
+        {
+          "name": "Express, Inc.",
+          "symbols": [
+            "0IJU.L",
+            "EXPR"
+          ]
+        },
+        {
+          "name": "HMD Global",
+          "symbols": []
+        },
+        {
+          "name": "Perplexity",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Sunil Mittal"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 2
+        },
+        {
+          "name": "US Politics",
+          "count": 1
+        },
+        {
+          "name": "Business Leaders",
+          "count": 1
+        },
+        {
+          "name": "Startups",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.7052069,
+        "negative": 0.036245212,
+        "neutral": 0.25854793
+      },
+      "createdAt": "2026-01-29T05:52:42.090855+00:00",
+      "updatedAt": "2026-02-01T03:59:54.808954+00:00",
+      "uniqueCount": 40,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple launches Creator Studio Pro bundle with AI",
+      "summary": "Apple has launched Creator Studio (also sold as Creator Studio Pro) as a subscription that bundles Final Cut Pro, Logic Pro, Pixelmator Pro (now on iPad), Motion, Compressor, MainStage and premium features in Pages, Numbers, Keynote and Freeform, with family sharing and regional discounts for students and educators; U.S. pricing is $12.99/month or $129/year. Apple positions the suite\u2019s AI as assistive rather than generative\u2014automating tedious tasks like transcript and visual search, chord extraction, slide drafting and organization\u2014while emphasizing privacy (reporting notes some features run on-device and that processing won\u2019t be used to train models). Some coverage says advanced image generation in the offering is powered by third-party models, but the overall product steers clear of promising fully automated creative output. Observers note Creator Studio\u2019s lower cost and family/standalone purchase options make it a credible challenger to Adobe for Apple-centric users, even as reviewers caution Adobe\u2019s apps remain more feature-rich and some Apple tools still need refinement. Early reactions praise the workflow and AI-assisted efficiency gains, suggesting adoption will depend on whether creators prioritize ecosystem convenience and price over the most powerful professional features.",
+      "keyPoints": [
+        "Apple is offering a one-month free trial for new Creator Studio subscribers and is keeping the option for users to buy several Mac apps as one-time downloads that run alongside the subscription versions.",
+        "Apple is heavily optimizing Pixelmator Pro for Apple silicon and has redesigned the iPad version around touch and Apple Pencil workflows to extend its presence beyond macOS.",
+        "Apple is offering a steep educational discount in some regions: educators and college students can get Creator Studio for $2.99 per month or $29.99 per year, per some coverage."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 5
+        }
+      ],
+      "sentiment": {
+        "positive": 0.38629928,
+        "negative": 0.15047707,
+        "neutral": 0.46322367
+      },
+      "createdAt": "2026-01-28T15:38:43.157321+00:00",
+      "updatedAt": "2026-02-01T01:57:29.449403+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Photoshop adds Clarity, Dehaze, Grain adjustment layers",
+      "summary": "Adobe\u2019s latest Photoshop release brings Clarity, Dehaze and Grain into the program as full, non\u2011destructive adjustment layers\u2014maskable, stackable and blendable\u2014so photographers can apply and revisit those Camera Raw effects without Smart Objects, layer duplication or complex modal workflows. The change makes common tasks simpler (for example, applying Dehaze only to distant elements, varying Grain across an image, or targeting Clarity to eyes or textures) and preserves image quality while allowing opacity and blend\u2011mode experimentation. Adobe also upgraded its Firefly\u2011powered Generative Fill, Generative Expand and Remove tools to produce higher\u2011quality 2K output with improved prompt adherence and fewer artifacts, and improved Reference Image handling to better preserve object identity with geometry\u2011aware scale, rotation and perspective. Photoshop adds other workflow refinements\u2014including a beta Dynamic Text feature for one\u2011click circular/curved text paths\u2014and Adobe says the updates are intended to reduce tedious steps so creatives can iterate faster. Overall, the suite of changes aims to give photographers and visual artists more precise, geometry\u2011aware control and faster, less frictional editing inside Photoshop.",
+      "keyPoints": [
+        "The Grain adjustment layer exposes three separate sliders \u2014 Amount, Size and Roughness \u2014 letting users control not just strength but the look and scale of the grain; authors recommend applying grain after finishing other edits and sizing it to the output dimensions.",
+        "Photoshop combines Clarity and Dehaze into a single adjustment layer (rather than two wholly separate layers), so those two effects are delivered together as a maskable, blend-mode\u2013compatible adjustment.",
+        "The release is Photoshop version 27.2; Adobe\u2019s Pam Clark (product manager for Photoshop) framed the update as aimed at reducing friction for fast-moving creative professionals: \u201cIf you\u2019re a creative professional, you move fast, chasing an idea from first spark to final pixel, and the smallest amount of friction can slow your creative output.\u201d"
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Sony Group Corporation",
+          "symbols": [
+            "6758.T",
+            "SONY"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Australia",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.33210245,
+        "negative": 0.17796496,
+        "neutral": 0.4899326
+      },
+      "createdAt": "2026-01-27T14:31:39.439705+00:00",
+      "updatedAt": "2026-01-29T11:46:20.634013+00:00",
+      "uniqueCount": 8,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple launches Creator Studio subscription bundle",
+      "summary": "Apple launched Apple Creator Studio on Jan. 28, a subscription bundle that brings Final Cut Pro, Logic Pro, Pixelmator Pro (plus Motion, Compressor and MainStage) together across Mac, iPad and iPhone with pricing at $12.99/month or $129/year (discounted student/educator plans and a one-month free trial are available). The bundle includes Pixelmator Pro \u2014 an app Apple recently acquired \u2014 arriving on iPad with a touch-optimized interface and Apple Pencil support. Apple is rolling new \u201cintelligent\u201d on-device features across the suite: Final Cut Pro adds transcript/visual search, beat detection and improved iPad exporter behavior, Logic Pro gains Chord ID and Synth Player tools, and Keynote/Pages/Numbers get premium templates and a Content Hub. On iPad some apps are now subscription-only while Mac versions remain available as one-time purchases, and Apple emphasizes privacy, family sharing and education pricing to lower the barrier for creators. Early hands-on impressions call the bundle a strong value that should spur continued investment in these pro apps, though reviewers acknowledge subscription fatigue for some users.",
+      "keyPoints": [
+        "Final Cut Pro ships as version 12 and the iPad app gains several practical workflow improvements beyond basic export fixes \u2014 multi-selection for batch adjustments, external-monitor preview support, and use of iPadOS 26\u2019s background API so exports can continue while you leave the app.",
+        "Keynote\u2019s new intelligence features can generate a first draft of a presentation from a simple text outline and can also create presenter notes automatically from existing slides.",
+        "Apple Creator Studio is part of a broader push to grow Apple\u2019s services business into professional software \u2014 Apple\u2019s services brought in tens of billions of dollars and 2025 was a record year, and this bundle extends that strategy into pro creative tools."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "S-LCD",
+          "symbols": []
+        },
+        {
+          "name": "LG Display Co., Ltd.",
+          "symbols": [
+            "034220.KS",
+            "LPL"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Shopping",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        },
+        {
+          "name": "MacBooks",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.5028312,
+        "negative": 0.09144423,
+        "neutral": 0.40572453
+      },
+      "createdAt": "2026-01-26T06:16:04.056649+00:00",
+      "updatedAt": "2026-01-28T23:10:33.280657+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Shares Fall 3.6%, Short Interest Rises",
+      "summary": "Shares of Adobe Inc. fell about 3.6% in mid\u2011day trading on Jan. 27 to roughly $293.85, trading just above its 52\u2011week low and well below its 52\u2011week high on below\u2011average volume. Analysts\u2019 one\u2011year average price target is $425.27\u2014implying roughly 45% upside\u2014and the consensus brokerage rating is 2.3 (\u201cOutperform\u201d), while GuruFocus\u2019s GF Value projects an even larger fair\u2011value upside. Short interest has risen 6.86% to 12.37 million shares, equal to 2.96% of float (about 3.8 days to cover), which remains below the peer\u2011group short\u2011interest average of 4.46%. Institutional activity is mixed: GF Fund Management and several advisors raised stakes and BCS Wealth initiated a new position, while Vanguard Personalized Indexing trimmed its holding by about 10%. The stock trades with a market capitalization near $123.6 billion and a P/E around 18, with recent 50\u2011 and 200\u2011day moving averages in the low\u2011to\u2011mid $300s, providing valuation context for the divergent analyst and investor signals.",
+      "keyPoints": [
+        "GuruFocus's one\u2011year GF Value for Adobe is $668.90 \u2014 implying a 127.63% upside from the current price \u2014 and GF Value is calculated from the stock\u2019s historical multiples, past growth and future estimates.",
+        "On Jan. 27 the stock hit an intraday low of $293.13 and trading volume was 1,359,590 shares, roughly 30.3% of the average daily volume of 4,483,880, indicating below\u2011average turnover.",
+        "GF Fund Management Co. Ltd. increased its Adobe holding by 23.79%, buying 20,243 shares to hold 105,329 shares valued at about $36,864,100 in the most recent 13F filing."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Jefferies Financial Group Inc.",
+          "symbols": [
+            "JEF"
+          ]
+        },
+        {
+          "name": "Barclays",
+          "symbols": []
+        },
+        {
+          "name": "Quilter plc",
+          "symbols": [
+            "QLT.L"
+          ]
+        },
+        {
+          "name": "Wells Fargo & Company",
+          "symbols": [
+            "NWT.DE",
+            "WFC",
+            "WFC-PA",
+            "WFC-PC",
+            "WFC-PD",
+            "WFC-PL",
+            "WFC-PQ",
+            "WFC-PR",
+            "WFC-PY",
+            "WFC-PZ",
+            "WFC.SW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Charles Geschke"
+        },
+        {
+          "name": "John Warnock"
+        },
+        {
+          "name": "Jim Cramer"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Stocks",
+          "count": 1
+        },
+        {
+          "name": "Markets",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.33742437,
+        "negative": 0.22071677,
+        "neutral": 0.44185886
+      },
+      "createdAt": "2026-01-25T11:00:25.629337+00:00",
+      "updatedAt": "2026-01-28T10:26:14.044676+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe adds AI PDF podcast, slide generation",
+      "summary": "Adobe rolled out generative-AI features across Acrobat, Acrobat Studio and Adobe Express that turn PDFs into interactive resources, including podcast-style audio summaries, slide-deck generation and chat-style prompt editing. The Generate Presentation feature creates an outline from files in PDF Spaces and then produces editable slide decks using Adobe Express themes, stock images, brand assets and animations. The Generate Podcast produces podcast-style spoken overviews (Adobe defaults to a two-host conversation) and currently uses Microsoft GPT for transcription and a Google voice model while Adobe continues testing models. Acrobat\u2019s AI Assistant supports prompt-driven edits\u2014removing pages, replacing text, inserting comments, adding e-signatures, setting passwords\u2014and embeds AI summaries with citations pointing to exact locations in source files. Adobe says the updates build on Acrobat Studio and earlier ChatGPT/Firefly integrations, rely on generative AI trained on commercially licensed data, and have driven improved efficiency and user growth.",
+      "keyPoints": [
+        "Adobe cited a Forrester TEI study and internal metrics showing Acrobat\u2019s AI usage has grown fourfold, the AI agent improved document summarization and analysis efficiency by about 45%, and monthly active users of Acrobat and Adobe Express grew ~20% year\u2011over\u2011year.",
+        "Although Generate Podcast currently uses a Microsoft GPT model for transcription and a Google voice model for audio, Adobe also has its own audio AI model and says it may swap or add models as it continues testing.",
+        "Generate Presentation can draw from a very large template library \u2014 Adobe Express offers access to over 500,000 professional templates \u2014 and lets users apply brand themes, stock images, and animations from Express to the auto\u2011generated decks."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Forrester Research, Inc.",
+          "symbols": [
+            "FORR"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Brad Smith"
+        },
+        {
+          "name": "Jessica Livingston"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 53
+        },
+        {
+          "name": "Podcasts",
+          "count": 14
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        },
+        {
+          "name": "Cryptocurrency",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.4087821,
+        "negative": 0.10597258,
+        "neutral": 0.48524532
+      },
+      "createdAt": "2026-01-21T20:12:03.730868+00:00",
+      "updatedAt": "2026-01-24T11:58:49.459729+00:00",
+      "uniqueCount": 49,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Unveils Firefly Foundry, Partners Hollywood Studios",
+      "summary": "Adobe unveiled Firefly Foundry at the start of the Sundance Film Festival, announcing partnerships with major talent agencies, studios, VFX firms, directors and film schools\u2014including CAA, UTA, WME, B5 Studios, Promise Advanced Imagination, Cantina Creative, David Ayer, Jaume Collet-Serra and Parsons\u2014to bring brand-specific generative AI into media and entertainment workflows. Firefly Foundry lets organizations collaborate directly with Adobe engineers to tune Firefly models on proprietary brand or franchise content, producing high-fidelity images, video, audio, 3D and vector outputs across pre-production, on-set iteration and post-production. Adobe frames Foundry as \u201ccommercially safe\u201d and ethically trained to preserve authorship, ownership and creative control while enabling faster scaling of short-form, immersive and marketing content, and cites long-standing industry usage of its tools. Partners say the platform can accelerate ideation and production and help smaller indie shops, but the rollout also revives industry concerns about rights, provenance and the potential impact on creative workers, prompting emphasis on governance, licensing and protections.",
+      "keyPoints": [
+        "Justin Hackney, co-founder and CCO of Wonder Studio, said of the partnership: \u201cOur mission is to protect the soul of the work as tools evolve,\u201d arguing that partnering with Adobe removes friction between imagination and execution and unlocks new visual languages.",
+        "Adobe claims that its tools were used on 85% of the films premiering at this year\u2019s Sundance Film Festival, a statistic it cites to underscore its longstanding footprint in film production.",
+        "Several well-known brands are already using Firefly Foundry for media production, including The Home Depot, HUMAIN and Walt Disney Imagineering."
+      ],
+      "companies": [
+        {
+          "name": "Creative Artists Agency",
+          "symbols": []
+        },
+        {
+          "name": "The Home Depot, Inc.",
+          "symbols": [
+            "HD",
+            "HD.SW",
+            "HDI.DE"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Walt Disney Imagineering",
+          "symbols": []
+        },
+        {
+          "name": "Parsons Corporation",
+          "symbols": [
+            "PSN"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Bryan Lourd"
+        },
+        {
+          "name": "David Ayer"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 9
+        }
+      ],
+      "sentiment": {
+        "positive": 0.57454383,
+        "negative": 0.069185585,
+        "neutral": 0.35627055
+      },
+      "createdAt": "2026-01-21T12:54:43.157250+00:00",
+      "updatedAt": "2026-01-23T21:43:26.320010+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Controllers Council projects subscription economy $650B-$1.5T",
+      "summary": "Recurring revenue is income businesses receive at regular intervals\u2014typically from subscriptions, memberships, service contracts or other periodic charges\u2014providing more predictable cash flow than one\u2011time purchases. That predictability changes operations: subscription businesses can forecast, hire, and invest differently and more confidently than firms reliant on one\u2011off sales. Controllers Council data cited in the reporting projects the global subscription economy will grow from about $650 billion in 2023 to over $1.5 trillion by 2027, and firms that build recurring streams often grow five to 10 times faster than traditional sellers. For startups, recurring revenue offers stability, deeper customer relationships that compound over time, and clearer data for planning and scaling. Finance teams and founders therefore focus on choosing the right recurring model, tracking key metrics, and navigating implementation and retention challenges; Brex\u2019s guide walks through these definitions, model choices, metrics to monitor, and practical steps.",
+      "keyPoints": [
+        "The articles use concrete industry examples to illustrate recurring revenue: a media company with paying subscribers or a SaaS business with monthly fees operate in the recurring\u2011revenue world, while a retail shop relying solely on walk\u2011in customers does not.",
+        "One vivid comparison contrasts two software firms: a company selling perpetual licenses must 'start from scratch every quarter' to meet targets, whereas a subscription firm 'wakes up on the first of the month knowing that a significant portion of its revenue is already secured.'",
+        "The reporting frames recurring revenue as the metric 'modern businesses obsess over' and insists the growth statistics are 'not marketing fluff' but 'the math of predictability.'"
+      ],
+      "companies": [
+        {
+          "name": "Brex",
+          "symbols": []
+        },
+        {
+          "name": "Dollar Shave Club",
+          "symbols": []
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Gillette",
+          "symbols": []
+        },
+        {
+          "name": "Netflix, Inc.",
+          "symbols": [
+            "NFC.DE",
+            "NFLX"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [],
+      "sentiment": {
+        "positive": 0.3739675,
+        "negative": 0.23469532,
+        "neutral": 0.3913372
+      },
+      "createdAt": "2026-01-20T21:10:34.150645+00:00",
+      "updatedAt": "2026-01-23T18:42:01.528265+00:00",
+      "uniqueCount": 8,
+      "first_article": null
+    }
+  ],
+  "last_30_days": [
+    {
+      "clusterId": null,
+      "name": "WPP, Adobe deepen global AI marketing partnership",
+      "summary": "On Feb. 24, 2026 WPP and Adobe deepened their global partnership to deliver a unified, AI-driven marketing solution by embedding Adobe Firefly Foundry into WPP\u2019s agentic marketing platform, WPP Open. The collaboration combines Adobe\u2019s generative AI, content platforms and data orchestration with WPP\u2019s strategic, creative and media expertise to automate planning, creation, production and activation through agentic workflows that generate and adapt content while optimizing media spend. Firefly Foundry enables brands to train models on cleared IP so generated content is brand-safe and suitable for commercial use, and the integrated approach is designed to be privacy-conscious across the marketing lifecycle. The partners say the move tackles the industry\u2019s pressure to produce more personalized content across more channels by streamlining fragmented tools and multistep processes into a single flow that frees human teams for higher-level creativity. WPP and Adobe also plan investments in training creative AI engineers to help clients adopt AI-led marketing processes and ensure human oversight remains central.",
+      "keyPoints": [
+        "WPP Open is already in wide internal use across the group \u2014 more than 85,000 WPP employees use the platform.",
+        "WPP CTO Stephan Pretorius: \u201cFor years, we\u2019ve watched brilliant creative ideas get stuck in production queues\u2026 With Adobe, we\u2019re shattering the barriers between ideation and impact, building agentic content systems that handle the complexity so human creativity can soar.\u201d",
+        "Adobe says Firefly Foundry enables development of generative AI models that are 'responsibly trained' on a customer's cleared IP and can be 'approved for commercial deployment', a phrasing the partners use to emphasise legal/brand safety for generated content."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 17
+        }
+      ],
+      "sentiment": {
+        "positive": 0.5197229,
+        "negative": 0.13072987,
+        "neutral": 0.34954727
+      },
+      "createdAt": "2026-02-24T15:35:25.457313+00:00",
+      "updatedAt": "2026-02-26T01:20:07.196539+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Telangana CM, Adobe CEO Discuss Investments, AI Impact",
+      "summary": "On Feb. 25, Telangana Chief Minister A. Revanth Reddy met Adobe CEO Shantanu Narayen, a member of the Telangana Rising 2047 vision board, to discuss a roadmap for positioning the state as a global manufacturing hub and attracting major firms. The two discussed global manufacturing trends, green energy and the impact of artificial intelligence on the economy, emphasizing the need for skilling and reskilling to address job disruption. Reddy urged more cooperation from Narayen and called for new, aggressive plans by the state government to secure large international investments. The meeting aligns with Reddy\u2019s broader push\u2014outlined at the India AI Summit\u2014for a national assessment of AI-driven job displacement and significant investment in workforce retraining.",
+      "keyPoints": [
+        "The meeting was held at Chief Minister Revanth Reddy\u2019s official residence in Jubilee Hills.",
+        "Shantanu Narayen\u2019s visit was described as a courtesy call on the Chief Minister.",
+        "Details of the interaction were released through an official government release, which summarised the topics discussed and the need for a roadmap to attract investments."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Revanth Reddy"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 2
+        },
+        {
+          "name": "Business Leaders",
+          "count": 7
+        }
+      ],
+      "sentiment": {
+        "positive": 0.41151556,
+        "negative": 0.19743608,
+        "neutral": 0.39104837
+      },
+      "createdAt": "2026-02-25T07:57:33.927938+00:00",
+      "updatedAt": "2026-02-26T00:19:20.127074+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe launches Firefly Quick Cut, auto-assembles rough edits",
+      "summary": "Adobe\u2019s Firefly has a new Quick Cut feature that turns uploaded or AI-generated footage into a structured first cut from plain-language prompts, with optional scripts or shot lists to guide the assembly. The tool automatically selects takes, trims filler, inserts transitions (and can even generate brief transition shots from frames), and lets users set aspect ratio, pacing, duration, and optional B-roll while producing an editable timeline rather than a locked render. Firefly combines models from Adobe, Google, OpenAI, and Runway in a single app and Adobe is offering unlimited image and video generations up to 2K on select plans through March 16. Adobe frames Quick Cut as a way to eliminate grunt work and give creators a clear starting point while preserving creative control. Creators such as Brandon Baum and Sophia Kianni praise Firefly for speeding ideation and providing multiasset support for small businesses, podcasters, and marketers. Adobe positions Quick Cut as useful for both whole-project assembly edits and localized fixes, helping product reviewers, reporters, podcasters, and marketers iterate faster.",
+      "keyPoints": [
+        "YouTuber Brandon Baum said he uses Firefly as a \u201cthought starter,\u201d adding: \u201cI like to generate a few things, iterate on my ideas quickly, try, try, try, fail fast, and hopefully find the gold.\u201d",
+        "Adobe product lead Mike Polner framed Quick Cut around speed and iteration: \u201cWhen inspiration strikes, video creators need tools that keep pace with the speed of their minds... They need to fill their timeline quickly, so they can build on top of it and when necessary, tear it down and build anew.\u201d",
+        "The March 16 promotion applies to specific Firefly plans (Firefly Pro, Firefly Premium, and 4,000\u2011, 7,000\u2011, and 50,000\u2011credit plans) and includes unlimited generations with several image models named by Adobe: Google Nano Banana Pro, GPT Image Generation, Runway Gen\u20114 Image, as well as Adobe\u2019s own Firefly image and video models."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 3
+        }
+      ],
+      "sentiment": {
+        "positive": 0.28771603,
+        "negative": 0.12895562,
+        "neutral": 0.58332837
+      },
+      "createdAt": "2026-02-25T14:34:46.057336+00:00",
+      "updatedAt": "2026-02-25T22:05:09.193388+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Major funds raise Adobe holdings",
+      "summary": "Multiple institutional investors raised stakes in Adobe Inc. according to recent Form 13F filings, with Vanguard Mega Cap Index Fund adding 8,837 shares to hold about 88,149 shares (~$28.2M) and Vanguard S&P 500 Growth Index Fund adding 2,710 shares to hold about 120,876 shares (~$38.7M). Eagle Global Advisors increased its position by 1,010 shares to 1,988 shares (about $695,780), while other firms including Leelyn Smith, Salomon & Ludwin and Allen Mooney & Barnes also reported meaningful increases (Allen Mooney & Barnes added 32,864 shares to hold 38,403 shares, per filings). The coverage highlights a broad institutional buying trend across both large index funds and smaller advisors. Reported market-market details show Adobe trading in the mid-$250s with a 52-week low near $251 and reported highs in the mid-$400s, a market capitalization around $106 billion and a price-to-earnings ratio near 15.5.",
+      "keyPoints": [
+        "Allen Mooney & Barnes Investment Advisors LLC boosted its Adobe stake by 593.32%, purchasing 32,864 shares to bring its total to 38,403 shares valued at about $13,440,670.",
+        "Capital Group Growth ETF bought 31,632 shares of Adobe, raising its position to 246,352 shares worth approximately $78,864,670.",
+        "Sparkline Intangible Value ETF initiated a new position in Adobe, purchasing 1,142 shares valued at roughly $365,590."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Mizuho Information & Research Institute",
+          "symbols": []
+        },
+        {
+          "name": "Jefferies Financial Group Inc.",
+          "symbols": [
+            "JEF"
+          ]
+        },
+        {
+          "name": "Barclays",
+          "symbols": []
+        },
+        {
+          "name": "Vanguard ETF Series - Vanguard S&P 500 Index ETF",
+          "symbols": [
+            "3140.HK"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "John Warnock"
+        },
+        {
+          "name": "Charles Geschke"
+        },
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Elon Musk"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 4
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.3491511,
+        "negative": 0.21268524,
+        "neutral": 0.43816364
+      },
+      "createdAt": "2026-02-20T13:18:41.393402+00:00",
+      "updatedAt": "2026-02-23T21:09:38.193559+00:00",
+      "uniqueCount": 10,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe announces free creative tools for Indian students",
+      "summary": "Adobe announced a program giving students in accredited Indian higher-education institutions free access to flagship tools including Photoshop, Acrobat and Firefly, with access routed through participating colleges and institutions rather than direct public sign-up. The offering includes AI-first learning modules, structured curriculum and guided training, plus industry-recognized certifications through a partnership with NASSCOM FutureSkills Prime supported by MeitY. Adobe said the move is intended to boost AI skills and the country\u2019s creator economy while aligning with the government\u2019s digital-skill and 'Create in India' priorities. The initiative also plans to extend to thousands of schools and hundreds of colleges establishing Content Creator Labs to support practical learning. Company chair and CEO Shantanu Narayen framed the effort as empowering students with AI capabilities to help advance the nation\u2019s development goals.",
+      "keyPoints": [
+        "Adobe announced the programme at the AI Impact Summit 2026 in New Delhi.",
+        "Some reports describe the announcement as having been made in Chandigarh, indicating differing accounts of the event location in media coverage.",
+        "Adobe said this new offering extends its existing Digital Academy programme in India through the NASSCOM FutureSkills Prime partnership."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Government of India",
+          "symbols": []
+        },
+        {
+          "name": "Ministry of Electronics and Information Technology",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Sam Altman"
+        },
+        {
+          "name": "Sundar Pichai"
+        },
+        {
+          "name": "Emmanuel Macron"
+        },
+        {
+          "name": "Ant\u00f3nio Guterres"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 2
+        },
+        {
+          "name": "AI",
+          "count": 31
+        },
+        {
+          "name": "US Politics",
+          "count": 5
+        },
+        {
+          "name": "Academia",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.6743455,
+        "negative": 0.073697835,
+        "neutral": 0.25195664
+      },
+      "createdAt": "2026-02-19T09:01:56.784959+00:00",
+      "updatedAt": "2026-02-21T05:20:37.333871+00:00",
+      "uniqueCount": 30,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Faces AI-Training Lawsuits, Analyst Downgrades",
+      "summary": "Adobe shares have plunged roughly 43% over the past year and now trade near $264 as investors reassess large software names and several firms (Goldman Sachs, UBS, Piper Sandler) have downgraded the stock, citing weaker near-term revenue and EPS versus peers. The company now faces renewed legal pressure from lawsuits alleging it used pirated books to train its AI models\u2014new suits in February follow a December filing\u2014which raises regulatory, reputational and financial risk for its AI roadmap. At the same time Adobe is pushing an enterprise AI strategy, announcing an AI-focused collaboration with Cognizant and promoting Firefly/GenStudio and Acrobat AI Assistant as monetization levers aimed at scaled content supply chains. Valuation views diverge sharply: a Simply Wall St. DCF implies a much higher intrinsic value (around $545 per share), while analysts cutting ratings highlight near-term execution risk and competition from AI-native rivals. The near-term investor debate centers on whether Adobe can translate its AI products into sustainable revenue and pricing power without legal setbacks eroding its creative and document franchises.",
+      "keyPoints": [
+        "TV host Jim Cramer criticized Adobe\u2019s positioning in the AI market, saying, \"Well Adobe\u2019s been cut in half. And I think Adobe, you can very quickly disable the 660 dollar Adobe [inaudible] that I have. I don\u2019t need it anymore. I got the same thing going for 60 bucks. So that\u2019s in trouble, that\u2019s trouble.\"",
+        "A Bloomberg-reported lawsuit filed Feb. 9 in the U.S. District Court for the Northern District of California alleges Adobe willfully used pirated books to train its AI models and cites infringement of hundreds of thousands of books.",
+        "Adobe\u2019s published growth narrative projects $29.3 billion in revenue and $8.7 billion in earnings by 2028, implying roughly 9.0% annual revenue growth and about a $1.8 billion increase in earnings from $6.9 billion today \u2014 assumptions investors must accept for the bullish case."
+      ],
+      "companies": [
+        {
+          "name": "Cognizant Technology Solutions Corporation",
+          "symbols": [
+            "0QZ5.L",
+            "CTSH",
+            "COZ.DE"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "The Goldman Sachs Group, Inc.",
+          "symbols": [
+            "GS",
+            "GS-PA",
+            "GS-PD",
+            "GS-PJ",
+            "GS-PK",
+            "GS.SW",
+            "GOS.DE"
+          ]
+        },
+        {
+          "name": "Alphabet Inc.",
+          "symbols": [
+            "ABEA.DE",
+            "ABEC.DE",
+            "GOOG",
+            "GOOGL",
+            "GOOGL.SW"
+          ]
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "symbols": [
+            "AMZ.DE",
+            "AMZN"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Andy Jassy"
+        },
+        {
+          "name": "Warren Buffett"
+        },
+        {
+          "name": "Elon Musk"
+        },
+        {
+          "name": "Jeff Bezos"
+        },
+        {
+          "name": "Bill Gates"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Lawsuits",
+          "count": 4
+        },
+        {
+          "name": "Markets",
+          "count": 6
+        },
+        {
+          "name": "AI",
+          "count": 3
+        },
+        {
+          "name": "Stocks",
+          "count": 1
+        },
+        {
+          "name": "SaaS",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.30734268,
+        "negative": 0.3452157,
+        "neutral": 0.3474416
+      },
+      "createdAt": "2026-02-17T11:16:25.650911+00:00",
+      "updatedAt": "2026-02-19T17:41:44.513621+00:00",
+      "uniqueCount": 9,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Canva Hits $4B ARR, AI Fuels Growth",
+      "summary": "Canva closed 2025 with about $4 billion in annual recurring revenue as monthly active users rose roughly 20% to ~265 million and paid subscribers exceeded 31 million, growth company leaders attribute largely to new AI features. The company doubled its B2B ARR to $500 million while remaining skewed to North America and pursuing lower-priced subscriptions in markets like Pakistan, Uruguay, Morocco and Jamaica to expand monetization. Management is repositioning Canva as an AI-first platform\u2014a \u201cdesign agency in your pocket\u201d\u2014anchored by tools such as Magic Write/Magic Design and an AI mini-app/website generator that has over 10 million monthly users. Deepening integrations with large language models and chatbots (including ChatGPT and Claude) produced millions of in-chat interactions (26M+ by October 2025) and rising double-digit LLM-driven referral traffic, creating a new low-cost discovery channel. The results validate Canva\u2019s AI pivot and sharpen competition with legacy creative software vendors as LLMs emerge as a major distribution gateway.",
+      "keyPoints": [
+        "Canva\u2019s co-founder and COO Cliff Obrecht said the company is \u201cinverting\u201d its strategy\u2014moving from a design platform with AI tools to an AI platform with design tools, calling Canva more like a \u201ccursor for design.\u201d",
+        "Canva is actively dedicating resources to appear in LLM-driven search results and is investing in SEO and content around user search intents because it sees ChatGPT and other LLMs as the new top-of-funnel for user acquisition.",
+        "Canva faces named competition from established players including Adobe and Freepik as well as Apple, which is pushing a bundled Creator Studio (apps like Final Cut Pro, Logic Pro, Pixelmator Pro, Motion, Compressor and MainStage) as a rival creative offering."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Canva",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 3
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.7168504,
+        "negative": 0.04452544,
+        "neutral": 0.23862419
+      },
+      "createdAt": "2026-02-18T14:08:17.672019+00:00",
+      "updatedAt": "2026-02-18T18:57:08.531211+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "51 AVGC-XR startups expected at WAVES Corner",
+      "summary": "Union Minister Ashwini Vaishnaw inaugurated the WAVES Creators Corner at the India AI Impact Summit in New Delhi, highlighting the growing use of AI in creative content and noting India has onboarded more than 38,000 high-end GPUs (with plans to add more), subsidized access and large AI investment commitments tied to the summit. The WAVES Creators Corner, powered by the Ministry of Information & Broadcasting and facilitated by WaveX, brings 51 AVGC-XR and media-tech startups to the India AI Impact Expo to showcase AI-driven animation pipelines, real-time rendering, immersive XR, virtual production, gaming and content-monetization technologies. Demonstrations include a Zero-Touch Autonomous Newsroom that converts live feeds into multilingual breaking news, the Bhasha-Wall offering real-time lip-synced dubbing across multiple Indian languages alongside an AI sign-language avatar, and immersive exhibits such as Samvad Setu, The Director\u2019s Chair, an AI podcast studio, conversational humanoid robots and voice cloning. The pavilion pairs these showcases with panels, masterclasses and industry collaborations \u2014 including Adobe\u2019s Kathavatar and a masterclass by Shekhar Kapur \u2014 to discuss responsible AI, cultural authenticity and tools for preserving linguistic and cultural heritage. Overall, the showcase aims to position India as a leader in responsible creative AI by connecting startups, investors, policymakers and global stakeholders and shifting focus from foundational compute to India-specific design, R&D and productization.",
+      "keyPoints": [
+        "Union Minister Ashwini Vaishnaw singled out Kuku\u2019s platform at the event, saying, \u201cAI is being used very effectively in the world of creative content... you should definitely check out Kuku\u2019s platform. It has immense potential.\u201d",
+        "Under the IndiaAI Mission India has onboarded more than 38,000 high\u2011end GPUs and is expected to add another 20,000; these GPUs are available at about Rs 65 per hour \u2014 roughly one\u2011third of the global average cost.",
+        "Vaishnaw indicated AI\u2011related investments tied to the summit are likely to exceed USD 200 billion, with about USD 90 billion already committed, and that the government is in talks with several large companies on further AI infrastructure investments."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Amazon Web Services",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Asian News International",
+          "symbols": []
+        },
+        {
+          "name": "National Film Development Corporation of India",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Ashwini Vaishnaw"
+        },
+        {
+          "name": "Shradha Sharma"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Startups",
+          "count": 13
+        },
+        {
+          "name": "AI",
+          "count": 20
+        }
+      ],
+      "sentiment": {
+        "positive": 0.5389729,
+        "negative": 0.071847074,
+        "neutral": 0.38918
+      },
+      "createdAt": "2026-02-16T13:28:58.445552+00:00",
+      "updatedAt": "2026-02-18T13:02:56.952010+00:00",
+      "uniqueCount": 12,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Top fund warns few software firms survive AI",
+      "summary": "Nick Evans, manager of Polar Capital\u2019s $12 billion global technology fund that outperformed 99% of peers over one year and 97% over five, warns that application software faces an \u201cexistential threat\u201d from AI and has largely sold off his holdings in major software firms. He says rapidly improving AI tools \u2014 and companies building in\u2011house solutions \u2014 will replicate and undercut many application vendors, creating substantial valuation and free\u2011cash\u2011flow uncertainty. The market is already reacting: an ETF tracking U.S. software is down roughly 22% this year while semiconductor stocks have surged as AI boosts chip demand, with Nvidia holding a near\u201110% position in his fund. Evans urges investors to be significantly underweight application software, warns that only a few firms will survive the reckoning, and notes that falling stock\u2011based compensation could force companies to use more cash, further straining finances.",
+      "keyPoints": [
+        "Evans said Polar Capital has sold virtually all holdings in specific large software names \u2014 including SAP SE, ServiceNow, Adobe and HubSpot \u2014 adding, \u201cWe won\u2019t go back to these companies.\u201d",
+        "Beyond exiting most application software, the fund still holds a small position and some call options in Microsoft.",
+        "Semiconductors dominate the fund: seven of the top ten positions were semiconductor companies, with Nvidia making up nearly 10% of the portfolio."
+      ],
+      "companies": [
+        {
+          "name": "Polar Capital Holdings plc",
+          "symbols": [
+            "POLR.L"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "HubSpot, Inc.",
+          "symbols": [
+            "0TZZ.L",
+            "HUBS"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "ServiceNow, Inc.",
+          "symbols": [
+            "0L5N.L",
+            "NOW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Jensen Huang"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 11
+        },
+        {
+          "name": "Markets",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.11968216,
+        "negative": 0.732765,
+        "neutral": 0.14755279
+      },
+      "createdAt": "2026-02-16T09:11:31.479317+00:00",
+      "updatedAt": "2026-02-17T18:38:37.110601+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "USISPF plans largest US delegation, India AI Summit",
+      "summary": "The US\u2013India Strategic Partnership Forum (USISPF) will lead the largest-ever U.S. business delegation to the India AI Impact Summit, bringing more than 100 companies and over 120 senior leaders to New Delhi for the Feb. 16\u201320, 2026 event organized by India\u2019s Ministry of Electronics and Information Technology. USISPF announced a new Board AI Task Force, chaired by John Chambers, to push joint U.S.-India work on strengthening AI ecosystems, accelerating responsible, population-scale deployment, and advancing trusted, scalable governance frameworks. The delegation\u2014reported to include CEOs such as Adobe\u2019s Shantanu Narayen and FedEx\u2019s Raj Subramaniam\u2014reflects growing alignment between American companies and Indian policymakers on how AI should be built and governed. Organizers frame the summit (theme: \u201cPeople, Planet, Progress\u201d) as the first global AI summit of this scale in the Global South, with more than 35,000 registrants and a focus on moving AI from experimentation to real-world impact.",
+      "keyPoints": [
+        "USISPF is participating as an \"Official Partner\" of the India AI Impact Summit, not just leading a delegation.",
+        "USISPF Chairman John Chambers characterized the US\u2011India AI relationship as \u201cthe defining strategic partnership of our time\u201d and said the task force will leverage USISPF\u2019s public\u2011private partnership experience to support AI development and deployment for \u201cnearly two billion people across our countries.\u201d",
+        "Delegation co-leaders such as Adobe\u2019s Shantanu Narayen and FedEx\u2019s Raj Subramaniam are expected to drive discussions on AI\u2019s role in supply\u2011chain resilience and improving digital access."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "FedEx Corporation",
+          "symbols": [
+            "0QZX.L",
+            "FDX",
+            "FDX.DE",
+            "FDX.SW"
+          ]
+        },
+        {
+          "name": "Ministry of Electronics and Information Technology",
+          "symbols": []
+        },
+        {
+          "name": "Rubrik",
+          "symbols": [
+            "RBRK"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Brad Smith"
+        },
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Sergio Gor"
+        },
+        {
+          "name": "John Chambers"
+        },
+        {
+          "name": "Jensen Huang"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 50
+        },
+        {
+          "name": "Business Leaders",
+          "count": 3
+        },
+        {
+          "name": "Markets",
+          "count": 9
+        },
+        {
+          "name": "US Politics",
+          "count": 6
+        }
+      ],
+      "sentiment": {
+        "positive": 0.52572304,
+        "negative": 0.1211214,
+        "neutral": 0.35315555
+      },
+      "createdAt": "2026-02-10T05:52:55.004640+00:00",
+      "updatedAt": "2026-02-14T11:32:12.171833+00:00",
+      "uniqueCount": 27,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "SaaS Market Reported $1T Repricing, IPO Freeze",
+      "summary": "The software sector has undergone a fast, severe repricing\u2014dubbed the \u201cSaaSpocalypse\u201d\u2014that has erased hundreds of billions to over $1 trillion in market value, driven by steep sell\u2011offs and large ETF declines. The rout accelerated in late January\u2013early February 2026 after advanced agentic AI tools (notably Anthropic\u2019s Claude Cowork and Opus 4.6) raised fears that agents can automate complex workflows and undermine traditional per\u2011seat SaaS revenue, prompting investors to rotate into AI infrastructure. The sell-off has frozen IPOs and M&A, produced dramatic single\u2011week plunges for major names, and begun to leak into other tech and high\u2011flyer stocks beyond pure software. At the same time, Deloitte says the \u201cSaaS is dead\u201d narrative is premature: incumbents are likely to evolve into full\u2011stack, agentic, outcome\u2011focused platforms, adopt hybrid pricing, and coexist with AI\u2011native specialists. For buyers and investors, the market is shifting toward capability\u2011 and outcome\u2011driven procurement and investing, with winners those who can reliably build, orchestrate, and govern agentic workflows\u2014though disruption will vary across categories like dev tools, cybersecurity, productivity, and industry systems.",
+      "keyPoints": [
+        "Market watchers point to Salesforce\u2019s mid\u20112024 collapse \u2014 a 20% one\u2011day drop after a rare revenue miss \u2014 as the early warning that the SaaS premium was vulnerable and helped kick off the shift in sentiment.",
+        "Between Jan. 30 and Feb. 4, 2026, nearly $300 billion in market value was erased from the application\u2011software layer specifically, a concentrated hit within the broader SaaS sell\u2011off.",
+        "The S&P 500 software & services index plunged about 26% from its late\u2011October 2025 peak, underscoring the severity of the sector\u2019s repricing beyond isolated company moves."
+      ],
+      "companies": [
+        {
+          "name": "Duolingo, Inc.",
+          "symbols": [
+            "DUOL"
+          ]
+        },
+        {
+          "name": "Confluent, Inc.",
+          "symbols": [
+            "CFLT"
+          ]
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbols": [
+            "NVD.DE",
+            "NVDA"
+          ]
+        },
+        {
+          "name": "Fortinet, Inc.",
+          "symbols": [
+            "0IR9.L",
+            "FTNT"
+          ]
+        },
+        {
+          "name": "Tyler Technologies, Inc.",
+          "symbols": [
+            "TYL"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 7
+        },
+        {
+          "name": "SaaS",
+          "count": 10
+        },
+        {
+          "name": "Stocks",
+          "count": 1
+        },
+        {
+          "name": "US Politics",
+          "count": 1
+        },
+        {
+          "name": "IPO",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.14953168,
+        "negative": 0.5228823,
+        "neutral": 0.32758602
+      },
+      "createdAt": "2026-02-10T14:02:32.905849+00:00",
+      "updatedAt": "2026-02-14T00:33:45.164317+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "New Documents Show FBI Rebuilt Epstein Video",
+      "summary": "Newly released Justice Department and FBI records show the bureau authorized destruction in June 2024 of the master surveillance recording labeled 1B60 from Jeffrey Epstein\u2019s Manhattan jail and later produced a reconstructed NiceVision screen-capture that left a 62-second gap around midnight on the night he died. The public July release therefore showed a timestamp jump from 11:58:58 p.m. to 12:00:00 a.m., a discrepancy that fueled widespread conspiracy theories. Attorney General Pam Bondi had blamed a nightly surveillance reset for the missing minute, but the documents indicate her explanation rested on an unverified technician theory and was undermined by the FBI\u2019s disposal of the original files. The revelations prompted a scramble to recreate footage, increased congressional scrutiny, and criticism of the FBI\u2019s evidence-handling and technical procedures rather than evidence of deliberate tampering.",
+      "keyPoints": [
+        "Then\u2013Deputy FBI Director Dan Bongino publicly promised the agency would release the original surveillance footage \u2018so you don't think there are any shenanigans,\u2019 a pledge that raised expectations before the reconstructed video was posted.",
+        "The FBI's master evidence item labeled 1B60 had been stored in a Bronx evidence facility before agents received authorization in June 2024 to destroy it.",
+        "An FBI digital-forensics specialist attempted to recreate the footage by screen-capturing the NiceVision system on May 21, 2025, a step that produced the low-quality reconstruction later released publicly."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "CBS",
+          "symbols": []
+        },
+        {
+          "name": "Columbia University",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Dan Bongino"
+        },
+        {
+          "name": "Pam Bondi"
+        },
+        {
+          "name": "penile"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Epstein Case",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.06535853,
+        "negative": 0.59099716,
+        "neutral": 0.34364435
+      },
+      "createdAt": "2026-02-12T03:02:52.039975+00:00",
+      "updatedAt": "2026-02-12T22:42:13.044556+00:00",
+      "uniqueCount": 9,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "FDA recalls M&M's for undeclared allergens",
+      "summary": "The Food and Drug Administration classified a nationwide recall as Class II after Beacon Promotions Inc. repackaged and distributed more than 6,000 promotional 1.3\u2011oz bags of M&M\u2019s across roughly 20 states without declaring milk, soy, and peanut allergens. The affected products were promotional/marketing repackages (branded with names such as Make Your Mark, Subaru, Adobe and others) rather than standard retail bags, and the original factory packaging does list those allergens. No illnesses have been reported, but consumers with milk, soy, or peanut allergies are advised to discard the repackaged promotional bags or return them for a refund. Affected states include California, New York, Pennsylvania, Texas and many others nationwide.",
+      "keyPoints": [
+        "Beacon Promotions initiated a voluntary recall on January 26 for 5,788 units and expanded the recall on February 4 to include additional lot codes and products.",
+        "The recall covers two product codes: BB458BG (5,788 units across four lot codes) and BB471BG (541 units from a single lot); affected best-by dates range from December 2025 through September 2026.",
+        "Some recalled promotional bags carry lot code M1823200 with a best-by date of April 30, 2026, and branding on repackaged bags includes names such as 'xfinity' in addition to Make Your Mark, Subaru and Adobe."
+      ],
+      "companies": [
+        {
+          "name": "University of Maryland",
+          "symbols": []
+        },
+        {
+          "name": "Berkshire Hathaway GUARD Insurance Companies",
+          "symbols": []
+        },
+        {
+          "name": "Morgan Stanley",
+          "symbols": [
+            "0QYU.L",
+            "DWD.DE",
+            "MS",
+            "MS-PA",
+            "MS-PE",
+            "MS-PF",
+            "MS-PI",
+            "MS-PK",
+            "MS-PL",
+            "MS-PO"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Freeport-McMoRan Inc.",
+          "symbols": [
+            "FPMB.DE",
+            "FCX"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "FDA",
+          "count": 79
+        },
+        {
+          "name": "Consumer Alerts",
+          "count": 30
+        },
+        {
+          "name": "Food & Drink",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.08416301,
+        "negative": 0.45021978,
+        "neutral": 0.4656172
+      },
+      "createdAt": "2026-02-06T02:12:07.861971+00:00",
+      "updatedAt": "2026-02-11T13:39:00.052117+00:00",
+      "uniqueCount": 46,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Ending Animate Sales March 1, 2026",
+      "summary": "Adobe announced it will discontinue Adobe Animate \u2014 the 2D animation tool that evolved from Macromedia Flash and has existed for more than 25 years \u2014 and will stop selling the app on March 1, 2026. Support and download access will continue through March 1, 2027 for non-enterprise customers and through March 1, 2029 for enterprise customers; Adobe urged users to export FLA/XFL and other assets before those dates. The company framed the move as a strategic pivot toward AI-driven creative tools and said new platforms better meet users\u2019 needs. Adobe offered no dedicated, full-featured successor, instead pointing creators to other Creative Cloud apps such as After Effects (for keyframe work) and Adobe Express (for simpler motion). The announcement provoked widespread frustration among longtime users, creators and studios, many urging Adobe to consider open-sourcing Animate and warning the shutdown threatens workflows, jobs and archival access to past works.",
+      "keyPoints": [
+        "Animate\u2019s lineage dates back to 1996: it began as FutureSplash Animator, was acquired and rebranded as Macromedia Flash, became Adobe Flash Professional after Adobe\u2019s 2005 purchase, and was renamed Adobe Animate in 2015.",
+        "Adobe posted an end-of-life FAQ on its support site and sent emails to customers announcing the shutdown; the FAQ includes Adobe\u2019s wording that \u201cAnimate has been a product that has existed for over 25 years and has served its purpose well for creating, nurturing, and developing the animation ecosystem.\u201d",
+        "Several creators and studios that still rely on Animate warned of real-world impacts \u2014 for example, the creators of the short-form series Chikn Nuggit and Salad Fingers creator David Firth said they still use Animate, and a Jackbox Games technical artist (Megacharlie) noted the app is used in many high\u2011budget TV, film and animation productions."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "International Data Corporation",
+          "symbols": []
+        },
+        {
+          "name": "Gartner, Inc.",
+          "symbols": [
+            "0ITV.L",
+            "IT"
+          ]
+        },
+        {
+          "name": "Jackbox Games",
+          "symbols": []
+        },
+        {
+          "name": "Fresh TV",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "David Firth"
+        },
+        {
+          "name": "Steve Jobs"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 25
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "count": 1
+        },
+        {
+          "name": "Gaming",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        },
+        {
+          "name": "iPhone",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.0980296,
+        "negative": 0.5513413,
+        "neutral": 0.3506291
+      },
+      "createdAt": "2026-02-02T22:26:20.146148+00:00",
+      "updatedAt": "2026-02-06T18:07:31.890681+00:00",
+      "uniqueCount": 60,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Piper Sandler Downgrades Adobe, Lowers Target to $330",
+      "summary": "Piper Sandler downgraded Adobe from \u2018Overweight\u2019 to \u2018Neutral\u2019 and slashed its price target to $330 from $470, a nearly 30% cut. That move adds to a wave of recent analyst downgrades and target trims for Adobe by firms such as UBS, Oppenheimer, BMO and Jefferies, reflecting a more cautious consensus on the stock. Piper Sandler also downgraded other enterprise-software names and lowered multiple price targets across the sector, citing investor apathy and a thesis that AI-driven efficiencies could constrain headcount growth and revenue upside. The cluster of cuts has pressured Adobe shares lower as investors reassess growth and margin prospects for software companies.",
+      "keyPoints": [
+        "The Piper Sandler analyst who issued the downgrade was Hannah Rudoff.",
+        "Piper Sandler downgraded three enterprise-software stocks \u2014 Adobe, Freshworks and Vertex \u2014 and also cut price targets on other large software names (including Salesforce).",
+        "Several other analysts recently adjusted their Adobe ratings/targets: Jefferies cut Adobe from 'Buy' to 'Hold' and lowered its target from $500 to $400 on Jan. 5, 2026 (a 20% cut); UBS kept a 'Neutral' view but trimmed its target from $375 to $340 on Jan. 26, 2026; Oppenheimer downgraded from 'Outperform' to 'Perform' on Jan. 13, 2026; BMO cut from 'Outperform' to 'Market Perform' on Jan. 9, 2026; and Citigroup maintained 'Neutral' but raised its target from $366 to $387 on Dec. 17, 2025."
+      ],
+      "companies": [
+        {
+          "name": "Piper Sandler Companies",
+          "symbols": [
+            "PIPR"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Oppenheimer Holdings Inc.",
+          "symbols": [
+            "OPY"
+          ]
+        },
+        {
+          "name": "Jefferies Financial Group Inc.",
+          "symbols": [
+            "JEF"
+          ]
+        },
+        {
+          "name": "Citigroup Inc.",
+          "symbols": [
+            "C",
+            "C-PJ",
+            "C-PK",
+            "TRVC.DE"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Jensen Huang"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Stocks",
+          "count": 4
+        },
+        {
+          "name": "Markets",
+          "count": 5
+        },
+        {
+          "name": "AI",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.13667302,
+        "negative": 0.5310577,
+        "neutral": 0.33226925
+      },
+      "createdAt": "2026-02-02T23:31:52.686998+00:00",
+      "updatedAt": "2026-02-06T02:19:43.374854+00:00",
+      "uniqueCount": 10,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Figma integrates Weave AI, shares slump",
+      "summary": "Figma has acquired AI startup Weavy, rebranding it as Figma Weave and folding its AI tools into the core design platform to accelerate AI\u2011powered workflows. Management points to continued growth among large enterprise customers and recurring revenue\u2014Figma has crossed roughly $1 billion in ARR and serves about 13 million monthly users, including most of the Fortune 500\u2014suggesting healthy product adoption beyond designers. Despite those fundamentals, the stock has plunged to about $21.39, down roughly 40\u201343% over recent weeks and about 85% from its post\u2011IPO peak, erasing tens of billions in market value. Market responses are mixed: heavy options activity shows deep\u2011pocketed traders taking both bullish and bearish positions, while analysts' fair\u2011value estimates diverge widely (variously cited near $43\u2013$66 or about $52), reflecting uncertainty about Figma\u2019s outlook. Investors will be watching how quickly and deeply Figma Weave\u2019s AI features are adopted, how enterprise usage and recurring revenue trends evolve, and whether competitors can match its AI capabilities before the valuation gap closes.",
+      "keyPoints": [
+        "Benzinga flagged an unusual surge in options activity for FIG: 48 'extraordinary' trades in the period analyzed (29 puts totaling $2,692,098 and 19 calls totaling $1,201,238), with big players targeting strikes roughly between $12.50 and $55.00; the report also noted very high trading volume (about 18.3 million) and technicals suggesting the stock may be oversold.",
+        "Figma\u2019s 2025 IPO was dramatic: the July 31, 2025 listing priced at $33, opened near $85 and closed the first day at $115.50, later touching $143 and briefly valuing the company at over $60 billion \u2014 a peak that has since shrunk to roughly $10.5 billion, erasing more than $50 billion in market value.",
+        "Beyond ARR and user counts, Figma\u2019s underlying business showed strong operational performance: quarterly revenue was rising at close to a 40% year\u2011over\u2011year pace and the company was described as profitable on an operating basis."
+      ],
+      "companies": [
+        {
+          "name": "Figma",
+          "symbols": []
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Sequoia Capital",
+          "symbols": []
+        },
+        {
+          "name": "Greylock Partners",
+          "symbols": []
+        },
+        {
+          "name": "Index Ventures",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 5
+        },
+        {
+          "name": "IPO",
+          "count": 2
+        },
+        {
+          "name": "Markets",
+          "count": 12
+        },
+        {
+          "name": "Stocks",
+          "count": 2
+        },
+        {
+          "name": "Startups",
+          "count": 2
+        }
+      ],
+      "sentiment": {
+        "positive": 0.10506527,
+        "negative": 0.6795806,
+        "neutral": 0.21535407
+      },
+      "createdAt": "2026-02-03T04:20:51.660207+00:00",
+      "updatedAt": "2026-02-05T19:54:20.776298+00:00",
+      "uniqueCount": 11,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Barnsley named UK's first Tech Town",
+      "summary": "The UK government has named Barnsley the country\u2019s first government-backed \u201cTech Town,\u201d with Technology Secretary Liz Kendall and the Department for Science, Innovation and Technology committing support to trial AI across schools, businesses, NHS services and public infrastructure as a potential national blueprint. Over the next 18 months the programme will pilot AI tutoring in schools, offer free AI and digital training for residents via local colleges, expand the Seam Digital Campus to help small businesses adopt new tech, and test AI tools to speed hospital check-ins, triage and outpatient care. Major vendors including Microsoft, Cisco and Adobe have pledged support and senior executives will join Kendall in visiting the town to help boost local skills and infrastructure. Residents will be invited to \u201cTech Town Halls\u201d to give feedback, and ministers say lessons from Barnsley will shape how AI is rolled out elsewhere in the UK. Local leaders hailed the investment as a major opportunity to revive a post\u2011industrial economy, though community figures and opposition councillors have warned of anxieties about whether AI will be a force for good even as the council already uses AI in services such as adult social care and road scanning.",
+      "keyPoints": [
+        "The programme includes upgrades to Barnsley\u2019s tech infrastructure such as installing Wi\u2011Fi in public buildings and strengthening cybersecurity for critical services.",
+        "The Seam Digital Campus already houses 33 tech companies and there are plans to expand it into an AI Campus centred on a new National Centre for Digital Technologies to help small firms scale and create local jobs.",
+        "In addition to Microsoft, Cisco and Adobe, some reporting names Google among the major tech firms that have agreed to support the Barnsley initiative."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "Cisco Systems, Inc.",
+          "symbols": [
+            "4333.HK",
+            "CIS.BR",
+            "CIS.DE",
+            "CSCO"
+          ]
+        },
+        {
+          "name": "Alamy",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Liz Kendall"
+        },
+        {
+          "name": "Oliver Coppard"
+        },
+        {
+          "name": "Margaret Thatcher"
+        },
+        {
+          "name": "Will Alsop"
+        }
+      ],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 23
+        },
+        {
+          "name": "Europe Public Private Sector",
+          "count": 6
+        }
+      ],
+      "sentiment": {
+        "positive": 0.41250178,
+        "negative": 0.2053361,
+        "neutral": 0.38216212
+      },
+      "createdAt": "2026-02-03T01:14:57.652031+00:00",
+      "updatedAt": "2026-02-05T17:48:14.667062+00:00",
+      "uniqueCount": 23,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe shares rebound near $280 after AI jitters",
+      "summary": "Adobe\u2019s stock and options activity have shown heightened volatility as investors debate whether generative AI will erode subscription pricing or convert into higher-paid users, with shares recently rebounding near $280 even as implied volatility and bearish option interest rose following a Piper Sandler downgrade. The central market question is AI monetization\u2014investors want tangible proof that Firefly, embedded AI assistants and other features are driving new paid seats rather than only increasing productivity for existing users. Bulls argue Adobe is leveraging AI to deepen its moat via Firefly Foundry for enterprise-safe models, broad partnerships (including Google and OpenAI) and integrations that expand its addressable market. At the same time, management is making strategic product shifts\u2014most visibly the decision to discontinue Adobe Animate\u2014framed as platform evolution rather than an explicit AI pivot. All attention now turns to the March 12, 2026 earnings report as the pivotal test of Adobe\u2019s guidance, AI-driven recurring revenue targets and the status of the pending Semrush acquisition.",
+      "keyPoints": [
+        "Options-market metrics show elevated bearish positioning and volatility: put/call ratio was about 1.18, implied volatility sat near 40.41 (up ~7 points), options volume ran roughly 66,000 contracts and traders were pricing an expected daily move of about $6.93.",
+        "On Feb. 2 Adobe updated Firefly subscriber benefits to include unlimited image and video generations and access to multiple AI models inside the Firefly app (not limited to Adobe\u2019s proprietary models).",
+        "Adobe's full-year fiscal 2026 guidance calls for total revenue of $25.90 billion to $26.10 billion and targets Annual Recurring Revenue (ARR) growth of more than 10%, accompanied by a new, more detailed reporting framework."
+      ],
+      "companies": [
+        {
+          "name": "Figma",
+          "symbols": []
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Piper Sandler Companies",
+          "symbols": [
+            "PIPR"
+          ]
+        },
+        {
+          "name": "Semrush Holdings, Inc.",
+          "symbols": [
+            "SEMR"
+          ]
+        },
+        {
+          "name": "Seeking Alpha",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Elon Musk"
+        },
+        {
+          "name": "Sam Altman"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 2
+        },
+        {
+          "name": "Stocks",
+          "count": 1
+        },
+        {
+          "name": "AI",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.37240076,
+        "negative": 0.33096883,
+        "neutral": 0.2966304
+      },
+      "createdAt": "2026-02-03T02:00:32.288427+00:00",
+      "updatedAt": "2026-02-05T12:52:51.425178+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Firefly offers unlimited image, video generations",
+      "summary": "Adobe announced that Firefly subscribers can now create unlimited image and video generations, removing previous monthly caps to let creators iterate freely. The change applies across Adobe\u2019s Firefly models and supported third\u2011party engines including Google Nano Banana Pro, GPT Image Generation, and Runway Gen\u20114. Unlimited generations are available on firefly.adobe.com, in Firefly Boards and the Firefly mobile apps, and extend to the video editor, sound and music generators and \u201cPrompt to Edit,\u201d with video output up to 2K and continued editing in Creative Cloud apps like Photoshop and Premiere. Adobe frames the move as helping creators stay \u201cin the flow,\u201d noting that 86% of creators now use generative AI daily and that average prompt length doubled in 2025. Adobe said subscribers must sign up for standalone Firefly plans by March 16 to get the lifted caps, and the offer does not apply to Creative Cloud subscriptions.",
+      "keyPoints": [
+        "The unlimited\u2011generation offer applies to specific Firefly subscription tiers \u2014 including Firefly Pro, Premium and the named credit plans (4,000, 7,000 and 50,000 credit plans) \u2014 not just a single flat plan.",
+        "Adobe now distributes Firefly as a standalone platform beyond Creative Cloud: it\u2019s available on the web and dedicated mobile apps for iOS and Android \u2014 and has even been released for Apple\u2019s visionOS \u2014 after originally rolling Firefly out inside Creative Cloud apps.",
+        "Adobe and coverage emphasize that the unlimited generations are positioned to help small business owners and creative professionals experiment more freely \u2014 enabling rapid iteration for marketing, product design and branding work."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Mozilla Corporation",
+          "symbols": []
+        },
+        {
+          "name": "BMO Capital and Income Investment Trust PLC",
+          "symbols": [
+            "BCI.L"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 13
+        }
+      ],
+      "sentiment": {
+        "positive": 0.36911166,
+        "negative": 0.11265955,
+        "neutral": 0.51822877
+      },
+      "createdAt": "2026-02-02T14:16:09.584887+00:00",
+      "updatedAt": "2026-02-04T08:29:08.153752+00:00",
+      "uniqueCount": 15,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "FA proposes Women's FA Cup overhaul; clubs oppose",
+      "summary": "The FA has floated major changes to the Women\u2019s FA Cup \u2014 including a \u2018road-to-Wembley\u2019 bracket from the last 32, seeding the previous season\u2019s top four so they cannot meet until the semi-finals, removing the round-by-round draw, and even proposals to exclude some lower-tier (tier seven) clubs \u2014 as part of a drive to make the competition more marketable and create clearer storytelling. The governing body says the ideas were informed by fan surveys and form part of its wider 2024\u201328 strategy to boost commercial value and reinvest in the women\u2019s game. That rationale has met fierce backlash from supporters\u2019 clubs, WSL teams and lower-league sides, who warn the changes would erode the FA Cup\u2019s \u201cmagic,\u201d damage sporting integrity and cement advantages for already affluent elite clubs. Critics note the competition is already heavily dominated by the same top sides and argue recent League Cup reforms aimed at increasing competitiveness make further changes unnecessary. The proposals were presented for consultation and the FA stresses no decisions have been made, but sources say the plans could be implemented as soon as next season if approved.",
+      "keyPoints": [
+        "FA documents circulated with clubs describe the proposed top-four seeding as a \u201ctemporary\u201d measure intended to create the \u201chighest chances of consistent high-quality matches throughout the later rounds.\u201d",
+        "Supporters\u2019 groups have posted direct criticism on social media \u2014 for example SheGulls (Brighton & Hove Albion fans) said: \u201cThe sporting merit in our game is slowly being eroded in favour of 'super matches' between elite level teams. The rich will only get richer\u2026\", reflecting fan anger beyond club statements.",
+        "Critics point to the entrenched dominance of a specific \u2018big four\u2019 \u2014 Chelsea, Arsenal, Manchester City and Manchester United \u2014 and note no club outside that quartet has won the Women\u2019s FA Cup since Birmingham City in 2012."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Manchester United plc",
+          "symbols": [
+            "0Z1Q.L",
+            "MANU"
+          ]
+        },
+        {
+          "name": "The Athletic",
+          "symbols": []
+        },
+        {
+          "name": "Guardian Media Group",
+          "symbols": []
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Football",
+          "count": 5
+        },
+        {
+          "name": "World Cup",
+          "count": 3
+        },
+        {
+          "name": "European Football",
+          "count": 4
+        }
+      ],
+      "sentiment": {
+        "positive": 0.11114923,
+        "negative": 0.48220876,
+        "neutral": 0.40664202
+      },
+      "createdAt": "2026-02-03T13:32:54.066729+00:00",
+      "updatedAt": "2026-02-04T04:25:53.342267+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe plans $1.9B Semrush acquisition",
+      "summary": "Adobe is aggressively shifting its product strategy to embed generative AI\u2014notably Firefly\u2014directly into enterprise content and marketing workflows rather than offering it as a standalone tool. To accelerate that push it has expanded enterprise partnerships (including with Cognizant) and agreed to acquire Semrush to combine creative AI with SEO, data-driven marketing and content-performance capabilities. Management points to record fiscal 2025 revenue, rising monthly AI users and a projected ARR growth above 10% for 2026 as evidence the strategy can drive recurring revenue. Yet investors remain skeptical: Adobe shares have fallen roughly 16% recently, UBS cut its price target, and analysts warn that AI could compress valuations by threatening traditional subscription economics across the software sector. The market\u2019s anxiety reflects broader sector weakness and the key question of whether AI will commoditize software or whether enterprise integrations and governance will keep platforms sticky. The Semrush deal and Cognizant tie-up position Adobe to bridge creative generation and audience/operational workflows at scale, but the company must still prove that rising engagement converts into sustainable recurring revenue to satisfy investors.",
+      "keyPoints": [
+        "Adobe\u2019s free AI services saw monthly active users surge 35% to over 70 million, a growth metric management cites as underpinning its ARR guidance.",
+        "Adobe reported specific fiscal 2025 results underpinning its position: Q4 revenue of $6.19 billion (up 10% year-over-year), full-year revenue of $23.77 billion and operating cash flow above $10 billion.",
+        "The expanded Cognizant partnership explicitly pairs Adobe Firefly and creative tools with Cognizant\u2019s managed services and AI capabilities to help large, regulated organizations produce personalized, compliant content at scale \u2014 emphasizing implementation, governance and industry-specific deployments."
+      ],
+      "companies": [
+        {
+          "name": "Semrush Holdings, Inc.",
+          "symbols": [
+            "SEMR"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Cognizant Technology Solutions Corporation",
+          "symbols": [
+            "0QZ5.L",
+            "CTSH",
+            "COZ.DE"
+          ]
+        },
+        {
+          "name": "Canva",
+          "symbols": []
+        },
+        {
+          "name": "Salesforce, Inc.",
+          "symbols": [
+            "CRM",
+            "CRM.BA",
+            "FOO.DE"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 10
+        },
+        {
+          "name": "Markets",
+          "count": 2
+        },
+        {
+          "name": "SEO",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.55668795,
+        "negative": 0.13177297,
+        "neutral": 0.31153908
+      },
+      "createdAt": "2026-01-30T15:00:19.664387+00:00",
+      "updatedAt": "2026-02-02T15:14:47.348637+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple launches Creator Studio subscription $12.99",
+      "summary": "Apple launched Creator Studio in January 2026, a $12.99/month (or $129/year) subscription that bundles Final Cut Pro, Logic Pro, Pixelmator Pro and upgraded iWork apps with AI-powered image and presentation generation that leverages an OpenAI backend. The company frames the package as an affordable, integrated alternative to expensive creative suites like Adobe\u2019s, targeting individual creators and small teams with pro-grade tools and deep ecosystem integration. In practice, several features that were previously free or standalone\u2014new templates, advanced editing tools, and certain stock assets\u2014are now gated behind the subscription, with upsell banners, watermarks for non-subscribers, and apps that limit functionality without a plan. Reviewers highlight clear benefits such as transcript and visual search in Final Cut and AI-assisted music tools in Logic, but caution that the shift intensifies subscription fatigue and risks diluting Apple\u2019s premium user experience if paid extras proliferate. The rollout signals Apple is actively rethinking software monetization across its services, with more bundles and paid upgrades widely expected and debated.",
+      "keyPoints": [
+        "Creator Studio bundles six full creative apps \u2014 Final Cut Pro, Logic Pro, Pixelmator Pro, Motion, Compressor and MainStage \u2014 and includes premium templates, royalty-free graphics, and promises upcoming premium tools for Freeform.",
+        "The new subscription-only Pixelmator Pro build won\u2019t function at all unless you subscribe (an older App Store version remains available), and the Creator Studio Pixelmator adds subscriber-only features such as a Warp tool and full iPad support with Apple Pencil integration.",
+        "In Pages/Keynote/Numbers the subscription-only features are visually marked (purple highlights and a small crown on premium templates), stock images are delivered watermarked unless you license them via a Creator Studio subscription (there is no pay-per-file licensing), and the apps jump from revision 14 to 15 with a refreshed toolbar and unified icon regime."
+      ],
+      "companies": [
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Meta",
+          "symbols": []
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Eddy Cue"
+        }
+      ],
+      "topics": [],
+      "sentiment": {
+        "positive": 0.3687312,
+        "negative": 0.1909798,
+        "neutral": 0.44028902
+      },
+      "createdAt": "2026-01-30T14:24:43.432046+00:00",
+      "updatedAt": "2026-02-02T14:36:21.653508+00:00",
+      "uniqueCount": 10,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Airtel offers free Adobe Express to 360M users",
+      "summary": "Bharti Airtel is offering all of its roughly 360 million mobile, broadband and DTH customers a free one-year subscription to Adobe Express Premium\u2014an offer valued at about Rs. 4,000\u2014that can be claimed via the Airtel Thanks app with no credit card required. Adobe Express Premium bundles AI-powered tools (including Adobe Firefly image generation), instant background removal, one\u2011tap video editing, auto captions and instant resize, plus premium Adobe Stock assets, thousands of templates and fonts, 100GB cloud storage and monthly generative AI credits. The service supports multiple Indian languages and is available across desktop, web and mobile, aiming to help creators, students and small businesses produce social posts, videos, marketing materials and festival or wedding designs quickly. Airtel frames the perk as part of its broader digital rewards program (it previously offered Perplexity Pro), while Adobe\u2019s move is also seen as an aggressive push into India to defend its creative-market share against AI-native rivals like Google\u2019s Gemini and ChatGPT. The partnership underscores rising competition among global tech firms to win Indian users by bundling advanced AI creative tools with large distribution networks.",
+      "keyPoints": [
+        "Adobe Express Premium includes 250 generative AI credits per month (effectively ~250 AI-generated edits/month) as part of the Premium plan.",
+        "The subscription provides access to a very large Adobe Stock library \u2014 cited as over 200 million Adobe Stock assets for Premium users.",
+        "Exports from Adobe Express Premium are watermark-free and projects sync seamlessly across devices, enabling consistent editing on desktop, web and mobile."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Bharti Airtel Limited",
+          "symbols": [
+            "BHARTIARTL.NS"
+          ]
+        },
+        {
+          "name": "Express, Inc.",
+          "symbols": [
+            "0IJU.L",
+            "EXPR"
+          ]
+        },
+        {
+          "name": "HMD Global",
+          "symbols": []
+        },
+        {
+          "name": "Perplexity",
+          "symbols": []
+        }
+      ],
+      "people": [
+        {
+          "name": "Sunil Mittal"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Markets",
+          "count": 2
+        },
+        {
+          "name": "US Politics",
+          "count": 1
+        },
+        {
+          "name": "Business Leaders",
+          "count": 1
+        },
+        {
+          "name": "Startups",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.7052069,
+        "negative": 0.036245212,
+        "neutral": 0.25854793
+      },
+      "createdAt": "2026-01-29T05:52:42.090855+00:00",
+      "updatedAt": "2026-02-01T03:59:54.808954+00:00",
+      "uniqueCount": 40,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple launches Creator Studio Pro bundle with AI",
+      "summary": "Apple has launched Creator Studio (also sold as Creator Studio Pro) as a subscription that bundles Final Cut Pro, Logic Pro, Pixelmator Pro (now on iPad), Motion, Compressor, MainStage and premium features in Pages, Numbers, Keynote and Freeform, with family sharing and regional discounts for students and educators; U.S. pricing is $12.99/month or $129/year. Apple positions the suite\u2019s AI as assistive rather than generative\u2014automating tedious tasks like transcript and visual search, chord extraction, slide drafting and organization\u2014while emphasizing privacy (reporting notes some features run on-device and that processing won\u2019t be used to train models). Some coverage says advanced image generation in the offering is powered by third-party models, but the overall product steers clear of promising fully automated creative output. Observers note Creator Studio\u2019s lower cost and family/standalone purchase options make it a credible challenger to Adobe for Apple-centric users, even as reviewers caution Adobe\u2019s apps remain more feature-rich and some Apple tools still need refinement. Early reactions praise the workflow and AI-assisted efficiency gains, suggesting adoption will depend on whether creators prioritize ecosystem convenience and price over the most powerful professional features.",
+      "keyPoints": [
+        "Apple is offering a one-month free trial for new Creator Studio subscribers and is keeping the option for users to buy several Mac apps as one-time downloads that run alongside the subscription versions.",
+        "Apple is heavily optimizing Pixelmator Pro for Apple silicon and has redesigned the iPad version around touch and Apple Pencil workflows to extend its presence beyond macOS.",
+        "Apple is offering a steep educational discount in some regions: educators and college students can get Creator Studio for $2.99 per month or $29.99 per year, per some coverage."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "OpenAI",
+          "symbols": []
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "AI",
+          "count": 5
+        }
+      ],
+      "sentiment": {
+        "positive": 0.38629928,
+        "negative": 0.15047707,
+        "neutral": 0.46322367
+      },
+      "createdAt": "2026-01-28T15:38:43.157321+00:00",
+      "updatedAt": "2026-02-01T01:57:29.449403+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Photoshop adds Clarity, Dehaze, Grain adjustment layers",
+      "summary": "Adobe\u2019s latest Photoshop release brings Clarity, Dehaze and Grain into the program as full, non\u2011destructive adjustment layers\u2014maskable, stackable and blendable\u2014so photographers can apply and revisit those Camera Raw effects without Smart Objects, layer duplication or complex modal workflows. The change makes common tasks simpler (for example, applying Dehaze only to distant elements, varying Grain across an image, or targeting Clarity to eyes or textures) and preserves image quality while allowing opacity and blend\u2011mode experimentation. Adobe also upgraded its Firefly\u2011powered Generative Fill, Generative Expand and Remove tools to produce higher\u2011quality 2K output with improved prompt adherence and fewer artifacts, and improved Reference Image handling to better preserve object identity with geometry\u2011aware scale, rotation and perspective. Photoshop adds other workflow refinements\u2014including a beta Dynamic Text feature for one\u2011click circular/curved text paths\u2014and Adobe says the updates are intended to reduce tedious steps so creatives can iterate faster. Overall, the suite of changes aims to give photographers and visual artists more precise, geometry\u2011aware control and faster, less frictional editing inside Photoshop.",
+      "keyPoints": [
+        "The Grain adjustment layer exposes three separate sliders \u2014 Amount, Size and Roughness \u2014 letting users control not just strength but the look and scale of the grain; authors recommend applying grain after finishing other edits and sizing it to the output dimensions.",
+        "Photoshop combines Clarity and Dehaze into a single adjustment layer (rather than two wholly separate layers), so those two effects are delivered together as a maskable, blend-mode\u2013compatible adjustment.",
+        "The release is Photoshop version 27.2; Adobe\u2019s Pam Clark (product manager for Photoshop) framed the update as aimed at reducing friction for fast-moving creative professionals: \u201cIf you\u2019re a creative professional, you move fast, chasing an idea from first spark to final pixel, and the smallest amount of friction can slow your creative output.\u201d"
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Sony Group Corporation",
+          "symbols": [
+            "6758.T",
+            "SONY"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Australia",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.33210245,
+        "negative": 0.17796496,
+        "neutral": 0.4899326
+      },
+      "createdAt": "2026-01-27T14:31:39.439705+00:00",
+      "updatedAt": "2026-01-29T11:46:20.634013+00:00",
+      "uniqueCount": 8,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple launches Creator Studio subscription bundle",
+      "summary": "Apple launched Apple Creator Studio on Jan. 28, a subscription bundle that brings Final Cut Pro, Logic Pro, Pixelmator Pro (plus Motion, Compressor and MainStage) together across Mac, iPad and iPhone with pricing at $12.99/month or $129/year (discounted student/educator plans and a one-month free trial are available). The bundle includes Pixelmator Pro \u2014 an app Apple recently acquired \u2014 arriving on iPad with a touch-optimized interface and Apple Pencil support. Apple is rolling new \u201cintelligent\u201d on-device features across the suite: Final Cut Pro adds transcript/visual search, beat detection and improved iPad exporter behavior, Logic Pro gains Chord ID and Synth Player tools, and Keynote/Pages/Numbers get premium templates and a Content Hub. On iPad some apps are now subscription-only while Mac versions remain available as one-time purchases, and Apple emphasizes privacy, family sharing and education pricing to lower the barrier for creators. Early hands-on impressions call the bundle a strong value that should spur continued investment in these pro apps, though reviewers acknowledge subscription fatigue for some users.",
+      "keyPoints": [
+        "Final Cut Pro ships as version 12 and the iPad app gains several practical workflow improvements beyond basic export fixes \u2014 multi-selection for batch adjustments, external-monitor preview support, and use of iPadOS 26\u2019s background API so exports can continue while you leave the app.",
+        "Keynote\u2019s new intelligence features can generate a first draft of a presentation from a simple text outline and can also create presenter notes automatically from existing slides.",
+        "Apple Creator Studio is part of a broader push to grow Apple\u2019s services business into professional software \u2014 Apple\u2019s services brought in tens of billions of dollars and 2025 was a record year, and this bundle extends that strategy into pro creative tools."
+      ],
+      "companies": [
+        {
+          "name": "Apple Inc.",
+          "symbols": [
+            "AAPL",
+            "APC.DE",
+            "APC.F"
+          ]
+        },
+        {
+          "name": "Google",
+          "symbols": []
+        },
+        {
+          "name": "S-LCD",
+          "symbols": []
+        },
+        {
+          "name": "LG Display Co., Ltd.",
+          "symbols": [
+            "034220.KS",
+            "LPL"
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbols": [
+            "4338.HK",
+            "MSF.BR",
+            "MSF.DE",
+            "MSFT"
+          ]
+        }
+      ],
+      "people": [],
+      "topics": [
+        {
+          "name": "Shopping",
+          "count": 1
+        },
+        {
+          "name": "Electronics",
+          "count": 1
+        },
+        {
+          "name": "MacBooks",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.5028312,
+        "negative": 0.09144423,
+        "neutral": 0.40572453
+      },
+      "createdAt": "2026-01-26T06:16:04.056649+00:00",
+      "updatedAt": "2026-01-28T23:10:33.280657+00:00",
+      "uniqueCount": 7,
+      "first_article": null
+    },
+    {
+      "clusterId": null,
+      "name": "Adobe Shares Fall 3.6%, Short Interest Rises",
+      "summary": "Shares of Adobe Inc. fell about 3.6% in mid\u2011day trading on Jan. 27 to roughly $293.85, trading just above its 52\u2011week low and well below its 52\u2011week high on below\u2011average volume. Analysts\u2019 one\u2011year average price target is $425.27\u2014implying roughly 45% upside\u2014and the consensus brokerage rating is 2.3 (\u201cOutperform\u201d), while GuruFocus\u2019s GF Value projects an even larger fair\u2011value upside. Short interest has risen 6.86% to 12.37 million shares, equal to 2.96% of float (about 3.8 days to cover), which remains below the peer\u2011group short\u2011interest average of 4.46%. Institutional activity is mixed: GF Fund Management and several advisors raised stakes and BCS Wealth initiated a new position, while Vanguard Personalized Indexing trimmed its holding by about 10%. The stock trades with a market capitalization near $123.6 billion and a P/E around 18, with recent 50\u2011 and 200\u2011day moving averages in the low\u2011to\u2011mid $300s, providing valuation context for the divergent analyst and investor signals.",
+      "keyPoints": [
+        "GuruFocus's one\u2011year GF Value for Adobe is $668.90 \u2014 implying a 127.63% upside from the current price \u2014 and GF Value is calculated from the stock\u2019s historical multiples, past growth and future estimates.",
+        "On Jan. 27 the stock hit an intraday low of $293.13 and trading volume was 1,359,590 shares, roughly 30.3% of the average daily volume of 4,483,880, indicating below\u2011average turnover.",
+        "GF Fund Management Co. Ltd. increased its Adobe holding by 23.79%, buying 20,243 shares to hold 105,329 shares valued at about $36,864,100 in the most recent 13F filing."
+      ],
+      "companies": [
+        {
+          "name": "Adobe Inc.",
+          "symbols": [
+            "ADB.DE",
+            "ADBE",
+            "ADBE.SW"
+          ]
+        },
+        {
+          "name": "Jefferies Financial Group Inc.",
+          "symbols": [
+            "JEF"
+          ]
+        },
+        {
+          "name": "Barclays",
+          "symbols": []
+        },
+        {
+          "name": "Quilter plc",
+          "symbols": [
+            "QLT.L"
+          ]
+        },
+        {
+          "name": "Wells Fargo & Company",
+          "symbols": [
+            "NWT.DE",
+            "WFC",
+            "WFC-PA",
+            "WFC-PC",
+            "WFC-PD",
+            "WFC-PL",
+            "WFC-PQ",
+            "WFC-PR",
+            "WFC-PY",
+            "WFC-PZ",
+            "WFC.SW"
+          ]
+        }
+      ],
+      "people": [
+        {
+          "name": "Shantanu Narayen"
+        },
+        {
+          "name": "Charles Geschke"
+        },
+        {
+          "name": "John Warnock"
+        },
+        {
+          "name": "Jim Cramer"
+        }
+      ],
+      "topics": [
+        {
+          "name": "Stocks",
+          "count": 1
+        },
+        {
+          "name": "Markets",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 0.33742437,
+        "negative": 0.22071677,
+        "neutral": 0.44185886
+      },
+      "createdAt": "2026-01-25T11:00:25.629337+00:00",
+      "updatedAt": "2026-01-28T10:26:14.044676+00:00",
+      "uniqueCount": 5,
+      "first_article": null
+    }
+  ],
+  "monthly_summary": {
+    "2026-01": {
+      "count": 6,
+      "avg_sentiment": 0.272
+    },
+    "2026-02": {
+      "count": 24,
+      "avg_sentiment": 0.056
+    }
+  }
+}

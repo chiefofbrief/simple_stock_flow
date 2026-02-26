@@ -2,6 +2,20 @@
 
 *(Temporary scratchpad for active session commands, thoughts, and feedback. Wiped regularly.)*
 
+## Potential Updates
+- `Gemini.md` is not included in the context at startup (unlike `claude.md` in some environments). This is because the CLI agent design treats `.md` files as workspace files rather than system instructions, so they must be read explicitly unless the host environment injects them.
+- **Discovery Step (prompt_discovery.md):** The system should explicitly ask the user for any additional input (tickers, notes, excerpts from the chat window) before finalizing the step. Currently, it processes the Digest and moves on without prompting for user contributions.
+- **Tool Access / Gitignore Bug:** The `read_file` tool is being blocked from reading `Data/screening/Price_Data_*.txt` due to `.gitignore` rules. Even after adding an exception (`!data/screening/Price_Data_*.txt`), the tool still considers the file ignored. This requires investigation to determine if it's a case-sensitivity issue (`Data/` vs `data/`) or an aggressive caching mechanism within the tool.
+- **Screening Phase Decision Gates:** The system must pause after generating the Price/Earnings summaries to explicitly propose which tickers should be marked as `PASS` vs `FILTERED`, and require user approval before writing to `Stock_Tracker.md`. Currently, the prompt lacks explicit instructions to stop and ask the user for this decision.
+- **Retaining Screening Q&A:** Currently, the Price and Earnings prompts only instruct the system to copy the final *summary paragraph* to `Stock_Tracker.md` and the detailed Q&A is discarded (per the "no per-ticker files in Phase 1" rule). We should update the workflow to append the full detailed Q&A back into the generated `.txt` files in `Data/screening/` so that the intermediate analytical work isn't lost.
+- **Financials Prompt Depth:** The answers to the first set of questions (not the overall questions) in the Financials analysis were too succinct and may be missing insights. `prompt_financials.md` needs to be updated to require more detailed and insightful responses for those sections.
+- **Deep Dive Decision Gates:** The system should provide its pass/fail recommendation at the end of each Deep Dive step (e.g., after Financials) and require explicit user approval before proceeding to the next step. Note: The final step (Earnings Calls) does not require a pass/fail recommendation, it simply concludes the analysis.
+- **Deep Dive Prep Prompt:** Create a 'deep dive prep' prompt to handle moving the Price and Earnings screening summaries over to the Thesis file prior to running the Financials analysis. This will allow the `prompt_financials.md` prompt to focus exclusively on analysis and writing its specific section without having to manage the initial file seeding.
+- **Footnotes Extraction Bug:** The `Scripts/footnotes.py` script incorrectly extracted the "Risk Factors" section instead of the "Notes to Financial Statements" for the 10-Q, and pulled the Auditor's Report for the 10-K. The regex/extraction logic in this script needs to be refined and tested to ensure it reliably captures the actual financial footnotes.
+- **Handling Massive Transcripts (Context Limits):** The output from `Scripts/earnings_calls.py` was so large that the file reader had to truncate it. To prevent missing crucial information at the end of calls (often where the most revealing Q&A happens), we should either update the script to chunk the transcript, extract the Q&A separately from prepared remarks, or use a pre-summarization step.
+- **Thesis File Template:** Manually appending text to `ADBE_Thesis.md` led to formatting hiccups and duplicate blocks. Creating a structured `thesis_template.md` with explicit placeholders (e.g., `{{FINANCIALS_ANALYSIS}}`) would make file generation cleaner, whether done by a script or the system, and prevent data overwrite/duplication errors. Perhaps this can be part of the deep dive prep prompt if we create it.
+- **Final Thesis Prompt:** Create a dedicated `prompt_thesis_synthesis.md` (or similar) to standardize the final review and recommendation step, ensuring it consistently checks the generated thesis against the original screening flags and reflexivity frameworks.
+
 ## Workflow Update (Version 0.5 - 02-23-2026)
 
 We finished version 0.5 of the workflow on 02-23-2026. Changes mades included: 
@@ -126,3 +140,12 @@ The following updates are required for `prompt_financials.md`, `prompt_sentiment
 * https://www.marketdata.app/pricing/
 * https://alpaca.markets/
 * https://tradier.com/individuals/pricing
+
+---
+
+## Session Status / Next Steps
+**Where we left off:**
+- We completed the Phase 1 Screening (Price and Earnings) for a batch of 10 tickers.
+- 8 tickers were filtered out (AAPL, ARM, CSCO, CVNA, ABCL, ABSI, CLVT, CRWD).
+- 2 tickers were promoted to Phase 2: Deep Dive (**ADBE** and **CRM**).
+- **Next Action:** Run Phase 2, Step 3 (Financials) for the promoted candidates by executing `python Scripts/financials.py ADBE CRM` and analyzing the results using `Prompts/prompt_financials.md`.

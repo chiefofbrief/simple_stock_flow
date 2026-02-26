@@ -17,6 +17,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **ASML** (ASML Holding) — lithography monopoly for advanced chip manufacturing
 - **AVGO** (Broadcom) — AI networking, custom ASICs
 - **BSX** (Boston Scientific)
+- **CEG** (Constellation Energy) — **GAAP vs. Adjusted Divergence**: Reported Q4 revenue of $6.07 billion and adjusted EPS of $2.30, beating estimates on AI/data-center power demand. However, GAAP net income fell to $432 million ($1.38 per share) from $852 million a year earlier, driven by higher operating and interest costs, plus increased nuclear refueling/outage days. [Feb 25]
 - **CEK** (Ceotronics) — German military supplier "Hidden Champion," potential new orders [Feb 2] [Digest]
 - **CHKP** (Check Point Software) — JPM AI-Resilient: Cybersecurity
 - **CLS** (Celestica) — AI server/networking hardware
@@ -37,6 +38,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **HOOD** (Robinhood) — -11.5%, crypto turmoil clouding despite prediction market lift [Feb 11] [Digest]
 - **HUBG** (Hub Group) — -18%, $77M financial reporting error [Feb 6] [Digest]. Potential "fat pitch" or value trap depending on whether this is an isolated accounting lapse or indicative of deeper internal control failures.
 - **HUBS** (HubSpot)
+- **IBM** (International Business Machines) — **Narrative Shock (-13%)**: Stock had its worst day in 25 years after Anthropic announced its Claude Code tool could automate modernization of COBOL, threatening IBM's legacy maintenance business. CEO Arvind Krishna called the market reaction "excessive." [Feb 25]
 - **ICHR** (Ichor Holdings) — +35% on earnings beat, semiconductor equipment [Feb 10] [Digest]. "Glamour Metrics" trap. Need to validate if the price surge is supported by actual operating cash flow or just "upbeat outlook" in a reflexive sector.
 - **INTA** (Intapp)
 - **INTC** (Intel) — wafer overflow beneficiary as TSMC capacity tightens
@@ -64,7 +66,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **OWL** (Blue Owl Capital) — Emanuel battered stocks screen
 - **PANW** (Palo Alto Networks) — beaten-down software, heavy short interest [Feb 11] [Digest]
 - **PINS** (Pinterest) — -20% after-hours on weak earnings/restructuring; P/E ~5 with double-digit growth [Feb 12] [Digest]
-- **PYPL** (PayPal) — "Cannibal Stock" - market pricing it like a "melting ice cube" (~$40/share, terminal decline pricing), but fundamentals support margin of safety. Reddit "Buybacks and Math" Thesis: "Honestly I'll probably tap out at 3x, and find a new hated stock... The models I've looked at are 3 to 5 percent growth, all free cash flow goes to financial engineering buying back shares, and it tops out at 180 dollars... I'm in big bc I don't need to believe in maybes. Just buybacks and math and around 120, I'm probably out."
+- **PYPL** (PayPal) — "Cannibal Stock" - market pricing it like a "melting ice cube" (~$40/share, terminal decline pricing), but fundamentals support margin of safety. Reddit "Buybacks and Math" Thesis: "Honestly I'll probably tap out at 3x, and find a new hated stock... The models I've looked at are 3 to 5 percent growth, all free cash flow goes to financial engineering buying back shares, and it tops out at 180 dollars... I'm in big bc I don't need to believe in maybes. Just buybacks and math and around 120, I'm probably out." **Stripe Acquisition Rumor**: Shares jumped 8% following reports from insiders that Stripe is a serious contender for an acquisition of all or parts of the payments company. [Feb 25]
 - **QCOM** (Qualcomm) — memory crunch forcing phone production cuts [Feb 5] [Digest]
 - **QTWO** (Q2 Holdings) — JPM AI-Resilient: Enterprise
 - **QVCGA** (Qurate Retail) — -46%
@@ -75,7 +77,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **SCHW** (Charles Schwab) — Stock in Charles Schwab is down about 13% from Monday’s close... This week, news broke that start-up Insurify launched an app meant for use within the ChatGPT interface that allows users to identify insurance products. This could disrupt the insurance business, but it also sent wealth-management stocks reeling because the market fears such products could also replace human advisors. Charles Schwab looks interesting. First of all, it sees about 27% of its expected $26.5 billion of total 2026 revenue from asset management... So, the advisory business, while important for the company, isn’t its be-all-end-all segment. A company like Altruist is a direct competitor, but customers who already have their finances and information entrenched with Schwab are likely to stick with the platform.
 - **SDGR** (Schrodinger) — down double digits on AI pharma disruption fears (KeyBanc)
 - **SHOP** (Shopify) — -10%, earnings miss but revenue beat + $2B buyback [Feb 11] [Digest]
-- **SNDK** (Sandisk) — memory cycle winner, doubled in 3mo
+- **SNDK** (Sandisk) — memory cycle winner, doubled in 3mo. **Citron Short / Supply Mirage Claim**: Citron Research announced a short, arguing the NAND cycle is peaking. Citron cited Western Digital selling SanDisk holdings at a roughly 25% discount and claimed the shortage is a "supply mirage" that could vanish, with "double the capacity of the 2018 peak waiting in the wings." [Feb 25]
 - **SNOW** (Snowflake) — beaten-down software, heavy short interest [Feb 11] [Digest]
 - **SPGI** (S&P Global) — bear market territory after mixed Q4, AI-driven concerns [Feb 10] [Digest]
 - **STLA** (Stellantis) — -25%, billions in EV write-downs, no dividend [Feb 6] [Digest]

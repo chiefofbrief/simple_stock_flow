@@ -1,0 +1,75 @@
+{
+  "ticker": "ABCL",
+  "as_of": "2026-02-25",
+  "metrics": {
+    "current_pe": null,
+    "pe_1y": null,
+    "pe_3y": 16.8,
+    "pe_5y": 83.93616310904349,
+    "pe_avg": 50.368081554521744,
+    "vs_1y": null,
+    "vs_3y": null,
+    "vs_5y": null,
+    "vs_avg": null,
+    "corr_1y": -0.06,
+    "eps_cagr": null,
+    "stability": 4.669577331698791,
+    "fwd_delta": -0.07672,
+    "next_est": -0.10667,
+    "next_date": "2026-05-07"
+  },
+  "history": {
+    "annual_eps": [
+      {
+        "date": "2026-02-24",
+        "eps": -0.48995
+      },
+      {
+        "date": "2025-02-27",
+        "eps": -0.55
+      },
+      {
+        "date": "2024-02-20",
+        "eps": -0.52
+      },
+      {
+        "date": "2023-02-21",
+        "eps": 0.5
+      },
+      {
+        "date": "2022-02-24",
+        "eps": 0.47
+      },
+      {
+        "date": "2021-03-29",
+        "eps": 0.44927
+      },
+      {
+        "date": "2019-12-31",
+        "eps": -0.01068
+      }
+    ],
+    "quarterly": [
+      {
+        "date": "2026-02-24",
+        "actual": -0.02995,
+        "estimated": -0.18
+      },
+      {
+        "date": "2025-11-06",
+        "actual": -0.19,
+        "estimated": -0.17
+      },
+      {
+        "date": "2025-08-07",
+        "actual": -0.12,
+        "estimated": -0.17
+      },
+      {
+        "date": "2025-05-08",
+        "actual": -0.15,
+        "estimated": -0.17
+      }
+    ]
+  }
+}

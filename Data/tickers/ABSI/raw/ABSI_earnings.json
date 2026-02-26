@@ -1,0 +1,67 @@
+{
+  "ticker": "ABSI",
+  "as_of": "2026-02-25",
+  "metrics": {
+    "current_pe": null,
+    "pe_1y": null,
+    "pe_3y": null,
+    "pe_5y": null,
+    "pe_avg": null,
+    "vs_1y": null,
+    "vs_3y": null,
+    "vs_5y": null,
+    "vs_avg": null,
+    "corr_1y": -0.02,
+    "eps_cagr": null,
+    "stability": 0.6036324054785741,
+    "fwd_delta": 0.04000000000000001,
+    "next_est": -0.16,
+    "next_date": "2026-03-17"
+  },
+  "history": {
+    "annual_eps": [
+      {
+        "date": "2025-11-12",
+        "eps": -0.8999999999999999
+      },
+      {
+        "date": "2024-11-12",
+        "eps": -0.9299999999999999
+      },
+      {
+        "date": "2023-11-14",
+        "eps": -0.98
+      },
+      {
+        "date": "2022-11-09",
+        "eps": -1.2300000000000002
+      },
+      {
+        "date": "2021-11-09",
+        "eps": -2.8459400000000006
+      }
+    ],
+    "quarterly": [
+      {
+        "date": "2025-11-12",
+        "actual": -0.2,
+        "estimated": -0.19
+      },
+      {
+        "date": "2025-08-12",
+        "actual": -0.24,
+        "estimated": -0.19
+      },
+      {
+        "date": "2025-05-13",
+        "actual": -0.21,
+        "estimated": -0.23
+      },
+      {
+        "date": "2025-03-18",
+        "actual": -0.25,
+        "estimated": -0.22
+      }
+    ]
+  }
+}

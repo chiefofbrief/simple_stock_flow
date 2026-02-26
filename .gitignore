@@ -14,8 +14,9 @@ data/discovery/*
 !data/discovery/Daily_Digest_*.md
 
 # Data Screening
-data/screening/*
-!data/screening/Daily_Screening_*.txt
+Data/screening/*
+!Data/screening/Daily_Screening_*.txt
+!Data/screening/Price_Data_*.txt
 
 # Data Tickers
 # Ignore raw data subdirectory entirely
