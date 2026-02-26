@@ -6,6 +6,7 @@
     - `Discovery_Context.md` (Read to see if it mentions why the stock is being screened)
 - **Output:**
     - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Price**`.
+    - Append the full analysis report (Questions + Summary) to the end of the input data file (`Data/screening/Price_Data_{DATE}.txt`).
 
 # Price Analysis Prompt
 
@@ -55,5 +56,17 @@ Please structure your response exactly as follows:
     [Answer using specific metrics]
 
 ---
+**Status Update (Proposed PASS/FILTERED)**
+[PASS / FILTERED]. Provide a 1-sentence rationale based on the price analysis.
+
+---
 **Price Summary**
 [A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
+
+---
+**Instructions for the Assistant:**
+1. **Wait for Approval:** Present this complete analysis and the proposed status update to the user.
+2. **Explicit Ask:** You **MUST** ask: *"Do you approve this recommendation? Should I update the Stock Tracker and append this analysis to the data file?"*
+3. **Write on Approval:** Upon approval:
+    - Append the concise **Price Summary** to `Stock_Tracker.md`.
+    - Append this **full analysis report** (including Q&A and Status Update) to the end of the source data file in `Data/screening/`.

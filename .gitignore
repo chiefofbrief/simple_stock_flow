@@ -9,21 +9,8 @@ __pycache__/
 *.env
 setup_env.sh
 
-# Data Discovery
-data/discovery/*
-!data/discovery/Daily_Digest_*.md
-
-# Data Screening
-Data/screening/*
-!Data/screening/Daily_Screening_*.txt
-!Data/screening/Price_Data_*.txt
-
-# Data Tickers
-# Ignore raw data subdirectory entirely
-data/tickers/*/raw/
-data/tickers/*/*/raw/               # Peer ticker raw data
-
-# Track these write-up outputs:
-# - data/tickers/TICKER/TICKER_statements.md
-# - data/tickers/TICKER/TICKER_sentiment.md
-# - data/screening/Daily_Screening_YYYY-MM-DD.txtarchive/
+# Data Management
+# Ignore all raw data and cache folders
+Data/**/raw/
+Data/**/__pycache__/
+# Everything else in Data (Screening files, Thesis files) will be tracked automatically

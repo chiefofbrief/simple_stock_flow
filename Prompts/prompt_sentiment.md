@@ -2,11 +2,13 @@
 - **Target Ticker:** {TICKER}
 - **Required Data:** `Data/tickers/{TICKER}/{TICKER}_sentiment.md` (Run: `python Scripts/sentiment.py {TICKER} --all`)
 - **Required Context:** 
+    - Analysis Philosophy & Guidelines (`GEMINI.md`)
+    - Screening Context (`Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
     - Financials Analysis (from `Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
-    - `Discovery_Context.md` (Read to see if it mentions why the stock is being screened)
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
 - **Output:**
-    - Append full analysis to `Data/tickers/{TICKER}/{TICKER}_Thesis.md` under `## Sentiment`.
+    - Update **DEEP DIVE > Sentiment** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with the full analysis.
+    - Update **THESIS > Synthesis & Recommendation** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with a refined synthesis.
     - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Sentiment**`.
 
 # Sentiment Analysis Prompt
@@ -22,7 +24,7 @@ You will be provided with:
 
 ## Analysis Guidelines
 
-Analyze the data to answer the following questions. **Crucially, all insights must derive from the provided news and social media content. You must explicitly reference specific articles, posts, or trends that support your conclusions.**
+Analyze the data to answer the following questions. **Crucially, all insights must derive from the provided news and social media content. Your answers must be insightful, explicitly explaining the "why" behind the findings rather than simply stating the sentiment. You must explicitly reference specific articles, posts, or trends that support your conclusions.**
 
 *   **Reference:** Consult source material summaries (`Source Material/summaries/`) when an item would benefit from additional context, especially as it pertains to fundamental analysis, financial statement analysis, accounting mechanics and gimmicks, options strategies, or reflexivity theory and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. CRITICAL WARNING:* Do not access Source Material/raw/ without explicit user permission to avoid burning compute.
 
@@ -48,5 +50,15 @@ Please structure your response exactly as follows:
 [Answer using specific source content]
 
 ---
+**Thesis Update (Section: Synthesis & Recommendation)**
+[Propose an update to the thesis based on the sentiment analysis. Synthesize how this new evidence shifts, supports, or challenges the existing thesis. Include a PASS/FILTERED recommendation for this step.]
+
+---
 **Sentiment Summary**
 [A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
+
+---
+**Instructions for the Assistant:**
+1. **Wait for Approval:** Present this complete analysis and the proposed Thesis update to the user.
+2. **Explicit Ask:** You **MUST** ask: *"Do you approve these updates and the recommendation to [PASS/FILTER]? Should I update the Thesis file and Stock Tracker?"*
+3. **Write on Approval:** Only write the analysis and summary to the files after the user gives explicit approval.

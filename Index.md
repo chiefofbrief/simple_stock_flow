@@ -6,7 +6,7 @@ This is the comprehensive map of the entire investment research workflow reposit
 These files establish the rules of the system and track its outputs.
 
 *   `Index.md` - (You are here) The master directory map.
-*   `Gemini.md` - The foundational rulebook. Contains the Workflow Overview, Mandates, and "Analysis Philosophy & Guidelines".
+*   `GEMINI.md` - The foundational rulebook. Contains the Workflow Overview, Mandates, and "Analysis Philosophy & Guidelines".
 *   `AI_Guidelines.md` - Sector-specific analysis framework applied automatically during Deep Dives for AI-tagged tickers.
 *   `Stock_Tracker.md` - Master dashboard tracking the status (PASS/FILTERED/ACTIVE) of every ticker through the pipeline.
 *   `Discovery_Context.md` - A research bank providing orientation and recent context for prioritizing candidates during the Discovery phase.

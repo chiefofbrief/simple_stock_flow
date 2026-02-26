@@ -66,7 +66,7 @@ SECTION_PATTERNS = {
         },
         'notes': {
             'start': r'NOTES\s+TO\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
-            'ends': [r'ITEM\s+9\.', r'PART\s+III']
+            'ends': [r'ITEM\s+9\.', r'PART\s+III', r'ITEM\s+15\.', r'REPORT\s+OF\s+INDEPENDENT\s+REGISTERED\s+PUBLIC\s+ACCOUNTING\s+FIRM']
         }
     },
     '10-Q': {
@@ -306,47 +306,25 @@ def extract_section_text(html_content, start_pattern, end_patterns):
     valid_matches = [m for m in start_matches if m.start() < threshold]
     non_toc_matches = [m for m in valid_matches if not _is_toc_entry(target_text, m.start())]
 
-    # SELECTION LOGIC:
-    # For Notes sections, especially in 10-Qs, the first match might be a reference 
-    # (e.g. "See Notes to Financial Statements"). We want the substantial section.
-    # If the first valid match yields very little text, try the next one.
-    
-    best_text = ""
-    
-    # Try candidates in reverse order (often the main section is last, after TOCs)
-    # But for 'Item 1', it's usually first.
-    # Let's try a smart approach: iterate through valid matches and pick the longest resulting section
-    
     candidates = non_toc_matches if non_toc_matches else valid_matches
-    
-    # If we have many candidates, check them. If just one, take it.
     if not candidates:
         return ""
-        
-    # Check the last candidate first (often the actual section after TOCs)
-    # Then check others if the last one is too short.
+
+    # SELECTION LOGIC:
+    # 1. For Notes sections, look for the match followed by "NOTE 1" (proximity check)
+    # 2. For MD&A, the last non-TOC match is usually the actual section (original working behavior)
     
-    # Default to the last one as per original logic
-    chosen_start_pos = candidates[-1].start()
-    
-    # Check length if it looks like a "Notes" section search
     if "NOTES" in start_pattern.upper() or "FINANCIAL" in start_pattern.upper():
-        for match in reversed(candidates):
-            start_pos = match.start()
-            
-            # Find end
-            temp_end_pos = len(target_text)
-            for end_pattern in end_patterns:
-                end_match = re.search(end_pattern, target_text[start_pos + 50:], re.IGNORECASE)
-                if end_match:
-                    possible_end = start_pos + 50 + end_match.start()
-                    if possible_end < temp_end_pos:
-                        temp_end_pos = possible_end
-            
-            section_len = temp_end_pos - start_pos
-            if section_len > 1000: # Arbitrary threshold for "substantial" content
-                chosen_start_pos = start_pos
+        chosen_start_pos = candidates[-1].start() # Default to last if proximity fails
+        # Look for "NOTE 1" or "Note 1" within 500 characters of the header
+        for match in candidates:
+            snippet = target_text[match.start():match.start() + 500]
+            if re.search(r'NOTE\s+1\.', snippet, re.IGNORECASE):
+                chosen_start_pos = match.start()
                 break
+    else:
+        # For MD&A, use the last candidate (original behavior)
+        chosen_start_pos = candidates[-1].start()
     
     start_pos = chosen_start_pos
 

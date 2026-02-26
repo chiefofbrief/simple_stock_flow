@@ -108,6 +108,7 @@ TICKER_MAPPING = {
     "MSFT": "Microsoft",
     "AMZN": "Amazon",
     "GOOGL": "Google",
+    "ADBE": "Adobe",
     "META": "Meta",
     "AMD": "AMD",
     "PLTR": "Palantir",

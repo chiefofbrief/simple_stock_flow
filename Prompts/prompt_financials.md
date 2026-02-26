@@ -2,9 +2,12 @@
 - **Target Ticker:** {TICKER}
 - **Required Data:** `Data/tickers/{TICKER}/{TICKER}_financial_analysis.md` (Run: `python Scripts/financials.py {TICKER}`)
 - **Required Context:** 
+    - Analysis Philosophy & Guidelines (`GEMINI.md`)
+    - Screening Context (`Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
 - **Output:**
-    - Append full analysis to `Data/tickers/{TICKER}/{TICKER}_Thesis.md` under `## Financials`.
+    - Update **DEEP DIVE > Financials** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with the full analysis.
+    - Update **THESIS > Synthesis & Recommendation** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with a refined synthesis.
     - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Financials**`.
 
 # Financials Analysis Prompt
@@ -37,7 +40,7 @@ You will be provided with:
 
 ## Analysis Guidelines
 
-Analyze the data to answer the following questions. **Crucially, all insights must leverage the provided data. You must explicitly specify which data points led to your conclusion or contributed to your answer.**
+Analyze the data to answer the following questions. **Crucially, all insights must leverage the provided data. Your answers must be insightful, explicitly explaining the "why" behind the numbers rather than simply stating the metrics. You must specify which data points led to your conclusion.**
 
 *   **Reference:** Consult source material summaries (`Source Material/summaries/`) when an item would benefit from additional context, especially as it pertains to fundamental analysis, financial statement analysis, accounting mechanics and gimmicks, options strategies, or reflexivity theory and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. CRITICAL WARNING:* Do not access Source Material/raw/ without explicit user permission to avoid burning compute.
 *   **Metric Interpretations:** The section at the bottom of this prompt matches exactly the metrics being analyzed and should serve as your primary source of context for each metric before formulating your analysis.
@@ -73,8 +76,18 @@ Please structure your response exactly as follows:
 [Actionable questions or areas for deeper research]
 
 ---
+**Thesis Synthesis & Recommendation**
+[Propose an initial thesis based on the financial analysis as well as the screening context. Include a PASS/FILTERED recommendation for this step.]
+
+---
 **Financials Summary**
 [A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
+
+---
+**Instructions for the Assistant:**
+1. **Wait for Approval:** Present this complete analysis and the proposed Thesis synthesis to the user.
+2. **Explicit Ask:** You **MUST** ask: *"Do you approve these updates and the recommendation to [PASS/FILTER]? Should I update the Thesis file and Stock Tracker?"*
+3. **Write on Approval:** Only write the analysis and summary to the files after the user gives explicit approval.
 
 ---
 ## Metric Interpretations

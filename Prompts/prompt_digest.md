@@ -1,7 +1,7 @@
 # Context Configuration
 - **Target Ticker:** All tickers/themes in the Daily Digest
 - **Required Data:** `Peter's Digest/Daily_Digest_{DATE}.md`
-- **Required Context:** Analysis Philosophy & Guidelines (`Gemini.md`)
+- **Required Context:** Analysis Philosophy & Guidelines (`GEMINI.md`)
 - **Output:** Prepend analysis to the top of `Peter's Digest/Daily_Digest_{DATE}.md` (below the main "Peter's Digest" header).
 
 # Role: Expert Financial Analyst
@@ -11,7 +11,7 @@
 Before beginning any analysis, read **every** headline and post title within the provided Peter's Digest file. Ensure no data point is skipped or overlooked.
 
 ## Framework
-Use the guidelines in your system instructions (`Gemini.md`) as your primary framework for interpreting market events.
+Use the guidelines in your system instructions (`GEMINI.md`) as your primary framework for interpreting market events.
 *   **Standard analysis:** Use the "Analysis Philosophy & Guidelines" for all standard analysis.
 *   **AI sector:** Consult `AI_Guidelines.md` when analyzing stocks within the AI value chain.
 

@@ -187,44 +187,49 @@ def save_raw_files(data, ticker, quarter):
 # ============================================================================
 
 def generate_consolidated_markdown(ticker, quarters_data):
-    """Generate single markdown file with all fetched quarters"""
+    """Generate two separate markdown files: Remarks and Q&A"""
     writeup_dir = get_writeup_directory(ticker)
     ensure_directory_exists(writeup_dir)
     
-    filename = os.path.join(writeup_dir, f"{ticker}_earnings_calls.md")
+    remarks_file = os.path.join(writeup_dir, f"{ticker}_earnings_remarks.md")
+    qa_file = os.path.join(writeup_dir, f"{ticker}_earnings_qa.md")
     
-    with open(filename, 'w', encoding='utf-8') as f:
-        f.write(f"# Earnings Call Analysis: {ticker}\n\n")
-        f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d')}\n")
+    # 1. Generate Remarks File
+    with open(remarks_file, 'w', encoding='utf-8') as f:
+        f.write(f"# Earnings Call Remarks: {ticker}\n\n")
         f.write(f"**Quarters Analyzed:** {', '.join(q['quarter'] for q in quarters_data)}\n\n")
         
-        # Iterate through quarters (assuming sorted newest first)
         for i, q_data in enumerate(quarters_data):
             quarter = q_data['quarter']
             transcript = q_data['data'].get('transcript', [])
-            
             label = "CURRENT QUARTER" if i == 0 else "PRIOR QUARTER"
             
-            f.write(f"---\n\n")
-            f.write(f"# {label}: {quarter}\n\n")
-            
+            f.write(f"---\n# {label}: {quarter}\n\n")
             qa_idx = find_qa_start_index(transcript)
-            
-            # Prepared Remarks
-            f.write("## Prepared Remarks\n\n")
             remarks = transcript[:qa_idx] if qa_idx else transcript
             f.write(format_transcript_segment(remarks))
-            
-            # Q&A
-            if qa_idx:
-                f.write("\n## Q&A Session\n\n")
-                qa = transcript[qa_idx:]
-                f.write(format_transcript_segment(qa))
-            
             f.write("\n")
 
-    print(f"\n✓ Generated consolidated analysis file: {filename}")
-    return filename
+    # 2. Generate Q&A File
+    with open(qa_file, 'w', encoding='utf-8') as f:
+        f.write(f"# Earnings Call Q&A: {ticker}\n\n")
+        f.write(f"**Quarters Analyzed:** {', '.join(q['quarter'] for q in quarters_data)}\n\n")
+        
+        for i, q_data in enumerate(quarters_data):
+            quarter = q_data['quarter']
+            transcript = q_data['data'].get('transcript', [])
+            label = "CURRENT QUARTER" if i == 0 else "PRIOR QUARTER"
+            
+            qa_idx = find_qa_start_index(transcript)
+            if qa_idx:
+                f.write(f"---\n# {label}: {quarter}\n\n")
+                qa = transcript[qa_idx:]
+                f.write(format_transcript_segment(qa))
+                f.write("\n")
+
+    print(f"\n✓ Generated Remarks file: {remarks_file}")
+    print(f"✓ Generated Q&A file: {qa_file}")
+    return remarks_file, qa_file
 
 # ============================================================================
 # MAIN

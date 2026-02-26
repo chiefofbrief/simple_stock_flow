@@ -15,15 +15,16 @@ Build a comprehensive investment thesis for promoted candidates. A dedicated the
 
 ## Workflow Steps
 | Step | Phase | Script | Prompt | Reads | Writes |
-|------|-------|--------|--------|-------|--------|
-| -1. Digest | Discovery | peters_digest.py | prompt_digest.md | News APIs, Digest | Digest |
-| 0. Discovery | Discovery | — | prompt_discovery.md | Digest, User Text | Tracker, Context |
-| 1. Price | Screening | price.py | prompt_price.md | Tracker, Context | Tracker |
-| 2. Earnings | Screening | earnings.py | prompt_earnings.md | Tracker, Context | Tracker |
-| 3. Financials | Deep Dive | financials.py | prompt_financials.md | Nothing | Thesis, Tracker |
-| 4. Sentiment | Deep Dive | sentiment.py | prompt_sentiment.md | Financials, Context | Thesis, Tracker |
-| 5. Footnotes | Deep Dive | footnotes.py | prompt_footnotes.md | Financials, Sentiment | Thesis, Tracker |
-| 6. Earnings Calls | Deep Dive | earnings_calls.py | prompt_earnings_calls.md | Financials, Sentiment, Footnotes | Thesis, Tracker |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1. Digest** | Screening | `peters_digest.py` | `prompt_digest.md` | News APIs, Digest | Digest |
+| **2. Discovery** | Screening | — | `prompt_discovery.md` | Digest, User Text | Tracker, Context |
+| **3. Price** | Screening | `price.py` | `prompt_price.md` | Tracker, Context | Tracker |
+| **4. Earnings** | Screening | `earnings.py` | `prompt_earnings.md` | Tracker, Context | Tracker |
+| **5. Prep** | Deep Dive | — | `prompt_deep_dive_prep.md` | Tracker, Context | Thesis |
+| **6. Financials** | Deep Dive | `financials.py` | `prompt_financials.md` | Thesis | Thesis, Tracker |
+| **7. Sentiment** | Deep Dive | `sentiment.py` | `prompt_sentiment.md` | Thesis, Context | Thesis, Tracker |
+| **8. Footnotes** | Deep Dive | `footnotes.py` | `prompt_footnotes.md` | Thesis | Thesis, Tracker |
+| **9. Earnings Calls** | Deep Dive | `earnings_calls.py` | `prompt_earnings_calls.md` | Thesis | Thesis, Tracker |
 
 ## Key Files
 

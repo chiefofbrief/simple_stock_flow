@@ -412,7 +412,7 @@ def generate_markdown(ticker, data):
         q_header_cols.extend([d, "Δ%"])
     
     q_header = f"| Metric | {' | '.join(q_header_cols)} |\n"
-    q_sep = f"|---|{'---|'*len(q_header_cols)}|\n"
+    q_sep = f"|---|{'---|'*len(q_header_cols)}\n"
 
     def build_table_rows(category_key, rows):
         table_md_annual = ""
@@ -424,9 +424,18 @@ def generate_markdown(ticker, data):
             
             # --- Annual Row ---
             vals = metric_data['annual_values']
+            
+            # Display absolute values for CapEx (since label is "Expenditure")
+            if key == 'capex':
+                vals = [abs(v) if v is not None else None for v in vals]
+                
             d_vals = [None]*(5 - len(vals)) + vals
             ttm = metric_data['ttm_value']
+            if key == 'capex' and ttm is not None: ttm = abs(ttm)
+            
             stats = metric_data['stats']
+            mean_5yr = stats['mean_5yr']
+            if key == 'capex' and mean_5yr is not None: mean_5yr = abs(mean_5yr)
             
             row_a = f"| {label} |"
             
@@ -438,7 +447,9 @@ def generate_markdown(ticker, data):
                 curr = d_vals[i]
                 prev = d_vals[i-1]
                 row_a += f" {format_cell(curr, fmt, div)} |"
-                if curr is not None and prev is not None and prev != 0:
+                
+                # Suppress Delta for Operating Leverage (meaningless ratio of ratios)
+                if key != 'operating_leverage' and curr is not None and prev is not None and prev != 0:
                     delta = (curr - prev) / abs(prev)
                     row_a += f" {format_cell(delta, '{:.1%}', 1, True)} |"
                 else:
@@ -446,7 +457,7 @@ def generate_markdown(ticker, data):
             
             # Stats
             row_a += f" {format_cell(ttm, fmt, div)} |"
-            row_a += f" {format_cell(stats['mean_5yr'], fmt, div)} |"
+            row_a += f" {format_cell(mean_5yr, fmt, div)} |"
             row_a += f" {format_cell(stats['cagr_5yr'], '{:.1%}')} |"
             row_a += f" {format_cell(stats['cv'], '{:.2f}')} |"
             
@@ -454,6 +465,9 @@ def generate_markdown(ticker, data):
             
             # --- Quarterly Row ---
             q_vals = metric_data['quarterly_values']
+            if key == 'capex':
+                q_vals = [abs(v) if v is not None else None for v in q_vals]
+                
             if len(q_vals) < 5:
                 q_vals = [None]*(5 - len(q_vals)) + q_vals
             
@@ -463,7 +477,9 @@ def generate_markdown(ticker, data):
                 prev = q_vals[i-1]
                 
                 row_q += f" {format_cell(curr, fmt, div)} |"
-                if curr is not None and prev is not None and prev != 0:
+                
+                # Suppress Delta for Operating Leverage
+                if key != 'operating_leverage' and curr is not None and prev is not None and prev != 0:
                     delta = (curr - prev) / abs(prev)
                     row_q += f" {format_cell(delta, '{:.1%}', 1, True)} |"
                 else:
