@@ -328,3 +328,39 @@ def load_json(filepath):
     except Exception as e:
         print(f"Error loading JSON from {filepath}: {e}")
     return None
+
+
+def get_company_name(ticker: str) -> str:
+    """Get company name dynamically using FMP API.
+    
+    Args:
+        ticker: Stock ticker symbol
+        
+    Returns:
+        str: Cleaned company name or empty string if not found
+    """
+    fmp_key = os.environ.get('FMP_API_KEY')
+    if not fmp_key:
+        return ""
+        
+    try:
+        url = f"https://financialmodelingprep.com/stable/search-symbol?query={ticker}&limit=5&apikey={fmp_key}"
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            if data and len(data) > 0:
+                for item in data:
+                    if item.get('symbol') == ticker.upper():
+                        name = item.get('name', '')
+                        if not name:
+                            return ""
+                            
+                        # Clean up common corporate suffixes for cleaner searching
+                        # Use regex to ensure we only replace exact suffixes at the end of the string
+                        import re
+                        suffixes_pattern = r'(?i)(?:\s+inc\.?|\s+corp\.?|\s+corporation|\s+company|\s+ltd\.?|\s+plc\.?|\s+group|\s+holdings|,\s*inc\.?)$'
+                        clean_name = re.sub(suffixes_pattern, '', name).strip()
+                        return clean_name
+    except Exception:
+        pass
+    return ""

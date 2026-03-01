@@ -19,7 +19,7 @@ import sys
 import argparse
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional
 
 API_KEY = os.getenv('SOCIAVAULT_API_KEY')
@@ -41,7 +41,7 @@ class YouTubeStockResearch:
         query: str,
         upload_date: Optional[str] = None,
         sort_by: str = "relevance",
-        max_videos: int = 20,
+        max_videos: int = 50,
         include_extras: bool = True
     ) -> List[Dict[str, Any]]:
         """
@@ -198,8 +198,8 @@ class YouTubeStockResearch:
         self,
         ticker: str,
         custom_query: Optional[str] = None,
-        time_period: str = "this_month",
-        max_videos: int = 20,
+        time_period: str = "this_year",
+        max_videos: int = 50,
         include_details: bool = True
     ) -> Dict[str, Any]:
         """
@@ -215,25 +215,52 @@ class YouTubeStockResearch:
         Returns:
             Research results dictionary
         """
-        # Build search query
-        if custom_query:
-            query = custom_query
-        else:
-            # Search for multiple formats: ticker, $ticker, ticker stock
-            query = f"{ticker} stock"
+        # Add parent directory to path for shared_utils if not already present
+        import sys
+        import os
+        utils_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        if utils_path not in sys.path:
+            sys.path.append(utils_path)
+        from shared_utils import get_company_name
 
-        # Search for videos
-        videos = self.search_videos(
-            query=query,
-            upload_date=time_period if time_period != "all_time" else None,
-            max_videos=max_videos
-        )
+        # Build search queries
+        queries = []
+        if custom_query:
+            queries.append(custom_query)
+        else:
+            # Search for ticker
+            queries.append(f"{ticker} stock")
+            
+            # Also search for company name if available
+            company_name = get_company_name(ticker)
+            if company_name:
+                queries.append(f"{company_name} stock")
+
+        all_unique_videos = []
+        seen_urls = set()
+
+        # Execute searches
+        for query in queries:
+            videos = self.search_videos(
+                query=query,
+                upload_date=time_period if time_period != "all_time" else None,
+                max_videos=max_videos
+            )
+            
+            if videos:
+                for v in videos:
+                    url = v.get('url')
+                    if url and url not in seen_urls:
+                        seen_urls.add(url)
+                        all_unique_videos.append(v)
+
+        videos = all_unique_videos
 
         if not videos:
-            print(f"❌ No videos found for '{query}'")
+            print(f"❌ No videos found for '{', '.join(queries)}'")
             return {
                 'ticker': ticker,
-                'query': query,
+                'queries': queries,
                 'time_period': time_period,
                 'timestamp': datetime.now().isoformat(),
                 'videos': [],
@@ -279,7 +306,7 @@ class YouTubeStockResearch:
 
         return {
             'ticker': ticker,
-            'query': query,
+            'queries': queries,
             'time_period': time_period,
             'timestamp': datetime.now().isoformat(),
             'videos': enriched_videos,
@@ -327,12 +354,56 @@ def generate_markdown_output(ticker: str, results: Dict) -> str:
     lines.append(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
     videos = results.get('videos', [])
-    lines.append(f"### Top Videos ({len(videos)})\n")
+    
+    filtered_videos = []
+    cutoff_date = datetime.now() - timedelta(days=90)
+    
+    # Filter for videos with at least 5000 views and within the last 90 days
+    for v in videos:
+        if (v.get('viewCountInt') or 0) < 5000:
+            continue
+            
+        # Parse post date to check age
+        pub_time_str = v.get('publishedTime', '')
+        is_recent = True
+        post_date = 'Unknown Date'
+        
+        if pub_time_str and 'T' in pub_time_str:
+            try:
+                # Format: 2024-02-08T23:02:20.901Z
+                date_part = pub_time_str.split('T')[0]
+                pub_date = datetime.strptime(date_part, '%Y-%m-%d')
+                if pub_date < cutoff_date:
+                    is_recent = False
+                post_date = date_part
+            except Exception:
+                pass
+        else:
+            # Fallback for relative dates like "3 months ago", "1 year ago"
+            text_date = v.get('publishedTimeText', '').lower()
+            if 'year' in text_date or 'years' in text_date:
+                is_recent = False
+            elif 'month' in text_date:
+                try:
+                    months = int(text_date.split(' ')[0])
+                    if months > 3:
+                        is_recent = False
+                except:
+                    pass
+            post_date = v.get('publishedTimeText', 'Unknown Date')
+            
+        if is_recent:
+            v['_formatted_date'] = post_date
+            filtered_videos.append(v)
+    
+    lines.append(f"### Top Videos ({len(filtered_videos)})\n")
 
-    for v in videos[:30]:
+    for v in filtered_videos[:30]:
         channel = v.get('channel', {}).get('title', 'Unknown')
+        post_date = v.get('_formatted_date', 'Unknown Date')
+            
         lines.append(f"#### {v.get('title')}")
-        lines.append(f"**Channel:** {channel}")
+        lines.append(f"**Channel:** {channel} | **Posted:** {post_date}")
         
         views = v.get('viewCountInt') or 0
         likes = v.get('likeCountInt') or 0
@@ -366,10 +437,10 @@ Examples:
     parser.add_argument(
         '--time-period',
         choices=['last_hour', 'today', 'this_week', 'this_month', 'this_year', 'all_time'],
-        default='this_month',
-        help='Time filter for videos (default: this_month)'
+        default='this_year',
+        help='Time filter for videos (default: this_year)'
     )
-    parser.add_argument('--max-videos', type=int, default=20, help='Maximum videos to fetch (default: 20)')
+    parser.add_argument('--max-videos', type=int, default=50, help='Maximum videos to fetch (default: 50)')
     parser.add_argument('--no-details', action='store_true', help='Skip fetching video details and transcripts')
     parser.add_argument('--output', help='Output file path (default: data/tickers/{TICKER}/raw/{TICKER}_youtube_{timestamp}.json)')
     parser.add_argument('--markdown', action='store_true',

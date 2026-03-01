@@ -41,7 +41,7 @@ class TikTokStockResearch:
         query: str,
         date_posted: Optional[str] = None,
         sort_by: str = "relevance",
-        max_videos: int = 20
+        max_videos: int = 15
     ) -> List[Dict[str, Any]]:
         """
         Search TikTok for videos matching query
@@ -233,8 +233,8 @@ class TikTokStockResearch:
         self,
         ticker: str,
         custom_query: Optional[str] = None,
-        time_period: str = "this-month",
-        max_videos: int = 20,
+        time_period: str = "last-3-months",
+        max_videos: int = 15,
         sort_by: str = "relevance",
         include_details: bool = True
     ) -> Dict[str, Any]:
@@ -252,26 +252,53 @@ class TikTokStockResearch:
         Returns:
             Research results dictionary
         """
-        # Build search query
+        # Add parent directory to path for shared_utils if not already present
+        import sys
+        import os
+        utils_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        if utils_path not in sys.path:
+            sys.path.append(utils_path)
+        from shared_utils import get_company_name
+
+        # Build search queries
+        queries = []
         if custom_query:
-            query = custom_query
+            queries.append(custom_query)
         else:
             # Try both ticker formats: "#TSLA stock" and "$TSLA"
-            query = f"#{ticker} stock"
+            queries.append(f"#{ticker} stock")
+            
+            # Also search for company name if available
+            company_name = get_company_name(ticker)
+            if company_name:
+                queries.append(f"{company_name} stock")
 
-        # Search for videos
-        videos = self.search_videos(
-            query=query,
-            date_posted=time_period if time_period != "all_time" else None,
-            sort_by=sort_by,
-            max_videos=max_videos
-        )
+        all_unique_videos = []
+        seen_ids = set()
+
+        # Execute searches
+        for query in queries:
+            videos = self.search_videos(
+                query=query,
+                date_posted=time_period if time_period != "all_time" else None,
+                sort_by=sort_by,
+                max_videos=max_videos
+            )
+            
+            if videos:
+                for v in videos:
+                    vid_id = v.get('aweme_id')
+                    if vid_id and vid_id not in seen_ids:
+                        seen_ids.add(vid_id)
+                        all_unique_videos.append(v)
+
+        videos = all_unique_videos
 
         if not videos:
-            print(f"❌ No videos found for '{query}'")
+            print(f"❌ No videos found for '{', '.join(queries)}'")
             return {
                 'ticker': ticker,
-                'query': query,
+                'queries': queries,
                 'time_period': time_period,
                 'timestamp': datetime.now().isoformat(),
                 'videos': [],
@@ -324,7 +351,7 @@ class TikTokStockResearch:
 
         return {
             'ticker': ticker,
-            'query': query,
+            'queries': queries,
             'time_period': time_period,
             'timestamp': datetime.now().isoformat(),
             'videos': enriched_videos,
@@ -382,12 +409,30 @@ def generate_markdown_output(ticker: str, results: Dict) -> str:
     lines.append(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
     videos = results.get('videos', [])
-    lines.append(f"### Top Videos ({len(videos)})\n")
+    
+    # Filter for videos with at least 5000 views
+    filtered_videos = [v for v in videos if v.get('statistics', {}).get('play_count', 0) >= 5000]
+    
+    lines.append(f"### Top Videos ({len(filtered_videos)})\n")
 
-    for v in videos[:30]:
+    for v in filtered_videos[:30]:
         author = v.get('author', {}).get('unique_id', 'Unknown')
         stats = v.get('statistics', {})
-        lines.append(f"#### Video by @{author}")
+        
+        # Parse post date
+        create_time_utc = v.get('create_time_utc', '')
+        if create_time_utc and 'T' in create_time_utc:
+            post_date = create_time_utc.split('T')[0]
+        elif v.get('create_time'):
+            # Fallback to formatting timestamp if string not available
+            try:
+                post_date = datetime.fromtimestamp(v.get('create_time')).strftime('%Y-%m-%d')
+            except:
+                post_date = 'Unknown Date'
+        else:
+            post_date = 'Unknown Date'
+            
+        lines.append(f"#### Video by @{author} | **Posted:** {post_date}")
         lines.append(f"**Views:** {stats.get('play_count', 0):,} | **Likes:** {stats.get('digg_count', 0):,}")
 
         sent = v.get('sentiment_analysis', {})
@@ -423,8 +468,8 @@ Examples:
     parser.add_argument(
         '--time-period',
         choices=['yesterday', 'this-week', 'this-month', 'last-3-months', 'last-6-months', 'all_time'],
-        default='this-month',
-        help='Time filter for videos (default: this-month)'
+        default='last-3-months',
+        help='Time filter for videos (default: last-3-months)'
     )
     parser.add_argument(
         '--sort-by',
@@ -432,7 +477,7 @@ Examples:
         default='relevance',
         help='Sort method (default: relevance)'
     )
-    parser.add_argument('--max-videos', type=int, default=20, help='Maximum videos to fetch (default: 20)')
+    parser.add_argument('--max-videos', type=int, default=15, help='Maximum videos to fetch (default: 15)')
     parser.add_argument('--no-details', action='store_true', help='Skip fetching video details and transcripts')
     parser.add_argument('--output', help='Output file path (default: data/tickers/{TICKER}/raw/{TICKER}_tiktok_{timestamp}.json)')
     parser.add_argument('--markdown', action='store_true',

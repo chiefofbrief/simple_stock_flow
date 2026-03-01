@@ -40,16 +40,16 @@ The Python automation layer that fetches data, calls the LLM, and writes the out
 *   `peters_digest.py` - Standalone orchestrator for generating daily market overviews.
 
 ### Shared Utilities
-*   `shared_utils.py` - Core toolkit imported by all scripts (handles API requests, token counting, file I/O, etc.).
+*   `shared_utils.py` - Core toolkit imported by all scripts (handles API requests, dynamic company name lookups, token counting, file I/O, etc.).
 
 ### Sentiment Subscripts (`Scripts/Sentiment Scripts/`)
 Data collectors utilized by `sentiment.py`.
 *   `news.py` - Aggregates outputs from the specific news APIs below.
-*   `news_alphavantage.py` - Fetches financial news via AlphaVantage.
-*   `news_perigon.py` - Fetches broad news via Perigon API.
-*   `reddit.py` - Scrapes relevant ticker discussions from Reddit.
-*   `tiktok.py` - (Placeholder/Framework) for scraping TikTok sentiment.
-*   `youtube.py` - (Placeholder/Framework) for scraping YouTube sentiment.
+*   `news_fmp.py` - Fetches financial news via FMP Search Stock News API.
+*   `news_perigon.py` - Fetches high-signal news stories via Perigon API.
+*   `reddit.py` - Searches for ticker and company discussions within targeted investment subreddits.
+*   `tiktok.py` - Searches for high-engagement (5k+ views) ticker/company videos on TikTok.
+*   `youtube.py` - Searches for high-engagement (5k+ views) ticker/company videos on YouTube.
 
 ### Digest Subscripts (`Scripts/Digest Scripts/`)
 Data collectors utilized by `peters_digest.py` to build the daily market report.

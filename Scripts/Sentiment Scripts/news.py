@@ -2,29 +2,14 @@
 News Data Wrapper Script
 ========================
 
-Orchestrates news data collection from Perigon and AlphaVantage APIs.
+Orchestrates news data collection from Perigon and FMP APIs.
+Replaces AlphaVantage with FMP for better volume and reliability.
 
 Usage:
     python news.py TICKER [--months N] [--markdown]
 
 Example:
     python news.py IBM --months 3
-
-Outputs (in data/tickers/{TICKER}/raw/ folder):
-    - {TICKER}_news_perigon.json - Perigon Stories results
-    - {TICKER}_news_alphavantage.json - AlphaVantage NEWS_SENTIMENT results
-    - {TICKER}_news_formatted.md - Human-readable formatted markdown combining both sources
-
-Prerequisites:
-    - PERIGON_API_KEY environment variable must be set
-    - ALPHAVANTAGE_API_KEY environment variable must be set
-    - news_perigon.py and news_alphavantage.py must be in same directory
-
-Notes:
-    - Calls individual news scripts for modularity
-    - Generates combined markdown output
-    - Default 3-month lookback from current date
-    - Supports --markdown flag for master script aggregation
 """
 
 import os
@@ -48,22 +33,22 @@ from shared_utils import (
 # FORMATTED MARKDOWN GENERATION
 # ============================================================================
 
-def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, to_date):
+def generate_news_markdown(ticker, perigon_data, fmp_data, from_date, to_date):
     """Generate human-readable formatted markdown combining both news sources"""
 
     perigon_stories = perigon_data.get('stories', [])
-    av_articles = alphavantage_data.get('articles', [])
+    fmp_articles = fmp_data.get('articles', [])
 
     # Calculate statistics
-    perigon_sources = set()
-    for story in perigon_stories:
-        if story.get('first_article') and story['first_article'].get('source'):
-            perigon_sources.add(story['first_article']['source'])
+    perigon_total_media = sum(story.get('uniqueCount', 1) or 1 for story in perigon_stories)
 
-    av_sources = set()
-    for article in av_articles:
-        if article.get('source'):
-            av_sources.add(article['source'])
+    fmp_sources = set()
+    for article in fmp_articles:
+        source = article.get('publisher') or article.get('site')
+        if source:
+            fmp_sources.add(source)
+
+    # ... (keep time distribution and sentiment logic)
 
     # Time distribution
     perigon_monthly = Counter()
@@ -73,12 +58,12 @@ def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, t
             month_key = date_str[:7]  # YYYY-MM
             perigon_monthly[month_key] += 1
 
-    av_monthly = Counter()
-    for article in av_articles:
-        date_str = article.get('time_published', '')
-        if date_str and len(date_str) >= 6:
-            month_key = f"{date_str[:4]}-{date_str[4:6]}"  # YYYY-MM
-            av_monthly[month_key] += 1
+    fmp_monthly = Counter()
+    for article in fmp_articles:
+        date_str = article.get('publishedDate', '')
+        if date_str and len(date_str) >= 7:
+            month_key = date_str[:7]  # YYYY-MM
+            fmp_monthly[month_key] += 1
 
     # Sentiment stats - Perigon
     perigon_positive = sum(1 for s in perigon_stories if s.get('sentiment', {}).get('positive', 0) > s.get('sentiment', {}).get('negative', 0))
@@ -93,28 +78,6 @@ def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, t
             perigon_avg_composite.append(composite)
     perigon_avg = sum(perigon_avg_composite) / len(perigon_avg_composite) if perigon_avg_composite else 0
 
-    # Sentiment stats - AlphaVantage
-    av_scores = [float(a.get('overall_sentiment_score', 0)) for a in av_articles if a.get('overall_sentiment_score') is not None]
-    av_avg = sum(av_scores) / len(av_scores) if av_scores else 0
-    av_min = min(av_scores) if av_scores else 0
-    av_max = max(av_scores) if av_scores else 0
-    av_median = sorted(av_scores)[len(av_scores)//2] if av_scores else 0
-
-    # Top topics from Perigon
-    topic_counter = Counter()
-    for story in perigon_stories:
-        topics = story.get('topics', [])
-        if topics:
-            for topic in topics:
-                # Topics can be either strings or dicts with 'name' field
-                if isinstance(topic, dict):
-                    topic_name = topic.get('name', '')
-                else:
-                    topic_name = str(topic)
-                if topic_name:
-                    topic_counter[topic_name] += 1
-    top_topics = topic_counter.most_common(5)
-
     # Build markdown
     md = []
     md.append(f"# {ticker} News Data")
@@ -126,19 +89,19 @@ def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, t
     md.append("## Summary Statistics")
     md.append("")
     md.append("### Coverage")
-    md.append(f"- **Perigon:** {len(perigon_stories)} stories from {len(perigon_sources)} sources")
-    md.append(f"- **AlphaVantage:** {len(av_articles)} articles from {len(av_sources)} sources")
-    md.append(f"- **Total:** {len(perigon_stories) + len(av_articles)} items")
+    md.append(f"- **Perigon:** {len(perigon_stories)} stories (aggregated from {perigon_total_media} media items)")
+    md.append(f"- **FMP:** {len(fmp_articles)} articles from {len(fmp_sources)} sources")
+    md.append(f"- **Total:** {len(perigon_stories) + len(fmp_articles)} items")
     md.append("")
 
     # Time Distribution
-    all_months = sorted(set(perigon_monthly.keys()) | set(av_monthly.keys()))
+    all_months = sorted(set(perigon_monthly.keys()) | set(fmp_monthly.keys()), reverse=True)
     if all_months:
         md.append("### Time Distribution")
-        md.append("| Month | Perigon | AlphaVantage |")
-        md.append("|-------|---------|--------------|")
+        md.append("| Month | Perigon | FMP |")
+        md.append("|-------|---------|-----|")
         for month in all_months:
-            md.append(f"| {month} | {perigon_monthly.get(month, 0)} | {av_monthly.get(month, 0)} |")
+            md.append(f"| {month} | {perigon_monthly.get(month, 0)} | {fmp_monthly.get(month, 0)} |")
         md.append("")
 
     # Sentiment Distribution
@@ -149,17 +112,6 @@ def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, t
     md.append(f"- Neutral: {perigon_neutral} stories")
     md.append(f"- Negative-leaning: {perigon_negative} stories")
     md.append("")
-    md.append(f"**AlphaVantage** (avg: {av_avg:.4f})")
-    md.append(f"- Range: {av_min:.4f} to {av_max:.4f}")
-    md.append(f"- Median: {av_median:.4f}")
-    md.append("")
-
-    # Top Topics
-    if top_topics:
-        md.append("### Top Topics (Perigon)")
-        for i, (topic, count) in enumerate(top_topics, 1):
-            md.append(f"{i}. {topic} ({count})")
-        md.append("")
 
     md.append("---")
     md.append("")
@@ -171,17 +123,17 @@ def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, t
     # Sort by date descending
     sorted_stories = sorted(perigon_stories, key=lambda x: x.get('updatedAt', ''), reverse=True)
 
-    for story in sorted_stories[:30]:
+    for story in sorted_stories:
         date_str = story.get('updatedAt', '')[:10] if story.get('updatedAt') else 'Unknown'
         title = story.get('name', 'Untitled')
 
         md.append(f"### {date_str} | {title}")
 
         # Source and URL
-        first_article = story.get('first_article') or {}
-        source = first_article.get('source', 'Unknown')
-        url = first_article.get('url', '')
-        md.append(f"**Source:** {source}")
+        source = story.get('source', 'Unknown')
+        url = story.get('url', '')
+        if source and source != "Unknown":
+            md.append(f"**Source:** {source}")
         if url:
             md.append(f"**URL:** {url}")
 
@@ -211,41 +163,32 @@ def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, t
         md.append("---")
         md.append("")
 
-    # AlphaVantage Articles
-    md.append(f"## AlphaVantage Articles ({len(av_articles)} articles)")
+    # FMP Articles
+    md.append(f"## FMP Articles ({len(fmp_articles)} articles)")
     md.append("")
 
     # Sort by date descending
-    sorted_articles = sorted(av_articles, key=lambda x: x.get('time_published', ''), reverse=True)
+    sorted_articles = sorted(fmp_articles, key=lambda x: x.get('publishedDate', ''), reverse=True)
 
-    for article in sorted_articles[:30]:
-        date_str = article.get('time_published', '')
-        if date_str and len(date_str) >= 8:
-            formatted_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
-        else:
-            formatted_date = 'Unknown'
-
+    for article in sorted_articles:
+        date_str = article.get('publishedDate', '')
+        formatted_date = date_str[:10] if date_str else 'Unknown'
         title = article.get('title', 'Untitled')
 
         md.append(f"### {formatted_date} | {title}")
 
         # Source and URL
-        source = article.get('source', 'Unknown')
+        source = article.get('publisher') or article.get('site') or 'Unknown'
         url = article.get('url', '')
         md.append(f"**Source:** {source}")
         if url:
             md.append(f"**URL:** {url}")
-
-        # Sentiment
-        sentiment_score = article.get('overall_sentiment_score')
-        if sentiment_score is not None:
-            md.append(f"**Sentiment:** {float(sentiment_score):.4f}")
         md.append("")
 
-        # Summary
-        summary = article.get('summary', '')
-        if summary:
-            md.append(summary)
+        # Snippet
+        text = article.get('text', '')
+        if text:
+            md.append(text)
             md.append("")
 
         md.append("---")
@@ -259,11 +202,8 @@ def generate_news_markdown(ticker, perigon_data, alphavantage_data, from_date, t
 # ============================================================================
 
 def main():
-    """Orchestrate news data collection from Perigon and AlphaVantage
-
-    Calls individual news scripts and generates combined markdown output.
-    """
-    parser = argparse.ArgumentParser(description="News Data Wrapper (Perigon + AlphaVantage)")
+    """Orchestrate news data collection from Perigon and FMP"""
+    parser = argparse.ArgumentParser(description="News Data Wrapper (Perigon + FMP)")
     parser.add_argument('target', type=str, help='Target company ticker')
     parser.add_argument('--months', type=int, default=3,
                        help='Number of months to look back (default: 3)')
@@ -277,7 +217,7 @@ def main():
 
     if not markdown_mode:
         print("\n" + "="*60)
-        print("NEWS DATA COLLECTION (PERIGON + ALPHAVANTAGE)")
+        print("NEWS DATA COLLECTION (PERIGON + FMP)")
         print("="*60)
         print(f"Target Company: {ticker}")
         print("="*60 + "\n")
@@ -287,7 +227,7 @@ def main():
 
     # Call individual scripts
     perigon_script = os.path.join(script_dir, 'news_perigon.py')
-    av_script = os.path.join(script_dir, 'news_alphavantage.py')
+    fmp_script = os.path.join(script_dir, 'news_fmp.py')
 
     # Build command arguments
     cmd_args = [ticker, '--months', str(args.months)]
@@ -301,12 +241,12 @@ def main():
         if not markdown_mode:
             print(f"⚠️  Warning: Perigon script failed: {e}")
 
-    # Run AlphaVantage script
+    # Run FMP script
     try:
-        subprocess.run([sys.executable, av_script] + cmd_args, check=True)
+        subprocess.run([sys.executable, fmp_script] + cmd_args, check=True)
     except subprocess.CalledProcessError as e:
         if not markdown_mode:
-            print(f"⚠️  Warning: AlphaVantage script failed: {e}")
+            print(f"⚠️  Warning: FMP script failed: {e}")
 
     # Get date range for metadata
     from_date, to_date = get_date_range_months_back(args.months)
@@ -314,13 +254,13 @@ def main():
     # Load the generated JSON files
     data_dir = get_data_directory(ticker)
     perigon_file = os.path.join(data_dir, f"{ticker}_news_perigon.json")
-    av_file = os.path.join(data_dir, f"{ticker}_news_alphavantage.json")
+    fmp_file = os.path.join(data_dir, f"{ticker}_news_fmp.json")
 
     p_data = load_json(perigon_file) if os.path.exists(perigon_file) else {}
-    a_data = load_json(av_file) if os.path.exists(av_file) else {}
+    f_data = load_json(fmp_file) if os.path.exists(fmp_file) else {}
 
     # Generate combined markdown
-    markdown_output = generate_news_markdown(ticker, p_data, a_data, from_date, to_date)
+    markdown_output = generate_news_markdown(ticker, p_data, f_data, from_date, to_date)
 
     if markdown_mode:
         # Output to stdout for master script
@@ -330,7 +270,7 @@ def main():
         print("\n" + "="*60)
         print(f"✓ News data fetched successfully for {ticker}")
         print(f"  - Perigon: {len(p_data.get('stories', []))} stories")
-        print(f"  - AlphaVantage: {len(a_data.get('articles', []))} articles")
+        print(f"  - FMP: {len(f_data.get('articles', []))} articles")
         print("="*60 + "\n")
 
 if __name__ == "__main__":

@@ -28,8 +28,8 @@ import os
 # Default timeline parameters
 DEFAULT_NEWS_MONTHS = 3
 DEFAULT_REDDIT_DAYS = 90  # 3 months
-DEFAULT_TIKTOK_PERIOD = 'this-month'
-DEFAULT_YOUTUBE_PERIOD = 'this_month'
+DEFAULT_TIKTOK_PERIOD = 'last-3-months'
+DEFAULT_YOUTUBE_PERIOD = 'this_year'
 
 def get_command(source, ticker, args):
     """Get the specific command list for a source based on arguments."""
@@ -170,7 +170,7 @@ def main():
 
     lines = []
     lines.append(f"# {ticker} Sentiment Analysis")
-    lines.append(f"**Generated:** {now.strftime('%A, %B %d, %Y at %H:%M')}")
+    lines.append(f"**Generated:** {now.strftime('%Y-%m-%d %H:%M')}")
     lines.append(f"**Sources:** {', '.join(sources)}")
     lines.append("---\n")
 

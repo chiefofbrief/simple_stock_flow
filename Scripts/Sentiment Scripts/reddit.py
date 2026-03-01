@@ -100,24 +100,6 @@ RETRY_DELAY = 2
 # Target subreddits for stock discussions
 TARGET_SUBREDDITS = ["stocks", "ValueInvesting"]
 
-# Ticker to company name mapping for better search results
-TICKER_MAPPING = {
-    "TSLA": "Tesla",
-    "AAPL": "Apple",
-    "NVDA": "NVIDIA",
-    "MSFT": "Microsoft",
-    "AMZN": "Amazon",
-    "GOOGL": "Google",
-    "ADBE": "Adobe",
-    "META": "Meta",
-    "AMD": "AMD",
-    "PLTR": "Palantir",
-    "GME": "GameStop",
-    "SPY": "S&P 500",
-    "QQQ": "NASDAQ",
-    "VOO": "Vanguard S&P 500",
-}
-
 # ============================================================================
 # API CLIENT
 # ============================================================================
@@ -143,23 +125,25 @@ class SociaVaultClient:
         response.raise_for_status()
         return response.json()
 
-    def fetch_subreddit_posts(self, subreddit: str, timeframe: str = "month", sort: str = "top"):
+    def search_subreddit(self, subreddit: str, query: str, timeframe: str = "year", sort: str = "relevance"):
         """
-        Fetch posts from a specific subreddit with retry logic.
+        Search posts in a specific subreddit with retry logic.
 
         Args:
             subreddit: Subreddit name (without r/ prefix)
+            query: Search query string
             timeframe: Time period (hour, day, week, month, year, all)
-            sort: Sort method (top, new, hot, rising, controversial)
+            sort: Sort method (relevance, hot, top, new, comments)
 
         Returns:
-            API response as dictionary containing posts from the subreddit
+            API response as dictionary containing posts from the search
 
         Raises:
             Exception: If the request fails after all retries
         """
         params = {
             "subreddit": subreddit,
+            "query": query,
             "timeframe": timeframe,
             "sort": sort,
             "trim": False  # Get full data for analysis
@@ -169,7 +153,7 @@ class SociaVaultClient:
         for attempt in range(MAX_RETRIES):
             try:
                 response = requests.get(
-                    f"{SOCIAVAULT_BASE_URL}/scrape/reddit/subreddit",
+                    f"{SOCIAVAULT_BASE_URL}/scrape/reddit/subreddit/search",
                     headers=self.headers,
                     params=params,
                     timeout=REQUEST_TIMEOUT
@@ -232,12 +216,22 @@ def filter_posts_by_date(posts: list, days: int) -> list:
     Returns:
         Filtered list of posts
     """
-    cutoff_timestamp = (datetime.now() - timedelta(days=days)).timestamp()
+    cutoff_date = datetime.now() - timedelta(days=days)
 
-    filtered = [
-        post for post in posts
-        if post.get('created_utc', 0) >= cutoff_timestamp
-    ]
+    filtered = []
+    for post in posts:
+        iso_date = post.get('created_at_iso')
+        if iso_date:
+            try:
+                # Parse ISO date string (e.g., "2026-01-30T18:41:52.000Z")
+                # Handle the 'Z' suffix for Python versions before 3.11
+                if iso_date.endswith('Z'):
+                    iso_date = iso_date[:-1] + '+00:00'
+                post_date = datetime.fromisoformat(iso_date).replace(tzinfo=None)
+                if post_date >= cutoff_date:
+                    filtered.append(post)
+            except ValueError:
+                continue
 
     return filtered
 
@@ -260,7 +254,7 @@ def filter_posts_by_engagement(posts: list, min_score: int, min_comments: int) -
     """
     filtered = [
         post for post in posts
-        if post.get('score', 0) >= min_score or post.get('num_comments', 0) >= min_comments
+        if post.get('votes', 0) >= min_score or post.get('num_comments', 0) >= min_comments
     ]
 
     return filtered
@@ -337,17 +331,28 @@ def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
         Dictionary with ticker data and filtered posts
     """
     try:
-        company_name = TICKER_MAPPING.get(ticker.upper(), "")
+        # Import shared_utils
+        import sys
+        import os
+        sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        from shared_utils import get_company_name
+        
+        company_name = get_company_name(ticker)
         all_posts = []
 
-        # Fetch from each target subreddit (1 credit per subreddit = 3 credits total)
+        # Build search query
+        search_query = f"{ticker}"
+        if company_name:
+            search_query = f"{ticker} OR {company_name}"
+
+        # Fetch from each target subreddit (1 credit per subreddit = 2 credits total)
         for subreddit in TARGET_SUBREDDITS:
             try:
                 if not quiet:
-                    console.print(f"[cyan]  Fetching r/{subreddit}...[/cyan]")
+                    console.print(f"[cyan]  Searching r/{subreddit} for '{search_query}'...[/cyan]")
 
-                # Use year timeframe and filter locally for precise date control
-                data = client.fetch_subreddit_posts(subreddit, timeframe="year", sort="top")
+                # Use year timeframe and sort by relevance
+                data = client.search_subreddit(subreddit, query=search_query, timeframe="year", sort="relevance")
 
                 # Extract posts
                 posts = extract_posts_from_response(data)
@@ -362,19 +367,14 @@ def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
 
             except Exception as e:
                 if not quiet:
-                    console.print(f"[yellow]    ⚠ Error fetching r/{subreddit}: {str(e)}[/yellow]")
+                    console.print(f"[yellow]    ⚠ Error searching r/{subreddit}: {str(e)}[/yellow]")
                 continue
 
         if not quiet:
             console.print(f"[dim]  Total posts from all subreddits: {len(all_posts)}[/dim]")
 
-        # Filter by ticker mention
-        posts = filter_posts_by_ticker(all_posts, ticker, company_name)
-        if not quiet:
-            console.print(f"[dim]  After ticker filter: {len(posts)} posts[/dim]")
-
         # Filter by date
-        posts = filter_posts_by_date(posts, days)
+        posts = filter_posts_by_date(all_posts, days)
         if not quiet:
             console.print(f"[dim]  After date filter ({days} days): {len(posts)} posts[/dim]")
 
@@ -383,8 +383,8 @@ def fetch_ticker_data(client: SociaVaultClient, ticker: str, days: int,
         if not quiet:
             console.print(f"[dim]  After engagement filter: {len(posts)} posts[/dim]")
 
-        # Sort by score (highest engagement first)
-        posts.sort(key=lambda p: p.get('score', 0), reverse=True)
+        # Sort by votes (highest engagement first)
+        posts.sort(key=lambda p: p.get('votes', 0), reverse=True)
 
         # Limit results
         posts = posts[:max_results]
@@ -443,9 +443,12 @@ def display_ticker_results(ticker_data: dict, console: Console):
                         border_style="blue", padding=(1, 2)))
 
     # Stats
-    total_score = sum(p.get('score', 0) for p in posts)
+    total_score = sum(p.get('votes', 0) for p in posts)
     total_comments = sum(p.get('num_comments', 0) for p in posts)
-    avg_upvote_ratio = sum(p.get('upvote_ratio', 0) for p in posts) / len(posts) if posts else 0
+    
+    # upvote_ratio is not always available in search results
+    upvote_ratios = [p.get('upvote_ratio') for p in posts if p.get('upvote_ratio') is not None]
+    avg_upvote_ratio = sum(upvote_ratios) / len(upvote_ratios) if upvote_ratios else 0
 
     stats_table = Table(show_header=False, box=None, padding=(0, 2))
     stats_table.add_column(justify="left")
@@ -454,7 +457,8 @@ def display_ticker_results(ticker_data: dict, console: Console):
     stats_table.add_row("[cyan]Posts Found:", f"[white]{len(posts)}[/white]")
     stats_table.add_row("[cyan]Total Upvotes:", f"[white]{total_score:,}[/white]")
     stats_table.add_row("[cyan]Total Comments:", f"[white]{total_comments:,}[/white]")
-    stats_table.add_row("[cyan]Avg Upvote Ratio:", f"[white]{avg_upvote_ratio:.1%}[/white]")
+    if avg_upvote_ratio > 0:
+        stats_table.add_row("[cyan]Avg Upvote Ratio:", f"[white]{avg_upvote_ratio:.1%}[/white]")
     stats_table.add_row("[cyan]Timeframe:", f"[white]{ticker_data.get('days_back', 'N/A')} days[/white]")
     stats_table.add_row("[cyan]Subreddits:", f"[white]r/{', r/'.join(TARGET_SUBREDDITS)}[/white]")
 
@@ -469,15 +473,25 @@ def display_ticker_results(ticker_data: dict, console: Console):
         console.print(title_text)
 
         # Stats
-        score = post.get('score', 0)
+        score = post.get('votes', 0)
         num_comments = post.get('num_comments', 0)
         upvote_ratio = post.get('upvote_ratio', 0)
-        author = post.get('author', 'unknown')
-        subreddit = post.get('subreddit', 'unknown')
-        created_utc = post.get('created_utc', 0)
-
+        
+        # Extract subreddit name
+        sub = post.get('subreddit', {})
+        subreddit = sub.get('name', 'unknown') if isinstance(sub, dict) else sub
+        
         # Format date
-        post_date = datetime.fromtimestamp(created_utc).strftime("%b %d, %Y")
+        iso_date = post.get('created_at_iso', '')
+        post_date = "Unknown Date"
+        if iso_date:
+            try:
+                if iso_date.endswith('Z'):
+                    iso_date = iso_date[:-1] + '+00:00'
+                dt = datetime.fromisoformat(iso_date)
+                post_date = dt.strftime("%b %d, %Y")
+            except ValueError:
+                pass
 
         stats = f"[green]↑ {score:,}[/green]  •  [blue]{num_comments:,} comments[/blue]"
         if upvote_ratio:
@@ -534,31 +548,50 @@ def generate_markdown_output(ticker_data: dict) -> str:
     lines.append(f"## {header}\n")
 
     # Stats
-    total_score = sum(p.get('score', 0) for p in posts)
+    total_score = sum(p.get('votes', 0) for p in posts)
     total_comments = sum(p.get('num_comments', 0) for p in posts)
-    avg_upvote_ratio = sum(p.get('upvote_ratio', 0) for p in posts) / len(posts) if posts else 0
+    
+    # upvote_ratio is not always available in search results
+    upvote_ratios = [p.get('upvote_ratio') for p in posts if p.get('upvote_ratio') is not None]
+    avg_upvote_ratio = sum(upvote_ratios) / len(upvote_ratios) if upvote_ratios else 0
 
     lines.append(f"**Posts Found:** {len(posts)}")
     lines.append(f"**Total Upvotes:** {total_score:,}")
     lines.append(f"**Total Comments:** {total_comments:,}")
-    lines.append(f"**Avg Upvote Ratio:** {avg_upvote_ratio:.1%}")
+    if avg_upvote_ratio > 0:
+        lines.append(f"**Avg Upvote Ratio:** {avg_upvote_ratio:.1%}")
     lines.append(f"**Timeframe:** {ticker_data.get('days_back', 'N/A')} days")
     lines.append(f"**Subreddits:** r/{', r/'.join(TARGET_SUBREDDITS)}\n")
 
     # Top posts
     for i, post in enumerate(posts[:30], 1):  # Show top 30
         title = post.get('title', 'No title')
-        score = post.get('score', 0)
+        score = post.get('votes', 0)
         num_comments = post.get('num_comments', 0)
         upvote_ratio = post.get('upvote_ratio', 0)
-        subreddit = post.get('subreddit', 'unknown')
-        created_utc = post.get('created_utc', 0)
-
+        
+        # Extract subreddit name
+        sub = post.get('subreddit', {})
+        subreddit = sub.get('name', 'unknown') if isinstance(sub, dict) else sub
+        
         # Format date
-        post_date = datetime.fromtimestamp(created_utc).strftime("%b %d, %Y")
+        iso_date = post.get('created_at_iso', '')
+        post_date = "Unknown Date"
+        if iso_date:
+            try:
+                if iso_date.endswith('Z'):
+                    iso_date = iso_date[:-1] + '+00:00'
+                dt = datetime.fromisoformat(iso_date)
+                post_date = dt.strftime("%b %d, %Y")
+            except ValueError:
+                pass
 
         lines.append(f"### {i}. {title}")
-        lines.append(f"**↑ {score:,}** • {num_comments:,} comments • {int(upvote_ratio * 100)}% upvoted • r/{subreddit} • {post_date}")
+        stats_line = f"**↑ {score:,}** • {num_comments:,} comments"
+        if upvote_ratio:
+            stats_line += f" • {int(upvote_ratio * 100)}% upvoted"
+        stats_line += f" • r/{subreddit} • {post_date}"
+        lines.append(stats_line)
 
         # URL
         permalink = post.get('permalink', '')
@@ -679,8 +712,8 @@ def main():
         if not markdown_mode:
             console.print(f"[green]✓ Available credits: {available_credits}[/green]\n")
 
-        # Warn if low on credits (3 credits per ticker)
-        required_credits = len(tickers) * 3
+        # Warn if low on credits
+        required_credits = len(tickers) * len(TARGET_SUBREDDITS)
         if isinstance(available_credits, (int, float)) and available_credits < required_credits:
             if not markdown_mode:
                 console.print(f"[yellow]⚠ Warning: Low credits. This operation requires {required_credits} credits.[/yellow]\n")
@@ -729,7 +762,7 @@ def main():
         if not markdown_mode:
             console.print("\n" + "═" * console.width)
             console.print(f"\n[green]✓ Completed! Processed {len(tickers)} ticker(s)[/green]")
-            console.print(f"[dim]Total API credits used: {len(tickers) * 3}[/dim]")
+            console.print(f"[dim]Total API credits used: {len(tickers) * len(TARGET_SUBREDDITS)}[/dim]")
 
             total_posts = sum(len(r.get('posts', [])) for r in all_results)
             console.print(f"[dim]Total posts found: {total_posts}[/dim]\n")

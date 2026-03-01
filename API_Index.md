@@ -13,8 +13,9 @@ SociaVault: Social media (i have paid for many credits from sociavault so we can
 # FMP:
 
 ## Company Search
-* Stock Symbol Search API: Easily find the ticker symbol of any stock with the FMP Stock Symbol Search API. Search by symbol across multiple global markets.
-* Company Name Search API: Search for ticker symbols, company names, and exchange details for equity securities and ETFs listed on various exchanges with the FMP Name Search API. This endpoint is useful for retrieving ticker symbols when you know the full or partial company or asset name but not the symbol identifier.
+* Stock Symbol Search API: Easily find the ticker symbol of any stock with the FMP Stock Symbol Search API. Search by symbol across multiple global markets. `https://financialmodelingprep.com/stable/search-symbol`. **NOTE: This is the best endpoint for extracting a company's official name given its ticker.**
+* Company Name Search API: `https://financialmodelingprep.com/stable/search-name`. **NOTE: While this endpoint searches by name, it does not reliably return standard equities/stocks (often returning ETFs or international variants instead). Use the Stock Symbol Search API to look up company names.**
+* Company Profile Data API (v3/v4): **NOTE: The `/api/v3/profile/` and `/api/v4/profile/core` endpoints are largely restricted to legacy tiers and will return a 403 error on standard/newer subscriptions.**
 * CIK API: Easily retrieve the Central Index Key (CIK) for publicly traded companies with the FMP CIK API. Access unique identifiers needed for SEC filings and regulatory documents for a streamlined compliance and financial analysis process.
 * CUSIP API: Easily search and retrieve financial securities information by CUSIP number using the FMP CUSIP API. Find key details such as company name, stock symbol, and market capitalization associated with the CUSIP.
 * ISIN API: Easily search and retrieve the International Securities Identification Number (ISIN) for financial securities using the FMP ISIN API. Find key details such as company name, stock symbol, and market capitalization associated with the ISIN.
@@ -563,9 +564,9 @@ SociaVault: Social media (i have paid for many credits from sociavault so we can
 ## Reddit
 * `GET Subreddit Details`
 * `GET Subreddit Posts`
-* `GET Subreddit Search`
+* `GET Subreddit Search`: `v1/scrape/reddit/subreddit/search` searches specifically within a given subreddit (e.g. `subreddit=wallstreetbets`) and allows boolean queries. Returns max 25 results per request.
 * `GET Post Comments`
-* `GET Search`
+* `GET Search`: `v1/scrape/reddit/search` performs a global search across all of Reddit.
 * `GET Search Ads`
 * `GET Get Ad`
 
