@@ -18,7 +18,7 @@ Follow these steps exactly:
 
 3. **Commit Changes (POST-APPROVAL ONLY):**
    - Only after receiving explicit user approval (e.g., "yes", "go ahead"):
-     - **Stock Tracker:** Append the concise **Price Summary** to `Stock_Tracker.md` under `### {TICKER} > **Price**`.
+     - **Stock Tracker:** Update `Stock_Tracker.md` by strictly following the **Tracker Update Instructions** at the top of that file.
      - **Data File:** Append the **full analysis report** (including Q&A and Status Update) to the end of `Data/screening/Price_Data_{DATE}.txt`.
 
 ## Input Data

@@ -12,12 +12,10 @@
 *(Temporary scratchpad for active session commands, thoughts, and feedback. Wiped regularly.)*
 
 ## Potential Updates
-- **Standardize 'Active Workflow' Pattern:** Apply the sequential "Active Workflow" and consolidated "Analysis Guidelines" structure to all remaining screening (`prompt_earnings.md`) and deep dive prompts to improve instruction following.
+- **Standardize 'Active Workflow' Pattern (IN PROGRESS):** Applied the sequential "Active Workflow" (Read -> Analyze -> Ask -> Write) to `prompt_price.md` and `prompt_earnings.md`. This structure resolves previous failures regarding missing Q&A logs and bypassed decision gates in the Screening phase. Deep dive prompts still require this update.
 - Final Thesis Prompt: Create a dedicated `prompt_thesis_synthesis.md` (or similar) to standardize the final review and recommendation step, ensuring it consistently checks the generated thesis against the original screening flags and reflexivity frameworks.
 - [DEFERRED] Digest: The General Stock News Analysis seems very AI-centric; is this just a coincidence, or is it biased towards AI stocks/news? Status: Decided to continue testing as is for several more sessions to see if the analysis pivots naturally when non-AI news dominates the source data.
-- **Retaining Screening Q&A (FAILED):** Full analysis reports are not being appended to screening files in `Data/screening/` as required by `prompt_price.md` and `prompt_earnings.md`.
-- **Full Analysis in Thesis (FAILED):** Deep Dive prompts are only writing summary paragraphs to Thesis files instead of the full Q&A reports (e.g., HIMS).
-- **Screening Phase Decision Gates (UNVERIFIED/PARTIAL):** The assistant may be bypassing mandatory approval gates or only partially fulfilling them before file writes.
+- **Full Analysis in Thesis (PENDING):** Deep Dive prompts need to be updated to write full Q&A reports to Thesis files instead of just summary paragraphs (e.g., HIMS).
 - **Tracker Status Column:** The "Status" column (PASS/FAIL) needs re-evaluation for tracking phase transitions.
 - **Tracker Digestibility:** Data below the summary table lacks structure/sections.
     - *Ideas:* Group by Phase (Screening/Deep Dive/Filtered), add navigation links/TOC, or a "Recent Activity" log.
@@ -111,6 +109,7 @@ We finished version 0.5 of the workflow on 02-23-2026. Changes mades included:
 - **[COMPLETED]** Master Date: Standardize "Generated" date formatting in `sentiment.py`.
 - **[COMPLETED]** Reddit Search: Transitioning from "Subreddit Scrape" (which missed low-volume tickers) to "Keyword Search". Implemented dynamic FMP company name lookup to enhance search comprehensiveness across Reddit, TikTok, and YouTube.
 - **[COMPLETED] Prompt Restructure (prompt_price.md):** Redesigned the prompt with an "Active Workflow" section at the top to enforce sequential execution (Read -> Analyze -> Ask -> Write). Consolidated "Analysis Guidelines" and "Output Format" into a single section to reduce instruction fragmentation and ensure data-citation rules are followed within the required template.
+- **[COMPLETED] Tracker Reorganization & Reset:** Streamlined `Stock_Tracker.md` into three functional sections (Deep Dive, Screening, Filtered Archive) and implemented a "Ticker Dashboard" sorted by workflow progress. Added "Tracker Update Instructions" to standardize how the assistant updates the log, dashboard, and summaries. Reset all ticker data (except HIMS) to prepare for a fresh screening run.
 
 ---
 
