@@ -19,6 +19,7 @@
 - **Tracker Status Column:** The "Status" column (PASS/FAIL) needs re-evaluation for tracking phase transitions.
 - **Tracker Digestibility:** Data below the summary table lacks structure/sections.
     - *Ideas:* Group by Phase (Screening/Deep Dive/Filtered), add navigation links/TOC, or a "Recent Activity" log.
+- **Earnings Prompt Alignment (PENDING):** Implement the same descriptive summary and `GEMINI.md` integration for `prompt_earnings.md` as was done for the Price phase.
 
 ## Workflow Update (Version 0.5 - 02-23-2026)
 
@@ -110,6 +111,7 @@ We finished version 0.5 of the workflow on 02-23-2026. Changes mades included:
 - **[COMPLETED]** Reddit Search: Transitioning from "Subreddit Scrape" (which missed low-volume tickers) to "Keyword Search". Implemented dynamic FMP company name lookup to enhance search comprehensiveness across Reddit, TikTok, and YouTube.
 - **[COMPLETED] Prompt Restructure (prompt_price.md):** Redesigned the prompt with an "Active Workflow" section at the top to enforce sequential execution (Read -> Analyze -> Ask -> Write). Consolidated "Analysis Guidelines" and "Output Format" into a single section to reduce instruction fragmentation and ensure data-citation rules are followed within the required template.
 - **[COMPLETED] Tracker Reorganization & Reset:** Streamlined `Stock_Tracker.md` into three functional sections (Deep Dive, Screening, Filtered Archive) and implemented a "Ticker Dashboard" sorted by workflow progress. Added "Tracker Update Instructions" to standardize how the assistant updates the log, dashboard, and summaries. Reset all ticker data (except HIMS) to prepare for a fresh screening run.
+- **[COMPLETED] Price Prompt Examples & GEMINI.md Integration:** Added 10 high-signal analysis examples to `prompt_price.md` to distinguish between "Temporary" and "Permanent" losers. Integrated a mandatory step to read `GEMINI.md` at the start of the workflow to ensure foundational analysis philosophy (e.g., Margin of Safety) is applied before data analysis. Updated Price summaries to be more descriptive and metric-heavy.
 
 ---
 

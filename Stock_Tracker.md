@@ -1,13 +1,17 @@
 # Ticker Tracker
 
 ## Recent Activity Log
+- **2026-03-02:** Completed Price screening for 10 [LOSER] tickers; 4 PASS, 6 FILTERED.
 - **2026-03-02:** Completed Deep Dive for **HIMS** (Conviction Buy).
 - **2026-03-02:** Reset Ticker Tracker for new screening run.
 
 ## Tracker Update Instructions
 When updating this file after receiving explicit user approval:
 1.  **Recent Activity Log:** Prepend a new bullet point with today's date and the action taken. Maintain only the 5 most recent entries.
-2.  **Ticker Dashboard:** Update the `Last Run`, `Current Phase`, and `Status` columns for the target ticker in the Master Table. Use the **HIMS** entry as a formatting guide.
+2.  **Ticker Dashboard:** 
+    *   Update the `Last Run`, `Current Phase`, and `Status` columns for the target ticker in the Master Table. Use the **HIMS** entry as a formatting guide.
+    *   **Sorting:** Always move tickers with `PASS` or `ACTIVE` status above the `PENDING` items, in order of their latest workflow step.
+    *   **Filtering:** If a ticker is marked as `FILTERED`, remove its row from the Dashboard table entirely.
 3.  **Analysis Summaries:** 
     *   Append the concise analysis summary to the ticker’s existing `### {TICKER}` block. Use the **HIMS** summary sections below as a formatting guide.
     *   If the ticker's Phase has changed (e.g., Screening → Deep Dive) or it was `FILTERED`, move its entire `### {TICKER}` block to the appropriate section (**Deep Dive**, **Screening**, or **Filtered Archive**).
@@ -19,14 +23,13 @@ When updating this file after receiving explicit user approval:
 | Ticker | Last Run   | Current Phase | Status   | Tags           | Thesis File    |
 |--------|------------|---------------|----------|----------------|----------------|
 | **HIMS**| 2026-03-02 | Earnings Calls| PASS     | [LOSER]        | HIMS_Thesis.md |
-| AAPL   | —          | —             | PENDING  | [LOSER]        | —              |
-| ABCL   | —          | —             | PENDING  | [LOSER]        | —              |
-| ABSI   | —          | —             | PENDING  | [LOSER]        | —              |
-| ADBE   | —          | —             | PENDING  | [LOSER]        | —              |
+| ADBE   | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
+| ARM    | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
+| CRM    | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
+| CRWD   | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
 | AIG    | —          | —             | PENDING  |                | —              |
 | AMD    | —          | —             | PENDING  | [AI]           | —              |
 | AMSC   | —          | —             | PENDING  |                | —              |
-| ARM    | —          | —             | PENDING  | [LOSER]        | —              |
 | ASML   | —          | —             | PENDING  | [AI]           | —              |
 | AVGO   | —          | —             | PENDING  | [AI]           | —              |
 | BSX    | —          | —             | PENDING  |                | —              |
@@ -34,13 +37,8 @@ When updating this file after receiving explicit user approval:
 | CEK    | —          | —             | PENDING  |                | —              |
 | CHKP   | —          | —             | PENDING  |                | —              |
 | CLS    | —          | —             | PENDING  | [AI]           | —              |
-| CLVT   | —          | —             | PENDING  | [LOSER]        | —              |
-| CRM    | —          | —             | PENDING  | [LOSER]        | —              |
-| CRWD   | —          | —             | PENDING  | [LOSER]        | —              |
-| CSCO   | —          | —             | PENDING  | [LOSER]        | —              |
 | CSGP   | —          | —             | PENDING  |                | —              |
 | CSU    | —          | —             | PENDING  |                | —              |
-| CVNA   | —          | —             | PENDING  | [LOSER]        | —              |
 | DDOG   | —          | —             | PENDING  |                | —              |
 | DIS    | —          | —             | PENDING  | [LOSER]        | —              |
 | ENPH   | —          | —             | PENDING  |                | —              |
@@ -127,6 +125,46 @@ Management is pivoting from adversary to distribution partner (re-engaging Novo 
 
 ## Screening
 
+### ADBE
+**Price** | 2026-03-02 | PASS
+ADBE is a high-quality incumbent in a violent 'bust' cycle, down 41% YoY and trading at just 7% of its 52-week range ($259 vs $415 peak). Despite its stable history, it is now at 5-year lows. The 31% discount to its 1-year average price ($375) creates a significant margin of safety if its core enterprise moat remains intact.
+
+### ARM
+**Price** | 2026-03-02 | PASS
+ARM is a dominant growth winner (+37.8% 5Y CAGR) currently undergoing a minor correction, down 7% YoY and trading at 41% of its 52-week range. The current price ($122) represents a rare 8% discount to its 12-month average, offering a high-quality entry point within a strong structural uptrend.
+
+### CRM
+**Price** | 2026-03-02 | PASS
+CRM is a stable software giant experiencing a sharp YoY capitulation, down 35% and trading at just 14% of its 52-week range. Despite a flat long-term CAGR (-2.1%), the current dislocation is anomalous; trading at a 26% discount to its 1-year average ($191 vs $259 avg) provides a significant margin of safety for a high-quality incumbent.
+
+### CRWD
+**Price** | 2026-03-02 | PASS
+CRWD is a high-quality performer (+11.6% 5Y CAGR) in a sudden 15.7% monthly correction, now trading at 31% of its 52-week range. The current price ($381) sits 20% below its 12-month average, representing a significant short-term dislocation for a stock that remains in a structural long-term uptrend.
+
 ---
 
 ## Filtered Archive
+
+### AAPL
+**Price** | 2026-03-02 | FILTERED
+AAPL is a long-term compounder (+16.9% 5Y CAGR) that has fully recovered from its recent dip, trading at 80% of its 52-week high ($264 vs $278 peak). It currently sits 8% above its 12-month average price, negating the 'temporary loser' thesis and offering no margin of safety for reversion.
+
+### ABCL
+**Price** | 2026-03-02 | FILTERED
+ABCL is a 'permanent loser' in a terminal downtrend, down 91% over 5 years with a catastrophic -36.7% CAGR. While up 37% YoY, it remains trapped near historical lows (36% of 52w range) and lacks the stable long-term base required for a temporary mispricing thesis; recent volatility is noise within a structural decline.
+
+### ABSI
+**Price** | 2026-03-02 | FILTERED
+ABSI is a 'permanent loser' experiencing persistent value destruction, down 30% YoY and 48% over 2 years (-39.2% 5Y CAGR). Trading at just 21% of its 52-week range and 11% below its annual average, the stock sits at all-time lows with no established support level or stable history to justify a reversion bet.
+
+### CLVT
+**Price** | 2026-03-02 | FILTERED
+CLVT is a 'permanent loser' down 90% from 5-year highs with a terminal -35.4% CAGR. Although it trades at a massive 49% discount to its 1-year average, this statistical 'upside' is overshadowed by 5 years of consistent value destruction; the stock remains near all-time lows (23% of 52w range) with no signs of structural stabilization.
+
+### CSCO
+**Price** | 2026-03-02 | FILTERED
+CSCO is a steady compounder (+14.5% 5Y CAGR) that has fully absorbed its recent 'AI tax' margin narrative, trading at 73% of its 52-week high ($78 vs $56 low). It now trades at a 9% premium to its 12-month average, negating the 'loser' thesis as the previous sentiment-driven discount has entirely evaporated.
+
+### CVNA
+**Price** | 2026-03-02 | FILTERED
+CVNA is a highly volatile stock (+2.6% 5Y CAGR) that has recovered 39% YoY, currently trading near the midpoint (52%) of its 52-week range. While it trades at a 9% discount to its 1-year average, it lacks the deep 'temporary loser' profile of more stable peers; the current level is far removed from its catastrophic 2022 lows where the true margin of safety existed.
