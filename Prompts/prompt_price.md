@@ -1,17 +1,25 @@
-# Context Configuration
-- **Target Ticker:** {TICKER} (or List of Tickers)
-- **Required Data:** `Data/screening/Price_Data_{DATE}.txt` (Run: `python Scripts/price.py {TICKER} [TICKER...]`)
-- **Required Context:** 
-    - `Stock_Tracker.md` (Check Tags)
-    - `Discovery_Context.md` (Read to see if it mentions why the stock is being screened)
-- **Output:**
-    - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Price**`.
-    - Append the full analysis report (Questions + Summary) to the end of the input data file (`Data/screening/Price_Data_{DATE}.txt`).
-
 # Price Analysis Prompt
 
 ## Role
-You are an expert financial analyst. Your task is to analyze the provided stock price data and produce a concise, insightful report.
+You are an expert financial analyst. Your task is to analyze the provided stock price data for **{TICKER}** and produce a concise, insightful report in the chat window.
+
+## Active Workflow: Sequential Steps
+Follow these steps exactly:
+
+1. **Gather Data & Context (READ FIRST):**
+   - Read `Data/screening/Price_Data_{DATE}.txt` to retrieve the core price metrics for {TICKER}.
+   - Read `Stock_Tracker.md` to identify the stock's current **Tags** (e.g., `[LOSER]`, `[AI]`).
+   - Read `Discovery_Context.md` to understand the original catalyst for screening this stock.
+
+2. **Analyze & Generate Report (In Chat):**
+   - Evaluate the data against the **Analysis Guidelines** below.
+   - Produce the analysis report in the chat window using the exact structure in the **Output Format** section.
+   - End your report with your proposed status (PASS/FILTERED) and the mandatory question: *"Do you approve this recommendation? Should I update the Stock Tracker and append this analysis to the data file?"*
+
+3. **Commit Changes (POST-APPROVAL ONLY):**
+   - Only after receiving explicit user approval (e.g., "yes", "go ahead"):
+     - **Stock Tracker:** Append the concise **Price Summary** to `Stock_Tracker.md` under `### {TICKER} > **Price**`.
+     - **Data File:** Append the **full analysis report** (including Q&A and Status Update) to the end of `Data/screening/Price_Data_{DATE}.txt`.
 
 ## Input Data
 You will be provided with:
@@ -30,14 +38,11 @@ You will be provided with:
     *   `recent_trend`: A list of the last 12 monthly closing prices.
 
 ## Analysis Guidelines
+Analyze the data using the following questions and structure your response exactly as specified. **Crucially, all insights must leverage the provided data; you must explicitly specify which metrics led to your conclusion.**
 
-Analyze the data to answer the following questions. **Crucially, all insights must leverage the provided data. You must explicitly specify which metrics led to your conclusion or contributed to your answer.**
+### Output Format
 
-## Output Format
-
-Please structure your response exactly as follows:
-
-### {TICKER} Price Analysis
+#### {TICKER} Price Analysis
 
 **1. How does the current price compare to historical levels?**
 [Answer using specific metrics]
@@ -62,11 +67,3 @@ Please structure your response exactly as follows:
 ---
 **Price Summary**
 [A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
-
----
-**Instructions for the Assistant:**
-1. **Wait for Approval:** Present this complete analysis and the proposed status update to the user.
-2. **Explicit Ask:** You **MUST** ask: *"Do you approve this recommendation? Should I update the Stock Tracker and append this analysis to the data file?"*
-3. **Write on Approval:** Upon approval:
-    - Append the concise **Price Summary** to `Stock_Tracker.md`.
-    - Append this **full analysis report** (including Q&A and Status Update) to the end of the source data file in `Data/screening/`.

@@ -7,7 +7,6 @@
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
 - **Output:**
     - Update **DEEP DIVE > Financials** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with the full analysis.
-    - Update **THESIS > Synthesis & Recommendation** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with a refined synthesis.
     - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Financials**`.
 
 # Financials Analysis Prompt
@@ -76,17 +75,13 @@ Please structure your response exactly as follows:
 [Actionable questions or areas for deeper research]
 
 ---
-**Thesis Synthesis & Recommendation**
-[Propose an initial thesis based on the financial analysis as well as the screening context. Include a PASS/FILTERED recommendation for this step.]
-
----
 **Financials Summary**
 [A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
 
 ---
 **Instructions for the Assistant:**
-1. **Wait for Approval:** Present this complete analysis and the proposed Thesis synthesis to the user.
-2. **Explicit Ask:** You **MUST** ask: *"Do you approve these updates and the recommendation to [PASS/FILTER]? Should I update the Thesis file and Stock Tracker?"*
+1. **Wait for Approval:** Present this complete analysis to the user.
+2. **Explicit Ask:** You **MUST** ask: *"Do you approve this analysis? Should I update the Thesis file and Stock Tracker?"*
 3. **Write on Approval:** Only write the analysis and summary to the files after the user gives explicit approval.
 
 ---

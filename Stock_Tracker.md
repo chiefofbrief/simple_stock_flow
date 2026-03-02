@@ -30,11 +30,12 @@
 | EVVTY  | —          | —             | PENDING  |                | —              |
 | FROG   | —          | —             | PENDING  |                | —              |
 | GWRE   | —          | —             | PENDING  |                | —              |
-| HIMS   | —          | —             | PENDING  | [LOSER]        | —              |
-| HOOD   | —          | —             | PENDING  | [LOSER]        | —              |
+| HIMS   | 2026-03-02 | Earnings Calls | PASS     | [LOSER]        | HIMS_Thesis.md |
+
+| HOOD   | 2026-03-02 | Earnings      | PASS     | [LOSER]        | —              |
 | HUBG   | —          | —             | PENDING  | [LOSER]        | —              |
 | HUBS   | —          | —             | PENDING  |                | —              |
-| IBM    | —          | —             | PENDING  | [LOSER] [AI]   | —              |
+| IBM    | 2026-03-02 | Earnings      | PASS     | [LOSER] [AI]   | —              |
 | ICHR   | —          | —             | PENDING  | [AI]           | —              |
 | INTA   | —          | —             | PENDING  |                | —              |
 | INTC   | —          | —             | PENDING  | [AI]           | —              |
@@ -47,12 +48,12 @@
 | LYFT   | —          | —             | PENDING  | [LOSER]        | —              |
 | MAT    | —          | —             | PENDING  | [LOSER]        | —              |
 | META   | —          | —             | PENDING  | [AI]           | —              |
-| MSFT   | —          | —             | PENDING  | [LOSER] [AI]   | —              |
+| MSFT   | 2026-03-02 | Prep          | PROMOTED | [LOSER] [AI]   | MSFT_Thesis.md |
 | MU     | —          | —             | PENDING  | [AI]           | —              |
 | NET    | —          | —             | PENDING  |                | —              |
-| NFLX   | —          | —             | PENDING  | [LOSER]        | —              |
+| NFLX   | 2026-03-02 | Price         | FILTERED | [LOSER]        | —              |
 | NIO    | —          | —             | PENDING  |                | —              |
-| NOW    | —          | —             | PENDING  | [LOSER] [AI]   | —              |
+| NOW    | 2026-03-02 | Prep          | PROMOTED | [LOSER] [AI]   | NOW_Thesis.md  |
 | NSC    | —          | —             | PENDING  |                | —              |
 | NVDA   | —          | —             | PENDING  | [AI]           | —              |
 | NVO    | —          | —             | PENDING  | [LOSER]        | —              |
@@ -60,10 +61,10 @@
 | ORCL   | —          | —             | PENDING  | [AI]           | —              |
 | OUST   | —          | —             | PENDING  | [AI]           | —              |
 | OWL    | —          | —             | PENDING  | [LOSER]        | —              |
-| PANW   | —          | —             | PENDING  | [LOSER]        | —              |
+| PANW   | 2026-03-02 | Earnings      | PASS     | [LOSER]        | —              |
 | PINS   | —          | —             | PENDING  | [LOSER]        | —              |
 | PYPL   | —          | —             | PENDING  | [OTHER]        | —              |
-| QCOM   | —          | —             | PENDING  | [LOSER]        | —              |
+| QCOM   | 2026-03-02 | Prep          | PROMOTED | [LOSER]        | QCOM_Thesis.md |
 | QTWO   | —          | —             | PENDING  |                | —              |
 | QVCGA  | —          | —             | PENDING  | [LOSER]        | —              |
 | RIVN   | —          | —             | PENDING  |                | —              |
@@ -71,7 +72,7 @@
 | SDGR   | —          | —             | PENDING  | [LOSER]        | —              |
 | SHOP   | —          | —             | PENDING  | [LOSER]        | —              |
 | SNDK   | —          | —             | PENDING  | [AI]           | —              |
-| SNOW   | —          | —             | PENDING  | [LOSER]        | —              |
+| SNOW   | 2026-03-02 | Earnings      | FILTERED | [LOSER]        | —              |
 | SPGI   | —          | —             | PENDING  | [LOSER]        | —              |
 | STLA   | —          | —             | PENDING  | [LOSER]        | —              |
 | TTD    | —          | —             | PENDING  |                | —              |
@@ -84,6 +85,162 @@
 | WDAY   | —          | —             | PENDING  | [LOSER]        | —              |
 | ZS     | —          | —             | PENDING  | [LOSER]        | —              |
 
+---
+
+### DIS
+**Price** | 2026-03-02 | FILTERED
+DIS sits at 60% of its 52-week range and is essentially flat over 2 years (-3%). While it is down 43% over 5 years, the recent 1-month drop of 6% is not anomalous (Z-score -0.6), and it is only 4% below its 1-year average.
+
+---
+
+### HIMS
+**Price** | 2026-03-02 | PASS
+HIMS is experiencing a violent capitulation, down 46% in the last month (Z-score -1.8) and 68% YoY. It sits at just 1% of its 52-week high. The current drop represents 53% of its maximum 5-year drawdown, and it requires a staggering 183% gain to revert to its 1-year average.
+
+---
+
+### HOOD
+**Price** | 2026-03-02 | PASS
+Despite a massive multi-year run (+653% over 3 years), HOOD has entered a sharp correction, down 23.8% in the last month (Z-score -1.3). It currently sits at 37% of its 52-week range and requires 28% upside to reach its 1-year average.
+
+---
+
+### IBM
+**Price** | 2026-03-02 | PASS
+IBM has suffered a severe short-term shock, falling 21% in the last month (Z-score -3.0). This drop represents 74% of its maximum 5-year drawdown. While long-term performance remains strong (+158% over 5 years), the recent velocity of the decline is highly anomalous for its volatility profile (CV 0.39).
+
+---
+
+### MSFT
+**Price** | 2026-03-02 | PASS
+MSFT is showing unusual weakness, down 8.5% in the last month and 11% the month prior. It sits at just 24% of its 52-week range. While the YoY change is flat (0%), the Z-score of -1.4 and the 18% upside required to revert to its 1-year average indicate a significant departure from its typical steady uptrend.
+
+---
+
+### NFLX
+**Price** | 2026-03-02 | FILTERED
+NFLX contradicts the [LOSER] tag with a 15.3% gain in the last month. While it is down 2% YoY, its Z-score is positive (+1.1), and it remains well above historical lows. No evidence of price-based distress.
+
+---
+
+### NOW
+**Price** | 2026-03-02 | PASS
+NOW is in a deep correction, down 42% YoY and sitting at just 9% of its 52-week high. It has dropped roughly 30% in the last two months combined. A 57% rally is needed to return to its 1-year average, reflecting a major sentiment shift for a stock with a near-flat 5-year CAGR (+0.2%).
+
+---
+
+### PANW
+**Price** | 2026-03-02 | PASS
+PANW has dropped 15.9% in the last month (Z-score -1.9) and 22% YoY. It currently sits at 11% of its 52-week range. The current drop is significant (44% of max 5-year drawdown), and it requires a 26% gain to revert to its 1-year average.
+
+---
+
+### QCOM
+**Price** | 2026-03-02 | PASS
+QCOM is showing steady deterioration, down 7% YoY and 6% in the last month. It sits at 27% of its 52-week range. While not as volatile as others (CV 0.17), it sits 10% below its 1-year average and has lost momentum relative to its 3-year gains.
+
+---
+
+### SNOW
+**Price** | 2026-03-02 | PASS
+SNOW is in a persistent downtrend, losing ~12% for four consecutive months. It is down 35% over 5 years and currently sits at 30% of its 52-week range. The stock requires a 25% gain to revert to its 1-year average.
+
+
+---
+
+### DIS
+**Price** | 2026-03-02 | FILTERED
+DIS sits at 60% of its 52-week range and is essentially flat over 2 years (-3%). While it is down 43% over 5 years, the recent 1-month drop of 6% is not anomalous (Z-score -0.6), and it is only 4% below its 1-year average.
+
+---
+
+### HIMS
+**Price** | 2026-03-02 | PASS
+HIMS is experiencing a violent capitulation, down 46% in the last month (Z-score -1.8) and 68% YoY. It sits at just 1% of its 52-week high. The current drop represents 53% of its maximum 5-year drawdown, and it requires a staggering 183% gain to revert to its 1-year average.
+
+**Earnings** | 2026-03-02 | PASS
+HIMS is a textbook mispricing candidate. While the price has collapsed, the P/E multiple has compressed 82% YoY and 70% below its historical average to 28.3x. Despite the market's "loser" tag, the underlying business is showing explosive growth (EPS CAGR N/A but highly positive trajectory) with high stability.
+
+**Financials** | 2026-03-02 | PASS
+HIMS exhibits phenomenal scaling with a 71.4% 5-year CAGR, and a 2024 inflection point to positive operating margins (currently 4.6% TTM). Earnings quality is exceptionally high (OCF/Net Income 2.36x), confirming reported growth is backed by hard cash flow ($0.30B). While CapEx has surged and Debt/Assets jumped to 58.7%, the core asset-light economic engine remains robust despite the 68% stock price collapse.
+
+**Sentiment** | 2026-03-02 | PASS
+HIMS is the victim of a violent reflexive "bust" cycle as the market's "GLP-1 copycat" narrative has been inverted into a "regulatory death" narrative. Analyst targets have collapsed (Citi to $13.25) and retail sentiment (TikTok/YouTube) is deeply fractured following a Novo Nordisk lawsuit and FDA enforcement action on compounded semaglutide. This "misconception"—fixating on a withdrawn product while ignoring the company's $2.35B broader platform and 2M+ subscribers—is the primary driver of the current mispricing.
+
+**Footnotes** | 2026-03-02 | PASS
+Discovery of a **$1.0B war chest of 0% interest convertible debt** (issued May 2025) which funded the $1.15B Eucalyptus/Zava acquisition. This interest-free capital provides a massive 5-year runway. While filings confirm three federal investigations (DOJ, SEC, and Class Action), the company has already "moved the goalposts" globally (Canada, UK, Japan) to diversify away from US regulatory risk.
+
+**Earnings Calls** | 2026-03-02 | PASS
+Management is pivoting from adversary to distribution partner (re-engaging Novo Nordisk for branded Wegovy) while verticalizing 1M sq ft of proprietary pharmacies. CEO Andrew Dudum's tone is one of "Power, not Panic." The buyback signal from CFO Okupe at these valuations is a strong "Intrinsic Value" indicator. Final Verdict: CONVICTION BUY (High Risk).
+
+---
+
+### HOOD
+**Price** | 2026-03-02 | PASS
+Despite a massive multi-year run (+653% over 3 years), HOOD has entered a sharp correction, down 23.8% in the last month (Z-score -1.3). It currently sits at 37% of its 52-week range and requires 28% upside to reach its 1-year average.
+
+**Earnings** | 2026-03-02 | PASS
+HOOD is exhibiting a major divergence between fundamental performance and market sentiment. With a staggering 198% EPS CAGR, the recent 24% price drop has compressed its P/E to 36.8x, which is 19% below its 1-year average and 11% below its overall average. This is a high-growth business whose multiple is violently adjusting despite robust earnings stability.
+
+---
+
+### IBM
+**Price** | 2026-03-02 | PASS
+IBM has suffered a severe short-term shock, falling 21% in the last month (Z-score -3.0). This drop represents 74% of its maximum 5-year drawdown. While long-term performance remains strong (+158% over 5 years), the recent velocity of the decline is highly anomalous for its volatility profile (CV 0.39).
+
+**Earnings** | 2026-03-02 | PASS
+IBM presents a compelling contrarian setup. The recent 21% price collapse has driven its P/E to 20.8x, which is 13% below its 1-year average. While EPS growth is modest (+5.9% 5-year CAGR), its earnings stability is exceptional (0.09 CV). This is a low-volatility compounder whose multiple has compressed significantly during a sharp, likely narrative-driven shock.
+
+---
+
+### MSFT
+**Price** | 2026-03-02 | PASS
+MSFT is showing unusual weakness, down 8.5% in the last month and 11% the month prior. It sits at just 24% of its 52-week range. While the YoY change is flat (0%), the Z-score of -1.4 and the 18% upside required to revert to its 1-year average indicate a significant departure from its typical steady uptrend.
+
+**Earnings** | 2026-03-02 | PASS
+MSFT is a classic mispricing where business growth has outpaced price action. Despite a robust 18% EPS CAGR and high earnings stability (0.24 CV), the P/E has compressed to 25.5x—a 23% discount to its 5-year average and 13% below its overall average. The market is pricing the tech giant at its cheapest valuation in years despite consistent fundamental performance.
+
+---
+
+### NFLX
+**Price** | 2026-03-02 | FILTERED
+NFLX contradicts the [LOSER] tag with a 15.3% gain in the last month. While it is down 2% YoY, its Z-score is positive (+1.1), and it remains well above historical lows. No evidence of price-based distress.
+
+---
+
+### NOW
+**Price** | 2026-03-02 | PASS
+NOW is in a deep correction, down 42% YoY and sitting at just 9% of its 52-week high. It has dropped roughly 30% in the last two months combined. A 57% rally is needed to return to its 1-year average, reflecting a major sentiment shift for a stock with a near-flat 5-year CAGR (+0.2%).
+
+**Earnings** | 2026-03-02 | PASS
+NOW is undergoing a massive valuation reset that has created a significant opportunity. While EPS has exploded at a 97% CAGR, the P/E has been decimated, falling 59% YoY and a staggering 90% below its historical average to 30.8x. This is a textbook example of extreme multiple compression during a high-growth phase, with a strong negative correlation (-0.75) between price and earnings.
+
+---
+
+### PANW
+**Price** | 2026-03-02 | PASS
+PANW has dropped 15.9% in the last month (Z-score -1.9) and 22% YoY. It currently sits at 11% of its 52-week range. The current drop is significant (44% of max 5-year drawdown), and it requires a 26% gain to revert to its 1-year average.
+
+**Earnings** | 2026-03-02 | PASS
+PANW shows a healthy divergence where fundamentals are improving as the price declines. With a 30.8% EPS CAGR and strong earnings stability (0.44 CV), its P/E of 40.1x is now 37% below its 1-year average and 28% below its historical norm.
+
+---
+
+### QCOM
+**Price** | 2026-03-02 | PASS
+QCOM is showing steady deterioration, down 7% YoY and 6% in the last month. It sits at 27% of its 52-week range. While not as volatile as others (CV 0.17), it sits 10% below its 1-year average and has lost momentum relative to its 3-year gains.
+
+**Earnings** | 2026-03-02 | PASS
+QCOM is trading at "bargain basement" levels. Its P/E has compressed to 11.7x—a 49% discount to its 5-year average and 17% below its 1-year average. With a solid 17.7% EPS CAGR and excellent stability (0.13 CV), the market is essentially pricing the semiconductor leader for zero growth despite its consistent fundamental delivery.
+
+---
+
+### SNOW
+**Price** | 2026-03-02 | PASS
+SNOW is in a persistent downtrend, losing ~12% for four consecutive months. It is down 35% over 5 years and currently sits at 30% of its 52-week range. The stock requires a 25% gain to revert to its 1-year average.
+
+**Earnings** | 2026-03-02 | FILTERED
+SNOW remains fundamentally expensive despite the price drop. At 133.7x P/E, it still commands a massive premium that is 56% above its average, providing zero margin of safety. While the multiple has compressed 77% over 3 years, the lack of a clear 5-year EPS CAGR and the high P/E make it a "glamour metric trap" rather than a value play.
 
 ---
 

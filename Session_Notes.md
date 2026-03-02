@@ -12,17 +12,15 @@
 *(Temporary scratchpad for active session commands, thoughts, and feedback. Wiped regularly.)*
 
 ## Potential Updates
-- Remove the thesis section from analyses.
+- **Standardize 'Active Workflow' Pattern:** Apply the sequential "Active Workflow" and consolidated "Analysis Guidelines" structure to all remaining screening (`prompt_earnings.md`) and deep dive prompts to improve instruction following.
 - Final Thesis Prompt: Create a dedicated `prompt_thesis_synthesis.md` (or similar) to standardize the final review and recommendation step, ensuring it consistently checks the generated thesis against the original screening flags and reflexivity frameworks.
 - [DEFERRED] Digest: The General Stock News Analysis seems very AI-centric; is this just a coincidence, or is it biased towards AI stocks/news? Status: Decided to continue testing as is for several more sessions to see if the analysis pivots naturally when non-AI news dominates the source data.
-- ADBE Specifics (Main Test):
-  - [IN PROGRESS] Sentiment Analysis:
-- Under Investigation:
-    - Clutter: The `tickers` folder has the raw json for every ticker for which the price script was run; is this correct? Seems like a lot of clutter.
-- Clutter: The `tickers` folder has the raw json for every ticker for which the price script was run; is this correct? Seems like a lot of clutter.
-- Tracker comments:
-  - Status column as just pass/fail doesn’t make a lot of sense.
-  - Data is a bit of a mess below the summary table. Seems to be no sections, etc.
+- **Retaining Screening Q&A (FAILED):** Full analysis reports are not being appended to screening files in `Data/screening/` as required by `prompt_price.md` and `prompt_earnings.md`.
+- **Full Analysis in Thesis (FAILED):** Deep Dive prompts are only writing summary paragraphs to Thesis files instead of the full Q&A reports (e.g., HIMS).
+- **Screening Phase Decision Gates (UNVERIFIED/PARTIAL):** The assistant may be bypassing mandatory approval gates or only partially fulfilling them before file writes.
+- **Tracker Status Column:** The "Status" column (PASS/FAIL) needs re-evaluation for tracking phase transitions.
+- **Tracker Digestibility:** Data below the summary table lacks structure/sections.
+    - *Ideas:* Group by Phase (Screening/Deep Dive/Filtered), add navigation links/TOC, or a "Recent Activity" log.
 
 ## Workflow Update (Version 0.5 - 02-23-2026)
 
@@ -86,6 +84,7 @@ We finished version 0.5 of the workflow on 02-23-2026. Changes mades included:
 * Commands Documentation: Restructured `Commands.md` to list the Digest Generation and Market Discovery phases, and added `python` prefixes to all execution commands.
 
 ### Updates After Tests
+- **[COMPLETED] Remove the thesis section from individual analysis prompts.**
 - **[COMPLETED] Gemini.md context issue:** Renamed `Gemini.md` to `GEMINI.md` to trigger automatic loading into context at startup. Updated all internal references in `Index.md` and prompts. Added `GEMINI.md` as required context for all Phase 2 analysis prompts.
 - **[COMPLETED] Discovery Step (prompt_discovery.md):** The system should explicitly ask the user for any additional input (tickers, notes, excerpts from the chat window) before finalizing the step. Currently, it processes the Digest and moves on without prompting for user contributions. **Fix:** Added an explicit instruction to `prompt_discovery.md` to solicit additional input as a textual question before the final proposal.
 - **[COMPLETED] Tool Access / Gitignore Bug:** The `read_file` tool is being blocked from reading `Data/screening/Price_Data_*.txt` due to `.gitignore` rules. Even after adding an exception (`!data/screening/Price_Data_*.txt`), the tool still considers the file ignored. This requires investigation to determine if it's a case-sensitivity issue (`Data/` vs `data/`) or an aggressive caching mechanism within the tool. **Fix:** Simplified `.gitignore` to use `Data/` (uppercase) exclusively and ignore all `**/raw/` and `**/__pycache__/` directories. This ensures all screening/thesis files are tracked automatically without complex exclusion rules.
@@ -111,6 +110,7 @@ We finished version 0.5 of the workflow on 02-23-2026. Changes mades included:
 - **[COMPLETED]** Video Engagement: Implement a 5,000 view minimum threshold and include post dates in `tiktok.py` and `youtube.py` markdown output.
 - **[COMPLETED]** Master Date: Standardize "Generated" date formatting in `sentiment.py`.
 - **[COMPLETED]** Reddit Search: Transitioning from "Subreddit Scrape" (which missed low-volume tickers) to "Keyword Search". Implemented dynamic FMP company name lookup to enhance search comprehensiveness across Reddit, TikTok, and YouTube.
+- **[COMPLETED] Prompt Restructure (prompt_price.md):** Redesigned the prompt with an "Active Workflow" section at the top to enforce sequential execution (Read -> Analyze -> Ask -> Write). Consolidated "Analysis Guidelines" and "Output Format" into a single section to reduce instruction fragmentation and ensure data-citation rules are followed within the required template.
 
 ---
 

@@ -8,7 +8,6 @@
     - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
 - **Output:**
     - Update **DEEP DIVE > Footnotes & MD&A** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with the full analysis.
-    - Update **THESIS > Synthesis & Recommendation** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with a refined synthesis.
     - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Footnotes**`.
 
 # Footnotes & MD&A Analysis Prompt
@@ -50,15 +49,11 @@ Please structure your response exactly as follows:
 [Answer using specific details from the text]
 
 ---
-**Thesis Update (Section: Synthesis & Recommendation)**
-[Propose an update to the thesis based on the footnotes analysis. Synthesize how this new evidence shifts, supports, or challenges the existing thesis. Include a PASS/FILTERED recommendation for this step.]
-
----
 **Footnotes & MD&A Summary**
 [A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
 
 ---
 **Instructions for the Assistant:**
-1. **Wait for Approval:** Present this complete analysis and the proposed Thesis update to the user.
-2. **Explicit Ask:** You **MUST** ask: *"Do you approve these updates and the recommendation to [PASS/FILTER]? Should I update the Thesis file and Stock Tracker?"*
+1. **Wait for Approval:** Present this complete analysis to the user.
+2. **Explicit Ask:** You **MUST** ask: *"Do you approve this analysis? Should I update the Thesis file and Stock Tracker?"*
 3. **Write on Approval:** Only write the analysis and summary to the files after the user gives explicit approval.

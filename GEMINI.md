@@ -25,6 +25,7 @@ Build a comprehensive investment thesis for promoted candidates. A dedicated the
 | **7. Sentiment** | Deep Dive | `sentiment.py` | `prompt_sentiment.md` | Thesis, Context | Thesis, Tracker |
 | **8. Footnotes** | Deep Dive | `footnotes.py` | `prompt_footnotes.md` | Thesis | Thesis, Tracker |
 | **9. Earnings Calls** | Deep Dive | `earnings_calls.py` | `prompt_earnings_calls.md` | Thesis | Thesis, Tracker |
+| **10. Synthesis** | Deep Dive | — | `prompt_thesis_synthesis.md` | Thesis | Thesis, Tracker |
 
 ## Key Files
 
