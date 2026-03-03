@@ -12,6 +12,7 @@ When updating this file after receiving explicit user approval:
     *   Update the `Last Run`, `Current Phase`, and `Status` columns for the target ticker in the Master Table. Use the **HIMS** entry as a formatting guide.
     *   **Sorting:** Always move tickers with `PASS` or `ACTIVE` status above the `PENDING` items, in order of their latest workflow step.
     *   **Filtering:** If a ticker is marked as `FILTERED`, remove its row from the Dashboard table entirely.
+    *   **Tags:** Add the tag(s) assigned during the Discovery phase: [LOSER], [TAILWIND], [AI], [OTHER].
 3.  **Analysis Summaries:** 
     *   Append the concise analysis summary to the ticker’s existing `### {TICKER}` block. Use the **HIMS** summary sections below as a formatting guide.
     *   If the ticker's Phase has changed (e.g., Screening → Deep Dive) or it was `FILTERED`, move its entire `### {TICKER}` block to the appropriate section (**Deep Dive**, **Screening**, or **Filtered Archive**).

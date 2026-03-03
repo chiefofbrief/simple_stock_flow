@@ -2,9 +2,60 @@
 This document summarizes the end-to-end investment research workflow, including phases, steps, file structure, and key dependencies. See `Index.md` for a complete map of repository files, folders, scripts, prompts, and source material, which you should consult to understand available tools and context.
 
 ## Design Philosophy
-The repository is modular by design. Scripts, prompts, data, and source material are organized as independent components that can be run individually or as part of the default workflow. The default workflow is a starting point, not a rigid pipeline — steps can be reordered, skipped, or repeated as the situation demands.
+The repository is modular by design. Scripts, prompts, data, and source material are organized as independent components that can be run individually or as part of the default workflow. **You must heavily consult `Index.md` as the central map for all these modular components, their purposes, and when to use them.** The default workflow is a starting point, not a rigid pipeline — steps can be reordered, skipped, or repeated as the situation demands.
 
 The system follows the default workflow but is expected to suggest deviations — additional scripts, API calls, source material consultation, or new analyses — when the data warrants it. All deviations require user notification and written approval before execution. Written approval means an explicit confirmation in chat (e.g., "yes", "go ahead") before proceeding.
+
+# Analysis Philosophy & Guidelines
+
+## Analytical Conduct
+
+Only proceed when sufficient data is available. If data is insufficient to address a query, say so explicitly and develop a plan for gathering the necessary context using the Source Material and/or APIs (see the Index for additional details).
+
+Limit analysis depth to match importance — accept information gaps when additional data requires disproportionate effort. Separately, acknowledge the limitations of the analysis itself: for businesses with limited data, wide variations in financials, or heavy reliance on growth forecasts, conclusions carry less weight. Projections have a significant impact on sentiment and market price, but a margin of safety cannot be based solely on future growth.
+
+---
+
+## Investment Types
+
+Two investment types are in scope. Classification is the first step — it determines the analytical burden for everything that follows.
+
+**LOSER — Temporary Price Dislocation**
+High-quality businesses with large but solvable one-time problems produce temporary mispricings when the market overreacts to bad news. The resulting divergence between fundamentals and price is the opportunity. The primary analytical question is: *do the fundamentals tell a different story than market sentiment/price, and at what point may the two converge (if ever)?*
+
+Mispricings concentrate in out-of-favor situations: litigation, scandal, distress, disappointment, management upheaval, downgrades. Brand name stocks are particularly attractive candidates — market participants are more likely to hear news of improvement, so these stocks recover faster than secondary stocks when sentiment normalizes.
+
+**TAILWIND — Improvement Due to External Factors**
+Businesses of solid quality where external tailwinds — new technology, market cycles, wars, politics — are likely to improve financials and/or sentiment. The primary analytical question is: *is a fundamental improvement likely, when will it occur, and is that improvement already priced in?*
+
+The analytical edge in TAILWIND investing comes from identifying the flaws in the thesis before the market does. If the flaws are found, losses can be limited when reality arrives. It is when we are unaware of what could go wrong that we have to worry. Two specific hazards apply: (1) the forecast may simply be wrong; (2) even if correct, the improvement may already be priced in — accurate forecasts provide no edge if the market already discounts them.
+
+---
+
+## Financials & Margin of Safety
+
+**Start with economic reality, not reported numbers**
+Focus on cash generation and economic substance, not accounting presentation. GAAP profits ≠ bona fide profits — true profit means owners are wealthier afterward. The purpose of financial reporting is often to obtain cheap capital, not to present economic reality.
+
+This skepticism extends to the metrics that drive price. Revenue growth gets headlines, but sales growth alone does not grow EPS. A stock rising on top-line growth that doesn't translate to earnings improvement is a mispricing candidate when sentiment corrects. The question is always whether reported improvement reflects genuine cash generation or accounting presentation.
+
+**Margin of Safety**
+The goal is safety of principal and adequate return — anything failing either test is speculation. The mechanism is the Margin of Safety: buying below intrinsic value protects against analytical errors, business deterioration, and adverse conditions. Precision is unnecessary — establish whether value is adequate, considerably higher, or lower than price. At sufficiently low prices, even troubled businesses can become investments — downside is limited by the discount to value.
+
+The required MOS is not fixed — it moves with market conditions. When the market is overly optimistic, raise the bar: cheap stocks can still be found, but avoid being too aggressive when prices are elevated. Sentiment is not separate from this calculus. Deeply negative sentiment may produce a wide MOS; strongly positive sentiment may compress it to zero or below. Financials and sentiment must be evaluated together.
+
+---
+
+## Sentiment
+
+Sentiment drives prices, creating opportunities when popularity diverges from value. Prices reflect sentiment, not mathematical risk: public attitude → bids/offers → price.
+
+That a thesis is flawed does not mean we should not invest — as long as other people believe in it and there is a large group left to be convinced. The edge is in looking for the flaws: if found, losses can be limited when the market discovers what we already know. Recognizing flaws that are likely to appear when a hypothesis becomes reality puts you ahead of the game.
+
+**Reflexivity**
+In certain conditions, sentiment doesn't just reflect fundamentals — it creates them. Inflated stock prices can accelerate an underlying trend, enhancing expectations and inflating prices further, until outcomes fail to sustain expectations. Two conditions are required for this dynamic to emerge at the stock level: (1) stock prices must be capable of affecting fundamentals through acquisitions, financing, or incentives; and (2) there must be a flaw in perception that allows the bias to emerge.
+
+A misconception is always involved. What makes it durable is that it is reinforced by genuinely improving fundamentals — this is the fertile fallacy. Eventually a turning point is reached, and once the loop reverses it becomes self-reinforcing in the opposite direction. Reflexivity is not an everyday market occurrence, but when present — as with AI today — it can dominate sentiment entirely. It is worth monitoring, not assuming.
 
 ## Two-Phase Architecture
 ### Phase 1: Screening
@@ -27,55 +78,17 @@ Build a comprehensive investment thesis for promoted candidates. A dedicated the
 | **9. Earnings Calls** | Deep Dive | `earnings_calls.py` | `prompt_earnings_calls.md` | Thesis | Thesis, Tracker |
 | **10. Synthesis** | Deep Dive | — | `prompt_thesis_synthesis.md` | Thesis | Thesis, Tracker |
 
-## Key Files
+## Core Tracking
+For a complete breakdown of all files, **always consult `Index.md`**. Key tracking files include:
+- **`Stock_Tracker.md`**: The single source of truth for tracking ticker progress and tags across all phases. (See the tracker itself for detailed formatting and status instructions).
+- **Thesis Files**: Located in `Data/tickers/{TICKER}/`, built sequentially during Phase 2.
 
-### Tracker
-`Stock_Tracker.md` — Single source of truth for all tickers across all phases. Contains a status dashboard table and a concise LLM-generated summary for each completed analysis step per ticker. Updated automatically after each step. The tracker includes a Tags column per ticker (e.g., [AI], [LOSER]) used to determine which guidance files or specific prompt instructions apply during analysis.
-```markdown
-# Ticker Tracker
+## Resources for Additional Context
+When data or knowledge gaps arise, consult the available resources detailed in our indexes:
 
-| Ticker | Last Run   | Current Phase | Status   | Tags           | Thesis File    |
-|--------|------------|---------------|----------|----------------|----------------|
-| AAPL   | 2026-02-22 | Earnings      | PASS     | [TECH]         | —              |
-| MSFT   | 2026-02-22 | Price         | FILTERED | [LOSER] [AI]   | —              |
-| NVDA   | 2026-02-20 | Earnings Calls| ACTIVE   | [AI]           | NVDA_Thesis.md |
-
----
-
-### AAPL
-**Price** | 2026-02-22 | PASS
-{LLM-generated summary}
-
-**Earnings** | 2026-02-22 | PASS
-{LLM-generated summary}
-
----
-
-### NVDA
-**Price** | 2026-02-20 | PASS
-{LLM-generated summary}
-
-**Earnings** | 2026-02-20 | PASS
-{LLM-generated summary}
-
-**Financials** | 2026-02-20 | PASS
-{LLM-generated summary}
-
-**Sentiment** | 2026-02-20 | PASS
-{LLM-generated summary}
-
-**Footnotes** | 2026-02-20 | PASS
-{LLM-generated summary}
-
-**Earnings Calls** | 2026-02-20 | ACTIVE
-{LLM-generated summary}
-```
-
-### Thesis (per ticker)
-`Data/tickers/{TICKER}/{TICKER}_Thesis.md` — Created when a ticker is promoted to Deep Dive. Seeded with the ticker's screening summaries from the Tracker. Each subsequent analysis step appends its full findings under a dedicated section header.
-
-## Source Material
-Source material is organized into summaries and raw chapters under `Source Material/`. When deeper context is needed, search summaries first. Consult raw chapters only if summaries are insufficient. **CRITICAL:** Before reading any large raw source files (`Source Material/raw/`), you must explicitly state your plan and ask the user for permission to avoid burning compute. See `Index.md` for the full Insights Index mapping topics to specific source files.
+1. **`Index.md` (Source Material)**: Maps topics to specific investment literature (e.g., Graham & Dodd, Soros) found in `Source Material/`. When deeper context is needed, search the summaries first. Consult raw chapters only if summaries are insufficient. 
+   **CRITICAL:** Before reading any large raw source files (`Source Material/raw/`), you must explicitly state your plan and ask the user for permission to avoid burning compute.
+2. **`API_Index.md`**: Maps available APIs and external data endpoints for fetching live prices, news, and financials. Use this when local data is outdated or missing.
 
 **Quick reference — source strengths:**
 
@@ -84,38 +97,3 @@ Source material is organized into summaries and raw chapters under `Source Mater
 *   **The Alchemy of Finance (Soros)** — reflexivity, market psychology, boom/bust cycles
 *   **Options: Beginner to Beyond** — options strategies
 *   **AI_Guidelines.md** (`AI_Guidelines.md`) — AI ecosystem framework, circular revenue dynamics, sector-specific signals, and key tickers by layer. Applied automatically in all Deep Dive prompts for AI-tagged tickers.
-
-## Filtering
-Candidates may be filtered out between any step. Status is updated in the Tracker at each decision point:
-
-*   **PASS** — completed step, proceeding
-*   **FILTERED** — eliminated, no further analysis
-*   **PROMOTED** — advancing from Screening to Deep Dive
-*   **ACTIVE** — Deep Dive in progress
-
-## Analysis Philosophy & Guidelines
-These principles must govern all analysis, interpretation, and thesis generation:
-
-*   **Ground All Interpretations:** Only answer when you have data. If data doesn't exist, say so explicitly—never fill gaps with estimates or assumptions. To fill data or knowledge gaps, you are permitted to leverage the Source Material in addition to the context in the prompts. While you are permitted to use your financial knowledge, we much prefer to rely on the Source Material; if you do use your knowledge, please state that explicitly in your response.
-
-*   **GAAP vs. Economic Reality:** Focus on cash generation and economic substance, not accounting presentation. GAAP profits ≠ bona fide profits—true profit means owners are wealthier afterward. GAAP systematically understates value for intangible-heavy businesses (R&D, IT, brands) by expensing rather than capitalizing. Book value has fallen from 95% (1978) to ~10% (modern FAANG) of market value. Non-GAAP adjustments often exceed GAAP income by 2x. Remember: the purpose of financial reporting is often to obtain cheap capital, not to present economic reality.
-
-*   **Analysis Limitations:** Analysis works best for stable businesses, not those with wide variations. Valuing future growth is hazardous—"little of definite value can be said" about determining prospects. Limit analysis depth to match investment importance; accept information gaps when additional data requires disproportionate effort.
-
-*   **Investment vs. Speculation + Margin of Safety:** True investment requires safety of principal and adequate return — anything failing either test is speculation. The mechanism is the Margin of Safety: buy below intrinsic value. Precision is unnecessary — establish whether value is adequate, considerably higher, or lower than price. This margin protects against analytical errors, business deterioration, and adverse conditions. At sufficiently low prices, even troubled businesses can become investments — downside is limited by the discount to value.
-
-*   **Market Pricing:** Sentiment drives prices, creating opportunities when popularity diverges from value. Prices reflect sentiment, not mathematical risk: public attitude → bids/offers → price. Returns aren't inherent to asset classes—they result from fundamentals and prices paid.
-
-*   **The Two Hazards of Forecasting:** (1) Forecast may be wrong. (2) Even if correct, may already be priced in. Current market price already reflects consensus future prospects—accurate forecasts provide no edge if the market already discounts them.
-
-*   **Opportunity Sources + Brand Name Dynamics:** Best opportunities combine high-quality businesses with large but solvable one-time problems. Mispricings concentrate in out-of-favor situations: litigation, scandal, distress, disappointment, management upheaval, downgrades. Quality limits downside, pessimism creates bargain prices — distinguish temporary problems (depress prices) from permanent impairments (justify low valuations). Brand name stocks are particularly attractive candidates because market participants are more likely to hear news of improvement, so these stocks recover faster than secondary stocks when sentiment normalizes.
-
-*   **Glamour Metrics Trap:** Be skeptical of "glamour" metrics driving price increases. Revenue growth gets headlines, but sales growth alone does not grow EPS. A stock rising on top-line growth that doesn't translate to earnings improvement is a mispricing candidate when sentiment corrects.
-
-*   **All Theses Are Flawed:** That a thesis is flawed does not mean we should not invest—as long as other people believe in it and there is a large group left to be convinced. The edge is in looking for the flaws: if we find them, we can limit losses when the market discovers what we already know. Recognizing flaws that are likely to appear when a hypothesis becomes reality puts you ahead of the game. It is when we are unaware of what could go wrong that we have to worry.
-
-*   **Reflexivity at Stock Level:** A prevailing bias can validate itself by altering a company's operational reality—lowering its cost of capital or inflating the value of its collateral. What appears to be improving "fundamentals" may be an artifact of market sentiment rather than genuine business improvement. Two necessary conditions for a reflexive boom/bust at the stock level: (1) Stock prices must be capable of affecting fundamentals (through acquisitions, financing, incentives), and (2) There must be a flaw in perception that allows the bias to emerge.
-
-*   **Boom/Bust Anatomy:** Watch for reflexive feedback loops where inflated stock prices accelerate an underlying trend, which enhances expectations and inflates prices further—until outcomes fail to sustain expectations. A misconception is always involved (e.g., Conglomerate boom valuing per-share earnings identically; Tech boom valuing revenue multiples). In each case the misconception was reinforced by genuinely improving fundamentals—this is the fertile fallacy. Eventually a turning point is reached, and once stocks decline the trend becomes self-reinforcing in the opposite direction. Reflexivity may or may not give rise to a full boom/bust sequence.
-
-*   **Cautionary Posture:** When the market is overly optimistic, be more selective. Cheap stocks can still be found, but raise the bar and avoid being too aggressive when prices are elevated.

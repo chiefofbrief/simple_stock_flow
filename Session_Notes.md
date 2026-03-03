@@ -13,6 +13,8 @@
 
 ## Potential Updates
 - **Standardize 'Active Workflow' Pattern (IN PROGRESS):** Applied the sequential "Active Workflow" (Read -> Analyze -> Ask -> Write) to `prompt_price.md` and `prompt_earnings.md`. This structure resolves previous failures regarding missing Q&A logs and bypassed decision gates in the Screening phase. Deep dive prompts still require this update.
+- **[PENDING] Tailwind Logic in Analysis Prompts:** Update `prompt_price.md` and `prompt_earnings.md` to include specific analytical focus and questions for `[TAILWIND]`-tagged tickers, similar to the existing `[LOSER]` logic.
+- **[PENDING] Tailwind Tagging in Discovery Prompt:** Update `prompt_discovery.md` to include `[TAILWIND]` tagging logic for newly identified candidates.
 - Final Thesis Prompt: Create a dedicated `prompt_thesis_synthesis.md` (or similar) to standardize the final review and recommendation step, ensuring it consistently checks the generated thesis against the original screening flags and reflexivity frameworks.
 - [DEFERRED] Digest: The General Stock News Analysis seems very AI-centric; is this just a coincidence, or is it biased towards AI stocks/news? Status: Decided to continue testing as is for several more sessions to see if the analysis pivots naturally when non-AI news dominates the source data.
 - **Full Analysis in Thesis (PENDING):** Deep Dive prompts need to be updated to write full Q&A reports to Thesis files instead of just summary paragraphs (e.g., HIMS).
