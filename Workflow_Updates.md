@@ -1,6 +1,7 @@
 
 
 ## Workflow Updates (Version 0.6)
+
 - **[COMPLETED] Remove the thesis section from individual analysis prompts.**
 - **[COMPLETED] Gemini.md context issue:** Renamed `Gemini.md` to `GEMINI.md` to trigger automatic loading into context at startup. Updated all internal references in `Index.md` and prompts. Added `GEMINI.md` as required context for all Phase 2 analysis prompts.
 - **[COMPLETED] Discovery Step (prompt_discovery.md):** The system should explicitly ask the user for any additional input (tickers, notes, excerpts from the chat window) before finalizing the step. Currently, it processes the Digest and moves on without prompting for user contributions. **Fix:** Added an explicit instruction to `prompt_discovery.md` to solicit additional input as a textual question before the final proposal.
