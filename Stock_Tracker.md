@@ -1,6 +1,7 @@
 # Ticker Tracker
 
 ## Recent Activity Log
+- **2026-03-05:** Completed Discovery phase; updated tracking for AVGO, TTD and added JD, VSCO, CRWV.
 - **2026-03-02:** Completed Price screening for 10 [LOSER] tickers; 4 PASS, 6 FILTERED.
 - **2026-03-02:** Completed Deep Dive for **HIMS** (Conviction Buy).
 - **2026-03-02:** Reset Ticker Tracker for new screening run.
@@ -32,12 +33,13 @@ When updating this file after receiving explicit user approval:
 | AMD    | —          | —             | PENDING  | [AI]           | —              |
 | AMSC   | —          | —             | PENDING  |                | —              |
 | ASML   | —          | —             | PENDING  | [AI]           | —              |
-| AVGO   | —          | —             | PENDING  | [AI]           | —              |
+| AVGO   | —          | —             | PENDING  | [AI] [TAILWIND]| —              |
 | BSX    | —          | —             | PENDING  |                | —              |
 | CEG    | —          | —             | PENDING  | [AI]           | —              |
 | CEK    | —          | —             | PENDING  |                | —              |
 | CHKP   | —          | —             | PENDING  |                | —              |
 | CLS    | —          | —             | PENDING  | [AI]           | —              |
+| CRWV   | —          | —             | PENDING  | [AI] [TAILWIND]| —              |
 | CSGP   | —          | —             | PENDING  |                | —              |
 | CSU    | —          | —             | PENDING  |                | —              |
 | DDOG   | —          | —             | PENDING  |                | —              |
@@ -56,6 +58,7 @@ When updating this file after receiving explicit user approval:
 | INTU   | —          | —             | PENDING  |                | —              |
 | IOT    | —          | —             | PENDING  |                | —              |
 | IT     | —          | —             | PENDING  | [LOSER]        | —              |
+| JD     | —          | —             | PENDING  | [LOSER]        | —              |
 | KD     | —          | —             | PENDING  | [LOSER]        | —              |
 | LITE   | —          | —             | PENDING  | [AI]           | —              |
 | LRCX   | —          | —             | PENDING  | [AI]           | —              |
@@ -89,13 +92,14 @@ When updating this file after receiving explicit user approval:
 | SNOW   | —          | —             | PENDING  | [LOSER]        | —              |
 | SPGI   | —          | —             | PENDING  | [LOSER]        | —              |
 | STLA   | —          | —             | PENDING  | [LOSER]        | —              |
-| TTD    | —          | —             | PENDING  |                | —              |
+| TTD    | —          | —             | PENDING  | [LOSER]        | —              |
 | TWLO   | —          | —             | PENDING  |                | —              |
 | TYL    | —          | —             | PENDING  |                | —              |
 | UNP    | —          | —             | PENDING  |                | —              |
 | UPWK   | —          | —             | PENDING  | [LOSER]        | —              |
 | VEEV   | —          | —             | PENDING  |                | —              |
 | VRT    | —          | —             | PENDING  | [AI]           | —              |
+| VSCO   | —          | —             | PENDING  | [LOSER]        | —              |
 | WDAY   | —          | —             | PENDING  | [LOSER]        | —              |
 | ZS     | —          | —             | PENDING  | [LOSER]        | —              |
 

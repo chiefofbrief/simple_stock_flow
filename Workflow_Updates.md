@@ -2,6 +2,10 @@
 
 ## Workflow Updates (Version 0.6)
 
+- **[COMPLETED] Discovery Phase Overhaul:** Completely restructured `prompt_digest.md` and `prompt_discovery.md` to use the sequential "Active Workflow" pattern (Read -> Analyze -> Ask -> Write). Replaced "Analysis Guidelines" with "Deliverable Requirements" to prevent confusion with `GEMINI.md`. Implemented a two-phase Gap Analysis in the Discovery prompt to force processing of the Digest first, followed by explicit solicitation of user ad-hoc input before finalization.
+- **[COMPLETED] Tailwind Tagging Integration:** Removed explicit tagging definitions from the Discovery prompts and instructed them to reference the core investment types (`[LOSER]`, `[TAILWIND]`) directly from `GEMINI.md`.
+- **[COMPLETED] Tracker Instructions Enforcement:** Updated `prompt_discovery.md` to explicitly enforce the "Tracker Update Instructions" when modifying `Stock_Tracker.md`.
+- **[COMPLETED] Tracker Formatting:** Updated `Stock_Tracker.md` to include daily discovery entries, maintaining alphabetical sorting for PENDING items and ensuring tag updates are correctly applied.
 - **[COMPLETED] Remove the thesis section from individual analysis prompts.**
 - **[COMPLETED] Gemini.md context issue:** Renamed `Gemini.md` to `GEMINI.md` to trigger automatic loading into context at startup. Updated all internal references in `Index.md` and prompts. Added `GEMINI.md` as required context for all Phase 2 analysis prompts.
 - **[COMPLETED] Discovery Step (prompt_discovery.md):** The system should explicitly ask the user for any additional input (tickers, notes, excerpts from the chat window) before finalizing the step. Currently, it processes the Digest and moves on without prompting for user contributions. **Fix:** Added an explicit instruction to `prompt_discovery.md` to solicit additional input as a textual question before the final proposal.

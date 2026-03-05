@@ -15,7 +15,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **AMZN** (Amazon) — Bought at $222.71 on Feb 5. CapEx pivot to hyper-investment ($123B run-rate). Strong OCF ($116B), exceptional credit quality (Debt/OCF < 0.5). Current Selloff [Feb 11]: At $204.04, "worst run since 2022," losing $400B+ market cap over 7 sessions. Narrative is bearish (general AI CapEx fear). Assessment: Q4 results already confirmed CapEx pivot thesis. Current price represents deeper discount from entry. Appears to be sentiment contagion rather than new information.
 - **ARM** (ARM Holdings) — memory crunch forcing phone production cuts [Feb 5] [Digest]
 - **ASML** (ASML Holding) — lithography monopoly for advanced chip manufacturing
-- **AVGO** (Broadcom) — AI networking, custom ASICs
+- **AVGO** (Broadcom) — AI networking, custom ASICs. **Earnings Beat & Raise**: Broadcom released Q1 2026 earnings results beating Wall Street estimates driven by demand for AI infrastructure. Has massive $73B AI backlog, sticky VMware software, huge free cash flow (~$27B), and a new $1B share buyback program. [March 05, 2026]
 - **BSX** (Boston Scientific)
 - **CEG** (Constellation Energy) — **GAAP vs. Adjusted Divergence**: Reported Q4 revenue of $6.07 billion and adjusted EPS of $2.30, beating estimates on AI/data-center power demand. However, GAAP net income fell to $432 million ($1.38 per share) from $852 million a year earlier, driven by higher operating and interest costs, plus increased nuclear refueling/outage days. [Feb 25]
 - **CEK** (Ceotronics) — German military supplier "Hidden Champion," potential new orders [Feb 2] [Digest]
@@ -24,6 +24,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **CLVT** (Clarivate) — -20%, AI-fear selloff on data provider disruption thesis [Feb 3] [Digest]
 - **CRM** (Salesforce) — -27% YoY, P/E 18x vs. 34x avg, heavy short interest [Feb 11] [Digest]. EPS peaked at $10.19 (FY2025) and declined to $7.79 (FY2026, -24%). Unlike NOW, the decline is real — but CRM has beaten estimates every quarter (1-14% surprises). AI Strategy [Feb 11]: "Salesforce is the place, AI is the service." Not pushing standalone AI agents — embedding AI on private customer data. The real value: AI operating on proprietary cross-department data.
 - **CRWD** (CrowdStrike) — beaten-down software, heavy short interest [Feb 11] [Digest]
+- **CRWV** (CoreWeave) — **AI Infrastructure Expansion**: CoreWeave signed a multi-year deal to run Perplexity's inference and AI workloads using dedicated NVIDIA GB200 NVL72 clusters. CoreWeave plans $30–$35 billion of capital expenditures in 2026 and targets >1.7 gigawatts of active power by year-end. CRWV shares rose ~5.7–6% in premarket. [March 05, 2026]
 - **CSCO** (Cisco Systems) — worst Dow performer (-12%); gross margin contracting to 67.5% on AI memory costs [Feb 12] [Digest]. Cisco reported better-than-expected fiscal second-quarter earnings and revenue after the stock market closed on Wednesday. But by late Thursday morning, the shares were down 10% to $76.74...Margin data disclosed Wednesday were a major reason for Thursday’s decline. Chief Financial Officer Mark Patterson said on a call to discuss the results that total non-GAAP gross margin came in at 67.5%, down 1.20 percentage points from the previous year. In the third quarter, Cisco expects a gross margin of between 65.5% and 66.5%. The "AI Tax": The margin pressure is driven by rising component costs, specifically memory (HBM/DRAM), which have surged in price due to AI data center buildout demand. Cisco sits in a structural squeeze: paying the elevated input costs to memory suppliers but competing in enterprise networking markets where pricing power is limited.
 - **CSGP** (CoStar Group) — JPM AI-Resilient: Enterprise
 - **CSU** (Constellation Software)
@@ -45,6 +46,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **INTU** (Intuit) — For context: I run a small boutique accounting firm (12 employees)... In my day-to-day experience, QuickBooks Online is the strongest overall product in that group. It’s the most polished, the workflows make sense... I know the accounting industry is heading into serious disruption but I don’t think AI “replaces accounting/tax software.” If anything, it makes those platforms more valuable, because the software becomes the system of record and the place AI actually plugs into. Intuit has historically been early to major shifts (cloud adoption, integrations, etc), and QBO already has AI baked into the product experience in a way that feels practical, not gimmicky. One other point that doesn’t get talked about enough: support... We often get a call back within minutes when we need tech support.
 - **IOT** (Samsara) — Physical AI platform, co-founder led, Andreessen on board, Rule of 40, debt-free. Only large-scale Physical AI play generating actual positive ROI for customers. While others struggle to realize AI returns in business operations, Samsara is already doing it at scale.
 - **IT** (Gartner) — -21%, AI-fear selloff on data provider disruption thesis [Feb 3] [Digest]. Critical Anomaly: Q3 2025 EPS of $0.47 vs. $2.12 estimate (-77.8% miss). Surrounding quarters are normal. Almost certainly a one-time charge — needs explanation before proceeding.
+- **JD** (JD.com) — **Margin Compression Divergence**: JD.com reported a steep fall in quarterly profit even as revenue rose 1.5%. Top-line growth failed to translate to the bottom line. Investigation items: What is driving the profit decline? Are they sacrificing margins for market share? [March 05, 2026]
 - **KD** (Kyndryl) — -55%, CFO/GC/Controller exits + SEC doc request + guidance slashed [Feb 9-10] [Digest]. "Perfect Storm" of bad news triggering a massive confidence loss. Fundamentals: Guidance flipped from growth (+1%) to decline (-2% to -3%). FCF forecast slashed from $550M to $350M.
 - **LITE** (Lumentum) — optical components for AI networking
 - **LPLA** (LPL Financial) — LPL Financial is down about 19%... LPL Financial is worth a look. About half of its $21 billion is advisory revenue. It, too, is using AI to not only enhance its advice to clients, but also to slim down the number of employers and analysts it relies on. This can improve profit margins, helping support earnings growth. The stock looks more attractive now, trading at 13 times earnings, versus a peak in the last five years in the high teens.
@@ -81,7 +83,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **SNOW** (Snowflake) — beaten-down software, heavy short interest [Feb 11] [Digest]
 - **SPGI** (S&P Global) — bear market territory after mixed Q4, AI-driven concerns [Feb 10] [Digest]
 - **STLA** (Stellantis) — -25%, billions in EV write-downs, no dividend [Feb 6] [Digest]
-- **TTD** (The Trade Desk)
+- **TTD** (The Trade Desk) — **Insider Buying Bounce**: The Trade Desk CEO Jeff Green bought $148 million worth of shares in the last 2 days. Stock had lost 85% from its peak in November 2024. Shares jumped following the massive insider purchase. [March 05, 2026]
 - **TWLO** (Twilio) — JPM AI-Resilient: Enterprise
 - **TYL** (Tyler Technologies) — JPM AI-Resilient: Enterprise
 - **U** (Unity Software) — -28%, weak guidance despite earnings beat; Google Project Genie AI fear [Feb 11] [Digest]. Investors fled after Google announced Project Genie (AI virtual world creation).
@@ -90,6 +92,7 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 - **UPWK** (Upwork) — -15%
 - **VEEV** (Veeva Systems) — JPM AI-Resilient: Enterprise
 - **VRT** (Vertiv) — AI infra, Q4 beat, orders +252% YoY, massive guidance beat [Feb 11] [Digest]. Caution: Per Glamour Metrics Trap — verify OCF follow-through.
+- **VSCO** (Victoria's Secret) — **Earnings Drop (-12%)**: Victoria's Secret stock fell 12.02% despite sales rising 8% and the company successfully pushing higher price points and acquiring new customers. Potential temporary dislocation given improving fundamentals. [March 05, 2026]
 - **WDAY** (Workday) — beaten-down software, heavy short interest [Feb 11] [Digest]
 - **ZS** (Zscaler) — beaten-down software, heavy short interest [Feb 11] [Digest]
 
@@ -112,3 +115,6 @@ This document captures verbatim notes, initial hypotheses, catalysts, and themat
 ### AI Spending & Memory Market (2026 Context)
 - **CapEx**: Big 5 (GOOGL, META, AMZN, MSFT, ORCL) projected $715B spend (+60% YoY).
 - **Memory Squeeze**: AI demand crowding out supply for PCs/Smartphones; Q1 prices +80-90%.
+
+### AI Infrastructure & Power Bottleneck
+- Tech giants (Microsoft, Amazon, Google, Meta) signed a "Ratepayer Protection Pledge" aiming to build on-site generation (e.g., xAI's 1.2GW pledge for Memphis) and manage the massive power demands of data centers, which are projected to double to 945 TWh by 2030. Cooling is also emerging as a primary physical limitation, with a structural shift from air to liquid cooling highlighted as essential for next-gen chips. [March 05, 2026]
