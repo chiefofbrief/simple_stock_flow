@@ -1,10 +1,11 @@
 # Ticker Tracker
 
 ## Recent Activity Log
+- **2026-03-06:** Completed Price screening for JD, LYFT (FILTERED) and KD, MAT, MSFT (PASS).
+- **2026-03-06:** Completed Price screening for DIS, HOOD, HUBG (FILTERED) and IBM, IT (PASS).
 - **2026-03-05:** Completed Discovery phase; updated tracking for AVGO, TTD and added JD, VSCO, CRWV.
 - **2026-03-02:** Completed Price screening for 10 [LOSER] tickers; 4 PASS, 6 FILTERED.
 - **2026-03-02:** Completed Deep Dive for **HIMS** (Conviction Buy).
-- **2026-03-02:** Reset Ticker Tracker for new screening run.
 
 ## Tracker Update Instructions
 When updating this file after receiving explicit user approval:
@@ -29,6 +30,11 @@ When updating this file after receiving explicit user approval:
 | ARM    | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
 | CRM    | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
 | CRWD   | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
+| IBM    | 2026-03-06 | Price         | PASS     | [LOSER] [AI]   | —              |
+| IT     | 2026-03-06 | Price         | PASS     | [LOSER]        | —              |
+| KD     | 2026-03-06 | Price         | PASS     | [LOSER]        | —              |
+| MAT    | 2026-03-06 | Price         | PASS     | [LOSER]        | —              |
+| MSFT   | 2026-03-06 | Price         | PASS     | [LOSER] [AI]   | —              |
 | AIG    | —          | —             | PENDING  |                | —              |
 | AMD    | —          | —             | PENDING  | [AI]           | —              |
 | AMSC   | —          | —             | PENDING  |                | —              |
@@ -43,29 +49,19 @@ When updating this file after receiving explicit user approval:
 | CSGP   | —          | —             | PENDING  |                | —              |
 | CSU    | —          | —             | PENDING  |                | —              |
 | DDOG   | —          | —             | PENDING  |                | —              |
-| DIS    | —          | —             | PENDING  | [LOSER]        | —              |
 | ENPH   | —          | —             | PENDING  |                | —              |
 | EVVTY  | —          | —             | PENDING  |                | —              |
 | FROG   | —          | —             | PENDING  |                | —              |
 | GWRE   | —          | —             | PENDING  |                | —              |
-| HOOD   | —          | —             | PENDING  | [LOSER]        | —              |
-| HUBG   | —          | —             | PENDING  | [LOSER]        | —              |
 | HUBS   | —          | —             | PENDING  |                | —              |
-| IBM    | —          | —             | PENDING  | [LOSER] [AI]   | —              |
 | ICHR   | —          | —             | PENDING  | [AI]           | —              |
 | INTA   | —          | —             | PENDING  |                | —              |
 | INTC   | —          | —             | PENDING  | [AI]           | —              |
 | INTU   | —          | —             | PENDING  |                | —              |
 | IOT    | —          | —             | PENDING  |                | —              |
-| IT     | —          | —             | PENDING  | [LOSER]        | —              |
-| JD     | —          | —             | PENDING  | [LOSER]        | —              |
-| KD     | —          | —             | PENDING  | [LOSER]        | —              |
 | LITE   | —          | —             | PENDING  | [AI]           | —              |
 | LRCX   | —          | —             | PENDING  | [AI]           | —              |
-| LYFT   | —          | —             | PENDING  | [LOSER]        | —              |
-| MAT    | —          | —             | PENDING  | [LOSER]        | —              |
 | META   | —          | —             | PENDING  | [AI]           | —              |
-| MSFT   | —          | —             | PENDING  | [LOSER] [AI]   | —              |
 | MU     | —          | —             | PENDING  | [AI]           | —              |
 | NET    | —          | —             | PENDING  |                | —              |
 | NFLX   | —          | —             | PENDING  | [LOSER]        | —              |
@@ -146,6 +142,26 @@ CRM is a stable software giant experiencing a sharp YoY capitulation, down 35% a
 **Price** | 2026-03-02 | PASS
 CRWD is a high-quality performer (+11.6% 5Y CAGR) in a sudden 15.7% monthly correction, now trading at 31% of its 52-week range. The current price ($381) sits 20% below its 12-month average, representing a significant short-term dislocation for a stock that remains in a structural long-term uptrend.
 
+### IBM
+**Price** | 2026-03-06 | PASS
+IBM is a strong long-term performer (+21.5% 5Y CAGR) that suffered a violent 21% monthly drop due to a narrative shock (Claude COBOL automation). Currently sitting at 39% of its 52-week range, it offers a 7% margin of safety relative to its 12-month average, presenting a classic temporary dislocation setup.
+
+### IT
+**Price** | 2026-03-06 | PASS
+IT (Gartner) is experiencing a catastrophic, sentiment-driven collapse (-66% YoY) fueled by AI-disruption fears, currently trading at absolute 5-year lows (9% of 52w range). This violent capitulation has created a massive 67% discount to its 1-year mean, requiring a deep dive to determine if the core business model is permanently impaired or temporarily mispriced.
+
+### KD
+**Price** | 2026-03-06 | PASS
+KD (Kyndryl) has suffered a catastrophic, sentiment-driven collapse, down 66% YoY and trading at absolute lows (9% of 52w range) following a massive 46% plunge in February due to executive exits and guidance cuts. This "perfect storm" has created a 54% discount to its 1-year mean (requiring a +118% reversion), making it a prime candidate for a deep dive to see if the core FCF remains intact beneath the panic.
+
+### MAT
+**Price** | 2026-03-06 | PASS
+MAT is a historically low-volatility stock (CV 0.10) that suffered an anomalous 18.9% monthly drop following an earnings/guidance miss, driving it down to 22% of its 52-week range. The current price provides a clear 14% discount to its 1-year mean (requiring a +16% reversion), presenting a distinct "loser" setup compared to its soaring rival Hasbro.
+
+### MSFT
+**Price** | 2026-03-06 | PASS
+MSFT is a premium long-term compounder (+12.5% 5Y CAGR) currently experiencing a sharp, sentiment-driven correction (-19% combined drop in early 2026) due to AI CapEx fears. Trading at 32% of its 52-week range, it offers a rare 12% discount to its 1-year average price, providing a clear margin of safety for a dominant incumbent.
+
 ---
 
 ## Filtered Archive
@@ -173,3 +189,23 @@ CSCO is a steady compounder (+14.5% 5Y CAGR) that has fully absorbed its recent 
 ### CVNA
 **Price** | 2026-03-02 | FILTERED
 CVNA is a highly volatile stock (+2.6% 5Y CAGR) that has recovered 39% YoY, currently trading near the midpoint (52%) of its 52-week range. While it trades at a 9% discount to its 1-year average, it lacks the deep 'temporary loser' profile of more stable peers; the current level is far removed from its catastrophic 2022 lows where the true margin of safety existed.
+
+### DIS
+**Price** | 2026-03-06 | FILTERED
+While DIS offers a 10% reversion to its 12-month mean following recent CEO succession news, it behaves more like a structural underperformer (-11.1% 5Y CAGR, -45% over 5 years) than a high-quality business suffering a temporary, out-of-character dislocation.
+
+### HOOD
+**Price** | 2026-03-06 | FILTERED
+Despite the sharp 24% February drop, HOOD remains up 56% YoY and 677% over 3 years (+18.4% 5Y CAGR); its extreme inherent volatility (CV 1.04) makes the current 28% discount to its mean a feature of its normal trading rather than a distinct, temporary mispricing.
+
+### HUBG
+**Price** | 2026-03-06 | FILTERED
+Although HUBG suffered an anomalous -18% combined drop over the last two months due to a financial reporting error, the stock had previously run up so much that it is still trading 4% *above* its 12-month average, offering no statistical margin of safety for reversion.
+
+### JD
+**Price** | 2026-03-06 | FILTERED
+JD is in a structural multi-year decline (-68% over 5 years, -19.9% CAGR). While it sits near 52-week lows (12%) and offers a 14% reversion to its annual average, the slow, grinding nature of the drawdown indicates persistent fundamental weakness rather than a sharp, temporary sentiment dislocation.
+
+### LYFT
+**Price** | 2026-03-06 | FILTERED
+LYFT is a highly volatile stock (CV 0.71) that has suffered massive long-term structural impairment (-77% over 5 years, -24.5% CAGR). While the recent 18% drop offers a 28% reversion upside to its annual mean, the extreme historic volatility and existential "AV disruption" narrative make it a terminal risk rather than a high-quality temporary mispricing.

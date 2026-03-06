@@ -1,0 +1,238 @@
+PRICE CONTEXT — 2026-03-06
+Tickers: JD, KD, LYFT, MAT, MSFT
+
+Ticker |   Price | vs1Y | vs2Y | vs3Y | vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+------+------+------+------+------+---------+---------+------------+---------+---------
+    JD |  $27.07 | -34% | +27% | -35% | -68% | 0.40 |    +0.2 |     12% |          - |    +14% |   -19.9%
+    KD |  $13.12 | -66% | -40% | -16% |    - | 0.43 |    +0.4 |      9% |          - |   +118% |   -17.7%
+  LYFT |  $13.04 |  -2% | -18% | +30% | -77% | 0.71 |    -0.3 |     21% |         7% |    +28% |   -24.5%
+   MAT |  $15.84 | -26% | -20% | -12% | -22% | 0.10 |    -0.7 |     22% |        14% |    +16% |    -4.6%
+  MSFT | $409.82 |  +4% |  +1% | +68% | +84% | 0.25 |    +0.5 |     32% |          - |    +14% |   +12.5%
+----------------------------------------
+
+Recent Trend: JD
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-06 | $27.07 |  +2.0%
+2026-02-27 | $26.53 |  -6.8%
+2026-01-30 | $28.48 |  -0.8%
+2025-12-31 | $28.70 |  -3.8%
+2025-11-28 | $29.83 |  -9.7%
+2025-10-31 | $33.04 |  -5.5%
+2025-09-30 | $34.98 | +12.6%
+2025-08-29 | $31.07 |  -1.3%
+2025-07-31 | $31.49 |  -3.5%
+2025-06-30 | $32.64 |  +0.7%
+2025-05-30 | $32.41 |  -0.6%
+2025-04-30 | $32.62 | -18.4%
+
+----------------------------------------
+
+Recent Trend: KD
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-06 | $13.12 |  +6.4%
+2026-02-27 | $12.33 | -46.4%
+2026-01-30 | $23.00 | -13.4%
+2025-12-31 | $26.56 |  +2.8%
+2025-11-28 | $25.83 | -10.7%
+2025-10-31 | $28.92 |  -3.7%
+2025-09-30 | $30.03 |  -5.5%
+2025-08-29 | $31.79 | -15.8%
+2025-07-31 | $37.77 | -10.0%
+2025-06-30 | $41.96 |  +7.5%
+2025-05-30 | $39.04 | +20.4%
+2025-04-30 | $32.42 |  +3.2%
+
+----------------------------------------
+
+Recent Trend: LYFT
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-06 | $13.04 |  -5.8%
+2026-02-27 | $13.84 | -18.0%
+2026-01-30 | $16.87 | -12.9%
+2025-12-31 | $19.37 |  -7.9%
+2025-11-28 | $21.03 |  +2.8%
+2025-10-31 | $20.46 |  -7.0%
+2025-09-30 | $22.01 | +35.7%
+2025-08-29 | $16.22 | +15.4%
+2025-07-31 | $14.06 | -10.8%
+2025-06-30 | $15.76 |  +3.4%
+2025-05-30 | $15.24 | +22.9%
+2025-04-30 | $12.40 |  +4.5%
+
+----------------------------------------
+
+Recent Trend: MAT
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-06 | $15.84 |  -6.5%
+2026-02-27 | $16.95 | -18.9%
+2026-01-30 | $20.89 |  +5.3%
+2025-12-31 | $19.84 |  -6.1%
+2025-11-28 | $21.12 | +14.9%
+2025-10-31 | $18.38 |  +9.2%
+2025-09-30 | $16.83 |  -8.0%
+2025-08-29 | $18.30 |  +7.6%
+2025-07-31 | $17.01 | -13.7%
+2025-06-30 | $19.72 |  +4.1%
+2025-05-30 | $18.94 | +19.2%
+2025-04-30 | $15.89 | -18.2%
+
+----------------------------------------
+
+Recent Trend: MSFT
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-03-06 | $409.82 |  +4.3%
+2026-02-27 | $392.74 |  -8.5%
+2026-01-30 | $429.31 | -11.0%
+2025-12-31 | $482.52 |  -1.7%
+2025-11-28 | $490.89 |  -4.8%
+2025-10-31 | $515.66 |  -0.0%
+2025-09-30 | $515.80 |  +2.2%
+2025-08-29 | $504.59 |  -4.9%
+2025-07-31 | $530.41 |  +7.3%
+2025-06-30 | $494.53 |  +8.0%
+2025-05-30 | $457.69 | +16.7%
+2025-04-30 | $392.25 |  +5.3%
+
+LEGEND:
+CV (Coeff. Variation): Volatility relative to price. Higher = more volatile.
+Z-Score: Std devs of recent 1mo return vs history. <-2.0 is anomalous drop.
+52w Pos: Position in 52-week range. 0% = Low, 100% = High.
+Drop/MaxDD: Recent 1mo drop as % of worst 5yr drawdown. >80% = nearing historic worst.
+Revert↑: Upside if price reverts to 1yr average.
+
+========================================================================================================================
+ANALYSIS REPORTS
+========================================================================================================================
+
+#### JD Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $27.07 is down -34% vs 1Y and down -68% vs 5Y. It sits at a deep 12% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+The stock is experiencing severe structural decline, with a 5Y CAGR of -19.9% and moderate-high volatility (CV 0.40).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Short-term trend shows a slow, grinding decline. Aside from a +12.6% bounce in Sept 2025 and an -18.4% drop in April 2025, the stock has posted minor single-digit percentage losses almost every other month. 
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    There is no sudden monthly plunge; the stock is simply continuing a long, slow 68% permanent drawdown from its 5-year highs. 
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The current price sits 14% below its 12-month average (Revert↑ +14%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock
+
+---
+**Status & Price Summary**
+**FILTERED.** Permanent Loser. JD is in a structural multi-year decline (-68% over 5 years, -19.9% CAGR). While it sits near 52-week lows (12%) and offers a 14% reversion to its annual average, the slow, grinding nature of the drawdown indicates persistent fundamental weakness rather than a sharp, temporary sentiment dislocation.
+
+***
+
+#### KD Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $13.12 is down -66% vs 1Y and -40% vs 2Y. It sits at just 9% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Highly destructive long-term trend (since spinoff): CAGR of -17.7% with high volatility (CV 0.43).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Violent recent capitulation. The stock was relatively stable in the mid-$20s before suffering consecutive severe drops of -13.4% in Jan and an incredible -46.4% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    The current collapse is extreme and anomalous (Z-score +0.4 for the recent drop speed) driving the stock to its historical floor. 
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The stock trades at a staggering 54% discount to its 12-month average, requiring a 118% gain just to revert to the mean.
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock
+
+---
+**Status & Price Summary**
+**PASS.** Extreme Dislocation. KD (Kyndryl) has suffered a catastrophic, sentiment-driven collapse, down 66% YoY and trading at absolute lows (9% of 52w range) following a massive 46% plunge in February due to executive exits and guidance cuts. This "perfect storm" has created a 54% discount to its 1-year mean (requiring a +118% reversion), making it a prime candidate for a deep dive to see if the core FCF remains intact beneath the panic.
+
+***
+
+#### LYFT Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $13.04 is basically flat (-2%) vs 1Y but down an enormous -77% vs 5Y. It sits at 21% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Catastrophic long-term value destruction: 5Y CAGR of -24.5% combined with extreme volatility (CV 0.71).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Wildly erratic. The stock surged +22% in May and +35% in Sept, only to surrender those gains with drops of -12.9% in Jan and -18.0% in Feb 2026 amid AV disruption fears.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    While the recent 18% monthly drop is notable, it is tiny compared to the stock's historical drawdowns (representing just 7% of its max 5-year drawdown), as the stock has already lost 77% of its structural value.
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The price sits 22% below its 12-month average (Revert↑ +28%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock
+
+---
+**Status & Price Summary**
+**FILTERED.** Permanent Loser / Excessive Risk. LYFT is a highly volatile stock (CV 0.71) that has suffered massive long-term structural impairment (-77% over 5 years, -24.5% CAGR). While the recent 18% drop offers a 28% reversion upside to its annual mean, the extreme historic volatility and existential "AV disruption" narrative make it a terminal risk rather than a high-quality temporary mispricing.
+
+***
+
+#### MAT Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $15.84 is down -26% vs 1Y and -22% vs 5Y. It sits at 22% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Slow long-term bleed: 5Y CAGR of -4.6% with surprisingly low volatility (CV 0.10).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Whiplash performance. Surged +19% in May and +14.9% in Nov, but recently collapsed -18.9% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    The recent 18.9% drop is highly anomalous (Z-score -0.7) for a stock with such low historical volatility (CV 0.10), representing 14% of its max 5-year drawdown.
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The price is 14% below its 12-month average (Revert↑ +16%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock
+
+---
+**Status & Price Summary**
+**PASS.** Execution Dislocation. MAT is a historically low-volatility stock (CV 0.10) that suffered an anomalous 18.9% monthly drop following an earnings/guidance miss, driving it down to 22% of its 52-week range. The current price provides a clear 14% discount to its 1-year mean (requiring a +16% reversion), presenting a distinct "loser" setup compared to its soaring rival Hasbro.
+
+***
+
+#### MSFT Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $409.82 is up +4% vs 1Y and up +84% vs 5Y. It sits at 32% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Excellent long-term compounding: 5Y CAGR of +12.5% with moderate/low volatility (CV 0.25). 
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Recent sharp correction. After peaking in Q3/Q4 2025, the stock dropped -11.0% in Jan and -8.5% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    The combined ~19% drop over two months is a significant and sharp correction for MSFT, driven by market fears regarding massive AI CapEx.
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The stock trades 12% below its 12-month average (Revert↑ +14%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock (Note: Tagged `[AI]`, but not `[TAILWIND]`)
+
+---
+**Status & Price Summary**
+**PASS.** Quality Dip. MSFT is a premium long-term compounder (+12.5% 5Y CAGR) currently experiencing a sharp, sentiment-driven correction (-19% combined drop in early 2026) due to AI CapEx fears. Trading at 32% of its 52-week range, it offers a rare 12% discount to its 1-year average price, providing a clear margin of safety for a dominant incumbent.

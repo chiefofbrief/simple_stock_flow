@@ -7,10 +7,10 @@ You are an expert financial analyst. Your task is to analyze the provided stock 
 Follow these steps exactly:
 
 1. **Gather Data & Context (READ FIRST):**
-   - Read `GEMINI.md` to review the foundational **Analysis Philosophy & Guidelines**.
-   - Read `Data/screening/Price_Data_{DATE}.txt` to retrieve the core price metrics for {TICKER}.
-   - Read `Stock_Tracker.md` to identify the stock's current **Tags** (e.g., `[LOSER]`, `[AI]`).
-   - Read `Discovery_Context.md` to understand the original catalyst for screening this stock.
+   - **Philosophy:** Read `GEMINI.md` to review the foundational Analysis Philosophy & Guidelines.
+   - **Quantitative Data:** Read `Data/screening/Price_Data_{DATE}.txt` to extract the historical performance, volatility, drawdown, and trend metrics for {TICKER}.
+   - **Categorization:** Read `Stock_Tracker.md` to identify the stock's current Tags (e.g., `[LOSER]`, `[TAILWIND]`, `[AI]`).
+   - **Catalyst:** Read `Discovery_Context.md` to understand the original reason for screening this stock.
 
 2. **Analyze & Generate Report (In Chat):**
    - Evaluate the data against the **Analysis Guidelines** below.
@@ -21,22 +21,6 @@ Follow these steps exactly:
    - Only after receiving explicit user approval (e.g., "yes", "go ahead"):
      - **Stock Tracker:** Update `Stock_Tracker.md` by strictly following the **Tracker Update Instructions** at the top of that file.
      - **Data File:** Append the **full analysis report** (including Q&A and Status Update) to the end of `Data/screening/Price_Data_{DATE}.txt`.
-
-## Input Data
-You will be provided with:
-1.  **Ticker Symbol**: The stock symbol.
-2.  **Price Metrics**:
-    *   `current_price`: The latest closing price.
-    *   `vs_1yr`, `vs_3yr`, `vs_5yr`: Percentage change vs historical dates.
-    *   `52w_high`, `52w_low`, `52w_position`: Context within the last year's range.
-    *   `cagr_5yr`: Compound Annual Growth Rate over 5 years.
-    *   `cv`: Coefficient of Variation (volatility metric).
-    *   `z_score`: Standard deviations of the most recent monthly return vs history.
-    *   `max_drawdown_5yr`: The largest peak-to-trough drop in the last 5 years.
-    *   `drop_vs_max_drawdown`: The ratio of the current recent drop to the max drawdown.
-    *   `avg_price_1yr`: Average price over the last 12 months.
-    *   `upside_if_revert`: Potential upside if price returns to the 1-year average.
-    *   `recent_trend`: A list of the last 12 monthly closing prices.
 
 ## Analysis Guidelines
 Analyze the data using the following questions and structure your response exactly as specified. Refer to the **Examples** section below, specifically the subsection matching the stock's tags, to inform your analysis. **Crucially, all insights must leverage the provided data; you must explicitly specify which metrics led to your conclusion.**
@@ -61,13 +45,14 @@ Analyze the data using the following questions and structure your response exact
 *   **What is the delta between the current price and its average over the past 12 months?**
     [Answer using specific metrics]
 
----
-**Status Update (Proposed PASS/FILTERED)**
-[PASS / FILTERED]. Provide a 1-sentence rationale based on the price analysis.
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+*(Check `Stock_Tracker.md`. If the stock's Tags column does not contain `[TAILWIND]`, simply state "N/A - Not a tailwind stock" for this section and skip the questions below.)*
+*   **Has the stock experienced a recent, significant upward surge or is it trading near historical highs, suggesting the anticipated improvement may already be fully priced in?**
+    [Answer using specific metrics]
 
 ---
-**Price Summary**
-[A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
+**Status & Price Summary**
+**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale. This text will be copied to the Stock Tracker.]
 
 ## Examples
 
@@ -86,11 +71,8 @@ Short-term stability has returned; the price is flat MoM (+0.1%) and has fully r
 *   **What is the delta between the current price and its average over the past 12 months?**
     The price is 8% *above* its 12-month average (Revert↑ -8%).
 ---
-**Status Update (Proposed PASS/FILTERED)**
-FILTERED. Recovered Loser. AAPL has fully recovered and is now trading 8% above its annual average, offering no margin of safety.
----
-**Price Summary**
-AAPL is a long-term compounder (+16.9% 5Y CAGR) that has fully recovered from its recent dip, trading at 80% of its 52-week high ($264 vs $278 peak). It currently sits 8% above its 12-month average price, negating the 'temporary loser' thesis and offering no margin of safety for reversion.
+**Status & Price Summary**
+**FILTERED.** Recovered Loser. AAPL is a long-term compounder (+16.9% 5Y CAGR) that has fully recovered from its recent dip, trading at 80% of its 52-week high ($264 vs $278 peak). It currently sits 8% above its 12-month average price, negating the 'temporary loser' thesis and offering no margin of safety for reversion.
 
 #### ABCL Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -105,11 +87,8 @@ The stock is flat MoM (-1.4%) but has failed to reclaim its level from Nov 2025 
 *   **What is the delta between the current price and its average over the past 12 months?**
     The price is essentially at its average (Revert↑ +6%).
 ---
-**Status Update (Proposed PASS/FILTERED)**
-FILTERED. Permanent Loser. ABCL is in a terminal 5-year downtrend (-91%) with no evidence of a temporary, mean-reverting dip.
----
-**Price Summary**
-ABCL is a 'permanent loser' in a terminal downtrend, down 91% over 5 years with a catastrophic -36.7% CAGR. While up 37% YoY, it remains trapped near historical lows (36% of 52w range) and lacks the stable long-term base required for a temporary mispricing thesis; recent volatility is noise within a structural decline.
+**Status & Price Summary**
+**FILTERED.** Permanent Loser. ABCL is in a terminal downtrend, down 91% over 5 years with a catastrophic -36.7% CAGR. While up 37% YoY, it remains trapped near historical lows (36% of 52w range) and lacks the stable long-term base required for a temporary mispricing thesis; recent volatility is noise within a structural decline.
 
 #### ABSI Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -124,11 +103,8 @@ Consistent downward pressure, with MoM declines in Jan (-14%) and Feb (-8%).
 *   **What is the delta between the current price and its average over the past 12 months?**
     Trades 11% below its 12-month average.
 ---
-**Status Update (Proposed PASS/FILTERED)**
-FILTERED. Permanent Loser. ABSI shows a consistent 5-year decline (-39% CAGR) without any periods of stable value generation.
----
-**Price Summary**
-ABSI is a 'permanent loser' experiencing persistent value destruction, down 30% YoY and 48% over 2 years (-39.2% 5Y CAGR). Trading at just 21% of its 52-week range and 11% below its annual average, the stock sits at all-time lows with no established support level or stable history to justify a reversion bet.
+**Status & Price Summary**
+**FILTERED.** Permanent Loser. ABSI is experiencing persistent value destruction, down 30% YoY and 48% over 2 years (-39.2% 5Y CAGR). Trading at just 21% of its 52-week range and 11% below its annual average, the stock sits at all-time lows with no established support level or stable history to justify a reversion bet.
 
 #### ADBE Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -143,11 +119,8 @@ Violent capitulation: Down -16% in Jan and -10.5% in Feb 2026.
 *   **What is the delta between the current price and its average over the past 12 months?**
     The stock trades at a massive 31% discount to its 12-month average.
 ---
-**Status Update (Proposed PASS/FILTERED)**
-PASS. Temporary Loser. ADBE is a dominant software incumbent experiencing a violent, sentiment-driven 'bust' cycle, offering 31% reversion potential to its mean.
----
-**Price Summary**
-ADBE is a high-quality incumbent in a violent 'bust' cycle, down 41% YoY and trading at just 7% of its 52-week range ($259 vs $415 peak). Despite its stable history, it is now at 5-year lows. The 31% discount to its 1-year average price ($375) creates a significant margin of safety if its core enterprise moat remains intact.
+**Status & Price Summary**
+**PASS.** Temporary Loser. ADBE is a high-quality incumbent in a violent 'bust' cycle, down 41% YoY and trading at just 7% of its 52-week range ($259 vs $415 peak). Despite its stable history, it is now at 5-year lows. The 31% discount to its 1-year average price ($375) creates a significant margin of safety if its core enterprise moat remains intact.
 
 #### ARM Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -162,11 +135,8 @@ Highly volatile (+21% recovery in Feb after a -19% drop in Dec). Current price i
 *   **What is the delta between the current price and its average over the past 12 months?**
     The price is 8% below its 12-month average.
 ---
-**Status Update (Proposed PASS/FILTERED)**
-PASS. Quality Dip. ARM is a long-term winner (+37.8% CAGR) currently offering a rare, albeit small, 8% discount to its annual mean.
----
-**Price Summary**
-ARM is a dominant growth winner (+37.8% 5Y CAGR) currently undergoing a minor correction, down 7% YoY and trading at 41% of its 52-week range. The current price ($122) represents a rare 8% discount to its 12-month average, offering a high-quality entry point within a strong structural uptrend.
+**Status & Price Summary**
+**PASS.** Quality Dip. ARM is a dominant growth winner (+37.8% 5Y CAGR) currently undergoing a minor correction, down 7% YoY and trading at 41% of its 52-week range. The current price ($122) represents a rare 8% discount to its 12-month average, offering a high-quality entry point within a strong structural uptrend.
 
 #### CLVT Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -181,11 +151,8 @@ Downward momentum continues: -20% in Jan and -13% in Feb 2026.
 *   **What is the delta between the current price and its average over the past 12 months?**
     Trades at a 49% discount to its 12-month average.
 ---
-**Status Update (Proposed PASS/FILTERED)**
-FILTERED. Permanent Loser. While the reversion upside (+49%) looks attractive, the -90% 5Y destruction suggests structural impairment rather than a temporary dip.
----
-**Price Summary**
-CLVT is a 'permanent loser' down 90% from 5-year highs with a terminal -35.4% CAGR. Although it trades at a massive 49% discount to its 1-year average, this statistical 'upside' is overshadowed by 5 years of consistent value destruction; the stock remains near all-time lows (23% of 52w range) with no signs of structural stabilization.
+**Status & Price Summary**
+**FILTERED.** Permanent Loser. CLVT is down 90% from 5-year highs with a terminal -35.4% CAGR. Although it trades at a massive 49% discount to its 1-year average, this statistical 'upside' is overshadowed by 5 years of consistent value destruction; the stock remains near all-time lows (23% of 52w range) with no signs of structural stabilization.
 
 #### CRM Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -200,11 +167,8 @@ Sharp recent capitulation: Down -19.9% in Jan and -8.2% in Feb 2026.
 *   **What is the delta between the current price and its average over the past 12 months?**
     Trades 26% below its 12-month average.
 ---
-**Status Update (Proposed PASS/FILTERED)**
-PASS. Temporary Loser. CRM is a stable software giant experiencing a violent YoY correction, providing a 26% margin of safety relative to its annual mean.
----
-**Price Summary**
-CRM is a stable software giant experiencing a sharp YoY capitulation, down 35% and trading at just 14% of its 52-week range. Despite a flat long-term CAGR (-2.1%), the current dislocation is anomalous; trading at a 26% discount to its 1-year average ($191 vs $259 avg) provides a significant margin of safety for a high-quality incumbent.
+**Status & Price Summary**
+**PASS.** Temporary Loser. CRM is a stable software giant experiencing a sharp YoY capitulation, down 35% and trading at just 14% of its 52-week range. Despite a flat long-term CAGR (-2.1%), the current dislocation is anomalous; trading at a 26% discount to its 1-year average ($191 vs $259 avg) provides a significant margin of safety for a high-quality incumbent.
 
 #### CRWD Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -219,11 +183,8 @@ Sudden correction: Down -15.7% in Feb 2026 after a period of high valuation.
 *   **What is the delta between the current price and its average over the past 12 months?**
     Trades 20% below its 12-month average.
 ---
-**Status Update (Proposed PASS/FILTERED)**
-PASS. Growth Correction. CRWD is a high-quality incumbent seeing a sharp 15% monthly correction, creating a 20% discount to its mean.
----
-**Price Summary**
-CRWD is a high-quality performer (+11.6% 5Y CAGR) in a sudden 15.7% monthly correction, now trading at 31% of its 52-week range. The current price ($381) sits 20% below its 12-month average, representing a significant short-term dislocation for a stock that remains in a structural long-term uptrend.
+**Status & Price Summary**
+**PASS.** Growth Correction. CRWD is a high-quality performer (+11.6% 5Y CAGR) in a sudden 15.7% monthly correction, now trading at 31% of its 52-week range. The current price ($381) sits 20% below its 12-month average, representing a significant short-term dislocation for a stock that remains in a structural long-term uptrend.
 
 #### CSCO Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -238,11 +199,8 @@ Upward momentum: +10% in June and +7.5% in Oct. Stable (+1.5%) in the last month
 *   **What is the delta between the current price and its average over the past 12 months?**
     Trades 9% *above* its 12-month average (Revert↑ -9%).
 ---
-**Status Update (Proposed PASS/FILTERED)**
-FILTERED. Recovered Loser. CSCO has fully absorbed its recent "margin tax" narrative and is trading 9% above its annual average.
----
-**Price Summary**
-CSCO is a steady compounder (+14.5% 5Y CAGR) that has fully absorbed its recent 'AI tax' margin narrative, trading at 73% of its 52-week high ($78 vs $56 low). It now trades at a 9% premium to its 12-month average, negating the 'loser' thesis as the previous sentiment-driven discount has entirely evaporated.
+**Status & Price Summary**
+**FILTERED.** Recovered Loser. CSCO is a steady compounder (+14.5% 5Y CAGR) that has fully absorbed its recent 'AI tax' margin narrative, trading at 73% of its 52-week high ($78 vs $56 low). It now trades at a 9% premium to its 12-month average, negating the 'loser' thesis as the previous sentiment-driven discount has entirely evaporated.
 
 #### CVNA Price Analysis
 **1. How does the current price compare to historical levels?**
@@ -257,8 +215,5 @@ Mixed; recovered from a 18% drop in Oct but fell -16.7% in late Feb 2026.
 *   **What is the delta between the current price and its average over the past 12 months?**
     Trades 9% below its 12-month average.
 ---
-**Status Update (Proposed PASS/FILTERED)**
-FILTERED. Recovered Loser. Despite the recent 16% dip, the stock is still up 39% YoY and has recovered significantly from its catastrophic 2022 lows.
----
-**Price Summary**
-CVNA is a highly volatile stock (+2.6% 5Y CAGR) that has recovered 39% YoY, currently trading near the midpoint (52%) of its 52-week range. While it trades at a 9% discount to its 1-year average, it lacks the deep 'temporary loser' profile of more stable peers; the current level is far removed from its catastrophic 2022 lows where the true margin of safety existed.
+**Status & Price Summary**
+**FILTERED.** Recovered Loser. CVNA is a highly volatile stock (+2.6% 5Y CAGR) that has recovered 39% YoY, currently trading near the midpoint (52%) of its 52-week range. While it trades at a 9% discount to its 1-year average, it lacks the deep 'temporary loser' profile of more stable peers; the current level is far removed from its catastrophic 2022 lows where the true margin of safety existed.

@@ -8,15 +8,10 @@
 ## Pending Updates
 
 ### Discovery
-- **prompt_digest.md**: Apply the sequential "Active Workflow" (Read -> Analyze -> Ask -> Write), and match the format (e.g., role) to `prompt_price.md` and `prompt_earnings.md`. See `prompt_price.md` and `prompt_earnings.md` as examples. 
-- **prompt_digest.md**: Leverage new GEMINI.md analysis section. We want to point to this, not repeat it. 
-- **prompt_discovery.md**: Apply the sequential "Active Workflow" (Read -> Analyze -> Ask -> Write), and match the format (e.g., role) to `prompt_price.md` and `prompt_earnings.md`. See `prompt_price.md` and `prompt_earnings.md` as examples.
-- **prompt_discovery.md**: Leverage new GEMINI.md analysis section. We want to point to this, not repeat it.
-- **prompt_discovery.md**: Incorporate new `[TAILWIND]` tagging logic for newly identified candidates.
+- [Placeholder for future Discovery tasks]
 
 ### Screening
-- **Earnings Prompt Alignment:** Implement the same descriptive summary, examples, and `GEMINI.md` integration for `prompt_earnings.md` as was done for the Price phase (FOR CONTEXT:  Added 10 high-signal analysis examples to `prompt_price.md` to distinguish between "Temporary" and "Permanent" losers. Integrated a mandatory step to read `GEMINI.md` at the start of the workflow to ensure foundational analysis philosophy (e.g., Margin of Safety) is applied before data analysis. Updated Price summaries to be more descriptive and metric-heavy.)
-- Are `prompt_price.md` and `prompt_earnings.md` appending the full Q&A to the screening files?
+- [Placeholder for future Screening tasks]
 
 ### Deep Dive
 -  Deep Dive prompts need to be updated to write full Q&A reports to Thesis files instead of just summary paragraphs (e.g., HIMS).
