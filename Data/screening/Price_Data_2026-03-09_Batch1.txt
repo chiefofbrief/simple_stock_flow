@@ -1,0 +1,238 @@
+PRICE CONTEXT — 2026-03-09
+Tickers: NFLX, NOW, NVO, OWL, PANW
+
+Ticker |   Price | vs1Y | vs2Y |  vs3Y |  vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+------+------+-------+-------+------+---------+---------+------------+---------+---------
+  NFLX |  $97.88 |  -0% | +62% | +204% |  +82% | 0.49 |    -0.0 |     39% |          - |    +12% |   +12.2%
+   NOW | $123.09 | -34% | -20% |  +42% |  +15% | 0.29 |    +1.4 |     22% |          - |    +36% |    +2.8%
+   NVO |  $38.79 | -56% | -67% |  -43% |  +16% | 0.41 |    +0.3 |      7% |          - |    +40% |    +2.9%
+   OWL |   $9.65 | -53% | -41% |  -10% |  +15% | 0.31 |    -1.0 |      0% |        14% |    +60% |    +2.7%
+  PANW | $165.23 | -13% |  +6% |  +75% | +177% | 0.37 |    +0.9 |     31% |          - |    +13% |   +21.8%
+----------------------------------------
+
+Recent Trend: NFLX
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-03-09 |  $97.88 |  +1.7%
+2026-02-27 |  $96.24 | +15.3%
+2026-01-30 |  $83.49 | -11.0%
+2025-12-31 |  $93.76 | -12.8%
+2025-11-28 | $107.58 |  -3.9%
+2025-10-31 | $111.89 |  -6.7%
+2025-09-30 | $119.89 |  -0.8%
+2025-08-29 | $120.83 |  +4.2%
+2025-07-31 | $115.94 | -13.4%
+2025-06-30 | $133.91 | +10.9%
+2025-05-30 | $120.72 |  +6.7%
+2025-04-30 | $113.17 | +21.4%
+
+----------------------------------------
+
+Recent Trend: NOW
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-03-09 | $123.09 | +14.0%
+2026-02-27 | $108.01 |  -7.7%
+2026-01-30 | $117.01 | -23.6%
+2025-12-31 | $153.19 |  -5.7%
+2025-11-28 | $162.48 | -11.6%
+2025-10-31 | $183.86 |  -0.1%
+2025-09-30 | $184.06 |  +0.3%
+2025-08-29 | $183.49 |  -2.7%
+2025-07-31 | $188.62 |  -8.3%
+2025-06-30 | $205.62 |  +1.7%
+2025-05-30 | $202.22 |  +5.9%
+2025-04-30 | $191.00 | +20.0%
+
+----------------------------------------
+
+Recent Trend: NVO
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-09 | $38.79 |  +3.6%
+2026-02-27 | $37.45 | -37.0%
+2026-01-30 | $59.43 | +16.8%
+2025-12-31 | $50.88 |  +3.1%
+2025-11-28 | $49.35 |  -0.2%
+2025-10-31 | $49.46 | -10.9%
+2025-09-30 | $55.49 |  -1.7%
+2025-08-29 | $56.46 | +20.9%
+2025-07-31 | $46.70 | -31.8%
+2025-06-30 | $68.48 |  -3.5%
+2025-05-30 | $70.94 |  +7.6%
+2025-04-30 | $65.93 |  -4.3%
+
+----------------------------------------
+
+Recent Trend: OWL
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-09 |  $9.65 |  -8.5%
+2026-02-27 | $10.55 | -21.1%
+2026-01-30 | $13.37 |  -8.8%
+2025-12-31 | $14.66 |  -0.4%
+2025-11-28 | $14.72 |  -3.5%
+2025-10-31 | $15.25 |  -6.8%
+2025-09-30 | $16.37 |  -8.6%
+2025-08-29 | $17.91 |  -3.2%
+2025-07-31 | $18.50 |  +0.7%
+2025-06-30 | $18.37 |  +2.9%
+2025-05-30 | $17.86 |  +1.9%
+2025-04-30 | $17.52 |  -7.5%
+
+----------------------------------------
+
+Recent Trend: PANW
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-03-09 | $165.23 | +11.0%
+2026-02-27 | $148.92 | -15.9%
+2026-01-30 | $176.97 |  -3.9%
+2025-12-31 | $184.20 |  -3.1%
+2025-11-28 | $190.13 | -13.7%
+2025-10-31 | $220.24 |  +8.2%
+2025-09-30 | $203.62 |  +6.9%
+2025-08-29 | $190.52 |  +9.7%
+2025-07-31 | $173.60 | -15.2%
+2025-06-30 | $204.64 |  +6.4%
+2025-05-30 | $192.42 |  +2.9%
+2025-04-30 | $186.93 |  +9.5%
+
+LEGEND:
+CV (Coeff. Variation): Volatility relative to price. Higher = more volatile.
+Z-Score: Std devs of recent 1mo return vs history. <-2.0 is anomalous drop.
+52w Pos: Position in 52-week range. 0% = Low, 100% = High.
+Drop/MaxDD: Recent 1mo drop as % of worst 5yr drawdown. >80% = nearing historic worst.
+Revert↑: Upside if price reverts to 1yr average.
+
+========================================================================================================================
+ANALYSIS REPORTS
+========================================================================================================================
+
+#### NFLX Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $97.88 is effectively flat vs 1Y (-0%) but up +82% vs 5Y. It sits at 39% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Steady long-term compounder: 5Y CAGR of +12.2% with moderate volatility (CV 0.49).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Highly volatile short term. The stock experienced sharp declines in Dec (-12.8%) and Jan (-11.0%) before rebounding strongly in Feb (+15.3%) and stabilizing in Mar (+1.7%).
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    The recent ~25% combined drop from its peak is a notable correction but remains within historical volatility norms for NFLX.
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The price sits 12% below its 12-month average (Revert↑ +12%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock
+
+---
+**Status & Price Summary**
+**PASS.** Quality Correction. NFLX has absorbed a significant 25% correction over the last quarter due to WB deal uncertainty and valuation fears. Trading 12% below its annual mean and sitting in the 39th percentile of its 52-week range, it offers a margin of safety for a business that remains a long-term compounder (+12.2% 5Y CAGR).
+
+***
+
+#### NOW Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $123.09 is down -34% vs 1Y and up just +15% vs 5Y. It sits at 22% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Weak long-term growth: 5Y CAGR is a low +2.8% with moderate volatility (CV 0.29).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Severe recent capitulation. The stock plummeted -23.6% in Jan 2026 before recovering +14.0% in early March.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    The recent 34% YoY drop is one of the largest in NOW's history, driven by broad AI-fear contagion despite its role as a "system of record."
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The stock trades at a massive 26% discount to its 12-month average (Revert↑ +36%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock (Note: Tagged `[AI]`, but not `[TAILWIND]`)
+
+---
+**Status & Price Summary**
+**PASS.** Strategic Dislocation. NOW (ServiceNow) is a dominant workflow incumbent trading at a massive 26% discount to its 1-year mean following a violent 34% YoY correction. At just 22% of its 52-week range, the price reflects broad market panic over AI disruption which contradicts the company's positioning as an orchestrator of agentic AI.
+
+***
+
+#### NVO Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $38.79 is down a violent -56% vs 1Y and -67% vs 2Y. It sits at just 7% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+The stock has surrendered almost all its previous growth: 5Y CAGR has collapsed to +2.9% with high volatility (CV 0.41).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Violent capitulation. After a brief bounce in Jan (+16.8%), the stock collapsed -37.0% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    The current 67% two-year drawdown is the worst in the stock's modern history, reflecting a total sentiment collapse regarding U.S. pricing pressure.
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The stock trades at a 29% discount to its 12-month average (Revert↑ +40%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock
+
+---
+**Status & Price Summary**
+**PASS.** Extreme capitulation. NVO (Novo Nordisk) has suffered a catastrophic 56% YoY loss of value, currently trading at absolute multi-year lows (7% of 52w range). While the pricing pressure narrative is real, the 29% discount to its annual mean suggests a potentially overdone reflexive "bust" cycle for a major pharmaceutical leader.
+
+***
+
+#### OWL Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $9.65 is down -53% vs 1Y and up +15% vs 5Y. It sits at 0% of its 52-week range (all-time lows).
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Stagnant long-term performance: 5Y CAGR of +2.7% with moderate volatility (CV 0.31).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Relentless downward grind. The stock has posted negative returns in 8 of the last 12 months, with a sharp acceleration in Feb (-21.1%) and Mar (-8.5%).
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    The stock is currently in its largest-ever drawdown, having lost over 50% of its value in the last year.
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The stock trades at a massive 37% discount to its 12-month average (Revert↑ +60%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock
+
+---
+**Status & Price Summary**
+**FILTERED.** Permanent Loser / Falling Knife. OWL (Blue Owl) is in a terminal downward spiral, trading at absolute multi-year lows (0% of range) with a relentless 12-month grind. Despite the 60% reversion upside, the lack of any stabilization or positive catalysts suggests a structurally impaired business rather than a temporary sentiment dislocation.
+
+***
+
+#### PANW Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $165.23 is down -13% vs 1Y but up a strong +177% vs 5Y. It sits at 31% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Exceptional long-term compounder: 5Y CAGR of +21.8% with moderate volatility (CV 0.37).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Healthy correction. The stock surged in late 2025 before pulling back -15.9% in Feb 2026 and stabilizing (+11.0%) in early March.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to the biggest drawdowns in the stock's history?**
+    The current 13% YoY dip is minor relative to its historical performance and represents a standard "breather" after years of hyper-growth.
+*   **What is the delta between the current price and its average over the past 12 months?**
+    The stock trades 11% below its 12-month average (Revert↑ +13%).
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+N/A - Not a tailwind stock
+
+---
+**Status & Price Summary**
+**PASS.** Quality Dip. PANW is a high-growth cybersecurity leader (+21.8% 5Y CAGR) currently offering a rare 11% discount to its annual average following a short-term correction. Trading at 31% of its 52-week range, it provides a high-quality entry point for a dominant incumbent within a structural uptrend.

@@ -1,0 +1,233 @@
+PRICE CONTEXT — 2026-03-09
+Tickers: AIG, PYPL, SDGR, SHOP, SNOW
+
+Ticker |   Price | vs1Y | vs2Y |  vs3Y | vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+------+------+-------+------+------+---------+---------+------------+---------+---------
+   AIG |  $76.74 |  -5% | +10% |  +34% | +96% | 0.22 |    -0.8 |     34% |        18% |     +4% |   +13.9%
+  PYPL |  $45.54 | -36% | -24% |  -38% | -82% | 0.68 |    +0.1 |     18% |         1% |    +37% |   -28.5%
+  SDGR |  $12.44 | -44% | -51% |  -43% | -88% | 0.58 |    +0.3 |      8% |          - |    +49% |   -33.5%
+  SHOP | $131.95 | +18% | +73% | +221% |  +3% | 0.45 |    +0.5 |     55% |          - |     +1% |    +0.6%
+  SNOW | $179.67 |  +1% |  -5% |  +16% | -31% | 0.30 |    +0.5 |     37% |          - |    +19% |    -6.9%
+----------------------------------------
+
+Recent Trend: AIG
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-09 | $76.74 |  -4.7%
+2026-02-27 | $80.49 |  +7.5%
+2026-01-30 | $74.88 | -12.5%
+2025-12-31 | $85.55 | +12.9%
+2025-11-28 | $75.76 |  -3.6%
+2025-10-31 | $78.55 |  +0.5%
+2025-09-30 | $78.13 |  -2.8%
+2025-08-29 | $80.42 |  +4.8%
+2025-07-31 | $76.77 |  -9.3%
+2025-06-30 | $84.65 |  +1.7%
+2025-05-30 | $83.27 |  +3.8%
+2025-04-30 | $80.20 |  -6.2%
+
+----------------------------------------
+
+Recent Trend: PYPL
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-09 | $45.54 |  -1.2%
+2026-02-27 | $46.07 | -12.3%
+2026-01-30 | $52.53 |  -9.7%
+2025-12-31 | $58.20 |  -6.9%
+2025-11-28 | $62.50 |  -9.3%
+2025-10-31 | $68.90 |  +3.3%
+2025-09-30 | $66.71 |  -4.5%
+2025-08-29 | $69.82 |  +2.1%
+2025-07-31 | $68.40 |  -7.5%
+2025-06-30 | $73.93 |  +5.8%
+2025-05-30 | $69.91 |  +6.7%
+2025-04-30 | $65.49 |  +0.9%
+
+----------------------------------------
+
+Recent Trend: SDGR
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-03-09 | $12.44 |  +3.2%
+2026-02-27 | $12.06 | -13.7%
+2026-01-30 | $13.97 | -21.9%
+2025-12-31 | $17.88 |  +1.8%
+2025-11-28 | $17.56 | -16.5%
+2025-10-31 | $21.04 |  +4.9%
+2025-09-30 | $20.06 |  +2.8%
+2025-08-29 | $19.51 |  -4.0%
+2025-07-31 | $20.33 |  +1.0%
+2025-06-30 | $20.12 |  -6.9%
+2025-05-30 | $21.62 | -15.6%
+2025-04-30 | $25.63 | +29.8%
+
+----------------------------------------
+
+Recent Trend: SHOP
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-03-09 | $131.95 |  +9.3%
+2026-02-27 | $120.73 |  -8.0%
+2026-01-30 | $131.23 | -18.5%
+2025-12-31 | $160.97 |  +1.5%
+2025-11-28 | $158.64 |  -8.8%
+2025-10-31 | $173.86 | +17.0%
+2025-09-30 | $148.61 |  +5.2%
+2025-08-29 | $141.28 | +15.6%
+2025-07-31 | $122.21 |  +5.9%
+2025-06-30 | $115.35 |  +7.6%
+2025-05-30 | $107.22 | +12.9%
+2025-04-30 |  $95.00 |  -0.5%
+
+----------------------------------------
+
+Recent Trend: SNOW
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-03-09 | $179.67 |  +6.7%
+2026-02-27 | $168.41 | -12.6%
+2026-01-30 | $192.70 | -12.2%
+2025-12-31 | $219.36 | -12.7%
+2025-11-28 | $251.24 |  -8.6%
+2025-10-31 | $274.88 | +21.9%
+2025-09-30 | $225.55 |  -5.5%
+2025-08-29 | $238.66 |  +6.8%
+2025-07-31 | $223.50 |  -0.1%
+2025-06-30 | $223.77 |  +8.8%
+2025-05-30 | $205.67 | +29.0%
+2025-04-30 | $159.49 |  +9.1%
+
+LEGEND:
+CV (Coeff. Variation): Volatility relative to price. Higher = more volatile.
+Z-Score: Std devs of recent 1mo return vs history. <-2.0 is anomalous drop.
+52w Pos: Position in 52-week range. 0% = Low, 100% = High.
+Drop/MaxDD: Recent 1mo drop as % of worst 5yr drawdown. >80% = nearing historic worst.
+Revert↑: Upside if price reverts to 1yr average.
+
+========================================================================================================================
+ANALYSIS REPORTS
+========================================================================================================================
+
+#### AIG Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $76.74 is down -5% vs 1Y but up +96% vs 5Y. It sits at 34% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Steady long-term compounder: 5Y CAGR of +13.9% with low volatility (CV 0.22).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Erratic but broadly range-bound. The stock surged +12.9% in Dec but surrendered those gains with a -12.5% drop in Jan and -4.7% in March.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to historical drawdowns and volatility?**
+    The current 18% "Drop/MaxDD" signal is moderate; the -12.5% Jan drop was sharp for a stock with CV 0.22.
+*   **Is the current price drop an anomaly or consistent with the long-term trend?**
+    Anomalous. The recent volatility contradicts its historically steady 13.9% 5Y CAGR.
+*   **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+    Reliable target. The price sits just 4% below its 12-month mean, offering a small but stable margin of safety for a historically high-quality business.
+
+---
+**Status & Price Summary**
+**PASS.** Quality Dip. AIG is a stable long-term compounder (+13.9% 5Y CAGR) currently experiencing a sentiment-driven pullback, trading at 34% of its 52-week range. While the statistical discount is modest (+4% to annual mean), the company's strong FCF generation and low-volatility history make this a high-quality "distressed price" setup for a business that is fundamentally healthy.
+
+***
+
+#### PYPL Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $45.54 is down -36% vs 1Y and a staggering -82% vs 5Y. It sits at 18% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Severe structural decline: 5Y CAGR is -28.5% with high volatility (CV 0.68).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Relentless downward grind. Aside from minor bounces, the stock has declined significantly in 5 of the last 6 months, including -12.3% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to historical drawdowns and volatility?**
+    The current price represents a near-total 82% drawdown. Recent monthly drops are standard behavior for this stock (CV 0.68).
+*   **Is the current price drop an anomaly or consistent with the long-term trend?**
+    Consistent. The stock is in a terminal structural slide (-28.5% 5Y CAGR).
+*   **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+    Mathematical mirage. While the price sits 37% below its 12-month average, the lack of any stable support or business model floor makes the "mean" a decaying target.
+
+---
+**Status & Price Summary**
+**FILTERED.** Permanent Loser. PYPL is in a terminal structural downtrend, having lost 82% of its value over 5 years (-28.5% CAGR). Despite a 37% statistical discount to its annual mean and recent Stripe acquisition rumors, the consistent monthly bleeding and lack of any established historical support justify treating the current "upside" as a value trap.
+
+***
+
+#### SDGR Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $12.44 is down -44% vs 1Y and -88% vs 5Y. It sits at just 8% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Severe structural destruction: 5Y CAGR is -33.5% with high volatility (CV 0.58).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Sustained capitulation. The stock plummeted -16.5% in Nov, -21.9% in Jan, and -13.7% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to historical drawdowns and volatility?**
+    The current 88% drawdown is terminal. Recent double-digit monthly drops are the new norm for this ticker.
+*   **Is the current price drop an anomaly or consistent with the long-term trend?**
+    Consistent with the persistent 5-year value destruction.
+*   **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+    Mathematical mirage. The 49% statistical "upside" is a function of a collapsing price curve, offering no reliable margin of safety.
+
+---
+**Status & Price Summary**
+**FILTERED.** Permanent Loser. SDGR (Schrodinger) is experiencing persistent value destruction, down 44% YoY and 88% over 5 years (-33.5% CAGR). Trading at just 8% of its 52-week range with no sign of stabilization, the 49% discount to its annual mean reflects structural impairment rather than a temporary mispricing.
+
+***
+
+#### SHOP Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $131.95 is up +18% vs 1Y but essentially flat (+3%) vs 5Y. It sits at 55% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Stagnant long-term growth (+0.6% CAGR) with extremely high volatility (CV 0.45).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Whiplash performance. Surged in late 2025 (+17% in Oct) before pulling back -18.5% in Jan 2026 and bouncing back +9.3% in March.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to historical drawdowns and volatility?**
+    The recent 18.5% drop is sharp but sits well within the stock's standard high-volatility envelope (CV 0.45).
+*   **Is the current price drop an anomaly or consistent with the long-term trend?**
+    Consistent with its history of violent surges and pullbacks.
+*   **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+    N/A. The stock is currently trading 1% *above* its 12-month average price.
+
+---
+**Status & Price Summary**
+**FILTERED.** No Margin of Safety. SHOP has fully recovered from its recent earnings pullback and now trades 1% above its 12-month average. Despite its "loser" tag from the January drop, the current price ($131) offers no statistical discount for mean reversion and sits at the midpoint of its 52-week range.
+
+***
+
+#### SNOW Price Analysis
+
+**1. How does the current price compare to historical levels?**
+Current price $179.67 is effectively flat (+1%) vs 1Y and down -31% vs 5Y. It sits at 37% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Negative structural trend: 5Y CAGR of -6.9% with moderate volatility (CV 0.30).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Sharp recent capitulation. After a strong run in mid-2025, the stock fell significantly in three consecutive months: -12.7% in Dec, -12.2% in Jan, and -12.6% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+*   **How does the current price drop compare to historical drawdowns and volatility?**
+    The current combined 35% drop is a significant anomaly for SNOW, driving it down to the lower end of its annual range.
+*   **Is the current price drop an anomaly or consistent with the long-term trend?**
+    Anomalous in its speed. While the 5-year CAGR is negative (-6.9%), the violent 3-month capitulation represents a distinct narrative shock.
+*   **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+    Reliable target. The stock trades at a meaningful 19% discount to its 12-month average, providing a clear margin of safety for a dominant cloud incumbent.
+
+---
+**Status & Price Summary**
+**PASS.** Strategic Correction. SNOW is experiencing a sharp, sentiment-driven capitulation (-35% over 3 months) that has driven the stock to 37% of its 52-week range. Despite a negative long-term CAGR, the recent violent drop has created a 19% discount to its annual mean, presenting a classic "beaten-down software" opportunity to investigate if the cloud moat remains intact.

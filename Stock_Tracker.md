@@ -1,11 +1,11 @@
 # Ticker Tracker
 
 ## Recent Activity Log
-- **2026-03-06:** Completed Price screening for JD, LYFT (FILTERED) and KD, MAT, MSFT (PASS).
-- **2026-03-06:** Completed Price screening for DIS, HOOD, HUBG (FILTERED) and IBM, IT (PASS).
-- **2026-03-05:** Completed Discovery phase; updated tracking for AVGO, TTD and added JD, VSCO, CRWV.
-- **2026-03-02:** Completed Price screening for 10 [LOSER] tickers; 4 PASS, 6 FILTERED.
-- **2026-03-02:** Completed Deep Dive for **HIMS** (Conviction Buy).
+- **2026-03-09:** Completed Price screening for SPGI, WDAY (PASS) and STLA, TTD, UPWK, VSCO, ZS (FILTERED).
+- **2026-03-09:** Completed Price screening for AIG, SNOW (PASS) and PYPL, SDGR, SHOP (FILTERED).
+- **2026-03-09:** Updated classifications for remaining PENDING tickers based on Discovery Context.
+- **2026-03-09:** Completed Price screening for QCOM (PASS) and PINS, QVCGA, RXRX (FILTERED).
+- **2026-03-09:** Completed Price screening for NFLX, NOW, NVO, PANW (PASS) and OWL (FILTERED).
 
 ## Tracker Update Instructions
 When updating this file after receiving explicit user approval:
@@ -35,69 +35,57 @@ When updating this file after receiving explicit user approval:
 | KD     | 2026-03-06 | Price         | PASS     | [LOSER]        | —              |
 | MAT    | 2026-03-06 | Price         | PASS     | [LOSER]        | —              |
 | MSFT   | 2026-03-06 | Price         | PASS     | [LOSER] [AI]   | —              |
-| AIG    | —          | —             | PENDING  |                | —              |
-| AMD    | —          | —             | PENDING  | [AI]           | —              |
-| AMSC   | —          | —             | PENDING  |                | —              |
-| ASML   | —          | —             | PENDING  | [AI]           | —              |
-| AVGO   | —          | —             | PENDING  | [AI] [TAILWIND]| —              |
-| BSX    | —          | —             | PENDING  |                | —              |
-| CEG    | —          | —             | PENDING  | [AI]           | —              |
-| CEK    | —          | —             | PENDING  |                | —              |
-| CHKP   | —          | —             | PENDING  |                | —              |
-| CLS    | —          | —             | PENDING  | [AI]           | —              |
-| CRWV   | —          | —             | PENDING  | [AI] [TAILWIND]| —              |
-| CSGP   | —          | —             | PENDING  |                | —              |
-| CSU    | —          | —             | PENDING  |                | —              |
-| DDOG   | —          | —             | PENDING  |                | —              |
-| ENPH   | —          | —             | PENDING  |                | —              |
-| EVVTY  | —          | —             | PENDING  |                | —              |
-| FROG   | —          | —             | PENDING  |                | —              |
-| GWRE   | —          | —             | PENDING  |                | —              |
-| HUBS   | —          | —             | PENDING  |                | —              |
-| ICHR   | —          | —             | PENDING  | [AI]           | —              |
-| INTA   | —          | —             | PENDING  |                | —              |
-| INTC   | —          | —             | PENDING  | [AI]           | —              |
-| INTU   | —          | —             | PENDING  |                | —              |
-| IOT    | —          | —             | PENDING  |                | —              |
-| LITE   | —          | —             | PENDING  | [AI]           | —              |
-| LRCX   | —          | —             | PENDING  | [AI]           | —              |
-| META   | —          | —             | PENDING  | [AI]           | —              |
-| MU     | —          | —             | PENDING  | [AI]           | —              |
-| NET    | —          | —             | PENDING  |                | —              |
-| NFLX   | —          | —             | PENDING  | [LOSER]        | —              |
-| NIO    | —          | —             | PENDING  |                | —              |
-| NOW    | —          | —             | PENDING  | [LOSER] [AI]   | —              |
-| NSC    | —          | —             | PENDING  |                | —              |
-| NVDA   | —          | —             | PENDING  | [AI]           | —              |
-| NVO    | —          | —             | PENDING  | [LOSER]        | —              |
-| OKTA   | —          | —             | PENDING  |                | —              |
-| ORCL   | —          | —             | PENDING  | [AI]           | —              |
-| OUST   | —          | —             | PENDING  | [AI]           | —              |
-| OWL    | —          | —             | PENDING  | [LOSER]        | —              |
-| PANW   | —          | —             | PENDING  | [LOSER]        | —              |
-| PINS   | —          | —             | PENDING  | [LOSER]        | —              |
-| PYPL   | —          | —             | PENDING  | [OTHER]        | —              |
-| QCOM   | —          | —             | PENDING  | [LOSER]        | —              |
-| QTWO   | —          | —             | PENDING  |                | —              |
-| QVCGA  | —          | —             | PENDING  | [LOSER]        | —              |
-| RIVN   | —          | —             | PENDING  |                | —              |
-| RXRX   | —          | —             | PENDING  | [LOSER]        | —              |
-| SDGR   | —          | —             | PENDING  | [LOSER]        | —              |
-| SHOP   | —          | —             | PENDING  | [LOSER]        | —              |
-| SNDK   | —          | —             | PENDING  | [AI]           | —              |
-| SNOW   | —          | —             | PENDING  | [LOSER]        | —              |
-| SPGI   | —          | —             | PENDING  | [LOSER]        | —              |
-| STLA   | —          | —             | PENDING  | [LOSER]        | —              |
-| TTD    | —          | —             | PENDING  | [LOSER]        | —              |
-| TWLO   | —          | —             | PENDING  |                | —              |
-| TYL    | —          | —             | PENDING  |                | —              |
-| UNP    | —          | —             | PENDING  |                | —              |
-| UPWK   | —          | —             | PENDING  | [LOSER]        | —              |
-| VEEV   | —          | —             | PENDING  |                | —              |
-| VRT    | —          | —             | PENDING  | [AI]           | —              |
-| VSCO   | —          | —             | PENDING  | [LOSER]        | —              |
-| WDAY   | —          | —             | PENDING  | [LOSER]        | —              |
-| ZS     | —          | —             | PENDING  | [LOSER]        | —              |
+| NFLX   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| NOW    | 2026-03-09 | Price         | PASS     | [LOSER] [AI]   | —              |
+| NVO    | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| PANW   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| QCOM   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| AIG    | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| SNOW   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| SPGI   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| WDAY   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| AMD    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| AMSC   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| ASML   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| AVGO   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| BSX    | —          | —             | PENDING  | [OTHER]        | —              |
+| CEG    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| CEK    | —          | —             | PENDING  | [TAILWIND]     | —              |
+| CHKP   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| CLS    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| CRWV   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| CSGP   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| CSU    | —          | —             | PENDING  | [TAILWIND]     | —              |
+| DDOG   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| ENPH   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| EVVTY  | —          | —             | PENDING  | [OTHER]        | —              |
+| FROG   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| GWRE   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| HUBS   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| ICHR   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| INTA   | —          | —             | PENDING  | [OTHER]        | —              |
+| INTC   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| INTU   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| IOT    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| LITE   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| LRCX   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| META   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| MU     | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| NET    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| NIO    | —          | —             | PENDING  | [TAILWIND]     | —              |
+| NSC    | —          | —             | PENDING  | [OTHER]        | —              |
+| NVDA   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| OKTA   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| ORCL   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| OUST   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| QTWO   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| RIVN   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| SNDK   | —          | —             | PENDING  | [OTHER]        | —              |
+| TWLO   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| TYL    | —          | —             | PENDING  | [TAILWIND]     | —              |
+| UNP    | —          | —             | PENDING  | [OTHER]        | —              |
+| VEEV   | —          | —             | PENDING  | [TAILWIND]     | —              |
+| VRT    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
 
 ---
 
@@ -162,6 +150,42 @@ MAT is a historically low-volatility stock (CV 0.10) that suffered an anomalous 
 **Price** | 2026-03-06 | PASS
 MSFT is a premium long-term compounder (+12.5% 5Y CAGR) currently experiencing a sharp, sentiment-driven correction (-19% combined drop in early 2026) due to AI CapEx fears. Trading at 32% of its 52-week range, it offers a rare 12% discount to its 1-year average price, providing a clear margin of safety for a dominant incumbent.
 
+### NFLX
+**Price** | 2026-03-09 | PASS
+NFLX has absorbed a significant 25% correction over the last quarter due to WB deal uncertainty and valuation fears. Trading 12% below its annual mean and sitting in the 39th percentile of its 52-week range, it offers a margin of safety for a business that remains a long-term compounder (+12.2% 5Y CAGR).
+
+### NOW
+**Price** | 2026-03-09 | PASS
+NOW (ServiceNow) is a dominant workflow incumbent trading at a massive 26% discount to its 1-year mean following a violent 34% YoY correction. At just 22% of its 52-week range, the price reflects broad market panic over AI disruption which contradicts the company's positioning as an orchestrator of agentic AI.
+
+### NVO
+**Price** | 2026-03-09 | PASS
+NVO (Novo Nordisk) has suffered a catastrophic 56% YoY loss of value, currently trading at absolute multi-year lows (7% of 52w range). While the pricing pressure narrative is real, the 29% discount to its annual mean suggests a potentially overdone reflexive "bust" cycle for a major pharmaceutical leader.
+
+### PANW
+**Price** | 2026-03-09 | PASS
+PANW is a high-growth cybersecurity leader (+21.8% 5Y CAGR) currently offering a rare 11% discount to its annual average following a short-term correction. Trading at 31% of its 52-week range, it provides a high-quality entry point for a dominant incumbent within a structural uptrend.
+
+### QCOM
+**Price** | 2026-03-09 | PASS
+QCOM is a historically stable incumbent (CV 0.17) currently undergoing a moderate correction due to a "memory crunch" narrative. Trading at just 17% of its 52-week range and offering a 14% discount to its 1-year mean, it presents a high-quality entry point for a dominant leader in a stagnant but essential market.
+
+### AIG
+**Price** | 2026-03-09 | PASS
+AIG is a stable long-term compounder (+13.9% 5Y CAGR) currently experiencing a sentiment-driven pullback, trading at 34% of its 52-week range. While the statistical discount is modest (+4% to annual mean), the company's strong FCF generation and low-volatility history make this a high-quality "distressed price" setup for a business that is fundamentally healthy.
+
+### SNOW
+**Price** | 2026-03-09 | PASS
+SNOW is experiencing a sharp, sentiment-driven capitulation (-35% over 3 months) that has driven the stock to 37% of its 52-week range. Despite a negative long-term CAGR, the recent violent drop has created a 19% discount to its annual mean, presenting a classic "beaten-down software" opportunity to investigate if the cloud moat remains intact.
+
+### SPGI
+**Price** | 2026-03-09 | PASS
+SPGI is a dominant data/ratings incumbent (+6.8% 5Y CAGR) currently offering a 13% discount to its 1-year mean following AI-related sentiment fears. Trading at 32% of its 52-week range, the price represents an anomalous dislocation for a historically low-volatility business.
+
+### WDAY
+**Price** | 2026-03-09 | PASS
+WDAY is a historically stable enterprise giant experiencing an extreme, sentiment-driven collapse (-44% YoY) due to broad AI disruption fears. Trading at just 19% of its 52-week range, the massive 44% discount to its 1-year mean provides a significant margin of safety to investigate if the core moat remains intact.
+
 ---
 
 ## Filtered Archive
@@ -209,3 +233,51 @@ JD is in a structural multi-year decline (-68% over 5 years, -19.9% CAGR). While
 ### LYFT
 **Price** | 2026-03-06 | FILTERED
 LYFT is a highly volatile stock (CV 0.71) that has suffered massive long-term structural impairment (-77% over 5 years, -24.5% CAGR). While the recent 18% drop offers a 28% reversion upside to its annual mean, the extreme historic volatility and existential "AV disruption" narrative make it a terminal risk rather than a high-quality temporary mispricing.
+
+### OWL
+**Price** | 2026-03-09 | FILTERED
+OWL (Blue Owl) is in a terminal downward spiral, trading at absolute multi-year lows (0% of range) with a relentless 12-month grind. Despite the 60% reversion upside, the lack of any stabilization or positive catalysts suggests a structurally impaired business rather than a temporary sentiment dislocation.
+
+### PINS
+**Price** | 2026-03-09 | FILTERED
+Permanent Loser. Despite a massive statistical discount to its annual mean, the terminal 5-year downtrend (-24.1% CAGR, -76% total loss) indicates structural impairment rather than a temporary sentiment-driven dip. The stock lacks the stable historical base required to justify a "mean reversion" thesis.
+
+### QVCGA
+**Price** | 2026-03-09 | FILTERED
+QVCGA has suffered near-total value destruction (-81% YoY, -75% 5Y CAGR). The massive 72% plunge in February is indicative of terminal distress or restructuring risk rather than a high-quality temporary mispricing; the stock lacks the stable fundamental base required for a margin of safety thesis.
+
+### RXRX
+**Price** | 2026-03-09 | FILTERED
+RXRX (Recursion) is in a terminal structural decline, down 90% over 5 years. While it offers a statistical 38% reversion upside, the consistent monthly bleeding and lack of any support level suggest permanent impairment driven by AI-pharma disruption fears rather than a temporary dislocation.
+
+### PYPL
+**Price** | 2026-03-09 | FILTERED
+PYPL is in a terminal structural downtrend, having lost 82% of its value over 5 years (-28.5% CAGR). Despite a 37% statistical discount to its annual mean and recent Stripe acquisition rumors, the consistent monthly bleeding and lack of any established historical support justify treating the current "upside" as a value trap.
+
+### SDGR
+**Price** | 2026-03-09 | FILTERED
+SDGR (Schrodinger) is experiencing persistent value destruction, down 44% YoY and 88% over 5 years (-33.5% CAGR). Trading at just 8% of its 52-week range with no sign of stabilization, the 49% discount to its annual mean reflects structural impairment rather than a temporary mispricing.
+
+### SHOP
+**Price** | 2026-03-09 | FILTERED
+SHOP has fully recovered from its recent earnings pullback and now trades 1% above its 12-month average. Despite its "loser" tag from the January drop, the current price ($131) offers no statistical discount for mean reversion and sits at the midpoint of its 52-week range.
+
+### STLA
+**Price** | 2026-03-09 | FILTERED
+STLA (Stellantis) is in a structural decline, down 40% over 5 years (-9.5% CAGR). Despite a 37% discount to its annual mean, the lack of a stable fundamental floor and the persistent multi-year downward grind justify treating this as a value trap.
+
+### TTD
+**Price** | 2026-03-09 | FILTERED
+TTD (The Trade Desk) has suffered massive long-term structural impairment, losing 65% of its value over 5 years. Despite massive CEO insider buying and a 76% statistical discount to its annual mean, the catastrophic long-term trend makes this a high-risk falling knife rather than a temporary mispricing.
+
+### UPWK
+**Price** | 2026-03-09 | FILTERED
+UPWK has lost 76% of its value over 5 years (-24% CAGR). While the 21% discount to its annual mean seems attractive, the consistent multi-year bleeding and extreme inherent volatility make it a structural risk rather than a temporary dislocation.
+
+### VSCO
+**Price** | 2026-03-09 | FILTERED
+Although VSCO suffered a violent -24% earnings pullback in February, the stock had previously run up so much that it still trades 23% *above* its 12-month mean. Despite the "loser" tag, the current price offers no statistical margin of safety for reversion.
+
+### ZS
+**Price** | 2026-03-09 | FILTERED
+ZS (Zscaler) is in a structural multi-year downtrend, currently trading at 5-year lows. Despite a massive 53% statistical discount to its annual mean, the persistent monthly bleeding and negative long-term CAGR justify treating the current price action as structural impairment rather than a temporary mispricing.

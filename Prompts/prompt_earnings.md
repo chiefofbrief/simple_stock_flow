@@ -20,6 +20,7 @@ Follow these steps exactly:
 
 3. **Commit Changes (POST-APPROVAL ONLY):**
    - Only after receiving explicit user approval (e.g., "yes", "go ahead"):
+     - **Batch Handling:** If you are processing multiple batches on the same date, ensure you rename previous data files (e.g., `Earnings_{DATE}_Batch1.txt`) before running scripts or saving analysis to avoid overwriting work.
      - **Stock Tracker:** Update `Stock_Tracker.md` by strictly following the **Tracker Update Instructions** at the top of that file.
      - **Data File:** Append the **full analysis report** (including Q&A and Status Update) to the end of `Data/screening/Earnings_{DATE}.txt`.
 
