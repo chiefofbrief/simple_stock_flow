@@ -1,11 +1,11 @@
 # Ticker Tracker
 
 ## Recent Activity Log
+- **2026-03-10:** Completed Earnings screening for AIG, IT, KD, MSFT (PASS) and MAT (FILTERED).
+- **2026-03-10:** Completed Earnings screening for ADBE, CRM (PASS) and ARM, CRWD, IBM (FILTERED).
 - **2026-03-09:** Completed Price screening for SPGI, WDAY (PASS) and STLA, TTD, UPWK, VSCO, ZS (FILTERED).
 - **2026-03-09:** Completed Price screening for AIG, SNOW (PASS) and PYPL, SDGR, SHOP (FILTERED).
 - **2026-03-09:** Updated classifications for remaining PENDING tickers based on Discovery Context.
-- **2026-03-09:** Completed Price screening for QCOM (PASS) and PINS, QVCGA, RXRX (FILTERED).
-- **2026-03-09:** Completed Price screening for NFLX, NOW, NVO, PANW (PASS) and OWL (FILTERED).
 
 ## Tracker Update Instructions
 When updating this file after receiving explicit user approval:
@@ -26,21 +26,17 @@ When updating this file after receiving explicit user approval:
 | Ticker | Last Run   | Current Phase | Status   | Tags           | Thesis File    |
 |--------|------------|---------------|----------|----------------|----------------|
 | **HIMS**| 2026-03-02 | Earnings Calls| PASS     | [LOSER]        | HIMS_Thesis.md |
-| ADBE   | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
-| ARM    | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
-| CRM    | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
-| CRWD   | 2026-03-02 | Price         | PASS     | [LOSER]        | —              |
-| IBM    | 2026-03-06 | Price         | PASS     | [LOSER] [AI]   | —              |
-| IT     | 2026-03-06 | Price         | PASS     | [LOSER]        | —              |
-| KD     | 2026-03-06 | Price         | PASS     | [LOSER]        | —              |
-| MAT    | 2026-03-06 | Price         | PASS     | [LOSER]        | —              |
-| MSFT   | 2026-03-06 | Price         | PASS     | [LOSER] [AI]   | —              |
+| ADBE   | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
+| AIG    | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
+| CRM    | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
+| IT     | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
+| KD     | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
+| MSFT   | 2026-03-10 | Earnings      | PASS     | [LOSER] [AI]   | —              |
 | NFLX   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
 | NOW    | 2026-03-09 | Price         | PASS     | [LOSER] [AI]   | —              |
 | NVO    | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
 | PANW   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
 | QCOM   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
-| AIG    | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
 | SNOW   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
 | SPGI   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
 | WDAY   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
@@ -118,37 +114,36 @@ Management is pivoting from adversary to distribution partner (re-engaging Novo 
 **Price** | 2026-03-02 | PASS
 ADBE is a high-quality incumbent in a violent 'bust' cycle, down 41% YoY and trading at just 7% of its 52-week range ($259 vs $415 peak). Despite its stable history, it is now at 5-year lows. The 31% discount to its 1-year average price ($375) creates a significant margin of safety if its core enterprise moat remains intact.
 
-### ARM
-**Price** | 2026-03-02 | PASS
-ARM is a dominant growth winner (+37.8% 5Y CAGR) currently undergoing a minor correction, down 7% YoY and trading at 41% of its 52-week range. The current price ($122) represents a rare 8% discount to its 12-month average, offering a high-quality entry point within a strong structural uptrend.
+**Earnings** | 2026-03-10 | PASS
+Adobe is a high-conviction candidate for a "Loser" thesis. The current 12.4x P/E is half its historical average, despite a consistent 16.8% earnings CAGR and high stability (0.21 CV). The extreme negative correlation (-0.84) between rising earnings and a falling price creates a massive valuation gap, while consistent earnings beats suggest the enterprise moat remains intact despite retail competition fears.
 
 ### CRM
 **Price** | 2026-03-02 | PASS
 CRM is a stable software giant experiencing a sharp YoY capitulation, down 35% and trading at just 14% of its 52-week range. Despite a flat long-term CAGR (-2.1%), the current dislocation is anomalous; trading at a 26% discount to its 1-year average ($191 vs $259 avg) provides a significant margin of safety for a high-quality incumbent.
 
-### CRWD
-**Price** | 2026-03-02 | PASS
-CRWD is a high-quality performer (+11.6% 5Y CAGR) in a sudden 15.7% monthly correction, now trading at 31% of its 52-week range. The current price ($381) sits 20% below its 12-month average, representing a significant short-term dislocation for a stock that remains in a structural long-term uptrend.
-
-### IBM
-**Price** | 2026-03-06 | PASS
-IBM is a strong long-term performer (+21.5% 5Y CAGR) that suffered a violent 21% monthly drop due to a narrative shock (Claude COBOL automation). Currently sitting at 39% of its 52-week range, it offers a 7% margin of safety relative to its 12-month average, presenting a classic temporary dislocation setup.
+**Earnings** | 2026-03-10 | PASS
+Salesforce is a prime example of a "Temporary Price Dislocation." Trading at 15.3x P/E—nearly half its historical mean—despite 20%+ earnings growth and massive recent beats, the valuation is detached from reality. The extreme -0.85 correlation confirms that the market is ignoring strong fundamentals in favor of a "beaten-down software" narrative.
 
 ### IT
 **Price** | 2026-03-06 | PASS
 IT (Gartner) is experiencing a catastrophic, sentiment-driven collapse (-66% YoY) fueled by AI-disruption fears, currently trading at absolute 5-year lows (9% of 52w range). This violent capitulation has created a massive 67% discount to its 1-year mean, requiring a deep dive to determine if the core business model is permanently impaired or temporarily mispriced.
 
+**Earnings** | 2026-03-10 | PASS
+Gartner represents an extreme sentiment-driven dislocation. While there is a genuine fundamental headwind (evidenced by the -6% TTM earnings dip and conservative forward estimate), the market has reacted by cutting the valuation multiple by 64% to just 12.8x. For a business with a 21.9% long-term CAGR and high stability (0.16 CV), this valuation implies a permanent impairment that the current earnings beats do not yet support.
+
 ### KD
 **Price** | 2026-03-06 | PASS
 KD (Kyndryl) has suffered a catastrophic, sentiment-driven collapse, down 66% YoY and trading at absolute lows (9% of 52w range) following a massive 46% plunge in February due to executive exits and guidance cuts. This "perfect storm" has created a 54% discount to its 1-year mean (requiring a +118% reversion), making it a prime candidate for a deep dive to see if the core FCF remains intact beneath the panic.
 
-### MAT
-**Price** | 2026-03-06 | PASS
-MAT is a historically low-volatility stock (CV 0.10) that suffered an anomalous 18.9% monthly drop following an earnings/guidance miss, driving it down to 22% of its 52-week range. The current price provides a clear 14% discount to its 1-year mean (requiring a +16% reversion), presenting a distinct "loser" setup compared to its soaring rival Hasbro.
+**Earnings** | 2026-03-10 | PASS
+Deep Turnaround Investigation. While the 14% quarterly miss and executive exits are significant red flags, the current 7.3x P/E is an 84% discount to its historical average. We will PASS this to the Financials phase to determine if the "economic substance" (OCF and FCF) is truly deteriorating or if the 7x multiple provides a sufficient floor for a high-risk turnaround bet.
 
 ### MSFT
 **Price** | 2026-03-06 | PASS
 MSFT is a premium long-term compounder (+12.5% 5Y CAGR) currently experiencing a sharp, sentiment-driven correction (-19% combined drop in early 2026) due to AI CapEx fears. Trading at 32% of its 52-week range, it offers a rare 12% discount to its 1-year average price, providing a clear margin of safety for a dominant incumbent.
+
+**Earnings** | 2026-03-10 | PASS
+Investigating Economic Reality. At 26.6x P/E, Microsoft is not "cheap" in absolute terms, especially compared to ADBE or CRM. While its 18% CAGR and 23% TTM growth are strong, we must investigate if the "economic reality" supports this multiple. Per AI Guidelines, MSFT faces "Depreciation Risk" and "Cascading Earnings Impact" from physical bottlenecks (power/cooling). We will PASS it to the Financials phase specifically to audit the AI CapEx surge and OCF quality.
 
 ### NFLX
 **Price** | 2026-03-09 | PASS
@@ -174,6 +169,9 @@ QCOM is a historically stable incumbent (CV 0.17) currently undergoing a moderat
 **Price** | 2026-03-09 | PASS
 AIG is a stable long-term compounder (+13.9% 5Y CAGR) currently experiencing a sentiment-driven pullback, trading at 34% of its 52-week range. While the statistical discount is modest (+4% to annual mean), the company's strong FCF generation and low-volatility history make this a high-quality "distressed price" setup for a business that is fundamentally healthy.
 
+**Earnings** | 2026-03-10 | PASS
+AIG is a high-quality turnaround play with a genuine Margin of Safety. At a 10.7x P/E—a 20% discount to its historical average—the stock is priced for distress despite delivering 30%+ TTM earnings growth and consistent double-digit quarterly beats. The 23% long-term CAGR and high current cash generation suggest the market is ignoring the turnaround's success in favor of a legacy "distressed" narrative.
+
 ### SNOW
 **Price** | 2026-03-09 | PASS
 SNOW is experiencing a sharp, sentiment-driven capitulation (-35% over 3 months) that has driven the stock to 37% of its 52-week range. Despite a negative long-term CAGR, the recent violent drop has created a 19% discount to its annual mean, presenting a classic "beaten-down software" opportunity to investigate if the cloud moat remains intact.
@@ -189,6 +187,34 @@ WDAY is a historically stable enterprise giant experiencing an extreme, sentimen
 ---
 
 ## Filtered Archive
+
+### MAT
+**Price** | 2026-03-06 | PASS
+MAT is a historically low-volatility stock (CV 0.10) that suffered an anomalous 18.9% monthly drop following an earnings/guidance miss, driving it down to 22% of its 52-week range. The current price provides a clear 14% discount to its 1-year mean (requiring a +16% reversion), presenting a distinct "loser" setup compared to its soaring rival Hasbro.
+
+**Earnings** | 2026-03-10 | FILTERED
+Fundamental Deterioration. Mattel’s 11x P/E is low, but the business is currently in a downward spiral, with two consecutive double-digit earnings misses and an analyst forecast for a return to losses (-$0.23 estimate). Unlike "Losers" where earnings remain stable while price falls, MAT's earnings are decreasing along with the price, suggesting the dislocation is justified by failing fundamentals and executive failure (contrasting with rival Hasbro's success).
+
+### ARM
+**Price** | 2026-03-02 | PASS
+ARM is a dominant growth winner (+37.8% 5Y CAGR) currently undergoing a minor correction, down 7% YoY and trading at 41% of its 52-week range. The current price ($122) represents a rare 8% discount to its 12-month average, offering a high-quality entry point within a strong structural uptrend.
+
+**Earnings** | 2026-03-10 | FILTERED
+Speculative Valuation. While ARM is a dominant growth winner, its 82.7x P/E fails the "safety of principal" test. The market has already discounted a "perfect" 40% growth forecast. With high earnings volatility (0.32 CV) and a recent history of significant misses, the stock lacks any Margin of Safety; any further sentiment shift or growth deceleration could lead to a violent multiple compression toward a more reasonable 40-50x range.
+
+### CRWD
+**Price** | 2026-03-02 | PASS
+CRWD is a high-quality performer (+11.6% 5Y CAGR) in a sudden 15.7% monthly correction, now trading at 31% of its 52-week range. The current price ($381) sits 20% below its 12-month average, representing a significant short-term dislocation for a stock that remains in a structural long-term uptrend.
+
+**Earnings** | 2026-03-10 | FILTERED
+Growth Stall at Premium Price. Buying a 100x P/E stock when earnings are declining (-4.8% TTM) is speculative, not an investment. Unlike ADBE or CRM, where the multiple compressed while earnings rose, CRWD’s multiple has actually *expanded* relative to the last 3 years while growth has stalled. There is no Margin of Safety here; the stock is a high-multiple growth trap.
+
+### IBM
+**Price** | 2026-03-06 | PASS
+IBM is a strong long-term performer (+21.5% 5Y CAGR) that suffered a violent 21% monthly drop due to a narrative shock (Claude COBOL automation). Currently sitting at 39% of its 52-week range, it offers a 7% margin of safety relative to its 12-month average, presenting a classic temporary dislocation setup.
+
+**Earnings** | 2026-03-10 | FILTERED
+Lack of Margin of Safety. Despite a violent 21% price drop following the "Claude Code" narrative shock, IBM still trades at a 27% premium to its historical average P/E. Paying 22x for a low-growth (6%) legacy incumbent provides no protection against the "business deterioration" risk that the narrative shock suggests. This is a "Value Trap" setup: an expensive multiple on a business facing new structural uncertainties.
 
 ### AAPL
 **Price** | 2026-03-02 | FILTERED

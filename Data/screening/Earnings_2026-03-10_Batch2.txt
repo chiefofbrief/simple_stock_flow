@@ -1,0 +1,355 @@
+EARNINGS & VALUATION — 2026-03-10
+
+Ticker | Cur P/E | vs1Y | vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+---------+------+------+------+-------+--------+----+----------+-----------+----------
+   AIG |   10.7x | -28% | -15% | -31% |  -20% |  -0.30 | || |   +23.2% |      0.19 |    $-0.03
+    IT |   12.8x | -64% | -56% | -65% |  -55% |   0.19 | || |   +21.9% |      0.16 |    $-1.02
+    KD |    7.3x | -92% |    - |    - |  -84% |  -0.76 | || |        - |      2.12 |    $-0.03
+   MAT |   11.0x | -16% | -23% | -71% |  -42% |  -0.36 | || |   +22.1% |      0.12 |    $-0.62
+  MSFT |   26.6x | -16% |  -0% | -20% |  -10% |  -0.36 | || |   +18.0% |      0.24 |    $-0.09
+
+
+LEGEND:
+vsXYr: % difference between Current P/E and P/E X years ago.
+1yCorr: Correlation (0-1) between Price and Earnings over last 12 months.
+Stability: CV of Annual EPS (Lower = Smoother growth).
+Fwd Delta: Next Quarter Estimate minus Last Reported EPS. (+ = Growth exp).
+
+================================================================================
+TICKER: AIG | Price Date: 2026-03-09
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   10.7x |   14.9x |   12.7x |   15.6x | 13.5x
+   vs Cur   |       - |    -28% |    -15% |    -31% |  -20%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.30
+   > 5-Year EPS CAGR:    +23.2%
+   > Earnings Stability: 0.19
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $1.93 |        - |        - | (Due: 2026-04-30)
+   2026-02-10  |    $1.90 |    $1.96 |    +3.2% | $0.06
+   2025-11-04  |    $1.72 |    $2.20 |   +27.9% | $0.48
+   2025-08-06  |    $1.60 |    $1.81 |   +13.1% | $0.21
+   2025-05-01  |    $1.00 |    $1.17 |   +17.0% | $0.17
+
+   > Forward Delta: $-0.03 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-10  |    $7.14 | +30.8%
+   2025-02-11  |    $5.46 | -19.5%
+   2024-02-13  |    $6.78 | +50.3%
+   2023-02-15  |    $4.51 | -11.9%
+   2022-02-16  |    $5.12 | +103.2%
+   2021-02-16  |    $2.52 | -45.2%
+   2020-02-13  |    $4.60 | +310.7%
+   2019-02-13  |    $1.12 | -50.0%
+   2018-02-08  |    $2.24 |      -
+================================================================================
+TICKER: IT | Price Date: 2026-03-06
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   12.8x |   35.3x |   29.0x |   36.5x | 28.4x
+   vs Cur   |       - |    -64% |    -56% |    -65% |  -55%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: 0.19
+   > 5-Year EPS CAGR:    +21.9%
+   > Earnings Stability: 0.16
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $2.92 |        - |        - | (Due: 2026-05-05)
+   2026-02-03  |    $3.51 |    $3.94 |   +12.3% | $0.43
+   2025-11-04  |    $2.43 |    $2.76 |   +13.6% | $0.33
+   2025-08-05  |    $3.30 |    $3.53 |    +7.0% | $0.23
+   2025-05-06  |    $2.72 |    $2.98 |    +9.6% | $0.26
+
+   > Forward Delta: $-1.02 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-03  |   $13.21 |  -6.3%
+   2025-02-04  |   $14.10 | +24.4%
+   2024-02-06  |   $11.33 |  +0.4%
+   2023-02-07  |   $11.29 | +21.9%
+   2022-02-08  |    $9.26 | +89.0%
+   2021-02-09  |    $4.90 | +25.3%
+   2020-02-04  |    $3.91 |  +2.9%
+   2019-02-05  |    $3.80 | +15.2%
+   2018-02-06  |    $3.30 |      -
+================================================================================
+TICKER: KD | Price Date: 2026-03-06
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|    7.3x |   86.5x |       - |       - | 46.9x
+   vs Cur   |       - |    -92% |       - |       - |  -84%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.76
+   > 5-Year EPS CAGR:    -
+   > Earnings Stability: 2.12
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $0.49 |        - |        - | (Due: 2026-05-13)
+   2026-02-09  |    $0.60 |    $0.52 |   -13.9% | $-0.08
+   2025-11-04  |    $0.35 |    $0.38 |    +8.6% | $0.03
+   2025-08-04  |    $0.36 |    $0.37 |    +2.8% | $0.01
+   2025-05-07  |    $0.51 |    $0.52 |    +2.8% | $0.01
+
+   > Forward Delta: $-0.03 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-09  |    $1.79 | +306.8%
+   2025-02-03  |    $0.44 | +147.4%
+   2024-02-06  |   $-0.93 | +58.0%
+   2023-02-07  |   $-2.21 | +78.9%
+   2022-02-28  |  $-10.47 |      -
+================================================================================
+TICKER: MAT | Price Date: 2026-03-06
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   11.0x |   13.1x |   14.3x |   38.1x | 19.1x
+   vs Cur   |       - |    -16% |    -23% |    -71% |  -42%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.36
+   > 5-Year EPS CAGR:    +22.1%
+   > Earnings Stability: 0.12
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |   $-0.23 |        - |        - | (Due: 2026-05-04)
+   2026-02-10  |    $0.54 |    $0.39 |   -27.5% | $-0.15
+   2025-10-21  |    $1.05 |    $0.89 |   -15.2% | $-0.16
+   2025-07-23  |    $0.16 |    $0.19 |   +18.8% | $0.03
+   2025-05-05  |   $-0.11 |   $-0.03 |   +72.7% | $0.08
+
+   > Forward Delta: $-0.62 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-10  |    $1.44 | -11.7%
+   2025-02-04  |    $1.63 | +32.5%
+   2024-02-07  |    $1.23 |  -2.4%
+   2023-02-08  |    $1.26 |  -3.1%
+   2022-02-09  |    $1.30 | +145.3%
+   2021-02-09  |    $0.53 | +265.6%
+   2020-02-13  |   $-0.32 | +66.0%
+   2019-02-07  |   $-0.94 | +13.8%
+   2018-02-01  |   $-1.09 |      -
+================================================================================
+TICKER: MSFT | Price Date: 2026-03-06
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   26.6x |   31.7x |   26.7x |   33.2x | 29.6x
+   vs Cur   |       - |    -16% |     -0% |    -20% |  -10%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.36
+   > 5-Year EPS CAGR:    +18.0%
+   > Earnings Stability: 0.24
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $4.05 |        - |        - | (Due: 2026-04-29)
+   2026-01-28  |    $3.90 |    $4.14 |    +6.2% | $0.24
+   2025-10-29  |    $3.67 |    $4.13 |   +12.5% | $0.46
+   2025-07-30  |    $3.37 |    $3.65 |    +8.3% | $0.28
+   2025-04-30  |    $3.22 |    $3.46 |    +7.5% | $0.24
+
+   > Forward Delta: $-0.09 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-01-28  |   $15.38 | +23.8%
+   2025-01-29  |   $12.42 | +12.3%
+   2024-01-30  |   $11.06 | +21.3%
+   2023-01-24  |    $9.12 |  +2.8%
+   2022-01-25  |    $8.87 | +32.2%
+   2021-01-26  |    $6.71 | +24.3%
+   2020-01-29  |    $5.40 | +25.0%
+   2019-01-30  |    $4.32 | +23.1%
+   2018-01-31  |    $3.51 |      -
+
+================================================================================
+QUALITATIVE ANALYSIS REPORTS
+================================================================================
+
+#### AIG Earnings/Valuation Analysis
+
+**1. How does the current P/E ratio compare to historical levels?**
+AIG's current P/E is **10.7x**, representing a discount across all major timeframes: **-28% vs. 1Y ago (14.9x)**, **-15% vs. 3Y ago (12.7x)**, and **-31% vs. 5Y ago (15.6x)**. It is trading 20% below its 5-year average of 13.5x.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+The long-term trend shows strong growth with a **5-year EPS CAGR of +23.2%**. However, earnings have been historically volatile (CV 0.19), with significant YoY swings (e.g., -45% in 2021, +310% in 2020) as the company navigated its turnaround. TTM earnings have risen from $2.24 in 2018 to **$7.14** today.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Short-term performance is robust, with **+30.8% TTM growth**. The company has consistently beaten quarterly estimates by significant margins, with a massive **+27.9% surprise** in Nov 2025.
+
+**4. What is the correlation between price and earnings?**
+There is a **negative correlation of -0.30**. While not as extreme as ADBE or CRM, it indicates a divergence where earnings are growing while the multiple is contracting.
+
+**5. How do the upcoming earnings estimates compare to the company’s past performance?**
+The next estimate of **$1.93** is a minor **-$0.03 Forward Delta** vs. the last actual ($1.96), essentially projecting a stabilization at current record earnings levels.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY: Earnings vs Price Trajectory**
+*   **Are earnings decreasing along with the price?**
+    **No.** TTM earnings surged **30.8% YoY**, while the multiple compressed from 14.9x to 10.7x. The underlying business is "printing money" while the stock remains priced as a distressed asset.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY: Forward Estimates & Valuation Reliance**
+N/A - Not a tailwind stock
+
+---
+**Status & Earnings Summary**
+**PASS.** AIG is a high-quality turnaround play with a genuine Margin of Safety. At a 10.7x P/E—a 20% discount to its historical average—the stock is priced for distress despite delivering 30%+ TTM earnings growth and consistent double-digit quarterly beats. The 23% long-term CAGR and high current cash generation suggest the market is ignoring the turnaround's success in favor of a legacy "distressed" narrative.
+
+***
+
+#### IT Earnings/Valuation Analysis
+
+**1. How does the current P/E ratio compare to historical levels?**
+Gartner (IT) is trading at a current P/E of **12.8x**, which is a catastrophic discount: **-64% vs. 1Y ago (35.3x)**, **-56% vs. 3Y ago (29.0x)**, and **-55% vs. its historical average (28.4x)**.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+The long-term trend is very strong, with a **5-year EPS CAGR of +21.9%**. Earnings have grown from $3.30 in 2018 to **$13.21** today. Stability is high with a CV of **0.16**.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Short-term performance shows a slight **-6.3% TTM decline**, primarily due to a lower Q4 compared to the previous year. However, the company continues to beat quarterly estimates by **7% to 13%**.
+
+**4. What is the correlation between price and earnings?**
+The correlation is **0.19**, indicating that price and earnings are currently decoupled. The price collapse (-66% YoY) far exceeds the minor -6% dip in TTM earnings.
+
+**5. How do the upcoming earnings estimates compare to the company’s past performance?**
+The upcoming estimate of **$2.92** represents a significant **-$1.02 Forward Delta** compared to the last actual ($3.94). This reflects analyst fears of AI disruption hitting Gartner's research/consulting business.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY: Earnings vs Price Trajectory**
+*   **Are earnings decreasing along with the price?**
+    **Yes, but the scales are radically different.** The price has collapsed **66%**, while TTM earnings have dipped only **6%**. The current 12.8x multiple is less than half of Gartner's lowest valuation in the last 5 years.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY: Forward Estimates & Valuation Reliance**
+N/A - Not a tailwind stock
+
+---
+**Status & Earnings Summary**
+**PASS.** Gartner represents an extreme sentiment-driven dislocation. While there is a genuine fundamental headwind (evidenced by the -6% TTM earnings dip and conservative forward estimate), the market has reacted by cutting the valuation multiple by 64% to just 12.8x. For a business with a 21.9% long-term CAGR and high stability (0.16 CV), this valuation implies a permanent impairment that the current earnings beats do not yet support.
+
+***
+
+#### KD Earnings/Valuation Analysis
+
+**1. How does the current P/E ratio compare to historical levels?**
+KD's current P/E is **7.3x**, a massive **-92% discount vs. 1Y ago (86.5x)** and **-84% vs. its historical average (46.9x)**.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+The long-term trend is erratic due to the spinoff, but TTM earnings have recently flipped to positive (**$1.79**). However, stability is extremely low with a CV of **2.12**, reflecting the massive losses reported in 2022.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Short-term growth looks explosive (**+306.8% TTM**) as the company scaled into profitability. However, the most recent quarter (Feb 2026) was a significant **-13.9% miss** ($0.52 vs $0.60 estimate), accompanied by executive exits and guidance cuts.
+
+**4. What is the correlation between price and earnings?**
+There is a **strong negative correlation of -0.76**. The price has collapsed while the trailing earnings actually improved, though the recent miss suggests the earnings trend is reversing.
+
+**5. How do the upcoming earnings estimates compare to the company’s past performance?**
+The next estimate of **$0.49** is a **-$0.03 Forward Delta** and follows a major quarterly miss. This confirms that the "fundamental turnaround" has hit a severe wall.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY: Earnings vs Price Trajectory**
+*   **Are earnings decreasing along with the price?**
+    **Yes, looking forward.** While TTM earnings are technically up YoY, the most recent quarter was a miss and the stock collapsed 55% following slashed guidance.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY: Forward Estimates & Valuation Reliance**
+N/A - Not a tailwind stock
+
+---
+**Status & Earnings Summary**
+**PASS.** Deep Turnaround Investigation. While the 14% quarterly miss and executive exits are significant red flags, the current 7.3x P/E is an 84% discount to its historical average. We will PASS this to the Financials phase to determine if the "economic substance" (OCF and FCF) is truly deteriorating or if the 7x multiple provides a sufficient floor for a high-risk turnaround bet.
+
+***
+
+#### MAT Earnings/Valuation Analysis
+
+**1. How does the current P/E ratio compare to historical levels?**
+Mattel's current P/E is **11.0x**, a **-16% discount vs. 1Y ago**, **-23% vs. 3Y ago**, and **-42% vs. its historical average (19.1x)**. It is trading at a 71% discount to its 5-year peak multiple.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+Strong recovery trend with a **5-year EPS CAGR of +22.1%**. Earnings moved from consistent losses in 2018-2019 to **$1.44 TTM** today. Stability is very high with a CV of **0.12**.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Short-term performance is weak, with **-11.7% TTM growth**. The company has missed quarterly estimates twice in a row (**-27.5% and -15.2% misses**), signaling operational execution issues or weakening demand.
+
+**4. What is the correlation between price and earnings?**
+Correlation is **-0.36**, showing a mild divergence where the price has dropped faster than the earnings decline.
+
+**5. How do the upcoming earnings estimates compare to the company’s past performance?**
+The upcoming estimate is **-$0.23**, a massive **-$0.62 Forward Delta** over the last actual. Analysts are projecting a return to losses in the next quarter.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY: Earnings vs Price Trajectory**
+*   **Are earnings decreasing along with the price?**
+    **Yes.** TTM earnings are down 11.7% and the company is missing estimates. This confirms that the price drop is a response to fundamental deterioration rather than just sentiment.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY: Forward Estimates & Valuation Reliance**
+N/A - Not a tailwind stock
+
+---
+**Status & Earnings Summary**
+**FILTERED.** Fundamental Deterioration. Mattel’s 11x P/E is low, but the business is currently in a downward spiral, with two consecutive double-digit earnings misses and an analyst forecast for a return to losses (-$0.23 estimate). Unlike "Losers" where earnings remain stable while price falls, MAT's earnings are decreasing along with the price, suggesting the dislocation is justified by failing fundamentals and executive failure (contrasting with rival Hasbro's success).
+
+***
+
+#### MSFT Earnings/Valuation Analysis
+
+**1. How does the current P/E ratio compare to historical levels?**
+Microsoft's current P/E is **26.6x**, a **-16% discount vs. 1Y ago (31.7x)** and a **-10% discount** to its 5-year average (29.6x).
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+A premier compounder with a **5-year EPS CAGR of +18.0%**. TTM earnings have grown from $3.51 in 2018 to **$15.38** today. Stability is solid with a CV of **0.24**.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Short-term momentum is accelerating, with **+23.8% TTM growth**. The company has consistently beaten quarterly estimates by **6% to 12%** over the last year.
+
+**4. What is the correlation between price and earnings?**
+There is a **negative correlation of -0.36**. Price has pulled back 19% on "AI CapEx fears" while TTM earnings have actually grown 23.8%.
+
+**5. How do the upcoming earnings estimates compare to the company’s past performance?**
+The next estimate of **$4.05** is a slight **-$0.09 Forward Delta** vs. the record Q2 actual ($4.14), but remains significantly higher than all other previous quarters.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY: Earnings vs Price Trajectory**
+*   **Are earnings decreasing along with the price?**
+    **No.** TTM earnings accelerated to **23.8% growth** while the stock price suffered a **19% sentiment-driven correction**.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY: Forward Estimates & Valuation Reliance**
+N/A - Not a tailwind stock (but AI-tagged)
+
+---
+**Status & Earnings Summary**
+**PASS (with Caution).** Investigating Economic Reality. At 26.6x P/E, Microsoft is not "cheap" in absolute terms, especially compared to ADBE or CRM. While its 18% CAGR and 23% TTM growth are strong, we must investigate if the "economic reality" supports this multiple. Per **AI Guidelines**, MSFT faces "Depreciation Risk" and "Cascading Earnings Impact" from physical bottlenecks (power/cooling). We will PASS it to the Financials phase specifically to audit the AI CapEx surge and OCF quality to ensure reported earnings aren't masking a decline in true cash profitability.

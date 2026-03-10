@@ -11,6 +11,9 @@
 - [Placeholder for future Discovery tasks]
 
 ### Screening
+- [Refinement] [TAILWIND] evaluation: These are inherently speculative and do not require a traditional Margin of Safety. The primary filter is whether the growth is already fully priced in (e.g., extreme P/E multiples).
+- [Constraint] Financial Knowledge: Limit the use of outside financial metrics (e.g., PEG ratios) and assertions not explicitly found in the project files.
+- [Formatting] Tracker Summaries: Analysis summaries below the dashboard table do not need to be sorted alphabetically; they only need to be moved to the correct phase section.
 - [Placeholder for future Screening tasks]
 
 ### Deep Dive

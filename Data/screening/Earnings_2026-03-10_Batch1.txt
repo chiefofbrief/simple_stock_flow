@@ -1,70 +1,207 @@
-# Earnings Analysis Prompt
+EARNINGS & VALUATION — 2026-03-10
 
-## Role
-You are an expert financial analyst. Your task is to analyze the provided earnings and valuation data for **{TICKER}** and produce a concise, insightful report in the chat window.
+Ticker | Cur P/E | vs1Y | vs3Y |  vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+---------+------+------+-------+-------+--------+----+----------+-----------+----------
+  ADBE |   12.4x | -48% | -48% |  -74% |  -54% |  -0.84 | || |   +16.8% |      0.21 |     $0.37
+   ARM |   82.7x | -21% |    - |     - |  -12% |   0.00 | || |   +40.0% |      0.32 |     $0.15
+   CRM |   15.3x | -47% | -50% |  -65% |  -48% |  -0.85 | || |   +20.6% |      0.40 |    $-0.70
+  CRWD |  101.9x |  +3% | +30% |  -88% |  -63% |  -0.07 | || |   +70.4% |      0.55 |    $-0.05
+   IBM |   22.0x |  -8% | +72% | +105% |  +27% |   0.20 | || |    +5.9% |      0.09 |    $-2.69
 
-## Active Workflow: Sequential Steps
-Follow these steps exactly:
 
-1. **Gather Data & Context (READ FIRST):**
-   - **Philosophy:** Read `GEMINI.md` to review the foundational Analysis Philosophy & Guidelines.
-   - **Quantitative Data:** Read `Data/screening/Earnings_{DATE}.txt` to extract the P/E ratios, earnings history, growth rates, and forward estimates for {TICKER}.
-   - **Prior Phase:** Read `Data/screening/Price_Data_{DATE}.txt` to review the previous price analysis findings for this ticker.
-   - **Categorization:** Read `Stock_Tracker.md` to identify the stock's current Tags (e.g., `[LOSER]`, `[TAILWIND]`, `[AI]`).
-   - **Catalyst:** Read `Discovery_Context.md` to understand the original reason for screening this stock.
+LEGEND:
+vsXYr: % difference between Current P/E and P/E X years ago.
+1yCorr: Correlation (0-1) between Price and Earnings over last 12 months.
+Stability: CV of Annual EPS (Lower = Smoother growth).
+Fwd Delta: Next Quarter Estimate minus Last Reported EPS. (+ = Growth exp).
 
-2. **Analyze & Generate Report (In Chat):**
-   - Evaluate the data against the **Analysis Guidelines** below.
-   - Produce the analysis report in the chat window using the exact structure in the **Output Format** section.
-   - End your report with your proposed status (PASS/FILTERED) and the mandatory question: *"Do you approve this recommendation? Should I update the Stock Tracker and append this analysis to the data file?"*
+================================================================================
+TICKER: ADBE | Price Date: 2026-03-02
+================================================================================
 
-3. **Commit Changes (POST-APPROVAL ONLY):**
-   - Only after receiving explicit user approval (e.g., "yes", "go ahead"):
-     - **Batch Handling:** If you are processing multiple batches on the same date, ensure you rename previous data files (e.g., `Earnings_{DATE}_Batch1.txt`) before running scripts or saving analysis to avoid overwriting work.
-     - **Stock Tracker:** Update `Stock_Tracker.md` by strictly following the **Tracker Update Instructions** at the top of that file.
-     - **Data File:** Append the **full analysis report** (including Q&A and Status Update) to the end of `Data/screening/Earnings_{DATE}.txt`.
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   12.4x |   23.8x |   23.6x |   47.7x | 26.9x
+   vs Cur   |       - |    -48% |    -48% |    -74% |  -54%
 
-## Analysis Guidelines
-Analyze the data using the following questions and structure your response exactly as specified. Refer to the **Examples** section below, specifically the subsection matching the stock's tags, to inform your analysis. **Crucially, all insights must leverage the provided data; you must explicitly specify which metrics led to your conclusion.**
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.84
+   > 5-Year EPS CAGR:    +16.8%
+   > Earnings Stability: 0.21
 
-### Output Format
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $5.87 |        - |        - | (Due: 2026-03-12)
+   2025-12-10  |    $5.40 |    $5.50 |    +1.9% | $0.10
+   2025-09-11  |    $5.18 |    $5.31 |    +2.5% | $0.13
+   2025-06-12  |    $4.97 |    $5.06 |    +1.8% | $0.09
+   2025-03-12  |    $4.97 |    $5.08 |    +2.2% | $0.11
 
-#### {TICKER} Earnings/Valuation Analysis
+   > Forward Delta: $0.37 (Next Est vs Last Actual)
 
-**1. How does the current P/E ratio compare to historical levels?**
-[Answer using specific metrics]
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2025-12-10  |   $20.95 | +13.7%
+   2024-12-11  |   $18.42 | +14.6%
+   2023-12-13  |   $16.07 | +17.1%
+   2022-12-15  |   $13.72 |  +9.9%
+   2021-12-16  |   $12.48 | +29.5%
+   2020-12-10  |    $9.64 | +23.3%
+   2019-12-12  |    $7.82 | +15.5%
+   2018-12-13  |    $6.77 | +73.7%
+   2017-09-27  |    $3.90 |      -
+================================================================================
+TICKER: ARM | Price Date: 2026-03-02
+================================================================================
 
-**2. What is the long-term earnings trend and volatility? (past 5 years)**
-[Answer using specific metrics]
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   82.7x |  104.5x |       - |       - | 93.6x
+   vs Cur   |       - |    -21% |       - |       - |  -12%
 
-**3. What is the short-term earnings trend and volatility? (past 12 months)**
-[Answer using specific metrics]
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: 0.00
+   > 5-Year EPS CAGR:    +40.0%
+   > Earnings Stability: 0.32
 
-**4. What is the correlation between price and earnings?**
-[Answer using specific metrics]
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $0.58 |        - |        - | (Due: 2026-05-06)
+   2026-02-04  |    $0.41 |    $0.43 |    +5.1% | $0.02
+   2025-11-05  |    $0.36 |    $0.15 |   -58.0% | $-0.21
+   2025-07-30  |    $0.34 |    $0.35 |    +2.9% | $0.01
+   2025-05-07  |    $0.52 |    $0.55 |    +5.8% | $0.03
 
-**5. How do the upcoming earnings estimates compare to the company’s past performance?**
-[Answer using specific metrics]
+   > Forward Delta: $0.15 (Next Est vs Last Actual)
 
-**6. FOR [LOSER]-TAGGED TICKERS ONLY: Earnings vs Price Trajectory**
-*(Check `Stock_Tracker.md`. If the stock's Tags column does not contain `[LOSER]`, simply state "N/A - Not a recent loser" for this section and skip the questions below.)*
-*   **Are earnings decreasing along with the price?**
-    [Answer using specific metrics]
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-04  |    $1.48 | +17.5%
+   2025-02-05  |    $1.26 | +66.8%
+   2024-02-07  |    $0.76 |      -
+================================================================================
+TICKER: CRM | Price Date: 2026-03-02
+================================================================================
 
-**7. FOR [TAILWIND]-TAGGED TICKERS ONLY: Forward Estimates & Valuation Reliance**
-*(Check `Stock_Tracker.md`. If the stock's Tags column does not contain `[TAILWIND]`, simply state "N/A - Not a tailwind stock" for this section and skip the questions below.)*
-*   **Do the forward earnings estimates project a sudden, significant improvement compared to the historical baseline?**
-    [Answer using specific metrics]
-*   **Is the current valuation (P/E) highly elevated, meaning the stock's price is heavily reliant on these future estimates rather than current cash generation?**
-    [Answer using specific metrics]
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   15.3x |   29.0x |   30.8x |   43.5x | 29.6x
+   vs Cur   |       - |    -47% |    -50% |    -65% |  -48%
 
----
-**Status & Earnings Summary**
-**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale. This text will be copied to the Stock Tracker.]
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.85
+   > 5-Year EPS CAGR:    +20.6%
+   > Earnings Stability: 0.40
 
-## Examples
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $3.11 |        - |        - | (Due: 2026-06-03)
+   2026-02-25  |    $3.05 |    $3.81 |   +24.9% | $0.76
+   2025-12-03  |    $2.86 |    $3.25 |   +13.6% | $0.39
+   2025-09-03  |    $2.78 |    $2.91 |    +4.7% | $0.13
+   2025-05-28  |    $2.55 |    $2.58 |    +1.2% | $0.03
 
-### LOSERS
+   > Forward Delta: $-0.70 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-25  |   $12.55 | +23.2%
+   2025-02-26  |   $10.19 | +24.1%
+   2024-02-28  |    $8.21 | +56.4%
+   2023-03-01  |    $5.25 |  +9.4%
+   2022-03-01  |    $4.80 |  -2.4%
+   2021-02-25  |    $4.92 | +64.0%
+   2020-02-25  |    $3.00 |  +8.7%
+   2019-03-04  |    $2.76 | +104.4%
+   2018-02-28  |    $1.35 |      -
+================================================================================
+TICKER: CRWD | Price Date: 2026-03-02
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|  101.9x |   99.2x |   78.4x |  830.8x | 277.5x
+   vs Cur   |       - |     +3% |    +30% |    -88% |  -63%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.07
+   > 5-Year EPS CAGR:    +70.4%
+   > Earnings Stability: 0.55
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $1.07 |        - |        - | (Due: 2026-06-09)
+   2026-03-03  |    $1.10 |    $1.12 |    +1.8% | $0.02
+   2025-12-02  |    $0.94 |    $0.96 |    +2.2% | $0.02
+   2025-08-27  |    $0.83 |    $0.93 |   +11.8% | $0.10
+   2025-06-03  |    $0.66 |    $0.73 |   +10.6% | $0.07
+
+   > Forward Delta: $-0.05 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-03-03  |    $3.74 |  -4.8%
+   2025-03-04  |    $3.93 | +27.6%
+   2024-03-05  |    $3.08 | +100.0%
+   2023-03-07  |    $1.54 | +126.5%
+   2022-03-09  |    $0.68 | +161.5%
+   2021-03-16  |    $0.26 | +135.1%
+   2020-03-19  |   $-0.74 |  +9.6%
+   2019-01-31  |   $-0.82 |      -
+================================================================================
+TICKER: IBM | Price Date: 2026-03-06
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   22.0x |   23.8x |   12.8x |   10.7x | 17.3x
+   vs Cur   |       - |     -8% |    +72% |   +105% |  +27%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: 0.20
+   > 5-Year EPS CAGR:    +5.9%
+   > Earnings Stability: 0.09
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $1.83 |        - |        - | (Due: 2026-04-22)
+   2026-01-28  |    $4.31 |    $4.52 |    +4.9% | $0.21
+   2025-10-22  |    $2.45 |    $2.65 |    +8.2% | $0.20
+   2025-07-23  |    $2.65 |    $2.80 |    +5.7% | $0.15
+   2025-04-23  |    $1.42 |    $1.60 |   +12.7% | $0.18
+
+   > Forward Delta: $-2.69 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-01-28  |   $11.57 | +12.0%
+   2025-01-29  |   $10.33 |  +7.5%
+   2024-01-24  |    $9.61 |  +5.4%
+   2023-01-25  |    $9.12 |  -8.5%
+   2022-01-24  |    $9.97 | +15.0%
+   2021-01-21  |    $8.67 | -32.3%
+   2020-01-21  |   $12.81 |  -7.3%
+   2019-01-22  |   $13.82 |  +1.2%
+   2018-01-18  |   $13.65 |      -
+
+================================================================================
+QUALITATIVE ANALYSIS REPORTS
+================================================================================
 
 #### ADBE Earnings/Valuation Analysis
 
@@ -94,6 +231,8 @@ N/A - Not a tailwind stock
 **Status & Earnings Summary**
 **PASS.** Adobe is a high-conviction candidate for a "Loser" thesis. The current 12.4x P/E is half its historical average, despite a consistent 16.8% earnings CAGR and high stability (0.21 CV). The extreme negative correlation (-0.84) between rising earnings and a falling price creates a massive valuation gap, while consistent earnings beats suggest the enterprise moat remains intact despite retail competition fears.
 
+***
+
 #### ARM Earnings/Valuation Analysis
 
 **1. How does the current P/E ratio compare to historical levels?**
@@ -121,6 +260,8 @@ N/A - Not a tailwind stock
 ---
 **Status & Earnings Summary**
 **FILTERED.** Speculative Valuation. While ARM is a dominant growth winner, its 82.7x P/E fails the "safety of principal" test. The market has already discounted a "perfect" 40% growth forecast. With high earnings volatility (0.32 CV) and a recent history of significant misses, the stock lacks any Margin of Safety; any further sentiment shift or growth deceleration could lead to a violent multiple compression toward a more reasonable 40-50x range.
+
+***
 
 #### CRM Earnings/Valuation Analysis
 
@@ -150,6 +291,8 @@ N/A - Not a tailwind stock
 **Status & Earnings Summary**
 **PASS.** Salesforce is a prime example of a "Temporary Price Dislocation." Trading at 15.3x P/E—nearly half its historical mean—despite 20%+ earnings growth and massive recent beats, the valuation is detached from reality. The extreme -0.85 correlation confirms that the market is ignoring strong fundamentals in favor of a "beaten-down software" narrative.
 
+***
+
 #### CRWD Earnings/Valuation Analysis
 
 **1. How does the current P/E ratio compare to historical levels?**
@@ -177,6 +320,8 @@ N/A - Not a tailwind stock
 ---
 **Status & Earnings Summary**
 **FILTERED.** Growth Stall at Premium Price. Buying a 100x P/E stock when earnings are declining (-4.8% TTM) is speculative, not an investment. Unlike ADBE or CRM, where the multiple compressed while earnings rose, CRWD’s multiple has actually *expanded* relative to the last 3 years while growth has stalled. There is no Margin of Safety here; the stock is a high-multiple growth trap.
+
+***
 
 #### IBM Earnings/Valuation Analysis
 
