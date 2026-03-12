@@ -1,11 +1,11 @@
 # Ticker Tracker
 
 ## Recent Activity Log
+- **2026-03-12:** Completed Earnings screening for SNOW, SPGI, WDAY (PASS). Reclassified SNOW to [TAILWIND].
+- **2026-03-12:** Completed Earnings screening for NFLX, NOW, NVO, QCOM (PASS) and PANW (FILTERED).
 - **2026-03-10:** Completed Earnings screening for AIG, IT, KD, MSFT (PASS) and MAT (FILTERED).
 - **2026-03-10:** Completed Earnings screening for ADBE, CRM (PASS) and ARM, CRWD, IBM (FILTERED).
 - **2026-03-09:** Completed Price screening for SPGI, WDAY (PASS) and STLA, TTD, UPWK, VSCO, ZS (FILTERED).
-- **2026-03-09:** Completed Price screening for AIG, SNOW (PASS) and PYPL, SDGR, SHOP (FILTERED).
-- **2026-03-09:** Updated classifications for remaining PENDING tickers based on Discovery Context.
 
 ## Tracker Update Instructions
 When updating this file after receiving explicit user approval:
@@ -32,14 +32,13 @@ When updating this file after receiving explicit user approval:
 | IT     | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
 | KD     | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
 | MSFT   | 2026-03-10 | Earnings      | PASS     | [LOSER] [AI]   | —              |
-| NFLX   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
-| NOW    | 2026-03-09 | Price         | PASS     | [LOSER] [AI]   | —              |
-| NVO    | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
-| PANW   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
-| QCOM   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
-| SNOW   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
-| SPGI   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
-| WDAY   | 2026-03-09 | Price         | PASS     | [LOSER]        | —              |
+| NFLX   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
+| NOW    | 2026-03-12 | Earnings      | PASS     | [LOSER] [AI]   | —              |
+| NVO    | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
+| QCOM   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
+| SNOW   | 2026-03-12 | Earnings      | PASS     | [TAILWIND]     | —              |
+| SPGI   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
+| WDAY   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
 | AMD    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
 | AMSC   | —          | —             | PENDING  | [TAILWIND]     | —              |
 | ASML   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
@@ -149,21 +148,29 @@ Investigating Economic Reality. At 26.6x P/E, Microsoft is not "cheap" in absolu
 **Price** | 2026-03-09 | PASS
 NFLX has absorbed a significant 25% correction over the last quarter due to WB deal uncertainty and valuation fears. Trading 12% below its annual mean and sitting in the 39th percentile of its 52-week range, it offers a margin of safety for a business that remains a long-term compounder (+12.2% 5Y CAGR).
 
+**Earnings** | 2026-03-12 | PASS (with Caution)
+Investigating Speculative Multiples. While NFLX is delivering 27% growth and trades 26% below its historical average, its 38.7x P/E is still high in absolute terms and is currently 19% higher than its 3-year valuation floor. We will PASS it to the Financials phase to verify if the "Economic Reality" (FCF and OCF) justifies this multiple or if rising production costs and competition are eroding the quality of its GAAP earnings.
+
 ### NOW
 **Price** | 2026-03-09 | PASS
 NOW (ServiceNow) is a dominant workflow incumbent trading at a massive 26% discount to its 1-year mean following a violent 34% YoY correction. At just 22% of its 52-week range, the price reflects broad market panic over AI disruption which contradicts the company's positioning as an orchestrator of agentic AI.
+
+**Earnings** | 2026-03-12 | PASS
+High-Quality Dislocation. ServiceNow is a standout candidate for a "Loser" thesis. A 35x P/E for a business with a 97% long-term CAGR and 43% TTM growth represents a violent multiple contraction relative to its 300x+ history. Unlike other software peers, NOW's current growth rate is significantly higher than its multiple, suggesting that the current sector-wide capitulation has created a genuine valuation gap for a fundamental winner.
 
 ### NVO
 **Price** | 2026-03-09 | PASS
 NVO (Novo Nordisk) has suffered a catastrophic 56% YoY loss of value, currently trading at absolute multi-year lows (7% of 52w range). While the pricing pressure narrative is real, the 29% discount to its annual mean suggests a potentially overdone reflexive "bust" cycle for a major pharmaceutical leader.
 
-### PANW
-**Price** | 2026-03-09 | PASS
-PANW is a high-growth cybersecurity leader (+21.8% 5Y CAGR) currently offering a rare 11% discount to its annual average following a short-term correction. Trading at 31% of its 52-week range, it provides a high-quality entry point for a dominant incumbent within a structural uptrend.
+**Earnings** | 2026-03-12 | PASS
+Deep Defensive Value. Novo Nordisk represents a massive fundamental divergence. While pricing pressure narratives are real, the market has responded by cutting the multiple to just 9.9x—less than half its historical average—despite 20% TTM growth and massive recent beats. The 23% long-term CAGR and high stability suggest the current 56% price collapse is a violent overreaction to sentiment rather than a fundamental impairment.
 
 ### QCOM
 **Price** | 2026-03-09 | PASS
 QCOM is a historically stable incumbent (CV 0.17) currently undergoing a moderate correction due to a "memory crunch" narrative. Trading at just 17% of its 52-week range and offering a 14% discount to its 1-year mean, it presents a high-quality entry point for a dominant leader in a stagnant but essential market.
+
+**Earnings** | 2026-03-12 | PASS
+Dislocated Narrative Play. Qualcomm is a classic "Loser" setup where a known negative catalyst (Apple defection) has triggered a price drop and an earnings downgrade. At 11x P/E, the stock is trading at a significant discount to its historically stable baseline (0.13 CV). We will PASS this to the Financials phase specifically to determine if the 11x multiple provides a sufficient "Margin of Safety floor" to absorb these known losses or if the economic reality of the customer defecton is worse than the GAAP estimates suggest.
 
 ### AIG
 **Price** | 2026-03-09 | PASS
@@ -176,17 +183,33 @@ AIG is a high-quality turnaround play with a genuine Margin of Safety. At a 10.7
 **Price** | 2026-03-09 | PASS
 SNOW is experiencing a sharp, sentiment-driven capitulation (-35% over 3 months) that has driven the stock to 37% of its 52-week range. Despite a negative long-term CAGR, the recent violent drop has created a 19% discount to its annual mean, presenting a classic "beaten-down software" opportunity to investigate if the cloud moat remains intact.
 
+**Earnings** | 2026-03-12 | PASS (Reclassified to [TAILWIND])
+Speculative Growth Track. Snowflake is delivering explosive +53.7% TTM growth and consistent beats, but its 142.6x P/E is incompatible with a "Loser" thesis. We are reclassifying it as a [TAILWIND] candidate to investigate if the massive data/AI cloud buildout provides enough fundamental momentum to justify its extreme multiple, or if the "improvement" is already fully priced in.
+
 ### SPGI
 **Price** | 2026-03-09 | PASS
 SPGI is a dominant data/ratings incumbent (+6.8% 5Y CAGR) currently offering a 13% discount to its 1-year mean following AI-related sentiment fears. Trading at 32% of its 52-week range, the price represents an anomalous dislocation for a historically low-volatility business.
+
+**Earnings** | 2026-03-12 | PASS (with Caution)
+High-Quality Incumbent. S&P Global offers a rare 26% valuation discount to its 1-year mean despite steady 13% TTM earnings growth. However, we proceed with Caution regarding the robust +$0.52 Forward Delta; the market is already pricing in a significant re-acceleration. We will PASS it to the Financials/Sentiment phases to determine if this optimism is a reflexive "fertile fallacy" or a reliable projection based on its data monopoly moat.
 
 ### WDAY
 **Price** | 2026-03-09 | PASS
 WDAY is a historically stable enterprise giant experiencing an extreme, sentiment-driven collapse (-44% YoY) due to broad AI disruption fears. Trading at just 19% of its 52-week range, the massive 44% discount to its 1-year mean provides a significant margin of safety to investigate if the core moat remains intact.
 
+**Earnings** | 2026-03-12 | PASS
+Extreme Mispricing. Workday is a high-conviction "Temporary Loser." The current 16.1x P/E is a staggering 66% below its historical average, despite the company delivering consistent 26% growth and regular earnings beats. The -0.86 correlation confirms that the market's "AI disruption" panic is completely detached from the financial reality, creating a rare opportunity to buy a high-growth SaaS incumbent at a deep absolute value multiple (Strong Floor).
+
 ---
 
 ## Filtered Archive
+
+### PANW
+**Price** | 2026-03-09 | PASS
+PANW is a high-growth cybersecurity leader (+21.8% 5Y CAGR) currently offering a rare 11% discount to its annual average following a short-term correction. Trading at 31% of its 52-week range, it provides a high-quality entry point for a dominant incumbent within a structural uptrend.
+
+**Earnings** | 2026-03-12 | FILTERED
+Speculative Multiple. While 24% TTM growth is robust, it does not justify a 44.5x P/E in an investment context. At 45x, the stock remains "priced for perfection," offering zero Margin of Safety. If growth decelerates further—which the -$0.23 Forward Delta and "platformization" strategy suggest is likely—the multiple could compress violently. Paying a high-growth premium for a business with a negative forward catalyst and decelerating CAGR fails the test of "Safety of Principal."
 
 ### MAT
 **Price** | 2026-03-06 | PASS
