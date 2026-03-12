@@ -1,6 +1,47 @@
 # Session Notes
 *(Temporary scratchpad for active session commands, thoughts, and feedback. Wiped regularly.)*
 
+## Discovery Context
+
+### March 10
+
+#### Centene
+- Speaking at the Barclays Global Healthcare Conference on Tuesday morning, Centene CEO Sarah London asserted that results for all three of the company’s core business lines were on track for the year. Still, there were no positive surprises. The company reaffirmed its adjusted earnings guidance of greater than $3 a share for 2026, which compares with the $3 consensus estimate among analysts polled by FactSet.
+- Other commentary centered around continued declines in Centene’s Affordable Care Act marketplace. The company expects to end the first quarter with 3.5 million ACA enrollees, down from 5.5 million in December. As of February, Centene is at 3.6 million members, London said.
+- London’s remarks also addressed a continuing point of contention: The final rate decision by the Centers for Medicare and Medicaid Services, which is expected no later than April 6. The Trump administration proposed earlier this year to keep Medicare rates roughly flat in 2027, triggering a protracted slide in shares of Centene and its peers.
+- Meanwhile, Centene continues to forge ahead on its path to break-even for its Medicare Advantage business in 2027. Margins were negative in 2025 and are expected to be slightly below break-even this year, London said.
+
+### HIMS
+- Hims announced Monday that it had hashed out a compromise with the Danish drugmaker to sell Novo’s branded weight-loss drugs through its digital platform in place of compounded GLP-1s.
+- The rating change wasn’t a resounding endorsement just yet, and that’s because the path forward is clouded with uncertainty. Details around pricing remain scant, but Grosslight believes they will likely carry a $100 premium to the cash pay price through Novo’s direct-to-consumer pharmacy, NovoCare. The higher price tag will likely include 24/7 access to a provider and nutritional guidance.
+- While the development “significantly derisks the story,” especially considering Novo’s agreement to drop a patent infringement lawsuit, Grosslight expects Hims to suffer a sizable drop in revenue and adjusted earnings before interest, taxes, depreciation and amortization. Without the ability to sell compounded GLP-1s, Hims will need to generate a roughly 70% increase in annual subscriptions to make up lost ground, “which we think is unlikely,” Grosslight wrote.
+- Before the introduction of GLP-1s, the company’s Ebitda was near break-even, “and the rapid uptake of GLP-1s catalyzed the profitability the company sees today,” Lutz wrote. The bottom line: The shift to branded weight-loss drugs will pressure Ebitda in the near term.
+
+### QCOM
+- The investment bank reinstated coverage of Qualcomm with an Underperform rating and a $145 price target in a research note Tuesday. The chip maker is a leader in smartphone processors, but BofA argued that it is already losing share in that business while playing catch-up in other markets.
+- Investors have known about Qualcomm’s most pressing challenge for years: Apple, its top customer, is phasing Qualcomm modems out of iPhones by next fall. The company faces a roughly $7 billion revenue cliff from the loss of its iPhone business, BofA estimates.
+- “QCOM’s core equity risk is increasingly defined by their three top customers (Apple, Samsung, Xiaomi) and their willingness (and ability) to internalize key silicon over time,” wrote analyst Vivek Arya.
+- Qualcomm’s other revenue streams may not be enough to overcome these hurdles. Plenty of other smartphone manufacturers exist, but the industry is already mature and faces its own troubles this year. Memory component prices are skyrocketing, which could weigh on sales of lower-priced smartphones. Qualcomm has some insulation as a premium supplier, BofA acknowledged.
+- “While our near-term handsets outlook is impacted by industry-wide memory supply constraints, we are encouraged by end-consumer demand for premium and high tier smartphones,” Qualcomm CEO Cristiano Amon said last month.
+- The company is making progress outside smartphones. BofA expects revenue from automotive and internet-of-things end markets to grow at a combined 19% annual clip from 2025 to 2029. Qualcomm is also entering the massive artificial-intelligence market with its AI accelerators and server processing units.
+- 
+
+### AI (General)
+- Liquid cooling is becoming the default standard, projected to dominate 50% of new hyperscale capacity by 2027, driving $15–20 billion in global market growth and industry consolidation.
+- Energy grids struggle to keep pace with AI’s exponential compute demands, forcing companies to adopt backup generators or delay projects, while regulatory shifts and grid stability risks intensify.
+- Cooling and power integration are now strategic priorities, with companies like Eaton ETN -1.49% and Daikin acquiring expertise to deliver high-capacity solutions, as infrastructure gaps threaten AI’s growth trajectory.
+- The scale of this buildout is staggering. U.S. data-center spending alone is expected to exceed half a trillion dollars in 2025. This isn't just about adding servers; it's about constructing the entire energy and cooling ecosystem at an unprecedented rate. Yet this rapid expansion is creating a severe bottleneck. Data centers now consume about 4.4% of U.S. electricity, a figure that is projected to climb to as high as 12.0% by 2028. In some regions, AI-driven demand is already outpacing available grid capacity, forcing companies to delay projects or install inefficient backup generators.
+- This creates a dual investment thesis. First, there is the established path of providing the physical cooling infrastructure that enables this power-hungry hardware to function. The second, and equally critical, frontier is enabling flexible, grid-integrated power solutions. The system is under strain, and the solution requires more than just building more power plants. It demands smarter integration-using battery storage, demand-response systems, and distributed generation to manage the massive, variable load from AI workloads. The companies that succeed will be those that can deliver both the high-capacity cooling and the intelligent power management needed to keep the lights on.
+- The primary risk is a tangible mismatch between cooling capacity and AI compute demand. While the market is consolidating and scaling liquid cooling solutions, the physical deployment of these systems cannot keep pace with the exponential ramp-up of AI hardware. This creates a direct risk of project delays and higher costs for operators who must wait for cooling infrastructure or resort to less efficient alternatives. The industry's push toward higher-capacity cooling units, like those capable of managing 2MW of processing power, is a response to this pressure. Yet, if the cooling layer lags, it will bottleneck the entire compute stack, derailing the adoption curve at a critical juncture.
+- “In 2026, power becomes the defining intersection of AI growth and data center operations,” says Shane Snider from Data Center Knowledge. “Data centers are shifting from passive energy consumers to grid stakeholders – co-investing in infrastructure upgrades, enabling load flexibility, and deploying on-site power generation and storage to improve reliability and manage costs.”2
+- Experts are expecting natural gas to be a key solution to the data center power issue, at least in the short term. The JLL report says natural gas could play a role in alleviating grid constraints in the U.S.4 “One of the arguments for turning to natural gas is that it allows a more reliable power source, given the fluctuating load demands of AI power centers [e.g. data centers] and variable power from renewable energy sources,” according to the Data Centre Trends Report 2026 from Soben, a part of Accenture.5
+- Experts expect liquid cooling to ramp up this year. Kelly of the Global Electronics Association says AI’s power and thermal requirements will make liquid cooling mainstream. Christopher Tozzi, Technology Analyst, supports this prediction: "In addition to consuming lots of power, AI workloads generate a lot of heat, which is why one AI trend that may play out over the coming year is growing adoption of liquid cooling systems. Not only are these systems more efficient, but they may also be the only way to cool AI servers that run so hot that conventional cooling methods can’t keep up.”6
+- AI is also driving a new focus on cost optimization, encouraging companies to explore a repatriation strategy. John Kindervag, Chief Evangelist at Illumio believes enterprises will be “ditching the cloud, moving data back to data centers” for select workloads.3
+- While AI will clearly present several challenges that data centers must face, most experts agree that AI is also propelling the data center industry into a new era of massive growth in 2026. The exponentially increasing demand for AI compute power translates to greater demand for data center capacity. The JLL report concludes, “The data center sector currently sits at the beginning of one of the largest infrastructure investment supercycles seen in the modern era. The interconnected nature of data centers means the AI-fueled expansion is reshaping a number of sectors including power, technology and real estate.”
+
+### March 11 (labeled as March 12 batch 1)
+- 
+
 ## Session Status / Next Steps
 
 ---
