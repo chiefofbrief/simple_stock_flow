@@ -1,10 +1,11 @@
 # Ticker Tracker
 
 ## Recent Activity Log
+- **2026-03-13:** Completed Discovery for CNC, QCOM, AVAV, MWH, HIMS (March 10 Digest). Added new candidates and context.
+- **2026-03-13:** Completed Discovery for FICO, SYK, VWAGY, IBG, MU, AMZN, UNH, NBIS. Added new candidates and context.
 - **2026-03-12:** Completed Earnings screening for SNOW, SPGI, WDAY (PASS). Reclassified SNOW to [TAILWIND].
 - **2026-03-12:** Completed Earnings screening for NFLX, NOW, NVO, QCOM (PASS) and PANW (FILTERED).
 - **2026-03-10:** Completed Earnings screening for AIG, IT, KD, MSFT (PASS) and MAT (FILTERED).
-- **2026-03-10:** Completed Earnings screening for ADBE, CRM (PASS) and ARM, CRWD, IBM (FILTERED).
 - **2026-03-09:** Completed Price screening for SPGI, WDAY (PASS) and STLA, TTD, UPWK, VSCO, ZS (FILTERED).
 
 ## Tracker Update Instructions
@@ -25,7 +26,7 @@ When updating this file after receiving explicit user approval:
 
 | Ticker | Last Run   | Current Phase | Status   | Tags           | Thesis File    |
 |--------|------------|---------------|----------|----------------|----------------|
-| **HIMS**| 2026-03-02 | Earnings Calls| PASS     | [LOSER]        | HIMS_Thesis.md |
+| **HIMS**| 2026-03-13 | Earnings Calls| PASS     | [LOSER] [TAILWIND]| HIMS_Thesis.md |
 | ADBE   | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
 | AIG    | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
 | CRM    | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
@@ -35,10 +36,21 @@ When updating this file after receiving explicit user approval:
 | NFLX   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
 | NOW    | 2026-03-12 | Earnings      | PASS     | [LOSER] [AI]   | —              |
 | NVO    | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
-| QCOM   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
+| QCOM   | 2026-03-13 | Earnings      | PASS     | [LOSER] [AI]   | —              |
 | SNOW   | 2026-03-12 | Earnings      | PASS     | [TAILWIND]     | —              |
 | SPGI   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
 | WDAY   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
+| AVAV   | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
+| CNC    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
+| FICO   | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
+| GIS    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
+| IBG    | 2026-03-13 | Price         | PENDING  | [OTHER]        | —              |
+| MU     | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —              |
+| MWH    | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —              |
+| NBIS   | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —              |
+| SYK    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
+| UNH    | 2026-03-13 | Price         | PENDING  | [TAILWIND]     | —              |
+| VWAGY  | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
 | AMD    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
 | AMSC   | —          | —             | PENDING  | [TAILWIND]     | —              |
 | ASML   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
@@ -101,15 +113,40 @@ HIMS is the victim of a violent reflexive "bust" cycle as the market's "GLP-1 co
 
 **Footnotes** | 2026-03-02 | PASS
 Discovery of a **$1.0B war chest of 0% interest convertible debt** (issued May 2025) which funded the $1.15B Eucalyptus/Zava acquisition. This interest-free capital provides a massive 5-year runway. While filings confirm three federal investigations (DOJ, SEC, and Class Action), the company has already "moved the goalposts" globally (Canada, UK, Japan) to diversify away from US regulatory risk.
-
 **Earnings Calls** | 2026-03-02 | PASS
 Management is pivoting from adversary to distribution partner (re-engaging Novo Nordisk for branded Wegovy) while verticalizing 1M sq ft of proprietary pharmacies. CEO Andrew Dudum's tone is one of "Power, not Panic." The buyback signal from CFO Okupe at these valuations is a strong "Intrinsic Value" indicator. Final Verdict: CONVICTION BUY (High Risk).
+
+**Discovery Update** | 2026-03-13
+The narrative has shifted to a "Derisking Trade-off." By selling branded Wegovy, Hims effectively ends the "regulatory death" narrative but destroys its primary profitability catalyst (compounded GLP-1s). To make up the Ebitda loss, Hims needs a 70% surge in annual subscriptions—a hurdle viewed as "unlikely." It is now a branded distributor with a $100 premium over NovoCare cash prices for 24/7 provider access.
 
 ---
 
 ## Screening
 
+### AVAV
+**Price** | 2026-03-13 | PENDING
+Counter-intuitive `[LOSER]` setup. AeroVironment missed fiscal Q3 earnings (EPS $0.64 on $408M sales) despite an intense global drone-centric war. Investigation required to determine if this is a supply chain failure or a management failure to execute during a historic tailwind.
+
+### CNC
+**Price** | 2026-03-13 | PENDING
+Business Model Distress. Shares collapsed 16% on an ACA enrollment cliff (expected to drop from 5.5M to 3.5M in Q1) and a Medicare rate freeze proposal. Centene is in a high-stakes race to break-even on Medicare Advantage by 2027 while managing a 36% contraction in its core marketplace.
+
+### MWH
+**Price** | 2026-03-13 | PENDING
+AI Infrastructure "Grid Stakeholder." Leading utility-scale solar/battery EPC with an $8B backlog driven by the US data center power buildout. Backlog has nearly doubled as centers shift from passive consumers to grid-integrated stakeholders. Analysts see 55% upside to $42.
+
+### QCOM
+**Price** | 2026-03-09 | PASS
+QCOM is a historically stable incumbent (CV 0.17) currently undergoing a moderate correction due to a "memory crunch" narrative. Trading at just 17% of its 52-week range and offering a 14% discount to its 1-year mean, it presents a high-quality entry point for a dominant leader in a stagnant but essential market.
+
+**Earnings** | 2026-03-12 | PASS
+Dislocated Narrative Play. Qualcomm is a classic "Loser" setup where a known negative catalyst (Apple defection) has triggered a price drop and an earnings downgrade. At 11x P/E, the stock is trading at a significant discount to its historically stable baseline (0.13 CV). We will PASS this to the Financials phase specifically to determine if the 11x multiple provides a sufficient "Margin of Safety floor" to absorb these known losses or if the economic reality of the customer defecton is worse than the GAAP estimates suggest.
+
+**Discovery Update** | 2026-03-13
+The "Internalization Cliff." BofA (PT $145) warns of a $7B revenue cliff as Apple, Samsung, and Xiaomi move to internalize silicon. QCOM must fill this gap through a 19% Auto/IoT growth pivot while navigating AI-driven memory price spikes that are squeezing its lower-tier smartphone partners.
+
 ### ADBE
+...
 **Price** | 2026-03-02 | PASS
 ADBE is a high-quality incumbent in a violent 'bust' cycle, down 41% YoY and trading at just 7% of its 52-week range ($259 vs $415 peak). Despite its stable history, it is now at 5-year lows. The 31% discount to its 1-year average price ($375) creates a significant margin of safety if its core enterprise moat remains intact.
 
