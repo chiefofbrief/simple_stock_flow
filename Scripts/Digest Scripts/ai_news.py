@@ -267,8 +267,13 @@ def print_markdown(stories_data, vector_data, count, days_back):
             domain = data.get("source", {}).get("domain", "unknown source")
             date_str = data.get("pubDate", "")
             
+            unverified = item.get("unverified_date", False)
+            date_display = format_date(date_str)
+            if unverified:
+                date_display = f"[DATE UNVERIFIED] {date_display}"
+            
             print(f"#### {i}. {title}")
-            print(f"_{format_date(date_str)}_ | **Score:** {score:.2f} | **Source:** {domain}")
+            print(f"_{date_display}_ | **Score:** {score:.2f} | **Source:** {domain}")
             print(f"\n[Read Article]({url})")
             
             if summary:
@@ -349,8 +354,13 @@ def display_rich(stories_data, vector_data, count, days_back, console):
             domain = data.get("source", {}).get("domain", "unknown source")
             date_str = data.get("pubDate", "")
             
+            unverified = item.get("unverified_date", False)
+            date_display = format_date(date_str)
+            if unverified:
+                date_display = f"[DATE UNVERIFIED] {date_display}"
+            
             console.print(f"[bold green]{i}. {title}[/bold green]")
-            console.print(f"[dim]{format_date(date_str)} | Score: {score:.2f} | Source: {domain}[/dim]")
+            console.print(f"[dim]{date_display} | Score: {score:.2f} | Source: {domain}[/dim]")
             console.print(f"[link={url}]Read Article[/link]")
             
             if summary:
@@ -402,12 +412,12 @@ def main():
     day_text = "day" if args.days == 1 else f"{args.days} days"
     
     # 1. Fetch Stories (Boolean)
+    stories_data = {"results": []}
     try:
         if not args.markdown:
             console.print(f"[cyan]Fetching AI infrastructure stories (Boolean) from past {day_text}...[/cyan]")
         stories_data = fetch_stories(api_key, days_back=args.days, count=args.count)
     except Exception as e:
-        stories_data = {}
         error_msg = f"Error fetching stories: {str(e)}"
         if args.markdown:
             print(f"<!-- {error_msg} -->")
@@ -415,11 +425,40 @@ def main():
             console.print(f"[red]{error_msg}[/red]")
 
     # 2. Fetch Vector Search
-    vector_data = {}
+    vector_data = {"results": []}
     try:
         if not args.markdown:
             console.print(f"[cyan]Fetching Vector Search results...[/cyan]")
-        vector_data = fetch_vector_search(api_key, days_back=args.days, count=args.count)
+        raw_vector_data = fetch_vector_search(api_key, days_back=args.days, count=args.count)
+        
+        # Filter results client-side since the vector endpoint lacks a 'from' parameter
+        if raw_vector_data and "results" in raw_vector_data:
+            filtered_results = []
+            now_naive = datetime.now()
+            cutoff = now_naive - timedelta(days=args.days)
+            
+            for item in raw_vector_data["results"]:
+                date_str = item.get("data", {}).get("pubDate")
+                if date_str:
+                    try:
+                        pub_date = date_parser.parse(date_str)
+                        # Ensure both are naive for comparison
+                        if pub_date.tzinfo is not None:
+                            pub_date = pub_date.replace(tzinfo=None)
+                        
+                        if pub_date >= cutoff:
+                            filtered_results.append(item)
+                    except Exception:
+                        # Include but mark as unverified
+                        item["unverified_date"] = True
+                        filtered_results.append(item)
+                else:
+                    # No date found, mark as unverified
+                    item["unverified_date"] = True
+                    filtered_results.append(item)
+            
+            vector_data["results"] = filtered_results
+            
     except Exception as e:
         # Don't fail the whole script if vector fails
         error_msg = f"Vector Search unavailable: {str(e)}"
