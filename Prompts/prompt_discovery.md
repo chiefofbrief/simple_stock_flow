@@ -6,7 +6,31 @@
 - itr can be condesned; but the condesning just keeps going too far: CRITICAL: Do not condense user input. This section often contains the richest context (e.g., proprietary research or specific price levels) and must be preserved in full detail.
 - this seems more like a workflow step or guidance: Tagging Logic.
 - this is also guiidacne: Context Quality Guidance (CRITICAL)
-- overall i think we need to be more explicit and streamlined about the steps in the workflow, and what is guidance vs. workflow. 
+- overall i think we need to be more explicit and streamlined about the steps in the workflow, and what is guidance vs. workflow.
+
+1. The "Narrative" Problem (Highest Priority)
+   * The "Stacked Bullet" Trap: Even with high-density figures, the output still defaults to isolated data points. The prompt needs to shift from "Structure over Summary" to
+     "Narrative Flow & Interconnectivity."
+   * Significance of Figures: Instructions must mandate including the context for numbers. (e.g., instead of just "12.0% electricity," it should be "12.0% electricity, representing
+     a tripling of current load").
+   * Logical Threading: For thematic context, the prompt must explicitly instruct to weave the "Why" and "How" of related themes into a single story (like connecting power
+     bottlenecks $\to$ liquid cooling $\to$ cloud repatriation).
+
+  2. The "Hard Boundary" Problem (Section 4)
+   * Filtering Discipline: The "Initial Proposal" phase still bleeds into general news or market tables. The instruction to pull ONLY from Section 4 must be hardened into a "Rule of
+     Engagement" that the AI checks before it outputs.
+
+  3. Procedural & Tracking Accuracy
+   * Explicit Workspace Grounding: Continue using the actual file names (Stock_Tracker.md, Discovery_Context.md) in every step to prevent general "tracker" or "context"
+     placeholders.
+   * Log Entry Hallucinations: Add a procedural reminder to check the current state of the files before writing a log entry to prevent errors like back-dating or mislabeling the
+     phase (e.g., "Earnings screening" vs. "Discovery").
+   * Action-Date Integrity: Ensure the log always uses the date of the current session (today's date) for the action taken, regardless of the source material's date.
+
+  4. Template & Format Alignment
+   * Update Output Format Template: The [Signal/Reason]. [The Why] template is too restrictive and encourages short bullets. It should be replaced with a broader [Interconnected
+     Narrative] instruction that forces density.
+   * Preservation of User Research: Formalize the "Phase 2" mandate to treat user-provided research as "Sacred Data" that cannot be condensed, only integrated.
 
 # Discovery Prompt
 
