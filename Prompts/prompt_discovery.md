@@ -1,3 +1,13 @@
+# COMMENTS:
+- remove: (specifically Section 4: Screening Candidates).
+- perhaps these should be read on demand: Read Stock_Tracker.md to check existing tickers and tags; Read Discovery_Context.md to check existing context.
+- Shouldn't we open with the simple explanation that LLM is parsing the tickers? An then instruct it to focus on section 4?: Extract ONLY the screening candidates from Section 4 of the Daily Digest. Ignore tickers mentioned in other sections.
+- what if we had the user input come before the tracker and context updates? So then we have just one update, and the system parses tickers and prepares context for all items, not just the screening candidates (and only has to do 1 gap analysis?). In fact, ew could even have two steps: One for parsing tickers and updating the tracker, and one for preparing cotnext and updaitng the discvoery section....Or in the opposite order. Thoughts? we would also update this: Output Format, perhaps breaking into tickers and context sections. Also, if the system doesn;t know the ticker for a company we can;t add it? (we could let it add the comapyn name). 
+- itr can be condesned; but the condesning just keeps going too far: CRITICAL: Do not condense user input. This section often contains the richest context (e.g., proprietary research or specific price levels) and must be preserved in full detail.
+- this seems more like a workflow step or guidance: Tagging Logic.
+- this is also guiidacne: Context Quality Guidance (CRITICAL)
+- overall i think we need to be more explicit and streamlined about the steps in the workflow, and what is guidance vs. workflow. 
+
 # Discovery Prompt
 
 ## Role
