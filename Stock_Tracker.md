@@ -24,75 +24,75 @@ When updating this file after receiving explicit user approval:
 
 ## Ticker Dashboard
 
-| Ticker | Last Run   | Current Phase | Status   | Tags           | Thesis File    |
-|--------|------------|---------------|----------|----------------|----------------|
-| **HIMS**| 2026-03-13 | Earnings Calls| PASS     | [LOSER] [TAILWIND]| HIMS_Thesis.md |
-| ADBE   | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
-| AIG    | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
-| CRM    | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
-| IT     | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
-| KD     | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |
-| MSFT   | 2026-03-10 | Earnings      | PASS     | [LOSER] [AI]   | —              |
-| NFLX   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
-| NOW    | 2026-03-12 | Earnings      | PASS     | [LOSER] [AI]   | —              |
-| NVO    | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
-| QCOM   | 2026-03-13 | Earnings      | PASS     | [LOSER] [AI]   | —              |
-| SNOW   | 2026-03-12 | Earnings      | PASS     | [TAILWIND]     | —              |
-| SPGI   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
-| WDAY   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —              |
-| AVAV   | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
-| CNC    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
-| FICO   | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
-| GIS    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
-| IBG    | 2026-03-13 | Price         | PENDING  | [OTHER]        | —              |
-| MU     | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —              |
-| MWH    | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —              |
-| NBIS   | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —              |
-| SYK    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
-| UNH    | 2026-03-13 | Price         | PENDING  | [TAILWIND]     | —              |
-| VWAGY  | 2026-03-13 | Price         | PENDING  | [LOSER]        | —              |
-| AMD    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| AMSC   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| ASML   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| AVGO   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| BSX    | —          | —             | PENDING  | [OTHER]        | —              |
-| CEG    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| CEK    | —          | —             | PENDING  | [TAILWIND]     | —              |
-| CHKP   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| CLS    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| CRWV   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| CSGP   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| CSU    | —          | —             | PENDING  | [TAILWIND]     | —              |
-| DDOG   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| ENPH   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| EVVTY  | —          | —             | PENDING  | [OTHER]        | —              |
-| FROG   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| GWRE   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| HUBS   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| ICHR   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| INTA   | —          | —             | PENDING  | [OTHER]        | —              |
-| INTC   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| INTU   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| IOT    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| LITE   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| LRCX   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| META   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| MU     | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| NET    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| NIO    | —          | —             | PENDING  | [TAILWIND]     | —              |
-| NSC    | —          | —             | PENDING  | [OTHER]        | —              |
-| NVDA   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| OKTA   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| ORCL   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| OUST   | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
-| QTWO   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| RIVN   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| SNDK   | —          | —             | PENDING  | [OTHER]        | —              |
-| TWLO   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| TYL    | —          | —             | PENDING  | [TAILWIND]     | —              |
-| UNP    | —          | —             | PENDING  | [OTHER]        | —              |
-| VEEV   | —          | —             | PENDING  | [TAILWIND]     | —              |
-| VRT    | —          | —             | PENDING  | [TAILWIND] [AI]| —              |
+| Ticker | Last Run   | Current Phase | Status   | Tags           | Thesis File    | Added      |
+|--------|------------|---------------|----------|----------------|----------------|------------|
+| **HIMS**| 2026-03-13 | Earnings Calls| PASS     | [LOSER] [TAILWIND]| HIMS_Thesis.md |            |
+| ADBE   | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —              |            |
+| AIG    | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —                          |
+| CRM    | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —                          |
+| IT     | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —                          |
+| KD     | 2026-03-10 | Earnings      | PASS     | [LOSER]        | —                          |
+| MSFT   | 2026-03-10 | Earnings      | PASS     | [LOSER] [AI]   | —                          |
+| NFLX   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —                          |
+| NOW    | 2026-03-12 | Earnings      | PASS     | [LOSER] [AI]   | —                          |
+| NVO    | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —                          |
+| QCOM   | 2026-03-13 | Earnings      | PASS     | [LOSER] [AI]   | —                          |
+| SNOW   | 2026-03-12 | Earnings      | PASS     | [TAILWIND]     | —                          |
+| SPGI   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —                          |
+| WDAY   | 2026-03-12 | Earnings      | PASS     | [LOSER]        | —                          |
+| AVAV   | 2026-03-13 | Price         | PENDING  | [LOSER]        | —                          |
+| CNC    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —                          |
+| FICO   | 2026-03-13 | Price         | PENDING  | [LOSER]        | —                          |
+| GIS    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —                          |
+| IBG    | 2026-03-13 | Price         | PENDING  | [OTHER]        | —                          |
+| MU     | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —                          |
+| MWH    | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —                          |
+| NBIS   | 2026-03-13 | Price         | PENDING  | [TAILWIND] [AI]| —                          |
+| SYK    | 2026-03-13 | Price         | PENDING  | [LOSER]        | —                          |
+| UNH    | 2026-03-13 | Price         | PENDING  | [TAILWIND]     | —                          |
+| VWAGY  | 2026-03-13 | Price         | PENDING  | [LOSER]        | —                          |
+| AMD    | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| AMSC   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| ASML   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| AVGO   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| BSX    | —          | —             | PENDING  | [OTHER]        | —                          |
+| CEG    | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| CEK    | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| CHKP   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| CLS    | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| CRWV   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| CSGP   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| CSU    | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| DDOG   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| ENPH   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| EVVTY  | —          | —             | PENDING  | [OTHER]        | —                          |
+| FROG   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| GWRE   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| HUBS   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| ICHR   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| INTA   | —          | —             | PENDING  | [OTHER]        | —                          |
+| INTC   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| INTU   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| IOT    | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| LITE   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| LRCX   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| META   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| MU     | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| NET    | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| NIO    | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| NSC    | —          | —             | PENDING  | [OTHER]        | —                          |
+| NVDA   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| OKTA   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| ORCL   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| OUST   | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
+| QTWO   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| RIVN   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| SNDK   | —          | —             | PENDING  | [OTHER]        | —                          |
+| TWLO   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| TYL    | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| UNP    | —          | —             | PENDING  | [OTHER]        | —                          |
+| VEEV   | —          | —             | PENDING  | [TAILWIND]     | —                          |
+| VRT    | —          | —             | PENDING  | [TAILWIND] [AI]| —                          |
 
 ---
 
