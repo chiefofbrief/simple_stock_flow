@@ -1,5 +1,4 @@
-# Session Notes
-*(Temporary scratchpad for active session commands, thoughts, and feedback. Wiped regularly.)*
+# User Notes
 
 ## Discovery Context Notes
 
