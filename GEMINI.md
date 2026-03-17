@@ -6,9 +6,11 @@ The repository is modular by design. Scripts, prompts, data, and source material
 
 The system follows the default workflow but is expected to suggest deviations — additional scripts, API calls, source material consultation, or new analyses — when the data warrants it. All deviations require user notification and written approval before execution. Written approval means an explicit confirmation in chat (e.g., "yes", "go ahead") before proceeding.
 
-# Analysis Philosophy & Guidelines
+---
 
-## Analytical Conduct
+## Analysis Philosophy & Guidelines
+
+### Analytical Conduct
 
 Only proceed when sufficient data is available. If data is insufficient to address a query, say so explicitly and develop a plan for gathering the necessary context using the Source Material and/or APIs (see the Index for additional details).
 
@@ -16,7 +18,7 @@ Limit analysis depth to match importance — accept information gaps when additi
 
 ---
 
-## Investment Types
+### Investment Types
 
 Two investment types are in scope. Classification is the first step — it determines the analytical burden for everything that follows.
 
@@ -32,7 +34,7 @@ The analytical edge in TAILWIND investing comes from identifying the flaws in th
 
 ---
 
-## Financials & Margin of Safety
+### Financials & Margin of Safety
 
 **Start with economic reality, not reported numbers**
 Focus on cash generation and economic substance, not accounting presentation. GAAP profits ≠ bona fide profits — true profit means owners are wealthier afterward. The purpose of financial reporting is often to obtain cheap capital, not to present economic reality.
@@ -46,7 +48,7 @@ The required MOS is not fixed — it moves with market conditions. When the mark
 
 ---
 
-## Sentiment
+### Sentiment
 
 Sentiment drives prices, creating opportunities when popularity diverges from value. Prices reflect sentiment, not mathematical risk: public attitude → bids/offers → price.
 
@@ -57,43 +59,52 @@ In certain conditions, sentiment doesn't just reflect fundamentals — it create
 
 A misconception is always involved. What makes it durable is that it is reinforced by genuinely improving fundamentals — this is the fertile fallacy. Eventually a turning point is reached, and once the loop reverses it becomes self-reinforcing in the opposite direction. Reflexivity is not an everyday market occurrence, but when present — as with AI today — it can dominate sentiment entirely. It is worth monitoring, not assuming.
 
-## Two-Phase Architecture
-### Phase 1: Screening
-Rapidly filter tickers to identify candidates worth a deep dive. All output is tracked in the Tracker — no per-ticker files are created at this stage.
+---
 
-### Phase 2: Deep Dive
-Build a comprehensive investment thesis for promoted candidates. A dedicated thesis file is created per ticker and populated sequentially as each analysis step completes. On promotion, the thesis file is seeded with the ticker's screening summaries from the Tracker.
+## Architecture
 
-## Workflow Steps
+### Workflow
+`Discovery → Price → Earnings → [Initial Position?] → Financials → Sentiment → [Scale/Exit?] → Footnotes* → Earnings Calls* → Synthesis → [Full Position?]`
+
+- **Consider initial position** — passed Earnings, low-risk profile, no position yet
+- **Scale/Exit decision** — passed Financials/Sentiment, position already open
+- **Prioritize for deep analysis** — passed Financials/Sentiment, high conviction or complexity warrants Footnotes/Earnings Calls
+- **Full position** — completed Synthesis, thesis fully validated, conviction warrants full sizing
+
+### Workflow Steps
+
 | Step | Phase | Script | Prompt | Reads | Writes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1. Digest** | Screening | `peters_digest.py` | `prompt_digest.md` | News APIs, Digest | Digest |
 | **2. Discovery** | Screening | — | `prompt_discovery.md` | Digest, User Text | Tracker, Context |
-| **3. Price** | Screening | `price.py` | `prompt_price.md` | Tracker, Context | Tracker |
-| **4. Earnings** | Screening | `earnings.py` | `prompt_earnings.md` | Tracker, Context | Tracker |
-| **5. Prep** | Deep Dive | — | `prompt_deep_dive_prep.md` | Tracker, Context | Thesis |
+| **3. Price** | Screening | `price.py` | `prompt_price.md` | Tracker, Context | Tracker, `Price_Data_{DATE}.txt` |
+| **4. Earnings** | Screening | `earnings.py` | `prompt_earnings.md` | Tracker, Context | Tracker, `Earnings_{DATE}.txt` |
+| **5. Screening Completion** | Screening | — | `prompt_screening_completion.md` | Tracker, Context | Thesis |
 | **6. Financials** | Deep Dive | `financials.py` | `prompt_financials.md` | Thesis | Thesis, Tracker |
 | **7. Sentiment** | Deep Dive | `sentiment.py` | `prompt_sentiment.md` | Thesis, Context | Thesis, Tracker |
 | **8. Footnotes** | Deep Dive | `footnotes.py` | `prompt_footnotes.md` | Thesis | Thesis, Tracker |
 | **9. Earnings Calls** | Deep Dive | `earnings_calls.py` | `prompt_earnings_calls.md` | Thesis | Thesis, Tracker |
 | **10. Synthesis** | Deep Dive | — | `prompt_thesis_synthesis.md` | Thesis | Thesis, Tracker |
 
+---
+
 ## Core Tracking
 For a complete breakdown of all files, **always consult `Index.md`**. Key tracking files include:
-- **`Stock_Tracker.md`**: The single source of truth for tracking ticker progress and tags across all phases. (See the tracker itself for detailed formatting and status instructions).
+- **`Stock_Tracker.md`**: The single source of truth for tracking ticker progress and tags across all phases.
+- **`Discovery_Context.md`**: Captures verbatim notes, initial hypotheses, catalysts, and thematic context that triggered stocks to be flagged for screening.
 - **Thesis Files**: Located in `Data/tickers/{TICKER}/`, built sequentially during Phase 2.
 
 ## Resources for Additional Context
 When data or knowledge gaps arise, consult the available resources detailed in our indexes:
 
-1. **`Index.md` (Source Material)**: Maps topics to specific investment literature (e.g., Graham & Dodd, Soros) found in `Source Material/`. When deeper context is needed, search the summaries first. Consult raw chapters only if summaries are insufficient. 
+1. **`Index.md` (Source Material)**: Maps topics to specific investment literature (e.g., Graham & Dodd, Soros) found in `Source Material/`. When deeper context is needed, search the summaries first. Consult raw chapters only if summaries are insufficient.
    **CRITICAL:** Before reading any large raw source files (`Source Material/raw/`), you must explicitly state your plan and ask the user for permission to avoid burning compute.
 2. **`API_Index.md`**: Maps available APIs and external data endpoints for fetching live prices, news, and financials. Use this when local data is outdated or missing.
 
 **Quick reference — source strengths:**
 
-*   **Security Analysis (Graham & Dodd)** — investment principles, fundamental analysis philosophy, valuation
-*   **Financial Statement Analysis (Fridson & Alvarez)** — accounting mechanics, financial statement specifics, earnings quality
-*   **The Alchemy of Finance (Soros)** — reflexivity, market psychology, boom/bust cycles
-*   **Options: Beginner to Beyond** — options strategies
-*   **AI_Guidelines.md** (`AI_Guidelines.md`) — AI ecosystem framework, circular revenue dynamics, sector-specific signals, and key tickers by layer. Applied automatically in all Deep Dive prompts for AI-tagged tickers.
+- **Security Analysis (Graham & Dodd)** — investment principles, fundamental analysis philosophy, valuation
+- **Financial Statement Analysis (Fridson & Alvarez)** — accounting mechanics, financial statement specifics, earnings quality
+- **The Alchemy of Finance (Soros)** — reflexivity, market psychology, boom/bust cycles
+- **Options: Beginner to Beyond** — options strategies
+- **AI_Guidelines.md** (`AI_Guidelines.md`) — AI ecosystem framework, circular revenue dynamics, sector-specific signals, and key tickers by layer. Applied automatically in all Deep Dive prompts for AI-tagged tickers.
