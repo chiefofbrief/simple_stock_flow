@@ -10,7 +10,7 @@ These files establish the rules of the system and track its outputs.
 *   `API_Index.md` - Comprehensive map of available APIs (FMP, Alphavantage, Perigon, SociaVault) and their specific endpoints for live data.
 *   `AI_Guidelines.md` - Sector-specific analysis framework applied automatically during Deep Dives for AI-tagged tickers.
 *   `Stock_Tracker.md` - Master dashboard tracking the status (PASS/FILTERED/ACTIVE) of every ticker through the pipeline.
-*   `Discovery_Context.md` - A research bank providing orientation and recent context for prioritizing candidates during the Discovery phase.
+*   `Discovery_Context.md` - A research bank capturing verbatim notes, initial hypotheses, catalysts, and thematic context for screened tickers.
 
 ---
 
@@ -21,6 +21,7 @@ The instructions passed to the LLM for each stage of analysis.
 *   `prompt_digest.md` - (Discovery) Synthesizes market news and Peter's Digest into actionable investment flags.
 *   `prompt_price.md` - (Screening) Analyzes price action and volatility.
 *   `prompt_earnings.md` - (Screening) Analyzes recent earnings surprises and guidance.
+*   `prompt_screening_completion.md` - (Screening) Wraps up the screening process for a ticker. Initializes the Thesis file and updates the Tracker.
 *   `prompt_financials.md` - (Deep Dive) Analyzes 10 years/quarters of core financial metrics.
 *   `prompt_sentiment.md` - (Deep Dive) Synthesizes news and social media sentiment.
 *   `prompt_footnotes.md` - (Deep Dive) Extracts hidden risks/opportunities from 10-K/10-Q text.
