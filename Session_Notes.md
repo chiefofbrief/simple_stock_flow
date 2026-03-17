@@ -3,9 +3,9 @@
 
 ## Discovery Context Notes
 
-### 
+### [Placeholder: Date]
 
-#### 
+#### [Placeholder: TICKER/Theme]
 
 ---
 
