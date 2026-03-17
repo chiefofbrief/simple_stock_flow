@@ -45,8 +45,8 @@ Short-term momentum remains high, with **+13.7% TTM growth**. The company has be
 **4. What is the correlation between price and earnings?**
 There is a **strong negative correlation of -0.84**. This highlights a massive fundamental divergence: the business is generating record cash while the market is violently contracting its multiple.
 
-**5. How do the upcoming earnings estimates compare to the company's past performance?**
-The estimate for 2026-03-12 is **$5.87**, a **+$0.37 Forward Delta** over the last actual. This suggests that analysts expect growth to accelerate slightly, contradicting the "AI-disruption" panic reflected in the price.
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The estimate for 2026-03-12 is **$5.87**, a **+$0.37 Forward Delta** over the last actual. Analysts are modestly optimistic, expecting growth to accelerate slightly — a signal that contradicts the "AI-disruption" panic reflected in the price.
 
 **6. FOR [LOSER]-TAGGED TICKERS ONLY**
 - **Are earnings decreasing along with the price?**
@@ -74,8 +74,8 @@ Hyper-growth historically (**+70.4% CAGR**), but scaling into maturity. Volatili
 **4. What is the correlation between price and earnings?**
 Correlation is **-0.07**, meaning the price is essentially moving on noise, decoupled from the recent stagnation in earnings.
 
-**5. How do the upcoming earnings estimates compare to the company's past performance?**
-The next estimate is **$1.07**, a small **-$0.05 Forward Delta** vs. the last actual. This confirms that analysts project a period of flat growth ahead.
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate is **$1.07**, a small **-$0.05 Forward Delta** vs. the last actual. Analysts are projecting flat growth ahead — a cautious signal that confirms the stall thesis rather than offering a near-term catalyst for recovery.
 
 **6. FOR [LOSER]-TAGGED TICKERS ONLY**
 - **Are earnings decreasing along with the price?**
@@ -103,8 +103,8 @@ Short-term growth is decent at **+11.5% TTM**, with consistent (though small) qu
 **4. What is the correlation between price and earnings?**
 Correlation is **0.04**, meaning the price and earnings are moving independently. The price is driven by the "Apple defection" and "memory crunch" narratives rather than actual quarterly reports.
 
-**5. How do the upcoming earnings estimates compare to the company's past performance?**
-The next estimate of **$2.57** is a massive **-$0.93 Forward Delta** over the last actual ($3.50). Analysts are pricing in a sharp fundamental hit from the loss of major smartphone customers.
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate of **$2.57** is a massive **-$0.93 Forward Delta** over the last actual ($3.50). Analysts are pricing in a sharp fundamental hit from the loss of major smartphone customers — a pessimistic near-term signal that suggests the market has not yet fully absorbed the revenue cliff, leaving potential value if the 11x floor holds.
 
 **6. FOR [LOSER]-TAGGED TICKERS ONLY**
 - **Are earnings decreasing along with the price?**
@@ -143,7 +143,7 @@ N/A - Not a tailwind stock
 **4. What is the correlation between price and earnings?**
 [Answer using specific metrics]
 
-**5. How do the upcoming earnings estimates compare to the company's past performance?**
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
 [Answer using specific metrics]
 
 **6. FOR [LOSER]-TAGGED TICKERS ONLY**
