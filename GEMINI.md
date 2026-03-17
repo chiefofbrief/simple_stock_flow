@@ -16,6 +16,8 @@ Only proceed when sufficient data is available. If data is insufficient to addre
 
 Limit analysis depth to match importance — accept information gaps when additional data requires disproportionate effort. Separately, acknowledge the limitations of the analysis itself: for businesses with limited data, wide variations in financials, or heavy reliance on growth forecasts, conclusions carry less weight. Projections have a significant impact on sentiment and market price, but a margin of safety cannot be based solely on future growth.
 
+**Metric Discipline:** Only apply financial metrics, ratios, and analytical frameworks explicitly established in the project files or source material. Do not introduce outside metrics (e.g., PEG ratio, EV/EBITDA) unless sourced from `Index.md` resources. If an additional metric appears relevant, flag it and ask before applying it.
+
 ---
 
 ### Investment Types
@@ -93,6 +95,8 @@ For a complete breakdown of all files, **always consult `Index.md`**. Key tracki
 - **`Stock_Tracker.md`**: The single source of truth for tracking ticker progress and tags across all phases.
 - **`Discovery_Context.md`**: Captures verbatim notes, initial hypotheses, catalysts, and thematic context that triggered stocks to be flagged for screening.
 - **Thesis Files**: Located in `Data/tickers/{TICKER}/`, built sequentially during Phase 2.
+
+---
 
 ## Resources for Additional Context
 When data or knowledge gaps arise, consult the available resources detailed in our indexes:
