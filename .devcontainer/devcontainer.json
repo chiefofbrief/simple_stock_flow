@@ -32,13 +32,6 @@
     }
   },
 
-  "remoteEnv": {
-    "PERIGON_API_KEY": "${localEnv:PERIGON_API_KEY}",
-    "ALPHAVANTAGE_API_KEY": "${localEnv:ALPHAVANTAGE_API_KEY}",
-    "FMP_API_KEY": "${localEnv:FMP_API_KEY}",
-    "SOCIAVAULT_API_KEY": "${localEnv:SOCIAVAULT_API_KEY}"
-  },
-
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {},
