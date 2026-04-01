@@ -48,6 +48,8 @@ def load_file(path):
         print(f"❌ Error reading {path}: {e}")
         return ""
 
+from email.header import Header
+
 def send_email(subject, body, user, password, to_email):
     # Ensure no accidental whitespace from Secrets
     user = user.strip()
@@ -55,20 +57,22 @@ def send_email(subject, body, user, password, to_email):
     to_email = to_email.strip()
     
     msg = MIMEMultipart()
+    # Properly encode headers
     msg['From'] = user
     msg['To'] = to_email
-    msg['Subject'] = subject
+    msg['Subject'] = Header(subject, 'utf-8').encode()
     
-    # Use UTF-8 encoding for the body to handle special characters from Gemini
+    # Use UTF-8 encoding for the body
     msg.attach(MIMEText(body, 'plain', 'utf-8'))
     
     try:
-        # Use Port 587 with STARTTLS (more resilient in CI/CD environments)
+        # Use Port 587 with STARTTLS
         server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.set_debuglevel(0)
+        server.set_debuglevel(1) # Enable debug to see exact SMTP rejection reason
         server.starttls()
         server.login(user, password)
-        server.send_message(msg)
+        # Use sendmail for more explicit envelope control
+        server.sendmail(user, [to_email], msg.as_string())
         server.quit()
         print("✓ Email sent successfully!")
         return True
