@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11' # Updated to 3.11 for modern Google SDK support
+          python-version: '3.11'
           cache: 'pip'
 
       - name: Install Dependencies
@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Discovery and Analysis
+      - name: Run Digest and Analysis
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SOCIAVAULT_API_KEY: ${{ secrets.SOCIAVAULT_API_KEY }}
@@ -35,5 +35,4 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: |
-          # Core logic (scripts/) | Automation logic (automation/)
-          python scripts/peters_digest.py --daily | python automation/analyze_digest.py
+          python Scripts/analyze_digest.py
