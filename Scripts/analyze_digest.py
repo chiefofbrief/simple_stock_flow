@@ -49,6 +49,10 @@ def load_file(path):
         return ""
 
 def send_email(subject, body, user, password, to_email):
+    # Ensure no accidental whitespace from Secrets
+    user = user.strip()
+    password = password.strip()
+    
     msg = MIMEMultipart()
     msg['From'] = user
     msg['To'] = to_email
@@ -57,9 +61,12 @@ def send_email(subject, body, user, password, to_email):
     msg.attach(MIMEText(body, 'plain'))
     
     try:
-        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
-            server.login(user, password)
-            server.send_message(msg)
+        # Use Port 587 with STARTTLS (more resilient in CI/CD environments)
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(user, password)
+        server.send_message(msg)
+        server.quit()
         print("✓ Email sent successfully!")
         return True
     except Exception as e:
