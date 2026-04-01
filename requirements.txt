@@ -7,3 +7,4 @@ html2text
 lxml
 curl_cffi
 google-genai
+markdown

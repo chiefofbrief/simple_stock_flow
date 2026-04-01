@@ -53,6 +53,8 @@ def load_file(path):
         print(f"❌ Error reading {path}: {e}")
         return ""
 
+import markdown
+
 def send_email(subject, body, user, password, to_email):
     # Ensure no accidental whitespace from Secrets
     user = user.strip()
@@ -60,33 +62,55 @@ def send_email(subject, body, user, password, to_email):
     to_email = to_email.strip()
     
     # Create the modern EmailMessage object
-    # This API automatically handles encoding and line wrapping (RFC 5321)
     msg = EmailMessage()
     msg['Subject'] = subject
     msg['From'] = user
     msg['To'] = to_email
-    # Force quoted-printable to ensure long lines are physically wrapped for SMTP
-    msg.set_content(body, cte='quoted-printable') 
+    
+    # 1. Set the Plain Text version (Markdown)
+    msg.set_content(body, cte='quoted-printable')
+    
+    # 2. Generate and add the HTML version
+    # Basic CSS to make it look like a clean financial report
+    html_style = """
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #1a365d; border-bottom: 2px solid #1a365d; padding-bottom: 10px; }
+        h2 { color: #2c5282; margin-top: 30px; border-bottom: 1px solid #e2e8f0; }
+        h3 { color: #2b6cb0; margin-top: 20px; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; font-size: 14px; }
+        th { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 12px; text-align: left; color: #4a5568; }
+        td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        tr:nth-child(even) { background-color: #f8fafc; }
+        li { margin-bottom: 8px; }
+        hr { border: 0; border-top: 1px solid #e2e8f0; margin: 30px 0; }
+        blockquote { border-left: 4px solid #e2e8f0; padding-left: 16px; color: #718096; font-style: italic; }
+    </style>
+    """
+    
+    # Convert Markdown to HTML (using tables and extra formatting extensions)
+    html_content = markdown.markdown(body, extensions=['tables', 'fenced_code', 'nl2br'])
+    full_html = f"<html><head>{html_style}</head><body>{html_content}</body></html>"
+    
+    msg.add_alternative(full_html, subtype='html')
     
     try:
         # Use Port 587 with STARTTLS
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.set_debuglevel(1) 
-
+        
         server.ehlo() # Initial handshake
         server.starttls() # Secure the line
         server.ehlo() # Re-identify after encryption
-
+        
         server.login(user, password)
-
+        
         # Use sendmail for the final "envelope" delivery.
-        # This is more robust than send_message because we explicitly pass the to/from strings.
         server.sendmail(user, [to_email], msg.as_string())
         server.quit()
-
+        
         print("✓ Email sent successfully!")
         return True
-
     except Exception as e:
         print(f"❌ Error sending email: {e}")
         return False
