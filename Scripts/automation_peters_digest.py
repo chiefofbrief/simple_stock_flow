@@ -245,8 +245,7 @@ You are running in a fully automated, headless pipeline. There is NO human in th
 
     # 7. Email Final Report
     print("Step 3: Emailing completed digest...")
-    filename = os.path.basename(digest_path).replace(".md", "")
-    subject = f"Peter's Market Digest & Screening - {filename}"
+    subject = f"Peter's Digest - {today}"
     email_success = send_email(subject, final_report, email_user, email_pass, email_to)
     
     if not email_success:
