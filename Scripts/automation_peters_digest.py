@@ -142,7 +142,8 @@ def main():
                 [sys.executable, "Scripts/peters_digest.py", "--daily"], 
                 capture_output=True, 
                 text=True, 
-                check=True
+                check=True,
+                env=os.environ.copy() # Explicitly share API keys with sub-scripts
             )
             print(result.stdout)
             

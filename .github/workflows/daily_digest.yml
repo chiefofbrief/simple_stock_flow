@@ -36,6 +36,12 @@ jobs:
           restore-keys: |
             digest-${{ runner.os }}-
 
+      - name: Debug secrets presence
+        env:
+          PERIGON_API_KEY: ${{ secrets.PERIGON_API_KEY }}
+        run: |
+          echo "Perigon key length: ${#PERIGON_API_KEY}"
+
       - name: Run Digest and Analysis
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
