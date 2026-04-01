@@ -199,7 +199,13 @@ Generate the analysis output immediately based strictly on the provided raw data
     print("Step 3: Emailing completed digest...")
     filename = os.path.basename(digest_path).replace(".md", "")
     subject = f"Peter's Market Digest & Screening - {filename}"
-    send_email(subject, final_report, email_user, email_pass, email_to)
+    email_success = send_email(subject, final_report, email_user, email_pass, email_to)
+    
+    if not email_success:
+        print("❌ Workflow failed at the email step.")
+        sys.exit(1)
+    
+    print("✓ Workflow completed successfully.")
 
 if __name__ == "__main__":
     main()
