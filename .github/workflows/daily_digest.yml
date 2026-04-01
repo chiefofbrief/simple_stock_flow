@@ -42,6 +42,7 @@ jobs:
           SOCIAVAULT_API_KEY: ${{ secrets.SOCIAVAULT_API_KEY }}
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
           ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+          PERIGON_API_KEY: ${{ secrets.PERIGON_API_KEY }}
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO || secrets.EMAIL_USER }}

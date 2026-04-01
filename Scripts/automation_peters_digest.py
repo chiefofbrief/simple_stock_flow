@@ -16,10 +16,15 @@ import sys
 import subprocess
 import smtplib
 import time
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from google import genai
-from google.genai import types
+from email.message import EmailMessage
+
+# Try to import google-genai
+try:
+    from google import genai
+    from google.genai import types
+except ImportError:
+    print("❌ Error: google-genai SDK not installed.")
+    sys.exit(1)
 
 # ============================================================================
 # CONFIGURATION
@@ -47,8 +52,6 @@ def load_file(path):
     except Exception as e:
         print(f"❌ Error reading {path}: {e}")
         return ""
-
-from email.message import EmailMessage
 
 def send_email(subject, body, user, password, to_email):
     # Ensure no accidental whitespace from Secrets
@@ -146,18 +149,24 @@ def main():
     with open(digest_path, 'r') as f:
         digest_content = f.read()
 
-    # 3. Prepare AI Environment
-    prompt_digest = load_file(PROMPT_PATH)
-    gemini_md = load_file(GEMINI_CONTEXT_PATH)
-    ai_guidelines = load_file(AI_GUIDELINES_PATH)
+    # 3. Check for Existing Analysis
+    if "## Stock & Markets Analysis" in digest_content:
+        print("✓ Analysis already present in file. Skipping Gemini step to avoid duplication.")
+        final_report = digest_content
+    else:
+        # 4. Prepare AI Environment
+        prompt_digest = load_file(PROMPT_PATH)
+        gemini_md = load_file(GEMINI_CONTEXT_PATH)
+        ai_guidelines = load_file(AI_GUIDELINES_PATH)
 
-    if not prompt_digest:
-        print("❌ Error: prompt_digest.md is empty or missing.")
-        sys.exit(1)
+        if not prompt_digest:
+            print("❌ Error: prompt_digest.md is empty or missing.")
+            sys.exit(1)
 
-    client = genai.Client(api_key=api_key)
-    
-    system_instruction = f"""
+        client = genai.Client(api_key=api_key)
+        
+        # System instruction replicates the role and constraints of the manual prompt
+        system_instruction = f"""
 {prompt_digest}
 
 ### REFERENCE FRAMEWORKS ###
@@ -170,51 +179,51 @@ def main():
 You are running headlessly. Skip all 'STOP. Wait for user approval' steps. 
 Generate the analysis output immediately based strictly on the provided raw data.
 """
-    
-    # 4. Run Analysis with Retry Logic
-    print(f"Step 2: Executing prompt_digest.md via {GEMINI_MODEL}...")
-    analysis = None
-    
-    for attempt in range(MAX_RETRIES):
-        try:
-            response = client.models.generate_content(
-                model=GEMINI_MODEL,
-                contents=f"DATA INTAKE:\n\n{digest_content}",
-                config=types.GenerateContentConfig(
-                    system_instruction=system_instruction,
-                    temperature=0.2,
+        
+        # 5. Run Analysis with Retry Logic
+        print(f"Step 2: Executing prompt_digest.md via {GEMINI_MODEL}...")
+        analysis = None
+        
+        for attempt in range(MAX_RETRIES):
+            try:
+                response = client.models.generate_content(
+                    model=GEMINI_MODEL,
+                    contents=f"DATA INTAKE:\n\n{digest_content}",
+                    config=types.GenerateContentConfig(
+                        system_instruction=system_instruction,
+                        temperature=0.2,
+                    )
                 )
-            )
-            analysis = response.text
-            if analysis:
-                break
-        except Exception as e:
-            print(f"⚠️ Attempt {attempt + 1} failed: {e}")
-            if attempt < MAX_RETRIES - 1:
-                wait_time = RETRY_DELAY_BASE * (2 ** attempt)
-                print(f"⏳ Retrying in {wait_time}s...")
-                time.sleep(wait_time)
-            else:
-                print("❌ Max retries reached. Exiting.")
-                sys.exit(1)
-    
-    if not analysis:
-        print("❌ Analysis failed: Empty response.")
-        sys.exit(1)
-    print(f"✓ Analysis received ({len(analysis)} chars)")
+                analysis = response.text
+                if analysis:
+                    break
+            except Exception as e:
+                print(f"⚠️ Attempt {attempt + 1} failed: {e}")
+                if attempt < MAX_RETRIES - 1:
+                    wait_time = RETRY_DELAY_BASE * (2 ** attempt)
+                    print(f"⏳ Retrying in {wait_time}s...")
+                    time.sleep(wait_time)
+                else:
+                    print("❌ Max retries reached. Exiting.")
+                    sys.exit(1)
+        
+        if not analysis:
+            print("❌ Analysis failed: Empty response.")
+            sys.exit(1)
+        print(f"✓ Analysis received ({len(analysis)} chars)")
 
-    # 5. Prepend Analysis (below 3-line header)
-    lines = digest_content.split('\n')
-    header = lines[:3]
-    body = lines[3:]
-    
-    final_report = "\n".join(header) + "\n\n" + analysis + "\n\n---\n\n" + "\n".join(body)
+        # 6. Prepend Analysis (below 3-line header)
+        lines = digest_content.split('\n')
+        header = lines[:3]
+        body = lines[3:]
+        
+        final_report = "\n".join(header) + "\n\n" + analysis + "\n\n---\n\n" + "\n".join(body)
 
-    with open(digest_path, 'w') as f:
-        f.write(final_report)
-    print(f"✓ Analysis prepended to {digest_path}")
+        with open(digest_path, 'w') as f:
+            f.write(final_report)
+        print(f"✓ Analysis prepended to {digest_path}")
 
-    # 6. Email Final Report
+    # 7. Email Final Report
     print("Step 3: Emailing completed digest...")
     filename = os.path.basename(digest_path).replace(".md", "")
     subject = f"Peter's Market Digest & Screening - {filename}"
