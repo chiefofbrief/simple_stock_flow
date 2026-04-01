@@ -57,12 +57,13 @@ def send_email(subject, body, user, password, to_email):
     to_email = to_email.strip()
     
     # Create the modern EmailMessage object
-    # This API automatically handles Quoted-Printable encoding and line wrapping (RFC 5321)
+    # This API automatically handles encoding and line wrapping (RFC 5321)
     msg = EmailMessage()
     msg['Subject'] = subject
     msg['From'] = user
     msg['To'] = to_email
-    msg.set_content(body) # Physically transforms the body to be SMTP-safe
+    # Force quoted-printable to ensure long lines are physically wrapped for SMTP
+    msg.set_content(body, cte='quoted-printable') 
     
     try:
         # Use Port 587 with STARTTLS
