@@ -27,8 +27,8 @@ from google.genai import types
 
 # Using Gemini 2.0 Flash for high-capacity free tier quota
 GEMINI_MODEL = "gemini-2.0-flash"
-MAX_RETRIES = 3
-RETRY_DELAY_BASE = 5 # seconds
+MAX_RETRIES = 5
+RETRY_DELAY_BASE = 10 # Increased delay for better 429 recovery
 
 # File Paths
 PROMPT_PATH = "Prompts/prompt_digest.md"
