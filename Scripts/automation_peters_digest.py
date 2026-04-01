@@ -33,7 +33,8 @@ except ImportError:
 # Using Gemini 2.5 Pro for flagship reasoning quality (Paid Tier)
 GEMINI_MODEL = "gemini-2.5-pro"
 MAX_RETRIES = 5
-RETRY_DELAY_BASE = 10 # Increased delay for better 429 recovery
+RETRY_DELAY_BASE = 10 
+ANALYSIS_MARKER = "<!-- ANALYSIS_COMPLETE -->"
 
 # File Paths
 PROMPT_PATH = "Prompts/prompt_digest.md"
@@ -71,7 +72,6 @@ def send_email(subject, body, user, password, to_email):
     msg.set_content(body, cte='quoted-printable')
     
     # 2. Generate and add the HTML version
-    # Basic CSS to make it look like a clean financial report
     html_style = """
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
@@ -88,7 +88,7 @@ def send_email(subject, body, user, password, to_email):
     </style>
     """
     
-    # Convert Markdown to HTML (using tables and extra formatting extensions)
+    # Convert Markdown to HTML
     html_content = markdown.markdown(body, extensions=['tables', 'fenced_code', 'nl2br'])
     full_html = f"<html><head>{html_style}</head><body>{html_content}</body></html>"
     
@@ -97,18 +97,13 @@ def send_email(subject, body, user, password, to_email):
     try:
         # Use Port 587 with STARTTLS
         server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.set_debuglevel(1) 
-        
-        server.ehlo() # Initial handshake
-        server.starttls() # Secure the line
-        server.ehlo() # Re-identify after encryption
-        
+        server.ehlo()
+        server.starttls()
+        server.ehlo()
         server.login(user, password)
-        
-        # Use sendmail for the final "envelope" delivery.
+        # Use sendmail for explicit envelope control
         server.sendmail(user, [to_email], msg.as_string())
         server.quit()
-        
         print("✓ Email sent successfully!")
         return True
     except Exception as e:
@@ -151,7 +146,6 @@ def main():
             )
             print(result.stdout)
             
-            # Extract generated file path from stdout
             for line in result.stdout.split('\n'):
                 if "Digest generated and saved to:" in line:
                     digest_path = line.split(":", 1)[1].strip()
@@ -161,7 +155,6 @@ def main():
             sys.exit(1)
 
     if not digest_path or not os.path.exists(digest_path):
-        # Final fallback check
         if os.path.exists(cached_path):
             digest_path = cached_path
         else:
@@ -173,8 +166,8 @@ def main():
     with open(digest_path, 'r') as f:
         digest_content = f.read()
 
-    # 3. Check for Existing Analysis
-    if "## Stock & Markets Analysis" in digest_content:
+    # 3. Check for Existing Analysis (Circuit Breaker)
+    if ANALYSIS_MARKER in digest_content:
         print("✓ Analysis already present in file. Skipping Gemini step to avoid duplication.")
         final_report = digest_content
     else:
@@ -189,7 +182,6 @@ def main():
 
         client = genai.Client(api_key=api_key)
         
-        # System instruction replicates the role and constraints of the manual prompt
         system_instruction = f"""
 {prompt_digest}
 
@@ -199,9 +191,12 @@ def main():
 ---
 {ai_guidelines}
 
-### AUTOMATION OVERRIDE ###
-You are running headlessly. Skip all 'STOP. Wait for user approval' steps. 
-Generate the analysis output immediately based strictly on the provided raw data.
+### AUTOMATION OVERRIDE: HEADLESS EXECUTION ###
+You are running in a fully automated, headless pipeline. There is NO human in the loop.
+- Output ONLY the final Markdown analysis. Start directly with the first header.
+- DO NOT include any conversational filler, confirmation questions, or meta-commentary.
+- DO NOT include phrases like "Action:", "Shall I proceed", or "Do you approve".
+- Treat this as a direct write-to-file operation with zero conversational output.
 """
         
         # 5. Run Analysis with Retry Logic
@@ -241,7 +236,8 @@ Generate the analysis output immediately based strictly on the provided raw data
         header = lines[:3]
         body = lines[3:]
         
-        final_report = "\n".join(header) + "\n\n" + analysis + "\n\n---\n\n" + "\n".join(body)
+        # Add the invisible marker to prevent future duplication
+        final_report = ANALYSIS_MARKER + "\n" + "\n".join(header) + "\n\n" + analysis + "\n\n---\n\n" + "\n".join(body)
 
         with open(digest_path, 'w') as f:
             f.write(final_report)
