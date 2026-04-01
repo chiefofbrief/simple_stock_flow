@@ -48,7 +48,7 @@ def load_file(path):
         print(f"❌ Error reading {path}: {e}")
         return ""
 
-from email.header import Header
+from email.message import EmailMessage
 
 def send_email(subject, body, user, password, to_email):
     # Ensure no accidental whitespace from Secrets
@@ -56,28 +56,27 @@ def send_email(subject, body, user, password, to_email):
     password = password.strip()
     to_email = to_email.strip()
     
-    msg = MIMEMultipart()
-    # Properly encode headers
+    # Create the modern EmailMessage object
+    # This API automatically handles Quoted-Printable encoding and line wrapping (RFC 5321)
+    msg = EmailMessage()
+    msg['Subject'] = subject
     msg['From'] = user
     msg['To'] = to_email
-    msg['Subject'] = Header(subject, 'utf-8').encode()
-    
-    # Use Quoted-Printable encoding for the body.
-    # This is CRITICAL: It automatically handles RFC 5321 line length limits (998 chars)
-    # and safely encodes non-ASCII characters for SMTP transport.
-    part = MIMEText(body, 'plain', 'utf-8')
-    part.replace_header('Content-Transfer-Encoding', 'quoted-printable')
-    msg.attach(part)
+    msg.set_content(body) # Physically transforms the body to be SMTP-safe
     
     try:
         # Use Port 587 with STARTTLS
         server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.set_debuglevel(1) # Leave debug on for this final verification
-        server.starttls()
+        server.set_debuglevel(1) 
+        
+        server.ehlo() # Initial handshake
+        server.starttls() # Secure the line
+        server.ehlo() # Re-identify after encryption (Required by some Gmail tiers)
+        
         server.login(user, password)
-        # Explicitly send the string representation
-        server.sendmail(user, [to_email], msg.as_string())
+        server.send_message(msg) # The preferred way to send modern EmailMessage objects
         server.quit()
+        
         print("✓ Email sent successfully!")
         return True
     except Exception as e:
