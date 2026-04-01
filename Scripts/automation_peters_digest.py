@@ -16,6 +16,7 @@ import sys
 import subprocess
 import smtplib
 import time
+import re
 from email.message import EmailMessage
 
 # Try to import google-genai
@@ -68,10 +69,10 @@ def send_email(subject, body, user, password, to_email):
     msg['From'] = user
     msg['To'] = to_email
     
-    # 1. Set the Plain Text version (Markdown)
+    # Set the Plain Text version (Markdown)
     msg.set_content(body, cte='quoted-printable')
     
-    # 2. Generate and add the HTML version
+    # Generate and add the HTML version
     html_style = """
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
@@ -130,12 +131,22 @@ def main():
     digest_dir = "Peter's Digest"
     cached_path = os.path.join(digest_dir, f"Daily_Digest_{today}.md")
 
-    # 2. Generate Raw Data (Only if not already present)
+    # 2. Generate Raw Data (Only if not already present AND clean)
     digest_path = None
+    force_generation = False
+    
     if os.path.exists(cached_path):
-        print(f"✓ Found existing digest at {cached_path}. Skipping raw data generation to save API calls.")
-        digest_path = cached_path
-    else:
+        with open(cached_path, 'r') as f:
+            existing_data = f.read()
+        
+        if "Error running" in existing_data:
+            print("⚠️ Existing digest contains module errors. Forcing re-generation to try Perigon key again.")
+            force_generation = True
+        else:
+            print(f"✓ Found clean existing digest at {cached_path}. Skipping raw data generation.")
+            digest_path = cached_path
+
+    if not digest_path or force_generation:
         print("Step 1: Generating raw data via peters_digest.py...")
         try:
             result = subprocess.run(
@@ -167,23 +178,32 @@ def main():
     with open(digest_path, 'r') as f:
         digest_content = f.read()
 
-    # 3. Check for Existing Analysis (Circuit Breaker)
+    # 3. Cleanup existing analysis if present (Prevent duplication)
+    # We find the first occurrence of the separator and keep everything after it
     if ANALYSIS_MARKER in digest_content:
-        print("✓ Analysis already present in file. Skipping Gemini step to avoid duplication.")
-        final_report = digest_content
-    else:
-        # 4. Prepare AI Environment
-        prompt_digest = load_file(PROMPT_PATH)
-        gemini_md = load_file(GEMINI_CONTEXT_PATH)
-        ai_guidelines = load_file(AI_GUIDELINES_PATH)
+        print("✓ Analysis marker found. Cleaning up existing analysis blocks.")
+        # Everything after the separator is the raw data
+        parts = digest_content.split("---\n\n", 1)
+        if len(parts) > 1:
+            digest_content = parts[1]
+            # Strip the remaining "---" if it was part of the old prepended block
+            # (Matches the # Title, Date, --- pattern)
+            lines = digest_content.split('\n')
+            if len(lines) > 3 and "---" in lines[2]:
+                digest_content = "\n".join(lines[3:])
 
-        if not prompt_digest:
-            print("❌ Error: prompt_digest.md is empty or missing.")
-            sys.exit(1)
+    # 4. Prepare AI Environment
+    prompt_digest = load_file(PROMPT_PATH)
+    gemini_md = load_file(GEMINI_CONTEXT_PATH)
+    ai_guidelines = load_file(AI_GUIDELINES_PATH)
 
-        client = genai.Client(api_key=api_key)
-        
-        system_instruction = f"""
+    if not prompt_digest:
+        print("❌ Error: prompt_digest.md is empty or missing.")
+        sys.exit(1)
+
+    client = genai.Client(api_key=api_key)
+    
+    system_instruction = f"""
 {prompt_digest}
 
 ### REFERENCE FRAMEWORKS ###
@@ -199,50 +219,50 @@ You are running in a fully automated, headless pipeline. There is NO human in th
 - DO NOT include phrases like "Action:", "Shall I proceed", or "Do you approve".
 - Treat this as a direct write-to-file operation with zero conversational output.
 """
-        
-        # 5. Run Analysis with Retry Logic
-        print(f"Step 2: Executing prompt_digest.md via {GEMINI_MODEL}...")
-        analysis = None
-        
-        for attempt in range(MAX_RETRIES):
-            try:
-                response = client.models.generate_content(
-                    model=GEMINI_MODEL,
-                    contents=f"DATA INTAKE:\n\n{digest_content}",
-                    config=types.GenerateContentConfig(
-                        system_instruction=system_instruction,
-                        temperature=0.2,
-                    )
+    
+    # 5. Run Analysis with Retry Logic
+    print(f"Step 2: Executing prompt_digest.md via {GEMINI_MODEL}...")
+    analysis = None
+    
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=f"DATA INTAKE:\n\n{digest_content}",
+                config=types.GenerateContentConfig(
+                    system_instruction=system_instruction,
+                    temperature=0.2,
                 )
-                analysis = response.text
-                if analysis:
-                    break
-            except Exception as e:
-                print(f"⚠️ Attempt {attempt + 1} failed: {e}")
-                if attempt < MAX_RETRIES - 1:
-                    wait_time = RETRY_DELAY_BASE * (2 ** attempt)
-                    print(f"⏳ Retrying in {wait_time}s...")
-                    time.sleep(wait_time)
-                else:
-                    print("❌ Max retries reached. Exiting.")
-                    sys.exit(1)
-        
-        if not analysis:
-            print("❌ Analysis failed: Empty response.")
-            sys.exit(1)
-        print(f"✓ Analysis received ({len(analysis)} chars)")
+            )
+            analysis = response.text
+            if analysis:
+                break
+        except Exception as e:
+            print(f"⚠️ Attempt {attempt + 1} failed: {e}")
+            if attempt < MAX_RETRIES - 1:
+                wait_time = RETRY_DELAY_BASE * (2 ** attempt)
+                print(f"⏳ Retrying in {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                print("❌ Max retries reached. Exiting.")
+                sys.exit(1)
+    
+    if not analysis:
+        print("❌ Analysis failed: Empty response.")
+        sys.exit(1)
+    print(f"✓ Analysis received ({len(analysis)} chars)")
 
-        # 6. Prepend Analysis (below 3-line header)
-        lines = digest_content.split('\n')
-        header = lines[:3]
-        body = lines[3:]
-        
-        # Add the invisible marker to prevent future duplication
-        final_report = ANALYSIS_MARKER + "\n" + "\n".join(header) + "\n\n" + analysis + "\n\n---\n\n" + "\n".join(body)
+    # 6. Reconstruct Digest (Prepend analysis below 3-line header)
+    # We handle the header separately from the body to ensure clean prepending
+    lines = digest_content.split('\n')
+    header = lines[:3]
+    body = lines[3:]
+    
+    final_report = ANALYSIS_MARKER + "\n" + "\n".join(header) + "\n\n" + analysis + "\n\n---\n\n" + "\n".join(body)
 
-        with open(digest_path, 'w') as f:
-            f.write(final_report)
-        print(f"✓ Analysis prepended to {digest_path}")
+    with open(digest_path, 'w') as f:
+        f.write(final_report)
+    print(f"✓ Analysis prepended to {digest_path}")
 
     # 7. Email Final Report
     print("Step 3: Emailing completed digest...")
