@@ -76,30 +76,44 @@ def main():
         print("❌ Error: Missing required environment variables (GEMINI_API_KEY, EMAIL_USER, EMAIL_PASSWORD)")
         sys.exit(1)
 
-    # 1. Run Raw Data Generator
-    print("Step 1: Generating raw data via peters_digest.py...")
-    try:
-        result = subprocess.run(
-            [sys.executable, "Scripts/peters_digest.py", "--daily"], 
-            capture_output=True, 
-            text=True, 
-            check=True
-        )
-        print(result.stdout)
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Error running peters_digest.py:\n{e.stderr}")
-        sys.exit(1)
+    # 1. Determine Today's File Path for Cache Check
+    import datetime
+    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    digest_dir = "Peter's Digest"
+    cached_path = os.path.join(digest_dir, f"Daily_Digest_{today}.md")
 
-    # 2. Extract generated file path from stdout
+    # 2. Generate Raw Data (Only if not already present)
     digest_path = None
-    for line in result.stdout.split('\n'):
-        if "Digest generated and saved to:" in line:
-            digest_path = line.split(":", 1)[1].strip()
-            break
+    if os.path.exists(cached_path):
+        print(f"✓ Found existing digest at {cached_path}. Skipping raw data generation to save API calls.")
+        digest_path = cached_path
+    else:
+        print("Step 1: Generating raw data via peters_digest.py...")
+        try:
+            result = subprocess.run(
+                [sys.executable, "Scripts/peters_digest.py", "--daily"], 
+                capture_output=True, 
+                text=True, 
+                check=True
+            )
+            print(result.stdout)
             
+            # Extract generated file path from stdout
+            for line in result.stdout.split('\n'):
+                if "Digest generated and saved to:" in line:
+                    digest_path = line.split(":", 1)[1].strip()
+                    break
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Error running peters_digest.py:\n{e.stderr}")
+            sys.exit(1)
+
     if not digest_path or not os.path.exists(digest_path):
-        print("❌ Error: Could not find the generated raw data file.")
-        sys.exit(1)
+        # Final fallback check
+        if os.path.exists(cached_path):
+            digest_path = cached_path
+        else:
+            print("❌ Error: Could not find or generate the raw data file.")
+            sys.exit(1)
         
     print(f"✓ Target file identified: {digest_path}")
 

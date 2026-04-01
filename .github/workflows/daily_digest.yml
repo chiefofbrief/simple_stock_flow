@@ -25,6 +25,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Cache Today's Digest
+        uses: actions/cache@v4
+        with:
+          path: Peter's Digest
+          key: digest-${{ runner.os }}-${{ github.run_id }}-${{ strategy.job_index }}-${{ github.sha }}
+          # Restore from any digest- cache created today to prevent redundant API calls
+          restore-keys: |
+            digest-${{ runner.os }}-
+
       - name: Run Digest and Analysis
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
