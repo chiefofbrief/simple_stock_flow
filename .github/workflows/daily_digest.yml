@@ -9,6 +9,8 @@ on:
 jobs:
   analyze:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the generated digest back to the repo
     
     steps:
       - name: Checkout Code
