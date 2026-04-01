@@ -25,8 +25,8 @@ from google.genai import types
 # CONFIGURATION
 # ============================================================================
 
-# Using Gemini 2.0 Flash for high-capacity free tier quota
-GEMINI_MODEL = "gemini-2.0-flash"
+# Using Gemini 1.5 Flash to utilize a separate quota bucket from the exhausted 2.0 series
+GEMINI_MODEL = "gemini-1.5-flash"
 MAX_RETRIES = 5
 RETRY_DELAY_BASE = 10 # Increased delay for better 429 recovery
 
