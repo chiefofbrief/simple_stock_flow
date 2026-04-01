@@ -92,7 +92,11 @@ def main():
     api_key = os.getenv("GEMINI_API_KEY")
     email_user = os.getenv("EMAIL_USER")
     email_pass = os.getenv("EMAIL_PASSWORD")
-    email_to = os.getenv("EMAIL_TO", email_user)
+    
+    # Handle GitHub Actions passing empty strings for missing secrets
+    email_to = os.getenv("EMAIL_TO")
+    if not email_to:
+        email_to = email_user
     
     if not all([api_key, email_user, email_pass]):
         print("❌ Error: Missing required environment variables (GEMINI_API_KEY, EMAIL_USER, EMAIL_PASSWORD)")
