@@ -24,8 +24,8 @@ from google.genai import types
 # CONFIGURATION
 # ============================================================================
 
-# Latest high-speed reasoning model (Stable identifier for Flash 3.1)
-GEMINI_MODEL = "gemini-3.1-flash-lite-preview"
+# High-speed reasoning model
+GEMINI_MODEL = "gemini-3-flash-preview"
 
 # File Paths
 PROMPT_PATH = "Prompts/prompt_digest.md"
