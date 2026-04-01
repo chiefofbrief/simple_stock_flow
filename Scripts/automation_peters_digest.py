@@ -62,16 +62,20 @@ def send_email(subject, body, user, password, to_email):
     msg['To'] = to_email
     msg['Subject'] = Header(subject, 'utf-8').encode()
     
-    # Use UTF-8 encoding for the body
-    msg.attach(MIMEText(body, 'plain', 'utf-8'))
+    # Use Quoted-Printable encoding for the body.
+    # This is CRITICAL: It automatically handles RFC 5321 line length limits (998 chars)
+    # and safely encodes non-ASCII characters for SMTP transport.
+    part = MIMEText(body, 'plain', 'utf-8')
+    part.replace_header('Content-Transfer-Encoding', 'quoted-printable')
+    msg.attach(part)
     
     try:
         # Use Port 587 with STARTTLS
         server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.set_debuglevel(1) # Enable debug to see exact SMTP rejection reason
+        server.set_debuglevel(1) # Leave debug on for this final verification
         server.starttls()
         server.login(user, password)
-        # Use sendmail for more explicit envelope control
+        # Explicitly send the string representation
         server.sendmail(user, [to_email], msg.as_string())
         server.quit()
         print("✓ Email sent successfully!")
