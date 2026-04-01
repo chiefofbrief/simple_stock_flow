@@ -69,17 +69,21 @@ def send_email(subject, body, user, password, to_email):
         # Use Port 587 with STARTTLS
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.set_debuglevel(1) 
-        
+
         server.ehlo() # Initial handshake
         server.starttls() # Secure the line
-        server.ehlo() # Re-identify after encryption (Required by some Gmail tiers)
-        
+        server.ehlo() # Re-identify after encryption
+
         server.login(user, password)
-        server.send_message(msg) # The preferred way to send modern EmailMessage objects
+
+        # Use sendmail for the final "envelope" delivery.
+        # This is more robust than send_message because we explicitly pass the to/from strings.
+        server.sendmail(user, [to_email], msg.as_string())
         server.quit()
-        
+
         print("✓ Email sent successfully!")
         return True
+
     except Exception as e:
         print(f"❌ Error sending email: {e}")
         return False
