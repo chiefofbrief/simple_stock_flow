@@ -52,17 +52,20 @@ def send_email(subject, body, user, password, to_email):
     # Ensure no accidental whitespace from Secrets
     user = user.strip()
     password = password.strip()
+    to_email = to_email.strip()
     
     msg = MIMEMultipart()
     msg['From'] = user
     msg['To'] = to_email
     msg['Subject'] = subject
     
-    msg.attach(MIMEText(body, 'plain'))
+    # Use UTF-8 encoding for the body to handle special characters from Gemini
+    msg.attach(MIMEText(body, 'plain', 'utf-8'))
     
     try:
         # Use Port 587 with STARTTLS (more resilient in CI/CD environments)
         server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.set_debuglevel(0)
         server.starttls()
         server.login(user, password)
         server.send_message(msg)
