@@ -25,8 +25,8 @@ from google.genai import types
 # CONFIGURATION
 # ============================================================================
 
-# Using Flash Lite latest which is the most reliable option for Free Tier quotas
-GEMINI_MODEL = "gemini-flash-lite-latest"
+# Using Gemini 2.5 Pro for flagship reasoning quality (Paid Tier)
+GEMINI_MODEL = "gemini-2.5-pro"
 MAX_RETRIES = 5
 RETRY_DELAY_BASE = 10 # Increased delay for better 429 recovery
 
