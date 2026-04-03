@@ -19,19 +19,19 @@ import time
 import re
 from email.message import EmailMessage
 
-# Try to import google-genai
+# --- CHANGED: Import vertexai instead of google.genai ---
 try:
-    from google import genai
-    from google.genai import types
+    import vertexai
+    from vertexai.generative_models import GenerativeModel
 except ImportError:
-    print("❌ Error: google-genai SDK not installed.")
+    print("❌ Error: google-cloud-aiplatform SDK not installed.")
     sys.exit(1)
 
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
 
-# Using Gemini 2.5 Pro for flagship reasoning quality (Paid Tier)
+# Using Gemini 2.5 Pro for flagship reasoning quality
 GEMINI_MODEL = "gemini-2.5-pro"
 MAX_RETRIES = 5
 RETRY_DELAY_BASE = 10 
@@ -112,7 +112,9 @@ def send_email(subject, body, user, password, to_email):
         return False
 
 def main():
-    api_key = os.getenv("GEMINI_API_KEY")
+    # --- CHANGED: Look for PROJECT_ID instead of GEMINI_API_KEY ---
+    project_id = os.getenv("PROJECT_ID")
+    location = os.getenv("LOCATION", "us-central1")
     email_user = os.getenv("EMAIL_USER")
     email_pass = os.getenv("EMAIL_PASSWORD")
     
@@ -121,8 +123,8 @@ def main():
     if not email_to:
         email_to = email_user
     
-    if not all([api_key, email_user, email_pass]):
-        print("❌ Error: Missing required environment variables (GEMINI_API_KEY, EMAIL_USER, EMAIL_PASSWORD)")
+    if not all([project_id, email_user, email_pass]):
+        print("❌ Error: Missing required environment variables (PROJECT_ID, EMAIL_USER, EMAIL_PASSWORD)")
         sys.exit(1)
 
     # 1. Determine Today's File Path for Cache Check
@@ -201,8 +203,6 @@ def main():
         print("❌ Error: prompt_digest.md is empty or missing.")
         sys.exit(1)
 
-    client = genai.Client(api_key=api_key)
-    
     system_instruction = f"""
 {prompt_digest}
 
@@ -220,19 +220,25 @@ You are running in a fully automated, headless pipeline. There is NO human in th
 - Treat this as a direct write-to-file operation with zero conversational output.
 """
     
+    # --- CHANGED: Initialize Vertex AI and Model ---
+    vertexai.init(project=project_id, location=location)
+    ai_model = GenerativeModel(
+        model_name=GEMINI_MODEL,
+        system_instruction=[system_instruction]
+    )
+    
     # 5. Run Analysis with Retry Logic
-    print(f"Step 2: Executing prompt_digest.md via {GEMINI_MODEL}...")
+    print(f"Step 2: Executing prompt_digest.md via {GEMINI_MODEL} (Vertex AI)...")
     analysis = None
     
     for attempt in range(MAX_RETRIES):
         try:
-            response = client.models.generate_content(
-                model=GEMINI_MODEL,
-                contents=f"DATA INTAKE:\n\n{digest_content}",
-                config=types.GenerateContentConfig(
-                    system_instruction=system_instruction,
-                    temperature=0.2,
-                )
+            # --- CHANGED: Updated generation call syntax for Vertex AI ---
+            response = ai_model.generate_content(
+                f"DATA INTAKE:\n\n{digest_content}",
+                generation_config={
+                    "temperature": 0.2,
+                }
             )
             analysis = response.text
             if analysis:
