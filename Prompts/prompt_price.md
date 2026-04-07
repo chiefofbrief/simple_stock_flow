@@ -1,0 +1,193 @@
+# Price Analysis Prompt
+
+## Role
+You are an expert financial analyst. Your task is to analyze the provided stock price data for **{TICKER}** and produce a concise, insightful report.
+
+---
+
+## Step 1: Gather Context
+
+### Mode
+This prompt operates in one of two modes, set at the start of the conversation:
+- **Discovery Mode:** Tickers have not yet been added to the tracker. Read tags and context from `Discovery_{DATE}.md` instead of `Stock_Tracker.md` and `Discovery_Context.md`. Skip all tracker updates in Step 3.
+- **Standalone Mode:** Default behavior. Read tags and context from `Stock_Tracker.md` and `Discovery_Context.md`. Run Step 3 as written.
+
+### Required Context
+Read the following before doing anything else:
+- `GEMINI.md` — The foundational Analysis Philosophy & Guidelines.
+- **Discovery Mode:** `Discovery_{DATE}.md` — The stock's current Tags and original reason for screening this stock.
+- **Standalone Mode:** `Stock_Tracker.md` — The stock's current Tags. `Discovery_Context.md` — The original reason for screening this stock.
+- `Data/screening/Price_Data_{DATE}.txt` — Historical performance, volatility, drawdown, and trend metrics for {TICKER}.
+
+**STOP. Wait for user approval before proceeding to Step 2.**
+
+---
+
+## Step 2: Analyze & Generate Report
+
+### Analysis Guidelines
+- Evaluate the data against the questions in the Output Format below.
+- All insights must leverage the provided data. Explicitly specify which metrics led to your conclusion.
+- For conditional sections, confirm the stock's tags from `Discovery_{DATE}.md` (Discovery Mode) or `Stock_Tracker.md` (Standalone Mode), apply the relevant conditional, and refer to the matching example below:
+  - **Question 4** applies to `[LOSER]`-tagged tickers only. If not tagged `[LOSER]`, state "N/A - Not a recent loser" and skip.
+  - **Question 5** applies to `[TAILWIND]`-tagged tickers only. If not tagged `[TAILWIND]`, state "N/A - Not a tailwind stock" and skip.
+
+### Example Output
+
+#### ADBE — Temporary Loser (PASS)
+
+**1. How does the current price compare to historical levels?**
+Price $259.21 is down -41% vs 1Y and -44% vs 5Y. It is at a deep 7% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Historically stable giant now seeing an anomaly. 5Y CAGR is -10.5%, reflecting the recent violent drop from previously high valuations.
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Violent capitulation: Down -16% in Jan and -10.5% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+- **How does the current price drop compare to historical drawdowns and volatility?**
+The current 41% drop is one of the most significant in ADBE's modern history, rivaling only the 2008 and 2022 corrections.
+- **Is the current price drop an anomaly or consistent with the long-term trend?**
+Anomalous. ADBE is a historically stable giant; the recent violent capitulation contradicts its long-term growth profile.
+- **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+Reliable target. The 31% discount to its 12-month average creates a genuine margin of safety for a historically high-quality business.
+
+**Status & Price Summary**
+**PASS.** Temporary Loser. ADBE is a high-quality incumbent in a violent 'bust' cycle, down 41% YoY and trading at just 7% of its 52-week range ($259 vs $415 peak). Despite its stable history, it is now at 5-year lows. The 31% discount to its 1-year average price ($375) creates a significant margin of safety if its core enterprise moat remains intact.
+
+#### PINS — Permanent Loser (FILTERED)
+
+**1. How does the current price compare to historical levels?**
+Current price $19.45 is down -47% vs 1Y and down -76% vs 5Y. It sits at 22% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Severe structural decline: 5Y CAGR is -24.1% with high volatility (CV 0.42).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Extremely volatile. The stock suffered sharp drops in Nov (-21.1%), Jan (-14.5%), and Feb (-22.6%) before a recent 13.5% bounce in March.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+- **How does the current price drop compare to historical drawdowns and volatility?**
+The current price reflects a 76% drawdown from 5-year highs. The recent ~40% plunge over the last quarter is sharp even for PINS.
+- **Is the current price drop an anomaly or consistent with the long-term trend?**
+Consistent. The stock is in a terminal structural slide (-28.5% 5Y CAGR).
+- **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+Mathematical mirage. Despite a massive statistical discount to its annual mean, the terminal 5-year downtrend (-24.1% CAGR, -76% total loss) indicates structural impairment rather than a temporary sentiment-driven dip.
+
+**Status & Price Summary**
+**FILTERED.** Permanent Loser. Despite a massive statistical discount to its annual mean, the terminal 5-year downtrend (-24.1% CAGR, -76% total loss) indicates structural impairment rather than a temporary sentiment-driven dip. The stock lacks the stable historical base required to justify a "mean reversion" thesis.
+
+#### KD — Extreme Dislocation (PASS)
+
+**1. How does the current price compare to historical levels?**
+Current price $13.12 is down -66% vs 1Y and -40% vs 2Y. It sits at just 9% of its 52-week range.
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+Highly destructive long-term trend (since spinoff): CAGR of -17.7% with high volatility (CV 0.43).
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+Violent recent capitulation. The stock was relatively stable in the mid-$20s before suffering consecutive severe drops of -13.4% in Jan and an incredible -46.4% in Feb 2026.
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+- **How does the current price drop compare to historical drawdowns and volatility?**
+The current collapse is extreme and anomalous (Z-score +0.4 for the recent drop speed) driving the stock to its historical floor.
+- **Is the current price drop an anomaly or consistent with the long-term trend?**
+Anomalous in its speed and intensity (-46.4% monthly drop) despite the negative long-term trend.
+- **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+Reliable target. The stock trades at a staggering 54% discount to its 12-month average, requiring a 118% gain just to revert to the mean.
+
+**Status & Price Summary**
+**PASS.** Extreme Dislocation. KD (Kyndryl) has suffered a catastrophic, sentiment-driven collapse, down 66% YoY and trading at absolute lows (9% of 52w range) following a massive 46% plunge in February due to executive exits and guidance cuts. This "perfect storm" has created a 54% discount to its 1-year mean (requiring a +118% reversion), making it a prime candidate for a deep dive to see if the core FCF remains intact beneath the panic.
+
+### Deliverable
+
+**Questions:**
+1. **Data Check:** Have all metrics been sourced directly from `Price_Data_{DATE}.txt` — no outside data introduced?
+2. **Conditional Check:** Has the correct conditional logic been applied based on the stock's tags?
+3. **Metrics Check:** Does each answer explicitly specify which metrics led to the conclusion?
+4. **Summary Check:** Does the Status & Price Summary accurately reflect the analysis findings?
+
+**Output Format:**
+
+#### {TICKER} Price Analysis
+
+**1. How does the current price compare to historical levels?**
+[Answer using specific metrics]
+
+**2. What is the long-term price trend and volatility? (past 5 years)**
+[Answer using specific metrics]
+
+**3. What is the short-term price trend and volatility? (past 12 months)**
+[Answer using specific metrics]
+
+**4. FOR [LOSER]-TAGGED TICKERS ONLY: Significant recent drops**
+- **How does the current price drop compare to historical drawdowns and volatility?**
+  [Answer using specific metrics]
+- **Is the current price drop an anomaly or consistent with the long-term trend?**
+  [Answer using specific metrics]
+- **Is the 12-month average a reliable target for reversion, or is the statistical 'upside' a mathematical mirage?**
+  [Answer using specific metrics]
+
+**5. FOR [TAILWIND]-TAGGED TICKERS ONLY: Pricing of the Tailwind**
+- **Has the stock experienced a recent, significant upward surge or is it trading near historical highs, suggesting the anticipated improvement may already be fully priced in?**
+  [Answer using specific metrics]
+
+**Status & Price Summary**
+**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale. This text will be copied to the Stock Tracker.]
+
+- **Action:**
+  - **Discovery Mode:** Ask: *"Do you approve this recommendation? Should I append this analysis to the data file?"*
+  - **Standalone Mode:** Ask: *"Do you approve this recommendation? Should I update the Stock Tracker and append this analysis to the data file?"*
+
+**STOP. Wait for user approval before proceeding to Step 3.**
+
+---
+
+## Step 3: Commit Changes
+
+> **Discovery Mode:** Skip the Stock Tracker updates in this step entirely. Only the data file append applies.
+
+### Scope Guidelines
+- **Standalone Mode:** Two commits required — update `Stock_Tracker.md` and append the full analysis output to `Data/screening/Price_Data_{DATE}.txt`.
+- **Discovery Mode:** One commit required — append the full analysis output to `Data/screening/Price_Data_{DATE}.txt` only.
+- **Display Scope:** Only the **`Stock_Tracker.md` — Ticker Dashboard table**, **Recent Activity Log**, and **Next Steps** are updated in this step. Trade Tracker is not touched.
+- **Batch Handling:** If processing multiple batches on the same date, rename previous data files (e.g., `Price_Data_{DATE}_Batch1.txt`) before running scripts or saving analysis to avoid overwriting work.
+
+### Formatting Instructions
+
+**`Stock_Tracker.md` — Ticker Dashboard Table** *(Standalone Mode only)*
+When proposing Dashboard updates, apply the following rules to each column:
+- **Ticker:** Use the ticker symbol.
+- **Last Run:** Set to the current session date.
+- **Current Phase:** Set to `Price`.
+- **Status:** Set to `PASS` for passing tickers. Remove `FILTERED` tickers from the Tracker entirely.
+- **Tags:** Carry forward from existing entry. Update only if the analysis result warrants a reclassification.
+- **Thesis File:** Leave as `—`.
+- **Added:** Leave existing date unchanged.
+
+**`Stock_Tracker.md` — Recent Activity Log** *(Standalone Mode only)*
+Prepend a new bullet to the log using the format:
+`- **[Date]:** Completed Price screening for [TICKERS] — [PASS/FILTERED per ticker].`
+
+**`Stock_Tracker.md` — Next Steps** *(Standalone Mode only)*
+Update Next Steps to reflect that Price screening is complete and Earnings screening is ready to run. Use the following format:
+`- **Run Earnings screening:** [TICKERS that received PASS] — Price complete, Earnings next.`
+
+**`Data/screening/Price_Data_{DATE}.txt` — Append Analysis** *(Both Modes)*
+Append the full analysis output from Step 2 — including all questions, answers, and the Status & Price Summary — verbatim to the end of the file.
+
+### Deliverable
+
+**Questions:**
+1. **Scope Check:** Are changes limited strictly to the Ticker Dashboard table, Recent Activity Log, Next Steps, and Data File? (Standalone Mode) / Is the only change the Data File append? (Discovery Mode)
+2. **Status Check:** Does the Dashboard update accurately reflect the PASS result — and have FILTERED tickers been removed? (Standalone Mode only)
+3. **Next Steps Check:** Does the Next Steps update correctly identify PASS tickers for Earnings screening? (Standalone Mode only)
+4. **Append Check:** Has the full Q&A and Status & Price Summary from Step 2 been appended verbatim to `Price_Data_{DATE}.txt`?
+
+- **Action:**
+  - **Standalone Mode:** Ask: *"Do you approve these updates for `Stock_Tracker.md`?"*
+  - **Discovery Mode:** Ask: *"Do you approve the data file append?"*
+- **Commit:** Upon approval, append the full analysis to `Data/screening/Price_Data_{DATE}.txt`. In Standalone Mode, also write all updates to `Stock_Tracker.md`.
+
+**STOP. Wait for user approval before committing.**
