@@ -8,20 +8,27 @@ These files establish the rules of the system and track its outputs.
 *   `Index.md` - (You are here) The master directory map.
 *   `GEMINI.md` - The foundational rulebook. Contains the Workflow Overview, Design Philosophy, Analysis Philosophy & Guidelines, and Workflow Steps.
 *   `API_Index.md` - Comprehensive map of available APIs (FMP, Alphavantage, Perigon, SociaVault) and their specific endpoints for live data.
-*   `AI_Guidelines.md` - Sector-specific analysis framework applied automatically during Deep Dives for AI-tagged tickers.
-*   `Stock_Tracker.md` - Master dashboard tracking the status (PASS/FILTERED/ACTIVE) of every ticker through the pipeline.
-*   `Discovery_Context.md` - A research bank capturing verbatim notes, initial hypotheses, catalysts, and thematic context for screened tickers.
+*   `Stock_Tracker.md` - Tracks all candidates across phases in two tables — LOSERS and TAILWINDS.
+*   `context_markets.md` - Rolling market context — macro conditions, prevailing narratives, and recurring signals. Updated daily via the Markets Digest flow.
+*   `context_sectors.md` - Sector context, structural dynamics, and companies of interest across all tracked sectors. Includes AI overarching context and per-sector signals.
 
 ---
 
 ## 2. Prompts (`Prompts/`)
 The instructions passed to the LLM for each stage of analysis.
 
-*   `prompt_discovery.md` - (Discovery) Bridges the gap between Peter's Digest/User Input and the Tracker. Proposes updates to `Stock_Tracker.md` and `Discovery_Context.md`.
-*   `prompt_digest.md` - (Discovery) Synthesizes market news and Peter's Digest into actionable investment flags.
-*   `prompt_price.md` - (Screening) Analyzes price action and volatility.
-*   `prompt_earnings.md` - (Screening) Analyzes recent earnings surprises and guidance.
-*   `prompt_screening_completion.md` - (Screening) Wraps up the screening process for a ticker. Initializes the Thesis file and updates the Tracker.
+### Digest
+*   `prompt_digest_markets.md` - (Digest) Synthesizes the Markets Digest into LOSER candidates and TAILWIND flags. Updates `context_markets.md`.
+*   `prompt_digest_sectors.md` - (Digest) Synthesizes the Sectors Digest into TAILWIND candidates by sector. Updates `context_sectors.md`.
+
+### Screening
+*   `prompt_daily_screening.md` - (Screening) Compiles LOSER and TAILWIND candidates from the digest analyses and user input into `Screening_{DATE}.md`. Enriches each candidate with FMP profile, web fetch, and peer data.
+*   `prompt_price.md` - (Screening) Analyzes price action and volatility. Can be run standalone or within the daily screening flow.
+*   `prompt_earnings.md` - (Screening) Analyzes earnings trends, valuation, and forward estimates. Can be run standalone or within the daily screening flow.
+*   `prompt_screening_bridge.md` - (Screening) Updates `Screening_{DATE}.md` with price and earnings verdicts. Run after `price.py` and again after `earnings.py`.
+*   `prompt_screening_completion.md` - (Screening) Wraps up the screening process for a passed ticker. Initializes the Thesis file and updates the Tracker.
+
+### Deep Dive
 *   `prompt_financials.md` - (Deep Dive) Analyzes 10 years/quarters of core financial metrics.
 *   `prompt_sentiment.md` - (Deep Dive) Synthesizes news and social media sentiment.
 *   `prompt_footnotes.md` - (Deep Dive) Extracts hidden risks/opportunities from 10-K/10-Q text.
@@ -39,7 +46,6 @@ The Python automation layer that fetches data, calls the LLM, and writes the out
 *   `sentiment.py` - Orchestrates the `Sentiment Scripts/` and triggers `prompt_sentiment.md`.
 *   `footnotes.py` - Fetches 10-K/10-Q text and triggers `prompt_footnotes.md`.
 *   `earnings_calls.py` - Fetches call transcripts and triggers `prompt_earnings_calls.md`.
-*   `peters_digest.py` - Standalone orchestrator for generating daily market overviews.
 
 ### Shared Utilities
 *   `shared_utils.py` - Core toolkit imported by all scripts (handles API requests, dynamic company name lookups, token counting, file I/O, etc.).
@@ -53,22 +59,40 @@ Data collectors utilized by `sentiment.py`.
 *   `tiktok.py` - Searches for high-engagement (5k+ views) ticker/company videos on TikTok.
 *   `youtube.py` - Searches for high-engagement (5k+ views) ticker/company videos on YouTube.
 
-### Digest Subscripts (`Scripts/Digest Scripts/`)
-Data collectors utilized by `peters_digest.py` to build the daily market report.
-*   `ai_news.py` - Scrapes top AI industry news.
-*   `barrons.py` - Scrapes Barron's headlines.
-*   `intrigue.py` - Identifies unusual market activity or options flow.
+### Digest Scripts (`Scripts/Digest Scripts/`)
+Orchestrators and data collectors for the daily Markets and Sectors digests.
+
+**Orchestrators**
+*   `markets_digest.py` - Runs the Markets subscripts and aggregates their output into `Markets_Digest_{DATE}.md`. Focuses on LOSER and TAILWIND discovery from macro, price, and broad market news.
+*   `sectors_digest.py` - Runs the Sectors subscripts and aggregates their output into `Sectors_Digest_{DATE}.md`. Groups sources by sector (AI Compute, Infrastructure, Energy, Critical Minerals, etc.).
+
+**Markets Subscripts**
 *   `macro.py` - Fetches macroeconomic data points.
-*   `movers.py` - Identifies top daily market gainers/losers.
-*   `reddit.py` - Scrapes broad market sentiment from Reddit.
+*   `movers.py` - Identifies top daily market gainers and losers.
+*   `intrigue.py` - Identifies unusual market activity or options flow.
+*   `barrons.py` - Scrapes Barron's headlines.
 *   `wsj.py` - Scrapes Wall Street Journal headlines.
+*   `reddit.py` - Scrapes broad market sentiment from Reddit.
+
+**Sectors Subscripts**
+*   `semianalysis.py` - Fetches semiconductor and AI industry news from SemiAnalysis.
+*   `trendforce.py` - Fetches semiconductor and energy market intelligence from TrendForce.
+*   `servethehome.py` - Fetches server, workstation, and datacenter hardware news from ServeTheHome.
+*   `datacenterdynamics.py` - Fetches data center and cloud infrastructure news from Data Center Dynamics.
+*   `datacenterknowledge.py` - Fetches data center industry and cloud news from Data Center Knowledge.
+*   `fierce.py` - Fetches networking and telecom news from the Fierce Network newsletter.
+*   `powermag.py` - Fetches nuclear power industry news from Power Mag.
+*   `benchmark.py` - Fetches critical minerals, EV battery, and energy transition news from Benchmark Minerals.
+*   `spacenews.py` - Fetches space industry, business, and policy news from SpaceNews.
 
 ---
 
 ## 4. Output Directories
 Where the automation layer writes its findings.
 
-*   `Peter's Digest/` - Contains the markdown outputs generated by `peters_digest.py` (e.g., `Daily_Digest_2026-02-18.md`).
+*   `Peter's Digest/Markets Digest/` - Daily Markets Digest files generated by `markets_digest.py` (e.g., `Markets_Digest_{DATE}.md`).
+*   `Peter's Digest/Sectors Digest/` - Daily Sectors Digest files generated by `sectors_digest.py` (e.g., `Sectors_Digest_{DATE}.md`).
+*   `Screening_{DATE}.md` - The daily screening file. Created by `prompt_daily_screening.md` and updated by `prompt_screening_bridge.md`. Contains candidates, enriched context, and price/earnings screening results.
 *   `Data/screening/` - The destination for aggregated screening text files like Price and Earnings batch summaries.
 *   `Data/tickers/{TICKER}/` - The destination for all ticker-specific raw JSON data and the final generated `_Thesis.md` files.
 

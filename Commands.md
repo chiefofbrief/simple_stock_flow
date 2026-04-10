@@ -4,25 +4,24 @@ This document contains copy-and-paste commands for the Gemini CLI to execute the
 
 ---
 
-## -1. Digest Generation
+## 0. Digest Generation
 
-**Peter's Daily Digest**
+**Markets Digest**
 ```text
-Run `python Scripts/peters_digest.py --daily`. Then read `Prompts/prompt_digest.md` and execute its instructions to analyze the generated digest.
+Run `python "Scripts/Digest Scripts/markets_digest.py"`. Then read `Prompts/prompt_digest_markets.md` and execute its instructions to analyze the generated digest.
 ```
 
-**Peter's Weekly Digest**
+**Sectors Digest**
 ```text
-Run `python Scripts/peters_digest.py --weekly`. Then read `Prompts/prompt_digest.md` and execute its instructions to analyze the generated digest.
+Run `python "Scripts/Digest Scripts/sectors_digest.py"`. Then read `Prompts/prompt_digest_sectors.md` and execute its instructions to analyze the generated digest.
 ```
 
 ---
 
-## 0. Market Discovery
+## 1. Daily Screening
 
-**Update Tracker & Context**
 ```text
-Read `Prompts/prompt_discovery.md` and execute its instructions to propose updates to `Stock_Tracker.md` and `Discovery_Context.md` based on recent digest outputs or user notes.
+Read `Prompts/prompt_daily_screening.md` and execute its instructions to compile today's candidates into `Screening_{DATE}.md`.
 ```
 
 ---
@@ -40,6 +39,18 @@ Run `python Scripts/price.py {TICKER}`. Then, read `Prompts/prompt_price.md` and
 Run `python Scripts/earnings.py {TICKER}`. Then, read `Prompts/prompt_earnings.md` and execute its instructions for {TICKER}.
 ```
 *Note: You must run Step 1 (Price) for a ticker before running Step 2.*
+
+### Step 2b. Screening Bridge
+```text
+Read `Prompts/prompt_screening_bridge.md` and execute its instructions to update `Screening_{DATE}.md` with screening results.
+```
+*Note: Run after Step 1 (Price) and again after Step 2 (Earnings).*
+
+### Step 2c. Screening Completion
+```text
+Read `Prompts/prompt_screening_completion.md` and execute its instructions for {TICKER}.
+```
+*Note: Run once per passed candidate after the final Screening Bridge.*
 
 ---
 

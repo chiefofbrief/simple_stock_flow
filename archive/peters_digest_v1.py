@@ -131,7 +131,7 @@ def main():
     output_content = []
     
     now = datetime.datetime.now()
-    title = "Weekly Market Digest" if mode == 'weekly' else "Peter's Daily Digest"
+    title = "Peter's Digest: Markets (Weekly)" if mode == 'weekly' else "Peter's Digest: Markets"
     
     # Simple check if neither flag was set (and list matches neither default)
     is_custom = (not args.weekly and not args.daily and 
@@ -156,7 +156,7 @@ def main():
 
     # Save to File
     date_str = now.strftime("%Y-%m-%d")
-    file_prefix = "Weekly_Digest" if mode == 'weekly' else "Daily_Digest"
+    file_prefix = "Markets_Digest_Weekly" if mode == 'weekly' else "Markets_Digest"
     if is_custom:
         file_prefix = "Custom_Digest"
         
@@ -164,7 +164,7 @@ def main():
     
     # Save to Peter's Digest
     # We assume script is run from project root, so relative path is safe
-    output_dir = "Peter's Digest"
+    output_dir = "Peter's Digest/Markets Digest"
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)

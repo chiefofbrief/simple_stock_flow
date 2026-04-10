@@ -1,7 +1,7 @@
-# Screening Bridge Prompt
+# Prompt — Screening Bridge
 
 ## Role
-You are an expert financial analyst. Your task is to extract screening verdicts from the price and earnings data files and append a structured Screening Results section to `Discovery_{DATE}.md`.
+You are an expert financial analyst. Your task is to update the daily screening file with price and earnings verdicts. This prompt is run twice — once after `price.py` and once after `earnings.py`. It detects which stage to run based on the current Status in the screening file.
 
 ---
 
@@ -9,69 +9,84 @@ You are an expert financial analyst. Your task is to extract screening verdicts 
 
 ### Required Context
 Read the following before doing anything else:
-- `Discovery_{DATE}.md` — The current discovery file. Identifies all candidates and their tags. The Tailwind Research section contains peer lists for TAILWIND candidates.
-- `Data/screening/Price_Data_{DATE}.txt` — Contains the Status & Price Summary for each screened ticker.
-- `Data/screening/Earnings_{DATE}.txt` — Contains the Status & Earnings Summary for each screened ticker.
+
+*   `Screening_{DATE}.md` — The current screening file. Read the Status section to determine which stage to run, and the Candidates section to identify all tickers.
+
+Then, based on the Status section:
+*   If **Price Screening: Pending** — also read `Data/screening/Price_Data_{DATE}.txt`
+*   If **Price Screening: Complete** and **Earnings Screening: Pending** — also read `Data/screening/Earnings_{DATE}.txt`
+
+**STOP. Do not proceed until the relevant files have been read.**
 
 ---
 
-## Step 2: Extract & Propose
+## Step 2: Determine Stage & Extract Verdicts
 
-For each ticker identified in `Discovery_{DATE}.md`, locate the following in the data files:
+### Price Stage
+*Applies when Price Screening: Pending*
 
-- **Status & Price Summary** — the full paragraph verbatim from `Price_Data_{DATE}.txt`
-- **Status & Earnings Summary** — the full paragraph verbatim from `Earnings_{DATE}.txt`
-- **Overall verdict** — PASS only if both price and earnings returned PASS. If either returned FILTERED, the overall verdict is FILTERED.
+For each candidate in the Candidates section of `Screening_{DATE}.md`:
+*   Locate their entry in `Price_Data_{DATE}.txt`
+*   Extract the PASS / FILTERED verdict and the verbatim Status & Price Summary paragraph
+*   For any candidate that is FILTERED, their Earnings field will be set to "N/A — did not pass price screening"
 
-For TAILWIND passes, the peer list is available in the Tailwind Research section of `Discovery_{DATE}.md` — do not duplicate it here, simply reference its location.
+### Earnings Stage
+*Applies when Price Screening: Complete and Earnings Screening: Pending*
 
-### Proposed Output Format
-```
-## Screening Results — [DATE]
-
-### LOSERS
-
-#### TICKER (Company Name)
-**Price:** PASS / FILTERED
-**Price Summary:** [Verbatim Status & Price Summary paragraph]
-
-**Earnings:** PASS / FILTERED
-**Earnings Summary:** [Verbatim Status & Earnings Summary paragraph]
-
-**Overall:** PASS / FILTERED
+For each candidate whose Price verdict is PASS:
+*   Locate their entry in `Earnings_{DATE}.txt`
+*   Extract the PASS / FILTERED verdict and the verbatim Status & Earnings Summary paragraph
+*   Set Overall verdict: PASS only if both price and earnings returned PASS; FILTERED if either returned FILTERED
 
 ---
 
-### TAILWINDS
+## Step 3: Propose Updates
 
-#### TICKER (Company Name)
-**Price:** PASS / FILTERED
-**Price Summary:** [Verbatim Status & Price Summary paragraph]
+Present a compact summary of proposed updates before writing anything:
 
-**Earnings:** PASS / FILTERED
-**Earnings Summary:** [Verbatim Status & Earnings Summary paragraph]
-
-**Overall:** PASS / FILTERED
-**Peers:** See Tailwind Research section above.
-
----
+**Price Stage:**
+```
+Price screening verdicts:
+- TICKER1 — PASS
+- TICKER2 — FILTERED
+...
+Ready to update Screening_{DATE}.md. Confirm?
 ```
 
-### Confirmation
-
-Before appending, present the extracted verdicts in a compact summary:
+**Earnings Stage:**
 ```
-Extracted verdicts:
+Earnings screening verdicts:
 - TICKER1 — Price: PASS, Earnings: PASS, Overall: PASS
 - TICKER2 — Price: PASS, Earnings: FILTERED, Overall: FILTERED
-
-Ready to append Screening Results to Discovery_{DATE}.md. Confirm?
+...
+Ready to update Screening_{DATE}.md. Confirm?
 ```
 
-**STOP. Wait for explicit confirmation before proceeding to Step 3.**
+**STOP. Wait for explicit confirmation before proceeding to Step 4.**
 
 ---
 
-## Step 3: Commit
+## Step 4: Commit
 
-Upon confirmation, append the full Screening Results section to `Discovery_{DATE}.md` immediately after the Tailwind Research section.
+Upon explicit confirmation, update `Screening_{DATE}.md` as follows:
+
+### Price Stage
+1.  Populate the Screening Results section with the price verdict and verbatim Price Summary for each candidate.
+2.  Set Earnings to "N/A — did not pass price screening" for any FILTERED candidates.
+3.  Update the Status section: `Price Screening: Complete`.
+
+### Earnings Stage
+1.  Populate the Earnings verdict and verbatim Earnings Summary for each price-passed candidate.
+2.  Set the Overall verdict for each candidate.
+3.  Update the Status section: `Earnings Screening: Complete`.
+4.  After committing, present a final summary of candidates that passed screening overall:
+
+```
+Screening complete. The following candidates passed:
+- TICKER1 (LOSER)
+- TICKER2 (TAILWIND)
+...
+Run prompt_screening_completion.md for each to initialize thesis files and update the tracker.
+```
+
+**STOP. Wait for user confirmation before committing.**

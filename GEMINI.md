@@ -77,11 +77,13 @@ A misconception is always involved. What makes it durable is that it is reinforc
 
 | Step | Phase | Script | Prompt | Reads | Writes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Digest** | Screening | `peters_digest.py` | `prompt_digest.md` | News APIs, Digest | Digest |
-| **2. Discovery** | Screening | — | `prompt_discovery.md` | Digest, User Text | Tracker, Context |
-| **3. Price** | Screening | `price.py` | `prompt_price.md` | Tracker, Context | Tracker, `Price_Data_{DATE}.txt` |
-| **4. Earnings** | Screening | `earnings.py` | `prompt_earnings.md` | Tracker, Context | Tracker, `Earnings_{DATE}.txt` |
-| **5. Screening Completion** | Screening | — | `prompt_screening_completion.md` | Tracker, Context | Thesis |
+| **1a. Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | News APIs | `Markets_Digest_{DATE}.md` |
+| **1b. Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_digest_sectors.md` | News APIs | `Sectors_Digest_{DATE}.md` |
+| **2. Daily Screening** | Screening | — | `prompt_daily_screening.md` | Digests, User Input | `Screening_{DATE}.md` |
+| **3. Price** | Screening | `price.py` | `prompt_price.md` | `Screening_{DATE}.md` *(optional — can run standalone)* | `Price_Data_{DATE}.txt` |
+| **4. Earnings** | Screening | `earnings.py` | `prompt_earnings.md` | `Screening_{DATE}.md` *(optional — can run standalone)* | `Earnings_{DATE}.txt` |
+| **4b. Screening Bridge** | Screening | — | `prompt_screening_bridge.md` | `Screening_{DATE}.md`, Data Files | `Screening_{DATE}.md` *(run after Steps 3 and 4)* |
+| **5. Screening Completion** | Screening | — | `prompt_screening_completion.md` | `Screening_{DATE}.md` | Thesis, Tracker |
 | **6. Financials** | Deep Dive | `financials.py` | `prompt_financials.md` | Thesis | Thesis, Tracker |
 | **7. Sentiment** | Deep Dive | `sentiment.py` | `prompt_sentiment.md` | Thesis, Context | Thesis, Tracker |
 | **8. Footnotes** | Deep Dive | `footnotes.py` | `prompt_footnotes.md` | Thesis | Thesis, Tracker |
@@ -92,8 +94,10 @@ A misconception is always involved. What makes it durable is that it is reinforc
 
 ## Core Tracking
 For a complete breakdown of all files, **always consult `Index.md`**. Key tracking files include:
-- **`Stock_Tracker.md`**: The single source of truth for tracking ticker progress and tags across all phases.
-- **`Discovery_Context.md`**: Captures verbatim notes, initial hypotheses, catalysts, and thematic context that triggered stocks to be flagged for screening.
+- **`Stock_Tracker.md`**: Tracks all candidates across phases in two tables — LOSERS and TAILWINDS.
+- **`Screening_{DATE}.md`**: The daily screening file. Captures candidates, enriched context, and price/earnings screening results.
+- **`context_markets.md`**: Rolling market context — macro conditions, prevailing narratives, recurring signals. Updated daily via the Markets Digest flow.
+- **`context_sectors.md`**: Sector context, structural dynamics, and companies of interest. Updated when meaningful developments warrant it.
 - **Thesis Files**: Located in `Data/tickers/{TICKER}/`, built sequentially during Phase 2.
 
 ---
@@ -111,4 +115,4 @@ When data or knowledge gaps arise, consult the available resources detailed in o
 - **Financial Statement Analysis (Fridson & Alvarez)** — accounting mechanics, financial statement specifics, earnings quality
 - **The Alchemy of Finance (Soros)** — reflexivity, market psychology, boom/bust cycles
 - **Options: Beginner to Beyond** — options strategies
-- **AI_Guidelines.md** (`AI_Guidelines.md`) — AI ecosystem framework, circular revenue dynamics, sector-specific signals, and key tickers by layer. Applied automatically in all Deep Dive prompts for AI-tagged tickers.
+- **`context_sectors.md`** — Sector context, structural dynamics, and companies of interest across all tracked sectors. Includes AI overarching context (reflexivity, circular revenue dynamics) and per-sector signals.

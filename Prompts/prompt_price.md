@@ -7,16 +7,10 @@ You are an expert financial analyst. Your task is to analyze the provided stock 
 
 ## Step 1: Gather Context
 
-### Mode
-This prompt operates in one of two modes, set at the start of the conversation:
-- **Discovery Mode:** Tickers have not yet been added to the tracker. Read tags and context from `Discovery_{DATE}.md` instead of `Stock_Tracker.md` and `Discovery_Context.md`. Skip all tracker updates in Step 3.
-- **Standalone Mode:** Default behavior. Read tags and context from `Stock_Tracker.md` and `Discovery_Context.md`. Run Step 3 as written.
-
 ### Required Context
 Read the following before doing anything else:
 - `GEMINI.md` — The foundational Analysis Philosophy & Guidelines.
-- **Discovery Mode:** `Discovery_{DATE}.md` — The stock's current Tags and original reason for screening this stock.
-- **Standalone Mode:** `Stock_Tracker.md` — The stock's current Tags. `Discovery_Context.md` — The original reason for screening this stock.
+- `Screening_{DATE}.md` — The stock's classification tags and original flagging context. If running outside the daily screening flow, context will be provided directly.
 - `Data/screening/Price_Data_{DATE}.txt` — Historical performance, volatility, drawdown, and trend metrics for {TICKER}.
 
 **STOP. Wait for user approval before proceeding to Step 2.**
@@ -28,7 +22,7 @@ Read the following before doing anything else:
 ### Analysis Guidelines
 - Evaluate the data against the questions in the Output Format below.
 - All insights must leverage the provided data. Explicitly specify which metrics led to your conclusion.
-- For conditional sections, confirm the stock's tags from `Discovery_{DATE}.md` (Discovery Mode) or `Stock_Tracker.md` (Standalone Mode), apply the relevant conditional, and refer to the matching example below:
+- For conditional sections, confirm the stock's tags from `Screening_{DATE}.md`, apply the relevant conditional, and refer to the matching example below:
   - **Question 4** applies to `[LOSER]`-tagged tickers only. If not tagged `[LOSER]`, state "N/A - Not a recent loser" and skip.
   - **Question 5** applies to `[TAILWIND]`-tagged tickers only. If not tagged `[TAILWIND]`, state "N/A - Not a tailwind stock" and skip.
 
@@ -104,7 +98,7 @@ Reliable target. The stock trades at a staggering 54% discount to its 12-month a
 
 **Questions:**
 1. **Data Check:** Have all metrics been sourced directly from `Price_Data_{DATE}.txt` — no outside data introduced?
-2. **Conditional Check:** Has the correct conditional logic been applied based on the stock's tags?
+2. **Conditional Check:** Has the correct conditional logic been applied based on the stock's tags from `Screening_{DATE}.md`?
 3. **Metrics Check:** Does each answer explicitly specify which metrics led to the conclusion?
 4. **Summary Check:** Does the Status & Price Summary accurately reflect the analysis findings?
 
@@ -134,60 +128,18 @@ Reliable target. The stock trades at a staggering 54% discount to its 12-month a
   [Answer using specific metrics]
 
 **Status & Price Summary**
-**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale. This text will be copied to the Stock Tracker.]
+**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale.]
 
-- **Action:**
-  - **Discovery Mode:** Ask: *"Do you approve this recommendation? Should I append this analysis to the data file?"*
-  - **Standalone Mode:** Ask: *"Do you approve this recommendation? Should I update the Stock Tracker and append this analysis to the data file?"*
+- **Action:** Ask: *"Do you approve this recommendation? Should I append this analysis to the data file?"*
 
 **STOP. Wait for user approval before proceeding to Step 3.**
 
 ---
 
-## Step 3: Commit Changes
+## Step 3: Commit
 
-> **Discovery Mode:** Skip the Stock Tracker updates in this step entirely. Only the data file append applies.
+Upon explicit user approval, append the full analysis output from Step 2 — including all questions, answers, and the Status & Price Summary — verbatim to the end of `Data/screening/Price_Data_{DATE}.txt`.
 
-### Scope Guidelines
-- **Standalone Mode:** Two commits required — update `Stock_Tracker.md` and append the full analysis output to `Data/screening/Price_Data_{DATE}.txt`.
-- **Discovery Mode:** One commit required — append the full analysis output to `Data/screening/Price_Data_{DATE}.txt` only.
-- **Display Scope:** Only the **`Stock_Tracker.md` — Ticker Dashboard table**, **Recent Activity Log**, and **Next Steps** are updated in this step. Trade Tracker is not touched.
-- **Batch Handling:** If processing multiple batches on the same date, rename previous data files (e.g., `Price_Data_{DATE}_Batch1.txt`) before running scripts or saving analysis to avoid overwriting work.
-
-### Formatting Instructions
-
-**`Stock_Tracker.md` — Ticker Dashboard Table** *(Standalone Mode only)*
-When proposing Dashboard updates, apply the following rules to each column:
-- **Ticker:** Use the ticker symbol.
-- **Last Run:** Set to the current session date.
-- **Current Phase:** Set to `Price`.
-- **Status:** Set to `PASS` for passing tickers. Remove `FILTERED` tickers from the Tracker entirely.
-- **Tags:** Carry forward from existing entry. Update only if the analysis result warrants a reclassification.
-- **Thesis File:** Leave as `—`.
-- **Added:** Leave existing date unchanged.
-
-**`Stock_Tracker.md` — Recent Activity Log** *(Standalone Mode only)*
-Prepend a new bullet to the log using the format:
-`- **[Date]:** Completed Price screening for [TICKERS] — [PASS/FILTERED per ticker].`
-
-**`Stock_Tracker.md` — Next Steps** *(Standalone Mode only)*
-Update Next Steps to reflect that Price screening is complete and Earnings screening is ready to run. Use the following format:
-`- **Run Earnings screening:** [TICKERS that received PASS] — Price complete, Earnings next.`
-
-**`Data/screening/Price_Data_{DATE}.txt` — Append Analysis** *(Both Modes)*
-Append the full analysis output from Step 2 — including all questions, answers, and the Status & Price Summary — verbatim to the end of the file.
-
-### Deliverable
-
-**Questions:**
-1. **Scope Check:** Are changes limited strictly to the Ticker Dashboard table, Recent Activity Log, Next Steps, and Data File? (Standalone Mode) / Is the only change the Data File append? (Discovery Mode)
-2. **Status Check:** Does the Dashboard update accurately reflect the PASS result — and have FILTERED tickers been removed? (Standalone Mode only)
-3. **Next Steps Check:** Does the Next Steps update correctly identify PASS tickers for Earnings screening? (Standalone Mode only)
-4. **Append Check:** Has the full Q&A and Status & Price Summary from Step 2 been appended verbatim to `Price_Data_{DATE}.txt`?
-
-- **Action:**
-  - **Standalone Mode:** Ask: *"Do you approve these updates for `Stock_Tracker.md`?"*
-  - **Discovery Mode:** Ask: *"Do you approve the data file append?"*
-- **Commit:** Upon approval, append the full analysis to `Data/screening/Price_Data_{DATE}.txt`. In Standalone Mode, also write all updates to `Stock_Tracker.md`.
+- **Batch Handling:** If processing multiple batches on the same date, rename the previous data file (e.g., `Price_Data_{DATE}_Batch1.txt`) before running scripts to avoid overwriting work.
 
 **STOP. Wait for user approval before committing.**

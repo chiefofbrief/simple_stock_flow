@@ -10,9 +10,7 @@ You are an expert financial analyst. Your task is to wrap up the screening proce
 
 ### Required Context
 Read the following before doing anything else:
-- `Discovery_Context.md` — Locate the entry for `{TICKER}`.
-- `Data/screening/Price_*.txt` — Locate the Price summary for `{TICKER}`.
-- `Data/screening/Earnings_*.txt` — Locate the Earnings summary for `{TICKER}`.
+- `Screening_{DATE}.md` — Locate the candidate entry for `{TICKER}` in the Candidates section (flagging context, sector, market cap, description) and the price and earnings verdicts and summaries in the Screening Results section.
 
 ### Writing Guidelines
 - **Fidelity:** Copy all content verbatim. Do not summarize, rephrase, or interpret.
@@ -22,10 +20,10 @@ Read the following before doing anything else:
 ### Deliverable
 
 **Questions:**
-1. **Source Check:** Has the Discovery entry been located in `Discovery_Context.md` —
-   verbatim, not paraphrased?
-2. **Source Check:** Have the Price and Earnings summaries been located in the correct
-   screening files — verbatim, not paraphrased?
+1. **Source Check:** Has the candidate entry been located in the Candidates section of
+   `Screening_{DATE}.md` — verbatim, not paraphrased?
+2. **Source Check:** Have the Price and Earnings summaries been located in the Screening
+   Results section of `Screening_{DATE}.md` — verbatim, not paraphrased?
 3. **Completeness Check:** Are all required headers present in the Thesis file?
 
 **Required Output Format:**
@@ -33,13 +31,13 @@ Read the following before doing anything else:
 # Investment Thesis: {TICKER}
 
 ### Discovery Signal
-[Verbatim from Discovery_Context.md]
+[Verbatim from the Candidates section of Screening_{DATE}.md]
 
 ### Price
-[Verbatim from Price screening file]
+[Verbatim Price Summary from the Screening Results section of Screening_{DATE}.md]
 
 ### Earnings
-[Verbatim from Earnings screening file]
+[Verbatim Earnings Summary from the Screening Results section of Screening_{DATE}.md]
 
 ### Financials
 *Pending analysis.*
@@ -66,57 +64,62 @@ Read the following before doing anything else:
 
 ### Required Context
 Read the following before doing anything else:
-- `Stock_Tracker.md` — Review the current Dashboard and Next Steps before proposing
-  any changes.
+- `Stock_Tracker.md` — Review the current LOSERS table, TAILWINDS table, and Next Steps before proposing any changes.
+
+### Classification
+From the `Screening_{DATE}.md` candidate entry for `{TICKER}`, identify whether it is classified as `[LOSER]`, `[TAILWIND]`, or both. This determines which table(s) to update.
 
 ### Scope Guidelines
-- **Fidelity:** All updates must reflect the actual screening results — no assumptions
-  or outside judgments.
-- **Display Scope:** Only the **Ticker Dashboard table**, **Recent Activity Log**, and
-  **Next Steps** are updated in this step. Trade Tracker is not touched.
+- **Fidelity:** All updates must reflect the actual screening results — no assumptions or outside judgments.
+- **Display Scope:** Only the **LOSERS table** and **TAILWINDS table** (as applicable) are updated in this step. Trade Tracker is not touched.
 
 ### Formatting Instructions
 
-**Ticker Dashboard Table**
-When proposing Dashboard updates, apply the following rules to each column:
+**LOSERS Table** *(if `{TICKER}` is classified `[LOSER]` or both)*
+
+Add a new row with the following columns:
 - **Ticker:** Use the ticker symbol.
+- **Sector:** From the Sector field in the `Screening_{DATE}.md` candidate entry.
+- **Market Cap:** From the Market Cap field in the `Screening_{DATE}.md` candidate entry.
 - **Last Run:** Set to the current session date.
 - **Current Phase:** Set to `Earnings`.
 - **Status:** Set to `PASS`.
-- **Tags:** Carry forward from existing entry. Update only if the screening result
-  warrants a reclassification.
-- **Thesis File:** Set to `{TICKER}_Thesis.md` upon creation in Step 1.
-- **Added:** Leave existing date unchanged.
+- **Thesis File:** Set to `{TICKER}_Thesis.md`.
+- **Added:** Set to the current session date.
 
-**Recent Activity Log**
-Prepend a new bullet to the log using the format:
-`- **[Date]:** Completed Earnings screening for [TICKER] (PASS).`
+**TAILWINDS Table** *(if `{TICKER}` is classified `[TAILWIND]` or both)*
 
-**Next Steps**
-Update Next Steps to reflect whether `{TICKER}` warrants an initial position
-consideration based on its risk profile and tags. Use the following format:
-`- **Consider initial position:** {TICKER} — [brief reason].`
+Add a new row with the following columns:
+- **Ticker:** Use the ticker symbol.
+- **Sector Theme:** From the Sector Theme field in the `Screening_{DATE}.md` candidate entry.
+- **Market Cap:** From the Market Cap field in the `Screening_{DATE}.md` candidate entry.
+- **Original Trigger:** If the ticker was directly flagged in the digest, use the ticker itself. If it was added as a peer of another ticker, use that parent ticker.
+- **Peers (Unscreened):** From the Peers field in the `Screening_{DATE}.md` candidate entry, excluding any tickers already present in the TAILWINDS table.
+- **Last Run:** Set to the current session date.
+- **Current Phase:** Set to `Earnings`.
+- **Status:** Set to `PASS`.
+- **Thesis File:** Set to `{TICKER}_Thesis.md`.
+- **Added:** Set to the current session date.
 
 ### Deliverable
 
 **Questions:**
-1. **Dashboard Check:** Has the Dashboard row for `{TICKER}` been updated correctly —
-   including Thesis File column?
-2. **Next Steps Check:** Does the Next Steps update reflect a genuine actionable decision
-   for `{TICKER}` — not a duplicate of what is already in the Dashboard?
-3. **Scope Check:** Are changes limited strictly to the Ticker Dashboard table, Recent
-   Activity Log, and Next Steps?
+1. **Table Check:** Has `{TICKER}` been added to the correct table(s) — LOSERS, TAILWINDS, or both — with all columns populated correctly?
+2. **Scope Check:** Are changes limited strictly to the LOSERS table and TAILWINDS table?
 
 **Required Output Format:**
-- **Proposed Dashboard Update:**
+- **Proposed LOSERS Table Row** *(if applicable)*:
 
-| Ticker | Last Run | Current Phase | Status | Tags | Thesis File | Added |
-| :----- | :------- | :------------ | :----- | :--- | :---------- | :---- |
-| **{TICKER}** | **[Date]** | Earnings | PASS | `[TAG]` | {TICKER}_Thesis.md | [Existing Date] |
+| Ticker | Sector | Market Cap | Last Run | Current Phase | Status | Thesis File | Added |
+| :----- | :----- | :--------- | :------- | :------------ | :----- | :---------- | :---- |
+| **{TICKER}** | [Sector] | [Market Cap] | [Date] | Earnings | PASS | {TICKER}_Thesis.md | [Date] |
 
-- **Proposed Recent Activity Log Entry:**
-  `- **[Date]:** Completed Earnings screening for {TICKER} (PASS).`
-- **Proposed Next Steps Update:** Show the full updated Next Steps section.
+- **Proposed TAILWINDS Table Row** *(if applicable)*:
+
+| Ticker | Sector Theme | Market Cap | Original Trigger | Peers (Unscreened) | Last Run | Current Phase | Status | Thesis File | Added |
+| :----- | :----------- | :--------- | :--------------- | :----------------- | :------- | :------------ | :----- | :---------- | :---- |
+| **{TICKER}** | [Theme] | [Market Cap] | [Trigger] | [Peers] | [Date] | Earnings | PASS | {TICKER}_Thesis.md | [Date] |
+
 - **Action:** Ask: *"Do you approve these Tracker updates for {TICKER}?"*
 - **Commit:** Upon approval, write all updates to `Stock_Tracker.md`.
 
