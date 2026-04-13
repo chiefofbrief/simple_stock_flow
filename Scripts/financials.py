@@ -379,14 +379,15 @@ def format_cell(val, fmt, div=1, is_delta=False):
     except:
         return str(val)
 
-def generate_markdown(ticker, data):
+def generate_markdown(ticker, data, role=None):
     dates = data['dates']
     q_dates = data['quarterly_dates']
     
     # Pad dates if < 5
     display_dates = ["-"] * (5 - len(dates)) + dates
     
-    md = f"# Financial Statement Analysis: {ticker}\n\n"
+    role_label = f" [{role}]" if role else ""
+    md = f"# Financial Statement Analysis: {ticker}{role_label}\n\n"
     md += f"**Date:** {datetime.now().strftime('%Y-%m-%d')}\n\n"
     
     # --- Annual Header ---
@@ -524,44 +525,50 @@ def generate_markdown(ticker, data):
 
 def main():
     parser = argparse.ArgumentParser(description="Financial Statements Analysis")
-    parser.add_argument("ticker", help="Ticker symbol")
+    parser.add_argument("ticker", help="Primary ticker symbol")
+    parser.add_argument("--peers", nargs="*", metavar="PEER", help="Optional peer tickers (max 2)")
     args = parser.parse_args()
-    
+
     ticker = args.ticker.upper()
-    
+    peers = [p.upper() for p in (args.peers or [])][:2]
+
     if not FMP_API_KEY:
         print("Error: FMP_API_KEY not set.")
         sys.exit(1)
-        
-    # 1. Fetch
-    raw_data = fetch_all_financials(ticker)
-    if not raw_data:
-        sys.exit(1)
-        
-    # 2. Save Raw
-    raw_dir = get_data_directory(ticker)
-    ensure_directory_exists(raw_dir)
-    save_json(raw_data['annual']['income'], os.path.join(raw_dir, f"{ticker}_income_annual.json"))
-    save_json(raw_data['quarterly']['income'], os.path.join(raw_dir, f"{ticker}_income_quarterly.json"))
-    print(f"Raw data saved to {raw_dir}")
-    
-    # 3. Process
-    metrics = process_metrics(raw_data)
-    
-    # 4. Save Metrics
-    ticker_dir = os.path.dirname(raw_dir)
-    metrics_path = os.path.join(ticker_dir, f"{ticker}_financial_metrics.json")
-    save_json(metrics, metrics_path)
-    print(f"Metrics saved to {metrics_path}")
-    
-    # 5. Generate Report
-    report = generate_markdown(ticker, metrics)
-    report_path = os.path.join(ticker_dir, f"{ticker}_financial_analysis.md")
+
+    all_tickers = [(ticker, "Target")] + [(p, f"Peer {i+1}") for i, p in enumerate(peers)]
+    combined_md = ""
+
+    for t, role in all_tickers:
+        print(f"\nProcessing {t} ({role})...")
+        raw_data = fetch_all_financials(t)
+        if not raw_data:
+            print(f"  Skipping {t} — failed to fetch data.")
+            continue
+
+        # Save raw (peers nest under target ticker's directory)
+        target = ticker if t != ticker else None
+        raw_dir = get_data_directory(t, target)
+        ensure_directory_exists(raw_dir)
+        save_json(raw_data['annual']['income'], os.path.join(raw_dir, f"{t}_income_annual.json"))
+        save_json(raw_data['quarterly']['income'], os.path.join(raw_dir, f"{t}_income_quarterly.json"))
+        print(f"  Raw data saved to {raw_dir}")
+
+        # Process & save metrics
+        metrics = process_metrics(raw_data)
+        ticker_dir = os.path.dirname(raw_dir)
+        save_json(metrics, os.path.join(ticker_dir, f"{t}_financial_metrics.json"))
+        print(f"  Metrics saved.")
+
+        combined_md += generate_markdown(t, metrics, role=role) + "\n\n---\n\n"
+
+    # Write combined report to primary ticker's directory
+    primary_dir = os.path.dirname(get_data_directory(ticker))
+    report_path = os.path.join(primary_dir, f"{ticker}_financial_analysis.md")
     with open(report_path, "w") as f:
-        f.write(report)
-        
-    print(f"Report saved to {report_path}")
-    print("\n" + report)
+        f.write(combined_md)
+
+    print(f"\nReport saved to {report_path}")
 
 if __name__ == "__main__":
     main()

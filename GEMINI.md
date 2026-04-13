@@ -1,8 +1,8 @@
 # Workflow Overview
-This document summarizes the end-to-end investment research workflow, including phases, steps, file structure, and key dependencies. See `Index.md` for a complete map of repository files, folders, scripts, prompts, and source material, which you should consult to understand available tools and context.
+This document summarizes the end-to-end investment research workflow, including phases, steps, file structure, and key dependencies. See `index.md` for a complete map of repository files, folders, scripts, prompts, and source material, which you should consult to understand available tools and context.
 
 ## Design Philosophy
-The repository is modular by design. Scripts, prompts, data, and source material are organized as independent components that can be run individually or as part of the default workflow. **You must heavily consult `Index.md` as the central map for all these modular components, their purposes, and when to use them.** The default workflow is a starting point, not a rigid pipeline — steps can be reordered, skipped, or repeated as the situation demands.
+The repository is modular by design. Scripts, prompts, data, and source material are organized as independent components that can be run individually or as part of the default workflow. **You must heavily consult `index.md` as the central map for all these modular components, their purposes, and when to use them.** The default workflow is a starting point, not a rigid pipeline — steps can be reordered, skipped, or repeated as the situation demands.
 
 The system follows the default workflow but is expected to suggest deviations — additional scripts, API calls, source material consultation, or new analyses — when the data warrants it. All deviations require user notification and written approval before execution. Written approval means an explicit confirmation in chat (e.g., "yes", "go ahead") before proceeding.
 
@@ -16,7 +16,7 @@ Only proceed when sufficient data is available. If data is insufficient to addre
 
 Limit analysis depth to match importance — accept information gaps when additional data requires disproportionate effort. Separately, acknowledge the limitations of the analysis itself: for businesses with limited data, wide variations in financials, or heavy reliance on growth forecasts, conclusions carry less weight. Projections have a significant impact on sentiment and market price, but a margin of safety cannot be based solely on future growth.
 
-**Metric Discipline:** Only apply financial metrics, ratios, and analytical frameworks explicitly established in the project files or source material. Do not introduce outside metrics (e.g., PEG ratio, EV/EBITDA) unless sourced from `Index.md` resources. If an additional metric appears relevant, flag it and ask before applying it.
+**Metric Discipline:** Only apply financial metrics, ratios, and analytical frameworks explicitly established in the project files or source material. Do not introduce outside metrics (e.g., PEG ratio, EV/EBITDA) unless sourced from `index.md` resources. If an additional metric appears relevant, flag it and ask before applying it.
 
 ---
 
@@ -66,34 +66,36 @@ A misconception is always involved. What makes it durable is that it is reinforc
 ## Architecture
 
 ### Workflow
-`Discovery → Price → Earnings → [Initial Position?] → Financials → Sentiment → [Scale/Exit?] → Footnotes* → Earnings Calls* → Synthesis → [Full Position?]`
+`Discovery → Price → Earnings → [Initial Position?] → Financials → Footnotes → [Scale/Exit?] → Earnings Calls → Research → Synthesis → [Full Position?]`
 
 - **Consider initial position** — passed Earnings, low-risk profile, no position yet
-- **Scale/Exit decision** — passed Financials/Sentiment, position already open
-- **Prioritize for deep analysis** — passed Financials/Sentiment, high conviction or complexity warrants Footnotes/Earnings Calls
+- **Scale/Exit decision** — passed Financials and Footnotes, quantitative case built and validated
+- **Prioritize for deep analysis** — high conviction or complexity warrants Earnings Calls and Research before full sizing
 - **Full position** — completed Synthesis, thesis fully validated, conviction warrants full sizing
 
 ### Workflow Steps
 
-| Step | Phase | Script | Prompt | Reads | Writes |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **1a. Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | News APIs | `Markets_Digest_{DATE}.md` |
-| **1b. Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_digest_sectors.md` | News APIs | `Sectors_Digest_{DATE}.md` |
-| **2. Daily Screening** | Screening | — | `prompt_daily_screening.md` | Digests, User Input | `Screening_{DATE}.md` |
-| **3. Price** | Screening | `price.py` | `prompt_price.md` | `Screening_{DATE}.md` *(optional — can run standalone)* | `Price_Data_{DATE}.txt` |
-| **4. Earnings** | Screening | `earnings.py` | `prompt_earnings.md` | `Screening_{DATE}.md` *(optional — can run standalone)* | `Earnings_{DATE}.txt` |
-| **4b. Screening Bridge** | Screening | — | `prompt_screening_bridge.md` | `Screening_{DATE}.md`, Data Files | `Screening_{DATE}.md` *(run after Steps 3 and 4)* |
-| **5. Screening Completion** | Screening | — | `prompt_screening_completion.md` | `Screening_{DATE}.md` | Thesis, Tracker |
-| **6. Financials** | Deep Dive | `financials.py` | `prompt_financials.md` | Thesis | Thesis, Tracker |
-| **7. Sentiment** | Deep Dive | `sentiment.py` | `prompt_sentiment.md` | Thesis, Context | Thesis, Tracker |
-| **8. Footnotes** | Deep Dive | `footnotes.py` | `prompt_footnotes.md` | Thesis | Thesis, Tracker |
-| **9. Earnings Calls** | Deep Dive | `earnings_calls.py` | `prompt_earnings_calls.md` | Thesis | Thesis, Tracker |
-| **10. Synthesis** | Deep Dive | — | `prompt_thesis_synthesis.md` | Thesis | Thesis, Tracker |
+**How to use this table:** For steps with a script, run the script first to fetch and save data, then load the prompt in a new chat session — the prompt instructs the LLM to read the output files and produce an analysis. For steps with no script, load the prompt directly. All prompts follow a Step 1 (gather context) → Step 2 (analyze) → Step 3 (commit) structure with explicit user approval gates between steps.
+
+| Step | Phase | Script | Prompt | Reads | Writes | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1a. Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | News APIs | `Markets_Digest_{DATE}.md` | Run daily. Updates `context_markets.md`. |
+| **1b. Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_digest_sectors.md` | News APIs | `Sectors_Digest_{DATE}.md` | Run when sector developments warrant. Updates `context_sectors.md`. |
+| **2. Daily Screening** | Screening | — | `prompt_daily_screening.md` | Digests, User Input | `Screening_{DATE}.md` | Reads digest outputs from steps 1a/1b. Produces candidate list. |
+| **3. Price** | Screening | `price.py` | `prompt_price.md` | `Screening_{DATE}.md` | `Price_Data_{DATE}.txt` | Can run standalone without a screening file. |
+| **4. Earnings** | Screening | `earnings.py` | `prompt_earnings.md` | `Screening_{DATE}.md` | `Earnings_{DATE}.txt` | Can run standalone without a screening file. |
+| **4b. Screening Bridge** | Screening | — | `prompt_screening_bridge.md` | `Screening_{DATE}.md`, Data Files | `Screening_{DATE}.md` | Run after steps 3 and 4. Consolidates price/earnings verdicts back into the screening file. |
+| **5. Screening Completion** | Screening | — | `prompt_screening_completion.md` | `Screening_{DATE}.md` | Thesis, Tracker | Initializes the Thesis file and adds the ticker to the Tracker. |
+| **6. Financials** | Deep Dive | `financials.py` | `prompt_financials.md` | Thesis | Thesis, Tracker | |
+| **7. Footnotes** | Deep Dive | `footnotes.py` | `prompt_footnotes.md` | Thesis | Thesis, Tracker | *[Scale/Exit decision point]* |
+| **8. Earnings Calls** | Deep Dive | `earnings_calls.py` | `prompt_earnings_calls.md` | Thesis | Thesis, Tracker | |
+| **9. Research** | Deep Dive | `research.py` | `prompt_research.md` | Thesis | Thesis, Tracker | Investigates open questions from all prior analyses using news data. |
+| **10. Synthesis** | Deep Dive | — | `prompt_synthesis.md` | Thesis | Thesis, Tracker | *[Full position decision point]* Final integration of all analyses into an investment verdict. |
 
 ---
 
 ## Core Tracking
-For a complete breakdown of all files, **always consult `Index.md`**. Key tracking files include:
+For a complete breakdown of all files, **always consult `index.md`**. Key tracking files include:
 - **`Stock_Tracker.md`**: Tracks all candidates across phases in two tables — LOSERS and TAILWINDS.
 - **`Screening_{DATE}.md`**: The daily screening file. Captures candidates, enriched context, and price/earnings screening results.
 - **`context_markets.md`**: Rolling market context — macro conditions, prevailing narratives, recurring signals. Updated daily via the Markets Digest flow.
@@ -105,9 +107,9 @@ For a complete breakdown of all files, **always consult `Index.md`**. Key tracki
 ## Resources for Additional Context
 When data or knowledge gaps arise, consult the available resources detailed in our indexes:
 
-1. **`Index.md` (Source Material)**: Maps topics to specific investment literature (e.g., Graham & Dodd, Soros) found in `Source Material/`. When deeper context is needed, search the summaries first. Consult raw chapters only if summaries are insufficient.
+1. **`index.md` (Source Material)**: Maps topics to specific investment literature (e.g., Graham & Dodd, Soros) found in `Source Material/`. When deeper context is needed, search the summaries first. Consult raw chapters only if summaries are insufficient.
    **CRITICAL:** Before reading any large raw source files (`Source Material/raw/`), you must explicitly state your plan and ask the user for permission to avoid burning compute.
-2. **`API_Index.md`**: Maps available APIs and external data endpoints for fetching live prices, news, and financials. Use this when local data is outdated or missing.
+2. **`api_index.md`**: Maps available APIs and external data endpoints for fetching live prices, news, and financials. Use this when local data is outdated or missing.
 
 **Quick reference — source strengths:**
 

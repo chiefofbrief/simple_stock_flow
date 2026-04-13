@@ -5,9 +5,9 @@ This is the comprehensive map of the entire investment research workflow reposit
 ## 1. Core Configuration & Tracking
 These files establish the rules of the system and track its outputs.
 
-*   `Index.md` - (You are here) The master directory map.
+*   `index.md` - (You are here) The master directory map.
 *   `GEMINI.md` - The foundational rulebook. Contains the Workflow Overview, Design Philosophy, Analysis Philosophy & Guidelines, and Workflow Steps.
-*   `API_Index.md` - Comprehensive map of available APIs (FMP, Alphavantage, Perigon, SociaVault) and their specific endpoints for live data.
+*   `api_index.md` - Comprehensive map of available APIs (FMP, Alphavantage, Perigon, SociaVault) and their specific endpoints for live data.
 *   `Stock_Tracker.md` - Tracks all candidates across phases in two tables — LOSERS and TAILWINDS.
 *   `context_markets.md` - Rolling market context — macro conditions, prevailing narratives, and recurring signals. Updated daily via the Markets Digest flow.
 *   `context_sectors.md` - Sector context, structural dynamics, and companies of interest across all tracked sectors. Includes AI overarching context and per-sector signals.
@@ -29,10 +29,11 @@ The instructions passed to the LLM for each stage of analysis.
 *   `prompt_screening_completion.md` - (Screening) Wraps up the screening process for a passed ticker. Initializes the Thesis file and updates the Tracker.
 
 ### Deep Dive
-*   `prompt_financials.md` - (Deep Dive) Analyzes 10 years/quarters of core financial metrics.
-*   `prompt_sentiment.md` - (Deep Dive) Synthesizes news and social media sentiment.
-*   `prompt_footnotes.md` - (Deep Dive) Extracts hidden risks/opportunities from 10-K/10-Q text.
-*   `prompt_earnings_calls.md` - (Deep Dive) Analyzes management tone and Q&A from the transcript.
+*   `prompt_financials.md` - (Deep Dive) Analyzes 10 years/quarters of core financial metrics. Supports optional peer comparison via `--peers` flag.
+*   `prompt_footnotes.md` - (Deep Dive) Extracts hidden risks/opportunities from 10-K/10-Q footnotes and MD&A. Includes an Accounting Analysis Guide covering revenue recognition, expense manipulation, balance sheet valuation, cash flow classification, and non-GAAP metrics.
+*   `prompt_earnings_calls.md` - (Deep Dive) Analyzes management tone and Q&A from the transcript. Cross-references against all prior analyses.
+*   `prompt_research.md` - (Deep Dive) Investigates open questions from all prior analyses using recent Perigon and FMP news data, with up to 3 targeted web fetches for unresolved material questions.
+*   `prompt_synthesis.md` - (Deep Dive) *(pending)* Final integration of all analyses into a unified investment verdict.
 
 ---
 
@@ -42,22 +43,19 @@ The Python automation layer that fetches data, calls the LLM, and writes the out
 ### Main Orchestrators
 *   `price.py` - Fetches price data and triggers `prompt_price.md`.
 *   `earnings.py` - Fetches earnings data and triggers `prompt_earnings.md`.
-*   `financials.py` - Fetches financial statements, calculates metrics, and triggers `prompt_financials.md`.
-*   `sentiment.py` - Orchestrates the `Sentiment Scripts/` and triggers `prompt_sentiment.md`.
+*   `financials.py` - Fetches financial statements, calculates metrics, and triggers `prompt_financials.md`. Supports optional peer comparison via `--peers` flag.
 *   `footnotes.py` - Fetches 10-K/10-Q text and triggers `prompt_footnotes.md`.
 *   `earnings_calls.py` - Fetches call transcripts and triggers `prompt_earnings_calls.md`.
+*   `research.py` - Fetches Perigon and FMP news data and triggers `prompt_research.md`.
 
 ### Shared Utilities
 *   `shared_utils.py` - Core toolkit imported by all scripts (handles API requests, dynamic company name lookups, token counting, file I/O, etc.).
 
-### Sentiment Subscripts (`Scripts/Sentiment Scripts/`)
-Data collectors utilized by `sentiment.py`.
-*   `news.py` - Aggregates outputs from the specific news APIs below.
+### Research Subscripts (`Scripts/Research Scripts/`)
+Data collectors utilized by `research.py`.
+*   `news.py` - Aggregates and formats news output from the specific APIs below into a combined markdown report.
 *   `news_fmp.py` - Fetches financial news via FMP Search Stock News API.
 *   `news_perigon.py` - Fetches high-signal news stories via Perigon API.
-*   `reddit.py` - Searches for ticker and company discussions within targeted investment subreddits.
-*   `tiktok.py` - Searches for high-engagement (5k+ views) ticker/company videos on TikTok.
-*   `youtube.py` - Searches for high-engagement (5k+ views) ticker/company videos on YouTube.
 
 ### Digest Scripts (`Scripts/Digest Scripts/`)
 Orchestrators and data collectors for the daily Markets and Sectors digests.

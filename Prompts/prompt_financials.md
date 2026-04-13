@@ -1,90 +1,126 @@
-# Context Configuration
-- **Target Ticker:** {TICKER}
-- **Required Data:** `Data/tickers/{TICKER}/{TICKER}_financial_analysis.md` (Run: `python Scripts/financials.py {TICKER}`)
-- **Required Context:** 
-    - Analysis Philosophy & Guidelines (`GEMINI.md`)
-    - Screening Context (`Data/tickers/{TICKER}/{TICKER}_Thesis.md`)
-    - For [AI]-tagged tickers ONLY: `AI_Guidelines.md`
-- **Output:**
-    - Update **DEEP DIVE > Financials** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with the full analysis.
-    - Append concise summary to `Stock_Tracker.md` under `### {TICKER} > **Financials**`.
-
 # Financials Analysis Prompt
 
 ## Role
-You are an expert financial analyst. Your task is to analyze the provided financial statement data and produce a concise, insightful report.
-
-## Input Data
-You will be provided with:
-1.  **Ticker Symbol**: The stock symbol.
-2.  **Metrics** (Annual & Quarterly):
-    *   `Revenue`
-    *   `Operating Margin`: Operating Income / Revenue
-    *   `Operating Cash Flow`
-    *   `Free Cash Flow`: Operating Cash Flow - Capital Expenditures
-    *   `OCF / Net Income`: Operating Cash Flow / Net Income
-    *   `Working Capital`: Current Assets - Current Liabilities
-    *   `Operating Leverage`: % Change in Operating Income / % Change in Revenue
-    *   `Capital Expenditures`
-    *   `Depreciation & Amortization`
-    *   `Debt / Total Assets`: Total Debt / Total Assets
-    *   `Debt / Operating Cash Flow`: Total Debt / Operating Cash Flow
-3.  **Statistical Analysis**:
-    *   `cagr_5yr`: Compound Annual Growth Rate over 5 years.
-    *   `cv`: Coefficient of Variation.
-    *   `slope`: Linear regression slope of the trend.
-    *   `recent_delta`: Percentage change in the most recent period.
-    *   `mean_5yr`: 5-Year Average.
-4.  **Guidance**: Context provided below defining key terms and interpretation guidelines.
-
-## Analysis Guidelines
-
-Analyze the data to answer the following questions. **Crucially, all insights must leverage the provided data. Your answers must be insightful, explicitly explaining the "why" behind the numbers rather than simply stating the metrics. You must specify which data points led to your conclusion.**
-
-*   **Reference:** Consult source material summaries (`Source Material/summaries/`) when an item would benefit from additional context, especially as it pertains to fundamental analysis, financial statement analysis, accounting mechanics and gimmicks, options strategies, or reflexivity theory and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. CRITICAL WARNING:* Do not access Source Material/raw/ without explicit user permission to avoid burning compute.
-*   **Metric Interpretations:** The section at the bottom of this prompt matches exactly the metrics being analyzed and should serve as your primary source of context for each metric before formulating your analysis.
-
-## Output Format
-
-Please structure your response exactly as follows:
-
-### {TICKER} Financial Analysis
-
-**1. How does the current figure compare to historical levels?**
-[Answer for each metric]
-
-**2. What is the long-term trend and volatility for these metrics? (past 5 years)**
-[Answer for each metric]
-
-**3. What is the short-term trend and volatility for these metrics? (past 4 quarters)**
-[Answer for each metric]
-
-**4. Based on the provided guidance below, what can we infer about the trend and current value?**
-[Answer for each metric]
+You are an expert financial analyst. Your task is to analyze the provided financial statement data for **{TICKER}** and produce a concise, insightful report.
 
 ---
-**Overall Assessment**
 
-**5. What do the metrics reveal about the stock's risk/downside?**
-[Concise analysis]
+## Step 1: Gather Context
 
-**6. What do the metrics reveal about the stock's potential/upside?**
-[Concise analysis]
+### Required Context
+Read the following before doing anything else:
+- `GEMINI.md` — The foundational Analysis Philosophy & Guidelines.
+- `Data/tickers/{TICKER}/{TICKER}_Thesis.md` — The stock's thesis and prior analysis context.
+- `Data/tickers/{TICKER}/{TICKER}_financial_analysis.md` — Financial metrics for {TICKER} and any peers. Run: `python Scripts/financials.py {TICKER} --peers {PEER}` (default: 1 peer; 0 or 2 peers are also valid — your call).
+- If `{TICKER}` has sector-specific tags (check `Stock_Tracker.md` or `{TICKER}_Thesis.md`), read the relevant section of `context_sectors.md`.
 
-**7. What new questions, concerns or opportunities do the metrics raise, and which items (if any) should be investigated further?**
-[Actionable questions or areas for deeper research]
+**STOP. Wait for user approval before proceeding to Step 2.**
 
 ---
+
+## Step 2: Analyze & Generate Report
+
+### Analysis Guidelines
+- Evaluate the data against the Output Format below.
+- All insights must leverage the provided data. Explicitly specify which data points led to your conclusion.
+- **Per-metric dimensions:** For each metric in Part A, address: (1) how the current figure compares to historical levels, (2) the long-term trend and volatility (5yr), (3) the short-term trend and volatility (past 4 quarters), and (4) what the Metric Interpretations below indicate about the trend and current value.
+- **Peer comparison:** If peer data is provided, compare the target directly against peers within each metric.
+- **Reference:** Consult source material summaries (`Source Material/summaries/`) when an item would benefit from additional context, especially as it pertains to fundamental analysis, financial statement analysis, accounting mechanics and gimmicks, options strategies, or reflexivity theory and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. *CRITICAL WARNING: Do not access Source Material/raw/ without explicit user permission to avoid burning compute.*
+- **Metric Interpretations:** The section at the bottom of this prompt matches exactly the metrics being analyzed and should serve as your primary source of context for each metric before formulating your analysis.
+
+### Deliverable
+
+**Questions:**
+1. **Data Check:** Have all metrics been sourced directly from `{TICKER}_financial_analysis.md` — no outside data introduced?
+2. **Peer Check:** If peer data was provided, has each metric in Part A been compared against peers?
+3. **Per-Metric Check:** Has each metric been assessed across all four dimensions (current vs. historical, long-term trend, short-term trend, and guidance inference)?
+4. **Synthesis Check:** Do the Part B questions draw meaningfully on the per-metric work in Part A?
+5. **Summary Check:** Does the Financials Summary accurately reflect the findings?
+
+### Output Format
+
+#### {TICKER} Financial Analysis
+
+**Part A — Metric Analysis**
+*For each metric, write a concise paragraph synthesizing the current level, trend, and what the guidance implies. If peer data is provided, compare directly.*
+
+**Revenue**
+[Analysis]
+
+**Operating Margin**
+[Analysis]
+
+**Operating Cash Flow**
+[Analysis]
+
+**Free Cash Flow**
+[Analysis]
+
+**OCF / Net Income**
+[Analysis]
+
+**Working Capital**
+[Analysis]
+
+**Operating Leverage**
+[Analysis]
+
+**Capital Expenditures & D&A**
+[Analysis]
+
+**Debt Profile**
+[Analysis — covers Debt/Total Assets and Debt/OCF]
+
+---
+
+**Part B — Synthesis**
+
+**1. What do revenue growth and operating margins reveal about the health and durability of the core business?**
+[Answer]
+
+**2. Do the cash flow metrics confirm or contradict what the income statement shows — and what does that tell us about earnings quality?**
+[Answer]
+
+**3. What does the working capital trend reveal about whether growth is self-funding or consuming cash beyond what growth justifies?**
+[Answer]
+
+**4. How sensitive is operating income to revenue changes, and what does that imply for risk and upside?**
+[Answer]
+
+**5. What do capital expenditures and depreciation reveal about how much the business must reinvest just to maintain its position?**
+[Answer]
+
+**6. What does the debt profile tell us about financial risk and the company's ability to service its obligations?**
+[Answer]
+
+**7. What do the metrics reveal about the stock's risk and downside?**
+[Answer]
+
+**8. What do the metrics reveal about the stock's potential and upside?**
+[Answer]
+
+**9. What new questions, concerns, or opportunities do the metrics raise, and which should be investigated further?**
+[Answer]
+
 **Financials Summary**
-[A concise paragraph summarizing the findings. This text will be copied to the Stock Tracker.]
+[A concise paragraph summarizing the findings. This text will be copied to the Thesis file.]
+
+- **Action:** Ask: *"Do you approve this analysis? Should I update the Thesis file and Stock Tracker?"*
+
+**STOP. Wait for user approval before proceeding to Step 3.**
 
 ---
-**Instructions for the Assistant:**
-1. **Wait for Approval:** Present this complete analysis to the user.
-2. **Explicit Ask:** You **MUST** ask: *"Do you approve this analysis? Should I update the Thesis file and Stock Tracker?"*
-3. **Write on Approval:** Only write the analysis and summary to the files after the user gives explicit approval.
+
+## Step 3: Commit
+
+Upon explicit user approval:
+- Update **### Financials** in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` with the full analysis.
+- Update `Stock_Tracker.md` — advance **Current Phase** for `{TICKER}` to the next phase.
+
+**STOP. Wait for user approval before committing.**
 
 ---
+
 ## Metric Interpretations
 
 1. **Revenue**

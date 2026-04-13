@@ -42,13 +42,13 @@ Read the following before doing anything else:
 ### Financials
 *Pending analysis.*
 
-### Sentiment
-*Pending analysis.*
-
 ### Footnotes & MD&A
 *Pending analysis.*
 
 ### Earnings Calls
+*Pending analysis.*
+
+### Research
 *Pending analysis.*
 
 ### Synthesis
