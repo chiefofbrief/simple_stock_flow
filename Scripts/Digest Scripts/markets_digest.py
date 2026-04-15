@@ -21,7 +21,7 @@ import os
 # ============================================================================
 
 SECTION_MACRO = ['macro', 'intrigue']
-SECTION_STOCKS = ['movers', 'barrons', 'wsj', 'reddit']
+SECTION_STOCKS = ['movers', 'barrons', 'reddit']
 
 def get_command(module, target_date=None):
     """Get the specific command list for a module."""
@@ -32,18 +32,16 @@ def get_command(module, target_date=None):
         'intrigue': [sys.executable, 'Scripts/Digest Scripts/intrigue.py', '--markdown'],
         'movers':   [sys.executable, 'Scripts/Digest Scripts/movers.py', '--markdown'],
         'barrons':  [sys.executable, 'Scripts/Digest Scripts/barrons.py'],
-        'wsj':      [sys.executable, 'Scripts/Digest Scripts/wsj.py'],
         'reddit':   [sys.executable, 'Scripts/Digest Scripts/reddit.py']
     }
     
     cmd = cmds.get(module).copy()
     
     # Append specific arguments
-    if module in ['barrons', 'wsj']:
+    if module == 'barrons':
         if target_date:
             cmd.extend(['--date', target_date])
-        # Consistent count of 20
-        cmd.extend(['--count', '20'])
+        cmd.extend(['--count', '40'])
         
     elif module == 'reddit':
         cmd.extend(['--timeframe', 'day'])

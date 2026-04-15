@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "BIDU",
+    "companyName": "Baidu, Inc.",
+    "price": 117.7373,
+    "mktCap": 40060430992
+  },
+  {
+    "symbol": "CHT",
+    "companyName": "Chunghwa Telecom Co., Ltd.",
+    "price": 42.67,
+    "mktCap": 33101024428
+  },
+  {
+    "symbol": "CHTR",
+    "companyName": "Charter Communications, Inc.",
+    "price": 217.91,
+    "mktCap": 27594283022
+  },
+  {
+    "symbol": "LLYVK",
+    "companyName": "Liberty Live Group",
+    "price": 100.1894,
+    "mktCap": 9209974015
+  },
+  {
+    "symbol": "LYV",
+    "companyName": "Live Nation Entertainment, Inc.",
+    "price": 165.635,
+    "mktCap": 38488273680
+  },
+  {
+    "symbol": "NBIS",
+    "companyName": "Nebius Group N.V.",
+    "price": 164.97,
+    "mktCap": 39592800000
+  },
+  {
+    "symbol": "PINS",
+    "companyName": "Pinterest, Inc.",
+    "price": 18.625,
+    "mktCap": 12566790580
+  },
+  {
+    "symbol": "TME",
+    "companyName": "Tencent Music Entertainment Group",
+    "price": 9.795,
+    "mktCap": 15021678762
+  },
+  {
+    "symbol": "TWLO",
+    "companyName": "Twilio Inc.",
+    "price": 125.58,
+    "mktCap": 19039538187
+  }
+]

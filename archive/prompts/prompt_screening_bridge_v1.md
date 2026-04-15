@@ -38,6 +38,8 @@ For each candidate whose Price verdict is PASS:
 *   Extract the PASS / FILTERED verdict and the verbatim Status & Earnings Summary paragraph
 *   Set Overall verdict: PASS only if both price and earnings returned PASS; FILTERED if either returned FILTERED
 
+**Multi-tag tickers:** A ticker may carry both `[LOSER]` and `[TAILWIND]` tags. Preserve all category memberships when updating the screening file — do not remove a ticker from a category because it also appears in another.
+
 ---
 
 ## Step 3: Propose Updates

@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ADI",
+    "companyName": "Analog Devices, Inc.",
+    "price": 347.94,
+    "mktCap": 169865754387
+  },
+  {
+    "symbol": "AMD",
+    "companyName": "Advanced Micro Devices, Inc.",
+    "price": 258.12,
+    "mktCap": 420841429200
+  },
+  {
+    "symbol": "ASML",
+    "companyName": "ASML Holding N.V.",
+    "price": 1481.77,
+    "mktCap": 571100816524
+  },
+  {
+    "symbol": "FORM",
+    "companyName": "FormFactor, Inc.",
+    "price": 129.62,
+    "mktCap": 10104449328
+  },
+  {
+    "symbol": "META",
+    "companyName": "Meta Platforms, Inc.",
+    "price": 671.58,
+    "mktCap": 1693048458121
+  },
+  {
+    "symbol": "MU",
+    "companyName": "Micron Technology, Inc.",
+    "price": 456.23,
+    "mktCap": 514504257900
+  },
+  {
+    "symbol": "POWI",
+    "companyName": "Power Integrations, Inc.",
+    "price": 54.87,
+    "mktCap": 3045504480
+  },
+  {
+    "symbol": "QRVO",
+    "companyName": "Qorvo, Inc.",
+    "price": 81.19,
+    "mktCap": 7526774078
+  },
+  {
+    "symbol": "SMTC",
+    "companyName": "Semtech Corporation",
+    "price": 93.27,
+    "mktCap": 8669555346
+  },
+  {
+    "symbol": "TSM",
+    "companyName": "Taiwan Semiconductor Manufacturing Company Limited",
+    "price": 375.1,
+    "mktCap": 1945459710224
+  }
+]

@@ -1,0 +1,489 @@
+EARNINGS & VALUATION — 2026-04-14
+
+Ticker | Cur P/E | vs1Y |  vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+---------+------+-------+------+-------+--------+----+----------+-----------+----------
+   GIS |   10.4x | -16% |  -42% | -18% |  -22% |   0.91 | || |    -3.4% |      0.13 |     $0.19
+  UMAC |       - |    - |     - |    - |     - |  -0.23 | || |        - |      0.73 |     $0.20
+  AXON |   55.8x | -38% |  -42% | -30% |  -31% |  -0.41 | || |   +30.8% |      0.49 |    $-0.55
+  META |   22.3x |  -7% |  -20% | -25% |  -14% |  -0.44 | || |   +24.9% |      0.47 |    $-2.19
+  RDDT |   58.9x | -58% |     - |    - |  -41% |  -0.09 | || |        - |      7.10 |    $-0.62
+   AMD |   61.2x | +98% | +142% |  +1% |  +37% |   0.33 | || |   +26.4% |      0.19 |    $-0.24
+
+
+LEGEND:
+vsXYr: % difference between Current P/E and P/E X years ago.
+1yCorr: Correlation (0-1) between Price and Earnings over last 12 months.
+Stability: CV of Annual EPS (Lower = Smoother growth).
+Fwd Delta: Next Quarter Estimate minus Last Reported EPS. (+ = Growth exp).
+
+================================================================================
+TICKER: GIS | Price Date: 2026-04-14
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   10.4x |   12.5x |   18.1x |   12.7x | 13.4x
+   vs Cur   |       - |    -16% |    -42% |    -18% |  -22%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: 0.91
+   > 5-Year EPS CAGR:    -3.4%
+   > Earnings Stability: 0.13
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $0.83 |        - |        - | (Due: 2026-06-24)
+   2026-03-18  |    $0.73 |    $0.64 |   -12.1% | $-0.09
+   2025-12-17  |    $1.03 |    $1.10 |    +6.8% | $0.07
+   2025-09-17  |    $0.82 |    $0.86 |    +5.1% | $0.04
+   2025-06-25  |    $0.71 |    $0.74 |    +4.4% | $0.03
+
+   > Forward Delta: $0.19 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-03-18  |    $3.34 | -25.4%
+   2025-03-19  |    $4.48 |  -3.2%
+   2024-03-20  |    $4.63 |  +7.7%
+   2023-03-23  |    $4.30 | +15.3%
+   2022-03-23  |    $3.73 |  -6.3%
+   2021-03-24  |    $3.98 | +19.2%
+   2020-03-18  |    $3.34 |  +5.0%
+   2019-03-20  |    $3.18 |  +4.3%
+   2018-03-21  |    $3.05 |      -
+================================================================================
+TICKER: UMAC | Price Date: 2026-04-14
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|       - |       - |       - |       - |     -
+   vs Cur   |       - |       - |       - |       - |     -
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.23
+   > 5-Year EPS CAGR:    -
+   > Earnings Stability: 0.73
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |   $-0.10 |        - |        - | (Due: 2026-05-14)
+   2026-03-09  |   $-0.10 |   $-0.30 |  -215.8% | $-0.20
+   2025-11-06  |    $0.13 |   $-0.03 |  -123.1% | $-0.16
+   2025-08-14  |   $-0.07 |   $-0.32 |  -357.1% | $-0.25
+   2025-05-08  |   $-0.12 |   $-0.21 |   -75.0% | $-0.09
+
+   > Forward Delta: $0.20 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-03-09  |   $-0.86 | -22.9%
+   2025-03-27  |   $-0.70 | -243.3%
+   2024-03-22  |   $-0.20 | -27.8%
+   2022-12-31  |   $-0.16 |      -
+================================================================================
+TICKER: AXON | Price Date: 2026-04-14
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   55.8x |   89.4x |   96.2x |   79.6x | 80.2x
+   vs Cur   |       - |    -38% |    -42% |    -30% |  -31%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.41
+   > 5-Year EPS CAGR:    +30.8%
+   > Earnings Stability: 0.49
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $1.60 |        - |        - | (Due: 2026-05-06)
+   2026-02-24  |    $1.60 |    $2.15 |   +34.4% | $0.55
+   2025-11-04  |    $1.52 |    $1.17 |   -23.0% | $-0.35
+   2025-08-04  |    $1.45 |    $2.12 |   +46.2% | $0.67
+   2025-05-07  |    $1.27 |    $1.41 |   +11.0% | $0.14
+
+   > Forward Delta: $-0.55 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-24  |    $6.85 | +16.5%
+   2025-02-25  |    $5.88 | +42.4%
+   2024-02-27  |    $4.13 | +88.6%
+   2023-02-28  |    $2.19 |  -5.6%
+   2022-02-24  |    $2.32 | +29.6%
+   2021-02-25  |    $1.79 | +72.1%
+   2020-02-27  |    $1.04 | +48.6%
+   2019-02-26  |    $0.70 | +133.3%
+   2018-02-27  |    $0.30 |      -
+================================================================================
+TICKER: META | Price Date: 2026-04-14
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   22.3x |   24.0x |   27.8x |   29.9x | 26.0x
+   vs Cur   |       - |     -7% |    -20% |    -25% |  -14%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.44
+   > 5-Year EPS CAGR:    +24.9%
+   > Earnings Stability: 0.47
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $6.69 |        - |        - | (Due: 2026-04-29)
+   2026-01-28  |    $8.19 |    $8.88 |    +8.4% | $0.69
+   2025-10-29  |    $6.72 |    $7.25 |    +7.9% | $0.53
+   2025-07-30  |    $5.88 |    $7.14 |   +21.4% | $1.26
+   2025-04-30  |    $5.23 |    $6.43 |   +22.9% | $1.20
+
+   > Forward Delta: $-2.19 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-01-28  |   $29.70 | +24.2%
+   2025-01-29  |   $23.92 | +60.5%
+   2024-02-01  |   $14.90 | +73.7%
+   2023-02-01  |    $8.58 | -37.8%
+   2022-02-02  |   $13.80 | +41.0%
+   2021-01-27  |    $9.79 | +14.4%
+   2020-01-29  |    $8.56 | +13.1%
+   2019-01-30  |    $7.57 | +17.9%
+   2018-01-31  |    $6.42 |      -
+================================================================================
+TICKER: RDDT | Price Date: 2026-04-14
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   58.9x |  139.9x |       - |       - | 99.4x
+   vs Cur   |       - |    -58% |       - |       - |  -41%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.09
+   > 5-Year EPS CAGR:    -
+   > Earnings Stability: 7.10
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $0.62 |        - |        - | (Due: 2026-04-30)
+   2026-02-05  |    $0.94 |    $1.24 |   +32.3% | $0.30
+   2025-10-30  |    $1.04 |    $0.80 |   -23.1% | $-0.24
+   2025-07-31  |    $0.19 |    $0.45 |  +136.6% | $0.26
+   2025-05-01  |    $0.02 |    $0.13 |  +647.6% | $0.11
+
+   > Forward Delta: $-0.62 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-05  |    $2.62 | +249.3%
+   2025-02-12  |    $0.75 | +234.9%
+   2024-03-21  |   $-0.56 | +42.7%
+   2022-12-31  |   $-0.97 | -24.0%
+   2021-12-31  |   $-0.78 |      -
+================================================================================
+TICKER: AMD | Price Date: 2026-04-14
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   P/E Ratio|   61.2x |   30.9x |   25.2x |   60.9x | 44.6x
+   vs Cur   |       - |    +98% |   +142% |     +1% |  +37%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: 0.33
+   > 5-Year EPS CAGR:    +26.4%
+   > Earnings Stability: 0.19
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $1.29 |        - |        - | (Due: 2026-05-05)
+   2026-02-03  |    $1.32 |    $1.53 |   +15.9% | $0.21
+   2025-11-04  |    $1.17 |    $1.20 |    +2.6% | $0.03
+   2025-08-05  |    $0.48 |    $0.48 |    +0.3% | $0.00
+   2025-05-06  |    $0.94 |    $0.96 |    +1.7% | $0.02
+
+   > Forward Delta: $-0.24 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-02-03  |    $4.17 | +25.6%
+   2025-02-04  |    $3.32 | +25.3%
+   2024-01-30  |    $2.65 | -25.1%
+   2023-01-31  |    $3.54 | +26.4%
+   2022-02-01  |    $2.80 | +117.1%
+   2021-01-26  |    $1.29 | +101.6%
+   2020-01-28  |    $0.64 | +39.1%
+   2019-01-29  |    $0.46 | +187.5%
+   2018-01-30  |    $0.16 |      -
+
+================================================================================
+EARNINGS ANALYSIS — PASS 1 (LOSERS) — 2026-04-14
+================================================================================
+
+#### GIS — Temporary Loser (Price: PASS)
+
+**1. How does the current P/E ratio compare to historical levels?**
+GIS trades at **10.4x P/E**, a discount across every timeframe: **-16% vs. 1Y ago (12.5x)**, **-42% vs. 3Y ago (18.1x)**, **-18% vs. 5Y ago (12.7x)**, and **-22% vs. its 5-year average (13.4x)**. At 10.4x, it is at its cheapest valuation level in at least 5 years.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+The long-term EPS CAGR is **-3.4%** — a mild structural decline, not a growth story. However, the decay has been irregular: earnings held between $4.30–$4.63 from 2022–2024 before a sharp **-25.4% collapse in fiscal year 2026** (TTM to March 2026: $3.34). Stability CV of **0.13** (the lowest in this batch) confirms that GIS was historically one of the most stable earnings compounders in consumer defensive — making the recent acceleration in decline the critical outlier.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+The near-term picture is materially worse. After a run of consistent beats (+6.8%, +5.1%, +4.4% over the prior three quarters), the most recent report (2026-03-18) delivered a **-12.1% miss** ($0.64 vs. $0.73 estimate), confirming the deterioration is not a projection artifact but a reported fact. TTM EPS collapsed -25.4% YoY in the most recent reading.
+
+**4. What is the correlation between price and earnings?**
+The 1-year correlation is **+0.91** — the strongest positive correlation in this batch. This is the single most important data point for the LOSER thesis: the price is not overreacting to a temporary catalyst; it is **rationally tracking a genuine earnings deterioration**. Per the interpretation guidance, a correlation ≥ +0.70 directly challenges the Temporary Loser classification. GIS at 0.91 does not meet the dislocation test.
+
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next quarterly estimate is **$0.83** (due 2026-06-24), a **+$0.19 Forward Delta** over the last actual ($0.64). Analysts expect a bounce off the recent miss — modestly constructive. However, this follows a quarter that missed by -12.1%, and the forward estimate would still represent EPS well below the $1.03 reported in December 2025. The recovery expectation is modest and may already reflect the "transition year reinvestment" narrative rather than hard evidence of inflection.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY**
+- **Are earnings decreasing along with the price?**
+**Yes.** TTM EPS collapsed **-25.4%** in the most recent reading while the price has fallen **-38% YoY**. The 0.91 correlation confirms this is not a dislocation — the price is following the fundamentals. This is a **Growth Stall / Structural Decline**, not a Temporary Loser.
+- **What is the quality of the absolute valuation floor (Under 20x = Strong, 20-30x = Reasonable, Over 30x = Caution)?**
+**Strong Floor** on the rubric — 10.4x is deep value territory. However, this is meaningless if the "E" in the P/E continues to fall. A 10x multiple on a deteriorating earnings base is not a floor; it is a moving target. The 6.5%+ dividend yield provides a secondary floor, but that too is at risk if earnings decline further.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
+N/A — Not a tailwind stock.
+
+**Status & Earnings Summary**
+**FILTERED.** Rational Repricing. GIS is not a Temporary Loser — it is a business whose price is accurately tracking its fundamentals. The 0.91 correlation, -25.4% TTM EPS decline, and recent -12.1% earnings miss collectively make the LOSER thesis untenable. While the 10.4x P/E is a genuine absolute floor, the "E" is actively deteriorating; buying a historically stable business whose earnings have just inflected sharply lower is buying a company mid-reset, not mid-bounce. The current elevated-risk macro environment (split market sentiment, physical oil crisis pressuring consumer staples margins) provides additional headwind for a consumer defensive facing "transition year" margin compression — if anything, this raises the bar for a LOSER PASS here, and GIS does not clear it.
+
+---
+
+#### UMAC — Extreme Dislocation / Volatility Play (Price: PASS)
+
+**1. How does the current P/E ratio compare to historical levels?**
+**No P/E available.** UMAC is pre-profitability with negative EPS across all reported periods. No valuation multiple can be derived from earnings.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+UMAC's losses are **accelerating**, not improving. TTM EPS has deteriorated from **-$0.16** (2022) → **-$0.20** (2024) → **-$0.70** (2025) → **-$0.86** (2026), a -22.9% worsening in the most recent year alone. The stability CV of **0.73** confirms extreme volatility in the underlying financials — there is no stable earnings floor to anchor a valuation.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+UMAC has **missed every single quarterly estimate** in the past year, and by wide margins: -75.0%, -357.1%, -123.1%, and -215.8%. This is a systematic pattern of analysts overestimating the company's near-term losses trajectory. The business is burning cash faster than the market expects each quarter.
+
+**4. What is the correlation between price and earnings?**
+The 1-year correlation is **-0.23** — weakly negative. This means the price has largely moved independently of the (deteriorating) earnings. The +118% YoY price gain while EPS has worsened reflects a **pure sentiment/narrative-driven price action**, driven by the NDAA drone procurement thesis rather than any fundamental earnings improvement.
+
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate is **-$0.10** (due 2026-05-14), a **+$0.20 Forward Delta** vs. the last actual (-$0.30). Note: this positive delta represents an **expected narrowing of losses, not profit** — the company remains firmly pre-profitability. Given the systematic pattern of missing by 75–357%, this optimistic estimate carries very low credibility based on the track record.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY**
+- **Are earnings decreasing along with the price?**
+**Not applicable in the traditional sense.** The stock is up +118% YoY — there is no "Loser" price decline to pair with earnings. The [LOSER] flag was triggered by a single -14.44% session, which the Price Analysis confirmed is within normal volatility bounds for this micro-cap (Z-Score -0.1). This is noise within a massive uptrend.
+- **What is the quality of the absolute valuation floor (Under 20x = Strong, 20-30x = Reasonable, Over 30x = Caution)?**
+**No floor exists.** With no P/E and accelerating losses, there is no earnings-based margin of safety. The stock's "floor" is entirely sentiment-dependent.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
+N/A — Addressed in Pass 2.
+
+**Status & Earnings Summary**
+**FILTERED** as a [LOSER]. UMAC does not fit the Temporary Loser framework on any dimension: the price is up +118% YoY (no dislocation), losses are accelerating (-$0.86 TTM vs. -$0.16 four years ago), and the company has missed every quarterly estimate in the past year by catastrophic margins. The LOSER classification was a classification artifact from a single -14% session; the earnings data confirms this was within normal volatility noise. There is no earnings-based valuation floor. UMAC's thesis, if any, lives entirely in the [TAILWIND] framework — addressed in Pass 2.
+
+---
+
+#### AXON — Temporary Loser (Price: PASS)
+
+**1. How does the current P/E ratio compare to historical levels?**
+AXON trades at **55.8x P/E**, a significant relative discount: **-38% vs. 1Y ago (89.4x)**, **-42% vs. 3Y ago (96.2x)**, **-30% vs. 5Y ago (79.6x)**, and **-31% vs. its 5-year average (80.2x)**. The multiple has been severely compressed alongside the ~50% price correction from its 2025 peak. However, the anchoring warning applies: AXON's historical 80–96x baseline was itself a premium multiple; 55.8x discounted from 90x is not a value stock — it is a growth stock that has partially de-rated.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+The long-term EPS CAGR is an exceptional **+30.8%**, with TTM EPS growing from **$2.32** (2022) → **$4.13** (2024) → **$6.85** (2026). This is a business that has roughly tripled its earnings in four years. Stability CV of **0.49** reflects the lumpiness of a growth compounder, but the direction is unambiguous.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Short-term results are volatile but trending up: TTM EPS rose **+16.5% YoY** (from $5.88 to $6.85). Recent quarters show an alternating beat/miss pattern: massive +34.4% beat in February 2026, a -23.0% miss in November 2025, and a +46.2% beat in August 2025. The beat magnitude vastly exceeds the miss magnitude, which is constructive.
+
+**4. What is the correlation between price and earnings?**
+The 1-year correlation is **-0.41** — a moderate negative. Price has been falling while earnings have been rising, a directional dislocation signal. This does not reach the ≤ -0.5 "hallmark" threshold for a Temporary Loser, but the directionality is correct: the business is growing earnings while the market is contracting the price. Combined with the Price Analysis finding (stock at 8% of 52-week range, -54% from peak vs. +16.5% TTM EPS growth), this is a meaningful divergence.
+
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate is **$1.60** (due 2026-05-06), a **-$0.55 Forward Delta** vs. the last actual ($2.15). Analysts are bracing for a significant pullback from the Q4 2026 beat. However, AXON has beaten its estimate by 34% in the most recent quarter and 46% two quarters prior — the $1.60 estimate may be deliberately conservative. Near-term analyst sentiment is cautious, but the historical beat cadence suggests this conservatism may be unwarranted.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY**
+- **Are earnings decreasing along with the price?**
+**No.** TTM EPS rose **+16.5% YoY** (from $5.88 to $6.85) while the stock price dropped **-27% YoY** and ~54% from its peak. This is a textbook divergence between fundamentals and price — earnings rising, price falling. The -0.41 correlation confirms this directionally, even if it doesn't reach the ≤ -0.5 dislocation threshold.
+- **What is the quality of the absolute valuation floor (Under 20x = Strong, 20-30x = Reasonable, Over 30x = Caution)?**
+**Caution.** At 55.8x P/E, there is no absolute margin of safety by the rubric. Despite the 31–42% relative discount from historical averages, buying a 55x P/E stock requires full confidence that the 30.8% EPS CAGR continues — any deceleration puts the absolute multiple at risk of further compression.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
+N/A — Addressed in Pass 2.
+
+**Status & Earnings Summary**
+**PASS** with high caution. AXON is a genuine dislocation: +16.5% TTM EPS growth against a -27% YoY price drop, with a -0.41 correlation and a 55.8x multiple that is 31% below its 5-year average. The Price Analysis adds the critical context: the stock is at 8% of its 52-week range with a 63% mean-reversion target. The earnings data validates the price dislocation — the market is overreacting to near-term sentiment, not pricing in a fundamental breakdown. The primary risk is the absolute 55.8x multiple, which remains speculative territory and provides no earnings-based floor. Additionally, the -$0.55 Forward Delta signals analysts expect a significant earnings step-down in Q1 2026, which warrants close monitoring. The current elevated-risk macro environment (split equity sentiment, war premium) heightens the probability that high-multiple growth stocks remain under pressure even with improving fundamentals — this is not a "buy now" signal, but a "warranted for further deep-dive analysis" pass. The $14.4B backlog and DFR procurement thesis must be validated at the Financials phase before sizing any position.
+
+================================================================================
+EARNINGS ANALYSIS — PASS 2 (TAILWINDS) — 2026-04-14
+================================================================================
+
+#### META — Tailwind (Price: PASS)
+
+**1. How does the current P/E ratio compare to historical levels?**
+META trades at **22.3x P/E**, a discount across every timeframe: **-7% vs. 1Y ago (24.0x)**, **-20% vs. 3Y ago (27.8x)**, **-25% vs. 5Y ago (29.9x)**, and **-14% vs. its 5-year average (26.0x)**. This is a notable and unusual dynamic for a TAILWIND stock — the P/E is actually compressing even as earnings grow, meaning the stock is getting cheaper on a fundamental basis despite a +15% YoY price gain.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+The long-term EPS CAGR is a compelling **+24.9%**, with TTM EPS growing from **$9.79** (2020) → **$29.70** (2026). The 2023 "Year of Efficiency" inflection is visible: EPS collapsed to $8.58 in 2023, then exploded +60.5% in 2024 and +24.2% in 2025. Stability CV of **0.47** reflects that inflection volatility, but the post-2023 trajectory is consistently strong.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Recent performance has been exceptional, with consistent and large earnings beats: **+22.9%** (2025-04-30), **+21.4%** (2025-07-30), **+7.9%** (2025-10-29), and **+8.4%** (2026-01-28). The company has beaten estimates by substantial margins for four consecutive quarters, suggesting analyst models are systematically underestimating META's earnings power.
+
+**4. What is the correlation between price and earnings?**
+The 1-year correlation is **-0.44** — a moderate negative. Despite the +15% YoY price gain, the correlation is negative, meaning the price has at times moved contrary to earnings momentum. This likely reflects the violent March 2026 selloff (-11.7%) followed by an April recovery (+15.6%), with macro risk (Iran War, oil shock) driving price dislocations regardless of earnings quality.
+
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate is **$6.69** (due 2026-04-29), a **-$2.19 Forward Delta** vs. the last actual ($8.88). This is a large expected step-down. However, the pattern from the past four quarters is instructive: META has beaten estimates by +7.9% to +22.9% each time. Analysts appear to be modeling a significant sequential slowdown that META has repeatedly failed to deliver. The upcoming print (due in 15 days) is the single highest-impact near-term catalyst for this thesis.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY**
+N/A — Not a loser stock.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
+- **Do the forward earnings estimates project a sudden, significant improvement compared to the historical baseline?**
+**No — and this is a positive sign.** The forward estimate of $6.69 is actually *below* recent actuals ($8.88 last quarter). The tailwind thesis is not dependent on a projection of sudden improvement; META is already delivering 24%+ EPS CAGR. The risk is whether growth *decelerates* from these levels, not whether it inflects upward.
+- **Is the current valuation (P/E) highly elevated, meaning the stock's price is heavily reliant on these future estimates rather than current cash generation?**
+**No.** At 22.3x P/E — the lowest multiple in 5 years — META is generating genuine current cash and is trading at a *discount* to its own historical average. The stock is not reliant on "hope" valuation; the current multiple prices in modest growth from a real earnings base of $29.70 TTM EPS. This is the strongest fundamental argument for the tailwind: the AI ad dominance thesis is currently underpriced relative to the earnings growth already being delivered.
+
+**Status & Earnings Summary**
+**PASS.** Underpriced Compounding Tailwind. META presents a rare combination for a TAILWIND stock: a structural secular tailwind (AI-driven ad dominance, projected 24% YoY revenue growth) *and* a compressing P/E multiple (22.3x vs. 26x historical average), meaning the growth is not yet priced in at a premium. The 24.9% EPS CAGR with four consecutive large beats indicates the business is outperforming even optimistic models. The -$2.19 Forward Delta for the upcoming 2026-04-29 print is a near-term wildcard — but META's consistent pattern of +8–23% beats makes the published estimate a floor, not a target. The split-sentiment macro environment (elevated risk from oil shock and war premium) is a headwind for the broader market, but META's first-party data advantage and AI monetization moat make it more resilient to macro disruption than most. The upcoming earnings print in 15 days is the key near-term validation event.
+
+---
+
+#### RDDT — Tailwind (Price: PASS)
+
+**1. How does the current P/E ratio compare to historical levels?**
+RDDT trades at **58.9x P/E**, a significant discount from its limited history: **-58% vs. 1Y ago (139.9x)** and **-41% vs. its 2-year average (99.4x)**. No 3Y or 5Y comparisons exist (the company IPO'd in March 2024). The rapid multiple compression from 140x to 59x reflects genuine earnings growth outpacing the price recovery.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+The long-term EPS picture shows a company in rapid transition: from **-$0.97** (2021) → **-$0.56** (2023) → **$0.75** (2025) → **$2.62** (2026). RDDT flipped to profitability and has already tripled its TTM EPS in one year (+249.3% TTM growth). The stability CV of **7.10** is extreme — the highest in this batch by a wide margin — but that is a mathematical artifact of flipping from negative to positive EPS rather than a meaningful volatility signal for the forward trajectory.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Short-term results are exceptional but lumpy: **+647.6%** beat in May 2025 ($0.02 est, $0.13 actual), **+136.6%** beat in July 2025, then a **-23.1% miss** in October 2025, followed by a **+32.3% beat** in February 2026. The magnitude of beats vastly outweighs the single miss, but the earnings are not yet stable enough to extrapolate with confidence.
+
+**4. What is the correlation between price and earnings?**
+The 1-year correlation is **-0.09** — essentially zero. The price is moving almost entirely on sentiment and narrative (LLM data licensing, traffic records, macro risk-on/risk-off) rather than quarterly earnings. This is characteristic of a recently-profitable, high-growth company where the market has not yet established a stable earnings-based pricing model.
+
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate is **$0.62** (due 2026-04-30), a **-$0.62 Forward Delta** vs. the last actual ($1.24). Analysts are projecting a 50% sequential earnings decline. However, RDDT has beaten estimates by 33–648% in three of the last four quarters. The pattern of systematic analyst underestimation here is extreme — the forward estimate is likely highly conservative. Earnings report due tomorrow (April 30).
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY**
+N/A — Not a loser stock.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
+- **Do the forward earnings estimates project a sudden, significant improvement compared to the historical baseline?**
+**Not in the forward estimate.** The $0.62 next estimate is actually a projected sequential decline — but this follows a history of large beats. The tailwind thesis (LLM data licensing + 5.76B monthly traffic record) could produce an above-consensus print tomorrow. Any improvement is not projected; it would come from the actual business execution.
+- **Is the current valuation (P/E) highly elevated, meaning the stock's price is heavily reliant on these future estimates rather than current cash generation?**
+**Moderately elevated.** At 58.9x, the multiple is not extreme for a hyper-growth company that just tripled TTM EPS, but it does require continued strong execution. The stock is not purely speculative — it has $2.62 TTM EPS — but at 59x, there is meaningful downside if growth decelerates. The 58% decline from its 1-year-ago multiple (140x) shows the market is already repricing it toward a more normalized growth multiple.
+
+**Status & Earnings Summary**
+**PASS — with caution on earnings reliability.** RDDT's multiple compression (140x → 59x) and +249% TTM EPS growth make the surface case compelling. However, $2.62 TTM EPS from a company that was loss-making three years ago with a CV of 7.10 is not a stable earnings base — it is a first-year-of-profitability data point. At 58.9x, the multiple is similar to AMD's (61.2x), which was filtered on valuation grounds; the distinction is directional (multiple compressing vs. expanding), but that alone does not resolve the underlying earnings fragility. The thesis passes on the strength of the data licensing tailwind and multiple compression, but must be treated as a provisional pass pending evidence that the $2.62 earnings level is sustainable rather than a base-effect artifact. The tomorrow earnings print (2026-04-30) is an immediate test.
+
+---
+
+#### AMD — Tailwind (Price: PASS)
+
+**1. How does the current P/E ratio compare to historical levels?**
+AMD trades at **61.2x P/E**, which is **+98% above 1Y ago (30.9x)**, **+142% above 3Y ago (25.2x)**, and **+37% above its 5-year average (44.6x)**. AMD is now materially *more expensive* relative to every historical benchmark. The only comparable period is 5 years ago (60.9x), which was a prior cycle peak. This is the opposite of a valuation discount — AMD's multiple has nearly doubled in one year.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+The long-term EPS CAGR is a strong **+26.4%**, growing from **$0.64** (2020) → **$4.17** (2026). However, the trajectory is notably non-linear: a sharp cycle down in 2024 (-25.1% TTM, $2.65) before recovering. Stability CV of **0.19** (second-lowest in this batch after GIS) suggests AMD's earnings are more predictable than its semiconductor peers, but the 2024 dip is a reminder of cyclicality.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+Short-term performance has been strong but not explosive: beats of **+15.9%** (Feb 2026), **+2.6%** (Nov 2025), **+0.3%** (Aug 2025), **+1.7%** (May 2025). The February 2026 beat was meaningful (+$0.21), but the prior three quarters showed only marginal beats. TTM EPS grew **+25.6% YoY** (from $3.32 to $4.17).
+
+**4. What is the correlation between price and earnings?**
+The 1-year correlation is **+0.33** — a mild positive. Price has been broadly rising alongside earnings. This is consistent with a momentum trade: the price is partly tracking real earnings improvement but significantly outpacing it. The +148% YoY price gain vs. +25.6% EPS growth shows that the market is paying a rapidly expanding multiple for the same underlying earnings growth rate.
+
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate is **$1.29** (due 2026-05-05), a **-$0.24 Forward Delta** vs. the last actual ($1.53). Analysts project a sequential earnings decline, though AMD's recent pattern of modest beats suggests this estimate may be slightly conservative. Sentiment is cautious rather than exuberant on the forward estimate, which is notable given the current high multiple.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY**
+N/A — Not a loser stock.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
+- **Do the forward earnings estimates project a sudden, significant improvement compared to the historical baseline?**
+**No.** The forward estimate of $1.29 actually projects a *decline* from the last actual $1.53. The tailwind thesis (Memory Wall bottleneck, $100B Meta chip deal) is not currently reflected in a positive forward earnings inflection — the estimates are cautious. If the tailwind is real, actual results should materially outperform these projections.
+- **Is the current valuation (P/E) highly elevated, meaning the stock's price is heavily reliant on these future estimates rather than current cash generation?**
+**Yes — this is the core risk.** At 61.2x P/E, AMD's current price is **+37% above its 5-year average multiple** and **+98% above where it traded one year ago**. The stock is pricing in a significant acceleration of the AI/Memory tailwind that is *not yet reflected in the earnings data*. If the $100B Meta deal and Memory Wall thesis translate to the earnings acceleration required to justify 61x, it could work. If execution stumbles or the tailwind is slower to materialize, the multiple compresses sharply on both a lower "E" and a lower "P/E."
+
+**Status & Earnings Summary**
+**FILTERED.** Tailwind Fully Priced — Premium Multiple Without Earnings Acceleration. The Price Analysis flagged AMD at 93% of its 52-week range with a Z-Score of +1.3. The earnings data confirms the concern: at 61.2x — 98% more expensive than a year ago and 37% above its historical average — AMD's current price is a bet on a future earnings acceleration that has not yet shown up in the quarterly data. The three most recent quarterly beats were marginal (+0.3%, +1.7%, +2.6%), and the forward estimate projects a sequential decline. Unlike META (which is compressing its multiple as earnings grow), AMD is *expanding* its multiple despite no corresponding acceleration in earnings beats. In the current elevated-risk macro environment, a 61x P/E semiconductor stock dependent on a highly specific AI chip procurement thesis is a speculative position, not an investment. The tailwind is real, but it is priced in — and then some.
+
+---
+
+#### UMAC — Tailwind (Price: PASS)
+
+**1. How does the current P/E ratio compare to historical levels?**
+**No P/E available.** UMAC is pre-profitability with negative EPS across all reported periods. No valuation multiple can be derived from earnings.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+As established in Pass 1: losses are accelerating (**-$0.86 TTM** vs. -$0.16 four years ago). The stability CV of **0.73** reflects extreme volatility in the underlying financials — there is no stable earnings floor to anchor a valuation.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+As established in Pass 1: UMAC has missed every quarterly estimate by catastrophic margins (-75% to -357%). Short-term earnings are deeply negative and systematically worse than projected.
+
+**4. What is the correlation between price and earnings?**
+The 1-year correlation is **-0.23** — weakly negative. The price has largely decoupled from earnings, running on the NDAA/drone procurement narrative. The +118% YoY gain reflects pure sentiment, not earnings improvement.
+
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate is **-$0.10** (due 2026-05-14), a **+$0.20 Forward Delta** — expected narrowing of losses, not profit. Given the systematic pattern of massive misses, the "expected improvement" carries minimal credibility. The company remains cash-flow negative with no near-term profitability path visible from the earnings data.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY**
+N/A — Addressed in Pass 1.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
+- **Do the forward earnings estimates project a sudden, significant improvement compared to the historical baseline?**
+**Marginally — but the track record destroys credibility.** The +$0.20 Forward Delta implies meaningful loss narrowing from -$0.30 to -$0.10. However, UMAC has missed every estimate, often by 200–357%. The stated "improvement" narrative has been present in every prior quarter and has been wrong every time. Analysts are projecting UMAC will reach cash flow positive by Q4 2026 — but four consecutive massive misses make this a thesis-dependent projection, not a data-supported one.
+- **Is the current valuation (P/E) highly elevated, meaning the stock's price is heavily reliant on these future estimates rather than current cash generation?**
+**Yes — entirely.** With no P/E and no current earnings, the entire $539M market cap and +118% YoY price gain are 100% dependent on the future materialization of the NDAA drone procurement tailwind. There is no earnings floor, no current cash generation to anchor value, and no historical P/E baseline. This is a pure narrative/speculation instrument.
+
+**Status & Earnings Summary**
+**PASS — extreme skepticism required.** The NDAA drone procurement tailwind is structural and the macro context (active military conflict, Hormuz closure) accelerates the urgency. On that basis, the thesis passes. However, UMAC as a vehicle is deeply problematic: losses are accelerating (-$0.86 TTM vs. -$0.16 four years ago), the company has missed every quarterly estimate by 75–357%, and the "cash flow positive by Q4 2026" narrative has effectively been the standing analyst projection for multiple prior quarters — and has been wrong every time. This is not a company with limited history; it is a company with a consistent track record of burning more cash than expected. The PASS is on the sector thesis only. UMAC earns no analytical benefit of the doubt on execution. It should be sized as a micro-speculative position only, and a single additional massive earnings miss should trigger immediate exit regardless of narrative strength. Revisit after Q4 2026 cash-flow-positive delivery claim is tested.
+
+---
+
+#### AXON — Tailwind (Price: PASS)
+
+**1. How does the current P/E ratio compare to historical levels?**
+As established in Pass 1: AXON trades at **55.8x**, a **-31% to -42% relative discount** vs. all historical benchmarks (80–96x range). The de-rating is significant but from a historically premium base. Absolute multiple remains in Caution territory.
+
+**2. What is the long-term earnings trend and volatility? (past 5 years)**
+As established in Pass 1: **+30.8% EPS CAGR**, tripling TTM EPS from $2.32 to $6.85 over four years. Stability CV 0.49 — moderate. The direction is unambiguous even if the growth rate is lumpy.
+
+**3. What is the short-term earnings trend and volatility? (past 12 months)**
+As established in Pass 1: TTM EPS +16.5% YoY. Alternating large beats (+34.4%, +46.2%) and one miss (-23.0%). Beat magnitude dominates.
+
+**4. What is the correlation between price and earnings?**
+The 1-year correlation is **-0.41** — moderate negative. Price falling while earnings rise, directionally consistent with a TAILWIND stock being mispriced to the downside.
+
+**5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
+The next estimate is **$1.60** (due 2026-05-06), a **-$0.55 Forward Delta** vs. the last actual ($2.15). Analyst caution is elevated — projecting a ~26% sequential EPS decline. Given AXON's history of 34–46% beats, this may again prove conservative. The report is due May 6.
+
+**6. FOR [LOSER]-TAGGED TICKERS ONLY**
+N/A — Addressed in Pass 1.
+
+**7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
+- **Do the forward earnings estimates project a sudden, significant improvement compared to the historical baseline?**
+**No — the opposite.** Analysts project a sequential decline (-$0.55 Forward Delta). Any improvement will come from AXON outperforming these conservative estimates, consistent with its historical pattern. The tailwind thesis does not depend on a sudden earnings surge — it depends on whether the existing 30.8% CAGR continues as DFR and TASER backlogs convert to revenue.
+- **Is the current valuation (P/E) highly elevated, meaning the stock's price is heavily reliant on these future estimates rather than current cash generation?**
+**Moderately.** At 55.8x, the multiple remains elevated in absolute terms, but this is the lowest P/E AXON has traded at in 5 years — a significant compression from its 80–96x historical range. With $6.85 TTM EPS, there is genuine current earnings to anchor partial value. The stock is not purely dependent on future projections; it is trading at a discount to its own earnings history while delivering record TTM profits.
+
+**Status & Earnings Summary**
+**PASS.** AXON at the intersection of [LOSER] and [TAILWIND] is the highest-conviction dual-thesis candidate in this batch. From the TAILWIND lens: a 30.8% EPS CAGR compounding through a structural defense procurement cycle (DFR, TASER, digital evidence management) is not priced in at 55.8x — it was previously priced at 90x. The -0.41 correlation confirms the price disconnection is sentiment-driven, not fundamental. The combination of a structural tailwind (domestic drone warfare boom, $14.4B backlog), a deeply discounted multiple relative to history, and real current earnings ($6.85 TTM) provides a margin of safety uncommon in TAILWIND plays. The primary risk remains the absolute 55.8x multiple — if the DFR thesis faces a regulatory or procurement delay, multiple compression from 55x toward 30x (a realistic "no-growth" multiple for its hardware business) would be painful. The May 6 earnings print is the near-term validation event. The current macro environment (active defense procurement urgency driven by the Iran War context) is a direct tailwind for the thesis itself.

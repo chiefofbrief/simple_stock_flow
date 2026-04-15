@@ -25,22 +25,18 @@ Run `python "Scripts/Digest Scripts/sectors_digest.py"`. Then read `Prompts/prom
 Read `Prompts/prompt_daily_screening.md` and execute its instructions to compile today's candidates into `Screening_{DATE}.md`.
 ```
 
-### Price
-```text
-Run `python Scripts/price.py {TICKER}`. Then read `Prompts/prompt_price.md` and execute its instructions for {TICKER}.
-```
-*Supports batch screening: `python Scripts/price.py AAPL MSFT GOOGL`*
+### Price & Earnings
 
-### Earnings
+**Standalone**
 ```text
-Run `python Scripts/earnings.py {TICKER}`. Then read `Prompts/prompt_earnings.md` and execute its instructions for {TICKER}.
+Run `python Scripts/price.py {TICKER}` and `python Scripts/earnings.py {TICKER}` simultaneously. Then read `Prompts/prompt_price_earnings.md` and execute its instructions for {TICKER}. Note: no Screening_{DATE}.md is available — classification context will be provided directly in chat.
 ```
 
-### Screening Bridge
+**Digest Workflow**
 ```text
-Read `Prompts/prompt_screening_bridge.md` and execute its instructions to update `Screening_{DATE}.md` with screening results.
+Identify all [LOSER] and [TAILWIND] tickers from `Screening_{DATE}.md`. Run `python Scripts/price.py {ALL_TICKERS}` and `python Scripts/earnings.py {ALL_TICKERS}` simultaneously to fetch data for all candidates. Then read `Prompts/prompt_price_earnings.md` and execute its instructions — process all [LOSER] tickers first, then all [TAILWIND] tickers.
 ```
-*Run after Price and again after Earnings.*
+*Supports batch screening: `python Scripts/price.py AAPL MSFT GOOGL` and `python Scripts/earnings.py AAPL MSFT GOOGL`*
 
 ### Screening Completion
 ```text

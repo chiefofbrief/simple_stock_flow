@@ -12,7 +12,8 @@ Read the following before doing anything else:
 
 *   `GEMINI.md` — The foundational Analysis Philosophy & Guidelines. The primary lens for candidate classification throughout.
 *   `Peter's Digest/Markets Digest/Markets_Digest_{DATE}.md` — Read the prepended Markets Analysis in full. LOSER signals and TAILWIND Flags from this file are baseline candidates.
-*   `Peter's Digest/Sectors Digest/Sectors_Digest_{DATE}.md` — Read the prepended Sectors Analysis in full. TAILWIND signals from this file are baseline candidates.
+*   `Peter's Digest/Sectors Digest/Sectors_Digest_{DATE}.md` — Read the prepended Sectors Analysis in full. Screening Candidates from this file are baseline TAILWIND candidates.
+*   `Stock_Tracker.md` — Read the LOSERS table, TAILWINDS table, and Trade Tracker. Any ticker already present in any of these three sections should be excluded from today's candidate list. Exception: if a ticker appears in LOSERS or TAILWINDS and there is material new context that warrants a classification update (e.g., a new framework fit), surface it as a note rather than treating it as a new candidate.
 
 **STOP. Do not proceed until all files have been read.**
 
@@ -23,11 +24,13 @@ Read the following before doing anything else:
 Extract all candidates from the digest analyses read in Step 1:
 
 *   **LOSERS** — All tickers from the Markets Analysis "Stocks: Losers" section that fit the `[LOSER]` framework per `GEMINI.md`.
-*   **TAILWINDS** — All tickers from the Markets Analysis "TAILWIND Signals & Sector Gainers" section and the Sectors Analysis "Stocks: Tailwinds" section that fit the `[TAILWIND]` framework per `GEMINI.md`.
+*   **TAILWINDS** — All tickers from the Markets Analysis "TAILWIND Signals & Sector Gainers" section and the Sectors Analysis "Screening Candidates" section that fit the `[TAILWIND]` framework per `GEMINI.md`.
 
 For each candidate, retain the full flagging context from the digest — all figures, catalysts, and source citations. Do not summarize.
 
 If a digest candidate appears weak against the framework in `GEMINI.md`, flag it as a **Candidate for Dropping** with a one-line reason, but do not drop it unilaterally — surface it for user review in Step 3.
+
+A ticker may fit both frameworks simultaneously (e.g., a TAILWIND sector play that is also experiencing a significant price dislocation). If so, include it in **both** sections with framing appropriate to each — do not force it into one category.
 
 ---
 
@@ -51,18 +54,26 @@ Incorporate any user additions or dropped candidates before proceeding. Treat us
 
 For each candidate confirmed after Step 3, run the following actions. If a ticker returns a rate limit error from either API, wait 30 seconds before retrying.
 
+Carry forward all user corrections, additions, re-framings, and context provided in Step 3. Where user input conflicts with or supersedes the digest framing, user input takes precedence — ensure it is reflected in the final output.
+
 ### Action 1: FMP Company Profile
-`curl -s "https://financialmodelingprep.com/stable/profile?symbol={TICKER}&apikey=[FMP_API_KEY]"`
+Before fetching, check if `Data/tickers/{TICKER}/{TICKER}_profile.json` already exists. If it does, read it directly and skip the API call.
+
+If not: `curl -s "https://financialmodelingprep.com/stable/profile?symbol={TICKER}&apikey=$FMP_API_KEY" -o Data/tickers/{TICKER}/{TICKER}_profile.json`
+
+Create the directory first if it does not exist: `mkdir -p Data/tickers/{TICKER}`
 
 Extract: company name, description, sector, industry, market cap.
 
 ### Action 2: FMP Stock Peers *(TAILWIND candidates only)*
-`curl -s "https://financialmodelingprep.com/stable/stock-peers?symbol={TICKER}&apikey=[FMP_API_KEY]"`
+Before fetching, check if `Data/tickers/{TICKER}/{TICKER}_peers.json` already exists. If it does, read it directly and skip the API call.
+
+If not: `curl -s "https://financialmodelingprep.com/stable/stock-peers?symbol={TICKER}&apikey=$FMP_API_KEY" -o Data/tickers/{TICKER}/{TICKER}_peers.json`
 
 Extract: all returned peer tickers and company names.
 
 ### Action 3: Web Fetch
-Fetch 1–2 sources per candidate. One source is sufficient if comprehensive.
+Only fetch if the digest context for this candidate is sparse — e.g., the source is an internal data feed rather than a named article, or key catalysts are missing. If the digest already provides article-level detail (headline, outlet, figures, catalysts), a web fetch is not required. One source is sufficient if comprehensive.
 
 Extract: sector description in the context of the relevant framework (`[LOSER]` or `[TAILWIND]`), key catalysts, any competitor or peer names not already in the FMP list (TAILWIND candidates only).
 
@@ -89,8 +100,7 @@ Extract: sector description in the context of the relevant framework (`[LOSER]` 
 # Daily Screening — [DATE]
 
 ## Status
-- Price Screening: Pending
-- Earnings Screening: Pending
+- Price & Earnings: Pending
 
 ---
 
@@ -138,19 +148,15 @@ marked with *. If none identified, state "None identified."]
 ### LOSERS
 
 #### [TICKER] — [Company Name]
-**Price:** PASS / FILTERED
-**Price Summary:** [Verbatim Status & Price Summary from Price_Data_{DATE}.txt]
-**Earnings:** PASS / FILTERED / N/A — did not pass price screening
-**Earnings Summary:** [Verbatim Status & Earnings Summary from Earnings_{DATE}.txt, or "N/A"]
+**Price & Earnings:** PASS / FILTERED
+**Status & Summary:** [Verbatim Status & Summary from prompt_price_earnings.md]
 **Overall:** PASS / FILTERED
 
 ### TAILWINDS
 
 #### [TICKER] — [Company Name]
-**Price:** PASS / FILTERED
-**Price Summary:** [Verbatim Status & Price Summary from Price_Data_{DATE}.txt]
-**Earnings:** PASS / FILTERED / N/A — did not pass price screening
-**Earnings Summary:** [Verbatim Status & Earnings Summary from Earnings_{DATE}.txt, or "N/A"]
+**Price & Earnings:** PASS / FILTERED
+**Status & Summary:** [Verbatim Status & Summary from prompt_price_earnings.md]
 **Overall:** PASS / FILTERED
 ```
 
@@ -162,6 +168,6 @@ marked with *. If none identified, state "None identified."]
 
 ## Step 6: Commit
 
-Upon explicit user approval, write the full proposed content to `Screening_{DATE}.md`.
+Upon explicit user approval, write the full proposed content to `Peter's Digest/Screening/Screening_{DATE}.md`. Create the directory first if it does not exist.
 
 **STOP. Wait for user approval before committing.**

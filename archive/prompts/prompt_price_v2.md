@@ -10,10 +10,24 @@ You are an expert financial analyst. Your task is to analyze the provided stock 
 ### Required Context
 Read the following before doing anything else:
 - `GEMINI.md` — The foundational Analysis Philosophy & Guidelines.
+- `context_markets.md` — Current macro conditions, market sentiment, and prevailing narratives. Use this to calibrate conservatism: an elevated-risk or split-sentiment environment raises the bar for TAILWIND passes and warrants additional scrutiny of reversion targets for LOSER candidates.
 - `Screening_{DATE}.md` — The stock's classification tags and original flagging context. If running outside the daily screening flow, context will be provided directly.
 - `Data/screening/Price_Data_{DATE}.txt` — Historical performance, volatility, drawdown, and trend metrics for {TICKER}.
 
+**Data Check:** Confirm `Data/screening/Price_Data_{DATE}.txt` exists and contains entries for the tickers you intend to analyze. If the file is missing, empty, or does not cover all expected tickers, stop and alert the user before proceeding.
+
+**Existing Content Check:** If `Data/screening/Price_Data_{DATE}.txt` already contains prior analyses (from an earlier batch), do not overwrite it. Rename the existing file (e.g., `Price_Data_{DATE}_Batch1.txt`) before the script is run again for a new batch.
+
 **STOP. Wait for user approval before proceeding to Step 2.**
+
+---
+
+**Batch Grouping:** If the ticker list contains both `[LOSER]` and `[TAILWIND]` tickers, process them in two separate passes — do not interleave types or combine them into a single response.
+
+1. **Pass 1:** Analyze all `[LOSER]` tickers. Present the full analysis, then **STOP and ask for approval before proceeding to Pass 2.**
+2. **Pass 2:** After explicit approval, analyze all `[TAILWIND]` tickers.
+
+If the list contains only one type, this does not apply.
 
 ---
 
@@ -128,7 +142,7 @@ Reliable target. The stock trades at a staggering 54% discount to its 12-month a
   [Answer using specific metrics]
 
 **Status & Price Summary**
-**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale.]
+**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale. Include one sentence on how current market conditions from `context_markets.md` affect the confidence level of this verdict — e.g., whether broad market risk raises or lowers the reliability of a reversion target, or whether prevailing sentiment supports or undermines the tailwind thesis.]
 
 - **Action:** Ask: *"Do you approve this recommendation? Should I append this analysis to the data file?"*
 
@@ -139,7 +153,5 @@ Reliable target. The stock trades at a staggering 54% discount to its 12-month a
 ## Step 3: Commit
 
 Upon explicit user approval, append the full analysis output from Step 2 — including all questions, answers, and the Status & Price Summary — verbatim to the end of `Data/screening/Price_Data_{DATE}.txt`.
-
-- **Batch Handling:** If processing multiple batches on the same date, rename the previous data file (e.g., `Price_Data_{DATE}_Batch1.txt`) before running scripts to avoid overwriting work.
 
 **STOP. Wait for user approval before committing.**

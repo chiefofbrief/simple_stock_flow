@@ -54,6 +54,8 @@ The required MOS is not fixed — it moves with market conditions. When the mark
 
 Sentiment drives prices, creating opportunities when popularity diverges from value. Prices reflect sentiment, not mathematical risk: public attitude → bids/offers → price.
 
+**Narrative as rationalization:** Price moves often precede their stated explanations. Financial media assigns causes after the fact — large moves occur on no news; significant news produces small moves. Treat reported catalysts as hypotheses, not causes. When news and a price move coincide, the analytical question is always: which came first, and would the price have moved anyway? Institutional flows, technical levels, and positioning can drive moves entirely independent of any fundamental development. The narrative is what gets sold to latecomers.
+
 That a thesis is flawed does not mean we should not invest — as long as other people believe in it and there is a large group left to be convinced. The edge is in looking for the flaws: if found, losses can be limited when the market discovers what we already know. Recognizing flaws that are likely to appear when a hypothesis becomes reality puts you ahead of the game.
 
 **Reflexivity**
@@ -82,10 +84,8 @@ A misconception is always involved. What makes it durable is that it is reinforc
 | **1a. Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | News APIs | `Markets_Digest_{DATE}.md` | Run daily. Updates `context_markets.md`. |
 | **1b. Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_digest_sectors.md` | News APIs | `Sectors_Digest_{DATE}.md` | Run when sector developments warrant. Updates `context_sectors.md`. |
 | **2. Daily Screening** | Screening | — | `prompt_daily_screening.md` | Digests, User Input | `Screening_{DATE}.md` | Reads digest outputs from steps 1a/1b. Produces candidate list. |
-| **3. Price** | Screening | `price.py` | `prompt_price.md` | `Screening_{DATE}.md` | `Price_Data_{DATE}.txt` | Can run standalone without a screening file. |
-| **4. Earnings** | Screening | `earnings.py` | `prompt_earnings.md` | `Screening_{DATE}.md` | `Earnings_{DATE}.txt` | Can run standalone without a screening file. |
-| **4b. Screening Bridge** | Screening | — | `prompt_screening_bridge.md` | `Screening_{DATE}.md`, Data Files | `Screening_{DATE}.md` | Run after steps 3 and 4. Consolidates price/earnings verdicts back into the screening file. |
-| **5. Screening Completion** | Screening | — | `prompt_screening_completion.md` | `Screening_{DATE}.md` | Thesis, Tracker | Initializes the Thesis file and adds the ticker to the Tracker. |
+| **3. Price & Earnings** | Screening | `price.py` + `earnings.py` | `prompt_price_earnings.md` | `Screening_{DATE}.md` | `Price_Data_{DATE}.txt`, `Earnings_{DATE}.txt`, `Screening_{DATE}.md` | Run both scripts simultaneously. Writes analysis directly to the screening file. Can run standalone without a screening file. |
+| **4. Screening Completion** | Screening | — | `prompt_screening_completion.md` | `Screening_{DATE}.md` | Thesis, Tracker | Initializes the Thesis file and adds the ticker to the Tracker. |
 | **6. Financials** | Deep Dive | `financials.py` | `prompt_financials.md` | Thesis | Thesis, Tracker | |
 | **7. Footnotes** | Deep Dive | `footnotes.py` | `prompt_footnotes.md` | Thesis | Thesis, Tracker | *[Scale/Exit decision point]* |
 | **8. Earnings Calls** | Deep Dive | `earnings_calls.py` | `prompt_earnings_calls.md` | Thesis | Thesis, Tracker | |

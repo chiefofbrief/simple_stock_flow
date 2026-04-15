@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "ATKR",
+    "companyName": "Atkore Inc.",
+    "price": 69.1,
+    "mktCap": 2332166460
+  },
+  {
+    "symbol": "ENVX",
+    "companyName": "Enovix Corporation",
+    "price": 6.0501,
+    "mktCap": 1314226922
+  },
+  {
+    "symbol": "EPAC",
+    "companyName": "Enerpac Tool Group Corp.",
+    "price": 36.66,
+    "mktCap": 1934779195
+  },
+  {
+    "symbol": "FA",
+    "companyName": "First Advantage Corporation",
+    "price": 12.08,
+    "mktCap": 2105773520
+  },
+  {
+    "symbol": "GEO",
+    "companyName": "The GEO Group, Inc.",
+    "price": 18.08,
+    "mktCap": 2429258650
+  },
+  {
+    "symbol": "HUBG",
+    "companyName": "Hub Group, Inc.",
+    "price": 39.95,
+    "mktCap": 2420115350
+  },
+  {
+    "symbol": "TRTN-PC",
+    "companyName": "Triton International Limited",
+    "price": 25,
+    "mktCap": 2529010475
+  },
+  {
+    "symbol": "VOYG",
+    "companyName": "Voyager Technologies, Inc.",
+    "price": 29.63,
+    "mktCap": 1750766418
+  },
+  {
+    "symbol": "VVX",
+    "companyName": "V2X, Inc.",
+    "price": 69.9,
+    "mktCap": 2185779990
+  }
+]

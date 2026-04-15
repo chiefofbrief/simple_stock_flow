@@ -22,6 +22,7 @@ Read the following before doing anything else:
 *   Apply the `GEMINI.md` Analysis Philosophy to all analysis — it is the primary lens for candidate selection and framing.
 *   The Losers and Most Active tables are quantitative signals — a stock appearing there flags a name worth investigating, but only if the qualitative news or brand recognition supports a `[LOSER]` thesis per `GEMINI.md`.
 *   Maintain healthy skepticism — note the prevailing market narrative, but highlight claims that should be empirically validated or may be disputed before being accepted as fact. Market narratives often rationalize price movements after the fact.
+*   Do not weight narratives by volume of headlines. A single data point from one source may be more significant than five mainstream headlines if the underlying signal is large. When the digest contains signals that directly contradict the prevailing narrative — especially price, flow, or physical data that conflicts with sentiment — both narratives must be named and the tension made explicit.
 *   This prompt does not perform sector-level TAILWIND analysis. If a structural multi-year TAILWIND signal or notable sector gainer surfaces in the digest, flag it briefly under TAILWIND Signals & Sector Gainers — do not develop it further here.
 *   While analyzing macro conditions, assess whether current signals suggest an elevated probability of a broad market downturn. This is one lens among many — do not let it crowd out the full macro analysis.
 
@@ -39,6 +40,7 @@ Read the following before doing anything else:
 4.  **Coverage Check:** Have all tickers that plausibly fit a `[LOSER]` thesis per `GEMINI.md` been included?
 5.  **TAILWIND Coverage Check:** Have all significant sector gainers and structural multi-year signals in the digest been captured?
 6.  **Macro Risk Check:** Does the macro overview include a direct narrative assessment of whether current signals suggest elevated probability of a broad market downturn?
+7.  **Balance Check:** If the digest contains signals that diverge from the prevailing sentiment narrative (e.g., physical vs. paper price dislocations, flow data vs. headline moves), are both sides explicitly represented in the Macro Overview?
 
 **Output Format:**
 
@@ -79,8 +81,12 @@ Upon explicit user approval (e.g., "yes", "go ahead"), prepend the full analysis
 
 Re-read `context_markets.md`. Compare it against today's approved analysis and propose the following:
 
-*   **Current State changes:** For each section under Current State, note only what has changed materially from what is already captured. If nothing has changed in a section, do not include it. If nothing has changed anywhere, state "No Current State updates."
-*   **New Recent Log entry:** A compact 3–5 bullet summary of today's key developments.
+*   **Current State changes:** For each section under Current State, note only what has changed materially from what is already captured. If nothing has changed in a section, do not include it. If nothing has changed anywhere, state "No Current State updates." When proposing a section update, write out the full proposed section text — do not summarize or condense existing prose, only incorporate the new developments.
+*   **New Recent Log entry:** A 3–5 bullet summary of today's key developments, structured as follows:
+    *   **Prevailing Narratives:** match exactly what was written to the Prevailing Narratives section of the Current State update for today.
+    *   **Recurring LOSER Signals:** all tickers and their brief context, copied verbatim from the approved analysis — no condensing or omissions.
+    *   **Recurring TAILWIND Flags:** all tickers and their brief context, copied verbatim from the approved analysis — no condensing or omissions.
+    *   1–2 additional bullets for any notable macro developments unique to today not already captured above.
 
 Present the full proposed update to the user before writing anything.
 
@@ -95,7 +101,7 @@ Present the full proposed update to the user before writing anything.
 Upon explicit user approval, apply the following changes to `context_markets.md`:
 
 1.  Update the `*Last updated*` date at the top of the file.
-2.  Rewrite only the Current State sections that were flagged as changed in Step 4. Leave unchanged sections as-is.
+2.  Rewrite only the Current State sections that were flagged as changed in Step 4. Leave unchanged sections as-is. When rewriting a section, preserve the instructive text block (the bracketed description in square brackets beneath each section heading) exactly as-is.
 3.  Append today's Recent Log entry at the top of the Recent Log section (most recent first).
 4.  If the Recent Log now contains more than 10 entries, remove the oldest entry.
 

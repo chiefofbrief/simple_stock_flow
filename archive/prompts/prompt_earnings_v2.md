@@ -10,11 +10,25 @@ You are an expert financial analyst. Your task is to analyze the provided earnin
 ### Required Context
 Read the following before doing anything else:
 - `GEMINI.md` — The foundational Analysis Philosophy & Guidelines.
+- `context_markets.md` — Current macro conditions, market sentiment, and prevailing narratives. Use this to calibrate conservatism: an elevated-risk or split-sentiment environment raises the bar for TAILWIND passes and increases scrutiny of high multiples.
 - `Screening_{DATE}.md` — The stock's classification tags and original flagging context. If running outside the daily screening flow, context will be provided directly.
 - `Data/screening/Price_Data_{DATE}.txt` — The prior Price analysis findings for {TICKER}.
 - `Data/screening/Earnings_{DATE}.txt` — P/E ratios, earnings history, growth rates, and forward estimates for {TICKER}.
 
+**Data Check:** Confirm `Data/screening/Earnings_{DATE}.txt` exists and contains entries for the tickers you intend to analyze. If the file is missing, empty, or does not cover all expected tickers, stop and alert the user before proceeding. Also confirm `Data/screening/Price_Data_{DATE}.txt` contains completed price analyses for the same tickers.
+
+**Existing Content Check:** If `Data/screening/Earnings_{DATE}.txt` already contains prior analyses (from an earlier batch), do not overwrite it. Rename the existing file (e.g., `Earnings_{DATE}_Batch1.txt`) before the script is run again for a new batch.
+
 **STOP. Wait for user approval before proceeding to Step 2.**
+
+---
+
+**Batch Grouping:** If the ticker list contains both `[LOSER]` and `[TAILWIND]` tickers, process them in two separate passes — do not interleave types or combine them into a single response.
+
+1. **Pass 1:** Analyze all `[LOSER]` tickers. Present the full analysis, then **STOP and ask for approval before proceeding to Pass 2.**
+2. **Pass 2:** After explicit approval, analyze all `[TAILWIND]` tickers.
+
+If the list contains only one type, this does not apply.
 
 ---
 
@@ -27,6 +41,8 @@ Read the following before doing anything else:
 - For conditional sections, confirm the stock's tags from `Screening_{DATE}.md`, apply the relevant conditional, and refer to the matching example below:
   - **Question 6** applies to `[LOSER]`-tagged tickers only. If not tagged `[LOSER]`, state "N/A - Not a recent loser" and skip.
   - **Question 7** applies to `[TAILWIND]`-tagged tickers only. If not tagged `[TAILWIND]`, state "N/A - Not a tailwind stock" and skip.
+
+**Before applying the framework to each ticker, assess whether the earnings data is reliable enough to support P/E-based analysis.** Flag explicitly if: the company has no P/E (pre-profitability), has been profitable for fewer than 4 quarters, or has a CV high enough to suggest the earnings history is too unstable to anchor a valuation. Where data reliability is low, reduce analytical confidence accordingly and note it prominently in the Status Summary.
 
 ### Example Output
 
@@ -125,6 +141,7 @@ N/A - Not a tailwind stock
 3. **Conditional Check:** Has the correct conditional logic been applied based on the stock's tags from `Screening_{DATE}.md`?
 4. **Metrics Check:** Does each answer explicitly specify which metrics led to the conclusion?
 5. **Summary Check:** Does the Status & Earnings Summary accurately reflect the analysis findings?
+6. **Consistency Check:** Do the verdicts hold up when compared across the batch? If two tickers share similar characteristics (multiple, growth rate, profitability stage) but received different verdicts, is the difference explicitly justified?
 
 **Output Format:**
 
@@ -142,14 +159,20 @@ N/A - Not a tailwind stock
 **4. What is the correlation between price and earnings?**
 [Answer using specific metrics]
 
+> **Interpretation guidance:** A strong *negative* correlation (≤ -0.5) is the hallmark of a Temporary Loser dislocation — price falling while earnings rise. A strong *positive* correlation (≥ 0.70) means the price is rationally tracking fundamental deterioration, not overreacting to it. A high positive correlation directly challenges the "Temporary Loser" classification and must be addressed explicitly in the Status Summary.
+
 **5. How do the upcoming earnings estimates compare to the company's past performance, and what does this signal about near-term analyst sentiment?**
 [Answer using specific metrics]
+
+> **Pre-profitability note:** For companies with negative EPS, a positive Forward Delta means expected narrowing of losses — not expected profit. Frame it accordingly and explicitly note the company remains cash-flow negative.
 
 **6. FOR [LOSER]-TAGGED TICKERS ONLY**
 - **Are earnings decreasing along with the price?**
   [Answer using specific metrics]
 - **What is the quality of the absolute valuation floor (Under 20x = Strong, 20-30x = Reasonable, Over 30x = Caution)?**
   [Answer using specific metrics]
+
+  > **Anchoring warning:** A relative P/E discount (e.g., "cheaper than its historical average" or "down from its peak") does not constitute an absolute floor. Apply the rubric above based on the *absolute* P/E level. A stock that traded at 90x and now trades at 55x is still firmly in "Caution" — the historical premium is not a floor, it is prior overvaluation.
 
 **7. FOR [TAILWIND]-TAGGED TICKERS ONLY**
 - **Do the forward earnings estimates project a sudden, significant improvement compared to the historical baseline?**
@@ -158,7 +181,7 @@ N/A - Not a tailwind stock
   [Answer using specific metrics]
 
 **Status & Earnings Summary**
-**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale.]
+**[PASS / FILTERED].** [A concise paragraph summarizing the findings and rationale. Include one sentence on how current market conditions from `context_markets.md` affect the confidence level of this verdict — e.g., whether an elevated-risk environment raises the bar for a high-multiple PASS or provides additional support for a low-multiple LOSER thesis.]
 
 - **Action:** Ask: *"Do you approve this recommendation? Should I append this analysis to the data file?"*
 
@@ -169,7 +192,5 @@ N/A - Not a tailwind stock
 ## Step 3: Commit
 
 Upon explicit user approval, append the full analysis output from Step 2 — including all questions, answers, and the Status & Earnings Summary — verbatim to the end of `Data/screening/Earnings_{DATE}.txt`.
-
-- **Batch Handling:** If processing multiple batches on the same date, rename the previous data file (e.g., `Earnings_{DATE}_Batch1.txt`) before running scripts to avoid overwriting work.
 
 **STOP. Wait for user approval before committing.**

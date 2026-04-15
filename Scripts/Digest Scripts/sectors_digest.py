@@ -4,7 +4,7 @@ Sectors Market Digest
 =====================
 
 Orchestrates sector-specific market analysis scripts and aggregates their Markdown output.
-Groups sources by industry (Compute, Infrastructure, Energy, Materials, Frontier).
+Sources are listed flat — categorization is handled by the analysis prompt, not the script.
 
 Usage:
     python Scripts/sectors_digest.py
@@ -16,32 +16,20 @@ import datetime
 import os
 
 # ============================================================================
-# CONFIGURATION - GROUPED BY INDUSTRY
+# CONFIGURATION - SOURCES (flat, category-agnostic)
 # ============================================================================
 
-GROUPS = {
-    "1. AI — Compute & Chips": [
-        {'name': 'SemiAnalysis', 'cmd': [sys.executable, 'Scripts/Digest Scripts/semianalysis.py', '--markdown']},
-        {'name': 'TrendForce (Semi)', 'cmd': [sys.executable, 'Scripts/Digest Scripts/trendforce.py', '--markdown']},
-        {'name': 'ServeTheHome', 'cmd': [sys.executable, 'Scripts/Digest Scripts/servethehome.py', '--markdown']}
-    ],
-    "2. AI — Infrastructure & Cloud": [
-        {'name': 'Data Center Knowledge', 'cmd': [sys.executable, 'Scripts/Digest Scripts/datacenterknowledge.py', '--markdown']},
-        {'name': 'Data Center Dynamics', 'cmd': [sys.executable, 'Scripts/Digest Scripts/datacenterdynamics.py', '--markdown']},
-        {'name': 'Fierce Network', 'cmd': [sys.executable, 'Scripts/Digest Scripts/fierce.py', '--markdown']}
-    ],
-    "3. AI — Nuclear & Energy": [
-        {'name': 'Power Mag', 'cmd': [sys.executable, 'Scripts/Digest Scripts/powermag.py', '--markdown']},
-        # Note: TrendForce (Energy) is already covered by the trendforce.py script in Group 1
-        # but the script aggregates both, so we list it where it fits best.
-    ],
-    "4. Critical Minerals & Materials": [
-        {'name': 'Benchmark Minerals', 'cmd': [sys.executable, 'Scripts/Digest Scripts/benchmark.py', '--markdown']}
-    ],
-    "5. Frontier Industries (Space & Defense)": [
-        {'name': 'SpaceNews', 'cmd': [sys.executable, 'Scripts/Digest Scripts/spacenews.py', '--markdown']}
-    ]
-}
+SOURCES = [
+    {'name': 'SemiAnalysis',         'url': 'https://semianalysis.com/',                    'cmd': [sys.executable, 'Scripts/Digest Scripts/semianalysis.py', '--markdown']},
+    {'name': 'TrendForce',           'url': 'https://www.trendforce.com/news/',              'cmd': [sys.executable, 'Scripts/Digest Scripts/trendforce.py', '--markdown']},
+    {'name': 'ServeTheHome',         'url': 'https://www.servethehome.com/',                 'cmd': [sys.executable, 'Scripts/Digest Scripts/servethehome.py', '--markdown']},
+    {'name': 'Data Center Knowledge','url': 'https://www.datacenterknowledge.com/',          'cmd': [sys.executable, 'Scripts/Digest Scripts/datacenterknowledge.py', '--markdown']},
+    {'name': 'Data Center Dynamics', 'url': 'https://www.datacenterdynamics.com/en/',        'cmd': [sys.executable, 'Scripts/Digest Scripts/datacenterdynamics.py', '--markdown']},
+    {'name': 'Fierce Network',       'url': 'https://www.fierce-network.com/',               'cmd': [sys.executable, 'Scripts/Digest Scripts/fierce.py', '--markdown']},
+    {'name': 'Power Mag',            'url': 'https://www.powermag.com/',                     'cmd': [sys.executable, 'Scripts/Digest Scripts/powermag.py', '--markdown']},
+    {'name': 'Benchmark Minerals',   'url': 'https://www.benchmarkminerals.com/',            'cmd': [sys.executable, 'Scripts/Digest Scripts/benchmark.py', '--markdown']},
+    {'name': 'SpaceNews',            'url': 'https://spacenews.com/',                        'cmd': [sys.executable, 'Scripts/Digest Scripts/spacenews.py', '--markdown']},
+]
 
 def run_module(module_name, cmd):
     """Run a single module and return its output."""
@@ -73,19 +61,17 @@ def main():
     output_content.append(f"**Timeframe:** {yesterday.strftime('%A, %B %d, %Y')}")
     output_content.append("---\n")
 
-    # Run Groups in Order
-    for group_title, modules in GROUPS.items():
-        group_output = []
-        for mod in modules:
-            # Inject the --date flag into the command
-            cmd = mod['cmd'] + ['--date', target_date_str]
-            output = run_module(mod['name'], cmd)
-            if output:
-                group_output.append(output)
-        
-        if group_output:
-            output_content.append(f"# {group_title}")
-            output_content.append("\n\n".join(group_output))
+    # Source checklist with clickable URLs
+    source_links = " | ".join(f"[{src['name']}]({src['url']})" for src in SOURCES)
+    output_content.append(f"**Sources:** {source_links}\n")
+    output_content.append("---\n")
+
+    # Run all sources (flat, no grouping)
+    for src in SOURCES:
+        cmd = src['cmd'] + ['--date', target_date_str]
+        output = run_module(src['name'], cmd)
+        if output:
+            output_content.append(output)
             output_content.append("\n---\n")
 
     full_report = "\n".join(output_content)
