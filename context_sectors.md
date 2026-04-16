@@ -1,6 +1,6 @@
 # Context — Sectors
 
-*Last updated: 2026-04-15*
+*Last updated: 2026-04-16*
 
 ---
 
@@ -31,6 +31,7 @@ AI is exhibiting reflexive dynamics: high stock prices lower the cost of capital
 ### Compute & Chips
 
 #### Context
+* **The Great Rebalance (2026):** Agentic AI is driving a structural fourfold surge in CPU core demand — from 30M cores/GW to 120M cores/GW. This is shifting system architectures from 1:8 CPU:GPU ratios toward 1:1 or 1:2 as "Orchestration" (task planning, tool calling) becomes the primary bottleneck, accounting for over 90% of total inference latency.
 * **The Inference Shift:** As Agentic AI scales, hardware demand is shifting from pure training to an "inference inflection" (e.g., Vera Rubin, Groq). Watch for specialized inference chips challenging Nvidia's moat. Importantly, the hardware market is bifurcated by workload type: training workloads retain best price-performance on H100s (a structural reason older Hopper demand stays sticky), while large mixture-of-experts (MoE) inference workloads run best on the latest large world-size systems (e.g., GB300 NVL72). Agentic AI is also driving a 4x spike in CPU demand — from 30M cores/GW to 120M cores/GW — as CPUs handle the orchestration overhead of multi-agent workflows alongside GPU token generation.
 * **Heterogeneous Memory Architecture:** The "one-size-fits-all" server memory model (DDR5) is giving way to a heterogeneous stack tuned for specific AI workload phases. Analysts identify a structural efficiency hierarchy: **SRAM** (ultra-fast, low-capacity, for caches and token-serialized "decode" functions) > **HBM** (stacked, massive bandwidth for parallel "prefill" functions) > **LPDDR5X** (low-power, moving from mobile to servers for efficiency-at-scale) > **DDR5** (general-purpose, high-capacity, but least efficient). In environments where power and cooling are fixed constraints, memory is becoming an active design variable rather than a fixed component.
 * **N3 Wafer Scarcity:** TSMC's N3 node is the single biggest constraint in the AI supply chain. AI-related silicon (accelerators, host CPUs, networking) is consuming ~60% of N3 wafer output in 2026, modeled to reach 86% by 2027 — nearly entirely squeezing out smartphone and CPU wafers. Effective N3 utilization is on track to exceed 100% in H2 2026; TSMC cannot expand cleanroom space quickly enough. Their CapEx only exceeded its prior peak in 2025, and they were caught flat-footed by the pace of AI demand.
@@ -42,6 +43,11 @@ AI is exhibiting reflexive dynamics: high stock prices lower the cost of capital
 * **Depreciation Risk:** New chip cycles (e.g., Blackwell B100) offer massive performance gains (2.5x), rapidly devaluing older hardware (H100).
 
 #### Recent Signals & Developments
+* **Nvidia Vera Standalone Launch (2026):** Nvidia decoupled the Vera CPU (Olympus architecture) for standalone sales to capture the structural demand surge in "Agentic" server configurations. Early partners include Alibaba, Cloudflare, CoreWeave, and Nscale.
+* **Arm AGI CPU Launch (2026):** Arm's historic pivot from IP licensing to direct silicon with a 136-core CPU built on TSMC N3, specifically targeting neoclouds and AI labs like Meta and OpenAI.
+* **Intel 18A Yield & Delay Reports (April 2026):** Yield issues (<50%) on the Intel 18A process for Clearwater Forest and Diamond Rapids are threatening mass production timelines, potentially pushing delivery into 2027 and creating a competitive opening for TSMC-based EPYC Venice.
+* **HBM4 Strategy Divergence (2026):** Samsung is chasing 80% yields on its 1c-based HBM4 using a performance-first SF4 logic base die, while SK Hynix trimmed HBM4 shipments by 30% due to Rubin delays, redirecting capacity to HBM3E.
+* **DDR5 Margin Flip (2026):** Micron reported that non-HBM (DDR5) margins currently exceed HBM profitability, projecting an 81% gross margin in Q3 FY26 as HBM3E oversupply and Rubin delays temporarily shift the pricing power.
 * **AMD-Meta Structural Partnership (2026):** AMD and Meta have struck a landmark **$100B, 6 GW chip deal** as the AI infrastructure race intensifies. This represents a massive quantitative anchor for the "Big Tech Subsidy" and validates AMD as a primary beneficiary of the multi-year hyperscaler CapEx cycle.
 * **SOCAMM Adoption (2026):** The emergence of **SOCAMM** (Small Outline Compression Attached Memory Module) as a form factor for LPDDR5X in servers addresses a primary operational risk. By bridging high efficiency with serviceability (replaceability), SOCAMM enables LPDDR5X to transition from mobile to production server environments without the "soldered" maintenance penalty.
 * **GPU Spot Pricing: Supply Exhaustion (Q1–Q2 2026):** H100 1-year rental contracts rose ~40% from $1.70/hr (October 2025 trough) to $2.35/hr (March 2026), defying prior expectations that Hopper pricing would decline with Blackwell's ramp. On-demand capacity is effectively sold out across all GPU types; p6-b200 spot instances on AWS are trading at $14/hr. Blackwell lead times extend to June–July 2026; all capacity through August–September 2026 is already committed. Existing H100 contracts are being renewed at original rates for 4-year extensions through 2028. Illustrating the severity: two large AWS customers independently asked to purchase every single Graviton instance available in 2026 — AWS declined to preserve availability for other customers.
@@ -75,6 +81,8 @@ TSM, NVDA, AMD, AVGO, ASML, AMAT, LRCX, KLAC, MU, SSNLF, HXSCL (SK Hynix), AMKR,
 * **Rural Data Center Fiber Demand:** New AI data centers are increasingly being built in tier-two markets where power is available rather than in major metros. Backhauling this traffic to carrier-neutral interconnection facilities is highly inefficient, driving dedicated fiber and wave buildouts along routes that didn't previously require this infrastructure. Lumen has identified "dozens of new data center clusters across the US" requiring fiber, wave, and IP services and is actively building a specialized AI fabric to serve them.
 
 #### Recent Signals & Developments
+* **Nvidia "Full Stack" Interconnect Strategy (2026):** Nvidia systematically secured architectural control over the interconnect layer via $6B in strategic investments in Marvell, Coherent, and Lumentum. This ensures third-party custom chips remain dependent on Nvidia-defined NVLink Fusion and CPO frameworks.
+* **Coherent-Lite Adoption (2026):** The emergence of O-band "Coherent-Lite" transceivers for 10-40km "Campus Reach" links, reducing power by 50% vs. traditional coherent optics.
 * **Fiber Optic Demand Surge (Q1 2026):** Fiber optic cables are explicitly cited alongside GPUs, DRAM, and NAND as components experiencing price spikes from the AI demand inflection. Confirms that the infrastructure buildout is pressuring the full networking supply chain, not just compute and memory.
 * **Optical Transceiver Sales Doubling (2026):** LightCounting forecasts Ethernet optical transceiver sales for AI clusters to double in 2026 — a concrete demand signal for transceiver suppliers tied directly to AI cluster buildout pace.
 
@@ -84,7 +92,7 @@ TSM, NVDA, AMD, AVGO, ASML, AMAT, LRCX, KLAC, MU, SSNLF, HXSCL (SK Hynix), AMKR,
 * Technology transitions (co-packaged optics) could disrupt incumbent transceiver suppliers
 
 #### Companies of Interest
-LITE, CLS, AAOI
+LITE, CLS, AAOI, MRVL, COHR
 
 ---
 
@@ -101,6 +109,8 @@ LITE, CLS, AAOI
 * **Enterprise Evaluation Shift:** Only 22.8% of AI initiatives successfully meet their original ROI objectives once in production (HyperFrame Research), reflecting a wide gap between AI experimentation and production-scale deployment. As a result, enterprise evaluation criteria have shifted: a year ago, conversations focused solely on capacity and price; today enterprises are evaluating infrastructure providers on production reliability, lifecycle controls, automated health checks, and stable performance under sustained demand — a shift that favors mature, purpose-built neocloud platforms over capacity-only providers.
 
 #### Recent Signals & Developments
+* **Microsoft/Nscale Capacity Grab (April 2026):** Microsoft secured 30,000 Nvidia Rubin GPUs in Norway after OpenAI dropped out, indicating a "catch-up" phase in hyperscale capacity after previous spending curbs.
+* **Logistics Demand Surge (2026):** Savills reports that the DC supply chain is triggering a 8.46 million sq ft logistics demand surge in Europe (~8,900 sq ft per MW) as suppliers take traditional warehouse space to support the buildout.
 * **Neocloud Market Power Shift (late 2025–2026):** Before late 2025, GPU rental pricing was competitive. By early 2026, Neoclouds and Hyperscalers are firmly in control — demanding higher prepays (20%+), longer contract terms, and setting deployment timelines on their own schedule. Mid-term contracts (3 months to 3+ years) are the most economically relevant segment and the best real-time indicator of marginal demand tightening.
 * **Long-Term Offtakes (2026):** Major AI labs are locking in 50MW–100MW clusters (equivalent to ~24,000–48,000 GB300 NVL72 GPUs) on 4–5 year terms. Hyperscalers are backstopping these deals in exchange for a share of project revenue — reinforcing the circular loop dynamic. CoreWeave's $21B AI compute contract with Meta (announced April 2026) provides a concrete anchor for the scale of individual neocloud deals.
 * **Gas Turbine Demand Spike (Q1 2026):** Gas turbines are explicitly cited alongside GPUs and memory as components experiencing price spikes from the AI demand inflection, confirming that power generation equipment is becoming a binding constraint in the infrastructure buildout.
@@ -177,7 +187,7 @@ PLTR, SNOW, MDB, DDOG, CRWD, PANW, IBM, ORCL, CRM, ADBE, NOW, WDAY, INTU, HUBS, 
 * **Vertical Integration:** Mine-to-magnet vertical integration is a key differentiator — companies controlling the full supply chain from mining through separation and magnet production carry strategic premium.
 
 ### Recent Signals & Developments
-*No entries yet.*
+* **DARPA "Smash" Program (2026):** A 4-year initiative for near-zero-waste separation of all 80 stable elements to render the Chinese processing monopoly obsolete and solve broader mineral shortages.
 
 ### Risks
 * Chinese rare earth processing dominance is deeply entrenched — domestic alternatives face cost and scale disadvantages
@@ -196,8 +206,11 @@ MP, UURAF, UUUU, USAR, NB, CCJ, BWXT, NVRED
 * **Autonomous Warfare:** Drone autonomy and hypersonic development are active procurement priorities.
 * **Space Infrastructure:** The Space Development Agency and commercial space are building persistent low-earth orbit constellations for communications and intelligence.
 * **Orbital Data Centers:** A structural subset of the "Edge AI" theme. As terrestrial data centers face land and power constraints, the orbital data center market is emerging as an edge compute frontier. This requires vertically integrated satellite-compute-rocket platforms and specialized thermal management systems to handle AI-dense critical loads in orbit.
+* **"Combat-Ready Force" Doctrine (2026):** Space Force's structural shift from rhetoric to execution, focusing on maneuverable and refuelable orbital assets to counter contested environments.
 
 ### Recent Signals & Developments
+* **Global X Space Tech ETF ($ORBX, 2026):** Launch of the first passively managed "pure-play" space tech ETF amid a wave of sector IPOs and interest in orbital compute.
+* **Turion Space Series B ($75M, 2026):** Validating the structural demand for maneuverable satellite fleets in a "combat-ready" orbital domain.
 * **US Space Investment Policy Anchor (2026):** The US government has set a structural goal to attract at least **$50 billion of new investment** in American space markets by 2028. This serves as a multi-year policy tailwind for the sector, similar to the CHIPS Act.
 * **Structural Bottlenecks Acknowledged (2026):** Industry leaders and policymakers have cautioned that capital alone cannot solve the sector's structural bottlenecks, emphasizing that speed and near-perfect execution are the primary gating factors for the industry's resurgence.
 * **Amazon Acquires Globalstar ($11.57B, April 2026):** Amazon is acquiring Globalstar for $11.57 billion, consolidating a major LEO satellite-to-cellular constellation under a hyperscaler umbrella. Confirms the strategic value of LEO communications infrastructure and marks Amazon as a direct structural player in the space theme alongside its AWS data center buildout. (Source: Fierce Network, April 2026)
