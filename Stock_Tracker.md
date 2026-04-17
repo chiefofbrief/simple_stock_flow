@@ -6,7 +6,7 @@
 |--------|--------|------------|----------|---------------|--------|-------------|-------|
 | **AXON** | Industrials / Aerospace & Defense | $30.60B | 2026-04-14 | Earnings | PASS | AXON_Thesis.md | 2026-04-14 |
 | **HIMS** | — | — | — | — | — | — | — |
-| **ADBE** | Technology | | 2026-04-15 | Price & Earnings | PASS | ADBE_Thesis.md | 2026-04-15 |
+| **ADBE** | Technology | | 2026-04-17 | Synthesis | BUY | ADBE_Thesis.md | 2026-04-15 |
 | AIG | — | — | — | — | — | — | — |
 | CRM | — | — | — | — | — | — | — |
 | IT | — | — | — | — | — | — | — |

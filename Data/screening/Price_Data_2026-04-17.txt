@@ -1,0 +1,31 @@
+PRICE CONTEXT — 2026-04-17
+Tickers: ADBE
+
+Ticker |   Price | vs1Y | vs2Y | vs3Y | vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+------+------+------+------+------+---------+---------+------------+---------+---------
+  ADBE | $248.16 | -34% | -46% | -34% | -51% | 0.24 |    +0.3 |     12% |          - |    +32% |   -11.8%
+----------------------------------------
+
+Recent Trend: ADBE
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-04-16 | $248.16 |  +2.1%
+2026-03-31 | $243.08 |  -7.4%
+2026-02-27 | $262.41 | -10.5%
+2026-01-30 | $293.25 | -16.2%
+2025-12-31 | $349.99 |  +9.3%
+2025-11-28 | $320.13 |  -5.9%
+2025-10-31 | $340.31 |  -3.5%
+2025-09-30 | $352.75 |  -1.1%
+2025-08-29 | $356.70 |  -0.3%
+2025-07-31 | $357.69 |  -7.5%
+2025-06-30 | $386.88 |  -6.8%
+2025-05-30 | $415.09 | +10.7%
+
+LEGEND:
+CV (Coeff. Variation): Volatility relative to price. Higher = more volatile.
+Z-Score: Std devs of recent 1mo return vs history. <-2.0 is anomalous drop.
+52w Pos: Position in 52-week range. 0% = Low, 100% = High.
+Drop/MaxDD: Recent 1mo drop as % of worst 5yr drawdown. >80% = nearing historic worst.
+Revert↑: Upside if price reverts to 1yr average.
+
