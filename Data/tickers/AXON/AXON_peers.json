@@ -2,55 +2,55 @@
   {
     "symbol": "CMI",
     "companyName": "Cummins Inc.",
-    "price": 616.52,
-    "mktCap": 85181485800
+    "price": 624.49,
+    "mktCap": 86282660850
   },
   {
     "symbol": "CNI",
     "companyName": "Canadian National Railway Company",
-    "price": 111.745,
-    "mktCap": 68408619194
+    "price": 110.705,
+    "mktCap": 67771946735
   },
   {
     "symbol": "FDX",
     "companyName": "FedEx Corporation",
-    "price": 370.97,
-    "mktCap": 88515948273
+    "price": 389.52,
+    "mktCap": 92942103597
   },
   {
     "symbol": "HEI",
     "companyName": "HEICO Corporation",
-    "price": 298.3,
-    "mktCap": 41517058114
+    "price": 294.365,
+    "mktCap": 40969389245
   },
   {
     "symbol": "LHX",
     "companyName": "L3Harris Technologies, Inc.",
-    "price": 354.25,
-    "mktCap": 66168903304
+    "price": 352.64011,
+    "mktCap": 65868198559
   },
   {
     "symbol": "PCAR",
     "companyName": "PACCAR Inc",
-    "price": 124.76,
-    "mktCap": 65610590709
+    "price": 127.2548,
+    "mktCap": 66922592165
   },
   {
     "symbol": "PWR",
     "companyName": "Quanta Services, Inc.",
-    "price": 595.01,
-    "mktCap": 89024801190
+    "price": 600.145,
+    "mktCap": 89793094755
   },
   {
     "symbol": "TDG",
     "companyName": "TransDigm Group Incorporated",
-    "price": 1296.46,
-    "mktCap": 73215715487
+    "price": 1286.7,
+    "mktCap": 72664533512
   },
   {
     "symbol": "URI",
     "companyName": "United Rentals, Inc.",
-    "price": 768.865,
-    "mktCap": 48437070293
+    "price": 807.23,
+    "mktCap": 50853995010
   }
 ]

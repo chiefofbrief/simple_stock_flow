@@ -10,11 +10,12 @@
 *   **Corporate Resilience vs. Macro Doomerism:** While `context_markets.md` notes a tension between geopolitical doomerism and corporate strength, Adobe is the proof-point. With $10B+ in OCF and a 1.46x OCF/NI ratio, its "economic reality" (per `GEMINI.md`) is far superior to its depressed $240 price.
 *   **The "Revenue Imperative" Vanguard:** As `context_sectors.md` identifies a $600B revenue gap needed to justify AI CapEx, Adobe is already bridging it. Firefly ARR (> $250M) and its pivot to "Generative Engine Optimization" (Semrush/GEO) validate that the app-layer is successfully monetizing the "AI Compute Demand Reality."
 *   **Reflexive Moat Protection:** Adobe is using the "Fertile Fallacy"—the market's belief that AI kills SaaS—to aggressively repurchase 6% of its shares at a discount. This self-reinforcing "anti-dilution" engine increases the value of remaining shares while the company builds an "Agentic Web" monopoly.
-*   **The "Big Short" Anchor:** Michael Burry’s entry (April 2026) serves as a critical contrarian signal, validating that the P/E of ~10x represents a generational "value floor" similar to the Great Recession entry points cited in our research.
+*   **Contrarian Validation (Burry):** Michael Burry’s April 2026 long position is a notable data point — a concentrated value investor flagging the same dislocation. It is corroborating evidence, not a thesis anchor. Position size is unknown and Burry has been early or wrong before.
 
 **Bear Case**
 *   **Localized vs. Systemic Erosion:** The primary risk is that the "steeper than expected" decline in Stock imagery (Q1 26) is the "canary in the coal mine" for the Creative Cloud ARR, rather than an isolated shift.
-*   **Succession Execution Gap:** Transitioning from an 18-year "steady hand" to an unknown leader during an "inference shift" (`context_sectors.md`) could lead to strategic drift or a loss of enterprise trust.
+*   **Succession Execution Gap:** Transitioning from an 18-year "steady hand" to an unknown leader during an "inference shift" (`context_sectors.md`) could lead to strategic drift or a loss of enterprise trust. The bull case is implicitly betting on Wadhwani becoming CEO — that is an unresolved binary outcome, not a minor footnote.
+*   **Q4 FY2025 EPS Miss:** The most significant near-term fundamental event in the dataset — actual EPS of $4.45 vs. $5.40 estimated (17.6% miss) — drove the January 2026 crash (-16.2% monthly return). The thesis must be able to explain this miss, not treat it as noise. It is either a one-time disruption or an early signal of core earnings pressure.
 *   **Regulatory "Maze":** The ongoing FTC ROSCA lawsuit remains an unresolved "negative float" on sentiment, with 2026 discovery schedules promising a persistent headline risk.
 
 **Thesis Invalidation**
@@ -56,7 +57,7 @@ Adobe's earnings quality is exceptional, with a TTM OCF/NI ratio of 1.46x. Histo
 Working capital has shifted into negative territory ($-1.00B TTM). In the context of a mature SaaS business, this is a signal of high efficiency (negative float), where customer prepayments (deferred revenue) fund growth without consuming Adobe's own cash reserves.
 
 **Operating Leverage**
-Adobe exhibits high operating leverage (2.77 in 2025). As Firefly adoption scales, incremental revenue will flow almost entirely to the bottom line, providing significant upside potential if the AI narrative shifts from a threat to a growth catalyst.
+Adobe reported high operating leverage of 2.77x in 2025, but this metric has the widest variance in the dataset (CV: 1.12) and the 2025 figure is best understood as a snap-back from a compressed 0.13x in 2024, itself driven by Figma-related costs. It is not a stable structural feature and should not be extrapolated as evidence of a persistent margin ramp. The underlying margin quality (36.6% operating margin) is the better signal.
 
 **Capital Expenditures & D&A**
 Adobe is a capital-light powerhouse. CapEx is only 24.5% of D&A (TTM), well below the "maintenance mode" threshold of 1.0x. This indicates that Adobe does not need to reinvest significantly in physical assets to maintain its competitive position.
@@ -97,8 +98,10 @@ Adobe's core cash-generating power remains elite, backed by a massive $22B backl
 **NEUTRAL/MONITOR.** The Q1 FY2026 and Q4 FY2025 calls confirm that Adobe is navigating a "messy middle" AI pivot, characterized by a localized "melting ice cube" in its traditional stock business but explosive growth in its top-of-funnel and new AI-first revenue streams.
 
 #### Analysis
-**1. Does management's characterization of the business align with previous analyses — or are there notable deflections, omissions, or contradictions?**
+**1. Does management’s characterization of the business align with previous analyses — or are there notable deflections, omissions, or contradictions?**
 Management’s narrative shifted from "AI as a direct multiplier" (Q4 FY25) to "AI as a destructive force requiring a pivot" (Q1 FY26). In Q4, the focus was on the **"incredible unlock"** of Firefly Foundry, with a specific example of a 70% revenue step-up in a $10M enterprise deal (Wadhwani). However, by Q1, the narrative was forced to account for the **"steeper decline"** in the traditional Stock business, which is **"happening faster than expected"** (Durn). There is a subtle contradiction in usage metrics: QoQ credit consumption growth slowed from **3x (300%)** in Q4 to **45%** in Q1. While still growing, this "deceleration of the surge" was not addressed by management as a slowdown, but rather as "strong momentum."
+
+**Q4 FY2025 EPS Miss (critical event):** The Q4 FY2025 actual EPS of **$4.45 vs. $5.40 estimated** represents a 17.6% miss — the most significant earnings shortfall in this dataset. This is the proximate cause of the January 2026 sell-off (-16.2% in a single month). Management’s Q4 call language around the "foundation for FY 2026" reads as overconfident in retrospect. This miss must be contextualized before the thesis can conclude that the dislocation is entirely sentiment-driven: a portion of it reflects genuine fundamental disappointment. The Q1 FY2026 beat ($6.06 vs. $5.87 est.) partially rehabilitates this, but a single quarter is insufficient to declare the miss an anomaly. Note also that the next-quarter analyst estimate ($5.83) is below Q1’s actual — analysts covering the stock in real time are not projecting sequential momentum.
 
 **2. Are there any explanations that add meaningful context to specific findings from the previous analyses?**
 The "Agentic Web" strategy is the most significant new context. Management is pivoting from "content creation" to "brand visibility in LLMs." In Q1, Anil Chakravarthy revealed that **"traffic to retail sites from LLMs increased nearly 7x"** during the 2025 holidays, with these visitors converting **31% higher** and generating **254% more revenue**. This explains the $1.9B Semrush acquisition: Adobe is attempting to own the "Generative Engine Optimization" (GEO) market. This adds a critical "growth" layer to our LOSER thesis—Adobe isn't just defending its moat; it's attacking the new AI-search funnel.
@@ -135,7 +138,7 @@ The $1.9B all-cash acquisition is expected to close in **H1 2026** (Q2). No "sec
 **Google Stitch** (March 18, 2026) is a significant new threat, allowing "plain-language" to high-fidelity UI conversion. **Figma** has also stabilized following its **Figma Weave** AI integration (Feb 5, 2026) and now boasts $1B in ARR and 13M users.
 
 **New Material:**
-*   **Michael Burry Long Position:** Reported April 13, 2026. Scion Asset Management has taken a new long position in ADBE, providing a massive contrarian "Big Short" validation of the value floor.
+*   **Michael Burry Long Position:** Reported April 13, 2026. Scion Asset Management has taken a new long position in ADBE. This is a corroborating signal that the valuation dislocation is visible to concentrated value investors — not a thesis-defining anchor. Position size is not publicly available and Burry's track record includes material early entries.
 *   **Adobe Animate Discontinued:** Sales to stop **March 1, 2026**. This is a major "legacy cleanup" move to refocus R&D on AI, despite significant backlash from the animation community.
 *   **Zero-Day Exploit (CVE-2026-34621):** A critical exploited flaw in Acrobat/Reader was patched on April 16, 2026. Standard operational risk but required an "emergency" response.
 
@@ -143,4 +146,21 @@ The $1.9B all-cash acquisition is expected to close in **H1 2026** (Q2). No "sec
 The research phase resolves the "management upheaval" question—it is a managed but uncertain transition led by Frank Calderoni, with David Wadhwani as the "AI-native" favorite. The FTC lawsuit remains a persistent, multi-year regulatory risk with no settlement in sight. However, the thesis is significantly strengthened by **Michael Burry’s entry** and the aggressive rollout of the **Firefly AI Assistant**, which pivots Adobe from a "Stock imagery" provider to a "GenAI agent" platform. The cannibalization of Stock is real, but Adobe is systematically "clearing the decks" (e.g., discontinuing Animate) to fund its AI offensive.
 
 ### Synthesis
-*Pending finalization.*
+
+**Verdict: Initial position warranted. Full sizing requires two additional data points.**
+
+The quantitative case for ADBE is among the strongest in this pipeline. A 11.7x P/E against a 3yr average of 26.7x, $10.5B in annual FCF, 1.46x OCF/NI, and Debt/OCF of 0.63x combine to produce a genuine margin of safety at $248. The business is not broken — $26.1B ARR (+11%), $22.2B RPO (+13%), and 88%+ gross margins all confirm that the subscription base is intact and the "melting ice cube" narrative is overstated.
+
+The LOSER classification holds. The market is extrapolating a localized disruption (Stock imagery) to the entire creative platform, compounded by a CEO transition and a high-profile earnings miss. These are identifiable, potentially temporary dislocations in a brand-name stock — the exact conditions the framework is designed to exploit.
+
+**However, two unresolved questions prevent full conviction:**
+
+1. **The Q4 FY2025 EPS miss ($4.45 vs. $5.40 est.) has not been fully explained.** One beat (Q1 FY2026) does not confirm it was a one-off. A second consecutive in-line or beat quarter — with no ARR deceleration — would confirm the miss was noise. Until then, the possibility that it reflects early-stage earnings pressure from the Stock drag, AI cost absorption, or both cannot be dismissed.
+
+2. **CEO succession is unresolved.** The bull case depends heavily on continuity of the AI roadmap, which in practice means Wadhwani (or a comparable AI-native executive) taking the CEO role. An external appointment with an enterprise/cost-focus orientation would be a material thesis risk, not just a sentiment headwind.
+
+**Position sizing:** The margin of safety is sufficient to justify an initial position now. The 9.5% FCF yield provides genuine downside protection. Full sizing should be gated on (a) Q2 FY2026 EPS confirming no further earnings deterioration and (b) CEO appointment that preserves the AI product roadmap.
+
+**Semrush/GEO:** The $1.9B acquisition is an unproven option. Do not include it in the base case valuation. If GEO proves to be a real market, it is upside; if not, the cash cost is manageable against $10B+ annual FCF.
+
+**Monitor:** Total ARR growth (invalidation below 8%), Wadhwani's role post-CEO announcement, and Q2 FY2026 EPS vs. the $5.83 consensus estimate.

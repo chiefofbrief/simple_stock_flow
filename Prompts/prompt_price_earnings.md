@@ -119,14 +119,17 @@ Upon explicit user approval, update `Peter's Digest/Screening/Screening_{DATE}.m
 
 **After all tickers in the batch are committed:**
 4. Update the Status section: `Price & Earnings: Complete`.
-5. Present a final summary of all candidates that passed:
+5. Present a final summary for all tickers screened — both passed and filtered. For each, provide a brief recommendation on next steps (PIPELINE, WATCHLIST, or DROP) with one-sentence rationale. Then ask the user to decide:
 
 ```
-Screening complete. The following candidates passed:
-- TICKER1 (LOSER)
-- TICKER2 (TAILWIND)
-...
-Run prompt_screening_completion.md for each to initialize thesis files and update the tracker.
+Screening complete. Recommended next steps:
+
+- TICKER1: PIPELINE — [rationale]
+- TICKER2: WATCHLIST — [rationale]
+- TICKER3: DROP — [rationale]
+
+For each ticker you want to keep, please confirm: PIPELINE, WATCHLIST, or DROP.
+Run prompt_screening_completion.md for any ticker going to PIPELINE or WATCHLIST.
 ```
 
-**STOP. Wait for user approval before committing.**
+**STOP. Wait for user decisions before proceeding.**

@@ -551,7 +551,11 @@ def main():
         raw_dir = get_data_directory(t, target)
         ensure_directory_exists(raw_dir)
         save_json(raw_data['annual']['income'], os.path.join(raw_dir, f"{t}_income_annual.json"))
+        save_json(raw_data['annual']['balance'], os.path.join(raw_dir, f"{t}_balance_annual.json"))
+        save_json(raw_data['annual']['cash_flow'], os.path.join(raw_dir, f"{t}_cashflow_annual.json"))
         save_json(raw_data['quarterly']['income'], os.path.join(raw_dir, f"{t}_income_quarterly.json"))
+        save_json(raw_data['quarterly']['balance'], os.path.join(raw_dir, f"{t}_balance_quarterly.json"))
+        save_json(raw_data['quarterly']['cash_flow'], os.path.join(raw_dir, f"{t}_cashflow_quarterly.json"))
         print(f"  Raw data saved to {raw_dir}")
 
         # Process & save metrics

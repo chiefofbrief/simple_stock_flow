@@ -273,38 +273,36 @@ def extract_section_text(html_content, start_pattern, end_patterns):
     Returns:
         Extracted section text
     """
-    # Strip XBRL tags
-    html_clean = re.sub(r'<(ix|xbrli):[^>]*>.*?</(ix|xbrli):[^>]*>', '', html_content, flags=re.DOTALL)
+    # Strip XBRL tags but keep their content
+    html_clean = re.sub(r'</?(ix|xbrli):[^>]*>', '', html_content)
 
     # Extract text from HTML
     parser = TextExtractor()
     parser.feed(html_clean)
     full_text = '\n'.join(parser.text)
     
-    # Normalize whitespace for robust searching
+    # Normalize whitespace for robust searching only
     # This helps when headers are split across lines or have inconsistent spacing
     normalized_text = re.sub(r'\s+', ' ', full_text)
-    
-    # Use normalized text for searching and extraction
-    target_text = normalized_text
-    
+
     # Find the start pattern in normalized text
-    start_matches = list(re.finditer(start_pattern, target_text, re.IGNORECASE))
-    
+    start_matches = list(re.finditer(start_pattern, normalized_text, re.IGNORECASE))
+
     if not start_matches:
         # Fallback: try finding in original text if normalized fails (rare but possible)
-        # This handles cases where whitespace was significant for the regex
-        target_text = full_text
-        start_matches = list(re.finditer(start_pattern, target_text, re.IGNORECASE))
+        start_matches = list(re.finditer(start_pattern, full_text, re.IGNORECASE))
+        search_text = full_text
+    else:
+        search_text = normalized_text
 
     if not start_matches:
         return ""
 
     # Locate the best start match (skipping TOCs)
-    text_length = len(target_text)
+    text_length = len(search_text)
     threshold = text_length * 0.95
     valid_matches = [m for m in start_matches if m.start() < threshold]
-    non_toc_matches = [m for m in valid_matches if not _is_toc_entry(target_text, m.start())]
+    non_toc_matches = [m for m in valid_matches if not _is_toc_entry(search_text, m.start())]
 
     candidates = non_toc_matches if non_toc_matches else valid_matches
     if not candidates:
@@ -313,31 +311,39 @@ def extract_section_text(html_content, start_pattern, end_patterns):
     # SELECTION LOGIC:
     # 1. For Notes sections, look for the match followed by "NOTE 1" (proximity check)
     # 2. For MD&A, the last non-TOC match is usually the actual section (original working behavior)
-    
+
     if "NOTES" in start_pattern.upper() or "FINANCIAL" in start_pattern.upper():
-        chosen_start_pos = candidates[-1].start() # Default to last if proximity fails
-        # Look for "NOTE 1" or "Note 1" within 500 characters of the header
+        chosen_start_match = candidates[-1]
         for match in candidates:
-            snippet = target_text[match.start():match.start() + 500]
+            snippet = search_text[match.start():match.start() + 500]
             if re.search(r'NOTE\s+1\.', snippet, re.IGNORECASE):
-                chosen_start_pos = match.start()
+                chosen_start_match = match
                 break
     else:
-        # For MD&A, use the last candidate (original behavior)
-        chosen_start_pos = candidates[-1].start()
-    
-    start_pos = chosen_start_pos
+        chosen_start_match = candidates[-1]
+
+    # Map the position found in search_text back to full_text using the matched keyword
+    # so the output preserves the original line structure
+    start_keyword = chosen_start_match.group(0)
+    full_text_match = re.search(re.escape(start_keyword), full_text, re.IGNORECASE)
+    if full_text_match:
+        start_pos = full_text_match.start()
+        output_text = full_text
+    else:
+        # Fallback: use normalized position and text
+        start_pos = chosen_start_match.start()
+        output_text = search_text
 
     # Find earliest end marker after start
     end_positions = []
     for end_pattern in end_patterns:
-        end_match = re.search(end_pattern, target_text[start_pos + 50:], re.IGNORECASE)
+        end_match = re.search(end_pattern, output_text[start_pos + 50:], re.IGNORECASE)
         if end_match:
             end_positions.append(start_pos + 50 + end_match.start())
 
-    end_pos = min(end_positions) if end_positions else len(target_text)
+    end_pos = min(end_positions) if end_positions else len(output_text)
 
-    return target_text[start_pos:end_pos].strip()
+    return output_text[start_pos:end_pos].strip()
 
 def _section_stats(text):
     """Calculate basic statistics for an extracted section"""

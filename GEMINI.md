@@ -81,6 +81,7 @@ A misconception is always involved. What makes it durable is that it is reinforc
 
 | Step | Phase | Script | Prompt | Reads | Writes | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **0. Tracker Update** | Maintenance | `tracker_update.py` | — | `Stock_Tracker.md` | `Stock_Tracker.md`, `{TICKER}_price.json`, `{TICKER}_earnings.json` | Run weekly. Populates market data columns (price, P/E, EPS CAGR, beats, etc.) for all PIPELINE and WATCHLIST tickers via FMP. |
 | **1a. Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | News APIs | `Markets_Digest_{DATE}.md` | Run daily. Updates `context_markets.md`. |
 | **1b. Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_digest_sectors.md` | News APIs | `Sectors_Digest_{DATE}.md` | Run when sector developments warrant. Updates `context_sectors.md`. |
 | **2. Daily Screening** | Screening | — | `prompt_daily_screening.md` | Digests, User Input | `Screening_{DATE}.md` | Reads digest outputs from steps 1a/1b. Produces candidate list. |
@@ -96,7 +97,7 @@ A misconception is always involved. What makes it durable is that it is reinforc
 
 ## Core Tracking
 For a complete breakdown of all files, **always consult `index.md`**. Key tracking files include:
-- **`Stock_Tracker.md`**: Tracks all candidates across phases in two tables — LOSERS and TAILWINDS.
+- **`Stock_Tracker.md`**: Central tracker with three sections — PIPELINE (active analysis, both LOSERs and TAILWINDs), WATCHLIST (continuous monitoring, awaiting entry signal), and Trade Tracker (open positions). Market data columns are refreshed weekly by `tracker_update.py`.
 - **`Screening_{DATE}.md`**: The daily screening file. Captures candidates, enriched context, and price/earnings screening results.
 - **`context_markets.md`**: Rolling market context — macro conditions, prevailing narratives, recurring signals. Updated daily via the Markets Digest flow.
 - **`context_sectors.md`**: Sector context, structural dynamics, and companies of interest. Updated when meaningful developments warrant it.

@@ -61,63 +61,52 @@ Read the following before doing anything else:
 
 ### Required Context
 Read the following before doing anything else:
-- `Stock_Tracker.md` — Review the current LOSERS table, TAILWINDS table, and Next Steps before proposing any changes.
+- `Stock_Tracker.md` — Review the current PIPELINE and WATCHLIST tables before proposing any changes.
 
-### Classification
-From the `Peter's Digest/Screening/Screening_{DATE}.md` candidate entry for `{TICKER}`, identify whether it is classified as `[LOSER]`, `[TAILWIND]`, or both. This determines which table(s) to update.
+### Destination
+The user has already decided whether `{TICKER}` goes to **PIPELINE** or **WATCHLIST**. This should have been confirmed at the end of `prompt_price_earnings.md`. If not confirmed, ask before proceeding.
 
 ### Scope Guidelines
 - **Fidelity:** All updates must reflect the actual screening results — no assumptions or outside judgments.
-- **Display Scope:** Only the **LOSERS table** and **TAILWINDS table** (as applicable) are updated in this step. Trade Tracker is not touched.
+- **Scope:** Only PIPELINE or WATCHLIST is updated in this step. Trade Tracker is not touched.
+- **Market data columns** (Mkt Cap, Price, vs_3M, vs_1Y, 52w_below, Price CAGR (5yr), P/E, EPS CAGR, Beats (4Q), Fwd Delta, Next Earnings): Leave as `—`. These are populated by `Scripts/tracker_update.py`.
 
-### Formatting Instructions
+### Column Population
 
-**LOSERS Table** *(if `{TICKER}` is classified `[LOSER]` or both)*
+**Shared columns (both PIPELINE and WATCHLIST):**
+- **Ticker:** Stock symbol.
+- **Tag:** `LOSER` or `TAILWIND` — from the candidate classification in `Screening_{DATE}.md`.
+- **Origin:** `Primary` if directly flagged. `via [TICKER]` if added as a peer of another stock.
+- **Sector Theme:** For TAILWINDs, the matching sector from `context_sectors.md` (e.g., `AI — Compute & Chips`, `Defense & Aerospace`). Leave blank for LOSERs unless a sector clearly applies.
+- **Mkt Cap through Next Earnings:** Set all to `—`.
+- **Status:** `PASS` (PIPELINE) or `WATCHING` (WATCHLIST).
+- **Thesis:** `{TICKER}_Thesis.md` if a thesis file was initialized in Step 1, otherwise `—`.
 
-Add a new row with the following columns:
-- **Ticker:** Use the ticker symbol.
-- **Sector:** From the Sector field in the `Peter's Digest/Screening/Screening_{DATE}.md` candidate entry.
-- **Market Cap:** From the Market Cap field in the `Peter's Digest/Screening/Screening_{DATE}.md` candidate entry.
-- **Last Run:** Set to the current session date.
-- **Current Phase:** Set to `Price & Earnings`.
-- **Status:** Set to `PASS`.
-- **Thesis File:** Set to `{TICKER}_Thesis.md`.
-- **Added:** Set to the current session date.
-
-**TAILWINDS Table** *(if `{TICKER}` is classified `[TAILWIND]` or both)*
-
-Add a new row with the following columns:
-- **Ticker:** Use the ticker symbol.
-- **Sector Theme:** From the Sector Theme field in the `Peter's Digest/Screening/Screening_{DATE}.md` candidate entry.
-- **Market Cap:** From the Market Cap field in the `Peter's Digest/Screening/Screening_{DATE}.md` candidate entry.
-- **Original Trigger:** If the ticker was directly flagged in the digest, use the ticker itself. If it was added as a peer of another ticker, use that parent ticker.
-- **Peers (Unscreened):** From the Peers field in the `Peter's Digest/Screening/Screening_{DATE}.md` candidate entry, excluding any tickers already present in the TAILWINDS table.
-- **Last Run:** Set to the current session date.
-- **Current Phase:** Set to `Price & Earnings`.
-- **Status:** Set to `PASS`.
-- **Thesis File:** Set to `{TICKER}_Thesis.md`.
-- **Added:** Set to the current session date.
+**PIPELINE-only columns:**
+- **Phase:** `Price & Earnings`.
+- **Last Run:** Current session date.
+- **Added:** Current session date.
 
 ### Deliverable
 
 **Questions:**
-1. **Table Check:** Has `{TICKER}` been added to the correct table(s) — LOSERS, TAILWINDS, or both — with all columns populated correctly?
-2. **Scope Check:** Are changes limited strictly to the LOSERS table and TAILWINDS table?
+1. **Destination Check:** Has the user confirmed whether `{TICKER}` goes to PIPELINE or WATCHLIST?
+2. **Row Check:** Are all columns populated correctly per the instructions above?
+3. **Scope Check:** Are changes limited strictly to PIPELINE or WATCHLIST — Trade Tracker untouched?
 
 **Required Output Format:**
-- **Proposed LOSERS Table Row** *(if applicable)*:
 
-| Ticker | Sector | Market Cap | Last Run | Current Phase | Status | Thesis File | Added |
-| :----- | :----- | :--------- | :------- | :------------ | :----- | :---------- | :---- |
-| **{TICKER}** | [Sector] | [Market Cap] | [Date] | Price & Earnings | PASS | {TICKER}_Thesis.md | [Date] |
+*If PIPELINE:*
+| Ticker | Tag | Origin | Sector Theme | Mkt Cap | Price | vs_3M | vs_1Y | 52w_below | Price CAGR (5yr) | P/E | EPS CAGR | Beats (4Q) | Fwd Delta | Next Earnings | Phase | Last Run | Status | Thesis | Added |
+| :----- | :-- | :----- | :----------- | :------ | :---- | :---- | :---- | :-------- | :--------------- | :-- | :------- | :--------- | :-------- | :------------ | :---- | :------- | :----- | :----- | :---- |
+| {TICKER} | [Tag] | [Origin] | [Theme or —] | — | — | — | — | — | — | — | — | — | — | — | Price & Earnings | [Date] | PASS | [Thesis or —] | [Date] |
 
-- **Proposed TAILWINDS Table Row** *(if applicable)*:
-
-| Ticker | Sector Theme | Market Cap | Original Trigger | Peers (Unscreened) | Last Run | Current Phase | Status | Thesis File | Added |
-| :----- | :----------- | :--------- | :--------------- | :----------------- | :------- | :------------ | :----- | :---------- | :---- |
-| **{TICKER}** | [Theme] | [Market Cap] | [Trigger] | [Peers] | [Date] | Price & Earnings | PASS | {TICKER}_Thesis.md | [Date] |
+*If WATCHLIST:*
+| Ticker | Tag | Origin | Sector Theme | Mkt Cap | Price | vs_3M | vs_1Y | 52w_below | Price CAGR (5yr) | P/E | EPS CAGR | Beats (4Q) | Fwd Delta | Next Earnings | Status | Thesis |
+| :----- | :-- | :----- | :----------- | :------ | :---- | :---- | :---- | :-------- | :--------------- | :-- | :------- | :--------- | :-------- | :------------ | :----- | :----- |
+| {TICKER} | [Tag] | [Origin] | [Theme or —] | — | — | — | — | — | — | — | — | — | — | — | WATCHING | [Thesis or —] |
 
 - **Action:** Ask: *"Do you approve these Tracker updates for {TICKER}?"*
-- **Commit:** Upon approval, write all updates to `Stock_Tracker.md`.
+- **Commit:** Upon approval, write the row to `Stock_Tracker.md`.
 
 **STOP. Wait for user approval before committing.**

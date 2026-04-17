@@ -8,7 +8,7 @@ These files establish the rules of the system and track its outputs.
 *   `index.md` - (You are here) The master directory map.
 *   `GEMINI.md` - The foundational rulebook. Contains the Workflow Overview, Design Philosophy, Analysis Philosophy & Guidelines, and Workflow Steps.
 *   `api_index.md` - Comprehensive map of available APIs (FMP, Alphavantage, Perigon, SociaVault) and their specific endpoints for live data.
-*   `Stock_Tracker.md` - Tracks all candidates across phases in two tables — LOSERS and TAILWINDS.
+*   `Stock_Tracker.md` - Central tracker with three sections: PIPELINE (active analysis), WATCHLIST (continuous monitoring, awaiting entry signal), and Trade Tracker (open positions). Market data columns refreshed weekly by `tracker_update.py`.
 *   `context_markets.md` - Rolling market context — macro conditions, prevailing narratives, and recurring signals. Updated daily via the Markets Digest flow.
 *   `context_sectors.md` - Sector context, structural dynamics, and companies of interest across all tracked sectors. Includes AI overarching context and per-sector signals.
 
@@ -45,6 +45,8 @@ The Python automation layer that fetches data, calls the LLM, and writes the out
 *   `footnotes.py` - Fetches 10-K/10-Q text and triggers `prompt_footnotes.md`.
 *   `earnings_calls.py` - Fetches call transcripts and triggers `prompt_earnings_calls.md`.
 *   `research.py` - Fetches Perigon and FMP news data and triggers `prompt_research.md`.
+
+*   `tracker_update.py` - Weekly maintenance script. Fetches market data (price, P/E, EPS CAGR, beat streak, forward delta, next earnings, market cap) for all tickers in `Stock_Tracker.md` via FMP and writes metrics back in-place. Usage: `python Scripts/tracker_update.py` (all tickers) or `python Scripts/tracker_update.py AXON TSM` (specific tickers).
 
 ### Shared Utilities
 *   `shared_utils.py` - Core toolkit imported by all scripts (handles API requests, dynamic company name lookups, token counting, file I/O, etc.).
