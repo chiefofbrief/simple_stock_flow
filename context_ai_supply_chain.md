@@ -7,21 +7,22 @@ A layer-by-layer map of the AI supply chain for investment research. Each layer 
 ---
 
 ## Stack Overview
-| Stack Overview | Description |
+
+| Layer | Description |
 | :--- | :--- |
-| [ 1. Raw Materials & Mining                ] | ← upstream inputs |
-| [ 2. Semiconductor Equipment & EDA/IP      ] | ← fabrication tools, chip design software |
-| [ 3. Foundries & Advanced Packaging        ] | ← wafer production, chip assembly |
-| [ 4. Compute Silicon                       ] | ← GPUs, CPUs, custom ASICs |
-| [ 5. Memory Silicon                        ] | ← HBM, DRAM, NAND |
-| [ 6. Networking & Custom Silicon           ] | ← merchant silicon, ASICs, SmartNICs |
-| [ 7. Optical & Physical Connectivity       ] | ← transceivers, switches, fiber cable |
-| [ 8. Power Generation & Grid               ] | ← turbines, fuel cells, grid equipment |
-| [ 9. Data Center Infrastructure            ] | ← buildings, cooling, power delivery |
-| [ 10. Hyperscalers & Cloud                 ] | ← demand drivers, platform builders |
-| [ 11. Neoclouds                            ] | ← pure-play AI compute providers |
-| [ 12. Physical AI & Robotics               ] | ← edge inference, autonomous systems |
-| [ 13. AI-Native Applications               ] | ← vertical software, data, agents |
+| [ 1. Raw Materials & Mining ] | ← upstream inputs |
+| [ 2. Semiconductor Equipment & EDA/IP ] | ← fabrication tools, chip design software |
+| [ 3. Foundries & Advanced Packaging ] | ← wafer production, chip assembly |
+| [ 4. Compute Silicon ] | ← GPUs, CPUs, custom ASICs |
+| [ 5. Memory Silicon ] | ← HBM, DRAM, NAND |
+| [ 6. Networking & Custom Silicon ] | ← merchant silicon, ASICs, SmartNICs |
+| [ 7. Optical & Physical Connectivity ] | ← transceivers, switches, fiber cable |
+| [ 8. Power Generation & Grid ] | ← turbines, fuel cells, grid equipment |
+| [ 9. Data Center Infrastructure ] | ← buildings, cooling, power delivery |
+| [ 10. Hyperscalers & Cloud ] | ← demand drivers, platform builders |
+| [ 11. Neoclouds ] | ← pure-play AI compute providers |
+| [ 12. Physical AI & Robotics ] | ← edge inference, autonomous systems |
+| [ 13. AI-Native Applications ] | ← vertical software, data, agents |
 
 ---
 
@@ -50,18 +51,18 @@ The AI infrastructure buildout is in peak execution mode. Capital is no longer t
 | Layer | Status | Key Signal | Highest-Conviction Names |
 |---|---|---|---|
 | 1. Raw Materials & Mining | Tightening | Rare earth ex-China prices at 5x premium; uranium demand building | MP, CCJ, FCX |
-| 2. Semiconductor Equipment & EDA/IP | Tightening | TSMC CapEx driving multi-year order books; N2/A16 buildout sustained through decade | ASML, LRCX, KLAC, AMAT, CDNS, SNPS |
-| 3. Foundries & Advanced Packaging | **Shortage** | N3 utilization on track to exceed 100% H2 2026; all major AI accelerators converged on same node | TSM, AMKR |
-| 4. Compute Silicon | **Shortage** | GPU compute sold out through Aug–Sep 2026; Blackwell lead times to Jun–Jul 2026 | NVDA, AMD |
+| 2. Semiconductor Equipment & EDA/IP | Tightening | TSMC CapEx at high end of $52–56B range; N2/A16 buildout sustained through decade | ASML, LRCX, KLAC, AMAT, CDNS, SNPS |
+| 3. Foundries & Advanced Packaging | **Shortage** | N3 utilization on track to exceed 100% H2 2026; Q2 revenue +32% YoY at 65.5–67.5% gross margin | TSM, AMKR |
+| 4. Compute Silicon | **Shortage** | GPU compute sold out through Aug–Sep 2026; used H200 systems appreciating in value | NVDA, AMD |
 | 5. Memory Silicon | **Shortage** | HBM capacity constrained; DRAM +60% / NAND +70% QoQ contract pricing forecast Q2 2026 | MU, HXSCL |
 | 6. Networking & Custom Silicon | Tightening | ASIC share rising 27.8% → ~40% by 2030; design win pipelines accelerating | AVGO, MRVL |
-| 7. Optical & Physical Connectivity | **Shortage** | Transceiver demand doubling 2026; fiber prices spiking; 2–3yr supply contracts being signed | COHR, GLW, ANET |
+| 7. Optical & Physical Connectivity | **Shortage** | Transceiver demand doubling 2026; hyperscaler-backed fiber expansion into secondary markets | COHR, GLW, ANET |
 | 8. Power Generation & Grid | Tightening → Shortage | Gas turbine prices spiking; grid moratoriums forcing behind-the-meter generation | GEV, BE, ETN |
-| 9. Data Center Infrastructure | Tightening | Construction labor tapped out; liquid cooling now mandatory; <10% of US inventory AI-dense | VRT, TH |
-| 10. Hyperscalers & Cloud | Silicon-constrained | CapEx roughly doubled vs. prior forecasts; would spend more if supply allowed | AMZN, GOOGL, MSFT, META |
-| 11. Neoclouds | Supply tight | Market flipped to seller-controlled; 20%+ prepays; $21B Meta/CoreWeave anchors deal scale | CRWV, NBIS |
-| 12. Physical AI & Robotics | Early buildout | Edge inference chip demand emerging; humanoid cost curves falling | NVDA (Jetson), QCOM |
-| 13. AI-Native Applications | Demand strong | Application layer validating; compute-constrained not demand-constrained | PLTR, CRWD, NOW |
+| 9. Data Center Infrastructure | Tightening | Construction labor tapped out; liquid cooling mandatory; dielectric fluid supply now a gating risk | VRT, TH |
+| 10. Hyperscalers & Cloud | Silicon-constrained | CapEx roughly doubled vs. prior forecasts; hardware inflation passing through to end users | AMZN, GOOGL, MSFT, META |
+| 11. Neoclouds | Supply tight | Market flipped to seller-controlled; demand broadening beyond Big Tech to enterprise finance | CRWV, NBIS |
+| 12. Physical AI & Robotics | Early buildout | Tesla AI5 tape-out confirms dedicated custom silicon demand vector for physical AI | NVDA (Jetson), QCOM |
+| 13. AI-Native Applications | Demand strong | Daily token calls 100B (early 2024) → 140T (March 2026); compute-constrained not demand-constrained | PLTR, CRWD, NOW |
 
 ### Where Constraints Are Heading
 
@@ -139,6 +140,7 @@ The tools and software that make chip fabrication possible — and the IP that u
 
 ### Recent Developments
 
+* **TSMC CapEx at High End of Guidance (April 2026):** TSMC confirmed 2026 CapEx will hit the high end of its $52–56B range, focused heavily on AI and HPC. Provides exact quantitative backing for the multi-year equipment order book thesis — capital flow from Layer 3 to Layer 2 remains at peak levels.
 * **ASML-Mistral Strategic Partnership (September 2025):** ASML invested $1.5B (11%) in Mistral AI — a direct investment at the other end of the supply chain, signaling equipment makers are taking positions in the application layer as vertical integration accelerates across the stack.
 * **N2/A16 Node Buildout Driving Multi-Year Order Books (2025–2026):** TSMC CapEx exceeded its prior peak in 2025 for the first time, generating multi-year equipment order visibility. N2/A16 qualification timelines are the primary gating factor for the next equipment upgrade cycle.
 
@@ -164,19 +166,21 @@ Wafer fabrication and chip assembly — the physical manufacturing layer and the
 
 ### Persistent Themes
 
-**TSMC's N3 monopoly on AI silicon is the single most acute constraint in the stack.** NVDA Rubin, AMD MI400, Google TPU v7/v8, AWS Trainium3, and Meta MTIA have all converged on N3 simultaneously. AI-related silicon is consuming approximately 60% of N3 wafer output in 2026, modeled to reach 86% by 2027 — nearly entirely squeezing out smartphone and CPU wafers. TSMC cannot expand cleanroom space fast enough; their CapEx only exceeded its prior peak in 2025, and they were caught flat-footed by the pace of AI demand. This gives TSMC exceptional pricing power and creates structural overflow demand for advanced packaging alternatives. *Watch: TSMC N3 utilization disclosures; capacity commentary at earnings.*
+**TSMC's N3 monopoly on AI silicon is the single most acute constraint in the stack.** NVDA Rubin, AMD MI400, Google TPU v7/v8, AWS Trainium3, and Meta MTIA have all converged on N3 simultaneously. AI-related silicon is consuming approximately 60% of N3 wafer output in 2026, modeled to reach 86% by 2027 — nearly entirely squeezing out smartphone and CPU wafers. TSMC cannot expand cleanroom space fast enough; their CapEx only exceeded its prior peak in 2025, and they were caught flat-footed by the pace of AI demand. This gives TSMC exceptional pricing power — N3 margins are projected to exceed the corporate average in H2 2026. *Watch: TSMC N3 utilization disclosures; capacity commentary at earnings.*
 
-**Advanced packaging is becoming a distinct, high-value sub-layer.** CoWoS and SoIC packaging are no longer commodity back-end services — they are performance-critical steps that TSMC is increasingly internalizing. OSAT companies (AMKR, ASX) benefit from overflow as TSMC's internal capacity is insufficient to meet demand. CoWoS constraints are easing as N3 wafer availability becomes the dominant bottleneck; CoWoS is being outsourced to OSATs. *Watch: CoWoS capacity allocation announcements; TSMC OSAT outsourcing volumes.*
+**Advanced packaging is becoming a distinct, high-value sub-layer.** CoWoS and SoIC packaging are no longer commodity back-end services — they are performance-critical steps that TSMC is increasingly internalizing. OSAT companies (AMKR, ASX) benefit from overflow as TSMC's internal capacity is insufficient to meet demand. CoWoS is being outsourced to OSATs as N3 wafer availability becomes the dominant bottleneck; CoPoS is the next-generation architecture targeting mass production 2028–2029. *Watch: CoWoS capacity allocation announcements; CoPoS pilot line progress; TSMC OSAT outsourcing volumes.*
 
-**Foundry diversification is a structural theme, not a near-term reality.** Intel 18A and Samsung 2nm are the only credible N3 alternatives. Intel yields remain below 50%; Samsung has yield gaps vs. TSMC. Government subsidies (CHIPS Act, EU Chips Act) are accelerating domestic fab buildout but commercially viable alternatives are a 2027+ story at best. *Watch: Intel 18A yield disclosures — any improvement is a high-signal event for the diversification thesis.*
+**Foundry diversification is a structural theme, not a near-term reality.** Intel 18A and Samsung 2nm are the only credible N3 alternatives. Intel yields remain below 50%; Samsung 2nm yields are stuck in the mid-50% range against TSMC's reported 80–90% at the same node. Government subsidies (CHIPS Act, EU Chips Act) are accelerating domestic fab buildout but commercially viable alternatives are a 2027+ story at best. *Watch: Intel 18A yield disclosures — any improvement is a high-signal event for the diversification thesis.*
 
 ### Recent Developments
 
-* **Industry N3 Convergence (2026):** Every major AI accelerator platform converged on TSMC N3 simultaneously — NVIDIA (Rubin on 3NP), AMD (MI350X/MI400 on N3), Google (TPU v7 on N3E, TPU v8 on N3), AWS (Trainium3 on N3P), Meta (MTIA on N3). This is the structural driver of the N3 capacity squeeze.
-* **Intel 18A Yield & Delay Reports (April 2026):** Yield issues below 50% on Intel 18A for Clearwater Forest and Diamond Rapids threaten mass production timelines, potentially pushing delivery into 2027 — a competitive opening for TSMC-based EPYC Venice and confirmation that foundry diversification remains a 2027+ story.
-* **Samsung 2nm Yield Struggles (April 2026):** Samsung Foundry 2nm yields stalled at approximately 55%, below the ~60% mass production threshold. Qualcomm selected TSMC N2P for its next-generation Snapdragon. Samsung retains Tesla AI5/AI6 programs but the yield gap concretely anchors TSMC's competitive moat.
-* **Intel EMIB-T & TSMC US Packaging Acceleration (2026–2028):** Intel in active discussions with Google and Amazon to provide EMIB-T advanced packaging for their ASIC programs; commitments targeted for H2 2026 with customers reportedly willing to prepay in the billions. Intel CFO highlighted advanced packaging as the "more interesting part" of Foundry with ~40% gross margin potential. TSMC accelerating its US advanced packaging facility — construction beginning Q2 2026, one quarter ahead of schedule, targeting operations late 2027–2028, deploying SoIC, CoW, and CoPoS technologies.
-* **Broadcom-Google Long-Term Agreement (2026–2031):** Broadcom entered a long-term agreement with Google to develop and supply future generations of custom AI chips and rack components through 2031 — further reducing Google's NVDA dependency and entrenching the AVGO-GOOGL relationship. See also Layer 6.
+* **TSMC Q2 2026 Guidance: Pricing Power and N2 Ramp (April 2026):** TSMC guided Q2 2026 revenue to $39.0–40.2B (+32% YoY, +10% QoQ) with gross margins of 65.5–67.5%. N3 margins are projected to exceed the corporate average in H2 2026 — concrete financial proof of extreme pricing power amid the shortage. The N2 ramp beginning H2 2026 will dilute full-year gross margins by 2–3%, as will overseas fab expansion — quantifying the steep cost of geographic diversification.
+* **TSMC CoWoS Expansion & CoPoS Roadmap (April 2026):** TSMC is targeting 115,000–140,000 CoWoS wafers per month by end of 2026, rising to ~170,000 by 2027. The CoPoS pilot line is confirmed for June 2026, with mass production targeted 2028–2029. CoPoS is architecturally necessary to overcome traditional packaging size limits for increasingly massive AI ASICs and GPUs.
+* **Industry N3 Convergence (2026):** Every major AI accelerator platform converged on TSMC N3 simultaneously — NVIDIA (Rubin on 3NP), AMD (MI350X/MI400 on N3), Google (TPU v7 on N3E, TPU v8 on N3), AWS (Trainium3 on N3P), Meta (MTIA on N3). The structural driver of the N3 capacity squeeze.
+* **Samsung 2nm Yield Gap vs. TSMC (April 2026):** Samsung 2nm yields are stuck in the mid-50% range; TSMC has reportedly reached 80–90% at the same node. Samsung's Taylor, Texas fab is past 90% mass production readiness targeting H2 2026 ramp for Tesla AI5/AI6, but the yield gap confirms TSMC's frontier monopoly remains intact. Qualcomm selected TSMC N2P for its next-generation Snapdragon.
+* **Tesla-Intel "Terafab" Initiative (April 2026):** Tesla is partnering with Intel to build its own wafer fab targeting silicon chip production around 2029. Tesla has initiated direct outreach to AMAT, LRCX, and Tokyo Electron for equipment. The most extreme extension of the custom silicon thesis — an AI end-user attempting to internalize physical manufacturing. TSMC's response noting 3–5 year build-to-ramp cycles highlights the structural timeline constraints on breaking foundry monopolies. See also Layer 2.
+* **Intel EMIB-T & TSMC US Packaging Acceleration (2026–2028):** Intel in active discussions with Google and Amazon to provide EMIB-T advanced packaging for their ASIC programs; commitments targeted for H2 2026 with customers reportedly willing to prepay in the billions. Intel CFO highlighted advanced packaging as the "more interesting part" of Foundry with ~40% gross margin potential. TSMC accelerating its US advanced packaging facility — construction beginning Q2 2026, one quarter ahead of schedule, targeting operations late 2027–2028.
+* **Broadcom-Google Long-Term Agreement (2026–2031):** Broadcom entered a long-term agreement with Google to develop and supply future generations of custom AI chips and rack components through 2031. See also Layer 6.
 
 ### Companies
 
@@ -208,6 +212,7 @@ The chips that run AI workloads — GPUs for training and inference, CPUs for or
 
 ### Recent Developments
 
+* **Used H200 Systems Appreciating in Value (April 2026):** In the Chinese market, a used H200 system purchased for RMB 2.45M in February 2025 is now valued at RMB 3M after more than a year of operation — a 20%+ appreciation. Compute hardware typically depreciates rapidly; appreciation on used one-year-old servers is the ultimate proof of a severe, unyielding supply constraint that overrides normal hardware economics.
 * **GPU Spot Pricing: Supply Exhaustion (Q1–Q2 2026):** H100 1-year rental contracts rose approximately 40% from $1.70/hr (October 2025 trough) to $2.35/hr (March 2026). On-demand capacity effectively sold out across all GPU types; p6-b200 spot instances on AWS trading at $14/hr. Blackwell lead times extend to June–July 2026; all capacity through August–September committed. Existing H100 contracts being renewed at original rates for 4-year extensions through 2028. Two large AWS customers independently asked to purchase every Graviton instance available in 2026 — AWS declined.
 * **Nvidia Vera Standalone Launch (2026):** Nvidia decoupled the Vera CPU (Olympus architecture) for standalone sales to capture the structural demand surge in agentic server configurations. Early partners include Alibaba, Cloudflare, CoreWeave, and Nscale.
 * **Arm AGI CPU Launch (2026):** Arm's historic pivot from IP licensing to direct silicon — a 136-core CPU built on TSMC N3, with Meta as co-developer and inaugural customer; OpenAI, Cerebras, and Cloudflare also adopting. Liquid-cooled performance differential: 45,000+ cores/rack vs. 8,000+ air-cooled — a 5x gap illustrating the liquid cooling performance premium.
@@ -236,7 +241,7 @@ The memory that feeds AI workloads — HBM for accelerator bandwidth, DRAM for s
 
 **HBM is the highest-conviction structural theme in memory.** High Bandwidth Memory is not a commodity — it is a performance-critical, capacity-constrained component with differentiated technology and LTA pricing. HBM absorbs approximately 3x more DRAM wafer capacity per bit than commodity DRAM — widening to approximately 4x with HBM4. HBM content per accelerator is growing rapidly: Rubin Ultra carries approximately 4x more HBM than Blackwell; TPU v8AX and Trainium3 migrating from 8-Hi to 12-Hi stacks. Every AI accelerator generation requires more HBM; the demand floor is structural. SK Hynix holds the technology lead as the primary HBM3E supplier to NVDA and Google. *Watch: HBM wafer allocation disclosures; HBM4 qualification timelines at NVDA; SK Hynix HBM yield commentary.*
 
-**Heterogeneous memory architecture is replacing one-size-fits-all DDR5.** The "one-size-fits-all" DDR5 model is giving way to a hierarchy tuned for specific workload phases: SRAM (ultra-fast, low-capacity, decode) → HBM (high bandwidth, prefill) → LPDDR5X (low-power, moving from mobile to servers) → DDR5 (general-purpose). In power- and cooling-constrained environments, memory has become an active design variable rather than a fixed component. This creates a multi-tier opportunity set across the memory supplier landscape. *Watch: LPDDR5X server adoption rates; SOCAMM production announcements.*
+**Heterogeneous memory architecture is replacing one-size-fits-all DDR5.** The "one-size-fits-all" DDR5 model is giving way to a hierarchy tuned for specific workload phases: SRAM (ultra-fast, low-capacity, decode) → HBM (high bandwidth, prefill) → LPDDR5X (low-power, moving from mobile to servers) → DDR5 (general-purpose). In power- and cooling-constrained environments, memory has become an active design variable rather than a fixed component. This creates a multi-tier opportunity set across the memory supplier landscape. *Watch: LPDDR5X and LPDDR6 server adoption rates; SOCAMM production announcements.*
 
 **LTA structuralization is reducing cyclicality for the best-positioned suppliers.** The memory market is shifting from quarterly contracts to 3–5 year Long-Term Agreements. Custom AI silicon locks in memory specs and volumes at the design stage, making early multi-year procurement commitments structurally necessary. LTAs are reserved for major CSPs — not offered broadly — reducing supplier cyclicality, improving CapEx visibility, and keeping long-term capacity committed to Big Tech. *Watch: LTA deal announcements and pricing terms; downside price floors as indicators of contract structure.*
 
@@ -244,11 +249,12 @@ The memory that feeds AI workloads — HBM for accelerator bandwidth, DRAM for s
 
 ### Recent Developments
 
+* **LPDDR6 Commercial Rollout for Edge AI (April 2026):** Tesla's AI6 and AI6.5 chips will adopt LPDDR6 memory, with commercial rollout expected H2 2026. LPDDR6 delivers 10.6–14.4 Gbps bandwidth — approximately 1.5x higher than LPDDR5X. Samsung is joining SK Hynix in this supply chain starting with AI6. The memory upgrade cycle extends beyond data center HBM into edge AI, opening a distinct high-bandwidth TAM and giving Samsung a meaningful foothold while it struggles with HBM yields.
 * **DRAM/NAND Contract Pricing Inflection (Q1–Q2 2026):** LPDDR5X and DDR5 contract prices tracking approximately 4–5x year-on-year increases. Q2 2026 DRAM and NAND contract pricing forecast at +60% and +70% QoQ respectively — confirming the memory shortage is acute and broad-based.
 * **HBM4 Strategy Divergence (2026):** Samsung chasing 80% yields on 1c-based HBM4 using a performance-first SF4 logic base die. SK Hynix trimmed HBM4 shipments by 30% due to Rubin delays, redirecting capacity to HBM3E — a near-term tactical adjustment, not a strategic retreat.
-* **DDR5 Margin Flip (2026):** Micron reported non-HBM (DDR5) margins now exceeding HBM profitability, projecting 81% gross margin in Q3 FY26 as HBM3E oversupply and Rubin delays temporarily shift pricing power to commodity DRAM. An unusual dynamic illustrating volatility within the layer even amid broad shortage conditions.
+* **DDR5 Margin Flip (2026):** Micron reported non-HBM (DDR5) margins now exceeding HBM profitability, projecting 81% gross margin in Q3 FY26 as HBM3E oversupply and Rubin delays temporarily shift pricing power to commodity DRAM.
 * **Memory LTA Deals Accelerating (H1 2026):** Micron secured its first 5-year strategic customer agreement (March 2026) and is in active discussions with multiple clients. Samsung adopted a strict 3-year minimum LTA policy for all new contracts, with late-stage negotiations with AMD, Microsoft, and Google. SK Hynix pursuing a 5–7 year LTA with Google for commodity DRAM and a 3-year DDR5 LTA with Microsoft valued at "tens of trillions of won." Deals include downside price floors and 10–30% upfront prepays.
-* **SOCAMM Adoption (2026):** Emergence of SOCAMM (Small Outline Compression Attached Memory Module) for LPDDR5X in servers — bridging high efficiency with serviceability to enable LPDDR5X's transition from mobile to production server environments without the "soldered" maintenance penalty. If production traction is achieved, opens a new addressable market and creates disruption risk for legacy DDR5 configurations.
+* **SOCAMM Adoption (2026):** Emergence of SOCAMM for LPDDR5X in servers — bridging high efficiency with serviceability to enable LPDDR5X's transition from mobile to production server environments without the "soldered" maintenance penalty. If production traction is achieved, opens a new addressable market and creates disruption risk for legacy DDR5 configurations.
 
 ### Companies
 
@@ -256,7 +262,7 @@ The memory that feeds AI workloads — HBM for accelerator bandwidth, DRAM for s
 |---|---|---|
 | MU | Micron Technology | Only US-headquartered memory supplier; HBM3E ramp and DDR5 margin expansion are near-term catalysts; LTA deals reducing cyclicality |
 | HXSCL | SK Hynix | HBM technology leader (primary HBM3E supplier to NVDA/Google); highest leverage to HBM demand cycle |
-| SSNLF | Samsung Electronics | Memory #1 by volume but lagging SK Hynix on HBM yields; aggressive HBM4 push is the recovery thesis |
+| SSNLF | Samsung Electronics | Memory #1 by volume but lagging SK Hynix on HBM yields; LPDDR6 edge AI supply chain entry is the near-term recovery foothold |
 
 ---
 
@@ -274,7 +280,7 @@ Merchant networking chips, SmartNICs, and custom ASICs — the silicon that move
 
 ### Recent Developments
 
-* **Nvidia "Full Stack" Interconnect Strategy (2026):** Nvidia secured architectural control over the interconnect layer via $6B in strategic investments in Marvell, Coherent, and Lumentum — ensuring third-party custom chips remain dependent on Nvidia-defined NVLink Fusion and CPO frameworks. Partly offensive infrastructure play, partly defensive moat protection.
+* **Nvidia "Full Stack" Interconnect Strategy (2026):** Nvidia secured architectural control over the interconnect layer via $6B in strategic investments in Marvell, Coherent, and Lumentum — ensuring third-party custom chips remain dependent on Nvidia-defined NVLink Fusion and CPO frameworks.
 * **Broadcom-Google Long-Term Agreement (2026–2031):** Broadcom entered a long-term agreement with Google to develop and supply future generations of custom AI chips and rack components through 2031. See also Layer 3.
 * **Amazon Custom Silicon Revenue Scale (2026):** Amazon's in-house silicon tracking $20B+ annual revenue; Jassy confirmed exploring external rack sales with ~$50B run rate potential.
 
@@ -301,13 +307,14 @@ The physical layer connecting AI clusters — optical transceivers, networking s
 
 **The copper vs. optical debate has real TAM implications.** Copper interconnects remain a competing solution at shorter link distances. Hyperscaler preference between copper and optical at varying link lengths is an ongoing structural debate — resolution will materially affect the addressable market for optical transceiver suppliers. *Watch: hyperscaler preference shifts at different link lengths.*
 
-**Fiber cable is the most overlooked beneficiary in the layer.** New AI data centers are increasingly sited in tier-two markets for power availability. Backhauling traffic requires dedicated fiber and wave buildouts along routes that previously had no infrastructure. Lumen has identified dozens of new data center clusters across the US requiring fiber, wave, and IP services and is actively building a specialized AI fabric. Corning dominates fiber cable manufacturing and is a direct, underfollowed beneficiary. Dark fiber buildout for multi-datacenter AI training factories — requiring dedicated, high-capacity point-to-point links — adds a second demand vector distinct from general data center networking. *Watch: data center construction permits in secondary markets as a leading fiber demand indicator; dark fiber and wave buildout pace in non-traditional markets.*
+**Fiber cable is the most overlooked beneficiary in the layer.** New AI data centers are increasingly sited in tier-two markets for power availability. Backhauling traffic requires dedicated fiber and wave buildouts along routes that previously had no infrastructure. Lumen has identified dozens of new data center clusters across the US requiring fiber, wave, and IP services and is actively building a specialized AI fabric. Corning dominates fiber cable manufacturing and is a direct, underfollowed beneficiary. Dark fiber buildout for multi-datacenter AI training factories adds a second demand vector distinct from general data center networking. *Watch: data center construction permits in secondary markets as a leading fiber demand indicator; dark fiber and wave buildout pace in non-traditional markets.*
 
 ### Recent Developments
 
-* **Optical Transceiver Sales Doubling (2026):** LightCounting forecasts Ethernet optical transceiver sales for AI clusters to double in 2026 — a concrete demand signal tied directly to AI cluster buildout pace.
-* **Fiber Optic Demand Surge (Q1 2026):** Fiber optic cables explicitly cited alongside GPUs, DRAM, and NAND as components experiencing price spikes — confirms the infrastructure buildout is pressuring the full networking supply chain, not just compute and memory.
-* **Coherent-Lite Adoption (2026):** Emergence of O-band "Coherent-Lite" transceivers for 10–40km "Campus Reach" links, reducing power by 50% vs. traditional coherent optics — a meaningful efficiency improvement for the growing rural data center buildout.
+* **Hyperscaler-Backed Fiber Expansion (April 2026):** Zayo announced an 8,000 route-mile (15 million fiber-mile) network expansion directly backed by a major AI infrastructure customer, connecting power-available secondary markets (Reno, Omaha, Columbus) to established hubs (Ashburn, Chicago). AI bandwidth demand is projected to grow 6x by 2030. Hyperscalers are now directly bankrolling US internet backbone expansion to connect power-constrained secondary markets — structurally validating dark fiber as a massive, distinct demand vector for GLW.
+* **Optical Transceiver Sales Doubling (2026):** LightCounting forecasts Ethernet optical transceiver sales for AI clusters to double in 2026.
+* **Fiber Optic Demand Surge (Q1 2026):** Fiber optic cables cited alongside GPUs, DRAM, and NAND as components experiencing price spikes — confirms the infrastructure buildout is pressuring the full networking supply chain.
+* **Coherent-Lite Adoption (2026):** Emergence of O-band "Coherent-Lite" transceivers for 10–40km "Campus Reach" links, reducing power by 50% vs. traditional coherent optics.
 * **Nvidia Full Stack Interconnect Investment (2026):** $6B strategic investment sweep across Marvell, Coherent, and Lumentum. See Layer 6 for full context.
 
 ### Companies
@@ -316,7 +323,7 @@ The physical layer connecting AI clusters — optical transceivers, networking s
 |---|---|---|
 | COHR | Coherent Corp | Vertically integrated optical components and transceivers; Nvidia $6B investment validates strategic position in AI interconnect stack |
 | ANET | Arista Networks | Dominant data center networking switch vendor; strong position in AI cluster Ethernet fabric |
-| GLW | Corning | Dominant fiber optic cable manufacturer; direct beneficiary of rural data center fiber demand surge; overlooked vs. component plays |
+| GLW | Corning | Dominant fiber optic cable manufacturer; direct beneficiary of rural data center fiber demand surge and hyperscaler-backed backbone expansion |
 | LITE | Lumentum | Optical components supplier; Nvidia strategic investment; exposure to both transceiver and CPO transition |
 | MRVL | Marvell Technology | Networking switch silicon; also listed under Layer 6 |
 | CSCO | Cisco Systems | Incumbent networking vendor; AI cluster opportunity but legacy business creates drag |
@@ -336,16 +343,16 @@ The energy infrastructure feeding AI data centers — gas turbines, fuel cells, 
 
 **Gas turbine oligopoly is pricing in the demand shock.** GE Vernova and Siemens Energy hold the oligopoly on large-scale gas turbine manufacturing. Lead times are extending and prices are spiking — a direct signal that generation equipment is becoming a binding infrastructure constraint. Order books are multi-year. *Watch: GEV and Siemens Energy order book disclosures at earnings.*
 
-**Behind-the-meter generation is becoming a structural theme, not a niche workaround.** Oracle's 2.8GW Bloom Energy fuel cell commitment is the largest known behind-the-meter power commitment to date — a signal that hyperscalers are accepting higher-cost on-site generation over grid interconnection uncertainty. This is not a gap-filler; it is becoming a mainstream response to structural grid constraints. *Watch: scale and pace of behind-the-meter commitments from hyperscalers; Bloom Energy order book.*
+**Behind-the-meter generation is becoming a structural theme, not a niche workaround.** Oracle's 2.8GW Bloom Energy fuel cell commitment is the largest known behind-the-meter power commitment to date — a signal that hyperscalers are accepting higher-cost on-site generation over grid interconnection uncertainty. *Watch: scale and pace of behind-the-meter commitments from hyperscalers; Bloom Energy order book.*
 
-**Nuclear is the preferred long-term baseload solution.** SMRs and nuclear PPAs are the favored long-term answer for AI campus power — zero-emission, always-on, high-density. AWS stood up 3.9GW of new power capacity in 2025 and expects to double its total power footprint by end of 2027. Cameco (uranium supply) and BWXT (reactor components) are the primary pure-play public exposures. Commercial SMR scale deployments remain years out but the policy and procurement pipeline is building. Government policy is stacking — OTA, the Reactor Pilot Program, and the White House space nuclear directive create a multi-front acceleration environment. *Watch: SMR design certifications; hyperscaler nuclear PPA announcements; uranium spot prices.*
+**Nuclear is the preferred long-term baseload solution.** SMRs and nuclear PPAs are the favored long-term answer for AI campus power — zero-emission, always-on, high-density. AWS stood up 3.9GW of new power capacity in 2025 and expects to double its total power footprint by end of 2027. Cameco (uranium supply) and BWXT (reactor components) are the primary pure-play public exposures. Commercial SMR scale deployments remain years out but the policy and procurement pipeline is building. *Watch: SMR design certifications; hyperscaler nuclear PPA announcements; uranium spot prices.*
 
-**The Midwest is absorbing overflow demand as primary markets hit grid limits.** Midwestern data centers constitute approximately one third of all US capacity and will account for more than half of new capacity coming online, driven by power scarcity in traditional Tier-1 markets. Secondary markets (New Albany, Atlanta) are absorbing demand that established markets can no longer accommodate. *Watch: data center siting announcements in secondary markets.*
+**The Midwest is absorbing overflow demand as primary markets hit grid limits.** Midwestern data centers constitute approximately one third of all US capacity and will account for more than half of new capacity coming online, driven by power scarcity in traditional Tier-1 markets. *Watch: data center siting announcements in secondary markets.*
 
 ### Recent Developments
 
 * **Gas Turbine Demand Spike (Q1 2026):** Gas turbines cited alongside GPUs, memory, and fiber as components experiencing price spikes — confirming power generation equipment is a binding constraint in the infrastructure buildout.
-* **Oracle Behind-the-Meter Commitment (April 2026):** Oracle committed to up to 2.8GW of Bloom Energy fuel cell power for US cloud infrastructure projects — the largest known behind-the-meter alternative power commitment to date. Signals grid constraints are severe enough to drive hyperscalers toward multi-gigawatt on-site generation.
+* **Oracle Behind-the-Meter Commitment (April 2026):** Oracle committed to up to 2.8GW of Bloom Energy fuel cell power for US cloud infrastructure projects — the largest known behind-the-meter alternative power commitment to date.
 * **AWS Power & CapEx Scale (2025–2027):** AWS stood up 3.9GW of new power capacity in 2025 and expects to double its total power footprint by end of 2027. AWS committed approximately $200B in CapEx in 2026, driven by concrete customer commitments, with monetization expected primarily in 2027–2028.
 * **White House Space Nuclear Policy (April 2026):** White House directing NASA, the Pentagon, and DoE to develop space nuclear power systems with a launch target as soon as 2028 — extending the nuclear mandate into space infrastructure alongside OTA and the Reactor Pilot Program.
 * **Midwest Data Center Geography Shift (2026):** Synergy Research Group tracking a pipeline of 803 DC projects; secondary markets absorbing demand Tier-1 markets can no longer accommodate. The Midwest projected to account for more than half of new US capacity coming online.
@@ -373,18 +380,21 @@ The physical facilities, cooling systems, and internal power delivery that house
 
 ### Persistent Themes
 
-**Liquid cooling is a structural upgrade cycle, not a product transition.** Less than 10% of existing US data center inventory supports AI-dense critical load. The retrofit and greenfield buildout required to support AI workloads creates a multi-year equipment cycle. Liquid cooling is now mandatory for high-density GPU deployments — traditional air cooling becomes unviable as advanced silicon processors approach 100°C reliable operating junction temperatures. This is not a technology debate; it is an operational requirement. *Watch: Vertiv backlog growth and lead times as the primary indicator; liquid cooling retrofit contract announcements.*
+**Liquid cooling is a structural upgrade cycle, not a product transition.** Less than 10% of existing US data center inventory supports AI-dense critical load. The retrofit and greenfield buildout required to support AI workloads creates a multi-year equipment cycle. Liquid cooling is now mandatory for high-density GPU deployments — traditional air cooling becomes unviable as advanced silicon processors approach 100°C reliable operating junction temperatures. *Watch: Vertiv backlog growth and lead times as the primary indicator; liquid cooling retrofit contract announcements.*
+
+**Dielectric fluid is the hidden supply chain bottleneck for liquid cooling.** The industry is entirely dependent on liquid cooling to run next-gen GPUs, making non-conductive dielectric fluid a mission-critical consumable. The dominant chemistry — 3M's Novec, a PFAS "forever chemical" — was withdrawn at end of 2025, forcing the data center supply chain into an abrupt chemical transition. Operators must now secure compliant alternatives (synthetics, plant-based, or highly refined petrochemicals) with a Global Warming Potential below 300, or high-density GPU deployments will stall. Running legacy PFAS fluids risks expensive forced phase-outs; securing next-gen fluids is now a gating factor for standing up new capacity. *Watch: regulatory phase-outs of existing fluid chemistries; supply bottlenecks for sub-300 GWP alternatives delaying cluster deployments.*
 
 **Data center REITs are experiencing the strongest leasing environment in their history.** Vacancy rates at or near record lows; new builds often pre-leased before construction begins; long-term leases renewing at higher rates. Hyperscalers are signing guaranteed 15–20 year leases — a structural shift in the nature and duration of demand commitments. Operators with established footprints, secured power contracts, and scalable land banks command premium pricing. *Watch: pre-lease rates on new builds; power contract security as a differentiator between operators.*
 
-**Construction labor and logistics are binding near-term constraints.** Building 2-gigawatt AI campuses requires specialized construction expertise that is currently fully committed. The DC supply chain is triggering approximately 8.46 million sq ft of logistics demand in Europe alone (~8,900 sq ft per MW) as suppliers take traditional warehouse space to support the buildout. Target Hospitality's workforce housing business is a direct proxy for data center construction activity. *Watch: data center construction permit activity in secondary markets.*
+**Construction labor and logistics are binding near-term constraints.** Building 2-gigawatt AI campuses requires specialized construction expertise that is currently fully committed. The DC supply chain is triggering approximately 8.46 million sq ft of logistics demand in Europe alone (~8,900 sq ft per MW). Target Hospitality's workforce housing business is a direct proxy for data center construction activity. *Watch: data center construction permit activity in secondary markets.*
 
 **Chip generation transitions create redesign risk and cost overruns.** When new chip generations require different power and cooling specifications, mid-build data center redesigns cause delays and cost overruns — amplifying the financial impact of bottlenecks across the stack. *Watch: new chip generation announcement timelines vs. data center build schedules.*
 
-**Water availability is an emerging operational dependency.** As liquid cooling becomes the baseline architecture, water availability and treatment quality become critical dependencies. Water quality failures (biological growth, corrosion, scaling) represent direct operational risk; facilities in water-constrained regions are already resorting to recycled water with on-site storage and treatment. *Watch: water stress indices for major data center markets.*
+**Water availability is an emerging operational dependency.** As liquid cooling becomes the baseline architecture, water availability and treatment quality become critical dependencies. Water quality failures represent direct operational risk; facilities in water-constrained regions are already resorting to recycled water with on-site storage and treatment. *Watch: water stress indices for major data center markets.*
 
 ### Recent Developments
 
+* **Agentic AI Infrastructure Management (April 2026):** Equinix launched Fabric Intelligence, upgrading its interconnection fabric into a multi-agent system using model context protocol (MCP) — deploying specialized agents to dynamically provision and spin network capacity up or down based on traffic spikes. Lumen Technologies is deploying a parallel agentic network strategy with Blue Planet. Agentic AI is now actively managing physical infrastructure, not just running on it — turning passive network layers into programmable, sticky AI systems and deepening colocation moats. See also Layer 13.
 * **Neocloud Market Power Shift (Late 2025–2026):** Before late 2025, GPU rental pricing was competitive. By early 2026, neoclouds and hyperscalers are firmly in control — demanding 20%+ prepays, longer contract terms, and setting deployment timelines on their own schedule.
 * **Midwest Geography Shift (2026):** Midwestern data centers constitute approximately one third of US capacity and will account for more than half of new capacity coming online. See Layer 8 for full context.
 * **Microsoft/Nscale Capacity Grab (April 2026):** Microsoft secured 30,000 Nvidia Rubin GPUs in Norway after OpenAI dropped out — indicating a catch-up phase in hyperscale capacity after previous spending curbs.
@@ -397,7 +407,7 @@ The physical facilities, cooling systems, and internal power delivery that house
 | VRT | Vertiv Holdings | Dominant data center power and cooling infrastructure; liquid cooling transition is a direct structural tailwind; highest leverage to AI-dense facility buildout |
 | ETN | Eaton Corporation | Power management and UPS systems; inside-the-fence electrical infrastructure for data centers; also in Layer 8 |
 | DLR | Digital Realty | Data center REIT; long-term lease structure benefits from AI demand shock; stable income with AI demand tailwind |
-| EQIX | Equinix | Colocation and interconnection REIT; network-dense facilities and carrier-neutral hubs |
+| EQIX | Equinix | Colocation and interconnection REIT; network-dense facilities and carrier-neutral hubs; agentic infrastructure management deepening platform moat |
 | TH | Target Hospitality | Workforce housing for large construction projects; direct proxy for data center construction labor demand |
 | SBGSY | Schneider Electric | Power management and data center automation; European equivalent to Eaton/Vertiv |
 | JCI | Johnson Controls | Cooling and building management systems; AI data center cooling exposure alongside legacy HVAC |
@@ -414,19 +424,20 @@ The integrated demand drivers, infrastructure builders, model developers, and pl
 
 ### Persistent Themes
 
-**Vertical integration into custom silicon is a structural margin decision, not a supply hedge.** AWS estimates Trainium saves tens of billions of CapEx dollars per year and delivers several hundred basis points of operating margin advantage for inference. Every hyperscaler is building custom silicon (Trainium/Graviton, TPU, Cobalt) to reduce NVDA dependency and capture the margin currently flowing to Nvidia. Amazon's in-house silicon is already tracking $20B+ annual revenue. This is not opportunistic — it is a permanent structural shift in the economics of AI compute. *Watch: custom silicon adoption rate as share of total AI compute spend; Trainium/TPU/Cobalt performance vs. NVDA benchmarks.*
+**Vertical integration into custom silicon is a structural margin decision, not a supply hedge.** AWS estimates Trainium saves tens of billions of CapEx dollars per year and delivers several hundred basis points of operating margin advantage for inference. Every hyperscaler is building custom silicon (Trainium/Graviton, TPU, Cobalt) to reduce NVDA dependency and capture the margin currently flowing to Nvidia. Amazon's in-house silicon is already tracking $20B+ annual revenue. *Watch: custom silicon adoption rate as share of total AI compute spend; Trainium/TPU/Cobalt performance vs. NVDA benchmarks.*
 
 **Platform lock-in is deepening as enterprise AI workloads go into production.** The cloud platform layer has high switching costs for enterprise AI workloads — different interfaces, proprietary APIs, egress fees that penalize migration. As enterprises embed AI into core workflows, the platform becomes sticky. The battle is for AI workload share, not just general compute — and switching costs compound with every production deployment. *Watch: enterprise AI workload production deployment announcements; egress fee and interoperability policy changes.*
 
-**The hyperscaler-AI lab relationship creates mutual dependency and exclusive interlocks.** Microsoft-OpenAI, Amazon-Anthropic, and Google-Anthropic partnerships bind AI labs into specific cloud infrastructure while giving hyperscalers preferred access to frontier model capabilities. These are not arm's-length commercial relationships — they are strategic interlocks that shape the competitive dynamics of both the cloud and model layers simultaneously. Anthropic's ~$80B projected cloud spend through 2029 is distributed across AWS, Azure, Google, and CoreWeave, illustrating the scale of committed demand these relationships represent. *Watch: AI lab cloud spend commitments; exclusivity terms in hyperscaler-lab partnerships.*
+**The hyperscaler-AI lab relationship creates mutual dependency and exclusive interlocks.** Microsoft-OpenAI, Amazon-Anthropic, and Google-Anthropic partnerships bind AI labs into specific cloud infrastructure while giving hyperscalers preferred access to frontier model capabilities. These are not arm's-length commercial relationships — they are strategic interlocks that shape the competitive dynamics of both the cloud and model layers simultaneously. Anthropic's ~$80B projected cloud spend through 2029 illustrates the scale of committed demand these relationships represent. *Watch: AI lab cloud spend commitments; exclusivity terms in hyperscaler-lab partnerships.*
 
-**CapEx commitments are silicon-constrained, not capital-constrained.** Hyperscaler CapEx for 2026 has roughly doubled from prior forecasts — Google the most extreme accelerator. The binding constraint has shifted from capital to silicon; hyperscalers would spend more if supply allowed. This inversion is important: it means demand is structurally stronger than CapEx figures suggest, and any silicon supply relief flows directly into additional spend. *Watch: CapEx guidance vs. actuals; hyperscaler commentary on silicon availability as the gating factor.*
+**CapEx commitments are silicon-constrained, not capital-constrained.** Hyperscaler CapEx for 2026 has roughly doubled from prior forecasts — Google the most extreme accelerator. The binding constraint has shifted from capital to silicon; hyperscalers would spend more if supply allowed. This means demand is structurally stronger than CapEx figures suggest, and any silicon supply relief flows directly into additional spend. *Watch: CapEx guidance vs. actuals; hyperscaler commentary on silicon availability as the gating factor.*
 
 ### Recent Developments
 
+* **Cloud Providers Pass Through Hardware Inflation (April 2026):** Chinese hyperscalers began raising prices for AI compute, signaling an end to subsidized market-share grabs. Alibaba Cloud raised rates for compute card offerings by 5–34% and storage by 30%; Tencent Cloud implemented a 5% hike across AI compute and container services. Broad-based hardware cost inflation (silicon, memory, optics) is being pushed to the application layer — and end-user demand is strong enough to absorb the price hikes.
 * **2026 CapEx Roughly Doubles Prior Forecasts:** Google the most extreme accelerator. Binding constraint has shifted from capital to silicon — hyperscalers are silicon-constrained, not capital-constrained.
 * **AWS Power & CapEx Scale (2025–2027):** AWS committed approximately $200B in CapEx in 2026, driven by concrete customer commitments. Monetization expected primarily in 2027–2028. AWS stood up 3.9GW of new power capacity in 2025 and expects to double its total power footprint by end of 2027.
-* **Amazon Custom Silicon Revenue Scale (2026):** Amazon's in-house silicon tracking $20B+ annual revenue; CEO Jassy confirmed exploring external rack sales with ~$50B run rate potential.
+* **Amazon Custom Silicon Revenue Scale (2026):** Amazon's in-house silicon tracking $20B+ annual revenue; Jassy confirmed exploring external rack sales with ~$50B run rate potential.
 * **Microsoft/Nscale Capacity Grab (April 2026):** Microsoft secured 30,000 Nvidia Rubin GPUs in Norway after OpenAI dropped out — a catch-up phase following previous spending curbs.
 * **Anthropic Cloud Spend Commitment (2026–2029):** Anthropic's projected total cloud spend approximately $80B through 2029, spanning CoreWeave, Google/Broadcom, Microsoft Azure, and AWS. Broadcom signed a deal to provide Anthropic approximately 3.5GW of AI compute capacity using Google's AI processors starting 2027.
 
@@ -449,15 +460,18 @@ Purpose-built AI compute providers — dedicated, liquid-cooled GPU clusters ope
 
 ### Persistent Themes
 
-**The market has flipped from competitive to seller-controlled.** Before late 2025, GPU rental pricing was competitive. By early 2026, neoclouds are firmly in control — demanding higher prepays, longer contract terms, and setting deployment timelines. CoreWeave's $21B Meta contract is the concrete scale anchor. Major AI labs are locking in 50–100MW clusters (~24,000–48,000 GB300 NVL72 GPUs) on 4–5 year terms; hyperscalers are backstopping deals in exchange for a share of project revenue — reinforcing the reflexive loop. *Watch: contract term length and prepayment requirements as pricing power indicators; mid-term GPU rental contract pricing as the most economically relevant demand signal.*
+**The market has flipped from competitive to seller-controlled.** Before late 2025, GPU rental pricing was competitive. By early 2026, neoclouds are firmly in control — demanding higher prepays, longer contract terms, and setting deployment timelines. CoreWeave's $21B Meta contract is the concrete scale anchor. Major AI labs are locking in 50–100MW clusters (~24,000–48,000 GB300 NVL72 GPUs) on 4–5 year terms; hyperscalers are backstopping deals in exchange for a share of project revenue. *Watch: contract term length and prepayment requirements as pricing power indicators; mid-term GPU rental contract pricing as the most economically relevant demand signal.*
 
-**Bridge financing risk is the primary downside.** Neoclouds frequently deploy GPUs before facilities are fully operational, relying on short-term bridge financing that assumes rapid time-to-revenue. Supply chain, construction, or power procurement slippage leaves GPU assets idle and makes refinancing extremely difficult. Only 22.8% of AI initiatives successfully meet their original ROI objectives in production — a reminder that enterprise demand validation is not guaranteed. Lenders are already scrutinizing utilization assumptions and long-term demand visibility. *Watch: neocloud debt refinancing terms; GPU delivery vs. facility readiness timelines; enterprise AI production adoption rates.*
+**Bridge financing risk is the primary downside.** Neoclouds frequently deploy GPUs before facilities are fully operational, relying on short-term bridge financing that assumes rapid time-to-revenue. Supply chain, construction, or power procurement slippage leaves GPU assets idle and makes refinancing extremely difficult. Only 22.8% of AI initiatives successfully meet their original ROI objectives in production. *Watch: neocloud debt refinancing terms; GPU delivery vs. facility readiness timelines.*
 
 **Purpose-built AI-dense inventory is structurally scarce.** Less than 10% of existing US data center inventory is capable of supporting true AI-dense critical load. The greenfield buildout required to serve this demand is a multi-year pipeline, creating durable demand for new capacity from qualified operators with established power contracts and liquid cooling infrastructure.
 
+**Demand is broadening beyond Big Tech and AI labs.** Enterprise verticals — specifically high-frequency finance — are now deploying capital at hyperscaler scale for frontier GPU cluster access. This broadens the neocloud demand base and further secures revenue visibility beyond the current concentrated customer set. *Watch: non-Big Tech enterprise neocloud contract announcements as demand broadening indicators.*
+
 ### Recent Developments
 
-* **CoreWeave $21B Meta Contract (April 2026):** CoreWeave's AI compute contract with Meta is the concrete scale anchor for individual neocloud deal size — and a direct validation of the multi-year contracted revenue model.
+* **Jane Street $6B CoreWeave Contract (April 2026):** Quantitative trading firm Jane Street signed a $6B AI cloud capacity deal with CoreWeave (incorporating Nvidia Vera Rubin hardware) and made a $1B equity investment at $109/share. Frontier-scale GPU cluster demand is expanding beyond Big Tech and AI labs into enterprise finance — a meaningful demand broadening signal that further secures neocloud revenue visibility.
+* **CoreWeave $21B Meta Contract (April 2026):** The concrete scale anchor for individual neocloud deal size and validation of the multi-year contracted revenue model.
 * **Long-Term Offtakes Accelerating (2026):** Major AI labs locking in 50MW–100MW clusters on 4–5 year terms. Hyperscalers backstopping deals in exchange for project revenue share.
 * **Anthropic-CoreWeave and Anthropic-Google/Broadcom Commitments:** Anthropic's ~$80B projected cloud spend through 2029 distributed across CoreWeave, Google/Broadcom, Microsoft Azure, and AWS — validating neocloud demand at the lab level.
 
@@ -465,7 +479,7 @@ Purpose-built AI compute providers — dedicated, liquid-cooled GPU clusters ope
 
 | Ticker | Company | One-line thesis |
 |---|---|---|
-| CRWV | CoreWeave | Largest neocloud; $21B Meta contract anchors multi-year revenue visibility; execution and refinancing risk are the key risks |
+| CRWV | CoreWeave | Largest neocloud; $21B Meta contract and $6B Jane Street deal anchor multi-year revenue visibility; execution and refinancing risk are the key risks |
 | NBIS | Nebius Group | European-focused AI cloud; infrastructure and compute platform; earlier stage than CoreWeave |
 | IREN | IREN Limited | Transitioning from bitcoin mining to AI compute; power infrastructure assets are the underlying value |
 
@@ -481,15 +495,15 @@ AI brought into the physical world — robotics, autonomous vehicles, drones, an
 
 **Falling compute costs and better AI models are unlocking robotics at scale.** Industrial robotics has been constrained for years by software limitations. Improved AI models combined with falling inference hardware costs are enabling robots to move beyond repetitive, structured tasks into variable environments. Nearly four million industrial robotic systems are already deployed globally; AI upgrades create a retrofit and expansion cycle on top of an existing installed base. Humanoid robot costs are falling toward approximately $50,000 per unit — a threshold that begins to enable broader commercial deployment. *Watch: AI-enabled industrial robot shipment data; humanoid cost curve benchmarks; autonomous vehicle commercial deployment milestones.*
 
-**Edge inference silicon is a growing and structurally distinct demand vector.** Physical AI systems require on-device inference — real-time processing of sensor data without cloud round-trips. Fiber latency physics constrain round-trip processing to approximately 1ms per 125 miles; AR/VR requires under 3ms while typical carrier targets are approximately 10ms — a gap only closable by local edge processing. This creates demand for chips optimized for edge inference (NVDA Jetson, Qualcomm AI chips) that is structurally separate from data center GPU demand and grows independently as autonomous systems scale. *Watch: edge AI chip shipment volumes; autonomous vehicle regulatory approvals.*
+**Edge inference silicon is a growing and structurally distinct demand vector.** Physical AI systems require on-device inference — real-time processing of sensor data without cloud round-trips. Fiber latency physics constrain round-trip processing to approximately 1ms per 125 miles; AR/VR requires under 3ms while typical carrier targets are approximately 10ms — a gap only closable by local edge processing. This creates demand for chips optimized for edge inference that is structurally separate from data center GPU demand and grows independently as autonomous systems scale. *Watch: edge AI chip shipment volumes; autonomous vehicle regulatory approvals.*
 
-**Defense and industrial reshoring are structural demand tailwinds.** Defense applications (surveillance, autonomous systems, logistics support) and industrial automation driven by reshoring create durable, less cyclical demand for physical AI systems. These customer bases have longer procurement cycles but more stable demand profiles than consumer robotics. The underlying edge AI technologies — sensor fusion, real-time optimization, local processing — are transferable across industrial, healthcare, and defense sectors. *Watch: defense autonomous systems procurement announcements; reshoring-driven factory automation CapEx.*
+**Defense and industrial reshoring are structural demand tailwinds.** Defense applications (surveillance, autonomous systems, logistics support) and industrial automation driven by reshoring create durable, less cyclical demand for physical AI systems. These customer bases have longer procurement cycles but more stable demand profiles than consumer robotics. *Watch: defense autonomous systems procurement announcements; reshoring-driven factory automation CapEx.*
 
 **Nvidia's simulation platform is a strategic position in physical AI training.** NVDA's Omniverse and Isaac platforms are used to generate synthetic training data for physical AI systems — robots, autonomous vehicles, industrial systems — before real-world deployment. This gives Nvidia a structural position in physical AI beyond edge inference chips: control over the training environment itself. *Watch: Omniverse/Isaac adoption rates among robotics developers.*
 
 ### Recent Developments
 
-*[TBD — needs primary research on humanoid robot deployments, AV commercial scale, edge AI chip shipment volumes]*
+* **Tesla AI5 Tape-out & Hardware Pipeline (April 2026):** Elon Musk confirmed the tape-out of Tesla's AI5 chip. Tesla is securing dedicated 2nm production capacity at Samsung's Taylor fab and transitioning to next-generation LPDDR6 memory for AI6 iterations. A major physical AI operator is driving its own dedicated custom silicon and memory demand vector entirely separate from the cloud data center buildout — filling a critical data gap for this layer.
 
 ### Companies
 
@@ -518,15 +532,15 @@ Software built on top of the AI stack — data infrastructure, AI agents, vertic
 
 **Cybersecurity is non-discretionary AI spend with a structurally expanding attack surface.** AI is simultaneously expanding the attack surface (more endpoints, more agents, more data flows) and enabling faster threat detection. CRWD and PANW are positioned as AI-native security platforms. Enterprises cannot defer this spending — it grows with AI adoption. *Watch: enterprise security budget allocation to AI-native platforms.*
 
-**Agentic AI is the next step-change in token demand and platform lock-in.** AI agents interacting autonomously with enterprise systems generate far larger token volumes than single-query interactions. As agentic workflows move from experimentation to production, they create a compounding demand multiplier for compute and a compounding lock-in effect for integrated platforms. Systems of record — the enterprise platforms where agentic AI must integrate — become the new switching cost moat. *Watch: agent workflow production deployment rates; enterprise platform integration depth; agentic token demand as share of total.*
+**Agentic AI is the next step-change in token demand and platform lock-in.** AI agents interacting autonomously with enterprise systems generate far larger token volumes than single-query interactions. As agentic workflows move from experimentation to production, they create a compounding demand multiplier for compute and a compounding lock-in effect for integrated platforms. Systems of record — the enterprise platforms where agentic AI must integrate — become the new switching cost moat. Agentic AI is now also managing physical infrastructure directly (see Layer 9), further expanding the scope of the workload shift. *Watch: agent workflow production deployment rates; enterprise platform integration depth; agentic token demand as share of total.*
 
 **The software disruption narrative has real credit market consequences.** AI tools create a narrative that enterprise software can be replicated or replaced. This tension is now affecting software companies' ability to refinance debt — a real credit market signal, not just a valuation narrative. The counter-argument centers on switching costs, network effects, deep integrations, and the difficulty of replicating embedded enterprise workflows at scale. *Watch: software company debt refinancing conditions as an early disruption signal.*
 
 ### Recent Developments
 
-* **Anthropic ARR Surge (Q1 2026):** Anthropic ARR surged from approximately $9B to over $30B in a single quarter — growth was compute-constrained, with actual demand exceeding available supply. Multi-agent workloads executing multi-step tasks with high concurrency are the primary driver. The most direct data point for application layer revenue validation.
-* **Agentic Token Demand Inflection (Q1 2026):** Multi-agent, multi-step workloads executing with high concurrency and continuous iteration are driving a structural step-change in token consumption. Broad-based demand signal: open models (GLM, Kimi K2.5) and native media generation platforms (Seedance) contributing alongside the major labs.
-* **Anthropic Exploring Custom Silicon (2026):** Anthropic in early-stage exploration of in-house chip design in response to compute shortage constraining Claude's growth — no committed design or dedicated team yet. Current training mix spans AWS Trainium, Google TPUs, and NVIDIA GPUs. Signals that even application layer companies are being pulled upstream by compute scarcity.
+* **Agentic Token Demand Inflection (Q1 2026):** China's National Data Administration reported daily token calls jumped from 100 billion in early 2024 to over 140 trillion by March 2026 — a approximately 1,000x increase — fueled by video generation (Seedance) and multi-step workflow agents (OpenClaw). Provides hard volumetric proof that the application layer is generating the massive end-user compute consumption required to validate the upstream infrastructure buildout.
+* **Anthropic ARR Surge (Q1 2026):** Anthropic ARR surged from approximately $9B to over $30B in a single quarter — growth was compute-constrained, with actual demand exceeding available supply. Multi-agent workloads executing multi-step tasks with high concurrency are the primary driver.
+* **Anthropic Exploring Custom Silicon (2026):** Anthropic in early-stage exploration of in-house chip design in response to compute shortage constraining Claude's growth — no committed design or dedicated team yet. Signals that even application layer companies are being pulled upstream by compute scarcity.
 * **Frontier Model Consolidation:** The Big 5 (OpenAI, Anthropic, Google, Meta, xAI) are consolidating the frontier model layer. Switching costs are low at the raw model layer but much higher for orchestration frameworks, agent integrations, and data services — the durable moats sit above and below the raw model.
 
 ### Companies
