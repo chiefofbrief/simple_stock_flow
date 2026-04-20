@@ -7,19 +7,21 @@ A layer-by-layer map of the AI supply chain for investment research. Each layer 
 ---
 
 ## Stack Overview
-[ 1. Raw Materials & Mining                ]  ← upstream inputs
-[ 2. Semiconductor Equipment & EDA/IP      ]  ← fabrication tools, chip design software
-[ 3. Foundries & Advanced Packaging        ]  ← wafer production, chip assembly
-[ 4. Compute Silicon                       ]  ← GPUs, CPUs, custom ASICs
-[ 5. Memory Silicon                        ]  ← HBM, DRAM, NAND
-[ 6. Networking & Custom Silicon           ]  ← merchant silicon, ASICs, SmartNICs
-[ 7. Optical & Physical Connectivity       ]  ← transceivers, switches, fiber cable
-[ 8. Power Generation & Grid               ]  ← turbines, fuel cells, grid equipment
-[ 9. Data Center Infrastructure            ]  ← buildings, cooling, power delivery
-[ 10. Hyperscalers & Cloud                 ]  ← demand drivers, platform builders
-[ 11. Neoclouds                            ]  ← pure-play AI compute providers
-[ 12. Physical AI & Robotics               ]  ← edge inference, autonomous systems
-[ 13. AI-Native Applications               ]  ← vertical software, data, agents
+| Stack Overview | Description |
+| :--- | :--- |
+| [ 1. Raw Materials & Mining                ] | ← upstream inputs |
+| [ 2. Semiconductor Equipment & EDA/IP      ] | ← fabrication tools, chip design software |
+| [ 3. Foundries & Advanced Packaging        ] | ← wafer production, chip assembly |
+| [ 4. Compute Silicon                       ] | ← GPUs, CPUs, custom ASICs |
+| [ 5. Memory Silicon                        ] | ← HBM, DRAM, NAND |
+| [ 6. Networking & Custom Silicon           ] | ← merchant silicon, ASICs, SmartNICs |
+| [ 7. Optical & Physical Connectivity       ] | ← transceivers, switches, fiber cable |
+| [ 8. Power Generation & Grid               ] | ← turbines, fuel cells, grid equipment |
+| [ 9. Data Center Infrastructure            ] | ← buildings, cooling, power delivery |
+| [ 10. Hyperscalers & Cloud                 ] | ← demand drivers, platform builders |
+| [ 11. Neoclouds                            ] | ← pure-play AI compute providers |
+| [ 12. Physical AI & Robotics               ] | ← edge inference, autonomous systems |
+| [ 13. AI-Native Applications               ] | ← vertical software, data, agents |
 
 ---
 
