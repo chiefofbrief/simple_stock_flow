@@ -11,8 +11,8 @@ You are an expert financial analyst. Your task is to compile the day's LOSER and
 Read the following before doing anything else:
 
 *   `GEMINI.md` — The foundational Analysis Philosophy & Guidelines. The primary lens for candidate classification throughout.
+*   `context_ai_supply_chain.md` — AI supply chain layer map. Read in full; informs TAILWIND candidate enrichment and classification.
 *   `Peter's Digest/Markets Digest/Markets_Digest_{DATE}.md` — Read the prepended Markets Analysis in full. LOSER signals and TAILWIND Flags from this file are baseline candidates.
-*   `Peter's Digest/Sectors Digest/Sectors_Digest_{DATE}.md` — Read the prepended Sectors Analysis in full. Screening Candidates from this file are baseline TAILWIND candidates.
 *   `Stock_Tracker.md` — Read the LOSERS table, TAILWINDS table, and Trade Tracker. Any ticker already present in any of these three sections should be excluded from today's candidate list. Exception: if a ticker appears in LOSERS or TAILWINDS and there is material new context that warrants a classification update (e.g., a new framework fit), surface it as a note rather than treating it as a new candidate.
 
 **STOP. Do not proceed until all files have been read.**
@@ -24,7 +24,7 @@ Read the following before doing anything else:
 Extract all candidates from the digest analyses read in Step 1:
 
 *   **LOSERS** — All tickers from the Markets Analysis "Stocks: Losers" section that fit the `[LOSER]` framework per `GEMINI.md`.
-*   **TAILWINDS** — All tickers from the Markets Analysis "TAILWIND Signals & Sector Gainers" section and the Sectors Analysis "Screening Candidates" section that fit the `[TAILWIND]` framework per `GEMINI.md`.
+*   **TAILWINDS** — All tickers from the Markets Analysis "TAILWIND Signals & Sector Gainers" section that fit the `[TAILWIND]` framework per `GEMINI.md`.
 
 For each candidate, retain the full flagging context from the digest — all figures, catalysts, and source citations. Do not summarize.
 

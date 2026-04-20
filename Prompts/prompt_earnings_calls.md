@@ -13,7 +13,7 @@ Read the following before doing anything else:
 - `Data/tickers/{TICKER}/{TICKER}_Thesis.md` — The stock's thesis, including all prior analyses (Financials, Footnotes & MD&A, Sentiment).
 - `Data/tickers/{TICKER}/{TICKER}_earnings_remarks.md` — Prepared remarks for the last two quarters. Run: `python Scripts/earnings_calls.py {TICKER}`
 - `Data/tickers/{TICKER}/{TICKER}_earnings_qa.md` — Q&A session for the last two quarters. Run: `python Scripts/earnings_calls.py {TICKER}`
-- If `{TICKER}` has sector-specific tags (check `Stock_Tracker.md` or `{TICKER}_Thesis.md`), read the relevant section of `context_sectors.md`.
+- If `{TICKER}` has an `AI SC` Sector Theme (check `Stock_Tracker.md` or `{TICKER}_Thesis.md`), read the relevant layer section of `context_ai_supply_chain.md`.
 
 **STOP. Wait for user approval before proceeding to Step 2.**
 

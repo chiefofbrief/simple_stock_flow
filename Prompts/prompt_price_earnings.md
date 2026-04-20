@@ -15,7 +15,7 @@ Read the following before doing anything else:
 
 **Context**
 - `context_markets.md` — Current macro conditions, market sentiment, and prevailing narratives. Use this to calibrate conservatism: an elevated-risk or split-sentiment environment raises the bar for TAILWIND passes and warrants additional scrutiny of reversion targets for LOSER candidates.
-- `context_sectors.md` *(TAILWIND-tagged tickers only)* — Sector-level dynamics and signals. Use this to assess whether the sector tailwind is intact, accelerating, or fading — directly informs whether the tailwind thesis is still valid and whether it is already priced in.
+- `context_ai_supply_chain.md` *(TAILWIND-tagged tickers with an `AI SC` Sector Theme only)* — Read the relevant layer to assess whether the tailwind is intact, accelerating, or fading — directly informs whether the tailwind thesis is still valid and whether it is already priced in.
 - `Peter's Digest/Screening/Screening_{DATE}.md` — The stock's classification tags and original flagging context. If running outside the daily screening flow, context will be provided directly.
 
 **Data**

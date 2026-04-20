@@ -12,7 +12,7 @@ Read the following before doing anything else:
 - `GEMINI.md` — The foundational Analysis Philosophy & Guidelines.
 - `Data/tickers/{TICKER}/{TICKER}_Thesis.md` — The stock's thesis, including the prior Financials and Sentiment analyses.
 - `Data/tickers/{TICKER}/{TICKER}_notes_mda.md` — Footnotes and MD&A content. Run: `python Scripts/footnotes.py {TICKER}`
-- If `{TICKER}` has sector-specific tags (check `Stock_Tracker.md` or `{TICKER}_Thesis.md`), read the relevant section of `context_sectors.md`.
+- If `{TICKER}` has an `AI SC` Sector Theme (check `Stock_Tracker.md` or `{TICKER}_Thesis.md`), read the relevant layer section of `context_ai_supply_chain.md`.
 
 **STOP. Wait for user approval before proceeding to Step 2.**
 

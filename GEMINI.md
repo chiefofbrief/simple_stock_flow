@@ -83,7 +83,7 @@ A misconception is always involved. What makes it durable is that it is reinforc
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **0. Tracker Update** | Maintenance | `tracker_update.py` | — | `Stock_Tracker.md` | `Stock_Tracker.md`, `{TICKER}_price.json`, `{TICKER}_earnings.json` | Run weekly. Populates market data columns (price, P/E, EPS CAGR, beats, etc.) for all PIPELINE and WATCHLIST tickers via FMP. |
 | **1a. Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | News APIs | `Markets_Digest_{DATE}.md` | Run daily. Updates `context_markets.md`. |
-| **1b. Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_digest_sectors.md` | News APIs | `Sectors_Digest_{DATE}.md` | Run when sector developments warrant. Updates `context_sectors.md`. |
+| **1b. Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_ai_supply_chain_update.md` | News APIs | `Sectors_Digest_{DATE}.md` | Run when sector developments warrant. Updates `context_ai_supply_chain.md`. |
 | **2. Daily Screening** | Screening | — | `prompt_daily_screening.md` | Digests, User Input | `Screening_{DATE}.md` | Reads digest outputs from steps 1a/1b. Produces candidate list. |
 | **3. Price & Earnings** | Screening | `price.py` + `earnings.py` | `prompt_price_earnings.md` | `Screening_{DATE}.md` | `Price_Data_{DATE}.txt`, `Earnings_{DATE}.txt`, `Screening_{DATE}.md` | Run both scripts simultaneously. Writes analysis directly to the screening file. Can run standalone without a screening file. |
 | **4. Screening Completion** | Screening | — | `prompt_screening_completion.md` | `Screening_{DATE}.md` | Thesis, Tracker | Initializes the Thesis file and adds the ticker to the Tracker. |
@@ -100,7 +100,7 @@ For a complete breakdown of all files, **always consult `index.md`**. Key tracki
 - **`Stock_Tracker.md`**: Central tracker with three sections — PIPELINE (active analysis, both LOSERs and TAILWINDs), WATCHLIST (continuous monitoring, awaiting entry signal), and Trade Tracker (open positions). Market data columns are refreshed weekly by `tracker_update.py`.
 - **`Screening_{DATE}.md`**: The daily screening file. Captures candidates, enriched context, and price/earnings screening results.
 - **`context_markets.md`**: Rolling market context — macro conditions, prevailing narratives, recurring signals. Updated daily via the Markets Digest flow.
-- **`context_sectors.md`**: Sector context, structural dynamics, and companies of interest. Updated when meaningful developments warrant it.
+- **`context_ai_supply_chain.md`**: AI supply chain context — layer-by-layer dynamics, constraint map, and companies of interest. Updated when meaningful developments warrant it.
 - **Thesis Files**: Located in `Data/tickers/{TICKER}/`, built sequentially during Phase 2.
 
 ---
@@ -118,4 +118,4 @@ When data or knowledge gaps arise, consult the available resources detailed in o
 - **Financial Statement Analysis (Fridson & Alvarez)** — accounting mechanics, financial statement specifics, earnings quality
 - **The Alchemy of Finance (Soros)** — reflexivity, market psychology, boom/bust cycles
 - **Options: Beginner to Beyond** — options strategies
-- **`context_sectors.md`** — Sector context, structural dynamics, and companies of interest across all tracked sectors. Includes AI overarching context (reflexivity, circular revenue dynamics) and per-sector signals.
+- **`context_ai_supply_chain.md`** — AI supply chain context across all 13 layers. Includes structural dynamics, constraint map, company-level theses, and reflexivity context.

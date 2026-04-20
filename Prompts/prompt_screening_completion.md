@@ -77,7 +77,7 @@ The user has already decided whether `{TICKER}` goes to **PIPELINE** or **WATCHL
 - **Ticker:** Stock symbol.
 - **Tag:** `LOSER` or `TAILWIND` — from the candidate classification in `Screening_{DATE}.md`.
 - **Origin:** `Primary` if directly flagged. `via [TICKER]` if added as a peer of another stock.
-- **Sector Theme:** For TAILWINDs, the matching sector from `context_sectors.md` (e.g., `AI — Compute & Chips`, `Defense & Aerospace`). Leave blank for LOSERs unless a sector clearly applies.
+- **Sector Theme:** For TAILWINDs, the matching layer from `context_ai_supply_chain.md` (e.g., `AI SC — Layer 4`, `AI SC — Layer 13`). Leave blank for LOSERs unless a layer clearly applies.
 - **Mkt Cap through Next Earnings:** Set all to `—`.
 - **Status:** `PASS` (PIPELINE) or `WATCHING` (WATCHLIST).
 - **Thesis:** `{TICKER}_Thesis.md` if a thesis file was initialized in Step 1, otherwise `—`.

@@ -10,7 +10,7 @@ These files establish the rules of the system and track its outputs.
 *   `api_index.md` - Comprehensive map of available APIs (FMP, Alphavantage, Perigon, SociaVault) and their specific endpoints for live data.
 *   `Stock_Tracker.md` - Central tracker with three sections: PIPELINE (active analysis), WATCHLIST (continuous monitoring, awaiting entry signal), and Trade Tracker (open positions). Market data columns refreshed weekly by `tracker_update.py`.
 *   `context_markets.md` - Rolling market context — macro conditions, prevailing narratives, and recurring signals. Updated daily via the Markets Digest flow.
-*   `context_sectors.md` - Sector context, structural dynamics, and companies of interest across all tracked sectors. Includes AI overarching context and per-sector signals.
+*   `context_ai_supply_chain.md` - AI supply chain context across all 13 layers. Includes structural dynamics, constraint map, and company-level theses.
 
 ---
 
@@ -19,7 +19,7 @@ The instructions passed to the LLM for each stage of analysis.
 
 ### Digest
 *   `prompt_digest_markets.md` - (Digest) Synthesizes the Markets Digest into LOSER candidates and TAILWIND flags. Updates `context_markets.md`.
-*   `prompt_digest_sectors.md` - (Digest) Synthesizes the Sectors Digest into structural sector developments by sector. Produces a Screening Candidates shortlist. Updates `context_sectors.md`.
+*   `prompt_ai_supply_chain_update.md` - (Digest) Reviews new source material and updates `context_ai_supply_chain.md` where warranted.
 
 ### Screening
 *   `prompt_daily_screening.md` - (Screening) Compiles LOSER and TAILWIND candidates from the digest analyses and user input into `Screening_{DATE}.md`. Enriches each candidate with FMP profile, web fetch, and peer data.

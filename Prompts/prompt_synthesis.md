@@ -12,7 +12,7 @@ Read the following before doing anything else:
 - `GEMINI.md` — The foundational rulebook. Pay particular attention to: **Investment Types** (the LOSER/TAILWIND analytical framework and the primary question for each), **Financials & Margin of Safety**, and **Sentiment** (including Reflexivity). These are the philosophical lenses through which the verdict is formed.
 - `Data/tickers/{TICKER}/{TICKER}_Thesis.md` — All prior analyses (Discovery Signal, Price & Earnings, Financials, Footnotes & MD&A, Earnings Calls, Research).
 - `context_markets.md` — Current macro conditions and prevailing narratives.
-- If `{TICKER}` has sector-specific tags (check `Stock_Tracker.md` or `{TICKER}_Thesis.md`), read the relevant section of `context_sectors.md`.
+- If `{TICKER}` has an `AI SC` Sector Theme (check `Stock_Tracker.md` or `{TICKER}_Thesis.md`), read the relevant layer section of `context_ai_supply_chain.md`.
 
 **STOP. Wait for user approval before proceeding to Step 2.**
 

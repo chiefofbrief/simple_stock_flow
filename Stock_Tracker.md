@@ -9,7 +9,7 @@ Stocks under active analysis. Work through phases sequentially per `GEMINI.md`. 
 **Column Guide**
 - **Tag**: `LOSER` or `TAILWIND` — see `GEMINI.md` for the full definition and analytical framework for each type
 - **Origin**: `Primary` = identified directly; `via [TICKER]` = added as peer of another stock
-- **Sector Theme**: Maps to a sector in `context_sectors.md`. Blank for LOSERs unless a sector applies.
+- **Sector Theme**: Maps to a layer in `context_ai_supply_chain.md` (e.g., `AI SC — Layer 4`). Blank for LOSERs unless a layer applies.
 - **Mkt Cap**: Market capitalization — scale and liquidity indicator (updated by script)
 - **Price**: Current price (updated by script)
 - **vs_3M**: Price change vs. 3 months ago — short-term momentum or dip signal (updated by script)
@@ -28,12 +28,12 @@ Stocks under active analysis. Work through phases sequentially per `GEMINI.md`. 
 
 | Ticker | Tag | Origin | Sector Theme | Mkt Cap | Price | vs_3M | vs_1Y | 52w_below | Price CAGR (5yr) | P/E | EPS CAGR | Beats (4Q) | Fwd Delta | Next Earnings | Phase | Last Run | Status | Thesis | Added |
 |--------|-----|--------|--------------|---------|-------|-------|-------|-----------|------------------|-----|----------|------------|-----------|---------------|-------|----------|--------|--------|-------|
-| AXON | TAILWIND | Primary | Defense & Aerospace | $32.39B | $402.85 | -36.7% | -28.0% | 54.5% | +22.3% | 58.8x | +30.8% | +/-/+/+ | $-0.55 | 2026-05-06 | Financials | 2026-04-14 | PASS | AXON_Thesis.md | 2026-04-14 |
-| META | TAILWIND | Primary | AI — Software & Disruption | $1.74T | $688.55 | +11.1% | +37.7% | 13.3% | +18.0% | 23.2x | +24.9% | +/+/+/+ | $-2.19 | 2026-04-29 | Earnings | 2026-04-14 | PASS | META_Thesis.md | 2026-04-14 |
-| RDDT | TAILWIND | Primary | AI — Software & Disruption | $31.29B | $163.80 | -29.1% | +70.3% | 42.1% | +74.0% | 62.5x | — | +/-/+/+ | $-0.62 | 2026-04-30 | Earnings | 2026-04-14 | PASS | RDDT_Thesis.md | 2026-04-14 |
-| UMAC | TAILWIND | Primary | Defense & Aerospace | $547.90M | $14.09 | -23.9% | +178.5% | 39.7% | +103.8% | — | — | -/-/-/- | $+0.20 | 2026-05-14 | Earnings | 2026-04-14 | PASS | UMAC_Thesis.md | 2026-04-14 |
-| DPZ | LOSER | Primary | — | $12.51B | $372.06 | -6.6% | -18.9% | 24.2% | +1.5% | 21.2x | +7.2% | -/+/-/+ | $-1.01 | 2026-04-27 | Price & Earnings | 2026-04-15 | PASS | DPZ_Thesis.md | 2026-04-15 |
-| MCD | LOSER | Primary | — | $221.32B | $311.36 | +1.8% | +2.3% | 8.4% | +8.9% | 25.5x | +15.1% | +/-/+/+ | $-0.36 | 2026-05-07 | Price & Earnings | 2026-04-15 | PASS | MCD_Thesis.md | 2026-04-15 |
+| AXON | TAILWIND | Primary | — | $32.46B | $403.75 | -34.9% | -27.8% | 54.4% | +22.3% | 58.9x | +30.8% | +/-/+/+ | $-0.55 | 2026-05-06 | Financials | 2026-04-14 | PASS | AXON_Thesis.md | 2026-04-14 |
+| META | TAILWIND | Primary | AI SC — Layer 10 | $1.70T | $670.91 | +11.1% | +34.2% | 15.5% | +17.5% | 22.6x | +24.9% | +/+/+/+ | $-2.17 | 2026-04-29 | Earnings | 2026-04-14 | PASS | META_Thesis.md | 2026-04-14 |
+| RDDT | TAILWIND | Primary | — | $31.77B | $166.30 | -26.2% | +72.9% | 41.2% | +75.2% | 63.5x | — | +/-/+/+ | $-0.62 | 2026-04-30 | Earnings | 2026-04-14 | PASS | RDDT_Thesis.md | 2026-04-14 |
+| UMAC | TAILWIND | Primary | — | $600.39M | $15.44 | -17.3% | +205.1% | 34.0% | +112.2% | — | — | -/-/-/- | $+0.20 | 2026-05-14 | Earnings | 2026-04-14 | PASS | UMAC_Thesis.md | 2026-04-14 |
+| DPZ | LOSER | Primary | — | $12.42B | $369.46 | -4.2% | -19.5% | 24.7% | +1.4% | 21.0x | +7.2% | -/+/-/+ | $-1.05 | 2026-04-27 | Price & Earnings | 2026-04-15 | PASS | DPZ_Thesis.md | 2026-04-15 |
+| MCD | LOSER | Primary | — | $218.18B | $306.94 | +1.9% | +0.9% | 9.7% | +8.6% | 25.2x | +15.1% | +/-/+/+ | $-0.37 | 2026-05-07 | Price & Earnings | 2026-04-15 | PASS | MCD_Thesis.md | 2026-04-15 |
 
 ---
 
@@ -46,25 +46,47 @@ Stocks under continuous monitoring. Market data columns are populated by `Script
 
 | Ticker | Tag | Origin | Sector Theme | Mkt Cap | Price | vs_3M | vs_1Y | 52w_below | Price CAGR (5yr) | P/E | EPS CAGR | Beats (4Q) | Fwd Delta | Next Earnings | Status | Thesis |
 |--------|-----|--------|--------------|---------|-------|-------|-------|-----------|------------------|-----|----------|------------|-----------|---------------|--------|--------|
-| GOOGL | TAILWIND | Primary | AI — Infrastructure & Power | $4.13T | $341.68 | +3.6% | +126.8% | 2.0% | +26.3% | 31.6x | +29.7% | +/+/+/+ | $-0.18 | 2026-04-29 | WATCHING | — |
-| BKH | TAILWIND | Primary | AI — Infrastructure & Power | $5.74B | $76.07 | +4.7% | +30.9% | 3.3% | +6.6% | 18.5x | +2.6% | +/+/+/- | $+0.47 | 2026-05-06 | WATCHING | BKH_Thesis.md |
-| TSM | TAILWIND | Primary | AI — Compute & Chips | $1.92T | $370.50 | +8.4% | +146.5% | 4.8% | +26.3% | 30.8x | +26.2% | +/+/+/+ | $+0.09 | 2026-07-16 | WATCHING | TSM_Thesis.md |
-| AIG | LOSER | Primary | — | $42.22B | $78.68 | +8.5% | -0.9% | 9.3% | +13.3% | 11.0x | +23.2% | +/+/+/+ | $-0.05 | 2026-04-30 | WATCHING | — |
-| AVAV | LOSER | Primary | — | $9.56B | $191.42 | -51.3% | +29.7% | 54.2% | +10.2% | 63.6x | +10.7% | -/-/-/+ | $+0.84 | 2026-06-23 | WATCHING | — |
-| CNC | LOSER | Primary | — | $18.76B | $38.17 | -16.6% | -37.1% | 40.5% | -9.5% | 18.6x | -16.3% | +/+/-/+ | $+3.32 | 2026-04-28 | WATCHING | — |
-| FICO | LOSER | Primary | — | $25.47B | $1073.52 | -31.5% | -43.8% | 51.6% | +16.6% | 34.1x | +24.0% | +/+/+/+ | $+3.57 | 2026-04-28 | WATCHING | — |
-| GIS | LOSER | Primary | — | $18.95B | $35.50 | -18.9% | -34.8% | 35.8% | -6.6% | 10.6x | -3.4% | -/+/+/+ | $+0.19 | 2026-06-24 | WATCHING | — |
-| IT | LOSER | Primary | — | $11.14B | $154.62 | -33.0% | -61.5% | 65.8% | -3.2% | 11.7x | +21.9% | +/+/+/+ | $-1.02 | 2026-05-05 | WATCHING | — |
-| KD | LOSER | Primary | — | $3.30B | $14.40 | -42.9% | -50.7% | 67.4% | -15.7% | 8.0x | — | -/+/+/+ | $-0.09 | 2026-05-06 | WATCHING | — |
-| MSFT | LOSER | Primary | — | $3.14T | $422.79 | -7.9% | +15.8% | 23.4% | +12.9% | 27.5x | +18.0% | +/+/+/+ | $-0.07 | 2026-04-29 | WATCHING | — |
-| NFLX | LOSER | Primary | — | $412.78B | $97.31 | +10.6% | +0.0% | 27.4% | +12.8% | 31.4x | +30.2% | +/+/-/+ | $-0.40 | 2026-07-16 | WATCHING | — |
-| NOW | LOSER | Primary | — | $101.11B | $96.66 | -24.1% | -37.4% | 54.3% | -0.7% | 27.5x | +97.1% | +/+/+/+ | $+0.03 | 2026-04-22 | WATCHING | — |
-| NVO | LOSER | Primary | — | $180.07B | $40.52 | -33.3% | -27.8% | 48.5% | +5.4% | 10.4x | +23.2% | +/+/+/+ | $-0.13 | 2026-05-06 | WATCHING | — |
-| QCOM | LOSER | Primary | — | $145.47B | $136.20 | -14.0% | +2.0% | 33.1% | +2.7% | 11.2x | +17.7% | +/+/+/+ | $-0.93 | 2026-04-29 | WATCHING | — |
-| SPGI | LOSER | Primary | — | $132.24B | $442.57 | -18.8% | -3.6% | 23.1% | +5.3% | 24.8x | +8.8% | -/+/+/+ | $+0.54 | 2026-04-28 | WATCHING | — |
-| SYK | LOSER | Primary | — | $131.38B | $343.32 | -5.4% | +0.0% | 14.6% | +7.9% | 25.2x | +12.9% | +/+/+/+ | $-1.47 | 2026-04-30 | WATCHING | — |
-| VWAGY | LOSER | Primary | — | $55.39B | $11.05 | -5.5% | +10.5% | 13.9% | -16.7% | 7.4x | -5.1% | +/-/-/+ | $-0.17 | 2026-04-29 | WATCHING | — |
-| WDAY | LOSER | Primary | — | $32.83B | $123.83 | -33.7% | -44.0% | 55.1% | -12.6% | 13.4x | +26.3% | +/+/+/+ | $+0.02 | 2026-05-28 | WATCHING | — |
+| GOOGL | TAILWIND | Primary | AI SC — Layer 10 | $4.08T | $337.42 | +4.9% | +124.0% | 3.2% | +26.0% | 31.2x | +29.7% | +/+/+/+ | $-0.19 | 2026-04-29 | WATCHING | — |
+| BKH | TAILWIND | Primary | AI SC — Layer 8 | $5.75B | $75.60 | +5.2% | +30.1% | 3.9% | +6.5% | 18.4x | +2.6% | +/+/+/- | $+0.47 | 2026-05-06 | WATCHING | BKH_Thesis.md |
+| TSM | TAILWIND | Primary | AI SC — Layer 3 | $1.90T | $366.24 | +12.2% | +143.7% | 5.9% | +26.0% | 30.4x | +26.2% | +/+/+/+ | $+0.11 | 2026-07-16 | WATCHING | TSM_Thesis.md |
+| AIG | LOSER | Primary | — | $42.15B | $78.56 | +9.1% | -1.0% | 9.5% | +13.3% | 11.0x | +23.2% | +/+/+/+ | $-0.05 | 2026-04-30 | WATCHING | — |
+| AVAV | LOSER | Primary | — | $9.85B | $197.23 | -40.4% | +33.6% | 52.8% | +10.8% | 65.5x | +10.7% | -/-/-/+ | $+0.84 | 2026-06-23 | WATCHING | — |
+| CNC | LOSER | Primary | — | $18.84B | $38.31 | -16.3% | -36.9% | 40.3% | -9.4% | 18.7x | -16.3% | +/+/-/+ | $+3.31 | 2026-04-28 | WATCHING | — |
+| FICO | LOSER | Primary | — | $25.23B | $1063.41 | -28.8% | -44.3% | 52.0% | +16.4% | 33.8x | +24.0% | +/+/+/+ | $+3.57 | 2026-04-28 | WATCHING | — |
+| GIS | LOSER | Primary | — | $18.83B | $35.28 | -19.3% | -35.2% | 36.2% | -6.7% | 10.6x | -3.4% | -/+/+/+ | $+0.19 | 2026-06-24 | WATCHING | — |
+| IT | LOSER | Primary | — | $11.01B | $156.23 | -29.6% | -61.1% | 65.4% | -3.0% | 11.8x | +21.9% | +/+/+/+ | $-1.02 | 2026-05-05 | WATCHING | — |
+| KD | LOSER | Primary | — | $3.36B | $14.64 | -39.8% | -49.9% | 66.9% | -15.4% | 8.2x | — | -/+/+/+ | $-0.09 | 2026-05-06 | WATCHING | — |
+| MSFT | LOSER | Primary | AI SC — Layer 10 | $3.10T | $418.07 | -7.8% | +14.5% | 24.3% | +12.6% | 27.2x | +18.0% | +/+/+/+ | $-0.07 | 2026-04-29 | WATCHING | — |
+| NFLX | LOSER | Primary | — | $400.39B | $94.83 | +8.7% | -2.5% | 29.3% | +12.3% | 30.6x | +30.2% | +/+/-/+ | $-0.39 | 2026-07-16 | WATCHING | — |
+| NOW | LOSER | Primary | — | $104.31B | $99.72 | -20.5% | -35.4% | 52.8% | -0.1% | 28.4x | +97.1% | +/+/+/+ | $+0.03 | 2026-04-22 | WATCHING | — |
+| NVO | LOSER | Primary | — | $179.81B | $40.46 | -31.6% | -27.9% | 48.6% | +5.3% | 10.3x | +23.2% | +/+/+/+ | $-0.13 | 2026-05-06 | WATCHING | — |
+| QCOM | LOSER | Primary | AI SC — Layer 12 | $146.88B | $137.52 | -10.2% | +3.0% | 32.5% | +2.9% | 11.3x | +17.7% | +/+/+/+ | $-0.93 | 2026-04-29 | WATCHING | — |
+| SPGI | LOSER | Primary | — | $132.29B | $442.74 | -14.5% | -3.6% | 23.1% | +5.3% | 24.8x | +8.8% | -/+/+/+ | $+0.52 | 2026-04-28 | WATCHING | — |
+| SYK | LOSER | Primary | — | $129.58B | $338.34 | -5.7% | -1.4% | 15.8% | +7.6% | 24.8x | +12.9% | +/+/+/+ | $-1.48 | 2026-04-30 | WATCHING | — |
+| VWAGY | LOSER | Primary | — | $54.49B | $10.87 | -4.6% | +8.7% | 15.3% | -17.0% | 7.3x | -5.1% | +/-/-/+ | $-0.17 | 2026-04-30 | WATCHING | — |
+| WDAY | LOSER | Primary | — | $33.92B | $127.94 | -30.1% | -42.1% | 53.6% | -12.1% | 13.9x | +26.3% | +/+/+/+ | $+0.02 | 2026-05-21 | WATCHING | — |
+| AMKR | TAILWIND | Primary | AI SC — Layer 3 | $17.21B | $69.44 | +41.8% | +340.1% | 0.4% | +24.8% | 46.0x | +1.7% | +/+/+/+ | $-0.46 | 2026-04-27 | WATCHING | — |
+| AVGO | TAILWIND | Primary | AI SC — Layer 6 | $1.89T | $399.63 | +20.4% | +135.6% | 3.2% | +54.7% | 55.0x | +25.3% | +/+/+/+ | $+0.35 | 2026-06-03 | WATCHING | — |
+| BE | TAILWIND | Primary | AI SC — Layer 8 | $52.47B | $218.27 | +43.8% | +1183.9% | 4.9% | +49.8% | 299.0x | — | +/+/+/+ | $-0.36 | 2026-04-28 | WATCHING | — |
+| CCJ | TAILWIND | Primary | AI SC — Layer 1 | $53.83B | $123.62 | +6.8% | +200.8% | 8.6% | +47.8% | 120.0x | — | +/-/+/+ | $-0.10 | 2026-05-05 | WATCHING | — |
+| CDNS | TAILWIND | Primary | AI SC — Layer 2 | $87.95B | $318.54 | +3.8% | +22.4% | 15.4% | +17.7% | 44.6x | +20.7% | +/+/+/+ | $-0.08 | 2026-04-27 | WATCHING | — |
+| CEG | TAILWIND | Primary | AI SC — Layer 8 | $89.80B | $287.56 | -2.5% | +39.8% | 30.1% | +52.4% | 30.6x | +39.1% | +/-/+/- | $+0.26 | 2026-05-11 | WATCHING | — |
+| COHR | TAILWIND | Primary | AI SC — Layer 7 | $55.11B | $347.51 | +79.6% | +528.5% | 0.3% | +37.0% | 79.7x | +4.1% | +/+/+/+ | $+0.12 | 2026-05-06 | WATCHING | — |
+| CRWV | TAILWIND | Primary | AI SC — Layer 11 | $61.73B | $117.43 | +23.3% | +200.4% | 37.2% | +168.6% | — | — | -/+/-/? | $-0.01 | 2026-05-13 | WATCHING | — |
+| FCX | TAILWIND | Primary | AI SC — Layer 1 | $100.86B | $70.18 | +17.1% | +115.8% | 1.1% | +17.4% | 40.1x | +26.0% | +/+/+/+ | $+0.00 | 2026-04-23 | WATCHING | — |
+| GEV | TAILWIND | Primary | AI SC — Layer 8 | $266.88B | $990.18 | +44.7% | +206.7% | 2.0% | +149.8% | 55.6x | — | +/-/+/+ | $-11.60 | 2026-04-22 | WATCHING | — |
+| GLW | TAILWIND | Primary | AI SC — Layer 7 | $142.06B | $165.38 | +79.0% | +304.3% | 6.4% | +32.9% | 65.4x | +12.6% | +/+/+/+ | $-0.02 | 2026-04-28 | WATCHING | — |
+| KLAC | TAILWIND | Primary | AI SC — Layer 2 | $237.21B | $1805.32 | +21.6% | +186.7% | 0.1% | +40.3% | 50.9x | +25.3% | +/+/+/+ | $+0.31 | 2026-04-29 | WATCHING | — |
+| LRCX | TAILWIND | Primary | AI SC — Layer 2 | $328.63B | $263.16 | +18.5% | +315.7% | 3.8% | +34.7% | 53.7x | +19.0% | +/+/+/+ | $+0.09 | 2026-04-22 | WATCHING | — |
+| MP | TAILWIND | Primary | AI SC — Layer 1 | $11.77B | $66.23 | -3.1% | +151.3% | 33.9% | +12.6% | — | — | +/+/+/- | $-0.11 | 2026-05-07 | WATCHING | — |
+| MRVL | TAILWIND | Primary | AI SC — Layer 6 | $129.28B | $147.84 | +85.4% | +186.7% | 1.2% | +24.3% | 51.9x | +25.1% | +/+/-/+ | $+0.00 | 2026-06-04 | WATCHING | — |
+| MU | TAILWIND | Primary | AI SC — Layer 5 | $505.70B | $448.42 | +22.9% | +553.3% | 4.8% | +37.7% | 20.5x | +43.0% | +/+/+/+ | $+7.10 | 2026-06-24 | WATCHING | — |
+| SNPS | TAILWIND | Primary | AI SC — Layer 2 | $88.30B | $460.95 | -9.8% | +11.5% | 29.3% | +12.8% | 33.6x | +17.8% | +/+/-/+ | $-0.60 | 2026-05-27 | WATCHING | — |
+| TH | TAILWIND | Primary | AI SC — Layer 9 | $1.56B | $15.61 | +107.6% | +134.7% | 0.2% | +42.4% | — | — | -/+/-/- | $+0.04 | 2026-05-11 | WATCHING | — |
+| VRT | TAILWIND | Primary | AI SC — Layer 9 | $120.29B | $314.41 | +79.5% | +330.0% | 0.4% | +70.6% | 75.0x | +39.3% | +/+/+/+ | $-0.34 | 2026-04-22 | WATCHING | — |
+| VST | TAILWIND | Primary | AI SC — Layer 8 | $54.03B | $159.60 | +1.9% | +39.0% | 27.2% | +56.1% | 73.4x | +6.7% | -/-/-/- | $+0.74 | 2026-05-07 | WATCHING | — |
+| FIG | LOSER | Primary | — | $9.27B | $19.01 | -31.5% | — | 86.7% | -88.5% | 50.3x | — | +/+/+/? | $-0.02 | 2026-04-21 | WATCHING | — |
+| INTU | LOSER | Primary | — | $112.65B | $404.83 | -23.2% | -30.3% | 49.9% | +1.8% | 18.5x | +22.5% | +/+/+/+ | $+8.33 | 2026-05-21 | WATCHING | — |
 
 ---
 
