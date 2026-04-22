@@ -171,6 +171,21 @@ def fetch_earnings_history(ticker):
         return None
 
 
+def fetch_income_statement(ticker):
+    """Fetch 8 quarters of GAAP income statements from FMP."""
+    url = f"{FMP_BASE}/income-statement?symbol={ticker}&period=quarter&limit=8&apikey={FMP_API_KEY}"
+    try:
+        r = requests.get(url, timeout=30)
+        if r.status_code != 200:
+            print(f"  [income_stmt] HTTP {r.status_code}")
+            return None
+        data = r.json()
+        return data if isinstance(data, list) else None
+    except Exception as e:
+        print(f"  [income_stmt] Error: {e}")
+        return None
+
+
 # ---------------------------------------------------------------------------
 # Metrics computation
 # ---------------------------------------------------------------------------
@@ -312,12 +327,25 @@ def compute_earnings_metrics(ticker, history, price_data):
         fwd_delta = next_est - last_actual
 
     return {
-        "current_pe": curr_pe,
+        "adj_pe": curr_pe,       # Non-GAAP (FMP /earnings) — for reference only
+        "current_pe": curr_pe,   # Alias kept for backward compatibility
         "eps_cagr": cagr_5yr,
         "beats_4q": beats_str,
         "fwd_delta": fwd_delta,
         "next_date": next_date,
     }
+
+
+def compute_gaap_pe(income_data, current_price):
+    """Compute TTM GAAP P/E from the 4 most recent quarterly income statements."""
+    if not income_data or not current_price:
+        return None
+    eps_vals = [safe_float(q.get("eps")) for q in income_data[:4]]
+    eps_vals = [e for e in eps_vals if e is not None]
+    if len(eps_vals) < 4:
+        return None
+    ttm_eps = sum(eps_vals)
+    return current_price / ttm_eps if ttm_eps > 0 else None
 
 
 # ---------------------------------------------------------------------------
@@ -457,17 +485,28 @@ def main():
             ensure_directory_exists(data_dir)
             save_json(price_metrics, os.path.join(data_dir, f"{ticker}_price.json"))
 
-        # --- Earnings data ---
+        # --- Earnings data (non-GAAP — beats, fwd_delta, eps_cagr) ---
         time.sleep(API_CALL_DELAY)
         earnings_history = fetch_earnings_history(ticker)
         earnings_metrics = None
         if earnings_history and price_metrics:
             earnings_metrics = compute_earnings_metrics(ticker, earnings_history, price_metrics)
-            if earnings_metrics:
-                save_json(
-                    earnings_metrics,
-                    os.path.join(get_data_directory(ticker), f"{ticker}_earnings.json"),
-                )
+
+        # --- Income statement for GAAP P/E ---
+        time.sleep(API_CALL_DELAY)
+        income_data = fetch_income_statement(ticker)
+        gaap_pe = compute_gaap_pe(
+            income_data,
+            price_metrics["current_price"] if price_metrics else None,
+        )
+
+        if earnings_metrics:
+            if gaap_pe is not None:
+                earnings_metrics["gaap_pe"] = gaap_pe
+            save_json(
+                earnings_metrics,
+                os.path.join(get_data_directory(ticker), f"{ticker}_earnings.json"),
+            )
 
         # --- Format for tracker ---
         m = {
@@ -477,7 +516,7 @@ def main():
             "vs_1y":          fmt_pct(price_metrics["vs_1y"]) if price_metrics else "—",
             "52w_below":      fmt_pct(price_metrics["52w_below"], sign=False) if price_metrics else "—",
             "price_cagr_5yr": fmt_pct(price_metrics["cagr_5yr"]) if price_metrics else "—",
-            "pe":             fmt_pe(earnings_metrics["current_pe"]) if earnings_metrics else "—",
+            "pe":             fmt_pe(gaap_pe) if gaap_pe is not None else (fmt_pe(earnings_metrics["current_pe"]) if earnings_metrics else "—"),
             "eps_cagr":       fmt_pct(earnings_metrics["eps_cagr"]) if earnings_metrics else "—",
             "beats_4q":       earnings_metrics["beats_4q"] if earnings_metrics and earnings_metrics["beats_4q"] else "—",
             "fwd_delta":      fmt_fwd_delta(earnings_metrics["fwd_delta"]) if earnings_metrics else "—",

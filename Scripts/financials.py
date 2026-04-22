@@ -165,6 +165,7 @@ def calculate_ttm_metrics(quarterly_data):
     ocf = sum_q(q_cf, 'operatingCashFlow')
     capex = sum_q(q_cf, 'capitalExpenditure')
     da = sum_q(q_cf, 'depreciationAndAmortization')
+    sbc = sum_q(q_cf, 'stockBasedCompensation')
     
     # Balance Sheet (Point in Time - use latest)
     assets = latest(q_bal, 'totalAssets')
@@ -182,9 +183,11 @@ def calculate_ttm_metrics(quarterly_data):
         "ocf": ocf,
         "fcf": (ocf - abs_capex) if ocf is not None else None,
         "ocf_to_ni": safe_div(ocf, ni),
+        "sbc": sbc,
+        "sbc_to_rev": safe_div(sbc, rev),
         "working_capital": (ca - cl) if ca is not None and cl is not None else None,
-        # Operating Leverage is calculated via deltas in process_metrics, not here directly for TTM usually, 
-        # but we need a placeholder or calculation if possible. TTM Op Lev is tricky without TTM-1. 
+        # Operating Leverage is calculated via deltas in process_metrics, not here directly for TTM usually,
+        # but we need a placeholder or calculation if possible. TTM Op Lev is tricky without TTM-1.
         # We will handle Op Lev in process_metrics.
         "capex": capex,
         "da": da,
@@ -192,7 +195,7 @@ def calculate_ttm_metrics(quarterly_data):
         "dep_to_rev": safe_div(da, rev),
         "debt_to_assets": safe_div(debt, assets),
         "debt_to_ocf": safe_div(debt, ocf),
-        
+
         "_oi": oi, "_rev": rev # internal use
     }
 
@@ -212,15 +215,18 @@ def extract_period_metrics(inc, bal, cf):
     ocf = get(cf, 'operatingCashFlow')
     capex = get(cf, 'capitalExpenditure')
     da = get(cf, 'depreciationAndAmortization')
+    sbc = get(cf, 'stockBasedCompensation')
 
     abs_capex = abs(capex) if capex is not None else 0
-    
+
     return {
         "revenue": rev,
         "operating_margin": safe_div(oi, rev),
         "ocf": ocf,
         "fcf": (ocf - abs_capex) if ocf is not None else None,
         "ocf_to_ni": safe_div(ocf, ni),
+        "sbc": sbc,
+        "sbc_to_rev": safe_div(sbc, rev),
         "working_capital": (ca - cl) if ca is not None and cl is not None else None,
         "capex": capex,
         "da": da,
@@ -228,7 +234,7 @@ def extract_period_metrics(inc, bal, cf):
         "dep_to_rev": safe_div(da, rev),
         "debt_to_assets": safe_div(debt, assets),
         "debt_to_ocf": safe_div(debt, ocf),
-        
+
         "_oi": oi, "_rev": rev
     }
 
@@ -316,18 +322,20 @@ def process_metrics(raw_data):
     
     # Flattened list of metrics
     metric_keys = [
-        'revenue', 
-        'operating_margin', 
-        'ocf', 
-        'fcf', 
-        'ocf_to_ni', 
-        'working_capital', 
-        'operating_leverage', 
-        'capex', 
-        'da', 
-        'capex_to_dep', 
-        'dep_to_rev', 
-        'debt_to_assets', 
+        'revenue',
+        'operating_margin',
+        'ocf',
+        'fcf',
+        'ocf_to_ni',
+        'sbc',
+        'sbc_to_rev',
+        'working_capital',
+        'operating_leverage',
+        'capex',
+        'da',
+        'capex_to_dep',
+        'dep_to_rev',
+        'debt_to_assets',
         'debt_to_ocf'
     ]
     
@@ -496,6 +504,8 @@ def generate_markdown(ticker, data, role=None):
         ("Op Cash Flow ($B)", "ocf", "${:,.2f}", 1e9),
         ("Free Cash Flow ($B)", "fcf", "${:,.2f}", 1e9),
         ("OCF / Net Income", "ocf_to_ni", "{:.2f}x"),
+        ("SBC ($B)", "sbc", "${:,.2f}", 1e9),
+        ("  ↳ SBC / Revenue", "sbc_to_rev", "{:.1%}"),
         ("Working Capital ($B)", "working_capital", "${:,.2f}", 1e9),
         ("Operating Leverage", "operating_leverage", "{:.2f}"),
         ("CapEx ($B)", "capex", "${:,.2f}", 1e9),

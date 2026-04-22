@@ -19,8 +19,8 @@ Read the following before doing anything else:
 - `Peter's Digest/Screening/Screening_{DATE}.md` — The stock's classification tags and original flagging context. If running outside the daily screening flow, context will be provided directly.
 
 **Data**
-- `Data/screening/Price_Data_{DATE}.txt` — Historical performance, volatility, drawdown, and trend metrics for {TICKER}.
-- `Data/screening/Earnings_{DATE}.txt` — P/E ratios, earnings history, growth rates, and forward estimates for {TICKER}.
+- `Data/screening/Price_Data_{DATE}.txt` — Historical performance, volatility, drawdown, and trend metrics for {TICKER}. Run: `python Scripts/price.py {TICKER}` first.
+- `Data/screening/Earnings_{DATE}.txt` — P/E ratios, earnings history, growth rates, and forward estimates for {TICKER}. Run: `python Scripts/earnings.py {TICKER}` after price.py completes — earnings depends on the price JSON written to disk.
 
 **Data Check:** Confirm both `Data/screening/Price_Data_{DATE}.txt` and `Data/screening/Earnings_{DATE}.txt` exist and contain entries for the tickers you intend to analyze. If either file is missing, empty, or does not cover all expected tickers, stop and alert the user before proceeding. Otherwise, proceed to Step 2.
 
@@ -87,7 +87,7 @@ If the list contains only one type, this does not apply.
 
 > **Anchoring warning:** A relative P/E discount (e.g., "cheaper than its historical average") does not constitute an absolute floor. Apply the rubric above based on the *absolute* P/E level only.
 
-> **Non-GAAP warning:** The P/E figures here are sourced from earnings press releases, which for most large-cap technology companies reflect **non-GAAP adjusted EPS** (SBC, amortization, and restructuring charges excluded). This systematically understates the true P/E. As a rule of thumb: if annual SBC exceeds ~10% of revenue, the GAAP P/E is likely materially higher — often 1.5–2.5x the non-GAAP figure. Do not treat a sub-30x reading as a confirmed floor for SBC-heavy companies. Flag this explicitly in the Status Summary and note that GAAP P/E will be computed and reconciled during the Financials phase.
+> **GAAP vs Adj P/E:** The data includes both a **GAAP P/E** (computed from FMP quarterly income statements — matches Google Finance) and an **Adj P/E** (non-GAAP, from FMP earnings releases). Apply the rubric above using the **GAAP P/E** as the primary valuation anchor. If the gap between GAAP and Adj is ≥15%, flag it explicitly: this signals material non-GAAP adjustments (typically SBC for software companies, or acquisition amortization). The larger the gap, the less reliable the Adj P/E is as a floor. Note: the historical P/E trend table uses Adj EPS for consistency with analyst estimates.
 
 **8. `[LOSER]` Is the price decline tracking real fundamental deterioration, or is the market overreacting to a healthy business?**
 [Answer using specific metrics]

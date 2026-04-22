@@ -20,7 +20,7 @@ import time
 SOCIAVAULT_BASE_URL = "https://api.sociavault.com/v1"
 MIN_SCORE_THRESHOLD = 0
 SUBREDDITS = ["ValueInvesting", "stocks"]
-MAX_POSTS_PER_SUB = 10
+MAX_POSTS_PER_SUB = 15
 
 BOT_KEYWORDS = ["i am a bot", "action was performed automatically", "contact the moderators", "rule", "submission statement", "permalink"]
 

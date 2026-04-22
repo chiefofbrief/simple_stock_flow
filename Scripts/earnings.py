@@ -52,6 +52,31 @@ def fetch_earnings_data(ticker):
         print(f"  Exception fetching {ticker}: {e}")
         return None
 
+def fetch_income_statement(ticker):
+    """Fetch 8 quarters of GAAP income statements from FMP."""
+    url = f"{FMP_BASE}/income-statement?symbol={ticker}&period=quarter&limit=8&apikey={FMP_API_KEY}"
+    try:
+        r = requests.get(url, timeout=30)
+        if r.status_code != 200:
+            print(f"  Error fetching income statement for {ticker}: HTTP {r.status_code}")
+            return None
+        data = r.json()
+        return data if isinstance(data, list) else None
+    except Exception as e:
+        print(f"  Exception fetching income statement {ticker}: {e}")
+        return None
+
+def compute_gaap_pe(income_data, current_price):
+    """Compute TTM GAAP P/E from the 4 most recent quarterly income statements."""
+    if not income_data or not current_price:
+        return None
+    eps_vals = [safe_float(q.get("eps")) for q in income_data[:4]]
+    eps_vals = [e for e in eps_vals if e is not None]
+    if len(eps_vals) < 4:
+        return None
+    ttm_eps = sum(eps_vals)
+    return current_price / ttm_eps if ttm_eps > 0 else None
+
 def get_local_price_data(ticker):
     data_dir = get_data_directory(ticker)
     path = os.path.join(data_dir, f"{ticker}_price.json")
@@ -68,7 +93,7 @@ def calculate_cagr(start_val, end_val, years):
         return None
     return (end_val / start_val) ** (1 / years) - 1
 
-def analyze_ticker(ticker, history, price_data):
+def analyze_ticker(ticker, history, price_data, gaap_pe=None):
     if not history: return None
 
     # 1. Identify Next Estimate vs Last Actual
@@ -162,6 +187,7 @@ def analyze_ticker(ticker, history, price_data):
         "ticker": ticker,
         "as_of": price_data.get("as_of"),
         "metrics": {
+            "gaap_pe": gaap_pe,
             "current_pe": curr_pe,
             "pe_1y": pe_1y,
             "pe_3y": pe_3y,
@@ -189,12 +215,13 @@ def format_pct(val, dec=0): return f"{val:+.{dec}%}" if val is not None else "-"
 def format_curr(val): return f"${val:.2f}" if val is not None else "-"
 
 def format_summary_table(results):
-    headers = ["Ticker", "Cur P/E", "vs1Y", "vs3Y", "vs5Y", "vsAvg", "1yCorr", "||", "EPS CAGR", "Stability", "Fwd Delta"]
+    headers = ["Ticker", "GAAP P/E", "Adj P/E", "vs1Y", "vs3Y", "vs5Y", "vsAvg", "1yCorr", "||", "EPS CAGR", "Stability", "Fwd Delta"]
     rows = []
     for r in results:
         m = r["metrics"]
         rows.append([
-            r["ticker"], format_pe(m["current_pe"]), format_pct(m["vs_1y"]), format_pct(m["vs_3y"]),
+            r["ticker"], format_pe(m["gaap_pe"]), format_pe(m["current_pe"]),
+            format_pct(m["vs_1y"]), format_pct(m["vs_3y"]),
             format_pct(m["vs_5y"]), format_pct(m["vs_avg"]), f"{m['corr_1y']:.2f}" if m['corr_1y'] is not None else "-",
             "||", format_pct(m["eps_cagr"], 1), f"{m['stability']:.2f}" if m['stability'] is not None else "-",
             format_curr(m["fwd_delta"])
@@ -206,8 +233,20 @@ def format_summary_table(results):
 def format_detailed(r):
     m, h = r["metrics"], r["history"]
     lines = ["=" * 80, f"TICKER: {r['ticker']} | Price Date: {r['as_of']}", "=" * 80, ""]
-    lines.extend(["1. VALUATION TREND (P/E History)", "   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg", "   ---------+---------+---------+---------+---------+-------"])
-    lines.append(f"   P/E Ratio| {format_pe(m['current_pe']):>7} | {format_pe(m['pe_1y']):>7} | {format_pe(m['pe_3y']):>7} | {format_pe(m['pe_5y']):>7} | {format_pe(m['pe_avg']):>5}")
+    gaap_pe = m.get("gaap_pe")
+    adj_pe = m["current_pe"]
+    if gaap_pe is not None and adj_pe is not None and adj_pe > 0:
+        gap_pct = (gaap_pe - adj_pe) / adj_pe
+        gap_str = f"  *** GAAP is {gap_pct:+.0%} vs Adj — investigate non-GAAP adjustments ***" if abs(gap_pct) >= 0.15 else ""
+    else:
+        gap_str = ""
+    lines.extend([
+        "1. VALUATION TREND (P/E History)",
+        f"   GAAP P/E (FMP income stmt, TTM): {format_pe(gaap_pe)}   |   Adj P/E (FMP non-GAAP, TTM): {format_pe(adj_pe)}{gap_str}",
+        "   (Historical trend below uses Adj/Non-GAAP EPS — consistent with analyst estimates and beat/miss tracking)",
+        "   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg", "   ---------+---------+---------+---------+---------+-------"
+    ])
+    lines.append(f"   Adj P/E  | {format_pe(m['current_pe']):>7} | {format_pe(m['pe_1y']):>7} | {format_pe(m['pe_3y']):>7} | {format_pe(m['pe_5y']):>7} | {format_pe(m['pe_avg']):>5}")
     lines.append(f"   vs Cur   |       - | {format_pct(m['vs_1y']):>7} | {format_pct(m['vs_3y']):>7} | {format_pct(m['vs_5y']):>7} | {format_pct(m['vs_avg']):>5}")
     lines.extend(["", "2. RELATIONSHIP & GROWTH", f"   > 1-Year Correlation: {m['corr_1y']:.2f}" if m['corr_1y'] is not None else "   > 1-Year Correlation: N/A", f"   > 5-Year EPS CAGR:    {format_pct(m['eps_cagr'], 1)}", f"   > Earnings Stability: {m['stability']:.2f}" if m['stability'] is not None else "   > Earnings Stability: N/A", ""])
     lines.extend(["3. ESTIMATES vs ACTUALS (Catalyst Check)", "   Quarter     | Estimate | Reported | Surprise | Delta", "   ------------+----------+----------+----------+-------"])
@@ -282,7 +321,10 @@ def main():
             
         print(f"Fetching {ticker}...")
         history = fetch_earnings_data(ticker)
-        res = analyze_ticker(ticker, history, price_data)
+        time.sleep(API_CALL_DELAY)
+        income_data = fetch_income_statement(ticker)
+        gaap_pe = compute_gaap_pe(income_data, price_data.get("current_price"))
+        res = analyze_ticker(ticker, history, price_data, gaap_pe=gaap_pe)
         if res:
             results.append(res)
             save_json(res, os.path.join(get_data_directory(ticker), f"{ticker}_earnings.json"))

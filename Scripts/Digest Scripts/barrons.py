@@ -16,6 +16,7 @@ import argparse
 import requests
 from datetime import datetime
 from dateutil import parser as date_parser
+from urllib.parse import urlparse
 
 # ============================================================================
 # CONFIGURATION
@@ -53,8 +54,28 @@ def fetch_barrons(api_key, target_date=None, count=DEFAULT_ARTICLE_COUNT):
         
         if target_date:
             articles = [a for a in articles if a.get('pubDate', '').startswith(target_date)]
-        
-        return articles[:count]
+
+        # Remove market-data pages (not news articles)
+        articles = [a for a in articles if '/market-data/' not in a.get('url', '')]
+
+        # Deduplicate by URL path (strips ?mod= tracking params) and by description
+        # (same content republished under a different slug)
+        seen_paths = set()
+        seen_descs = set()
+        unique = []
+        for a in articles:
+            path = urlparse(a.get('url', '')).path
+            desc = (a.get('description') or a.get('summary') or '').strip().lower()
+            if path in seen_paths:
+                continue
+            if desc and desc in seen_descs:
+                continue
+            seen_paths.add(path)
+            if desc:
+                seen_descs.add(desc)
+            unique.append(a)
+
+        return unique[:count]
     except Exception as e:
         print(f"Error fetching Barron's: {e}", file=sys.stderr)
         return []

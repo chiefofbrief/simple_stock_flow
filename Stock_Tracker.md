@@ -16,7 +16,7 @@ Stocks under active analysis. Work through phases sequentially per `GEMINI.md`. 
 - **vs_1Y**: Price change vs. 1 year ago — medium-term trend (updated by script)
 - **52w_below**: % below 52-week high — how far off peak; larger = deeper dip (updated by script)
 - **Price CAGR (5yr)**: 5-year annualized price growth rate — underlying trajectory. For recent IPOs with less than 5 years of history, reflects the available period only. (updated by script)
-- **P/E**: Trailing twelve-month P/E ratio — current valuation based on actual earnings (updated by script)
+- **P/E**: GAAP trailing twelve-month P/E ratio — computed from FMP quarterly income statements; matches Google Finance (updated by script)
 - **EPS CAGR**: 5-year annualized EPS growth rate — fundamental momentum (updated by script)
 - **Beats (4Q)**: Last 4 quarters vs. estimates, newest first — e.g. `+/+/-/+` (updated by script)
 - **Fwd Delta**: Next quarter estimate minus last reported EPS; positive = growth expected (updated by script)
@@ -34,6 +34,7 @@ Stocks under active analysis. Work through phases sequentially per `GEMINI.md`. 
 | UMAC | TAILWIND | Primary | — | $600.39M | $15.44 | -17.3% | +205.1% | 34.0% | +112.2% | — | — | -/-/-/- | $+0.20 | 2026-05-14 | Earnings | 2026-04-14 | PASS | UMAC_Thesis.md | 2026-04-14 |
 | DPZ | LOSER | Primary | — | $12.42B | $369.46 | -4.2% | -19.5% | 24.7% | +1.4% | 21.0x | +7.2% | -/+/-/+ | $-1.05 | 2026-04-27 | Price & Earnings | 2026-04-15 | PASS | DPZ_Thesis.md | 2026-04-15 |
 | MCD | LOSER | Primary | — | $218.18B | $306.94 | +1.9% | +0.9% | 9.7% | +8.6% | 25.2x | +15.1% | +/-/+/+ | $-0.37 | 2026-05-07 | Price & Earnings | 2026-04-15 | PASS | MCD_Thesis.md | 2026-04-15 |
+| INTU | LOSER | Primary | — | $112.65B | $404.83 | -23.2% | -30.3% | 49.9% | +1.8% | 18.5x | +22.5% | +/+/+/+ | $+8.33 | 2026-05-21 | Financials | 2026-04-22 | PASS | INTU_Thesis.md | 2026-04-22 |
 
 ---
 
@@ -58,13 +59,13 @@ Stocks under continuous monitoring. Market data columns are populated by `Script
 | KD | LOSER | Primary | — | $3.36B | $14.64 | -39.8% | -49.9% | 66.9% | -15.4% | 8.2x | — | -/+/+/+ | $-0.09 | 2026-05-06 | WATCHING | — | — |
 | MSFT | LOSER | Primary | AI SC — Layer 10 | $3.10T | $418.07 | -7.8% | +14.5% | 24.3% | +12.6% | 27.2x | +18.0% | +/+/+/+ | $-0.07 | 2026-04-29 | WATCHING | — | — |
 | NFLX | LOSER | Primary | — | $400.39B | $94.83 | +8.7% | -2.5% | 29.3% | +12.3% | 30.6x | +30.2% | +/+/-/+ | $-0.39 | 2026-07-16 | WATCHING | — | — |
-| NOW | LOSER | Primary | — | $104.31B | $99.72 | -20.5% | -35.4% | 52.8% | -0.1% | 28.4x | +97.1% | +/+/+/+ | $+0.03 | 2026-04-22 | WATCHING | NOW_Thesis.md | Filtered 2026-04-21 after full analysis (P&E → Financials → Footnotes). GAAP P/E ~61x vs. non-GAAP 29x (SBC $1.96B/yr = 15% of rev). $9B pending cash acquisitions (Armis $7.75B + Veza $1.25B) require major new debt — Debt/OCF rising from 0.59x to ~2-2.5x post-close. Armis is a strategic pivot to cybersecurity; rationale unproven. Operating leverage decelerating (4.81x→1.61x). Revisit after Armis closes (H2 2026) and organic growth rate is established. |
+| NOW | LOSER | Primary | — | $107.75B | $103.26 | -19.7% | -32.7% | 51.2% | +0.6% | 61.5x | +97.1% | +/+/+/+ | $+0.03 | 2026-04-22 | WATCHING | NOW_Thesis.md | Filtered 2026-04-21 after full analysis (P&E → Financials → Footnotes). GAAP P/E ~61x vs. non-GAAP 29x (SBC $1.96B/yr = 15% of rev). $9B pending cash acquisitions (Armis $7.75B + Veza $1.25B) require major new debt — Debt/OCF rising from 0.59x to ~2-2.5x post-close. Armis is a strategic pivot to cybersecurity; rationale unproven. Operating leverage decelerating (4.81x→1.61x). Revisit after Armis closes (H2 2026) and organic growth rate is established. |
 | NVO | LOSER | Primary | — | $179.81B | $40.46 | -31.6% | -27.9% | 48.6% | +5.3% | 10.3x | +23.2% | +/+/+/+ | $-0.13 | 2026-05-06 | WATCHING | — | — |
 | QCOM | LOSER | Primary | AI SC — Layer 12 | $146.88B | $137.52 | -10.2% | +3.0% | 32.5% | +2.9% | 11.3x | +17.7% | +/+/+/+ | $-0.93 | 2026-04-29 | WATCHING | — | — |
 | SPGI | LOSER | Primary | — | $132.29B | $442.74 | -14.5% | -3.6% | 23.1% | +5.3% | 24.8x | +8.8% | -/+/+/+ | $+0.52 | 2026-04-28 | WATCHING | — | — |
 | SYK | LOSER | Primary | — | $129.58B | $338.34 | -5.7% | -1.4% | 15.8% | +7.6% | 24.8x | +12.9% | +/+/+/+ | $-1.48 | 2026-04-30 | WATCHING | — | — |
 | VWAGY | LOSER | Primary | — | $54.49B | $10.87 | -4.6% | +8.7% | 15.3% | -17.0% | 7.3x | -5.1% | +/-/-/+ | $-0.17 | 2026-04-30 | WATCHING | — | — |
-| WDAY | LOSER | Primary | — | $33.92B | $127.94 | -30.1% | -42.1% | 53.6% | -12.1% | 13.9x | +26.3% | +/+/+/+ | $+0.02 | 2026-05-21 | WATCHING | — | — |
+| WDAY | LOSER | Primary | — | $33.80B | $127.48 | -32.3% | -42.3% | 53.8% | -12.1% | 48.8x | +26.3% | +/+/+/+ | $+0.02 | 2026-05-21 | WATCHING | — | — |
 | AMKR | TAILWIND | Primary | AI SC — Layer 3 | $17.21B | $69.44 | +41.8% | +340.1% | 0.4% | +24.8% | 46.0x | +1.7% | +/+/+/+ | $-0.46 | 2026-04-27 | WATCHING | — | — |
 | AVGO | TAILWIND | Primary | AI SC — Layer 6 | $1.89T | $399.63 | +20.4% | +135.6% | 3.2% | +54.7% | 55.0x | +25.3% | +/+/+/+ | $+0.35 | 2026-06-03 | WATCHING | — | — |
 | BE | TAILWIND | Primary | AI SC — Layer 8 | $52.47B | $218.27 | +43.8% | +1183.9% | 4.9% | +49.8% | 299.0x | — | +/+/+/+ | $-0.36 | 2026-04-28 | WATCHING | — | — |
@@ -86,7 +87,6 @@ Stocks under continuous monitoring. Market data columns are populated by `Script
 | VRT | TAILWIND | Primary | AI SC — Layer 9 | $120.29B | $314.41 | +79.5% | +330.0% | 0.4% | +70.6% | 75.0x | +39.3% | +/+/+/+ | $-0.34 | 2026-04-22 | WATCHING | — | — |
 | VST | TAILWIND | Primary | AI SC — Layer 8 | $54.03B | $159.60 | +1.9% | +39.0% | 27.2% | +56.1% | 73.4x | +6.7% | -/-/-/- | $+0.74 | 2026-05-07 | WATCHING | — | — |
 | FIG | LOSER | Primary | — | $9.27B | $19.01 | -31.5% | — | 86.7% | -88.5% | 50.3x | — | +/+/+/? | $-0.02 | 2026-04-21 | WATCHING | — | — |
-| INTU | LOSER | Primary | — | $112.65B | $404.83 | -23.2% | -30.3% | 49.9% | +1.8% | 18.5x | +22.5% | +/+/+/+ | $+8.33 | 2026-05-21 | WATCHING | — | — |
 
 ---
 

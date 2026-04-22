@@ -29,7 +29,7 @@ def get_command(module, target_date=None):
     # Base commands
     cmds = {
         'macro':    [sys.executable, 'Scripts/Digest Scripts/macro.py', '--markdown'],
-        'intrigue': [sys.executable, 'Scripts/Digest Scripts/intrigue.py', '--markdown'],
+        'intrigue': [sys.executable, 'Scripts/Digest Scripts/intrigue.py'],
         'movers':   [sys.executable, 'Scripts/Digest Scripts/movers.py', '--markdown'],
         'barrons':  [sys.executable, 'Scripts/Digest Scripts/barrons.py'],
         'reddit':   [sys.executable, 'Scripts/Digest Scripts/reddit.py']
@@ -43,9 +43,13 @@ def get_command(module, target_date=None):
             cmd.extend(['--date', target_date])
         cmd.extend(['--count', '40'])
         
+    elif module == 'intrigue':
+        if target_date:
+            cmd.extend(['--date', target_date])
+
     elif module == 'reddit':
         cmd.extend(['--timeframe', 'day'])
-        
+
     return cmd
 
 def run_module(module, target_date=None):
