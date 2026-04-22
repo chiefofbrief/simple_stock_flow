@@ -87,6 +87,8 @@ If the list contains only one type, this does not apply.
 
 > **Anchoring warning:** A relative P/E discount (e.g., "cheaper than its historical average") does not constitute an absolute floor. Apply the rubric above based on the *absolute* P/E level only.
 
+> **Non-GAAP warning:** The P/E figures here are sourced from earnings press releases, which for most large-cap technology companies reflect **non-GAAP adjusted EPS** (SBC, amortization, and restructuring charges excluded). This systematically understates the true P/E. As a rule of thumb: if annual SBC exceeds ~10% of revenue, the GAAP P/E is likely materially higher — often 1.5–2.5x the non-GAAP figure. Do not treat a sub-30x reading as a confirmed floor for SBC-heavy companies. Flag this explicitly in the Status Summary and note that GAAP P/E will be computed and reconciled during the Financials phase.
+
 **8. `[LOSER]` Is the price decline tracking real fundamental deterioration, or is the market overreacting to a healthy business?**
 [Answer using specific metrics]
 

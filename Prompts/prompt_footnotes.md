@@ -14,6 +14,25 @@ Read the following before doing anything else:
 - `Data/tickers/{TICKER}/{TICKER}_notes_mda.md` — Footnotes and MD&A content. Run: `python Scripts/footnotes.py {TICKER}`
 - If `{TICKER}` has an `AI SC` Sector Theme (check `Stock_Tracker.md` or `{TICKER}_Thesis.md`), read the relevant layer section of `context_ai_supply_chain.md`.
 
+### Data Quality Gate
+
+**Before stopping, verify the extraction output.** The script prints a validation table — confirm all four sections PASS:
+
+| Section | Minimum words |
+|---|---|
+| 10-K MD&A | 3,000 |
+| 10-K Notes | 1,000 |
+| 10-Q MD&A | 2,000 |
+| 10-Q Notes | 500 |
+
+If the script exits with `RESULT: FAILED`, **do not proceed**. Report the failure to the user — a section likely captured a table of contents instead of body text. Do not attempt analysis on incomplete data.
+
+If all sections pass, also do a quick content sanity check on `{TICKER}_notes_mda.md`:
+- The 10-K Notes section contains actual note body text (disclosures, accounting policies, tables) — not just a list of note titles with page numbers.
+- Both MD&A sections contain year-over-year revenue/expense comparisons and management commentary.
+
+If either sanity check fails despite the word count passing, flag it before stopping.
+
 **STOP. Wait for user approval before proceeding to Step 2.**
 
 ---

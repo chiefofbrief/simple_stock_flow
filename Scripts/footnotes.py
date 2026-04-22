@@ -233,6 +233,13 @@ class TextExtractor(HTMLParser):
             if text:
                 self.text.append(text)
 
+# Minimum word counts required for each section — anything below is treated as a
+# failed extraction (likely picked up a table of contents rather than body text).
+MIN_SECTION_WORDS = {
+    '10-K': {'mda': 3000, 'notes': 1000},
+    '10-Q': {'mda': 2000, 'notes': 500},
+}
+
 def _is_toc_entry(text, match_pos, lookahead=200):
     """Check if a match position looks like a TOC entry rather than actual content"""
     snippet = text[match_pos:match_pos + lookahead]
@@ -262,8 +269,38 @@ def _is_toc_entry(text, match_pos, lookahead=200):
 
     return False
 
+def _content_length_after(search_text, start_pos, end_patterns):
+    """Return how many characters of content exist between start_pos and the nearest end marker."""
+    end_positions = []
+    for end_pattern in end_patterns:
+        end_match = re.search(end_pattern, search_text[start_pos + 50:], re.IGNORECASE)
+        if end_match:
+            end_positions.append(start_pos + 50 + end_match.start())
+    end_pos = min(end_positions) if end_positions else len(search_text)
+    return end_pos - start_pos
+
+def _validate_notes_content(text):
+    """Check that notes contain actual note body text, not just a header/TOC listing.
+
+    A real notes section has multi-sentence prose following the note header.
+    A TOC listing has only short lines (note title + page number) per note.
+    Returns (is_valid, reason).
+    """
+    # Look for a note header followed by at least 100 chars of body text
+    if re.search(r'(?:Note|NOTE|\(\d+\))\s*[-–]?\s*\w.{5,}\n(.{100,})', text, re.DOTALL):
+        return True, "OK"
+    # Fallback: check total unique sentences (TOC entries are all very short)
+    sentences = [s.strip() for s in re.split(r'[.!?]\s+', text) if len(s.strip()) > 60]
+    if len(sentences) >= 5:
+        return True, "OK"
+    return False, "Notes appear to contain only headers or a TOC listing — no substantive body text found"
+
 def extract_section_text(html_content, start_pattern, end_patterns):
-    r"""Extract text between section markers using regex
+    r"""Extract text between section markers using regex.
+
+    Selects the candidate start match that yields the most content (by character
+    count to the nearest end marker), which reliably picks the real section body
+    over any table-of-contents occurrence of the same heading.
 
     Args:
         html_content: Raw HTML string
@@ -280,7 +317,7 @@ def extract_section_text(html_content, start_pattern, end_patterns):
     parser = TextExtractor()
     parser.feed(html_clean)
     full_text = '\n'.join(parser.text)
-    
+
     # Normalize whitespace for robust searching only
     # This helps when headers are split across lines or have inconsistent spacing
     normalized_text = re.sub(r'\s+', ' ', full_text)
@@ -298,29 +335,21 @@ def extract_section_text(html_content, start_pattern, end_patterns):
     if not start_matches:
         return ""
 
-    # Locate the best start match (skipping TOCs)
+    # Filter out matches near the very end of the document
     text_length = len(search_text)
     threshold = text_length * 0.95
     valid_matches = [m for m in start_matches if m.start() < threshold]
-    non_toc_matches = [m for m in valid_matches if not _is_toc_entry(search_text, m.start())]
-
-    candidates = non_toc_matches if non_toc_matches else valid_matches
-    if not candidates:
+    if not valid_matches:
         return ""
 
-    # SELECTION LOGIC:
-    # 1. For Notes sections, look for the match followed by "NOTE 1" (proximity check)
-    # 2. For MD&A, the last non-TOC match is usually the actual section (original working behavior)
-
-    if "NOTES" in start_pattern.upper() or "FINANCIAL" in start_pattern.upper():
-        chosen_start_match = candidates[-1]
-        for match in candidates:
-            snippet = search_text[match.start():match.start() + 500]
-            if re.search(r'NOTE\s+1\.', snippet, re.IGNORECASE):
-                chosen_start_match = match
-                break
-    else:
-        chosen_start_match = candidates[-1]
+    # Pick the candidate that yields the most content before the nearest end marker.
+    # This is more reliable than position-based heuristics: a TOC occurrence will
+    # produce very little text before the next section marker, while the real section
+    # body will produce orders of magnitude more.
+    chosen_start_match = max(
+        valid_matches,
+        key=lambda m: _content_length_after(search_text, m.start(), end_patterns)
+    )
 
     # Map the position found in search_text back to full_text using the matched keyword
     # so the output preserves the original line structure
@@ -358,10 +387,16 @@ def _section_stats(text):
     }
 
 def extract_filing_sections(html_file, ticker, form_type):
-    """Extract MD&A and Notes sections from SEC filing HTML
+    """Extract MD&A and Notes sections from SEC filing HTML.
+
+    Each section is validated against MIN_SECTION_WORDS and, for notes sections,
+    against a content marker check. Validation results are stored in each section
+    dict under 'validation' so they can be surfaced in the final summary.
 
     Returns:
-        dict: {section_name: {'file': path, 'text': content, 'stats': stats}} or None on error
+        dict: {section_name: {'file': path, 'text': content, 'stats': stats,
+                               'validation': {'passed': bool, 'reason': str}}}
+        or None on error
     """
     try:
         with open(html_file, 'r', encoding='utf-8') as f:
@@ -385,10 +420,24 @@ def extract_filing_sections(html_file, ticker, form_type):
 
             stats = _section_stats(text)
             print(f"  Saved {section_name.upper()}: {file_path} ({stats['words']:,} words, {stats['lines']:,} lines)")
-            sections[section_name] = {'file': file_path, 'text': text, 'stats': stats}
 
-            if form_type == '10-Q' and section_name == 'notes' and stats['lines'] < 5:
-                print(f"  Warning: 10-Q notes content is minimal ({stats['lines']} lines) - may need manual review")
+            # --- Validation ---
+            min_words = MIN_SECTION_WORDS.get(form_type, {}).get(section_name, 0)
+            passed = True
+            reason = "OK"
+
+            if stats['words'] < min_words:
+                passed = False
+                reason = f"Only {stats['words']:,} words (minimum {min_words:,}) — likely captured a TOC instead of body text"
+            elif section_name == 'notes' and text:
+                passed, reason = _validate_notes_content(text)
+
+            sections[section_name] = {
+                'file': file_path,
+                'text': text,
+                'stats': stats,
+                'validation': {'passed': passed, 'reason': reason},
+            }
 
         return sections
 
@@ -429,7 +478,10 @@ def process_filing(ticker, cik, filing_info, form_type):
         'report_date': filing_info['report_date'],
         'accession': filing_info['accession'],
         'document': filing_info['document'],
-        'sections': {name: sec['stats'] for name, sec in sections.items()}
+        'sections': {
+            name: {**sec['stats'], 'validation': sec['validation']}
+            for name, sec in sections.items()
+        }
     }
 
     return sections, metadata
@@ -563,16 +615,51 @@ def main():
     with open(md_file, 'w', encoding='utf-8') as f:
         f.write(md_content)
 
-    # Summary
+    # Validation summary
     print("\n" + "="*60)
-    print("PROCESSING COMPLETE")
+    print("EXTRACTION VALIDATION")
     print("="*60)
 
-    file_count = sum(len(s) for s in all_sections.values()) + 2  # txt files + metadata + markdown
-    print(f"\nCreated {file_count} files for {ticker}")
-    print(f"  Raw data:  {data_dir}/")
-    print(f"  Writeup:   {md_file}")
-    print(f"\nNext: Run notes analysis prompt (guidance/prompts/notes_analysis.md)\n")
+    display_names = {
+        '10-K': {'mda': '10-K MD&A', 'notes': '10-K Notes'},
+        '10-Q': {'mda': '10-Q MD&A', 'notes': '10-Q Notes'},
+    }
+
+    failures = []
+    col_w = 16
+    print(f"  {'Section':<{col_w}} {'Words':>8}  {'Minimum':>8}  {'Status'}")
+    print(f"  {'-'*col_w}  {'-'*8}  {'-'*8}  {'-'*30}")
+
+    for form_type in ['10-K', '10-Q']:
+        if form_type not in all_sections:
+            continue
+        for section_name, sec in all_sections[form_type].items():
+            label = display_names[form_type][section_name]
+            words = sec['stats']['words']
+            min_words = MIN_SECTION_WORDS.get(form_type, {}).get(section_name, 0)
+            v = sec['validation']
+            status = "PASS" if v['passed'] else f"FAIL — {v['reason']}"
+            print(f"  {label:<{col_w}} {words:>8,}  {min_words:>8,}  {status}")
+            if not v['passed']:
+                failures.append(f"{label}: {v['reason']}")
+
+    print()
+
+    if failures:
+        print("RESULT: FAILED")
+        print(f"\n{len(failures)} section(s) did not pass validation:")
+        for f in failures:
+            print(f"  • {f}")
+        print("\nDo not proceed with analysis until extraction is corrected.")
+        print("Check the HTML source files in the raw/ directory and re-run.\n")
+        sys.exit(1)
+    else:
+        print("RESULT: ALL SECTIONS PASSED")
+        file_count = sum(len(s) for s in all_sections.values()) + 2
+        print(f"\nCreated {file_count} files for {ticker}")
+        print(f"  Raw data:  {data_dir}/")
+        print(f"  Writeup:   {md_file}")
+        print(f"\nNext: Run the footnotes analysis prompt\n")
 
 
 if __name__ == "__main__":
