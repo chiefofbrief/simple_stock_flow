@@ -34,7 +34,6 @@ Stocks under active analysis. Work through phases sequentially per `GEMINI.md`. 
 | UMAC | TAILWIND | Primary | — | $600.39M | $15.44 | -17.3% | +205.1% | 34.0% | +112.2% | — | — | -/-/-/- | $+0.20 | 2026-05-14 | Earnings | 2026-04-14 | PASS | UMAC_Thesis.md | 2026-04-14 |
 | DPZ | LOSER | Primary | — | $12.42B | $369.46 | -4.2% | -19.5% | 24.7% | +1.4% | 21.0x | +7.2% | -/+/-/+ | $-1.05 | 2026-04-27 | Price & Earnings | 2026-04-15 | PASS | DPZ_Thesis.md | 2026-04-15 |
 | MCD | LOSER | Primary | — | $218.18B | $306.94 | +1.9% | +0.9% | 9.7% | +8.6% | 25.2x | +15.1% | +/-/+/+ | $-0.37 | 2026-05-07 | Price & Earnings | 2026-04-15 | PASS | MCD_Thesis.md | 2026-04-15 |
-| INTU | LOSER | Primary | — | $112.65B | $404.83 | -23.2% | -30.3% | 49.9% | +1.8% | 18.5x | +22.5% | +/+/+/+ | $+8.33 | 2026-05-21 | Financials | 2026-04-22 | PASS | INTU_Thesis.md | 2026-04-22 |
 
 ---
 
@@ -47,6 +46,7 @@ Stocks under continuous monitoring. Market data columns are populated by `Script
 
 | Ticker | Tag | Origin | Sector Theme | Mkt Cap | Price | vs_3M | vs_1Y | 52w_below | Price CAGR (5yr) | P/E | EPS CAGR | Beats (4Q) | Fwd Delta | Next Earnings | Status | Thesis | Notes |
 |--------|-----|--------|--------------|---------|-------|-------|-------|-----------|------------------|-----|----------|------------|-----------|---------------|--------|--------|-------|
+| INTU | LOSER | Primary | — | $112.65B | $404.83 | -23.2% | -30.3% | 49.9% | +1.8% | 18.5x | +22.5% | +/+/+/+ | $+8.33 | 2026-05-21 | WATCHING | INTU_Thesis.md | Synthesis complete 2026-04-23. Monitor — 26x GAAP P/E on decelerating 12-13% grower is fair, not cheap. Entry signal: Q3 FY2026 (May 21) confirms TurboTax Live 35%+, revenue at high end of guidance, Credit Karma holds. Invalidation: TurboTax Live <20% growth, revenue <11%, IRS Direct File eligibility expansion. |
 | GOOGL | TAILWIND | Primary | AI SC — Layer 10 | $4.08T | $337.42 | +4.9% | +124.0% | 3.2% | +26.0% | 31.2x | +29.7% | +/+/+/+ | $-0.19 | 2026-04-29 | WATCHING | — | — |
 | BKH | TAILWIND | Primary | AI SC — Layer 8 | $5.75B | $75.60 | +5.2% | +30.1% | 3.9% | +6.5% | 18.4x | +2.6% | +/+/+/- | $+0.47 | 2026-05-06 | WATCHING | BKH_Thesis.md | — |
 | TSM | TAILWIND | Primary | AI SC — Layer 3 | $1.90T | $366.24 | +12.2% | +143.7% | 5.9% | +26.0% | 30.4x | +26.2% | +/+/+/+ | $+0.11 | 2026-07-16 | WATCHING | TSM_Thesis.md | — |

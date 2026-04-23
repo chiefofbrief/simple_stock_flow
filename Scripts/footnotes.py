@@ -55,29 +55,45 @@ SEC_RATE_LIMIT_DELAY = 0.15  # 10 requests/second max
 SEC_USER_AGENT = 'Financial Analysis Tool contact@example.com'
 REQUEST_TIMEOUT = 30
 
-# Section patterns organized by form type
-# 10-K (annual): MD&A is Item 7, Notes follow Item 8
-# 10-Q (quarterly): MD&A is Item 2, Notes are under Item 1
+# Section definitions: which ITEM numbers bound each section.
+# Used by the discovery-based extractor (primary path).
+# 'start_item': the ITEM number that opens this section, or 'NOTES' for the
+#               notes-to-financial-statements header (which uses no ITEM prefix).
+# 'end_items':  ITEM numbers that close this section.
+# 'part_end':   'II' or 'III' if a PART boundary also closes this section.
+SECTION_DEFINITIONS = {
+    '10-K': {
+        'mda':   {'start_item': '7',     'end_items': ['7A', '8'], 'part_end': None},
+        'notes': {'start_item': 'NOTES', 'end_items': ['9', '15'], 'part_end': 'III'},
+    },
+    '10-Q': {
+        'mda':   {'start_item': '2',     'end_items': ['3', '4'],  'part_end': None},
+        'notes': {'start_item': 'NOTES', 'end_items': ['2'],       'part_end': 'II'},
+    },
+}
+
+# Fallback: regex-based section patterns used when discovery extraction is
+# insufficient.  These are the patterns Gemini debugged for INTU — kept here
+# as a safety net for unusual filings, not as the primary mechanism.
 SECTION_PATTERNS = {
     '10-K': {
         'mda': {
-            'start': r'ITEM\s+7\.\s+MANAGEMENT',
-            'ends': [r'ITEM\s+7A\.', r'ITEM\s+8\.']
+            'start': r'ITEM\s+7\s*[\.\-:]?\s*MANAGEMENT',
+            'ends': [r'ITEM\s+7A\s*[\.\-:]?\s*QUANTITATIVE', r'ITEM\s+8\s*[\.\-:]?\s*FINANCIAL']
         },
         'notes': {
             'start': r'NOTES\s+TO\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
-            'ends': [r'ITEM\s+9\.', r'PART\s+III', r'ITEM\s+15\.', r'REPORT\s+OF\s+INDEPENDENT\s+REGISTERED\s+PUBLIC\s+ACCOUNTING\s+FIRM']
+            'ends': [r'ITEM\s+9\s*[\.\-:]?\s*CHANGES', r'PART\s+III', r'ITEM\s+15\s*[\.\-:]?\s*EXHIBITS']
         }
     },
     '10-Q': {
         'mda': {
-            'start': r'ITEM\s+2\.\s+MANAGEMENT',
-            'ends': [r'ITEM\s+3\.', r'ITEM\s+4\.']
+            'start': r'ITEM\s+2\s*[\.\-:]?\s*MANAGEMENT',
+            'ends': [r'ITEM\s+3\s*[\.\-:]?\s*QUANTITATIVE', r'ITEM\s+4\s*[\.\-:]?\s*CONTROLS']
         },
         'notes': {
-            # More flexible pattern for 10-Q notes
-            'start': r'(NOTES\s+TO\s+(CONDENSED\s+)?CONSOLIDATED\s+FINANCIAL\s+STATEMENTS|ITEM\s+1\.\s+FINANCIAL\s+STATEMENTS)',
-            'ends': [r'ITEM\s+2\.\s+MANAGEMENT', r'PART\s+II']
+            'start': r'(NOTES\s+TO\s+(CONDENSED\s+)?CONSOLIDATED\s+FINANCIAL\s+STATEMENTS|ITEM\s+1\s*[\.\-:]?\s*FINANCIAL\s+STATEMENTS)',
+            'ends': [r'ITEM\s+2\s*[\.\-:]?\s*MANAGEMENT', r'PART\s+II']
         }
     }
 }
@@ -232,6 +248,189 @@ class TextExtractor(HTMLParser):
             text = data.strip()
             if text:
                 self.text.append(text)
+
+def html_to_text(html_content):
+    """Parse HTML to plain text.
+
+    Returns:
+        (full_text, normalized_text) where full_text preserves the original
+        line structure emitted by the HTMLParser (better for human/LLM reading)
+        and normalized_text collapses all whitespace to single spaces (better
+        for robust regex searching across split words and broken lines).
+    """
+    html_clean = re.sub(r'</?(ix|xbrli):[^>]*>', '', html_content)
+    parser = TextExtractor()
+    parser.feed(html_clean)
+    full_text = '\n'.join(parser.text)
+    normalized_text = re.sub(r'\s+', ' ', full_text)
+    return full_text, normalized_text
+
+
+def discover_filing_structure(norm_text):
+    """Probe normalized document text to identify real section header positions.
+
+    The problem with hardcoded regex patterns is that the same text (e.g.
+    "ITEM 7") appears multiple times in an SEC filing: once in the table of
+    contents and once as the actual section header.  Trying to distinguish
+    them by formatting (period vs. hyphen vs. colon) requires per-company
+    debugging every time.
+
+    This function uses a formatting-agnostic signal instead: a real section
+    header has orders of magnitude more content between it and the next
+    section marker than a TOC entry does.  A TOC entry for ITEM 7 is followed
+    by a page number and then the ITEM 7A entry — a few dozen characters.
+    The real ITEM 7 header is followed by thousands of words of MD&A prose.
+
+    Algorithm:
+        1. Find every occurrence of "ITEM N" in normalized text.
+        2. Measure the character span from each occurrence to the start of
+           the next "ITEM N" occurrence.
+        3. For each unique item number, select the occurrence with the
+           longest span — that is the real section header.
+        4. Reject candidates with < 500 chars of span (pure TOC entries).
+        5. Separately discover the Notes section header (no ITEM prefix).
+
+    Returns:
+        dict with keys:
+            'item_headers': {item_num_str: {
+                'start': int,            # position in norm_text
+                'header_text': str,      # first 120 chars starting at match
+                'content_to_next': int,  # chars to next ITEM occurrence
+            }}
+            'notes_header': {
+                'start': int,
+                'header_text': str,
+                'content_after': int,
+            } | None
+    """
+    from collections import defaultdict
+
+    # 1. Find all ITEM N occurrences (any punctuation, any casing)
+    item_re = re.compile(r'\bITEM\s+(\d{1,2}[A-Z]?)\b', re.IGNORECASE)
+    all_matches = list(item_re.finditer(norm_text))
+
+    # 2. Compute span from each match to the start of the next ITEM occurrence
+    candidates = []
+    for i, m in enumerate(all_matches):
+        next_start = all_matches[i + 1].start() if i + 1 < len(all_matches) else len(norm_text)
+        candidates.append({
+            'item': m.group(1).upper(),
+            'start': m.start(),
+            'content_to_next': next_start - m.start(),
+            'header_text': norm_text[m.start():m.start() + 120].strip(),
+        })
+
+    # 3 & 4. For each item number, the real header has the longest span
+    by_item = defaultdict(list)
+    for c in candidates:
+        by_item[c['item']].append(c)
+
+    item_headers = {}
+    for item_num, group in by_item.items():
+        best = max(group, key=lambda x: x['content_to_next'])
+        if best['content_to_next'] > 500:   # filters TOC entries (~50-200 chars)
+            item_headers[item_num] = best
+
+    # 5. Notes section header (not ITEM-prefixed)
+    notes_candidates = [
+        r'NOTES\s+TO\s+CONDENSED\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
+        r'NOTES\s+TO\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
+        r'NOTES\s+TO\s+FINANCIAL\s+STATEMENTS',
+    ]
+    notes_header = None
+    for pattern in notes_candidates:
+        matches = list(re.finditer(pattern, norm_text, re.IGNORECASE))
+        if not matches:
+            continue
+
+        def _content_after(m):
+            # Span from match end to the nearest real item header that follows it
+            following = [h['start'] for h in item_headers.values() if h['start'] > m.end()]
+            return (min(following) if following else len(norm_text)) - m.end()
+
+        best = max(matches, key=_content_after)
+        content_len = _content_after(best)
+        if content_len > 500:
+            notes_header = {
+                'start': best.start(),
+                'header_text': norm_text[best.start():best.start() + 120].strip(),
+                'content_after': content_len,
+            }
+            break
+
+    return {'item_headers': item_headers, 'notes_header': notes_header}
+
+
+def extract_section_by_discovery(full_text, norm_text, structure, start_item, end_items, part_end=None):
+    """Extract a filing section using positions discovered by discover_filing_structure().
+
+    Uses exact discovered positions rather than regex patterns for end boundaries,
+    eliminating false matches on in-body references like "see Item 8 of this
+    Annual Report" that share phrasing with actual section headers.
+
+    Args:
+        full_text:   Original parsed text (preserves line breaks for readability)
+        norm_text:   Normalized text (single-space, for position lookup)
+        structure:   Output of discover_filing_structure()
+        start_item:  Item number string ('7', '2') or 'NOTES'
+        end_items:   List of item number strings that terminate this section
+        part_end:    'II' or 'III' if a PART boundary also terminates the section
+
+    Returns:
+        Extracted section text, or "" if the section could not be located.
+    """
+    item_headers = structure['item_headers']
+    notes_header = structure['notes_header']
+
+    # --- Locate start in norm_text ---
+    if start_item == 'NOTES':
+        if not notes_header:
+            return ""
+        start_norm = notes_header['start']
+        anchor = notes_header['header_text'][:40]
+    elif start_item in item_headers:
+        start_norm = item_headers[start_item]['start']
+        anchor = item_headers[start_item]['header_text'][:40]
+    else:
+        return ""
+
+    # --- Locate end in norm_text ---
+    end_candidates = []
+    for end_item in end_items:
+        if end_item in item_headers and item_headers[end_item]['start'] > start_norm + 100:
+            end_candidates.append(item_headers[end_item]['start'])
+
+    if part_end:
+        # Search for PART II/III at least 5,000 chars past the start to skip
+        # any in-section mentions of "Part II" or "Part III"
+        part_re = re.compile(r'\bPART\s+' + re.escape(part_end) + r'\b', re.IGNORECASE)
+        for m in part_re.finditer(norm_text, start_norm + 5000):
+            end_candidates.append(m.start())
+            break
+
+    end_norm = min(end_candidates) if end_candidates else len(norm_text)
+
+    # --- Map norm_text positions back to full_text ---
+    # norm_text has single spaces; full_text may have newlines between the same
+    # tokens.  Replace escaped spaces in the anchor with \s+ to match either.
+    anchor_pattern = re.sub(r'\\ ', r'\\s+', re.escape(anchor))
+    start_match = re.search(anchor_pattern, full_text, re.IGNORECASE)
+    if not start_match:
+        # Can't map back — return the norm_text slice (still readable for LLMs)
+        return norm_text[start_norm:end_norm].strip()
+
+    start_full = start_match.start()
+
+    if end_norm < len(norm_text):
+        end_anchor = norm_text[end_norm:end_norm + 40]
+        end_anchor_pattern = re.sub(r'\\ ', r'\\s+', re.escape(end_anchor))
+        end_match = re.search(end_anchor_pattern, full_text[start_full + 100:], re.IGNORECASE)
+        end_full = start_full + 100 + end_match.start() if end_match else len(full_text)
+    else:
+        end_full = len(full_text)
+
+    return full_text[start_full:end_full].strip()
+
 
 # Minimum word counts required for each section — anything below is treated as a
 # failed extraction (likely picked up a table of contents rather than body text).
@@ -389,6 +588,14 @@ def _section_stats(text):
 def extract_filing_sections(html_file, ticker, form_type):
     """Extract MD&A and Notes sections from SEC filing HTML.
 
+    Primary path: discover_filing_structure() probes the document to find real
+    section header positions (not TOC entries), then extract_section_by_discovery()
+    uses those positions directly.  This eliminates false boundary matches caused
+    by in-body references to section numbers (e.g. "see Item 8 of this report").
+
+    Fallback: if discovery extraction produces insufficient text (<100 words),
+    the original regex-based extract_section_text() is used instead.
+
     Each section is validated against MIN_SECTION_WORDS and, for notes sections,
     against a content marker check. Validation results are stored in each section
     dict under 'validation' so they can be surfaced in the final summary.
@@ -402,24 +609,64 @@ def extract_filing_sections(html_file, ticker, form_type):
         with open(html_file, 'r', encoding='utf-8') as f:
             html_content = f.read()
 
-        patterns = SECTION_PATTERNS.get(form_type)
-        if not patterns:
+        # --- Parse HTML once; reused across all sections ---
+        full_text, norm_text = html_to_text(html_content)
+
+        # --- Probe document structure ---
+        structure = discover_filing_structure(norm_text)
+
+        print(f"\n  Structure discovery:")
+        item_headers = structure['item_headers']
+        for item_num in sorted(item_headers.keys(), key=lambda x: (len(x), x)):
+            h = item_headers[item_num]
+            preview = h['header_text'].replace('\n', ' ')[:72]
+            print(f"    ITEM {item_num:<3} ({h['content_to_next']:>9,} chars): {preview}")
+        if structure['notes_header']:
+            nh = structure['notes_header']
+            preview = nh['header_text'].replace('\n', ' ')[:72]
+            print(f"    NOTES   ({nh['content_after']:>9,} chars): {preview}")
+        else:
+            print(f"    NOTES: not found by discovery")
+
+        # --- Extract sections ---
+        section_defs = SECTION_DEFINITIONS.get(form_type)
+        fallback_patterns = SECTION_PATTERNS.get(form_type)
+        if not section_defs:
             print(f"  Error: Unknown form type: {form_type}")
             return None
 
         data_dir = get_data_directory(ticker)
         sections = {}
 
-        for section_name, section_patterns in patterns.items():
-            print(f"  Extracting {section_name.upper()} section...")
-            text = extract_section_text(html_content, section_patterns['start'], section_patterns['ends'])
-            file_path = os.path.join(data_dir, f"{ticker}_{form_type.lower().replace('-', '')}_{section_name}.txt")
+        for section_name, defn in section_defs.items():
+            print(f"\n  Extracting {section_name.upper()} section...")
 
+            # Primary: discovery-based extraction
+            text = extract_section_by_discovery(
+                full_text, norm_text, structure,
+                start_item=defn['start_item'],
+                end_items=defn['end_items'],
+                part_end=defn.get('part_end'),
+            )
+
+            if len(text.split()) >= 100:
+                print(f"  Discovery extraction: {len(text.split()):,} words")
+            else:
+                # Fallback: regex-based extraction
+                print(f"  Discovery insufficient ({len(text.split())} words) — falling back to regex patterns")
+                fp = fallback_patterns.get(section_name) if fallback_patterns else None
+                if fp:
+                    text = extract_section_text(html_content, fp['start'], fp['ends'])
+                    print(f"  Fallback extraction: {len(text.split()):,} words")
+                else:
+                    print(f"  No fallback patterns available for {section_name}")
+
+            file_path = os.path.join(data_dir, f"{ticker}_{form_type.lower().replace('-', '')}_{section_name}.txt")
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(text)
 
             stats = _section_stats(text)
-            print(f"  Saved {section_name.upper()}: {file_path} ({stats['words']:,} words, {stats['lines']:,} lines)")
+            print(f"  Saved: {file_path} ({stats['words']:,} words, {stats['lines']:,} lines)")
 
             # --- Validation ---
             min_words = MIN_SECTION_WORDS.get(form_type, {}).get(section_name, 0)
@@ -443,6 +690,8 @@ def extract_filing_sections(html_file, ticker, form_type):
 
     except Exception as e:
         print(f"  Error extracting sections: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 # ============================================================================

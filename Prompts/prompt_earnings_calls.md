@@ -25,22 +25,29 @@ Read the following before doing anything else:
 - Analyze the transcripts to answer the questions in the Output Format below.
 - All insights must leverage the provided transcripts. Explicitly cite specific statements or excerpts that led to your conclusion.
 - Cross-reference against all prior analyses in the Thesis file — the earnings call is the lens through which management's narrative is tested against the hard data.
+- **Call Weighting:** The two calls are not equal in strategic weight. The call covering full-year results and annual guidance typically contains the more material disclosures — long-term targets reiterated or revised, annual segment performance, and the strategic reset for the coming year. The more recent call is usually incremental. Identify which call carries more weight before beginning the analysis, and ensure both are read with equal care. Where the two calls diverge in tone, data, or emphasis, note it explicitly.
+- **Open Questions Check:** Before answering the output questions, return to the **Footnotes & MD&A** section of the Thesis. List every item explicitly flagged for Earnings Call investigation. For each, state: (a) whether management addressed it on either call, (b) what was said (with citation), and (c) whether the answer strengthens, weakens, or leaves the thesis unchanged. Items not addressed should be flagged as unresolved and carried forward to the Research phase.
 - **Reference:** Consult `Source Material/summaries/` when an item would benefit from additional context, especially as it pertains to fundamental analysis, reflexivity theory, and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. *CRITICAL WARNING: Do not access Source Material/raw/ without explicit user permission to avoid burning compute.*
 
 ### Deliverable
 
 **Questions:**
 1. **Data Check:** Have all findings been sourced directly from the earnings call transcripts — no outside data introduced?
-2. **Cross-Reference Check:** Has each significant management claim been evaluated against the prior financial, footnotes, and sentiment analyses?
-3. **Tone Check:** Has language and tone been assessed for shifts relative to the prior call?
-4. **Summary Check:** Does the Earnings Call Summary accurately reflect the findings?
+2. **Call Weighting Check:** Has the more strategically material call been identified, and have both calls been read with equal care?
+3. **Cross-Reference Check:** Has each significant management claim been evaluated against the prior financial, footnotes, and sentiment analyses?
+4. **Open Questions Check:** Has every item flagged in the Footnotes phase for Earnings Call investigation been explicitly addressed or flagged as unresolved?
+5. **Tone Check:** Has language and tone been assessed for shifts relative to the prior call?
+6. **Summary Check:** Does the Earnings Call Summary accurately reflect the findings?
 
 ### Output Format
 
 #### {TICKER} Earnings Call Analysis
 
+**Call Orientation**
+[1–2 sentences identifying which of the two calls carries more strategic weight and why — e.g., full-year results + annual guidance vs. incremental quarterly update. This frames the weighting applied throughout the analysis.]
+
 **1. Does management's characterization of the business align with previous analyses — or are there notable deflections, omissions, or contradictions?**
-[Answer using specific excerpts or citations from the transcript]
+[Answer using specific excerpts or citations from the transcript. Draw from both calls; note where they differ.]
 
 **2. Are there any explanations that add meaningful context to specific findings from the previous analyses?**
 [Answer using specific excerpts or citations from the transcript]
@@ -53,6 +60,9 @@ Read the following before doing anything else:
 
 **5. How do analysts' focus areas align with our previous analyses?**
 [Answer using specific excerpts or citations from the transcript]
+
+**6. Were the open questions from the Footnotes phase resolved?**
+[List each item flagged for Earnings Call investigation in the Footnotes & MD&A section. For each: state whether it was addressed, cite what was said, and assess whether the answer strengthens, weakens, or leaves the thesis unchanged. Flag any items that remain unresolved and should carry into the Research phase.]
 
 **Earnings Call Summary**
 [A concise paragraph summarizing the findings. This text will be copied to the Thesis file.]
