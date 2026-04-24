@@ -48,6 +48,8 @@ If either sanity check fails despite the word count passing, flag it before stop
 - **Accuracy — quote, don't paraphrase:** For accounting policy changes, quote the filing's exact language — do not substitute an interpretation for what the document says.
 - **Accuracy — temporal:** When citing figures from multi-period tables, state which period they belong to — a figure in the prior-year column is not a current-year cost.
 - **Quality bar:** See the **Example Analysis** at the bottom of this prompt. It demonstrates the required level of rigor, depth, and cross-reference integration — not a template to replicate structurally.
+- **Epistemic tagging (required):** Tag every factual claim as `[CONFIRMED: source]`, `[ESTIMATED: source, method]`, or `[INFERRED: source, logic]`. See GEMINI.md — Analytical Conduct. Figures disclosed verbatim in SEC filings are `[CONFIRMED]`; figures derived analytically from those filings are `[ESTIMATED]`.
+- **Cross-section consistency (required):** For every figure that also appears in the Financials section of the Thesis, verify the values are consistent. If they differ, investigate and resolve — state explicitly which figure is correct and why. Do not allow conflicting values to coexist across Thesis sections.
 
 ### Deliverable
 
@@ -56,6 +58,8 @@ If either sanity check fails despite the word count passing, flag it before stop
 2. **Financials Cross-Reference Check:** Has each significant disclosure been evaluated against the prior financial analysis conclusions?
 3. **Accounting Check:** Have the disclosures been reviewed against the Accounting Checklist below?
 4. **Summary Check:** Does the Footnotes & MD&A Summary accurately reflect the findings?
+5. **Tagging Check:** Are all factual claims tagged `[CONFIRMED]`, `[ESTIMATED]`, or `[INFERRED]` with citations to specific filing sections?
+6. **Consistency Check:** Have all figures that appear in both this section and the Financials section been verified to be consistent? Any discrepancy must be resolved and documented before committing.
 
 ### Output Format
 

@@ -29,6 +29,9 @@ Read the following before doing anything else:
 - **Open Questions Check:** Before answering the output questions, return to the **Footnotes & MD&A** section of the Thesis. List every item explicitly flagged for Earnings Call investigation. For each, state: (a) whether management addressed it on either call, (b) what was said (with citation), and (c) whether the answer strengthens, weakens, or leaves the thesis unchanged. Items not addressed should be flagged as unresolved and carried forward to the Research phase.
 - **Reference:** Consult `Source Material/summaries/` when an item would benefit from additional context, especially as it pertains to fundamental analysis, reflexivity theory, and boom/bust models. Refer to `Source Material/summaries/insights_index.md` for a thematic map. *CRITICAL WARNING: Do not access Source Material/raw/ without explicit user permission to avoid burning compute.*
 - **Quality bar:** See the **Example Analysis** at the bottom of this prompt. It illustrates the required level of rigor, depth, and specificity — how management statements are cited and tested against prior analyses, how tone shifts between calls are identified, and how open questions from prior phases are tracked to resolution or escalated. Do not replicate its findings or structure mechanically; every company's earnings calls present different patterns and challenges.
+- **Forward vs. backward labeling (required):** Management guidance figures (EPS targets, margin baselines, growth rates) are forward-looking and must be labeled as such. Do not blend guidance with historical actuals in the same valuation argument. Where forward guidance diverges from historical trends, flag the delta explicitly.
+- **GAAP vs. adjusted labeling (required):** When management cites non-GAAP figures (adjusted EPS, non-GAAP operating income, adjusted EBITDA), label them explicitly as adjusted and note whether the GAAP equivalent is available. Do not accept management's adjusted framing without checking whether the excluded items are genuinely non-recurring.
+- **Cross-section consistency (required):** For every figure cited from the earnings call that also appears in the Financials or Footnotes sections, verify consistency. Management-stated figures that contradict prior analysis conclusions must be flagged and investigated — not silently adopted.
 
 ### Deliverable
 
@@ -39,6 +42,8 @@ Read the following before doing anything else:
 4. **Open Questions Check:** Has every item flagged in the Footnotes phase for Earnings Call investigation been explicitly addressed or flagged as unresolved?
 5. **Tone Check:** Has language and tone been assessed for shifts relative to the prior call?
 6. **Summary Check:** Does the Earnings Call Summary accurately reflect the findings?
+7. **Labeling Check:** Are all forward-looking figures (guidance, targets) labeled as such, and all non-GAAP figures labeled as adjusted? Are historical actuals and forward guidance kept separate in valuation arguments?
+8. **Consistency Check:** Have all figures cited from the calls been verified against the Financials and Footnotes sections? Any discrepancy must be resolved and documented.
 
 ### Output Format
 

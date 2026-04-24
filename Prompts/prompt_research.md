@@ -25,6 +25,9 @@ Read the following before doing anything else:
 - **Match questions to news:** For each open question, search the news data for relevant articles, statements, or developments. Cite specific headlines, sources, and dates.
 - **Targeted web fetches:** For open questions that remain unresolved after reviewing the news data, you may perform up to **3 targeted web fetches** to find material information. Use this budget selectively — only for questions that are material to the investment thesis and genuinely unresolved.
 - **New material:** Flag any significant news items that were not anticipated by the prior analyses but are relevant to the thesis.
+- **Source citation (required):** Every finding must cite a specific article, headline, date, and source. "Per recent news" is not acceptable. Analyst estimates and third-party forecasts are forward-looking — label them as such and do not blend them with confirmed historical data from prior analyses.
+- **Epistemic tagging (required):** Tag all claims. News reports are `[CONFIRMED: source, date]` for what the article says, but `[INFERRED]` for the underlying claim if the article itself is making an inference. Distinguish between what is directly reported and what is being concluded from the report.
+- **Cross-section consistency (required):** Any figure cited in the Research section that also appears in a prior Thesis section must be consistent. Where news sources cite figures that conflict with prior analyses, investigate — do not silently adopt the news figure over the filing figure.
 
 ### Deliverable
 
@@ -33,6 +36,8 @@ Read the following before doing anything else:
 2. **Data Check:** Have all findings been sourced directly from the news data or cited web sources — no outside knowledge introduced?
 3. **Web Fetch Check:** Were web fetches used selectively (max 3), only for material unresolved questions?
 4. **Summary Check:** Does the Research Summary accurately reflect the findings?
+5. **Tagging Check:** Are all claims tagged `[CONFIRMED]`, `[ESTIMATED]`, or `[INFERRED]` with specific source citations (headline, date, outlet)?
+6. **Labeling Check:** Are analyst estimates and third-party forecasts labeled as forward-looking? Are news-cited figures verified against prior Thesis sections for consistency?
 
 ### Output Format
 

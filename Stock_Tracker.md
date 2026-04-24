@@ -34,6 +34,7 @@ Stocks under active analysis. Work through phases sequentially per `GEMINI.md`. 
 | UMAC | TAILWIND | Primary | — | $600.39M | $15.44 | -17.3% | +205.1% | 34.0% | +112.2% | — | — | -/-/-/- | $+0.20 | 2026-05-14 | Earnings | 2026-04-14 | PASS | UMAC_Thesis.md | 2026-04-14 |
 | DPZ | LOSER | Primary | — | $12.42B | $369.46 | -4.2% | -19.5% | 24.7% | +1.4% | 21.0x | +7.2% | -/+/-/+ | $-1.05 | 2026-04-27 | Price & Earnings | 2026-04-15 | PASS | DPZ_Thesis.md | 2026-04-15 |
 | MCD | LOSER | Primary | — | $218.18B | $306.94 | +1.9% | +0.9% | 9.7% | +8.6% | 25.2x | +15.1% | +/-/+/+ | $-0.37 | 2026-05-07 | Price & Earnings | 2026-04-15 | PASS | MCD_Thesis.md | 2026-04-15 |
+| IT | LOSER | Primary | — | $11.01B | $156.23 | -29.6% | -61.1% | 65.4% | -3.0% | 11.8x | +21.9% | +/+/+/+ | $-1.02 | 2026-05-05 | Synthesis | 2026-04-24 | PASS | IT_Thesis.md | 2026-04-24 |
 
 ---
 

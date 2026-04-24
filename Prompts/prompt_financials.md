@@ -29,6 +29,9 @@ Read the following before doing anything else:
 - **Metric Interpretations:** The section at the bottom of this prompt matches exactly the metrics being analyzed and should serve as your primary source of context for each metric before formulating your analysis.
 - **Quality bar:** See the **Example Analysis** at the bottom of this prompt. It illustrates the required level of rigor, depth, and specificity — how data points are cited to support conclusions, how peer comparisons are integrated throughout each metric rather than appended, and how analytical nuances are surfaced within the existing metric framework. Do not replicate its findings or structure mechanically; every company's financials present different patterns and challenges.
 - **Earnings quality — GAAP vs. Adj:** The screening phase now surfaces both GAAP P/E and Adj (non-GAAP) P/E. Where a material gap exists (already flagged in the Thesis), investigate the drivers here — primarily SBC as a % of revenue and amortization of acquired intangibles. SBC is now a dedicated row in `{TICKER}_financial_analysis.md` and must be analyzed directly. Amortization of acquired intangibles is **not separable** from D&A in the FMP data; defer that decomposition to the Footnotes phase via SEC filings. Surface the SBC analysis in the OCF/Net Income metric and Part B Question 2.
+- **Epistemic tagging (required):** Tag every factual claim as `[CONFIRMED: source]`, `[ESTIMATED: source, method]`, or `[INFERRED: source, logic]`. See GEMINI.md — Analytical Conduct. Do not use `[CONFIRMED]` for analytically-derived figures.
+- **GAAP vs. adjusted labeling (required):** Every P/E, EPS, and margin figure must be explicitly labeled GAAP or adjusted. Where they diverge materially (>15%), flag the gap and note the drivers.
+- **Forward vs. backward labeling (required):** Label all metrics by their time period. Historical CAGRs are not forward growth rates. If growth is decelerating, note that the historical CAGR overstates the forward trajectory.
 
 **Raw data access:** Before deferring any unresolved question to a future phase, check whether the raw JSON files (`Data/tickers/{TICKER}/raw/`) contain data that would resolve it. If yes, use it. Only defer when the data genuinely does not exist in the raw files.
 
@@ -40,6 +43,8 @@ Read the following before doing anything else:
 3. **Per-Metric Check:** Has each metric been assessed across all four dimensions (current vs. historical, long-term trend, short-term trend, and guidance inference)?
 4. **Synthesis Check:** Do the Part B questions draw meaningfully on the per-metric work in Part A?
 5. **Summary Check:** Does the Financials Summary accurately reflect the findings?
+6. **Tagging Check:** Are all factual claims tagged `[CONFIRMED]`, `[ESTIMATED]`, or `[INFERRED]` with citations?
+7. **Labeling Check:** Are all P/E, EPS, and margin figures explicitly labeled GAAP or adjusted, and all metrics explicitly labeled by time period?
 
 ### Output Format
 

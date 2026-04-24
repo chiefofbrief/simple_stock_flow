@@ -18,6 +18,23 @@ Limit analysis depth to match importance — accept information gaps when additi
 
 **Metric Discipline:** Only apply financial metrics, ratios, and analytical frameworks explicitly established in the project files or source material. Do not introduce outside metrics (e.g., PEG ratio, EV/EBITDA) unless sourced from `index.md` resources. If an additional metric appears relevant, flag it and ask before applying it.
 
+**Source Citation Requirement:** Every factual claim in every analysis must cite its source — the specific file, section, table, or speaker. General references ("per the financial data," "as noted in the Thesis") are not acceptable. Uncited claims must be removed or tagged as inferences.
+
+**Epistemic Tagging:** Every factual claim must be tagged with one of three markers:
+- `[CONFIRMED: source]` — figure or fact appears verbatim in a primary source (10-K, 10-Q, earnings transcript)
+- `[ESTIMATED: source, method]` — figure is analytically derived from confirmed inputs; show the derivation
+- `[INFERRED: source, logic]` — claim is a logical inference from confirmed facts, not a directly disclosed figure
+
+Do not use `[CONFIRMED]` for analytically-derived figures, even if the derivation is airtight. If a claim cannot be tagged, remove it.
+
+**Forward vs. Backward Labeling:** Historical metrics and forward-looking projections must be explicitly labeled as such. A historical CAGR is not a forward growth rate. Where growth is decelerating, the historical CAGR overstates the forward trajectory — flag this explicitly. Do not blend historical figures with forward guidance in the same valuation argument without clearly distinguishing them.
+
+**Adjusted vs. GAAP Labeling:** Every P/E multiple, EPS figure, margin, and earnings-derived metric must be explicitly labeled as GAAP or adjusted (non-GAAP). Do not write "P/E of 12x" — write "adjusted P/E of ~12x (~16.5x GAAP)" and cite the source of both. Where GAAP and adjusted figures diverge materially (>15%), flag the gap and investigate the drivers before drawing valuation conclusions.
+
+**Cross-Section Consistency:** After all steps are complete and before Synthesis, verify that the same figures are described consistently across all Thesis sections. A figure that appears with different values in different sections (e.g., "$150M" in one place and "$255M" in another for the same event) is an error — resolve it before Synthesis. New sections that revise a prior section's conclusion must do so explicitly.
+
+**Devil's Advocate at Synthesis:** Before writing the Bull Case or recommendation, write the strongest possible Bear Case using only facts from the prior analyses. A Bear Case that relies on vague language or doesn't engage with specific data is insufficient. Test every Bull Case point against the Bear Case before finalizing the recommendation.
+
 ---
 
 ### Investment Types

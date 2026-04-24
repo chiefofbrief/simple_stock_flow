@@ -27,6 +27,10 @@ Read the following before doing anything else:
   - **TAILWIND:** Is fundamental improvement likely and when? Is that improvement already priced in?
 - Evaluate margin of safety and current market conditions together — the required margin is not fixed.
 - Consider whether reflexivity conditions are present: can sentiment become self-reinforcing, and in which direction?
+- **Devil's advocate (required):** Write the strongest possible Bear Case before writing the Bull Case or recommendation. The Bear Case must use only facts from prior analyses, cite specific data, and identify at least one quantifiable condition under which the thesis is wrong. Vague bear cases ("macro uncertainty," "competitive pressure") are insufficient.
+- **Cross-section consistency (required):** Before writing the verdict, verify that the same figures are described consistently across all Thesis sections. Any figure appearing with different values in different sections must be resolved here. State explicitly which value is correct and why.
+- **Framing audit (required):** After drafting the full Synthesis, review for systematic bullish or bearish framing. The most common failure mode is a Bull Case that outruns the evidence. If the analysis is systematically bullish, revise to give equal prominence to bear risks before finalizing the recommendation.
+- **Labeling (required):** All P/E multiples, EPS figures, and margins in the verdict must be labeled GAAP or adjusted. All growth projections must be labeled as forward-looking and distinguished from historical actuals.
 
 ### Deliverable
 
@@ -38,6 +42,10 @@ Read the following before doing anything else:
 5. **Reflexivity Check:** Have reflexivity conditions been considered — is sentiment self-reinforcing, and does that create or compress the opportunity?
 6. **Invalidation Check:** Are the thesis invalidation conditions specific and observable — not vague?
 7. **Recommendation Check:** Does the recommendation (Buy / Pass / Monitor) follow clearly from the bull case, bear case, margin of safety, and current market conditions?
+8. **Devil's Advocate Check:** Was the Bear Case written before the Bull Case? Does it cite specific data and include at least one quantifiable invalidation condition?
+9. **Consistency Check:** Have all cross-section inconsistencies in the Thesis been identified and resolved before writing the verdict?
+10. **Framing Audit:** Is the analysis free of systematic bullish or bearish framing — do Bull and Bear sections receive equal rigor and prominence?
+11. **Labeling Check:** Are all P/E, EPS, and margin figures labeled GAAP or adjusted? Are all forward projections distinguished from historical actuals?
 
 ### Output Format
 
