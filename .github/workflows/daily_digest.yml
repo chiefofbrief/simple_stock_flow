@@ -2,8 +2,8 @@ name: Daily Market Analysis
 
 on:
   schedule:
-    # Runs at 12:30 UTC (8:30 AM EDT) Monday-Friday
-    - cron: '30 12 * * 1-5'
+    # Runs at 12:30 UTC (8:30 AM EDT) Tuesday-Friday
+    - cron: '30 12 * * 2-5'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:

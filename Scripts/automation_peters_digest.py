@@ -38,7 +38,7 @@ RETRY_DELAY_BASE = 10
 ANALYSIS_MARKER = "<!-- ANALYSIS_COMPLETE -->"
 
 # File Paths
-PROMPT_PATH = "Prompts/prompt_digest.md"
+PROMPT_PATH = "Prompts/prompt_digest_markets.md"
 GEMINI_CONTEXT_PATH = "GEMINI.md"
 AI_GUIDELINES_PATH = "AI_Guidelines.md"
 
@@ -130,8 +130,8 @@ def main():
     # 1. Determine Today's File Path for Cache Check
     import datetime
     today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
-    digest_dir = "Peter's Digest"
-    cached_path = os.path.join(digest_dir, f"Daily_Digest_{today}.md")
+    digest_dir = "Peter's Digest/Markets Digest"
+    cached_path = os.path.join(digest_dir, f"Markets_Digest_{today}.md")
 
     # 2. Generate Raw Data (Only if not already present AND clean)
     digest_path = None
@@ -152,7 +152,7 @@ def main():
         print("Step 1: Generating raw data via peters_digest.py...")
         try:
             result = subprocess.run(
-                [sys.executable, "Scripts/peters_digest.py", "--daily"], 
+                [sys.executable, "Scripts/Digest Scripts/markets_digest.py"],
                 capture_output=True, 
                 text=True, 
                 check=True,
@@ -214,6 +214,8 @@ def main():
 
 ### AUTOMATION OVERRIDE: HEADLESS EXECUTION ###
 You are running in a fully automated, headless pipeline. There is NO human in the loop.
+- Execute Steps 1, 2, and 3 ONLY. Stop after Step 3. Do NOT execute Steps 4 or 5.
+- Do NOT read, propose updates to, or modify context_markets.md under any circumstances.
 - Output ONLY the final Markdown analysis. Start directly with the first header.
 - DO NOT include any conversational filler, confirmation questions, or meta-commentary.
 - DO NOT include phrases like "Action:", "Shall I proceed", or "Do you approve".
