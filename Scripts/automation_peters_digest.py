@@ -214,8 +214,6 @@ def main():
 
 ### AUTOMATION OVERRIDE: HEADLESS EXECUTION ###
 You are running in a fully automated, headless pipeline. There is NO human in the loop.
-- Execute Steps 1, 2, and 3 ONLY. Stop after Step 3. Do NOT execute Steps 4 or 5.
-- Do NOT read, propose updates to, or modify context_markets.md under any circumstances.
 - Output ONLY the final Markdown analysis. Start directly with the first header.
 - DO NOT include any conversational filler, confirmation questions, or meta-commentary.
 - DO NOT include phrases like "Action:", "Shall I proceed", or "Do you approve".

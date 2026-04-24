@@ -73,39 +73,6 @@ Read the following before doing anything else:
 
 Upon explicit user approval (e.g., "yes", "go ahead"), prepend the full analysis report (from the "Markets Analysis" header onwards) to the top of `Peter's Digest/Markets Digest/Markets_Digest_{DATE}.md`, immediately below the main "Peter's Digest: Markets" header.
 
-**STOP. Wait for user approval before committing.**
+To update `context_markets.md`, run `prompt_context_update_markets.md`.
 
----
-
-## Step 4: Propose Context Update
-
-Re-read `context_markets.md`. Compare it against today's approved analysis and propose the following:
-
-*   **Current State changes:** For each section under Current State, note only what has changed materially from what is already captured. If nothing has changed in a section, do not include it. If nothing has changed anywhere, state "No Current State updates." When proposing a section update, write out the full proposed section text — do not summarize or condense existing prose, only incorporate the new developments. Frame each update as a progression from the prior state: explicitly reference what was noted before and how today's developments confirm, contradict, or escalate it. Do not produce a clean snapshot as if the prior state didn't exist — produce an evolution.
-*   **New Recent Log entry:** A structured daily entry using the following fields in order:
-    *   **Key Levels:** SPY [price] | VIX [level] | 10Y [yield] | Brent [price] — pulled directly from the Macro Dashboard.
-    *   **Sector Performance — Top:** [sector +%], [sector +%], [sector +%] | **Bottom:** [sector -%], [sector -%], [sector -%] — pulled directly from the Sector Discovery table.
-    *   **Market Posture:** [1 sentence on risk-on/off stance and why] — match the opening sentence from the Market Posture & Prevailing Narratives Current State update.
-    *   **Prevailing Narratives:** match exactly what was written to the Market Posture & Prevailing Narratives section of the Current State update for today.
-    *   **Screening Candidates — Losers:** all tickers and their brief context, copied verbatim from the approved analysis — no condensing or omissions.
-    *   **Screening Candidates — Tailwinds:** all tickers and their brief context, copied verbatim from the approved analysis — no condensing or omissions.
-    *   [Optional: 1–2 additional bullets for any notable macro developments not already captured above.]
-
-Present the full proposed update to the user before writing anything.
-
-**Action:** Ask: "Do you approve this context update? Should I apply it to context_markets.md?"
-
-**STOP. Wait for user approval before proceeding to Step 5.**
-
----
-
-## Step 5: Commit Context Update
-
-Upon explicit user approval, apply the following changes to `context_markets.md`:
-
-1.  Update the `*Last updated*` date at the top of the file.
-2.  Rewrite only the Current State sections that were flagged as changed in Step 4. Leave unchanged sections as-is. When rewriting a section, preserve the instructive text block (the bracketed description in square brackets beneath each section heading) exactly as-is. Frame each rewrite as a progression from the prior state, not a fresh snapshot.
-3.  Append today's Recent Log entry at the top of the Recent Log section (most recent first).
-4.  If the Recent Log now contains more than 10 entries, remove the oldest entry.
-
-**STOP. Wait for user approval before committing.**
+**STOP. You are done.**
