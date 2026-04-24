@@ -4,30 +4,38 @@
 **Thesis Type:** LOSER (Temporary Price Dislocation)
 **Layer:** 13 (AI-Native Applications)
 **Current Price:** $158.62 (as of 2026-04-21)
-**Verdict:** **BUY** (Verified 2026-04-24)
+**Verdict:** **MONITOR — BUY on entry conditions** (Verified 2026-04-24)
 
 ---
 
 ## 0. Synthesis
-**Thesis:** Gartner is an elite "survivor" business currently mispriced as a broken growth story due to temporary "DOGE shock" federal contract losses and a one-time $150M accounting impairment, while its core research engine is actually accelerating into a $6.31T (+13.5%) AI-driven IT spending tailwind.
+**Thesis:** Gartner is an elite "survivor" business currently mispriced as a broken growth story due to temporary "DOGE shock" federal contract losses and a one-time $150M accounting impairment, while its core research engine is positioned to reaccelerate into a $6.31T (+13.5%) AI-driven IT spending tailwind — but the recovery is a 2-3 year subscription model grind, not a near-term catalyst play.
 
-**Recommendation:** **BUY**
+**Recommendation:** **MONITOR — BUY on confirmed entry conditions**
+
+**Holding Period:** 2-3 years (base case). The subscription model lag means CV growth inflecting in H2 2026 flows into revenue in late 2026 and EPS in 2027. Analyst consensus re-rating requires 2-3 quarters of visible CV acceleration — realistically a 2027 story. Litigation overhang persists through at least 2027. This is a value play requiring patience; sizing up before the earnings trough clears (~Q2-Q3 2026) accepts unnecessary timing risk.
+
+**Entry Conditions — both must be confirmed before full position:**
+1. **May 5, 2026 earnings call** confirms federal headwind is peaking (CV ex-federal holding or accelerating) and no new structural deterioration in enterprise retention
+2. **Post-May 18, 2026** litigation update — lead plaintiff appointed; firm's aggressiveness assessed. A moderate plaintiff firm substantially reduces near-term settlement risk; an aggressive firm (e.g., Robbins Geller) warrants waiting for initial motion-to-dismiss ruling
 
 **Bull Case**
 *   **Economic Reality vs. GAAP:** The perceived margin collapse to 15.8% was driven by a confirmed $150M goodwill impairment in Q3 2025 (Digital Markets unit) plus additional Q3 operating charges; adjacent quarters averaged ~18.9% operating margin, fully in line with the 5-year average. Earnings quality is peerless at 1.77x OCF/NI.
-*   **Perimeter Cleanup:** The February 2026 sale of the Digital Markets unit (sold for $110M after $150M impairment — confirming genuine business deterioration, not a bookkeeping event) removes a structurally weak, lower-margin segment and allows 100% focus on the high-margin Insights subscription core.
-*   **AI Neutralization:** AskGartner adoption is acting as a "retention moat" rather than a cannibalization risk, with early data showing **substantially** higher renewal rates for AI-engaged clients — and critically, the effect holds **even at the same engagement levels**, meaning it is causal, not merely correlational.
-*   **Valuation Floor:** At 12.0x **adjusted** P/E (~16.5x GAAP) after a $2B share buyback that reduced float by 8%, the stock offers a meaningful discount to its eventual earnings power. This is a **2-3 year recovery trade** — 2026 adjusted EPS is guided at $12.30+ (below 2025's $13.17 due to federal headwind and transformation investment), with reacceleration expected in 2027-2028 as CV growth compounds through the subscription model.
+*   **Perimeter Cleanup:** The February 2026 sale of the Digital Markets unit (sold for $110M after $150M impairment — confirming genuine business deterioration, not a bookkeeping event) removes a structurally weak, lower-margin segment and allows 100% focus on the high-margin Insights subscription core. Forward EBITDA margins guided to a 23.5%+ new baseline.
+*   **AI Neutralization:** AskGartner adoption is acting as a retention moat rather than a cannibalization risk — early data shows **substantially** higher renewal rates for AI-engaged clients, and the effect holds **even at the same engagement levels**, establishing causality. LLM substitution risk "comes up very rarely" per CEO.
+*   **Valuation Floor:** At 12.0x **adjusted** P/E (~16.5x GAAP), the stock is priced as a broken compounder. The 2026 earnings trough ($12.30+ adjusted EPS vs. $13.17 in 2025) is knowable and quantified; the 2027-2028 reacceleration as CV growth compounds is not yet priced in.
 
 **Bear Case**
-*   **Litigation Risk — Above Average:** *Schmidt v. Gartner* (D. Conn., filed March 17, 2026) is not a boilerplate filing. The complaint is supported by two identifiable corrective disclosure events (Aug 5, 2025: -27.55%; Feb 3, 2026: -20.87%), a core theory that EPS beats masked revenue misses, and active pursuit by 8+ plaintiff law firms. The May 18, 2026 lead plaintiff deadline is imminent — the appointed firm's aggressiveness will define the litigation's trajectory. This overhang is likely to persist through 2026.
-*   **Structural Federal Loss:** Retention in the US Federal Government segment collapsed to <50% in 2025 ($126M CV remaining); if budget-driven attrition spreads to state/local or regulated enterprise sectors, the 12-16% CV growth target remains unreachable. ~40% of total CV is also in tariff-affected industries — a separate, persistent headwind.
-*   **Transformation Execution:** The automated insight production program — which reduced **Magic Quadrant** creation time by 75% — requires successful execution without degrading the Gartner brand's analytical authority. These are the flagship products; quality deterioration here would be the most damaging possible outcome.
+*   **Earnings Trough With No Near-Term Catalyst:** 2026 adjusted EPS is guided below 2025 — this is an earnings decline year. Analyst consensus is net bearish (WF Underweight $150, Barclays EW $180, MS $200; UBS lone bull $270). No institutional re-rating narrative is forming. The stock can stay cheap through the entire 2026 trough with no fundamental trigger for recovery visible to the market.
+*   **Litigation Risk — Serious and Persistent:** *Schmidt v. Gartner* (D. Conn., filed March 17, 2026) is supported by two corrective disclosure events (Aug 5, 2025: -27.55%; Feb 3, 2026: -20.87%), active pursuit by 8+ plaintiff firms, and a lead plaintiff deadline of May 18, 2026. Securities class actions rarely resolve in under 2 years — this overhang likely persists through 2027 and will suppress institutional accumulation regardless of fundamental improvement.
+*   **Federal + Tariff Double Headwind:** Retention in the US Federal Government segment collapsed to <50% ($126M CV remaining); if attrition spreads to state/local or regulated enterprise, the 12-16% CV growth target is unreachable. Separately, ~40% of total CV is in tariff-affected industries — a macro headwind independent of Gartner-specific execution.
+*   **Transformation Execution Risk:** The AI automation program that reduced Magic Quadrant creation time by 75% requires successful execution without degrading the Gartner brand's analytical authority. The flagship products are the moat; quality deterioration here is the most damaging possible outcome and would not be immediately visible in financial metrics.
 
 **Thesis Invalidation**
-*   **CV Growth Stalls:** If total CV growth (ex-federal) fails to reaccelerate past 5% by Q3 2026, it signals a structural rather than cyclical slowdown.
-*   **Operating Leverage Reversal:** If 2026 EBITDA margins fall below the 23.5% "new baseline" despite the Digital Markets exit, it indicates core pricing power is deteriorating.
-*   **AI Substitution Proof:** If client retention rates for non-federal enterprise segments drop below 80% for two consecutive quarters, the "AskGartner as a moat" thesis is invalidated.
+*   **CV Growth Stalls:** If total CV growth (ex-federal) fails to reaccelerate past 5% by Q3 2026, it signals structural rather than cyclical slowdown — the core subscription engine is impaired, not just disrupted.
+*   **Operating Leverage Reversal:** If 2026 EBITDA margins fall below the 23.5% new baseline despite the Digital Markets exit, core pricing power is deteriorating and the margin floor thesis fails.
+*   **Enterprise Retention Breaks:** If client retention rates for non-federal enterprise segments drop below 80% for two consecutive quarters, the federal problem has spread and the "isolated federal headwind" framing is wrong.
+*   **Litigation Escalation:** If the appointed lead plaintiff firm pursues discovery aggressively and early motions-to-dismiss are denied, the litigation timeline extends to 2028+ and settlement risk becomes a material balance sheet concern.
 
 ---
 
@@ -54,7 +62,7 @@ Gartner (IT) is an elite, self-funding intellectual property compounder that is 
 
 ### Part A — Metric Analysis
 *   **Revenue:** 5-year CAGR 8.2% (TTM $6.50B). Growth slowing (15.7% -> 3.7%) but remains positive while peer FORR contracts (-8.2%). IT is gaining share in a contracting neighborhood.
-*   **Operating Margin:** TTM 15.8% reported, but ~19.2% economic (adjusted for $255.7M non-cash charge in Q3 2025). High-quality leader in its space.
+*   **Operating Margin:** TTM 15.8% reported, but ~19.2% economic (adjusted for the confirmed $150M goodwill impairment plus additional Q3 2025 operating charges; total Q3 impact estimated at ~$200-255M but only the $150M is a directly confirmed figure). High-quality leader in its space.
 *   **OCF/NI (1.77x):** Exceptional earnings quality. GAAP net income is understating cash generation due to non-cash impairments and modest SBC (2.4% of revenue).
 *   **Working Capital:** Absorbed a $0.8B headwind as negative WC normalized, yet OCF remained resilient.
 *   **Debt Profile:** Debt/OCF at 2.59x (TTM). Very manageable (<3x threshold).
@@ -71,7 +79,7 @@ Gartner (IT) is an elite, self-funding intellectual property compounder that is 
 **Verdict: PASS (De-risked)**
 
 ### Footnotes & MD&A Summary
-The footnotes provide the "smoking gun" for the 2025 margin squeeze: a **$150M goodwill impairment** in the Digital Markets reporting unit, which was subsequently sold in February 2026 for ~$110M. This confirms that the earnings "collapse" was an accounting artifact and that management is aggressively pruning non-core, dragging assets. Furthermore, the "software capitalization" risk is actually a tailwind: IT amortized $68.4M of internal software while capitalizing only $48.2M, meaning the balance sheet is being "cleaned" faster than it is being inflated. However, a structural **50% collapse in US federal government contract retention** remains a significant, albeit quantified, top-line headwind.
+The footnotes provide the "smoking gun" for the 2025 margin squeeze: a **$150M goodwill impairment** in the Digital Markets reporting unit (confirmed, 10-K), which was subsequently sold in February 2026 for ~$110M — below the impaired value, confirming genuine business deterioration rather than a purely accounting event. Management is aggressively pruning non-core assets. The software accounting posture is conservative: amortization of finite-lived intangibles was $82.3M (confirmed, 10-K notes) and the CapEx/D&A ratio of 57.5% confirms the balance sheet is not being inflated faster than it is being amortized. However, a structural **50% collapse in US federal government contract retention** remains a significant, albeit quantified, top-line headwind.
 
 ### Key Findings
 *   **Digital Markets Exit:** The $150M goodwill impairment (confirmed, 10-K) was triggered by "ongoing weakness in the market" and internal reorganization (Q3 2025), leading to a full divestiture on Feb 5, 2026 for $110M. The sale price below impaired goodwill value confirms genuine business deterioration — this was not a purely accounting event. The exit removes a structurally weaker segment (Consulting margin comparator: 34% vs. core Insights 77%; Digital Markets margin not separately disclosed) and provides structural uplift to forward margins.
@@ -85,7 +93,7 @@ The footnotes provide the "smoking gun" for the 2025 margin squeeze: a **$150M g
 **Verdict: PASS (Constructive)**
 
 ### Earnings Call Summary
-Gartner’s 2025 results and 2026 guidance confirm an elite "survivor" business successfully navigating a sector-wide slowdown. The $150M impairment and subsequent divestiture of the lower-margin Digital Markets unit, coupled with a $2B share buyback (8% of shares), represent a major strategic pivot to the core, high-margin subscription business. While a $60M-$70M hole in US Federal Government revenue remains a drag through Q1 2026, the early data on AskGartner—where users retain at "significantly higher" rates—effectively de-risks the threat of AI substitution. Management’s move to a "new baseline" margin of 23.5% for 2026 is a transparent resetting of expectations as they prioritize the "75% time reduction" transformation in insight delivery. The [LOSER] thesis is materially strengthened: the earnings dip was an accounting cleanup, not a structural break.
+Gartner’s 2025 results and 2026 guidance confirm an elite "survivor" business successfully navigating a sector-wide slowdown. The $150M impairment and subsequent divestiture of the lower-margin Digital Markets unit (sold Feb 5, 2026 for $110M, confirming genuine deterioration), coupled with a $2B share buyback (8% of shares), represent a major strategic pivot to the core, high-margin subscription business. While a ~$58M hole in US Federal Government revenue (confirmed, 10-K) remains a drag through Q1 2026, the early data on AskGartner — where users retain at "substantially higher" rates even at equal engagement levels — establishes a causal retention moat rather than a usage-correlation artifact, effectively de-risking the threat of AI substitution. Management’s move to a "new baseline" EBITDA margin of 23.5%+ for 2026 is a transparent resetting of expectations following the Digital Markets exit. The [LOSER] thesis is materially strengthened: the earnings dip was driven by an accounting cleanup and a quantified federal headwind, not a structural break in the core subscription business.
 
 ### Key Insights
 *   **AI Neutralization:** AskGartner users showed "substantially higher" retention rates than non-users — and critically, this held **even at the same engagement levels** (per Q4 call), making this a causal finding, not a usage-correlation artifact.
