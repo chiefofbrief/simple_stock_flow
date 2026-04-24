@@ -3,12 +3,15 @@
 Tracker Update Script
 =====================
 
-Fetches market data for all tickers in the PIPELINE and WATCHLIST tables of
-Stock_Tracker.md and writes the metrics back into those tables in-place.
+Fetches market data for all tickers in PIPELINE, WATCHLIST, and Trade Tracker
+sections of Stock_Tracker.md and writes the metrics back in-place.
 
-Metrics updated (columns 5-15 in both tables):
-  Mkt Cap | Price | vs_3M | vs_1Y | 52w_below | Price CAGR (5yr) |
-  P/E | EPS CAGR | Beats (4Q) | Fwd Delta | Next Earnings
+Metrics updated (PIPELINE / WATCHLIST):
+  Mkt Cap | Price | vs_1M | vs_1Y | Price CAGR (5yr) |
+  P/E | EPS QoQ | EPS YoY | EPS CAGR (5yr) | Rev YoY | Fwd Delta | Next Earnings
+
+Metrics updated (Trade Tracker):
+  Price | vs_1M | vs_1Y | P/E | EPS QoQ | EPS YoY | Rev YoY | Fwd Delta | Next Earnings
 
 Saves per-ticker JSON to Data/tickers/{TICKER}/raw/ for compatibility
 with the rest of the workflow (price.py, earnings.py).
@@ -21,7 +24,6 @@ Usage:
 import sys
 import os
 import argparse
-import statistics
 import requests
 import time
 from datetime import datetime, timedelta
@@ -40,20 +42,38 @@ API_CALL_DELAY = 2  # seconds between FMP calls
 
 TRACKER_PATH = "Stock_Tracker.md"
 
-# Columns 5-15 (1-indexed in pipe-split) are the market data columns
-# and are identical in both PIPELINE and WATCHLIST tables.
+# Column indices for PIPELINE and WATCHLIST (1-indexed in pipe-split)
+# Ticker=1, Tag=2, Mkt Cap=3, Price=4, vs_1M=5, vs_1Y=6, Price CAGR=7,
+# P/E=8, EPS QoQ=9, EPS YoY=10, EPS CAGR=11, Rev YoY=12, Fwd Delta=13, Next Earnings=14
 MARKET_COL_INDICES = {
-    "mkt_cap":        5,
+    "mkt_cap":        3,
+    "price":          4,
+    "vs_1m":          5,
+    "vs_1y":          6,
+    "price_cagr_5yr": 7,
+    "pe":             8,
+    "eps_qoq":        9,
+    "eps_yoy":        10,
+    "eps_cagr":       11,
+    "rev_yoy":        12,
+    "fwd_delta":      13,
+    "next_earnings":  14,
+}
+
+# Column indices for Trade Tracker (1-indexed in pipe-split)
+# Ticker=1, Entry Date=2, Entry Price=3, Shares=4, Cost Basis=5,
+# Price=6, vs_1M=7, vs_1Y=8, P/E=9, EPS QoQ=10, EPS YoY=11,
+# Rev YoY=12, Fwd Delta=13, Next Earnings=14, Thesis=15
+TRADE_COL_INDICES = {
     "price":          6,
-    "vs_3m":          7,
+    "vs_1m":          7,
     "vs_1y":          8,
-    "52w_below":      9,
-    "price_cagr_5yr": 10,
-    "pe":             11,
-    "eps_cagr":       12,
-    "beats_4q":       13,
-    "fwd_delta":      14,
-    "next_earnings":  15,
+    "pe":             9,
+    "eps_qoq":        10,
+    "eps_yoy":        11,
+    "rev_yoy":        12,
+    "fwd_delta":      13,
+    "next_earnings":  14,
 }
 
 
@@ -62,7 +82,7 @@ MARKET_COL_INDICES = {
 # ---------------------------------------------------------------------------
 
 def parse_tickers_from_tracker():
-    """Read all tickers from PIPELINE and WATCHLIST sections of Stock_Tracker.md."""
+    """Read all unique tickers from PIPELINE, WATCHLIST, and Trade Tracker."""
     tickers = []
     seen = set()
 
@@ -70,7 +90,7 @@ def parse_tickers_from_tracker():
         lines = f.readlines()
 
     current_section = None
-    in_data = False  # True after we've passed the header row
+    in_data = False
 
     for line in lines:
         stripped = line.strip()
@@ -83,12 +103,16 @@ def parse_tickers_from_tracker():
             current_section = "WATCHLIST"
             in_data = False
             continue
+        elif stripped.startswith("## Trade Tracker"):
+            current_section = "TRADE"
+            in_data = False
+            continue
         elif stripped.startswith("## "):
             current_section = None
             in_data = False
             continue
 
-        if current_section not in ("PIPELINE", "WATCHLIST"):
+        if current_section not in ("PIPELINE", "WATCHLIST", "TRADE"):
             continue
 
         if not stripped.startswith("|"):
@@ -100,12 +124,10 @@ def parse_tickers_from_tracker():
 
         ticker_cell = cells[1]
 
-        # Header row
         if ticker_cell == "Ticker":
             in_data = True
             continue
 
-        # Separator row (all dashes/colons)
         if not ticker_cell or ticker_cell.replace("-", "").replace(":", "").strip() == "":
             continue
 
@@ -158,7 +180,7 @@ def fetch_prices(ticker, years=5):
 
 
 def fetch_earnings_history(ticker):
-    """Fetch earnings history (40 entries = ~10 years of quarters) from FMP."""
+    """Fetch earnings history (40 entries) from FMP for fwd_delta and eps_cagr."""
     url = f"{FMP_BASE}/earnings?symbol={ticker}&limit=40&apikey={FMP_API_KEY}"
     try:
         r = requests.get(url, timeout=30)
@@ -198,7 +220,7 @@ def safe_float(val):
 
 
 def compute_price_metrics(ticker, daily_prices):
-    """Compute all price metrics needed for the tracker."""
+    """Compute price metrics: current price, vs_1M, vs_1Y, Price CAGR (5yr)."""
     sorted_daily = sorted(daily_prices, key=lambda p: p["date"])
     if len(sorted_daily) < 30:
         print(f"  [price] Insufficient data ({len(sorted_daily)} days)")
@@ -208,12 +230,12 @@ def compute_price_metrics(ticker, daily_prices):
     current_date = sorted_daily[-1]["date"]
     now = datetime.now()
 
-    # vs_3M: price change vs. ~90 days ago
-    target_3m = (now - timedelta(days=90)).strftime("%Y-%m-%d")
-    prior_3m = [p for p in sorted_daily if p["date"] <= target_3m]
-    vs_3m = None
-    if prior_3m and prior_3m[-1]["adjClose"] > 0:
-        vs_3m = (current_price - prior_3m[-1]["adjClose"]) / prior_3m[-1]["adjClose"]
+    # vs_1M: price change vs. ~30 days ago
+    target_1m = (now - timedelta(days=30)).strftime("%Y-%m-%d")
+    prior_1m = [p for p in sorted_daily if p["date"] <= target_1m]
+    vs_1m = None
+    if prior_1m and prior_1m[-1]["adjClose"] > 0:
+        vs_1m = (current_price - prior_1m[-1]["adjClose"]) / prior_1m[-1]["adjClose"]
 
     # vs_1Y: price change vs. ~1 year ago
     target_1y = (now - timedelta(days=365)).strftime("%Y-%m-%d")
@@ -221,12 +243,6 @@ def compute_price_metrics(ticker, daily_prices):
     vs_1y = None
     if prior_1y and prior_1y[-1]["adjClose"] > 0:
         vs_1y = (current_price - prior_1y[-1]["adjClose"]) / prior_1y[-1]["adjClose"]
-
-    # 52-week high and % below it
-    one_year_ago = (now - timedelta(days=365)).strftime("%Y-%m-%d")
-    daily_1yr = [p for p in sorted_daily if p["date"] >= one_year_ago]
-    high_52w = max(p["adjHigh"] for p in daily_1yr) if daily_1yr else current_price
-    below_52w = (high_52w - current_price) / high_52w if high_52w > 0 else 0.0
 
     # Price CAGR (5yr) using monthly closes
     monthly = {}
@@ -244,19 +260,14 @@ def compute_price_metrics(ticker, daily_prices):
         "ticker": ticker,
         "as_of": current_date,
         "current_price": current_price,
-        "vs_3m": vs_3m,
+        "vs_1m": vs_1m,
         "vs_1y": vs_1y,
-        "52w_high": high_52w,
-        "52w_below": below_52w,
         "cagr_5yr": cagr_5yr,
-        # Passthrough fields for compatibility with earnings.py logic
-        "table_metrics": {"vs_1yr": vs_1y},
-        "supplementary": {"recent_trend": []},
     }
 
 
 def compute_earnings_metrics(ticker, history, price_data):
-    """Compute P/E, EPS CAGR, beat streak, and forward delta from earnings history."""
+    """Compute EPS CAGR (5yr) and Fwd Delta from earnings history."""
     if not history:
         return None
 
@@ -283,18 +294,12 @@ def compute_earnings_metrics(ticker, history, price_data):
 
     actual_sorted = sorted(actual_quarters, key=lambda x: x["date"])
 
-    # Build TTM annual blocks (4 quarters each) for P/E and EPS CAGR
+    # Build TTM annual blocks for EPS CAGR
     annual_eps = []
     for i in range(len(actual_sorted), 3, -4):
         chunk = actual_sorted[i - 4:i]
         ttm = sum(q["actual"] for q in chunk)
         annual_eps.append({"date": chunk[-1]["date"], "eps": ttm})
-    # annual_eps[0] = most recent TTM, annual_eps[1] = 1yr ago, etc.
-
-    # Current P/E (TTM)
-    curr_price = price_data.get("current_price")
-    ttm_eps = annual_eps[0]["eps"] if annual_eps else None
-    curr_pe = curr_price / ttm_eps if (ttm_eps and ttm_eps > 0 and curr_price) else None
 
     # EPS CAGR (5yr if available, otherwise full span)
     cagr_5yr = None
@@ -308,29 +313,13 @@ def compute_earnings_metrics(ticker, history, price_data):
         if s > 0 and e > 0 and yrs > 0:
             cagr_5yr = (e / s) ** (1 / yrs) - 1
 
-    # Beats (4Q): newest 4 quarters, newest first, formatted as +/+/-/+
-    newest_4 = sorted(actual_quarters, key=lambda x: x["date"], reverse=True)[:4]
-    symbols = []
-    for q in newest_4:
-        act, est = q["actual"], q["estimated"]
-        if est is None or act is None:
-            symbols.append("?")
-        elif act >= est:
-            symbols.append("+")
-        else:
-            symbols.append("-")
-    beats_str = "/".join(symbols) if symbols else None
-
     # Forward delta: next quarter estimate minus last actual EPS
     fwd_delta = None
     if next_est is not None and last_actual is not None:
         fwd_delta = next_est - last_actual
 
     return {
-        "adj_pe": curr_pe,       # Non-GAAP (FMP /earnings) — for reference only
-        "current_pe": curr_pe,   # Alias kept for backward compatibility
         "eps_cagr": cagr_5yr,
-        "beats_4q": beats_str,
         "fwd_delta": fwd_delta,
         "next_date": next_date,
     }
@@ -346,6 +335,52 @@ def compute_gaap_pe(income_data, current_price):
         return None
     ttm_eps = sum(eps_vals)
     return current_price / ttm_eps if ttm_eps > 0 else None
+
+
+def compute_quarterly_metrics(income_data):
+    """Compute EPS QoQ, EPS YoY, and Rev YoY from quarterly income statements.
+
+    income_data is sorted most-recent-first (standard FMP order):
+      [0] = most recent quarter
+      [1] = prior quarter      (for QoQ)
+      [4] = same quarter -1yr  (for YoY)
+    """
+    if not income_data or len(income_data) < 2:
+        return {"eps_qoq": None, "eps_yoy": None, "rev_yoy": None}
+
+    q0 = income_data[0]
+    q1 = income_data[1] if len(income_data) > 1 else None
+    q4 = income_data[4] if len(income_data) > 4 else None
+
+    eps0 = safe_float(q0.get("eps"))
+    rev0 = safe_float(q0.get("revenue"))
+
+    # EPS QoQ
+    eps_qoq = None
+    if q1 is not None and eps0 is not None:
+        eps1 = safe_float(q1.get("eps"))
+        if eps1 is not None and eps1 != 0:
+            eps_qoq = (eps0 - eps1) / abs(eps1)
+
+    # EPS YoY
+    eps_yoy = None
+    if q4 is not None and eps0 is not None:
+        eps4 = safe_float(q4.get("eps"))
+        if eps4 is not None and eps4 != 0:
+            eps_yoy = (eps0 - eps4) / abs(eps4)
+
+    # Rev YoY
+    rev_yoy = None
+    if q4 is not None and rev0 is not None:
+        rev4 = safe_float(q4.get("revenue"))
+        if rev4 is not None and rev4 > 0:
+            rev_yoy = (rev0 - rev4) / rev4
+
+    return {
+        "eps_qoq": eps_qoq,
+        "eps_yoy": eps_yoy,
+        "rev_yoy": rev_yoy,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -387,7 +422,7 @@ def fmt_fwd_delta(val):
 # ---------------------------------------------------------------------------
 
 def update_tracker(ticker_metrics):
-    """Write computed metrics back into the market data columns of Stock_Tracker.md."""
+    """Write computed metrics back into Stock_Tracker.md in-place."""
     with open(TRACKER_PATH, "r") as f:
         lines = f.readlines()
 
@@ -404,11 +439,14 @@ def update_tracker(ticker_metrics):
         elif stripped.startswith("## WATCHLIST"):
             current_section = "WATCHLIST"
             in_data = False
+        elif stripped.startswith("## Trade Tracker"):
+            current_section = "TRADE"
+            in_data = False
         elif stripped.startswith("## "):
             current_section = None
             in_data = False
 
-        if current_section in ("PIPELINE", "WATCHLIST") and stripped.startswith("|"):
+        if current_section in ("PIPELINE", "WATCHLIST", "TRADE") and stripped.startswith("|"):
             cells = line.split("|")
             if len(cells) >= 3:
                 ticker_cell = cells[1].strip()
@@ -418,17 +456,31 @@ def update_tracker(ticker_metrics):
                 elif in_data and ticker_cell and not ticker_cell.replace("-", "").replace(":", "").strip() == "":
                     if ticker_cell in ticker_metrics:
                         m = ticker_metrics[ticker_cell]
-                        cells[MARKET_COL_INDICES["mkt_cap"]]        = f" {m['mkt_cap']} "
-                        cells[MARKET_COL_INDICES["price"]]           = f" {m['price']} "
-                        cells[MARKET_COL_INDICES["vs_3m"]]           = f" {m['vs_3m']} "
-                        cells[MARKET_COL_INDICES["vs_1y"]]           = f" {m['vs_1y']} "
-                        cells[MARKET_COL_INDICES["52w_below"]]       = f" {m['52w_below']} "
-                        cells[MARKET_COL_INDICES["price_cagr_5yr"]]  = f" {m['price_cagr_5yr']} "
-                        cells[MARKET_COL_INDICES["pe"]]              = f" {m['pe']} "
-                        cells[MARKET_COL_INDICES["eps_cagr"]]        = f" {m['eps_cagr']} "
-                        cells[MARKET_COL_INDICES["beats_4q"]]        = f" {m['beats_4q']} "
-                        cells[MARKET_COL_INDICES["fwd_delta"]]       = f" {m['fwd_delta']} "
-                        cells[MARKET_COL_INDICES["next_earnings"]]   = f" {m['next_earnings']} "
+
+                        if current_section in ("PIPELINE", "WATCHLIST"):
+                            cells[MARKET_COL_INDICES["mkt_cap"]]        = f" {m['mkt_cap']} "
+                            cells[MARKET_COL_INDICES["price"]]           = f" {m['price']} "
+                            cells[MARKET_COL_INDICES["vs_1m"]]           = f" {m['vs_1m']} "
+                            cells[MARKET_COL_INDICES["vs_1y"]]           = f" {m['vs_1y']} "
+                            cells[MARKET_COL_INDICES["price_cagr_5yr"]]  = f" {m['price_cagr_5yr']} "
+                            cells[MARKET_COL_INDICES["pe"]]              = f" {m['pe']} "
+                            cells[MARKET_COL_INDICES["eps_qoq"]]         = f" {m['eps_qoq']} "
+                            cells[MARKET_COL_INDICES["eps_yoy"]]         = f" {m['eps_yoy']} "
+                            cells[MARKET_COL_INDICES["eps_cagr"]]        = f" {m['eps_cagr']} "
+                            cells[MARKET_COL_INDICES["rev_yoy"]]         = f" {m['rev_yoy']} "
+                            cells[MARKET_COL_INDICES["fwd_delta"]]       = f" {m['fwd_delta']} "
+                            cells[MARKET_COL_INDICES["next_earnings"]]   = f" {m['next_earnings']} "
+                        elif current_section == "TRADE":
+                            cells[TRADE_COL_INDICES["price"]]          = f" {m['price']} "
+                            cells[TRADE_COL_INDICES["vs_1m"]]          = f" {m['vs_1m']} "
+                            cells[TRADE_COL_INDICES["vs_1y"]]          = f" {m['vs_1y']} "
+                            cells[TRADE_COL_INDICES["pe"]]             = f" {m['pe']} "
+                            cells[TRADE_COL_INDICES["eps_qoq"]]        = f" {m['eps_qoq']} "
+                            cells[TRADE_COL_INDICES["eps_yoy"]]        = f" {m['eps_yoy']} "
+                            cells[TRADE_COL_INDICES["rev_yoy"]]        = f" {m['rev_yoy']} "
+                            cells[TRADE_COL_INDICES["fwd_delta"]]      = f" {m['fwd_delta']} "
+                            cells[TRADE_COL_INDICES["next_earnings"]]  = f" {m['next_earnings']} "
+
                         line = "|".join(cells)
 
         new_lines.append(line)
@@ -485,26 +537,27 @@ def main():
             ensure_directory_exists(data_dir)
             save_json(price_metrics, os.path.join(data_dir, f"{ticker}_price.json"))
 
-        # --- Earnings data (non-GAAP — beats, fwd_delta, eps_cagr) ---
-        time.sleep(API_CALL_DELAY)
-        earnings_history = fetch_earnings_history(ticker)
-        earnings_metrics = None
-        if earnings_history and price_metrics:
-            earnings_metrics = compute_earnings_metrics(ticker, earnings_history, price_metrics)
-
-        # --- Income statement for GAAP P/E ---
+        # --- Income statement: GAAP P/E, EPS QoQ/YoY, Rev YoY ---
         time.sleep(API_CALL_DELAY)
         income_data = fetch_income_statement(ticker)
         gaap_pe = compute_gaap_pe(
             income_data,
             price_metrics["current_price"] if price_metrics else None,
         )
+        quarterly = compute_quarterly_metrics(income_data) if income_data else {
+            "eps_qoq": None, "eps_yoy": None, "rev_yoy": None
+        }
+
+        # --- Earnings history: EPS CAGR, Fwd Delta, Next Earnings ---
+        time.sleep(API_CALL_DELAY)
+        earnings_history = fetch_earnings_history(ticker)
+        earnings_metrics = None
+        if earnings_history and price_metrics:
+            earnings_metrics = compute_earnings_metrics(ticker, earnings_history, price_metrics)
 
         if earnings_metrics:
-            if gaap_pe is not None:
-                earnings_metrics["gaap_pe"] = gaap_pe
             save_json(
-                earnings_metrics,
+                {**earnings_metrics, **quarterly, "gaap_pe": gaap_pe},
                 os.path.join(get_data_directory(ticker), f"{ticker}_earnings.json"),
             )
 
@@ -512,13 +565,14 @@ def main():
         m = {
             "mkt_cap":        fmt_mktcap(mkt_cap),
             "price":          fmt_price(price_metrics["current_price"]) if price_metrics else "—",
-            "vs_3m":          fmt_pct(price_metrics["vs_3m"]) if price_metrics else "—",
+            "vs_1m":          fmt_pct(price_metrics["vs_1m"]) if price_metrics else "—",
             "vs_1y":          fmt_pct(price_metrics["vs_1y"]) if price_metrics else "—",
-            "52w_below":      fmt_pct(price_metrics["52w_below"], sign=False) if price_metrics else "—",
             "price_cagr_5yr": fmt_pct(price_metrics["cagr_5yr"]) if price_metrics else "—",
-            "pe":             fmt_pe(gaap_pe) if gaap_pe is not None else (fmt_pe(earnings_metrics["current_pe"]) if earnings_metrics else "—"),
+            "pe":             fmt_pe(gaap_pe),
+            "eps_qoq":        fmt_pct(quarterly["eps_qoq"]),
+            "eps_yoy":        fmt_pct(quarterly["eps_yoy"]),
             "eps_cagr":       fmt_pct(earnings_metrics["eps_cagr"]) if earnings_metrics else "—",
-            "beats_4q":       earnings_metrics["beats_4q"] if earnings_metrics and earnings_metrics["beats_4q"] else "—",
+            "rev_yoy":        fmt_pct(quarterly["rev_yoy"]),
             "fwd_delta":      fmt_fwd_delta(earnings_metrics["fwd_delta"]) if earnings_metrics else "—",
             "next_earnings":  earnings_metrics["next_date"] if earnings_metrics and earnings_metrics["next_date"] else "—",
         }
@@ -526,9 +580,9 @@ def main():
 
         print(
             f"  Cap: {m['mkt_cap']}  Price: {m['price']}  "
-            f"vs3M: {m['vs_3m']}  vs1Y: {m['vs_1y']}  "
-            f"52w↓: {m['52w_below']}  P/E: {m['pe']}  "
-            f"EPS CAGR: {m['eps_cagr']}  Beats: {m['beats_4q']}"
+            f"vs1M: {m['vs_1m']}  vs1Y: {m['vs_1y']}  "
+            f"P/E: {m['pe']}  EPS QoQ: {m['eps_qoq']}  "
+            f"EPS YoY: {m['eps_yoy']}  Rev YoY: {m['rev_yoy']}"
         )
 
     print(f"\nWriting to {TRACKER_PATH}...")

@@ -45,9 +45,8 @@ jobs:
 
       - name: Run Digest and Analysis
         env:
-          # REMOVED: GEMINI_API_KEY
-          PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }} # ADDED: Tells Vertex AI which project to bill
-          LOCATION: us-central1                     # ADDED: Default Vertex AI region
+          PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          LOCATION: us-central1
           SOCIAVAULT_API_KEY: ${{ secrets.SOCIAVAULT_API_KEY }}
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
           ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
@@ -58,10 +57,25 @@ jobs:
         run: |
           python Scripts/automation_peters_digest.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Digest
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add "Peter's Digest/"
-          # Only commit if there are changes to avoid erroring on empty commits
           git diff --quiet && git diff --staged --quiet || (git commit -m "docs: add latest daily digest and analysis [skip ci]" && git push)
+
+      - name: Run Tracker Priority
+        env:
+          PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          LOCATION: us-central1
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO || secrets.EMAIL_USER }}
+        run: |
+          python Scripts/automation_tracker_priority.py
+
+      - name: Push Tracker Changes
+        run: |
+          git pull --rebase
+          git push
