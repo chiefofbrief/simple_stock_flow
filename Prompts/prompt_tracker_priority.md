@@ -13,7 +13,19 @@ Run the following before reading any files:
 python Scripts/tracker_update.py
 ```
 
-This updates all market data columns in `Stock_Tracker.md` (Price, vs_1M, vs_1Y, P/E, EPS QoQ, EPS YoY, Rev YoY, etc.) via live FMP data. Do not proceed until the script completes successfully. If it fails, alert the user and stop.
+This updates all market data columns in `Stock_Tracker.md` via live FMP data:
+- **vs_1Y** — price change vs. 1 year ago
+- **P/E** — GAAP trailing P/E (TTM)
+- **Avg EPS QoQ (4Q)** — average of last 4 quarterly EPS changes (smoothed momentum)
+- **EPS YoY** — most recent quarter EPS vs. same quarter prior year
+- **Yrs Profitable (5yr)** — profitable years out of last 5 (earnings durability)
+- **Rev YoY** — most recent quarter revenue vs. same quarter prior year
+- **FCF YoY** — free cash flow year-over-year change
+- **Op Margin %** — operating margin TTM
+- **Debt/OCF** — total debt / TTM operating cash flow
+- **Next Earnings** — next scheduled report date
+
+Do not proceed until the script completes successfully. If it fails, alert the user and stop.
 
 ---
 
@@ -34,16 +46,17 @@ Read the following before doing anything else:
 
 ## Step 2: Generate Priority List
 
-Apply the framework below to produce the daily priority list. Rank within each section by signal strength. Surface only immediately actionable candidates — if a signal is interesting but not compelling enough to act on today, omit it.
+Apply the framework below to produce the daily priority list. Rank always by the objective quality of the data. Upcoming earnings dates are noted as context only — they do not affect ranking except as a tiebreaker within Tier 1 (see below).
 
-The output should be compact: typically 5–8 total items across all sections. Quality over quantity — a short, high-conviction list is more useful than an exhaustive one.
+The output should be compact: typically 5–8 items across Pipeline and Flags. Quality over quantity.
 
 ---
 
 ### Section 1: Add to Position
 
 Scan the **Trade Tracker**. For each holding where current Price is at or below Entry Price:
-- Check EPS YoY and EPS QoQ — are earnings intact or improving? A price dip on deteriorating earnings is not an add signal.
+- Check EPS YoY and Avg EPS QoQ (4Q) — are earnings intact or improving? A price dip on deteriorating earnings is not an add signal.
+- Check FCF YoY and Op Margin % — confirm earnings quality is holding. Declining FCF alongside positive EPS is a yellow flag.
 - Check macro context — is the dip stock-specific or market-wide?
 - If earnings are solid and the dip is meaningful, surface as an add candidate. Conviction is already established; a price dip is a gift.
 
@@ -51,54 +64,107 @@ Note: IVV is an index position — evaluate purely on price vs. entry, no earnin
 
 ---
 
-### Section 2: Analyze Today
+### Section 2: Pipeline
 
-Surface candidates from WATCHLIST and PIPELINE where signal convergence is strong enough to begin or advance analysis today. List LOSERs and TAILWINDs separately — the leading signal differs.
+This section answers three questions, in order:
 
-#### LOSERs
+**A. Priority order** — Rank all current PIPELINE tickers by signal strength (same criteria as promotion candidates below). Strongest case first. Do not rank by phase, time in pipeline, or earnings date.
 
-The LOSER thesis: high-quality business, temporary price dislocation, market overreaction to solvable problem. The opportunity closes when sentiment normalizes. Brand-name, large-cap LOSERs recover faster — weight them higher.
+**B. Demotion check** — Flag any PIPELINE ticker whose data no longer supports Tier 1. A LOSER where vs_1Y has turned positive no longer has a dislocation thesis. A TAILWIND where spread has blown out above 150% with declining earnings no longer has compelling risk/reward. Flag as **Demote to WATCHLIST** or **Remove**.
 
-**Ranking criteria (apply as guidelines, not hard filters):**
-- **P/E:** The primary valuation signal. Below 20x is generally cheap; 20–30x is reasonable; above 30x requires strong earnings growth to justify; above 50x is rarely worth acting on for a LOSER. A stock at 33x with exceptional earnings and severe dislocation may outrank a stock at 14x with flat earnings — use judgment.
-- **Price dislocation:** vs_1Y is the medium-term signal; vs_1M captures recent acceleration. A stock down significantly vs_1Y that has also accelerated down vs_1M is a stronger signal than one that has been drifting slowly.
-- **Earnings intact:** EPS YoY should be positive or at worst stable — if fundamentals are deteriorating, it's not a temporary dislocation, it's a structural decline. Also check EPS CAGR — a broken long-term earnings trajectory is a value trap signal.
-- **Mkt Cap:** Large-cap LOSERs rank above small-cap with equivalent signals, per the GEMINI.md principle that brand-name stocks attract more attention when sentiment normalizes, accelerating recovery.
-- **Macro context:** If the market is broadly down, isolate whether the stock's dislocation is stock-specific before surfacing it.
+**C. Promotion candidates** — Identify WATCHLIST tickers that now qualify for PIPELINE. Tier 1 = PIPELINE. If a WATCHLIST ticker meets Tier 1 criteria, name it and state it should be promoted.
 
-#### TAILWINDs
+Tier 1 criteria:
+- **LOSER — EPS+** tag (auto-applied: EPS YoY > 0 AND vs_1Y < 0) — strongest dislocation signal; promote immediately.
+- **LOSER** with flat/slightly declining earnings where the decline is clearly temporary — requires explicit conviction; promote with a note.
+- **TAILWIND** with Spread ≤ 0% (EPS YoY ≥ vs_1Y) — earnings outpacing or matching price; Tier 1 by definition.
 
-The TAILWIND thesis: solid business where external factors are improving fundamentals. The risk is improvement already priced in. The Soros edge: *"a thesis can still be worth acting on as long as there are people yet to be convinced"* — but once a stock has run dramatically, the pool of new believers thins.
+**Earnings as tiebreaker within Tier 1 only:** When two Tier 1 candidates are otherwise equal in signal strength, the one with an earnings print in the near term ranks higher — the data you are acting on is about to be refreshed, so the window to act on current data is shorter. Note the earnings date but do not let it override a clearly stronger signal.
 
-**Ranking criteria (apply as guidelines, not hard filters):**
-- **Earnings acceleration:** EPS YoY is the primary signal; EPS QoQ shows whether acceleration is building or fading. Rev YoY confirms whether growth is top-line driven or margin-driven. Exceptional growth (40%+ EPS YoY) can justify a higher P/E and warrants surfacing even if P/E is elevated.
-- **P/E relative to growth:** A TAILWIND at 30x P/E on 60% EPS YoY growth is more compelling than one at 20x P/E on 8% growth. Frame P/E always in context of growth rate — do not evaluate in isolation. Above 50x P/E requires truly exceptional and accelerating growth to justify analysis today.
-- **Reflexivity guard (vs_1Y):** If price is already up dramatically year-over-year, assess whether the pool of believers is becoming exhausted. A stock up 20–40% on real earnings with broad skepticism still has runway. A stock up 200%+ may have already discounted the thesis — flag this tension explicitly rather than applying a hard cutoff.
-- **AI SC layer thesis:** For TAILWIND tickers with an AI SC layer tag, cross-reference `context_ai_supply_chain.md` — is the layer's structural dynamic intact? Is demand accelerating or plateauing? A strong ticker in a deteriorating layer is a weaker signal.
+#### LOSER ranking criteria
+
+**Priority order:**
+1. `LOSER — EPS+` always ranks above plain `LOSER`.
+2. Plain `LOSER` with temporary earnings decline — below EPS+ tickers.
+
+**Ranking signals:**
+- **P/E:** Below 20x cheap; 20–30x reasonable; above 30x requires strong growth justification.
+- **vs_1Y:** Larger dislocation = higher priority, all else equal.
+- **Mkt Cap:** Large-cap LOSERs rank above small-cap — brand-name stocks normalize faster.
+- **Macro context:** Isolate stock-specific dislocation from market-wide moves.
+
+**Earnings quality validators — confirm or deny the thesis, do not use to rank:**
+- **FCF YoY:** Positive/improving = earnings are real. Declining FCF + positive EPS = yellow flag.
+- **Op Margin %:** Stable/expanding = durable profitability. Contracting margin under growing EPS = suspicious.
+- **Debt/OCF:** Below 3x safe; above 5x introduces distress risk that undermines "temporary dislocation."
+- **Yrs Profitable (5yr):** 4/5 or 5/5 = durable base. 2/5 or below = structural concern.
+- **Avg EPS QoQ (4Q):** Positive average = improving trend even if YoY is still negative.
+
+#### TAILWIND ranking criteria
+
+**Primary metric — Spread (vs_1Y minus EPS YoY):**
+
+| Spread | Tier | Signal |
+|--------|------|--------|
+| ≤ 0% | 1 — Pipeline | Earnings outpacing price — act first |
+| 0–30% | 2 | Earnings broadly in line — strong candidates |
+| 30–150% | 3 | Price ahead but earnings growing — thesis check |
+| >150% or EPS YoY < -10% | 4 | Defer; flag for removal if thesis broken |
+
+**Ranking signals within each tier:**
+- **EPS YoY + Avg EPS QoQ (4Q):** YoY is primary; QoQ average shows acceleration building or fading.
+- **P/E relative to growth:** 30x on 60% EPS growth > 20x on 8% growth. Above 50x needs exceptional and accelerating growth.
+- **Reflexivity guard (vs_1Y):** Stocks up 200%+ may have exhausted the pool of believers — flag the tension explicitly.
+- **AI SC layer thesis:** Cross-reference `context_ai_supply_chain.md` — layer dynamic intact?
+
+**Earnings quality validators:**
+- **FCF YoY:** Growth should translate to real cash. Revenue growth + declining FCF = margin concern.
+- **Op Margin %:** Expanding margin = real operational leverage.
+- **Debt/OCF:** Above 5x warrants scrutiny.
+- **Yrs Profitable (5yr):** P/E = — tickers with 0/5 = thesis entirely forward-looking and unproven.
 
 ---
 
-### Section 3: Flag for Removal
+### Section 3: SC Layer Coverage
 
-Surface candidates from WATCHLIST (and PIPELINE if applicable) that no longer fit their thesis based on current data. These are also immediately actionable — cleaning the list is an act of discipline.
+Scan all PIPELINE and WATCHLIST tickers by their AI SC layer tag. For each layer (L1–L13 plus non-AI), count how many tickers currently have a PIPELINE entry. Report as a simple one-line-per-layer table:
+
+```
+L1  Raw Materials           — N in pipeline
+L2  EDA / Semi Equipment    — N in pipeline
+...
+non-AI  Aerospace / Other   — N in pipeline
+```
+
+Flag (⚠) any layer with zero PIPELINE tickers. Flag any layer where every WATCHLIST entry is Tier 4 (no actionable candidates in the layer at all). No analysis — counts and flags only.
+
+---
+
+### Section 4: Flag for Removal
+
+Surface candidates from WATCHLIST (or PIPELINE) that no longer fit their thesis. Cleaning the list is discipline.
+
+**Before flagging any ticker for removal, check Rev YoY, FCF YoY, and Op Margin % alongside EPS.** Declining EPS alone is not sufficient — a company with deteriorating EPS but growing revenue, improving FCF, and stable/expanding margins may simply have a timing or accounting distortion, not a broken thesis. Only flag for removal when the deterioration is broad-based across multiple dimensions.
 
 **LOSER removal signals:**
-- vs_1Y has turned positive — price dislocation has normalized; the LOSER thesis was predicated on the stock being down. If it's now up year-over-year, re-evaluate whether a thesis still exists at current prices.
-- EPS CAGR is structurally declining with no identifiable catalyst — value trap, not temporary dislocation.
-- P/E has re-expanded significantly without earnings improvement — sentiment has normalized but fundamentals haven't caught up.
+- vs_1Y turned positive — dislocation normalized; re-evaluate whether thesis exists at current prices.
+- Yrs Profitable (5yr) 2/5 or below with no recovery catalyst — structural weakness, not dislocation.
+- Debt/OCF above 5x and deteriorating — distress risk undermines the thesis.
+- P/E re-expanded without earnings improvement — sentiment normalized but fundamentals didn't follow.
 
 **TAILWIND removal signals:**
-- EPS YoY has turned negative or sharply decelerated — the fundamental improvement thesis is broken.
-- Price has run so far (vs_1Y extreme) that the reflexivity dynamic is likely exhausted — the pool of new believers is thin and the risk/reward has inverted.
-- The AI SC layer thesis has materially weakened per `context_ai_supply_chain.md`.
+- EPS YoY negative AND Avg EPS QoQ (4Q) also negative AND Rev YoY flat or declining AND FCF YoY negative — thesis broken across all dimensions.
+- Spread >150% with no earnings acceleration and no FCF/margin improvement closing the gap — price has permanently outrun thesis.
+- vs_1Y so extreme reflexivity is exhausted — risk/reward inverted.
+- AI SC layer thesis materially weakened per `context_ai_supply_chain.md`.
 
-For each removal candidate, state the specific signal triggering the flag and recommend: **Remove** (clear case) or **Review** (ambiguous — warrants a closer look before removing).
+For each: ticker and the triggering metric with its value. Only surface tickers you are recommending to remove — do not list ambiguous cases. If unsure, leave it in the WATCHLIST and say nothing.
 
 ---
 
 ## Step 3: Commit Priority Section
 
-Write the priority list directly to the top of `Stock_Tracker.md`, replacing any existing priority section (identified by the `<!-- PRIORITY_COMPLETE -->` marker). Structure the output as follows:
+Write the priority list directly to the top of `Stock_Tracker.md`, replacing any existing priority section (identified by the `<!-- PRIORITY_COMPLETE -->` marker). Structure:
 
 ```
 <!-- PRIORITY_COMPLETE -->
@@ -107,21 +173,23 @@ Write the priority list directly to the top of `Stock_Tracker.md`, replacing any
 ### Add to Position
 ...
 
-### Analyze Today — LOSERs
+### Pipeline
 ...
 
-### Analyze Today — TAILWINDs
+### SC Layer Coverage
 ...
 
 ### Flag for Removal
 ...
 ```
 
-For each item in **Add to Position** and **Analyze Today**, include: ticker, current P/E, the 2–3 metrics driving the signal (citing actual figures from the tracker), and one sentence on why today specifically — what is the signal and why does it warrant action now rather than waiting.
+**Add to Position / Pipeline items:** Ticker, P/E, 2–3 metrics with actual figures, one sentence on why this is the strongest candidate right now. For promotions, state that the ticker should be moved to PIPELINE.
 
-For each **Flag for Removal** item: ticker, the triggering metric with its value, and Remove vs. Review recommendation.
+**SC Layer Coverage:** Count table only. Flag gaps with ⚠.
 
-If a section has no candidates, write "None today." Do not omit sections.
+**Flag for Removal:** Ticker and triggering metric with value. Removal verdicts only — do not list items you are leaving in the WATCHLIST.
+
+Write "None." for empty sections. Do not omit sections.
 
 **STOP. You are done.**
 

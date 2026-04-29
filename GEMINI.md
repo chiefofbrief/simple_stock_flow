@@ -51,6 +51,8 @@ Businesses of solid quality where external tailwinds — new technology, market 
 
 The analytical edge in TAILWIND investing comes from identifying the flaws in the thesis before the market does. If the flaws are found, losses can be limited when reality arrives. It is when we are unaware of what could go wrong that we have to worry. Two specific hazards apply: (1) the forecast may simply be wrong; (2) even if correct, the improvement may already be priced in — accurate forecasts provide no edge if the market already discounts them.
 
+**Signal tiers within each type:** Both LOSER and TAILWIND candidates are sub-classified by signal strength to drive prioritization. For LOSERs, the strongest signal is **LOSER—EPS+** (auto-tagged when EPS YoY > 0 AND vs_1Y < 0) — earnings are intact while price is down, a direct dislocation. Plain LOSERs with flat or temporarily declining earnings rank below. For TAILWINDs, signal strength is measured by Spread (vs_1Y minus EPS YoY): Tier 1 (≤ 0%, earnings outpacing price), Tier 2 (0–30%), Tier 3 (30–150%), Tier 4 (>150% or EPS YoY < −10%). Tier 1 candidates across both types go directly to PIPELINE. Tiers 2–3 remain in WATCHLIST until data improves.
+
 ---
 
 ### Financials & Margin of Safety
