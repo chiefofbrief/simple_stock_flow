@@ -497,6 +497,42 @@ def fmt_yrs(val):
 
 
 # ---------------------------------------------------------------------------
+# Anomaly detection
+# ---------------------------------------------------------------------------
+
+def check_anomalies(ticker, m):
+    """Flag metric values that likely indicate FMP data errors.
+
+    Thresholds are intentionally wide — the goal is to catch obvious errors
+    (P/E of 1x, FCF swing of 16000%), not to filter unusual-but-real figures.
+    Returns a list of warning strings, empty if nothing is suspicious.
+    """
+    flags = []
+
+    pe       = m.get("_pe_raw")
+    eps_yoy  = m.get("_eps_yoy_raw")
+    fcf_yoy  = m.get("_fcf_yoy_raw")
+    avg_qoq  = m.get("_avg_eps_qoq_raw")
+    vs_1y    = m.get("_vs_1y_raw")
+    debt_ocf = m.get("_debt_ocf_raw")
+
+    if pe is not None and (pe < 2 or pe > 500):
+        flags.append(f"  {ticker:<6}  P/E = {pe:.1f}x  (expected 2–500x)")
+    if eps_yoy is not None and (eps_yoy < -5.0 or eps_yoy > 20.0):
+        flags.append(f"  {ticker:<6}  EPS YoY = {eps_yoy:+.1%}  (expected -500% to +2000%)")
+    if fcf_yoy is not None and (fcf_yoy < -10.0 or fcf_yoy > 50.0):
+        flags.append(f"  {ticker:<6}  FCF YoY = {fcf_yoy:+.1%}  (expected -1000% to +5000%)")
+    if avg_qoq is not None and (avg_qoq < -5.0 or avg_qoq > 20.0):
+        flags.append(f"  {ticker:<6}  Avg EPS QoQ = {avg_qoq:+.1%}  (expected -500% to +2000%)")
+    if vs_1y is not None and vs_1y > 10.0:
+        flags.append(f"  {ticker:<6}  vs_1Y = {vs_1y:+.1%}  (expected < +1000%)")
+    if debt_ocf is not None and debt_ocf > 20.0:
+        flags.append(f"  {ticker:<6}  Debt/OCF = {debt_ocf:.1f}x  (expected < 20x)")
+
+    return flags
+
+
+# ---------------------------------------------------------------------------
 # Tracker update
 # ---------------------------------------------------------------------------
 
@@ -607,6 +643,7 @@ def main():
     print(f"Updating {len(tickers)} ticker(s): {', '.join(tickers)}\n")
 
     ticker_metrics = {}
+    all_anomalies = []
 
     for i, ticker in enumerate(tickers):
         print(f"[{i + 1}/{len(tickers)}] {ticker}")
@@ -684,9 +721,13 @@ def main():
             "op_margin":        fmt_margin(quarterly["op_margin_ttm"]),
             "debt_ocf":         fmt_ratio(debt_ocf),
             "next_earnings":    next_earnings if next_earnings else "—",
-            # Raw values for LOSER — EPS+ tag logic (not written to tracker columns)
+            # Raw values for tag logic and anomaly detection (not written to tracker columns)
             "_eps_yoy_raw":     quarterly["eps_yoy"],
             "_vs_1y_raw":       price_metrics["vs_1y"] if price_metrics else None,
+            "_pe_raw":          gaap_pe,
+            "_avg_eps_qoq_raw": quarterly["avg_eps_qoq_4q"],
+            "_fcf_yoy_raw":     cashflow["fcf_yoy"],
+            "_debt_ocf_raw":    debt_ocf,
         }
         ticker_metrics[ticker] = m
 
@@ -697,9 +738,20 @@ def main():
             f"FCF YoY: {m['fcf_yoy']}  Op Margin: {m['op_margin']}  Debt/OCF: {m['debt_ocf']}"
         )
 
+        anomalies = check_anomalies(ticker, m)
+        all_anomalies.extend(anomalies)
+
     print(f"\nWriting to {TRACKER_PATH}...")
     update_tracker(ticker_metrics)
-    print("Done.")
+
+    if all_anomalies:
+        print("\n⚠  Data anomalies detected — manual audit recommended:")
+        for flag in all_anomalies:
+            print(flag)
+    else:
+        print("No data anomalies detected.")
+
+    print("\nDone.")
 
 
 if __name__ == "__main__":
