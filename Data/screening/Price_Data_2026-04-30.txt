@@ -1,0 +1,31 @@
+PRICE CONTEXT — 2026-04-30
+Tickers: MSFT
+
+Ticker |   Price | vs1Y | vs2Y | vs3Y | vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+------+------+------+------+------+---------+---------+------------+---------+---------
+  MSFT | $402.50 |  +3% |  +5% | +34% | +66% | 0.24 |    +1.1 |     24% |          - |    +16% |   +10.5%
+----------------------------------------
+
+Recent Trend: MSFT
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-04-30 | $402.50 |  +8.7%
+2026-03-31 | $370.17 |  -5.7%
+2026-02-27 | $392.74 |  -8.5%
+2026-01-30 | $429.31 | -11.0%
+2025-12-31 | $482.52 |  -1.7%
+2025-11-28 | $490.89 |  -4.8%
+2025-10-31 | $515.66 |  -0.0%
+2025-09-30 | $515.80 |  +2.2%
+2025-08-29 | $504.59 |  -4.9%
+2025-07-31 | $530.41 |  +7.3%
+2025-06-30 | $494.53 |  +8.0%
+2025-05-30 | $457.69 | +16.7%
+
+LEGEND:
+CV (Coeff. Variation): Volatility relative to price. Higher = more volatile.
+Z-Score: Std devs of recent 1mo return vs history. <-2.0 is anomalous drop.
+52w Pos: Position in 52-week range. 0% = Low, 100% = High.
+Drop/MaxDD: Recent 1mo drop as % of worst 5yr drawdown. >80% = nearing historic worst.
+Revert↑: Upside if price reverts to 1yr average.
+

@@ -1,0 +1,53 @@
+EARNINGS & VALUATION — 2026-04-30
+
+Ticker | GAAP P/E | Adj P/E | vs1Y | vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+----------+---------+------+------+------+-------+--------+----+----------+-----------+----------
+  MSFT |    23.9x |   24.9x | -18% | -23% | -25% |  -18% |  -0.73 | || |   +17.4% |      0.25 |    $-0.12
+
+
+LEGEND:
+vsXYr: % difference between Current P/E and P/E X years ago.
+1yCorr: Correlation (0-1) between Price and Earnings over last 12 months.
+Stability: CV of Annual EPS (Lower = Smoother growth).
+Fwd Delta: Next Quarter Estimate minus Last Reported EPS. (+ = Growth exp).
+
+================================================================================
+TICKER: MSFT | Price Date: 2026-04-30
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   GAAP P/E (FMP income stmt, TTM): 23.9x   |   Adj P/E (FMP non-GAAP, TTM): 24.9x
+   (Historical trend below uses Adj/Non-GAAP EPS — consistent with analyst estimates and beat/miss tracking)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   Adj P/E  |   24.9x |   30.3x |   32.1x |   33.3x | 30.2x
+   vs Cur   |       - |    -18% |    -23% |    -25% |  -18%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.73
+   > 5-Year EPS CAGR:    +17.4%
+   > Earnings Stability: 0.25
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $4.15 |        - |        - | (Due: 2026-07-29)
+   2026-04-29  |    $4.06 |    $4.27 |    +5.2% | $0.21
+   2026-01-28  |    $3.90 |    $4.14 |    +6.2% | $0.24
+   2025-10-29  |    $3.67 |    $4.13 |   +12.5% | $0.46
+   2025-07-30  |    $3.37 |    $3.65 |    +8.3% | $0.28
+
+   > Forward Delta: $-0.12 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-04-29  |   $16.19 | +25.1%
+   2025-04-30  |   $12.94 | +12.0%
+   2024-04-25  |   $11.55 | +23.5%
+   2023-04-25  |    $9.35 |  +2.3%
+   2022-04-26  |    $9.14 | +25.9%
+   2021-04-27  |    $7.26 | +28.3%
+   2020-04-29  |    $5.66 | +25.5%
+   2019-04-24  |    $4.51 | +20.9%
+   2018-04-26  |    $3.73 |      -

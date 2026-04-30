@@ -85,7 +85,7 @@ Stocks under active analysis. Work through phases sequentially per `GEMINI.md`. 
 | CAG | LOSER — EPS+ | $6.83B | -37.2% | — | -83.9% | +40.0% | 4/5 | -1.9% | -6.8% | 12.3% | 5.3x | 2026-07-09 | Price & Earnings | — | PASS | — | 2026-04-28 |
 | MU | TAILWIND — AI SC L5 | $568.70B | +543.5% | 23.5x | +78.5% | +762.7% | 4/5 | +196.3% | -22.8% | 48.5% | 0.4x | 2026-06-24 | Price & Earnings | — | PASS | — | 2026-04-28 |
 | FCX | TAILWIND — AI SC L1 | $83.65B | +58.1% | 31.0x | +46.6% | +154.2% | 5/5 | +12.2% | +557.9% | 27.8% | 1.7x | 2026-07-22 | Price & Earnings | — | PASS | — | 2026-04-28 |
-| MSFT | TAILWIND — AI SC L10 | $3.19T | +10.6% | 26.8x | +13.3% | +59.9% | 5/5 | +16.7% | -9.3% | 46.7% | 0.8x | 2026-04-29 | Price & Earnings | — | PASS | — | 2026-04-28 |
+| MSFT | TAILWIND — AI SC L10 | $3.19T | +10.6% | 26.8x | +13.3% | +59.9% | 5/5 | +16.7% | -9.3% | 46.7% | 0.8x | 2026-04-29 | Synthesis | 2026-04-30 | MONITOR | MSFT_Thesis.md | 2026-04-28 |
 | IBM | TAILWIND — AI SC L13 | $219.06B | +1.1% | 20.2x | +56.9% | +14.0% | 5/5 | +9.5% | +20.2% | 16.4% | 5.0x | 2026-07-22 | Price & Earnings | — | PASS | — | 2026-04-28 |
 | NVDA | TAILWIND — AI SC L4/L12 | $5.18T | +96.1% | 43.2x | +20.6% | +96.7% | 5/5 | +73.2% | +124.4% | 60.4% | 0.1x | 2026-05-20 | Price & Earnings | — | PASS | — | 2026-04-28 |
 | CDNS | TAILWIND — AI SC L2 | $89.82B | +13.8% | 75.5x | +14.7% | +21.8% | 5/5 | +18.7% | +26.8% | 31.1% | 1.4x | 2026-07-27 | Price & Earnings | — | PASS | — | 2026-04-28 |
