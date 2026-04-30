@@ -78,7 +78,7 @@ Stocks under active analysis. Work through phases sequentially per `GEMINI.md`. 
 
 | Ticker | Tag | Mkt Cap | vs_1Y | P/E | Avg EPS QoQ (4Q) | EPS YoY | Yrs Profitable (5yr) | Rev YoY | FCF YoY | Op Margin % | Debt/OCF | Next Earnings | Phase | Last Run | Status | Thesis | Added |
 |--------|-----|---------|-------|-----|------------------|---------|----------------------|---------|---------|-------------|----------|---------------|-------|----------|--------|--------|-------|
-| BR | LOSER — EPS+ | $18.54B | -31.9% | 17.4x | +35.3% | +100.0% | 5/5 | +7.8% | +39.8% | 17.3% | 2.5x | 2026-04-30 | Price & Earnings | — | PASS | — | 2026-04-28 |
+| BR | LOSER — EPS+ | $18.54B | -31.9% | 17.4x | +35.3% | +100.0% | 5/5 | +7.8% | +39.8% | 17.3% | 2.5x | 2026-08-04 | Synthesis | 2026-04-30 | MONITOR | Thesis_BR.md | 2026-04-28 |
 | NFLX | LOSER — EPS+ | $388.82B | -16.9% | 29.2x | +26.1% | +83.8% | 5/5 | +16.2% | +91.4% | 29.7% | 1.3x | 2026-07-16 | Price & Earnings | — | PASS | — | 2026-04-28 |
 | WDAY | LOSER — EPS+ | $32.12B | -49.5% | 46.4x | +42.7% | +57.1% | 4/5 | +14.5% | +18.7% | 8.9% | 1.3x | 2026-05-21 | Price & Earnings | — | PASS | — | 2026-04-28 |
 | SAP | LOSER — EPS+ | $202.20B | -38.8% | 27.1x | +2.6% | +8.5% | 5/5 | +6.0% | -9.4% | 26.9% | 0.0x | 2026-07-23 | Price & Earnings | — | PASS | — | 2026-04-28 |

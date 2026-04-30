@@ -2,7 +2,7 @@ EARNINGS & VALUATION — 2026-04-30
 
 Ticker | GAAP P/E | Adj P/E | vs1Y | vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
 -------+----------+---------+------+------+------+-------+--------+----+----------+-----------+----------
-  MSFT |    23.9x |   24.9x | -18% | -23% | -25% |  -18% |  -0.73 | || |   +17.4% |      0.25 |    $-0.12
+    BR |    16.3x |   17.1x | -39% | -20% | -34% |  -26% |  -0.76 | || |    +9.9% |      0.17 |     $1.41
 
 
 LEGEND:
@@ -12,42 +12,42 @@ Stability: CV of Annual EPS (Lower = Smoother growth).
 Fwd Delta: Next Quarter Estimate minus Last Reported EPS. (+ = Growth exp).
 
 ================================================================================
-TICKER: MSFT | Price Date: 2026-04-30
+TICKER: BR | Price Date: 2026-04-30
 ================================================================================
 
 1. VALUATION TREND (P/E History)
-   GAAP P/E (FMP income stmt, TTM): 23.9x   |   Adj P/E (FMP non-GAAP, TTM): 24.9x
+   GAAP P/E (FMP income stmt, TTM): 16.3x   |   Adj P/E (FMP non-GAAP, TTM): 17.1x
    (Historical trend below uses Adj/Non-GAAP EPS — consistent with analyst estimates and beat/miss tracking)
    Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
    ---------+---------+---------+---------+---------+-------
-   Adj P/E  |   24.9x |   30.3x |   32.1x |   33.3x | 30.2x
-   vs Cur   |       - |    -18% |    -23% |    -25% |  -18%
+   Adj P/E  |   17.1x |   28.0x |   21.4x |   25.9x | 23.1x
+   vs Cur   |       - |    -39% |    -20% |    -34% |  -26%
 
 2. RELATIONSHIP & GROWTH
-   > 1-Year Correlation: -0.73
-   > 5-Year EPS CAGR:    +17.4%
-   > Earnings Stability: 0.25
+   > 1-Year Correlation: -0.76
+   > 5-Year EPS CAGR:    +9.9%
+   > Earnings Stability: 0.17
 
 3. ESTIMATES vs ACTUALS (Catalyst Check)
    Quarter     | Estimate | Reported | Surprise | Delta
    ------------+----------+----------+----------+-------
-   Next (Est)  |    $4.15 |        - |        - | (Due: 2026-07-29)
-   2026-04-29  |    $4.06 |    $4.27 |    +5.2% | $0.21
-   2026-01-28  |    $3.90 |    $4.14 |    +6.2% | $0.24
-   2025-10-29  |    $3.67 |    $4.13 |   +12.5% | $0.46
-   2025-07-30  |    $3.37 |    $3.65 |    +8.3% | $0.28
+   Next (Est)  |    $3.79 |        - |        - | (Due: 2026-08-04)
+   2026-04-30  |    $2.63 |    $2.38 |    -9.5% | $-0.25
+   2026-02-03  |    $1.34 |    $1.59 |   +18.7% | $0.25
+   2025-11-04  |    $1.25 |    $1.51 |   +20.8% | $0.26
+   2025-08-05  |    $3.50 |    $3.55 |    +1.4% | $0.05
 
-   > Forward Delta: $-0.12 (Next Est vs Last Actual)
+   > Forward Delta: $1.41 (Next Est vs Last Actual)
 
 4. ANNUAL TREND (TTM Blocks - Last 5 Years)
    TTM End Date| EPS      | Growth
    ------------+----------+-------
-   2026-04-29  |   $16.19 | +25.1%
-   2025-04-30  |   $12.94 | +12.0%
-   2024-04-25  |   $11.55 | +23.5%
-   2023-04-25  |    $9.35 |  +2.3%
-   2022-04-26  |    $9.14 | +25.9%
-   2021-04-27  |    $7.26 | +28.3%
-   2020-04-29  |    $5.66 | +25.5%
-   2019-04-24  |    $4.51 | +20.9%
-   2018-04-26  |    $3.73 |      -
+   2026-04-30  |    $9.03 |  +6.2%
+   2025-05-01  |    $8.50 | +14.1%
+   2024-05-08  |    $7.45 | +15.5%
+   2023-05-02  |    $6.45 |  +7.1%
+   2022-05-03  |    $6.02 |  +7.1%
+   2021-05-04  |    $5.62 | +22.2%
+   2020-05-08  |    $4.60 |  -4.2%
+   2019-05-07  |    $4.80 | +18.8%
+   2018-05-08  |    $4.04 |      -
