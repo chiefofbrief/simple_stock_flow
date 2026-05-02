@@ -3,7 +3,7 @@
 ## Agreed Principles
 
 1. **Core analytical questions stay mostly verbatim** — restructure the workflow and update framing where needed; high-leverage changes only.
-2. **Two passes: The Numbers + The Narrative** — plus a Thesis Init step. Framing is directionally correct but permeable (earnings calls straddle both).
+2. **Two passes + a closing Audit step** — Pass 1 (The Numbers), Pass 2 (The Narrative), then The Audit (footnotes as primary-source validation of everything built in both passes) feeding directly into Synthesis. Footnotes moves to last to maximize query quality: by the time it runs, all anomalies, management narrative, and news context are in hand. Targeted searches and the mandatory checklist both benefit from this.
 3. **LOSER vs. TAILWIND distinction is load-bearing** — primary analytical question differs by type and must be preserved in each pass.
 4. **Catalyst check is mandatory in Synthesis** — two types: event catalyst (specific upcoming event) and narrative catalyst (frequency/framing of mentions can itself signal a rerating).
 5. **ADVANCE / MONITOR / REMOVE** — MONITOR is default; burden of proof is on ADVANCE.
@@ -12,7 +12,7 @@
 
 ---
 
-## Proposed Structure — Three Steps
+## Proposed Structure — Four Steps
 
 ---
 
@@ -28,10 +28,11 @@
 ```
 # Investment Thesis: {TICKER}
 
-### Synthesis          ← inserted at completion of Pass 2
+### Synthesis          ← inserted at completion of The Audit
 ### Context            ← from Step 0 (combines Discovery Signal + Price & Earnings)
 ### The Numbers        ← from Pass 1
 ### The Narrative      ← from Pass 2
+### The Audit          ← from The Audit step (footnotes + primary-source validation)
 ```
 
 **Context section — what it covers:**
@@ -56,20 +57,13 @@ Two things combined into one opening section:
 
 **Data sources (all fetched in Step 0):**
 - Financial statements: `{TICKER}_financial_analysis.md`
-- Footnotes/MD&A: `{TICKER}_notes_mda.md`
-- Earnings call prepared remarks (for targeted reference in step 2 only): `{TICKER}_earnings_remarks.md`
 - `context_ai_supply_chain.md` — required for TAILWINDs with AI SC tag (supply chain thesis affects whether earnings growth is sustainable — this is a Numbers question, not only a Narrative question)
 
 **Sequence within Pass 1:**
 1. **Financials analysis** — full Part A metric analysis + Part B synthesis from `prompt_financials.md`, verbatim. Revenue, Op Margin, OCF, FCF, OCF/NI, Working Capital, Op Leverage, Capex/D&A, Debt profile.
-2. **Targeted searches** — items flagged in step 1 that need explanation: search footnotes/MD&A and earnings call prepared remarks specifically for those items. Directed by what the financials raised, not a predetermined list.
-3. **Independent footnotes analysis** — mandatory accounting checklist, regardless of what financials showed. Five categories from `prompt_footnotes.md` (verbatim):
-   - Revenue Recognition
-   - Expense Recognition & Cost Capitalization
-   - Balance Sheet & Asset Valuation (goodwill, off-balance sheet, related party, Level 3)
-   - Cash Flow & Working Capital
-   - Non-GAAP Metrics & Adjusted Earnings (SBC, segment reporting, reclassifications)
-4. **Wrap-up** — Bull case, Bear case, open questions for Pass 2.
+2. **Wrap-up** — Bull case, Bear case. Explicitly flag all open questions and metric anomalies that require footnote investigation — these carry forward to The Audit.
+
+*Note: Targeted searches and the mandatory accounting checklist have moved to The Audit. This keeps Pass 1 focused on the financial metrics and ensures footnote analysis runs with full context from both passes.*
 
 **Primary question (differs by type):**
 - **LOSER**: Does the business's financial health tell a different story than the price? Are earnings and FCF intact while price has dislocated? Is the decline in any metric temporary or structural?
@@ -77,8 +71,8 @@ Two things combined into one opening section:
 
 ---
 
-### Pass 2 — The Narrative + Synthesis
-**Purpose**: Understand how the world perceives this business, whether the thesis is timely, and produce the final verdict.
+### Pass 2 — The Narrative
+**Purpose**: Understand how the world perceives this business and whether the thesis is timely.
 
 **Data sources (all fetched in Step 0):**
 - Full earnings call (prepared remarks AND Q&A): `{TICKER}_earnings_remarks.md` + `{TICKER}_earnings_qa.md`
@@ -89,7 +83,7 @@ Two things combined into one opening section:
 - All prior thesis sections (Context + Pass 1)
 
 **Why the full earnings call belongs in Pass 2:**
-Management's prepared remarks contain both financial commentary (referenced as needed in Pass 1) AND catalyst signals, forward guidance, narrative framing. Analyst Q&A is pure external perception. Both serve The Narrative. The full call is analyzed here — not split.
+Management's prepared remarks contain both financial commentary AND catalyst signals, forward guidance, narrative framing. Analyst Q&A is pure external perception. Both serve The Narrative. The full call is analyzed here — not split. Tone shifts, absence detection ("what's gone quiet"), and Q&A dynamics require full-context reading; these tasks are not suited to retrieval-based filtering.
 
 **Sequence within Pass 2:**
 1. **Earnings call analysis** — from `prompt_earnings_calls.md`, verbatim:
@@ -98,14 +92,37 @@ Management's prepared remarks contain both financial commentary (referenced as n
    - Tone and language shifts; what's gone quiet
    - Catalyst signals and forward guidance language in prepared remarks
    - What analysts are probing and excited about (Q&A)
-   - Open questions from Pass 1 — addressed or unresolved?
-2. **News analysis** — driven by open questions from Pass 1 + earnings call. "News" is the right name here (cleaner than "Research"). From `prompt_research.md`, verbatim. Specific articles, sources, dates required. New material flagged.
-3. **Web fetches** — for questions unresolved by news. Up to 3. Can be treated as a final sub-step.
-4. **Synthesis** — from `prompt_synthesis.md`, verbatim, plus mandatory Catalyst Check (see below).
+   - Open questions from Pass 1 — addressed or unresolved? Flag anything that requires footnote investigation.
+2. **News analysis** — driven by open questions from Pass 1 + earnings call. From `prompt_research.md`, verbatim. Specific articles, sources, dates required. New material flagged.
+3. **Web fetches** — for questions unresolved by news. Up to 3.
 
 **Primary question (differs by type):**
 - **LOSER**: Does the external picture confirm the dislocation? What specifically would cause sentiment to shift in 3–6 months? Is the stock accumulating narrative momentum that could itself trigger a rerating?
 - **TAILWIND**: Is the AI/structural thesis intact per `context_ai_supply_chain.md`? Where are we in the reflexivity cycle — early accumulation or late exhaustion? What confirms or breaks the thesis in 3–6 months?
+
+---
+
+### The Audit + Synthesis
+**Purpose**: Validate or dispute the thesis built in Passes 1 and 2 using primary source disclosures (SEC filings). Produce the final verdict.
+
+**Why footnotes runs last:**
+By this point, all metric anomalies (Pass 1), management's narrative (Pass 2), and news context (Pass 2) are fully in hand. The query set — both targeted and checklist-driven — is maximally informed. Targeted searches are sharper because you know exactly what to look for. The mandatory checklist runs with a fully-formed thesis to test against rather than into a vacuum. Footnote findings feed directly into Synthesis rather than requiring backwards revision of prior sections.
+
+**Data sources:**
+- Footnotes/MD&A: `{TICKER}_notes_mda.md`
+- All prior thesis sections (Context + The Numbers + The Narrative)
+
+**Sequence:**
+1. **Targeted searches** — open questions flagged in Pass 1 and Pass 2. Hunt for the specific disclosures that explain or contradict what the financials and narrative raised. Not a predetermined list — driven entirely by what the prior passes surfaced.
+2. **Mandatory accounting checklist** — five categories from `prompt_footnotes.md`, regardless of what targeted searches found:
+   - Revenue Recognition
+   - Expense Recognition & Cost Capitalization
+   - Balance Sheet & Asset Valuation (goodwill, off-balance sheet, related party, Level 3)
+   - Cash Flow & Working Capital
+   - Non-GAAP Metrics & Adjusted Earnings (SBC, segment reporting, reclassifications)
+3. **Synthesis** — from `prompt_synthesis.md`, verbatim, plus mandatory Catalyst Check (see below).
+
+**Primary question:** Do the primary source disclosures confirm or dispute the thesis built in Passes 1 and 2? What does the accounting reveal that the financial metrics and management narrative didn't?
 
 **Catalyst Check (mandatory addition to Synthesis):**
 
@@ -123,7 +140,7 @@ If neither type yields something plausible in 3–6 months → **MONITOR**, not 
 
 ## Verdict System
 
-Replaces PASS/BUY/HOLD/FAIL in tracker Status column. **Written once, at end of Pass 2 Synthesis.**
+Replaces PASS/BUY/HOLD/FAIL in tracker Status column. **Written once, at end of The Audit + Synthesis.**
 
 | Verdict | Meaning |
 |---------|---------|
@@ -131,7 +148,7 @@ Replaces PASS/BUY/HOLD/FAIL in tracker Status column. **Written once, at end of 
 | **MONITOR** | Thesis intact but no near-term catalyst; stay in PIPELINE |
 | **REMOVE** | Bear case dominates or thesis invalidated → DROPPED |
 
-Tracker Phase column tracks current step (Thesis Init / The Numbers / The Narrative). Status (ADVANCE/MONITOR/REMOVE) only written when Pass 2 completes.
+Tracker Phase column tracks current step (Thesis Init / The Numbers / The Narrative / The Audit). Status (ADVANCE/MONITOR/REMOVE) only written when The Audit + Synthesis completes.
 
 ---
 
@@ -139,16 +156,18 @@ Tracker Phase column tracks current step (Thesis Init / The Numbers / The Narrat
 
 | Old | New |
 |-----|-----|
-| 6 steps | 3 steps |
-| 6 thesis file sections | 4 sections (Context, The Numbers, The Narrative, Synthesis) |
+| 6 steps | 4 steps (Thesis Init, Pass 1, Pass 2, The Audit) |
+| 6 thesis file sections | 5 sections (Context, The Numbers, The Narrative, The Audit, Synthesis) |
 | Separate Discovery Signal + P&E sections | Combined into single Context section |
 | P&E is a go/no-go gate | P&E is context-setting; no gate |
-| Footnotes = standalone step after Financials | Integrated into Pass 1 (targeted searches first, then mandatory checklist) |
-| Earnings calls = standalone step | Full call in Pass 2 |
+| Footnotes = standalone step after Financials | Footnotes = The Audit, runs last before Synthesis |
+| Footnotes runs cold, before earnings/news context | Footnotes runs with full thesis context — queries are maximally informed |
+| Targeted searches happen immediately after Financials | Targeted searches deferred to The Audit, carrying all open questions from both passes |
+| Earnings calls = standalone step | Full call in Pass 2; full-context read (no retrieval filtering) |
 | Research = standalone step | News integrated into Pass 2 |
 | Tracker updated after each step | Phase tracked throughout; verdict written once at end |
 | Buy/Pass/Monitor | ADVANCE/MONITOR/REMOVE (MONITOR is default) |
-| AI SC context = Pass 2 only | AI SC context required in both passes for TAILWINDs |
+| AI SC context = Pass 2 only | AI SC context required in Pass 1 and Pass 2 for TAILWINDs |
 
 ---
 
@@ -156,8 +175,8 @@ Tracker Phase column tracks current step (Thesis Init / The Numbers / The Narrat
 
 - [ ] **Context section questions**: Finalize revised P&E question set. Start from existing 9, consolidate toward integrated context-oriented questions. LOSER/TAILWIND conditionals preserved; output framing shifts from PASS/FILTERED to analytical framing only.
 - [ ] **Master fetch orchestration**: Shell script vs. prompt instruction? Shell script more reliable for error handling; prompt instruction requires no new code.
-- [ ] **Tracker schema**: Phase column values (Thesis Init / The Numbers / The Narrative / Complete). "Last Run" column → rename "Last Updated"?
-- [ ] **GEMINI.md Architecture table**: Update to reflect 3-step structure and new phase/section names.
+- [ ] **Tracker schema**: Phase column values (Thesis Init / The Numbers / The Narrative / The Audit / Complete). "Last Run" column → rename "Last Updated"?
+- [ ] **GEMINI.md Architecture table**: Update to reflect 4-step structure (Thesis Init, Pass 1, Pass 2, The Audit) and new phase/section names.
 - [ ] **Thesis Init prompt**: Full rewrite of `prompt_screening_completion.md`. Discovery Signal now pulls from tracker row; P&E questions revised.
 - [ ] **Streamlining within prompts**: Which questions can be condensed without losing depth? Don't touch the accounting checklist. Synthesis checklist (11 questions) may be tightened.
 
