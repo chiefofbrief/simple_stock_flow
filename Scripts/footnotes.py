@@ -23,7 +23,8 @@ Outputs:
         - {TICKER}_filings_metadata.json - Filing dates, accession numbers, section stats
 
     Writeup (data/tickers/{TICKER}/):
-        - {TICKER}_notes_mda.md       - Consolidated markdown with all sections
+        - {TICKER}_mda.md             - MD&A sections only (10-K Item 7 + 10-Q Item 2)
+        - {TICKER}_notes.md           - Notes to Financial Statements only (10-K + 10-Q)
 
 Notes:
     - Fetches the most recent 10-K and 10-Q available from SEC EDGAR
@@ -739,19 +740,24 @@ def process_filing(ticker, cik, filing_info, form_type):
 # CONSOLIDATED MARKDOWN GENERATION
 # ============================================================================
 
-def generate_consolidated_markdown(ticker, metadata, all_sections):
-    """Generate a single consolidated markdown with all extracted sections.
+def generate_section_markdown(ticker, metadata, all_sections, section_type):
+    """Generate markdown for a single section type ('mda' or 'notes').
 
     Args:
         ticker: Ticker symbol
         metadata: Full metadata dict (with filings info)
         all_sections: dict keyed by form_type ('10-K', '10-Q'), values are section dicts
+        section_type: 'mda' or 'notes'
 
     Returns:
         Markdown string
     """
+    titles = {
+        'mda': 'MD&A',
+        'notes': 'Notes to Financial Statements',
+    }
     md = []
-    md.append(f"# {ticker} SEC Filings: Notes & MD&A")
+    md.append(f"# {ticker} SEC Filings: {titles[section_type]}")
     md.append(f"**Generated:** {time.strftime('%Y-%m-%d')}")
 
     # Filing summary
@@ -770,13 +776,12 @@ def generate_consolidated_markdown(ticker, metadata, all_sections):
     md.append("|---------|------:|------:|")
 
     for form_type in ['10-K', '10-Q']:
-        if form_type not in all_sections:
+        if form_type not in all_sections or section_type not in all_sections[form_type]:
             continue
-        display_names = SECTION_DISPLAY_NAMES[form_type]
-        for section_name, section_data in all_sections[form_type].items():
-            stats = section_data['stats']
-            display = display_names.get(section_name, section_name)
-            md.append(f"| {display} | {stats['words']:,} | {stats['lines']:,} |")
+        section_data = all_sections[form_type][section_type]
+        display = SECTION_DISPLAY_NAMES[form_type].get(section_type, section_type)
+        stats = section_data['stats']
+        md.append(f"| {display} | {stats['words']:,} | {stats['lines']:,} |")
 
     md.append("")
     md.append("---")
@@ -784,21 +789,20 @@ def generate_consolidated_markdown(ticker, metadata, all_sections):
 
     # Full text sections
     for form_type in ['10-K', '10-Q']:
-        if form_type not in all_sections:
+        if form_type not in all_sections or section_type not in all_sections[form_type]:
             continue
-        display_names = SECTION_DISPLAY_NAMES[form_type]
-        for section_name, section_data in all_sections[form_type].items():
-            display = display_names.get(section_name, section_name)
-            md.append(f"## {display}")
-            md.append("")
-            text = section_data['text']
-            if text:
-                md.append(text)
-            else:
-                md.append("*Section not found or empty.*")
-            md.append("")
-            md.append("---")
-            md.append("")
+        section_data = all_sections[form_type][section_type]
+        display = SECTION_DISPLAY_NAMES[form_type].get(section_type, section_type)
+        md.append(f"## {display}")
+        md.append("")
+        text = section_data['text']
+        if text:
+            md.append(text)
+        else:
+            md.append("*Section not found or empty.*")
+        md.append("")
+        md.append("---")
+        md.append("")
 
     return "\n".join(md)
 
@@ -855,14 +859,20 @@ def main():
     save_json(metadata, metadata_file)
     print(f"\nSaved metadata: {metadata_file}")
 
-    # Generate consolidated markdown
+    # Generate split markdown files
     writeup_dir = get_writeup_directory(ticker)
     ensure_directory_exists(writeup_dir)
-    md_content = generate_consolidated_markdown(ticker, metadata, all_sections)
-    md_file = os.path.join(writeup_dir, f"{ticker}_notes_mda.md")
 
-    with open(md_file, 'w', encoding='utf-8') as f:
-        f.write(md_content)
+    mda_file = os.path.join(writeup_dir, f"{ticker}_mda.md")
+    notes_file = os.path.join(writeup_dir, f"{ticker}_notes.md")
+
+    mda_content = generate_section_markdown(ticker, metadata, all_sections, 'mda')
+    with open(mda_file, 'w', encoding='utf-8') as f:
+        f.write(mda_content)
+
+    notes_content = generate_section_markdown(ticker, metadata, all_sections, 'notes')
+    with open(notes_file, 'w', encoding='utf-8') as f:
+        f.write(notes_content)
 
     # Validation summary
     print("\n" + "="*60)
@@ -907,7 +917,8 @@ def main():
         file_count = sum(len(s) for s in all_sections.values()) + 2
         print(f"\nCreated {file_count} files for {ticker}")
         print(f"  Raw data:  {data_dir}/")
-        print(f"  Writeup:   {md_file}")
+        print(f"  MD&A:      {mda_file}")
+        print(f"  Notes:     {notes_file}")
         print(f"\nNext: Run the footnotes analysis prompt\n")
 
 

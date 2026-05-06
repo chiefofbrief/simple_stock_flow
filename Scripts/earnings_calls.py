@@ -183,6 +183,74 @@ def save_raw_files(data, ticker, quarter):
     return txt_path
 
 # ============================================================================
+# Q&A QUESTIONS EXTRACTION
+# ============================================================================
+
+def extract_analyst_questions(transcript, qa_idx):
+    """Extract analyst-only entries from the Q&A section of a transcript.
+
+    Returns a list of dicts with keys: speaker, question_num, content.
+    Skips Operator intros and all management responses.
+    """
+    if qa_idx is None:
+        return []
+
+    qa_entries = transcript[qa_idx:]
+    questions = []
+    q_num = 0
+
+    for entry in qa_entries:
+        title = entry.get("title", "")
+        if "Analyst" in title:
+            q_num += 1
+            questions.append({
+                "question_num": q_num,
+                "speaker": entry.get("speaker", "Unknown Analyst"),
+                "content": entry.get("content", "").strip(),
+            })
+
+    return questions
+
+
+def generate_qa_questions_markdown(ticker, quarters_data):
+    """Generate {TICKER}_qa_questions.md — analyst questions only, no responses."""
+    writeup_dir = get_writeup_directory(ticker)
+    ensure_directory_exists(writeup_dir)
+    out_path = os.path.join(writeup_dir, f"{ticker}_qa_questions.md")
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(f"# Earnings Call — Analyst Questions: {ticker}\n\n")
+        f.write(
+            f"**Quarters:** {', '.join(q['quarter'] for q in quarters_data)}\n\n"
+        )
+        f.write(
+            "*Analyst questions only — management responses are in "
+            f"{ticker}_earnings_qa.md*\n\n"
+        )
+
+        for i, q_data in enumerate(quarters_data):
+            quarter = q_data["quarter"]
+            transcript = q_data["data"].get("transcript", [])
+            label = "CURRENT QUARTER" if i == 0 else "PRIOR QUARTER"
+
+            qa_idx = find_qa_start_index(transcript)
+            questions = extract_analyst_questions(transcript, qa_idx)
+
+            f.write(f"---\n## {label}: {quarter}\n\n")
+
+            if not questions:
+                f.write("*No analyst questions found in this transcript.*\n\n")
+                continue
+
+            for q in questions:
+                f.write(f"**Q{q['question_num']} — {q['speaker']}**\n")
+                f.write(f"{q['content']}\n\n")
+
+    print(f"✓ Generated Q&A questions file: {out_path}")
+    return out_path
+
+
+# ============================================================================
 # FILE SAVING - CONSOLIDATED MARKDOWN
 # ============================================================================
 
@@ -257,27 +325,45 @@ def main():
     # 2. Fetch Data
     print(f"\nFetching transcripts for: {', '.join(quarters)}...")
     quarters_data = []
-    
+    quarter_status = {}  # quarter -> True (ok) / False (failed)
+
     for i, quarter in enumerate(quarters):
         if i > 0:
             print("  Waiting 15s for rate limit...")
             time.sleep(15)
-            
+
         url = f'https://www.alphavantage.co/query?function=EARNINGS_CALL_TRANSCRIPT&symbol={ticker}&quarter={quarter}&apikey={api_key}'
         data = fetch_alpha_vantage(url)
-        
+
         if data and 'transcript' in data:
+            n_entries = len(data['transcript'])
             save_raw_files(data, ticker, quarter)
             quarters_data.append({'quarter': quarter, 'data': data})
+            quarter_status[quarter] = True
+            print(f"  ✓ {quarter} — {n_entries} transcript entries")
         else:
-            print(f"⚠️  Failed to fetch {quarter}")
+            quarter_status[quarter] = False
+            print(f"  ✗ FAILED: {quarter} — no transcript data returned")
 
     # 3. Generate Output
     if quarters_data:
         generate_consolidated_markdown(ticker, quarters_data)
-    else:
-        print("\n❌ No transcripts successfully fetched.")
+        generate_qa_questions_markdown(ticker, quarters_data)
+
+    # 4. Summary
+    print("\n--- Summary ---")
+    for q in quarters:
+        label = "CURRENT" if q == quarters[0] else "PRIOR"
+        status = "✓" if quarter_status.get(q) else "✗ FAILED"
+        print(f"  {status}  {q} ({label})")
+
+    failures = [q for q, ok in quarter_status.items() if not ok]
+    if failures:
+        print(f"\nFailed quarters: {', '.join(failures)}")
+        print("Do not proceed with analysis until all transcripts are fetched.")
         sys.exit(1)
+
+    print("\nDone.")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,42 @@
+PRICE & EARNINGS — 2026-05-06
+Tickers: TSM
+
+--- PRICE ---
+
+Ticker |   Price |  vs1Y |  vs2Y |  vs3Y |  vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+-------+-------+-------+-------+------+---------+---------+------------+---------+---------
+   TSM | $418.92 | +154% | +211% | +415% | +283% | 0.57 |    +0.3 |    100% |          - |    -26% |   +29.7%
+
+----------------------------------------
+
+Recent Trend: TSM
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-05-06 | $418.92 |  +5.8%
+2026-04-30 | $396.06 | +17.2%
+2026-03-31 | $337.95 |  -9.6%
+2026-02-27 | $373.75 | +13.3%
+2026-01-30 | $329.82 |  +8.8%
+2025-12-31 | $303.21 |  +4.5%
+2025-11-28 | $290.27 |  -3.0%
+2025-10-31 | $299.15 |  +7.6%
+2025-09-30 | $278.10 | +21.3%
+2025-08-29 | $229.32 |  -4.4%
+2025-07-31 | $239.99 |  +6.7%
+2025-06-30 | $224.97 | +17.5%
+
+--- EARNINGS ---
+
+Ticker | GAAP P/E | Adj P/E | vs1Y |  vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+----------+---------+------+-------+------+-------+--------+----+----------+-----------+----------
+   TSM |     1.1x |   34.8x | +63% | +162% | +20% |  +41% |   0.95 | || |   +26.2% |      0.40 |     $0.27
+
+LEGEND (Price):
+CV: Volatility relative to price. Z-Score: Std devs of recent 1mo return.
+52w Pos: Position in 52-week range. Drop/MaxDD: Recent drop as % of worst 5yr drawdown.
+Revert↑: Upside if price reverts to 1yr average.
+
+LEGEND (Earnings):
+vsXY: % diff between current P/E and P/E X years ago.
+1yCorr: Correlation between price and earnings over last 12 months.
+Stability: CV of annual EPS (lower = smoother). Fwd Delta: Next est minus last actual.

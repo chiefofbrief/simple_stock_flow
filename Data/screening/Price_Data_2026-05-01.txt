@@ -1,0 +1,31 @@
+PRICE CONTEXT — 2026-05-01
+Tickers: SAP
+
+Ticker |   Price | vs1Y | vs2Y | vs3Y | vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+------+------+------+------+------+---------+---------+------------+---------+---------
+   SAP | $170.84 | -41% |  -4% | +30% | +30% | 0.38 |    +0.0 |      7% |          - |    +36% |    +5.2%
+----------------------------------------
+
+Recent Trend: SAP
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-05-01 | $170.84 |  +0.8%
+2026-04-30 | $169.49 |  -1.0%
+2026-03-31 | $171.21 | -15.0%
+2026-02-27 | $201.53 |  +0.2%
+2026-01-30 | $201.04 | -17.2%
+2025-12-31 | $242.91 |  +0.5%
+2025-11-28 | $241.75 |  -7.0%
+2025-10-31 | $260.01 |  -2.7%
+2025-09-30 | $267.21 |  -1.8%
+2025-08-29 | $272.16 |  -5.1%
+2025-07-31 | $286.70 |  -5.7%
+2025-06-30 | $304.10 |  +0.4%
+
+LEGEND:
+CV (Coeff. Variation): Volatility relative to price. Higher = more volatile.
+Z-Score: Std devs of recent 1mo return vs history. <-2.0 is anomalous drop.
+52w Pos: Position in 52-week range. 0% = Low, 100% = High.
+Drop/MaxDD: Recent 1mo drop as % of worst 5yr drawdown. >80% = nearing historic worst.
+Revert↑: Upside if price reverts to 1yr average.
+

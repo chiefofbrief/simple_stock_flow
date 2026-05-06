@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "BR",
+    "companyName": "Broadridge Financial Solutions, Inc.",
+    "price": 152.17,
+    "mktCap": 17765695330
+  },
+  {
+    "symbol": "FIG",
+    "companyName": "Figma, Inc.",
+    "price": 19.225,
+    "mktCap": 9371435860
+  },
+  {
+    "symbol": "GRAB",
+    "companyName": "Grab Holdings Limited",
+    "price": 3.76,
+    "mktCap": 14937464800
+  },
+  {
+    "symbol": "HUBS",
+    "companyName": "HubSpot, Inc.",
+    "price": 235.25,
+    "mktCap": 12110270075
+  },
+  {
+    "symbol": "LDOS",
+    "companyName": "Leidos Holdings, Inc.",
+    "price": 131.74,
+    "mktCap": 16589886460
+  },
+  {
+    "symbol": "MSTR",
+    "companyName": "Strategy Inc",
+    "price": 183.8765,
+    "mktCap": 51048244427
+  },
+  {
+    "symbol": "PTC",
+    "companyName": "PTC Inc.",
+    "price": 133.43,
+    "mktCap": 15877651758
+  },
+  {
+    "symbol": "SSNC",
+    "companyName": "SS&C Technologies Holdings, Inc.",
+    "price": 69.29,
+    "mktCap": 16733902098
+  },
+  {
+    "symbol": "TTD",
+    "companyName": "The Trade Desk, Inc.",
+    "price": 24.22,
+    "mktCap": 11528163788
+  },
+  {
+    "symbol": "WIT",
+    "companyName": "Wipro Limited",
+    "price": 2,
+    "mktCap": 20953978770
+  }
+]

@@ -87,40 +87,37 @@ A misconception is always involved. What makes it durable is that it is reinforc
 ## Architecture
 
 ### Workflow
-`Discovery → Price → Earnings → [Initial Position?] → Financials → Footnotes → [Scale/Exit?] → Earnings Calls → Research → Synthesis → [Full Position?]`
 
-- **Consider initial position** — passed Earnings, low-risk profile, no position yet
-- **Scale/Exit decision** — passed Financials and Footnotes, quantitative case built and validated
-- **Prioritize for deep analysis** — high conviction or complexity warrants Earnings Calls and Research before full sizing
-- **Full position** — completed Synthesis, thesis fully validated, conviction warrants full sizing
+`Discovery → Setup (Step 0) → Context (Step 1) → The Numbers (Pass 1) → The Projection (Pass 2) → [Verdict]`
+
+Verdict (REMOVE / MONITOR / BUY — ACCUMULATE / BUY — MEASURED / BUY — CONVICTION) is written once, at end of Pass 2. It drives the position decision. No intermediate gates.
+
+**Model division of labor:** Gemini handles Step 0 only — runs fetch scripts, extracts MD&A excerpts verbatim, verifies file checklist. No open-ended analysis. Claude handles all analysis (Step 1, Pass 1, Pass 2).
 
 ### Workflow Steps
 
-**How to use this table:** For steps with a script, run the script first to fetch and save data, then load the prompt in a new chat session — the prompt instructs the LLM to read the output files and produce an analysis. For steps with no script, load the prompt directly. All prompts follow a Step 1 (gather context) → Step 2 (analyze) → Step 3 (commit) structure with explicit user approval gates between steps.
+**How to use:** All prompts follow a Step 1 (gather) → Step 2 (analyze) → Step 3 (commit) structure with explicit user approval gates. For steps with scripts, run the script first; the prompt reads the output files.
 
-| Step | Phase | Script | Prompt | Reads | Writes | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **0. Tracker Update** | Maintenance | `tracker_update.py` | — | `Stock_Tracker.md` | `Stock_Tracker.md`, `{TICKER}_price.json`, `{TICKER}_earnings.json` | Run weekly. Populates market data columns (price, P/E, EPS CAGR, beats, etc.) for all PIPELINE and WATCHLIST tickers via FMP. |
-| **1a. Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | News APIs | `Markets_Digest_{DATE}.md` | Run daily. Updates `context_markets.md`. |
-| **1b. Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_ai_supply_chain_update.md` | News APIs | `Sectors_Digest_{DATE}.md` | Run when sector developments warrant. Updates `context_ai_supply_chain.md`. |
-| **2. Daily Screening** | Screening | — | `prompt_daily_screening.md` | Digests, User Input | `Screening_{DATE}.md` | Reads digest outputs from steps 1a/1b. Produces candidate list. |
-| **3. Price & Earnings** | Screening | `price.py` + `earnings.py` | `prompt_price_earnings.md` | `Screening_{DATE}.md` | `Price_Data_{DATE}.txt`, `Earnings_{DATE}.txt`, `Screening_{DATE}.md` | Run sequentially: `price.py` first, then `earnings.py` — earnings depends on price JSON output. Writes analysis directly to the screening file. Can run standalone without a screening file. |
-| **4. Screening Completion** | Screening | — | `prompt_screening_completion.md` | `Screening_{DATE}.md` | Thesis, Tracker | Initializes the Thesis file and adds the ticker to the Tracker. |
-| **6. Financials** | Deep Dive | `financials.py` | `prompt_financials.md` | Thesis | Thesis, Tracker | |
-| **7. Footnotes** | Deep Dive | `footnotes.py` | `prompt_footnotes.md` | Thesis | Thesis, Tracker | *[Scale/Exit decision point]* |
-| **8. Earnings Calls** | Deep Dive | `earnings_calls.py` | `prompt_earnings_calls.md` | Thesis | Thesis, Tracker | |
-| **9. Research** | Deep Dive | `research.py` | `prompt_research.md` | Thesis | Thesis, Tracker | Investigates open questions from all prior analyses using news data. |
-| **10. Synthesis** | Deep Dive | — | `prompt_synthesis.md` | Thesis | Thesis, Tracker | *[Full position decision point]* Final integration of all analyses into an investment verdict. |
+| Step | Phase | Script | Prompt | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tracker Update** | Maintenance | `tracker_update.py` | — | Run weekly. Refreshes all market data columns (P/E, ROIC, EPS YoY, FCF, etc.) for PIPELINE and WATCHLIST via FMP. |
+| **Tracker Review** | Maintenance | — | `prompt_tracker_review.md` | Run after Tracker Update. Identifies top 3 analysis candidates, add-to-position signals, removal flags. Updates SC Layer Coverage. |
+| **Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | Run daily. Updates `context_markets.md`. |
+| **Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_ai_supply_chain_update.md` | Run when sector developments warrant. Updates `context_ai_supply_chain.md`. |
+| **Price & Earnings** | Screening | `price_earnings.py` | — | Screens candidates on price and earnings. Can run standalone. |
+| **Step 0: Setup** | Deep Dive | Multiple — see prompt | `prompt_setup.md` | Gemini-led. Fetches all ticker data, extracts MD&A excerpts, verifies file checklist. No analysis. |
+| **Step 1: Context** | Deep Dive | — | `prompt_the_context.md` | Claude. Sentiment, analyst consensus, price/earnings framing, MD&A, preliminary hypothesis. |
+| **Pass 1: The Numbers** | Deep Dive | — | `prompt_the_numbers.md` | Claude. 10 financial metrics (incl. ROIC) + 5-category accounting checklist via targeted grep. Updated hypothesis. |
+| **Pass 2: The Projection** | Deep Dive | — | `prompt_the_projection.md` | Claude. Earnings call analysis, catalyst check, final synthesis + verdict. |
 
 ---
 
 ## Core Tracking
-For a complete breakdown of all files, **always consult `index.md`**. Key tracking files include:
-- **`Stock_Tracker.md`**: Central tracker with three sections — PIPELINE (active analysis, both LOSERs and TAILWINDs), WATCHLIST (continuous monitoring, awaiting entry signal), and Trade Tracker (open positions). Market data columns are refreshed weekly by `tracker_update.py`.
-- **`Screening_{DATE}.md`**: The daily screening file. Captures candidates, enriched context, and price/earnings screening results.
-- **`context_markets.md`**: Rolling market context — macro conditions, prevailing narratives, recurring signals. Updated daily via the Markets Digest flow.
-- **`context_ai_supply_chain.md`**: AI supply chain context — layer-by-layer dynamics, constraint map, and companies of interest. Updated when meaningful developments warrant it.
-- **Thesis Files**: Located in `Data/tickers/{TICKER}/`, built sequentially during Phase 2.
+For a complete breakdown of all files and scripts, **always consult `index.md`**. Key tracking files:
+- **`Stock_Tracker.md`**: Central tracker — PIPELINE (active analysis), WATCHLIST (monitoring, awaiting entry signal), SC Layer Coverage (pipeline count by AI layer), Trade Tracker (open positions). Market data columns refreshed weekly by `tracker_update.py`.
+- **`context_markets.md`**: Rolling market context — macro conditions, prevailing narratives, recurring signals. Updated via the Markets Digest flow.
+- **`context_ai_supply_chain.md`**: AI supply chain context — layer-by-layer dynamics, constraint map, and company-level theses. Updated when sector developments warrant.
+- **Thesis Files**: Located in `Data/tickers/{TICKER}/{TICKER}_Thesis.md`. Four sections built sequentially: `### Context` → `### The Numbers` → `### The Projection` → `### Synthesis`. Verdict written only at Synthesis.
 
 ---
 

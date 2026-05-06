@@ -7,7 +7,7 @@ Fetches market data for all tickers in PIPELINE, WATCHLIST, and Trade Tracker
 sections of Stock_Tracker.md and writes the metrics back in-place.
 
 Metrics updated (PIPELINE / WATCHLIST):
-  Mkt Cap | vs_1Y | P/E | Avg EPS QoQ (4Q) | EPS YoY |
+  Mkt Cap | vs_1Y | P/E | ROIC | Avg EPS QoQ (4Q) | EPS YoY |
   Yrs Profitable (5yr) | Rev YoY | FCF YoY | Op Margin % | Debt/OCF | Next Earnings
 
 Metrics updated (Trade Tracker):
@@ -43,21 +43,22 @@ API_CALL_DELAY = 2  # seconds between FMP calls
 TRACKER_PATH = "Stock_Tracker.md"
 
 # Column indices for PIPELINE and WATCHLIST (1-indexed in pipe-split)
-# Ticker=1, Tag=2, Mkt Cap=3, vs_1Y=4, P/E=5,
-# Avg EPS QoQ (4Q)=6, EPS YoY=7, Yrs Profitable (5yr)=8,
-# Rev YoY=9, FCF YoY=10, Op Margin %=11, Debt/OCF=12, Next Earnings=13
+# Ticker=1, Tag=2, Mkt Cap=3, vs_1Y=4, P/E=5, ROIC=6,
+# Avg EPS QoQ (4Q)=7, EPS YoY=8, Yrs Profitable (5yr)=9,
+# Rev YoY=10, FCF YoY=11, Op Margin %=12, Debt/OCF=13, Next Earnings=14
 MARKET_COL_INDICES = {
     "mkt_cap":          3,
     "vs_1y":            4,
     "pe":               5,
-    "avg_eps_qoq_4q":   6,
-    "eps_yoy":          7,
-    "yrs_profitable":   8,
-    "rev_yoy":          9,
-    "fcf_yoy":          10,
-    "op_margin":        11,
-    "debt_ocf":         12,
-    "next_earnings":    13,
+    "roic":             6,
+    "avg_eps_qoq_4q":   7,
+    "eps_yoy":          8,
+    "yrs_profitable":   9,
+    "rev_yoy":          10,
+    "fcf_yoy":          11,
+    "op_margin":        12,
+    "debt_ocf":         13,
+    "next_earnings":    14,
 }
 
 # Column indices for Trade Tracker (1-indexed in pipe-split)
@@ -449,6 +450,49 @@ def compute_debt_ocf(balance_data, ocf_ttm):
     return total_debt / ocf_ttm
 
 
+def compute_roic(income_data, balance_data):
+    """Compute TTM ROIC from quarterly income and balance sheet data.
+
+    ROIC = NOPAT / Invested Capital
+    NOPAT = Net Income + Interest Expense × (1 - Tax Rate)
+    Invested Capital = Total Equity + Total Debt - Cash & Equivalents
+    Tax Rate = Income Tax Expense / Pre-Tax Income (TTM)
+
+    Returns None if required fields are unavailable or invested capital <= 0.
+    """
+    if not income_data or not balance_data or len(income_data) < 4:
+        return None
+
+    def sum4(key):
+        return sum((safe_float(income_data[i].get(key)) or 0) for i in range(min(4, len(income_data))))
+
+    ni          = sum4("netIncome")
+    interest    = sum4("interestExpense")
+    pretax      = sum4("incomeBeforeTax")
+    tax_exp     = sum4("incomeTaxExpense")
+
+    if pretax == 0:
+        return None
+    tax_rate = tax_exp / pretax
+
+    interest_paid = abs(interest) if interest else 0
+    nopat = ni + interest_paid * (1 - tax_rate)
+
+    bal = balance_data[0]
+    equity = safe_float(bal.get("totalEquity"))
+    debt   = safe_float(bal.get("totalDebt"))
+    cash   = safe_float(bal.get("cashAndCashEquivalents")) or 0
+
+    if equity is None or debt is None:
+        return None
+
+    invested_capital = equity + debt - cash
+    if invested_capital <= 0:
+        return None
+
+    return nopat / invested_capital
+
+
 # ---------------------------------------------------------------------------
 # Formatting
 # ---------------------------------------------------------------------------
@@ -576,6 +620,7 @@ def update_tracker(ticker_metrics):
                             cells[MARKET_COL_INDICES["mkt_cap"]]        = f" {m['mkt_cap']} "
                             cells[MARKET_COL_INDICES["vs_1y"]]          = f" {m['vs_1y']} "
                             cells[MARKET_COL_INDICES["pe"]]             = f" {m['pe']} "
+                            cells[MARKET_COL_INDICES["roic"]]           = f" {m['roic']} "
                             cells[MARKET_COL_INDICES["avg_eps_qoq_4q"]] = f" {m['avg_eps_qoq_4q']} "
                             cells[MARKET_COL_INDICES["eps_yoy"]]        = f" {m['eps_yoy']} "
                             cells[MARKET_COL_INDICES["yrs_profitable"]] = f" {m['yrs_profitable']} "
@@ -683,10 +728,11 @@ def main():
             "fcf_yoy": None, "ocf_ttm": None,
         }
 
-        # --- Balance sheet: total debt (for Debt/OCF) ---
+        # --- Balance sheet: total debt (for Debt/OCF) and equity/cash (for ROIC) ---
         time.sleep(API_CALL_DELAY)
         balance_data = fetch_balance_sheet(ticker)
         debt_ocf = compute_debt_ocf(balance_data, cashflow.get("ocf_ttm"))
+        roic = compute_roic(income_data, balance_data)
 
         # --- Earnings history: next earnings date ---
         time.sleep(API_CALL_DELAY)
@@ -713,6 +759,7 @@ def main():
             "price":            fmt_price(price_metrics["current_price"]) if price_metrics else "—",
             "vs_1y":            fmt_pct(price_metrics["vs_1y"]) if price_metrics else "—",
             "pe":               fmt_pe(gaap_pe),
+            "roic":             fmt_pct(roic, sign=False),
             "avg_eps_qoq_4q":   fmt_pct(quarterly["avg_eps_qoq_4q"]),
             "eps_yoy":          fmt_pct(quarterly["eps_yoy"]),
             "yrs_profitable":   fmt_yrs(yrs_profitable),
@@ -732,7 +779,7 @@ def main():
         ticker_metrics[ticker] = m
 
         print(
-            f"  Cap: {m['mkt_cap']}  vs1Y: {m['vs_1y']}  P/E: {m['pe']}  "
+            f"  Cap: {m['mkt_cap']}  vs1Y: {m['vs_1y']}  P/E: {m['pe']}  ROIC: {m['roic']}  "
             f"Avg EPS QoQ: {m['avg_eps_qoq_4q']}  EPS YoY: {m['eps_yoy']}  "
             f"Yrs Prof: {m['yrs_profitable']}  Rev YoY: {m['rev_yoy']}  "
             f"FCF YoY: {m['fcf_yoy']}  Op Margin: {m['op_margin']}  Debt/OCF: {m['debt_ocf']}"

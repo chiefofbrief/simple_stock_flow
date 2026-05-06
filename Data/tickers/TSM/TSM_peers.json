@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "AMAT",
+    "companyName": "Applied Materials, Inc.",
+    "price": 426.18,
+    "mktCap": 338220709800
+  },
+  {
+    "symbol": "AMKR",
+    "companyName": "Amkor Technology, Inc.",
+    "price": 77.1566,
+    "mktCap": 19125000722
+  },
+  {
+    "symbol": "ASML",
+    "companyName": "ASML Holding N.V.",
+    "price": 1539.3,
+    "mktCap": 593273913546
+  },
+  {
+    "symbol": "ASX",
+    "companyName": "ASE Technology Holding Co., Ltd.",
+    "price": 34.06,
+    "mktCap": 74473172324
+  },
+  {
+    "symbol": "AVGO",
+    "companyName": "Broadcom Inc.",
+    "price": 423.08,
+    "mktCap": 2003144183600
+  },
+  {
+    "symbol": "DIOD",
+    "companyName": "Diodes Incorporated",
+    "price": 115.65,
+    "mktCap": 5320659011
+  },
+  {
+    "symbol": "LRCX",
+    "companyName": "Lam Research Corporation",
+    "price": 295.24,
+    "mktCap": 369218286800
+  },
+  {
+    "symbol": "META",
+    "companyName": "Meta Platforms, Inc.",
+    "price": 612.165,
+    "mktCap": 1553934004737
+  },
+  {
+    "symbol": "MU",
+    "companyName": "Micron Technology, Inc.",
+    "price": 660.7199,
+    "mktCap": 745113652827
+  },
+  {
+    "symbol": "TSEM",
+    "companyName": "Tower Semiconductor Ltd.",
+    "price": 216.275,
+    "mktCap": 24170162991
+  }
+]

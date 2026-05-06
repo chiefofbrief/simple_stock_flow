@@ -172,11 +172,30 @@ def calculate_ttm_metrics(quarterly_data):
     ca = latest(q_bal, 'totalCurrentAssets')
     cl = latest(q_bal, 'totalCurrentLiabilities')
     debt = latest(q_bal, 'totalDebt')
-    
+    equity = latest(q_bal, 'totalEquity')
+    cash = latest(q_bal, 'cashAndCashEquivalents')
+
+    # ROIC inputs (sum 4 quarters for income statement items)
+    interest_exp = sum_q(q_inc, 'interestExpense')
+    pretax_income = sum_q(q_inc, 'incomeBeforeTax')
+    tax_expense = sum_q(q_inc, 'incomeTaxExpense')
+
     # Calculate Metrics
     # Note: Capex is usually negative in CF statement
     abs_capex = abs(capex) if capex is not None else 0
-    
+
+    # ROIC = NOPAT / Invested Capital
+    # NOPAT = Net Income + Interest Expense × (1 - Tax Rate)
+    # Invested Capital = Total Equity + Total Debt - Cash
+    tax_rate = safe_div(tax_expense, pretax_income)
+    interest_paid = abs(interest_exp) if interest_exp else 0
+    if ni is not None and tax_rate is not None and equity is not None and debt is not None:
+        nopat = ni + interest_paid * (1 - tax_rate)
+        invested_capital = equity + debt - (cash or 0)
+        roic = safe_div(nopat, invested_capital)
+    else:
+        roic = None
+
     return {
         "revenue": rev,
         "operating_margin": safe_div(oi, rev),
@@ -195,6 +214,7 @@ def calculate_ttm_metrics(quarterly_data):
         "dep_to_rev": safe_div(da, rev),
         "debt_to_assets": safe_div(debt, assets),
         "debt_to_ocf": safe_div(debt, ocf),
+        "roic": roic,
 
         "_oi": oi, "_rev": rev # internal use
     }
@@ -211,13 +231,29 @@ def extract_period_metrics(inc, bal, cf):
     ca = get(bal, 'totalCurrentAssets')
     cl = get(bal, 'totalCurrentLiabilities')
     debt = get(bal, 'totalDebt')
-    
+    equity = get(bal, 'totalEquity')
+    cash = get(bal, 'cashAndCashEquivalents')
+
     ocf = get(cf, 'operatingCashFlow')
     capex = get(cf, 'capitalExpenditure')
     da = get(cf, 'depreciationAndAmortization')
     sbc = get(cf, 'stockBasedCompensation')
 
+    interest_exp = get(inc, 'interestExpense')
+    pretax_income = get(inc, 'incomeBeforeTax')
+    tax_expense = get(inc, 'incomeTaxExpense')
+
     abs_capex = abs(capex) if capex is not None else 0
+
+    # ROIC = NOPAT / Invested Capital
+    tax_rate = safe_div(tax_expense, pretax_income)
+    interest_paid = abs(interest_exp) if interest_exp else 0
+    if ni is not None and tax_rate is not None and equity is not None and debt is not None:
+        nopat = ni + interest_paid * (1 - tax_rate)
+        invested_capital = equity + debt - (cash or 0)
+        roic = safe_div(nopat, invested_capital)
+    else:
+        roic = None
 
     return {
         "revenue": rev,
@@ -234,6 +270,7 @@ def extract_period_metrics(inc, bal, cf):
         "dep_to_rev": safe_div(da, rev),
         "debt_to_assets": safe_div(debt, assets),
         "debt_to_ocf": safe_div(debt, ocf),
+        "roic": roic,
 
         "_oi": oi, "_rev": rev
     }
@@ -336,7 +373,8 @@ def process_metrics(raw_data):
         'capex_to_dep',
         'dep_to_rev',
         'debt_to_assets',
-        'debt_to_ocf'
+        'debt_to_ocf',
+        'roic'
     ]
     
     for key in metric_keys:
@@ -514,6 +552,7 @@ def generate_markdown(ticker, data, role=None):
         ("  ↳ D&A / Revenue", "dep_to_rev", "{:.1%}"),
         ("Debt / Assets", "debt_to_assets", "{:.1%}"),
         ("Debt / OCF", "debt_to_ocf", "{:.2f}x"),
+        ("ROIC", "roic", "{:.1%}"),
     ]
 
     ann_rows, quart_rows = build_table_rows("financials", metric_rows)
@@ -548,41 +587,59 @@ def main():
 
     all_tickers = [(ticker, "Target")] + [(p, f"Peer {i+1}") for i, p in enumerate(peers)]
     combined_md = ""
+    failures = []
 
     for t, role in all_tickers:
         print(f"\nProcessing {t} ({role})...")
-        raw_data = fetch_all_financials(t)
-        if not raw_data:
-            print(f"  Skipping {t} — failed to fetch data.")
-            continue
+        try:
+            raw_data = fetch_all_financials(t)
+            if not raw_data:
+                raise ValueError("Failed to fetch required financial statements")
 
-        # Save raw (peers nest under target ticker's directory)
-        target = ticker if t != ticker else None
-        raw_dir = get_data_directory(t, target)
-        ensure_directory_exists(raw_dir)
-        save_json(raw_data['annual']['income'], os.path.join(raw_dir, f"{t}_income_annual.json"))
-        save_json(raw_data['annual']['balance'], os.path.join(raw_dir, f"{t}_balance_annual.json"))
-        save_json(raw_data['annual']['cash_flow'], os.path.join(raw_dir, f"{t}_cashflow_annual.json"))
-        save_json(raw_data['quarterly']['income'], os.path.join(raw_dir, f"{t}_income_quarterly.json"))
-        save_json(raw_data['quarterly']['balance'], os.path.join(raw_dir, f"{t}_balance_quarterly.json"))
-        save_json(raw_data['quarterly']['cash_flow'], os.path.join(raw_dir, f"{t}_cashflow_quarterly.json"))
-        print(f"  Raw data saved to {raw_dir}")
+            # Save raw (peers nest under target ticker's directory)
+            target = ticker if t != ticker else None
+            raw_dir = get_data_directory(t, target)
+            ensure_directory_exists(raw_dir)
+            save_json(raw_data['annual']['income'], os.path.join(raw_dir, f"{t}_income_annual.json"))
+            save_json(raw_data['annual']['balance'], os.path.join(raw_dir, f"{t}_balance_annual.json"))
+            save_json(raw_data['annual']['cash_flow'], os.path.join(raw_dir, f"{t}_cashflow_annual.json"))
+            save_json(raw_data['quarterly']['income'], os.path.join(raw_dir, f"{t}_income_quarterly.json"))
+            save_json(raw_data['quarterly']['balance'], os.path.join(raw_dir, f"{t}_balance_quarterly.json"))
+            save_json(raw_data['quarterly']['cash_flow'], os.path.join(raw_dir, f"{t}_cashflow_quarterly.json"))
+            print(f"  Raw data saved to {raw_dir}")
 
-        # Process & save metrics
-        metrics = process_metrics(raw_data)
-        ticker_dir = os.path.dirname(raw_dir)
-        save_json(metrics, os.path.join(ticker_dir, f"{t}_financial_metrics.json"))
-        print(f"  Metrics saved.")
+            # Process & save metrics
+            metrics = process_metrics(raw_data)
+            if not metrics or not metrics.get("financials"):
+                raise ValueError("Metrics processing returned empty result")
 
-        combined_md += generate_markdown(t, metrics, role=role) + "\n\n---\n\n"
+            ticker_dir = os.path.dirname(raw_dir)
+            save_json(metrics, os.path.join(ticker_dir, f"{t}_financial_metrics.json"))
+            print(f"  ✓ Metrics saved — {len(metrics['dates'])} annual periods, {len(metrics['quarterly_dates'])} quarters")
+
+            combined_md += generate_markdown(t, metrics, role=role) + "\n\n---\n\n"
+        except Exception as e:
+            print(f"  ✗ FAILED: {e}")
+            failures.append(t)
 
     # Write combined report to primary ticker's directory
-    primary_dir = os.path.dirname(get_data_directory(ticker))
-    report_path = os.path.join(primary_dir, f"{ticker}_financial_analysis.md")
-    with open(report_path, "w") as f:
-        f.write(combined_md)
+    if combined_md:
+        primary_dir = os.path.dirname(get_data_directory(ticker))
+        report_path = os.path.join(primary_dir, f"{ticker}_financial_analysis.md")
+        with open(report_path, "w") as f:
+            f.write(combined_md)
+        print(f"\nReport saved to {report_path}")
 
-    print(f"\nReport saved to {report_path}")
+    # --- Summary ---
+    print("\n--- Summary ---")
+    for t, role in all_tickers:
+        status = "✗ FAILED" if t in failures else "✓"
+        print(f"  {status}  {t} ({role})")
+
+    if failures:
+        print(f"\nFailed: {', '.join(failures)}")
+        sys.exit(1)
+    print("\nDone.")
 
 if __name__ == "__main__":
     main()

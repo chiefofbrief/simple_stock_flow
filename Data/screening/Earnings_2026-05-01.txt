@@ -1,0 +1,53 @@
+EARNINGS & VALUATION — 2026-05-01
+
+Ticker | GAAP P/E | Adj P/E | vs1Y | vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+----------+---------+------+------+------+-------+--------+----+----------+-----------+----------
+   SAP |    26.7x |   22.9x | -57% | -25% | +11% |  -28% |  -0.95 | || |    +3.2% |      0.23 |     $0.06
+
+
+LEGEND:
+vsXYr: % difference between Current P/E and P/E X years ago.
+1yCorr: Correlation (0-1) between Price and Earnings over last 12 months.
+Stability: CV of Annual EPS (Lower = Smoother growth).
+Fwd Delta: Next Quarter Estimate minus Last Reported EPS. (+ = Growth exp).
+
+================================================================================
+TICKER: SAP | Price Date: 2026-05-01
+================================================================================
+
+1. VALUATION TREND (P/E History)
+   GAAP P/E (FMP income stmt, TTM): 26.7x   |   Adj P/E (FMP non-GAAP, TTM): 22.9x  *** GAAP is +16% vs Adj — investigate non-GAAP adjustments ***
+   (Historical trend below uses Adj/Non-GAAP EPS — consistent with analyst estimates and beat/miss tracking)
+   Metric   | Current | 1Yr Ago | 3Yr Ago | 5Yr Ago | Avg
+   ---------+---------+---------+---------+---------+-------
+   Adj P/E  |   22.9x |   53.7x |   30.4x |   20.7x | 31.9x
+   vs Cur   |       - |    -57% |    -25% |    +11% |  -28%
+
+2. RELATIONSHIP & GROWTH
+   > 1-Year Correlation: -0.95
+   > 5-Year EPS CAGR:    +3.2%
+   > Earnings Stability: 0.23
+
+3. ESTIMATES vs ACTUALS (Catalyst Check)
+   Quarter     | Estimate | Reported | Surprise | Delta
+   ------------+----------+----------+----------+-------
+   Next (Est)  |    $2.07 |        - |        - | (Due: 2026-07-23)
+   2026-04-23  |    $1.92 |    $2.01 |    +4.7% | $0.09
+   2026-01-29  |    $1.77 |    $1.89 |    +6.8% | $0.12
+   2025-10-22  |    $1.69 |    $1.86 |   +10.1% | $0.17
+   2025-07-22  |    $1.63 |    $1.70 |    +4.3% | $0.07
+
+   > Forward Delta: $0.06 (Next Est vs Last Actual)
+
+4. ANNUAL TREND (TTM Blocks - Last 5 Years)
+   TTM End Date| EPS      | Growth
+   ------------+----------+-------
+   2026-04-23  |    $7.46 | +37.9%
+   2025-04-22  |    $5.41 | +10.9%
+   2024-04-22  |    $4.88 | +12.7%
+   2023-04-21  |    $4.33 | -35.8%
+   2022-04-22  |    $6.74 |  +5.8%
+   2021-04-22  |    $6.37 | +22.7%
+   2020-04-21  |    $5.19 |  +7.2%
+   2019-04-24  |    $4.84 |  +6.6%
+   2018-04-24  |    $4.54 |      -

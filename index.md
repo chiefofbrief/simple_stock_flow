@@ -15,45 +15,52 @@ These files establish the rules of the system and track its outputs.
 ---
 
 ## 2. Prompts (`Prompts/`)
-The instructions passed to the LLM for each stage of analysis.
+The instructions passed to the LLM for each stage of analysis. Archived prompts (old workflow) are in `archive/prompts/`.
 
 ### Digest
 *   `prompt_digest_markets.md` - (Digest) Synthesizes the Markets Digest into LOSER candidates and TAILWIND flags. Updates `context_markets.md`.
+*   `prompt_context_update_markets.md` - (Digest) Synthesizes past week's digest analyses into a structured update to `context_markets.md`. Surfaces new screening candidates not yet in the tracker.
 *   `prompt_ai_supply_chain_update.md` - (Digest) Reviews new source material and updates `context_ai_supply_chain.md` where warranted.
 
-### Screening
-*   `prompt_daily_screening.md` - (Screening) Compiles LOSER and TAILWIND candidates from the digest analyses and user input into `Screening_{DATE}.md`. Enriches each candidate with FMP profile, web fetch, and peer data.
-*   `prompt_price_earnings.md` - (Screening) Analyzes price action, earnings trends, valuation, and forward estimates in a single integrated report. Writes results directly to `Screening_{DATE}.md`. Can be run standalone or within the daily screening flow.
-*   `prompt_screening_completion.md` - (Screening) Wraps up the screening process for a passed ticker. Initializes the Thesis file and updates the Tracker.
+### Maintenance
+*   `prompt_tracker_review.md` - (Maintenance) Run after `tracker_update.py`. Identifies top 3 PIPELINE analysis candidates, add-to-position signals, and removal/demotion flags. Updates SC Layer Coverage section in `Stock_Tracker.md`.
 
-### Deep Dive
-*   `prompt_financials.md` - (Deep Dive) Analyzes 10 years/quarters of core financial metrics. Supports optional peer comparison via `--peers` flag.
-*   `prompt_footnotes.md` - (Deep Dive) Extracts hidden risks/opportunities from 10-K/10-Q footnotes and MD&A. Includes an Accounting Analysis Guide covering revenue recognition, expense manipulation, balance sheet valuation, cash flow classification, and non-GAAP metrics.
-*   `prompt_earnings_calls.md` - (Deep Dive) Analyzes management tone and Q&A from the transcript. Cross-references against all prior analyses.
-*   `prompt_research.md` - (Deep Dive) Investigates open questions from all prior analyses using recent Perigon and FMP news data, with up to 3 targeted web fetches for unresolved material questions.
-*   `prompt_synthesis.md` - (Deep Dive) *(pending)* Final integration of all analyses into a unified investment verdict.
+### Deep Dive — 3-Step Workflow
+*   `prompt_setup.md` - (Step 0 — Gemini) Runs all fetch scripts for a ticker, extracts MD&A excerpts verbatim, verifies file checklist. No analysis.
+*   `prompt_the_context.md` - (Step 1 — Claude) Sentiment landscape, analyst consensus, price/earnings framing, MD&A review, narrative pre-check, preliminary hypothesis. Commits to `### Context` in thesis file.
+*   `prompt_the_numbers.md` - (Pass 1 — Claude) Full financial metrics analysis (10 metrics incl. ROIC) + 5-category accounting checklist via targeted grep only. Updated hypothesis. Commits to `### The Numbers` in thesis file.
+*   `prompt_the_projection.md` - (Pass 2 — Claude) Full earnings call analysis, catalyst assessment, final synthesis + verdict. Commits to `### The Projection` and `### Synthesis` in thesis file.
+
+### Quality Control
+*   `prompt_reviewer.md` - (QC) Augments any step prompt with standards for claims, citations, and cross-section consistency checks. Load alongside any analysis step prompt.
+*   `prompt_claude_reviewer.md` - (QC) Independent audit of a completed analysis — checks each thesis section directly against source data files, not against the analysis itself.
 
 ---
 
 ## 3. Scripts (`Scripts/`)
-The Python automation layer that fetches data, calls the LLM, and writes the outputs.
+The Python automation layer that fetches data and writes outputs. Archived scripts (old workflow) are in `archive/scripts/`.
 
-### Main Orchestrators
-*   `price.py` - Fetches price data for use with `prompt_price_earnings.md`.
-*   `earnings.py` - Fetches earnings data for use with `prompt_price_earnings.md`.
-*   `financials.py` - Fetches financial statements, calculates metrics, and triggers `prompt_financials.md`. Supports optional peer comparison via `--peers` flag.
-*   `footnotes.py` - Fetches 10-K/10-Q text and triggers `prompt_footnotes.md`.
-*   `earnings_calls.py` - Fetches call transcripts and triggers `prompt_earnings_calls.md`.
-*   `research.py` - Fetches Perigon and FMP news data and triggers `prompt_research.md`.
+### Main Scripts
+*   `price_earnings.py` - Fetches price history and earnings data. Outputs `{TICKER}_price.json` + `{TICKER}_earnings.json`. Run before `tracker_update.py` and `financials.py`.
+*   `financials.py` - Fetches financial statements; calculates 10 TTM metrics including ROIC. Outputs `{TICKER}_financial_analysis.md`. Supports optional peer comparison via `--peers` flag.
+*   `footnotes.py` - Fetches 10-K/10-Q filing text. Outputs `{TICKER}_notes.md` (footnotes) + `{TICKER}_mda.md` (MD&A). Grepped in Pass 1 — never fully loaded into context.
+*   `earnings_calls.py` - Fetches call transcripts. Outputs `{TICKER}_earnings_remarks.md` + `{TICKER}_earnings_qa.md`. Auto-extracts analyst questions to `{TICKER}_qa_questions.md`.
+*   `news.py` - Fetches recent news (Perigon + FMP combined). Outputs `{TICKER}_news.md`.
+*   `analyst.py` - Fetches analyst price targets and grade actions. Outputs `{TICKER}_analyst.md`.
+*   `ticker_reddit.py` - Fetches Reddit posts and top comments via SocialVault. Outputs `{TICKER}_social.md`.
+*   `tracker_update.py` - Weekly maintenance. Refreshes all market data columns (P/E, ROIC, EPS YoY, FCF, etc.) for all PIPELINE and WATCHLIST tickers in `Stock_Tracker.md` via FMP. Usage: `python Scripts/tracker_update.py` (all tickers) or `python Scripts/tracker_update.py AXON TSM` (specific tickers).
+*   `peer_analysis.py` - Runs FMP peer comparison for PIPELINE and WATCHLIST tickers; filters to AI supply chain-validated companies. Supports discovery of sector peers.
 
-*   `tracker_update.py` - Weekly maintenance script. Fetches market data (price, P/E, EPS CAGR, beat streak, forward delta, next earnings, market cap) for all tickers in `Stock_Tracker.md` via FMP and writes metrics back in-place. Usage: `python Scripts/tracker_update.py` (all tickers) or `python Scripts/tracker_update.py AXON TSM` (specific tickers).
+### Automation Scripts
+*   `automation_peters_digest.py` - End-to-end automation of the Markets Digest workflow.
+*   `automation_tracker_priority.py` - Automates Tracker Update + Tracker Review via Vertex AI.
 
 ### Shared Utilities
-*   `shared_utils.py` - Core toolkit imported by all scripts (handles API requests, dynamic company name lookups, token counting, file I/O, etc.).
+*   `shared_utils.py` - Core toolkit imported by all scripts (API requests, file I/O, token counting, etc.).
 
 ### Research Subscripts (`Scripts/Research Scripts/`)
-Data collectors utilized by `research.py`.
-*   `news.py` - Aggregates and formats news output from the specific APIs below into a combined markdown report.
+Data collectors called by `Scripts/news.py`.
+*   `news.py` - Aggregates and formats Perigon + FMP news into a combined report.
 *   `news_fmp.py` - Fetches financial news via FMP Search Stock News API.
 *   `news_perigon.py` - Fetches high-signal news stories via Perigon API.
 
