@@ -1,5 +1,9 @@
 # Commands
 
+**CLAUDE: Before executing any Deep Dive step, you MUST read the corresponding prompt file from `Prompts/` first. Do not begin analysis until the prompt has been read. No exceptions.**
+
+---
+
 Copy-and-paste commands for the Gemini CLI to execute the core workflow scripts and prompts. Replace `{TICKER}` with the actual stock symbol (e.g., `AAPL`).
 
 ---
