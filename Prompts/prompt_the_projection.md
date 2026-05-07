@@ -22,7 +22,8 @@ Read the following before doing anything else.
 - `context_markets.md` — Current macro conditions and prevailing narratives. Read before analyzing — macro context informs how you read the earnings call, not just the verdict.
 
 **Conditional**
-- `context_ai_supply_chain.md` — Read only if `{TICKER}` has an `AI SC` Sector Theme tag. Read before analyzing to understand the tailwind context for `{TICKER}`'s specific layer.
+- `context_ai_supply_chain_index.md` — Read if `{TICKER}` has an `AI SC` Sector Theme tag. Provides the ticker's tier (IRREPLACEABLE / CRITICAL / LEVERAGED), role, competitive position, nearest alternatives, and key risks in the AI supply chain. Load this by default.
+- `context_ai_supply_chain.md` — Full encyclopedia. Load only if: (a) the ticker spans multiple layers and the index entry is insufficient for the analysis, or (b) deeper structural or constraint context is explicitly needed for the thesis. Do not load by default.
 
 **Data check:** Confirm `{TICKER}_earnings_remarks.md` and `{TICKER}_earnings_qa.md` are present and non-empty. If either is missing, stop and alert before proceeding.
 

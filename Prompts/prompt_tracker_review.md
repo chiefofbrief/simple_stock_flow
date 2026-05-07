@@ -37,7 +37,6 @@ Read the following before doing anything else:
 
 - `GEMINI.md` — Read the **Investment Types**, **Financials & Margin of Safety**, and **Sentiment** sections. These define the analytical lens for every decision below.
 - `context_markets.md` — Current macro posture and prevailing narratives. Use this to distinguish market-wide dislocations from stock-specific ones. A stock down in a rising market is a more distinctive LOSER signal than one down in a broad selloff.
-- `context_ai_supply_chain.md` — AI supply chain layer dynamics. Required for evaluating TAILWIND tickers — use to assess whether the underlying structural thesis is intact.
 - `Stock_Tracker.md` — Read all sections: PIPELINE (analysis candidates), WATCHLIST (monitoring + promotion candidates), Trade Tracker (add-to-position scan), SC Layer Coverage (layer gap awareness).
 
 **STOP. Do not proceed until all files have been read.**
@@ -87,7 +86,7 @@ Rank across all PIPELINE tickers where Phase ≠ `Complete`. If a WATCHLIST tick
 - **EPS YoY + Avg EPS QoQ (4Q):** YoY is primary; QoQ average shows acceleration building or fading.
 - **P/E relative to growth:** 30x on 60% EPS growth > 20x on 8% growth. Above 50x needs exceptional and accelerating growth.
 - **Reflexivity guard (vs_1Y):** Stocks up 200%+ may have exhausted the pool of believers — flag the tension explicitly.
-- **AI SC layer thesis:** Cross-reference `context_ai_supply_chain.md` — is the layer dynamic intact?
+- **AI SC layer thesis:** Is the underlying structural tailwind still intact? Use the ticker's notes in the tracker and your knowledge of the supply chain context — flag for deeper investigation if uncertain, do not load context files during this step.
 
 **Quality validators:**
 - **FCF YoY:** Growth should translate to real cash. Revenue growth + declining FCF = margin concern.
@@ -130,7 +129,7 @@ Surface tickers from PIPELINE or WATCHLIST that no longer fit their thesis. Incl
 - EPS YoY negative AND Avg EPS QoQ also negative AND Rev YoY flat or declining AND FCF YoY negative — thesis broken across all dimensions.
 - Spread >150% with no earnings acceleration and no FCF/margin improvement closing the gap.
 - vs_1Y so extreme that reflexivity is exhausted — risk/reward inverted.
-- AI SC layer thesis materially weakened per `context_ai_supply_chain.md`.
+- AI SC structural position materially weakened — flag for investigation in next analysis step.
 
 **Output:** Ticker, triggering metric with value, one-line verdict (Remove or Demote to WATCHLIST). Only surface tickers you are recommending to act on — do not list ambiguous cases.
 

@@ -22,7 +22,8 @@ Read the following before doing anything else:
 - `Data/tickers/{TICKER}/{TICKER}_mda.md` — Available for targeted grep searches **only**. Do not read in full.
 
 **Conditional**
-- `context_ai_supply_chain.md` — Read only if `{TICKER}` has an `AI SC` Sector Theme tag. Read before analyzing to understand the tailwind context for `{TICKER}`'s specific layer.
+- `context_ai_supply_chain_index.md` — Read if `{TICKER}` has an `AI SC` Sector Theme tag. Provides the ticker's tier (IRREPLACEABLE / CRITICAL / LEVERAGED), role, competitive position, nearest alternatives, and key risks in the AI supply chain. Load this by default.
+- `context_ai_supply_chain.md` — Full encyclopedia. Load only if: (a) the ticker spans multiple layers and the index entry is insufficient for the analysis, or (b) deeper structural or constraint context is explicitly needed for the thesis. Do not load by default.
 
 **Data check:** Confirm `{TICKER}_financial_analysis.md` is present and non-empty. Before deferring any unresolved question to a later phase, check whether the raw JSON files (`Data/tickers/{TICKER}/raw/`) contain data that would resolve it — only defer when the data genuinely does not exist in the raw files. If `{TICKER}_financial_analysis.md` is missing, stop and alert before proceeding.
 
