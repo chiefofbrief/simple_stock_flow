@@ -73,6 +73,4 @@ Read the following before doing anything else:
 
 Upon explicit user approval (e.g., "yes", "go ahead"), prepend the full analysis report (from the "Markets Analysis" header onwards) to the top of `Peter's Digest/Markets Digest/Markets_Digest_{DATE}.md`, immediately below the main "Peter's Digest: Markets" header.
 
-To update `context_markets.md`, run `prompt_context_update_markets.md`.
-
 **STOP. You are done.**

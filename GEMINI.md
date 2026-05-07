@@ -96,7 +96,7 @@ Verdict (REMOVE / MONITOR / BUY — ACCUMULATE / BUY — MEASURED / BUY — CONV
 
 ### Workflow Steps
 
-**How to use:** All prompts follow a Step 1 (gather) → Step 2 (analyze) → Step 3 (commit) structure with explicit user approval gates. For steps with scripts, run the script first; the prompt reads the output files.
+**How to use:** All prompts follow a Step 1 (gather) → Step 2 (analyze) → Step 3 (commit) structure with explicit user approval gates. For steps with scripts, run the script first; the prompt reads the output files. **Before executing each step, read the corresponding prompt file from `Prompts/`. The table below describes what each prompt does — it does not replace it.**
 
 | Step | Phase | Script | Prompt | Notes |
 | :--- | :--- | :--- | :--- | :--- |

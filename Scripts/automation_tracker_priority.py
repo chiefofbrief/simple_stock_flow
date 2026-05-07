@@ -40,7 +40,7 @@ PRIORITY_MARKER = "<!-- PRIORITY_COMPLETE -->"
 TRACKER_HEADER = "# Ticker Tracker"
 
 TRACKER_PATH = "Stock_Tracker.md"
-PROMPT_PATH = "Prompts/prompt_tracker_priority.md"
+PROMPT_PATH = "Prompts/prompt_tracker_review.md"
 GEMINI_MD_PATH = "GEMINI.md"
 CONTEXT_MARKETS_PATH = "context_markets.md"
 CONTEXT_AI_SC_PATH = "context_ai_supply_chain.md"

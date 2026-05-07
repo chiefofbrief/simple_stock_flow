@@ -40,7 +40,7 @@ ANALYSIS_MARKER = "<!-- ANALYSIS_COMPLETE -->"
 # File Paths
 PROMPT_PATH = "Prompts/prompt_digest_markets.md"
 GEMINI_CONTEXT_PATH = "GEMINI.md"
-AI_GUIDELINES_PATH = "AI_Guidelines.md"
+AI_GUIDELINES_PATH = "context_ai_supply_chain.md"
 
 def load_file(path):
     try:
