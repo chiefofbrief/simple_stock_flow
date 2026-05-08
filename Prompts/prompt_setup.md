@@ -83,6 +83,12 @@ python Scripts/earnings_calls.py {TICKER}
 
 ### Critical instruction — read before extracting
 
+**You MUST read the FULL `{TICKER}_mda.md` file — every single line, from beginning to end — before extracting anything. Do NOT use grep, keyword search, ctrl+F, or any other shortcut. Read the entire file.**
+
+**Your job is to read the filing as a human would and identify what is relevant to each of the five questions based on the content and meaning of the text — not based on whether a section heading matches the question's name. Hold all five questions in mind as you read. A passage about revenue recognition assumptions buried in a "Liquidity" section is still relevant to Critical Accounting Estimates. A cautionary paragraph in "Results of Operations" is still relevant to risks. You are exercising judgment, not running a search.**
+
+**"Not found in filing" is only acceptable if you read the entire file and concluded — based on meaning, not the absence of a matching label — that nothing was relevant.**
+
 **This is a copy task, not a summary task.** Claude will read this file as raw source material for analysis. Any condensing, paraphrasing, or rewording you do here destroys analytical value — Claude cannot recover information that was cut.
 
 **Rules:**
@@ -149,6 +155,35 @@ Copy the entire Critical Accounting Estimates section (or equivalent) verbatim. 
 
 ---
 
+## Step 2b: Extract Analyst Q&A Questions from Earnings Call
+
+**Source file:** `Data/tickers/{TICKER}/{TICKER}_earnings_qa.md`
+
+**Output file:** `Data/tickers/{TICKER}/{TICKER}_qa_questions.md`
+
+**You MUST read the FULL `{TICKER}_earnings_qa.md` file — every single line, from beginning to end. Do NOT skim, jump to sections, or stop reading early. Do NOT use grep or keyword search. Read the entire transcript.**
+
+Extract every distinct question asked by analysts during the Q&A portion of the earnings call. Copy each question verbatim, exactly as asked. Include the analyst's name and firm if present.
+
+Do not paraphrase. Do not summarize what was asked. Copy the actual question text. If an analyst asked a follow-up, include it as a separate item.
+
+**Output format:**
+```markdown
+# Analyst Q&A Questions: {TICKER}
+**Source:** Earnings call Q&A (period ending {DATE})
+**Extracted:** {TODAY}
+
+---
+
+1. **[Analyst Name, Firm]:** "[Exact question text copied verbatim]"
+
+2. **[Analyst Name, Firm]:** "[Exact question text copied verbatim]"
+
+[continue for all questions]
+```
+
+---
+
 ## Step 3: Verify File Checklist
 
 Confirm all required files exist before handing off to Claude. Check for each file:
@@ -193,14 +228,14 @@ Report to the user:
 Profile: ✓ {TICKER}_profile.json — {COMPANY NAME}, {SECTOR}, {MARKET CAP}
 Peers (TAILWIND): ✓ {TICKER}_peers.json — top peer: {PEER1} [or N/A for LOSER]
 
-Scripts:
-  ✓ price_earnings.py
-  ✓ analyst.py
-  ✓ news.py
-  ✓ ticker_reddit.py
-  ✓ financials.py [--peers {PEER1} for TAILWIND]
-  ✓ footnotes.py
-  ✓ earnings_calls.py
+Scripts — confirm exit code 0 and show key output for each:
+  ✓ price_earnings.py — [rows fetched, date range]
+  ✓ analyst.py — [# analysts, consensus rating, price target]
+  ✓ news.py — [# articles fetched, date range]
+  ✓ ticker_reddit.py — [# posts/comments fetched]
+  ✓ financials.py [--peers {PEER1} for TAILWIND] — [periods covered, peer included or N/A]
+  ✓ footnotes.py — [file size or sections extracted]
+  ✓ earnings_calls.py — [call date, remarks + Q&A files written]
 
 MD&A extraction: ✓ {TICKER}_mda_excerpts.md written
 
