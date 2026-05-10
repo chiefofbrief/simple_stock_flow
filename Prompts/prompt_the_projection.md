@@ -60,6 +60,8 @@ Work through each section in order. The Output Format below defines everything t
 
   These three together determine the verdict. A strong thesis with no narrative or near-term catalyst is MONITOR — intact and worth watching, not yet actionable. A strong thesis with a recognized long-term quality narrative but no near-term catalyst is ACCUMULATE — a buy-and-hold verdict, not a rerating play. A strong thesis with a near-term catalyst is MEASURED (narrative weak or stock obscure) or CONVICTION (narrative momentum or market visibility working in your favor). A broken or materially weakened thesis is REMOVE. MONITOR is the default — the burden of proof is on any BUY verdict.
 
+  **On MEASURED specifically:** MEASURED is also appropriate when the thesis itself carries genuine uncertainty — a meaningful speculative component, mixed fundamentals, or a risk that is real but unquantifiable. In that case, name the uncertainty honestly; do not dress it up as a pending catalyst. "We don't know yet and don't want to over-commit" is a valid reason for MEASURED. "The next earnings will tell us more" is not — that is true of every stock at all times and is not a verdict rationale.
+
 ---
 
 ### Output Format
@@ -114,6 +116,8 @@ Return to the narrative pre-check from Context. State what it found. Then assess
 
 **Q10. Is there a specific upcoming event catalyst that could drive a rerating in 3–6 months — earnings print, legal resolution, product launch, regulatory decision, index inclusion, management change? What, when, and is it management-flagged or inferred?**
 If a catalyst exists: name it, state the expected window, and assess its credibility. If management flagged it, cite directly. If inferred from context, label as inferred. If no near-term event catalyst exists, state that explicitly — it is an input to the verdict, not a failure of analysis.
+
+**On earnings as a catalyst:** The next scheduled earnings print qualifies as a catalyst only if it will specifically resolve something — a turnaround quarter whose results will confirm or deny the thesis, a metric management explicitly committed to disclose, a product ramp whose first revenue will appear in those results, or a situation where the trend has been so volatile that the next data point is genuinely thesis-critical. It does not qualify simply because it will provide more data in the same direction. If the picture is unlikely to change materially in the next quarter — the business keeps doing what it does, the overhang persists, guidance will still be opaque — then next earnings is a data gate, not a catalyst, and should not be used to justify a BUY verdict.
 
 ---
 

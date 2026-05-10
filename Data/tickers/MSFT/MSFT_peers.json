@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc.",
+    "price": 293.32,
+    "mktCap": 4308095069502
+  },
+  {
+    "symbol": "DOCN",
+    "companyName": "DigitalOcean Holdings, Inc.",
+    "price": 163.89,
+    "mktCap": 17104215960
+  },
+  {
+    "symbol": "FTNT",
+    "companyName": "Fortinet, Inc.",
+    "price": 114.07,
+    "mktCap": 84403130680
+  },
+  {
+    "symbol": "GDDY",
+    "companyName": "GoDaddy Inc.",
+    "price": 91.02,
+    "mktCap": 12078071565
+  },
+  {
+    "symbol": "GOOGL",
+    "companyName": "Alphabet Inc.",
+    "price": 400.8,
+    "mktCap": 4847624013434
+  },
+  {
+    "symbol": "NVDA",
+    "companyName": "NVIDIA Corporation",
+    "price": 215.2,
+    "mktCap": 5230436024318
+  },
+  {
+    "symbol": "ORCL",
+    "companyName": "Oracle Corporation",
+    "price": 195.94,
+    "mktCap": 563532453240
+  },
+  {
+    "symbol": "RPD",
+    "companyName": "Rapid7, Inc.",
+    "price": 6.9,
+    "mktCap": 461131140
+  },
+  {
+    "symbol": "SPSC",
+    "companyName": "SPS Commerce, Inc.",
+    "price": 56.47,
+    "mktCap": 2073166395
+  }
+]

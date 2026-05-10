@@ -4,6 +4,12 @@
 
 ---
 
+Read every single line of @/workspaces/simple_stock_flow/Prompts/prompt_setup.md carefully. Execute its instructions exactly for [ ]. For the MD&A, ensure you read every single line of the MD&A files to identify and extract verbatim excerpts; you must read it in small chunks or it will truncate and disrupt the extraction. You will try to read it in large chunks and completely ignore my fucking instructions; don't do that, start in small chunks fuckhead. If any files produce errors or seem like the data is incorrect, you must flag this and cannot complete the handoff. Also, do not manually change the earnings call questions file if the script works (the Question extrction file); just verify it worked. Do not ignore my fucking instruciton bitch.  
+
+read all of /workspaces/simple_stock_flow/Prompts/prompt_the_context.md. Then execute its instructions for [ ]. If any data has errors, is missing, or is outdated, you must notify me and pause the analysis. 
+
+Read all of /workspaces/simple_stock_flow/Prompts/prompt_the_numbers.md and execute its instructions for META. If any data has errors, is missing, or is outdated, you must notify me and pause the analysis. 
+
 Copy-and-paste commands for the Gemini CLI to execute the core workflow scripts and prompts. Replace `{TICKER}` with the actual stock symbol (e.g., `AAPL`).
 
 ---

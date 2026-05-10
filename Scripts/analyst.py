@@ -288,12 +288,24 @@ def process_ticker(ticker):
             print(f"  ⚠ Only {ly_count} analyst target(s) in past year — low coverage, treat targets as unreliable")
 
     # Save raw JSON to raw/ directory for reference
+    # all_grades is saved alongside grades_recent so post-run debugging can distinguish
+    # "API returned nothing" from "API returned grades but all outside the lookback window"
     raw_dir = get_data_directory(ticker)
     ensure_directory_exists(raw_dir)
     save_json(
-        {"summary": summary, "consensus": consensus, "grades_recent": recent_grades},
+        {"summary": summary, "consensus": consensus, "grades_recent": recent_grades, "grades_all": all_grades},
         os.path.join(raw_dir, f"{ticker}_analyst.json"),
     )
+
+    # Warn when grades exist in FMP but the most recent falls outside the lookback window —
+    # this signals a coverage gap (FMP's database hasn't captured recent analyst actions)
+    if all_grades and not recent_grades:
+        most_recent_date = all_grades[0].get("date", "unknown")
+        print(
+            f"  ⚠ Grades coverage gap: FMP has {len(all_grades)} grade record(s) but none within "
+            f"the last {GRADES_LOOKBACK_DAYS} days. Most recent in FMP: {most_recent_date}. "
+            f"Check news sources for analyst actions not captured by FMP."
+        )
 
     md = build_markdown(ticker, summary, consensus, recent_grades, all_grades, current_price, price_as_of)
 

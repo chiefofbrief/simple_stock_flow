@@ -42,16 +42,96 @@ from shared_utils import (
 # QUARTER DETERMINATION
 # ============================================================================
 
-def get_latest_quarters(ticker, api_key):
-    """Get the 2 most recent quarter identifiers from EARNINGS endpoint
+def get_fiscal_year_end_month(ticker, api_key):
+    """Fetch the company's fiscal year end month from Alpha Vantage OVERVIEW.
 
     Returns:
-        List of quarter strings in YYYYQN format (e.g., ['2024Q1', '2023Q4'])
-        Returns empty list if unable to fetch earnings data
+        int: Month number (1-12). Defaults to 12 (December) if unavailable.
+    """
+    print(f"  Fetching fiscal year end month from OVERVIEW...")
+    url = f'https://www.alphavantage.co/query?function=OVERVIEW&symbol={ticker}&apikey={api_key}'
+    data = fetch_alpha_vantage(url)
+    if not data:
+        print(f"  ⚠️  Could not fetch OVERVIEW — defaulting to December FY end")
+        return 12
+
+    fye_str = data.get('FiscalYearEnd', 'December')
+    month_map = {
+        'January': 1, 'February': 2, 'March': 3, 'April': 4,
+        'May': 5, 'June': 6, 'July': 7, 'August': 8,
+        'September': 9, 'October': 10, 'November': 11, 'December': 12
+    }
+    month = month_map.get(fye_str, 12)
+    print(f"  Fiscal year end: {fye_str} (month {month})")
+    return month
+
+
+def fiscal_date_to_quarter_str(fiscal_date_str, fiscal_year_end_month):
+    """Convert a fiscalDateEnding date to Alpha Vantage quarter format.
+
+    Alpha Vantage's EARNINGS_CALL_TRANSCRIPT endpoint uses the company's own
+    fiscal quarter naming (e.g., "2026Q4" = the company's fiscal Q4 of FY2026),
+    NOT calendar quarters. This function derives the correct label by using
+    the company's fiscal year end month.
+
+    Args:
+        fiscal_date_str: Date string in "YYYY-MM-DD" format (fiscalDateEnding).
+        fiscal_year_end_month: The month (1-12) when the company's fiscal year ends.
+
+    Returns:
+        Quarter string in YYYYQN format (e.g., "2026Q4").
+    """
+    date_obj = datetime.strptime(fiscal_date_str, "%Y-%m-%d")
+    month = date_obj.month
+    year = date_obj.year
+    fye = fiscal_year_end_month
+
+    # Determine fiscal year label.
+    # The FY label equals the calendar year of the fiscal year END (Q4 end).
+    # If this date's month is after the FY end month, the FY end is in the
+    # next calendar year → fiscal year label = year + 1.
+    if month <= fye:
+        fiscal_year = year
+    else:
+        fiscal_year = year + 1
+
+    # Determine the quarter number: Q4 ends at fye, Q3 ends 3 months before, etc.
+    q_end_months = {
+        ((fye - 9) % 12) or 12: 1,
+        ((fye - 6) % 12) or 12: 2,
+        ((fye - 3) % 12) or 12: 3,
+        fye: 4,
+    }
+    quarter_num = q_end_months.get(month)
+    if quarter_num is None:
+        raise ValueError(
+            f"Month {month} from fiscalDateEnding '{fiscal_date_str}' does not match "
+            f"any fiscal quarter end for FY-end month {fye}. "
+            f"Expected quarter-end months: {sorted(q_end_months.keys())}"
+        )
+
+    return f"{fiscal_year}Q{quarter_num}"
+
+
+def get_latest_quarters(ticker, api_key):
+    """Get the 2 most recent quarter identifiers from EARNINGS endpoint.
+
+    Uses the company's fiscal year end month (from OVERVIEW) to correctly
+    map fiscalDateEnding dates to Alpha Vantage's fiscal quarter naming
+    convention (e.g., "2026Q4" for the company's own fiscal Q4 of FY2026).
+
+    Returns:
+        List of quarter strings in YYYYQN format (e.g., ['2026Q4', '2026Q3'])
+        Returns empty list if unable to fetch earnings data.
     """
     print(f"\nDetermining latest quarters for {ticker}...")
-    url = f'https://www.alphavantage.co/query?function=EARNINGS&symbol={ticker}&apikey={api_key}'
 
+    # Get fiscal year end month first — needed for correct quarter mapping
+    fiscal_year_end_month = get_fiscal_year_end_month(ticker, api_key)
+    print("  Waiting 15s for rate limit...")
+    time.sleep(15)
+
+    url = f'https://www.alphavantage.co/query?function=EARNINGS&symbol={ticker}&apikey={api_key}'
     data = fetch_alpha_vantage(url)
     if not data:
         print(f"❌ Could not fetch earnings data to determine quarters")
@@ -75,27 +155,12 @@ def get_latest_quarters(ticker, api_key):
         if not fiscal_date:
             continue
 
-        # Convert YYYY-MM-DD to YYYYQN format
         try:
-            date_obj = datetime.strptime(fiscal_date, "%Y-%m-%d")
-            year = date_obj.year
-            month = date_obj.month
-
-            # Determine quarter number based on month
-            if month in [1, 2, 3]:
-                quarter_num = 1
-            elif month in [4, 5, 6]:
-                quarter_num = 2
-            elif month in [7, 8, 9]:
-                quarter_num = 3
-            else:  # [10, 11, 12]
-                quarter_num = 4
-
-            quarter_str = f"{year}Q{quarter_num}"
+            quarter_str = fiscal_date_to_quarter_str(fiscal_date, fiscal_year_end_month)
             quarters.append(quarter_str)
             print(f"  Found quarter: {quarter_str} (fiscal date: {fiscal_date})")
-        except ValueError:
-            print(f"  ⚠️  Skipping invalid date format: {fiscal_date}")
+        except (ValueError, KeyError) as e:
+            print(f"  ⚠️  Skipping '{fiscal_date}': {e}")
             continue
 
     return quarters

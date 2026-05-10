@@ -41,7 +41,7 @@ SUBREDDITS = ["stocks", "ValueInvesting"]
 LOOKBACK_DAYS = 90
 MIN_SCORE = 10
 MAX_POSTS = 20           # total posts in output (across all subreddits)
-COMMENTS_FOR_TOP_N = 15  # fetch comments only for top N posts by score
+COMMENTS_FOR_TOP_N = 20  # fetch comments only for top N posts by score
 MAX_RETRIES = 3
 RETRY_DELAY = 2
 
@@ -201,22 +201,23 @@ def subreddit_name(post):
 def fetch_ticker(client, ticker):
     """Fetch and filter posts for a ticker. Returns sorted post list."""
     company = get_company_name(ticker)
-    query = f"${ticker} OR {ticker}"
+    terms = [f"${ticker}", f'"{ticker}"']
     if company:
-        query += f" OR {company}"
+        terms.append(f'"{company}"')
 
-    print(f"  Query: {query!r}")
+    print(f"  Terms: {terms}")
 
     all_posts = []
     for sub in SUBREDDITS:
-        print(f"  Searching r/{sub}...")
-        try:
-            data = client.search_subreddit(sub, query)
-            posts = extract_posts(data)
-            print(f"    {len(posts)} raw posts")
-            all_posts.extend(posts)
-        except Exception as e:
-            print(f"  ⚠ r/{sub} failed: {e}")
+        for term in terms:
+            print(f"  Searching r/{sub} for {term}...")
+            try:
+                data = client.search_subreddit(sub, term)
+                posts = extract_posts(data)
+                print(f"    {len(posts)} raw posts")
+                all_posts.extend(posts)
+            except Exception as e:
+                print(f"  ⚠ r/{sub} [{term}] failed: {e}")
 
     if not all_posts:
         return []
