@@ -104,7 +104,7 @@ The only acceptable output for each section is the management's own words, copie
 
 ---
 
-### Five extraction targets
+### Extraction targets
 
 **1. What drove results this quarter?**
 Copy the full passage(s) from the Results of Operations section covering revenue, margins, and segment performance. Include all stated figures, year-over-year comparisons, and management's explanatory language.
@@ -120,6 +120,9 @@ Copy the relevant passages from the MD&A risk discussion or forward-looking caut
 
 **5. Critical Accounting Estimates**
 Copy the entire Critical Accounting Estimates section (or equivalent) verbatim. This section covers judgment-dependent assumptions — revenue recognition, goodwill impairment, useful life estimates, etc. Do not truncate it.
+
+**6. Capital allocation and investment return timeline** *(AI SC tickers only)*
+Copy all passages from the Liquidity and Capital Resources, Capital Expenditures, and Commitments and Contingencies sections covering: the trajectory of AI infrastructure investment and what is backing it — named customer contracts, committed demand, or speculative buildout; any language about vendor financing, partner commitments, or arrangements where the same counterparty is both a capital source and a revenue source; and any stated timeline for when current investment is expected to generate returns. Include all figures and qualifications.
 
 ---
 
@@ -151,6 +154,10 @@ Copy the entire Critical Accounting Estimates section (or equivalent) verbatim. 
 ## 5. Critical Accounting Estimates
 
 > [Exact text copied from filing — full section, do not truncate]
+
+## 6. Capital allocation and investment return timeline *(AI SC only)*
+
+> [Exact text copied from filing — full passage, all figures intact]
 ```
 
 ---
