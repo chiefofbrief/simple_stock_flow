@@ -95,6 +95,8 @@ Index entry format:
 **Key Risks:** 1-2 sentences on what breaks the thesis
 ```
 
+**Financial metrics do not belong in index entries** unless they directly explain a supply chain constraint or structural dynamic. Balance sheet figures, FCF, debt levels, and earnings quality commentary belong in the analysis steps — not the index.
+
 ## Formatting
 
 Follow the conventions of each existing document exactly. Update the *Last updated* date in both documents when you produce a revised version.

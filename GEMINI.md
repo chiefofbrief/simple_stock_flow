@@ -31,9 +31,9 @@ Do not use `[CONFIRMED]` for analytically-derived figures, even if the derivatio
 
 **Adjusted vs. GAAP Labeling:** Every P/E multiple, EPS figure, margin, and earnings-derived metric must be explicitly labeled as GAAP or adjusted (non-GAAP). Do not write "P/E of 12x" — write "adjusted P/E of ~12x (~16.5x GAAP)" and cite the source of both. Where GAAP and adjusted figures diverge materially (>15%), flag the gap and investigate the drivers before drawing valuation conclusions.
 
-**Cross-Section Consistency:** After all steps are complete and before Synthesis, verify that the same figures are described consistently across all Thesis sections. A figure that appears with different values in different sections (e.g., "$150M" in one place and "$255M" in another for the same event) is an error — resolve it before Synthesis. New sections that revise a prior section's conclusion must do so explicitly.
+**Cross-Section Consistency:** The same figures must be described consistently across all Thesis sections. A figure that appears with different values in different sections is an error — resolve it before Synthesis. New sections that revise a prior section's conclusion must do so explicitly.
 
-**Devil's Advocate at Synthesis:** Before writing the Bull Case or recommendation, write the strongest possible Bear Case using only facts from the prior analyses. A Bear Case that relies on vague language or doesn't engage with specific data is insufficient. Test every Bull Case point against the Bear Case before finalizing the recommendation.
+**Analytical balance:** Both sides of any investment case must receive equal rigor. A bear case that relies on vague language, fails to cite specific data, or exists only as a formality is insufficient. The same standard applies to the bull case. Neither optimism nor pessimism is the goal — honesty is.
 
 ---
 
@@ -51,6 +51,8 @@ Businesses of solid quality where external tailwinds — new technology, market 
 
 The analytical edge in TAILWIND investing comes from identifying the flaws in the thesis before the market does. If the flaws are found, losses can be limited when reality arrives. It is when we are unaware of what could go wrong that we have to worry. Two specific hazards apply: (1) the forecast may simply be wrong; (2) even if correct, the improvement may already be priced in — accurate forecasts provide no edge if the market already discounts them.
 
+**AI SC TAILWIND candidates** may carry speculative characteristics beyond typical TAILWINDs — pre-profitability, wide uncertainty in business model outcomes, valuation dependent on adoption scenarios not yet proven. The analytical burden is higher, not lower, than for standard TAILWINDs. These require the AI-specific prompts (see workflow table).
+
 **Signal tiers within each type:** Both LOSER and TAILWIND candidates are sub-classified by signal strength to drive prioritization. For LOSERs, the strongest signal is **LOSER—EPS+** (auto-tagged when EPS YoY > 0 AND vs_1Y < 0) — earnings are intact while price is down, a direct dislocation. Plain LOSERs with flat or temporarily declining earnings rank below. For TAILWINDs, signal strength is measured by Spread (vs_1Y minus EPS YoY): Tier 1 (≤ 0%, earnings outpacing price), Tier 2 (0–30%), Tier 3 (30–150%), Tier 4 (>150% or EPS YoY < −10%). Tier 1 candidates across both types go directly to PIPELINE. Tiers 2–3 remain in WATCHLIST until data improves.
 
 ---
@@ -62,10 +64,16 @@ Focus on cash generation and economic substance, not accounting presentation. GA
 
 This skepticism extends to the metrics that drive price. Revenue growth gets headlines, but sales growth alone does not grow EPS. A stock rising on top-line growth that doesn't translate to earnings improvement is a mispricing candidate when sentiment corrects. The question is always whether reported improvement reflects genuine cash generation or accounting presentation.
 
+**P/E discipline applies regardless of growth narrative** — unprofitable companies must be explicitly flagged, and high multiples require scrutiny. For businesses with demonstrated, rapid earnings growth, trailing P/E alone may understate earning power; apply forward P/E alongside trailing and state both. Growth does not excuse valuation — it adjusts it. The central question is always: does the price, given the demonstrated growth rate, produce an adequate expected return?
+
 **Margin of Safety**
 The goal is safety of principal and adequate return — anything failing either test is speculation. The mechanism is the Margin of Safety: buying below intrinsic value protects against analytical errors, business deterioration, and adverse conditions. Precision is unnecessary — establish whether value is adequate, considerably higher, or lower than price. At sufficiently low prices, even troubled businesses can become investments — downside is limited by the discount to value.
 
+A margin of safety cannot be based solely on future growth. That said, *demonstrated* earnings growth is a real component of intrinsic value. A business compounding earnings at a durable rate may offer genuine margin of safety at a price that appears expensive on current-year multiples — the safety is embedded in the growth, not the discount. The distinction is between *demonstrated* growth (historical, confirmed, mechanism still intact) and *projected* growth (a story about the future). Only the former contributes to intrinsic value with confidence.
+
 The required MOS is not fixed — it moves with market conditions. When the market is overly optimistic, raise the bar: cheap stocks can still be found, but avoid being too aggressive when prices are elevated. Sentiment is not separate from this calculus. Deeply negative sentiment may produce a wide MOS; strongly positive sentiment may compress it to zero or below. Financials and sentiment must be evaluated together.
+
+**Expected Value:** The expected value of an investment is the probability-weighted sum of its potential outcomes. Precision is not required and is often dishonest — the goal is a clear-eyed assessment of whether the price offers more or less than a dollar's worth of value. Express it as a narrative: *dollar for 70 cents, dollar for a dollar, dollar for 120 cents*. Support the narrative with figures, but the conclusion is qualitative. If the honest answer is "we have no idea," that is acceptable — state it explicitly and name the specific reasons why.
 
 ---
 
@@ -88,9 +96,9 @@ A misconception is always involved. What makes it durable is that it is reinforc
 
 ### Workflow
 
-`Discovery → Setup (Step 0) → Context (Step 1) → The Numbers (Pass 1) → The Projection (Pass 2) → [Verdict]`
+`Discovery → Setup (Step 0) → Context (Step 1) → The Numbers (Pass 1) → The Projection (Pass 2) → [Assessment]`
 
-Verdict (REMOVE / MONITOR / BUY — ACCUMULATE / BUY — MEASURED / BUY — CONVICTION) is written once, at end of Pass 2. It drives the position decision. No intermediate gates.
+**Assessment** (Expected Value) is written once, at end of Pass 2. It concludes the analysis. No intermediate gates.
 
 **Model division of labor:** Gemini handles Step 0 only — runs fetch scripts, extracts MD&A excerpts verbatim, verifies file checklist. No open-ended analysis. Claude handles all analysis (Step 1, Pass 1, Pass 2).
 
@@ -106,9 +114,9 @@ Verdict (REMOVE / MONITOR / BUY — ACCUMULATE / BUY — MEASURED / BUY — CONV
 | **Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_ai_supply_chain_update.md` | Run when sector developments warrant. Updates `context_ai_supply_chain.md`. |
 | **Price & Earnings** | Screening | `price_earnings.py` | — | Screens candidates on price and earnings. Can run standalone. |
 | **Step 0: Setup** | Deep Dive | Multiple — see prompt | `prompt_setup.md` | Gemini-led. Fetches all ticker data, extracts MD&A excerpts, verifies file checklist. No analysis. |
-| **Step 1: Context** | Deep Dive | — | `prompt_the_context.md` | Claude. Sentiment, analyst consensus, price/earnings framing, MD&A, preliminary hypothesis. |
-| **Pass 1: The Numbers** | Deep Dive | — | `prompt_the_numbers.md` | Claude. 10 financial metrics (incl. ROIC) + 5-category accounting checklist via targeted grep. Updated hypothesis. |
-| **Pass 2: The Projection** | Deep Dive | — | `prompt_the_projection.md` | Claude. Earnings call analysis, catalyst check, final synthesis + verdict. |
+| **Step 1: Context** | Deep Dive | — | `prompt_the_context.md` | Claude. Sentiment, analyst consensus, price/earnings framing, MD&A, preliminary hypothesis. AI SC stocks: use `prompt_the_context_ai.md`. |
+| **Pass 1: The Numbers** | Deep Dive | — | `prompt_the_numbers.md` | Claude. 10 financial metrics (incl. ROIC) + 5-category accounting checklist via targeted grep. Updated hypothesis. AI SC stocks: use `prompt_the_numbers_ai.md`. |
+| **Pass 2: The Projection** | Deep Dive | — | `prompt_the_projection.md` | Claude. Earnings call analysis, catalyst check, final synthesis + assessment. AI SC stocks: use `prompt_the_projection_ai.md`. |
 
 ---
 
@@ -117,7 +125,7 @@ For a complete breakdown of all files and scripts, **always consult `index.md`**
 - **`Stock_Tracker.md`**: Central tracker — PIPELINE (active analysis), WATCHLIST (monitoring, awaiting entry signal), SC Layer Coverage (pipeline count by AI layer), Trade Tracker (open positions). Market data columns refreshed weekly by `tracker_update.py`.
 - **`context_markets.md`**: Rolling market context — macro conditions, prevailing narratives, recurring signals. Updated via the Markets Digest flow.
 - **`context_ai_supply_chain.md`**: AI supply chain context — layer-by-layer dynamics, constraint map, and company-level theses. Updated when sector developments warrant.
-- **Thesis Files**: Located in `Data/tickers/{TICKER}/{TICKER}_Thesis.md`. Four sections built sequentially: `### Context` → `### The Numbers` → `### The Projection` → `### Synthesis`. Verdict written only at Synthesis.
+- **Thesis Files**: Located in `Data/tickers/{TICKER}/{TICKER}_Thesis.md`. Four sections built sequentially: `### Context` → `### The Numbers` → `### The Projection` → `### Synthesis`. Assessment (Expected Value) written only at Synthesis.
 
 ---
 
