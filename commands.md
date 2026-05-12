@@ -4,7 +4,21 @@
 
 ---
 
-Read every single line of @/workspaces/simple_stock_flow/Prompts/prompt_setup.md carefully. Execute its instructions exactly for [ ]. For the MD&A, ensure you read every single line of the MD&A files to identify and extract verbatim excerpts; you must read it in small chunks or it will truncate and disrupt the extraction. You will try to read it in large chunks and completely ignore my fucking instructions; don't do that, start in small chunks fuckhead. If any files produce errors or seem like the data is incorrect, you must flag this and cannot complete the handoff. Also, do not manually change the earnings call questions file if the script works (the Question extrction file); just verify it worked. Do not ignore my fucking instruciton bitch.  
+review the following prompts thorouhgly and execute their instrucitons, in their intended orde,r for ASML. two critical notres: first, the conversation will       
+  compact so you need to write to the file aftrer each step; tell me if it helps to give you permission tomake edits without my approval (only to the thesis file    
+  thoigh). Also, ASML is a non-US company, so they have no fucking 10-ks and shit, so i had to piece this shit together manually sort of. so you will only see MD&A  
+  and footnotes from 2025 annual report, and there is no earnings call Q&As. and do not read the full footnotes, its long as hell. one thing: There is a file with   
+  the Q1 financials; let's check this against the data we got from the fetch to see if its accurate or fucked.                                                       
+                                                                                                                                                                     
+  In this order, writing to the thesis file after each to avoid compaction bullshit:                                                                                 
+                                                                                                                                                                     
+  /workspaces/simple_stock_flow/Prompts/prompt_the_context_ai.md                                                                                                     
+                                                                                                                                                                     
+  /workspaces/simple_stock_flow/Prompts/prompt_the_numbers_ai.md                                                                                                     
+                                                                                                                                                                     
+  /workspaces/simple_stock_flow/Prompts/prompt_the_projection_ai.md     
+
+Read every single line of @/workspaces/simple_stock_flow/Prompts/prompt_setup.md carefully. Execute its instructions exactly for [KLAC | KLA Corporation ]. For the MD&A, ensure you read every single line of the MD&A files to identify and extract verbatim excerpts; you must read it in small chunks or it will truncate and disrupt the extraction. You will try to read it in large chunks and completely ignore my fucking instructions; don't do that, start in small chunks fuckhead. If any files produce errors or seem like the data is incorrect, you must flag this and cannot complete the handoff. Also, do not manually change the earnings call questions file if the script works (the Question extrction file); just verify it worked. Do not ignore my fucking instruciton bitch.  
 
 read all of /workspaces/simple_stock_flow/Prompts/prompt_the_context.md. Then execute its instructions for [ ]. If any data has errors, is missing, or is outdated, you must notify me and pause the analysis. 
 
