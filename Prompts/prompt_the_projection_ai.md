@@ -66,7 +66,7 @@ Work through each section in order. The Output Format below defines everything t
 
 ### Output Format
 
-All sections below constitute the full Pass 2 output. Every question must be answered. This entire output — Section 1 through Synthesis — will be committed to `### The Projection` in the Thesis file, with the Synthesis block additionally written to `### Synthesis`.
+All sections below constitute the full Pass 2 output. Every question must be answered. Sections 1–3 (Q1–Q10) will be committed to `### The Projection` in the Thesis file. The Synthesis block (Q11 + Numbers / Narrative & Catalyst / Expected Value / Invalidation) will be committed to `### Synthesis` only — it does not appear inside `### The Projection`.
 
 ---
 
@@ -83,6 +83,8 @@ State this before analyzing. Identify which call covers full-year results and an
 **Q2. Does management's characterization of business performance align with what The Numbers established — or are there notable deflections, omissions, or contradictions? Where does the call add context that the financial statements couldn't?**
 Cite specific excerpts from both calls. Note where they differ from each other and where either diverges from the findings in The Numbers. Pay particular attention to three things: (a) how management characterizes the capex-to-revenue path — does the account confirm or sidestep the demand visibility and investment cycle questions flagged in The Numbers? (b) revenue descriptions involving counterparties who are also capital partners or infrastructure partners — assess whether the revenue represents genuine external demand or a circular arrangement; (c) AI monetization or deployment gains management describes that the financial statements couldn't capture — specific customer wins, utilization improvements, or pricing progress that materially changes the picture established in The Numbers.
 
+Also note any named customers, suppliers, or competitors that surface in either call that were not identified in prior passes — add them to the Supply chain candidates list if publicly traded.
+
 **Q3. What is management saying about the path forward — guidance figures, growth targets, margin trajectory? Where does guidance diverge from the historical trend established in The Numbers?**
 Summarize explicit forward guidance figures. Label all as forward-looking. Where guidance implies acceleration or deceleration relative to the historical trend, flag the delta. Where management cites adjusted figures, check whether the GAAP equivalent is disclosed. On the AI investment cycle specifically: is the capex trajectory backed by contracted customer demand — named customers, committed contracts, specific ROI targets — or described in terms of future opportunity? The former de-risks the investment thesis; the latter extends the installation phase. Also note where guidance implies AI-driven margin improvement or revenue acceleration ahead of what The Numbers established — these are upside signals that materially change the EV picture.
 
@@ -90,7 +92,7 @@ Summarize explicit forward guidance figures. Label all as forward-looking. Where
 Compare tone and emphasis between the two calls. What was foregrounded in the earlier call that is now absent? What is new? Tone shifts often surface risks before they appear in the financials.
 
 **Q5. For each open question listed at the end of The Numbers — was it addressed on either call?**
-List every open question from The Numbers. For each: (a) was it addressed on either call? (b) cite what was said directly. (c) does the answer strengthen, weaken, or leave the thesis unchanged? Any item not addressed must be flagged as unresolved — none carried forward silently.
+For each open question from The Numbers: (a) was it addressed on either call? (b) cite what was said directly. (c) does the answer strengthen, weaken, or leave the thesis unchanged? Any item not addressed must be flagged as unresolved — none carried forward silently.
 
 In addition, the following must be explicitly tracked regardless of whether they appeared in the open questions list:
 
@@ -120,7 +122,7 @@ Prepared remarks are managed; Q&A responses are less so. Where management's tone
 *Entry point: narrative pre-check from Context. The question is not whether narrative exists — that was answered — but whether the earnings call changed it.*
 
 **Q9. Did the earnings call introduce, strengthen, or undermine the narrative and catalyst picture established in Context? What is the updated conclusion?**
-Return to the narrative pre-check from Context. State what it found. Then assess: did the earnings call change it — and how? If no narrative pathway was identified in Context, does the call introduce one, or does the prior hold? State the updated conclusion explicitly.
+Referencing the narrative pre-check from Context, assess: did the earnings call change it — and how? If no narrative pathway was identified in Context, does the call introduce one, or does the prior hold? State the updated conclusion explicitly.
 
 **Q10. Is there a specific upcoming event catalyst that could drive a rerating in 3–6 months — earnings print, legal resolution, product launch, regulatory decision, index inclusion, management change? What, when, and is it management-flagged or inferred?**
 If a catalyst exists: name it, state the expected window, and assess its credibility. If management flagged it, cite directly. If inferred from context, label as inferred. If no near-term event catalyst exists, state that explicitly — it is an input to the assessment, not a failure of analysis.
@@ -172,6 +174,9 @@ Is this a dollar for 70 cents, a dollar for a dollar, or a dollar for 120 cents?
 *Invalidation:*
 [Specific, observable developments that would make this thesis wrong and trigger reassessment or exit. Not "fundamentals deteriorate" — name specific metrics, events, or thresholds.]
 
+*Supply chain candidates:*
+Final consolidated list of publicly traded suppliers, customers, or competitors identified across all three passes. For each: name, role (supplier/customer/competitor), and one sentence on why it warrants its own AI supply chain investigation. If none surfaced across all passes, state that explicitly.
+
 ---
 
 ## Self-Check
@@ -193,6 +198,7 @@ Before proceeding to Step 3, answer the following internally. Do not include the
 - Does the Expected Value assessment name which dimensions (Numbers strength, Narrative, Catalyst) are present and which are absent — and explain how they together produce the conclusion?
 - Have both the risk-side and upside-side Q5 tracking items been explicitly addressed — self-sustaining investment cycle, off-balance-sheet structures, useful life/obsolescence, and circular arrangement flags on the risk side; deployment progress, pricing power, and timeline compression on the upside side? Are unresolved items flagged in the assessment?
 - Are the reflexivity update and the AI lifecycle position update both grounded in specific call evidence — assessed separately, not conflated? Has the call confirmed or shifted each framing established in Context?
+- Has Q2 been checked for any named customers or suppliers surfacing in the earnings calls that weren't captured in prior passes? Has the Supply chain candidates list in the Synthesis been finalized with the consolidated view across all three passes?
 
 **Action:** Ask: *"The full Projection analysis has been written to the Thesis file. Do you approve the Synthesis above? Should I finalize and update the Stock Tracker?"*
 
@@ -202,7 +208,7 @@ Before proceeding to Step 3, answer the following internally. Do not include the
 
 ## Step 3: Commit
 
-The full Projection analysis was already written to `### The Projection` in `Data/tickers/{TICKER}/{TICKER}_Thesis.md` during Step 2. Write the Synthesis block (Numbers / Narrative & Catalyst / Expected Value) to `### Synthesis` in the same file if not already done.
+The full Projection analysis was already written during Step 2 — Sections 1–3 to `### The Projection` and the Synthesis block to `### Synthesis`. No further writing to the Thesis file is needed.
 
 Update `Stock_Tracker.md`:
    - Set **Phase** to `Complete`

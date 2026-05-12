@@ -160,6 +160,22 @@ If Part A raised no flags warranting footnote investigation, state that explicit
 
 ---
 
+**Mandatory Supply Chain Network Search**
+
+*Always run — not conditional on Part A flags. Purpose: confirm and deepen the customer/supplier picture established in Context Q16, using footnotes and full MD&A where the detailed relationships live.*
+
+Grep `{TICKER}_notes.md` and `{TICKER}_mda.md` for the following terms. For each search, record findings and interpret what they reveal about the relationship:
+
+- `customer` / `concentration` — confirm named customers and revenue percentages
+- `supplier` / `vendor` / `sole source` / `sole-source` — identify critical supply dependencies
+- `advance payment` / `purchase commitment` — quantify financial exposure to key suppliers
+- `related party` — surface any supplier or customer that is also an equity investment or affiliated entity
+- `competi` — surface named competitors from the competition or risk sections
+
+For each named company that surfaces as a significant customer, supplier, or competitor: note whether it is publicly traded and whether it may warrant its own AI supply chain investigation. Update or confirm the Supply chain candidates list from Context.
+
+---
+
 **Mandatory Accounting Checklist**
 
 *Five categories checked regardless of what Part A showed. Each addressed via targeted grep — not full file read. Flag anything that diverges from peers, prior periods, or stated policy. Changes often matter more than absolutes. Multiple red flags together indicate systemic problems, not isolated mistakes.*
@@ -316,6 +332,9 @@ Has anything in the financial analysis changed the narrative or catalyst picture
 **Thesis Strength**
 Overall conviction statement updated by the financial findings. Is the thesis strengthened, complicated, or weakened by what the numbers showed? What remains unresolved?
 
+**Supply chain candidates**
+Updated list of any publicly traded suppliers, customers, or competitors identified across Context and the Supply Chain Network Search. For each: name, role (supplier/customer/competitor), and one sentence on why it is interesting. If the list is unchanged from Context, carry it forward and note that.
+
 **Open questions for Pass 2:** [specific unresolved questions the earnings call must address — these are the handoff to Pass 2]
 
 ---
@@ -336,6 +355,7 @@ Before proceeding to Step 3, answer the following internally. Do not include the
 - Are all factual claims tagged `[CONFIRMED]`, `[ESTIMATED]`, or `[INFERRED]` with citations?
 - When outside knowledge informed a conclusion, was it labeled `[INFERRED: knowledge base, logic]` and stated explicitly?
 - Are all P/E, EPS, and margin figures explicitly labeled GAAP or adjusted, and all metrics explicitly labeled by time period?
+- Has the Mandatory Supply Chain Network Search been completed — all four grep terms run, findings interpreted, and the Supply chain candidates list updated in the Hypothesis Check?
 
 **Action:** Ask: *"The full Numbers analysis has been written to the Thesis file. Do you approve the Hypothesis Check above? Should I update the Stock Tracker?"*
 

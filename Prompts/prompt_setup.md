@@ -124,6 +124,9 @@ Copy the entire Critical Accounting Estimates section (or equivalent) verbatim. 
 **6. Capital allocation and investment return timeline** *(AI SC tickers only)*
 Copy all passages from the Liquidity and Capital Resources, Capital Expenditures, and Commitments and Contingencies sections covering: the trajectory of AI infrastructure investment and what is backing it — named customer contracts, committed demand, or speculative buildout; any language about vendor financing, partner commitments, or arrangements where the same counterparty is both a capital source and a revenue source; and any stated timeline for when current investment is expected to generate returns. Include all figures and qualifications.
 
+**7. Customers, suppliers, and competitors**
+Copy all passages that name or describe major customers, key suppliers, and named competitors. Include: any customer concentration disclosures (customer names or descriptors, revenue percentages, number of customers above a threshold); any language about sole-source or critical suppliers, advance payments to suppliers, long-term supply agreements, or supplier dependencies; any named competitors or competitive landscape descriptions that identify specific companies by name. These passages may appear in Results of Operations, Risk Factors, Competition, Liquidity, Commitments and Contingencies, or Related Party sections — copy them regardless of where they appear.
+
 ---
 
 ### Output format
@@ -158,6 +161,10 @@ Copy all passages from the Liquidity and Capital Resources, Capital Expenditures
 ## 6. Capital allocation and investment return timeline *(AI SC only)*
 
 > [Exact text copied from filing — full passage, all figures intact]
+
+## 7. Customers, suppliers, and competitors
+
+> [Exact text copied from filing — all relevant passages, verbatim]
 ```
 
 ---

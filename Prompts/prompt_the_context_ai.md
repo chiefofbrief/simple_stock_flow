@@ -38,6 +38,10 @@ Read the following before doing anything else:
 > **Output mode — read before starting.**
 > Write the full analysis directly to `### Context` in the Thesis file **as you generate it** — section by section, question by question. Do **not** output the full analysis text in the chat window. When all sections are complete, present **only Section 6: Preliminary Hypothesis** in the chat for review. This keeps the context window lean and prevents autocompaction from disrupting the analysis mid-flow.
 
+### Output Format
+
+The section headers and questions below define the full output structure. Answer each question directly under its heading — the question answers constitute the output. No additional prose wrapper sections are needed beyond the section headers. Every question must be answered.
+
 Work through each section in order. The sequence is deliberate — establish the narrative picture first, then interrogate the numbers against it.
 
 All claims must be tagged per `GEMINI.md` standards: `[CONFIRMED: source, date]` for directly reported facts, `[ESTIMATED]` for forward-looking figures, `[INFERRED]` for conclusions drawn from evidence. Every finding from news or Reddit must cite a specific headline, source, and date.
@@ -49,6 +53,8 @@ All claims must be tagged per `GEMINI.md` standards: `[CONFIRMED: source, date]`
 
 **Q1. What is the mainstream narrative?**
 What are news headlines and analyst Q&A questions focused on and concerned about? What is the market's current story for this stock — the dominant concern, theme, or thesis driving coverage? Is the narrative grounded in demonstrated results, or is it driven by speculative potential and adoption scenarios not yet proven? Is FOMO visibly shaping coverage — are analysts and media amplifying the AI theme beyond what the financials support? Is there a gap between what the market is excited about and what the company has actually delivered? Conversely, is the market underweighting genuine fundamental progress — pricing the company on legacy metrics while AI is meaningfully improving its economics?
+
+As you read the news file, note any named customers, suppliers, or competitors that surface — major orders, named partnerships, sole-source relationships, competitive dynamics, or critical dependencies. These will feed Q16.
 
 **Q2. What is the counter-narrative from Reddit?**
 What are retail investors saying that diverges from the mainstream? Note the gap between the two explicitly — alignment or divergence is itself a signal worth naming. Does retail sentiment reflect genuine thesis engagement, or is it pure momentum and hype? Is there a meaningful dissenting view anywhere — analysts, shorts, industry observers — and if so, what specifically is it?
@@ -93,14 +99,11 @@ Has the relationship between price and earnings shifted recently? Reference the 
 > *Anchoring warning:* A relative P/E discount vs. historical average is not an absolute floor. Assess on absolute level only.
 
 **Q9. Has price appreciation been validated by earnings growth, or is price running ahead of fundamentals?**
-Is the tailwind thesis still ahead of the stock, or already priced in? Compare the price trajectory against the earnings trajectory directly. Reference the AI SC index entry — does the company's structural position in the supply chain support the current valuation, or is price running ahead of what that position can justify?
-
-**Q10. Are earnings outpacing the price?**
-This is the central valuation question. Compare the price trajectory against the earnings trajectory. Where are they diverging, converging, or moving in sync — and by how much?
+This is the central valuation question. Compare the price trajectory against the earnings trajectory directly — where are they diverging, converging, or moving in sync, and by how much? Is the tailwind thesis still ahead of the stock, or already priced in? Reference the AI SC index entry — does the company's structural position in the supply chain support the current valuation, or is price running ahead of what that position can justify?
 
 > *Correlation note:* Negative correlation = price falling while earnings rise. Positive correlation = price tracking fundamental direction. The correlation quantifies the relationship but is not the conclusion — the conclusion must come from the trend comparison.
 
-**Q11. What scenario does the current price appear to embed?**
+**Q10. What scenario does the current price appear to embed?**
 What earnings trajectory would justify the current price? State it plainly — not as a DCF, but as a narrative framing: "at the current price, the market appears to be pricing in X growth for Y years." If that scenario is plausible given what the company has demonstrated, say so. If it requires an extraordinary outcome, say that.
 
 ---
@@ -108,20 +111,23 @@ What earnings trajectory would justify the current price? State it plainly — n
 ### Section 4: MD&A
 *Source: `{TICKER}_mda_excerpts.md`*
 
-**Q12. What drove results this quarter?**
+**Q11. What drove results this quarter?**
 Revenue, margins, and key operating drivers — exact figures from the filing. What is management's explanation for the quarter's performance?
 
-**Q13. What was the segment breakdown?**
+**Q12. What was the segment breakdown?**
 Revenue and expenses by segment. Where segment performance diverges from the consolidated picture, name it explicitly.
 
-**Q14. Where is management guiding the business?**
+**Q13. Where is management guiding the business?**
 Guidance language and quantitative ranges. What is the stated direction and with what confidence or qualification? Where capex guidance diverges from revenue guidance — spending accelerating faster than revenue — flag it explicitly.
 
-**Q15. What risks and headwinds does management flag?**
+**Q14. What risks and headwinds does management flag?**
 Are these consistent with what analysts and news are focused on, or is management flagging something the market has not yet priced? Note any gap between management's stated risks and the mainstream narrative from Section 1.
 
-**Q16. What is management saying about the path from investment to revenue?**
+**Q15. What is management saying about the path from investment to revenue?**
 Are capex commitments backed by named customer contracts, or is buildout described in terms of future demand? Any language around circular arrangements, vendor financing, or partner commitments that fund the spending? Is there a stated timeline for when current investment is expected to generate returns?
+
+**Q16. Who are the major customers, suppliers, and competitors?**
+Drawing from the MD&A excerpts (target 7) and any names that surfaced in news (Q1): who are the named or described major customers, and what does concentration look like? Who are the key suppliers — particularly any sole-source or critical dependencies? Who are the named competitors? For each named company identified in any of these roles: is it publicly traded, and does its position suggest it may warrant its own investigation as an AI supply chain candidate? Flag those explicitly.
 
 ---
 
@@ -172,6 +178,9 @@ What scenario does the current price appear to embed — base case, bull case, o
 **Thesis Strength**
 Overall preliminary conviction statement: what is the thesis, what evidence would confirm it, and what evidence would break it? This is the claim Pass 1 and Pass 2 will stress-test.
 
+**Supply chain candidates**
+List any suppliers, customers, or competitors identified in Q16 that are publicly traded and may warrant their own AI supply chain investigation. For each: name, role (supplier/customer/competitor), and one sentence on why it is interesting. If none surfaced, state that explicitly.
+
 **Q25. What are the Pass 1 focus questions?**
 What specific things must the financials answer or challenge? Include explicitly: what does the financial picture say about whether the scenario embedded in the current price is realistic?
 
@@ -193,6 +202,7 @@ Before proceeding to Step 3, answer the following internally. Do not include the
 - Is the preliminary hypothesis a single testable claim with explicit confirm and break conditions?
 - Are the Pass 1 focus questions specific and named — not generic?
 - Have I assessed both the reflexivity position (Soros framework) and the AI lifecycle position (Perez framework) separately in Q20, and noted whether they are aligned or diverging?
+- Have I completed Q16 — identified major customers and suppliers, flagged any publicly traded ones as potential AI supply chain candidates, and carried the list into the Supply chain candidates item in Section 6?
 
 **Action:** Ask: *"The full Context analysis has been written to the Thesis file. Do you approve the hypothesis above? Should I update the Stock Tracker?"*
 
