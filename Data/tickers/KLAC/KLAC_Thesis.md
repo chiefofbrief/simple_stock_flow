@@ -1,3 +1,7 @@
+# USER NOTES:
+- if capex from customers has a 12-18 month lag, is it actually reflected in current financials? Or are we underestimating the revenue? What was their guidance on this point?
+- Note to self: Hyperscalers dictate capex. Capex depends on their ROI. So derermine if they getting good roi (more investment/sustained), or if they are not (may lower capex). 
+
 # Investment Thesis: KLAC (KLA Corporation)
 **Analysis Date:** 2026-05-11
 **Classification:** TAILWIND — AI SC L2 (IRREPLACEABLE)
