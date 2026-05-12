@@ -1,0 +1,42 @@
+PRICE & EARNINGS — 2026-05-11
+Tickers: ASML
+
+--- PRICE ---
+
+Ticker |    Price |  vs1Y | vs2Y |  vs3Y |  vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+----------+-------+------+-------+-------+------+---------+---------+------------+---------+---------
+  ASML | $1565.81 | +136% | +83% | +153% | +154% | 0.32 |    +0.6 |     97% |          - |    -28% |   +19.7%
+
+----------------------------------------
+
+Recent Trend: ASML
+      Date |    Close |  MoM %
+-----------+----------+-------
+2026-05-11 | $1565.81 |  +8.8%
+2026-04-30 | $1438.99 |  +9.1%
+2026-03-31 | $1318.38 |  -8.9%
+2026-02-27 | $1447.40 |  +2.1%
+2026-01-30 | $1418.01 | +33.0%
+2025-12-31 | $1066.10 |  +0.9%
+2025-11-28 | $1056.28 |  +0.1%
+2025-10-31 | $1055.51 |  +9.6%
+2025-09-30 |  $962.99 | +30.4%
+2025-08-29 |  $738.71 |  +6.9%
+2025-07-31 |  $691.05 | -13.1%
+2025-06-30 |  $795.16 |  +8.8%
+
+--- EARNINGS ---
+
+Ticker | GAAP P/E | Adj P/E | vs1Y | vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+----------+---------+------+------+------+-------+--------+----+----------+-----------+----------
+  ASML |    60.5x |   56.4x | +75% | +58% |  -7% |  +22% |   0.92 | || |   +22.4% |      0.19 |    $-0.29
+
+LEGEND (Price):
+CV: Volatility relative to price. Z-Score: Std devs of recent 1mo return.
+52w Pos: Position in 52-week range. Drop/MaxDD: Recent drop as % of worst 5yr drawdown.
+Revert↑: Upside if price reverts to 1yr average.
+
+LEGEND (Earnings):
+vsXY: % diff between current P/E and P/E X years ago.
+1yCorr: Correlation between price and earnings over last 12 months.
+Stability: CV of annual EPS (lower = smoother). Fwd Delta: Next est minus last actual.

@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "AMAT",
+    "companyName": "Applied Materials, Inc.",
+    "price": 443.62,
+    "mktCap": 352061268200
+  },
+  {
+    "symbol": "AMD",
+    "companyName": "Advanced Micro Devices, Inc.",
+    "price": 458.79,
+    "mktCap": 748102974000
+  },
+  {
+    "symbol": "CSCO",
+    "companyName": "Cisco Systems, Inc.",
+    "price": 98.72,
+    "mktCap": 389933441106
+  },
+  {
+    "symbol": "IBM",
+    "companyName": "International Business Machines Corporation",
+    "price": 223.55,
+    "mktCap": 210111291750
+  },
+  {
+    "symbol": "KLAC",
+    "companyName": "KLA Corporation",
+    "price": 1845.19,
+    "mktCap": 241033477475
+  },
+  {
+    "symbol": "LRCX",
+    "companyName": "Lam Research Corporation",
+    "price": 296.05,
+    "mktCap": 370231248500
+  },
+  {
+    "symbol": "MU",
+    "companyName": "Micron Technology, Inc.",
+    "price": 795.33,
+    "mktCap": 896917500900
+  },
+  {
+    "symbol": "QCOM",
+    "companyName": "QUALCOMM Incorporated",
+    "price": 237.53,
+    "mktCap": 250356620000
+  },
+  {
+    "symbol": "SAP",
+    "companyName": "SAP SE",
+    "price": 170.1,
+    "mktCap": 198206501396
+  },
+  {
+    "symbol": "TXN",
+    "companyName": "Texas Instruments Incorporated",
+    "price": 297.76,
+    "mktCap": 270989291680
+  }
+]
