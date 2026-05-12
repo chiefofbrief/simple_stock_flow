@@ -114,7 +114,7 @@ Annualizing recent quarterly non-GAAP EPS (~$36-37/yr), the forward P/E on non-G
 **Revenue drivers confirmed** [CONFIRMED from KLAC_mda_excerpts.md]:
 - Q3 FY2026 revenue +11% YoY driven by DRAM/HBM investment (memory customers)
 - Semiconductor Process Control segment +13% YoY
-- Services +16% YoY (recurring, higher-margin, growing installed base)
+- Services +16% YoY (recurring, higher-margin, growing installed base). FY2025 service revenue: $2.7B (+15% YoY). **52 consecutive quarters of YoY service revenue growth** — through multiple down cycles. Over 75% of service revenue comes from recurring subscription-like contracts. Service has grown 2.7x since first crossing $1B in 2019. This is a stronger durability signal than headline growth rates capture. [CONFIRMED from USER_NOTES_KLAC.md / FY2025 Annual Report]
 - Advanced packaging: guide raised from $635M to ~$1B
 
 **Management forward guidance** [CONFIRMED from KLAC_mda_excerpts.md]:
@@ -145,6 +145,7 @@ Annualizing recent quarterly non-GAAP EPS (~$36-37/yr), the forward P/E on non-G
 Per `context_ai_supply_chain_index.md` [CONFIRMED]:
 - **Classification**: IRREPLACEABLE, Layer 2 (L2)
 - **Why IRREPLACEABLE**: Near-monopoly in process control and metrology. No credible alternatives for leading-edge inspection and yield management. ASML makes the lithography equipment that prints the patterns; KLAC makes the equipment that verifies the patterns were printed correctly. You cannot have one without the other.
+- **Competitive overlap with ASML** [CONFIRMED from KLAC FY2025 10-K and ASML Annual Report]: Both companies name each other as competitors in their annual filings. The overlap is bounded and specific: (1) **overlay metrology** — ASML's YieldStar product measures layer-to-layer alignment and competes with KLAC's overlay metrology tools; ASML has a closed-loop integration advantage (YieldStar feeds corrections directly back into ASML's own scanner). (2) **e-beam inspection** — ASML acquired Hermes Microvision (HMI) in 2016 for ~$3.1B, which makes e-beam defect inspection tools that directly compete with KLAC's e-beam products. These are real competitive sub-segments but are bounded — ASML's metrology/inspection revenues are small relative to their lithography business, and KLAC holds dominant share overall. The integration advantage ASML has in overlay metrology is the most strategically important dynamic to monitor over time.
 - **Revenue lag**: KLAC revenue lags foundry CapEx by 12–18 months. This means the current ~$3.4B/quarter reflects CapEx decisions made in 2024–early 2025.
 - **Primary leading indicator**: TSMC CapEx guidance (high end of $52–56B range) and Investor Day WFE guidance ($140B+ for 2026, growing in 2027).
 
@@ -213,6 +214,8 @@ This is a "right story, right business, uncertain price" situation. The business
 Quarterly trend: $3.17B → $3.21B → $3.30B → $3.42B — four consecutive quarters of acceleration. Q4 guidance: $3.575B ±$200M [CONFIRMED from KLAC_earnings_remarks.md], which would represent +15% sequential — a significant step up. This Q4 guidance implies the back-half ramp is real and imminent.
 
 **Revenue assessment**: Trajectory is excellent. The acceleration into 2H FY2026 is supply-constrained (not demand-constrained), which is a high-quality problem. Revenue visibility through 2027 is unprecedented per management. [CONFIRMED — management commentary on extended lead times and order book]
+
+**Backlog note** [CONFIRMED from USER_NOTES_KLAC.md / FY2025 Annual Report]: Backlog declined from $9.83B (June 2024) to $7.86B (June 2025), a -20% reduction. Management's explanation: supply-chain normalization — suppliers caught up with demand, lead times reverted to historical norms, and new Asia fab demand normalized post-pandemic. This is not a demand-side deterioration. However, quarterly coverage has compressed (from ~3.9x to ~2.5x quarterly revenue), which means the forward visibility buffer is thinner. If WFE demand were to soften, the reduced backlog provides less cushion before it appears in revenue. 71–76% of the $7.86B is expected to be recognized in the next 12 months. **Slight tightening of the bear case timeline; does not alter the base or bull case.**
 
 ---
 
@@ -377,7 +380,7 @@ Debt/Assets has been declining — 53.8% peak in 2022 to 36.4% TTM. Debt/OCF at 
 
 The $7B buyback program may require incremental debt issuance if FCF is insufficient to fund it simultaneously with operations, R&D, and dividends. At ~$4B annual FCF and assuming ~$400M annual dividends, net FCF for buybacks is ~$3.6B/year — the $7B program would span approximately 2 years if no additional debt is taken on. Manageable. [ESTIMATED]
 
-**Debt assessment**: Conservative and improving leverage. KLAC maintains investment-grade balance sheet discipline. No near-term debt concern. [CONFIRMED — no off-balance-sheet arrangements per KLAC_notes.md; off-balance-sheet confirmed absent as of June 30, 2025]
+**Debt assessment**: Conservative and improving leverage. KLAC maintains investment-grade balance sheet discipline. No near-term debt concern. All $5.95B in senior notes is **fixed-rate** (ranging 3.3%–5.65%), with maturities spanning 2029–2062. No floating-rate refinancing exposure. The 3.3% notes due 2050 represent particularly cheap locked-in capital relative to current rates — a structural advantage in a higher-for-longer rate environment. [CONFIRMED — no off-balance-sheet arrangements per KLAC_notes.md; debt structure confirmed from USER_NOTES_KLAC.md / FY2025 Annual Report]
 
 ---
 
@@ -418,7 +421,7 @@ The $7B buyback program may require incremental debt issuance if FCF is insuffic
 
 **B8. Balance sheet strength**: Conservative leverage (Debt/OCF 1.40x TTM), no off-balance-sheet concerns, and improving trend. **Strong**. [CONFIRMED]
 
-**B9. ROIC as moat indicator**: 46.3% average ROIC over 5 years including a down cycle = confirmed, durable moat. Process control is too critical and too specialized for customers to switch away from KLAC's installed base. Switching costs are high (tool integration, recipe recalibration, operator training). **Exceptional moat quality**. [CONFIRMED]
+**B9. ROIC as moat indicator**: 46.3% average ROIC over 5 years including a down cycle = confirmed, durable moat. Process control is too critical and too specialized for customers to switch away from KLAC's installed base. Switching costs are high (tool integration, recipe recalibration, operator training). **Exceptional moat quality**. [CONFIRMED] Market share data reinforces this: KLAC held **58% process control share in 2025, up 360bps since 2021** — the moat is expanding, not merely holding. KLAC also achieved the **#1 share position in Advanced Wafer Level Packaging process control** during this period. [CONFIRMED from USER_NOTES_KLAC.md / Q3 FY2026 investor materials]
 
 **B10. SBC discipline**: SBC at 2.3% of revenue is reasonable for a technology company. SBC capitalized as inventory grew from $26.3M to $32.5M (March 2026) [CONFIRMED from KLAC_notes.md] — a modest amount that simply reflects SBC allocated to inventory production. Not a quality concern. **Acceptable**. [CONFIRMED]
 
@@ -687,6 +690,8 @@ A better entry would be:
 **Stock split note**: The 10-for-1 split on June 11, 2026 is economically neutral. Post-split, all price targets above should be divided by 10.
 
 **Recommended action**: Maintain WATCHING classification. Set alert at $1,550 (post-split: $155) for re-evaluation. Monitor Q4 FY2026 earnings (July 30, 2026) for confirmation of the H2 ramp and any 2027 WFE guidance updates. The business is worth owning — at the right price.
+
+**Revenue pipeline and lag context** [INFERRED — from session analysis, 2026-05-12]: KLAC revenue lags foundry CapEx by 12–18 months. Current quarterly revenue (~$3.4B) reflects CapEx decisions made in early-to-mid 2024. TSMC's $52–56B 2025 CapEx commitment — itself a response to hyperscaler AI demand that accelerated through 2024 — is still propagating through the order-to-delivery pipeline. This is the structural basis for management's "2027 WFE grows faster than 2026" statement: the pipeline is real and already partially booked. However, this is a confirmed tailwind already embedded in guidance and in the current multiple — not hidden upside. The lag also works symmetrically on the downside: if hyperscaler CapEx were to decelerate in 2026, it would not appear in KLAC revenue for 12–18 months, creating a risk that the stock re-prices before the revenue inflection is visible.
 
 ---
 
