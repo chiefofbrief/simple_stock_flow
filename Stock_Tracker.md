@@ -122,7 +122,7 @@ Stocks under continuous monitoring. Move to PIPELINE when Tier 1 criteria are me
 | MRVL | TAILWIND — AI SC L6 | $149.39B | +165.6% | 55.6x | 17.7% | +203.4% | +100.0% | 1/5 | +22.1% | -41.5% | 16.3% | 2.6x | 2026-05-27 | WATCHING | — | Tier 3 spread +57.5%; Avg QoQ +194.7% strong but YoY masks recent deceleration. | — |
 | QCOM | TAILWIND — AI SC L12 | $250.36B | +59.8% | 25.5x | 28.3% | +32.6% | +173.0% | 5/5 | -3.5% | -18.1% | 25.5% | 1.1x | 2026-07-29 | WATCHING | — | Tier 2 spread +5.7%; EPS barely negative, QoQ fading — approaching Tier 1 if EPS recovers. | — |
 | SNPS | TAILWIND — AI SC L2 | $98.88B | +2.1% | 79.0x | 4.3% | -9.6% | -78.8% | 5/5 | +65.5% | +859.5% | 10.8% | 4.1x | 2026-05-27 | WATCHING | — | EPS collapsing (-79.1%) but FCF +859.5% — major divergence; determine if GAAP EPS is distorted by one-time items before removal. | — |
-| TSM | TAILWIND — AI SC L3 | $2.10T | +118.4% | 1.1x | 49.5% | +12.2% | +58.4% | 5/5 | +35.1% | +27.9% | 53.2% | 0.4x | 2026-07-16 | Complete | TSM_Thesis.md | BUY — MEASURED. Tier 3 spread +82.3%; P/E 1.0x is a confirmed FMP data error (correct: ~34.8x trailing). Upgrade to CONVICTION on Oct print if N3 margin crossover confirms or pricing shift signals. | 2026-05-08 |
+| TSM | TAILWIND — AI SC L3 | $2.10T | +118.4% | 1.1x | 49.5% | +12.2% | +58.4% | 5/5 | +35.1% | +27.9% | 53.2% | 0.4x | 2026-07-16 | Complete | TSM_Thesis.md | BUY — MEASURED. Dollar for a dollar at $397.28 (33x trailing, 27.6x fwd; correct P/E — FMP field is a data error). ROIC 49.7%, op margin 58% (record), self-funded CapEx, negligible debt. Thesis confirmed and strengthened across all 3 passes. Catalyst: Q2 earnings July 16 + N3 crossover H2 2026. Upgrade to CONVICTION if Q2 delivers at/above guidance and N3 crossover confirms in Q3. Bear: AI capex decel → ~$264. Bull: N3 crossover + pricing optionality → $430–570. | 2026-05-12 |
 | VRT | TAILWIND — AI SC L9 | $141.32B | +264.6% | 92.4x | 30.4% | +29.8% | +135.7% | 5/5 | +30.1% | +147.3% | 18.5% | 1.2x | 2026-07-29 | WATCHING | — | Tier 3 spread +117.3%; large run partially justified by earnings acceleration. | — |
 | BE | TAILWIND — AI SC L8 | $68.26B | +1401.4% | — | 3.6% | +1394.8% | +330.0% | 2/5 | +130.4% | +138.0% | 8.2% | 9.2x | 2026-07-30 | WATCHING | — | Prior removal flag stale — EPS YoY reversed to +350.0% (was -99.1%). vs_1Y +1076.6% and Debt/OCF 9.1x remain concerns. Reassess from current data. | — |
 | AMAT | TAILWIND — AI SC L2 | $352.06B | +166.4% | 45.5x | 37.2% | +20.0% | +75.2% | 5/5 | -2.1% | +91.2% | 29.1% | 0.8x | 2026-05-14 | WATCHING | — | Tier 3 spread +80.1%; earnings accelerating, FCF +91.2%. | 2026-04-28 |
@@ -151,7 +151,7 @@ Pipeline count by AI SC layer. Updated by `prompt_tracker_review.md` each run. �
 ```
 L1  Raw Materials          — 1  (FCX)
 L2  EDA / Semi Equipment   — 1  (CDNS)
-L3  Foundry / OSAT         — 0  ⚠ (TSM Tier 3 in WATCHLIST)
+L3  Foundry / OSAT         — 1  (TSM — Complete)
 L4  Compute Silicon        — 1  (NVDA)
 L5  Memory                 — 1  (MU)
 L6  Custom Silicon / NICs  — 0  ⚠ (MRVL, AVGO Tier 3 in WATCHLIST)
