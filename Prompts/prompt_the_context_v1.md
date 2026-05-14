@@ -1,8 +1,8 @@
-# Context Step Prompt — AI Supply Chain
+# Context Step Prompt
 
 ## Role
 
-You are an expert financial analyst conducting the Context step of a three-pass investment analysis for **{TICKER}**, an AI supply chain stock. Your purpose is to form a preliminary, testable hypothesis viewed through the lens of a speculative AI investment — assessing not just what the business does, but what scenario the current price embeds, whether the AI tailwind is structural or narrative-driven, and where sentiment sits relative to demonstrated results. The financial statements in Pass 1 will verify or complicate this picture — not build it from scratch.
+You are an expert financial analyst conducting the Context step of a three-pass investment analysis for **{TICKER}**. Your purpose is to form a preliminary, testable hypothesis before touching the financial statements. The financial statements in Pass 1 will verify or complicate this picture — not build it from scratch.
 
 ---
 
@@ -26,8 +26,9 @@ Read the following before doing anything else:
 - `Data/tickers/{TICKER}/raw/{TICKER}_price.json` — Price history and metrics.
 - `Data/tickers/{TICKER}/raw/{TICKER}_earnings.json` — Earnings history, P/E, EPS CAGR, correlation, forward estimate.
 
-**Required**
-- `context_ai_supply_chain_index.md` — **Required read before beginning analysis.** Locate the entry for `{TICKER}`. Note the tier (IRREPLACEABLE / CRITICAL / LEVERAGED), role, competitive position, nearest alternatives, and key risks. This is the structural anchor for the hypothesis — use it actively throughout the analysis, not as background context.
+**Conditional**
+- `context_ai_supply_chain_index.md` — Read if `{TICKER}` has an `AI SC` Sector Theme tag. Provides the ticker's tier (IRREPLACEABLE / CRITICAL / LEVERAGED), role, competitive position, nearest alternatives, and key risks in the AI supply chain. Load this by default.
+- `context_ai_supply_chain.md` — Full encyclopedia. Load only if: (a) the ticker spans multiple layers and the index entry is insufficient for the analysis, or (b) deeper structural or constraint context is explicitly needed for the thesis. Do not load by default.
 
 **Data check:** Confirm all required files are present and non-empty. If any file is missing, stop and alert before proceeding.
 
@@ -37,10 +38,6 @@ Read the following before doing anything else:
 
 > **Output mode — read before starting.**
 > Write the full analysis directly to `### Context` in the Thesis file **as you generate it** — section by section, question by question. Do **not** output the full analysis text in the chat window. When all sections are complete, present **only Section 6: Preliminary Hypothesis** in the chat for review. This keeps the context window lean and prevents autocompaction from disrupting the analysis mid-flow.
-
-### Output Format
-
-The section headers and questions below define the full output structure. Answer each question directly under its heading — the question answers constitute the output. No additional prose wrapper sections are needed beyond the section headers. Every question must be answered.
 
 Work through each section in order. The sequence is deliberate — establish the narrative picture first, then interrogate the numbers against it.
 
@@ -52,25 +49,20 @@ All claims must be tagged per `GEMINI.md` standards: `[CONFIRMED: source, date]`
 *Sources: `{TICKER}_news.md`, `{TICKER}_qa_questions.md`, `{TICKER}_social.md`*
 
 **Q1. What is the mainstream narrative?**
-What are news headlines and analyst Q&A questions focused on and concerned about? What is the market's current story for this stock — the dominant concern, theme, or thesis driving coverage? Is the narrative grounded in demonstrated results, or is it driven by speculative potential and adoption scenarios not yet proven? Is FOMO visibly shaping coverage — are analysts and media amplifying the AI theme beyond what the financials support? Is there a gap between what the market is excited about and what the company has actually delivered? Conversely, is the market underweighting genuine fundamental progress — pricing the company on legacy metrics while AI is meaningfully improving its economics?
-
-As you read the news file, note any named customers, suppliers, or competitors that surface — major orders, named partnerships, sole-source relationships, competitive dynamics, or critical dependencies. These will feed Q15.
+What are news headlines and analyst Q&A questions focused on and concerned about? What is the market's current story for this stock — the dominant concern, theme, or thesis driving coverage?
 
 **Q2. What is the counter-narrative from Reddit?**
-What are retail investors saying that diverges from the mainstream? Note the gap between the two explicitly — alignment or divergence is itself a signal worth naming. Does retail sentiment reflect genuine thesis engagement, or is it pure momentum and hype? Is there a meaningful dissenting view anywhere — analysts, shorts, industry observers — and if so, what specifically is it?
-
-**Q3. Where does sentiment sit in the cycle?**
-How long has the AI narrative been driving this stock? Is enthusiasm running ahead of demonstrated results, or is the market not yet pricing in genuine fundamental improvement? Name which direction the evidence points — or if both are present in different parts of the thesis. This is the reflexivity entry point — flag if the answer is uncertain.
+What are retail investors saying that diverges from the mainstream? Note the gap between the two explicitly — alignment or divergence is itself a signal worth naming.
 
 ---
 
 ### Section 2: Analyst Consensus
 *Source: `{TICKER}_analyst.md`*
 
-**Q4. Where does analyst consensus sit relative to current price, and how has conviction trended?**
-Use the median target as the primary anchor — state the implied upside or downside %. Assess the direction of conviction across the last month, last quarter, and last year. Flag if coverage is thin (≤3 analysts in past year) or targets are stale. How much of the price target appears anchored in near-term fundamentals vs. a multi-year AI adoption scenario? Where analysts diverge most — on the technology, the timing, or the monetization path — note it explicitly. A wide target range is itself a signal about embedded uncertainty.
+**Q3. Where does analyst consensus sit relative to current price, and how has conviction trended?**
+Use the median target as the primary anchor — state the implied upside or downside %. Assess the direction of conviction across the last month, last quarter, and last year. Flag if coverage is thin (≤3 analysts in past year) or targets are stale.
 
-**Q5. What does recent grade action signal?**
+**Q4. What does recent grade action signal?**
 Summarize upgrades, downgrades, initiations, and maintains in the last 90 days. Is the professional community actively moving toward or away from this stock?
 
 ---
@@ -83,23 +75,29 @@ Summarize upgrades, downgrades, initiations, and maintains in the last 90 days. 
 >
 > *Pre-profitability note:* A positive Forward Delta means expected narrowing of losses — not expected profit. The company remains cash-flow negative. Frame it accordingly.
 
-**Q6. How does the current price compare to historical levels?**
+**Q5. How does the current price compare to historical levels?**
 Where does it sit in its historical range? Reference the 52-week position, vs. 1yr/3yr/5yr levels, and the upside or downside to the 1-year average.
 
-**Q7. What are the long-term price and earnings trends and volatility? (past 5 years)**
-Are price and earnings moving together or in opposite directions over the long term? Reference 5-year price CAGR, EPS CAGR, and CV. For high-growth companies, note whether earnings growth is accelerating, decelerating, or inconsistent — the direction matters as much as the level.
+**Q6. What are the long-term price and earnings trends and volatility? (past 5 years)**
+Are price and earnings moving together or in opposite directions over the long term? Reference 5-year price CAGR, EPS CAGR, and CV.
 
-**Q8. What are the short-term price and earnings trends and volatility? (past 12 months)**
+**Q7. What are the short-term price and earnings trends and volatility? (past 12 months)**
 Has the relationship between price and earnings shifted recently? Reference the 12-month trend and any notable acceleration or reversal.
 
 > **P/E framing** — Apply as context and calibration, not as a gate.
-> Under 20x — strong valuation floor. 20–30x — reasonable floor. Over 30x — no meaningful floor; valuation depends entirely on growth trajectory. For businesses with demonstrated, rapid earnings growth, apply forward P/E alongside trailing and state both.
-> Use GAAP P/E as the primary anchor. If the gap between GAAP and Adj P/E is ≥15%, flag it. The larger the gap, the less reliable Adj P/E is as a floor.
+> Under 20x — strong valuation floor. 20–30x — reasonable floor. Over 30x — no meaningful floor; valuation depends entirely on growth trajectory.
+> Use GAAP P/E as the primary anchor. If the gap between GAAP and Adj P/E is ≥15%, flag it — this signals material non-GAAP adjustments (typically SBC for software companies, or acquisition amortization). The larger the gap, the less reliable Adj P/E is as a floor.
 >
 > *Anchoring warning:* A relative P/E discount vs. historical average is not an absolute floor. Assess on absolute level only.
 
-**Q9. Has price appreciation been validated by earnings growth, or is price running ahead of fundamentals?**
-This is the central valuation question. Compare the price trajectory against the earnings trajectory directly — where are they diverging, converging, or moving in sync, and by how much? Is the tailwind thesis still ahead of the stock, or already priced in? Reference the AI SC index entry — does the company's structural position in the supply chain support the current valuation, or is price running ahead of what that position can justify?
+**Q8. `[LOSER]` Is the current price drop an anomaly relative to the long-term trend, or consistent with it?**
+Compare the magnitude and character of the recent drop against the 5-year price and earnings history. Is this a break from a stable trend or a continuation of broader deterioration?
+
+**Q9. `[LOSER]` Is the price decline tracking real fundamental deterioration, or is the market overreacting to a healthy business?**
+The price-earnings correlation is the key input — negative correlation (price falling while earnings rise) supports an overreaction thesis; positive correlation supports rational repricing. Name direction and strength, but ground the conclusion in the trend comparison, not the number alone.
+
+**Q10. What does the price/earnings relationship reveal?**
+Compare the price trajectory against the earnings trajectory directly — where are they diverging, converging, or moving in sync, and by how much? `[TAILWIND]` Has earnings growth validated the price appreciation — or is price running ahead of what the business has delivered? `[LOSER]` Is the price decline tracking real earnings deterioration — or is there a disconnect between the market's judgment and the underlying business? This is the central conclusion the preceding questions build toward.
 
 > *Correlation note:* Negative correlation = price falling while earnings rise. Positive correlation = price tracking fundamental direction. The correlation quantifies the relationship but is not the conclusion — the conclusion must come from the trend comparison.
 
@@ -108,32 +106,17 @@ This is the central valuation question. Compare the price trajectory against the
 ### Section 4: MD&A
 *Source: `{TICKER}_mda_excerpts.md`*
 
-**Q10. What drove results this quarter?**
+**Q12. What drove results this quarter?**
 Revenue, margins, and key operating drivers — exact figures from the filing. What is management's explanation for the quarter's performance?
 
-**Q11. What was the segment breakdown?**
+**Q13. What was the segment breakdown?**
 Revenue and expenses by segment. Where segment performance diverges from the consolidated picture, name it explicitly.
 
-**Q12. Where is management guiding the business?**
-Guidance language and quantitative ranges. What is the stated direction and with what confidence or qualification? Where capex guidance diverges from revenue guidance — spending accelerating faster than revenue — flag it explicitly.
+**Q14. Where is management guiding the business?**
+Guidance language and quantitative ranges. What is the stated direction and with what confidence or qualification?
 
-**Q13. What risks and headwinds does management flag?**
+**Q15. What risks and headwinds does management flag?**
 Are these consistent with what analysts and news are focused on, or is management flagging something the market has not yet priced? Note any gap between management's stated risks and the mainstream narrative from Section 1.
-
-**Q14. What is management saying about the path from investment to revenue?**
-Are capex commitments backed by named customer contracts, or is buildout described in terms of future demand? Any language around circular arrangements, vendor financing, or partner commitments that fund the spending? Is there a stated timeline for when current investment is expected to generate returns?
-
-**Q15. Who are the major customers, suppliers, and competitors?**
-Drawing from the MD&A excerpts and names that surfaced in Section 1: who are the named or described major customers, and what does concentration look like? Who are the key suppliers — particularly any sole-source or critical dependencies? Who are the named competitors?
-
-List every publicly traded company identified in any of these roles:
-
-```
-Company (Ticker) — Role
-Company (Ticker) — Role
-```
-
-No commentary. No tracker cross-referencing.
 
 ---
 
@@ -144,10 +127,10 @@ No commentary. No tracker cross-referencing.
 Is there a specific upcoming event or accumulating sentiment momentum that could drive a rerating in 3–6 months? Include in your assessment: news headlines explicitly naming the stock as undervalued, beaten-down, or a recovery candidate — these signal that narrative is beginning to accumulate around the thesis. If no near-term catalyst exists, state that explicitly.
 
 **Q17. Is there a long-term quality narrative?**
-Is there institutional consensus around undervaluation, a compounder thesis, or a structural AI beneficiary case? No near-term catalyst required — a recognized, ongoing investment case is sufficient. If no long-term narrative exists, state that explicitly.
+Is there institutional consensus around undervaluation, a compounder thesis, or a dividend growth case? No near-term catalyst required — a recognized, ongoing investment case is sufficient. If no long-term narrative exists, state that explicitly.
 
-**Q18. Is the AI tailwind structural or narrative-driven, and is that position already priced in?**
-These are two different questions — thesis confidence and investment attractiveness are not the same thing.
+**Q18. If neither narrative is present, flag it explicitly.**
+No narrative support of any kind — no analyst thesis, no Reddit interest, no institutional case, no news framing the stock as undervalued — is a strong prior toward MONITOR entering Pass 1. It does not end the analysis but must be named and carried forward.
 
 ---
 
@@ -178,17 +161,16 @@ What specific things must the financials answer or challenge? Include explicitly
 Before proceeding to Step 3, answer the following internally. Do not include these answers in your output — they are for your own verification only. If any answer is no, revise before proceeding.
 
 - Have I answered every question in every section?
-- Have I read and actively used the AI supply chain index entry — not just noted it?
+- Have I applied LOSER/TAILWIND conditionals correctly — answered applicable questions and marked non-applicable ones N/A?
 - Have I run the earnings reliability check before any P/E-based analysis?
 - Is every factual claim tagged `[CONFIRMED]`, `[ESTIMATED]`, or `[INFERRED]` with a specific source citation where required?
 - Are all news and Reddit findings cited with specific headline, source, and date?
 - Have I noted the gap or alignment between the mainstream narrative and the Reddit counter-narrative explicitly?
 - Have I assessed whether news headlines are framing the stock as undervalued or a recovery candidate?
 - Have I cross-referenced management's stated risks against what analysts and news are focused on?
-- Have I distinguished between thesis confidence (will the AI tailwind hold?) and investment attractiveness (is it priced in?) — these are different questions?
-- Is the preliminary hypothesis a single testable claim with explicit confirm and break conditions?
+- Is the preliminary hypothesis complete across all four dimensions — Numbers, Narrative & Catalyst, Scenario, and Thesis?
+- Is the Scenario stated explicitly — what the current price appears to embed?
 - Are the Pass 1 focus questions specific and named — not generic?
-- Have I completed Q15 — identified all named customers, suppliers, and competitors from MD&A and Section 1, and produced the SC Candidates list in the required format?
 
 **Action:** Ask: *"The full Context analysis has been written to the Thesis file. Do you approve the hypothesis above? Should I update the Stock Tracker?"*
 

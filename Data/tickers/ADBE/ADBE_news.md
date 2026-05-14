@@ -1,31 +1,139 @@
 # ADBE News Data
-**Generated:** 2026-05-04 16:08
-**Date Range:** 2026-02-03 to 2026-05-04
+**Generated:** 2026-05-13 21:38
+**Date Range:** 2026-02-12 to 2026-05-13
 
 ## Summary Statistics
 
 ### Coverage
-- **Perigon:** 20 stories (aggregated from 20 media items)
-- **FMP:** 30 articles from 11 sources
-- **Total:** 50 items
+- **Perigon:** 24 stories (aggregated from 24 media items)
+- **FMP:** 30 articles from 13 sources
+- **Total:** 54 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 7 | 4 |
+| 2026-05 | 10 | 10 |
 | 2026-04 | 10 | 10 |
-| 2026-03 | 3 | 16 |
+| 2026-03 | 4 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.126)
-- Positive-leaning: 14 stories
+**Perigon** (avg composite: +0.214)
+- Positive-leaning: 18 stories
 - Neutral: 0 stories
 - Negative-leaning: 6 stories
 
 ---
 
-## Perigon Stories (20 stories)
+## Perigon Stories (24 stories)
+
+### 2026-05-13 | New York Times warns freelancers against AI tools
+**Sentiment:** -0.50 (pos: 0.08, neg: 0.58, neu: 0.33)
+
+The New York Times has sent freelancers a renewed “periodic reminder” tightening its generative AI policy, warning that submissions must be the product of human creativity and craft and must not include any content that was generated, modified, or enhanced by AI tools or that was input into them. The notice prohibits freelancers from using popular tools for drafting, editing, rephrasing, or polishing copy—while allowing limited “high-level” brainstorming—and it specifically lists chatbots, AI search products, and image generators as off-limits for creating editorial material. The stricter guidance comes after multiple public controversies involving AI in or around the paper’s freelance work, including allegations tied to an AI-assisted book review that raised plagiarism concerns and a Modern Love essay where the writer said chatbots helped conceptualize or edit the piece. The paper also faced renewed scrutiny after a substantial correction showed an attributed political quote was actually an AI-generated summary that had been rendered as a quotation, with the error ultimately tied to inadequate verification before publication. Together, the incidents have fueled broader debate about editorial integrity, confidentiality, and audience trust as newsrooms try to balance efficiency with clear accountability.
+
+**Key Points:**
+- The Times’ freelancer notice also warns against uploading “unpublished reporting material” into AI platforms—explicitly tying the guidance to confidentiality and related legal risks (not just editorial integrity).
+- Unlike the summary’s category-level description, the notice and reported policy document name specific tools barred for freelance editorial work, including chatbots (ChatGPT, Gemini, Claude, Perplexity), AI search products (Google AI Overviews), and image generators (Adobe Firefly, DALL-E, Midjourney).
+- In the Canada bureau correction, the paper added that it updated the Mark Carney/Poilievre-related story after learning the attributed remark was “in fact an A.I.-generated summary” of Pierre Poilievre’s views that an AI tool had rendered as a quotation; the Times said the reporter “should have checked the accuracy of what the AI tool returned.”
+
+---
+
+### 2026-05-11 | Institutional investors trim Adobe stakes after $25B buyback
+**Sentiment:** +0.27 (pos: 0.40, neg: 0.13, neu: 0.47)
+
+Multiple institutional investors trimmed their Adobe stakes in recent SEC filings, including Fire Capital Management, Bokf Na, Highland Capital Management, and RNC Capital Management, reducing shares by varying percentages during the fourth quarter. Other firms increased or initiated positions, such as Marquette Asset Management, along with several smaller new stake announcements in third or fourth quarters, reinforcing that ownership remains heavily institutional. Adobe’s board authorized a large share buyback program, signaling management’s intent to return capital to shareholders. Separate reporting also noted insider activity, including the sale of Adobe shares by CAO Jillian Forusz. One article highlighted potential business catalysts alongside the buyback, pointing to Adobe’s Semrush acquisition and its use of AI “coaches” in a partnership with Dick’s Sporting Goods. Separately, analysts cited in one report include Sanford C. Bernstein’s bullish stance and Morgan Stanley’s more cautious price-target reduction, reflecting mixed expectations for Adobe’s near-term outlook.
+
+**Key Points:**
+- Fire Capital Management LLC cut its Adobe stake by 67.0% in the fourth quarter, selling 2,312 shares and leaving it with 1,140 shares worth about $399,000 in its latest SEC filing.
+- Bokf Na reduced its Adobe position by 18.7% in the fourth quarter, selling 3,705 shares to hold 16,155 shares worth about $5.654 million.
+- RNC Capital Management LLC trimmed its Adobe holdings by 30.6% in the fourth quarter, cutting 6,039 shares and ending with 13,700 shares valued at about $4.795 million.
+
+---
+
+### 2026-05-11 | Adobe signs 1.58 lakh-sq-ft lease, Max Square
+**Sentiment:** +0.76 (pos: 0.79, neg: 0.02, neu: 0.19)
+
+Max Estates Limited says Adobe is preparing to move into its Max Square office development in Noida, taking roughly 1.58 lakh square feet at the IGBC Platinum-certified campus on the Noida-Greater Noida Expressway. The deal marks Adobe’s seventh office in India and its third in Uttar Pradesh, with the new space expected to support a workforce of more than 700 employees. Max Estates linked the leasing momentum to a “flight to quality,” noting that its wellness- and sustainability-focused “WorkWell” ecosystem is attracting multinational firms and global capability centres. Earlier this year, AML RightSource leased about 1.57 lakh square feet at Max Square to establish one of the largest GCCs in Delhi-NCR, and Max Estates says its other operational commercial projects have stayed fully leased for more than a year. The lease is described as a continuation of Max Square’s growing appeal to technology and knowledge-driven companies expanding in India. Max Estates’ leasing head, Rahul Arora, said Adobe’s presence strengthens the WorkWell community and that the partnership could support Adobe’s real-estate needs going forward.
+
+**Key Points:**
+- Max Square is in Noida’s Sector 129, and Max Estates said the campus “brings together over 700 employees” for Adobe’s India operations.
+- Max Estates described Max Square’s design concept as “where nature meets work,” saying the project offers “integrated amenities, sustainable infrastructure, and wellness-oriented spaces.”
+- In remarks on the deal, Rahul Arora (AVP & head of leasing, Max Estates) said the “flight to quality” is where “built environment with ecosystem of spaces, services and amenities enables holistic wellbeing of its users.”
+
+---
+
+### 2026-05-11 | Noida Adobe opens seventh India office, 700+ staff
+**Sentiment:** +0.74 (pos: 0.79, neg: 0.06, neu: 0.15)
+
+Adobe has opened a new office in Noida, expanding its India footprint and reinforcing the country’s role in the company’s engineering and AI-driven product development. The Sector 129 campus is Adobe’s seventh office in India and third in Uttar Pradesh, with space for more than 700 employees working across engineering and customer-facing roles. Adobe says the building is designed for the AI era, supporting collaboration and AI-led workflows, and highlights its IGBC Platinum sustainability certification and energy-efficient, environmentally responsible systems. Since entering India in 1997 as an engineering and R&D center, Adobe now employs more than 8,000 people in the country and describes India as its largest workforce base outside the United States, contributing significantly to global innovation. The Noida expansion also follows recent initiatives including free access to tools such as Firefly, Photoshop, and Acrobat for students at accredited institutions, and an Airtel partnership to bring Adobe Express Premium to hundreds of millions of users.
+
+**Key Points:**
+- Adobe’s India chief tied the Noida expansion directly to “AI and agentic technologies,” saying the company is “reimagining what’s possible and shaping the future of innovation,” and that India-based teams play a “critical role in advancing Adobe’s AI-driven future.”
+- Adobe said its Noida workplace is designed not just for collaboration but specifically to “foster co-creation, collaboration, and employee engagement,” with Swati Rustagi describing the goal of creating an environment where people can “do their best work.”
+- Adobe provided a quantified innovation claim: it said India’s workforce contributes “over one-third of Adobe’s global innovation efforts,” going beyond broader language about India’s importance.
+
+---
+
+### 2026-05-09 | Fair Isaac $1.5B buyback plan after earnings beat
+**Sentiment:** +0.15 (pos: 0.33, neg: 0.18, neu: 0.49)
+
+Multiple institutional investors made notable position changes in Fair Isaac Corporation (FICO) filings. Bokf Na reduced its stake by about 21% in the fourth quarter, while M&T Bank cut its holdings by about 16% during the same period, indicating some trimming among large holders. In contrast, Bronte Capital Management added to FICO by purchasing a new stake, with the stock becoming a small but notable part of its portfolio, and other major investors—including Vanguard and several large asset managers—also increased their positions. The overall picture shows active rebalancing around FICO, with institutional ownership remaining dominant. Separately, director Eva Manolis sold shares in a transaction that reduced her ownership.
+
+**Key Points:**
+- Bokf Na’s trimming was accompanied by specific share-and-value figures: it sold 493 shares to end the quarter with 1,884 shares, with its FICO stake reported at about $3,185,000. 
+- Director Eva Manolis’ sale details were precise: she sold 520 shares at an average price of $1,227.63 (total ~$638,367.60), leaving her with 344 shares valued at about $422,304.72—described as a 60.19% drop in her ownership.
+- M&T Bank Corp reduced its stake in quantified terms as well: it sold 568 shares to hold 2,914 shares at quarter-end, with the position valued at about $4,926,000.
+
+---
+
+### 2026-05-09 | Acrobat shares AI PDF Spaces workspaces
+**Sentiment:** +0.24 (pos: 0.39, neg: 0.15, neu: 0.46)
+
+Adobe is rolling out new Acrobat “PDF Spaces” sharing capabilities that turn uploaded PDFs, documents, notes, and links into interactive, AI-assisted workspaces where recipients can ask questions and explore insights via a custom chatbot; the author can also review engagement analytics such as views and per-recipient activity. The interactive experience can be refined with Adobe’s AI and then shared as editable outputs, with examples including sales/pitch materials that generate brand stories and product explorer-style content from the original documents. Tome, by contrast, focuses on a scroll-based “pages” storytelling format that departs from rigid slide-by-slide layouts, while using AI to generate presentation structures, outlines, and even visuals quickly. Both sources emphasize speed and ease for professionals and creators: Tome can produce presentation drafts with minimal input and supports multimedia elements like images and videos to increase engagement. Another Tome-focused report adds that AI can automatically organize and lay out content, and that real-time collaboration helps teams co-create presentations without manual formatting. Together, the coverage shows a shift from static slide creation toward AI-generated, interactive, and shareable presentation experiences.
+
+**Key Points:**
+- Adobe says Acrobat PDF Spaces can generate not just interactive summaries and presentations, but also “audio overviews,” plus shareable outputs including “podcasts, blogs and social posts,” all within a fully editable workspace.
+- Adobe’s engagement analytics for shared PDF Spaces include granular attribution beyond views—tracking “named recipients,” “individual viewer activity,” “forwarding details,” and “per-recipient view counts.”
+- In Adobe’s pitch example, the generated “product explorer” is described as pulling commercial metrics from the original documents—such as “sell-through” and “margin”—and shaping them through the author-recipient conversation.
+
+---
+
+### 2026-05-09 | Adobe integrates ChatGPT ads into GenStudio for performance marketing
+**Sentiment:** +0.36 (pos: 0.44, neg: 0.08, neu: 0.48)
+
+Adobe announced an integration between Adobe GenStudio for Performance Marketing and ChatGPT that lets marketers create brand-approved ad campaigns and activate them directly inside ChatGPT. Using conversational prompts, teams can select a brand, product, and target persona, pull approved assets from Adobe Experience Manager or other DAM tools, and generate multiple ad variations. The workflow is built around governance, including template controls and review/approval steps through Adobe Workfront before campaigns are launched. Adobe positions the move as a shift in marketing execution, treating conversational AI as a performance channel rather than just another outlet for content distribution. The integration is designed to help marketers balance speed with brand consistency and to manage ChatGPT campaigns alongside other major ad platforms. Adobe says the feature is available to all GenStudio for Performance Marketing customers.
+
+**Key Points:**
+- Adobe and OpenAI said the integration can let marketers “create… and launch them in ChatGPT with a single click,” rather than requiring a separate, multi-step handoff into the ChatGPT ad creation process.
+- OpenAI’s rollout context includes scale claims: Adobe cited OpenAI’s announcement that ChatGPT has reached “more than 900 million weekly active users,” framing the integration as a way to reach that audience at “unmatched scale.”
+- Beyond GenStudio and Workfront governance, the launch details include explicit template capabilities—such as using Adobe Express templates with “locked and editable elements”—to keep brand controls while still generating copy and imagery variants within guidelines.
+
+---
+
+### 2026-05-08 | OpenAI Launches Beta Ads Manager for ChatGPT
+**Sentiment:** +0.27 (pos: 0.38, neg: 0.11, neu: 0.50)
+
+OpenAI rolled out a beta, self-serve Ads Manager for U.S. advertisers in ChatGPT, letting brands create, manage, and monitor campaigns through a centralized portal (including via agency partners). The company said it removed a prior $50,000 entry threshold and expanded availability beyond the initial pilot, adding CPC bidding alongside the earlier CPM model. OpenAI is also expanding measurement with a live conversions pixel and a conversions API in development, and executives said further tools such as cost-per-action bidding and third-party measurement are forthcoming. Buying channels include major holding-company agencies (Dentsu, Omnicom, Publicis, WPP) and ad-tech partners such as Adobe, Criteo, Kargo, Pacvue, and StackAdapt, and OpenAI said paid placements do not affect ChatGPT’s underlying organic model while privacy and relevance safeguards remain in place. For now, advertiser eligibility is limited to certain categories (including consumer goods, local services, travel, entertainment, and some digital/educational products), with broader rollout tied to maturing review and compliance infrastructure. The expansion supports OpenAI’s broader advertising push as it seeks to scale revenue from ads in AI-driven experiences.
+
+**Key Points:**
+- Pacvue cofounder Melissa Burdick described the move as requiring “the automation, control, and cross-channel attribution that drive real performance at scale,” saying conversational AI is a “most significant new channel since the rise of retail media.”
+- OpenAI said advertisers won’t get access to raw conversation data tied to ad placements; instead, they receive “rolled-up performance figures,” while ad-tech partners (e.g., Adobe, Criteo) are limited to managing budgets, bids, and creative assets on advertisers’ behalf.
+- OpenAI’s Awan, in remarks to reporters, flagged additional capabilities—cost-per-action bidding and third-party measurement—but declined to say when they would arrive or which outside measurement partners might be used.
+
+---
+
+### 2026-05-04 | Kaltura executive Azaria Eynav sells $16,049
+**Sentiment:** -0.00 (pos: 0.33, neg: 0.33, neu: 0.34)
+
+Kaltura insiders reported additional stock sales in April 2026 under Rule 10b5-1 trading plans: executive Azaria Eynav sold 11,086 shares for about $16,049 on April 29, 2026, and Chief Customer Officer Natan Israeli sold 1,100 shares for about $1,661 on April 28, 2026; both plan adoptions date to December 15, 2025. After Eynav’s sale, he directly held 2,341,095 shares, and after Israeli’s sale, Israeli directly held 2,248,361 shares. The Form 4 reporting describes these as planned 10b5-1 transactions and notes that reported prices are weighted averages based on trade size. Separately, Kaltura said its fourth-quarter 2025 results beat expectations, posting EPS of $0.03 versus a forecast of $0.0006 and revenue of $45.5 million versus $45.32 million. The company also highlighted expansion of its AI-powered platform to Europe, Asia-Pacific, and Canada with region-specific infrastructure, along with new integrations for video AI tools into content management systems like Adobe Experience Manager, WordPress, and Drupal. Kaltura further announced an Agentic Revenue Engagement platform launch at the Adobe Summit, combining content intelligence with AI video creation and digital experience technology.
+
+**Key Points:**
+- Azaria Eynav’s April 29, 2026 sale was executed at prices ranging from $1.44 to $1.47 per share (totaling ~$16,049), according to the Form 4 coverage.
+- Natan Israeli’s April 28, 2026 sale of 1,100 shares was carried out at prices ranging from $1.50 to $1.52 per share (totaling ~$1,661), under the same Dec. 15, 2025 Rule 10b5-1 plan.
+- The reporting notes Kaltura shares had recently gained momentum—up 13.6% over the prior week—and that InvestingPro analysis suggested the stock appeared overvalued versus its fair value estimate.
+
+---
 
 ### 2026-05-04 | Adobe CEO sells 75,000 shares via trust
 **Sentiment:** +0.37 (pos: 0.49, neg: 0.12, neu: 0.40)
@@ -39,111 +147,111 @@ Multiple institutional investors adjusted their Adobe Inc. (ADBE) positions in r
 
 ---
 
-### 2026-05-03 | DigiCert launches AI Trust architecture for agents
-**Sentiment:** +0.16 (pos: 0.32, neg: 0.16, neu: 0.52)
+### 2026-04-13 | MotionStream preview adds real-time AI video controls
+**Sentiment:** -0.23 (pos: 0.14, neg: 0.38, neu: 0.48)
 
-DigiCert announced an “AI Trust” architecture for its DigiCert ONE platform to help organizations cryptographically verify AI agents, AI models, and digital content as autonomous systems and third-party models proliferate. The architecture is organized into AI Agent Trust (identity, governance, and lifecycle management using cryptographic identities and audit controls), AI Model Trust (secure packaging, signing, and runtime validation to protect the model supply chain and ensure trusted execution), and Content Trust (signing and verifying content provenance). Separately, DigiCert launched Content Trust Manager (available as of April 30, 2026) as a managed service that lets customers attach verifiable credentials to images, video, and other media so viewers can see origin, changes over time, and responsible parties. The service relies on DigiCert’s public key infrastructure and the C2PA standard to keep provenance information tamper-evident as files move across systems, and it is designed to replace weaker metadata or platform signals that can be stripped or fail to persist. DigiCert positions the move as a shift from detection-based authenticity checks toward cryptographic, scalable proof for enterprises, media organizations, and public sector bodies.
+Adobe Research previewed MotionStream, an experimental AI video system that lets creators interact with footage while it is generating—using cursor and slider controls to drag objects, adjust camera angles, and keep certain elements static—aiming to replace today’s slow prompt-and-retry workflow. The system is built to generate video in segments so users can see early output while later parts are produced in the background, enabling near real-time feedback and iteration. Adobe says MotionStream also better preserves natural motion by automatically handling physics and secondary effects, such as realistic limb and ear movement when objects are repositioned. Separately, Cartwheel—a 3D animation startup—targets a similar problem of limited creative control, arguing that current AI animation acts like a “slot machine” and instead plans to give artists a “control layer” based on manipulatable 3D assets. Its founders cite a key obstacle for next-gen animation AI: the scarcity of raw 3D motion data compared with abundant text, image, and audio, leading them to train models on detailed human movement mappings. Taken together, both efforts point toward more interactive AI video and animation workflows where creators direct performance rather than repeatedly re-prompting for acceptable results.
 
 **Key Points:**
-- DigiCert CEO Amit Sinha framed the problem as a trust gap created specifically by AI deployment, saying: “AI has created a new trust challenge. Organisations are relying on agents, models, and content they can’t always verify.”
-- DigiCert Chief Product Officer Deepika Chauhan said the key is to attach trust to the media itself, calling for a solution that is “a consistent, scalable way to attach trust directly to content itself,” adding that Content Trust Manager “brings together DigiCert’s global PKI and C2PA’s open standards” to create “tamper-evident credentials.”
-- Content Trust Manager is designed for practical integration: it supports signing via “APIs, browser tools and some on-premises deployments,” and the managed service includes “certificate issuance, key management and timestamping.”
+- Adobe Research presented MotionStream in a paper at ICLR 2026, framing the preview as part of an academic research release rather than a finalized product.
+- MotionStream was “unveiled on April 10,” and Adobe says it provides “immediate visual feedback” after a text prompt—letting users watch camera/object changes adjust as the video is generated in near real time.
+- Eli Shechtman said MotionStream is meant to replace labor-intensive rigging work: the current process “typically takes hours, if not days,” whereas MotionStream “is basically simulating the world in real time,” producing natural leg and ear movement when an elephant is moved.
 
 ---
 
-### 2026-05-02 | Kaltura executive Azaria Eynav sells $16,049
-**Sentiment:** +0.01 (pos: 0.34, neg: 0.33, neu: 0.34)
+### 2026-04-11 | Adobe shares hit 52-week low, Citi downgrades
+**Sentiment:** -0.47 (pos: 0.14, neg: 0.61, neu: 0.25)
 
-Kaltura insiders reported additional stock sales in April 2026 under Rule 10b5-1 trading plans: executive Azaria Eynav sold 11,086 shares for about $16,049 on April 29, 2026, and Chief Customer Officer Natan Israeli sold 1,100 shares for about $1,661 on April 28, 2026; both plan adoptions date to December 15, 2025. After Eynav’s sale, he directly held 2,341,095 shares, and after Israeli’s sale, Israeli directly held 2,248,361 shares. The Form 4 reporting describes these as planned 10b5-1 transactions and notes that reported prices are weighted averages based on trade size. Separately, Kaltura said its fourth-quarter 2025 results beat expectations, posting EPS of $0.03 versus a forecast of $0.0006 and revenue of $45.5 million versus $45.32 million. The company also highlighted expansion of its AI-powered platform to Europe, Asia-Pacific, and Canada with region-specific infrastructure, along with new integrations for video AI tools into content management systems like Adobe Experience Manager, WordPress, and Drupal. Kaltura further announced an Agentic Revenue Engagement platform launch at the Adobe Summit, combining content intelligence with AI video creation and digital experience technology.
+Adobe shares have fallen sharply, sliding about 31% year-to-date and recently reaching a 52-week low as investors worry that AI tools could weaken demand for traditional software. Citi cut its price target on Adobe to $253 from $287, keeping a Hold/Neutral stance while turning more selective across application software and citing a lack of meaningful catalysts over the next 12 months. The downgrade comes amid broader anxiety in the sector after Anthropic unveiled Project Glasswing—aimed at autonomously identifying security vulnerabilities—raising concerns for both software and cybersecurity firms. Adding to uncertainty, Adobe Chief Executive Shantanu Narayen plans to step down, though the company recently tripled AI-related recurring revenue and reported results ahead of Wall Street expectations. Separately, market-watch analysis described the stock’s recent downturn as a bearish correction, pointing to losses over multiple sessions and warning that a break below near-term support could accelerate declines.
 
 **Key Points:**
-- Azaria Eynav’s April 29, 2026 sale was executed at prices ranging from $1.44 to $1.47 per share (totaling ~$16,049), according to the Form 4 coverage.
-- Natan Israeli’s April 28, 2026 sale of 1,100 shares was carried out at prices ranging from $1.50 to $1.52 per share (totaling ~$1,661), under the same Dec. 15, 2025 Rule 10b5-1 plan.
-- The reporting notes Kaltura shares had recently gained momentum—up 13.6% over the prior week—and that InvestingPro analysis suggested the stock appeared overvalued versus its fair value estimate.
+- The selloff is being framed as more than an Adobe-specific issue: one report said AI-driven fears have “erased nearly $1 trillion in sector value” across the software industry.
+- Citi analyst Tyler Radke said the firm is “turning more selective” across application software, describing the stance as “to underweight software,” and citing “six downgrades and price target cuts” in the group.
+- On the technical tape, Adobe reportedly fell 3.92% to close at $229.94, marking a third straight day of losses and a 5.90% decline over three sessions; the same analysis said the stock broke below short-term support and showed a “strong bearish engulfing pattern.”
 
 ---
 
-### 2026-05-02 | Adobe short interest rises 20.8% in April
-**Sentiment:** -0.09 (pos: 0.26, neg: 0.34, neu: 0.40)
+### 2026-04-10 | Ascent Group sells 46,429 Fifth Third shares
+**Sentiment:** +0.21 (pos: 0.38, neg: 0.17, neu: 0.45)
 
-Adobe shares are seeing mixed momentum, with a recent 1-day gain after a decline over longer time frames, prompting investors to reassess whether the stock’s current valuation reflects underlying fundamentals. Simply Wall St frames Adobe as materially undervalued (about $243 per share versus a $460 “fair value” narrative) based on assumptions around disciplined earnings expansion, strong free cash flow, and the pace of AI-driven adoption and enterprise stickiness. The bullish case could weaken if AI tools compress Adobe’s pricing power or if enterprise customers slow spending on creative software. At the same time, short interest rose meaningfully in April—up 20.8% to about 14.7 million shares as of April 15—suggesting continued market skepticism despite the recent price uptick. Analyst sentiment is mixed: multiple firms cut price targets and ratings lean toward “Hold,” though comparisons with SofTech argue Adobe’s stronger institutional ownership and higher consensus target make it the more favored option. Adobe’s latest earnings beat expectations (EPS $6.06 vs. $5.87), and the stock logged gains into a fourth consecutive day, even as the broader market session was mixed.
+Recent filings show continued institutional repositioning in Adobe Inc. Several investors increased their Adobe stakes, including AMG National Trust Bank (adding 2,414 shares) and Archer Investment Corp (adding 1,083 shares), while Ascent Group LLC trimmed its position by 23.3% in the fourth quarter, leaving it with 10,145 shares worth about $3.55 million. Article-based reporting also notes that institutional investors and hedge funds hold roughly four-fifths to a bit over four-fifths of Adobe’s stock. Analyst coverage remains mixed: MarketBeat reports an average “Hold” recommendation, with 14 analysts at “hold,” 10 at “buy,” and five at “sell,” plus an average 12-month price objective of $343.88. The same source highlights multiple target-price cuts by large firms, including Citigroup lowering its target to $278 and Jefferies cutting to $290, alongside other downgrades. Taken together, the filings and analyst commentary suggest investors are actively adjusting exposure even as sell-side sentiment is split around a mid-$300s consensus objective.
 
 **Key Points:**
-- Short interest wasn’t just higher in April—it also translated into a short-interest ratio of 3.2 days based on an average daily volume of 4,665,584 shares, with about 3.7% of Adobe’s shares sold short.
-- Several brokerages cut price targets and moved ratings around the same period: Jefferies lowered its target from $400 to $290 (Hold), Mizuho reiterated Neutral with a $270 target (down from $315), and JPMorgan cut from $520 to $420 (Overweight). KeyCorp reduced from $310 to $235 (Underweight) and Piper Sandler from $330 to $280 (Neutral).
-- MarketBeat’s consensus framework implies a meaningfully higher Street view than the summary’s “mixed” tone suggests: Adobe’s consensus price target is $338.15, implying potential upside of 38.83%.
+- Wolfe Research cut Adobe’s price target from $450 to $440 while keeping an “outperform” rating, according to a research note dated Dec. 11.
+- Stifel Nicolaus reduced its Adobe target from $450 to $400 but maintained a “buy” rating in a March 13 research note.
+- Weiss Ratings downgraded Adobe from “hold (c-)” to “sell (d+)” in a research note dated March 6, adding to the depth of the bearish-side recommendations beyond just price-target trims.
 
 ---
 
-### 2026-05-01 | Kforce directors receive 4,782 RSUs
-**Sentiment:** -0.02 (pos: 0.16, neg: 0.18, neu: 0.66)
+### 2026-04-10 | EIZO launches ColorEdge CS3200X 31.5-inch 4K
+**Sentiment:** +0.33 (pos: 0.42, neg: 0.09, neu: 0.49)
 
-Kforce (KFRC) issued Form 4 disclosures describing restricted stock units (RSUs) granted under an existing stock incentive plan, with vesting conditions that employees must meet before fully owning the shares. One disclosure specifies an award of 4,782 shares of restricted stock that will fully vest on April 23, 2027. The filings also note that “dividend equivalent rights” accrue on these RSUs when and as dividends are paid, effectively providing holders compensation that tracks shareholder dividend payments even though the underlying award is not yet actual stock. From an investor standpoint, these RSUs and dividend equivalents are relevant because they can increase employee compensation expense and contribute to potential future dilution as shares vest and enter the market.
+Eizo has unveiled the ColorEdge CS3200X, the first 31.5-inch (32-inch class) 4K UHD monitor in its ColorEdge CS lineup, positioning it as a more affordable alternative to the higher-end CG series for color-critical photo, video, and design work. The IPS LCD display runs at 3840×2160 resolution with 350 nits brightness, 10-bit output via a 16-bit LUT, wide gamut coverage (99% AdobeRGB and 96% DCI-P3), and factory calibration supported by Eizo’s ColorNavigator 7 software (with an optional external sensor) plus uniformity features like the Digital Uniformity Equalizer. For HDR workflows it includes industry-standard transfer-function support for HLG (broadcast) and PQ (film/streaming), but it lacks dedicated HDR hardware, limiting real HDR performance; nevertheless, its “Sync Signal” feature automatically adjusts brightness, gamma, and color gamut based on incoming signal metadata to reduce errors when switching between SDR and HDR. The monitor is designed to provide more workspace (about 36% more display area than a 27-inch model), comes with preset modes such as DCI-P3, BT.709, and Display P3, and is intended to speed up professional grading and editing. Eizo also highlights practical design and connectivity details including a 3-sided frameless look, fanless operation, and a single USB-C port that supports video, data, and up to 70W power delivery, along with DisplayPort/HDMI and additional USB-A ports. The CS3200X is expected to begin shipping in June, with availability varying by region.
 
 **Key Points:**
-- The disclosures describe the award as “restricted stock” granted to an individual that comes with limits on transfer or sale until specified conditions are met (i.e., the holder can’t immediately monetize the shares).
-- The RSU/award structure is tied to employees meeting conditions such as remaining with the company for a set period before they fully own the underlying shares (not just an abstract vesting schedule).
-- The filings explain dividend-equivalent rights as payments that “mirror the cash payments shareholders get from a company’s profits,” but are paid to award holders rather than to actual shares—functionally creating a dividend-tracking cash benefit during the restricted period.
+- EIZO says each CS3200X unit is individually factory-adjusted, and it ships with a “Factory Report” that includes measurements for uniformity, gamma behavior, gamut coverage, and color temperature to document the accuracy of the specific monitor you receive.
+- Beyond brightness/gamut, EIZO lists core panel characteristics including 140 PPI pixel density, a 60Hz refresh rate, 14ms G2G response time, 1300:1 contrast ratio, and 178°/178° viewing angles.
+- For color depth, EIZO claims the monitor can display “1.07 billion colors,” and it also says the 10-bit path driven by a 16-bit LUT enables “more than a billion tones” for smooth gradations and fine tonal accuracy.
 
 ---
 
-### 2026-05-01 | Anthropic Launches Claude Creative Tool Connectors
-**Sentiment:** +0.35 (pos: 0.43, neg: 0.08, neu: 0.49)
+### 2026-04-10 | Strategic Blueprint, LLC sells 959 GE Vernova shares
+**Sentiment:** +0.26 (pos: 0.41, neg: 0.15, neu: 0.44)
 
-Anthropic released a new set of Claude “connectors” that let the assistant take actions inside major creative platforms, including Adobe Creative Cloud, Ableton, Autodesk Fusion, Blender, SketchUp, Splice, and Resolume Arena/Wire. The company said the goal is to automate repetitive, time-consuming steps in the creative workflow—using natural language for tasks like photo retouching/export, video reformatting, generating or modifying 3D assets, and searching royalty-free samples—rather than building a fully autonomous end-to-end creative agent. For Blender, Claude can connect to the app’s Python API to support natural-language scene control for activities such as debugging and batch scripting. Anthropic also rolled the connectors out alongside Claude Design (a text-to-visual prototyping tool) and said the integrations appear to rely on Model Context Protocol, which could let other models plug into Blender through the same interface. To test real-world usefulness, Anthropic is bringing the tools to art schools including RISD, Ringling College, and Goldsmiths and using student and faculty feedback to guide further development.
+Strategic Blueprint, LLC reduced positions across several major U.S. companies in its latest SEC Form 13F filings, trimming stakes in GE Vernova, Cisco Systems, AbbVie, Visa, and American Electric Power. The fund cut GE Vernova by 34.86%, selling 959 shares and leaving 1,792 shares worth about $1.17 million, and it decreased Cisco Systems by 11.69%, selling 2,127 shares and leaving 16,073 shares worth about $1.24 million. Strategic Blueprint also trimmed AbbVie by 9.64% (selling 992 shares; 9,299 shares worth about $2.12 million) and reduced Visa by 7.67% (selling 1,797 shares; 21,641 shares worth about $7.59 million). It further cut American Electric Power by 12.76%, selling 3,394 shares and holding 23,213 shares worth about $2.68 million. Across the same names, other investors were active as well—raising or initiating positions in varying amounts—signaling ongoing institutional interest even as Strategic Blueprint trimmed exposure.
 
 **Key Points:**
-- Anthropic said it joined the Blender Development Fund as a “Corporate Patron” with a minimum commitment of €240,000 per year to help keep the open-source project running.
-- The Blender connector isn’t just for debugging and batch scripting: it’s described as adding a natural-language interface to Blender’s Python API that can also “add new tools to the Blender interface,” while exposing Blender documentation within Claude.
-- For Adobe, the company said the Claude connector can orchestrate workflows across “more than 50 Adobe creative tools,” deciding which tools to use and in what sequence (rather than requiring users to manually step through the apps).
+- AbbVie (ABBV) announced a quarterly dividend of $1.73 per share, with a record date of 2026-04-15 and a payment date of 2026-05-15—about a 3.35% implied yield, according to the article.
+- In GE Vernova (GEV), Secure Asset Management increased its stake by 15.28%, purchasing 400 shares to own 3,018 shares valued at about $1,972,370 (as shown in the same 13F-tracking context).
+- In Cisco Systems (CSCO), Leo Wealth raised its stake by 31.36%, purchasing 13,095 shares to own 54,853 shares valued at roughly $4,132,850.
 
 ---
 
-### 2026-05-01 | Adobe integrates Firefly Boards into Photoshop, Lightroom
-**Sentiment:** +0.32 (pos: 0.43, neg: 0.11, neu: 0.46)
+### 2026-04-10 | Adobe launches AI-powered Acrobat Student Spaces
+**Sentiment:** +0.32 (pos: 0.42, neg: 0.10, neu: 0.49)
 
-Adobe announced a slate of updates to Photoshop and Lightroom aimed at speeding creative iteration and reducing workflow friction. In Photoshop, “Rotate Object” has moved from beta to general availability, letting users tilt/spin/recompose 2D cutouts in a non-destructive, real-time workflow (and it can consume generative credits as part of Adobe’s Firefly AI tooling). Photoshop also adds “Layer Cleanup,” which automatically renames layers and removes empty ones to declutter complex PSDs. Adobe Firefly Boards is now integrated into both Photoshop and Lightroom to keep moodboarding and early concept work closer to editing and output, with Adobe documenting generative features as credit-based. Lightroom receives improvements to search via natural-language queries, along with new film-inspired presets and performance boosts (including faster culling and improved interaction responsiveness) for large shoots. Additional coverage also highlights other AI tool updates in the latest Photoshop release, including enhancements to Remove, Generative Fill, and a new Reflection Removal feature for removing glass/window reflections.
+Adobe has launched “Acrobat Student Spaces,” a free beta in Acrobat that functions as an AI study hub similar to Google’s NotebookLM, letting students ground an AI assistant in their own uploaded notes, documents, and links. The tool can generate study guides and mind maps, create interactive flashcards/quizzes for active recall, and convert notes into audio summaries or deep-dive podcasts. Its AI Assistant is positioned as an “AI tutor” that provides explanations with linked, in-document citations aimed at improving trust and reducing hallucination concerns. Student Spaces also supports collaboration by allowing groups to share notes, ask questions, and build presentations together in shared spaces. Adobe says it tested and refined the product with student partners at major universities and is also pitching added value for career preparation, such as resume and interview help, beyond typical studying features. Reviewers note the overlap with other education AI tools and that key rollout details—like how long the beta lasts and eventual pricing—aren’t yet clear.
 
 **Key Points:**
-- Adobe says Photoshop’s Rotate Object is designed to make a 2D cutout “rotatable” so creators can transform it to match the perspective of a background plate—i.e., it’s not just a spin/tilt, but intended to better fit into existing scenes.
-- Rotate Object is explicitly tied to generative-credit consumption: CGChannel reports that in the beta it used 20 generative credits per use, and notes Adobe subscriptions include 25 free generative credits per month (with extra credits requiring a separate Firefly subscription).
-- Reflection Removal is described as a non-destructive, full-image clean-up: it automatically removes large reflections caused by shooting a subject behind a window, generating the reflection-free result on a separate layer.
+- Adobe says Acrobat Student Spaces includes a “focus mode” for solo studying, designed to reduce distractions and keep students on track.
+- Adobe CTO/Education VP Charlie Miller said the beta was shaped through extensive student input: “We partnered with hundreds of student beta testers, hosted dozens of live feedback sessions, and worked side by side with student groups at Berkeley, Brown, Harvard, Marshall, San Jose State, and University of Minnesota to shape the very first version.”
+- For group work, Adobe describes collaboration as happening “in real time,” where students can invite classmates into shared spaces to exchange notes, ask questions, and build presentations together.
 
 ---
 
-### 2026-04-30 | Adobe Unveils CX Enterprise and Firefly Assistant Beta
-**Sentiment:** +0.29 (pos: 0.40, neg: 0.11, neu: 0.49)
+### 2026-04-08 | India High Commission Cyprus plans May 9 festival
+**Sentiment:** +0.23 (pos: 0.45, neg: 0.22, neu: 0.34)
 
-At Adobe Summit 2026, Adobe unveiled CX Enterprise, an agentic AI platform designed to automate the full customer journey from acquisition through engagement, conversion, and retention, using reusable skills, Model Context Protocol (MCP) integrations, and Adobe Brand and Engagement Intelligence for brand-consistent outputs and lifetime-value optimization. Adobe also expanded its NVIDIA partnership for marketing, including a cloud-native 3D Digital Twin built with NVIDIA Omniverse libraries and Firefly Foundry integrations that let enterprises tune models with proprietary assets. Separately, Adobe began public beta testing of a cross-app Firefly AI Assistant that coordinates multi-step actions across Creative Cloud apps (such as Photoshop, Lightroom, Illustrator/Express, and Premiere) through a single conversational interface, with users able to intervene at any stage. Adobe said the assistant learns user preferences over time and ships with pre-built “Creative Skills” for tasks like batch photo edits, mood board creation, and social asset generation, while a lighter-weight version is being developed for third-party chatbots starting with Anthropic’s Claude and continuing to expand model integrations.
+A recent debate sparked by Bollywood blockbusters like “Dhurandhar” argues that cinema should not be read as factual political reporting, but it can still function as a diagnostic window into a nation’s political culture and global self-image—often revealing anxieties and aspirations through character choices and symbolic silences. The essay points to films such as “Purab Aur Pachhim,” “Dilwale Dulhania Le Jayenge,” and “Dangal” to suggest an evolving portrayal of India’s relationship with its diaspora and the wider world, even when foreign policy is not stated directly. Separately, a profile of film editor Anushri Srinivasan Iyer highlights how storytelling and emotion travel across languages—shaped by work across Hindi, English, Mandarin, and Spanish, and supported by international recognition early in her editing journey. In Cyprus, India’s High Commission used the event “Flavours of Bharat” to link cultural heritage and cinema to diplomatic connectivity, screening trailers from major Indian films and introducing an upcoming Indian Film Festival. That Cyprus program, framed as a bridge between peoples, includes performances and even an AI “Bollywood attire” experience, with the first screening scheduled for May 9, 2026 at Artos House. Finally, a reflection on producer and social worker Sardar Singh Suri traces how a career in Punjabi cinema later gave way to large-scale community service—linking entertainment, resilience, and humanitarian impact through the Gurudwara’s ongoing social work.
 
 **Key Points:**
-- Adobe said its agentic AI push is aimed at moving beyond a “know-it-all assistant” toward systems that “reliably do work across marketing and creative workflows,” with agents embedded across both Creative Cloud and Experience Cloud.
-- In an April 27 update, Adobe stated the Firefly AI Assistant would independently interpret a user request, break it into steps, and then execute after selecting the appropriate tools—while still letting users intervene at any stage.
-- Adobe’s Firefly AI Assistant public beta is set to “start rolling out globally today” for specific customers: those on Creative Cloud Pro or paid Firefly plans (Pro, Pro Plus and Premium).
+- The debate article argues that “Purab Aur Pachhim” (1971) reflects a specific Cold War-era anxiety: in the Non-Aligned Movement context, the diaspora was “often viewed as a sign of, loss of talent, of loyalty, of cultural grounding,” and the film encodes this through its protagonist Bharat, who travels to the West “not to integrate but to correct,” portraying the West as morally “unmoored” and India as a “repository of discipline and tradition.”
+- In the profile of editor Anushri Srinivasan Iyer, her entry into editing is traced to a Dubai classroom where she first opened Adobe Premiere Pro as a high school student; her early recognition came when she was placed second among approximately 45,000 entries in the international CBSE Adobe Creativity Challenge, leading to an invitation to Adobe’s Delhi headquarters where she was felicitated by Adobe CEO Shantanu Narayen.
+- The Cyprus “Flavours of Bharat” event (held March 27, 2026) screened trailers from six specific “internationally acclaimed” Indian films—“Padmaavat,” “Dangal,” “Andhadhun,” “War,” “Bhaag Milkha Bhaag,” and “RRR”—and paired them with an AI “Bollywood attire” try-on corner plus Indian dance performances as part of its cultural-diplomacy pitch.
 
 ---
 
-### 2026-04-30 | Adobe completes Semrush acquisition for $12
-**Sentiment:** +0.25 (pos: 0.35, neg: 0.10, neu: 0.55)
+### 2026-04-07 | Pattern appoints Chris Baird as CMO
+**Sentiment:** +0.68 (pos: 0.74, neg: 0.06, neu: 0.20)
 
-Adobe said it completed its previously announced acquisition of Semrush on April 28, 2026, through a merger in which Semrush will become a wholly owned subsidiary of Adobe. Under the deal terms, each outstanding Semrush share was converted into the right to receive $12.00 in cash, without interest. Separately, Wienerberger reported that during calendar week 17/2026 it used 7,072 treasury shares (and earlier in the week, 3,390) via transactions outside the stock exchange, detailing the number of shares, percentage of share capital, and trade values. Semperit AG Holding also disclosed resolutions from its April 27, 2026 annual general meeting authorizing the management board—subject to supervisory board consent—to buy and sell its own shares for 30 months, with repurchase pricing bounded by set percentages around recent average trading prices. Meanwhile, a 13F filing showed Zurcher Kantonalbank increased its stake in SEI Investments during the fourth quarter, and the article also cited changes by other institutional investors. The same report noted an insider sale in SEI Investments stock disclosed in a regulatory filing, describing the transaction size and ownership reduction.
+Pattern Group Inc., an e-commerce accelerator, appointed Chris Baird as its Chief Marketing Officer to lead marketing and go-to-market strategy aimed at driving brand growth, strengthening demand generation, and deepening customer engagement by aligning marketing with sales. Baird previously served as CMO at Weave, where he built an end-to-end go-to-market engine spanning brand, demand, product, and growth, and earlier as CMO at ObservePoint, where he helped drive enterprise adoption of digital analytics governance. CEO Dave Wright said Baird’s experience connecting marketing to revenue and building sustainable growth makes him well suited to strengthen Pattern’s go-to-market engine as the company scales internationally. The company said it is entering a new growth phase following its recent IPO and will continue investing in AI to improve insights, automation, and performance for brand partners. GuruFocus additionally frames Pattern’s model as acquiring inventory from brand partners and controlling content, pricing, logistics, and customer service while selling through online marketplaces, supported by reported strong revenue growth and gross margin.
 
 **Key Points:**
-- Adobe said the acquisition closed under an “Agreement and Plan of Merger” dated Nov. 18, 2025. The deal was executed via “Fenway Merger Sub, Inc.”—a wholly owned Adobe subsidiary—which merged with and into Semrush, with Semrush surviving as a wholly owned subsidiary of Adobe at the “Effective Time.”
-- Wienerberger disclosed that its treasury-share program had supervisory approval on April 8, 2026, after the company published the managing board’s resolution to use treasury shares on March 25, 2026. For calendar week 17/2026, Wienerberger reported that it used treasury shares with 0 shares traded on the stock exchange—i.e., all 7,072 (Apr. 21) and 3,390 (Apr. 24) were used over the counter—at “highest/lowest consideration” of EUR 29.77 per share.
-- Semperit’s April 27, 2026 AGM authorization runs for 30 months “from the day on which the resolution is passed,” and the company noted the authorization was granted subject to the “simultaneous revocation” of the relevant prior resolutions from April 23, 2024. Semperit also specified that buyback pricing was tied to the weighted average closing price of the last 20 trading days before each program, with a range of 25% below to 25% above that benchmark.
+- Baird said, “Pattern has built an incredible platform and reputation for helping brands succeed in ecommerce,” and he is “excited to join the team and further connect our marketing and revenue efforts as we scale.”
+- At Weave, Pattern’s new CMO was credited with driving “brand positioning, pipeline generation, and revenue impact” as he built and scaled the company’s end-to-end go-to-market engine.
+- At ObservePoint, Baird helped position the company as “a trusted enterprise platform for digital analytics governance,” and the report specifies he drove adoption among “Fortune 500 companies.”
 
 ---
 
-### 2026-04-30 | Adobe unveils CX Enterprise Coworker with partners
-**Sentiment:** +0.36 (pos: 0.46, neg: 0.09, neu: 0.45)
+### 2026-04-05 | Institutional funds adjust Adobe stakes SEC filings
+**Sentiment:** +0.24 (pos: 0.39, neg: 0.15, neu: 0.47)
 
-Adobe is expanding its agentic AI ecosystem to help enterprises scale multi-step customer-experience workflows across major platforms, agencies, and integrators, connecting Adobe “agents, skills and developer tools” within services from AWS, Anthropic, Google Cloud, Microsoft, and OpenAI. At the same time, Adobe says its new CX Enterprise Coworker—designed for continuous, goal-driven engagement—can orchestrate actions across channels while keeping humans in the loop, and it is built to interoperate using open standards (including MCP and A2A) and run on NVIDIA’s secure, policy-governed stack. Adobe is also strengthening integrations inside Adobe applications with systems such as SAP and ServiceNow and expanding its Brand Concierge partner ecosystem to unify touchpoints from product discovery and search to support and loyalty. In the e-commerce context, Adobe data cited by the company shows AI-assisted traffic to U.S. retail sites surged in early 2026 and that LLM-sourced visitors convert at higher rates, driving brands to invest in both AI visibility and agentic deployment strategies. Beyond orchestration and conversational experiences, Adobe is adding agent-based capabilities to Adobe Experience Manager Forms, including agents that can create/update forms from briefs or images, generate personalized follow-ups, and help developers configure workflows with less manual IT work.
+Recent SEC 13F filings show mixed activity among institutional investors in Adobe Inc. (ADBE), with some funds trimming positions while others added shares. First Pacific Financial cut its Adobe stake by 90% in the fourth quarter, selling 2,446 shares and leaving it with 273 shares worth about $96,000, while Balboa Wealth Partners reduced its holding by 52.3% (selling 2,861 shares) to 2,609 shares valued around $913,000. Trust Co. of Vermont also trimmed its stake, cutting shares by 19.1% (selling 3,051) to 12,961 shares worth about $4.54 million. On the buy side, Aprio Wealth Management increased its position by 43.6%, adding 636 shares to reach 2,094 shares valued at about $732,880, and Middleton & Co. raised its stake by 5.1% by purchasing 1,439 shares to total 29,577 shares worth roughly $10.35 million. Multiple large asset managers also expanded exposure, including Arrowstreet, Dodge & Cox, AQR, Amundi, and Victory Capital, and institutional investors collectively own about 81.79% of Adobe’s stock.
 
 **Key Points:**
-- Adobe said it is adding transaction capabilities into agent-powered interactions, partnering with payments providers “Adyen, PayPal and Stripe” to help ensure seamless checkout experiences.
-- CX Enterprise Coworker is described as “fully agentic by design,” monitoring signals and recommending next-best actions, then executing experiences across channels in real time “based on defined goals,” while moving through workflows spanning planning, execution and optimization with humans in the loop.
-- Adobe’s CX Enterprise Coworker stack is tied to NVIDIA not only via the secure runtime (NVIDIA OpenShell) but also via “NVIDIA Nemotron open models,” positioning the agent orchestration layer to work with a separate “security and governance layer” for regulated industries.
+- Among the major investors that increased exposure, Arrowstreet Capital Limited Partnership boosted its Adobe position by 53.3% in Q3—buying 1,952,994 shares to total 5,617,145 shares valued at about $1.98 billion. (Article also reports Dodge & Cox, AQR, Amundi, and Victory Capital as similar large adders.)
+- Dodge & Cox’s increase was especially large on a percentage basis: it raised its Adobe holding by 8,006.6% in Q3, acquiring 1,573,849 shares to reach 1,593,506 shares worth about $562.1 million (per its SEC-linked disclosure).
+- Other disclosed investors also made notable adjustments beyond the managers highlighted in the summary—for example, Allen Mooney & Barnes Investment Advisors LLC increased its Adobe stake by 593.32%, purchasing 32,864 shares to own 38,403 shares valued at about $13.44 million; Leo Wealth and SC&H Financial Advisors also reported share-count and value increases in their 13F filings.
 
 ---
 
@@ -159,352 +267,292 @@ SemiAnalysis CEO Dylan Patel argues Adobe faces a structural threat from AI comm
 
 ---
 
-### 2026-04-03 | Adobe breach claims allege 13 million support tickets
-**Sentiment:** -0.60 (pos: 0.06, neg: 0.66, neu: 0.28)
+### 2026-03-14 | Adobe, Oracle Earnings Expected to Shape Markets
+**Sentiment:** -0.03 (pos: 0.33, neg: 0.36, neu: 0.31)
 
-A threat actor calling themselves “Mr. Raccoon” has claimed that Adobe was breached through a third-party supply-chain pivot, alleging access to Adobe’s helpdesk system; Adobe has not confirmed the incident. The attacker’s reported haul includes about 13 million customer support tickets, roughly 15,000 employee records, HackerOne submissions, and internal documents. Reporting from cybersecurity analysts and follow-on coverage says the intrusion began with phishing that infected a Business Process Outsourcing (BPO) employee’s machine with a Remote Access Tool (RAT), after which the attacker allegedly escalated privileges by targeting the employee’s manager via another phishing attempt and carried out surveillance such as webcam access. Analysts say the compromise appears plausible but may be limited to the helpdesk environment rather than Adobe’s broader internal networks, with the full sensitivity of the data still unclear. Multiple reports also point to a potential weakness in Adobe’s support portal—such as inadequate access controls or lack of rate-limiting—allowing large-scale export of ticket data. The claims have heightened concern that vendor compromises can rapidly expose large volumes of personal and security-related information, increasing risks like identity theft and targeted phishing.
+Earnings season is winding down, but several tech, retail and industrial names — notably Adobe and Oracle — remain in focus as investors await results and guidance that could reset AI and sector narratives. Retailers have been hit-or-miss: while many beat near-term results, fiscal-year guidance has been conservative; Dollar General and Ulta have recent streaks of beats, while Campbell’s has largely delivered historically but faces falling earnings and a low forward P/E. Adobe, despite a five-year streak of beats, is down sharply year-to-date and is viewed as positioned to beat low expectations and provide the confident outlook needed to reclaim momentum. Geopolitical risk from the U.S.–Iran war and higher oil prices have rattled markets and pushed volatility higher, making upcoming U.S. inflation prints (CPI and core PCE) especially important for Fed expectations and market direction. In international results, companies such as Ashtead (now Sunbelt Rentals Group) and Legal & General head into reports with investor questions about rental pricing and U.S. re-listing valuation for Ashtead and capital returns/buybacks for Legal & General.
 
 **Key Points:**
-- International Cyber Digest (ICD) said its claims were based on direct communication with “Mr. Raccoon” and that it reviewed supporting screenshots, including an alleged Adobe Internal OneDrive/SharePoint view (with folders like Desktop/Documents/Meetings) and captured webcam footage of a targeted employee.
-- Beyond webcam surveillance, multiple reports say the attacker also claimed the malware enabled interception of private communications on platforms such as WhatsApp.
-- In direct remarks to ICD, “Mr. Raccoon” allegedly said: “They allowed you to export all tickets in one request from an agent,” pointing to a bulk-extraction workflow rather than incremental access.
+- Legal & General’s full-year results could include a sizeable, but not guaranteed, buyback of around £1.2 billion after completing the sale of its U.S. insurance business, which has strengthened its capital position; investors will also watch bulk annuity volumes that management says have come in ahead of guidance.
+- Ashtead (now Sunbelt Rentals Group) expects big-ticket projects — notably data centres and semiconductor fabs — to help offset weaker local/regional construction demand, and analysts are somewhat optimistic that 2026 profits could improve on easier comparatives if trading conditions gradually recover.
+- LGI Homes has seen revenue decline by about 6.4% annually over the last five years and faces depletion of cash reserves that could force a fundraising event and potential shareholder dilution.
 
 ---
 
-### 2026-04-03 | William Blair downgrades Adobe to Market Perform
-**Sentiment:** -0.13 (pos: 0.25, neg: 0.38, neu: 0.36)
+### 2026-03-14 | Adobe expected to report Q1 revenue of $6.28B
+**Sentiment:** +0.48 (pos: 0.58, neg: 0.10, neu: 0.31)
 
-William Blair downgraded Adobe to Market Perform from Outperform, saying intense competition in its core Creative Cloud business clouds questions about future pricing power and the company’s long-term economics and AI positioning. The analyst noted Adobe still looks inexpensive on valuation and has a strong gross margin, but the lack of clarity is likely to keep the stock range-bound until investors see answers. In a separate update on AvePoint, William Blair downgraded (or reissued) the stock to Market Perform from Outperform without providing a new price target, signaling more cautious expectations. Other brokerages generally maintained a mix of Neutral/Hold/Buy views but lowered price targets, with MarketBeat citing an average “Moderate Buy” and a consensus target price around $17.11. AvePoint’s latest results also missed expectations, reporting $0.07 EPS versus $0.09 expected and $114.69 million in revenue versus $110.94 million, alongside modest profitability and expectations for slightly negative current-year EPS. Overall, both stocks saw sentiment cool as analysts focused on competitive pressure and forward-looking uncertainty, even as some valuation arguments and alternative buy cases remain.
+Adobe is set to report fiscal first-quarter results after the market close Thursday, with Wall Street expecting about $5.87 in EPS (roughly 15.6% year-over-year growth) and approximately $6.28 billion in revenue (about 10% growth), and the company has beaten revenue and EPS estimates every quarter for the past two years. Investors are focused on whether Adobe’s growing AI initiatives will continue to support steady growth; the company says AI-influenced annual recurring revenue now represents more than one-third of its business. Institutional buying has intensified: FourThought Financial Partners raised its Adobe holdings by 17.5% to about 14,710 shares (roughly $5.19 million) and Diversify Advisory Services increased its stake by 19.3% to about 11,153 shares (roughly $3.76 million). Several other funds — including Federated Hermes, Victory Capital, CX Institutional and Wright Investors — also materially boosted positions, leaving roughly 81.8% of the stock owned by institutional investors. At the same time, CFO Daniel Durn sold 1,646 shares in late January for about $485,000, while company insiders collectively own roughly 0.20% of Adobe, a contrast to the broad institutional accumulation.
 
 **Key Points:**
-- William Blair’s Adobe decision came alongside detailed valuation framing: analyst Arjun Bhatia “assumed solo coverage,” noted shares trade at about “9 times free cash flow,” and referenced a “Fair Value” model from InvestingPro indicating Adobe is among the platform’s “most undervalued” names; Investing.com also listed Adobe at a “P/E ratio of 13.86” with an “11% free cash flow yield.”
-- On Adobe’s AI question, Bhatia said, “To be clear, we are not calling Adobe an AI loser with this downgrade but acknowledging that the unknown answers to these questions are likely to keep the stock at least range-bound until there is more clarity.” The note also flagged uncertainty around differentiation and the role of professional creators amid the competitive landscape.
-- Adobe-specific catalyst risk also surfaced: the articles point to CEO Shantanu Narayen’s “impending departure after an 18-year tenure,” which led Argus to downgrade Adobe “from Buy to Hold,” and drove Deutsche Bank and UBS to cut price targets (Deutsche from $390 to $310; UBS from $340 to $290) citing uncertainty around the CEO transition.
+- Two very large institutional holders materially increased stakes: Federated Hermes boosted its position by 185.1% to 898,408 shares (worth about $316.9 million), and Victory Capital Management raised its position by 112.6% to 1,341,410 shares (worth about $469.5 million).
+- Several other funds also made large percentage gains in their Adobe stakes in the same period: CX Institutional increased its stake 72.9% to 27,922 shares (about $9.85 million), Wright Investors Service grew its stake 114.4% to 9,919 shares (about $3.50 million), and Jones Financial Companies LLP raised its stake 43.8% to 106,598 shares (about $38.31 million).
+- CFO Daniel Durn’s January sale was at an average price of $294.85 (totaling $485,323.10); after the sale he still owned 41,995 shares valued at approximately $12,382,225.75, and the transaction represented a 3.77% reduction in his position (disclosed via SEC filing).
 
 ---
 
-### 2026-04-03 | ServiceNow names Kulmeet Bawa India SAARC MD-GVP
-**Sentiment:** +0.48 (pos: 0.57, neg: 0.08, neu: 0.35)
+### 2026-03-13 | Webflow expands integrations with Adobe, Getty, OneTrust, TransPerfect
+**Sentiment:** +0.45 (pos: 0.53, neg: 0.08, neu: 0.39)
 
-ServiceNow has appointed Kulmeet Bawa as Managing Director and Group Vice President for its India and SAARC operations, based in New Delhi, with the role effective April 6, 2026. He succeeds Ganesh Lakshminarayanan, who moved to Tata Communications after heading the India and SAARC business from January 2025. Bawa will be responsible for accelerating growth, strengthening customer relationships, and advancing ServiceNow’s digital transformation push across the region. His background includes more than two decades in enterprise technology and SaaS, most recently as Global Chief Revenue Officer at SAP, and earlier leadership roles including President and Managing Director for SAP India and for South Asia at Adobe. Prior to his corporate career, he served for over 12 years as a Cavalry officer in the Indian Army, a discipline-focused experience cited by ServiceNow as relevant to his leadership. ServiceNow APAC President Adrian Johnston said India is central to the company’s global ambitions, while Bawa emphasized that the India-and-SAARC team will deepen partnerships and help enterprises fully use the ServiceNow platform.
+Webflow announced new and expanded partnerships with Adobe, Getty Images, OneTrust, and TransPerfect to embed enterprise-grade personalization, localization, content creation, privacy, and consent workflows directly into its agentic web marketing platform. The integrations let teams use Adobe Marketo data for personalized experiences, access licensed Getty visuals inside Webflow, manage consent and preferences through OneTrust, and launch multilingual sites with TransPerfect’s GlobalLink, reducing tool‑switching and speeding execution. Webflow positions these connections as a way to meet marketing teams where they already work, creating more seamless, governed workflows that support collaboration across marketers, designers, developers, agencies, and AI agents, according to CPO Rachel Wolan. The moves are intended to strengthen Webflow’s appeal to larger organizations by consolidating fragmented web operations into a composable CMS environment and are bolstered by its maintained Platinum status in the Adobe Partner program for 2025–2026, while supporting a push into AI‑enabled, agent‑ready workflows with governance and auditability.
 
 **Key Points:**
-- Before joining ServiceNow, Kulmeet Bawa served as SAP’s Global Chief Revenue Officer, where he “led worldwide revenue strategy and execution.”
-- Bawa said his 12-year tenure as a Cavalry officer in the Indian Army shaped his approach to “discipline, integrity, and strategic decision-making.”
-- ServiceNow said Bawa will report to Adrian Johnston, President (APAC).
+- The announcement was made on March 10, 2026, via a Globe Newswire release out of San Francisco.
+- The Adobe integration specifically enables use of campaign, audience, and form data from Adobe Marketo Engage inside Webflow to drive personalized site experiences.
+- The Getty Images connection is described as providing access to licensed, high-quality creative and editorial visuals directly within Webflow to elevate brand storytelling.
 
 ---
 
-### 2026-04-02 | Illustrator Turntable feature adds AI 3D views
-**Sentiment:** +0.04 (pos: 0.25, neg: 0.21, neu: 0.53)
+### 2026-03-13 | Apple launches Studio Display XDR, 2000‑nit 27‑inch
+**Sentiment:** +0.48 (pos: 0.53, neg: 0.05, neu: 0.42)
 
-Adobe has rolled its Project Turntable into generally available Adobe Illustrator, following a preview at Adobe MAX 2024 and a public beta, letting designers generate multi-angle, 3D-looking views from a single 2D vector illustration in seconds (https://www.neowin.net/news/adobe-illustrator-can-now-use-ai-to-rotate-2d-vectors-in-3d-space/, https://timesofindia.indiatimes.com/technology/tech-news/adobe-illustrator-gets-turntable-feature-that-can-turn-2d-designs-into-3d-models/articleshow/129905407.cms). The feature can create up to 74 editable vector views with full rotation and vertical tilt, and updates propagate across the linked angles when the original artwork is changed (https://www.neowin.net/news/adobe-illustrator-can-now-use-ai-to-rotate-2d-vectors-in-3d-space/, https://digitalproduction.com/2026/03/30/adobe-turntable-spins-into-illustrator/). Adobe positions Turntable as a practical time-saver for iterative design and motion prep, lowering the effort of quick turnaround tests before moving to more traditional animation production (https://www.printmag.com/motion-design/turntable-arrives-in-illustrator-making-motion-a-little-more-accessible/). Turntable is powered by Adobe Firefly and uses “Generative Credits,” with generation slowing when credits run low rather than fully disabling the tool (https://www.neowin.net/news/adobe-illustrator-can-now-use-ai-to-rotate-2d-vectors-in-3d-space/, https://80.lv/articles/look-at-2d-objects-from-different-angles-with-turntable-feature-now-in-adobe-illustrator). Adobe also emphasizes pipeline fit, including a direct handoff to After Effects so teams can move from multi-angle design into motion without breaking workflow, while Turntable’s models are trained on Adobe Stock, openly licensed, and public-domain content (https://timesofindia.indiatimes.com/technology/tech-news/adobe-illustrator-gets-turntable-feature-that-can-turn-2d-designs-into-3d-models/articleshow/129905407.cms, https://www.neowin.net/news/adobe-illustrator-can-now-use-ai-to-rotate-2d-vectors-in-3d-space/). Looking beyond Turntable, Adobe says it is partnering with NVIDIA to build next-generation Firefly models and agentic workflows, and it is working on 3D digital twins via NVIDIA Omniverse to generate consistent marketing visuals from a single product model (https://www.neowin.net/news/adobe-illustrator-can-now-use-ai-to-rotate-2d-vectors-in-3d-space/).
-
-**Key Points:**
-- Adobe VP of Creative Cloud product marketing Deepa Subramaniam said Turntable would let designers “instantly generate multi-angle views from any vector illustration, bringing motion to characters and designs,” and eliminate “repetitive manual redraws,” describing the impact as “What once took hours now happens in seconds.”
-- In its MAX 2024 demo framing, Adobe emphasized that Turntable is powered by Adobe Firefly and is “deep”ly integrated into the Adobe Creative Cloud, while also positioning it around “commercial safety” rather than standalone generators such as Midjourney or ChatGPT.
-- A production-oriented detail from the Sneaks demo: when the character was initially facing the wrong direction, the workflow avoided redrawing by generating views and then “scrubb[ing] a slider until the right orientation appeared,” including vertical rotation (not only side-to-side turns).
-
----
-
-### 2026-04-01 | Microsoft DRA GA expands Kubernetes AI
-**Sentiment:** +0.22 (pos: 0.41, neg: 0.19, neu: 0.40)
-
-Cluster API (CAPI) is positioned as a Kubernetes-native way to provision and manage workload clusters declaratively (via YAML applied to a management cluster), including infrastructure setup and kubeadm flows, while providers plug in specific platforms; for OpenStack, ORC is an optional additional controller that manages OpenStack resources like images, keypairs, and networks/routers as Kubernetes CRDs before CAPI creates clusters. NVIDIA at KubeCon Europe 2026 highlighted that “plain Kubernetes” scaling (Deployments + HPA) struggles with disaggregated AI inference patterns where prefill and decode must scale together with shared KV-cache, and introduced Grove to represent inference systems as declarative CRD layers (PodClique and PodCliqueScalingGroup). A related CNCF survey (2025 Annual Cloud Native Survey) reports widespread production Kubernetes use and that 66% of organizations running generative AI models use Kubernetes for some or all inference workloads, though it notes an AI-specific maturity gap being addressed by emerging Kubernetes capabilities for device and accelerator management. Microsoft also tied these trends to Kubernetes’ GPU/accelerator standardization, with DRA reaching GA (using DeviceClass and ResourceClaim plus topology-aware placement), DRANet improving multi-vendor compatibility for GPU-to-NIC alignment, Workload Aware Scheduling in Kubernetes 1.36, and AI Runway providing a unified Kubernetes-based inference workload API. On the day-to-day engineering side, KubeAI is presented as an AI-powered Kubernetes debugger that monitors pods, analyzes logs in real time, identifies likely root causes, and surfaces actionable fixes in a dashboard. Finally, Kubernetes is described as increasingly converging with HPC operations—adding automation and observability around existing HPC schedulers so high-performance services can be provisioned and operated more reliably and at scale.
+Apple has released updated Studio Display models, including the new Studio Display XDR, which are available now from Apple Stores and online and aimed at Mac users and creative professionals. The standard Studio Display retains the same panel and peak brightness as its predecessor but adds upgraded camera and audio hardware, improved ports, a 12‑megapixel Center Stage camera with Desk View, a three‑microphone array, six‑speaker Spatial Audio, and Thunderbolt 5 connectivity. The Studio Display XDR is a 27‑inch 5K Mini‑LED Retina XDR with a 120Hz refresh rate, up to 2,000 nits peak HDR brightness, wider color support, enhanced computational audio and an A19 Pro‑driven 12MP webcam, plus upstream and downstream Thunderbolt 5 ports. Early reviews call the XDR a meaningful successor to the Pro Display XDR—praising brightness, contrast, build quality, and improved features—while warning its high price, some light bleed vs OLED, viewing‑angle limits, and certain design elements (integrated power cable, bezels) make it primarily suited to professional users. Pricing places the standard Studio Display around $1,599, with the XDR starting near $3,299 (higher for nano‑texture glass), and reviewers note there are few direct competitors in the 27-inch 5K mini‑LED 120Hz category.
 
 **Key Points:**
-- With OpenStack Resource Controller (ORC), users can avoid manual image bookkeeping: instead of uploading a node image to OpenStack Glance and copying its UUID into Cluster API (CAPI) manifests, you declare an “Image” Custom Resource in the management cluster and ORC ensures the referenced OpenStack image exists before CAPI proceeds to create clusters.
-- NVIDIA positioned Grove as a core component of its Dynamo framework and said it was developed with prerequisites/integration into the CNCF ecosystem; NVIDIA also announced at the same KubeCon Europe 2026 that it would donate its GPU DRA driver to the CNCF.
-- Beyond Kubernetes adoption numbers, the 2025 CNCF Annual Cloud Native Survey (published Jan. 20, 2026) reported that 98% of surveyed organizations had adopted cloud-native technologies, and it describes an “AI-specific maturity gap” despite that broad cloud-native baseline.
-
----
-
-### 2026-04-01 | Inscription Capital Sells Multiple Stock Stakes
-**Sentiment:** +0.21 (pos: 0.39, neg: 0.19, neu: 0.42)
-
-Inscription Capital, LLC cut its stakes across multiple public companies in its latest Form 13F filings, including trimming EOG Resources, Electronic Arts, Domino’s Pizza, Coterra Energy, and DoorDash. The fund reduced EOG Resources by about 6.9%, and EOG also announced a quarterly dividend and scheduled a first-quarter 2026 results conference call for May 6, 2026. Inscription Capital’s largest reductions were in Electronic Arts (about 51%), Domino’s Pizza (about 35%), Coterra Energy (about 37%), and DoorDash (about 40%). In each case, other institutional investors were also adjusting positions—some increasing stakes and others initiating new ones—suggesting broader, stock-specific rebalancing rather than a single, fund-wide exit. Overall, the filings point to active portfolio turnover among both Inscription Capital and its peers, with shifting exposure across energy, gaming, restaurant, and delivery sectors.
-
-**Key Points:**
-- EOG Resources also disclosed dividend timing and payout details alongside its portfolio updates: it set a quarterly dividend of $1.0200 per share (annualized $4.08), with a record date of 2026-04-16 and a payment date of 2026-04-30; the article further reports an implied yield of 2.73% and a reported payout ratio of 0.22.
-- Electronic Arts: Inscription Capital cut its position by selling 1,136 shares and ending with 1,075 shares (valued at about $219,560 in the filing), and the same article included additional company fundamentals such as a debt-to-equity ratio of 0.32, a quick ratio of 0.93, and a P/E of 75.94.
-- Domino’s Pizza: while Inscription Capital reduced its stake, the article noted several investors initiating or sharply increasing exposure—for example, FNY Investment Advisers initiated a new position by purchasing 2,400 shares (about $1,000,000), and Marquette Asset Management initiated a new position by buying 11 shares (about $4,590); meanwhile SignatureFD raised its stake by 181.01%.
-
----
-
-### 2026-03-30 | Adobe appoints Manoj Kohli to advisory board
-**Sentiment:** +0.52 (pos: 0.58, neg: 0.06, neu: 0.36)
-
-Adobe has appointed industry veteran Manoj Kohli to its International Advisory Board (IAB), a global group formed in 2021 to help customers navigate change and growth amid rapid digital and AI-driven transformation. Kohli brings nearly five decades of leadership experience across telecommunications, technology, renewable energy, and digital innovation, and currently serves as Chairman and Managing Partner at MK Knowledge LLP, advising CEOs and founders across Asia Pacific, the Middle East, and the U.S. Adobe said his operational and strategic expertise will help enterprises adapt to evolving market dynamics and expand using AI and digital experience tools. Adobe’s JAPAC president Ben Goodman also pointed to India’s fast-growing digital market and rising AI adoption as a key reason for the focus on guidance for customers in the region. Kohli previously led SoftBank India and supported more than $15 billion in investments across AI-related companies, and earlier served for over a decade as CEO and Managing Director of Bharti Airtel, scaling the business from about two million to more than 400 million customers.
-
-**Key Points:**
-- Kohli said he is joining the board “at this pivotal time when AI is rapidly transforming how customers discover and engage with brands, and reshaping how enterprises operate and create value,” adding that Adobe’s track record includes “enhanc[ing] creativity and productivity” and “orchestrat[ing] personalised experiences to drive growth.”
-- Adobe noted Kohli also serves as a mentor and educator, teaching leadership and strategy at leading global business schools (in addition to his advisory work via MK Knowledge LLP).
-- During Kohli’s tenure as Bharti Airtel CEO and Managing Director, the company’s expansion included building platforms such as Airtel TV and Indus Towers, alongside the growth of its customer base.
-
----
-
-### 2026-03-28 | William Blair downgrades Adobe to Market Perform
-**Sentiment:** -0.22 (pos: 0.24, neg: 0.46, neu: 0.30)
-
-William Blair downgraded Adobe (ADBE) from Outperform to Market Perform, arguing that “intense competition” is weakening Adobe’s Creative Cloud moat even though the stock looks inexpensive at about 9 times free cash flow. Analyst Arjun Bhatia said the issue is less valuation than competitive positioning, raising questions about Adobe’s pricing power, ability to differentiate, long-term profitability, and whether it can fully capture the AI opportunity. The firm pointed to mounting pressure from Canva and Figma—both growing quickly and expanding into areas where Adobe has traditionally been strong—while noting that their momentum is narrowing the gap with Adobe’s roughly $19B digital media business. Bhatia also emphasized that AI-native entrants such as Midjourney, Runway, Synthesia, and Stability AI are changing the market dynamics because they were built around AI from the start. In addition, major tech players including Google, OpenAI, and Apple are pushing into AI-powered creative tools, further crowding the competitive landscape. While William Blair stopped short of labeling Adobe an “AI loser,” it expects the stock to remain range-bound until there’s more clarity on how Adobe will respond.
-
-**Key Points:**
-- An analyst note emphasized that AI is lowering the barrier to entry for creative work: “AI has made advanced creative skills easier for more people to access, which lowers the barrier to entry,” helping newer competitors gain traction.
-- William Blair cited concrete scale and growth metrics for rivals to illustrate how fast they are closing the gap with Adobe’s core business: Canva reached about $4B in annual recurring revenue with growth “exceeding 30%,” while Figma hit about $1.2B ARR and is expanding at “40%,” against Adobe Digital Media’s roughly $19B run rate.
-- The downgrade also highlighted competitive context around Adobe’s failed strategy: Figma was described as the company Adobe “unsuccessfully attempted to purchase,” yet it has since grown quickly in product areas where Adobe has traditionally been strong.
-
----
-
-### 2026-03-27 | Arbor Energy signs 5-GW GridMarket turbine deal
-**Sentiment:** +0.46 (pos: 0.53, neg: 0.07, neu: 0.40)
-
-Arbor Energy has agreed to supply GridMarket with up to 5 gigawatts of its Halcyon modular turbines for data centers and industrial users, with each 25-megawatt, rocket-derived, 3D-printed unit enabling an eventual buildout of roughly 200 turbines if fully fulfilled. Arbor says customers are showing strong pricing power—“upwards of” about $100 per megawatt-hour—putting the overall deal value in the single-digit billions, as power demand from AI and electrification outpaces grid and generation timelines. The company aims to start connecting early deployments to the grid in the late 2020s and ramp to more than 100 turbines per year by 2030, targeting much larger annual capacity additions over time. Arbor’s fuel strategy has evolved: its systems can run on biomass-derived syngas for potentially carbon-negative power with carbon capture, but the near-term configuration also supports natural gas—raising emissions and methane-leakage questions even as CO2 is captured for storage. The GridMarket arrangement is also positioned as a faster “time-to-power” solution, with Arbor initially acting as a manufacturer-and-project-builder rather than just an equipment supplier. Separately, Arbor named Nishad Pai as Chief Commercial Officer to build out its commercial pipeline ahead of large-scale HALCYON production.
-
-**Key Points:**
-- Arbor’s CEO Brad Hartwig said the company is leaning on rocket-derived turbomachinery and additive manufacturing to “bypass bottlenecked supply chains,” noting that traditional turbine-makers can push deliveries out “to 2032,” while Halcyon is intended to be deployed faster to meet compressed demand.
-- GridMarket CEO Nick Davis said, “Power availability is quickly becoming the gating factor for data center and industrial development,” adding that customers are seeking ways to secure new capacity faster than traditional generation timelines allow.
-- Hartwig described Arbor’s go-to-market as starting with power purchase discussions rather than turbine-only sales: “At the beginning, we’re working with data center developers…so that we can transact for power, rather than turbines,” and said the long-term goal is to become an OEM turbine manufacturer.
+- PetaPixel called the Studio Display XDR’s build quality “phenomenal,” while also critiquing design choices such as the integrated power cable, sharp edges and thick bezels.
+- One review measured the Studio Display XDR’s audio as delivering about 30% deeper bass through its six‑speaker system and computational audio processing.
+- Apple includes a tilt‑and‑height adjustable stand with the Studio Display XDR models at no extra cost.
 
 ---
 
 ## FMP Articles (30 articles)
 
-### 2026-05-04 | Polen Focus Growth Portfolio Q1 2026 Portfolio Update
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4898017-polen-focus-growth-portfolio-q1-2026-portfolio-update
-
-In Q1 2026, Polen Focus Growth Portfolio returned -17.27% (net of fees) compared to -9.78% for the Index. Starbucks was the top performing absolute and relative contributor in Q1 amid positive signs that CEO Brian Nicol's multi-year turnaround strategy is beginning to bear fruit. In Q1 2026, we initiated new positions in Lam Research, Meta and Rollins, while we sold our holdings in Abbott Laboratories, Adobe, and Boston Scientific, Paycom and Intuit.
-
----
-
-### 2026-05-04 | Adobe Inc. (ADBE) Is a Trending Stock: Facts to Know Before Betting on It
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2913569/adobe-inc-adbe-is-a-trending-stock-facts-to-know-before-betting-on-it?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2913569
-
-Recently, Zacks.com users have been paying close attention to Adobe (ADBE). This makes it worthwhile to examine what the stock has in store.
-
----
-
-### 2026-05-01 | Adobe and Salesforce: Consistent Growth vs. Larger Scale in Revenue
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/coverage/charts/2026/05/01/adobe-and-salesforce-consistent-growth-vs-larger-scale-in-revenue/
-
-Both companies have posted steady revenue gains over eight quarters, but differences in profit margins and recent strategic moves set them apart.
-
----
-
-### 2026-05-01 | This Michael Burry stock is about to go parabolic
-**Source:** Finbold
-**URL:** https://finbold.com/this-michael-burry-stock-is-about-to-go-parabolic/
-
-One of the software long bets the legendary ‘Big Short' trader Michael Burry unveiled on April 13, Veeva Systems (NYSE: VEEV), appears poised to generate exceptional short-term gains for the famed investor and most of its other shareholders.
-
----
-
-### 2026-04-30 | Why Adobe Systems (ADBE) Outpaced the Stock Market Today
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2912602/why-adobe-systems-adbe-outpaced-the-stock-market-today?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2912602
-
-In the latest trading session, Adobe Systems (ADBE) closed at $246.1, marking a +1.04% move from the previous day.
-
----
-
-### 2026-04-30 | Should You Buy Adobe Stock After the Company's $25 Billion Share Repurchase Announcement?
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/04/30/should-buy-adobe-stock-after-share-repurchase/
-
-The $25 billion stock buyback plan is a vote of confidence, but the Adobe stock price has an uphill battle to rebound.
-
----
-
-### 2026-04-29 | Adobe At $240 Reminds Me Of Alphabet At $165
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4896108-adobe-at-240-reminds-me-of-alphabet-at-165
-
-Adobe Inc. is rated Strong Buy with a $450 price target, citing an asymmetric risk/reward after a 35% drawdown. New AI-powered offerings—Express, Firefly, and GenStudio—are driving rapid enterprise adoption, accelerating revenue and operating income growth. ADBE's Q1 2026 saw revenue growth rebound to nearly 12% and operating income up 14.66%, the fastest in five quarters.
-
----
-
-### 2026-04-29 | Adobe: Its Opportunities With AI Outweigh Its Risks
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4896038-adobe-its-opportunities-with-ai-outweigh-its-risks
-
-Adobe faces AI-driven threats to its moat, particularly its seat-based pricing model and high switching costs. ADBE's Creative Cloud and Experience Cloud segments generate high margins, but AI may commoditize its application layer, pressuring profitability and predictability. AI could reduce user friction and expand demand, but uncertainty remains around Adobe's future pricing models and the impact of AI partnerships.
-
----
-
-### 2026-04-29 | Here's Why Adobe Systems (ADBE) is a Strong Growth Stock
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2910755/here-s-why-adobe-systems-adbe-is-a-strong-growth-stock?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|zacks_education_growth_score-2910755
-
-The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.
-
----
-
-### 2026-04-29 | Adobe: Cheap For All The Wrong Reasons
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4895739-adobe-adbe-stock-cheap-for-all-wrong-reasons
-
-Adobe is rated Buy with a $422.32 price target, reflecting conviction in its enduring market position. Despite generative AI advancements, ADBE's integrated workflows and format standards create high switching costs and operational barriers for competitors. The market's focus on generative AI competition overlooks Adobe's unique, invisible infrastructure binding the digital content supply chain.
-
----
-
-### 2026-04-04 | First Pacific Financial Sells 2,446 Shares of Adobe Inc. $ADBE
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/04/first-pacific-financial-sells-2446-shares-of-adobe-inc-adbe.html
-
-First Pacific Financial lessened its holdings in shares of Adobe Inc. (NASDAQ: ADBE) by 90.0% in the undefined quarter, according to its most recent filing with the SEC. The fund owned 273 shares of the software company's stock after selling 2,446 shares during the period. First Pacific Financial's holdings in Adobe were worth
-
----
-
-### 2026-04-02 | Semianalysis CEO: Adobe faces existential threat from AI commoditization
+### 2026-05-13 | Price Prediction: Adobe Is Poised For A Strong Rebound
 **Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/04/02/semianalysis-ceo-adobe-faces-existential-threat-from-ai-commoditization/
+**URL:** https://247wallst.com/investing/2026/05/13/price-prediction-adobe-is-poised-for-a-strong-rebound/
 
-I've been watching Adobe for a decade, and the question I keep coming back to is this: when a company's most loyal users start asking whether they actually need it anymore, how long does loyalty hold?
-
----
-
-### 2026-04-02 | Adobe Inc. $ADBE Shares Purchased by Bank Pictet & Cie Europe AG
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/02/adobe-inc-adbe-shares-purchased-by-bank-pictet-cie-europe-ag.html
-
-Bank Pictet and Cie Europe AG raised its stake in Adobe Inc. (NASDAQ: ADBE) by 19.3% during the undefined quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The firm owned 31,031 shares of the software company's stock after purchasing an additional 5,012 shares during the
+Adobe (NASDAQ:ADBE | ADBE Price Prediction) has had a brutal year, but our model sees a meaningful recovery ahead.
 
 ---
 
-### 2026-04-02 | Anthropic’s Claude Mythos Leak Is Bigger Than You Think
-**Source:** Investor Place
-**URL:** https://investorplace.com/hypergrowthinvesting/2026/04/anthropics-claude-mythos-leak-is-bigger-than-you-think/
+### 2026-05-13 | Boxes, Subscriptions, and Beyond: The Evolution of Software Pricing
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/05/13/software-boxes-subscriptions-and-beyond/
 
-Anthropic's Claude Mythos leak reveals a major AI breakthrough - boosting infrastructure stocks while putting SaaS business models at risk.
-
----
-
-### 2026-03-31 | Exchange Traded Concepts LLC Has $5.41 Million Stock Holdings in Adobe Inc. $ADBE
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/31/exchange-traded-concepts-llc-has-5-41-million-stock-holdings-in-adobe-inc-adbe.html
-
-Exchange Traded Concepts LLC cut its position in shares of Adobe Inc. (NASDAQ: ADBE) by 21.4% in the undefined quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission. The firm owned 15,458 shares of the software company's stock after selling 4,212 shares during the
+Why do software companies keep changing their pricing models? The answer reveals a lot about where the industry is headed.
 
 ---
 
-### 2026-03-30 | 3 Beaten-Down Software Stocks: 2 to Avoid and 1 to Buy
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/30/3-beaten-down-software-stocks-2-to-avoid-and-1-to/
-
-ServiceNow boasts the fastest-growing revenue out of these three, but its stock's premium multiple demands near-perfection from here. Salesforce's top-line growth rate is the lowest of the three businesses.
-
----
-
-### 2026-03-30 | Adobe Inc. (ADBE) is Attracting Investor Attention: Here is What You Should Know
+### 2026-05-12 | Adobe Systems (ADBE) Declines More Than Market: Some Information for Investors
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2891382/adobe-inc-adbe-is-attracting-investor-attention-here-is-what-you-should-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2891382
+**URL:** https://www.zacks.com/stock/news/2920095/adobe-systems-adbe-declines-more-than-market-some-information-for-investors?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2920095
 
-Zacks.com users have recently been watching Adobe (ADBE) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.
-
----
-
-### 2026-03-30 | Nasdaq Correction: 3 Growth Stocks That Make for Screaming Buys Right Now
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/30/nasdaq-correction-3-growth-stocks-screaming-buys/
-
-As of the closing bell on March 27, the Dow Jones Industrial Average and Nasdaq Composite had entered correction territory, with respective declines of 10% and 12.6%. Historically, every double-digit decline in Wall Street's major stock indexes has proved to be a buying opportunity for long-term-minded investors.
+Adobe Systems (ADBE) concluded the recent trading session at $240.83, signifying a -2.16% move from its prior day's close.
 
 ---
 
-### 2026-03-30 | Is This What the Start of an AI Bubble Bust Looks Like?
+### 2026-05-12 | Adobe Inc (ADBE) Shares Fall 4.8% -- What GF Score of 88 Tells Investors
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8852764/adobe-inc-adbe-shares-fall-48-what-gf-score-of-88-tells-investors
+
+On May 12, 2026, Adobe Inc (ADBE) shares fell 4.8% to a current price of $240.83, continuing a downward trend as the stock has experienced a 31.2% decline year-
+
+---
+
+### 2026-05-12 | Adobe: The Market Refuses To See AI As A Tailwind
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4903111-adobe-the-market-refuses-to-see-ai-as-a-tailwind
+
+Adobe is deeply undervalued, trading at
+
+---
+
+### 2026-05-12 | Why Adobe Systems (ADBE) is a Top Value Stock for the Long-Term
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2919709/why-adobe-systems-adbe-is-a-top-value-stock-for-the-long-term?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|zacks_education_value_score-2919709
+
+Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.
+
+---
+
+### 2026-05-08 | ADBE DCF Analysis: Intrinsic Value $685 vs Price $257
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8845894/adbe-dcf-analysis-intrinsic-value-685-vs-price-257
+
+On May 08, 2026, we delve into the DCF analysis for Adobe Inc (ADBE). The company has experienced a turbulent price performance, with a year-to-date decline of
+
+---
+
+### 2026-05-08 | News Media Group Produces Nationwide Satellite Media Tour Featuring Adobe Express to Help Empower Small Businesses and Entrepreneurs During National Small Business Week
+**Source:** Newsfile Corp
+**URL:** https://www.newsfilecorp.com/release/296631/News-Media-Group-Produces-Nationwide-Satellite-Media-Tour-Featuring-Adobe-Express-to-Help-Empower-Small-Businesses-and-Entrepreneurs-During-National-Small-Business-Week
+
+Tech Expert Marc Saltzman Showcases Adobe Express as the "Secret Weapon" for Small Businesses to Compete with Global Brands Using Creative Tools and AI West Palm Beach, Florida--(Newsfile Corp. - May 8, 2026) - News Media Group, Inc. (NMG) today announced the successful production of a nationwide Satellite Media Tour (SMT) featuring renowned tech expert Marc Saltzman providing small businesses and entrepreneurs with actionable insights on how to leverage AI-driven tools like Adobe Express to level the professional playing field. Timed to coincide and celebrate National Small Business Week, the tour reached millions of viewers across the country.
+
+---
+
+### 2026-05-07 | Adobe Falls 27% YTD, Trades at a Discount: What Should Investors Do?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2917385/adobe-falls-27-ytd-trades-at-a-discount-what-should-investors-do?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2917385
+
+Adobe is down 26.7% YTD and trades at a low 10.08 P/E as it ramps GenAI across Creative Cloud, yet muted sentiment suggests wait and see.
+
+---
+
+### 2026-05-07 | Snowflake Is Up 9% Today: Is It Outperforming Other Cloud Stocks Like ServiceNow?
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/07/snowflake-is-up-9-today-is-it-outperforming-other-cloud-stocks-like-servicenow/
+
+Shares of Snowflake (NYSE:SNOW | SNOW Price Prediction) are climbing in early Thursday trading, jumping roughly 9% intraday to around $152.
+
+---
+
+### 2026-04-13 | Salesforce Jumps 5%, Adobe Climbs 6%, Snowflake Rockets 9% in a Broad Software Sector Rebound
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/04/13/salesforce-jumps-5-adobe-climbs-6-snowflake-rockets-9-in-a-broad-software-sector-rebound/
+
+The software sector is staging a meaningful comeback on Monday, with three closely watched names leading the charge.
+
+---
+
+### 2026-04-13 | Why Adobe Systems (ADBE) is a Top Growth Stock for the Long-Term
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2898947/why-adobe-systems-adbe-is-a-top-growth-stock-for-the-long-term
+
+Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.
+
+---
+
+### 2026-04-13 | Tesco partners with Adobe to ramp up AI‑driven personalised marketing
+**Source:** Reuters
+**URL:** https://www.reuters.com/business/media-telecom/tesco-partners-with-adobe-ramp-up-aidriven-personalised-marketing-2026-04-13/
+
+Tesco, Britain's biggest food retailer, has partnered with U.S. software group Adobe to deepen its use of artificial intelligence ​in analysing customer data, aiming to boost sales through ‌more personalised marketing, the groups said on Monday.
+
+---
+
+### 2026-04-13 | Here Are Monday’s Top Wall Street Analyst Research Calls: Adobe, Best Buy, Bilibili, Constellation Brands, CoreWeave, Nike, Starbucks, T-Mobile, and More
 **Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/03/30/is-this-what-the-start-of-an-ai-bubble-bust-looks-like/
+**URL:** https://247wallst.com/investing/2026/04/13/here-are-mondays-top-wall-street-analyst-research-calls-adobe-best-buy-bilibili-constellation-brands-coreweave-nike-starbucks-t-mobile-and-more/
 
-The broad markets took a vicious turn lower at the end of last week, and with the Dow officially in correction territory, and the S&P likely to come up next, it's hard not to be influenced, at least ever so slightly, by the barrage of negative headlines. Formalities aside, though, the S&P has pretty much... Is This What the Start of an AI Bubble Bust Looks Like?.
+Pre-Market Stock Futures: Futures are trading lower this morning after negotiations with Iran failed over the weekend, and President Trump indicated the U.S. will block the Strait of Hormuz. This comes as we get set to start the first-quarter earnings season this week, as the major money-center banks and brokerage firms begin to report results... Here Are Monday's Top Wall Street Analyst Research Calls: Adobe, Best Buy, Bilibili, Constellation Brands, CoreWeave, Nike, Starbucks, T-Mobile, and More
 
 ---
 
-### 2026-03-29 | DLK Investment Management LLC Lowers Stock Position in Adobe Inc. $ADBE
+### 2026-04-13 | Adobe Inc. $ADBE Holdings Decreased by Ritholtz Wealth Management
 **Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/29/dlk-investment-management-llc-lowers-stock-position-in-adobe-inc-adbe.html
+**URL:** https://www.defenseworld.net/2026/04/13/adobe-inc-adbe-holdings-decreased-by-ritholtz-wealth-management.html
 
-DLK Investment Management LLC lowered its holdings in shares of Adobe Inc. (NASDAQ: ADBE) by 26.8% in the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission (SEC). The firm owned 9,030 shares of the software company's stock after selling 3,303 shares during the period.
-
----
-
-### 2026-03-05 | The Stocks Poised for a Breakout
-**Source:** InvestorPlace
-**URL:** https://investorplace.com/2026/03/the-stocks-poised-for-a-breakout/
-
-Our old warning about Adobe
+Ritholtz Wealth Management decreased its holdings in shares of Adobe Inc. (NASDAQ: ADBE) by 29.2% during the fourth quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The institutional investor owned 8,260 shares of the software company's stock after selling 3,401 shares during the quarter. Ritholtz Wealth
 
 ---
 
-### 2026-03-05 | Adobe Systems (ADBE) Earnings Expected to Grow: What to Know Ahead of Next Week's Release
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2879441/adobe-systems-adbe-earnings-expected-to-grow-what-to-know-ahead-of-next-week-s-release?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_9-2879441
-
-Adobe (ADBE) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.
-
----
-
-### 2026-03-05 | Adobe Q1 FY 2026 Preview: The SaaS Selloff Is Overdone, Trading At 10x P/FCF Is A Strong Buy
+### 2026-04-13 | Why Adobe Is A 'Strong Buy' Despite The AI Boogeyman
 **Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4878855-adobe-1q-fy2026-preview-the-saas-selloff-is-overdone-trading-at-10x-pfcf-is-a-strong-buy
+**URL:** https://seekingalpha.com/article/4890114-why-adobe-is-a-strong-buy-despite-the-ai-boogeyman
 
-Adobe is upgraded to Strong Buy as its valuation has dropped to 11.5x forward non-GAAP P/E (nearly 50% below my last rating), driven by fears of SaaS disruption. In the latest 4Q earnings, ADBE's ARR and RPO growth remained resilient, and its balance sheet is healthy with $385M in net cash. FCF margin reached 41.4% in FY2025, with FCF expected to grow 9.6% YoY in FY2026, bringing its P/FCF fwd to 10.2x.
-
----
-
-### 2026-03-04 | 1 Oversold Growth Stock to Buy Before It Rebounds
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/04/1-oversold-growth-stock-to-buy-before-it-rebounds/
-
-Adobe recently reported record quarterly revenue of $6.2 billion, up more than 10% year over year. The company has been spending massive sums on share repurchases recently.
+Adobe (ADBE) remains a strong buy, despite AI-driven disruption risks and recent stock underperformance. AI integration is robust, with Firefly products showing rapid adoption, yet market concerns linger over seat-based revenue vulnerability. Revenue and earnings continue to beat guidance, with FY26 Q1 revenue up 12% YoY and management guiding for 9.7% full-year growth.
 
 ---
 
-### 2026-03-04 | The Billionaire Investor Who Bet Against Nvidia and Palantir Is Buying Adobe
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/03/04/the-billionaire-investor-who-bet-against-nvidia-and-palantir-is-buying-adobe/
+### 2026-04-12 | Dara Capital US Inc. Purchases New Position in Adobe Inc. $ADBE
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/12/dara-capital-us-inc-purchases-new-position-in-adobe-inc-adbe.html
 
-Billionaire investor Michael Burry earned his reputation as a legendary contrarian by betting against the U.S.
-
----
-
-### 2026-03-03 | Can These Beaten Down Stocks Turn Things Around? NKE, ADBE
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/commentary/2878217/can-these-beaten-down-stocks-turn-things-around-nke-adbe?cid=CS-STOCKNEWSAPI-FT-investment_ideas-2878217
-
-While the market has been undoubtedly strong over the past year, the same can't be said for several well-known stocks, a list that includes Adobe ADBE, and NIKE NKE.
+Dara Capital US Inc. purchased a new stake in shares of Adobe Inc. (NASDAQ: ADBE) during the undefined quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The fund purchased 3,627 shares of the software company's stock, valued at approximately $1,269,000. Adobe accounts for approximately 1.1%
 
 ---
 
-### 2026-03-03 | The Market Isn’t Flat. It’s Rotating – And AI Is the Trigger
-**Source:** Investor Place
-**URL:** https://investorplace.com/hypergrowthinvesting/2026/03/the-market-isnt-flat-its-rotating-and-ai-is-the-trigger/
+### 2026-04-12 | Carnegie Investment Counsel Trims Stake in Adobe Inc. $ADBE
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/12/carnegie-investment-counsel-trims-stake-in-adobe-inc-adbe.html
 
-AI is driving a massive stock market rotation. Why software stocks are falling - and hard assets are suddenly winning.
-
----
-
-### 2026-03-02 | Will Adobe (ADBE) Beat Estimates Again in Its Next Earnings Report?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2877689/will-adobe-adbe-beat-estimates-again-in-its-next-earnings-report?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_7-2877689
-
-Adobe (ADBE) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.
+Carnegie Investment Counsel decreased its position in shares of Adobe Inc. (NASDAQ: ADBE) by 41.2% during the fourth quarter, according to its most recent filing with the SEC. The firm owned 8,016 shares of the software company's stock after selling 5,628 shares during the period. Carnegie Investment Counsel's holdings in Adobe were worth
 
 ---
 
-### 2026-03-02 | Adobe to Announce Q1 FY2026 Earnings Results on March 12, 2026
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260302269687/en/Adobe-to-Announce-Q1-FY2026-Earnings-Results-on-March-12-2026/
+### 2026-04-11 | Eagle Strategies LLC Buys 5,397 Shares of Adobe Inc. $ADBE
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/11/eagle-strategies-llc-buys-5397-shares-of-adobe-inc-adbe.html
 
-SAN JOSE, Calif.--(BUSINESS WIRE)--Today, Adobe (Nasdaq:ADBE), the global technology leader that unleashes creativity, productivity and customer experiences through innovative tools and platforms, announced it will release its first quarter fiscal year 2026 results after the market closes on Thursday, March 12, 2026, followed by a conference call with investors from 2-3 p.m. Pacific Time. The conference call will be streamed live on the Adobe Investor Relations Site. Following the call, a recor.
+Eagle Strategies LLC grew its stake in Adobe Inc. (NASDAQ: ADBE) by 312.1% during the undefined quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The firm owned 7,126 shares of the software company's stock after purchasing an additional 5,397 shares during the period. Eagle
 
 ---
 
-### 2026-03-02 | 4 Software Stocks With 38% to 82% Upside Potential According to Wall Street
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/02/4-software-stocks-with-38-to-82-upside-potential/
+### 2026-04-10 | Dow Jones closes lower as markets digest inflation shock and mixed tech action
+**Source:** Proactive Investors - Finance
+**URL:** https://www.proactiveinvestors.com/companies/news/1090346/dow-jones-closes-lower-as-markets-digest-inflation-shock-and-mixed-tech-action-1090346.html
 
-Oracle, Adobe, and Microsoft offer software tools that are massively popular with users. Palantir's software suite is increasingly in demand from government and commercial clients.
+4.15pm: Stocks see second week of gains US stocks finished Friday’s session mixed as investors reacted to new inflation data ahead of key peace talks this...
+
+---
+
+### 2026-03-14 | Glenmede Investment Management LP Raises Holdings in Adobe Inc. $ADBE
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/03/14/glenmede-investment-management-lp-raises-holdings-in-adobe-inc-adbe.html
+
+Glenmede Investment Management LP lifted its position in shares of Adobe Inc. (NASDAQ: ADBE) by 13.9% during the third quarter, according to its most recent filing with the Securities and Exchange Commission. The institutional investor owned 195,873 shares of the software company's stock after buying an additional 23,834 shares during the quarter. Glenmede
+
+---
+
+### 2026-03-14 | Adobe Q1 2026 Earnings Update
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4882440-adobe-q1-2026-earnings-update
+
+Adobe's earnings on Thursday continued to show that revenue is still growing at a double-digit rate, with operating margins remaining quite stable. Adobe mentioned their ARR from “AI first” offerings tripled YoY, with monthly active users (MAU) across Acrobat, Creative Cloud, Express and Firefly growing 17% YoY to reach 850 million. The most likely reason for the stock to be down post-earnings is that Shantanu Narayen, who has been Adobe's CEO for the last 18 years, abruptly announced his retirement on Thursday.
+
+---
+
+### 2026-03-14 | Adobe (NASDAQ:ADBE) Shares Gap Down  on Analyst Downgrade
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/03/14/adobe-nasdaqadbe-shares-gap-down-on-analyst-downgrade.html
+
+Adobe Inc. (NASDAQ: ADBE - Get Free Report) shares gapped down prior to trading on Friday after UBS Group lowered their price target on the stock from $340.00 to $290.00. The stock had previously closed at $269.78, but opened at $249.00. UBS Group currently has a neutral rating on the stock. Adobe shares last traded at
+
+---
+
+### 2026-03-13 | What Next After Adobe CEO Narayen Steps Down Without Replacement?
+**Source:** Forbes
+**URL:** https://www.forbes.com/sites/dbloom/2026/03/13/what-next-after-adobe-ceo-narayen-steps-down-without-replacement/
+
+Despite Adobe's solid quarterly earnings report Thursday, the company's long-time CEO Shantanu Narayen announced he will step down, as soon as the company can find a successor. So now where does the software giant go?
+
+---
+
+### 2026-03-13 | Adobe Will Pay $75M in Free Services in DOJ Subscription Cancellation Case Settlement
+**Source:** CNET
+**URL:** https://www.cnet.com/tech/services-and-software/adobe-department-of-justice-cancellation-fees-lawsuit-settlement-news/
+
+The 2024 lawsuit alleged that Adobe's confusing and costly cancellation process violated consumer protections.
+
+---
+
+### 2026-03-13 | Stock Market Today, March 13: Markets Fall as Oil Prices Soar and Iran War Continues
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/coverage/stock-market-today/2026/03/13/stock-market-today-march-13-markets-fall-as-oil-prices-soar-and-iran-war-continues/
+
+Today, March 13, 2026, oil's surge toward $100 is rattling major U.S. indexes and pushing investors toward defensive corners of the market.
+
+---
+
+### 2026-03-13 | Adobe Faces Market Volatility Amid Strong Q1 and Leadership Transition
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8708560/adobe-faces-market-volatility-amid-strong-q1-and-leadership-transition
+
+Adobe (ADBE) is experiencing a significant drop in stock price despite reporting strong Q1 results and optimistic Q2 guidance. Investors are evaluating the comp
+
+---
+
+### 2026-03-13 | Adobe agrees to pay $150 million to resolve alleged violations of online shopper law
+**Source:** Reuters
+**URL:** https://www.reuters.com/world/adobe-agrees-pay-150-million-resolve-alleged-violations-online-shopper-law-2026-03-13/
+
+The U.S. ​Justice Department ‌said on Friday that ​Adobe ​Inc has agreed ⁠to ​a $150 million ​settlement and an injunction to ​resolve ​allegations that the ‌software ⁠firm's subscription practices violated ​the ​Restore ⁠Online Shoppers' Confidence ​Act.
+
+---
+
+### 2026-03-13 | Adobe Settles With U.S. Over Hard-to-Cancel Subscriptions
+**Source:** NYTimes
+**URL:** https://www.nytimes.com/2026/03/13/technology/adobe-settlement-doj.html
+
+The maker of Photoshop agreed to pay $75 million to the government, which had accused it of hiding details of expensive fees.
+
+---
+
+### 2026-03-13 | Adobe: Record Quarter, But ARR Slowdown And CEO Transition Drag Stock Down
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4882314-adobe-record-quarter-but-arr-slowdown-and-ceo-transition-drag-stock-down
+
+Adobe Inc. delivered a record quarter with $6.4B revenue (12% YoY growth) and 47.4% non-GAAP operating margins, yet shares fell over 6%. Concerns over ARR growth slowdown and CEO Narayen's planned departure drove the selloff, despite Narayen staying as Chairman to ensure a smooth transition. AI is both a threat and an opportunity; ADBE's Firefly generative AI platform is driving increased user engagement and integrating AI into creative workflows.
 
 ---

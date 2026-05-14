@@ -1,8 +1,8 @@
-# Pass 2: The Projection — AI Supply Chain
+# Pass 2: The Projection
 
 ## Role
 
-You are conducting Pass 2: The Projection for **{TICKER}**, an AI supply chain stock. Your purpose is to read the most recent earnings call against the financial picture already established, assess whether the thesis is timely, and produce the final assessment. The Context step formed the hypothesis and established the narrative picture, including reflexivity position, scenario embedded in price, and the capex-to-revenue path. The Numbers step tested it against the financials, including the self-sustaining investment cycle question, off-balance-sheet exposure, and AI asset useful life assumptions. This step asks: does management's most recent account hold up, and is there a credible path to price realization?
+You are conducting Pass 2: The Projection for **{TICKER}**. Your purpose is to read the most recent earnings call against the financial picture already established, assess whether the thesis is timely, and produce the final assessment. The Context step formed the hypothesis and established the narrative picture. The Numbers step tested it against the financials. This step asks: does management's most recent account of the business hold up, and is there a credible path to price realization?
 
 ---
 
@@ -21,10 +21,8 @@ Read the following before doing anything else.
 - `Data/tickers/{TICKER}/{TICKER}_earnings_qa.md` — Full Q&A for the two most recent quarters. Full read.
 - `context_markets.md` — Current macro conditions and prevailing narratives. Read before analyzing — macro context informs how you read the earnings call, not just the assessment.
 
-**Required**
-- `context_ai_supply_chain_index.md` — **Required read before beginning analysis.** Locate the entry for `{TICKER}`. The tier (IRREPLACEABLE / CRITICAL / LEVERAGED), competitive position, key risks, and nearest alternatives are the structural anchor for interpreting management's account — use it actively throughout, not as background context.
-
 **Conditional**
+- `context_ai_supply_chain_index.md` — Read if `{TICKER}` has an `AI SC` Sector Theme tag. Provides the ticker's tier (IRREPLACEABLE / CRITICAL / LEVERAGED), role, competitive position, nearest alternatives, and key risks in the AI supply chain. Load this by default.
 - `context_ai_supply_chain.md` — Full encyclopedia. Load only if: (a) the ticker spans multiple layers and the index entry is insufficient for the analysis, or (b) deeper structural or constraint context is explicitly needed for the thesis. Do not load by default.
 
 **Data check:** Confirm `{TICKER}_earnings_remarks.md` and `{TICKER}_earnings_qa.md` are present and non-empty. If either is missing, stop and alert before proceeding.
@@ -34,7 +32,7 @@ Read the following before doing anything else.
 ## Step 2: Analyze
 
 > **Output mode — read before starting.**
-> Write the full analysis directly to `### The Projection` in the Thesis file **as you generate it** — Q1 through Q8, then the Synthesis. Do **not** output the full analysis text in the chat window. When all questions are complete, present **only the Synthesis block** in the chat for review. This keeps the context window lean and prevents autocompaction from disrupting the analysis mid-flow.
+> Write the full analysis directly to `### The Projection` in the Thesis file **as you generate it** — Q1 through Q7, then the Synthesis. Do **not** output the full analysis text in the chat window. When all sections are complete, present **only the Synthesis block** in the chat for review. This keeps the context window lean and prevents autocompaction from disrupting the analysis mid-flow.
 
 Work through each section in order. The Output Format below defines everything that will be committed to the Thesis file — answer every question in full.
 
@@ -66,7 +64,7 @@ Work through each section in order. The Output Format below defines everything t
 
 ### Output Format
 
-All questions below constitute the full Pass 2 output. Every question must be answered. Q1–Q8 will be committed to `### The Projection` in the Thesis file. The Synthesis block will be committed to `### Synthesis` only — it does not appear inside `### The Projection`.
+All questions below constitute the full Pass 2 output. Every question must be answered. Q1 through Q7 will be committed to `### The Projection` in the Thesis file. The Synthesis block will be committed to `### Synthesis`.
 
 ---
 
@@ -77,30 +75,20 @@ All questions below constitute the full Pass 2 output. Every question must be an
 **Q1. Which of the two calls is more strategically material, and why?**
 State this before analyzing. Identify which call covers full-year results and annual guidance vs. which is an incremental quarterly update. This framing applies throughout the analysis — where the two calls diverge in data, tone, or emphasis, it matters which carries more weight.
 
-**Q2. Does management's characterization of business performance align with what The Numbers established — or are there notable deflections, omissions, or contradictions? What do the calls add that the financial statements couldn't?**
-Cite specific excerpts from both calls. Note where they differ from each other and where either diverges from the findings in The Numbers. Pay particular attention to three things: (a) how management characterizes the capex-to-revenue path — does the account confirm or sidestep the demand visibility and investment cycle questions flagged in The Numbers? (b) revenue descriptions involving counterparties who are also capital partners or infrastructure partners — assess whether the revenue represents genuine external demand or a circular arrangement; (c) AI monetization or deployment gains management describes that the financial statements couldn't capture — specific customer wins, utilization improvements, or pricing progress that materially changes the picture established in The Numbers.
+**Q2. Does management's characterization of business performance align with what The Numbers established — or are there notable deflections, omissions, or contradictions? Where does the call add context that the financial statements couldn't?**
+Cite specific excerpts from both calls. Note where they differ from each other and where either diverges from the findings in The Numbers. What did management say that the financials could not have told us?
 
-**Q3. What is management saying about the path forward — guidance figures, growth targets, margin trajectory — and where does this diverge from the historical trend established in The Numbers?**
-Summarize explicit forward guidance figures. Label all as forward-looking. Where guidance implies acceleration or deceleration relative to the historical trend, flag the delta. Where management cites adjusted figures, check whether the GAAP equivalent is disclosed. On the AI investment cycle specifically: is the capex trajectory backed by contracted customer demand — named customers, committed contracts, specific ROI targets — or described in terms of future opportunity? The former de-risks the investment thesis; the latter extends the installation phase. Also note where guidance implies AI-driven margin improvement or revenue acceleration ahead of what The Numbers established — these are upside signals that materially change the EV picture.
+**Q3. What is management saying about the path forward — guidance figures, growth targets, margin trajectory? Where does guidance diverge from the historical trend established in The Numbers?**
+Summarize explicit forward guidance figures. Label all as forward-looking. Where guidance implies acceleration or deceleration relative to the historical trend, flag the delta. Where management cites adjusted figures, check whether the GAAP equivalent is disclosed.
 
 **Q4. Has management's language or tone shifted relative to the prior call — increased hedging, new risk disclosures, or topics that have quietly disappeared from discussion?**
 Compare tone and emphasis between the two calls. What was foregrounded in the earlier call that is now absent? What is new? Tone shifts often surface risks before they appear in the financials.
 
-**Q5. For each open question from The Numbers — was it addressed on either call?**
-For each open question from The Numbers: (a) was it addressed on either call? (b) cite what was said directly. (c) does the answer strengthen, weaken, or leave the thesis unchanged? Any item not addressed must be flagged as unresolved — none carried forward silently.
-
-In addition, the following must be explicitly tracked regardless of whether they appeared in the open questions list:
-
-*Risk side:* (a) Is the AI investment cycle moving toward self-funding from cash generation, or does continued growth still require ongoing external capital? (b) Do off-balance-sheet structures, SPVs, or vendor financing arrangements get addressed, clarified, or avoided on the call? (c) Does management acknowledge AI asset useful life and obsolescence risk, or is that topic absent? (d) Are circular arrangement flags from The Numbers accounting checklist addressed or deflected?
-
-*Upside side:* (e) Does the call reveal AI deployment progress not visible in the financial statements — utilization rates, customer adoption metrics, or contracted demand building ahead of revenue recognition? (f) Does management describe pricing power or structural demand that hasn't yet appeared in reported figures? (g) Is there language suggesting the investment-to-revenue timeline is compressing — deployment closer than the financials implied?
-
-Flag all unresolved items in the assessment.
+**Q5. For each open question listed at the end of The Numbers — was it addressed on either call?**
+List every open question from The Numbers. For each: (a) was it addressed on either call? (b) cite what was said directly. (c) does the answer strengthen, weaken, or leave the thesis unchanged? Any item not addressed must be flagged as unresolved — none carried forward silently.
 
 **Q6. What are analysts most concerned about and most excited about — and what does the Q&A reveal that the prepared remarks don't?**
-Surface the substantive content — what analysts are probing, what they are endorsing. Specific citation required for each significant exchange. Do not summarize generically.
-
-Prepared remarks are managed; Q&A responses are less so. Where management's tone, specificity, or framing shifts under questioning, note it. Hedges introduced only under questioning, figures disclosed only when pressed, and topics deflected rather than answered are all informative. Assess both directions: where analysts probe capex ROI, revenue sustainability, financing structures, or the path to self-funding — does management become more or less specific than in prepared remarks? And where analysts probe or endorse AI monetization progress, deployment acceleration, or competitive positioning — does management's tone or specificity under questioning reveal more conviction than the prepared narrative suggested? Both the evasions and the endorsements under pressure are signals.
+Surface the substantive content — what analysts are probing, what they are endorsing. Specific citation required for each significant exchange. Do not summarize generically. Prepared remarks are managed; Q&A responses are less so. Where management's tone, specificity, or framing shifts under questioning, note it. Hedges introduced only under questioning, figures disclosed only when pressed, and topics deflected rather than answered are all informative.
 
 **Q7. Did the earnings calls strengthen or undermine the narrative and catalyst picture established in Context? What is the specific upcoming event catalyst that could drive a rerating in 3–6 months — what is it, when does it occur, and is it management-flagged or inferred?**
 Referencing the narrative pre-check from Context, assess: did the earnings call change it — and how? If no narrative pathway was identified in Context, does the call introduce one, or does the prior hold? State the updated conclusion explicitly.
@@ -108,16 +96,6 @@ Referencing the narrative pre-check from Context, assess: did the earnings call 
 If a catalyst exists: name it, state the expected window, and assess its credibility. If management flagged it, cite directly. If inferred from context, label as inferred. If no near-term event catalyst exists, state that explicitly — it is an input to the assessment, not a failure of analysis.
 
 **On earnings as a catalyst:** The next scheduled earnings print qualifies as a catalyst only if it will specifically resolve something — a turnaround quarter whose results will confirm or deny the thesis, a metric management explicitly committed to disclose, a product ramp whose first revenue will appear in those results, or a situation where the trend has been so volatile that the next data point is genuinely thesis-critical. It does not qualify simply because it will provide more data in the same direction. If the picture is unlikely to change materially in the next quarter — the business keeps doing what it does, the overhang persists, guidance will still be opaque — then next earnings is a data gate, not a catalyst, and should not be used to justify a BUY assessment.
-
-**Q8. Who are the major customers, suppliers, and competitors surfacing in the earnings calls?**
-Note any named customers, suppliers, or competitors that surface in either call that were not identified in prior passes. List every publicly traded company identified in any of these roles:
-
-```
-Company (Ticker) — Role
-Company (Ticker) — Role
-```
-
-No commentary. No tracker cross-referencing.
 
 ---
 
@@ -136,9 +114,6 @@ What is the narrative picture, updated by the earnings call? Is a story forming 
 
 **Scenario**
 What scenario does the current price appear to embed across all three passes — and does the final picture confirm, deny, or complicate it?
-
-**Reflexivity + AI Lifecycle**
-Where does this company sit in the reflexivity cycle (Soros) and the AI technology lifecycle (Perez)? What evidence from all three passes supports that position, and what would signal a reversal in either framework?
 
 **Thesis**
 Final reconciliation of the hypothesis across all three steps — how has the evidence changed, confirmed, or complicated the preliminary hypothesis from Context?
@@ -165,7 +140,7 @@ Specific, observable developments that would make this thesis wrong and trigger 
 
 Before proceeding to Step 3, answer the following internally. Do not include these answers in your output — they are for your own verification only. If any answer is no, revise before proceeding.
 
-- Have all questions Q1–Q8 been answered in full, and has the Synthesis been completed?
+- Have all questions Q1–Q7 been answered in full, and has the Synthesis been completed?
 - Has the FULL Thesis file been re-read before writing the Synthesis — not just the hypothesis sections?
 - Has the cross-section consistency check been performed — do the same figures appear consistently across Context, The Numbers, and this analysis? Has any discrepancy been resolved and the correct value stated?
 - Is every management claim cited with a specific transcript reference?
@@ -177,10 +152,8 @@ Before proceeding to Step 3, answer the following internally. Do not include the
 - Has the framing audit been performed — is the analysis free of systematic bullish or bearish bias?
 - Has `context_markets.md` been factored into the Synthesis — do prevailing macro conditions inform the assessment?
 - Are all factual claims tagged `[CONFIRMED]`, `[ESTIMATED]`, or `[INFERRED]` with citations?
+- Is the Synthesis complete across all four dimensions — Numbers, Narrative & Catalyst, Scenario, and Thesis?
 - Does the Expected Value assessment name which dimensions (Numbers strength, Narrative, Catalyst) are present and which are absent — and explain how they together produce the conclusion?
-- Have both the risk-side and upside-side Q5 tracking items been explicitly addressed — self-sustaining investment cycle, off-balance-sheet structures, useful life/obsolescence, and circular arrangement flags on the risk side; deployment progress, pricing power, and timeline compression on the upside side? Are unresolved items flagged in the assessment?
-- Are the Reflexivity and AI Lifecycle positions grounded in specific evidence from all three passes — combined in one answer, not treated as separate assessments?
-- Has Q2 been checked for any named customers or suppliers surfacing in the earnings calls that weren't captured in prior passes?
 
 **Action:** Ask: *"The full Projection analysis has been written to the Thesis file. Do you approve the Synthesis above? Should I finalize and update the Stock Tracker?"*
 
@@ -190,7 +163,7 @@ Before proceeding to Step 3, answer the following internally. Do not include the
 
 ## Step 3: Commit
 
-The full Projection analysis was already written during Step 2 — Q1–Q8 to `### The Projection` and the Synthesis block to `### Synthesis`. No further writing to the Thesis file is needed.
+The full Projection analysis was already written during Step 2 — Q1–Q7 to `### The Projection` and the Synthesis block to `### Synthesis`. No further writing to the Thesis file is needed.
 
 Update `Stock_Tracker.md`:
    - Set **Phase** to `Complete`
