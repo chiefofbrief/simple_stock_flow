@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ADI",
+    "companyName": "Analog Devices, Inc.",
+    "price": 427.95,
+    "mktCap": 208926968988
+  },
+  {
+    "symbol": "AMAT",
+    "companyName": "Applied Materials, Inc.",
+    "price": 442.0993,
+    "mktCap": 350854425473
+  },
+  {
+    "symbol": "APH",
+    "companyName": "Amphenol Corporation",
+    "price": 124.91,
+    "mktCap": 153668029300
+  },
+  {
+    "symbol": "ARM",
+    "companyName": "Arm Holdings plc American Depositary Shares",
+    "price": 220.415,
+    "mktCap": 234521244586
+  },
+  {
+    "symbol": "KLAC",
+    "companyName": "KLA Corporation",
+    "price": 1874.86,
+    "mktCap": 244909210205
+  },
+  {
+    "symbol": "LRCX",
+    "companyName": "Lam Research Corporation",
+    "price": 297.73,
+    "mktCap": 372332206100
+  },
+  {
+    "symbol": "NOW",
+    "companyName": "ServiceNow, Inc.",
+    "price": 89.3,
+    "mktCap": 92095804400
+  },
+  {
+    "symbol": "QCOM",
+    "companyName": "QUALCOMM Incorporated",
+    "price": 204.495,
+    "mktCap": 215537730000
+  },
+  {
+    "symbol": "SONY",
+    "companyName": "Sony Group Corporation",
+    "price": 22.135,
+    "mktCap": 130774933732
+  },
+  {
+    "symbol": "TXN",
+    "companyName": "Texas Instruments Incorporated",
+    "price": 307.175,
+    "mktCap": 279557817275
+  }
+]

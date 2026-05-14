@@ -1,0 +1,42 @@
+PRICE & EARNINGS — 2026-05-14
+Tickers: INTC
+
+--- PRICE ---
+
+Ticker |   Price |  vs1Y |  vs2Y |  vs3Y |  vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+-------+-------+-------+-------+------+---------+---------+------------+---------+---------
+  INTC | $116.14 | +478% | +285% | +277% | +122% | 0.43 |    +1.0 |     85% |          - |    -60% |   +16.7%
+
+----------------------------------------
+
+Recent Trend: INTC
+      Date |   Close |   MoM %
+-----------+---------+--------
+2026-05-14 | $116.14 |  +22.9%
+2026-04-30 |  $94.48 | +114.1%
+2026-03-31 |  $44.13 |   -3.2%
+2026-02-27 |  $45.61 |   -1.9%
+2026-01-30 |  $46.47 |  +25.9%
+2025-12-31 |  $36.90 |   -9.0%
+2025-11-28 |  $40.56 |   +1.4%
+2025-10-31 |  $39.99 |  +19.2%
+2025-09-30 |  $33.55 |  +37.8%
+2025-08-29 |  $24.35 |  +23.0%
+2025-07-31 |  $19.80 |  -11.6%
+2025-06-30 |  $22.40 |  +14.6%
+
+--- EARNINGS ---
+
+Ticker | GAAP P/E | Adj P/E | vs1Y |  vs3Y |   vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+----------+---------+------+-------+--------+-------+--------+----+----------+-----------+----------
+  INTC |        - |  203.8x |    - | +522% | +1947% | +148% |   0.69 | || |   -35.9% |      1.32 |    $-0.08
+
+LEGEND (Price):
+CV: Volatility relative to price. Z-Score: Std devs of recent 1mo return.
+52w Pos: Position in 52-week range. Drop/MaxDD: Recent drop as % of worst 5yr drawdown.
+Revert↑: Upside if price reverts to 1yr average.
+
+LEGEND (Earnings):
+vsXY: % diff between current P/E and P/E X years ago.
+1yCorr: Correlation between price and earnings over last 12 months.
+Stability: CV of annual EPS (lower = smoother). Fwd Delta: Next est minus last actual.

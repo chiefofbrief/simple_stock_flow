@@ -1,8 +1,8 @@
-# Pass 1: The Numbers — AI Supply Chain
+# Pass 1: The Numbers — Software
 
 ## Role
 
-You are conducting Pass 1: The Numbers for **{TICKER}**, an AI supply chain stock. Your purpose is to determine whether the business's financial health confirms or disputes the preliminary hypothesis established in the Context step. The earnings call and synthesis in Pass 2 will test whether the thesis is timely — your job here is to establish whether the business itself warrants a thesis at all.
+You are conducting Pass 1: The Numbers for **{TICKER}**, a software company navigating AI disruption. Your purpose is to determine whether the business's financial health confirms or disputes the preliminary hypothesis established in the Context step. The earnings call and synthesis in Pass 2 will test whether the thesis is timely — your job here is to establish whether the business itself warrants a thesis at all.
 
 ---
 
@@ -21,8 +21,9 @@ Read the following before doing anything else:
 - `Data/tickers/{TICKER}/{TICKER}_notes.md` — Available for targeted grep searches **only**. Do not read in full.
 - `Data/tickers/{TICKER}/{TICKER}_mda.md` — Available for targeted grep searches **only**. Do not read in full.
 
-**Required**
-- `context_ai_supply_chain_index.md` — Read before beginning analysis. Locate the entry for `{TICKER}`. The tier (IRREPLACEABLE / CRITICAL / LEVERAGED), competitive position, and key risks inform how you interpret the financial metrics — particularly capex, margins, and debt.
+**Conditional**
+- `context_ai_supply_chain_index.md` — Read if `{TICKER}` has an `AI SC` Sector Theme tag. Provides the ticker's tier (IRREPLACEABLE / CRITICAL / LEVERAGED), role, competitive position, nearest alternatives, and key risks in the AI supply chain. Load this by default.
+- `context_ai_supply_chain.md` — Full encyclopedia. Load only if: (a) the ticker spans multiple layers and the index entry is insufficient for the analysis, or (b) deeper structural or constraint context is explicitly needed for the thesis. Do not load by default.
 
 **Data check:** Confirm `{TICKER}_financial_analysis.md` is present and non-empty. Before deferring any unresolved question to a later phase, check whether the raw JSON files (`Data/tickers/{TICKER}/raw/`) contain data that would resolve it — only defer when the data genuinely does not exist in the raw files. If `{TICKER}_financial_analysis.md` is missing, stop and alert before proceeding.
 
@@ -50,7 +51,7 @@ Work through each section in order. The Output Format below defines everything t
 - **Per-metric dimensions:** For each metric in Metrics, address: (1) how the current figure compares to historical levels, (2) the long-term trend and volatility (5yr), (3) the short-term trend and volatility (past 4 quarters), and (4) what the Metric Interpretations below indicate about the trend and current value.
 - **Peer comparison:** If peer data is provided in `{TICKER}_financial_analysis.md`, compare the target directly against peers within each metric.
 - **Earnings quality — GAAP vs. Adj:** Where a material gap exists between GAAP and Adj P/E (flagged in the Context step), investigate the drivers — primarily SBC as a % of revenue and amortization of acquired intangibles. SBC is a dedicated row in `{TICKER}_financial_analysis.md` and must be analyzed directly. Amortization of acquired intangibles is not separable from D&A in the FMP data; defer that decomposition to targeted searches via SEC filings. Surface the SBC analysis in the OCF/Net Income metric and Synthesis Question 1.
-- **Metric Interpretations:** The section at the bottom of this prompt matches exactly the metrics being analyzed and is your primary interpretive reference for each metric in Metrics.
+- **Metric Interpretations:** The section at the bottom of this prompt matches exactly the metrics being analyzed and is your primary interpretive reference for each metric.
 - **Example Analyses:** The Example Analyses at the bottom of this prompt illustrate the required level of rigor, depth, and specificity — how data points are cited, how peer comparisons are integrated within each metric, and how accounting findings connect back to financial analysis conclusions. Do not replicate findings or structure mechanically.
 
 ---
@@ -67,7 +68,7 @@ All sections below constitute the full Pass 1 output. Every question must be ans
 *For each metric, write a concise paragraph synthesizing the current level, trend, and what the data implies. If peer data is provided, compare directly within each metric. Close each metric with a TL;DR of two sentences: (1) what this metric confirms or flags about the business; (2) the investment implication.*
 
 **Revenue**
-[Analysis. Note whether deferred revenue is growing — a positive signal that contracted demand is building ahead of recognition — or shrinking. Assess whether revenue growth tracks the scale of AI infrastructure investment underway: demand-driven revenue growth and capex-driven revenue growth have different implications for durability. Revenue quality — whether growth reflects genuine external customer demand versus circular arrangements or vendor financing between counterparties — cannot be determined from financial statements alone. Flag for Accounting Checklist Category 1 investigation if revenue concentration, counterparty relationships, or growth patterns raise questions.]
+[Analysis]
 
 **Operating Margin**
 [Analysis]
@@ -88,10 +89,10 @@ All sections below constitute the full Pass 1 output. Every question must be ans
 [Analysis]
 
 **Capital Expenditures & D&A**
-[Analysis. Is capex growing faster than revenue — and at what ratio? A company investing at 2x its revenue growth rate without visible contracted demand explanation carries different risk than one with customer commitments backing the buildout. What is the implied depreciation rate for AI infrastructure assets (annual D&A ÷ gross PP&E)? Conservative useful life assumptions inflate current reported earnings by suppressing D&A; the risk is asymmetric — the earnings benefit accumulates gradually over years, but when AI hardware is superseded the write-off is sudden, and nobody knows when that is. Flag for Accounting Checklist Category 2 investigation.]
+[Analysis]
 
 **Debt Profile**
-[Analysis — covers Debt/Total Assets and Debt/OCF. Note whether the debt trajectory suggests leveraged buildout pacing ahead of revenue. Standard ratios may understate total financial exposure — AI infrastructure buildouts have used SPVs, VIEs, and vendor financing arrangements to move debt off balance sheet while retaining operational exposure. Flag for Accounting Checklist Category 3 investigation if debt levels, trajectory, or off-balance-sheet signals warrant it.]
+[Analysis — covers Debt/Total Assets and Debt/OCF]
 
 **ROIC**
 [Analysis]
@@ -109,26 +110,21 @@ For each search:
 - **Findings:** matched lines
 - **Interpretation:** what the result confirms, disputes, or leaves unresolved
 
-**Flag-driven searches (run for each flag raised in Metrics):** goodwill impairment assumptions, revenue recognition policy changes, SBC vesting schedules, off-balance sheet commitments, segment reclassifications, deferred revenue, useful life changes, receivables factoring, non-GAAP definitions, restructuring charges. Additional terms: "useful life," "variable interest entity," "VIE," "vendor financing," "write-down," "impairment" (AI infrastructure-specific), "related party."
+**Flag-driven searches (run for each flag raised in Metrics):** goodwill impairment assumptions, revenue recognition policy changes, SBC vesting schedules, off-balance sheet commitments, segment reclassifications, deferred revenue, useful life changes, receivables factoring, non-GAAP definitions, restructuring charges.
 
 If Metrics raised no flags warranting footnote investigation, state that explicitly.
 
-**Supply chain network — always run regardless of Metrics flags.** Grep `{TICKER}_notes.md` and `{TICKER}_mda.md` for the following terms. For each search, record findings and interpret what they reveal about the relationship:
+**AI & Competitive Position — always run regardless of Metrics flags.** Grep `{TICKER}_notes.md` and `{TICKER}_mda.md` for the following terms. For each search, record findings and interpret what they reveal:
 
-- `customer` / `concentration` — confirm named customers and revenue percentages
-- `supplier` / `vendor` / `sole source` / `sole-source` — identify critical supply dependencies
-- `advance payment` / `purchase commitment` — quantify financial exposure to key suppliers
-- `related party` — surface any supplier or customer that is also an equity investment or affiliated entity
+- `artificial intelligence` / `AI` — surface any AI-specific product, investment, or risk disclosures
+- `remaining performance obligation` / `RPO` — quantify contracted forward revenue
+- `net revenue retention` / `net dollar retention` — customer expansion and churn signals
+- `capitalized software` / `internal-use software` — how AI development costs are being treated
+- `consumption` / `credit` / `usage-based` — flags pricing model shifts away from seats
+- `seat` / `per seat` — confirms or tracks seat-based model
+- `agent` / `agentic` — surfaces AI agent product disclosures
+- `OpenAI` / `Microsoft` / `Anthropic` / `Copilot` / `Gemini` — named AI partnerships or competitive references
 - `competi` — surface named competitors from the competition or risk sections
-
-List every publicly traded company identified in any of these roles:
-
-```
-Company (Ticker) — Role
-Company (Ticker) — Role
-```
-
-No commentary. No tracker cross-referencing.
 
 ---
 
@@ -143,7 +139,6 @@ No commentary. No tracker cross-referencing.
 - Days Sales Outstanding (DSO) trend: receivables ÷ sales
 - Accrued/unbilled receivables as % of revenue vs. peers
 - Unearned income balances (for subscription/service businesses)
-- Vendor financing or circular arrangements where the same counterparty is both a revenue source and a financing source — flag if the same dollar appears to move between counterparties
 
 **Signals:**
 - Rising DSO indicates revenue not converting to cash — possible channel stuffing, credit loosening, or fictitious sales
@@ -162,16 +157,14 @@ No commentary. No tracker cross-referencing.
 #### 2. Expense Recognition & Cost Capitalization
 
 **What to look for:**
-- Capitalization policies for software development, internal costs, or other discretionary items
+- Capitalization policies for software development, internal costs, and internally developed AI features — costs expensed vs. capitalized, and whether the policy has changed
 - Depreciation and useful life assumptions vs. industry peers
 - Reserve and accrual levels and changes year-over-year
 - "One-time" or "non-recurring" charges and their frequency
 - Supplier/vendor rebate accounting policies
-- Stated useful life assumptions for AI infrastructure assets (chips, networking equipment, data center hardware). Conservative assumptions (longer lives) inflate current reported earnings by suppressing D&A — quantify the earnings impact of a shorter useful life scenario. The risk is asymmetric: the benefit is gradual, but technological obsolescence does not announce itself in advance and the resulting write-off is sudden.
 
 **Signals:**
 - Useful life extensions reduce D&A and boost earnings — compare annual depreciation rate (D&A ÷ gross PP&E) to peers; material divergence warrants scrutiny
-- Useful life assumptions materially longer than industry norms for AI hardware warrant scrutiny; this is not a red flag by itself but is a known earnings risk that must be quantified
 - Costs capitalized that peers expense artificially inflate current earnings
 - Cookie-jar reserves: large reserves built in loss periods, then drawn down in recovery — watch for reserves growing disproportionately, then shrinking with precision
 - "Non-recurring" charges that recur annually are operating costs in disguise
@@ -192,8 +185,7 @@ No commentary. No tracker cross-referencing.
 - Goodwill as % of total assets and impairment testing assumptions
 - Calculate leverage ratios both with and without goodwill — goodwill cannot be sold, factored, or used in a sale-leaseback; give greater weight to tangibles-only version
 - Fair value measurement levels (Level 1/2/3) for financial assets
-- Off-balance-sheet obligations: operating leases, pension/post-retirement liabilities, JV guarantees, contingent liabilities, VIEs, SPVs, and vendor financing arrangements
-- Explicitly investigate VIE/SPV structures and vendor financing arrangements tied to AI infrastructure buildout — these are documented mechanisms through which AI companies have moved debt off balance sheet while retaining operational exposure
+- Off-balance-sheet obligations: operating leases, pension/post-retirement liabilities, JV guarantees, contingent liabilities
 - Related-party transactions and whether terms appear arm's length
 - Changes in auditor or unusual audit fee levels
 
@@ -281,15 +273,14 @@ No commentary. No tracker cross-referencing.
 **3. What structural upside is not yet visible in reported financials or priced into the current multiple?**
 [Answer]
 
-**4. Is the investment cycle self-sustaining without external capital, and what does the answer imply for durability of the thesis?**
-*(AI supply chain version only)*
-[Answer]
+**4. Is AI investment translating to measurable revenue or margin impact — or is it still a cost without demonstrated payoff?**
+What do the financials show about AI-related spending vs. any visible contribution to revenue growth, margin expansion, or competitive positioning? Is the investment phase compressing or extending?
 
 ---
 
 **Updated Thesis**
 
-First state whether the financial data confirms, contradicts, or complicates the preliminary thesis and where specifically. Then state the updated thesis across the same four dimensions: Numbers / Narrative & Catalyst / Scenario / Thesis. Close with an explicit statement on whether earnings growth is real, durable, and sustainable, and at what price and under what scenario the thesis breaks.
+First state whether the financial data confirms, contradicts, or complicates the preliminary thesis and where specifically. Then state the updated thesis across the four dimensions below. Close with an explicit statement on whether earnings growth is real, durable, and sustainable, and at what price and under what scenario the thesis breaks.
 
 **Numbers**
 What does the financial picture now establish about the quality and durability of the business? This is the authoritative financial verdict entering Pass 2 — what the numbers say, stated plainly.
@@ -298,7 +289,7 @@ What does the financial picture now establish about the quality and durability o
 Has anything in the financial analysis changed the narrative or catalyst picture from Context? If not, carry it forward unchanged and say so explicitly. If yes, state what changed and why.
 
 **Scenario**
-What scenario do the financials appear to support — and does that match the scenario embedded in the current price?
+What scenario do the financials support — does it match the scenario the current price appears to embed? State the delta explicitly if they diverge.
 
 **Thesis**
 Overall conviction statement updated by the financial findings. Is the thesis strengthened, complicated, or weakened by what the numbers showed? What remains unresolved?
@@ -316,16 +307,17 @@ Before proceeding to Step 3, answer the following internally. Do not include the
 - Has every question in every section of the Output Format been answered in full?
 - Have the Pass 1 focus questions from Context been explicitly addressed or flagged as unresolved?
 - Has each metric in Metrics been assessed across all four dimensions (current vs. historical, long-term trend, short-term trend, metric interpretation)?
-- Has each metric closed with a TL;DR of two sentences: (1) what it confirms or flags; (2) the investment implication?
-- If peer data was provided, has each metric been compared against peers?
-- Do the Synthesis questions draw meaningfully on both Metrics and Accounting findings?
-- Are all Targeted Searches driven by specific Metrics flags, with each result interpreted?
-- Has the supply chain network search been completed — all five grep terms run against footnotes, findings interpreted, and the compact list produced?
-- Have all five Accounting categories been addressed via targeted grep?
-- Has the preliminary hypothesis been explicitly confirmed, contradicted, or complicated — and the Updated Thesis stated across all four dimensions?
+- If peer data was provided, has each metric in Metrics been compared against peers?
+- Do Synthesis questions draw meaningfully on the per-metric work in Metrics and the accounting findings?
+- Are all targeted searches driven by specific Metrics flags, with each result interpreted?
+- Have all five accounting checklist categories been addressed via targeted grep?
+- Has the preliminary hypothesis been explicitly confirmed, disputed, or complicated — and updated?
+- Is the Updated Thesis complete across all four dimensions — Numbers, Narrative & Catalyst, Scenario, and Thesis?
 - Are all factual claims tagged `[CONFIRMED]`, `[ESTIMATED]`, or `[INFERRED]` with citations?
 - When outside knowledge informed a conclusion, was it labeled `[INFERRED: knowledge base, logic]` and stated explicitly?
 - Are all P/E, EPS, and margin figures explicitly labeled GAAP or adjusted, and all metrics explicitly labeled by time period?
+- Has the AI & Competitive Position mandatory grep section been completed — all terms searched and findings interpreted?
+- Has Synthesis Q4 been answered with specific financial evidence, not generic assertions?
 
 **Action:** Ask: *"The full Numbers analysis has been written to the Thesis file. Do you approve the Updated Thesis above? Should I update the Stock Tracker?"*
 
@@ -563,19 +555,19 @@ For TAILWINDs: combine ROIC level with **reinvestment runway** — how many year
 - **Intangible-heavy businesses**: Book value understates economic capital for companies whose competitive advantages rest on R&D, brand, or software. ROIC will appear elevated relative to asset-heavy peers — this is appropriate, not a distortion, if genuine intangible value creation underlies it.
 - **Asset age limitation**: A business can mechanically boost ROIC by underinvesting — fully depreciated assets reduce the denominator without reflecting economic reality. Cross-reference Capex/D&A when ROIC appears unusually high relative to peers.
 - **Negative invested capital**: Asset-light businesses with large deferred revenue or negative working capital (e.g., certain subscription software and consumer businesses) can have negative invested capital — making ROIC mathematically undefined or misleading. Flag this when it occurs; use operating margin and FCF as the primary quality metrics instead.
-- **Contrarian opportunity**: A business with sustained high ROIC experiencing a price dislocation is a materially stronger thesis than one with mediocre ROIC at the same dislocation depth. High ROIC is evidence the moat is intact; the question is whether the price dislocation reflects a temporary problem or structural deterioration.
+- **Contrarian opportunity**: A business with sustained high ROIC experiencing a price dislocation (LOSER) is a materially stronger thesis than one with mediocre ROIC at the same dislocation depth. High ROIC is evidence the moat is intact; the question is whether the price dislocation reflects a temporary problem or structural deterioration.
 
 ---
 
 ## Example Analysis: Financials (INTU)
 
-The following are selected examples from a Financial Analysis for INTU (Intuit) — not a complete analysis. Three metrics from Part A and two questions from Part B are shown. Every metric and question requires this standard of depth and specificity. Do not replicate these findings or structure mechanically; every company's financials present different patterns and challenges.
+The following are selected examples from a Financial Analysis for INTU (Intuit) — not a complete analysis. Three metrics from Metrics and two questions from Synthesis are shown. Every metric and question requires this standard of depth and specificity. Do not replicate these findings or structure mechanically; every company's financials present different patterns and challenges.
 
 ---
 
 #### INTU Financial Analysis (selected examples)
 
-**Part A — selected metrics**
+**Metrics — selected examples**
 
 **OCF / Net Income**
 The TTM OCF/Net Income ratio of 1.61x (5-year average 1.77x, CV 0.13) requires direct decomposition rather than a general appeal to "conservative accounting." The OCF→NI bridge for FY2025: Net Income $3.87B + D&A $0.81B + SBC $1.97B + deferred taxes -$0.44B + working capital changes -$0.21B + other $0.20B = OCF $6.21B. SBC alone accounts for approximately 84% of the gap between OCF and net income — a recurring economic cost representing ongoing shareholder dilution, not a quality signal. True owner earnings = FCF − SBC = $6.84B − $2.02B = $4.82B, which is only modestly above implied GAAP net income (~$4.33B TTM). The 18.8x GAAP P/E is therefore not a discount to a cheaper cash multiple — the owner-earnings multiple is ~17x, modestly below GAAP P/E but well above the 11-12x implied by gross FCF. Quarterly, the ratio drops to 1.00x in the July quarter (when net income approaches zero and SBC runs at a stable ~$0.49-0.54B/quarter), confirming SBC — not amortization phasing — is the structural driver. CRM's TTM ratio of 2.01x appears higher, but is driven by a far larger D&A burden (8.7% of revenue vs. INTU's 4.1%), reflecting massive acquired intangible amortization from Slack, Tableau, and MuleSoft. CRM's OCF/NI premium is predominantly amortization-driven (a wasting charge that declines over time); INTU's is SBC-driven (recurring). These are fundamentally different situations. Note: CRM's 5-year OCF/NI average of 8.99x is distorted by a near-zero net income year in 2023 (34.19x); the recent trend of 2.47x → 2.11x → 2.01x is the meaningful signal.
@@ -586,7 +578,7 @@ Annual operating leverage of 2.28x in 2025 (5-year average 1.31x, CV 0.71) refle
 **Debt Profile**
 The debt profile is conservative and provides strong strategic flexibility. Debt/Total Assets of 22.0% (TTM) sits near the 5-year average of 21.1% (CV 0.21), but the trajectory matters: it spiked to 27.2% in 2022 — a 70.1% jump driven by Mailchimp acquisition financing — and has been de-leveraging since (24.1% → 20.4% → 18.0% → 22.0% TTM). The 22.0% TTM figure is modestly above FY2025's 18.0%, reflecting balance sheet snapshot timing. Debt/OCF of 1.08x (TTM) — improved from 1.94x in 2022 — means INTU could retire all debt in ~13 months from operating cash flow. CRM's Debt/OCF of 1.15x is essentially at parity, confirming both companies carry similarly manageable debt loads. The balance sheet provides ample flexibility for continued buybacks, dividends, or opportunistic M&A without credit market dependence.
 
-**Part B — selected questions**
+**Synthesis — selected questions**
 
 **2. Do the cash flow metrics confirm or contradict what the income statement shows — and what does that tell us about earnings quality?**
 The cash flow metrics reveal a more nuanced earnings quality picture than a surface reading suggests. The 1.61x OCF/Net Income ratio is not a signal of conservative accounting — it is primarily a function of $2.02B in annual SBC (10.1% of revenue), which accounts for approximately 84% of the OCF→NI gap. SBC is a real economic cost; it dilutes shareholders and is equivalent to a cash expenditure from an owner-earnings perspective. When deducted, true owner earnings (FCF − SBC) are approximately $4.82B — only modestly above implied GAAP net income (~$4.33B TTM), implying a ~17x owner-earnings multiple rather than the 11-12x gross FCF would suggest. Contrast with CRM: its higher OCF/NI ratio (2.01x) is predominantly D&A-driven (8.7% of revenue) — amortization that will decline over time. CRM's OCF/NI premium is more benign than INTU's.
@@ -598,11 +590,11 @@ The primary quantitative downside risk is valuation recalibration: if the market
 
 ## Example Analysis: Accounting (INTU)
 
-The following are selected examples from an accounting analysis for INTU (Intuit) — not a complete analysis. Two of the four Accounting Analysis questions are shown. Every question requires this standard of depth and specificity. Do not replicate these findings mechanically; every company's filing presents different patterns and challenges.
+The following are selected examples from an accounting analysis for INTU (Intuit) — not a complete analysis. Two of the three Accounting questions are shown. Every question requires this standard of depth and specificity. Do not replicate these findings mechanically; every company's filing presents different patterns and challenges.
 
 ---
 
-#### INTU Accounting Analysis (selected examples)
+#### INTU Accounting (selected examples)
 
 **2. Do the footnotes/MD&A confirm or challenge the conclusions from the financial analysis? Are there accounting policies, estimates, or disclosures that help explain — or cast doubt on — the reported metrics?**
 The D&A decomposition confirms the financial analysis. The cash flow statement separates depreciation ($172M) from amortization of acquired intangible assets ($637M), confirming that 79% of the D&A addback is benign intangible burn-off from the Mailchimp and Credit Karma acquisitions, not underlying asset consumption. Physical capital intensity is near zero. The $637M amortization will continue declining as these acquired intangibles age toward full amortization, which will mechanically compress OCF/NI toward 1.0x over time — as the financial analysis forecast.

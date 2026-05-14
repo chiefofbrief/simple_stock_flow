@@ -32,7 +32,7 @@ curl -s "https://financialmodelingprep.com/stable/profile?symbol={TICKER}&apikey
 ```
 Extract and note: company name, description, sector, industry, market cap.
 
-**Peers (TAILWIND tickers only):**
+**Peers (all tickers):**
 Check if `Data/tickers/{TICKER}/{TICKER}_peers.json` already exists. If it does, skip the API call.
 
 If not:
@@ -54,14 +54,8 @@ python Scripts/news.py {TICKER}
 python Scripts/ticker_reddit.py {TICKER}
 ```
 
-**For TAILWIND tickers** — pass the top peer extracted in step 1a:
 ```
 python Scripts/financials.py {TICKER} --peers {PEER1}
-```
-
-**For LOSER tickers:**
-```
-python Scripts/financials.py {TICKER}
 ```
 
 ```
@@ -88,6 +82,8 @@ python Scripts/earnings_calls.py {TICKER}
 **Your job is to read the filing as a human would and identify what is relevant to each of the five questions based on the content and meaning of the text — not based on whether a section heading matches the question's name. Hold all five questions in mind as you read. A passage about revenue recognition assumptions buried in a "Liquidity" section is still relevant to Critical Accounting Estimates. A cautionary paragraph in "Results of Operations" is still relevant to risks. You are exercising judgment, not running a search.**
 
 **"Not found in filing" is only acceptable if you read the entire file and concluded — based on meaning, not the absence of a matching label — that nothing was relevant.**
+
+**If the file is long, read it in chunks of no more than 200 lines at a time, confirming each chunk before moving to the next. Do not proceed to extraction until you have read every chunk. There is no acceptable shortcut.**
 
 **This is a copy task, not a summary task.** Claude will read this file as raw source material for analysis. Any condensing, paraphrasing, or rewording you do here destroys analytical value — Claude cannot recover information that was cut.
 
@@ -121,8 +117,8 @@ Copy the relevant passages from the MD&A risk discussion or forward-looking caut
 **5. Critical Accounting Estimates**
 Copy the entire Critical Accounting Estimates section (or equivalent) verbatim. This section covers judgment-dependent assumptions — revenue recognition, goodwill impairment, useful life estimates, etc. Do not truncate it.
 
-**6. Capital allocation and investment return timeline** *(AI SC tickers only)*
-Copy all passages from the Liquidity and Capital Resources, Capital Expenditures, and Commitments and Contingencies sections covering: the trajectory of AI infrastructure investment and what is backing it — named customer contracts, committed demand, or speculative buildout; any language about vendor financing, partner commitments, or arrangements where the same counterparty is both a capital source and a revenue source; and any stated timeline for when current investment is expected to generate returns. Include all figures and qualifications.
+**6. AI investment, pricing model, and monetization**
+Copy all passages covering AI infrastructure or product investment — the trajectory of spending, what is backing it (named customer contracts, committed demand, or speculative buildout), and any stated timeline for when current investment is expected to generate returns; any language about pricing model changes — seat-based vs. consumption, credit, or usage-based models; remaining performance obligations (RPO) or backlog disclosures; customer adoption metrics, attach rates, or revenue contribution attributed to AI features; and any vendor financing, partner commitments, or arrangements where the same counterparty is both a capital source and a revenue source. These passages may appear in Results of Operations, Liquidity and Capital Resources, Capital Expenditures, Commitments and Contingencies, or Critical Accounting Estimates — copy them regardless of where they appear. Include all figures and qualifications. If nothing relevant is found, write: `Not found in filing.`
 
 **7. Customers, suppliers, and competitors**
 Copy all passages that name or describe major customers, key suppliers, and named competitors. Include: any customer concentration disclosures (customer names or descriptors, revenue percentages, number of customers above a threshold); any language about sole-source or critical suppliers, advance payments to suppliers, long-term supply agreements, or supplier dependencies; any named competitors or competitive landscape descriptions that identify specific companies by name. These passages may appear in Results of Operations, Risk Factors, Competition, Liquidity, Commitments and Contingencies, or Related Party sections — copy them regardless of where they appear.
@@ -158,7 +154,7 @@ Copy all passages that name or describe major customers, key suppliers, and name
 
 > [Exact text copied from filing — full section, do not truncate]
 
-## 6. Capital allocation and investment return timeline *(AI SC only)*
+## 6. AI investment, pricing model, and monetization
 
 > [Exact text copied from filing — full passage, all figures intact]
 
@@ -169,32 +165,32 @@ Copy all passages that name or describe major customers, key suppliers, and name
 
 ---
 
-## Step 2b: Extract Analyst Q&A Questions from Earnings Call
+## Step 2b: Verify Analyst Q&A Questions File
 
-**Source file:** `Data/tickers/{TICKER}/{TICKER}_earnings_qa.md`
+`earnings_calls.py` generates `{TICKER}_qa_questions.md` automatically. Do NOT extract questions manually — the source file is large and doing this by hand wastes tokens and API credits.
 
-**Output file:** `Data/tickers/{TICKER}/{TICKER}_qa_questions.md`
-
-**You MUST read the FULL `{TICKER}_earnings_qa.md` file — every single line, from beginning to end. Do NOT skim, jump to sections, or stop reading early. Do NOT use grep or keyword search. Read the entire transcript.**
-
-Extract every distinct question asked by analysts during the Q&A portion of the earnings call. Copy each question verbatim, exactly as asked. Include the analyst's name and firm if present.
-
-Do not paraphrase. Do not summarize what was asked. Copy the actual question text. If an analyst asked a follow-up, include it as a separate item.
-
-**Output format:**
-```markdown
-# Analyst Q&A Questions: {TICKER}
-**Source:** Earnings call Q&A (period ending {DATE})
-**Extracted:** {TODAY}
-
----
-
-1. **[Analyst Name, Firm]:** "[Exact question text copied verbatim]"
-
-2. **[Analyst Name, Firm]:** "[Exact question text copied verbatim]"
-
-[continue for all questions]
+**Check the output file:**
 ```
+wc -l Data/tickers/{TICKER}/{TICKER}_qa_questions.md
+head -20 Data/tickers/{TICKER}/{TICKER}_qa_questions.md
+```
+
+**If the file has substantive content** (questions are present, not just a header stub): proceed to Step 3.
+
+**If the file is a stub** (header only, no questions listed):
+
+⚠️ **STOP AND FLAG THIS TO THE USER LOUDLY BEFORE PROCEEDING.**
+
+Report exactly:
+```
+BLOCKER: {TICKER}_qa_questions.md is empty — earnings_calls.py ran but produced no questions.
+The raw JSON files are cached at Data/tickers/{TICKER}/raw/{TICKER}_ecall_*.json.
+Do NOT re-run earnings_calls.py (Alpha Vantage API credits).
+Do NOT attempt manual extraction from the transcript.
+User action required — please advise how to proceed.
+```
+
+Do not proceed to Step 3 or hand off to Claude until this is resolved or the user explicitly instructs you to continue without it.
 
 ---
 
@@ -214,7 +210,7 @@ Confirm all required files exist before handing off to Claude. Check for each fi
 | Social / Reddit | `Data/tickers/{TICKER}/{TICKER}_social.md` | ✓ / ✗ |
 | MD&A excerpts | `Data/tickers/{TICKER}/{TICKER}_mda_excerpts.md` | ✓ / ✗ |
 | Analyst Q&A questions | `Data/tickers/{TICKER}/{TICKER}_qa_questions.md` | ✓ / ✗ |
-| Peers (TAILWIND only) | `Data/tickers/{TICKER}/{TICKER}_peers.json` | ✓ / ✗ / N/A |
+| Peers | `Data/tickers/{TICKER}/{TICKER}_peers.json` | ✓ / ✗ |
 
 ### Pass 1 + Pass 2 (fetched now, Claude uses later)
 
@@ -240,14 +236,14 @@ Report to the user:
 === Step 0 Complete: {TICKER} ===
 
 Profile: ✓ {TICKER}_profile.json — {COMPANY NAME}, {SECTOR}, {MARKET CAP}
-Peers (TAILWIND): ✓ {TICKER}_peers.json — top peer: {PEER1} [or N/A for LOSER]
+Peers: ✓ {TICKER}_peers.json — top peer: {PEER1}
 
 Scripts — confirm exit code 0 and show key output for each:
   ✓ price_earnings.py — [rows fetched, date range]
   ✓ analyst.py — [# analysts, consensus rating, price target]
   ✓ news.py — [# articles fetched, date range]
   ✓ ticker_reddit.py — [# posts/comments fetched]
-  ✓ financials.py [--peers {PEER1} for TAILWIND] — [periods covered, peer included or N/A]
+  ✓ financials.py --peers {PEER1} — [periods covered, peer included]
   ✓ footnotes.py — [file size or sections extracted]
   ✓ earnings_calls.py — [call date, remarks + Q&A files written]
 

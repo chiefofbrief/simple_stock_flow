@@ -2,13 +2,18 @@
 
 **CLAUDE: Before executing any Deep Dive step, you MUST read the corresponding prompt file from `Prompts/` first. Do not begin analysis until the prompt has been read. No exceptions.**
 
----
+Execute these 3 prompts, in this order, for ADBE. If any data is missing out outdated, you must stop and notify me.                                                                                                                                                                  
+  1. /workspaces/simple_stock_flow/Prompts/prompt_the_context_software.md                                                                                            
+                                                                                                                                                                     
+  2. /workspaces/simple_stock_flow/Prompts/prompt_the_numbers_software.md                                                                                            
+                                                                                                                                                                     
+  3. /workspaces/simple_stock_flow/Prompts/prompt_the_projection_software.md                                                                                         
+                                                                                                                                                                     
+you must read the prompts thoroughly. you must also write to the thesis file after each prompt/pass; if you don't the convo will compact before you write. if the conveesation compacts, you must re-read the remaining prompts and context files.  
 
-review the following prompts thorouhgly and execute their instrucitons, in their intended orde,r for ASML. two critical notres: first, the conversation will       
-  compact so you need to write to the file aftrer each step; tell me if it helps to give you permission tomake edits without my approval (only to the thesis file    
-  thoigh). Also, ASML is a non-US company, so they have no fucking 10-ks and shit, so i had to piece this shit together manually sort of. so you will only see MD&A  
-  and footnotes from 2025 annual report, and there is no earnings call Q&As. and do not read the full footnotes, its long as hell. one thing: There is a file with   
-  the Q1 financials; let's check this against the data we got from the fetch to see if its accurate or fucked.                                                       
+
+
+---
                                                                                                                                                                      
   In this order, writing to the thesis file after each to avoid compaction bullshit:                                                                                 
                                                                                                                                                                      
