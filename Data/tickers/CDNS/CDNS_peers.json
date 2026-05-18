@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ADSK",
+    "companyName": "Autodesk, Inc.",
+    "price": 234.665,
+    "mktCap": 49548341425
+  },
+  {
+    "symbol": "DELL",
+    "companyName": "Dell Technologies Inc.",
+    "price": 240.7,
+    "mktCap": 162472927483
+  },
+  {
+    "symbol": "GLW",
+    "companyName": "Corning Incorporated",
+    "price": 195.72,
+    "mktCap": 168444035109
+  },
+  {
+    "symbol": "MSI",
+    "companyName": "Motorola Solutions, Inc.",
+    "price": 395.01,
+    "mktCap": 65570079960
+  },
+  {
+    "symbol": "MSTR",
+    "companyName": "Strategy Inc",
+    "price": 175.52,
+    "mktCap": 52142198198
+  },
+  {
+    "symbol": "NTES",
+    "companyName": "NetEase, Inc.",
+    "price": 113.475,
+    "mktCap": 72411586714
+  },
+  {
+    "symbol": "RBLX",
+    "companyName": "Roblox Corporation",
+    "price": 42.385,
+    "mktCap": 30346760802
+  },
+  {
+    "symbol": "SNOW",
+    "companyName": "Snowflake Inc.",
+    "price": 157.17,
+    "mktCap": 54333669000
+  },
+  {
+    "symbol": "SNPS",
+    "companyName": "Synopsys, Inc.",
+    "price": 493.0346,
+    "mktCap": 94446694045
+  },
+  {
+    "symbol": "WDAY",
+    "companyName": "Workday, Inc.",
+    "price": 122.945,
+    "mktCap": 32592435497
+  }
+]

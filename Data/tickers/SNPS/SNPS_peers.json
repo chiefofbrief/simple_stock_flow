@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ADSK",
+    "companyName": "Autodesk, Inc.",
+    "price": 235.7923,
+    "mktCap": 49786365184
+  },
+  {
+    "symbol": "CDNS",
+    "companyName": "Cadence Design Systems, Inc.",
+    "price": 349.59,
+    "mktCap": 96422515440
+  },
+  {
+    "symbol": "CRWV",
+    "companyName": "CoreWeave, Inc. Class A Common Stock",
+    "price": 106.71,
+    "mktCap": 58217811408
+  },
+  {
+    "symbol": "FTNT",
+    "companyName": "Fortinet, Inc.",
+    "price": 122.2372,
+    "mktCap": 89556887900
+  },
+  {
+    "symbol": "GLW",
+    "companyName": "Corning Incorporated",
+    "price": 196.19,
+    "mktCap": 168848534887
+  },
+  {
+    "symbol": "MSTR",
+    "companyName": "Strategy Inc",
+    "price": 174.6,
+    "mktCap": 51868891325
+  },
+  {
+    "symbol": "NET",
+    "companyName": "Cloudflare, Inc.",
+    "price": 197.97,
+    "mktCap": 69975712919
+  },
+  {
+    "symbol": "NTES",
+    "companyName": "NetEase, Inc.",
+    "price": 113.955,
+    "mktCap": 72717888205
+  },
+  {
+    "symbol": "SNOW",
+    "companyName": "Snowflake Inc.",
+    "price": 157.47,
+    "mktCap": 54437379000
+  },
+  {
+    "symbol": "TEL",
+    "companyName": "TE Connectivity Ltd.",
+    "price": 202.53,
+    "mktCap": 59117696880
+  }
+]
