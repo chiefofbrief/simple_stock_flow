@@ -76,3 +76,4 @@ Who are the named competitors, and how does management characterize their compet
 - Have you thoroughly read the instructions?
 - Will you read the source material in full at the start of the process? Every single word?
 - Will you extract ALL relevant excerpts without paraphrasing, condesning, etc.?
+- Will you cite the source (e.g., 10-Q, 10-K) for each and every excerpt?
