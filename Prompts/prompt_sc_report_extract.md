@@ -68,3 +68,5 @@ Who are the named competitors, and how does management characterize their compet
 ### 6. Competition
 > [verbatim]
 ````
+
+## **Do you understand and agree to this task? Have you thoroughly read the instructions? Will you read the source material in full at the start of the process?**
