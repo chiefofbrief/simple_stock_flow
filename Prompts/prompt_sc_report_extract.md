@@ -40,7 +40,7 @@ What revenue is the company generating from AI investments, and what does manage
 What is this company unable to fully deliver, and what is gating its own growth or its customers' operations? Look for: capacity constraint language, lead time disclosures, supply shortages affecting the company or its customers, production limits, statements about demand exceeding supply. Passages where management says they cannot meet demand, or where an input or resource is described as tight or limited, are the target.
 
 **Category 6 — Competition**
-Who are the named competitors, and how does management characterize their competitive position? Look for: specific company names identified as competitors, market share language with figures, descriptions of competitive moat or structural advantage, pricing pressure from named players. Generic "we face intense competition" without names is low value — extract only if it includes company names or quantified market position.
+Who are the named competitors, and how does management characterize their competitive position? Look for: specific company names identified as competitors, market share language with figures, descriptions of competitive moat or structural advantage, pricing pressure from named players. 
 
 ---
 
