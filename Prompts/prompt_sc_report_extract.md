@@ -25,7 +25,7 @@ Read the entire attached content before extracting anything. Do not skim or keyw
 ## Categories
 
 **Category 1 — AI Supply Chain Role**
-What does this company do in the AI ecosystem, in its own words? Look for: product or service descriptions tied to AI infrastructure, chip design, AI workloads, data centers, or AI-enabled hardware. Extract the passage that most directly defines their AI-specific role — not a general company overview.
+What does this company do in the AI ecosystem, in its own words? Look for: product or service descriptions tied to AI infrastructure, chip design, AI workloads, data centers, or AI-enabled hardware. Extract the passages that most directly defines their AI-specific role — not a general company overview.
 
 **Category 2 — Demand Evidence**
 What AI-driven demand is the company seeing, and from whom? Prioritize: named customers or customer types (specific companies, hyperscalers, cloud providers, AI labs), quantified demand (backlog figures, order rates, revenue attributed to AI, contract values), and language about committed versus anticipated demand. The distinction between "we have $X contracted" and "we expect strong demand" matters — extract both if both appear, and preserve the exact language.
@@ -69,4 +69,10 @@ Who are the named competitors, and how does management characterize their compet
 > [verbatim]
 ````
 
-## **Do you understand and agree to this task? Have you thoroughly read the instructions? Will you read the source material in full at the start of the process?**
+## LLM Agreement
+
+**Respond to the following prior to starting the task**:
+- Do you understand and agree to this task?
+- Have you thoroughly read the instructions?
+- Will you read the source material in full at the start of the process? Every single word?
+- Will you extract ALL relevant excerpts without paraphrasing, condesning, etc.?
