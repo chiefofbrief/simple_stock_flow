@@ -1,489 +1,449 @@
-# Chapter 3 — USER NOTES:
+# Chapter 3: Call Buying — Extracted Insights for the Conservative Options Playbook
 
-- The success of a call buying strategy depends primarily on one’s ability to select stocks that will go up and to time the selection reasonably well. Thus, call buying is not a strategy in the same sense of the word as most of the other strategies discussed in this text. Most other strategies are designed to remove some of the exactness of stock picking, allowing one to be neutral or at least to have some room for error and still make a profit.
-- Calls must be paid for in full; they have no margin value and do not constitute equity for margin purposes.
-- One should normally not invest more than 15% of his risk capital in call buying, because of the relatively large percentage risks involved.
-- Some investors participate in call buying on a limited basis to add some upside potential to their portfolios while keeping the risk to a fixed amount. For example, if an investor normally only purchased low-volatility, conservative stocks because he wanted to limit his downside risk, he might consider putting a small percentage of his cash into calls on more volatile stocks. In this manner, he could “trade” higher-risk stocks than he might normally do. If these volatile stocks increase in price, the investor will profit handsomely. However, if they decline substantially—as well they might, being volatile—the investor has limited his dollar risk by owning the calls rather than the stock.
-- Another approach to call buying is sometimes utilized, also by an investor who does not want to “miss the market.” Suppose an investor knows that, in the near future, he will have an amount of money large enough to purchase a particular stock; perhaps he is closing the sale of his house or a certificate of deposit is maturing. However, he would like to buy the stock now, for he feels a rally is imminent. He might buy calls at the present time if he had a small amount of cash available. The call purchases would require an investment much smaller than the stock purchase. Then, when he receives the cash that he knew was forthcoming, he could exercise the calls and buy the stock. In this way, he might have participated in a rally by the stock before he actually had the money available to pay for the stock in full.
-- Since the best ally that the call buyer has is upward movement in the underlying stock, the selection of the underlying stock is the most important choice the call buyer has to make. Since timing is so important when buying calls, the technical factors of stock selection probably outweigh the fundamentals; even if positive fundamentals do exist, one does not know how long it will take in order for them to be reflected in the price of the stock. One must be bullish on the underlying stock in order to consider buying calls on that stock. Once the stock selection has been made, only then can the call buyer begin to consider other factors, such as which striking price to use and which expiration to buy. The call buyer may have another ally, but not one that he can normally predict: If the stock on which he owns a call becomes more volatile, the call’s price will rise to reflect that change.
-- The point is that, percentage-wise, an in-the-money call will offer better rewards for a modest stock gain, and an out-of-the-money call is better for larger stock gains.
-- The time remaining to expiration is also relevant to the call buyer. If the stock is fairly close to the striking price, the near-term call will most closely follow the price movement of the underlying stock, so it has the greatest rewards and also the greatest risks. The far-term call, because it has a large amount of time remaining, offers the least risk and least percentage reward. The intermediate-term call offers a moderate amount of each, and is therefore often the most attractive one to buy. Many times an investor will buy the longer-term call because it only costs a point or a point and a half more than the intermediate-term call. He feels that the extra price is a bargain to pay for three extra months of time. This line of thought may prove somewhat misleading, however, because most call buyers don’t hold calls for more than 60 or 90 days.
-- The certainty with which one expects the underlying stock to advance may also help to play a part in his selection of which call to buy. If one is fairly sure that the underlying stock is about to rise immediately, he should strive for more reward and not be as concerned about risk. t the opposite end of the spectrum, if one is very uncertain about his timing, he should buy the longest-term call, to moderate his risk in case his timing is wrong by a wide margin. This situation could easily result, for example, if one feels that a positive fundamental aspect concerning the company will assert itself and cause the stock to increase in price at an unknown time in the future. Since the buyer does not know whether this positive fundamental will come to light in the next month or six months from now, he should buy the longer-term call to allow room for error in timing.
-- In many cases, one is not intending to hold the purchased call for any significant period of time; he is just looking to capitalize on a quick, short-term movement by the underlying stock. In this case, he would want to buy a relatively short-term in-the-money call. Although such a call may be more expensive than an out-of-the-money call on the same underlying stock, it will most surely move up on any increase in price by the underlying stock. Thus, the short-term trader would profit.
-- The time premium is highest when the stock is at the striking price of the call; it is lowest deep inor out-of-the-money; option prices do not decay at a linear rate—the time premium disappears more rapidly as the option approaches expiration.
-- There is another property of call options that the buyer should be familiar with, the delta of the option (also called the hedge ratio). Simply stated, the delta of an option is the amount by which the call will increase or decrease in price if the underlying stock moves by 1 point. The delta of a call option is close to 1 when the underlying stock is well above the striking price of the call. A deeply out-of-the-money call has a delta of nearly zero. When the stock is at the striking price, the delta is usually between .50 and .60. The delta is an important piece of information for the call buyer because it can tell him how much of an increase or decrease he can expect for short-term moves by the underlying stock. This piece of information may help the buyer decide which call to buy.
-- If one decides to use an option to implement a trading strategy, the time horizon of the strategy itself often dictates the general category of option that should be bought—inthe-money versus out-of-the-money, near-term versus long-term, etc. This statement is true whether one is referring to stock, index, or futures options. The general rule is this: The shorter-term the strategy, the higher the delta should be of the instrument being used to trade the strategy. What many of these option-oriented day traders fail to realize is that, for day-trading purposes, the instrument with the highest possible delta should be used. That instrument is the underlying, for it has a delta of 1.0. Day trading is hard enough without complicating it by trying to use options. So of you're day trading Microsoft (MSFT), trade the stock, not an option. Suppose one employs a strategy whereby he expects to hold the underlying for approximately a week or two. In this case, just as with day trading, a high delta is desirable. However, now that the holding period is more than a day, it may be appropriate to buy an option as opposed to merely trading the underlying, because the option lessens the risk of a surprisingly large downside move. Still, it is the short-term, in-the-money option that should be bought, for it has the largest delta, and will thus respond most closely to the movement in the underlying stock. Such an option has a very high delta, usually in excess of .80. As the time horizon of one’s trading strategy lengthens, it is appropriate to use an option with a lesser delta...Hence, for a strategy such as this, one would want to use an option with a smaller delta. The investor would limit his risk by using such an option, knowing that large moves are possible since the position is going to be held for several weeks or perhaps even a couple of months or more. Therefore, an at-the-money option can be used in such situations. If one’s strategy is even longer-term, an option with a lower delta can be considered. Such strategies would generally have only vague timing qualities, such as selecting a stock to buy based on the general fundamental outlook for the company. Generally, buying out-of-the-money options is not recommended; but for very longterm strategies, one might consider something slightly out-of-the-money, or at least a fairly long-term at-the-money option.
-- In actual practice, one is not usually bullish on just one stock at a time. In fact, the investor would like to have a list of the “best” calls to buy at any given time. Then, using some method of stock selection, either technical or fundamental, he can select three or four calls that appear to offer the best rewards. This list should be ranked in order of the best potential rewards available, but the construction of the list itself is important. Call option rankings for buying purposes must be based on the volatilities of the underlying stocks. This is not easy to do mathematically, and as a result many published rankings of calls are based strictly on percentage change in the underlying stock. Such a list is quite misleading and can lead one to the wrong conclusions. Any ranking based on equal percentage changes in the underlying stock, without regard for their volatilities, is useless and should be avoided.
-- One more refinement needs to be made in this ranking process. Since most call purchases are made for holding periods of from 30 to 90 days, it is not correct to assume that the calls will be held to expiration. That is, even if one buys a 6-month call, he will normally liquidate it, to take profits or cut losses, in 1 to 3 months. The call buyer's list should thus be based on how the call will perform if held for a realistic time period, such as 90 days...Suppose the volatile stock in our example, VVS, has the potential to rise by 12% in 90 days, while the less volatile stock, NVS, has the potential of rising only 4% in 90 days. In 90 days, the July 40 calls will not be at parity, because there will be some time remaining until July expiration. Thus, it is necessary to attempt to predict what their prices will be at the end of the 90-day holding period.
-- The correct method of ranking potential reward situations for call buyers is as follows....It is virtually impossible to perform this sort of analysis without a computer. The call buyer can generally obtain such a list from a brokerage firm or from a data service. For those individuals who have access to a computer and would like to generate such an analysis for themselves, the details of computing a stock’s volatility and predicting the call prices are provided in Chapter 28 on mathematical techniques (WE NEED TO TIE THIS TO CHAP 28 notes).
-- It is introduced here because even the inexperienced option trader must understand that the portion of an option’s price that is not intrinsic value—the part that we routinely call “time value premium’—is really composed of much more than just time value. Yes, time will eventually wear away that portion of the option’s price as expiration approaches. However, when an option has a considerable amount of time remaining until its expiration, the more important component of the option value is really volatility. If traders expect the underlying stock to be volatile, the option will be expensive; if they expect the opposite, the option will be cheap. This expensiveness and cheapness is reflected in the portion of the option that is not intrinsic value. For example, a six-month option will not decay much in one day’s time, but a quick change in volatility expectations by option traders can heavily affect the price of the option, especially one with a good deal of time remaining. So an option buyer should carefully assess his purchases, not just view them as something that will waste away. With careful analysis, option buyers can do very well, if they consider what can happen during the life of the option, and not merely what will happen at expiration. 
-- Despite one’s best efforts, it may often seem that one does not make much money when a fairly volatile stock makes a quick move of 3 or 4 points. The reasons for this are somewhat more complex than can be addressed at this time, although they relate strongly to delta, time decay, and the volatility of the underlying stock. They are discussed in Chapter 36, “The Basics of Volatility Trading,” If one plans to conduct a serious call buying strategy, he should read that chapter before embarking on a program of extensive call buying. (WE NEED TO TIE in CHAP 36 notes).
-- In general, stop orders for options result in poor executions, so using a “mental” stop is better. That is, one should base his exit point on the technical pattern of the underlying stock itself. If it should break down below support, for example, then the option holder should place a market (not held) order to sell his call option.
-- When the call buyer is fortunate enough to see the underlying stock advance relatively quickly, he can implement a number of strategies to enhance his position. Example: A call buyer bought an XYZ October 50 call for 3 points when the stock was at 48. Then the stock rises to 58. The buyer might consider selling his October 50 (which would probably be worth about 9 points) or possibly taking one of several actions, some of which might involve the October 60 call, which may be selling for 3 points. Table 3-1 summarizes the situation. At this point, the call buyer might take one of four basic actions: 1. Liquidate the position by selling the long call for a profit. 2. Sell the October 50 that he is currently long and use part of the proceeds to purchase October 60’s. 3. Create a spread by selling the October 60 call against his long October 50. 4. Do nothing and remain long the October 50 call...Every call buyer realizes the ramifications of these two tactics—liquidating or doing nothing—and is generally looking for an alternative that might allow him to reduce some of his risk without cutting off his profit potential completely. The remaining two tactics are geared to this purpose: limiting the total risk while providing the opportunity for further profits of an amount greater than those that could be realized by liquidating. The strategy in which the holder sells the call that he is currently holding, the October 50, and uses part of the proceeds to buy the call at the next higher strike is called rolling up. In this example, he could sell the October 50 at 9, pocket his initial 3-point investment, and use the remaining proceeds to buy two October 60 calls at 3 points each.
-- The other alternative, the third one listed, is to continue to hold the October 50 call but to sell the October 60 call against it. This would create what is known as a bull spread, and the tactic can be used only by traders who have a margin account and can meet their firm’s minimum equity requirement for spreading (generally $2,000). This spread position has no risk, for the long side of the spread—the October 50—cost 3 points, and the short side of the spread—the October 60—brought in 3 points via its sale. Even if the underlying stock drops below 50 by expiration and all the calls expire worthless, the trader cannot lose anything except commissions. On the other hand, the maximum potential of this spread is 10 points, the difference between the striking prices of 50 and 60. This maximum potential would be realized if XYZ were anywhere above 60 at expiration, for at that time the October 50 call would be worth 10 points more than the October 60 call, regardless of how far above 60 the underlying stock had risen. This strategy will be the best performer of the four if XYZ remains relatively unchanged, above the lower strike but not much above the higher strike by expiration. It is interesting to note that this tactic is never the worst performer of the four tactics, no matter where the stock is at expiration. (NEED TO CHECK FOR BROKERAGE MARGIN ALLOWANCE)
-- There is no definite answer as to which of the four tactics is the best one to apply in a given situation. However, if a call can be sold against the currently long call to produce a bull spread that has little or no risk, it may often be an attractive thing to do. It can never turn out to be the worst decision, and it would produce the largest profits if XYZ does not rise substantially or fall substantially from its current levels.
-- There is a school of thought that says one is better off merely using a trailing stop—a stop placed at the 20-day moving average of the underlying, say—than to make bearish adjustments to a bullish position. Of course, in a choppy market that is swinging up and down, partial profits may prove to be preferable, but a call buyer’s best way to maximize profits over time is to be lucky or good enough to be long in a strong trend. He should do everything he can to maximize the profits and ride that trend, which would be “do nothing” and use a stop that trails along behind the market.
-- Two follow-up strategies are sometimes employed by the call buyer when the underlying stock declines in price. Both involve spread strategies; that is, being long and short two different calls on the same underlying stock simultaneously. **FIRST STRATEGY**: “Rolling Down.” If an option holder owns an option at a currently unrealized loss, it may be possible to greatly increase the chances of making a limited profit on a relatively small rebound in the stock price. One could sell two October 35’s and, at the same time, buy one October 30 for no additional investment before commissions. That is, the sale of 2 October 35’s at $150 each would bring in $300, exactly the cost, before commissions, of buying the October 30 call. This is the key to implementing the roll-down strategy: that one be able to buy the lower strike call and sell two of the higher strike calls for nearly even money...This is technically known as a bull spread, but the terminology is not important....Thus, the call buyer significantly lowers his break-even point by utilizing this strategy.  Lowering the break-even point is not the investor’s only concern. He must also be aware of what has happened to his profit and loss opportunities. The risk remains essentially the same—the $300 in debits, plus commissions, that has been paid out. The risk has actually increased slightly, by the amount of the commissions spent in “rolling down.” However, the stock price at which this maximum loss would be realized has been lowered. With the original long call, the October 35, the buyer would lose the entire $300 investment anywhere below 35 at October expiration. The spread strategy, however, would result in a total loss of $300 only if XYZ were below 30 at October expiration. With XYZ above 30 in October, the long side of the spread could be liquidated for some value, thereby avoiding a total loss. The investor has reduced the chance of realizing the maximum loss, since the stock price at which that loss would occur has been lowered by 5 points..... This example is particularly attractive, because no additional money was required to establish the spread. In many cases, however, one may find that the long call cannot be rolled into the spread at even money. Some debit may be required. This fact should not necessarily preclude making the change, since a small additional investment may still significantly increase the chance of breaking even or making a profit on a rebound.... In summary, then, if the call buyer finds himself with an unrealized loss because the stock has declined, and yet is unwilling to sell, he may be able to improve his chances of breaking even by “rolling down’ into a spread. That is, he would sell 2 of the calls that he is currently long—the one that he owns plus another one—and simultaneously buy one call at the next lower striking price. **SECOND STRATEGY**: Creating a Calendar Spread. A different type of defensive spread strategy is sometimes used by the call buyer who finds that the underlying stock has declined. In this strategy, the holder of an intermediate- or long-term call sells a near-term call, with the same striking price as the call he already owns. This creates what is known as a calendar spread. The idea behind doing this is that if the short-term call expires worthless, the overall cost of the long call will be reduced to the buyer. Example: Suppose that an investor bought an XYZ October 35 call for 3 points sometime in April. By June the stock has fallen to 32, and it appears that the stock might remain depressed for a while longer. The holder of the October 35 call might consider selling a July 35 call, perhaps for a price of 1 point. Should XYZ remain below 35 until July expiration, the short call would expire worthless, earning a small, 1-point profit. The investor would still own the October 35 call and would then hope for a rally by XYZ before October in order to make profits on that call. Even if XYZ does not rally by October, he has decreased his overall loss by the amount received for the sale of the July 35 call. This strategy is not as attractive to use as the previous one. If XYZ should rally before July expiration, the investor might find himself with two losing positions. Consequently, this strategy should be used with great caution.
-- Anyone not familiar with the margin requirements for spreads, under both the exchange margin rules and the rules of the brokerage firm he is dealing with, should not attempt to utilize a spread transaction. Later chapters on spreads outline the more common requirements for spread transactions. In general, one must have a margin account to establish a spread and must have a minimum amount of equity in the account. Thus, the call buyer who operates in a cash account cannot necessarily use these spread strategies. 
+---
 
+## Framing: Call Buying Is Not a Strategy in the Usual Sense
 
+Most options strategies are designed to remove the need for precise stock picking and
+timing — they build in room for error and can profit even in neutral or mildly adverse
+conditions. Call buying offers none of that protection. The success of a call buying
+strategy depends primarily on one's ability to select stocks that will go up *and* to time
+the selection reasonably well. You must be right on direction and approximately right on
+timing. There is no structural edge — only the leverage and defined-risk properties of
+the option itself.
 
-# Chapter 3 — Call Buying: Extracted Insights for the Conservative Options Playbook
+This matters for the value investor: fundamental mispricing can take months or years to
+be recognized by the market. Call buying compresses that timeline into the life of the
+option. The gap between "I'm right on the stock" and "I'm right on the call" is timing,
+and timing is where most call buyers lose money.
 
 ---
 
 ## 1. The Core Case: Leverage with Fixed, Known Risk
 
-"The main attraction in buying calls is that they provide the speculator with a great
-deal of leverage. One could potentially realize large percentage profits from only a
-modest rise in price by the underlying stock. Moreover, even though they may be large
-percentage-wise, the risks cannot exceed a fixed dollar amount—the price originally
-paid for the call."
+The main attraction in buying calls is leverage: potentially large percentage profits from
+a modest rise in the underlying stock, with risk that cannot exceed the premium paid —
+a fixed, known dollar amount.
 
 **Worked example:** XYZ is at 48 and the 6-month July 50 call sells for 3. Investment =
-$300. If XYZ rises 10 points (just over 20%), the July 50 call will be worth at least $800 —
-a 167% profit on a 20% move in the stock. At expiration, if XYZ is below 50, the buyer's
-loss is total but limited to his initial $300 investment, even if XYZ declines substantially.
+$300. If XYZ rises 10 points (just over 20%), the July 50 call will be worth at least $800
+— a 167% profit on a 20% move in the stock. At expiration, if XYZ is below 50, the
+buyer's loss is total but limited to his initial $300, even if XYZ declines substantially.
 
-**Position-sizing rule:** "One should normally not invest more than 15% of his risk
-capital in call buying, because of the relatively large percentage risks involved."
+**Position-sizing rule:** One should normally not invest more than 15% of risk capital in
+call buying, because of the relatively large percentage risks involved.
 
-**The value investor use case McMillan explicitly names:** "Some investors participate
-in call buying on a limited basis to add some upside potential to their portfolios while
-keeping the risk to a fixed amount. For example, if an investor normally only purchased
-low-volatility, conservative stocks because he wanted to limit his downside risk, he might
-consider putting a small percentage of his cash into calls on more volatile stocks. In this
-manner, he could 'trade' higher-risk stocks than he might normally do. If these volatile
-stocks increase in price, the investor will profit handsomely. However, if they decline
-substantially—as well they might, being volatile—the investor has limited his dollar risk
-by owning the calls rather than the stock."
+**Mechanics:** Calls must be paid for in full. They have no margin value and do not
+constitute equity for margin purposes. This is a hard capital constraint — size positions
+accordingly.
 
-A second use case: buying a call as a placeholder when awaiting capital. With XYZ at
-75, the investor might buy a call at 80 — wanting to own XYZ at 80 if it can prove itself
-capable of rallying, while risking only the premium paid if the stock instead declines.
+**Three use cases McMillan identifies:**
 
----
+1. *Upside leverage on volatile stocks with limited dollar risk.* An investor who
+   normally buys only low-volatility, conservative stocks can put a small percentage
+   of cash into calls on more volatile stocks. If those stocks advance, the profit is
+   large. If they decline substantially — as volatile stocks might — the dollar loss is
+   capped at the premium paid. This is how calls substitute for stock ownership in
+   higher-risk names without the full downside exposure.
 
-## 2. Strike Selection: ITM vs. OTM — Matching the Strike to the Expected Move
+2. *Placeholder while awaiting capital.* An investor knows that cash is coming
+   (house sale closing, CD maturing) and wants exposure now. He buys calls with
+   available cash as a placeholder, participates in any rally, and exercises when the
+   full capital arrives. The call purchase requires a fraction of the eventual stock
+   purchase price.
 
-"The purchase of an out-of-the-money call generally offers both larger potential risk
-and larger potential reward than does the purchase of an in-the-money call. Many call
-buyers tend to select the out-of-the-money call merely because it is cheaper in price.
-*Absolute dollar price should in no way be a deciding factor for the call buyer.*"
-
-**Worked example:** XYZ is at 65. The July 60 sells for 7; the July 70 sells for 3. If the
-stock moves up to 68 relatively slowly, the buyer of the July 70 — the out-of-the-money
-call — may actually experience a loss, even if the call has not yet expired. However, the
-holder of the in-the-money July 60 will definitely have a profit because the call will sell
-for at least 8 points, its intrinsic value.
-
-The principle: "*An in-the-money call will offer better rewards for a modest stock gain,
-and an out-of-the-money call is better for larger stock gains.*"
-
-On risk: the in-the-money call buyer (July 60) would not lose his entire investment
-unless XYZ fell by at least 5 points. However, the buyer of the out-of-the-money July 70
-would lose all of his investment unless the stock advanced by more than 5 points by
-expiration.
-
-> **Annotation:** A value investor buying calls on a 3–12 month thesis with uncertain
-> timing — and who expects a moderate rather than explosive move — is almost always
-> better served by an in-the-money or at-the-money call. OTM calls are appropriate only
-> when a large, rapid move is expected with high confidence.
+3. *Participation with a price condition.* With XYZ at 75, an investor might buy the
+   80 call — wanting to own XYZ at 80 if it can prove itself capable of rallying,
+   while risking only the premium paid if the stock instead declines.
 
 ---
 
-## 3. Expiration Selection: Matching Time Horizon to Timing Certainty
+## 2. Stock Selection Comes First — Technical Timing Outweighs Fundamentals
 
-"*The intermediate-term call offers a moderate amount of each, and is therefore often
-the most attractive one to buy.*"
+Since the best ally the call buyer has is upward movement in the underlying stock,
+stock selection is the most important decision. Only after the stock has been selected
+can the call buyer consider which strike and expiration to use.
 
-The near-term call most closely follows stock price movement — greatest rewards and
-greatest risks. The far-term call, having a large amount of time remaining, offers the
-least risk and least percentage reward.
+A critical and counterintuitive point for the fundamentally-oriented investor: **even if
+positive fundamentals exist, one does not know how long it will take for them to be
+reflected in price.** Technical factors therefore carry more weight than fundamentals
+in *timing* the call purchase. One must be bullish on the underlying stock — but being
+right on the fundamentals is not sufficient. The call buyer also needs to be approximately
+right on when the market will recognize what he already knows.
 
-**The trap of over-paying for the long-term call:** "Many times an investor will buy the
-longer-term call because it only costs a point or a point and a half more than the
-intermediate-term call. He feels that the extra price is a bargain to pay for three extra
-months of time. This line of thought may prove somewhat misleading, however, because
-most call buyers don't hold calls for more than 60 or 90 days. Thus, even though it looks
-attractive to pay the extra point for the long-term call, it may prove to be an unnecessary
-expense if, as is usually the case, one will be selling the call in two or three months."
+A second ally exists, though it cannot be predicted: if the stock on which one holds a
+call becomes more volatile, the call's price will rise to reflect that change — independent
+of the move in the stock price itself.
 
-**Timing-certainty framework:**
+---
 
-- *Certain timing, imminent move:* Buy short-term, slightly out-of-the-money calls.
-- *Uncertain timing — e.g., a positive fundamental that may take months to surface:*
-  "He should buy the longest-term call, to moderate his risk in case his timing is wrong
-  by a wide margin. Since the buyer does not know whether this positive fundamental
-  will come to light in the next month or six months from now, he should buy the
-  longer-term call to allow room for error in timing."
-- *Quick short-term move:* Buy a relatively short-term in-the-money call. "Although
-  such a call may be more expensive than an out-of-the-money call on the same
-  underlying stock, it will most surely move up on any increase in price by the
-  underlying stock."
-- *Very long-term / fundamental buy-and-hold thesis:* Consider slightly out-of-the-money
-  longer-term options, or LEAPS.
+## 3. Strike Selection: ITM vs. OTM — Matching the Strike to the Expected Move
 
-> **Annotation:** The value investor's typical situation — bullish on a stock due to
-> fundamental mispricing, uncertain whether the catalyst will surface in 2 months or 8 —
-> maps directly to the "uncertain timing" case. That points to the longest-term option
-> available, or LEAPS. Paying one extra point for three extra months is NOT a bargain if
-> the position will be liquidated in 60–90 days anyway; it IS a bargain if the thesis needs
-> the full duration.
+"*Absolute dollar price should in no way be a deciding factor for the call buyer.*" The
+cheap absolute price of an OTM call is not a reason to buy it.
+
+The principle stated cleanly: **an in-the-money call offers better rewards for a modest
+stock gain; an out-of-the-money call is better for larger stock gains.**
+
+**Worked example:** XYZ is at 65. July 60 sells for 7; July 70 sells for 3. If the stock
+moves up to 68 relatively slowly, the buyer of the July 70 (OTM) may experience a loss
+even before expiration, because time decay exceeded the modest price gain. The holder
+of the July 60 (ITM) will definitely have a profit — the call will sell for at least 8 points
+of intrinsic value. Conversely, if XYZ moves quickly to 75, the OTM call delivers a
+larger percentage gain.
+
+On risk: the ITM call buyer (July 60) does not lose his entire investment unless XYZ
+falls by at least 5 points. The OTM call buyer (July 70) loses everything unless XYZ
+advances by more than 5 points by expiration.
+
+> **Annotation:** The value investor buying calls on a 3–12 month thesis with uncertain
+> timing — expecting a moderate rather than explosive move — is almost always better
+> served by an in-the-money or at-the-money call. OTM calls are appropriate only when
+> a large, rapid move is expected with high confidence. Given that timing is inherently
+> uncertain in a fundamental thesis, defaulting to ITM is the more conservative and
+> appropriate choice.
 
 ---
 
 ## 4. Delta: The Applied Tool for Strike Selection
 
-"Simply stated, *the delta of an option is the amount by which the call will increase or
-decrease in price if the underlying stock moves by 1 point.*"
+The delta of an option is the amount by which the call will increase or decrease in price
+if the underlying stock moves by 1 point.
 
 **Delta benchmarks:**
-- Deep in-the-money (XYZ at 60, July 50 call at 10.10): delta close to 1 — the call
-  changes by nearly 1 point for every 1-point move in XYZ.
-- At-the-money (XYZ at 50, July 50 call at 5): delta usually between .50 and .60 —
-  the call might increase to 5.50 if XYZ rises to 51, or decrease to 4.50 if XYZ
-  drops to 49. Very long-term calls may have even larger at-the-money deltas.
-- Deeply out-of-the-money (XYZ at 40, July 50 call at .25): delta near zero — the
-  call changes very little on a 1-point move.
+- Deep ITM (XYZ well above strike): delta close to 1 — the call moves nearly
+  point-for-point with the stock.
+- ATM (XYZ at strike): delta usually between .50 and .60.
+- Deep OTM (XYZ well below strike): delta near zero — the call barely moves on a
+  1-point stock move. Very long-term calls may have larger at-the-money deltas.
 
-**Practical delta comparison example:** XYZ is at 47.50. The call buyer expects a quick
-but possibly limited rise.
+**Practical delta comparison:** XYZ is at 47.50. Expected quick but possibly limited
+rise.
 
 | | Price | Delta |
 |---|---|---|
-| XYZ July 45 call | 3.50 | .65 |
-| XYZ July 50 call | 1.00 | .25 |
+| XYZ July 45 call (ITM) | 3.50 | .65 |
+| XYZ July 50 call (OTM) | 1.00 | .25 |
 
-Expected move to 49 = 1.50-point stock gain. July 45 call increases by 97 cents
-(1.50 × 0.65) = 28% appreciation. July 50 call increases by 37 cents (1.50 × 0.25) = 37%
-appreciation. In this case, the July 50 appears to be the better buy despite being
-out-of-the-money — because the percentage gain is higher for the expected limited move.
+Expected move to 49 = 1.50-point stock gain.
+- July 45: increases by ~97 cents (1.50 × 0.65) = 28% appreciation
+- July 50: increases by ~37 cents (1.50 × 0.25) = 37% appreciation
 
-**The general rule:** "*The shorter-term the strategy, the higher the delta should be of
-the instrument being used to trade the strategy.*"
+In this case the OTM call shows a higher percentage gain for this specific limited
+move. The delta framework lets you evaluate this concretely before entering.
 
-Applied by holding period:
+**The general rule — delta by holding period:**
 
-- *Short-term (1–2 weeks):* Short-term, in-the-money call; delta usually in excess
-  of .80.
+- *Day trading:* Don't use options. Use the stock. The stock has a delta of 1.0. Day
+  trading is hard enough without the drag of delta less than 1.
+- *Short-term (1–2 weeks):* Short-term, in-the-money call; delta in excess of .80.
+  The option must respond closely to every move in the underlying.
 - *Intermediate-term (several weeks to a couple of months):* At-the-money option;
-  lesser delta acceptable because timing is less exact and the position must survive
-  larger potential swings.
-- *Long-term / fundamental thesis:* Option with a lower delta can be considered;
-  slightly OTM or long-term ATM; LEAPS are appropriate.
+  delta around .50–.60. Less exact timing means the position must survive larger
+  swings.
+- *Long-term / fundamental thesis (months, uncertain timing):* Option with a lower
+  delta is acceptable; slightly OTM or long-term ATM; LEAPS appropriate. The
+  timing is vague enough that the investor trades some delta for duration.
 
-> **Annotation:** The delta framework gives the value investor a concrete number to
-> evaluate when comparing strikes. For a 3–12 month fundamental thesis with wide timing
-> uncertainty, the delta matters less at entry than the duration remaining. But for any
-> position the investor intends to trade actively — entering on a technical trigger within
-> the fundamental thesis — the in-the-money call's higher delta means more dollar
-> participation in the early part of the move, which is precisely when the investor has the
-> most conviction.
+**Unified principle:** The shorter the strategy, the higher the delta should be.
+
+> **Annotation:** For the value investor with a 3–12 month fundamental thesis and wide
+> timing uncertainty, delta matters less at entry than duration remaining. But for
+> positions entered on a technical trigger within the fundamental thesis — where the
+> investor has specific near-term conviction — the ITM call's higher delta means more
+> dollar participation in the early part of the move, exactly when conviction is highest.
 
 ---
 
-## 5. "Time Value Premium Is a Misnomer" — Volatility Dominates for Longer-Dated Options
+## 5. Expiration Selection: Matching Time Horizon to Timing Certainty
 
-"The portion of an option's price that is not intrinsic value — the part that we routinely
-call 'time value premium' — is really composed of much more than just time value. Yes,
-time will eventually wear away that portion of the option's price as expiration approaches.
-However, when an option has a considerable amount of time remaining until its
-expiration, the more important component of the option value is really volatility. If
-traders expect the underlying stock to be volatile, the option will be expensive; if they
-expect the opposite, the option will be cheap."
+The near-term call most closely follows stock price movement — greatest reward and
+greatest risk. The far-term call, having more time remaining, offers the least risk and
+least percentage reward. The intermediate-term call offers a moderate amount of each
+and is often the most attractive.
 
-"A six-month option will not decay much in one day's time, but a quick change in
-volatility expectations by option traders can heavily affect the price of the option,
-especially one with a good deal of time remaining. So an option buyer should carefully
-assess his purchases, not just view them as something that will waste away. With careful
-analysis, option buyers can do very well, *if they consider what can happen during the
-life of the option, and not merely what will happen at expiration.*"
+**The trap of over-paying for the long-term call:** Many investors buy the longer-term
+call because it costs only a point or a point and a half more than the intermediate-term
+call, feeling that the extra price is a bargain for three extra months. This logic is
+misleading — because most call buyers don't hold calls for more than 60 to 90 days.
+Even if one buys a 6-month call, one will normally liquidate it in 1 to 3 months. Paying
+for extra duration you won't use is a real cost, not a bargain.
 
-McMillan identifies this as a second ally for the call buyer — beyond stock price
-appreciation itself: "If the stock on which he owns a call becomes more volatile, the
-call's price will rise to reflect that change."
+**When the extra duration IS worth paying for:** If the thesis is long-term and
+fundamentally driven — a positive development that may assert itself at an unknown time
+over the next several months — the longest-term call is correct. The investor does not
+know whether the catalyst surfaces in the next month or six months from now. The
+longer-term call buys time to be wrong on timing without being wrong on the trade.
 
-> **Annotation:** This is especially important for value investors buying calls during
-> periods of low implied volatility — a common condition when a stock is depressed and
+**Timing-certainty framework:**
+
+| Timing Certainty | Expected Move | Best Call |
+|---|---|---|
+| High — move imminent | Large | Short-term, slightly OTM |
+| High — move imminent | Modest | Short-term, ITM |
+| Moderate | Any | Intermediate-term, ATM or slightly ITM |
+| Low — fundamental thesis, unknown timing | Moderate | Longest-term available, ITM or ATM |
+| Low — fundamental thesis, unknown timing | Large (eventual) | LEAPS, slightly OTM acceptable |
+
+> **Annotation:** The value investor's typical situation — bullish due to fundamental
+> mispricing, uncertain whether the catalyst surfaces in 2 months or 8 — maps directly
+> to the "low timing certainty" row. That points to the longest-term option available.
+> Paying one extra point for three extra months is NOT a bargain if the position will be
+> liquidated in 60–90 days anyway. It IS the right call if the thesis genuinely needs the
+> full duration.
+
+---
+
+## 6. "Time Value Premium Is a Misnomer" — Volatility Dominates for Longer-Dated Options
+
+*(See Chapter 1 for the foundational treatment; this section draws out the implication
+for call buyers specifically.)*
+
+When an option has considerable time remaining, the more important component of its
+non-intrinsic value is volatility, not time. A six-month option will not decay much in
+one day, but a quick change in volatility expectations can heavily affect its price. The
+call buyer should assess purchases with an eye to what can happen during the life of the
+option — not merely what will happen at expiration.
+
+This creates a second ally for the call buyer beyond stock price appreciation: if the
+stock becomes more volatile after the call is purchased, the call's price rises to reflect
+that change, independent of any stock price move.
+
+> **Annotation:** This is especially important when buying calls during periods of low
+> implied volatility — a common condition when a stock is depressed, out-of-favor, or
 > under-followed. If the thesis plays out and the stock re-rates, implied volatility will
-> typically expand alongside price, producing a double-benefit: the stock moves up AND
-> the remaining time premium inflates. Conversely, buying calls after a volatility spike
-> (e.g., post-earnings) means paying for IV that may immediately contract even if the
-> stock moves in the right direction.
+> typically expand alongside price, producing a double benefit: the stock moves up AND
+> remaining time premium inflates. Conversely, buying calls after a volatility spike
+> (e.g., immediately post-earnings) means paying for IV that may contract even if the
+> stock moves in your direction. Entry timing relative to volatility levels matters.
 
 ---
 
-## 6. Advanced Selection: Rank Calls by Volatility-Adjusted Reward, Not Raw Percentage Move
+## 7. Ranking Calls Correctly: Volatility-Adjusted Reward, Not Raw Percentage Move
 
-"*Call option rankings for buying purposes must be based on the volatilities of the
-underlying stocks.* Any ranking based on equal percentage changes in the underlying
-stock, without regard for their volatilities, is useless and should be avoided."
+Call option rankings for buying purposes must be based on the volatilities of the
+underlying stocks. Any ranking based on equal percentage changes across stocks,
+without regard for their volatilities, is useless and should be avoided.
 
-**Worked example — the wrong method:** NVS (non-volatile) at 40, July 40 call = 2. VVS
-(volatile) at 40, July 40 call = 4. A ranking of "best call buys if the underlying stock
-advances by 10%" would show both stocks at 44 at expiration; NVS July 40 worth 4
-(100% profit), VVS July 40 worth 4 (0% profit). Conclusion: NVS is the better buy.
-"Such a conclusion may be wrong, because an incorrect assumption was made in the
-ranking of the potentials of the two stocks. It is not right to assume that both stocks
-have the same probability of moving 10% by expiration. Certainly, the volatile stock has
-a much better chance of advancing by 10% (or more) than the nonvolatile stock does."
+**Why the wrong method fails:** NVS (non-volatile) at 40, July 40 call = 2. VVS
+(volatile) at 40, July 40 call = 4. A ranking that assumes both stocks rise 10%
+by expiration shows NVS July 40 at a 100% profit and VVS July 40 at 0% profit —
+concluding NVS is the better buy. This is wrong because it assumes equal probability
+of a 10% move. The volatile stock has a much higher probability of moving 10% or more.
 
-**Correct method — to expiration:** VVS can be expected to move 15% by July; NVS only 5%.
+**Correct method — assume each stock moves in line with its volatility:**
+VVS can be expected to move 15% by July; NVS only 5%.
 
-| Stock Price in July | Call Price |
-|---|---|
-| VVS: 46 (up 15%) | VVS July 40: 6 (up 50%) |
-| NVS: 42 (up 5%) | NVS July 40: 2 (unchanged) |
+| Stock | Price at Expiration | Call Price | Profit |
+|---|---|---|---|
+| VVS (volatile) | 46 (up 15%) | 6 | +50% |
+| NVS (non-volatile) | 42 (up 5%) | 2 | 0% |
 
-VVS July 40 is the better call to buy, despite being twice as expensive to begin with.
-"By assuming that each stock can rise in accordance with its volatility, we can see that
-the VVS July 40 has the better reward potential, despite the fact that it was twice as
-expensive to begin with. This method of analysis is much more realistic."
+VVS July 40 is the better call despite being twice as expensive.
 
-**Refinement for realistic 90-day holding periods:** "Since most call purchases are made
-for holding periods of from 30 to 90 days, it is not correct to assume that the calls will
-be held to expiration. That is, even if one buys a 6-month call, he will normally
-liquidate it, to take profits or cut losses, in 1 to 3 months. *The call buyer's list should
-thus be based on how the call will perform if held for a realistic time period, such as
-90 days.*"
-
-In 90 days, VVS can rise 12%; NVS only 4%. With time remaining, both calls retain
-time premium:
-
-| Stock Price in 90 Days | Call Price |
-|---|---|
-| VVS: 44.8 (up 12%) | VVS July 40: 6 (up 50%) |
-| NVS: 41.6 (up 4%) | NVS July 40: 2.50 (up 25%) |
-
-"The bigger time premium would be in the VVS call, since the underlying stock is more
-volatile. Under this method of analysis, the VVS call is still the better one to buy."
+**Refinement for realistic 90-day holding periods:** Most calls are liquidated in 1–3
+months, not held to expiration. The ranking must therefore estimate call prices at the
+end of the realistic holding period — not at expiration — because time premium will
+still remain. In 90 days, with time remaining, the VVS call retains more time premium
+(due to higher volatility), and still outperforms.
 
 **The correct six-step ranking method:**
 
-1. Assume each underlying stock can advance in accordance with its volatility over a
-   fixed period (30, 60, or 90 days).
-2. Estimate the call prices after the advance.
-3. Rank all potential call purchases by highest percentage reward opportunity for
-   aggressive purchases.
+1. Assume each stock can advance in accordance with its volatility over a fixed
+   holding period (30, 60, or 90 days).
+2. Estimate the call prices after the advance, accounting for remaining time premium.
+3. Rank all potential purchases by highest percentage reward — this generates the
+   aggressive list.
 4. Assume each stock can decline in accordance with its volatility.
 5. Estimate the call prices after the decline.
-6. Rank all purchases by reward/risk ratio: the percentage gain from step 2 divided
-   by the percentage loss from step 5.
+6. Rank by reward/risk ratio: percentage gain from step 2 divided by percentage loss
+   from step 5 — this generates the conservative list.
 
-"The list from item 3 will generate more aggressive purchases because it incorporates
-potential rewards only. The list from item 6 would be a less speculative one. This method
-of analysis automatically incorporates the criteria set forth earlier, such as buying
-short-term out-of-the-money calls for aggressive purchases and buying longer-term
-in-the-money calls for a more conservative purchase."
+This analysis is effectively impossible without a computer. Chapter 28 covers the
+mathematical techniques for computing volatility and predicting call prices. **[Cross-
+reference: tie in Chapter 28 notes when available.]**
 
 > **Annotation:** For the value investor selecting calls across several conviction names,
-> step 6 is the operative ranking. The reward/risk ratio — evaluated over the investor's
-> realistic holding period, not expiration — is the correct screen. A call on a high-IV name
-> that looks expensive on an absolute basis will routinely outscore a call on a low-IV name
-> once probability of movement is incorporated.
+> step 6 is the operative ranking. The reward/risk ratio, evaluated over the realistic
+> holding period rather than expiration, is the correct screen. A call on a high-IV name
+> that looks expensive on an absolute basis will routinely outscore a call on a low-IV
+> name once the probability of movement is incorporated.
 
 ---
 
-## 7. Locking In Profits: Four Follow-Up Tactics After a Large Gain
+## 8. Locking In Profits: Four Follow-Up Tactics After a Large Gain
 
-**Setup (Table 3-1):** Bought XYZ October 50 call for 3 when stock was at 48. Stock
-rises to 58.
+**Setup:** Bought XYZ October 50 call for 3 when stock was at 48. Stock rises to 58.
 
 | Original Trade | Current Prices |
 |---|---|
-| XYZ common: 48 | XYZ Common: 58 |
+| XYZ common: 48 | XYZ common: 58 |
 | Bought XYZ October 50 at 3 | XYZ October 50: 9 |
 | | XYZ October 60: 3 |
 
 **Four actions available:**
 
-1. **Liquidate** — sell the October 50 for a 6-point profit ($600). No further upside,
-   no further risk. "This is the least aggressive tactic of the four."
-2. **Roll up** — sell October 50 at 9, pocket the original 3-point investment ($300),
-   use remaining 6 points to buy two October 60 calls at 3 each. "The buyer who
-   'rolls up' in this manner is essentially speculating with someone else's money. He
-   has put his own money back in his pocket and is using accrued profits to attempt
-   to realize further gains."
-3. **Spread** — hold October 50, sell October 60 against it for 3 points. Total net cost
-   of spread = zero (paid 3 for October 50, received 3 for October 60 sale). Maximum
-   profit = 10 points if XYZ is anywhere above 60 at expiration (October 50 worth 10
-   more than October 60). Zero risk even if stock falls below 50 by expiration.
-4. **Do nothing** — hold October 50. "This tactic would be the riskiest of the four. It
-   is the only one that could produce a loss at expiration if XYZ fell back below 50."
+1. **Liquidate** — sell October 50 for a 6-point ($600) profit. No further upside, no
+   further risk. Least aggressive.
+2. **Roll up** — sell October 50 at 9, pocket original 3-point investment ($300), use
+   remaining 6 points to buy two October 60 calls at 3 each. Now speculating with
+   accrued profits, own capital recovered.
+3. **Spread** — hold October 50, sell October 60 against it for 3 points. Net cost of
+   spread = zero (paid 3 for October 50, received 3 for October 60 sale). Maximum
+   profit = 10 points if XYZ is anywhere above 60 at expiration. Zero risk even if
+   stock falls below 50. *Requires a margin account and minimum equity.*
+4. **Do nothing** — hold October 50. Most aggressive. Only tactic that can produce a
+   loss if XYZ falls back below 50.
 
-**Table 3-2. Comparison of the four alternative strategies.**
+**Results at expiration:**
 
-| If the underlying stock then… | The best tactic was… | And the worst tactic was… |
-|---|---|---|
-| Continues to rise dramatically | "roll up" | liquidate |
-| Rises moderately above the next strike | do nothing | liquidate or "roll up" |
-| Remains relatively unchanged | spread | "roll up" |
-| Falls back below the original strike | liquidate | do nothing |
-
-**Table 3-3. Results at expiration.**
-
-| XYZ Price at Expiration | "Roll-up" Profit | "Do Nothing" Profit | "Spread" Profit | Liquidating Profit |
+| XYZ at Expiration | Roll-Up | Do Nothing | Spread | Liquidate |
 |---|---|---|---|---|
 | 50 or below | $0 | −$300 (W) | $0 | +$600 (B) |
-| 53 | 0 (W) | 0 (W) | +300 | +600 (B) |
-| 56 | 0 (W) | +300 | +600 (B) | +600 (B) |
-| 60 | 0 (W) | +700 | +1,000 (B) | +600 |
-| 63 | +600 (W) | +1,000 (B) | +1,000 (B) | +600 (W) |
-| 67 | +1,400 (B) | +1,400 (B) | +1,000 | +600 (W) |
-| 70 | +2,000 (B) | +1,700 | +1,000 | +600 (W) |
+| 53 | $0 (W) | $0 (W) | +$300 | +$600 (B) |
+| 56 | $0 (W) | +$300 | +$600 (B) | +$600 (B) |
+| 60 | $0 (W) | +$700 | +$1,000 (B) | +$600 |
+| 63 | +$600 (W) | +$1,000 (B) | +$1,000 (B) | +$600 (W) |
+| 67 | +$1,400 (B) | +$1,400 (B) | +$1,000 | +$600 (W) |
+| 70 | +$2,000 (B) | +$1,700 | +$1,000 | +$600 (W) |
 
 *(W = worst tactic at that price; B = best tactic)*
 
-**Key conclusion:** "If a call can be sold against the currently long call to produce a bull
-spread that has little or no risk, it may often be an attractive thing to do. *It can never
-turn out to be the worst decision*, and it would produce the largest profits if XYZ does
-not rise substantially or fall substantially from its current levels."
+**Key conclusion:** If a call can be sold against the currently long call to produce a bull
+spread at little or no net cost, it is often the most attractive action. It can never be the
+worst outcome at any stock price. It produces the largest profits if XYZ remains in the
+middle range — above the lower strike but not dramatically above the higher one.
 
-*Note that each of the four tactics proves to be the best tactic in one case or another,
-but that the spread tactic is never the worst one.*
+**Trailing stop vs. active adjustments:** Every time one rolls up, spreads, or takes
+partial profits, a bearish action is being taken against a bullish position. Those actions
+are harmful if the underlying continues to move strongly in your favor. A competing
+school of thought: use a trailing stop on the underlying (e.g., the 20-day moving average)
+rather than making active bearish adjustments. If the investor is genuinely in a strong
+trend, the best action is often to do nothing and let the stop trail behind the market.
+Every partial profit or adjustment reduces participation in the full move.
 
-**On trailing stops vs. active adjustments:** "Every time one takes partial profits, rolls
-up, or takes other measures, he is doing something bearish to his position. Those little
-bearish actions will be harmful if the underlying continues to perform favorably. There
-is a school of thought that says one is better off merely using a trailing stop — a stop
-placed at the 20-day moving average of the underlying, say — than to make bearish
-adjustments to a bullish position… a call buyer's best way to maximize profits over time
-is to be lucky or good enough to be long in a strong trend. He should do everything he
-can to maximize the profits and ride that trend, which would be 'do nothing' and use a
-stop that trails along behind the market."
-
-**Partial profit rule:** "If someone bought a number of calls at a price of 3, and they
-later were worth 5, it might behoove the call holder to sell one-third to one-half of his
-position at 5, thereby taking a partial profit. Having done that, it is often easier to let
-the profits run on the balance, and letting profits run is generally one of the keys to
-successful trading."
+**Partial profit rule:** If calls bought at 3 are now worth 5, selling one-third to one-half
+at 5 and letting the balance run is a reasonable middle path. Having taken partial profits,
+it is psychologically easier to hold the remainder through volatility.
 
 > **Annotation:** For the value investor with a multi-month thesis still intact, the spread
-> tactic (action 3) is the most consistent with the profile. It converts an open gain into a
-> locked floor while retaining meaningful upside up to the short strike. The trailing stop
-> ("do nothing") is appropriate when conviction in the continuing move is highest. The
-> roll-up is a speculative acceleration — appropriate only when the investor genuinely
-> believes a large further move is imminent.
+> tactic (action 3) is the most consistent choice. It converts an open gain into a locked
+> floor with zero downside risk while retaining meaningful upside to the short strike.
+> The trailing stop / do-nothing approach is appropriate when conviction in the
+> continuing move is highest. The roll-up is a speculative acceleration — appropriate
+> only when a large further move is expected with genuine conviction.
 
 ---
 
-## 8. Defensive Action When the Stock Declines: "Rolling Down" into a Bull Spread
+## 9. Defensive Action When the Stock Declines: Rolling Down into a Bull Spread
 
-When the call buyer holds an unrealized loss and still expects a rebound — but only a
-mild one — rolling down into a bull spread lowers the break-even point without requiring
+When holding an unrealized loss but still expecting a rebound — though only a moderate
+one — rolling down into a bull spread lowers the break-even point without requiring
 significant additional capital.
 
-**Setup:** Originally bought XYZ October 35 call for 3. Stock has since fallen to 32. Call
-is now at 1.50. Without action: break-even at expiration = 38. To recover full premium,
-XYZ must rally 6 points from 32 — at least 15% — "it cannot be considered very likely."
-The October 30 call is at 3.
+**The mechanism:** Sell 2 of the calls currently held and simultaneously buy 1 call at
+the next lower strike, for approximately even money. This converts the original long
+call into a bull spread with a lower break-even.
 
-**The roll-down transaction (Table 3-4):**
+**Setup:** Originally bought XYZ October 35 call for 3. Stock falls to 32. Call is now at
+1.50. Without action: break-even at expiration = 38. XYZ must rally 6 points (nearly
+19%) from 32 to break even — not a likely outcome.
 
-| Trade | Cost before Commissions |
+**The roll-down transaction:**
+
+| Trade | Cost |
 |---|---|
-| Original trade: Buy 1 October 35 call at 3 | $300 debit |
-| Later: Sell 2 October 35 calls at 1.50 | $300 credit |
+| Original: Buy 1 October 35 call at 3 | $300 debit |
+| Later: Sell 2 October 35 calls at 1.50 each | $300 credit |
 | Later: Buy 1 October 30 call at 3 | $300 debit |
-| **Net position: Long 1 October 30, Short 1 October 35** | **$300 debit** |
+| **Net position: Long 1 Oct 30, Short 1 Oct 35** | **$300 total debit** |
 
-"*This is the key to implementing the roll-down strategy: that one be able to buy the
-lower strike call and sell two of the higher strike calls for nearly even money.*"
+**Key implementation rule:** The lower strike call must be purchasable and two of the
+higher strike calls must be sellable for approximately even money. If a small additional
+debit is required, it may still be worthwhile — a modest extra investment can
+significantly lower the break-even.
 
-**Results:** New break-even at expiration = 33 (vs. original 38). If XYZ is at 33 at
-October expiration, the October 30 call is worth 3 points, the October 35 expires
-worthless; spread liquidated for $300 = breakeven. Maximum profit = 2 points if XYZ
-rallies to anywhere above 35 (October 30 worth 5, October 35 worthless; 5 − 3 = 2-point
-net profit). "*Thus, the call buyer significantly lowers his break-even point by utilizing
-this strategy.*"
+**Results:**
 
-**Table 3-5. Original and spread positions compared.**
-
-| Stock Price at Expiration | Long Call Result | Spread Result |
+| XYZ at Expiration | Original Long Call | Roll-Down Spread |
 |---|---|---|
 | 25 | −$300 | −$300 |
 | 30 | −$300 | −$300 |
-| 33 | −$300 | 0 |
-| 35 | −$300 | +200 |
-| 38 | 0 | +200 |
-| 40 | +200 | +200 |
-| 45 | +700 | +200 |
+| 33 | −$300 | $0 |
+| 35 | −$300 | +$200 |
+| 38 | $0 | +$200 |
+| 40 | +$200 | +$200 |
+| 45 | +$700 | +$200 |
 
-"The new position is better for stock prices between 30 and 40. Below 30, the two
-positions are equal, except for the additional commissions spent. If the stock should
-rally back above 40, the original position would have worked out better."
+New break-even = 33 (vs. original 38). Maximum profit capped at 2 points if XYZ
+rallies above 35. Below 30, both positions produce the same maximum loss. Above 40,
+the original call would have been better.
 
-**When a small debit is required:** If the October 30 call is at 4 instead of 3, selling 2
-October 35s at $150 each brings in $300, but buying the October 30 costs $400 — a $100
-net debit. New break-even = 34 (still well below the original 38). Maximum loss
-increases from 3 points to 4 points. Maximum profit = $100 less commissions. "The
-alternative in this example is not nearly as attractive as the previous one, but it might
-still be worthwhile for the call buyer to invoke such a spread if he feels that XYZ has
-limited rally potential up to October expiration."
+**vs. averaging down:** Buying another October 35 at 1.50 requires $150 additional and
+produces a break-even above 37. The roll-down costs less (approximately even money)
+and produces a break-even of 33. The spread is both cheaper and more effective.
 
-**Comparison to averaging down:** Buying another October 35 at 1.50 requires $150
-additional and produces a break-even over 37. The roll-down spread costs only $100
-additional and breaks even at 34. "The conversion to the spread is less expensive than
-'averaging down' and also provides a lower break-even price."
-
-> **Annotation:** This is the appropriate defensive move for the value investor who still
-> believes in the thesis but has been wrong on timing — i.e., the stock has pulled back but
-> the fundamental case remains intact. The roll-down preserves participation in a modest
-> recovery while substantially reducing the required stock move to break even. Critically,
-> it should only be executed when the investor expects a moderate — not strong — rebound.
-> If the investor believes the full thesis will play out with a large move, holding the
-> original call or doing nothing is the better choice.
+> **Annotation:** This is the correct defensive move for the value investor who remains
+> convinced of the thesis but has been wrong on timing — the stock has pulled back but
+> the fundamental case is intact. It should only be executed when expecting a moderate
+> rebound, not a full large move. If the investor believes the full thesis will eventually
+> produce a large move, holding the original call is better — the roll-down caps the upside
+> at 2 points above the lower strike.
 
 ---
 
-## 9. Defensive Action: Creating a Calendar Spread — Use with Caution
+## 10. Defensive Action: Calendar Spread — Know It, Avoid It
 
-When the underlying has declined and appears likely to stay depressed, the holder of an
-intermediate- or long-term call can sell a near-term call at the same strike to reduce net cost.
+When the underlying has declined and appears likely to stay depressed, the holder of a
+longer-term call can sell a near-term call at the same strike to reduce net cost. If the
+short call expires worthless, effective cost of the long call is reduced by the premium
+received.
 
-**Example:** Bought XYZ October 35 call for 3 in April. By June, stock has fallen to 32.
-Sell a July 35 call for 1 point. If XYZ remains below 35 until July expiration, the short
-call expires worthless — a 1-point credit earned. The investor still holds the October 35
-with a reduced effective cost of 2. "Even if XYZ does not rally by October, he has
-decreased his overall loss by the amount received for the sale of the July 35 call."
+**Why this strategy is generally inappropriate for the value investor:** If the stock
+rallies before the near-term expiration — which is precisely what the value investor is
+waiting for — the short call will be at a loss while the long call may not yet have
+recovered. The position can be at a loss on both sides simultaneously. This failure mode
+cannot occur with the roll-down bull spread.
 
-**The key risk — and why this strategy ranks below the roll-down:** If XYZ rallies
-quickly before July expiration — say back to 36 in the next week — the short July 35
-will be worth more than 1 point (a loss on the short side), while the October 35 will
-probably not have appreciated back to its original cost of 3 (a loss on the long side as
-well). McMillan: "Consequently, this strategy should be used with great caution, for if
-the underlying stock rallies quickly before the near-term expiration, the spread could be
-at a loss on both sides."
-
-This failure mode cannot occur with the roll-down bull spread: even if XYZ rallies
-quickly, some profit would be made on the rebound.
-
-> **Annotation:** For the value investor — who is by definition expecting the stock to
-> eventually rally — the calendar spread is the more dangerous of the two defensive tools.
-> It penalizes the investor for being right too quickly. Use only when the investor is
-> confident the stock will remain below the strike through the near-term expiration, and
-> even then the roll-down is generally preferable.
+Use only if confident the stock will remain below the strike through the near-term
+expiration. Even then, the roll-down is generally the better tool.
 
 ---
 
-## 10. Exit Discipline: Stop Placement and Profit-Taking
+## 11. Exit Discipline: Stop Placement and Profit-Taking
 
-"The simplest follow-up action that the call buyer can implement when the underlying
-stock drops is to sell his call and cut his losses. There is often a natural tendency to hold
-out hope that the stock can rally back to or above the striking price. Most of the time,
-the buyer does best by cutting his losses in situations in which the stock is performing
-poorly."
+**Stop placement:** Stop orders on options produce poor executions. Use a mental stop
+based on the technical pattern of the underlying stock — not the option price itself. If
+the stock breaks below a support level, place a market (not held) order to sell the call.
+The exit trigger is on the stock chart, not the options screen.
 
-On stop placement: "In general, stop orders for options result in poor executions, so
-using a 'mental' stop is better. That is, one should base his exit point on the technical
-pattern of the underlying stock itself. If it should break down below support, for example,
-then the option holder should place a market (not held) order to sell his call option."
+**Cutting losses:** The simplest follow-up when the stock performs poorly is to sell the
+call and cut the loss. There is a natural tendency to hold out hope for a rally back to
+the strike. Most of the time, the buyer does best by cutting losses when the stock is
+performing poorly.
 
-On symmetry of profit-taking: a call bought for 5 and worth 10 vs. a call bought for 1
-and worth 2 — "both cases resulted in approximately a 100% profit — and the investor
-should be as willing to accept the one as he is the other."
+**Profit-taking symmetry:** A call bought for 5 and now worth 10 and a call bought for
+1 and now worth 2 both represent approximately 100% profits. The investor should be
+as willing to take the one as the other. Don't hold a cheap call to a higher absolute
+dollar threshold just because it "only" cost $100 to enter.
 
-On exercise vs. sale: "It is rarely to the call buyer's benefit to exercise the call if he
-has to pay commissions… the call holder will usually realize more net dollars by selling
-the call in the option market than by exercising it."
+**Exercise vs. sale:** It is rarely to the call buyer's benefit to exercise rather than sell
+in the secondary market. Exercising destroys any remaining time value and incurs full
+stock commissions. Sell the option.
+
+---
+
+## 12. Chapter Cross-References
+
+Two chapters are flagged as required reading before conducting a serious call buying
+program:
+
+- **Chapter 28 — Mathematical Techniques:** Covers the correct method for computing
+  a stock's volatility and predicting call prices at a future date. Essential for
+  implementing the volatility-adjusted ranking method described in Section 7.
+- **Chapter 36 — The Basics of Volatility Trading:** Explains why a volatile stock
+  making a quick 3–4 point move often produces disappointing option profits.
+  Relates to delta, time decay, and volatility interactions. Required before
+  conducting extensive call buying.
+
+**[Cross-reference: integrate Chapter 28 and Chapter 36 notes when available.]**
