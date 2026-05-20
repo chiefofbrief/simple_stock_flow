@@ -1,104 +1,125 @@
-# USER NOTES:
-- Volatility is merely the term that is used to describe how fast a stock, future, or index changes in price. When one speaks of volatility in connection with options, there are two types of volatility that are important. The first is historical volatility, which is a measure of how fast the underlying instrument has been changing in price. The other is implied volatility, which is the option market’s prediction of the volatility of the underlying over the life of the option.
-- Historical volatility can be measured with a specific formula, as shown in the chapter on mathematical applications. It is merely the formula for standard deviation as contained in most elementary books on statistics. The important point to understand is that it is an exact calculation, and there is little debate over how to compute historical volatility. It is not important to know what the actual measurement means. That is, if one says that a certain stock has a historical volatility of 20%, that by itself is a relatively meaningless number to anyone but an ardent statistician. However, it can be used for comparative purposes. The standard deviation is expressed as a percent. One can determine that the historical volatility of the broad stock market has usually been in the range of 15% to 20%. A very volatile stock might have an historical volatility in excess of 100%. These numbers can be compared to each other, so that one might say that a stock with the latter historical volatility is five times more volatile that the “stock market.” So, the historical volatility of one instrument can be compared with that of another instrument in order to determine which one is more volatile. That in itself is a useful function of historical volatility, but its uses go much further than that. Historical volatility can be measured over different time periods to give one a sense of how volatile the underlying has been over varying lengths of time. For example, it is common to compute a 10-day historical volatility, as well as a 20-day, 50-day, and even 100-day. In each case, the results are annualized so that one can compare the figures directly.
-- We need to be able to make volatility estimates in order to determine whether or not a strategy might be successful, and to determine whether the current option price is a relatively cheap one or a relatively expensive one. For example, one can’t just say, “I think XYZ is going to rise at least 18 points by February expiration.” There needs to be some basis in fact for such a statement and, lacking inside information about what the company might announce between now and February, that basis should be statistics in the form of volatility projections.
-- As mentioned in the chapter on mathematical applications, once the composite daily implied volatility has been computed, it was recommended that a smoothing effect be obtained by taking a moving average of the 20 or 30 days’ implied volatilities. In fact, an exponential moving average was recommended, because it does not require one to keep accessing the last 20 or 30 days’ worth of data in order to compute the moving average. Rather, the most recent exponential moving average is all that’s needed in order to compute the next one.
-- At any one point in time, a trader knows for certain the following items that affect an option’s price: stock price, strike price, time to expiration, interest rate, and dividends. The only remaining factor is volatilit —in fact, implied volatility. It is the big “fudge factor” in option trading. If implied volatility is too high, options will be overpriced. That is, they will be relatively expensive. On the other hand, if implied volatility is too low, options will be cheap or underpriced. The terms “overpriced” and “underpriced” are not really used by theoretical option traders much anymore, because their usage implies that one knows what the option should be worth. In the modern vernacular, one would say that the options are trading with a “high implied volatility” or a “low implied volatility,’ meaning that one has some sense of where implied volatility has been in the past, and the current measure is thus high or low in comparison.
-- What this means, as a practical matter, is that one not only needs to know the current percentile of implied volatility, but he also needs to know the range of numbers over which that percentile was derived. If the range is wide, then an extreme percentile truly represents a cheap or expensive option. But if the range is tight, then one should probably not be overly concerned with the current percentile of implied volatility. Another facet of implied volatility that is often overlooked is how it ranges with respect to the time left in the option. This is particularly important for traders of LEAPS (long-term) options, for the range of implied volatility of a LEAPS option will not be as great as that of a short-term option.
-- It’s important for anyone using implied volatility in his trading decisions to understand that the range of past implied volatilities is important, and to realize that the volatility range expands as time shrinks.
-- Therefore, implied volatility may be considered to be an inaccurate estimate of what is really going to happen to the stock during the life of the option. Just remember that implied volatility is a forward-looking estimate, and since it is based on traders’ suppositions, it can be wrong—just as any estimate of future events can be in error.
-- The few charts that have been presented here don’t constitute a rigorous study upon which to draw the conclusion that implied volatility is a poor predictor of actual volatility, but it is this author’s firm opinion that that statement is true.
-- When implied volatilities are decreasing, option sellers are generally happy (and may often become more aggressive), while option buyers are losing money (and may often tend to become more timid).
-- It is the volatility trader's objective to spot situations when implied volatility is possibly or probably erroneous and to take a position that would profit when the error is brought to light. Thus, the volatility trader’s main objective is spotting situations when implied volatility is overvalued or undervalued, irrespective of his outlook for the underlying stock itself. In some ways, this is not so different from the fundamental stock analyst who is attempting to spot overvalued or undervalued stocks, based on earnings and other fundamentals.
-- From another viewpoint, volatility trading is also a contrarian theory of investing. That is, when everyone else thinks the underlying is going to be nonvolatile, the volatility trader buys volatility. When everyone else is selling options and option buyers are hard to find, the volatility trader steps up to buy options.
-- In fact, there are financial analysts and reporters who look for large increases in trading volume as a clue to which stocks might be ready to make a big move. Invariably, if the trading volume has increased and if implied volatility has increased as well, it is a good warning sign that someone with inside information is buying the options. In such a case, it might not be a good idea to sell volatility, even though the options are mathematically expensive.
-- Buyers of volatility really have little to fear if they miscalculate and thus buy an option that appears inexpensive but turns out not to be, in reality. The volatility buyer might lose money if he does this, and overpaying for options constantly will lead to ruin, but an occasional mistake will probably not be fatal. Sellers of volatility, however, have to be a lot more careful.
-- 
-
-# Chapter 36 — The Basics of Volatility Trading: Extracted Insights for the Conservative Options Playbook
+# Chapter 36: The Basics of Volatility Trading —
+# Extracted Insights for the Conservative Options Playbook
 
 ---
 
-## 1. Implied Volatility Trades in a Range — and That Range Is Predictable
+## Foundational Definitions: Two Types of Volatility
 
-The foundational observation of the chapter is that implied volatility, unlike stock prices,
-tends to oscillate within a recognizable trading range rather than trend indefinitely.
-McMillan illustrates this with a chart of IBM's implied volatility — presented without
-scale or label, so that the reader sees only a clean oscillating pattern before being told
-what it depicts. The point: "The implied volatility chart of nearly every stock, index, or
-futures contract has a similar pattern — a trading range. The only time that implied
-volatility will totally break out of its 'normal' range is if something material happens to
-change the fundamentals of the way the stock moves — a takeover bid, for example, or
-perhaps a major acquisition or other dilution of the stock."
+Volatility is the term used to describe how fast a stock, future, or index changes in
+price. When volatility is discussed in connection with options, two types matter:
 
-The practical implication for any option buyer: options on a given stock have a
-characteristic IV range, and positions entered when implied volatility is near the bottom
-of that range are structurally advantaged relative to positions entered near the top.
+**Historical volatility** is a measure of how fast the underlying instrument has been
+changing in price. It is a backward-looking, exact calculation — the standard deviation
+formula applied to past stock price changes, expressed as an annualized percentage.
+There is little debate about how to compute it.
 
-> **Annotation:** This is the single most important framing concept in the chapter for a
-> value investor buying calls. A stock that is depressed, under-followed, and quiet will
-> typically also have depressed implied volatility. Buying calls in that environment captures
-> two potential tailwinds simultaneously — stock price appreciation and IV expansion —
-> as was noted in Chapter 3. The range-bound nature of IV means that the entry point
-> within the IV cycle is not a random variable; it can be assessed and optimized.
+**Implied volatility** is the option market's prediction of the volatility of the underlying
+over the life of the option. It is forward-looking and derived by working backward from
+the current market price of the option. It is the only input to the Black-Scholes model
+that is not directly observable.
+
+One backward-looking, one forward-looking. Both are expressed as annualized
+percentages, making them directly comparable to each other.
 
 ---
 
-## 2. Implied Volatility Defined: The Only Unknown in the Option Pricing Equation
+## 1. Implied Volatility: The Sole Unknown in the Option Pricing Equation
 
-"At any one point in time, a trader knows for certain the following items that affect an
-option's price: stock price, strike price, time to expiration, interest rate, and dividends.
-The only remaining factor is volatility — in fact, *implied* volatility. It is the big 'fudge
-factor' in option trading. If implied volatility is too high, options will be overpriced. That
-is, they will be relatively expensive. On the other hand, if implied volatility is too low,
-options will be cheap or underpriced."
+At any point in time, a trader knows with certainty five of the six inputs that determine
+an option's price: stock price, strike price, time to expiration, interest rate, and
+dividends. The only remaining factor is volatility — specifically, implied volatility.
+It is the single degree of freedom in the pricing equation — the "big fudge factor" in
+option trading.
 
-McMillan provides the worked example directly:
+If implied volatility is too high, options are overpriced — relatively expensive. If
+implied volatility is too low, options are underpriced — relatively cheap. In modern
+practice, traders no longer use "overpriced" and "underpriced" because those terms
+imply knowing what an option *should* be worth. The correct framing: options are
+trading with "high implied volatility" or "low implied volatility," meaning the current
+reading is high or low relative to where it has historically been.
 
-XYZ price: 52  
-April 50 call price: 6  
-Time remaining to April expiration: 36 days  
-Dividends: $0.00  
-Risk-free interest rate: 5%  
+**Worked example:**
 
-"So what volatility would one have to plug in the Black-Scholes model (or whatever model
-one is using) to make the model give the answer 6 (the current price of the option)? That
-is, what volatility is necessary to solve the equation? 6 = f(52, 50, 36 days, 5%, Volatility,
-$0.00). Whatever volatility is necessary to make the model yield the current market price
-(6) as its value, is the implied volatility for the XYZ April 50 call. In this case, if you're
-interested, the implied volatility is 75.4%."
+XYZ price: 52; April 50 call price: 6; time to April expiration: 36 days;
+dividends: $0.00; risk-free rate: 5%.
 
-The modern framing: "The terms 'overpriced' and 'underpriced' are not really used by
-theoretical option traders much anymore, because their usage implies that one knows what
-the option *should* be worth. In the modern vernacular, one would say that the options are
-trading with a 'high implied volatility' or a 'low implied volatility,' meaning that one has
-some sense of where implied volatility has been in the past, and the current measure is
-thus high or low in comparison."
+The question: what volatility must be plugged into Black-Scholes to produce the
+observed price of 6?
 
-"Essentially, implied volatility is the option market's *guess* at the forthcoming statistical
-volatility of the underlying over the life of the option in question. If traders believe that
-the underlying will be volatile over the life of the option, then they will bid up the option,
-making it more highly priced. Conversely, if traders envision a nonvolatile period for the
-stock, they will not pay up for the option, preferring to bid lower; hence the option will be
-relatively low-priced. The important thing to note is that traders normally do *not* know
-the future. They have no way of knowing, for sure, how volatile the underlying is going to
-be during the life of the option."
+6 = f(52, 50, 36 days, 5%, Volatility, $0.00)
+
+The answer in this case: **implied volatility = 75.4%**. Whatever volatility makes the
+model yield the current market price is the implied volatility for that option.
+
+Implied volatility is the option market's estimate of forthcoming actual volatility of the
+underlying over the life of the option. If traders believe the underlying will be volatile,
+they bid up the option. If they envision a quiet period, they bid lower. Critically,
+traders do not know the future — implied volatility is a guess, and it can be wrong.
 
 ---
 
-## 3. Historical Volatility: How to Read the Multi-Period Stack
+## 2. Why Volatility Estimates Are Necessary for Strategy Decisions
 
-Historical volatility is the exact, formula-based calculation of how fast a stock has been
-changing in price — expressed as an annualized standard deviation percentage. The
-20-day historical volatility is cited as "commonly the most popular measure." Its primary
-strategic use is comparative: a stock with historical volatility over 100% is five times more
-volatile than the broad market's typical 15%–20%.
+We need to be able to make volatility estimates in order to determine whether a strategy
+might be successful and whether the current option price is relatively cheap or expensive.
+One cannot simply say "I think XYZ is going to rise at least 18 points by February
+expiration" without a statistical basis for that statement. Absent inside information,
+that basis must come from volatility projections.
 
-The diagnostic value of the multi-period stack — comparing 10-day, 20-day, 50-day, and
-100-day readings simultaneously — is illustrated with two examples.
+Volatility estimates answer three practical questions:
+1. Is the current option cheap or expensive relative to what the stock is likely to do?
+2. What is a realistic price target and over what time period?
+3. What is the probability of the position being profitable given the current premium?
 
-**Slowing down (stock that has been quieting):** At point A in McMillan's Figure 36-2,
-after a stock has been meandering in a tight range:
+Without volatility estimates, strategy decisions rest on intuition rather than probability.
+The machinery of Chapter 28 — historical volatility, composite implied volatility,
+expected return calculations — exists to answer these three questions rigorously.
+
+---
+
+## 3. Implied Volatility Trades in a Range — and That Range Is Predictable
+
+The implied volatility chart of nearly every stock, index, or futures contract shows a
+similar pattern: a trading range. Implied volatility oscillates within recognizable bounds
+rather than trending indefinitely in one direction.
+
+The only time implied volatility will totally break out of its normal range is if something
+material happens to change the fundamentals of how the stock moves — a takeover bid,
+a major acquisition, or other significant structural change to the underlying business.
+
+The practical implication: options on a given stock have a characteristic IV range, and
+positions entered when implied volatility is near the bottom of that range are
+structurally advantaged relative to positions entered near the top.
+
+> **Annotation:** A stock that is depressed, under-followed, and quiet will typically
+> also have depressed implied volatility. Buying calls in that environment captures two
+> potential tailwinds simultaneously — stock price appreciation and IV expansion. The
+> range-bound nature of IV means that the entry point within the IV cycle is not a
+> random variable; it can be assessed and optimized.
+
+---
+
+## 4. Historical Volatility: Benchmarks and the Multi-Period Stack
+
+Historical volatility is an exact, formula-based calculation expressed as an annualized
+standard deviation percentage. Its primary use is comparative.
+
+**Benchmark anchors:**
+- Broad stock market historical volatility: typically 15%–20%
+- Very volatile individual stock: may exceed 100%
+- A stock at 80% historical volatility is approximately four times as volatile as the
+  broad market
+
+These anchors allow immediate contextualization of any volatility reading. A stock
+does not need to be labeled "volatile" or "quiet" subjectively — the number places it
+on a scale relative to known benchmarks.
+
+**The multi-period stack:** Historical volatility is commonly computed at four horizons
+simultaneously — 10-day, 20-day, 50-day, and 100-day — all annualized so they can
+be compared directly. The 20-day reading is the most commonly used single measure.
+The shape of the stack tells the investor the direction of current volatility momentum.
+
+**Slowing down (stock that has been quieting):**
 
 | Period | Historical Volatility |
 |---|---|
@@ -107,11 +128,10 @@ after a stock has been meandering in a tight range:
 | 50-day | 35% |
 | 100-day | 45% |
 
-"A pattern of historical volatilities of this sort describes a stock that has been slowing
-down lately. Its price movements have been less extreme in the near term."
+Stack slopes downward from longer to shorter periods — the stock has been less
+extreme in price movement recently than in the past.
 
-**Heating up (stock that has recently become more volatile):** At the far right edge of the
-same chart, after the stock has made a sharp move followed by rapid back-and-forth action:
+**Heating up (stock that has recently become more volatile):**
 
 | Period | Historical Volatility |
 |---|---|
@@ -120,244 +140,219 @@ same chart, after the stock has made a sharp move followed by rapid back-and-for
 | 50-day | 60% |
 | 100-day | 55% |
 
-"With this alignment of historical volatilities, one can see that the stock has been more
-volatile recently than in the more distant past."
+Stack slopes upward from longer to shorter periods — the stock has been more
+volatile recently than in the more distant past.
 
-McMillan also notes: "Violent action in a back-and-forth manner can often produce a
-higher historical volatility reading than a straight-line move can; it's just the way the
-numbers work out."
+Note: violent back-and-forth action can produce a higher historical volatility reading
+than a straight-line move of the same magnitude, simply due to how the standard
+deviation formula works.
 
-> **Annotation:** The shape of the volatility stack tells the value investor the direction
-> of current volatility momentum. A stack that slopes downward from longer to shorter
-> periods (20% at 10-day, 45% at 100-day) means the stock has been quieting — a
-> favorable entry condition for call buying, because implied volatility has likely followed
-> historical volatility down and options are cheap. A stack that slopes upward from longer
-> to shorter periods (80% at 10-day, 55% at 100-day) means volatility is currently
-> elevated — a caution flag for call buyers, who would be buying into an IV spike rather
-> than a trough. Checking the historical volatility stack is a quick pre-entry screen that
-> costs nothing.
+> **Annotation:** The stack shape is a quick pre-entry screen. A downward-sloping
+> stack (20% at 10-day, 45% at 100-day) means the stock has been quieting — implied
+> volatility has likely followed historical volatility down and options are cheap. An
+> upward-sloping stack (80% at 10-day, 55% at 100-day) means volatility is currently
+> elevated — a caution flag for call buyers entering into an IV spike rather than a
+> trough. Checking the stack costs nothing and takes seconds.
 
 ---
 
-## 4. Implied Volatility Is Not a Reliable Predictor of Actual Volatility — and That Structural Bias Works in the Call Buyer's Favor
+## 5. Smoothing Implied Volatility: The Exponential Moving Average
 
-"The important thing to note from these figures is that they clearly show that implied
-volatility is really not a very good predictor of the actual volatility that is to follow. If it
-were, the difference line would hover near zero most of the time. Instead, it swings back
-and forth wildly, with implied volatility over- or underestimating actual volatility by quite
-wide levels. Thus, the current estimates of volatility by traders (i.e., implied volatility) can
-actually be quite wrong."
+As noted in Chapter 28, a smoothing effect on daily implied volatility is obtained by
+taking a moving average of recent readings. The recommended approach is an
+exponential moving average (EMA) rather than a simple moving average, for a specific
+practical reason: the EMA does not require storing 20–30 days of prior data. Only the
+most recent EMA value is needed to compute the next one.
 
-McMillan illustrates with a concrete stock example (Figures 36-5 and 36-6): "In February
-and early March 1999, implied volatility was at or near the lowest levels on these charts.
-Yet, by the end of March, a major price explosion had begun in the stock, one that tripled
-its value in just over a month. Clearly, implied volatility was a poor predictor of
-forthcoming actual volatility in this case."
+The formula: today's smoothed IV = (5% × today's raw implied volatility) +
+(95% × yesterday's smoothed implied volatility).
 
-A second stock example (Figures 36-7 and 36-8) shows the same failure: after implied
-volatility had been high relative to actual volatility and traders "made an adjustment"
-downward to its lowest daily point, the stock made a rapid sequence of large moves —
-first from 15 down to 11, then back to 17, then ultimately doubling — with "implied
-volatility remained low at the right-hand side of the charts (January 2000) even though
-the stock doubled in the course of a month."
+This preserves the smoothing effect while requiring only one prior data point. In
+practice, any options analytics platform will compute this automatically.
 
-The structural reason why IV systematically underestimates large moves: "Implied
-volatility seems to fluctuate *less* than actual volatility. That seems to be a natural function
-of the volatility predictive process. For example, when the market collapses, implied
-volatilities of options rise only modestly. In other words, option traders and market-makers
-are predicting volatility when they price options, and one tends to make a prediction that
-is somewhat 'middle of the road,' since an extreme prediction is more likely to be wrong."
+---
 
-The conclusion: "All we can say for sure is that implied and historical volatility tend to
-trade within a range."
+## 6. Implied Volatility Is a Poor Predictor of Actual Volatility — and That Bias Works in the Call Buyer's Favor
+
+McMillan's firm opinion, stated directly: implied volatility is a poor predictor of actual
+volatility. The data consistently shows that implied volatility over- or underestimates
+actual subsequent volatility by wide margins, rather than hovering near zero difference.
+
+**The structural reason:** Option traders and market-makers make predictions when they
+price options, and tend toward "middle of the road" estimates because extreme
+predictions are more likely to be wrong. When the market collapses, implied volatilities
+rise only modestly. The result: implied volatility fluctuates less than actual volatility.
+Large moves — in either direction — are systematically underpriced by implied
+volatility.
+
+**Worked example from the text:** In early 1999, a stock's implied volatility was at or
+near its lowest historical levels. Within weeks, the stock tripled in value in just over a
+month. Implied volatility had been a completely inadequate predictor of what was about
+to happen. In a second example, after implied volatility had been elevated relative to
+actual volatility and traders had pushed it back down to its lowest daily reading, the
+stock made a sequence of sharp moves and ultimately doubled — with implied volatility
+remaining low throughout.
+
+The operating conclusion: all that can be said with certainty is that implied and
+historical volatility tend to trade within a range. Neither predicts the future reliably.
 
 > **Annotation:** The "middle of the road" forecasting bias is the key structural finding
-> here. Because market participants systematically anchor their IV estimates toward the
-> center of the historical range, options are chronically underpriced ahead of large moves
-> — precisely the moves that value investors are positioned to anticipate through
+> for the value investor. Because market participants systematically anchor IV toward
+> the center of the historical range, options are chronically underpriced ahead of large
+> moves — precisely the moves that value investors are positioned to anticipate through
 > fundamental research. The investor buying calls on a depressed, low-IV stock is not
-> simply hoping for IV expansion as a bonus; the structural bias of the market guarantees
-> that if the thesis plays out with a large price move, implied volatility will have been an
-> inadequate reflection of what actually occurred. The premiums paid at entry will, in
-> retrospect, have been too low. This is a systematic edge available to anyone who does
-> the fundamental work to identify the move before the market prices it into IV.
+> simply hoping for IV expansion as a bonus; the structural bias of the market means
+> that if the thesis plays out with a large price move, implied volatility will have been
+> an inadequate reflection of what actually occurred. The premiums paid at entry will,
+> in retrospect, have been too low. This is a systematic edge available to anyone who
+> does the fundamental work to identify the move before the market prices it into IV.
 
 ---
 
-## 5. Percentile of Implied Volatility: The Range Behind the Rank Matters
+## 7. Percentile of Implied Volatility: The Range Behind the Rank Matters
 
-"It is often conventional to talk about the *percentile of implied volatility*. That is a way
-to rank the current implied volatility reading with past readings for the same underlying
-instrument."
+The percentile of implied volatility ranks the current IV reading against past readings
+for the same underlying. A reading at the 10th percentile means options are cheaper
+than 90% of historical observations.
 
-However, McMillan introduces a critical qualification: knowing the percentile is not
-enough without also knowing the width of the range over which that percentile was
-computed.
+However, knowing the percentile is not enough without also knowing the width of the
+range over which that percentile was computed.
 
-"One can't really tell if 'cheap' options are cheap as a practical matter. That's because
-one doesn't know how tightly packed together the past implied volatility readings are."
+**Tight range — percentile nearly meaningless:**
 
-**Tight range — percentile nearly meaningless:** If the entire past range of implied
-volatility for XYZ stretched only from 39% to 45%, then a current reading of 40%, "while
-low, might not seem all that attractive. That is, if the first percentile of XYZ options were
-at an implied volatility reading of 39% and the 100th percentile were at 45%, then a
-reading of 40% is really quite mundane. There just wouldn't be much room for implied
-volatility to increase on an absolute basis. Even if it rose to the 100th percentile, an
-individual XYZ option wouldn't gain much value, because its implied volatility would
-only be increasing from about 40% to 45%."
+If the entire historical IV range for XYZ stretched only from 39% to 45%, a current
+reading of 40% is at the low percentile but practically unremarkable. Even if IV rose
+to its historical maximum of 45%, individual options would gain very little value from
+the 5-point absolute move.
 
-**Wide range — low percentile is genuinely cheap:** "Suppose, rather than the tight range
-described above, that the range of past implied volatilities for XYZ instead stretched from
-35% to 90% — that the first percentile for XYZ implied volatility was at 35% and the
-100th percentile was at 90%. Now, if the current reading is 40%, there is a large range
-above the current reading into which the options could trade, thereby potentially
-increasing the value of the options if implied volatility moved up to the higher percentiles."
+**Wide range — low percentile is genuinely cheap:**
 
-The operating rule: "What this means, as a practical matter, is that one not only needs to
-know the current percentile of implied volatility, but he also needs to know the *range* of
-numbers over which that percentile was derived. If the range is wide, then an extreme
-percentile truly represents a cheap or expensive option. But if the range is tight, then one
-should probably not be overly concerned with the current percentile of implied volatility."
+If the historical IV range for XYZ stretched from 35% to 90%, a current reading of
+40% represents genuine cheapness. IV could expand by 50 percentage points on an
+absolute basis — a move that would substantially inflate option prices.
+
+**The operating rule:** Know the current percentile of implied volatility AND the
+absolute width of the historical range. If the range is wide, an extreme percentile
+truly represents a cheap or expensive option. If the range is tight, the percentile is
+not practically meaningful and should not drive the decision.
 
 > **Annotation:** For a value investor screening calls across several names, the
-> two-step check is: (1) What is the current IV percentile? and (2) What is the absolute
-> width of the historical IV range? A stock at the 10th percentile with a range of 35%–90%
-> offers far more IV expansion potential than a stock at the 10th percentile with a range
-> of 39%–45%. The second piece of information is what converts "cheap by percentile"
-> into "cheap in a way that actually matters for call value."
+> two-step check is: (1) What is the current IV percentile? (2) What is the absolute
+> width of the historical IV range? A stock at the 10th percentile with a range of
+> 35%–90% offers far more IV expansion potential than a stock at the 10th percentile
+> with a range of 39%–45%. The second piece of information converts "cheap by
+> percentile" into "cheap in a way that actually matters for call value."
 
 ---
 
-## 6. LEAPS Implied Volatility Has a Narrower Range Than Short-Term Options — With Important Consequences
+## 8. LEAPS Implied Volatility Has a Narrower Range — With Important Consequences
 
-McMillan presents OEX scatter diagram data (Figure 36-3) charting implied volatility
-against time to expiration across several years. The key finding: the range of implied
-volatility narrows substantially as time to expiration increases.
+The range of implied volatility narrows substantially as time to expiration increases.
+OEX scatter diagram data shows near-term options ranging from approximately 14%
+to 40% in implied volatility, while options with 24 or more months remaining range
+only from approximately 17% to 32%.
 
-"For example, the implied volatility readings on the far left of the scatter diagram range
-from about 14% to nearly 40% (ignore the one outlying point). However, for longer-term
-options of 24 months or more, the range is about 17% to 32%."
+LEAPS implied volatilities simply do not change nearly as much as those of short-term
+options. This has two consequences:
 
-"One conclusion that we can draw from this is that LEAPS option implied volatilities just
-don't change nearly as much as those of short-term options. That can be an important
-piece of information for a LEAPS option trader especially if he is comparing the LEAPS
-implied volatility with a *composite* implied volatility or with the *historical* volatility of the
-underlying."
+**First — LEAPS will rarely appear cheap on a percentile basis:** When LEAPS IV is
+evaluated against a composite that includes short-term options, the narrow range of
+LEAPS IV means it almost never reaches the extreme low percentiles that short-term
+options occasionally hit. A LEAPS at the 20th percentile of its own range may look
+normal, but that range only spans 15 percentage points while the short-term range
+spans 26.
 
-**The consequence for IV-cheapness assessments:** "Consequently, LEAPS options will
-rarely appear 'cheap' when one looks at their percentile of implied volatility, including all
-the short-term options, too."
+**Second — holding a LEAPS through its life exposes the investor to widening vol
+range:** As time shrinks and a long-dated LEAPS becomes a shorter-dated option, the
+volatility range it is subject to widens. IV can swing more violently — both up and
+down — as expiration approaches. An initially stable LEAPS position can experience
+increasing IV turbulence in its final months.
 
-McMillan then addresses the seemingly logical response — evaluating LEAPS only
-against the historical range of other LEAPS — and explains why even that is flawed:
-"First, if one holds the option for any long period of time, the volatility range will widen
-out and there is a chance that implied volatility could drop substantially. Second, the
-long-term volatility range might be so small that, even though the options are initially
-cheap, quick increase in implied volatility over several deciles might not translate into
-much of a gain in price in the short term."
+The governing principle: the volatility range expands as time shrinks.
 
-The principle: "It's important for anyone using implied volatility in his trading decisions
-to understand that the range of past implied volatilities is important, and to realize that
-the volatility range *expands as time shrinks.*"
-
-> **Annotation:** For the value investor who buys LEAPS as the primary vehicle for a
-> multi-month fundamental thesis (per Chapter 3's "uncertain timing" guidance), this has
-> two practical implications. First, do not expect a large IV expansion windfall from LEAPS
-> — the absolute range of movement in LEAPS IV is small (17%–32% for 24-month OEX
-> options vs. 14%–40% for near-term), and a "cheap" LEAPS by IV percentile rarely
-> translates into large vega gains. The LEAPS buyer's primary profit driver is stock price
-> appreciation, not IV expansion. Second, as the thesis plays out and time shrinks, the
-> volatility range of the now-shorter-dated option widens, meaning IV can swing more
-> violently — both up and down — as expiration approaches.
+> **Annotation:** For the value investor buying LEAPS as the primary vehicle for a
+> multi-month fundamental thesis, the primary profit driver is stock price appreciation,
+> not IV expansion. Do not expect a large IV windfall from LEAPS — the absolute range
+> of LEAPS IV movement is small, and "cheap by percentile" LEAPS rarely produce
+> large vega gains. The IV expansion benefit is more relevant for shorter-dated calls
+> where the range is wider and a move from the 10th to the 90th percentile produces a
+> meaningful absolute change in option value.
 
 ---
 
-## 7. When Low Implied Volatility Is Genuinely Exploitable (vs. Justified)
+## 9. When Low Implied Volatility Is Genuinely Exploitable vs. Structurally Justified
 
-McMillan distinguishes between implied volatility that is low for an identifiable, durable
-structural reason versus IV that is low simply because market participants have become
-complacent — option sellers have grown aggressive and option buyers timid in a quiet
-period, pushing prices down reflexively.
+Low IV is exploitable when it reflects market complacency — option sellers have grown
+aggressive in a quiet period, option buyers have become timid after watching their
+purchases decay, and prices have been pushed down by supply/demand dynamics with
+no fundamental basis.
 
-"When implied volatilities are decreasing, option sellers are generally happy (and may
-often become more aggressive), while option buyers, who probably have been seeing their
-previous purchases decaying with time, become more timid. As a result, option prices
-drop. Alternatively stated, implied volatility drops."
+Low IV is structurally justified — and should not be bought on a volatility basis alone —
+when it reflects a genuine permanent reduction in the stock's future price movement.
+A company being acquired and absorbed into a larger, more stable entity will legitimately
+have lower future volatility. A maturing company with a growing, predictable earnings
+stream may legitimately be less volatile than it was in its early growth phase.
 
-The contrarian framing: "Volatility trading is also a contrarian theory of investing. That
-is, when everyone else thinks the underlying is going to be nonvolatile, the volatility
-trader buys volatility. When everyone else is selling options and option buyers are hard to
-find, the volatility trader steps up to buy options."
+The contrarian framing: volatility buying is a contrarian strategy. When everyone else
+thinks the underlying will be nonvolatile, when option sellers are aggressive and buyers
+are hard to find, the volatility buyer steps in. The reflexive dynamic — sellers pushing
+IV down, buyers becoming timid, IV falling further — creates the best entry conditions.
 
-**When low IV is justified and should be avoided:** A company being taken over, or
-maturing significantly (issuing more shares, building a strong earnings stream), will
-legitimately have lower future volatility. "If the decrease in implied volatility seems
-justified, a buyer of volatility should ignore it and look for other opportunities."
+**The asymmetry of error between buyers and sellers:**
 
-**When low IV is just sentiment and should be bought:** "In some cases, the supply and
-demand of the public just pushes the options to extreme levels; there is nothing more
-involved than that. Those are the best volatility trading situations."
+Buyers of volatility who miscalculate occasionally will not be fatally harmed. Buying
+an option that appears cheap but turns out not to be results in a loss limited to the
+premium paid. Sellers of volatility must be much more careful — a seller who is wrong
+faces losses that can be very large. An occasional mistake in buying volatility is
+survivable; an occasional mistake in selling volatility can be devastating.
 
-**Asymmetry of error between buyers and sellers:** "Buyers of volatility really have
-little to fear if they miscalculate and thus buy an option that appears inexpensive but
-turns out not to be, in reality. The volatility buyer might lose money if he does this, and
-overpaying for options constantly will lead to ruin, but an occasional mistake will
-probably not be fatal."
-
-> **Annotation:** The value investor's standard research process — identifying why a
-> stock is depressed, whether the cause is temporary or permanent — maps directly onto
+> **Annotation:** The value investor's standard research process maps directly onto
 > McMillan's test for whether low IV is justified. If the stock is cheap because of a
-> temporary sentiment overhang, a mistaken market reaction to a non-recurring charge,
-> or a catalyst the market hasn't yet recognized, then the low IV is not structurally
-> justified and buying calls in that environment is structurally advantaged. If the stock is
-> cheap because the business has permanently deteriorated and future price movement
-> will genuinely be smaller, the low IV may be correct and should not be bought on a
-> volatility basis alone. The fundamental work the investor already does to assess the
-> stock also answers McMillan's IV question.
+> temporary sentiment overhang, a mistaken market reaction to a non-recurring event,
+> or a catalyst the market hasn't yet recognized — low IV is not structurally justified
+> and buying calls is structurally advantaged. If the stock is cheap because the business
+> has permanently deteriorated and future price movement will genuinely be smaller —
+> low IV may be correct and should not be bought on a volatility basis alone. The
+> fundamental work the investor already does to assess the stock also answers
+> McMillan's IV question. The asymmetry of error is a further argument for the
+> playbook's bias toward buying rather than selling volatility: mistakes in buying
+> are survivable; mistakes in selling may not be.
 
 ---
 
-## 8. Warning Signs That Expensive IV Reflects Inside Information — Relevant to Entry Timing
+## 10. Warning Signs That an IV Spike Reflects Inside Information
 
-McMillan identifies conditions under which a sudden IV spike should be treated as a
-potential news event in the making rather than a volatility-selling opportunity. For the
-call buyer, the same signals are relevant as an entry timing warning — chasing calls into
-a spike means buying elevated IV on the eve of resolution.
+For the call buyer, a sudden IV spike accompanied by the following signals suggests
+the market is pricing in a corporate event — meaning entry at that point means buying
+peak IV just before resolution:
 
-"The seller of volatility can watch for two things as warning signs that perhaps the options
-are 'predicting' a corporate event. Those two things are a dramatic increase in option
-volume or a sudden jump in implied volatility of the options."
+**Two warning signals:**
+1. Dramatic increase in option volume propagating across multiple strikes and
+   expirations (not just one series)
+2. Sudden jump in implied volatility combined with a rising stock price
 
-On distinguishing insider-driven volume from normal hedging activity: "What
-distinguishes these arbitrage and hedging activities from the machinations of insider
-trading is: (1) There is little propagation of option volume into other series in the 'benign'
-case, and (2) the stock price itself may languish. However, when true insider activity is
-present, the market-makers react to the aggressive nature of the call buying… the way
-they reduce their negative position delta is to buy stock. Thus, if the options are active
-and expensive, and if the stock is rising too, you probably have a reasonably good
-indication that 'someone knows something.'"
+The combination of expensive options AND a rising stock price is the key tell.
+When market-makers react to aggressive call buying by buying stock to reduce their
+negative delta exposure, both option IV and stock price rise together. If the options
+are active and expensive AND the stock is rising, someone likely knows something.
 
-On the illiquid-options edge case: "Implied volatility *exploded* in a short period of time
-(one day, or actually less time), and that alone should be enough warning" — even in the
-absence of high volume, because market-makers in illiquid contracts repeatedly raise
-their offering price on small transactions without significant volume actually trading.
+**The illiquid-options edge case:** In thinly traded options, implied volatility can
+explode in a short period — even in a single day — with market-makers repeatedly
+raising their offering price on small transactions. A sudden IV explosion in illiquid
+options is itself a warning sign, even without high volume.
 
-The market-maker's rule of thumb: "A major market-maker once said he believed that
-*most* increases in implied volatility were eventually justified — that is, some corporate
-news item was released that made the stock jump."
+**When high IV following a known public event is safe to act on:** If a company has
+announced poor earnings and the stock has dropped while implied volatility rose, the
+information is public and symmetric. The situation can be analyzed clearly. This is
+not insider-driven IV — it is a known event being priced in, and the investor can
+assess whether the market's reaction is an overreaction worth trading against.
 
-**When high IV is the result of known, public information and is safe to act on:** "Perhaps
-the company has announced poor earnings and the stock has taken a beating while implied
-volatility rose. In this situation, one can assess the information and analyze it clearly; he
-is not dealing with some hidden facts known to only a few insider traders."
-
-> **Annotation:** For the value investor who is a buyer rather than a seller of volatility,
-> the primary use of this section is as an entry timing guide. A sudden IV spike accompanied
-> by rising stock price and broad-series volume propagation suggests the market is pricing
-> in an event — which may mean the thesis is beginning to play out, or the stock is being
-> taken over at a premium. In either case, chasing calls into that spike means paying peak
-> IV just before resolution compresses it. The better entry was before the spike, when IV
-> was low — which is precisely when the investor with a completed fundamental thesis
-> should already be positioned. If the spike follows a known, public event (earnings miss,
-> market selloff), IV can still be acted on because the information is symmetric and the
-> situation analyzable.
+> **Annotation:** For the value investor, the primary use of these warning signals is
+> as an entry timing guide. The better entry was before the spike — when IV was low
+> and the fundamental thesis was already in place. If the investor finds himself looking
+> at calls after a simultaneous IV spike and stock price rise, the opportunity has likely
+> already passed. If the spike follows a known public event — an earnings miss, a broad
+> market selloff, a sector rotation — IV can still be acted on because the information
+> is symmetric and the situation is analyzable. The key distinction: insider-driven spikes
+> should be avoided; sentiment-driven or news-driven spikes on public information may
+> represent entry opportunities.
