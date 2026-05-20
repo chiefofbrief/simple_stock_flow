@@ -1,62 +1,55 @@
-# Chapter 7 — USER NOTES
 
-- In a call spread, the options are all calls. The basic idea behind spreading is that the strategist is using the sale of one call to reduce the risk of buying another call. The short call in a spread is considered covered, for margin purposes, only if the long call has an expiration date equal to or longer than the short call.
-- All spreads fall into three broad categories: vertical, horizontal, or diagonal. A vertical spread is one in which the calls involved have the same expiration date but different striking prices. An example might be to buy the XYZ October 30 and sell the October 35 simultaneously. A horizontal spread is one in which the calls have the same striking price but different expiration dates. This is a horizontal spread: Sell the XYZ January 35 and buy the XYZ April 35. A diagonal spread is any combination of vertical and horizontal and may involve calls that have different expiration dates as well as different striking prices.
-- When a spread order is entered, the options being bought and sold must be specified. Two other items must be specified as well: the price at which the spread is to be executed, and whether that price is a credit or a debit. If the total price of the spread results in a cash inflow to the spread strategist, the spread is a credit spread. This merely means that the sell side of the spread brings in a higher price than is paid for the buy side of the spread. If the reverse is true—that is, there is a cash outflow from the spread transaction—the spread is said to be a debit spread.
-- The price at which a certain spread can be executed is generally not the difference between the last sale prices of the two options involved in the spread. In fact, the only way to determine the market price for a spread transaction is to know what the bid and asked prices of the options involved are.
-- The point to be learned here is that one cannot assume that last sale prices are indicative of the price at which a spread transaction can be executed. This makes computer analysis of spread transactions via closing price data somewhat difficult. Some computer data services offer (generally at a higher cost) closing bid and asked prices as well as closing sale prices. If a strategist is forced to operate with closing prices only, however, he should attempt to build some screens into his output to allow for the fact that last sale prices might not be indicative of the price at which the spread can be executed. One simple method for screening is to look only at relatively liquid options—that is, those that have traded a substantial number of contracts during the previous trading day. If an option is experiencing a great deal of trading activity, there is a much better chance that the current quote is “tight,” meaning that the bid and offering prices are quite close to the last sale price.
-- The public customer must be aware that spread transactions may involve substantially higher commission costs, because there are twice as many calls involved in any one transaction.
-- The bull spread is one of the most popular forms of spreading, In this type of spread, one buys a call at a certain striking price and sells a call at a higher striking price. Generally, both options have the same expiration date. This is a vertical spread. A bull spread tends to be profitable if the underlying stock moves up in price; hence, it is a bullish position. The spread has both limited profit potential and limited risk. Although both can be substantial percentagewise, the risk can never exceed the net investment. In fact, a bull spread requires a smaller dollar investment and therefore has a smaller maximum dollar loss potential than does an outright call purchase of a similar call.
-- Note that the spread has a maximum profit and this profit is realized if the stock is anywhere above the higher striking price at expiration. The maximum loss is realized if the stock is anywhere below the lower strike at expiration. 
-- Therefore, the strategist establishing the bull spread is bullish, but not overly so.
-- It is a simple matter to compute the break-even point and the maximum profit potential of a call bull spread: Break-even point = Lower striking price + Net debit of spread;  Maximum profit =  Higher striking -  Lower striking -  Net debit
-- Commissions may represent a signiftcant percentage of the profit and net investment, and should therefore be calculated before establishing the position. If these commissions are included in the net debit to establish the spread, they conveniently fit into the preceding formulae. Commission charges can be reduced percentagewise by spreading a large quantity of calls. For this reason, it is generally advisable to spread at least 5 options at a time.  (**5 at a time is a lot....Need to check commissions for Fidelity**)
-- Depending on how the bull spread is constructed, it may be an extremely aggressive or more conservative position. The most commonly used bull spread is of the aggressive type; the stock is generally well below the higher striking price when the spread is established. This aggressive bull spread generally has the ability to generate substantial percentage returns if the underlying stock should rise in price far enough by expiration. Aggressive bull spreads are most attractive when the underlying common stock is relatively close to the lower striking price at the time the spread is established. A bull spread established under these conditions will generally be a low-cost spread with substantial profit potential, even after commissions are included.
-- Another type of bull spread can be found occasionally—the “in-the-money” spread. In this situation, both calls are in-the-money. This is a much less aggressive position, since it offers a large probability of realizing the maximum profit potential, although that profit potential will be substantially smaller than the profit potentials offered by the more aggressive bull spreads.
-- To accurately compare the risk and reward potentials of the many bull spreads that are available in a given day, one has to use a computer to perform the mass calculations. It is possible to use a strictly arithmetic method of ranking bull spreads, but such a list will not be as accurate as the correct method of analysis. In reality, it is necessary to incorporate the volatility of the underlying stock, and possibly the expected return from the spread as well, into one’s calculations. The concept of expected return is described in detail in Chapter 28, where a bull spread is used as an example. The exact method for using volatility and predicting an option’s price after an upward movement are presented later. Many data services offer such information. However, if the reader wants to attempt a simpler method of analysis, the following one may suffice. In any ranking of bull spreads, it is important not to rank the spreads by their maximum potential profits at expiration. Such a ranking will always give the most weight to deeply out-of-the-money spreads, which can rarely achieve their maximum profit potential. It would be better to screen out any spreads whose maximum profit prices are too far away from the current stock price. A simple method of allowing for a stock’s movement might be to assume that the stock could, at expiration, advance by an amount equal to twice the time value premium in an at-the-money call. Since more volatile stocks have options with greater time value premium, this is a simple attempt to incorporate volatility into the analysis. Also, since longer-term options have more time value premium than do shortterm options, this will allow for larger movements during a longer time period. Percentage returns should include commission costs. This simple analysis is not completely correct, but it may prove useful to those traders looking for a simple arithmetic method of analysis that can be computed quickly.
-- Experienced traders often turn to bull spreads when options are expensive. The sale of the option at the higher strike partially mitigates the cost of buying an expensive option at the lower strike. However, one should not always use the bull spread approach just because the options have a lot of time value premium, for he would be giving up a lot of upside profit potential in order to have a hedged position.
-- If a speculator is bullishly oriented for a short-term upward move in an underlying stock, it is generally better for him to buy a call outright than to establish a bull spread. Since the spread differential changes mainly as a function of time, small movements in price by the underlying stock will not cause much of a short-term change in the price of the spread. However, the bull spread has a distinct advantage over the purchase of a call if the underlying stock advances moderately by expiration......The longer it takes for the underlying stock to advance, the more the advantage swings to the spread. 
-- The conclusion that can be drawn from these examples is that, in general, the outright purchase is a better strategy if one is looking for a quick rise by the underlying stock. Overall, the bull spread is a less aggressive strategy than the outright purchase of a call.  The spread will not produce as much of a profit on a short-term move, or on a sustained, large upward move. It will, however, outperform the outright purchase of a call if the stock advances slowly and moderately by expiration. Also, the spread always involves fewer actual dollars of risk, because it requires a smaller debit to establish initially.
-- Since the strategy has both limited profit and limited risk, it is not mandatory for the spreader to take any follow-up action prior to expiration. If the underlying stock advances substantially, the spreader should watch the time value premium in the short call closely in order to close the spread if it appears that there is a possibility of assignment. This possibility would increase substantially if the time value premium disappeared from the short call. Ifthe stock falls, the trader may want to close the spread in order to limit his losses even further. When the spread is closed, the order should also be entered as a spread transaction....If the short side of a spread is assigned, the spreader may satisfy the assignment notice by exercising the long side of his spread.
-- If the outright purchaser of a call finds himself with an unrealized loss, he may be able to substantially improve his chances of getting out even by “rolling down” into a bull spread. If, however, he has an unrealized profit, he may be able to sell a call at the next higher strike, creating a bull spread, in an attempt to lock in some of his profit. In a somewhat similar manner, a common stockholder who is faced with an unrealized loss may be able to utilize a bull spread to lower the price at which he can break even. Example: An investor buys 100 shares of XYZ at 48, and later finds himself with an unrealized loss with the stock at 42. A 6-point rally in the stock would be necessary in order to break even. However, if XYZ has listed options trading, he may be able to significantly reduce his break-even price. The prices are: XYZ common, 42; XYZ October 40, 4; and XYZ October 45, 2. The stock owner could enhance his overall position by buying one October 40 call and selling two October 45 calls. 
-- This strategy—combining a covered write and a bull spread—is sometimes used as an initial (opening) trade as well. That is, an investor who is considering buying XYZ at 42 might decide to buy the October 40 and sell two October 45's (for even money) at the outset. The resulting position would not be inferior to the outright purchase of XYZ stock, in terms of profit potential, unless XYZ rose above 46 by October expiration.
-- Bull spreads may also be used as a “substitute” for covered writing. Recall from Chapter 2 that writing against warrants can be useful because of the smaller investment required, especially if the warrant was in-the-money and was not selling at much of a premium. The same thinking applies to call options. If there is an in-the-money call with little or no time premium remaining in it, its purchase may be used as a substitute for buying the stock itself. Of course, the call will expire, whereas the stock will not; but the profit potential of owning a deeply in-the-money call can be very similar to owning the stock. Since such a call costs less to purchase than the stock itself would, the buyer is getting essentially the same profit or loss potential with a smaller investment. It is natural, then, to think that one might write another call—one closer to the money—against the deeply in-the-money purchased call. This position would have profit characteristics much like a covered write, since the long call “simulates” the purchase of stock. This position really is, of course, a bull spread, in which the purchased call is well in-the-money and the written call is closer to the money. Clearly, one would not want to put all of his money into such a strategy and forsake covered writing, since, with bull spreads, he could be entirely wiped out in a moderate market decline. In a covered writing strategy, one still owns the stocks even after a severe market decline. However, one may achieve something of a compromise by investing a much smaller amount of money in bull spreads than he might have invested in covered writes. He can still retain the same profit potential.
-- However, since the bull spread requires a much smaller investment, the spreader could put $3,500 into interest-bearing securities. This interest could be considered the equivalent of receiving the dividends on the stock. In any case, the spreader can lose only $1,100, even if the stock declines substantially. The covered writer could have a larger unrealized loss than that if XYZ were below 35 at expiration. Also, in the bull spread situation, the writer can “roll down” the April 50 call if the stock declines in price, just as he might do in a covered writing situation.
-- While it is not always possible to find a deeply in-the-money call to use as a “substitute” for buying the stock, when one does exist, the strategist should consider using the bull spread instead of the covered write. 
+# Chapter 7: Bull Spreads Using Call Options — Extracted Insights for the Conservative Options Playbook
 
+---
 
+## Foundational Vocabulary: Spread Categories and Pricing Terms
 
+A *spread* is a transaction in which one simultaneously buys one option and sells another
+option with different terms on the same underlying security. The basic idea: the sale of
+one call reduces the risk of buying another.
 
-# Chapter 7 — Bull Spreads Using Call Options: Extracted Insights for the Conservative Options Playbook
+**Three spread categories:**
+
+- *Vertical spread:* Same expiration date, different striking prices. Example: buy XYZ
+  October 30, sell XYZ October 35. This is the standard bull spread structure.
+- *Horizontal spread:* Same striking price, different expiration dates. Example: sell XYZ
+  January 35, buy XYZ April 35. Also called a calendar spread.
+- *Diagonal spread:* Any combination of different strikes and different expirations.
+
+**Credit vs. debit:**
+
+- *Debit spread:* The buy side costs more than the sell side brings in — cash flows out.
+  The call bull spread is always a debit spread, since the lower-strike call always trades
+  for more than the higher-strike call when both share the same expiration.
+- *Credit spread:* The sell side brings in more than the buy side costs — cash flows in.
+
+**Hard prerequisites:**
+
+All spread transactions in which both sides are opening transactions must be done in a
+margin account with a minimum equity requirement, generally $2,000.
+
+For the short call in a spread to be considered covered for margin purposes, the long
+call must have an expiration date equal to or longer than the short call. A short call
+with a longer expiration than the long call is not covered and will be margined as a
+naked position.
 
 ---
 
 ## 1. The Core Structure and Logic of the Bull Spread
 
-"A *spread* is a transaction in which one simultaneously buys one option and sells
-another option, with different terms, on the same underlying security. The basic idea
-behind spreading is that the strategist is using the sale of one call to reduce the risk of
-buying another call."
-
-"The *bull spread* is one of the most popular forms of spreading. In this type of spread,
-one buys a call at a certain striking price and sells a call at a higher striking price.
-Generally, both options have the same expiration date. *A bull spread tends to be
-profitable if the underlying stock moves up in price; hence, it is a bullish position.* The
-spread has both limited profit potential and limited risk. Although both can be
-substantial percentagewise, the risk can never exceed the net investment. In fact, a bull
-spread requires a smaller dollar investment and therefore has a smaller maximum dollar
-loss potential than does an outright call purchase of a similar call."
-
-A call bull spread is always a debit transaction, since the call with the lower striking
-price must always trade for more than the call with the higher price when both have the
-same expiration date.
+In a bull spread, one buys a call at a certain striking price and sells a call at a higher
+striking price. Both options generally share the same expiration date — a vertical spread.
+A bull spread is profitable if the underlying stock moves up; it has both limited profit
+potential and limited risk. The risk can never exceed the net debit. A bull spread requires
+a smaller dollar investment and therefore has a smaller maximum dollar loss than an
+outright call purchase.
 
 **Two formulas:**
 
 > Break-even point = Lower striking price + Net debit of spread
 >
 > Maximum profit potential = Higher striking price − Lower striking price − Net debit
-> of spread
 
 **Worked example:** XYZ common at 32. XYZ October 30 call at 3; XYZ October 35
 call at 1. Buy the October 30, sell the October 35 at a 2-point net debit.
@@ -65,51 +58,46 @@ Break-even = 30 + 2 = **32**
 Maximum profit = 35 − 30 − 2 = **3 points ($300)**
 Maximum loss = net debit = **2 points ($200)**
 
-**TABLE 7-1. Results at expiration of bull spread.**
+**Results at expiration:**
 
 | XYZ Price at Expiration | October 30 Profit | October 35 Profit | Total Profit |
 |---|---|---|---|
 | 25 | −$300 | +$100 | −$200 |
-| 30 | −300 | +100 | −200 |
-| 32 | −100 | +100 | 0 |
-| 35 | +200 | +100 | +300 |
-| 40 | +700 | −400 | +300 |
-| 45 | +1,200 | −900 | +300 |
+| 30 | −$300 | +$100 | −$200 |
+| 32 | −$100 | +$100 | $0 |
+| 35 | +$200 | +$100 | +$300 |
+| 40 | +$700 | −$400 | +$300 |
+| 45 | +$1,200 | −$900 | +$300 |
 
-"Note that *the spread has a maximum profit and this profit is realized if the stock is
-anywhere above the higher striking price at expiration.* The maximum loss is realized if
-the stock is anywhere below the lower strike at expiration, and is equal to the net
-investment, 2 points in this example."
+The spread has a maximum profit realized if the stock is anywhere above the higher
+striking price at expiration. The maximum loss is realized if the stock is anywhere below
+the lower striking price at expiration.
 
-"*Therefore, the strategist establishing the bull spread is bullish, but not overly so.* If
-he were rampantly bullish, he would merely buy the October 30 call outright. However,
-the sale of the October 35 call against the purchase of the October 30 allows him to take
-a position that will outperform the outright purchase of the October 30, dollarwise, as
-long as the stock does not rise above 36 by expiration."
-
-To verify: if one bought the October 30 outright for 3 points, he would have a 3-point
-profit at expiration if XYZ were at 36. Both strategies have a 3-point profit at 36.
-"Below 36, the bull spread does better because the sale of the October 35 call brings
-in the extra point of premium. Above 36 at expiration, the outright purchase outperforms
-the bull spread, because there is no limit on the profits that can occur in an outright
-purchase situation."
+The strategist establishing the bull spread is bullish, but not overly so. If he were
+rampantly bullish, he would buy the lower-strike call outright. The sale of the higher-
+strike call allows the spread to outperform the outright call purchase, dollarwise, as long
+as the stock does not rise above the crossover point by expiration. Above that point, the
+outright purchase outperforms — there is no limit on the profits of an outright purchase,
+while the spread is capped.
 
 > **Annotation:** The bull spread is the natural instrument for the value investor who
 > believes in a stock but is uncertain about the magnitude or timing of the move, wants
 > to reduce cost basis, and is willing to cap upside at a defined target price. The key
-> trade-off: you give up everything above the short strike in exchange for a lower
+> trade-off: everything above the short strike is forfeited in exchange for a lower
 > break-even and smaller maximum dollar loss.
 
 ---
 
 ## 2. Execution: Spread Orders, Pricing, and the Bid-Ask Problem
 
-"*All spread transactions in which both sides of the spread are opening (initial)
-transactions must be done in a margin account.* This means that the customer must
-generally maintain a minimum equity in the account, normally $2,000."
+**Always enter as a single spread order with a specified net debit limit.** Never leg
+into a spread. The floor broker handling the full transaction has the ability to split
+quotes on either leg — buying on the bid or selling on the offer — in ways that a retail
+investor legging in separately cannot. Legging in removes this advantage and increases
+execution risk on both sides.
 
-"*The only way to determine the market price for a spread transaction is to know what
-the bid and asked prices of the options involved are.*"
+**Last sale prices do not determine spread execution price.** The only way to determine
+the actual market price for a spread is to know the bid and asked prices of both options.
 
 **Worked example:** An investor wants to buy the XYZ October 30 and sell the XYZ
 October 35. Last sale prices suggest a 2-point debit. But:
@@ -120,133 +108,98 @@ October 35. Last sale prices suggest a 2-point debit. But:
 | October 35 call | 1.95 | 2.00 | 2.00 |
 
 At market, the spreader pays 4.10 for the October 30 (the ask) and receives only 1.95
-for the October 35 (the bid). Actual debit = **2.15 points** — significantly more than the
-2-point difference in last sale prices. One might enter the order at a 2.10-point debit and
-have a reasonable chance of being filled if the broker can split the quote on either leg.
+for the October 35 (the bid). Actual debit = **2.15 points** — meaningfully more than the
+2-point difference in last sale prices suggests. Enter the order at a specified net debit
+limit (e.g., 2.10) and allow the broker to work it.
 
-"*One cannot assume that last sale prices are indicative of the price at which a spread
-transaction can be executed.*" Practical screen: use only relatively liquid options — those
-that have traded a substantial number of contracts in the previous session, where bid and
-ask are more likely to be tight.
+**Liquidity screen:** Restrict spread candidates to options that traded a substantial
+number of contracts in the previous session. High trading activity means the bid-ask
+spread is more likely to be tight and last sale prices are more likely to be representative.
 
-"*It is generally a poor idea to leg into a spread.* If the floor broker handling the
-transaction knows the entire transaction, he has a much better chance of 'splitting a
-quote,' buying on the bid, or selling on the offering."
+**Pre-Trade Check — Commission Verification:**
+Commissions can represent a significant percentage of the profit and net investment on
+a spread and must be calculated before entering a position. McMillan recommends
+spreading at least 5 options at a time to reduce commission impact as a percentage of
+profit. At typical retail commission rates, spreading fewer contracts on a narrow debit
+can render the trade uneconomic.
 
-On commissions: "*Commissions may represent a significant percentage of the profit
-and net investment*, and should therefore be calculated before establishing the position.
-If these commissions are included in the net debit to establish the spread, they
-conveniently fit into the preceding formulae." To reduce commission impact
-percentagewise, "it is generally advisable to spread at least 5 options at a time."
-
-> **Annotation:** On a 2-point spread, paying 2.15 instead of 2.00 reduces maximum
-> profit from 3 points to 2.85 — a 5% reduction in gross profit before commissions. The
-> practical discipline: always enter as a single spread order with a specified net debit
-> limit, use the bid-ask quotes (not last sale) to set that limit, and restrict spread
-> candidates to liquid options where the quote is likely to be tight.
+*Action item:* Verify Fidelity's per-contract commission structure for spread transactions
+before sizing any bull spread. Calculate the full round-trip commission cost (both legs,
+open and close) and include it in the net debit formula before evaluating whether the
+trade is viable. If commissions included in the net debit make the maximum profit
+negligible, the trade should not be entered regardless of the thesis.
 
 ---
 
 ## 3. Degrees of Aggressiveness: Three Types of Bull Spread
 
-**Aggressive (standard) bull spread:** The stock is near or slightly below the lower
-striking price when the spread is established. "*Aggressive bull spreads are most
-attractive when the underlying common stock is relatively close to the lower striking
-price at the time the spread is established.* A bull spread established under these
-conditions will generally be a low-cost spread with substantial profit potential, even
-after commissions are included."
+**Aggressive (standard) bull spread:** Stock is near or slightly below the lower striking
+price when the spread is established. Generally a low-cost spread with substantial
+profit potential even after commissions. Most commonly used.
 
-**Extremely aggressive (out-of-the-money) bull spread:** Both calls are out-of-the-money.
-"These spreads are extremely inexpensive to establish and have large potential profits if
-the stock should climb to the higher striking price by expiration. However, they are
-usually quite deceptive in nature. The underlying stock has only a relatively remote
-chance of advancing such a great deal by expiration, and the spreader could realize a
-100% loss of his investment even if the underlying stock advances moderately, since both
-calls are out-of-the-money. This spread is akin to buying a deeply out-of-the-money call
-as an outright speculation. It is not recommended that such a strategy be pursued with
-more than a very small percentage of one's speculative funds."
+**Extremely aggressive (OTM) bull spread:** Both calls are out-of-the-money. Very
+inexpensive to establish with large potential profits — but the underlying stock has only
+a remote chance of advancing far enough by expiration, and the spreader can realize a
+100% loss even on a moderate advance, since both calls remain OTM. Functionally
+equivalent to buying a deeply OTM call outright. Not recommended except as a very
+small speculative position.
 
-**Least aggressive (in-the-money) bull spread:** Both calls are in-the-money. "This is a
-much less aggressive position, since it offers a large probability of realizing the maximum
-profit potential, although that profit potential will be substantially smaller than the profit
-potentials offered by the more aggressive bull spreads."
+**Least aggressive (ITM) bull spread:** Both calls are in-the-money. High probability
+of realizing maximum profit, though that profit is substantially smaller than aggressive
+spreads. The maximum loss requires a large decline in the underlying.
 
-**Worked example of the ITM spread:** XYZ is at 37. The October 30 call is at 7; the
-October 35 call is at 4. Both calls are in-the-money. Spread cost = 3 points (debit).
-Maximum profit potential = 2 points, realized as long as XYZ is anywhere above 35 at
-expiration. "That is, XYZ could *fall* by 2 points and the spreader would still make his
-maximum profit." To realize the maximum loss, XYZ would need to decline 7 points to
-fall below 30 — "it would have to be considered a rather low-probability event. This fact
-adds to the less aggressive nature of this type of spread." Note: commission costs are
-substantially larger here than in OTM spreads, because higher-priced options are
-involved; they must be figured into profit calculations before entering.
+**Worked example of the ITM spread:** XYZ is at 37. October 30 call at 7; October 35
+call at 4. Both in-the-money. Spread cost = 3 points. Maximum profit = 2 points,
+realized as long as XYZ is anywhere above 35 at expiration — the stock could actually
+fall 2 points and maximum profit is still achieved. Maximum loss requires XYZ to fall
+7 points below 30. Note: commission costs on ITM spreads are proportionally larger
+because higher-priced options are involved; must be calculated before entering.
 
 > **Annotation:** For the conservative value investor, the ITM spread offers the widest
-> cushion against being wrong — the maximum profit is earned even on a modest decline.
-> The aggressive (standard) spread — stock near the lower strike — is appropriate when
-> the investor has a firm price target above current levels and is willing to lose the full
-> net debit if the stock goes nowhere. The OTM spread should be avoided except as a
-> small speculative position; it is the functional equivalent of buying a deeply OTM call.
+> cushion — maximum profit is earned even on a modest decline from current levels. The
+> aggressive (standard) spread is appropriate when the investor has a firm price target
+> above current levels and is willing to lose the full net debit if the stock goes nowhere.
+> The OTM spread should be avoided except as a small speculative position; it is
+> functionally equivalent to buying a deeply OTM call.
 
 ---
 
 ## 4. The Critical Timing Issue: Bull Spread vs. Outright Call Purchase
 
-"With most types of spreads, it is necessary for some time to pass for the spread to
-become significantly profitable, even if the underlying stock moves in favor of the
-spreader. For this reason, *bull spreads are not for traders* unless the options involved
-are very short-term in nature. If a speculator is bullishly oriented for a short-term
-upward move in an underlying stock, it is generally better for him to buy a call outright
-than to establish a bull spread. Since the spread differential changes mainly as a
-function of time, small movements in price by the underlying stock will not cause much
-of a short-term change in the price of the spread."
+Bull spreads are not for traders looking for quick moves. The spread differential changes
+mainly as a function of time — small or rapid movements in the underlying stock do not
+cause much short-term change in spread value.
 
-**Worked example of the short-term timing disadvantage:** XYZ is at 32. Bull spread:
-long October 30 at 3, short October 35 at 1, net debit = 2 points. The stock jumps to 35
-in one day. The October 30 is now worth approximately 5.50; the October 35 is worth
-approximately 2.50. Bull spread value = 5.50 − 2.50 = 3.00 points = **1-point profit** (less
-two commissions). Outright purchaser of the October 30 is ahead by **2.50 points** (less
-one commission). "Clearly, then, for the shortest time period — one day — the outright
-purchase outperforms the bull spread on a quick rise."
+**Worked example:** XYZ at 32. Bull spread: long October 30 at 3, short October 35 at
+1, net debit = 2 points. Stock jumps to 35 in one day.
+- October 30 now worth ~5.50; October 35 now worth ~2.50
+- Bull spread value = 3.00 points = **1-point profit** (less two commissions)
+- Outright October 30 purchaser: **2.50-point profit** (less one commission)
 
-For 30 days: "the outright purchase still has the advantage if the underlying stock moves
-up quickly. Even if the stock should advance above 35 in 30 days, the bull spread will
-still have time premium in it and thus will not yet have reached its maximum spread
-potential of 5 points."
+The outright purchase outperforms on a quick rise. The longer it takes for the stock
+to advance, the more the advantage swings to the spread.
 
-"*The longer it takes for the underlying stock to advance, the more the advantage swings
-to the spread.* Suppose XYZ does not get to 35 until expiration. In this case, the October
-30 call would be worth 5 points and the October 35 call would be worthless. The outright
-purchase of the October 30 call would make a 2-point profit less one commission, but the
-spread would now have a 3-point profit, less two commissions. Even with the increased
-commissions, the spreader will make more of a profit, both dollarwise and percentagewise."
+**Comparison table:**
 
-**TABLE 7-2. Bull spread and outright purchase compared.**
-
-| | Declines | Remains Relatively Unchanged | Advances Moderately | Advances Substantially |
+| Scenario | Declines | Unchanged | Advances Moderately | Advances Substantially |
 |---|---|---|---|---|
-| 1 week | Bull spread | Bull spread | Outright purchase | Outright purchase |
-| 1 month | Bull spread | Bull spread | Outright purchase | Outright purchase |
-| At expiration | Bull spread | Bull spread | Bull spread | Outright purchase |
+| 1 week | Bull spread better | Bull spread better | Outright purchase better | Outright purchase better |
+| 1 month | Bull spread better | Bull spread better | Outright purchase better | Outright purchase better |
+| At expiration | Bull spread better | Bull spread better | Bull spread better | Outright purchase better |
 
-"The spread will not produce as much of a profit on a short-term move, or on a
-sustained, large upward move. It will, however, outperform the outright purchase of a
-call if the stock advances slowly and moderately by expiration. Also, the spread always
-involves fewer actual dollars of risk, because it requires a smaller debit to establish
-initially."
+The spread outperforms the outright call if the stock advances slowly and moderately
+by expiration, and always involves fewer actual dollars of risk. The outright purchase
+outperforms on a quick move or a sustained large advance.
 
-**Strike distance as a partial remedy for the slow-widening problem:** "Many traders
-are disappointed with the low profits available from a bull spread when the stock rises
-almost immediately after the position is established. One way to partially offset the
-problem with the spread not widening out right away is to use a greater distance between
-the two strikes. When the distance is great, the spread has room to widen out, even
-though it won't reach its maximum profit potential right away. Still, since the strikes are
-'far apart,' there is more room for the spread to widen even if the underlying stock rises
-immediately."
+**Strike distance as a partial remedy:** Using a greater distance between strikes gives
+the spread more room to widen even before expiration. When strikes are far apart, a
+quick move in the underlying produces more spread widening — though it still won't
+reach maximum profit potential immediately. This partially offsets the timing penalty
+at the cost of a higher net debit and a higher required stock price for full profit.
 
-> **Annotation:** This is the most important structural trade-off in the chapter. The
-> bull spread suits the value investor's core profile precisely: a thesis that requires months
-> to play out, a moderate price target, and a preference for lower cost basis over maximum
+> **Annotation:** This is the most important structural trade-off in the chapter. The bull
+> spread suits the value investor's core profile precisely: a thesis that requires months to
+> play out, a moderate price target, and a preference for lower cost basis over maximum
 > upside. If the expected move is large and fast — a hard catalyst, an imminent
 > announcement — buy the call outright. If the thesis is "this stock is cheap and will
 > re-rate over the next 3–6 months," the bull spread is the better vehicle.
@@ -257,180 +210,170 @@ immediately."
 
 ---
 
-## 5. Ranking Bull Spreads: Don't Use Maximum Profit; Incorporate Volatility
+## 5. Ranking Bull Spreads: Incorporate Volatility, Not Maximum Profit
 
-"In any ranking of bull spreads, *it is important not to rank the spreads by their maximum
-potential profits at expiration.* Such a ranking will always give the most weight to deeply
-out-of-the-money spreads, which can rarely achieve their maximum profit potential. It
-would be better to screen out any spreads whose maximum profit prices are too far away
-from the current stock price."
+Never rank bull spreads by maximum potential profit at expiration. Such a ranking
+always weights deeply OTM spreads most heavily — spreads that can rarely achieve
+their maximum profit. Screen out any spread whose maximum profit price is too far
+from the current stock price.
 
-McMillan's simple volatility-adjusted screening method: "assume that the stock could,
-at expiration, advance by an amount equal to twice the time value premium in an
-at-the-money call. Since more volatile stocks have options with greater time value
-premium, this is a simple attempt to incorporate volatility into the analysis. Also, since
-longer-term options have more time value premium than do short-term options, this will
-allow for larger movements during a longer time period. Percentage returns should
-include commission costs."
+**Simple volatility-adjusted screening rule:** Assume the stock can advance by an
+amount equal to twice the time value premium in an at-the-money call. Since more
+volatile stocks have higher ATM time value premiums, and longer-term options have
+more time value premium than short-term options, this single input incorporates both
+volatility and duration into the screen. Any spread whose short strike falls beyond this
+estimated advance should be excluded from consideration — maximum profit becomes
+a low-probability outcome.
 
-> **Annotation:** The practical application of this screen: before entering a bull spread,
-> calculate 2× the ATM call's time value premium. That is the maximum distance the
-> short strike should be from the current stock price — beyond that, maximum profit
-> becomes a low-probability outcome and the spread is effectively an OTM speculation.
-> This single filter eliminates the most common ranking error and keeps the short strike
-> within a realistic expected move. Among spreads that pass this screen, rank by
-> percentage return on net debit after commissions, not by absolute profit.
+Among spreads that pass this screen, rank by percentage return on net debit after
+commissions, not by absolute profit. This is the correct comparative metric.
+
+> **Annotation:** This filter has a direct practical application: before entering any bull
+> spread, calculate 2× the ATM call's time value premium. That figure is the maximum
+> distance the short strike should sit above the current stock price. If the short strike
+> is further away than that, the spread is effectively an OTM speculation, not a
+> moderate-bullish position. Apply this screen before evaluating any other spread metric.
 
 ---
 
 ## 6. When Options Are Expensive: The Bull Spread as a Cost-Reduction Tool
 
-"Experienced traders often turn to bull spreads when options are expensive. The sale
-of the option at the higher strike partially mitigates the cost of buying an expensive
-option at the lower strike. However, one should not always use the bull spread approach
-just because the options have a lot of time value premium, for he would be giving up a
-lot of upside profit potential in order to have a hedged position."
+Experienced traders turn to bull spreads when implied volatility is elevated and options
+are expensive. The sale of the higher-strike call partially offsets the inflated cost of
+buying the lower-strike call.
 
-> **Annotation:** The spread reduces cost but caps upside. The decision rule is whether
-> the short strike aligns with a realistic price target. If the investor's thesis implies a
-> target price near the short strike, the spread makes sense in high-IV environments. If
-> the thesis requires a much larger move — a full re-rating well above the short strike —
-> the spread sacrifices too much upside and the outright call is preferable despite the
-> higher cost.
+The decision rule is whether the short strike aligns with a realistic price target. If the
+investor's thesis implies a target near the short strike, the spread makes sense in high-IV
+environments — the short sale meaningfully reduces cost and the cap is acceptable. If
+the thesis requires a much larger move well above the short strike, the spread sacrifices
+too much upside and the outright call is preferable despite the higher cost.
+
+> **Annotation:** For AI infrastructure names where IV can spike significantly around
+> earnings or sector news, this is a live consideration. A bull spread entered during an
+> IV spike reduces cost basis; an outright call entered at the same moment pays full
+> inflated premium for upside that may never materialize if IV contracts. The spread's
+> cost reduction is most valuable precisely when options feel most expensive.
 
 ---
 
-## 7. Follow-Up Action: Assignment Risk and Legging Out
+## 7. Follow-Up Action: Assignment Risk and Closing the Spread
 
-"Since the strategy has both limited profit and limited risk, it is not mandatory for the
-spreader to take any follow-up action prior to expiration. If the underlying stock
-advances substantially, the spreader should watch the time value premium in the short
-call closely in order to close the spread if it appears that there is a possibility of
-assignment. This possibility would increase substantially if the time value premium
-disappeared from the short call."
+No mandatory follow-up action is required before expiration given the defined risk on
+both sides. Two situations warrant attention:
 
-On closing: "The maximum credit that can be recovered from a bull spread is an amount
-equal to the difference between the striking prices." In practice, "it is quite difficult to
-obtain the entire 5-point credit even if expiration is quite near. Generally, one might ask
-for a 4.80 or 4.90 credit." Always close as a spread transaction, not as two separate
-orders. The net maximum profit after commissions is actually realized when the stock
-is exactly at the higher striking price at expiration — if the stock is well above it, gross
-profit is the same but commissions to liquidate are higher.
+**Stock advances substantially:** Watch the time value premium in the short call. If time
+value premium disappears from the short call, assignment risk increases substantially.
+Close the entire spread as a spread transaction — do not leg out. The maximum credit
+recoverable equals the difference between the striking prices; in practice, ask for
+slightly less (e.g., 4.80–4.90 on a 5-point spread) to obtain a fill.
 
-On legging out when the stock drops: if the short call can be repurchased at ⅛ or 1/16,
-buying it back to lock in the short-side profit and holding the long call is acceptable.
-"However, he should not be quick to repurchase it if it still has much more value than
-that, unless he is closing out the entire spread. *At no time should one attempt to 'leg'
-out after a stock price increase*, taking the profit on the long side and hoping for a stock
-price decline to make the short side profitable as well. The risk is too great."
+**Never leg out after a stock price increase** by taking profit on the long side and holding
+the short side naked in hopes of a decline. The risk introduced by holding a naked short
+call is not consistent with the original position's risk profile.
+
+**Stock declines:** If the short call can be repurchased at a minimal price (⅛ or 1/16),
+buying it back locks in the short-side profit while retaining the long call for any
+subsequent recovery. Do not repurchase the short call at significant value unless closing
+the entire spread.
+
+If the short side of a spread is assigned, the assignment can be satisfied by exercising
+the long side of the spread.
 
 ---
 
 ## 8. Using a Bull Spread to Lower Break-Even on a Stock Loss
 
-A stockholder with an unrealized loss can overlay a bull spread to substantially lower the
-break-even price at no additional capital outlay — one of the most actionable applications
-in the playbook.
+A stockholder with an unrealized loss can overlay a bull spread to substantially lower
+the break-even price — often at no additional capital outlay. This is one of the most
+actionable applications in the playbook.
 
-**Worked example:** Investor buys 100 shares of XYZ at 48. Stock falls to 42.
-Without options: break-even = 48, requiring a 6-point rally from 42. Current prices:
+**Worked example:** Investor owns 100 shares of XYZ purchased at 48. Stock falls to
+42. Without options: break-even = 48, requiring a 6-point rally.
 
-XYZ common, 42; XYZ October 40 call, 4; XYZ October 45 call, 2.
+Current prices: XYZ October 40 call at 4; XYZ October 45 call at 2.
 
-Action: Buy one October 40 call at 4, sell two October 45 calls at 2 each.
-Net cost = zero before commissions (2 × $200 credit = $400 = cost of October 40).
+**Action:** Buy one October 40 call at 4, sell two October 45 calls at 2 each.
+Net cost = zero before commissions ($400 credit from short calls = $400 debit for long
+call). No naked exposure: one short October 45 is covered by the stock; the other is
+part of a bull spread with the long October 40.
 
-The position contains no naked options: one short October 45 is covered by the stock;
-the other is part of a bull spread with the October 40.
+**Results at expiration:**
 
-Results if XYZ is at exactly 45 at October expiration:
-- Two short October 45's expire worthless: +$400
-- Long October 40 worth 5 points: +$100
-- Total option profit: +$500
-- Stock profit at 45 (bought at 48): −$300
-- **Net total profit: +$200**
-
-**TABLE 7-3. Lowering the break-even price on common stock.**
-
-| XYZ Price at Expiration | Profit on Stock | Profit on Short Oct 45's | Profit on Long Oct 40 | Total Profit |
+| XYZ at Expiration | Stock Profit | Short Oct 45s | Long Oct 40 | Total |
 |---|---|---|---|---|
 | 35 | −$1,300 | +$400 | −$400 | −$1,300 |
-| 38 | −1,000 | +400 | −400 | −1,000 |
-| 40 | −800 | +400 | −400 | −800 |
-| 42 | −600 | +400 | −200 | −400 |
-| 43 | −500 | +400 | −100 | −200 |
-| 44 | −400 | +400 | 0 | 0 |
-| 45 | −300 | +400 | +100 | +200 |
-| 48 | 0 | −200 | +400 | +200 |
-| 50 | +200 | −600 | +600 | +200 |
+| 40 | −$800 | +$400 | −$400 | −$800 |
+| 42 | −$600 | +$400 | −$200 | −$400 |
+| 44 | −$400 | +$400 | $0 | $0 |
+| 45 | −$300 | +$400 | +$100 | +$200 |
+| 48 | $0 | −$200 | +$400 | +$200 |
+| 50 | +$200 | −$600 | +$600 | +$200 |
 
-Break-even is lowered from 48 to **44** — only a 2-point rally from 42 is needed. The two
-strategies produce identical results below 40 and are equal at 50. Between 40 and 50, the
-new position outperforms. The stock would need to rally more than 8 points — from 42
-to 50 — for the original stock-only position to outperform. "Only if the stock rallies very
-sharply will the stock position outperform the total position."
+Break-even lowered from 48 to **44** — only a 2-point rally from 42 required. Below 40,
+both strategies produce identical results. Between 40 and 50, the overlay outperforms.
+Only above 50 does the original stock-only position outperform — requiring more than
+an 8-point rally from 42.
 
-This strategy can also be used as an **opening trade**: "an investor who is considering
-buying XYZ at 42 might decide to buy the October 40 and sell two October 45's (for even
-money) at the outset. The resulting position would not be inferior to the outright purchase
-of XYZ stock, in terms of profit potential, unless XYZ rose above 46 by October
-expiration."
+**As an opening trade:** Rather than buying XYZ at 42 outright, an investor could buy
+the October 40 and sell two October 45s for even money at the outset. This opening
+position is not inferior to owning the stock unless XYZ rises above 46 by expiration —
+within that range, the options structure matches or outperforms the stock purchase.
 
-> **Annotation:** This is a direct-entry tool for the value investor who owns a stock at a
-> loss and still believes in the thesis. The zero-cost overlay lowers the required recovery
-> from 6 points to 2 without adding downside risk below the lower strike. The key
-> pre-condition: the option premiums must allow the transaction to be done at even money
-> or a small debit — most likely when implied volatility is elevated, which is often the
-> case for a beaten-down stock. Check this structure before averaging down in stock.
+**Follow-up if stock continues to decline:** The short call can be rolled down just as
+in a covered write situation — buying back the short October 45 and selling a lower
+strike — to adjust the position if the thesis requires more time.
+
+**Pre-condition:** The transaction must be executable at even money or a small debit.
+This is most likely when implied volatility is elevated — which is frequently the case
+for a beaten-down stock. Always check whether the structure is available at even money
+before considering averaging down in stock.
+
+> **Annotation:** Check this structure before averaging down in stock. The zero-cost
+> overlay lowers the required recovery substantially without adding downside risk below
+> the lower strike. If the premiums allow it, this is strictly superior to buying more
+> shares at the current depressed price — lower break-even, same downside below the
+> long strike, capped upside above 50 being the only cost.
 
 ---
 
 ## 9. The Bull Spread as a Covered Write Substitute (Capital Efficiency)
 
-"If there is an in-the-money call with little or no time premium remaining in it, its
-purchase may be used as a substitute for buying the stock itself… *the profit potential of
-owning a deeply in-the-money call can be very similar to owning the stock.* Since such
-a call costs less to purchase than the stock itself would, the buyer is getting essentially
-the same profit or loss potential with a smaller investment."
+When a deeply in-the-money call exists with little or no time premium remaining, its
+purchase can substitute for buying the stock — the profit and loss profile of a deep ITM
+call closely mirrors stock ownership. Selling a call closer to the money against it creates
+a bull spread with covered write characteristics at a fraction of the capital required.
 
-By then selling a call closer to the money against the deep ITM call, the investor creates
-a bull spread with profit characteristics closely resembling a covered write — but at a
-fraction of the capital required.
+**Worked example:** XYZ common at 49. April 50 call at 3; April 35 call at 14 (at parity
+— no time premium). Buy the April 35 at 14, sell the April 50 at 3. Net debit = $1,100.
 
-**Worked example:** XYZ common at 49. XYZ April 50 call at 3; XYZ April 35 call at 14
-(no time premium — trades at parity). Buy the April 35 at 14, sell the April 50 at 3. Net
-debit = $1,100.
+**Comparison to covered write (buy stock at 49, sell April 50 at 3):**
 
-**TABLE 7-4. Results for covered write and bull spread compared.**
-
-| | Covered Write: Buy XYZ + Sell April 50 | Bull Spread: Buy April 35 + Sell April 50 |
+| Metric | Covered Write | Bull Spread |
 |---|---|---|
-| Maximum profit potential (stock over 50 in April) | $400 | $400 |
+| Maximum profit (stock above 50) | $400 | $400 |
 | Break-even point | 46 | 46 |
-| Investment | $4,600 | $1,100 |
+| Capital required | $4,600 | $1,100 |
+| Maximum loss potential | Unlimited below 46 | $1,100 |
 
-"Since the bull spread requires a much smaller investment, the spreader could put
-$3,500 into interest-bearing securities. This interest could be considered the equivalent
-of receiving the dividends on the stock. In any case, the spreader can lose only $1,100,
-even if the stock declines substantially. The covered writer could have a larger unrealized
-loss than that if XYZ were below 35 at expiration."
+The remaining $3,500 not deployed in the spread can be placed in interest-bearing
+securities — effectively replacing the dividend income forfeited by not owning the stock
+outright. The spread offers the same dollar rewards, the same break-even, smaller
+commission costs, less potential risk, and interest income from the freed capital.
 
-"Thus, the bull spread offers the same dollar rewards, the same break-even point,
-smaller commission costs, less potential risk, and interest income from the fixed-income
-portion of the investment. *While it is not always possible to find a deeply in-the-money
-call to use as a 'substitute' for buying the stock, when one does exist, the strategist should
-consider using the bull spread instead of the covered write.*"
+**Caution:** The covered writer still owns the stock after a severe market decline. The
+bull spread can be entirely wiped out in a moderate decline. This structure should be
+a partial allocation — smaller capital in the spread, balance in interest-bearing
+securities — not a wholesale replacement of covered writing.
 
-Caution: "one would not want to put all of his money into such a strategy and forsake
-covered writing, since, with bull spreads, he could be entirely wiped out in a moderate
-market decline. In a covered writing strategy, one still owns the stocks even after a severe
-market decline." The suggestion is a partial allocation — smaller capital in bull spreads,
-balance in interest-bearing securities, with the same profit potential as the covered write.
+**Pre-condition:** A deeply ITM call trading at or near parity. Most commonly found in
+LEAPS on stocks that have already moved significantly, or in shorter-term options after
+a large run-up. Screen for this structure on any covered write candidate before
+committing full capital to the stock position.
 
-> **Annotation:** The pre-condition — a deep ITM call trading at or near parity — is the
-> binding constraint. It is most commonly found in LEAPS on stocks that have already
-> moved significantly, or in shorter-term options after a large run-up where deep calls
-> have been repriced to near-intrinsic. When it exists, the structure is unambiguously
-> superior to the covered write on every metric except the one that matters in a crash:
-> the covered writer still owns the stock. Worth screening for on any covered write
-> candidate before committing capital to the stock position.
+> **Annotation:** When this structure is available, it is unambiguously superior to the
+> covered write on every metric except one: the covered writer retains the stock in a
+> crash. For AI infrastructure names where a large capital commitment to a single stock
+> carries meaningful binary risk, the capital efficiency of this structure — same upside,
+> defined maximum loss, freed capital earning interest — is directly aligned with the
+> risk-reduction objective of the overall options program.
+```
