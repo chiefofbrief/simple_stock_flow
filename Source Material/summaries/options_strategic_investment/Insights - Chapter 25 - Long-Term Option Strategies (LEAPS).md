@@ -1,42 +1,3 @@
-Good. Let me go through your notes against what I produced.
-
----
-
-**Things in your notes that warrant inclusion and why:**
-
-**LEAPS listing timeline** — I omitted this entirely. Long-term options are generally listed about 2.5 years before they expire. Simple foundational fact that establishes what "long-term" means in practice and sets up the roll trigger discussion.
-
-**The flat pricing curve observation** — I covered the pricing factors and their amplified influence but didn't describe the visual/practical consequence: the 2-year LEAPS pricing curve is much flatter than shorter-term curves. Even 25% in- or out-of-the-money, there is so much time value that strike selection has less impact on absolute price than it does for short-term options. This directly sets up the delta discussion in Section 6 and should precede it.
-
-**Interest rate effect stated as a directional rule** — I included the table and the magnitude discussion but didn't state the clean directional rule: increases in interest rates cause LEAPS call prices to increase. Increases in dividends cause LEAPS call prices to decrease and LEAPS put prices to increase. These directional rules should be stated explicitly before the table, not implied from it.
-
-**The "not completely realistic" qualifier on the rate/dividend figures** — I omitted McMillan's moderating statement entirely. He explicitly notes that the figures exaggerate the effect for two reasons: they depict 2-year LEAPS (effects are diminished for 10–23 month options), and they assume instantaneous changes (rates change gradually, dividends don't typically increase immediately after LEAPS are purchased). The core point — that rates and dividends matter much more for LEAPS than for short-term options — remains valid, but the qualifier prevents the investor from being paralyzed by what looks like an unmanageable sensitivity. That nuance belongs in the document.
-
-**The "25% loss in 6 months" concrete warning on LEAPS decay** — I included the daily percentage table and the roll triggers, but the specific example deserves to stay prominent: an 18-month ATM LEAPS call at $8 will be worth about $6 after 6 months if the stock is unchanged — a 25% loss despite slow daily decay. Investors used to short-term options expect 25% losses in 4–5 weeks; in LEAPS it takes 6 months. Both the danger and the advantage need equal weight.
-
-**LEAPS calls move faster in absolute terms; LEAPS puts move slower** — I covered both but didn't state the clean summary McMillan provides at the end of the chapter: LEAPS calls move faster than ordinary short-term equity calls (in absolute price terms, not percentage) unless both options are more than 5% in-the-money. LEAPS puts move more slowly than short-term puts. That directional summary statement should appear as a standalone rule before the delta details.
-
-**The slow LEAPS put delta — specific number stated** — I noted the low delta qualitatively but the specific figure deserves to be in the main text, not just referenced: an at-the-money 2-year LEAPS put moves only about 30 cents for a one-point move in the underlying stock. It takes approximately a 3-point move for an ATM LEAPS put to gain 1 point. That's the number that makes the speculative use case obviously wrong and the protective use case obviously right.
-
-**LEAPS put selling — the "trying to buy stock below market" use case and why LEAPS are wrong for it** — I covered LEAPS put selling briefly but omitted the specific use case McMillan identifies: some put writers sell puts specifically intending to be assigned and buy the stock at a net cost of strike minus premium. This strategy does not work with LEAPS because the significant time premium means assignment is unlikely until expiration approaches. If the intent is eventual stock ownership via assignment, write short-term puts, not LEAPS puts.
-
-**The incremental return covered writing use case for LEAPS calls** — I mentioned this in the covered writing section but didn't give it proper treatment. McMillan identifies a specific investor type — the incremental return writer who has a higher target price and writes calls along the way to earn premium — for whom LEAPS calls are particularly attractive because they offer the largest absolute premiums. The roll-into-LEAPS tactic when facing assignment on a short-term call is also worth preserving: rather than accepting assignment, roll into a LEAPS call to retain the stock and take in more premium.
-
-**Early assignment rule for LEAPS** — I dropped this entirely. All listed equity options including LEAPS are American-style and can be exercised at any time. The clue to whether early assignment is imminent is the same as for short-term options: if the option has no time value premium — trading at parity or at a discount — assignment may be close at hand. LEAPS retain time value even deep ITM, so early assignment is rare but not impossible.
-
-**The "naked LEAPS puts are probably better than covered writes in most cases" summary statement** — I included the covered writing section but didn't capture McMillan's end-of-chapter summary conclusion: selling naked LEAPS puts is probably a better strategy than LEAPS covered writing in most cases. This is a strong statement that deserves to be preserved and annotated.
-
----
-
-**Things in your notes that are largely redundant with what I produced:**
-
-The master entry rule (buy when rates and volatility are low), the full interest rate/dividend table, the roll trigger rules (ATM at 6 months, OTM at 1 year), the volatility expansion table and its annotation, the stock substitution calculation template, the put vs. substitution decision rule, the covered writing annualized comparison and break-even analysis, the full bull spread/diagonal three-way comparison, and the diagonal delta problem are all well-covered. Your notes on those sections largely restate what's already there.
-
----
-
-Nothing requiring discussion before revising. Producing the revised chapter now.
-
-```markdown
 # Chapter 25: Long-Term Option Strategies (LEAPS) —
 # Extracted Insights for the Conservative Options Playbook
 
@@ -655,4 +616,3 @@ as being right about the stock but being in the wrong strategy and losing money 
 > diagonal if the stock moves strongly. The diagonal is a neutral strategy and should only
 > be used by investors who believe the stock will be range-bound through the near-term
 > expiration. If you are bullish, use the LEAPS bull spread, not the diagonal.
-```
