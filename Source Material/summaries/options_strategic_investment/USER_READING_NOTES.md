@@ -102,3 +102,57 @@
 - If the underlying stock stabilizes, the “do-nothing” and “spread” tactics work out best. It would generally appear that the combination tactic or the “roll-down” tactic would be the most attractive, since neither one has any risk and both could generate large profits if the stock moved substantially. The advantage for the spread was substantial in call options, but in the case of puts, the premium received for the out-of-the-money put is not as large, and therefore the spread strategy loses some of its attractiveness. Finally, any of these tactics could be applied partially; for example, one could sell out half of a profitable long position in order to take some profits, and continue to hold the remainder.
 - The foregoing discussion concentrated on how the put holder could retain or increase his profit. However, it is often the case in option buying that the holder of the option is faced with an unrealized loss. The put holder may also have several choices of action to take in this case. His first, and simplest, course of action would be to sell the put and take his loss. Although this is advisable in certain cases, especially when the underlying stock seems to have assumed a distinctly bullish stance, it is not always the wisest thing to do. The put holder who has a loss may also consider either “rolling up” to create a bearish spread or  entering into a calendar spread. Either of these actions could help him recover part or all of his loss. The reader may recall that a similar action to “rolling up,” termed “rolling down,” was available for call options held at a loss and was described in Chapter 3. The put buyer who owns a put at a loss may be able to create a spread that allows him to break even at a more favorable price at expiration. Such action will inevitably limit his profit potential, but is generally useful in recovering something from a put that might otherwise expire totally worthless....This strategy is most attractive when the debit involved to create the spread is small. The effect of creating this spread is that the investor has not increased his risk at all, but has raised the break-even point for his position....The implementation of this spread strategy reduces the profit potential of the position, however. In summary, the put holder faced with an unrealized loss may be able to create a spread by selling twice the number of puts that he is currently long and simultaneously buying the put at the next higher strike. This action should be used only if the spread can be transacted at a small debit or, preferably, at even money (zero debit). The spread  position offers a much better chance of breaking even and also reduces the possibility of having to realize the maximum loss in the position. However, the introduction of these loss-limiting measures reduces the maximum potential of the position if the underlying stock should subsequently decline in price by a significant amount. Using this spread strategy for puts would require a margin account, just as calls do.
 - Another strategy is sometimes available to the put holder who has an unrealized loss. If the put that he is holding has an intermediate-term or long-term expiration date, he might be able to create a calendar spread by selling the near-term put against the put that he currently holds. The major drawback to this strategy is that little or no profit will be made—in fact, a loss is quite possible—if the underlying stock falls back to 45 or below before the near-term July option expires. Puts display different qualities in their time value premiums than calls do, as has been noted before. With the stock at 45, the differential between the July 45 put and the October 45 put might not widen much at all. This type of spread strategy is not as attractive as the “rolling-up” strategy. In the “rolling-up” strategy, one is not subjected to a loss if the stock declines after the spread is established, although he does limit his profits.
+
+
+# USER NOTES - CHAPTER 17
+
+- Another useful feature of put options, in addition to their speculative leverage in a downward move by the underlying stock, is that the put purchase can be used to limit downside loss in a stock that is owned. When one simultaneously owns both the common stock and a put on that same stock, he has a position with limited downside risk during the life of the put. This position is also called a synthetic long call, because the profit graph is the same shape as a long call’s.
+- Although any common stockholder may use this strategy, two general classes of stock owners find it particularly attractive: First, the long-term holder of the stock who is not considering selling the stock may utilize the put protection to limit losses over a short-term horizon. Second, the buyer of common stock who wants some “insurance” in case he is wrong may also find the put protection attractive.
+- The purchase of a low-cost put can often reduce the negative effects of a bear market on their holdings.
+- The second general class of put buyers for protection includes the investor who is establishing a position in the stock. He might want to buy a put at the same time that he buys the stock, thereby creating a position with profitability as depicted in the previous profit graph. He immediately starts out with a position that has limited downside risk with large potential profits if the stock moves up. In this way, he can feel free to hold the stock during the life of the put without worrying about when to sell it if it should experience a temporary setback. Some fairly aggressive stock traders use this technique because it eliminates the necessity of having to place a stop loss order on the stock.
+- The deep in-the-money put purchase is overly conservative and is usually not a good strategy. On the other hand, it is not wise to purchase a put that is too deeply out-of-the-money as protection. Generally, one should purchase a slightly out-of-the-money put as protection.
+- Glance again at the profit graph for this strategy of using the put purchase to protect a common stock holding (Figure 17-1). It has exactly the same shape as the profit graph of a simple call purchase. Therefore, the call purchase and the long put/long stock strategies are equivalent. Again, by equivalent it is meant that they have similar profit potentials. Obviously, the ownership of a call differs substantially from the ownership of common stock and a put. The stock owner continues to maintain his position for an indefinite period of time, while the call holder does not. Also, the stockholder is forced to pay substantially more for his position than is the call holder, and he also receives dividends whereas the call holder does not.
+- Although tax considerations are covered in detail in a later chapter, an important tax law concerning the purchase of puts against a common stock holding should be mentioned at this time. If the stock owner is already a long-term holder of the stock at the time that he buys the put, the put purchase has no effect on his tax status. Similarly, ifthe stock buyer buys the stock at the time that he buys the put and identifies the position as a hedge, there is no effect on the tax status of his stock. However, if one is currently a short-term holder of the common stock at the time that he buys a put, he eliminates any accrued holding period on his common stock. Moreover, the holding period for that stock does not begin again until the put is sold.
+- This strategy is known as a protective collar or, more simply, a “collar.” (It is also
+called a “hedge wrapper,” although that is an outdated term.)
+The purchase of an out-of-the-money put option can eliminate the risk of large
+potential losses for the covered write, although the money spent for the put purchase will
+reduce the overall return from the covered write. One must therefore include the put cost
+in his initial calculations to determine if it is worthwhile to buy the put....Figure 17-2 shows that the break-even point is raised slightly and the overall profit potential
+is reduced by the purchase of the put. However, the maximum risk is quite small and the
+writer need never be forced to roll down in a disadvantageous situation.
+- This strategy is equivalent to one that has been described before, the bull spread.
+Notice that the profit graph in Figure 17-2 has the same shape as the bull spread profit
+graph (Figure 7-1). This means that the two strategies are equivalent. In fact, in Chapter 7
+it was pointed out that the bull spread could sometimes be considered a “substitute” for
+covered writing. Actually, the bull spread is more akin to this strategy—the covered write
+protected by a put purchase. There are, of course, differences between the strategies.
+They are equivalent in profit and loss potential, but the covered writer could never lose
+all his investment in a short period of time, although the spreader could. In order to actually use bull spreads as substitutes for covered writes, one would invest only a small portion of his available funds in the spread and would place the remainder of his funds in
+fixed-income securities. That strategy was discussed in more depth in Chapter 7.
+- The “collar” strategy is often arrived at in another manner: a stockholder begins to worry
+about the downside potential of the stock market and decides to buy puts on his stock as
+protection. However, he is dismayed by the cost of the puts and so he also considers the
+sale of calls. If he buys an out-of-the-money put, it is quite possible that he might be able
+to sell an out-of-the-money call whose proceeds completely cover the cost of the put.
+Thus, he has established a protective collar at no cost—at least no debit. His “cost” is the
+fact that he has forsaken the upside profit potential on his stock, above the striking price
+of the written call.
+- Thus, one should consider using LEAPS options when he establishes a collar—even
+if he is not an institutional trader—because the striking price of the calls can be quite
+high in comparison to that of the put’s strike or in comparison to the price of the underlying stock.
+- It should also be pointed out that one does not necessarily have to forsake all of the profit
+potential from his stock. He might buy the puts, as usual, and then sell calls with a somewhat lower strike than needed for a low-cost collar, but the quantity of calls sold would
+be less than that of stock owned. In that way, there would be unlimited profit potential
+on some of the shares of the underlying stock.
+- A collar might be adjusted if the underlying stock declines sharply in price. After the
+stock has dropped, the put would be worth a considerable amount, while the call would
+be worth very little. If the investor felt that the majority of the decline in the stock was
+finished, he could merely sell the put. Whether or not he covered the call, that would
+leave him with large profit potential if the stock should rally. On the other hand, if the
+investor is not certain that the stock has stopped declining, he might roll just the put—or
+perhaps both the put and the call—down to lower strikes, thereby taking a large credit
+out of the position in doing so (the credit comes from selling the original put, which is
+now quite valuable). As a third choice, he could also consider selling some out-of-money
+puts against the puts that are owned. This would bring in some credit, but would expose
+the stock to losses below the striking price of the short puts. 
