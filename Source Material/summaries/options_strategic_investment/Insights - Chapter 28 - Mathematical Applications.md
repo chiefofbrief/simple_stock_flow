@@ -1,412 +1,572 @@
-# USER NOTES:
-
-- The actual formula is....need photo from page 2. The variables are: p = stock price s = striking price t = time remaining until expiration, expressed as a percent of a year r = current risk-free interest rate V = volatility measured by annual standard deviation ln = natural logarithm N(x) = cumulative normal density function 
-- An important by-product of the model is the exact calculation of the delta—that is, the amount by which the option price can be expected to change for a small change in the stock price. The delta was described in Chapter 3 on call buying, and is more formally known as the hedge ratio. Delta = N(d;)
-- The cumulative normal distribution function can be found in tabular form in most statistical books. However, for computation purposes, it would be wasteful to repeatedly look up values in a table. Since the normal curve is a smooth curve (it is the “bell-shaped” curve used most commonly to describe population distributions), the cumulative distribution can be approximated by a formula:...Need photo from page 2.
-- Several aspects of this model are worth further discussion. First, the reader will notice that the model does not include dividends paid by the common stock. As has been demonstrated, dividends act as a negative effect on call prices. Thus, direct application of the model will tend to give inflated call prices, especially on stocks that pay relatively large dividends. There are ways of handling this. Fisher Black, one of the coauthors of the model, suggested the following method: Adjust the stock price to be used in the formula by subtracting, from the current stock price, the present worth of the dividends likely to be paid before maturity. Then calculate the option price. Second, assume that the option expires just prior to the last exdividend date preceding actual option expiration. Again adjust the stock price and calculate the option price. Use the higher of the two option prices calculated as the theoretical price....It should be pointed out that, in many of the applications that are going to be prescribed, it is not necessary to know the exact theoretical price of the call. Therefore, the dividend “correction” might not have to be applied for certain strategy decisions.
-- The computation of volatility is always a difficult problem for mathematical application. In the Black-Scholes model, volatility is defined as the annual standard deviation of the stock price. This is the regular statistical definition of standard deviation:....Need photo from page 5
-- When volatility is computed using past stock prices, it is called a historical volatility. The volatilities of stocks tend to change over time. Certain predictable factors, such as a large stock split increasing the float of the stock, can reduce the volatility. The entry of a company into a more speculative area of business may increase the volatility. Other, less well-defined factors can alter the volatility as well. Since the volatility is a very crucial element of the pricing model, it is important that the modeler use a reasonable estimate of the current volatility. It has become apparent that an annual standard deviation is not accurate, because it encompasses too long a period of time. Recent efforts by many modelers have suggested that one should perhaps weight the recent stock price action more heavily than older price action in arriving at a current volatility.
-- The above calculation does not give the proper input for the Black-Scholes model because the model assumes that the logarithms of changes in price are normally distributed, not the prices themselves. That is, the term P, in the above formula should be changed. Example: XYZ closed at 51 today and at 50 yesterday. Thus, its percentage change for the day is 51/50 = 1.02. The natural logarithm of 1.02 is then based on the volatility formula: In (514) = In(1.02) = 0.0198 This is similar to saying that arithmetically the stock was up 2% today, but on a lognormal basis, it was only up 1.98%.
-- A new equation can now be formulated using this concept. It will yield volatilities that are consistent with the Black-Scholes model:...page 6
-- There is, in fact, a way in which the strategist can let the market compute the volatility for him. This is called using the implied volatility; that is, the volatility that the market itself is implying. This concept makes the assumption that, for options with striking prices close to the current stock price and for options with relatively large trading volume, the market is fairly priced. This is something like an efficient market hypothesis. If there is enough trading interest in an option that is close to the money, that option will generally be fairly priced. Once this assumption has been made, a corollary arises: If the actual price of an option is the fair price, it can be fixed in the Black-Scholes equation while letting volatility be the unknown variable. The volatility can be determined by iteration. In fact, this process of iterating to compute the volatility can be done for each option on a particular underlying stock. This might result in several different volatilities for the stock. If one weights these various results by volume of trading and by distance in- or out-of-the-money, a single volatility can be derived for the underlying stock. This volatility is based on the closing price of all the options on the underlying stock for that given day.
-- Example: XYZ is at 33 and the closing prices are given in Table 28-1. Each option has a different implied volatility, as computed by determining what volatility in the Black— Scholes model would result in the closing price for each option: That is, if .34 were used as the volatility, the model would give 4% as the price of the January 30 call. In order to rationally combine these volatilities, weighting factors must be applied before a volatility for XYZ stock itself can be arrived at. The weighting factors for volume are easy to compute. The factor for each option is merely that option’s daily volume divided by the total option volume on all XYZ options (Table 28-2). The weighting functions for distance from the striking price should probably not be linear. For example, if one option is 2 points out-of-the-money and another is 4 points out-of-the-money, the former option should not necessarily get twice as much weight as the latter. Once an option is too far in- or out-of-the-money, it should not be given much or any weight at all, regardless of its trading volume. Any parabolic function of the following form should suffice:...need photo from page 8. where x is the percentage distance between stock price and strike price and a is the maximum percentage distance at which the modeler wants to give any weight at all to the option’s implied volatility.
-- Example: An investor decides that he wants to discard options from the weighting criterion that have striking prices more than 25% from the current stock price. The variable, a, would then be equal to .25. The weighting factors, with XYZ at 33, could thus be computed as shown in Table 28-3. To combine the weighting factors for both volume and distance from strike, the two factors are multiplied by the implied volatility for that option. These products are summed up for all the options in question. This sum is then divided by the products of the weighting factors, summed over all the options in question. As a formula, this would read:...Page 9...In our example, this would give an implied volatility for XYZ stock of 29.8% (Table 28-4). Note that the implied volatility, .298, is not equal to any of the individual option’s implied volatilities. Rather, it is a composite figure that gives the most weight to the heavily traded, near-the-money options, and very little weight to the lightly traded (5 contracts), deeply out-of-the-money April 40 call. This implied volatility is still a form of standard deviation, and can thus be used whenever a standard deviation volatility is called for. This method of computing volatility is quite accurate and proves to be sensitive to changes in the volatility of a stock. For example, as markets become bullish or bearish (generating large rallies or declines), most stocks will react in a volatile manner as well. Option premiums expand rather quickly, and this method of implied volatility is able to pick up the change quickly. One last bit of fine-tuning needs to be done before the final volatility of the stock is arrived at. On a day-to-day basis, the implied volatility for a stock—especially one whose options are not too active—may fluctuate more than the strategist would like. A smoothing effect can be obtained by taking a moving average of the last 20 or 30 days’ implied volatilities. An alternative that does not require the saving of many previous days’ worth of data is to use a momentum calculation on the implied volatility. For example, today’s final volatility might be computed by adding 5% of today’s implied volatility to 95% of yesterday's final volatility. This method requires saving only one previous piece of data—yesterday’s final volatility—and still preserves a “smoothing” effect. Once this implied volatility has been computed, it can then be used in the BlackScholes model (or any other model) as the volatility variable. Thus one could compute the theoretical value of each option according to the Black-Scholes formula, utilizing the implied volatility for the stock. Since the implied volatility for the stock will most likely be somewhat different from the implied volatility of this particular option, there will be a discrepancy between the option’s actual closing price and the theoretical price as computed by the model. This differential represents the amount by which the option is theoretically overpriced or underpriced, compared to other options on that same stock.
-- Computing a Volatility Skew There is not a single, definitive way to calculate a single number for each stock each day that represents the skew in the options, but this is one acceptable way. Essentially, the process is this: Calculate the individual implied volatility of each option. 2. Calculate the standard deviation of the series in step 1. It is not necessary to weight these individual implied volatilities as one does in the composite implied volatility calculation. Rather, merely compute the standard deviation of the set of implied volatilities. Also, note that one may want to eliminate options that are essentially trading with little or no time value premium from this standard deviation calculation, since they are not representative of the “normal” options on this stock. 3. Divide the result of step 2 by the composite implied volatility, computed as shown in the preceding section. Example: XYZ is trading at 6.50. It has several listed options, with various individual implied volatilities. Option Implied Volatility Mar 5 call 85.0% June 5 call 77.5% Mar 7.5 call 75.0% June 7.5 call 70.0% The standard deviation of these four numbers is 6.25. Note that this number does not take into account the price or the volume of the individual options. However, deeply in- or out-of-the-money options would not be included if their time value premium is extremely small. Furthermore, assuming that the composite implied volatility of the above four options (which does use volume and distance in- or out-of-the-money), is 75.0%, the “skew factor” for this stock on this day would be: Skew factor = 6.25 / 75.0 = 8.3% Similar skew factors would be computed for all stocks, and then ranked. Those with the highest skew factors are likely to have a distinct volatility skew.
-- Once the Composite Implied Volatility and the Volatility Skew Factor are computed, one should consider keeping a database of daily values for every stock, index, ETF, and futures contract. With this information, one would then be able to compute percentiles of implied volatility and skew, looking back over time. These are useful statistics to help one decide if a particular stock’s options are indeed expensive or cheap, or if they are unusually skewed.
-- Since options have fixed terms, they lend themselves to a more rigorous computation of expected profit than the aforementioned intuitive appraisal. This more rigorous approach consists of computing the expected return. The expected return is nothing more than the return that the position should yield over a large number of cases. A simple example may help to explain the concept. The crucial variable in computing expected return is to outline what the chances are of the stock being at a certain price at some future time. 
-- Example: XYZ is selling at 33, and an investor is interested in determining where XYZ will be in 6 months. Assume that there is a 20% chance of XYZ being below 30 in 6 months, and that there is a 40% chance that XYZ will be above 35 in 6 months. Finally, assume that XYZ has an equal 10% chance of being at 31, 32, 33, or 34 in 6 months. All other prices are ignored for simplification. Table 28-5 summarizes these assumptions. Since the percentages total 100%, all the outcomes have theoretically been allowed for. Now suppose a February 30 call is trading at 4 and a February 35 call is trading at 2 points. A bull spread could be established by buying the February 30 and selling the February 35. This position would cost 2 points—that is, it is a 2-point debit. The spreader could make 3 points if XYZ were above 35 at expiration for a return of 150%, or he could lose 100% if XYZ were below 30 at expiration. The expected return for this spread can be computed by multiplying the outcome at expiration for each price by the probability of being at that price, and then summing the results. For example, if XYZ is below 30 at expiration, the spreader loses $200. It was assumed that there is a 20% chance of XYZ being below 30 at expiration, so the expected loss is 20% times $200, or $40. Table 28-6 shows the computation of the expected results at all the prices. The total expected profit is $100. This means that the expected return (profit divided by investment) is 50% ($100/$200).
-- Fortunately, there is a straightforward method of computing the expected percentage chance of a given stock being at a certain price at a certain point in time. This computation involves using the distribution of stock prices.
-- Figure 28-1 is a graph of a typical lognormal distribution. The peak always lies at the “mean,” or average, of the distribution. For stock price distributions, under the random walk assumption, the “mean” is generally considered to be the current stock price.
-- The reader should take note of the fact that these probabilities apply to the end of the time period. They say nothing about the chances that XYZ might dip below price A at some time during the time period. To compute that percentage, an involved computation is necessary.
-- Since the option modeler is generally interested in time periods other than one year, the annual volatility must be converted into a volatility for the time period in question. This is easily accomplished by the following formula: ....Page 15
-- The necessary groundwork has been laid for the computation of the probability necessary in the expected return calculation. The following formula gives the probability of a stock that is currently at price p being below some other price, g, at the end of the time period. The lognormal distribution is assumed. Probability of stock being below price q at end of time period t:.....Formula page 16
-- If one is interested in computing the probability of the stock being above the given price, the formula is P (above) = 1 — P (below)
-- With this formula, the computation of expected return is quickly accomplished with a computer. One merely has to start at some price—the lower strike in a bull spread, for example—and work his way up to a higher price—the high strike for a bull spread. At each price point in between, the outcome of the spread is multiplied by the probability of being at that price, and a running sum is kept. Simplistically, the following iterative equation would be used. P (of being at price x) = P (below x) — P (below y) where y is close to but less than x in price. 
-- Example: XYZ is currently at 33 and has an annual volatility of 25%. The previous bull spread is being established—buy the February 30 and sell the February 35 for a 2-point debit—and these are 6-month options. Table 28 7 gives the necessary components for computing the expected return. Column (A), the probability of being below price q, is computed according to the previously given formula, where p = 33 and v; = .177(; = .25 nA ). The first stock price that needs to be looked at is 30, since all results for the bull spread are equal below that price—a 100% loss on the spread. The calculations would be performed for each tenth of a point up through a price of 35. The expected return is computed by multiplying the two right-hand columns, (B) and (C), and summing the results. Note that column (B) is determined by subtracting successive numbers in column (A).
-- One other by-product of the expected return calculation is that it could be used as another model for predicting the theoretical value of an option. All one would have to do is compute the probabilities of the stock being at each successive price above the striking price of the option by expiration, and sum them up. The result would be the theoretical option value. These data are published by some services and generally give a different theoretical value than would the Black-Scholes model. The reason for the difference most readily lies in the inclusion of the risk-free interest rate in the Black-Scholes model and its omission in the expected return model.
-- The option buyer can also constructively use the measurement of volatility to aid him in his option buying decisions. In Chapter 3, it was shown that evaluating the profitability of calls based on the volatility of the underlying stock is the correct way to analyze an option purchase. One specific method of analysis is described. There are certain variables in this analysis that may be altered to fit the call buyer’s individual preferences, but the general logic is applicable to all cases. As a first step, one should decide upon a uniform stock movement for ranking call purchases. One might decide to rank all purchases by how they would perform if the underlying stock moved up in accordance with its volatility. The phrase “in accordance with its volatility” must be quantified. For example, one might decide to assume that every stock could move up one standard deviation, and then rank all call purchases on that basis. The prospective call buyer must also fix the time period that he wants to use. Generally, one looks at purchases to be held for 30 days, 60 days, and 90 days. The exact steps to be followed in the analysis of profitability and risk can be listed as follows: 1. Specify the distance that underlying stock can move, up or down, in terms of its volatility. 2. Select the holding period over which the analysis is to take place. PROFITABILITY 3. Calculate the stock price that the stock would move up to, when the foregoing assumptions are implemented. 4, Using a pricing model, such as the Black-Scholes model, estimate what the option price would become after the upward stock movement. 5. Calculate the percent profit, after deducting commissions. 6. Repeat steps 4 and 5 for each option on the stock. A final ranking of all potential call buys can be obtained by performing steps 3 through 6 on all stocks, and ranking the purchases by their percentage reward. RISK 7. Calculate the stock price that the stock could fall to, when the assumptions in steps 1 and 2 are applied. 8. With a model, price the option after the stock’s decline. 9. Calculate the percentage loss after commissions. 10. Compute a reward/risk ratio: Divide the percentage profit from step 5 by the percentage risk from step 9. 11. Repeat steps 8 through 10 for each option on the stock.
-- The higher profitability list of option purchases will tend to be at- or slightly out-ofthe-money calls. The less aggressive list, ranked by reward/risk potential, will tend to be in-the-money options.
-- This completes the call buying example. Before leaving this section, it should be noted that the assumption of ranking the purchases after one full standard deviation movement by the underlying stock is probably excessive. A more moderate assumption would be that the stock might be able to move .7 standard deviation. There is about a 25% expected chance that a stock could move up at least .7 standard deviation at the end of a fixed time period.
-- One could use the basic call pricing model for the purpose of predicting put prices if he assumes that arbitrageurs will efficiently influence the market via conversions....The listed put’s price can be estimated by using the call pricing model and the arbitrage formula. Recall that the arbitrageur must include the cost of carrying the position as well as the dividends to be received. Theoretical = Theoretical call price + Strike Price - Stock Price - Crrying Cost + Dividends. The “theoretical call price” is obtained from the Black-Scholes model. The carrying cost is the cost of money (interest rate) times the striking price, multiplied by the time to expiration.  
-- Put option purchases can be ranked in a manner very similar to that described for call option buying. Reward opportunities occur when the stock falls in accordance with its volatility. An upward stock movement represents risk for the put buyer. All of the 11 steps in the previous section on call buying are applicable to put buying. The pricing of the put necessary for steps 4 and 8 is done in accordance with the arbitrage model just presented.
-- In most of the strategies that were described, it was shown that the strategist should avoid early assignment if at all possible. It is a simple matter for the computer to calculate the remaining time value premium of any short options, and to warn the trader if there is only a small amount of time value premium remaining, perhaps 0.10 or less. For similar reasons, the trader may want to have a daily list of positions that are nearing maturity, perhaps with less than 1 month of life remaining in the options. A flag indicating an approaching ex-dividend date might also be useful for this purpose.
-- The computation for determining whether a position is net short or net long generally involves calculating the “equivalent stock position” (ESP). If one owns 10 calls that have a delta of .45, his equivalent stock position from those calls is 10 x 100 shares per call x .45 = 450. That is, owning those 10 calls is equivalent to owning 450 shares of the underlying stock, according to the delta. All puts and calls can be reduced to an ESP and can then, of course, be combined with any actual long or short stock in the position to produce an ESP for the entire strategy. The resultant ESP for each of the trader's positions can be printed form the computer along with the items described above.
-- Two basic mathematical aids have been presented: the pricing model and the ability to predict the probability of a stock’s movement. The hedge ratio and the expected return analysis are extensions of the basic aids. Any strategy can be evaluated with these tools. Such an analysis should be able to give the trader or strategist some idea of the relative attractiveness of establishing the position, and may also aid in making follow-up adjustments to the position. All the analyses rely heavily on one’s estimate of the volatility of the underlying stock. Using the implied volatility seems to be one of the best ways to obtain an accurate, current volatility estimate, since it is derived from the prices in the market itself.
-- 
-
-
-# Chapter 28 — Mathematical Applications:
+# Chapter 28: Mathematical Applications —
 # Extracted Insights for the Conservative Options Playbook
 
 ---
 
-## 1. Implied Volatility: Letting the Market Compute Volatility For You
+## Foundational Vocabulary: The Black-Scholes Variables
 
-Historical volatility, computed from past stock prices, tells you what volatility *was*.
-Implied volatility tells you what the market is *pricing in now*. For strategy decisions,
-implied volatility is the more useful input.
+The Black-Scholes model prices a call option using six inputs. Understanding what each
+variable represents is prerequisite to understanding everything else in this chapter.
 
-"*There is, in fact, a way in which the strategist can let the market compute the volatility
-for him.* This is called using the implied volatility; that is, the volatility that the market
-itself is implying. This concept makes the assumption that, for options with striking prices
-close to the current stock price and for options with relatively large trading volume, the
-market is fairly priced... *If the actual price of an option is the fair price, it can be fixed
-in the Black-Scholes equation while letting volatility be the unknown variable.*"
+**Variables:**
+- p = stock price
+- s = striking price
+- t = time remaining until expiration, expressed as a percent of a year
+- r = current risk-free interest rate
+- v = volatility measured by annual standard deviation
+- ln = natural logarithm
+- N(x) = cumulative normal density function
 
-The implied volatility is derived by iterating the Black-Scholes equation backward: fix
-the observed market price, solve for the volatility that produces it. Done for each option
-on a stock, then weighted by volume and distance from the strike, a single composite
-implied volatility for the underlying stock is produced.
+---
 
-**The weighting formula:**
+## 1. The Black-Scholes Formula
 
-The volume weight for each option is simply that option's daily volume divided by total
-option volume on the stock. The distance weight uses a parabolic function that gives
-decreasing weight as the option moves further from at-the-money, and zero weight beyond
-a chosen maximum distance (e.g., 25% from current price):
+The actual formula:
 
-Weighting factor = −(x − a)² / a² if x is less than a; = 0 if x is greater than a
+**Theoretical option price = pN(d₁) − se^(−rt)N(d₂)**
 
-where x is the percentage distance between stock price and strike, and a is the maximum
-distance at which any weight is given.
+where:
 
-**Example:** XYZ is at 33. Four options trade with the following data:
+$$d_1 = \frac{\ln\left(\frac{p}{s}\right) + \left(r + \frac{v^2}{2}\right)t}{v\sqrt{t}}$$
+
+$$d_2 = d_1 - v\sqrt{t}$$
+
+**Delta as a direct output of the model:**
+
+An important by-product of the Black-Scholes formula is the exact calculation of
+delta — the amount by which the option price can be expected to change for a small
+change in the stock price. Delta is not computed separately; it falls directly out of
+the model:
+
+> **Delta = N(d₁)**
+
+This means that any platform running Black-Scholes is simultaneously computing delta
+at no additional cost. Delta is more formally known as the hedge ratio.
+
+---
+
+## 2. Adjusting Black-Scholes for Dividends
+
+The base Black-Scholes model does not include dividends. Direct application to
+dividend-paying stocks produces inflated call prices. Fisher Black's two-step correction:
+
+**Step 1:** Subtract the present value of all dividends expected to be paid before option
+expiration from the current stock price. Use this adjusted stock price in the formula
+and calculate the theoretical call price.
+
+**Step 2:** Assume the option expires just prior to the last ex-dividend date before actual
+expiration. Adjust the stock price accordingly and calculate the theoretical call price
+again.
+
+**Rule:** Use the higher of the two resulting prices as the theoretical call price.
+
+The dividend correction does not need to be applied for every strategy decision. In many
+applications an approximate value is sufficient. However, for any strategy involving
+dividend-paying stocks where the exact theoretical value matters — evaluating whether
+a specific call is overpriced or underpriced — apply the correction before drawing
+conclusions.
+
+---
+
+## 3. Historical Volatility: Definition and the Lognormal Adjustment
+
+**Historical volatility** is computed from past stock prices. It tells you what volatility
+was. It is the standard statistical definition of annual standard deviation applied to
+stock price changes.
+
+**The standard historical volatility formula:**
+
+$$\sigma^2 = \frac{\sum_{i=1}^{n}(P_i - \bar{P})^2}{n-1}$$
+
+$$v = \sigma / \bar{P}$$
+
+where:
+- $\bar{P}$ = average stock price of all $P_i$'s
+- $P_i$ = daily stock price
+- $n$ = number of days observed
+- $v$ = volatility
+
+Historical volatility has a known limitation: it encompasses too long a period of time
+to accurately represent current conditions. Volatilities change over time — a large stock
+split may reduce volatility; entry into a more speculative business may increase it.
+Recent price action should be weighted more heavily than older action when estimating
+current volatility.
+
+**The lognormal adjustment:** The standard formula above does not give the correct
+input for Black-Scholes, because the model assumes that the *logarithms* of price
+changes are normally distributed — not the prices themselves.
+
+Example: XYZ closes at 51 today, 50 yesterday.
+- Arithmetic percentage change: 51/50 = 1.02, or **2.00%**
+- Lognormal input: ln(51/50) = ln(1.02) = **0.0198, or 1.98%**
+
+If the stock is down the next day from 51 back to 50:
+ln(50/51) = ln(0.9804) = **−0.0198**
+
+The correct volatility formula consistent with Black-Scholes uses lognormal price
+relatives:
+
+$$v = \sqrt{\frac{\sum_{i=1}^{n}(X_i - \bar{X})^2}{n-1}}$$
+
+where $X_i = \ln(P_i / P_{i-1})$; $P_i$ = closing price on day $i$; and $\bar{X}$ = the
+average of the $X_i$'s over the desired number of days.
+
+In practice, any modern options analytics platform computes this automatically. The
+concept matters — understand that the volatility input to Black-Scholes is based on
+log-price changes, not arithmetic price changes — but manual computation is not
+required.
+
+---
+
+## 4. Implied Volatility: Letting the Market Compute Volatility For You
+
+**Implied volatility** is derived from current market prices. It tells you what the market
+is pricing in now. For strategy decisions, implied volatility is the more useful input
+because it reflects current conditions rather than historical ones.
+
+The derivation: fix the observed market price of a liquid, near-the-money option in the
+Black-Scholes equation and solve for the volatility that produces it. This is done by
+iteration — trying successive volatility values until the model price matches the market
+price. The result is the implied volatility for that specific option.
+
+---
+
+## 5. Composite Implied Volatility: The Weighted Average Across All Options on a Stock
+
+Each option on a given stock will produce a different implied volatility when solved
+individually. To derive a single composite implied volatility for the underlying stock,
+these individual values must be weighted by two factors: trading volume and distance
+from the current stock price.
+
+**Why weight by volume:** Options with high trading volume are more likely to be fairly
+priced. Their implied volatilities carry more information.
+
+**Why weight by distance:** Options far in- or out-of-the-money are less reliably priced
+and should receive little or no weight regardless of volume. The distance weighting
+function uses a parabolic formula that assigns decreasing weight as the option moves
+away from at-the-money, and zero weight beyond a chosen maximum distance (typically
+25% from the current stock price). The parabola ensures that options just slightly OTM
+are not arbitrarily penalized, while options far from the money are effectively excluded.
+
+**Worked example:** XYZ is at 33. Maximum distance for weighting: 25%.
 
 **TABLE 28-1. Implied volatilities, closing price, and volume.**
 
-|Option|Option Price|Volume|Implied Volatility|
+| Option | Option Price | Volume | Implied Volatility |
 |---|---|---|---|
-|January 30|4.50|50|.34|
-|January 35|1.50|90|.28|
-|April 35|2.50|55|.30|
-|April 40|1.50|5|.38|
+| January 30 | 4.50 | 50 | .34 |
+| January 35 | 1.50 | 90 | .28 |
+| April 35 | 2.50 | 55 | .30 |
+| April 40 | 1.50 | 5 | .38 |
 
 **TABLE 28-2. Volume weighting factors.**
 
-|Option|Volume|Volume Weighting Factor|
+| Option | Volume | Volume Weighting Factor |
 |---|---|---|
-|January 30|50|.25 (50/200)|
-|January 35|90|.45 (90/200)|
-|April 35|55|.275 (55/200)|
-|April 40|5|.025 (5/200)|
+| January 30 | 50 | .25 (50/200) |
+| January 35 | 90 | .45 (90/200) |
+| April 35 | 55 | .275 (55/200) |
+| April 40 | 5 | .025 (5/200) |
 
-With a = .25 (discarding options more than 25% from the stock price), the distance
-weighting factors become:
+**TABLE 28-3. Distance weighting factors (25% maximum).**
 
-**TABLE 28-3. Distance weighting factors.**
-
-|Option|Distance from Stock Price|Distance Weighting Factor|
+| Option | Distance from Stock Price | Distance Weighting Factor |
 |---|---|---|
-|January 30|.091 (3/33)|.41|
-|January 35|.061 (2/33)|.57|
-|April 35|.061 (2/33)|.57|
-|April 40|.212 (7/33)|.02|
+| January 30 | .091 (3/33) | .41 |
+| January 35 | .061 (2/33) | .57 |
+| April 35 | .061 (2/33) | .57 |
+| April 40 | .212 (7/33) | .02 |
 
-**TABLE 28-4. Option's implied volatility — final composite.**
+**TABLE 28-4. Final composite implied volatility calculation.**
 
-|Option|Volume Factor|Distance Factor|Option's Implied Volatility|
+| Option | Volume Factor | Distance Factor | Implied Vol |
 |---|---|---|---|
-|January 30|.25|.41|.34|
-|January 35|.45|.57|.28|
-|April 35|.275|.57|.30|
-|April 40|.025|.02|.38|
+| January 30 | .25 | .41 | .34 |
+| January 35 | .45 | .57 | .28 |
+| April 35 | .275 | .57 | .30 |
+| April 40 | .025 | .02 | .38 |
 
-Implied volatility = (.25×.41×.34 + .45×.57×.28 + .275×.57×.30 + .025×.02×.38) /
+Composite IV = (.25×.41×.34 + .45×.57×.28 + .275×.57×.30 + .025×.02×.38) /
 (.25×.41 + .45×.57 + .275×.57 + .025×.02) = **.298**
 
-"Note that the implied volatility, .298, is not equal to any of the individual option's
-implied volatilities. Rather, it is a composite figure that gives the most weight to the
-heavily traded, near-the-money options, and very little weight to the lightly traded
-(5 contracts), deeply out-of-the-money April 40 call."
+The composite figure gives the most weight to the heavily traded, near-the-money
+options (January 35 at 90 contracts, January 30 at 50 contracts) and nearly zero weight
+to the lightly traded, deeply OTM April 40 call (5 contracts).
 
-**Smoothing day-to-day noise:** "A smoothing effect can be obtained by taking a moving
-average of the last 20 or 30 days' implied volatilities. An alternative that does not require
-the saving of many previous days' worth of data is to use a momentum calculation on the
-implied volatility. For example, today's final volatility might be computed by adding 5%
-of today's implied volatility to 95% of yesterday's final volatility."
+**Smoothing day-to-day noise:** On a day-to-day basis, implied volatility can fluctuate
+more than is useful for strategy decisions. Two smoothing approaches:
 
-**The key application:** "*Once this implied volatility has been computed, it can then be
-used in the Black-Scholes model (or any other model) as the volatility variable.* Thus one
-could compute the theoretical value of each option according to the Black-Scholes
-formula, utilizing the implied volatility for the stock. Since the implied volatility for the
-stock will most likely be somewhat different from the implied volatility of this particular
-option, there will be a discrepancy between the option's actual closing price and the
-theoretical price as computed by the model. This differential represents the amount by
-which the option is theoretically overpriced or underpriced, *compared to other options
-on that same stock.*"
+1. Take a 20- or 30-day moving average of daily composite implied volatilities.
+2. Use a momentum calculation: today's final volatility = (5% × today's implied
+   volatility) + (95% × yesterday's final volatility). This requires saving only one
+   prior data point and still produces a meaningful smoothing effect.
 
-"*This method of computing volatility is quite accurate and proves to be sensitive to
-changes in the volatility of a stock.* For example, as markets become bullish or bearish
-(generating large rallies or declines), most stocks will react in a volatile manner as well.
-Option premiums expand rather quickly, and this method of implied volatility is able to
-pick up the change quickly."
+**The key application:** Once the composite implied volatility is computed, use it in
+Black-Scholes to calculate the theoretical value of each individual option. Since the
+composite IV will differ from any specific option's individual implied volatility, a
+discrepancy will appear between the option's actual market price and its model-derived
+theoretical price. This discrepancy represents the amount by which that specific option
+is theoretically overpriced or underpriced *relative to other options on the same stock*.
 
-> **Annotation:** The composite implied volatility calculation is the foundation for the
-> "buy cheap, sell expensive" volatility discipline referenced throughout Chapters 17 and
-> 25. Two applications are directly relevant to the playbook. First, tracking a stock's
-> composite implied volatility over time — maintaining a 20- or 30-day moving average —
-> allows the investor to identify when implied volatility is historically low (the correct
-> entry condition for buying LEAPS calls or protective puts) vs. historically elevated
-> (when buying options is expensive and writing covered calls or selling puts is more
-> attractive). Second, the overpriced/underpriced differential — comparing a specific
-> option's implied volatility to the composite — identifies which strike or expiration is
-> relatively cheap within a given stock's option chain. For the value investor building a
-> LEAPS call or bull spread position, buying the option with the lowest individual implied
-> volatility relative to the composite is strictly superior to buying the one that happens to
-> look cheap on an absolute premium basis.
+This method is sensitive to real-time volatility changes. As markets become bullish or
+bearish and option premiums expand, the composite implied volatility picks up the
+change quickly.
+
+> **Annotation:** Two direct applications to the playbook. First: tracking a stock's
+> composite implied volatility over time — using a 20- or 30-day smoothed series —
+> identifies when implied volatility is historically low (correct entry condition for buying
+> LEAPS calls or protective puts per Chapter 25's master entry rule) vs. historically
+> elevated (when writing covered calls or selling puts is more attractive). Second: the
+> overpriced/underpriced differential identifies which specific strike or expiration is
+> relatively cheap within a given stock's option chain. When building a LEAPS call or
+> bull spread, buy the option whose individual implied volatility is lowest relative to the
+> composite — not the one that simply looks cheap on absolute premium.
 
 ---
 
-## 2. The Volatility Skew: Identifying Unusual Pricing Across Strikes
+## 6. The Volatility Skew: Identifying Unusual Pricing Across Strikes
 
-A volatility skew exists when different strikes or expirations on the same underlying stock
-carry significantly different implied volatilities. Measuring the skew is a useful screening
-tool.
+A volatility skew exists when different strikes or expirations on the same underlying
+stock carry materially different implied volatilities. The skew factor quantifies this
+dispersion.
 
-The three-step process:
-1. Calculate the individual implied volatility of each option.
-2. Calculate the standard deviation of those implied volatilities (unweighted; exclude
-   options with little or no time value premium as unrepresentative).
-3. Divide that standard deviation by the composite implied volatility.
+**Three-step calculation:**
+1. Calculate the individual implied volatility of each option. Exclude options with
+   little or no remaining time value premium — they are not representative of
+   normal pricing.
+2. Calculate the standard deviation of those implied volatilities (unweighted —
+   no volume or distance adjustment needed here).
+3. Divide by the composite implied volatility from Section 5.
 
-**Example:** XYZ is trading at 6.50 with four options:
+> **Skew factor = Standard deviation of individual IVs / Composite IV**
 
-|Option|Implied Volatility|
+**Example:** XYZ at 6.50.
+
+| Option | Implied Volatility |
 |---|---|
-|Mar 5 call|85.0%|
-|June 5 call|77.5%|
-|Mar 7.5 call|75.0%|
-|June 7.5 call|70.0%|
+| Mar 5 call | 85.0% |
+| June 5 call | 77.5% |
+| Mar 7.5 call | 75.0% |
+| June 7.5 call | 70.0% |
 
-The standard deviation of these four numbers is 6.25. The composite implied volatility
-(weighted by volume and distance) is 75.0%. Therefore:
-
+Standard deviation of {85.0, 77.5, 75.0, 70.0} = 6.25.
+Composite IV = 75.0%.
 Skew factor = 6.25 / 75.0 = **8.3%**
 
-"Similar skew factors would be computed for all stocks, and then ranked. Those with the
-highest skew factors are likely to have a distinct volatility skew. One would have to look
-at the implied volatilities of the individual options on any particular stock with a large
-skew factor to see what is causing the skew."
+Compute skew factors for all stocks and rank them. Those with the highest skew
+factors are most likely to have a distinct, exploitable volatility skew.
 
-Two common skew patterns: A **horizontal skew** arises when options expiring just after
-an anticipated event (earnings, FDA decision, lawsuit verdict) carry higher implied
-volatility than all other options. A **vertical skew** arises in bearish markets, where
-lower-strike options carry higher implied volatility than higher-strike options.
+**Two common skew patterns:**
 
-"Once the Composite Implied Volatility and the Volatility Skew Factor are computed, one
-should consider keeping a database of daily values for every stock, index, ETF, and
-futures contract. With this information, one would then be able to compute percentiles
-of implied volatility and skew, looking back over time. These are useful statistics to help
-one decide if a particular stock's options are indeed expensive or cheap, or if they are
-unusually skewed."
+- *Horizontal skew:* Options expiring just after a known event (earnings, FDA
+  decision, legal verdict) carry elevated implied volatility relative to all other
+  expirations.
+- *Vertical skew:* Lower-strike options carry higher implied volatility than
+  higher-strike options. The standard post-1987 pattern — the market prices
+  downside tail risk more expensively than upside.
 
-> **Annotation:** The vertical skew — lower strikes carrying higher implied volatility than
-> upper strikes — is the standard post-1987 skew pattern and is directly relevant to
-> protective put buyers. When the skew is steep, OTM puts are expensive relative to
-> ATM puts and the Chapter 17 rule (buy the first OTM strike) may require adjustment:
-> in a steep skew environment, the ATM put may offer better value per dollar of protection
-> than the OTM put does. The horizontal skew is relevant to the value investor who owns
-> a stock heading into a known binary event: if the near-term implied volatility is
-> dramatically elevated versus the longer-dated options, it may be worth selling a
-> near-term covered call to harvest that elevated premium rather than buying protection
-> through an expensive near-term put.
+Build a database of daily composite IV and skew factor for every stock traded.
+Computing percentiles over time — where does today's IV rank versus the past year —
+enables the investor to determine whether options are genuinely cheap or expensive,
+not just cheap or expensive relative to recent history.
+
+> **Annotation:** The vertical skew is directly relevant to protective put buyers. When
+> the skew is steep, OTM puts are expensive relative to ATM puts. In that environment,
+> the Chapter 17 default (buy the first OTM strike) should be reconsidered — the ATM
+> put may offer better value per dollar of protection. The horizontal skew is relevant
+> for stocks heading into a known binary event: if near-term implied volatility is
+> dramatically elevated, selling a near-term covered call harvests that elevated premium
+> more efficiently than buying a near-term put for protection.
 
 ---
 
-## 3. Computing the Probability of a Stock Being at a Given Price: The Core Formula
+## 7. Converting Annual Volatility to a Sub-Period Volatility
 
-The lognormal distribution provides a straightforward formula for computing the
-probability of a stock being below a given price at the end of a time period. This drives
-both expected return calculations and downside protection analysis.
+Since the option modeler is generally interested in time periods other than one year,
+the annual volatility must be converted into a volatility for the time period in question.
+This is accomplished by:
 
-"The area under the distribution curve between any two points gives the probability of
-being between those two points."
+$$v_t = v\sqrt{t}$$
 
-Note the critical scope limitation: "*These probabilities apply to the end of the time
-period. They say nothing about the chances that XYZ might dip below price A at some
-time during the time period.* To compute that percentage, an involved computation is
-necessary."
+where:
+- v = annual volatility
+- t = time, in years
+- v_t = volatility for time t
 
-The annual volatility must first be converted to the relevant time period:
+Example: a 3-month volatility equals one-half the annual volatility.
+t = 0.25 (one quarter of a year), so v₀.₂₅ = v√0.25 = **0.50v**
 
-v_t = v × √t
-
-where v = annual volatility, t = time in years, v_t = volatility for time t.
-
-As an example, a 3-month volatility equals one-half the annual volatility: t = .25, so
-v_25 = v × √.25 = .50v.
-
-The probability formula:
-
-P(below q at end of period t) = N( ln(q/p) / v_t )
-
-where N = cumulative normal distribution, p = current stock price, q = price in question,
-ln = natural logarithm.
-
-P(above q) = 1 − P(below q)
-
-**Example applied to a covered write:** XYZ is selling for 43 and a 6-month July 40 call
-is selling for 8 points. After including dividends and commission costs for a 500-share
-position, the downside break-even point at expiration is 36. Annual volatility of XYZ is
-25%. The 6-month volatility is 17.7% (25% times √½).
-
-P(below 36 in 6 months) = N( ln(36/43) / .177 ) = N( −.178 / .177 ) = **0.158**
-
-"The expected probability of XYZ being below 36 in 6 months is 15.8%. Therefore, this
-would be an attractive write on a conservative basis, because it has a large probability of
-making money (nearly 85% chance of not being below the break-even point at expiration)."
-
-> **Annotation:** This formula converts the abstract concept of "downside protection" into
-> a concrete, comparable probability. Two covered writes with different stocks, different
-> premiums, and different break-even points can now be ranked on a common basis: which
-> has the lower probability of loss at expiration? McMillan's suggested ranking criterion —
-> among all writes that meet a minimum return threshold (e.g., 12% annualized), rank by
-> lowest probability of being below break-even at expiration — is a superior filter to
-> arbitrary rules like "the option must sell for at least 1 point" or "downside protection
-> must be at least X%." Those rules cannot account for differences in stock volatility; the
-> probability formula can. The same formula applies to evaluating protective puts: given a
-> stock at price p and a put strike at q, P(below q) tells you the probability of the put
-> expiring in-the-money. This is the probability-adjusted value of the protection being
-> purchased.
+This formula is used in every probability calculation and in the call ranking framework.
+It is simple and should be applied automatically whenever a sub-period analysis is
+performed.
 
 ---
 
-## 4. Ranking Call Purchases: The Volatility-Normalized Reward/Risk Framework
+## 8. Computing the Probability of a Stock Being at a Given Price
 
-"*Evaluating the profitability of calls based on the volatility of the underlying stock is the
-correct way to analyze an option purchase.*"
+The lognormal distribution provides a formula for computing the probability of a stock
+being below a given price at the end of a fixed time period. This drives both expected
+return calculations and downside protection analysis.
 
-The method ranks call purchases by how they would perform if the underlying stock
-moved in accordance with its volatility over a fixed holding period. The complete
-11-step procedure:
+**Critical scope limitation:** These probabilities apply to the price at the *end* of the
+time period only. They say nothing about the probability of the stock touching a given
+price at any point *during* the period. Computing path-dependent probabilities requires
+a substantially more complex calculation.
 
-**Setup (Steps 1–2):** Specify the stock movement in terms of standard deviations (e.g.,
-one standard deviation upward) and fix the holding period (30, 60, or 90 days).
+**The probability formula:**
 
-**Profitability (Steps 3–6):**
+$$P(\text{below}) = N\left(\frac{\ln\left(\frac{q}{p}\right)}{v_t}\right)$$
 
-Step 3 — Calculate the upward stock target using: q = p × e^(av_t)
+where:
+- N = cumulative normal distribution
+- p = current price of the stock
+- q = price in question
+- ln = natural logarithm for the time period in question
+- v_t = volatility for the time period (from Section 7)
 
-where p = current stock price, a = number of standard deviations, v_t = volatility for
-the holding period.
+$$P(\text{above}) = 1 - P(\text{below})$$
 
-Step 4 — Use a pricing model (Black-Scholes) to price the call at the new stock price
-and reduced time remaining.
+For computing the probability of the stock being at a specific price x (rather than
+above or below a threshold), the iterative equation is:
 
-Step 5 — Calculate percentage profit: (new option price − original price) / original price.
+$$P(\text{of being at price } x) = P(\text{below } x) - P(\text{below } y)$$
 
-Step 6 — Repeat for each option on the stock.
+where y is close to but less than x in price. Summing these incremental probabilities
+across a range of prices produces the full expected return calculation.
 
-**Risk (Steps 7–11):**
+**Worked example — evaluating a covered write:**
 
-Step 7 — Calculate the downside stock target using: q = p × e^(−av_t)
+XYZ at 43; 6-month July 40 covered write; downside break-even at expiration: 36.
+Annual volatility: 25%.
 
-Step 8 — Price the option after the stock's decline.
+6-month volatility: v_t = 0.25 × √0.50 = **0.177**
 
-Step 9 — Calculate percentage loss: (original price − new option price) / original price.
+P(below 36 in 6 months) = N(ln(36/43) / 0.177) = N(−0.178 / 0.177) = N(−1.006) = **15.8%**
 
-Step 10 — Reward/risk ratio = percentage profit / percentage loss.
+Interpretation: approximately 84% probability that XYZ will be above the break-even
+point at expiration. McMillan's assessment: an attractive covered write on a conservative
+basis.
 
-Step 11 — Repeat for all options.
+**Application to ranking covered writes:** Among all covered writes meeting a minimum
+return threshold (e.g., 12% annualized), rank by lowest probability of loss at expiration.
+This is superior to arbitrary rules like "the stock must have at least X% downside
+protection" because it accounts for stock volatility — a 10% downside cushion on a
+50% volatility stock carries a much higher probability of loss than the same cushion on
+a 20% volatility stock.
 
-**Complete example:** Steps 1–2: 90-day holding period, one standard deviation movement.
+**Application to protective puts:** Given a stock at price p and a put strike at q,
+P(below q) gives the probability that the put will expire in-the-money. This is the
+probability-adjusted value of the protection being purchased — a direct input to
+deciding whether the put premium is worth paying.
 
-XYZ common: 41; XYZ volatility: 30% annually; XYZ January 40 call: 4;
-time to January expiration: 6 months.
+---
 
-Step 3 — Upward target:
-v_t = .30 × √.25 = .30 × .50 = .15
-q = 41 × e^.15 = 41 × 1.16 = **47.64**
+## 9. Expected Return: The Probability-Weighted Framework for Strategy Evaluation
 
-Step 4 — Using Black-Scholes, the XYZ January 40 call is worth approximately **8.10**
-if XYZ is at 47.60 with 90 days less life remaining.
+Expected return is the return a position should yield over a large number of cases,
+computed by multiplying each possible outcome by its probability and summing the
+results. It converts intuitive assessments of value into a single comparable number,
+and formalizes the "dollar for 70 cents" language in the investment philosophy.
 
-Step 5 — Percent profit = (8.10 − 4) / 4 = 4.10 / 4 = **103%**
+**Simple example:** XYZ is at 33. Assumed probability distribution for 6 months:
 
-"Recall again that there is only about a 16% chance of the stock actually moving at least
-this far. If all options on all stocks are ranked under this same assumption, however, a
-fair comparison of profitable options will be obtained."
+| XYZ Price | Probability |
+|---|---|
+| Below 30 | 20% |
+| 31 | 10% |
+| 32 | 10% |
+| 33 | 10% |
+| 34 | 10% |
+| Above 35 | 40% |
 
-Step 7 — Downside target:
-q = 41 × e^(−.15) = 41 × .86 = **35.39**
+Bull spread established: buy February 30 call, sell February 35 call, 2-point net debit
+($200 investment). Maximum profit = $300 if above 35; maximum loss = $200 if below 30.
 
-"Note that the actual distances that XYZ could rise and fall are not the same. The upward
-potential was 6.60 points, while the downward potential is about 5.75 points. This
-difference is due to the use of the lognormal distribution."
+**Expected return calculation:**
 
-Step 8 — The XYZ January 40 call would be worth approximately **1.10** if XYZ were
-at 35.39 in 90 days.
+| XYZ Price | Probability | Spread Result | Expected Result |
+|---|---|---|---|
+| Below 30 | 20% | −$200 | −$40 |
+| 31 | 10% | −$100 | −$10 |
+| 32 | 10% | $0 | $0 |
+| 33 | 10% | +$100 | +$10 |
+| 34 | 10% | +$200 | +$20 |
+| Above 35 | 40% | +$300 | +$120 |
+| **Total** | **100%** | | **+$100** |
 
-Step 9 — Percent risk = (4 − 1.10) / 4 = 2.90 / 4 = **73%**
+Expected profit = $100. Expected return = $100 / $200 = **50%**.
 
-Step 10 — Reward/risk ratio = 103% / 73% = **1.41**
+A position with a 50% expected return offers approximately $1.50 of expected value
+for each $1.00 invested — the formal expression of "dollar for 70 cents."
 
-Step 11 — Repeat for all XYZ options and all other optionable stocks.
+The expected return framework can also derive a theoretical option value independent
+of Black-Scholes: compute the probability of the stock being at each price above the
+striking price at expiration, weight each outcome by the intrinsic value at that price,
+and sum. The result is a probability-based theoretical option price.
 
-"The higher profitability list of option purchases will tend to be at- or slightly
-out-of-the-money calls. The less aggressive list, ranked by reward/risk potential, will tend
-to be in-the-money options."
+---
 
-**A calibration note on the standard deviation assumption:** "The assumption of ranking
-the purchases after one full standard deviation movement by the underlying stock is
-probably excessive. A more moderate assumption would be that the stock might be able
-to move .7 standard deviation. There is about a 25% expected chance that a stock could
-move up at least .7 standard deviation at the end of a fixed time period."
+## 10. Ranking Call Purchases: The Volatility-Normalized Reward/Risk Framework
+
+Evaluating call purchases based on the volatility of the underlying stock is the correct
+method. Any ranking based on equal percentage moves across stocks — without
+accounting for each stock's probability of making that move — is useless.
+
+**The complete 11-step procedure:**
+
+**Setup:**
+1. Specify the stock movement assumption in standard deviations. Recommended:
+   **0.7 standard deviations** (see calibration note below).
+2. Fix the holding period: 30, 60, or 90 days.
+
+**Profitability (upside):**
+
+3. Calculate the upward stock target:
+
+$$q = p \times e^{(a \times v_t)}$$
+
+where p = current stock price, a = number of standard deviations, v_t = volatility
+for the holding period.
+
+4. Use Black-Scholes to price the call at the new stock price with reduced time
+   remaining (original expiration minus the holding period).
+5. Calculate percentage profit: (new option price − original price) / original price.
+   Deduct commissions.
+6. Repeat steps 4–5 for each option on the stock.
+
+**Risk (downside):**
+
+7. Calculate the downward stock target:
+
+$$q = p \times e^{(-a \times v_t)}$$
+
+Note: due to the lognormal distribution, the downward distance is slightly smaller
+than the upward distance for the same number of standard deviations.
+
+8. Price the call at the declined stock price using Black-Scholes.
+9. Calculate percentage loss: (original price − new option price) / original price.
+   Deduct commissions.
+10. Reward/risk ratio = percentage profit (step 5) / percentage loss (step 9).
+11. Repeat steps 8–10 for each option on the stock.
+
+**Complete example:** XYZ at 41; annual volatility 30%; XYZ January 40 call at 4;
+6 months to January expiration; 90-day holding period; 1.0 standard deviation
+assumption.
+
+90-day volatility: v_t = 0.30 × √0.25 = 0.30 × 0.50 = **0.15**
+
+Upward target: q = 41 × e^0.15 = 41 × 1.16 = **47.64**
+Call value at 47.64 with 90 days less remaining: approximately **8.10**
+Percentage profit: (8.10 − 4.00) / 4.00 = **103%**
+
+Downward target: q = 41 × e^(−0.15) = 41 × 0.86 = **35.39**
+Call value at 35.39 with 90 days less remaining: approximately **1.10**
+Percentage loss: (4.00 − 1.10) / 4.00 = **73%**
+
+Reward/risk ratio: 103% / 73% = **1.41**
+
+**Two output lists:**
+- *Aggressive list* (ranked by percentage profit — Step 5): tends to surface ATM
+  or slightly OTM calls.
+- *Conservative list* (ranked by reward/risk ratio — Step 10): tends to surface
+  ITM calls.
+
+**Calibration note — the 0.7 standard deviation rule:** Using 1.0 standard deviation
+as the upward assumption is probably excessive — there is only about a 16% probability
+of a stock moving at least one full standard deviation over a fixed period. A more
+realistic assumption is **0.7 standard deviations**, which has approximately a 25%
+probability of occurring. For the conservative value investor, 0.7 standard deviations
+is the correct default. It generates lower projected profits but produces more realistic
+rankings across strategies.
 
 > **Annotation:** This framework is the most rigorous call-buying tool in the playbook.
-> Its key virtue is that it normalizes across stocks with different volatilities: a 30%
-> volatility stock and a 50% volatility stock both get evaluated on a move-of-X-standard-
-> deviations basis, making the comparison fair. The reward/risk ratio (Step 10) directly
-> serves the playbook's risk-defined mandate — it explicitly quantifies how much
-> percentage upside is generated per unit of percentage downside risk, using actual model-
-> derived prices at both extremes. McMillan's calibration note is important: using 1.0
-> standard deviations as the upward assumption is aggressive (only 16% probability of
-> occurring); using 0.7 standard deviations is more realistic (25% probability). For the
-> conservative value investor, 0.7 standard deviations is the appropriate assumption —
-> it generates lower projected profits but more realistic rankings. The practical
-> implementation: use any option analytics platform that provides theoretical values at
-> different stock prices to execute Steps 4 and 8 without manual Black-Scholes
-> computation.
+> Its key virtue is normalization: a 30% volatility stock and a 50% volatility stock are
+> both evaluated on a move-of-X-standard-deviations basis, making comparisons fair
+> across names with different characteristics. The reward/risk ratio directly serves the
+> risk-defined mandate — it quantifies how much percentage upside is generated per
+> unit of percentage downside, using model-derived prices at both extremes. The
+> practical implementation: any option analytics platform that provides theoretical
+> values at different stock prices and time horizons executes Steps 4 and 8 without
+> manual Black-Scholes computation.
 
 ---
 
-## 5. The Equivalent Stock Position (ESP): Reading Net Delta Exposure Across a Combined Position
+## 11. Put Pricing via the Arbitrage Formula
 
-When stock and options are held simultaneously — as in a covered write, protective put,
-or LEAPS stock substitute — the net directional exposure of the entire position can be
-collapsed into a single number: the equivalent stock position.
+The Black-Scholes model prices calls directly. Put prices are derived from call prices
+using the put-call parity relationship:
 
-"If one owns 10 calls that have a delta of .45, his equivalent stock position from those
-calls is 10 × 100 shares per call × .45 = 450. That is, owning those 10 calls is equivalent
-to owning 450 shares of the underlying stock, according to the delta. All puts and calls
-can be reduced to an ESP and can then, of course, be combined with any actual long or
-short stock in the position to produce an ESP for the entire strategy."
+> **Theoretical put price = Theoretical call price + Strike price − Stock price
+> − Carrying cost + Dividends**
 
-The sign convention: long calls and long stock produce positive ESP (bullish); long puts
-and short stock produce negative ESP (bearish). A position with ESP near zero is
+Where:
+- Theoretical call price = Black-Scholes output
+- Carrying cost = risk-free interest rate × strike price × time to expiration
+- Dividends = present value of dividends expected before option expiration
+
+**Application to put ranking:** Put purchases can be ranked using the same 11-step
+volatility-normalized framework from Section 10. The only modification: reward
+opportunities occur when the stock falls in accordance with its volatility; risk is
+measured by an upward stock move. Use the arbitrage formula above to price puts
+at each stock price in Steps 4 and 8.
+
+---
+
+## 12. The Equivalent Stock Position (ESP): Net Delta Across a Combined Position
+
+When stock and options are held simultaneously — as in a covered write, protective
+put, collar, or LEAPS substitution — the net directional exposure of the entire position
+collapses into a single number: the equivalent stock position.
+
+> **ESP = Number of contracts × 100 shares per contract × Delta**
+
+Long calls and long stock produce positive ESP (bullish). Long puts and short stock
+produce negative ESP (bearish). A position with ESP near zero is approximately
 delta-neutral.
 
-**Example of a complex position with XYZ at 31.75:**
+**Complex position example:** XYZ at 31.75.
 
-|Position||Delta|ESP|
+| Position | | Delta | ESP |
 |---|---|---|---|
-|Short|4,500 XYZ|1.00|Short 4,500 shares|
-|Short|100 XYZ April 25 calls|0.89|Short 8,900 shares|
-|Long|50 XYZ April 30 calls|0.76|Long 3,800 shares|
-|Long|139 XYZ July 30 calls|0.74|Long 10,286 shares|
-|**Total ESP**|||**Long 686 shares**|
+| Short | 4,500 XYZ stock | 1.00 | −4,500 shares |
+| Short | 100 April 25 calls | 0.89 | −8,900 shares |
+| Long | 50 April 30 calls | 0.76 | +3,800 shares |
+| Long | 139 July 30 calls | 0.74 | +10,286 shares |
+| **Total ESP** | | | **+686 shares** |
 
-"The advantage of using the ESP is that this fairly complex position is reduced to a single
-number. The entire position is equivalent to being long 686 shares of the common stock.
-Essentially, this is close to delta-neutral for such a large position."
+Despite the complexity of the position, it reduces to a single number: equivalent to
+being long 686 shares of common stock. Essentially delta-neutral for a position of
+this size.
 
-> **Annotation:** For the playbook's core structures — long stock plus protective put, or
-> LEAPS call plus Treasury bill — the ESP calculation provides an immediate reality check
-> on actual directional exposure. A long stock position at delta 1.00 combined with a
-> protective put at delta −0.30 produces a net ESP equivalent to 70 shares per 100 owned:
-> the position participates in 70% of upside moves and is partially insulated on the
-> downside. As the stock declines and the put moves further in-the-money (delta rising
-> toward −1.00), the ESP drops toward zero and eventually goes negative, which is the
-> protection working as intended. Monitoring ESP over time as the position ages gives
-> the investor a live read on whether the hedge is still providing meaningful protection or
-> has become so deep in-the-money that rolling the put to a higher strike makes sense.
+> **Annotation:** For the playbook's core structures, ESP provides an immediate reality
+> check on actual directional exposure. Long stock at delta 1.00 combined with a
+> protective put at delta −0.30 produces a net ESP equivalent to 70 shares per 100
+> owned: the position participates in 70% of upside moves and is partially insulated
+> on the downside. As the stock declines and the put moves deeper ITM (delta rising
+> toward −1.00), the ESP drops toward zero and eventually goes negative — the
+> protection working as intended. Monitoring ESP as the position ages gives a live read
+> on whether the hedge is still providing meaningful protection or has become so deep
+> ITM that rolling the put to a higher strike makes sense.
+
+---
+
+## 13. Practical Monitoring Rules: Assignment Flags and Position Aging
+
+Computer-aided monitoring of a multi-position options book should generate three
+automatic flags:
+
+1. **Early assignment risk:** Flag any short option whose remaining time value
+   premium has dropped to 0.10 or less. At that level the option is trading near
+   parity and early assignment is possible regardless of time remaining.
+
+2. **Approaching expiration:** Flag any position with less than 1 month of life
+   remaining in the options. These positions require active management — closing,
+   rolling, or allowing expiration — and should not be left unmonitored.
+
+3. **Ex-dividend proximity:** Flag any short call position where the underlying
+   stock has an upcoming ex-dividend date within the life of the option. Call
+   writers face assignment risk on the day prior to the ex-date when the call's
+   time value premium has been reduced to near zero by the impending dividend.
+
+These three flags replace the need to manually monitor every position daily. Any
+position not triggering one of these flags can be reviewed on a less frequent schedule.
