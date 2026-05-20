@@ -1,658 +1,658 @@
-# USer Notes
+Good. Let me go through your notes against what I produced.
 
-- Long-term options are generally listed about 2.5 years before they expire.
-- The factors influencing the prices of LEAPS are the same as those for any other option: 1. underlying stock price, 2. striking price, 3. time remaining, 4. volatility, 5. risk-free interest rate, and 6. dividend rate. The relative influence of these factors may be a little more pronounced for LEAPS than it is for shorter-term equity options.
-- The most obvious thing to notice about the curves in Figure 25-1 is that the curve depicting the 2-year LEAPS is quite flat. It has the general shape of the shorter-term curves, but there is so much time value at stock prices even 25% in- or out-of-the-money, that the 2-year curve is much flatter than the others.
-- The most important remaining determinant of an option’s price is the volatility of the underlying stock. Changes in volatility can greatly change the price of any option. This is especially true for LEAPS, since a long-term option’s price will fluctuate greatly when volatility changes only a little.
-- Before that discussion, however, it may be beneficial to examine the effects that interest rates and dividends can have on LEAPS. These effects are much, much greater than those on conventional equity options. Recall that it was stated that interest rates and dividends are minor determinants in the price of an option, unless the dividends were large. That statement pertains mostly to short-term options. For longer-term options, the cumulative effect of an interest rate or dividend over such a long period of time can have a magnified effect in terms of the absolute price of the option.
-- Suffice it to say that the in-the-money LEAPS are changed in price by over 4 points when rates change by 3%. That is a monstrous differential and should cause any trader who is considering trading in-the-money LEAPS to consider what his outlook is for short-term interest rates.
-- The increase in dividends manifests itself by decreasing the LEAPS call price. The reason that this is true, of course, is that the stock will be reduced in price more when it goes ex-dividend by the larger amounts of the increased dividends. The actual amount that the calls lose in price increases slightly as the call is more in-the-money.
-- Finally, note that dividend increases have the opposite effect on puts. That is, an increase in the dividend payout of the underlying common will cause a put to increase in price. If the put is a long-term put, then the effect of the increase will be even larger.
-- Lest one think that LEAPS are too difficult to price objectively, note the following. The prior figures of interest rate and dividend effects tend to magnify the effects on prices for two reasons. First, they depict the effects on 2-year LEAPS. That is a large amount of life. The effects would be diminished somewhat for options with 10 to 23 months of life left. Second, the figures depict the change in rates or dividends as being instantaneous. This is not completely realistic. If rates change, they will change by a little bit at a time, usually 4% or %% at a time, perhaps as much as 1%. If dividends are increased, that increase may be instantaneous, but it will not likely occur immediately after the LEAPS are purchased or sold. However, the point that these figures are meant to convey is that interest rates and dividends have a much greater effect on LEAPS than on ordinary shorter-term equity options, and that is certainly a true statement.
-- As a general rule, one would want to be a buyer of LEAPS when interest rates were low and when the volatilities being implied in the marketplace are low. If the opposite were true (high rates and high volatilities), he would lean toward strategies in which the sale of LEAPS is used. Of course, there are many other specific considerations when it comes to operating a strategy, but since the long-term nature of LEAPS exposes one to interest rate and volatility movements for such a long time, one may as well attempt to position himself favorably with respect to those two elements when he enters a position.
-- Any in-the-money option can be used as a substitute for the underlying stock. Stock owners may be able to substitute a long in-the-money call for their long stock.
-- Substitution for Stock Currently Held Long. Simplistically, this strategy involves this line of thinking: If one owns stock and sells it, an investor could reinvest a small portion of the proceeds in a call option, thereby providing continued upside profit potential if the stock rises in price, and invest the rest in a bank to earn interest. The interest earned would act as a substitute for the dividend, if any, to which the investor is no longer entitled. Moreover, he has less downside risk: If the stock should fall dramatically, his loss is limited to the initial cost of the call. In actual practice, one should carefully calculate what he is getting and what he is giving up. For example, is the loss of the dividend too great to be compensated for by the investment of the excess proceeds? How much of the potential gain will be wasted in the form of time value premium paid for the call? The costs to the stock owner who decides to switch into call options as a substitute are commissions, the time value premium of the call, and the loss of dividends. The benefits are the interest that can be earned from freeing up a substantial portion of his funds, plus the fact that there is less downside risk in owning the call than in owning the stock.
-- Example: XYZ is selling at 50. There are one-year LEAPS with a striking price of 40 that sell for $12. XYZ pays an annual dividend of $0.50 and short-term interest rates are 5%. What are the economics that an owner of 100 XYZ common stock must calculate in order to determine whether it is viable to sell his stock and buy the one-year LEAPS as a substitute? The call has time value premium of 2 points (40 + 12 — 50). Moreover, if the stock is sold and the LEAPS purchased, a credit of $3,800 less commissions would be generated. First, calculate the net credit generated: Credit balance generated: Sale of 100 XYZ stock $5,000 Less stock commission - 25 Net sale proceeds: $4,975 credit Cost of one LEAPS call $1,200 Plus option commission 15 Net cost of call: $1,215 debit Total credit balance: $3,760 credit Now the costs and benefits of making the switch can be computed: Costs of switching: Time value premium — $200 Loss of dividend -$ 50 Stock commissions = $525 Option commissions -$ 15 Total cost: — $290 Fixed benefit from switching: Interest earned on credit balance of $3,760 at 5% interest for one year = 0.05 x $3,760; + $188 Net cost of switching: — $102 The stock owner must now decide if it is worth just over $1 per share in order to have his downside risk limited to a price of 39% over the next year. The price of 394 as his downside risk is merely the amount of the net credit he received from doing the switch ($3,760) plus the interest earned ($188), expressed in per-share terms. That is, if XYZ falls dramatically over the next year and the LEAPS expires worthless, this investor will still have $3,948 in a bank account. That is equivalent to limiting his risk to about 39% on the original 100 shares.
-- There may be other mitigating circumstances. Mostly these would involve tax considerations. If the stock is currently a profitable investment, the sale would generate a capital gain, and taxes might be owed. If the stock is currently being held at a loss, the purchase of the call would constitute a wash sale and the loss could not be taken at this time. (See Chapter 41 on taxes for a broader discussion of the wash sale rule and option trading.)
-- In summary, holders of common stock on which there exist in-the-money LEAPS should evaluate the economics of substituting the LEAPS call for the common stock. Even if arithmetic calculations call for the substitution, the stockholder should consider his tax situation as well as his outlook for the cash dividends to be paid by the common before making the switch.
-- Example: As betore, XYZ is selling at 50; there are 1-year LEAPS with a striking price of 40 that sell for $12; XYZ pays an annual dividend of $0.50, and short-term interest rates are 0%. The initial purchaser of common stock would have certain “opportunity” costs and savings if he decided instead to buy the LEAPS calls. First, calculate the difference in investment required for the stock versus the LEAPS: Prospective initial investment: Stock: $5,000 + $25 commision = $5,025 LEAPS: $1,200 + $15 commision = 12215 Net difference: $3,810 Now calculate the costs versus the savings: Costs: Time value premium $200 Loss of dividend -~$ 50 Savings: Interest on $3,810 for one year at 5%: +$190 Net opportunity cost: -$ 60...In this case, it seems even more likely that the prospective stock purchaser would instead buy the LEAPS call. His net “cost” of doing so, provided he puts the difference in initial investment in a 1-year CD or Treasury bill, is only $60. For this small amount, he has all the upside appreciation (except $60 worth), but has risk only down to 40 (he will have $4,000 in his bank account at the end of one year even if the LEAPS expire worthless)...In this margin strategy, one has the risk of not participating in cash dividend increases or specials as the stockholder who substitutes does. But the other concerns of the stockholder, such as taxes, are not pertinent here. Again, these specific calculations only apply if the stock were to be held for the entire year. Adjustments would have to be made if the holding period envisioned is shorter. 
-- What was accomplished in the substitution strategy previously discussed? The stock owner paid some cost ($102 in the actual example) in order to limit the risk of his stock ownership to a price of 39'4. What if he had bought a LEAPS put instead? Forgetting the price of the put for a moment, concentrate on what the strategy would accomplish. He would be protected from a large loss on the downside since he owns the put, and he could participate in upside appreciation since he still owns the stock. Isn’t this what the substitution strategy was trying to accomplish? Yes, it is. In this strategy, only one commission is paid—that being on a fairly cheap out-of-the-money LEAPS put—and there is no risk of losing out on dividend increases or special dividends. The comparison between substituting a call or buying a put is a relatively simple one. First, do the calculations as they were performed in the initial example above. That example showed that the stockholder’s cost would be $102 to substitute the LEAPS call for the stock, and such a substitution would protect him at a price of 39. In effect, he is paying $152 for a LEAPS put with a strike of 40—the $102 cost plus the difference between 40 and the 39% protection price. Now, if an XYZ 1-year LEAPS put with strike 40 were available at 14, he could accomplish everything he had initially wanted merely by buying the put.
-- Thus, any stockholder who is thinking of protecting his position can do it in one of two ways: Sell the stock and substitute a call, or continue to hold his stock and buy a put to protect it. LEAPS calls and puts are amenable to this strategy. Because of the LEAPS’ long-term nature, one does not have to keep reestablishing his position and pay numerous commissions, as he would with short-term options. The stockholder should perform the simple calculations as shown above in order to decide whether the move is feasible at all, and if it is, whether to use the call substitution strategy or the put protection strategy.
-- Strategists know that buying calls and puts can have various applications; witness the stock substitution strategies above. However, the most popular reason for buying options is for speculative gain. The leverage inherent in owning options and their limited risk feature make them attractive for this purpose as well. The risk, of course, can be 100% of the investment, and time decay works against the option owner as well. LEAPS calls and puts fit all of these descriptions; they simply have longer maturities. Time decay is the major enemy of the speculative option holder. Purchasing LEAPS options instead of the shorter-term equity options generally exposes the buyer to less risk of time decay on a daily basis. This is true because the extreme negative effects of time decay magnify as the option approaches its expiration. Recall that it was shown in Chapter 3 that time decay is not linear: An option decays more rapidly at the end of its life than at the beginning. Eventually, a LEAPS put or call will become a normal short-term equity option and time will begin to take a more rapid toll. But in the beginning of the life of LEAPS, there is so much time remaining that the short-term decay is not large in terms of price.
-- The upward-sloping nature of both curves as time to expiration wanes shows that time decay increases more rapidly as expiration approaches. Notice how much more rapidly the out-of-the-money option decays, percentagewise, than the at-the-money. LEAPS, however, do not decay much at all compared to normal equity options. Most LEAPS, even the out-of-the-money ones, lose less than 4 of one percent of their value daily. This is a pittance when compared with a 6-month equity option that is 20% out-of-the-money— that option loses well over 1% of its value daily and it still has 6 months of life remaining....An advantage of owning LEAPS, therefore, is that one’s timing of the option purchase does not have to be as exact as that for shorter-term option buying. This can be a great psychological advantage as well as a strategic advantage. The LEAPS option buyer who feels strongly that the stock will move in the desired direction has the luxury of being able to wait calmly for the anticipated move to take place. If it does not, even in perhaps as long as 6 months’ time, he may still be able to recoup a reasonable portion of his initial purchase price because of the slow percentage rate of decay.
-- This observation leads to the obvious question: “When is the best time to sell my call and repurchase a longer-term one?” Referring again to Figure 25-4 may help answer the question. Note that for the at-the-money option, the curve begins to bend dramatically upward soon after the 6-month time barrier is passed. Thus, it seems logical that to minimize the effects of time decay, all other things being equal, one would sell his long at-the-money call when it has about 6 months of life left and simultaneously buy a 2-year LEAPS call. This keeps his time decay exposure to a minimum. The out-of-the-money call is more radical. Figure 25-4 shows that the call that is 20% out-of-the-money begins to decay much more rapidly (percentagewise) at sometime just before it reaches one year until expiration. The same logic would dictate, then, that if one is trading out-of-the-money options, he would sell his option held long when it has about one year to go and reestablish his position by buying a 2-year LEAPS option at the same time. 
-- In fact, as interest rates go, only the top line of the table probably represents realistic interest rates; an increase of 0.4% in one month, or 3% in 6 months, is possible. The other lines, where the stock drops in price, probably require too large a jump in rates for rates alone to be able to salvage the call price. However, any increase in rates will be helpful. Volatility is another matter. It is often feasible for volatilities to change by as much as 50% from their previous level in a month, and certainly in six months. Hence, as has been stated before, the volatility factor is the more dominant one....This is clear evidence that one should be aware of the general level of rates and volatility before using LEAPS options in a strategy.
-- What this implies is that the longer the life of an at-the-money option, the greater its delta....This means that at- and out-of-the-money LEAPS will move more in line with the common stock than comparable short-term options will. Restated, the LEAPS calls will move faster than the ordinary short-term equity calls unless both options are more than 5% in-the-money. Note that the movement referred to is in absolute terms in change of price, not in percentage terms.
-- What this means to the call buyer is that the amount by which he can expect the LEAPS call to increase or decrease in price is somewhat stable. This can affect his choice of whether to buy the in-the-money call or the out-of-the-money call. With normal short-term options, he can expect the in-the-money call to much more closely mirror the movement in the stock, so he might be tempted to buy that call if he expects a small movement in the stock. With LEAPS, however, there is much less discrepancy in the amount of option price movement that will occur.
-- Recall that the relationship between put deltas and call deltas, except for deeply in-the-money puts, is: put delta = Call delta — 1. This has the effect of inverting the relationships that have just been described. In other words, while the short-term calls didn’t move as fast as the LEAPS, the short-term puts move faster than the LEAPS puts in most cases.
-- The LEAPS put delta curve is flat, just as the call delta curve was. Moreover, the delta is not very large anywhere across the figure. For example, at-the-money 2-year LEAPS puts move only about 30 cents for a one-point move in the underlying stock. LEAPS put buyers who want to speculate on a stock’s downward movement must realize that the leverage factor is not large; it takes approximately a 3-point move by the underlying common for an at-the-money LEAPS put to increase in value by one point. Long-term puts don’t mirror stock movement nearly as well as shorter-term puts do.
-- In summary, the option buyer who is considering buying LEAPS puts or calls as speculation should be aware of the different price action that LEAPS exhibit when compared to shorter-term options. Due to the large amount of time that LEAPS have remaining in their lives, the time decay of the LEAPS options is smaller. For this reason, the LEAPS option buyer doesn’t need to be as precise in his timing. In general, LEAPS calls move faster when the underlying stock moves, and LEAPS puts move more slowly. Other than that, the general reasons for speculative option buying apply to LEAPS as well: leverage and limited risk.
-- Strategies involving selling LEAPS options do not differ substantially from those involving shorter-term options. The discussions in this section concentrate on the two major differences that sellers of LEAPS will notice. First, the slow rate of time decay of LEAPS options means that option writers who are used to sitting back and watching their written options waste away will not experience the same effect with LEAPS. Second, follow-up action for writing strategies usually depends on being able to buy back the written option when it has little or no time value premium remaining. Since LEAPS retain time value even when substantially in- or out of-the-money, follow-up action involving LEAPS may involve the repurchase of substantial amounts of time value premium. 
-- As an aside, the strategist who is utilizing the incremental return concept of covered writing may find LEAPS call writing quite attractive. This is the strategy wherein he has a higher target price at which he would be willing to sell his common stock, and he writes calls along the way to earn an incremental return (see Chapter 2 for details). Since this type of writer is only concerned with absolute levels of premiums being brought into the account and not with things like return if exercised, he should utilize LEAPS calls if available, since the premiums are the largest available. Moreover, if the incremental return writer is currently in a short-term call and is going to be called away, he might roll into a LEAPS call in order to retain his stock and take in more premium.
-- Downside Protection. The actual downside break-even point might enter into one’s thinking as well. A downside break-even point of 40.3 is available by using the LEAPS write, and that is a known quantity. No matter how far XYZ might fall, as long as it can recover to slightly over 40 by expiration two years from now, the investment will at least break even. A problem arises if XYZ falls to 40 quickly. If that happened, the LEAPS call would still have a significant amount of time value premium remaining on it. Thus, if the investor attempted to sell his stock at that time and buy back his call, he would have a loss, not a break-even situation. The short-term write offers downside protection only to a stock price of 46.2. Of course, repeated writes of 6-month calls over the next 2 years would lower the break-even point below that level. The problem is that if XYZ declines and one is forced to keep selling 6-month calls every 6 months, he may be forced to use a lower striking price, thereby locking in i a smaller profit (or possibly even a loss) if premium levels shrink. The concepts of rolling down are described in detail in Chapter 2.
-- To summarize, the large absolute premiums available in LEAPS calls may make a covered write of those calls seem unusually attractive. However, one should calculate the returns available and decide whether a short-term write might not serve his purpose as well. Even though the large LEAPS premium might reduce the initial investment to a mere pittance, be aware that this creates a great amount of leverage, and leverage can be a dangerous thing. 
-- Even so, one might rightfully wonder if LEAPS put selling is better than selling shorter-term equity puts. As was the case with covered call writing, the answer depends on what the investor is trying to accomplish. Short-term puts will not bring as much premium into the account, so when they expire, one will be forced to find another suitable put sale to replace it. On the other hand, the LEAPS put sale brings in a larger premium and one does not have to find a replacement until the longer-term LEAPS put expires. The negative aspect to selling the LEAPS puts is that time decay won't help much right away and, even if the stock moves higher (which is ostensibly good for the position), the put won't decline in price by a large amount, since the delta of the put is relatively small. One other factor might enter in the decision regarding whether to use short-term puts or LEAPS puts. Some put writers are actually attempting to buy stock below the market price. That is, they would not mind being assigned on the put they sell, meaning that they would buy stock at a net cost of the striking price less the premium they received from the sale of the put. If they don’t get assigned, they get to keep a profit equal to the premium they received when they first sold the put. Generally, a person would only sell puts in this manner on a stock that he had faith in, so that if he was assigned on the put, he would view that as a buying opportunity in the underlying stock. This strategy does not lend itself well to LEAPS. Since the LEAPS puts will carry a significant amount of time premium, there is little (if any) chance that the put writer will actually be assigned until the life of the put shortens substantially. This means that it is unlikely that the put writer will become a stock owner via assignment at any time in the near future. Consequently, if one is attempting to write puts in order to eventually buy the common stock when he is assigned, he would be better served to write shorter-term puts.  
-- Early Assignment. An American-style option is one that can be exercised at any time during its life. All listed equity options, LEAPS included, are of this variety. Thus, any inthe-money option that has been sold may become subject to early assignment. The clue to whether early assignment is imminent is whether there is time value premium in the option. If the option has no time value premium—in other words, it is trading at parity or at a discount—then assignment may be close at hand.
-- Any of the spread strategies previously discussed can be implemented with LEAPS as well, if one desires. The margin requirements are the same for LEAPS spreads as they are for ordinary equity option spreads. One general category of spread lends itself well to using LEAPS: that of buying a longer-term option and selling a short-term one. Calendar spreads, as well as diagonal spreads, fall into that category.
-- As a means of demonstrating these facts, let us consider a simple bull spread using calls. Example: The following prices exist in the month of January: XYZ7105 April 100 call: 10.50 April 110 call: 5.50 January (2-year) 100 call: 26 January (2-year) 110 call: 21.50 An investor is considering a bull spread in XYZ and is unsure about whether to use the short-term calls, the LEAPS calls, or a mixture. These are his choices: Short-term bull spread: Buy April 100 @ 10.50 Sell April 110 @ 5.50 Net Debit: $500 Diagonal bull spread: Buy January LEAPS 100 @ 26 Sell April 110 @ 5.50 Net Debit: $2,050 LEAPS bull spread: Buy January LEAPS 100 @ 26 Sell January LEAPS 110 @ 21.50 Net Debit: $450 Notice that the debit paid for the LEAPS spread is slightly less than that of the shortterm bull spread.
-- Consider the following situation: XYZ Stock, 120: Cail Position Delta Long 1 January LEAPS 100 call: 0.70 Short 1 April 110 call: -0.90 At this point, if XYZ rises in price by 1 point, the spread can be expected to lose 20 cents, since the delta of the short option is 0.20 greater than the delta of the long option. This phenomenon has ramifications for the diagonal spreader of LEAPS. If the two strike prices of the spread are too close together, it may actually be possible to construct a bull spread that loses money on the upside. That would be very difficult for most traders to accept. In the above example, as depicted in Table 25-4, that’s what happens. One way around this is to widen the strike prices out so that there is at least some profit potential, even if the stock rises dramatically. That may be difficult to do and still be able to sell the short-term option for any meaningful amount of premium.
-- Thus, if one is a covered writer, this does not necessarily mean that he can substitute LEAPS calls for the long stock without taking care. The resulting position may not resemble a covered write as much as he thought it would.
-- The “bottom line” is that if one pays a debit greater than the difference in the strike prices, he may eventually lose money if the stock rises far enough to virtually eliminate the time value premium of both options.
-- There are certain differences between the prices of long-term options and those of shorter-term options, but the greatest is the relatively large effect that interest rates and dividends have on the price of long-term options. Increases in interest rates will cause LEAPS to increase in price, while increases in dividend payout will cause LEAPS calls to decrease in price and LEAPS puts to increase in price. As usual, volatility has a major effect on the price of an option, and long-term options are no exception. Even small changes in the volatility of the underlying common stock can cause large price differences in a two-year option. The rate of decay due to time is much smaller for long-term options. Finally, the deltas of LEAPS calls are larger than those of short-term calls; conversely, the deltas of LEAPS puts are smaller.
-- Several common strategies lend themselves well to the usage of LEAPS. A LEAPS may be used as a stock substitute if the cash not invested in the stock is instead deposited ina CD or T-bill. LEAPS puts can be bought as protection for common stock. Speculative option buyers will appreciate the low rate of time decay of LEAPS. LEAPS calls can be written against common stock, thereby creating a covered write, although the sale of naked LEAPS puts is probably a better strategy in most cases. Spread strategies with LEAPS may be viable as well, but the spreader should carefully consider the ramifications of buying a long-term option and selling a shorter-term one against it. If the underlying stock moves a great distance quickly, the spread strategy may not perform as expected. 
+---
 
+**Things in your notes that warrant inclusion and why:**
 
+**LEAPS listing timeline** — I omitted this entirely. Long-term options are generally listed about 2.5 years before they expire. Simple foundational fact that establishes what "long-term" means in practice and sets up the roll trigger discussion.
 
-# Chapter 25 — Long-Term Option Strategies (LEAPS):
+**The flat pricing curve observation** — I covered the pricing factors and their amplified influence but didn't describe the visual/practical consequence: the 2-year LEAPS pricing curve is much flatter than shorter-term curves. Even 25% in- or out-of-the-money, there is so much time value that strike selection has less impact on absolute price than it does for short-term options. This directly sets up the delta discussion in Section 6 and should precede it.
+
+**Interest rate effect stated as a directional rule** — I included the table and the magnitude discussion but didn't state the clean directional rule: increases in interest rates cause LEAPS call prices to increase. Increases in dividends cause LEAPS call prices to decrease and LEAPS put prices to increase. These directional rules should be stated explicitly before the table, not implied from it.
+
+**The "not completely realistic" qualifier on the rate/dividend figures** — I omitted McMillan's moderating statement entirely. He explicitly notes that the figures exaggerate the effect for two reasons: they depict 2-year LEAPS (effects are diminished for 10–23 month options), and they assume instantaneous changes (rates change gradually, dividends don't typically increase immediately after LEAPS are purchased). The core point — that rates and dividends matter much more for LEAPS than for short-term options — remains valid, but the qualifier prevents the investor from being paralyzed by what looks like an unmanageable sensitivity. That nuance belongs in the document.
+
+**The "25% loss in 6 months" concrete warning on LEAPS decay** — I included the daily percentage table and the roll triggers, but the specific example deserves to stay prominent: an 18-month ATM LEAPS call at $8 will be worth about $6 after 6 months if the stock is unchanged — a 25% loss despite slow daily decay. Investors used to short-term options expect 25% losses in 4–5 weeks; in LEAPS it takes 6 months. Both the danger and the advantage need equal weight.
+
+**LEAPS calls move faster in absolute terms; LEAPS puts move slower** — I covered both but didn't state the clean summary McMillan provides at the end of the chapter: LEAPS calls move faster than ordinary short-term equity calls (in absolute price terms, not percentage) unless both options are more than 5% in-the-money. LEAPS puts move more slowly than short-term puts. That directional summary statement should appear as a standalone rule before the delta details.
+
+**The slow LEAPS put delta — specific number stated** — I noted the low delta qualitatively but the specific figure deserves to be in the main text, not just referenced: an at-the-money 2-year LEAPS put moves only about 30 cents for a one-point move in the underlying stock. It takes approximately a 3-point move for an ATM LEAPS put to gain 1 point. That's the number that makes the speculative use case obviously wrong and the protective use case obviously right.
+
+**LEAPS put selling — the "trying to buy stock below market" use case and why LEAPS are wrong for it** — I covered LEAPS put selling briefly but omitted the specific use case McMillan identifies: some put writers sell puts specifically intending to be assigned and buy the stock at a net cost of strike minus premium. This strategy does not work with LEAPS because the significant time premium means assignment is unlikely until expiration approaches. If the intent is eventual stock ownership via assignment, write short-term puts, not LEAPS puts.
+
+**The incremental return covered writing use case for LEAPS calls** — I mentioned this in the covered writing section but didn't give it proper treatment. McMillan identifies a specific investor type — the incremental return writer who has a higher target price and writes calls along the way to earn premium — for whom LEAPS calls are particularly attractive because they offer the largest absolute premiums. The roll-into-LEAPS tactic when facing assignment on a short-term call is also worth preserving: rather than accepting assignment, roll into a LEAPS call to retain the stock and take in more premium.
+
+**Early assignment rule for LEAPS** — I dropped this entirely. All listed equity options including LEAPS are American-style and can be exercised at any time. The clue to whether early assignment is imminent is the same as for short-term options: if the option has no time value premium — trading at parity or at a discount — assignment may be close at hand. LEAPS retain time value even deep ITM, so early assignment is rare but not impossible.
+
+**The "naked LEAPS puts are probably better than covered writes in most cases" summary statement** — I included the covered writing section but didn't capture McMillan's end-of-chapter summary conclusion: selling naked LEAPS puts is probably a better strategy than LEAPS covered writing in most cases. This is a strong statement that deserves to be preserved and annotated.
+
+---
+
+**Things in your notes that are largely redundant with what I produced:**
+
+The master entry rule (buy when rates and volatility are low), the full interest rate/dividend table, the roll trigger rules (ATM at 6 months, OTM at 1 year), the volatility expansion table and its annotation, the stock substitution calculation template, the put vs. substitution decision rule, the covered writing annualized comparison and break-even analysis, the full bull spread/diagonal three-way comparison, and the diagonal delta problem are all well-covered. Your notes on those sections largely restate what's already there.
+
+---
+
+Nothing requiring discussion before revising. Producing the revised chapter now.
+
+```markdown
+# Chapter 25: Long-Term Option Strategies (LEAPS) —
 # Extracted Insights for the Conservative Options Playbook
+
+---
+
+## Foundational Facts: What LEAPS Are
+
+Long-term equity anticipation securities (LEAPS) are simply long-term listed options.
+They are generally listed approximately 2.5 years before they expire, giving them
+substantially more time than standard equity options. All listed equity LEAPS are
+American-style — they can be exercised at any time during their life, just like
+shorter-term equity options.
+
+The factors influencing LEAPS prices are identical to those for any listed option:
+underlying stock price, striking price, time remaining, volatility of the underlying stock,
+risk-free interest rate, and dividend rate. The relative influence of these factors is more
+pronounced for LEAPS than for shorter-term equity options — especially interest rates
+and dividends, which are minor factors for short-term options but become major
+determinants for long-term ones.
+
+**The flat pricing curve:** The most immediately noticeable characteristic of LEAPS
+pricing is that the curve is much flatter than for shorter-term options. Even at stock
+prices 25% in- or out-of-the-money, a 2-year LEAPS carries so much time value that
+its price does not vary as dramatically across strikes as a 3-month option does. This
+flatness has direct implications for strike selection — covered in Section 6.
+
+**Directional rules for interest rates and dividends:**
+- Increases in interest rates → LEAPS call prices increase; LEAPS put prices increase.
+- Increases in dividend payout → LEAPS call prices decrease; LEAPS put prices
+  increase.
+
+Both effects are far larger in magnitude for LEAPS than for short-term options.
 
 ---
 
 ## 1. The Cardinal Rule on LEAPS Valuation: Use a Model, Not Your Eyes
 
-"*Do not be deluded into thinking that a LEAPS looks cheap merely by comparing its
-price to a nearer-term option; use a model to evaluate it,* or at least use the output of
-someone else's model."
+Do not be deluded into thinking that a LEAPS looks cheap merely by comparing its
+price to a nearer-term option. Use a model to evaluate it, or at least use the output of
+someone else's model.
 
-The 2-year LEAPS, which has eight times the amount of time remaining as compared to
-the 3-month call, only sells for about four times as much. This confirms that time decay is
-not linear. The LEAPS might appear cheap to the casual observer, but these prices depict
-fair value for a given set of input parameters. The relative influence of the pricing factors
-(stock price, strike, time, volatility, interest rate, dividends) is more pronounced for
-LEAPS than for shorter-term equity options. "*One should be careful in his evaluation of
-LEAPS until he has acquired experience in observing how their prices relate to the
-shorter-term equity options with which he is experienced.*"
+A 2-year LEAPS, which has eight times the time remaining of a 3-month call, sells for
+only about four times as much. This confirms that time decay is not linear. The LEAPS
+might appear cheap to the casual observer, but these prices reflect fair value for a given
+set of input parameters. One should be careful in evaluating LEAPS until acquiring
+experience in observing how their prices relate to the shorter-term equity options with
+which one is already experienced.
 
 > **Annotation:** The value investor accustomed to comparing option prices by eyeballing
 > premium relative to stock price will be systematically misled with LEAPS. A 2-year call
-> that looks "expensive" at 14 may be fair value; one that looks "cheap" relative to a
-> 6-month call at a quarter of the price may be priced exactly right. Run the model or use
-> someone else's output. This is not optional.
+> that looks expensive at 14 may be fair value; one that looks cheap relative to a 6-month
+> call at a quarter of the price may be priced exactly right. Run the model or use someone
+> else's output. This is not optional.
 
 ---
 
 ## 2. The Master Entry Rule: Buy LEAPS When Rates and Volatility Are Low
 
-This governs the entire chapter. Because LEAPS expose the buyer to interest rate and
-volatility movements for such a long time, entry conditions matter more than they do for
-short-term options.
+This rule governs the entire chapter. Because LEAPS expose the buyer to interest rate
+and volatility movements for such a long time, entry conditions matter more than they
+do for short-term options.
 
-"As a general rule, one would want to be a buyer of LEAPS when interest rates were low
-and when the volatilities being implied in the marketplace are low. If the opposite were
-true (high rates and high volatilities), he would lean toward strategies in which the *sale*
-of LEAPS is used. Of course, there are many other specific considerations when it comes
-to operating a strategy, but since the long-term nature of LEAPS exposes one to interest
-rate and volatility movements for such a long time, one may as well attempt to position
-himself favorably with respect to those two elements when he enters a position."
+As a general rule, one would want to be a buyer of LEAPS when interest rates are low
+and when the volatilities implied in the marketplace are low. If the opposite is true —
+high rates and high volatilities — lean toward strategies in which the sale of LEAPS is
+used. Since the long-term nature of LEAPS exposes the holder to these movements for
+such an extended period, positioning favorably with respect to both elements at entry
+is worth doing when possible.
 
 > **Annotation:** This is the macro filter that precedes every LEAPS call purchase in the
 > playbook. Low implied volatility AND low interest rates: both inflate LEAPS call prices
 > independently. When both are elevated, the buyer is paying a double premium unrelated
-> to the stock thesis. Check both before entering. The sections below explain exactly why
-> each matters so much more for LEAPS than for short-term options.
+> to the stock thesis. Check both before entering.
 
 ---
 
 ## 3. Interest Rates and Dividends: Hugely Amplified for LEAPS
 
-For short-term options, interest rates and dividends are minor pricing factors. For LEAPS,
-they are not.
+For short-term options, interest rates and dividends are minor pricing factors. For
+LEAPS, they are major ones. The cumulative effect of an interest rate or dividend change
+over a 2-year period magnifies in terms of absolute option price to a degree that would
+not occur in a 3-month option.
 
-**TABLE 25-1. Comparing LEAPS and Short-Term Calls — Change in Price of the Options**
+**TABLE: Comparing LEAPS and Short-Term Calls — Change in Price per Unit**
 
-|Variable|Increment|3-mo. 20% out|2-yr. 20% out|3-mo. at|2-yr. at|3-mo. 20% in|2-yr. 20% in|
+| Variable | Increment | 3-mo. 20% OTM | 2-yr. 20% OTM | 3-mo. ATM | 2-yr. ATM | 3-mo. 20% ITM | 2-yr. 20% ITM |
 |---|---|---|---|---|---|---|---|
-|Stock Prc.|+1pt|.03|.41|.54|.70|.97|.89|
-|Volatility|+1%|.03|.43|.21|.48|.04|.33|
-|Int. Rate|+½%|.01|.27|.08|.55|.14|.72|
-|Dividend|+$.25/qtr|0|−.62|−.08|−1.18|−.14|−1.50|
+| Stock Price | +1 pt | .03 | .41 | .54 | .70 | .97 | .89 |
+| Volatility | +1% | .03 | .43 | .21 | .48 | .04 | .33 |
+| Int. Rate | +½% | .01 | .27 | .08 | .55 | .14 | .72 |
+| Dividend | +$.25/qtr | 0 | −.62 | −.08 | −1.18 | −.14 | −1.50 |
 
-"The trader who is used to dealing with short-term options might ordinarily ignore the
-effect of a rise in interest rates of ½ of 1%, of a 25-cent increase in the quarterly
-dividend, of the volatility increasing by a mere 1%, or maybe even of the stock moving
-by one point (only if his option is out-of-the-money). *The LEAPS option trader will gain
-or suffer substantially and immediately if any of these occur.* In almost every case, his
-LEAPS call will gain or lose ½ point of value — a significant amount, to be sure."
+The trader accustomed to short-term options might ordinarily ignore a ½% rate change,
+a $0.25/quarter dividend change, or a 1% volatility move. The LEAPS trader will gain
+or suffer substantially on any of these. In almost every case, the LEAPS call will gain
+or lose approximately ½ point of value on each increment.
 
-On interest rates specifically: a shift of 3% in rates causes a price difference of over
-2 points in the at-the-money 2-year LEAPS, and over 4 points for in-the-money LEAPS.
-"That is a monstrous differential and should cause any trader who is considering trading
-in-the-money LEAPS to consider what his outlook for short-term interest rates."
+**On interest rates specifically:** A 3% shift in rates produces a price difference of over
+2 points in the ATM 2-year LEAPS, and over 4 points for ITM LEAPS. Any trader
+considering in-the-money LEAPS should have a view on the direction of short-term
+interest rates.
 
-On dividends: a $1 increase in dividends over two years can cause an in-the-money
-LEAPS call to be worth about 1½ points less in value. Note that dividend increases have
-the *opposite* effect on puts — an increase in the dividend payout of the underlying
-common will cause a put to *increase* in price.
+**On dividends:** A $1 increase in dividends over two years can cause an ITM LEAPS
+call to lose approximately 1½ points of value. The reverse applies to LEAPS puts —
+a dividend increase causes LEAPS put prices to increase.
+
+**The moderating qualifier:** These figures tend to exaggerate the effects for two reasons.
+First, they depict 2-year LEAPS — effects are diminished for options with 10–23 months
+remaining. Second, the figures assume instantaneous changes in rates or dividends.
+In practice, rate changes occur gradually (typically in increments of 0.25%–0.50%) and
+dividend increases do not typically occur immediately after LEAPS are purchased. The
+core point stands: interest rates and dividends matter much more for LEAPS than for
+short-term options — but investors should not be paralyzed by what looks like
+unmanageable sensitivity. The effects unfold over time.
 
 > **Annotation:** The dividend effect on LEAPS calls deserves specific attention for the
-> value investor holding dividend-paying names: a company that raises its dividend during
+> value investor holding dividend-paying names. A company that raises its dividend during
 > the life of a long LEAPS call will cause that call to lose additional value — a headwind
 > absent from short-term positions. For LEAPS puts used as protection, a dividend
-> increase is a tailwind. When selecting between call substitution and put protection
-> (Section 9 below), this asymmetry is a further argument in favor of keeping the stock
-> and buying the put.
+> increase is a tailwind. When choosing between call substitution (sell stock, buy LEAPS
+> call) and put protection (keep stock, buy LEAPS put), this asymmetry is a further
+> argument in favor of keeping the stock and buying the put.
 
 ---
 
 ## 4. LEAPS Time Decay: Slow at First, Then Rapidly Accelerating — With Precise Roll Triggers
 
-**TABLE 25-2. Daily percent time value decay.**
+**TABLE: Daily Percent Time Value Decay**
 
-|Months remaining|At-the-money|20% Out-of-the-money|
+| Months Remaining | At-the-Money | 20% Out-of-the-Money |
 |---|---|---|
-|24|.12|.18|
-|18|.14|.27|
-|12|.19|.55|
-|9|.22|.76|
-|6|.27|1.18|
-|3|.60|3.57|
-|2|.73|4.43|
-|1|1.27|—|
-|2 wks|3.33|—|
+| 24 | .12% | .18% |
+| 18 | .14% | .27% |
+| 12 | .19% | .55% |
+| 9 | .22% | .76% |
+| 6 | .27% | 1.18% |
+| 3 | .60% | 3.57% |
+| 2 | .73% | 4.43% |
+| 1 | 1.27% | — |
+| 2 weeks | 3.33% | — |
 
-"Most LEAPS, even the out-of-the-money ones, lose less than ¼ of one percent of their
-value daily. This is a pittance when compared with a 6-month equity option that is 20%
-out-of-the-money — that option loses well over 1% of its value daily and it still has 6
-months of life remaining."
+Most LEAPS, even OTM ones, lose less than ¼ of one percent of their value daily —
+a pittance compared with a 6-month equity option that is 20% OTM, which loses well
+over 1% of its value daily while still having 6 months of life remaining.
 
-"Do not be deluded into believing that LEAPS don't decay at all. Although the *rate* of
-decay is slow (as shown previously), an option that is losing 0.15% of its value daily will
-still lose about 25% of its value in six months."
+**The "25% in 6 months" concrete warning:** Do not be deluded into believing that
+LEAPS don't decay meaningfully. Although the daily rate of decay is small, cumulative
+decay is real. Example: XYZ at 60; 18-month ATM LEAPS call at $8. Daily decay is
+minuscule — barely an eighth of a point per week. But if the stock remains at 60 for
+6 months, the LEAPS call will be worth approximately $6. That is a 25% loss of value
+from time decay alone, even though the daily number seems trivial.
 
-**Example:** XYZ is at 60 and there are 18-month LEAPS calls selling for $8, with a
-striking price of 60. The daily decay of this call with respect to time will be minuscule;
-it will take about a week for even an eighth of a point to be lost due to time. However,
-if the option is held for six months and nothing else happens, the LEAPS call will be
-selling for about 6. Thus, it will have lost 25% of its value if the stock remains around 60
-at the end of six months.
+Investors accustomed to short-term options expect 25% losses in 4–5 weeks. In LEAPS,
+the same 25% loss takes 6 months. The advantage is obvious from a timing tolerance
+standpoint — but the loss is real and must be accounted for.
 
-"Those familiar with holding equity calls and puts are more accustomed to seeing an
-option lose 25% of its value in possibly as little as four or five weeks' time. Thus, the
-advantage of holding the LEAPS is obvious from the viewpoint of slower time decay."
+**Roll trigger rule — ATM:** The ATM option's decay curve bends dramatically upward
+soon after the 6-month time barrier is passed. Sell the long ATM call when approximately
+6 months remain and simultaneously buy a 2-year LEAPS call. This keeps time decay
+exposure on the flat part of the curve.
 
-**The roll trigger rule — ATM:** "Note that for the at-the-money option, the curve begins
-to bend dramatically upward soon after the 6-month time barrier is passed. Thus, it seems
-logical that to minimize the effects of time decay, all other things being equal, one would
-sell his long at-the-money call when it has about 6 months of life left and simultaneously
-buy a 2-year LEAPS call. This keeps his time decay exposure to a minimum."
+**Roll trigger rule — OTM:** The 20% OTM call begins to decay much more rapidly
+at sometime just before 1 year until expiration. Sell the long OTM call when
+approximately 1 year remains and reestablish the position by buying a 2-year LEAPS
+call at the same time.
 
-**The roll trigger rule — OTM:** "The call that is 20% out-of-the-money begins to decay
-much more rapidly (percentagewise) at sometime just before it reaches one year until
-expiration. The same logic would dictate, then, that if one is trading out-of-the-money
-options, he would sell his option held long when it has about one year to go and reestablish
-his position by buying a 2-year LEAPS option at the same time."
-
-> **Annotation:** Two hard roll triggers emerge from the decay table: roll ATM LEAPS
-> calls when 6 months remain; roll OTM LEAPS calls when 1 year remains. These are the
-> inflection points where the decay curve bends sharply upward and the position begins
-> to behave like a normal short-term option. For the value investor with a 3–12 month
-> thesis, the practical implication is to buy 18- to 24-month LEAPS to keep the position
-> on the flat part of the decay curve for as long as possible. If the thesis remains intact
-> at the roll trigger, roll forward rather than watch the premium erode at an accelerating
-> rate.
+> **Annotation:** Two hard roll triggers: roll ATM LEAPS calls at 6 months remaining;
+> roll OTM LEAPS calls at 1 year remaining. These are the inflection points where the
+> decay curve bends sharply upward and the position begins to behave like a normal
+> short-term option. For the value investor with a thesis that may take longer than
+> expected to play out, buy 18–24 month LEAPS to stay on the flat part of the decay
+> curve. If the thesis remains intact at the roll trigger, roll forward rather than watch
+> premium erode at an accelerating rate.
 
 ---
 
-## 5. Advantages of Buying "Cheap" LEAPS: Volatility Expansion as a Second Source of Profit
+## 5. Volatility Expansion as a Second Source of Profit When Buying Cheap LEAPS
 
-When LEAPS are purchased at low implied volatility and low interest rates, rising rates
-or rising volatility can preserve or increase the call's value even if the stock is flat or
+When LEAPS are purchased at historically low implied volatility and low interest rates,
+rising volatility can preserve or increase the call's value even if the stock is flat or
 slightly down.
 
-**Setup:** XYZ: 100; January 2-year LEAPS call with strike of 100: 14; Short-term interest
-rates: 3%; Volatility: below average (historically).
+**Setup:** XYZ: 100; January 2-year LEAPS call, strike 100: 14; rates at a historically
+low 3%; volatility below historical average.
 
-"For the purposes of demonstration, suppose that the current volatility is low for XYZ
-(historically) and that 3% is a low level for rates as well. If the stock moves up, there is no
-problem, because the LEAPS call will increase in price. But what if the stock drops or
-stays unchanged? Is all hope of a profit lost? Actually, no. If interest rates increase or the
-volatility that the calls trade at increases, we know the LEAPS call will increase in value
-as well. Thus, even though the direction in which the stock is moving may be unfavorable,
-it might still be possible to salvage one's investment."
+**TABLE: Factors necessary for the 2-year LEAPS call to remain at 14**
 
-**TABLE 25-3. Factors necessary for January 2-year LEAPS to be = 14.**
-
-|Stock price|After 1 month|After 6 months|
+| Stock Price | After 1 Month | After 6 Months |
 |---|---|---|
-|100 (unchanged)|r = 3.4% or v + 5%|r = 6% or v + 20%|
-|95|r = 6% or v + 20%|r = 9.4% or v + 45%|
-|90|r = 8.5% or v + 45%|r = 12.6% or v + 70%|
+| 100 (unchanged) | r = 3.4% OR v + 5% | r = 6% OR v + 20% |
+| 95 | r = 6% OR v + 20% | r = 9.4% OR v + 45% |
+| 90 | r = 8.5% OR v + 45% | r = 12.6% OR v + 70% |
 
-"To demonstrate the use of this table, suppose the stock price were 100 (unchanged)
-after one month. If interest rates had risen to 3.4% from their original level of 3% during
-that time, the call would still be worth 14 even though one month had passed. Alternatively,
-if rates were the same, but volatility had increased by only 5% from its original level, then
-the call would also still be worth 14. Note that this means that volatility would have to
-increase only slightly (by 1/20th) from its original level, not by 5 percentage points."
+If XYZ is unchanged after one month, a 5% relative increase in volatility (not 5
+percentage points — 1/20th of the original level) is sufficient to keep the call at 14
+despite one month of time decay having passed.
 
-"Volatility is another matter. It is often feasible for volatilities to change by as much as
-50% from their previous level in a month, and certainly in six months. Hence, as has been
-stated before, the volatility factor is the more dominant one."
+Volatility is the dominant factor. It is often feasible for volatilities to change by as much
+as 50% from their previous level in a month, and certainly in six months. Rate changes
+of the magnitude needed to offset larger stock declines are less realistic. Volatility
+movements are not.
 
 > **Annotation:** This table is one of the most practically useful in the chapter. When
 > buying LEAPS at historically low implied volatility, the investor gains a second engine
-> of return independent of the stock's direction: volatility expansion. Even a stock that
-> goes nowhere can return to break-even or better if volatility normalizes upward. The
-> practical screening implication: before buying any LEAPS call, check whether the
+> of return independent of the stock's direction: volatility expansion. Even a flat or
+> mildly declining stock can return to break-even or better if implied volatility normalizes
+> upward. The practical screening step: before buying any LEAPS call, check whether the
 > stock's current implied volatility is at the low end of its historical range. If it is, entry
 > is structurally advantaged. If implied volatility is elevated, the investor has no
-> volatility tailwind and must rely entirely on the stock moving — consistent with the
-> master entry rule in Section 2.
+> volatility tailwind and must rely entirely on the stock moving.
 
 ---
 
-## 6. LEAPS Call Delta: Higher Than Short-Term, Flatter Across Strikes — With a Critical Strike Selection Implication
+## 6. LEAPS Call Delta: Higher Than Short-Term, Flatter Across Strikes
 
-"The delta of the at-the-money LEAPS is very large, nearly 0.70. This means that the
-LEAPS call will move much more in line with the common stock than a comparable
-short-term equity option would. Very short-term at-the-money options have deltas of
-about ½, while slightly longer-term ones have deltas ranging up to the 0.55 to 0.60 area.
-*What this implies is that the longer the life of an at-the-money option, the greater its delta.*"
+**Directional summary:** LEAPS calls move faster than ordinary short-term equity calls
+in absolute price terms (not percentage terms), unless both options are more than 5%
+in-the-money. At that point the deltas are approximately equal, and more deeply ITM,
+the short-term call has the higher delta.
 
-"The deltas of the 3-month call and the 2-year LEAPS call are about equal when the
-options are approximately 5% in-the-money. If the options are more in-the-money than
-that, then the LEAPS call has a lower delta."
+The longer the life of an at-the-money option, the greater its delta. ATM 2-year LEAPS
+calls have a delta of approximately 0.70, versus approximately 0.50 for very short-term
+ATM calls.
 
-Because the LEAPS delta curve is relatively flat across strikes, strike selection has
-different logic than with short-term options:
+**The flat delta curve — strike selection implication:**
 
-**Example:** XYZ: 82; Date: January, 2002.
+Because the LEAPS delta curve is relatively flat across strikes, the usual ITM vs. OTM
+selection logic from Chapter 3 is reversed:
 
-|Option|Price|Delta|
+**Example:** XYZ: 82.
+
+| Option | Price | Delta |
 |---|---|---|
-|April ('02) 80 call|4|5/8|
-|April ('02) 90 call|1|1/8|
-|January ('04) 80 LEAPS call|14|3/4|
-|January ('04) 90 LEAPS call|7|1/2|
+| April 80 call (3-month) | 4 | 5/8 |
+| April 90 call (3-month) | 1 | 1/8 |
+| January 80 LEAPS call | 14 | 3/4 |
+| January 90 LEAPS call | 7 | 1/2 |
 
-Suppose the trader expects a 3-point move by the underlying common stock, from 82 to
-85. If he were analyzing short-term calls, he would see his potential as a gain of 1⅞ in the
-April 80 call versus a gain of ⅜ in the April 90 call. Each of these gains is projected by
-multiplying the call's delta times 3 (the expected stock move, in points). Thus, there is a
-large difference between the expected gains from these two options, particularly after
-commissions are considered.
+Expected stock move: 3 points (82 to 85).
 
-"Now observe the LEAPS. The January 80 would increase by 2¼ while the January 90
-would increase by 1½ if XYZ moved higher by 3 points. This is not nearly as large a
-discrepancy as the short-term options had. Observe that the January 90 LEAPS sells for
-half the price of the January 80. These movements projected by the delta indicate that the
-January 90 LEAPS will move by a larger *percentage* than the January 80 and therefore
-would be the better buy."
+Short-term calls: April 80 gains ~1⅞; April 90 gains ~⅜. Large discrepancy — ITM
+call wins.
 
-> **Annotation:** The flat delta curve of LEAPS calls reverses the strike selection logic
-> from short-term options. With short-term calls, the ITM call has a dramatically higher
-> delta and is the right choice if expecting a moderate move. With LEAPS, the deltas are
-> close enough that the OTM call — at half the price — wins on percentage return per
-> dollar invested. For the value investor buying LEAPS calls to leverage a bullish thesis,
-> this argues for going slightly OTM rather than deeply ITM, provided the OTM strike
-> is still close enough to current price that a meaningful stock move brings it to
-> at-the-money. Do not use this logic to justify buying deeply OTM lottery calls — the
-> percentage advantage exists at the first OTM strike, not five strikes out.
+LEAPS calls: January 80 gains ~2¼; January 90 gains ~1½. Much smaller discrepancy.
+The January 90 sells for half the price of the January 80, but moves only 33% less.
+On a percentage return basis, the January 90 LEAPS wins.
+
+**Conclusion:** With short-term options, buy ITM for moderate expected moves. With
+LEAPS, the flat delta curve means the slightly OTM call — at half the price — wins on
+percentage return per dollar invested for the same expected move.
+
+> **Annotation:** This reversal of strike selection logic applies at the first OTM strike,
+> not five strikes out. The percentage advantage exists between adjacent strikes where
+> the delta differential is small. Do not use this logic to justify buying deeply OTM
+> LEAPS calls — the delta approaches zero at extreme strikes and the percentage
+> advantage disappears. The correct application: when buying LEAPS calls, consider the
+> first OTM strike as a viable alternative to ATM or slightly ITM, and compare the
+> expected return per dollar invested using the delta of each.
 
 ---
 
-## 7. LEAPS Put Delta: Low and Flat — Reduced Leverage for Protective Puts
+## 7. LEAPS Put Delta: Low and Flat — Protective Use Yes, Speculative Use No
 
-The relationship between put and call deltas is: put delta = call delta − 1. This inverts
-the call relationships described above. "*While the short-term calls didn't move as fast as
-the LEAPS, the short-term puts move faster than the LEAPS puts in most cases.*"
+**Directional summary:** While short-term puts move slower than LEAPS calls, short-
+term puts move faster than LEAPS puts in most cases. The put delta relationship
+(put delta = call delta − 1) inverts the call relationships.
 
-"The LEAPS put delta curve is flat, just as the call delta curve was. Moreover, the delta
-is not very large anywhere across the figure. For example, at-the-money 2-year LEAPS
-puts move only about 30 cents for a one-point move in the underlying stock. *LEAPS put
-buyers who want to speculate on a stock's downward movement must realize that the
-leverage factor is not large;* it takes approximately a 3-point move by the underlying
-common for an at-the-money LEAPS put to increase in value by one point. Long-term
-puts don't mirror stock movement nearly as well as shorter-term puts do."
+The LEAPS put delta curve is flat and not very large anywhere. Specifically: an
+at-the-money 2-year LEAPS put moves only approximately 30 cents for a one-point
+move in the underlying stock. It takes approximately a 3-point move in the underlying
+for an ATM LEAPS put to gain 1 point of value.
 
-> **Annotation:** For the playbook's primary use of LEAPS puts — protective puts on
-> existing long stock — the low delta is not a problem. The investor buying a LEAPS put
-> for downside protection does not need the put to move dollar-for-dollar with the stock
-> on a daily basis; he needs it to carry substantial intrinsic value if the stock declines
-> significantly over the life of the put, and it will. The low-delta warning applies to
-> anyone considering LEAPS puts as a speculative directional vehicle: they are the wrong
-> tool for that purpose. Short-term puts are better for bearish speculation; LEAPS puts
-> are the right tool for long-dated portfolio protection.
+**The two-way implication:**
+
+For *speculative* put buying (expecting a stock decline): LEAPS puts are the wrong
+tool. The low delta means the put does not leverage a stock decline effectively. Short-
+term puts provide far more dollar participation per point of stock decline.
+
+For *protective* put buying (hedging a long stock position): LEAPS puts are the right
+tool. The investor does not need the put to move dollar-for-dollar with the stock on a
+daily basis. He needs it to carry substantial intrinsic value if the stock declines
+significantly over the life of the put — and it will, regardless of the low starting delta.
+The low-delta warning is irrelevant for protection; what matters is the payoff at the
+scenario that requires the hedge.
+
+> **Annotation:** The speculative/protective distinction is the key dividing line. For
+> bearish directional speculation, buy short-term puts. For multi-year portfolio
+> protection on a long stock position, LEAPS puts are precisely right — slow daily
+> movement is a feature, not a bug, because it means slow daily cost while the insurance
+> remains in force.
 
 ---
 
 ## 8. LEAPS as Stock Substitute: The Full Economic Calculation
 
-The strategy: sell existing stock, buy a deeply in-the-money LEAPS call, invest the
-difference in a 1-year CD or Treasury bill. This provides continued upside participation
-with defined downside risk.
+The strategy: sell existing stock, buy a deeply ITM LEAPS call, invest the difference in
+a 1-year CD or Treasury bill. This provides continued upside participation with defined
+downside risk.
 
-"The costs to the stock owner who decides to switch into call options as a substitute are
-commissions, the time value premium of the call, and the loss of dividends. The benefits
-are the interest that can be earned from freeing up a substantial portion of his funds, plus
-the fact that there is less downside risk in owning the call than in owning the stock."
+Costs of switching: time value premium of the call, loss of dividends, commissions.
+Benefits: interest earned on the freed capital, less downside risk than owning the stock.
 
 **Example — Substitution for Stock Currently Held Long:**
 
-XYZ is selling at 50. There are one-year LEAPS with a striking price of 40 that sell for
-$12. XYZ pays an annual dividend of $0.50 and short-term interest rates are 5%. The call
-has time value premium of 2 points (40 + 12 − 50).
+XYZ at 50; 1-year LEAPS strike 40 at $12; annual dividend $0.50; rates 5%.
+Call time value premium = 2 points (40 + 12 − 50).
 
-*Step 1 — Calculate the net credit generated:*
+*Step 1 — Net credit generated:*
 
-|Credit balance generated:||
+| | |
 |---|---|
-|Sale of 100 XYZ stock|$5,000|
-|Less stock commission|−25|
-|Net sale proceeds:|$4,975 credit|
-|Cost of one LEAPS call|$1,200|
-|Plus option commission|15|
-|Net cost of call:|$1,215 debit|
-|**Total credit balance:**|**$3,760 credit**|
+| Sale of 100 XYZ at $50 | $5,000 |
+| Less stock commission | −$25 |
+| Net sale proceeds | $4,975 credit |
+| Cost of 1 LEAPS call | $1,200 |
+| Plus option commission | +$15 |
+| Net cost of call | $1,215 debit |
+| **Total credit balance** | **$3,760** |
 
-*Step 2 — Calculate the costs and benefits of the switch:*
+*Step 2 — Costs and benefits:*
 
-|Costs of switching:||
+| | |
 |---|---|
-|Time value premium|−$200|
-|Loss of dividend|−$50|
-|Stock commissions|−$25|
-|Option commissions|−$15|
-|Total cost:|−$290|
-|**Fixed benefit — interest earned on $3,760 at 5% for one year:**|**+$188**|
-|**Net cost of switching:**|**−$102**|
+| Time value premium | −$200 |
+| Loss of dividend | −$50 |
+| Stock commission | −$25 |
+| Option commission | −$15 |
+| Total cost | −$290 |
+| Interest on $3,760 at 5% for 1 year | +$188 |
+| **Net cost of switching** | **−$102** |
 
-"The stock owner must now decide if it is worth just over $1 per share in order to have
-his downside risk limited to a price of 39½ over the next year." If XYZ falls dramatically
-and the LEAPS expires worthless, the investor still has $3,948 in the bank — equivalent
-to limiting downside risk to approximately 39½ on the original 100 shares.
+Result: $102 paid to limit downside to approximately 39½. If XYZ falls dramatically and
+the LEAPS expires worthless, $3,948 remains in the bank — equivalent to a floor of 39½
+on the original 100 shares.
 
-"If the investor decides to make the substitution, he should invest the proceeds from the
-sale in a 1-year CD or Treasury bill, for two reasons. First, he locks in the current rate —
-the one used in his calculations — for the year. Second, he is not tempted to use the
-money for something else, an action that might negate the potential benefits of the
-substitution."
+The freed capital should be placed in a 1-year CD or T-bill for two reasons: it locks in
+the rate used in the calculation, and it prevents the temptation to deploy the cash
+elsewhere in a way that negates the protection.
 
-**Caveats:** (1) If the stock is currently a profitable investment, the sale generates a
-taxable capital gain. (2) If the stock is currently held at a loss, the purchase of the call
-constitutes a wash sale and the loss cannot be taken. (3) If the company declares an
-increased or special cash dividend, the LEAPS call owner is not entitled to it. (4) At
-expiration, repurchasing the stock or rolling the call costs additional commissions.
+**Four caveats before executing:**
+1. If the stock is currently profitable, the sale generates a taxable capital gain.
+2. If the stock is at a loss, buying the call constitutes a wash sale — the loss cannot
+   be taken at this time.
+3. If the company declares an increased or special dividend during the LEAPS life,
+   the call owner is not entitled to it.
+4. At expiration, repurchasing the stock or rolling the call incurs additional
+   commissions.
 
-"*Be very careful about switching if this situation should arise*" [referring to a scenario
-where the economics produce an overall credit]. "Normally, arbitrageurs would take
-advantage of such a situation before the general public could. If they are letting the
-opportunity pass by, there must be a reason (probably the cash dividend), so be extremely
-certain of your economics and research before venturing into such a situation."
-
-> **Annotation:** This two-step calculation is the template to follow before executing any
-> LEAPS stock substitution. The net cost of $102 on a $5,000 position is genuinely small,
-> but the four caveats can easily dwarf that number. The wash sale caveat is particularly
-> dangerous: substituting into a LEAPS call on a loss position defers the tax loss without
-> the investor necessarily realizing it. The tax and dividend checks are not formalities —
-> run all four before executing. Note also that the comparison in Section 9 below will
-> often reveal that simply buying a LEAPS put and keeping the stock is a cheaper and
+> **Annotation:** Run all four caveats before executing. The wash sale caveat is
+> particularly dangerous — substituting into a LEAPS call on a loss position defers the
+> tax loss without the investor necessarily realizing it. The comparison in Section 10
+> will often reveal that simply buying a LEAPS put and keeping the stock is a cheaper,
 > cleaner way to achieve the same protection.
 
 ---
 
 ## 9. Buying LEAPS as the Initial Stock Purchase: Often Superior to Buying the Stock
 
-"This prospective purchaser might want to buy a LEAPS call and put the rest of the
-money he had planned to use in the bank, instead of actually buying the stock itself."
+Rather than buying the stock, a prospective purchaser can buy a LEAPS call and place
+the remainder of the planned stock capital in an interest-bearing account.
 
-**Example — Initial Purchase vs. LEAPS (cash account):**
+**Example — Cash account:**
 
-XYZ is selling at 50; 1-year LEAPS with a striking price of 40 sell for $12; annual
-dividend $0.50; short-term interest rates 5%.
+XYZ at 50; 1-year LEAPS strike 40 at $12; dividend $0.50; rates 5%.
 
-|Prospective initial investment:||
+| | |
 |---|---|
-|Stock: $5,000 + $25 commission|= $5,025|
-|LEAPS: $1,200 + $15 commission|= $1,215|
-|**Net difference:**|**$3,810**|
+| Stock: $5,000 + $25 commission | $5,025 |
+| LEAPS: $1,200 + $15 commission | $1,215 |
+| **Net difference available for bank** | **$3,810** |
 
-|Costs vs. savings:||
+| Costs vs. savings | |
 |---|---|
-|Time value premium|−$200|
-|Loss of dividend|−$50|
-|Interest on $3,810 for one year at 5%:|+$190|
-|**Net opportunity cost:**|**−$60**|
+| Time value premium | −$200 |
+| Loss of dividend | −$50 |
+| Interest on $3,810 at 5% for 1 year | +$190 |
+| **Net opportunity cost** | **−$60** |
 
-"For this small amount, he has all the upside appreciation (except $60 worth), but has
-risk only down to 40 (he will have $4,000 in his bank account at the end of one year even
-if the LEAPS expire worthless)."
+For $60, the investor has all the upside appreciation (except $60 worth) and risk only
+down to 40 — with $4,000 in the bank if the LEAPS expires worthless.
 
-**Example — Initial Purchase vs. LEAPS (margin account):**
+**Example — Margin account:**
 
-Same facts; the prospective buyer was planning to buy on 50% margin at an 8% margin rate.
+Same facts; planned margin purchase at 50% on an 8% margin rate.
 
-|Cost of buying the stock on margin:||
+| | |
 |---|---|
-|$5,000 + $25 commission:|$5,025|
-|Amount borrowed (50%):|−$2,512|
-|Equity required:|$2,513|
-|Cost of buying LEAPS: $1,200 + $15 commission:|$1,215|
-|**Difference available to place in bank account:**|**$1,298**|
+| Equity required for margin purchase | $2,513 |
+| Cost of LEAPS | $1,215 |
+| **Difference available for bank** | **$1,298** |
 
-|Costs vs. savings if buying LEAPS instead:||
+| Costs vs. savings | |
 |---|---|
-|Time value premium|−$200|
-|Dividend loss|−$50|
-|Interest on $1,298 at 5%|+$65|
-|Margin interest on $2,512 debit balance at 8% for one year|+$201|
-|**Net Savings:**|**+$16**|
+| Time value premium | −$200 |
+| Dividend loss | −$50 |
+| Interest on $1,298 at 5% | +$65 |
+| Margin interest saved on $2,512 at 8% | +$201 |
+| **Net savings** | **+$16** |
 
-"For the prospective margin buyer, there is a real savings in this example. The fact that
-he does not have to pay the margin interest on his debit balance makes the purchase of
-the LEAPS call a cost-saving alternative."
+For the prospective margin buyer, there is a real net savings from buying LEAPS instead
+of margin stock — before counting the downside protection benefit.
 
-"This strategy of buying in-the-money LEAPS and putting the difference between the
-LEAPS cost and the stock cost in an interest-bearing instrument is an attractive one. It
-might seem it would be especially attractive if interest rates for the differential were high.
-Unfortunately, those high rates would present something of a catch-22 because, as was
-shown earlier, higher rates will cause the LEAPS to be more expensive."
+The catch-22: high interest rates make the bank deposit credit more valuable but also
+inflate the LEAPS price. The two effects partially offset. The margin comparison is less
+affected by this catch-22 because the margin interest saved scales with the same rate
+environment.
 
 > **Annotation:** Run this calculation before every new position where a LEAPS call
-> exists on the target stock. The margin comparison is particularly striking: at 8% margin
-> rates, buying the LEAPS produces a net savings versus buying on margin, before any
-> downside protection benefit is counted. The catch-22 on rates is real — high rates inflate
-> both the bank interest credit and the LEAPS cost, partially offsetting each other — but
-> the LEAPS still wins on a margin-vs.-LEAPS comparison because it eliminates margin
-> interest entirely. In a low-rate environment, the economics are tighter but the LEAPS
-> price is also lower. Either way, run the numbers. The main ongoing drawback remains:
-> no participation in cash dividend increases or special dividends.
+> exists on the target stock. The margin comparison is particularly compelling: at 8%
+> margin rates, buying LEAPS produces a net savings versus buying on margin, with
+> downside protection as a free addition. The main ongoing drawback: no participation
+> in dividend increases or special dividends.
 
 ---
 
 ## 10. Protecting Existing Stock with LEAPS Puts: The Decision Rule Against the Substitution Strategy
 
-"What was accomplished in the substitution strategy previously discussed? The stock
-owner paid some cost ($102 in the actual example) in order to limit the risk of his stock
-ownership to a price of 39½. What if he had bought a LEAPS put instead? Forgetting the
-price of the put for a moment, concentrate on what the strategy would accomplish. He
-would be protected from a large loss on the downside since he owns the put, and he could
-participate in upside appreciation since he still owns the stock. Isn't this what the
-substitution strategy was trying to accomplish? *Yes, it is.* In this strategy, only one
-commission is paid — that being on a fairly cheap out-of-the-money LEAPS put — and
-there is no risk of losing out on dividend increases or special dividends."
+The substitution strategy and the put protection strategy accomplish the same thing:
+limited downside risk with continued upside participation. The decision between them
+is mechanical.
 
-**The decision-rule calculation:** The substitution example showed a cost of $102 to
-protect at 39½. Working backwards: the investor is in effect paying $152 for a LEAPS put
-with a strike of 40 — the $102 net cost plus the $50 difference between the 40 strike and
-the 39½ effective floor. Therefore: if an XYZ 1-year LEAPS put with strike 40 is available
-in the market at 1½ or less, simply buy the put and keep the stock. It accomplishes
-everything the substitution strategy accomplishes, at lower cost, with fewer commissions,
-and with dividend participation retained.
+**The decision rule:**
 
-"If the LEAPS put were available at this price, it would clearly be the better choice and
-should be bought instead of substituting the LEAPS call for the common stock."
+Step 1: Perform the substitution calculation from Section 8. Find the implied cost of
+the embedded protection. In the example: net cost = $102, protecting at 39½. The
+investor is in effect paying $152 for a LEAPS put with a strike of 40 (the $102 net
+cost plus the $50 difference between the 40 strike and the 39½ effective floor).
 
-"Thus, any stockholder who is thinking of protecting his position can do it in one of two
-ways: Sell the stock and substitute a call, or continue to hold his stock and buy a put to
-protect it. LEAPS calls and puts are amenable to this strategy. *Because of the LEAPS'
-long-term nature, one does not have to keep reestablishing his position and pay numerous
-commissions, as he would with short-term options.* The stockholder should perform the
-simple calculations as shown above in order to decide whether the move is feasible at all,
-and if it is, whether to use the call substitution strategy or the put protection strategy."
+Step 2: Check the actual market price of the LEAPS put at that strike.
 
-> **Annotation:** The decision rule is clean and mechanical: (1) Perform the substitution
-> calculation from Section 8 to find the implied cost of the embedded LEAPS put. In the
-> example: $152 for a strike-40 put. (2) Check the actual market price of that LEAPS put.
-> (3) If market price < implied cost → buy the put outright and keep the stock. If market
-> price > implied cost → the substitution strategy is more efficient. In practice, step (3)
-> almost always favors the put, because the put preserves dividend participation and
-> avoids the tax event of selling the stock. The substitution strategy only wins when the
-> actual LEAPS put price is meaningfully higher than the implied cost — which would
-> require unusually expensive puts relative to calls, a situation that put-call parity tends
-> to prevent in liquid names.
+Step 3:
+- If market price < $152 → buy the put outright, keep the stock. Cheaper, cleaner,
+  retains dividends, avoids the tax event of selling.
+- If market price > $152 → the substitution strategy is more economical.
+
+**Why the put almost always wins in practice:** The put preserves dividend participation,
+avoids a taxable capital gain on the stock sale, requires only one commission, and
+sidesteps the wash sale issue entirely. Put-call parity prevents puts from being
+systematically overpriced relative to calls in liquid names. In practice, step 3 almost
+always favors the put.
+
+Because of the LEAPS' long-term nature, one does not have to keep reestablishing the
+position and paying repeated commissions, as would be required with short-term options.
+Run the calculation once, then reassess only at the roll trigger point.
+
+> **Annotation:** The decision rule is clean and mechanical. Do the calculation. In most
+> cases for the value investor holding a dividend-paying stock with a meaningful cost
+> basis, the put wins. The substitution strategy is primarily useful when the stock is at
+> a loss (no capital gains tax issue) and pays no dividend (no dividend forfeiture) — a
+> less common profile in the playbook.
 
 ---
 
-## 11. LEAPS Covered Writing: The Annualized Return Comparison and the Real Advantage — Downside Protection
+## 11. LEAPS Covered Writing: The Annualized Return Comparison and the Real Advantage
 
-**Example:** XYZ is selling at 50; 500-share covered write; July 50 call: 4 (6 months);
-January 50 LEAPS call: 8½ (2 years); dividend: $0.25/quarter.
+**Example:** XYZ at 50; 500 shares; July 50 call at 4 (6 months); January 50 LEAPS
+call at 8½ (2 years); dividend $0.25/quarter.
 
-**Net Investment Required:**
+**Net Investment:**
 
-||July 50 call|January 50 LEAPS|
+| | July 50 | January 50 LEAPS |
 |---|---|---|
-|Stock cost (500 shares @ 50)|$25,000|$25,000|
-|Plus stock commission|+300|+300|
-|Less option premiums received|−2,000|−4,250|
-|Plus option commissions|+50|+100|
-|**Net cash investment**|**$23,350**|**$21,150**|
+| Stock cost (500 @ 50) | $25,000 | $25,000 |
+| Plus commission | +$300 | +$300 |
+| Less premiums received | −$2,000 | −$4,250 |
+| Plus option commission | +$50 | +$100 |
+| **Net investment** | **$23,350** | **$21,150** |
 
 **Return If Exercised:**
 
-||July 50 call|January 50 LEAPS|
+| | July 50 | January 50 LEAPS |
 |---|---|---|
-|Stock sale (500 @ 50)|$25,000|$25,000|
-|Less stock commission|−300|−300|
-|Plus dividends earned until expiration|+250|+1,000|
-|Less net investment|−23,350|−21,150|
-|Net profit if exercised|$1,600|$4,550|
-|Return if exercised|6.9%|21.5%|
+| Net profit if exercised | $1,600 | $4,550 |
+| Return if exercised | 6.9% | 21.5% |
+| **Annualized** | **13.8%** | **10.8%** |
 
-**Return If Exercised, Annualized:**
+On an annualized basis, the short-term write appears better. This is the general rule:
+shorter-term calls have higher annualized returns than LEAPS calls.
 
-|July 50 call|January 50 LEAPS|
-|---|---|
-|13.8%|10.8%|
+**Why the annualized comparison is misleading:**
 
-"Thus, on an annualized basis, the short-term write seems better. The shorter-term call
-will generally have a higher rate of return, annualized, than the LEAPS call."
+The short-term writer must regenerate his 6.9% return three more times over two years
+with no guarantee that equivalent premium will be available. Additionally, LEAPS
+premium does not decay linearly — one year from now, if XYZ remains at 50, the
+January LEAPS 50 call will not be at 4.25 (half of 8.50); it will be closer to 5.00. The
+stated 10.8% annualized LEAPS return is therefore understated.
 
-**Why the annualized comparison is misleading:** The short-term writer must regenerate
-his 6.9% return three more times over two years to match the LEAPS horizon — with no
-guarantee that equivalent premium levels will exist. Additionally, the LEAPS call's price
-one year from now does not halve in a linear fashion. "One year from now, if XYZ were
-still at 50, the January 50 LEAPS call would not be selling for half its current price
-(½ × 8½ = 4¼). It would be selling for something more like 5.00, if all other factors
-remained unchanged" — because time decay is not linear. Consequently, "to say that the
-21.5% 2-year return if exercised would be 10.8% after one year may well be a false
-statement."
+**The real advantage — downside break-even:**
 
-**Downside Break-Even Calculation:**
-
-||July 50 call|January 50 LEAPS|
+| | July 50 | January 50 LEAPS |
 |---|---|---|
-|Net investment|$23,350|$21,150|
-|Less dividends received|−250|−1,000|
-|Total stock cost to expiration|$23,100|$20,150|
-|Divided by 500 shares, equals break-even price:|**46.2**|**40.3**|
+| Net investment | $23,350 | $21,150 |
+| Less dividends | −$250 | −$1,000 |
+| Stock cost to expiration | $23,100 | $20,150 |
+| Break-even price | **46.2** | **40.3** |
 
-"The larger premium of the LEAPS call that was written produces this dramatically lower
-break-even price for the LEAPS covered write."
+The LEAPS covered write provides a break-even of 40.3 — a known, locked-in quantity
+for two years. The short-term writer's 46.2 must be repeatedly lowered through
+successive writes with no certainty of success.
 
-On the decision between short-term and LEAPS covered writes: "If he thinks XYZ has
-good prospects for the long term, and he feels conservative returns will be below 10% for
-the next couple of years, then he would probably choose the LEAPS write. However, if he
-feels that there is a temporary expansion of option premium in the short-term XYZ calls
-that should be exploited, and he would not really want to be a long-term holder of the
-stock, then he would choose the short-term covered write."
+**The incremental return use case:** The covered writer with a higher long-term target
+price who writes calls along the way to earn incremental premium should prefer LEAPS
+calls when available — they offer the largest absolute premiums. If currently short a
+near-term call that is about to result in assignment, consider rolling into a LEAPS call
+to retain the stock while taking in substantially more premium.
 
-**Critical warning on rolling down into LEAPS:** "*If he rolls down into a LEAPS call,
-he is reducing his maximum profit potential for a longer period of time.* Consequently,
-one should not always roll down into an option with a longer maturity. Instead, he should
-carefully analyze whether he wants to be committed for an even longer time to a position
-in which the underlying common stock is declining."
+**McMillan's end-of-chapter summary on LEAPS puts vs. LEAPS covered writes:**
+Selling naked LEAPS puts is probably a better strategy than LEAPS covered writing
+in most cases. The covered write requires full stock capital; the naked put generates
+similar premium with far less capital deployed, with the remainder available in
+interest-bearing securities.
 
-> **Annotation:** The annualized-return comparison consistently flatters the short-term
-> write, but it rests on two assumptions that are often false: that equivalent premium will
-> be available at each 6-month renewal, and that the LEAPS premium decays linearly. The
-> real advantage of the LEAPS covered write is the break-even: 40.3 is a known, locked-in
-> quantity for two years. The short-term writer's 46.2 break-even must be repeatedly
-> lowered through successive writes — with no certainty of success. For the value investor
-> who is genuinely long-term bullish on the underlying and wants to own it for two years,
-> the LEAPS covered write provides a meaningfully lower break-even at the cost of roughly
-> 3 annualized percentage points of return. The rolling-down warning is essential: the
-> large absolute premium of a LEAPS call makes rolling down appear attractive during a
-> decline, but doing so locks in a lower sale price for a longer period precisely when
-> confidence in the thesis should be reassessed, not extended.
+**Critical warning on rolling down into LEAPS:** If the underlying stock declines, rolling
+down into a LEAPS call reduces maximum profit potential for a much longer period of
+time than rolling into a short-term call would. Do not roll down into a longer-maturity
+option without carefully analyzing whether a two-year commitment to a declining stock
+is actually wanted.
+
+> **Annotation:** For the value investor who is genuinely long-term bullish and wants to
+> own the stock for two years, the LEAPS covered write provides a meaningfully lower
+> break-even at the cost of roughly 3 annualized percentage points of return. The
+> naked LEAPS put summary is noteworthy: it implies that for investors who want
+> covered-write-like exposure without full stock capital commitment, selling a cash-
+> secured LEAPS put is the cleaner structure — same economic exposure, less capital,
+> more flexibility.
 
 ---
 
-## 12. The LEAPS Bull Spread and the Diagonal: Full Three-Way Comparison
+## 12. LEAPS Put Selling: Short-Term Puts Are Better for the Assignment Strategy
 
-**Example:** The following prices exist in the month of January.
+Some put writers sell puts specifically intending to be assigned — they want to buy the
+stock at a net cost of strike price minus premium received. If they are not assigned, they
+keep the premium as profit. This is a valid approach for stocks the investor has genuine
+conviction in and would view assignment as a buying opportunity.
 
-XYZ: 105; April 100 call: 10.50; April 110 call: 5.50; January (2-year) 100 call: 26;
-January (2-year) 110 call: 21.50.
+**This strategy does not work well with LEAPS puts.** Because LEAPS puts carry
+significant time value premium, there is little or no chance the writer will be assigned
+until the life of the put shortens substantially. The writer intending to become a stock
+owner via assignment would have to wait until LEAPS expiration approaches — a
+period of up to 2.5 years — before assignment is likely.
 
-|Strategy|Structure|Net Debit|
+**Practical rule:** If the intent is to eventually own the stock through put assignment at
+a favorable price, write short-term puts, not LEAPS puts. Short-term puts are more
+likely to result in timely assignment when the stock trades below the strike.
+
+Early assignment on any LEAPS option follows the same rule as for short-term options:
+it is most likely when the option has no time value premium remaining — trading at
+parity or at a discount. Since LEAPS retain time value even substantially in-the-money,
+early assignment is rare but possible and should be monitored in the same way.
+
+---
+
+## 13. The LEAPS Bull Spread and the Diagonal: Full Three-Way Comparison
+
+**Example prices in January:** XYZ: 105; April 100 call: 10.50; April 110 call: 5.50;
+January 2-year 100 call: 26; January 2-year 110 call: 21.50.
+
+| Strategy | Structure | Net Debit |
 |---|---|---|
-|Short-term bull spread|Buy April 100 @ 10.50 / Sell April 110 @ 5.50|$500|
-|Diagonal bull spread|Buy January LEAPS 100 @ 26 / Sell April 110 @ 5.50|$2,050|
-|LEAPS bull spread|Buy January LEAPS 100 @ 26 / Sell January LEAPS 110 @ 21.50|$450|
+| Short-term bull spread | Buy April 100 / Sell April 110 | $500 |
+| Diagonal bull spread | Buy Jan LEAPS 100 / Sell April 110 | $2,050 |
+| LEAPS bull spread | Buy Jan LEAPS 100 / Sell Jan LEAPS 110 | $450 |
 
-**TABLE 25-4. Bull spread comparison at April expiration.**
+**Results at April expiration:**
 
-|Stock Price|Short-Term|Diagonal|LEAPS|
+| Stock Price | Short-Term | Diagonal | LEAPS |
 |---|---|---|---|
-|80|−500|−1,100|−200|
-|90|−500|−600|−150|
-|100|−500|+50|−25|
-|110|+500|+750|+50|
-|120|+500|+550|+150|
-|140|+500|+150|+250|
-|160|+500|−50|+350|
-|180|+500|−350|+450|
+| 80 | −$500 | −$1,100 | −$200 |
+| 90 | −$500 | −$600 | −$150 |
+| 100 | −$500 | +$50 | −$25 |
+| 110 | +$500 | +$750 | +$50 |
+| 120 | +$500 | +$550 | +$150 |
+| 140 | +$500 | +$150 | +$250 |
+| 160 | +$500 | −$50 | +$350 |
+| 180 | +$500 | −$350 | +$450 |
 
-"The LEAPS spread doesn't generate much of either a profit or a loss in only three
-months' time. Even if XYZ rises to 120, the LEAPS bull spread will have only a $150
-profit. Conversely, if XYZ falls to 80, the spread loses only about $200. This price action
-is very typical for long-term bull spreads when both options have a significant amount of
-time premium remaining in them."
+**The LEAPS bull spread:** Generates very little profit or loss in only three months —
+typical for long-term bull spreads when both options have significant time premium
+remaining. At XYZ 120, profit is only $150. At XYZ 80, loss is only $200. For a
+genuinely bullish investor willing to wait, the LEAPS spread at $450 produces similar
+terminal profits to the short-term spread at $500 with dramatically less interim downside
+risk.
 
-On the diagonal spread: "*The diagonal spread presents an opportunity to earn more
-money if the underlying common is near the strike of the written option when the written
-option expires.* However, if the common moves a great deal in either direction, the
-diagonal spread is the worst of the three. This means that the diagonal spread strategy is
-a neutral strategy: One wants the underlying common to remain near the written strike
-until the near-term option expires. This is a true statement even if the diagonal spread is
-under the guise of a bullish spread."
+**The diagonal — a neutral strategy in disguise:**
 
-**The delta problem in diagonals:** When XYZ stock is at 120 with:
-- Long 1 January LEAPS 100 call: position delta 0.70
-- Short 1 April 110 call: position delta −0.90
+The diagonal spread presents an opportunity to earn more money if the underlying
+stock is near the strike of the written option when the short option expires. However,
+if the stock moves a great deal in either direction, the diagonal is the worst of the
+three strategies. This makes the diagonal a neutral strategy — one wants the underlying
+to remain near the written strike until the near-term option expires — regardless of
+how it is labeled.
 
-"At this point, if XYZ rises in price by 1 point, the spread can be expected to lose 20
-cents, since the delta of the short option is 0.20 greater than the delta of the long option."
+**The delta problem in diagonals:** When XYZ is at 120:
+- Long 1 January LEAPS 100 call: delta +0.70
+- Short 1 April 110 call: delta −0.90
+- Net delta: −0.20
 
-"*Many traders are fond of buying LEAPS and selling an out-of-the-money near-term call
-as a hedge. Be careful about doing this.* If the underlying common rises too fast and/or
-interest rates fall and/or volatility decreases, this could be a poor strategy. There is really
-nothing quite as psychologically damaging as being right about the stock, but being in the
-wrong option strategy and therefore losing money."
+If XYZ rises by 1 point, the spread loses 20 cents. The short option's delta exceeds
+the long option's delta — the spread is actually short the market above this price. A
+bullish spread that loses money when the stock rises is not a bull spread in any
+meaningful sense.
 
-**The bottom-line rule on diagonal debits:** "If one pays a debit greater than the
-difference in the strike prices, he may eventually lose money if the stock rises far enough
-to virtually eliminate the time value premium of both options."
+**The bottom-line rule on diagonal debits:** If one pays a debit greater than the
+difference in the strike prices, the position may eventually lose money if the stock rises
+far enough to eliminate time value premium from both options.
 
-> **Annotation:** The three-way comparison clarifies which LEAPS spread structure
-> actually serves a bullish investor. The LEAPS bull spread (same expiration, two strikes)
-> at a $450 debit offers approximately the same terminal profit as the short-term spread at
-> $500, with dramatically less interim downside risk — at the cost of a 2-year wait. The
-> diagonal is the dangerous impostor: it looks like a covered write on a LEAPS call, but
-> as the delta table shows, it is actually short the market above a certain stock price. As
-> McMillan states directly, a diagonal spread is a neutral strategy regardless of how it is
-> labeled. A genuinely bullish investor who wants LEAPS call exposure should use the
-> LEAPS bull spread, not the diagonal, unless he believes the stock will be range-bound
-> through the near-term expiration — which is a neutral, not bullish, view.
+Many traders are fond of buying LEAPS and selling an OTM near-term call as a hedge.
+Be careful. If the underlying rises too fast and/or interest rates fall and/or volatility
+decreases, this is a poor strategy. There is nothing quite as psychologically damaging
+as being right about the stock but being in the wrong strategy and losing money anyway.
+
+> **Annotation:** The three-way comparison makes the correct choice clear for a
+> bullish investor. The LEAPS bull spread (same expiration, two strikes) at $450 is the
+> right vehicle — it maintains a genuinely bullish profile at all stock prices, with less
+> interim downside than the short-term spread and dramatically better behavior than the
+> diagonal if the stock moves strongly. The diagonal is a neutral strategy and should only
+> be used by investors who believe the stock will be range-bound through the near-term
+> expiration. If you are bullish, use the LEAPS bull spread, not the diagonal.
+```
