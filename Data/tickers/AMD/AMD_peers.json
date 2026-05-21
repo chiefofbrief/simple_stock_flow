@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "AMAT",
+    "companyName": "Applied Materials, Inc.",
+    "price": 423.7424,
+    "mktCap": 336286206064
+  },
+  {
+    "symbol": "ARM",
+    "companyName": "Arm Holdings plc American Depositary Shares",
+    "price": 252.825,
+    "mktCap": 269005432140
+  },
+  {
+    "symbol": "ASML",
+    "companyName": "ASML Holding N.V.",
+    "price": 1542.2516,
+    "mktCap": 594411513289
+  },
+  {
+    "symbol": "KLAC",
+    "companyName": "KLA Corporation",
+    "price": 1815.84,
+    "mktCap": 237199545704
+  },
+  {
+    "symbol": "LRCX",
+    "companyName": "Lam Research Corporation",
+    "price": 290.34,
+    "mktCap": 363090493800
+  },
+  {
+    "symbol": "MU",
+    "companyName": "Micron Technology, Inc.",
+    "price": 720.225,
+    "mktCap": 812219339250
+  },
+  {
+    "symbol": "PLTR",
+    "companyName": "Palantir Technologies Inc.",
+    "price": 135.83,
+    "mktCap": 311875188100
+  },
+  {
+    "symbol": "QCOM",
+    "companyName": "QUALCOMM Incorporated",
+    "price": 201.5965,
+    "mktCap": 212482711000
+  },
+  {
+    "symbol": "SAP",
+    "companyName": "SAP SE",
+    "price": 178.23,
+    "mktCap": 207679863280
+  },
+  {
+    "symbol": "TXN",
+    "companyName": "Texas Instruments Incorporated",
+    "price": 300.13,
+    "mktCap": 273146212090
+  }
+]

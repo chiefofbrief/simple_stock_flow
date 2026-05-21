@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "DOX",
+    "companyName": "Amdocs Limited",
+    "price": 61.8995,
+    "mktCap": 6658591115
+  },
+  {
+    "symbol": "LSCC",
+    "companyName": "Lattice Semiconductor Corporation",
+    "price": 131.545,
+    "mktCap": 18022698549
+  },
+  {
+    "symbol": "MKSI",
+    "companyName": "MKS Inc.",
+    "price": 309.38,
+    "mktCap": 20896793658
+  },
+  {
+    "symbol": "NVMI",
+    "companyName": "Nova Ltd.",
+    "price": 491.5,
+    "mktCap": 15621344500
+  },
+  {
+    "symbol": "OLED",
+    "companyName": "Universal Display Corporation",
+    "price": 89.6154,
+    "mktCap": 4189600604
+  },
+  {
+    "symbol": "ONTO",
+    "companyName": "Onto Innovation Inc.",
+    "price": 261.39,
+    "mktCap": 13002470978
+  },
+  {
+    "symbol": "QRVO",
+    "companyName": "Qorvo, Inc.",
+    "price": 96.6077,
+    "mktCap": 8502801125
+  },
+  {
+    "symbol": "RMBS",
+    "companyName": "Rambus Inc.",
+    "price": 131.26,
+    "mktCap": 14194062620
+  },
+  {
+    "symbol": "SWKS",
+    "companyName": "Skyworks Solutions, Inc.",
+    "price": 72.4029,
+    "mktCap": 10889827898
+  },
+  {
+    "symbol": "TSEM",
+    "companyName": "Tower Semiconductor Ltd.",
+    "price": 261.46,
+    "mktCap": 29219885865
+  }
+]
