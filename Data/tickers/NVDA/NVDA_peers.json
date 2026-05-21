@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc.",
+    "price": 303.92,
+    "mktCap": 4463781235520
+  },
+  {
+    "symbol": "ADI",
+    "companyName": "Analog Devices, Inc.",
+    "price": 384.2965,
+    "mktCap": 187615088486
+  },
+  {
+    "symbol": "AVGO",
+    "companyName": "Broadcom Inc.",
+    "price": 414.84,
+    "mktCap": 1964130502800
+  },
+  {
+    "symbol": "ENTG",
+    "companyName": "Entegris, Inc.",
+    "price": 126.3348,
+    "mktCap": 19240790040
+  },
+  {
+    "symbol": "GOOGL",
+    "companyName": "Alphabet Inc.",
+    "price": 389.26,
+    "mktCap": 4708049210253
+  },
+  {
+    "symbol": "IMOS",
+    "companyName": "ChipMOS TECHNOLOGIES Inc.",
+    "price": 48.665,
+    "mktCap": 1706265576
+  },
+  {
+    "symbol": "MSFT",
+    "companyName": "Microsoft Corporation",
+    "price": 417.369,
+    "mktCap": 3100396400670
+  },
+  {
+    "symbol": "TER",
+    "companyName": "Teradyne, Inc.",
+    "price": 352.03,
+    "mktCap": 55107537289
+  },
+  {
+    "symbol": "TSM",
+    "companyName": "Taiwan Semiconductor Manufacturing Company Limited",
+    "price": 403.74,
+    "mktCap": 2093997510000
+  }
+]

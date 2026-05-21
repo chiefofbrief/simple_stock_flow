@@ -1,9 +1,129 @@
 # Earnings Call Q&A: MU
 
-**Quarters Analyzed:** 2026Q1, 2025Q4
+**Quarters Analyzed:** 2026Q2, 2026Q1
 
 ---
-# CURRENT QUARTER: 2026Q1
+# CURRENT QUARTER: 2026Q2
+
+**Operator** (Operator)
+Thank you. We will now begin the question and answer session. Please limit yourself to one question and one follow-up. If you would like to ask a question, please press star-1 to raise your hand and star-6 to unmute. Your first question comes from the line of Krish Sankar from TD Cowen. Please go ahead.
+
+**Krish Sankar** (Analyst)
+The 81% gross margin guide is very impressive. Just kind of curious how to think about the sustainability of gross margins, especially as you bring more HBM4 into the mix. If you can give some thought on how to think about gross margins in the August quarter and beyond, that will be very helpful. Then I have a follow-up for Sanjay.
+
+**Mark Murphy** (CFO)
+So, Krish, this is Mark. We provide a strong guide up, up 600 basis points sequentially into the third quarter. We are not going to provide the fourth quarter gross margin guidance. However, we have indicated that we expect the market conditions to remain tight beyond 2026. So clearly beyond the fourth quarter, what you are seeing reflected in our gross margin is the benefits of AI driving a multiyear investment cycle, most of which is ahead of us. AI requires more memory and more high-performance memory, and that is reflected in the margins. Also, we have talked about supply factors, and those are going to continue beyond 2026. The 81% contemplates a growth in HBM4, but we expect, as I mentioned, market conditions to be strong. Now keep in mind that at these gross margin levels, incremental increases in price are going to have less of an effect on gross margin. But beyond that, we are not providing a fourth quarter gross margin.
+
+**Krish Sankar** (Analyst)
+Got it. And then a quick question for Sanjay on the SCA. Congrats on your first five-year SCA. How different is it from an LTA? Is this a multiyear volume and price commitment, or does the price get negotiated every year? And also how to think about cancellation terms in the SCA in case the cycle slows down during the time frame.
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+Thanks, Sanjay. So thank you for recognizing us for the first SCA that we have completed here. And, as you noted, SCA is a multiyear agreement, and we noted that in our remarks as well. LTAs have tended to be typically one-year agreements. And, of course, in this environment of extremely tight supply outlook in the foreseeable time frame as well, our customers are very motivated, for their own planning purposes and for their better predictability, to have these structural strategic agreements with us. These agreements are really meant to bring stability and greater visibility into our business model as well. We have completed one SCA, so we are not going to be getting into the specifics here of these agreements. I am sure you can appreciate that these SCAs are confidential in nature. But these SCAs are meant to achieve the objectives for the customers in terms of their ability to plan and be able to count on supply commitments that are in the agreements, but also for us to be able to count on specific commitments that are there from the customers. These are meant to go across periods when the industry is very tight versus other parts of the industry environment as well. That is why they are long-term agreements, and they have robust terms in them. So the terms have robust provisions in them for us as well as for our customers.
+
+**Krish Sankar** (Analyst)
+Got it. Thank you very much.
+
+**Operator** (Operator)
+Your next question comes from the line of Joseph Moore from Morgan Stanley. Your line is open. Please go ahead.
+
+**Joseph Moore** (Analyst)
+Allocation questions by end market. Obviously, AI is the area that has the most urgency. But do you worry about demand destruction for things like PCs and smartphones? Are you trying to balance big customer, small customer? Just how are you thinking about that allocation process?
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+I mean, clearly, supply is extremely tight across all end markets. Demand trends are strong across the end markets, while price-sensitive markets such as the consumer example that you gave may have some demand that is getting impacted due to the higher prices. But overall demand in those markets as well stays pretty strong. Our goal and strategy always is to be a diversified supplier to our various end markets. I think that is very important for us. Of course, data center is becoming a bigger and bigger part of the industry TAM. So a bigger portion of the supply goes there. That is the main driver of growth for the industry as well as for Micron Technology, Inc. But other parts of the markets are important to us, such as PCs, smartphones, automotive, industrial, and we want to maintain that well-diversified mix for our end markets. I would just like to point out that overall, whether in data center or in the consumer parts of the markets, such as smartphones or PCs, the AI trend is continuing to drive greater and greater requirements for memory content. Customers are working in this tight supply environment to manage the mix of their products. But overall, we are very much working with customers across our end markets.
+
+**Joseph Moore** (Analyst)
+Great. Thank you. And I think in the past, you have said that some customers are getting 70% of what they are asking for. Is that still kind of the ballpark of what you are dealing with? Are there customers higher or lower than that than they were three months ago?
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+What we have said in the last earnings call is that some of our key customers, we are able to fulfill only 50% to two-thirds of their demand in the medium term. And yes, that still remains the case.
+
+**Joseph Moore** (Analyst)
+Great. Thank you. Great quarter. Thank you.
+
+**Operator** (Operator)
+Your next question comes from the line of Timothy Michael Arcuri. Your line is open. Please go ahead.
+
+**Timothy Michael Arcuri** (Analyst)
+Thanks a lot. Sanjay, I also wanted to ask about the SCAs. I think we are all trying to think to the other side of the cycle and hope that these SCAs provide some mechanism that will kind of limit your gross margin on the downside to a certain number. So I know you do not want to give too many details, but is it fair to say that there is a mechanism in these SCAs that would limit your gross margin on the downside when things do finally roll back over?
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+We are certainly not getting into the specifics of these SCAs for the obvious reasons of confidentiality of these agreements. We have successfully completed one SCA. We are in discussions with multiple other customers. If and when we complete these agreements and as appropriate, we will, of course, share further details with you. What I want to highlight is that these SCAs are multiyear and they have specific commitments in them. These are robust agreements, and these are meant to give us the visibility and stability toward our business model. Beyond that, I cannot get into any specifics at this point.
+
+**Timothy Michael Arcuri** (Analyst)
+Okay. Thanks. And then, Mark, I just had a question about cash. You are going to generate, I do not know, $35,000,000,000 to $40,000,000,000 in free cash flow this fiscal year. You are going to probably have more than $50,000,000,000 in cash by the end of the calendar year. So what do you do with this? Are you planning to set aside a bunch of it to buy back a bunch of stock on the other side? And I guess, with respect to that, you do have restrictions on the repo from the money you took from the CHIPS Act. Is there any way to get that reworked? Thanks.
+
+**Mark Murphy** (CFO)
+Yeah, Tim. We are thrilled with the performance of the business and the improvement in the balance sheet. In the second quarter, it was record net cash and record free cash flow, beating the previous quarter's record by 77%. Our third quarter guide, when you take those numbers and consider the CapEx we gave, we could see cash flow roughly double sequentially. We are going to continue to build on the balance sheet strength and improve our net cash position. We are continuing to delever and pay down debt. Noteworthy that we received two credit upgrades in the quarter, so we are now a solid triple-B. We are getting stronger, while, as you can see, we have talked about increasing our CapEx investment and increasing our R&D investment. Now to your specific question on balance sheet priority or capital allocation, balance sheet is always going to be a priority along with organic investment in our business to advance technology and to put in capacity for value-add bits, which we certainly see now. We are generating return on capital at this point over 30%, headed towards 50%. We are going to remain disciplined there, though. And then you saw today we are pleased to announce a dividend increase of 30%. It reflects the confidence we have in our business outlook, stability of the business, and cash returns in the future. And then, as you said, we believe we will have significant capacity for returning cash to shareholders through repurchase, a combination of offsetting dilution from stock comp and then opportunistically repurchasing.
+
+**Timothy Michael Arcuri** (Analyst)
+Thanks, Mark.
+
+**Operator** (Operator)
+Your next question comes from the line of Christopher James Muse from Cantor Fitzgerald. Your line is open. Please go ahead.
+
+**Christopher James Muse** (Analyst)
+Yeah, good afternoon. Thanks for taking the question. One follow-up, again the SCA question. So you have had an evolution here—LTAs, binding, now SCAs. I am curious if you could discuss the breadth of the different customers that you are speaking with. Is it only hyperscale, or are there others that are interested? And I know you do not want to go into specific details on the contract. But just to follow up on the last question, is there any CapEx-forward requirements tied to these agreements? Are there pricing tied to an ROIC on those investments? Any help there would be helpful. Thank you.
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+We shared with you that the SCA that we have just signed is with a large customer. These agreements are very much focused on allowing us to invest with confidence in our future supply plans and also having specific terms that enable us to have overall better visibility into future demand and, as I said earlier, enable stability around the business model as well. Beyond that, we are not commenting on the SCAs other than to say that, as I mentioned earlier, these SCA discussions are proceeding with multiple customers. And yes, these are across multiple markets as well.
+
+**Christopher James Muse** (Analyst)
+Very helpful. And then I guess as a quick follow-up for HBM. I think you guided last quarter 40% growth CAGR, which would suggest roughly $50,000,000,000 in revenues for the market this year. Has that number changed? And are you seeing any sort of preference for perhaps moving bits to DDR5 over HBM by any industry players given, today, the higher margins that we see there? Thanks so much.
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+Yes, it is correct that the margins for non-HBM today are higher than HBM margins. Demand for HBM, of course, continues to be strong. We have not updated the numbers that we had provided last in terms of the outlook for the HBM TAM. The demand for DDR5, LP, and HBM all continue to be strong in the data centers. We, of course, continue to manage the mix of the business as the data center AI demand continues to grow. As I said earlier, outside of data center, we are very much focused on making sure that we are maintaining relevant share in our other key market segments as well. Overall, in this environment of strong AI demand trends across data center to the edge, we are very much focused on continuing to manage our portfolio, and we see strong growth opportunity for the full portfolio of Micron Technology, Inc. in the data center. I will just point out there that this portfolio is about HBM, it is about LP, it is about SoC-M, it is about DDR5, as well as our data center SSDs. We have made tremendous strides in terms of our market share in data center SSDs over the course of the last few years.
+
+**Operator** (Operator)
+Your next question comes from the line of Harlan L. Sur from JPMorgan. Your line is open. Please go ahead.
+
+**Harlan L. Sur** (Analyst)
+Good afternoon, and congratulations on the solid results and strong quarterly execution. Maybe, Sanjay, to carry on from where you left off on your commentary on SSD. In November of last year, I estimated that your enterprise SSD business was almost half of your total flash business. I think it was up 60% sequentially. Obviously, a very favorable mix shift from a margin perspective for the Micron Technology, Inc. team. And as you mentioned, you remain a strong top-three global supplier of the ESSD. Off of that strong number, it looks like your ESSD business doubled sequentially in February, still 50% of the NAND mix. Looking forward, with the G9 node continuing to ramp—your next-generation ESSDs, performance-optimized, capacity-optimized, mainstream, all on G9—does this give the team a runway to continue to drive sequential growth in ESSD through the remainder of this calendar year and into next year? And then I just wanted to get your thoughts on this new proposed memory tier of high-bandwidth flash. Is this an area where the Micron Technology, Inc. team might start to focus on R&D resources?
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+Regarding your question on data center SSDs, this is an area of strong growth ahead. NAND supply is very tight, demand for NAND stays strong, and data center SSDs are a big driver of NAND growth as well. Micron Technology, Inc. is well positioned with our portfolio of SSDs going across the requirements in terms of capacity as well as performance across various customers using TLC as well as QLC with respect to our data center mix. We are very well positioned with this, and as part of our strategy of continuing to shift our portfolio—our revenue mix—toward higher profit pools of the industry and high-value parts of the market, we will continue to address opportunities for growing our SSD business. We feel really good about the trajectory that we have been on with data center SSD and the trajectory that is planned ahead for us as well. Regarding your question on HBF, high-bandwidth flash, high-bandwidth flash has some positive attributes, such as capacity, but it has the limitations that NAND has, such as write speed as well as power and retention. Therefore, there will be potentially some workloads where this may be a possible solution, but it is really early, and what is needed is engagement with the customers in terms of really understanding the business value proposition of HBF. We, of course, continue to study this.
+
+**Harlan L. Sur** (Analyst)
+I appreciate that. And then how much of these multiyear SCA agreements is due to the inherent requirements for earlier and longer-term engagement with your GPU/XPU chip customers, just due to the customization of their next-generation HBM architectures—especially around the base die? Given the 12- to 18-month design cycle times for these custom base dies, the sharing of IP between you and your chip customers, and optimizing the base die to your process flow, it does imply that they have to engage with you much earlier in the design phase for their GPUs and XPUs. Is this another factor driving these multiyear SCAs?
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+Again, we are not getting into the specifics, not getting into the specific type of customers here as well. But what I will definitely tell you is that yes, these SCAs really bring us closer to the customer in terms of partnership. That partnership extends into bringing us closer in terms of R&D collaboration and roadmap planning, both ours as well as for customers. That is definitely one of the benefits of these SCAs as well.
+
+**Harlan L. Sur** (Analyst)
+Yep. Thank you.
+
+**Operator** (Operator)
+Your next question comes from the line of Thomas James O'Malley from Barclays. Your line is open. Please go ahead.
+
+**Thomas James O'Malley** (Analyst)
+Hey, guys. Thanks for taking the questions and really nice results. So at GTC and at OCP this week, I think there is a lot of conversation around the LPU architecture and the increased use of SRAM. Could you talk about your view on the memory market longer term as you see more workloads rely on other types of memory outside of the HBM that you are already using? And then, as a broader question, with so much of the demand coming in these longer-term agreements, being associated with data center and just a few number of customers that can actually acquire and build these products, how are you benchmarking when you are adding capacity? Do you have an internal forecast for accelerators? Are you talking customer by customer and building bottoms-up forecasts, just so that you know in year three, year four, year five, that you are offering enough supply to the industry and not getting into a situation in which we are in an oversupply? Thank you very much.
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+First of all, on your question on the SRAM and LPU-based architectures, I would just like to point out that these kinds of architectures make the AI infrastructure more efficient. Any architecture that makes AI infrastructure more efficient is good for AI; they help the pie grow faster. Keep in mind that this LPU architecture works in conjunction with Vera Rubin, which utilizes a tremendous amount of HBM as well as DRAM. The NVIDIA Grok LPX, this LPU-based architecture, actually, per rack, uses 12TB of DRAM as well. All of this is addressing the workloads in a more efficient manner. This helps with the token economics, the token speed, and the scale-up of AI across inference, and helps with the power. Every bit that helps overall is good for further scaling up and acceleration of AI demand as well. We look at this as complementing what already exists with respect to HBM and DRAM and continuing to grow the TAM and accelerate the deployment of AI. Just keep in mind that today, the enterprises' AI deployment as a percentage is still very, very low, and across all verticals, across all industries, across the economies, there is a lot of opportunity ahead. We are excited about all of these opportunities for our full portfolio of HBM, LP, DRAM, SoC-M, and SSD in addressing these future market requirements. Ultimately, all of this just points to how strategic of an asset memory is for AI. Without more memory, without faster memory, AI just cannot scale up. AI just cannot deliver the capabilities, whether it is in training or in inference. Just look at from last year to this year: the DRAM requirement in the advanced AI accelerators has now doubled. These are some of the factors that are contributing to the supply shortage. These trends of AI deployment apply on the edge devices, smartphones, and PCs as well. We are excited about the opportunities ahead, and we absolutely continue to see strong opportunities for our full portfolio ahead.
+
+**Operator** (Operator)
+Your next question comes from the line of Vivek Arya from Bank of America Securities. Please go ahead.
+
+**Vivek Arya** (Analyst)
+Thanks for taking my questions. Sanjay, on HBM share, do you think you can be in the 20–25% range right off the bat? Or do you think you will build towards it over time? Just conceptually, how do you see the puts and takes in terms of whether you can actually expand your HBM share in this upcoming Vera Rubin generation?
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+We have shared before that in CQ3 of last year, we reached our HBM target which we had targeted for calendar 2025, to bring our HBM share in line with DRAM share. We had also said that going forward, we are going to manage our HBM as part of the mix of our total portfolio and are not going to break out the share quarter by quarter. What I can tell you is that we feel very good about our HBM product positioning and feel very good about overall HBM product. The market is there for both HBM4 as well as HBM3E in calendar 2026, and we will be supplying both of these products and feel good about our overall position here and our ability to fully manage the mix of the business.
+
+**Vivek Arya** (Analyst)
+And for my follow-up, Mark, I wanted to revisit this 81% gross margin guidance. I appreciate you are not giving a specific forward view, but in prior historical peaks where Micron Technology, Inc.'s margins, I think, peaked in the low sixties, what is the difference between the prior situations versus now? What do those historical precedents indicate to you about how the trajectory of gross margins can be over the next several quarters? How do customers start to react when they see these levels of gross margins in what is a very important input into their AI silicon? Thank you.
+
+**Sanjay Mehrotra** (Chairman, President and CEO)
+Before Mark answers that question, I want to point out that I accidentally said that we targeted to reach our HBM share in Q3 2026. Of course, I said it wrong by mistake. I meant that we had targeted to get to our HBM share in 2025, and we achieved our HBM share in line with our DRAM share in 2025. Beyond that, in Q3 2025, we had said we are not going to be providing any further mix of HBM share. I just wanted to correct that I accidentally said 2026 instead of 2025.
+
+**Mark Murphy** (CFO)
+Vivek, I would say that keep in mind that the industry is supply constrained, and conditions will remain very tight beyond 2026. That certainly supports the near-term and medium-term pricing. We have discussed how we are working with customers to allocate best we can to their businesses and work with them on adding capacity, on supply assurance, on working with them with new products, and so forth. Your question about reverting to some historical mean is the thing that should be revisited. We have a situation where AI is a transformational secular driver. As Sanjay mentioned, AI requires more and higher-performance memory, and this memory helps with driving the token cost down. It helps lower the energy cost per token. It increases the number of tokens. It increases intelligence overall of AI, which drives harder problem sets and agent use, which drives more tokens and needs more memory. The margins are reflecting recognition that memory is a lot more valuable and an efficient way to monetize AI. That is from data center to the edge. On top of that, we have been clear for a year or more that there are supply constraints that exist on a number of fronts that will take time. There are low inventory levels. There is declining bits-per-wafer on node advances. HBM trade ratio is increasing. Any new capacity really needs to be greenfield, which is a physical constraint that takes a lot of time. These are both durable factors: both the value of memory and the structural challenge of bringing on supply. We are working both those issues. We are investing in capacity, and we are also increasing R&D to continue to advance the technology and improve the value of memory. We believe that these will help with margins over time. I think customers are recognizing that and entering into these agreements.
+
+**Operator** (Operator)
+This concludes today's call. Thank you for attending. You may now disconnect.
+
+---
+# PRIOR QUARTER: 2026Q1
 
 **Operator** (Operator)
 Operator, can you queue up the questions? Yes, sir. And I show our first question comes from the line of Timothy Arcuri from UBS. Timothy Arcuri from UBS, your line is open.
@@ -154,100 +274,4 @@ You know, we have highlighted in our prepared remarks that, you know, in some of
 
 **Operator** (Operator)
 Thank you. This concludes our Q&A session and today's conference call. At this time, I would like to end today's conference call. Thank you all for participating. You may now all disconnect.
-
----
-# PRIOR QUARTER: 2025Q4
-
-**Operator** (Operator)
-Thank you. As a reminder, to ask a question, you will need to press 11 on your telephone. To remove yourself from the queue, you may press 11 again. Please limit yourself to one question and one follow-up to allow everyone the opportunity to participate. Please standby while we compile the Q&A roster. Our first question comes from the line of Timothy Arcuri of UBS. Please go ahead, Timothy.
-
-**Timothy Arcuri** (Analyst)
-Thanks a lot. Mark, I was wondering if you could help on the guidance a little bit. I know you do not want to get into too much detail, but of the, let's say, $2.2 billion sequential that you're or sorry. The, you know, $200 million sequential revenue. Can you help us how that splits out between DRAM and NAND? And I guess, any gross margin puts and takes that you might have as well would be helpful.
-
-**Mark Murphy** (CFO)
-Yeah. Tim, you were breaking up a bit at the end, but I believe I've got it. So in the first quarter, we'll be heavier DRAM mix than NAND in that growth. As you mentioned, we're not gonna break out, you know, bits in ASP, but we are, you know, guiding up, you know, 580 basis points sequentially. It is split across, you know, mixed pricing and strong execution on our cost reductions. We're in a very constructive pricing environment. Supply is tight for DRAM and improving substantially in NAND. Yeah. We've got, you know, we've got essentially strong demand and supply factors at work. As you heard in the script today. On the demand side, data center spend remains robust. Projected to grow. Traditional server spend is improving and expected to grow. Refresh and inference workload demand drivers, and then PC, smartphone, auto all have increased content growth, and that's becoming clear. And then on the supply side, we'll get into that more in the Q&A here, but that is, you know, tight as well due to a number of factors that are structural. So, yeah, we're focused on our execution. And, again, sequentially here, expect price mix and strong execution to drive that 580 basis point margin expansion.
-
-**Timothy Arcuri** (Analyst)
-Thanks a lot, Mark. And then Sanjay, I guess you had previously guided us to, like, a $100 billion HPN TAM by 2028, but since you gave us that number, there's been some massive numbers given out, some, you know, TAM numbers by NVIDIA and some, you know, some investments that are, you know, going on at and whatnot. So it's obvious that the Compute TAM is much bigger than what I think you probably would have seen at that time. So do I give an update to that number? I would assume it's bigger than that number, and maybe if you could comment on sort of what you see next year. I know this year sounds like mid-thirties. I'm wondering if you can give us any, like, milestone year and, you know, update that, you know, $100 billion and, you know, 2020. Thanks.
-
-**Sanjay Mehrotra** (Chairman, President and CEO)
-But, Tim, your connection is poor, and you were breaking up a lot. But I think I got the gist of your question. What we have said before regarding longer-term HBM TAM, we have said that by 2030, we expect HBM TAM to reach $100 billion. And we had also said that HBM bit CAGR will grow faster than the DRAM CAGR. And we see that in absolutely 2026 as well, you know, in terms of bits in HBM will outgrow the overall DRAM bits. And, of course, you know, as we look ahead, the value proposition of HBM continues to increase. And, of course, as we talked about, HBM now in 2026, transitioning to HBM four, Micron, of course, well-positioned. The market is starting to require even higher performances. And we today pointed out that Micron with our HBM four will have the highest performance product with over 11 gigabits per second and, of course, highest power efficiency as well. So the specs of HBM are becoming increasingly more demanding, which is exciting for us because we are very well positioned with these products. So this just means the value proposition of HBM just continues to grow. So we definitely continue to see strong long-term growth, very excited about all these various announcements of massive data center infrastructure spend. We have talked about trillions of dollars of spend over the next several years. And, of course, memory is very much at the heart of this AI revolution. This means a tremendous opportunity for memory and certainly a tremendous opportunity for HBM. So we feel very good about HBM longer-term opportunities, good about HBM opportunities in 2026, and very good about Micron's positioning. With our very strong product portfolio and strong execution, our track record, and the trust that we have built with our customers and our ability to supply quality and meet our customers' volume requirements. So exciting times ahead, and we are, of course, continuing to work very closely with our customers.
-
-**Timothy Arcuri** (Analyst)
-Thanks a lot. Thank you.
-
-**Operator** (Operator)
-Our next question comes from the line of Vivek Arya of Bank of America. Please go ahead, Vivek.
-
-**Vivek Arya** (Analyst)
-Thank you for taking my question. I'm curious. How do you see the transition from HPM three e to four? When do you expect the crossover next year? And I think as part of that, you mentioned that the pricing for three e is settled for 26. And I'm curious what is the direction of that pricing versus what you're getting now? Is it higher or lower? And do you expect your CE share to stay the same or change next year?
-
-**Sanjay Mehrotra** (Chairman, President and CEO)
-So with respect to HPM four, you know, this is, of course, we will be at the forefront of this production ramp very much aligned with customers' timing. And, as we have mentioned, we have the best product in the industry, with the highest performance over 11 gigabits per second, and we have sampled that product. As well as low power. So industry-leading product performance. And so we will be ramping it up in line with customer demands, of course, you know, first production shipment and CQ2 of 26 time frame and production will ramp during the course of 2026. Again, in line with customer demand. And overall, in 2026, versus 2025, we see our share growing, product well-positioned. We are not commenting on the pricing of HPM four e. We had told you that HPM four e, we have pricing agreements completed with almost all customers for the vast majority of our HPM four e supply in 2026, and we are in discussions with regarding HPM four with our customers. What I will tell you is that supply is tight. We expect a healthy demand supply environment in 2026 for overall DRAM, and that bodes well for the profitability of DRAM, profitability of HBM, and, of course, profitability of non-HBM as well. Is experiencing tight supply.
-
-**Vivek Arya** (Analyst)
-And for my follow-up, maybe, Mark, on the gross margin side, one is just conceptually, how do you think about the puts and takes of gross margins as you go through the rest of the year, the 51.5 this kind of the baseline? And as long as sales grow, can you expand off of this level? And then, you know, related to that, when I look at your cloud data center business, gross margins 59%, operating margins 48%. How much more room is there to from those very strong levels right now? Thank you.
-
-**Mark Murphy** (CFO)
-Yeah. Vivek, so we're not providing out quarter guidance, but what we will say is that we believe or we expect gross margin to improve sequentially first to second quarter. And it's on this tight DRAM supply and the associated pricing along with, you know, NAND business continuing to improve. And then just mix effects as we continue to steer bits towards high-value markets. And then our cost performance continues to be good. As, you know, mentioned in the prepared remarks, these supply-demand factors are, we believe, they're durable on the demand side. Data center spend continues to increase. I talked earlier about traditional server spend, and then the edge and auto. Having increased content. And then on the supply side, you know, customer inventory levels are healthy. Our supply is lean. Our DRAM inventories are below target. Band continues to improve. You know, we are, you know, we're working to be as efficient as we can in providing a supply response. You know, we're doing node transitions, but as the industry extends support for d four, that's constrained those node transitions. And then finally, it just takes a long time and is expensive to add new clean room space. And we all know the silicon intensity of HBM creating the urgency for that capacity requirement. So it's a good setup as we go into 26. And we, you know, delivered this strong guide on the first quarter gross margin, and we expect to see gross margins up in Q2. I also want to reiterate something Sanjay mentioned that we expect margins to be healthy in both HBM and non-HBM in '26. So I'd leave it at that on the Alcorder guidance.
-
-**Vivek Arya** (Analyst)
-Thank you.
-
-**Operator** (Operator)
-Our next question comes from the line of CJ Muse of Cantor Fitzgerald. Your line is open, CJ.
-
-**CJ Muse** (Analyst)
-Yeah. Good afternoon. Thank you for taking the question. I guess first question, you know, it certainly feels like in the last month or two, there's been an inflection in DRAM demand led by inference hyperscalers. So curious if you could kinda speak to what you have seen, the breadth of demand, and particularly the sustainability of that, and we'd love your thoughts. You've talked about tightness expected into fiscal 26. Your thoughts into this what is typically seasonally slower February should we see kind of normal seasonality? Or are there supply trends so limited that things can hold up much better than kinda normal seasonality?
-
-**Sanjay Mehrotra** (Chairman, President and CEO)
-So, of course, we are not providing you Q2 guidance at this point. But, you know, certainly, the AI trends are strong. And as you noted, not just in training, but in finance as well. And as the AI applications broaden, innovations increase, you know, greater different architectures, you know, all of this is only continuing to broaden the demand vector for AI, you know, in the data center as well as on edge devices such as smartphones. In the data center, of course, AI servers have driven strong demand as we have all known. Particularly with, you know, adjust the increasing demand and increasing demand for all DRAM, not just HPM, but LPDRAM, high-density DRAM module. But we are also seeing traditional server demand, as we noted in our remarks, increased as well. So this is really driving a strong growth trend overall for the industry. And then the demand vectors are broadening, as I noted, smartphones in particular, you have seen some recent launches of AI-enabled smartphones, which have higher content of DRAM in them versus the prior generation phones. And, of course, PCs is another tailwind. AI PCs and end of life for Windows 10 as the AI PCs are a tailwind for DRAM content as well. So overall, AI trends are strong, and this is across data center, across AI-enabled smartphones, and AI-enabled PCs. And this is what leads to, you know, strong demand in 2026. Across 2026, and we have talked about tight supply as well. Mark just laid out the factors for tight supply, which we also discussed in our prepared remarks. So overall, we look forward to a healthy demand supply environment in calendar year '26 for us.
-
-**CJ Muse** (Analyst)
-Very helpful. And I guess that's my inventories customer inventories as well as supplier inventories. Are in good place. I mean, supplier inventories are actually running lean. Micron DRAM supply is very tight. Thank you for that. As a quick follow-up on CapEx, Mark, it appears net CapEx implied $18 billion versus $13.8 billion last year. I think you talked about front-end equipment versus clean room space in DRAM. Is there a way to kinda partition how much, you know, on equipment versus clean room? And then can you share with us what the implied gross CapEx is for fiscal 26? Thanks so much.
-
-**Mark Murphy** (CFO)
-Yeah. Yeah. Yeah. We've not laid out in detail. It's just that our spend in '26 will be the majority, the vast majority will be for DRAM, and we've got construction and facilities related to that, some tools for node transitions and beginning to install for the new greenfield. As it relates to you're right that we guided, you know, framework to be at around $18 billion. We will generally talk about CapEx in the context of net, which is gross CapEx offset by proceeds from government incentives. Yeah. We're not gonna talk about, you know, the gross and net for twenty-six. But you can see the components. You can bit back into the components here on what you've seen in the filings. For the gross spend in '25. And then the government incentives. And so we ended up at 13.8 net, and we were at 15.8 gross with 2 billion of government incentives. In '25. Yeah. You'll see that going forward. And, you know, the government incentives in '25 are largely the US, Singapore, and Japan. And we can talk more about those in the future.
-
-**CJ Muse** (Analyst)
-Thank you.
-
-**Operator** (Operator)
-Our next question comes from the line of Harlan Sur of JPMorgan. Please go ahead, Harlan.
-
-**Harlan Sur** (Analyst)
-Yeah. Good afternoon. Thanks for taking my question. Days of inventory are now at your target levels as you had expected previously. And within that, DRAM is actually below your targets. Right? So given the strong three e 12 high RAM, continued strong demand pull for non-AI DRAM. How are you guys thinking about your total and DRAM inventories exiting this quarter? Will days of inventory continue to come down? Just given the overall supply tightness, are your lead times extending? And customers placing orders further in advance? And is this better visibility? What gives the team confidence on continued tightness into calendar '26?
-
-**Mark Murphy** (CFO)
-Yeah. Harlan, I'll cover that. We do expect inventories to remain at or better on DIO than we've seen in the fourth quarter. DRAM will remain very tight as we talked about through the year, so we would expect to be, you know, below target. And then NAND, you know, we're being very disciplined around NAND, and that market continues to improve. So we do expect NAND DIO to decrease as well.
-
-**Sanjay Mehrotra** (Chairman, President and CEO)
-And, of course, we work closely with our customers. And customers are fully aware that the demand environment is strong and the supply is very tight in the DRAM and supply outlook is tight. So we work closely with the customers. And I just want to point out that as we look ahead at our supply, we are looking at one gamma ramp to support our demand. In non-HBM products. HBM products we will support them with our one beta. And, of course, continue maintaining focus on, you know, maximum production efficiencies leveraging the clean room space that is available to implement the technology transitions as well as drive maximum production efficiency.
-
-**Harlan Sur** (Analyst)
-No. I appreciate that. Thank you for the insights there. And Sanjay, you know, as your customers continue to differentiate their GPU and XPU platforms, memory continues to be sort of that key focus area of differentiation. As you mentioned, some of your HPM four customers are looking for as much as 25% more bandwidth versus the plain vanilla Jetix standard. Looks like the Micron team delivered a solution that's 40% more performant than the Jetix spec, right, and well exceeding your customers' requirements. Did the team have to redesign the base logic die to achieve these impressive results? Just wondering if the higher performance HBM four skew maybe pushed out customer calls or have the call schedules remained on track relative to your original plan? But more importantly, even with the higher speeds, is your power consumption still superior to your competitive solutions?
-
-**Sanjay Mehrotra** (Chairman, President and CEO)
-Very good questions, Harlan, and thank you for asking those questions. Very proud of our team's execution. Proud of our team's design, of our DRAM die and the SIEM advanced CMOS technology that is used in their DRAM die. As well as our base die, which has advanced CMOS as well. Combination of all of this, our innovative design, our memory architecture, our advanced CMOS in the DRAM, as well as advanced CMOS in the base die, and, of course, that advanced CMOS base die is manufactured here by Micron giving us a competitive advantage. All of this actually has enabled us to achieve, you know, customers' increasingly higher requirements bandwidth, at 2.8 gigabyte per second and speed at 11 more than 11 gigabits per second as well. And this has really positioned us well, you know, getting ready for the production ramp of our HPM four product. With these kind of specs, and as I said, with these kind of specs, we'll be at the forefront of HPM shipment ramp, keeping it in line with customer demand. Thank you.
-
-**Harlan Sur** (Analyst)
-And I just wanted to hear, I think I said for Bandwidth, 2.8 terabyte per second. I hope that came across clearly. 2.8 terabyte. Per second. Speed, 11 gigabit per second.
-
-**Operator** (Operator)
-Thank you. Our next question comes from the line of Krish Sankar of TD Cowen.
-
-**Krish Sankar** (Analyst)
-Yeah. Hi. Thanks for taking my question. I told them, Sanjay, you mentioned about getting sold out in HPM, hopefully, in the next few months. Is there a way to quantify the supply opportunity in calendar twenty-six? Assuming you're fully sold out? And also, if the HBM demand is start better than expected, can you increase supply in calendar twenty-six? You're sold out in the next few months? And then I had a quick follow-up.
-
-**Sanjay Mehrotra** (Chairman, President and CEO)
-Yeah. We are not breaking down the supply volumes, etcetera. But, yes, HBM three e as we mentioned, pricing agreements are done with the vast majority of our HBM three e supply, and volume is also fixed for HBM three e with most customers. And as our customers are looking at their finalizing their plans with HBM four, particularly plans with increased specifications and their own deployment of that in their next-generation platforms. We expect to be concluding our agreement on, you know, HBM four supply as well as all of 2026, HBM supply here in 2026. I mean, in the next few months. And really very pleased with our industry-leading HBM four product specifications, absolutely outperforming the rest. So we are well positioned with this. And it really, you know, with respect to your question, we will, of course, manage the mix of in our now that we have reached our HBM share, in CQ3, to be in line with our industry DRAM share, we will manage and non-HBM being, you know, healthy margins as well. We will now manage the mix of our portfolio keeping in mind, of course, ROI on our portfolio as well as being disciplined with our total investment. We as you can well understand, we have, of course, flexibility to opportunistically manage share here for HPM because at the front end, it uses the same one beta wafers as rest some of the rest of our products as well. So that gives us fungibility at the front end in terms of supply management and assembly and test we have, of course, all the investments that we have made over the course of last several quarters, we are well positioned with capacity in assembly and test as well. So our investments and our team's strong execution in ramping up capacity and giving us the total confidence gives us now the flexibility to manage the mix of the full portfolio between HPM and non-HPM keeping ROI in mind, and, of course, staying disciplined here with our investments as well.
-
-**Krish Sankar** (Analyst)
-Got it. Thanks, miss, Sanjay. Another quick question on HBM four. It's nice to see the 11 gigabits per second pin speed. You also said that you have the offering of both your in-house base die, so that's customized TSM logic die. There a way to figure out what do you expect that mix to be? Do you expect more customers to go with the in-house die or the TSM die? And how easy is it for you from the Micron standpoint of switching between the two based on customer demand?
-
-**Sanjay Mehrotra** (Chairman, President and CEO)
-So HBM four is the product that is with our internal base die. And HBM four e is where we said in our remarks, that, you know, we will be offering standard products as well as customized products. HBM four e is where we are partnering with TSMC. HBM four e is not in the industry, it's not the 2026 product that will be, you know, 2027. Kind of product, and we'll share more details with you, and we will have both standard and customized products in HBM four e. HBM four, using our own base die in the industry, HBM four is what will be the product that will be ramping in production. And as you mentioned that with, you know, the value proposition of HBM continues to increase, and with HBM four e, value proposition increases even further. And we would certainly expect, you know, the customization to provide high gross margin as I indicated in my prepared remarks. And once again, I would like to point out our HPM uses our own logic die. That means Micron's own CMOS and that gives us unique advantages and, of course, has been a key contributor along with our DRAM design and DRAM architecture as well as the CMOS that is embedded inside the DRAM. All of that gives us a unique advantage in terms of industry-leading performance.
-
-**Operator** (Operator)
-Thank you. And as that is all the time we have for Q&A today, that does conclude the Q&A portion of this call and today's conference call. Thank you for participating. You may now disconnect.
 

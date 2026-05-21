@@ -1,0 +1,42 @@
+PRICE & EARNINGS — 2026-05-21
+Tickers: MU
+
+--- PRICE ---
+
+Ticker |   Price |  vs1Y |  vs2Y |   vs3Y |  vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+-------+-------+--------+-------+------+---------+---------+------------+---------+---------
+    MU | $749.75 | +696% | +504% | +1014% | +814% | 1.00 |    +2.4 |     91% |          - |    -59% |   +52.8%
+
+----------------------------------------
+
+Recent Trend: MU
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-05-21 | $749.75 | +45.0%
+2026-04-30 | $517.16 | +53.1%
+2026-03-31 | $337.84 | -18.0%
+2026-02-27 | $412.20 |  -0.6%
+2026-01-30 | $414.71 | +45.4%
+2025-12-31 | $285.29 | +20.7%
+2025-11-28 | $236.29 |  +5.7%
+2025-10-31 | $223.59 | +33.8%
+2025-09-30 | $167.08 | +40.6%
+2025-08-29 | $118.84 |  +9.0%
+2025-07-31 | $108.99 | -11.4%
+2025-06-30 | $122.96 | +30.5%
+
+--- EARNINGS ---
+
+Ticker | GAAP P/E | Adj P/E | vs1Y | vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+----------+---------+------+------+------+-------+--------+----+----------+-----------+----------
+    MU |    34.9x |   34.2x | +87% |  +6% | +53% |  +28% |   0.83 | || |   +43.0% |      1.35 |     $7.14
+
+LEGEND (Price):
+CV: Volatility relative to price. Z-Score: Std devs of recent 1mo return.
+52w Pos: Position in 52-week range. Drop/MaxDD: Recent drop as % of worst 5yr drawdown.
+Revert↑: Upside if price reverts to 1yr average.
+
+LEGEND (Earnings):
+vsXY: % diff between current P/E and P/E X years ago.
+1yCorr: Correlation between price and earnings over last 12 months.
+Stability: CV of annual EPS (lower = smoother). Fwd Delta: Next est minus last actual.

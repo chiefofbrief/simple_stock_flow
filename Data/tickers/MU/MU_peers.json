@@ -2,61 +2,61 @@
   {
     "symbol": "AMAT",
     "companyName": "Applied Materials, Inc.",
-    "price": 435.44,
-    "mktCap": 345569538400
+    "price": 423.22,
+    "mktCap": 335871624200
   },
   {
     "symbol": "ARM",
     "companyName": "Arm Holdings plc American Depositary Shares",
-    "price": 213.27,
-    "mktCap": 226918974811
+    "price": 287.495,
+    "mktCap": 305894261695
   },
   {
     "symbol": "CRM",
     "companyName": "Salesforce, Inc.",
-    "price": 181.82,
-    "mktCap": 172727120345
+    "price": 175.89,
+    "mktCap": 167093681649
   },
   {
     "symbol": "CSCO",
     "companyName": "Cisco Systems, Inc.",
-    "price": 96.57,
-    "mktCap": 381441171066
+    "price": 117.0014,
+    "mktCap": 462143015764
   },
   {
     "symbol": "IBM",
     "companyName": "International Business Machines Corporation",
-    "price": 229.76,
-    "mktCap": 215947977600
+    "price": 240.38,
+    "mktCap": 225929556300
   },
   {
     "symbol": "KLAC",
     "companyName": "KLA Corporation",
-    "price": 1869.19,
-    "mktCap": 244168549451
+    "price": 1839.16,
+    "mktCap": 240245790641
   },
   {
     "symbol": "LRCX",
     "companyName": "Lam Research Corporation",
-    "price": 294.05,
-    "mktCap": 367730108500
+    "price": 298.0568,
+    "mktCap": 372740892376
   },
   {
     "symbol": "QCOM",
     "companyName": "QUALCOMM Incorporated",
-    "price": 219.09,
-    "mktCap": 230920860000
+    "price": 207.84,
+    "mktCap": 219063360000
   },
   {
     "symbol": "SAP",
     "companyName": "SAP SE",
-    "price": 173.7,
-    "mktCap": 202401347987
+    "price": 174.72,
+    "mktCap": 203589887854
   },
   {
     "symbol": "TXN",
     "companyName": "Texas Instruments Incorporated",
-    "price": 287.8,
-    "mktCap": 261924765400
+    "price": 296.9799,
+    "mktCap": 270279328131
   }
 ]

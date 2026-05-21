@@ -1,11 +1,65 @@
 # Earnings Call — Analyst Questions: MU
 
-**Quarters:** 2026Q1, 2025Q4
+**Quarters:** 2026Q2, 2026Q1
 
 *Analyst questions only — management responses are in MU_earnings_qa.md*
 
 ---
-## CURRENT QUARTER: 2026Q1
+## CURRENT QUARTER: 2026Q2
+
+**Q1 — Krish Sankar**
+The 81% gross margin guide is very impressive. Just kind of curious how to think about the sustainability of gross margins, especially as you bring more HBM4 into the mix. If you can give some thought on how to think about gross margins in the August quarter and beyond, that will be very helpful. Then I have a follow-up for Sanjay.
+
+**Q2 — Krish Sankar**
+Got it. And then a quick question for Sanjay on the SCA. Congrats on your first five-year SCA. How different is it from an LTA? Is this a multiyear volume and price commitment, or does the price get negotiated every year? And also how to think about cancellation terms in the SCA in case the cycle slows down during the time frame.
+
+**Q3 — Krish Sankar**
+Got it. Thank you very much.
+
+**Q4 — Joseph Moore**
+Allocation questions by end market. Obviously, AI is the area that has the most urgency. But do you worry about demand destruction for things like PCs and smartphones? Are you trying to balance big customer, small customer? Just how are you thinking about that allocation process?
+
+**Q5 — Joseph Moore**
+Great. Thank you. And I think in the past, you have said that some customers are getting 70% of what they are asking for. Is that still kind of the ballpark of what you are dealing with? Are there customers higher or lower than that than they were three months ago?
+
+**Q6 — Joseph Moore**
+Great. Thank you. Great quarter. Thank you.
+
+**Q7 — Timothy Michael Arcuri**
+Thanks a lot. Sanjay, I also wanted to ask about the SCAs. I think we are all trying to think to the other side of the cycle and hope that these SCAs provide some mechanism that will kind of limit your gross margin on the downside to a certain number. So I know you do not want to give too many details, but is it fair to say that there is a mechanism in these SCAs that would limit your gross margin on the downside when things do finally roll back over?
+
+**Q8 — Timothy Michael Arcuri**
+Okay. Thanks. And then, Mark, I just had a question about cash. You are going to generate, I do not know, $35,000,000,000 to $40,000,000,000 in free cash flow this fiscal year. You are going to probably have more than $50,000,000,000 in cash by the end of the calendar year. So what do you do with this? Are you planning to set aside a bunch of it to buy back a bunch of stock on the other side? And I guess, with respect to that, you do have restrictions on the repo from the money you took from the CHIPS Act. Is there any way to get that reworked? Thanks.
+
+**Q9 — Timothy Michael Arcuri**
+Thanks, Mark.
+
+**Q10 — Christopher James Muse**
+Yeah, good afternoon. Thanks for taking the question. One follow-up, again the SCA question. So you have had an evolution here—LTAs, binding, now SCAs. I am curious if you could discuss the breadth of the different customers that you are speaking with. Is it only hyperscale, or are there others that are interested? And I know you do not want to go into specific details on the contract. But just to follow up on the last question, is there any CapEx-forward requirements tied to these agreements? Are there pricing tied to an ROIC on those investments? Any help there would be helpful. Thank you.
+
+**Q11 — Christopher James Muse**
+Very helpful. And then I guess as a quick follow-up for HBM. I think you guided last quarter 40% growth CAGR, which would suggest roughly $50,000,000,000 in revenues for the market this year. Has that number changed? And are you seeing any sort of preference for perhaps moving bits to DDR5 over HBM by any industry players given, today, the higher margins that we see there? Thanks so much.
+
+**Q12 — Harlan L. Sur**
+Good afternoon, and congratulations on the solid results and strong quarterly execution. Maybe, Sanjay, to carry on from where you left off on your commentary on SSD. In November of last year, I estimated that your enterprise SSD business was almost half of your total flash business. I think it was up 60% sequentially. Obviously, a very favorable mix shift from a margin perspective for the Micron Technology, Inc. team. And as you mentioned, you remain a strong top-three global supplier of the ESSD. Off of that strong number, it looks like your ESSD business doubled sequentially in February, still 50% of the NAND mix. Looking forward, with the G9 node continuing to ramp—your next-generation ESSDs, performance-optimized, capacity-optimized, mainstream, all on G9—does this give the team a runway to continue to drive sequential growth in ESSD through the remainder of this calendar year and into next year? And then I just wanted to get your thoughts on this new proposed memory tier of high-bandwidth flash. Is this an area where the Micron Technology, Inc. team might start to focus on R&D resources?
+
+**Q13 — Harlan L. Sur**
+I appreciate that. And then how much of these multiyear SCA agreements is due to the inherent requirements for earlier and longer-term engagement with your GPU/XPU chip customers, just due to the customization of their next-generation HBM architectures—especially around the base die? Given the 12- to 18-month design cycle times for these custom base dies, the sharing of IP between you and your chip customers, and optimizing the base die to your process flow, it does imply that they have to engage with you much earlier in the design phase for their GPUs and XPUs. Is this another factor driving these multiyear SCAs?
+
+**Q14 — Harlan L. Sur**
+Yep. Thank you.
+
+**Q15 — Thomas James O'Malley**
+Hey, guys. Thanks for taking the questions and really nice results. So at GTC and at OCP this week, I think there is a lot of conversation around the LPU architecture and the increased use of SRAM. Could you talk about your view on the memory market longer term as you see more workloads rely on other types of memory outside of the HBM that you are already using? And then, as a broader question, with so much of the demand coming in these longer-term agreements, being associated with data center and just a few number of customers that can actually acquire and build these products, how are you benchmarking when you are adding capacity? Do you have an internal forecast for accelerators? Are you talking customer by customer and building bottoms-up forecasts, just so that you know in year three, year four, year five, that you are offering enough supply to the industry and not getting into a situation in which we are in an oversupply? Thank you very much.
+
+**Q16 — Vivek Arya**
+Thanks for taking my questions. Sanjay, on HBM share, do you think you can be in the 20–25% range right off the bat? Or do you think you will build towards it over time? Just conceptually, how do you see the puts and takes in terms of whether you can actually expand your HBM share in this upcoming Vera Rubin generation?
+
+**Q17 — Vivek Arya**
+And for my follow-up, Mark, I wanted to revisit this 81% gross margin guidance. I appreciate you are not giving a specific forward view, but in prior historical peaks where Micron Technology, Inc.'s margins, I think, peaked in the low sixties, what is the difference between the prior situations versus now? What do those historical precedents indicate to you about how the trajectory of gross margins can be over the next several quarters? How do customers start to react when they see these levels of gross margins in what is a very important input into their AI silicon? Thank you.
+
+---
+## PRIOR QUARTER: 2026Q1
 
 **Q1 — Timothy Arcuri**
 Thanks a lot. Sanjay, I wanted to ask you about customer LTAs. I know we are hearing about DDR5 that's being bundled with HBM, and in some cases, even NAND. So can you just talk about these LTAs? I know it sounds like these are, you know, stretching out through 2026 and in some cases even 2027. I have even heard of some stuff into, you know, 2028. So can you talk about the nature of these LTAs? And then I had an AI follow-up as well. Thanks.
@@ -57,49 +111,4 @@ Great. Thanks, Sanjay, and congrats again on the results.
 
 **Q17 — Vivek Arya**
 Thanks for taking my questions. Sanjay, I am curious, at what point does increasing memory price impact, you know, demand for electronics? If you set aside the data center and the AI market, do you see some elasticity? Do you see any impact on demand as you look into 2026 for more consumer and kind of traditional enterprise products? How does that shape where memory pricing can go next year?
-
----
-## PRIOR QUARTER: 2025Q4
-
-**Q1 — Timothy Arcuri**
-Thanks a lot. Mark, I was wondering if you could help on the guidance a little bit. I know you do not want to get into too much detail, but of the, let's say, $2.2 billion sequential that you're or sorry. The, you know, $200 million sequential revenue. Can you help us how that splits out between DRAM and NAND? And I guess, any gross margin puts and takes that you might have as well would be helpful.
-
-**Q2 — Timothy Arcuri**
-Thanks a lot, Mark. And then Sanjay, I guess you had previously guided us to, like, a $100 billion HPN TAM by 2028, but since you gave us that number, there's been some massive numbers given out, some, you know, TAM numbers by NVIDIA and some, you know, some investments that are, you know, going on at and whatnot. So it's obvious that the Compute TAM is much bigger than what I think you probably would have seen at that time. So do I give an update to that number? I would assume it's bigger than that number, and maybe if you could comment on sort of what you see next year. I know this year sounds like mid-thirties. I'm wondering if you can give us any, like, milestone year and, you know, update that, you know, $100 billion and, you know, 2020. Thanks.
-
-**Q3 — Timothy Arcuri**
-Thanks a lot. Thank you.
-
-**Q4 — Vivek Arya**
-Thank you for taking my question. I'm curious. How do you see the transition from HPM three e to four? When do you expect the crossover next year? And I think as part of that, you mentioned that the pricing for three e is settled for 26. And I'm curious what is the direction of that pricing versus what you're getting now? Is it higher or lower? And do you expect your CE share to stay the same or change next year?
-
-**Q5 — Vivek Arya**
-And for my follow-up, maybe, Mark, on the gross margin side, one is just conceptually, how do you think about the puts and takes of gross margins as you go through the rest of the year, the 51.5 this kind of the baseline? And as long as sales grow, can you expand off of this level? And then, you know, related to that, when I look at your cloud data center business, gross margins 59%, operating margins 48%. How much more room is there to from those very strong levels right now? Thank you.
-
-**Q6 — Vivek Arya**
-Thank you.
-
-**Q7 — CJ Muse**
-Yeah. Good afternoon. Thank you for taking the question. I guess first question, you know, it certainly feels like in the last month or two, there's been an inflection in DRAM demand led by inference hyperscalers. So curious if you could kinda speak to what you have seen, the breadth of demand, and particularly the sustainability of that, and we'd love your thoughts. You've talked about tightness expected into fiscal 26. Your thoughts into this what is typically seasonally slower February should we see kind of normal seasonality? Or are there supply trends so limited that things can hold up much better than kinda normal seasonality?
-
-**Q8 — CJ Muse**
-Very helpful. And I guess that's my inventories customer inventories as well as supplier inventories. Are in good place. I mean, supplier inventories are actually running lean. Micron DRAM supply is very tight. Thank you for that. As a quick follow-up on CapEx, Mark, it appears net CapEx implied $18 billion versus $13.8 billion last year. I think you talked about front-end equipment versus clean room space in DRAM. Is there a way to kinda partition how much, you know, on equipment versus clean room? And then can you share with us what the implied gross CapEx is for fiscal 26? Thanks so much.
-
-**Q9 — CJ Muse**
-Thank you.
-
-**Q10 — Harlan Sur**
-Yeah. Good afternoon. Thanks for taking my question. Days of inventory are now at your target levels as you had expected previously. And within that, DRAM is actually below your targets. Right? So given the strong three e 12 high RAM, continued strong demand pull for non-AI DRAM. How are you guys thinking about your total and DRAM inventories exiting this quarter? Will days of inventory continue to come down? Just given the overall supply tightness, are your lead times extending? And customers placing orders further in advance? And is this better visibility? What gives the team confidence on continued tightness into calendar '26?
-
-**Q11 — Harlan Sur**
-No. I appreciate that. Thank you for the insights there. And Sanjay, you know, as your customers continue to differentiate their GPU and XPU platforms, memory continues to be sort of that key focus area of differentiation. As you mentioned, some of your HPM four customers are looking for as much as 25% more bandwidth versus the plain vanilla Jetix standard. Looks like the Micron team delivered a solution that's 40% more performant than the Jetix spec, right, and well exceeding your customers' requirements. Did the team have to redesign the base logic die to achieve these impressive results? Just wondering if the higher performance HBM four skew maybe pushed out customer calls or have the call schedules remained on track relative to your original plan? But more importantly, even with the higher speeds, is your power consumption still superior to your competitive solutions?
-
-**Q12 — Harlan Sur**
-And I just wanted to hear, I think I said for Bandwidth, 2.8 terabyte per second. I hope that came across clearly. 2.8 terabyte. Per second. Speed, 11 gigabit per second.
-
-**Q13 — Krish Sankar**
-Yeah. Hi. Thanks for taking my question. I told them, Sanjay, you mentioned about getting sold out in HPM, hopefully, in the next few months. Is there a way to quantify the supply opportunity in calendar twenty-six? Assuming you're fully sold out? And also, if the HBM demand is start better than expected, can you increase supply in calendar twenty-six? You're sold out in the next few months? And then I had a quick follow-up.
-
-**Q14 — Krish Sankar**
-Got it. Thanks, miss, Sanjay. Another quick question on HBM four. It's nice to see the 11 gigabits per second pin speed. You also said that you have the offering of both your in-house base die, so that's customized TSM logic die. There a way to figure out what do you expect that mix to be? Do you expect more customers to go with the in-house die or the TSM die? And how easy is it for you from the Micron standpoint of switching between the two based on customer demand?
 

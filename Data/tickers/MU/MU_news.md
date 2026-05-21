@@ -1,12 +1,12 @@
 # MU News Data
-**Generated:** 2026-05-10 02:19
-**Date Range:** 2026-02-09 to 2026-05-10
+**Generated:** 2026-05-21 16:40
+**Date Range:** 2026-02-20 to 2026-05-21
 
 ## Summary Statistics
 
 ### Coverage
 - **Perigon:** 30 stories (aggregated from 30 media items)
-- **FMP:** 30 articles from 12 sources
+- **FMP:** 30 articles from 11 sources
 - **Total:** 60 items
 
 ### Time Distribution
@@ -18,613 +18,617 @@
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.233)
-- Positive-leaning: 25 stories
+**Perigon** (avg composite: +0.143)
+- Positive-leaning: 21 stories
 - Neutral: 0 stories
-- Negative-leaning: 5 stories
+- Negative-leaning: 9 stories
 
 ---
 
 ## Perigon Stories (30 stories)
 
-### 2026-05-10 | Sony, Nintendo raise console prices amid memory cost surge
-**Sentiment:** -0.27 (pos: 0.25, neg: 0.52, neu: 0.23)
+### 2026-05-21 | Micron shares surge 3% premarket as Bridgewater boosts
+**Sentiment:** +0.36 (pos: 0.55, neg: 0.19, neu: 0.26)
 
-Sony and Nintendo said surging memory-chip prices—driven by AI data-center buildouts that are absorbing supply—are squeezing hardware budgets and forcing pricing and inventory tradeoffs across the gaming supply chain. Memory prices doubled in the first quarter and are projected to rise further this quarter, with producers prioritizing AI-focused products and new capacity taking roughly a year to come online. Nintendo expects about 100 billion yen in added financial-year costs from memory and tariffs, leading it to raise Switch 2 prices by 10,000 yen in Japan (to 59,980 yen) and by $50 in the U.S. (to $499.99), while projecting profitability largely unchanged. Sony similarly increased standard PS5 pricing in the U.S. by $100 to $649.99 after securing enough memory supply for the year, but warned that high chip costs may persist into next year. Industry analysts and investors are reframing the outlook from whether game sales are strong to how long the elevated input-cost cycle lasts, noting downstream pressure on other consumer electronics as well. Both companies are also leaning more on software, digital services, and premium strategies to protect margins, though Nintendo faces particular risk because Switch 2 is early in its lifecycle and its audience is more price sensitive.
+Micron Technology shares were slightly higher before the market open, rising about 3% as Bridgewater boosted its stake by 586,000 shares and increased its portfolio allocation. Several other institutional investors also added to Micron during recent SEC-reported periods, including WD Rutherford LLC and the North Dakota State Investment Board, alongside smaller new positions from multiple wealth managers. Hedge fund ownership remains dominated by institutional investors, with around four-fifths of the stock held by funds and other large investors. One report also noted that Micron’s EVP April S. Arnzen sold 40,000 shares in an SEC-disclosed transaction, indicating some internal trimming even as outside investors accumulate. Additional coverage highlighted Micron’s recent trading and valuation snapshot, including a premarket opening level and key market-performance metrics.
 
 **Key Points:**
-- Nintendo said the Switch 2 price changes are part of a broader pricing shift: it also raised prices for the older Switch and online gaming services, and it will move its playing cards from a listed price to an “open price” set by retailers—while it forecasts selling 16.5 million Switch 2 units this year (vs. 19.9 million last year) and 60 million software units.
-- Nintendo’s component-cost squeeze increases pressure to drive demand quickly: Kantan Games founder Serkan Toto said, “Nintendo is now under more pressure than ever to get more first-party blockbusters out this fiscal year” to boost Switch 2 sales.
-- Sony said the impact may last beyond just one fiscal year and is considering other cost moves: Sony CEO Hiroki Totoki stated that even though Sony has secured enough memory for the current year, “high pricing is expected to persist into the next year,” and the company is exploring “alternative cost-reduction methods beyond memory procurement.” The report also links Sony’s hardware profitability to obtaining components at sustainable prices through the PS5’s sixth year on the market.
+- Micron EVP April S. Arnzen’s SEC-disclosed sale involved more detail than just share count: she sold 40,000 shares at an average price of $347.39, for about $13,895,600, leaving her with 125,737 shares valued at roughly $43,679,776.43 (a 24.13% decrease).
+- Beyond Bridgewater, other institutional buyers added specific share totals in their SEC-reported changes—e.g., iA Global Asset Management raised its Micron position by 18.7% to 146,890 shares, Wealthfront Advisers increased by 9.8% to 95,396 shares, and Westpac Banking Corp boosted its stake by 251.0% to 23,086 shares.
+- WD Rutherford LLC’s disclosed buy in the SEC filing was small but specific: it acquired 1,997 shares of Micron valued at approximately $570,000 (4Q).
 
 ---
 
-### 2026-05-09 | Mutares nears €450 million SABIC ETP deal
-**Sentiment:** +0.71 (pos: 0.78, neg: 0.07, neu: 0.15)
+### 2026-05-21 | ASML CEO Warns Long-Term Chip Supply Constraints
+**Sentiment:** -0.12 (pos: 0.19, neg: 0.31, neu: 0.50)
 
-Micron’s AI-driven rally is drawing Wall Street attention as demand from hyperscalers for high-performance memory lifts pricing power, with the stock up nearly 90% year-to-date and more than 500% over 12 months; analysts are mostly bullish (27 of 30 “Buy”), but investors are debating whether valuation has already priced in the AI boom. In India, “smart money” behavior is highlighted in 5paisa Capital, where foreign institutional investors raised their stake by 2.7 percentage points to 15.1% and promoters increased by 3.72 points to 36.5% as of April 20, 2026, alongside growth in its customer and app user base. Mutares, meanwhile, trades near its lows despite Cantor Fitzgerald’s €48 target, with the gap largely attributed to leverage as the company pursues its $450 million SABIC Engineering Thermoplastics acquisition while trying to repair bond covenant breaches; bondholders granted a reprieve until end-June 2026 and the plan calls for quarterly bond buybacks. On Visa, the outlook carries a significant downside risk from potential U.S. legislation—such as a Credit Card Competition Act effort to enable network competition and reduce interchange fees—as well as an ongoing DOJ antitrust case into debit-market monopolization that could intensify if adverse rulings or disclosures emerge. Taken together, the articles emphasize how AI infrastructure growth, ownership changes, deal-and-debt execution, and regulatory/antitrust timelines are all shaping near-term investment risk-reward across different sectors.
+ASML CEO Christophe Fouquet warned that the semiconductor market is likely to remain supply-constrained for a prolonged period as AI-driven demand grows faster than the industry’s ability to expand capacity, with the chip market potentially reaching $1.5 trillion by 2030. He pointed to large-scale compute and infrastructure bets—including Elon Musk’s proposed TeraFab—as potential sources of additional equipment demand that could keep supply-chain bottlenecks “sporadic” even as ASML boosts output and tool productivity. ASML also expects its next-generation High NA EUV systems to produce first chips within months, with early performance data for logic and memory arriving this year to determine how quickly leading-edge buildouts can proceed. However, Fouquet highlighted how export-rule shifts—especially U.S. pressure to restrict certain ASML tools to China—could accelerate domestic alternatives in China and reshape demand and pricing across ASML’s less-advanced equipment lines. Across the outlook, the key uncertainty is whether new tool-generation “proof points” like High NA EUV deliver enough yields and throughput to unlock faster adoption, or whether the AI boom outpaces planning despite ongoing industry investment.
 
 **Key Points:**
-- Micron’s AI-driven surge is tied to specific product categories: it sells both DRAM and NAND flash, placing it directly in the data-center memory stack for training and inference workloads—an angle not spelled out in the summary.
-- The bull case also leans on a pricing inflection: the articles say memory prices “have recovered significantly from historical lows,” enabling Micron to expand gross margins in a cycle where margin pressure is typically common.
-- For 5paisa Capital, the ownership build came via different mechanisms: promoters bought new shares through an April 2026 rights issue, while foreign investors added through open-market purchases.
+- In a rare interview, ASML CEO Christophe Fouquet said, “Demand on AI is coming so strongly that we will be in a supply-limited market for quite a while,” and he specifically pointed to Elon Musk’s TeraFab alongside other non-traditional demand sources such as Starlink satellites. Fouquet said he had spoken with Musk and added, “He’s very serious about all those projects.”
+- Fouquet said Intel is set to be an early adopter of ASML’s next-generation High NA EUV systems, with the company expecting first logic chips within months using the tool.
+- Export-rule changes could “change competitors faster than sales forecasts,” Fouquet warned—particularly if the U.S. pushes to restrict ASML’s deep ultraviolet (DUV) tools to China even though the systems sold there use “2015-era technology.” If upgrades become harder, the incentives for Chinese chipmakers and equipment firms to fund domestic alternatives and “manufacturing workarounds” rise, reshaping ASML demand and pricing for its less-advanced tool lines.
 
 ---
 
-### 2026-05-09 | Samsung, SK Hynix post record Q1 profits
-**Sentiment:** +0.21 (pos: 0.43, neg: 0.22, neu: 0.34)
+### 2026-05-21 | Mizuho Lifts Multiple Price Targets, Including Micron
+**Sentiment:** +0.34 (pos: 0.49, neg: 0.15, neu: 0.36)
 
-Samsung and SK Hynix both reported standout Q1 2026 results tied to accelerating AI demand, with Samsung posting KRW 133.9 trillion in revenue and KRW 57.2 trillion operating profit, while SK Hynix logged KRW 52.5 trillion in revenue and KRW 37.6 trillion operating profit. Investors and analysts are broadly bullish on both firms, keeping them in Strong Buy territory, with SK Hynix holding a marginal edge. A notable industry wrinkle is that conventional DRAM profitability briefly overtook HBM profitability due to differences in how quickly prices can be renegotiated for each product type. Samsung said it would emphasize a “balanced product mix” and supply-chain stability for the broader AI ecosystem rather than chasing short-term margin gains, while SK Hynix pointed to restructuring long-term supply agreement terms as part of its response to the HBM/DRAM margin shift. Separately, Intel is pitching an alternative to HBM—ZAM (Z-Angle Memory)—as a potential path to higher bandwidth in AI accelerators, aiming to address perceived HBM bandwidth limits and challenging the incumbents’ dominance.
+The update described is a Benzinga Pro promotional set that packages multiple fast trader alerts based on Mizuho analyst commentary. In the alerts, Mizuho kept an Outperform view on Humana, STMicroelectronics, On Semiconductor, and Micron while raising their price targets, and it kept a Neutral view on Texas Instruments while increasing that target. The set frames the changes as incremental sell-side updates that traders can react to via real-time news alerts. Overall, it highlights valuation-target adjustments and AI/data-center-related demand themes driving the price-target revisions across the covered companies.
 
 **Key Points:**
-- Samsung said it plans to invest “over KRW 110 trillion” in 2026 across research initiatives and manufacturing infrastructure, underscoring a longer-term push to stay competitive in AI-focused semiconductors rather than optimizing purely for near-term memory margins.
-- Reuters reporting cited by the articles flagged labor tensions at Samsung—workforce disputes and “possible strike action” that could disrupt chip manufacturing facilities—adding an operational risk factor alongside the company’s AI-memory strategy.
-- Samsung confirmed the DRAM-vs-HBM profitability reversal on its Q1 2026 earnings call (April 30), with executives saying: “It is true that conventional DRAM is showing relatively higher profitability than HBM,” and explaining the mechanics: “While HBM operates annual advance price negotiations… conventional DRAM conducts quarterly negotiations.” Samsung also cautioned against an overly DRAM-skewed mix, warning there could be “concern that constraints could arise in the AI infrastructure build itself.”
+- Mizuho maintained an “Outperform” rating on Humana and raised its price target to $335.00.
+- Mizuho kept a “Neutral” rating on Texas Instruments and raised its price target to $300.00.
+- Mizuho maintained an “Outperform” rating on STMicroelectronics and raised its price target to $68.00.
 
 ---
 
-### 2026-05-09 | S&P 500, Nasdaq, Dow close higher
-**Sentiment:** +0.51 (pos: 0.67, neg: 0.16, neu: 0.16)
+### 2026-05-21 | Citigroup raises SanDisk price target $2,025
+**Sentiment:** +0.63 (pos: 0.70, neg: 0.06, neu: 0.24)
 
-U.S. stocks closed higher on May 6, with the S&P 500, Nasdaq Composite, and Dow Jones Industrial Average all finishing in positive territory. The Nasdaq’s rise outpaced the broader market, reflecting renewed demand for growth and technology stocks, while the Dow advanced more modestly. Sector performance was broadly positive, with all 11 S&P 500 sectors ending green and materials and technology among the top gainers, while utilities lagged. The rally is described as part of a wider market recalibration in which investors weigh corporate earnings, economic data, and Federal Reserve-related signals, with the absence of major negative surprises helping sentiment. Market commentary emphasizes that the strength across indices supports a diversification-focused view as traders watch whether momentum can continue.
+Multiple analysts have raised price targets for SanDisk (SNDK), citing strengthening NAND flash demand tied to artificial intelligence and reinforced by recent Kioxia results. Citigroup lifted its target to $2,025 from $1,300 and argued SanDisk should be valued less like a cyclical memory trade and more like a supplier with contractual NAND supply rights, including price floors and other mechanisms that could reduce earnings volatility. Melius Research similarly boosted its target to a Street-high $2,350 while maintaining a Buy rating, pointing to memory as a key AI bottleneck and to long-term agreements that improve predictability. The upgrade backdrop includes SanDisk’s strong quarterly performance, with reported EPS and revenue well above prior-year and above consensus, alongside high profitability metrics. Other firms also moved targets upward across a wide range, and overall coverage remains largely positive, with a “Moderate Buy” consensus implied by analyst ratings. Taken together, the reports suggest investors see both near-term execution and longer-term contract-driven stability as reasons for a premium valuation.
 
 **Key Points:**
-- The Nasdaq’s outperformance was linked to investors moving back toward growth/technology after “headwinds in recent weeks due to rising interest rate expectations,” according to market commentary.
-- The Dow’s more modest gain was attributed to “more cautious participation” from “traditional industrial and consumer staple stocks,” rather than the broad enthusiasm seen in tech/growth.
-- Sector detail: all 11 S&P 500 sectors finished higher, with materials up 1.67% and technology up 1.63%—while utilities were the weakest at just 0.01%.
+- Melius Research analyst Ben Reitzes said on CNBC’s “Squawk Box” that memory is a “key AI bottleneck,” and he flagged that long-term agreements make the company “more predictable” than investors assume; he also singled out Micron and Intel as stocks he would buy the most.
+- Beyond Citi and Melius, other analysts raised targets for SanDisk: RBC to $1,000 (from $650), Mizuho to $1,220, Bank of America to $1,080 (from $900), Wedbush to $1,200 (from $740), and Goldman Sachs reiterated $1,200—while MarketBeat data cited a “Moderate Buy” consensus and a $1,157.14 consensus target.
+- SanDisk’s latest quarter included specific profitability metrics: EPS of $23.41 versus $14.17 consensus, net margin of 34.19%, return on equity of 44.06%, and revenue of $5.95 billion (up 251% year over year).
 
 ---
 
-### 2026-05-09 | Two Hands completes EntangleX quantum engine
-**Sentiment:** +0.31 (pos: 0.43, neg: 0.12, neu: 0.45)
+### 2026-05-21 | Micron Shares Jump on AI Memory, Networking Bets
+**Sentiment:** -0.05 (pos: 0.27, neg: 0.32, neu: 0.42)
 
-Work on quantum spin systems highlights a key bottleneck: weak nuclear polarization limits traditional liquid-state and solid-state approaches to pseudo-pure states that are hard to genuinely entangle, motivating hybrid architectures that couple long-lived nuclear spins with more strongly controllable electron spins to enable stronger initialization and entanglement prospects. Recent progress using cryogenic and high-magnetic-field methods in silicon suggests a path toward ensemble entanglement closer to scalable quantum technologies. Separately, a new protocol shows how to generate high-fidelity entanglement between qubits separated by arbitrarily large distances using constant-sized quantum devices arranged in a planar grid, achieving Bell pairs in constant time with resources that scale only polynomially with the logarithm of distance and tolerating local stochastic Pauli noise. Broader industry concerns are also shifting as researchers suggest fault-tolerant quantum computing could arrive 5 to 10 years earlier than expected, potentially accelerating attention to quantum-safe cryptography since many systems rely on elliptic-curve methods vulnerable to quantum algorithms. Policymakers and space strategists are likewise positioning quantum sensing, communications, and security as important to Earth-Moon operations, with the United States, Europe, and China pursuing new national roadmaps and strategies. On the access side, Two Hands announced EntangleX, a browser-based quantum computing engine intended to let students and researchers build and run quantum circuits without programming requirements or specialized infrastructure.
+Micron shares jumped nearly 700% amid renewed AI “memory” expectations. Several developers said persistence can improve continuity but also introduces new failure modes. An analysis of the Hermes Agent’s skill system cautioned that when the same model both produces and judges “knowledge,” performance gains may reflect compounded confidence rather than validated correctness, making skills stale or brittle. Other developers described a local-first memory graph that required human approval before anything became durable, and a Claude Code experiment with persistent memory across more than 200 sessions that showed erratic behavior and offensive language. Practical guidance emphasized that long-running context windows and long-lived sessions can quietly raise token costs, and that starting new sessions or summarizing can help control reliability and expenses. In parallel, investors also looked beyond “memory chips” toward faster GPU-to-rack networking bottlenecks in data centers, while some public commentary warned that heavy AI use could erode human memory and emotional intelligence.
 
 **Key Points:**
-- A key limitation is quantified: the nuclear spin polarization of 29Si stays very low—reported as “<10%” even at 25 mK in a 10‑T magnetic field—forcing algorithms to rely on weakly initialized pseudo-pure states rather than strongly entangled states.
-- The silicon/ensemble hybrid-spin approach emphasizes scaling advantages beyond coherence alone: the article notes that N spins benefit from N^½ scaling in both (1) their spin signal-to-noise ratio and (2) their coupling strength to external degrees of freedom—addressing why ensembles are attractive if entanglement can be realized.
-- For the distant-entanglement protocol, the authors report more than just Bell-pair generation: it also provides “the first example of a short-range entangled state in two dimensions exhibiting long-range localizable entanglement,” and outlines a pathway toward constructing “2D-local stabilizer Hamiltonians with unique thermal properties,” while remaining robust to local stochastic Pauli noise below a threshold.
+- In the Hermes Agent analysis, developers note a benchmark where agents with “20+ self-generated skills” complete similar tasks “40% faster,” but the author stresses this metric captures speed—not correctness—and warns the underlying issue “is not a bug that can be cleanly patched” because the system both generates and judges the knowledge.
+- The Hermes challenge write-up highlights that the framework’s design choices go beyond “feature marketing,” including a “three-layer memory system,” the “GEPA self-evolution engine presented at ICLR 2026,” “local skill persistence with no telemetry,” and “provider-agnostic routing across 400+ models.”
+- The local-first memory graph project specifies concrete privacy/control properties: it keeps the knowledge as “a JSON file on my machine” with “No account. No sync. No telemetry,” and it exports a “tiny context snapshot” that can be pasted into “Claude, GPT, Ollama, or whatever you’re using next week.”
 
 ---
 
-### 2026-05-09 | Energy, AI semiconductor stocks lead May gains
-**Sentiment:** +0.45 (pos: 0.53, neg: 0.08, neu: 0.39)
+### 2026-05-21 | Bitcoin ETFs See Biggest Outflows; DRAM Leverage Filing
+**Sentiment:** -0.26 (pos: 0.22, neg: 0.48, neu: 0.30)
 
-Ahead of May 2026, markets have shown selective strength rather than broad-based gains, with energy and AI-linked semiconductor infrastructure standing out—an environment tied to tight oil supply and policy-driven financial conditions, alongside improving earnings visibility in chip supply chains. One bullish takeaway is that investors see Chevron (CVX) and Micron (MU) as well positioned to benefit from these sector tailwinds, even as inflation, cautious central banks, and geopolitics keep overall macro volatility elevated. Separately, semiconductor stocks are described as surging during spring, with the VanEck Semiconductor ETF (SMH) posting its largest monthly gain on record in April (+32.2%), supported by the durability of the AI boom. A look back at Schaeffer’s “best stocks to own in May” list suggests semiconductors have been a consistent outperforming slice, with 13 of 25 names in the group classified as semiconductor stocks and key holdings like Broadcom and Applied Materials ending April’s period positive most of the time and posting strong average gains. Other “technology stocks to watch” lists also keep Micron, Sandisk, and major chip players such as Intel (and in one case NVIDIA) in focus for near-term trading interest, reflecting demand for memory/storage exposure tied to ongoing compute and AI trends.
+A Bank of America survey says managers have cut bond exposure to the lowest level since mid-2022 while adding to equities as inflation fears and the risk of disorderly bond-yield moves drive an “anti-duration” unwind, with higher and rising real Treasury yields tightening financial conditions. In the U.S., spot bitcoin ETFs recorded their largest single-day net outflows since late January, with about $648.6 million leaving on May 18 and roughly $1 billion out in the prior week, led by heavy selling from major issuers. Bitcoin is consolidating in the mid-to-high $70,000 range as institutional risk-off, profit-taking, volatility, and yields weigh on prices, while CoinShares data shows some rotation into select altcoins such as XRP and solana despite near-$1 billion outflows from bitcoin and large outflows from ethereum. Separately, Themes ETFs has filed for a leveraged version of its DRAM memory-chip themed ETF, which has surged since launch on expectations tied to HBM and AI/data-center demand.
 
 **Key Points:**
-- Article 1 cites the U.S. Energy Information Administration in arguing that energy has support from “constrained global supply and below-average inventories,” helping underpin crude prices and energy equities; it also notes the Energy Select Sector SPDR Fund (XLE) was up “32.8% year to date.”
-- MarketBeat’s screener-based “technology stocks to watch” (Micron, Sandisk, Intel) says these names “had the highest dollar trading volume of any Technology stocks within the last several days,” implying unusually active investor positioning ahead of May.
-- The MarketBeat rundown adds product-detail context for Micron and SanDisk: Micron’s offering includes “dynamic random access memory…with low latency,” plus “non-volatile and re-writeable semiconductor storage devices,” while SanDisk is described as providing flash-based storage solutions across form factors including “SSDs,” embedded products, removable cards, and USB drives.
+- Bank of America’s May Global Fund Manager Survey quantified the “anti-duration” positioning: managers were net 44% underweight bonds (deepest since June 2022), while equity exposure was pushed to a net 50% overweight (from 13% in April) and cash fell to 3.9% (from 4.3%). The survey also put numbers on the key fears—40% of managers cited “second-wave inflation” as the biggest tail risk and 18% cited a disorderly rise in bond yields.
+- U.S. spot bitcoin ETFs logged the biggest single-day outflows since Jan. 29, with SoSoValue data showing $648.6 million in net outflows across seven funds on May 18—extending last week’s roughly $1 billion drain and ending a six-week positive flow streak. BlackRock’s IBIT led with $448.3 million of outflows, followed by ARK/21Shares’ ARKB ($109.6 million) and Fidelity’s FBTC ($63.4 million).
+- The Block linked bitcoin’s move lower (dropping below $77,000 over the weekend) not only to rates, but also to geopolitical and energy inflation concerns—renewed U.S.-Iran tensions and rising oil prices. It also noted stablecoin dynamics as a liquidity signal: “major stablecoins led by USDT and USDC have expanded in market cap,” suggesting sidelined liquidity that could be poised for dip-buying near key support levels.
 
 ---
 
-### 2026-05-09 | Institutional investors adjust Micron Technology stakes
-**Sentiment:** +0.20 (pos: 0.40, neg: 0.20, neu: 0.40)
+### 2026-05-20 | CXMT surges profit, STAR Market IPO inquiry
+**Sentiment:** +0.63 (pos: 0.73, neg: 0.10, neu: 0.18)
 
-Micron Technology’s stock saw mixed institutional activity as multiple funds adjusted positions: STRS Ohio cut its stake by 12.1%, while PFA Pension Forsikringsaktieselskab bought a new position and Citizens Financial Group Inc. RI increased its holdings in the fourth quarter. Other reporting also noted further buys and trims across major investors, including Fifth Third Bancorp slightly reducing its stake. Company-related trading included an EVP sale by April S. Arnzen of 40,000 shares at an average price of $347.39, according to the disclosure described in one report. Alongside these ownership moves, commentary in the coverage pointed to improving fundamentals expectations tied to cloud and AI demand—suggesting higher memory prices and capex—and rising high-bandwidth memory (HBM) needs for AI workloads. Research coverage cited in the articles also highlighted broker recalibration, with Citigroup lowering its Micron price target from $510 to $425 while keeping a buy rating.
+ChangXin Memory Technologies (CXMT) reported a dramatic first-quarter turnaround, with revenue surging more than sevenfold and net profit rising sharply year over year as global DRAM prices rebounded on strong AI-driven demand and tighter supply. The Hefei-based DRAM maker said it has restarted steps toward a highly anticipated IPO on Shanghai’s STAR Market, moving the process to the inquiry stage after a pause tied to updated regulatory filing requirements. In an updated prospectus, CXMT forecast first-half revenue of 110 billion to 120 billion yuan and profit of 50 billion to 57 billion yuan, projecting results that would bring it closer to top-tier memory peers if realized. CXMT attributed the surge to a widening supply-and-demand imbalance, improved product mix, and production scale-up to capture higher margins. Investors and industry observers said the outlook will be tested by whether China can sustain large-scale DRAM growth amid shifting global supply dynamics this year. The company’s momentum is also viewed as a signal of how China’s memory-chip sector is advancing in the AI era, when faster memory access becomes critical.
 
 **Key Points:**
-- Beyond the headline funds, multiple other institutional investors materially increased their Micron positions in the reported quarters—for example, Brighton Jones LLC boosted its stake by 18.3% (to 6,318 shares), Sivia Capital Partners LLC by 21.7% (to 3,528 shares), Schnieders Capital Management LLC by 67.9% (to 16,984 shares), and Sei Investments Co. by 5.6% (to 405,545 shares).
-- Other reported buyers included iA Global Asset Management Inc., which increased its Micron stake by 18.7% in the third quarter (to 146,890 shares), as well as Westpac Banking Corp, which dramatically raised its holdings by 251.0% (to 23,086 shares).
-- Company and market context in the coverage included a strong recent trading reference point: Micron shares opened at $542.21, and the report cited a 12-month low of $78.54.
+- CXMT said its first-quarter net profit jumped 1,688% year over year to 24.76 billion yuan, after reporting a net loss of about 1.6 billion yuan in the year-ago period; revenue rose to 50.8 billion yuan (more than a sevenfold increase).
+- In its guidance, CXMT noted that the top end of its first-half profit forecast (57 billion yuan) would imply a 2,544% increase versus the prior-year period, which—if achieved—would move it much closer to tier-one memory peers such as Samsung Electronics, SK Hynix and Micron.
+- CXMT said it is targeting about $4 billion in IPO proceeds, which it plans to use for “advanced technology upgrades” and related capacity/production expansion (as described in its filing update).
 
 ---
 
-### 2026-05-08 | MIDA positions Malaysia semiconductor hub JS-SEZ
-**Sentiment:** +0.70 (pos: 0.73, neg: 0.03, neu: 0.24)
+### 2026-05-19 | Eclipse Ventures $2.5B Cerebras return fuels physical-world push
+**Sentiment:** +0.52 (pos: 0.62, neg: 0.10, neu: 0.29)
 
-Malaysia’s investment agency, MIDA, says it wants to deepen the country’s semiconductor role by pairing continued attraction of strategic, high-quality foreign direct investment with stronger domestic participation and reinvestment across the value chain. Through the Johor–Singapore Special Economic Zone, MIDA is positioning Malaysia as a dependable semiconductor supply-chain partner by linking global leaders with local capabilities and expanding supplier competitiveness, including engagement involving Micron Technology and OCBC. At industry forums aligned with SEMICON Southeast Asia 2026, MIDA and the Malaysia Semiconductor Industry Association emphasized that the central challenge is ensuring more of the value created from semiconductor investments is captured by Malaysian firms. MIDA highlighted flagship programs such as the Enterprise Growth Platform to help local companies scale into anchor supply chains and partnerships, alongside other supply-chain integration and capability-building efforts. In parallel, MIDA is funding workforce and technology readiness, citing the sector’s shift driven by AI, electrification, and advanced computing and the move beyond assembly toward higher-value activities like IC design and advanced packaging. Key efforts include the STF-TF talent taskforce and the ARM-Malaysia initiative to train up to 10,000 engineers for IC design, supplemented by youth employability programs aimed at accelerating hiring into the future semiconductor ecosystem.
+Eclipse Ventures founder Lior Susan said that when he launched the firm in 2015, its thesis of digitizing the physical world was largely out of step with Silicon Valley’s focus on enterprise software and SaaS. He pointed to Eclipse’s $6.5 million Series A in Cerebras Systems in 2016 as a key proof point, saying the company’s IPO this week produced a $2.5 billion total return for Eclipse and a 17-fold gain versus the firm’s cumulative $147 million investment, including an IPO price of $185 per share. Susan argued the upside will extend beyond semiconductors because 85% of global GDP is tied to the physical economy, and he framed that as a lasting investment opportunity. He also suggested the competitive moat in pure software has eroded, since tools like “vibe code” make software creation easier for enterprises to replicate internally. That shift, he said, helped drive earlier declines in many SaaS stocks amid concerns that companies could build bespoke tools using models from firms such as Anthropic and OpenAI. Meanwhile, investors and founders are increasingly enthusiastic about hardware-and-software startups, citing strength in names like TSMC and Micron as evidence of that renewed focus.
 
 **Key Points:**
-- MIDA’s CEO said supply-chain resilience “is no longer built on a scale alone, but on trust, and strategic partnerships,” describing the JS-SEZ as a trust-and-partnership platform rather than just a scale play.
-- At the SEMICON Southeast Asia 2026-linked forum, MIDA said the session would “strengthen linkages, identify capability gaps, and facilitate business matching and partnerships between multinational anchor investors and Malaysian suppliers,” highlighting matchmaking as a core mechanism—not just strategy.
-- MIDA described its Northern Region Enterprise Growth Platform rollout: the April 27 programme in Sungai Petani, Kedah brought together “state government, financiers, regulators, and export promotion partners” with Northern-region companies—explicitly wiring together multiple enabling roles in one format.
+- Speaking at a StrictlyVC event in San Francisco, Eclipse founder Lior Susan said that when he launched in 2015 “It was the era of enterprise software and SaaS, and it felt fairly lonely the first couple of years.”
+- Susan argued the “real moat in software” has eroded, saying, “You can vibe code pretty much whatever you want,” implying enterprises can replicate software capabilities internally.
+- He contrasted software replication with physical constraints, saying: “What you cannot do with ‘vibe code’ is manufacture wafers, because you need machines and silicon, and they need clean rooms, and a bunch of other things.”
 
 ---
 
-### 2026-05-08 | Micron AI-memory rally logs 28 records
-**Sentiment:** +0.30 (pos: 0.49, neg: 0.19, neu: 0.33)
+### 2026-05-18 | Markets slide after Trump rejects Iran ceasefire proposal
+**Sentiment:** -0.73 (pos: 0.08, neg: 0.81, neu: 0.11)
 
-Micron shares surged as investors continued to pile into the AI-driven memory boom, with the company gaining strong pricing power as demand for advanced memory outstrips supply. Multiple reports highlight a structural shortage, including Micron’s high-bandwidth memory (HBM) capacity being effectively booked through 2026, helping drive sharply higher revenue and record gross margins. Micron’s CEO and industry commentary characterize this as an early phase of an intensifying cycle: AI inference requires large, fast memory to hold state (such as KV cache), and insufficient memory can sharply reduce GPU utilization efficiency. Wall Street analysts point to additional upside from “agentic” AI workloads that are expected to further increase bandwidth needs. At the same time, Reuters reporting suggests suppliers are under pressure company-wide, with major tech firms proposing to help fund SK Hynix expansion or even buy costly lithography equipment—though SK Hynix is cautious about becoming beholden to customers and losing bargaining power. Overall, the combined picture is of persistent memory constraints lasting into the late 2020s, pushing customers toward advance payments and price premiums while pressuring chip makers’ production capacity and timing.
+Markets across Asia and North America turned cautious after U.S. President Donald Trump rejected Iran’s response to a proposed peace framework, with investors focused on the risk that the 10-week conflict drags on and pushes up oil prices. In Thailand, the SET Index slipped as energy and banking stocks faced selling pressure, while investors rotated toward selected banks they expect to benefit from a THB 400 billion government loan decree and held more cash ahead of a likely consolidation after Q2; the market is also watching Trump and Xi Jinping’s upcoming meeting as a potential catalyst with limited direct impact. In India, stocks fell on the same geopolitical shock and a weaker rupee, while Prime Minister Narendra Modi urged households to reduce imported spending, including delaying wedding gold purchases, to conserve foreign exchange. In the United States, major indexes started mixed amid continued volatility, but some strategists argued the market still expects a ceasefire could be reached and cited stronger earnings as a floor for prices. A Reuters account of Canadian index futures similarly pointed to oil-driven anxiety, notes of tight markets, and gold slipping as inflation fears raised expectations that rates could stay higher longer. Thailand’s near-term outlook remains volatile as the final tranche of Q1 earnings nears, second-quarter energy profitability expectations improve with oil’s rebound, and investors wait to see whether a constitutional challenge to the loan decree proceeds.
 
 **Key Points:**
-- Micron is meeting only about two-thirds of customers’ actual HBM demand, and the company’s Q3 guide calls for revenue of $33.5B with gross margin around 81%, reflecting how tight allocation is translating into financial outperformance.
-- A Mizuho analyst tied to the “agentic AI” ramp highlighted a much more detailed outlook—projecting fiscal 2027 revenue growth of 66% (and EPS +80% YoY), and estimating Micron HBM revenue at $19.1B in 2026 rising to $35.7B by 2028.
-- Micron CEO Sanjay Mehrotra told CNBC the current AI memory demand surge is only the “first innings,” arguing the bottleneck is structural because memory production can’t be ramped quickly enough to match inference and token growth.
+- In Thailand, foreign-investor (NVDR) flows shifted away from energy and into banking, with the top non-NVDR energy buys including PTT (~THB 2.0 billion) and GULF (~THB 900 million), while “there was limited buying of PTTEP and refinery stocks due to perceived downside risks in the second quarter.”
+- Thailand’s Kasikorn view also pointed to earnings strength and a growth upside: “more than 80%” of Q1 results had met or exceeded expectations, and the THB 400 billion loan decree could lift 2026 GDP growth to “nearly 2% or more, compared to…1.2%.”
+- In the US market narrative around the Iran rejection, Trump’s posted reaction on Truth Social was cited as: “Absolutely unacceptable.” Strategist Tom Essaye added that “The market still believes that a ceasefire agreement will be reached,” while BlackRock’s Rick Rieder warned the oil shock “may slow economic growth,” but said “much larger structural factors will keep the overall economy in a much better state than many people expect.”
 
 ---
 
-### 2026-05-08 | Sandisk reports $5.95B AI-led Q3 results
-**Sentiment:** +0.70 (pos: 0.79, neg: 0.09, neu: 0.13)
+### 2026-05-18 | Applied Materials shares drop 4.23% after Q2
+**Sentiment:** +0.39 (pos: 0.60, neg: 0.20, neu: 0.20)
 
-SanDisk (SNDK) reported fiscal third-quarter results with adjusted earnings of $23.41 per share and revenue of $5.95 billion, both well above analyst expectations, after a prior-year loss period. The surge was driven largely by AI-linked demand in datacenter storage and a shift toward higher-value customers, with datacenter revenue rising to $1.47 billion and edge revenue up sequentially as pricing improved. The company is also transitioning to a new multi-year “New Business Model” backed by firm financial commitments, signing three NBM agreements in the quarter and two more in early Q4, including arrangements tied to AI companies totaling over $42 billion in minimum revenue/guarantees. Financially, SandDisk highlighted record non-GAAP gross margin of 78.4%, strong free cash flow of $2.99 billion, and ended the quarter with about $3.74 billion in cash and no debt, while announcing a $6 billion share repurchase program. For Q4, the company guided revenue to $7.75 billion–$8.25 billion and non-GAAP diluted EPS to $30.00–$33.00. Despite the upbeat results and outlook, shares reportedly fell more than 4% on the day, attributed to profit-taking.
+Applied Materials reported record fiscal Q2 2026 results, including revenue of $7.91 billion and non-GAAP EPS of $2.86, while also posting a first-time-in-years jump in non-GAAP gross margin and citing strong demand tied to AI and high-performance computing. Management raised its outlook for semiconductor equipment growth for calendar 2026 to more than 30% and issued upbeat guidance for fiscal Q3, reinforcing expectations of sustained multi-year earnings power. Despite the strong fundamentals, AMAT shares fell by nearly 1% after the results as investors weighed whether much of the good news had already been priced in and joined broader profit-taking across the semiconductor sector. Additional caution came from reports that Morgan Stanley downgraded AMAT and favored competitor MKS, alongside concerns about capital expenditure levels that pressured free cash flow despite profitability. Coverage of the quarter highlighted strength across Applied’s Semiconductor Systems segment and growth in services, with meaningful revenue contributions from China, Taiwan, and Korea. Overall, the tension for investors centers on whether the raised guidance creates a new entry point or whether valuation and near-term cash-flow considerations limit upside.
 
 **Key Points:**
-- Sandisk reported GAAP results alongside non-GAAP: GAAP net income totaled $3.62 billion, or $23.03 per diluted share, compared with $803 million, or $5.15 per share, in the prior quarter. Operating income increased to $4.11 billion from $1.07 billion in the previous quarter.
-- Segment detail showed edge and consumer divergence: Edge revenue rose 118% quarter over quarter to $3.66 billion, while consumer revenue declined 10% sequentially but remained 44% higher year over year.
-- Sandisk’s non-GAAP measures were adjusted for specific items in guidance: the company said non-GAAP gross margin guidance excludes stock-based compensation expense of approximately $4 million to $6 million, while non-GAAP operating expense guidance excludes stock-based compensation expense of approximately $43 million to $58 million (and other adjustments were also carved out).
+- Applied Materials said non-GAAP gross margin crossed 50% for the first time in more than 25 years.
+- For fiscal Q3, the company guided adjusted EPS of $3.36 (plus or minus $0.20) and projected revenue of $8.95 billion (plus or minus $0.5 billion).
+- Coverage of the results noted Applied also increased its quarterly dividend.
 
 ---
 
-### 2026-04-10 | AI Memory Bottlenecks Spur Storage and Chip Efforts
-**Sentiment:** +0.02 (pos: 0.30, neg: 0.28, neu: 0.42)
+### 2026-04-21 | Q1 2026 memory shortage peaks, stalls AI
+**Sentiment:** -0.44 (pos: 0.14, neg: 0.58, neu: 0.28)
 
-Dell CEO Michael Dell warned that AI infrastructure could drive total memory demand about 625 times higher by 2028, fueled by increases in memory per accelerator (roughly 80GB to ~2TB) and the number of deployed accelerators, while he cautioned memory supply may not keep pace and could keep RAM prices elevated for years. Analysts and storage-industry experts continue to frame the challenge as a “memory hierarchy” problem, noting AI servers can use around eight times more memory than traditional servers and that moving data closer to GPUs improves performance but is constrained by capacity and bandwidth. Separate research reported progress toward “logic-embedded memory” to reduce the energy and latency costs of shuttling data between separate compute and memory, demonstrating an ultra-thin aluminum scandium nitride stacked memory device with about 30 nanometers total thickness. In the storage-software layer, NetApp and Nutanix announced collaboration to integrate NetApp’s Intelligent Data Infrastructure (including ONTAP) with Nutanix’s Cloud Platform to modernize virtualization and deliver secure, AI-ready storage across on-premises, cloud, and containers.
+Global DRAM and high-bandwidth memory (HBM) shortages peaked in Q1 2026, delaying AI infrastructure rollouts and pressuring PC builds as companies from Intel to smartphone and data-center supply chains struggled to secure enough memory for agentic AI-driven demand. Intel said its supply constraints would peak in Q1 and ease in Q2 2026, a timeline analysts cited in raising Intel’s outlook, while JPMorgan downgraded Qualcomm and optical component makers over near-term weakness tied to the memory squeeze. The bottleneck is rooted in memory supply chains concentrated in Asia and in the shift in demand toward agentic AI workloads that require more memory and compute than earlier application models. Broader industry reporting warns the shortfall may last well beyond 2026—potentially through 2027 and even toward 2030—because planned industry capacity expansion lags what’s needed as manufacturers prioritize HBM over standard DRAM for consumer electronics. That reallocation is contributing to higher smartphone and laptop costs and is expected to weigh on device sales and margins, with regulators and analysts pointing to the memory-heavy nature of consumer hardware.
 
 **Key Points:**
-- Michael Dell said AI-driven memory shortages could become so severe that “companies are forced to pay whatever price demanded by manufacturers for memory chips,” and noted RAM prices have “increased steadily over the past few weeks,” raising the cost of electronics.
-- Dell also argued that price pressure won’t deter businesses from upgrading systems: “It doesn't make sense for a knowledge worker earning $100,000 a year to use an outdated PC or an inefficient system.”
-- Researchers highlighted why logic-embedded memory is hard to scale down in practice: while making ultra-thin layers of aluminum scandium nitride had been studied, the full stacked device includes multiple layers (including electrodes), and “simply making the device thinner can degrade its performance” by causing the internal crystal structure to become disordered.
+- Nikkei Asia projected the market may only supply about 60% of computer-memory demand by the end of 2027, with the supply-demand gap possibly persisting until around 2030; experts said the industry would need ~12% annual capacity growth in 2026–2027, but current investment plans indicate only ~7.5%, creating a structural shortfall.
+- Suppliers that control roughly 90% of the DRAM market are increasingly prioritizing HBM for AI servers, and that prioritization is reflected in pricing: contract rates for the first quarter of 2026 were up about 90% versus the prior quarter, pushing up the cost of general-purpose DRAM used in smartphones and PCs.
+- The consumer cost squeeze is forecast to intensify: memory is expected to rise from about 20% of the manufacturing cost for entry-level smartphones to nearly 40% by mid-2026; IDC expects this pressure to trigger a 13% drop in global smartphone sales this year as profitability deteriorates for lower-tier brands.
 
 ---
 
-### 2026-04-10 | Micron record revenue, AI HBM sold out
-**Sentiment:** +0.57 (pos: 0.65, neg: 0.08, neu: 0.27)
+### 2026-04-21 | Samsung plans HBM development cycle cut to 1 year
+**Sentiment:** +0.03 (pos: 0.33, neg: 0.30, neu: 0.37)
 
-Micron is reporting record performance driven by surging AI datacenter demand for high-bandwidth memory (HBM), including fiscal Q2 2026 revenue of $23.86 billion and gross margins of 74.4%, along with guidance for about $33.5 billion in revenue in fiscal Q3 and margins approaching 81% (https://parameter.io/micron-mu-vs-sandisk-sndk-battle-of-memory-stocks-as-ai-demand-surges-in-2026/, https://www.ad-hoc-news.de/boerse/news/ueberblick/micron-capitalizes-on-ai-infrastructure-surge-with-record-performance/69084919). Multiple reports say Micron’s next-gen HBM is effectively fully booked—its HBM4 production for 2026 is pre-sold under binding contracts—and that the company is tied to Nvidia’s upcoming “Vera Rubin” platform, strengthening the case that AI memory demand is becoming less like a traditional cyclical market (https://www.ad-hoc-news.de/boerse/news/ueberblick/micron-s-unprecedented-supply-demand-dynamic-signals-a-new-era/69076112, https://www.ad-hoc-news.de/boerse/news/ueberblick/micron-capitalizes-on-ai-infrastructure-surge-with-record-performance/69084919, https://www.indexbox.io/blog/micron-stock-surge-driven-by-ai-memory-demand-outperforms-peers/). The strength is also showing up in capital returns and balance-sheet moves, including a 30% dividend increase to $0.15 per share and disclosures that Micron has generated enough financial flexibility to reduce leverage via a large debt repurchase/retirement plan (https://www.ad-hoc-news.de/boerse/news/ueberblick/micron-capitalizes-on-ai-infrastructure-surge-with-record-performance/69084919, https://www.ad-hoc-news.de/boerse/news/ueberblick/micron-s-unprecedented-supply-demand-dynamic-signals-a-new-era/69076112). While the narrative is broadly bullish—supported by Micron’s sharp stock outperformance and the view that AI model scaling drives ongoing memory consumption—some investor concerns surfaced after Alphabet’s “TurboQuant,” though the shares later rebounded (https://www.indexbox.io/blog/micron-stock-surge-driven-by-ai-memory-demand-outperforms-peers/, https://www.ad-hoc-news.de/boerse/news/ueberblick/micron-s-record-forecast-signals-unprecedented-ai-driven-demand/69075259).
+Samsung is accelerating its high-bandwidth memory (HBM) development roadmap for AI demand, shifting from a roughly two-year cadence to a one-year cycle so it can align with the yearly rollout of major AI accelerators like Nvidia’s. (https://wccftech.com/samsung-slashes-hbm-development-cycle-from-2-years-to-1-betting-future-on-ai/)
+To maintain leadership in Nvidia’s supply chain, Samsung is preparing engineering samples of its next-gen HBM4E for Nvidia as early as next month, after having started mass production of HBM4. (https://www.econotimes.com/Samsung-Races-to-Deliver-Next-Gen-HBM4E-Memory-Samples-to-Nvidia-1739149)
+However, Samsung is also working to stabilize production for HBM4-class requirements using a 1c DRAM process expansion, with early yield progress reported but industry analysts questioning whether sufficient actual HBM4 output capacity can be achieved. (https://www.technetbooks.com/2026/04/samsung-electronics-1c-dram-yield.html)
+The challenges cited include low functional yields, added failure points from assembly and stacking alignment, and the need for more EUV steps than some competitors—raising costs while it tries to protect margins. (https://www.technetbooks.com/2026/04/samsung-electronics-1c-dram-yield.html)
+Samsung’s push reflects both the opportunity presented by AI-driven memory shortages and the tightening competition from SK Hynix and Micron as they close the gap in advanced HBM variants. (https://www.econotimes.com/Samsung-Races-to-Deliver-Next-Gen-HBM4E-Memory-Samples-to-Nvidia-1739149)
 
 **Key Points:**
-- In fiscal Q2 2026, Micron reported GAAP net income of $13.79 billion and operating cash flow of $11.9 billion—figures that reinforce that the AI-driven revenue surge translated into substantial cash generation.
-- For fiscal Q3 2026, Micron guided to revenue of about $33.5 billion and earnings per share (EPS) of $19.15, which the report says beat consensus estimates by 42% for revenue and 70% for EPS.
-- Micron cited strong balance-sheet flexibility, reporting a net liquidity position of $6.6 billion and paying down $1.6 billion in liabilities during the quarter; it also set the dividend at $0.15 per share, payable April 15.
+- Samsung has reportedly already become the first chipmaker to start mass production of HBM4, and is now leveraging that momentum to fast-track the HBM4E variant.
+- Before the next wave of engineering samples, Samsung displayed a physical HBM4E unit at Nvidia’s March GTC, but industry insiders said the showcased model was not yet a production-ready sample that met Nvidia’s strict requirements.
+- For Samsung’s HBM4 capacity-stabilization effort using a 1c DRAM process expansion, the process has reportedly reached an initial “80% yield threshold,” but experts still doubt whether that translates into sufficient real-world HBM4 output.
 
 ---
 
-### 2026-04-10 | AI shares slide pre-market across Asia
-**Sentiment:** +0.08 (pos: 0.34, neg: 0.26, neu: 0.40)
+### 2026-04-19 | Parcion boosts Micron stake 46.8%
+**Sentiment:** +0.31 (pos: 0.40, neg: 0.09, neu: 0.51)
 
-Asian trading updates for AI-focused companies show mixed momentum but a consistent emphasis on profitability and cash flow as key risk factors. Unisound AI Technology (9678.HK) fell about 5% to HK$275.00 pre-market on Apr. 8 and was trading below its 50-day average, with traders watching the HK$271.60 area after lighter-than-usual volume and generally soft technical momentum. XtalPi (2228.HK) was down modestly to HK$9.60 pre-market despite very heavy turnover, but the stock’s valuation remains stretched (PE around 320) and cash-flow metrics point to ongoing burn, making near-term execution and revenue scaling the primary debate. AI inside Inc. (4488.T) traded around JPY 2,325 in pre-market after a modest gain, with the shares still sitting below longer-term averages and showing negative earnings, while Meyka AI’s model view stayed cautious with a “HOLD” grade. BrainChip Holdings (BRN.AX) closed at A$0.145, down 3.33%, on lighter volume, and its negative earnings alongside elevated valuation multiples and ongoing cash burn were highlighted as watchpoints for investors. Across the group, the common takeaway is that technical levels may guide short-term trading, but fundamentals—especially cash consumption and monetization—are driving the longer-term tone.
+Parcion Private Wealth LLC increased its stake in Micron Technology, adding shares to raise its position by 46.8% in the fourth quarter, with the holding valued at about $1.01 million. The firm also modestly boosted its iShares Core MSCI EAFE ETF exposure by 1.1%, bringing the ETF to roughly $90.9 million and making it its fourth-largest portfolio position. In addition, Parcion took a new position in the VanEck Alternative Asset Manager ETF (GPZ), buying about 121,736 shares worth approximately $3.31 million after GPZ’s Apr. 29, 2025 launch. On the biotech front, WorthPointe LLC purchased a new position in the iShares Biotechnology ETF (IBB) worth about $1.42 million, while Parcion trimmed its SPDR S&P Biotech ETF (XBI) position by 31.3%, leaving it with about $1.57 million in holdings. Across these filings, other institutional investors also adjusted their positions—highlighting active interest spanning semiconductors, global equities, alternative asset exposure, and biotech ETFs.
 
 **Key Points:**
-- For Unisound AI Technology (9678.HK), trading was not just down on price: relative volume was only 0.36 (255,680 vs. 708,870 average), with soft momentum indicators including RSI at 44.71 and a small MACD histogram divergence (+0.62). Meyka AI also assigned it a 60.59/100 score, Grade B, with a “HOLD” recommendation.
-- XtalPi (2228.HK)’s valuation premium is paired with measurable ongoing cash burn: operating cash flow per share is -0.03 and free cash flow per share is -0.05, even as the company reports heavy reinvestment (R&D to revenue at 70.61%). The article flags “partnerships and lab automation contracts” in Asia, the US, and Europe as the main near-term catalysts for revenue scaling.
-- AI inside Inc. (4488.T) is described as having both weak profitability and notable balance-sheet buffers: cash per share is JPY 1,197.38 and the current ratio is 2.71, but returns remain negative (ROE -8.68%, net margin -8.65%). The piece also identifies specific near-term technical levels—resistance near JPY 2,380 and support near JPY 2,302—guiding short-term risk management.
+- On Micron (MU), JPMorgan Chase raised its price target from $350 to $550 and reiterated an “overweight” rating, while Barclays lifted its target from $450 to $675 and also rated the stock “overweight.”
+- Other investors made sharp Micron bets alongside Parcion’s buying—Elevation Wealth Partners increased its MU stake by 295.8% (to 95 shares), and Steigerwald Gordon & Koch Inc. raised its stake by 4,800% (to 98 shares).
+- For iShares Core MSCI EAFE ETF (IEFA), Bank of Montreal Can increased its holdings by 109.0% in the prior quarter, growing to 13,626,889 shares worth about $1,189,764,000 after adding 7,107,210 shares.
 
 ---
 
-### 2026-04-09 | Institutional investors increase Micron Technology stakes
-**Sentiment:** +0.32 (pos: 0.40, neg: 0.08, neu: 0.52)
+### 2026-04-18 | Centre notifies 66-hectare Tata chip SEZ Dholera
+**Sentiment:** +0.41 (pos: 0.49, neg: 0.08, neu: 0.43)
 
-Several institutional investors increased or initiated positions in Micron Technology during the fourth quarter, according to recent SEC 13F filings. Thurston Springer Miller Herd & Titak Inc. boosted its stake by 193.9%, taking ownership of 2,824 shares worth about $806,000. Vanguard Capital Wealth Advisors raised its Micron holdings by 33.1% to 16,775 shares (about $4.8 million), while Aprio Wealth Management increased its position by 163.0% to 7,664 shares valued at roughly $2.3 million. West Branch Capital LLC also established a new position, buying 2,656 shares valued at approximately $758,000. Other investors cited in the filings—such as FNY Investment Advisers and Elevation Wealth Partners—made sizable changes as well, contributing to the fact that about 80.84% of Micron’s shares are held by institutional investors and hedge funds.
+India’s Ministry of Commerce has notified a 66.166-hectare Special Economic Zone (SEZ) in Dholera, Gujarat, backed by Tata Semiconductor Manufacturing (and related Tata semiconductor assembly/test plans) for electronics hardware, software, and IT-enabled services. The central government issued approval in March 2026 and, under the SEZ Act framework, formally notified the zone on April 9, 2026. The notification also establishes an approval committee with multi-agency representation (including commerce, tax and customs, and state interests) to oversee operations and regulatory coordination. In a logistics-focused move, the SEZ was designated as an Inland Container Depot under the Customs Act effective April 9, enabling on-site handling of international cargo to reduce reliance on external ports. The development is positioned as part of India’s broader push to strengthen domestic chip supply chains and cut import dependence, with the Tata project expected to begin work in the late 2020s. Supporters say SEZ status can accelerate investment through incentives such as duty-free imports and simplified approvals, while helping catalyze a local electronics and semiconductor ecosystem and high-skilled employment.
 
 **Key Points:**
-- Vanguard Capital Wealth Advisors disclosed that its Micron position made up about 3.8% of its portfolio and ranked as its 5th-largest holding; the firm’s 13F for Q4 2025 was filed on April 3, 2026.
-- FNY Investment Advisers reported a much larger increase than the investors highlighted in the summary, raising its Micron stake by 234.1% in Q4 to 1,794 shares valued at about $512,000 (including an additional 1,257 shares).
-- The filings also showed additional new/expanded positions beyond those in the summary: CogentBlue Wealth Advisors bought a new Micron stake worth about $202,000 in Q4, and Beaumont Financial Advisors increased its holdings by 13.3% to 1,563 shares (about $446,000).
+- The notification specifies the SEZ location down to the plot level: it covers 66.166 hectares at Plot Numbers 255 and 238 (Part-2) in Dholera village, within the Industrial Zone under Town Planning Scheme 2A (inside the Dholera Special Investment Region).
+- The SEZ’s approval committee is described as an 8-member body chaired by the Development Commissioner, and it also includes a Tata Semiconductor representative as a special invitee in addition to government members (Ministry of Commerce and Industry).
+- Moneycontrol reports that the Dholera semiconductor fabrication unit was originally approved by the Centre in February 2024 and that work is likely to commence by 2027—timelines that are more specific than just “late 2020s.”
 
 ---
 
-### 2026-04-05 | Micron completes $4.3 billion senior-note buyback
-**Sentiment:** +0.03 (pos: 0.24, neg: 0.21, neu: 0.56)
+### 2026-04-17 | Cove Private Wealth LLC invests $337,000 in Micron
+**Sentiment:** +0.34 (pos: 0.46, neg: 0.13, neu: 0.41)
 
-Micron Technology has completed and/or finalized cash tender offers for six series of senior notes, with holders tendering more than $4.3 billion and the offers expiring March 31, 2026. Micron said it expects to accept all validly tendered notes and make payment on April 3, 2026, as part of a broader effort to reduce long-term debt and strengthen its balance sheet while pursuing capital optimization. The debt actions arrive alongside strong earnings driven by intense AI-related memory demand and a tightly supplied market, including results that beat guidance and consensus. With memory viewed as a strategic asset, Micron is also increasing spending to keep pace with AI demand, pointing to significant capex growth and plans to expand advanced DRAM production at a second plant in Taiwan. Analysts cited in reporting around the move generally see a structurally extended memory demand cycle for AI hardware, while the company also reported ample liquidity (including substantial cash and marketable investments) relative to its long-term debt. Overall, the tender and outlook reflect a strategy of pairing aggressive AI-capex plans with debt management to support future growth.
+Micron Technology (MU) has seen continued repositioning by investment managers, including Cove Private Wealth LLC, which bought 1,180 shares worth about $337,000 in the fourth quarter. Gemmer Asset Management LLC increased its MU stake by 83.8% to 58,056 shares (about $16.57 million), while U.S. Capital Wealth Advisors LLC raised its holdings by 18.0% to 11,932 shares (about $3.41 million). Other reported moves include small new positions from multiple firms and additional stake boosts, with institutional investors collectively owning 80.84% of the company. On the analyst side, William Blair initiated coverage with an “outperform” rating and Weiss Ratings reiterated a “buy (b-)” rating. Separately, insider activity filings show company executives selling shares, including an EVP transaction in which April S. Arnzen sold 40,000 shares at an average price of $347.39. Overall, the filings and coverage point to active institutional participation alongside periodic executive share sales for MU.
 
 **Key Points:**
-- Micron disclosed the specific economics of the buyback: the tender offers offered consideration ranging from $1,048.11 to $1,079.93 per $1,000 of principal, and some series were subject to guaranteed delivery procedures (with amounts reported from about $6.577 million to $47.229 million per series).
-- Micron tied its liquidity position to the debt action, reporting (as of the end of February) $16.7 billion in cash, marketable investments and restricted cash versus $9.56 billion in long-term debt, alongside an all-time-high quarterly revenue figure of $23.86 billion; CEO Sanjay Mehrotra also said, “Memory has become a strategic asset.”
-- On the capex side, Reuters reported Micron’s Chief Business Officer Sumit Sadana attributed the spending increase to “construction activity” that is driving a “very significant increase” in capex, while the company projected third-quarter revenue of $33.5 billion (plus or minus $750 million).
+- Gemmer Asset Management said Micron represents about 1.3% of its investment portfolio and is its 23rd-largest holding, after increasing its MU stake 83.8% to 58,056 shares.
+- Other institutions reported sizable MU adds in 2025 filings, including iA Global Asset Management (+18.7% to 146,890 shares), Wealthfront Advisers (+9.8% to 95,396 shares), and Westpac Banking Corp (+251.0% to 23,086 shares).
+- Insider selling activity wasn’t limited to EVP April S. Arnzen: the filings also show EVP Manish H. Bhatia sold 26,623 shares of Micron in a transaction dated Thursday, January 22.
 
 ---
 
-### 2026-04-05 | Erste Group downgrades Micron to Hold
-**Sentiment:** +0.11 (pos: 0.32, neg: 0.21, neu: 0.47)
+### 2026-04-17 | Micron Sees 40%-plus Upside Targets Amid AI Demand
+**Sentiment:** +0.29 (pos: 0.51, neg: 0.22, neu: 0.27)
 
-Erste Group Bank downgraded Micron Technology to a Hold rating from Buy, warning that the company must make high investments to expand production capacity—pressuring free cash flow—and that uncertainty remains around the long-term sustainability of the memory cycle. The downgrade was tied to Micron’s strong high-bandwidth memory (HBM3E) demand, which is sold out for 2026, requiring significant capex to meet deliveries while free cash flow stays constrained. Erste also pointed to cooling conditions in DRAM pricing, arguing that the positive momentum in HBM may be offset by weaker or slower growth in the broader memory market. Despite Erste’s move, most other analysts remain constructive, with multiple firms raising price targets and continuing to rate the stock Buy/Outperform, contributing to a Wall Street consensus that still skews positive. Micron’s recent guidance and investor updates also reflect the near-term demand backdrop that is driving the need for continued capacity spending.
+Micron’s shares have surged on expectations for AI/data-center-driven memory demand as KeyBanc analyst John Vinh reiterated an Overweight rating and a $600 price target (about 40% upside), citing constrained supply through at least mid-2027 and projected sharp DRAM pricing gains along with higher 2026 cloud infrastructure spending. A separate Barchart report said other analysts have raised their estimates, implying MU could climb to about $610 (roughly 43%) over the next year based on forecast adjusted free cash flow. Separately, Micron EVP and chief business officer Sumit Sadana sold 24,000 shares worth about $10.11 million in an April 14 SEC Form 4 filing, and the stock was trading lower that morning. Benzinga also reported MU jumped intraday after a “key trading signal,” rising to $465.78 (+8.28%) from $430.13.
 
 **Key Points:**
-- Investing.com reported that Micron guided to $109 billion in revenue for fiscal year 2026, attributing the outlook to strong memory demand—especially HBM3E.
-- Investing.com also said Micron generated about $10.3 billion in levered free cash flow over the last twelve months and noted that 26 analysts had revised earnings upward (out of 16+ exclusive tips tracked by InvestingPro).
-- One additional development cited in Investing.com: Micron announced pricing details for a $5.4 billion debt tender offer covering six series of senior notes, with maturities ranging from 2031 to 2035 and “fixed spreads over U.S. Treasury securities.”
+- KeyBanc analyst John Vinh forecasted Micron’s fiscal Q3 revenue of $35.1 billion and earnings per share (EPS) of $20.54—both above Wall Street consensus.
+- Vinh also pointed to near-term pricing momentum tied to supply limits, projecting “quarterly price increases of 30–50%” for Q2 2026.
+- Barchart cited a specific estimate lift: revenue for the year ending Aug. 2027 is forecast at $165.99 billion (up from $159.25 billion three weeks earlier), implying about $40 billion in adjusted free cash flow using a 28.75% adjusted FCF margin.
 
 ---
 
-### 2026-04-04 | Multiple Funds Trade Micron Shares in Q4
-**Sentiment:** +0.32 (pos: 0.49, neg: 0.17, neu: 0.34)
+### 2026-04-17 | Nasdaq-100 inclusion lifts SanDisk shares 12%
+**Sentiment:** +0.36 (pos: 0.54, neg: 0.18, neu: 0.28)
 
-Multiple institutional investors made notable trades in Micron Technology, Inc. (MU), underscoring continued volatility in sentiment toward the memory and storage chipmaker. Chesley Taft & Associates bought about 2,974 shares (~$849,000), while USA Financial Formulas added about 7,417 shares (~$2.12 million) and Stableford Capital II purchased about 5,257 shares (~$1.5 million), with several other managers also initiating or increasing positions. At the same time, Wealthcare Advisory Partners trimmed its stake by 13.6% in Q4 2025, cutting the holding to about 17,427 shares valued at $4.97 million, citing portfolio rebalancing and risk management. Richard C. Young & CO., LTD. increased its stake by 66.77% to 2,073 shares (about $591,660), alongside other firms that began new positions. Article reports also point to insider activity, including a disclosed purchase by director Teyin M. Liu of 7,820 shares at an average price of $337.50. Micron also announced a quarterly dividend of $0.150 per share, with a record date of 2026-03-30 and a payment date of 2026-04-15.
+SanDisk is benefiting from an “AI storage supercycle” in which AI-driven data centers are consuming a growing share of industry DRAM and NAND capacity, creating a supply-demand imbalance that has intensified enterprise SSD and memory shortages into early 2026. Multiple reports attribute SanDisk’s explosive stock run—up roughly 2,260% since its Feb. 2025 relisting and surging about 11% after news—to both scarcity-driven pricing power (with some estimates pointing to 70%–75% higher NAND contract prices) and accelerating institutional interest tied to AI infrastructure buildouts. SanDisk’s confirmation that it will be added to the Nasdaq-100—replacing Atlassian ahead of the April 20 open—has also amplified near-term buying pressure through index-tracking fund rebalancing, reflecting a broader market rotation from software toward AI hardware. Analyst commentary and target-price revisions cited by outlets suggest investors are increasingly underwriting sustained growth in enterprise DRAM/NAND demand, with one survey of targets spanning well above current trading levels. Company-specific financial updates point to that demand shift showing up in results, including rising data-center revenue and increasing contribution from newer NAND production (such as BiCS8). Still, at least one valuation-focused view warns the current tight-supply thesis could reverse if NAND oversupply emerges or if AI data-center demand cools, making the rally’s assumptions potentially fragile.
 
 **Key Points:**
-- Director Teyin M. Liu’s disclosed purchase was followed by the filing that, after the transaction, he “directly owned 25,910 shares in the company, valued at approximately $8,744,625,” reflecting a “43.23% increase in their position.”
-- Alongside the larger funds’ moves, other managers also changed positions: Elevation Wealth Partners LLC increased its stake by “295.8%” (to 95 shares), and Cullen Frost Bankers Inc. boosted its holdings by “79.3%” (to 199 shares). The article also notes that “80.84% of the stock is owned by institutional investors.”
-- USA Financial Formulas’ stake increase is framed as portfolio-level concentration and conviction: the new position was “approximately 0.4% of USA Financial Formulas’ portfolio” and became its “15th largest holding,” with the article attributing the buy to belief that Micron is “undervalued” and pointing to strong recent demand “particularly in the data center and automotive sectors.”
+- SanDisk’s reported quarter-by-quarter momentum included specific beats on both sales and profitability: fiscal Q1 2026 revenue of about $2.3 billion (up 21% sequentially) and non-GAAP EPS of $1.22 (ahead of expectations), followed by a Jan. 29, 2026 update with roughly $3.03 billion in revenue (up 31% sequentially) and non-GAAP EPS of $6.20.
+- The company’s AI/data-center skew is showing up in detailed segment and mix shifts: data-center revenue rose 26% sequentially in Q1 2026, then accelerated 64% quarter on quarter to $440 million in Q2 2026, supported by “growing partnerships with major hyperscalers.” Product mix is also moving toward newer NAND—BiCS8 accounted for 15% of total bits shipped in Q1 2026 and is expected to become the majority of bit production by the end of fiscal 2026.
+- Analysts backing the rally have issued standout, wide-ranging price targets rather than just directionally positive commentary—e.g., Evercore initiated coverage with a $1,200 target and a $2,600 bull-case scenario, while Citi raised its target to $980 and Jefferies to $1,000.
 
 ---
 
-### 2026-04-04 | Meta options trading 770K contracts, 2.87M OI
-**Sentiment:** +0.01 (pos: 0.21, neg: 0.21, neu: 0.58)
+### 2026-04-15 | YMTC plans Wuhan fabs doubling wafer output
+**Sentiment:** +0.15 (pos: 0.36, neg: 0.21, neu: 0.43)
 
-On March 30 (ET), options activity across Circle (CRCL), Alphabet (GOOG), Micron (MU), Meta (META), and Broadcom (AVGO) showed elevated volume and mostly put-call mixes that were close to even, with puts ranging from roughly 33% to 51% of trades depending on the stock. Open interest at the close was broadly near or above recent norms, running from about 94% to 122% of the prior 30-day average across the five names. For Alphabet, the top unusual trade was a put at the $300 strike expiring April 2, 2026, with 4,000 contracts and about $10.96 million in turnover. For Micron, the top unusual trade was a put at the $385 strike expiring April 2, 2026, with 5,000 contracts and about $22.45 million in turnover. For Meta, the leading unusual trade was a put at the $500 strike expiring Dec. 18, 2026, totaling 2,700 contracts and about $14.09 million in turnover, while Circle’s and Broadcom’s top unusual prints were a $95 call (CRCL) and a $287.50 put (AVGO), respectively. The most actively traded single contracts also varied widely—META led with 37,442 contracts (closing around $0.01) while CRCL led among the remaining names with 7,521 contracts (closing around $16.15), and GOOG, MU, and AVGO finished with 6,415, 16,459, and 9,727 contracts respectively (closing near $0.06, $2.89, and $3.35).
+Yangtze Memory Technologies (YMTC) is reportedly planning to build two additional NAND flash foundries in Wuhan, which—together with a third plant already under construction—would significantly expand output amid U.S.-China trade and technology restrictions. Sources cited by Reuters say each new fab would reach 100,000 wafers per month at full capacity, bringing total potential output to roughly 400,000 wafers per month, with the existing third plant expected to start later this year and ramp to 50,000 wafers per month by 2027. The expansion is also tied to YMTC’s efforts to source more equipment domestically, with reports indicating more than half of tools for the third plant are coming from Chinese suppliers as U.S. export controls limit access to advanced chipmaking gear. Industry coverage highlights YMTC’s proprietary Xtacking 3D NAND approach as a way to improve density while relying more on deep-UV lithography rather than restricted EUV systems, strengthening supply-chain resilience. Multiple reports also note YMTC’s push to diversify beyond NAND, including exploring DRAM production, though commercial details remain unconfirmed. YMTC has not publicly confirmed the full expansion plans.
 
 **Key Points:**
-- For Circle (CRCL), total options trading volume on March 30 was 87,224 contracts, with puts at 33.1% and calls at 66.9%; open interest was 827.74K contracts (106.37% of the prior 30-day average). The top unusual trade was a $95 strike call expiring April 2, 2026, with 1,777 contracts and about $392.72K in turnover.
-- For Alphabet (GOOG), total options trading volume was 196.09K contracts, with puts at 42.1% and calls at 57.9%; open interest was about 1.68 million contracts (95.24% of the prior 30-day average).
-- For Micron (MU), total options trading volume was 734.02K contracts, with puts at 47.66% and calls at 52.34%; open interest was about 2.72 million contracts (111.38% of the prior 30-day average).
+- YMTC was added to the U.S. Department of Commerce Entity List in December 2022, which restricts its access to American technology—an important backdrop for why it is shifting toward domestic equipment and expanding capacity under tighter export controls.
+- On the technology side, YMTC’s Xtacking approach is described as separating wafer bonding from storage-cell processing, which the industry reports say improves manufacturing efficiency while enabling higher density using deep-UV lithography rather than EUV.
+- A UBS report cited by Reuters places YMTC at an 11.8% share of the global NAND flash market, with Samsung leading at 30.4%, and rivals including SK Hynix, Kioxia and Micron—context for how aggressive YMTC’s capacity buildout is relative to major incumbents.
 
 ---
 
-### 2026-04-03 | Micron Stock Falls, $25B Capex Plans
-**Sentiment:** -0.20 (pos: 0.26, neg: 0.45, neu: 0.29)
+### 2026-04-14 | Micron shares surge after Q3 2026 guidance
+**Sentiment:** +0.31 (pos: 0.49, neg: 0.18, neu: 0.33)
 
-Micron, the Boise, Idaho-based memory maker, is pursuing major capacity expansion, including work on a central New York project with multiple new fabs. After strong recent results, its stock fell sharply in late March as investors weighed uncertainty around heavy capital spending; Micron reported revenue nearly tripled year over year to $23.9B, margins surged, and it said it can fulfill only about 50% to two-thirds of key customers’ memory needs—supporting capex expectations of over $25B for fiscal 2026 and a step-up in fiscal 2027 to fund HBM/DRAM investment. Some investors worry that newer AI approaches such as Google’s TurboQuant could reduce memory requirements, though Citi argues cheaper technology can expand usage, potentially offsetting long-term demand risk even if near-term pricing pressure persists. Market commentary also suggested the current AI-driven memory tightness remains significant, with Jim Cramer saying the bounce is overly narrow and propped up by memory names able to raise prices amid supply constraints until new architectures arrive in the late 2020s. Separately, reporting said Microsoft paused some data-center development in spring 2025 and was then surprised by AI demand outpacing capacity, leading to restrictions on new cloud subscriptions in some areas while it adds supply via acquisitions and smaller providers. Analysts further cautioned that growth in agentic AI may drive “token inflation” (e.g., more tool calls and retries), which could boost infrastructure revenue even if some of it reflects inefficiency rather than better intelligence.
+GuruFocus reports that Micron Technology (MU) is trading at $421.73 versus its GF Value estimate of $293.45—about 43.7% overvalued—and warns that the large gap raises the risk of a downside price correction if results disappoint. The same analysis flags mixed insider activity over the prior three months, with insiders buying about $7.8 million of shares but selling about $40.1 million, which it says could signal caution despite some buying. On April 9, 2026, Micron’s shares surged on the back of sharply raised third-quarter 2026 guidance, including EPS of 18.750–19.550 versus a 10.500 consensus and revenue of $32.8 billion–$34.3 billion versus a $22.4 billion consensus. The company also cited strong AI-driven data-center memory demand, including High-Bandwidth Memory (HBM), noting that 2026 HBM production capacity is sold out under long-term agreements and that gross margins expanded. Broader industry commentary points to a strengthening memory “supercycle,” with expectations of rising memory prices and demand tied to AI infrastructure, which supports Micron’s outlook. Separately, a disclosed insider transaction shows an EVP selling 25,000 shares at an average price of $429.89, underscoring that insider sales remain part of the story even amid bullish earnings updates.
 
 **Key Points:**
-- CNBC’s Jim Cramer said Micron is “completely ‘sold out’ in the near term,” adding that memory companies can keep raising prices until “new types of storage architecture can be implemented around 2028 or 2029.”
-- Bloomberg reported that after pausing some data-center development, Microsoft faced costs rising sharply—at the time it was spending “more per quarter than it used to spend per year”—and responded by holding weekly meetings to distribute computing power among business units (in addition to restricting some new cloud subscriptions).
-- Barchart said the TurboQuant “panic” coincided with visible DRAM price weakness: DDR5 16GB spot prices fell roughly 6% since Micron’s last earnings report, prompting analyst Atif Malik to pull his price target; Citi “lowered its MU stock price target on near-term spot price softness” while keeping a “Buy” rating and holding earnings forecasts steady.
+- Micron disclosed a dividend increase alongside the earnings-news cycle: it will pay $0.15 per share (up from the prior $0.12 quarterly dividend), with a dividend payable date of April 15 and stockholders of record listed as March 30; the reported dividend yield was about 0.1% and the payout ratio about 2.83%.
+- Industry outlook cited specific figures and terminology: Gartner projected global semiconductor revenue to exceed $1.3 trillion in 2026, and expected memory revenue to increase threefold amid “memflation” (memory price inflation).
+- The same industry commentary also forecast pricing dynamics beyond a near-term demand story: it estimated 2026 DRAM and NAND flash annual prices would rise meaningfully, with “meaningful pricing relief not anticipated until late 2027.”
 
 ---
 
-### 2026-04-03 | Micron, SanDisk lead memory rebound
-**Sentiment:** -0.05 (pos: 0.29, neg: 0.34, neu: 0.36)
+### 2026-04-12 | Vest Financial buys Micron shares $5.2M
+**Sentiment:** +0.36 (pos: 0.45, neg: 0.09, neu: 0.46)
 
-U.S. stocks rose for a second straight session as technology and semiconductors led the rebound, with memory and data-storage shares jumping sharply on Wednesday; Micron and SanDisk each gained about 9% while Western Digital and Seagate also surged. The move reflects a shift back toward risk-taking as investors looked for an easing of U.S.-Iran tensions, after current U.S. President Donald Trump suggested military operations could end within weeks and Iran’s foreign ministry denied Iran had requested a ceasefire. Wall Street coverage tied the strength in the sector to continued AI-driven demand outpacing supply for key memory technologies, with companies such as Samsung and SK Hynix also advancing. Despite the recent rallies, both Micron and SanDisk had sold off after large prior gains, driven by concerns about spending/capex and worries about Alphabet’s TurboQuant-related approach, before rebounding again. Analysts broadly framed the pullback as overdone, arguing AI and cloud investment remains strong and that memory remains a bottleneck for further AI growth. In premarket trading, multiple firms reiterated “buy” calls and pointed to tight supply conditions supporting prices and earnings for both memory-chip names.
+Several investors disclosed new or increased stakes in semiconductor stocks via recent SEC 13F filings. For Advanced Micro Devices (AMD), AMG National Trust Bank initiated a position by buying 2,041 shares, alongside other investors that added or increased holdings, reflecting continued institutional interest in the name. For Micron Technology (MU), multiple funds also initiated or expanded positions, including Vest Financial’s purchase of 18,343 shares and Archer Investment’s acquisition of 800 additional shares (after buying more to total 970 shares). Additional filings described further MU buying, such as Aaron Wealth Advisors increasing its stake and ARRIEN Investments initiating a position, while institutional ownership remains dominant. In coverage accompanying the filings, analysts at Goldman Sachs and Deutsche Bank raised their MU price targets and maintained ratings of “neutral” and “buy,” respectively. Overall, the reports point to broad, ongoing institutional repositioning across both AMD and Micron, paired with moderately constructive Wall Street commentary on MU.
 
 **Key Points:**
-- Trump’s claim that a ceasefire request was made was quoted in detail, writing on Truth Social: “The president of Iran’s new regime has just asked the United States for a ceasefire,” and reiterating a “within 2–3 weeks” timeline for military operations.
-- Iran’s position was reflected in a counter-message from President Masoud Pezeshkian, who in an open letter to Americans said: “continuing down the path of confrontation is more costly and more meaningless than ever.”
-- The rally extended to South Korea’s memory giants: Samsung and SK Hynix each rose more than 10%, with Samsung recording its best day in nearly 25 years—showing the strength wasn’t limited to just U.S. names.
+- For AMD, Seatown Holdings Pte. Ltd. initiated a much larger position than some peers, buying 36,000 shares valued at about $7,709,760 in its latest 13F filing.
+- For Micron (MU), Aaron Wealth Advisors LLC increased its stake by 31.0% in the fourth quarter—buying an additional 3,300 shares to total 13,953 shares worth $3,982,000 (per Holdings Channel’s summary of filings).
+- Micron’s ownership remains heavily institutional: Holdings Channel reported that 80.84% of MU is currently owned by institutional investors.
 
 ---
 
-### 2026-03-10 | Cramer Rosenthal McGlynn Rebalances Portfolio, Boosts Stakes
-**Sentiment:** +0.30 (pos: 0.42, neg: 0.12, neu: 0.46)
+### 2026-03-22 | Micron shares rise ahead of Q2 earnings
+**Sentiment:** +0.21 (pos: 0.40, neg: 0.19, neu: 0.40)
 
-Cramer Rosenthal Mcglynn LLC made several notable portfolio moves in the third quarter, building stakes in tech, financial-services and biotech names while trimming a major bank holding. The firm acquired a new position in Tower Semiconductor, buying 4,261 shares valued at about $308,000. It raised its Terreno Realty stake by 22.7% to 472,073 shares (about $26.8 million) and boosted its LendingClub holding by 44.3% to 1,657,356 shares (roughly $25.2 million). The fund also increased its Bio-Techne position by 7.1% to 559,189 shares (about $31.1 million) but cut its Citigroup stake by 29.9% to 20,391 shares, worth roughly $2.07 million.
+Micron Technology shares are climbing ahead of its second-quarter earnings as soaring DRAM and NAND prices—fueled by expanding artificial-intelligence data center demand—continue to lift the memory market (https://www.livemint.com/market/stock-market-news/micron-technology-shares-extend-rally-ahead-of-second-quarter-earnings-11773838887086.html; https://www.el-balad.com/16885084; https://www.techbuzz.ai/articles/micron-stock-surges-62-as-ai-memory-crunch-sends-prices-soaring). The rally has pushed the stock up more than 60% since the start of 2026, including a record close near $461.69 and a market capitalization that has surged to roughly $520 billion from about $100 billion at the end of 2024 (https://www.livemint.com/market/stock-market-news/micron-technology-shares-extend-rally-ahead-of-second-quarter-earnings-11773838887086.html). Investors are looking for about $10.1 billion in net income on roughly $19.6 billion in revenue, according to consensus estimates, to gauge whether the price-driven momentum can last (https://www.livemint.com/market/stock-market-news/micron-technology-shares-extend-rally-ahead-of-second-quarter-earnings-11773838887086.html). Analysts generally expect near-term pricing support from tight supply and sold-out capacity, but warn that the cycle is still volatile and that high expectations—and geopolitical disruptions to semiconductor supply chains—could become risks (https://www.livemint.com/market/stock-market-news/micron-technology-shares-extend-rally-ahead-of-second-quarter-earnings-11773838887086.html; https://www.el-balad.com/16885084). Micron’s CEO has tied the demand surge to generative AI models requiring “more memory and faster memory” as workloads and bandwidth needs grow (https://www.techbuzz.ai/articles/micron-stock-surges-62-as-ai-memory-crunch-sends-prices-soaring). Beyond Micron, the outlook also benefits the memory-equipment supply chain—particularly Lam Research—where strong investment in high-bandwidth memory (HBM) for AI is expected to keep manufactures and equipment buyers investing (https://www.fool.com/investing/2026/03/18/up-81-in-6-months-this-glorious-growth-stock/).
 
 **Key Points:**
-- Terreno Realty represents 1.7% of Cramer Rosenthal McGlynn LLC’s portfolio and is the fund’s 20th-largest holding.
-- LendingClub accounts for about 1.6% of Cramer Rosenthal McGlynn LLC’s investment portfolio, making it the fund’s 24th-largest position.
-- Bio-Techne comprises roughly 1.9% of the firm’s portfolio and is Cramer Rosenthal McGlynn LLC’s 13th-largest holding.
+- Micron is expected to report fiscal second-quarter results of about $10.1 billion in net income on $19.6 billion in revenue—figures that would imply year-over-year increases of roughly 540% (net income) and 144% (revenue).
+- Analysts cited in advance of the earnings call also forecast a sharp deceleration after the current surge: revenue growth of about 116% for fiscal 2026, dropping to 36% in fiscal 2027, and then roughly flat/slightly down (about a 1% decline) in 2028.
+- Portfolio manager Hendi Susanto (Gabelli Funds) said, “This pricing environment won’t last forever, but all signs are pointing to tight supply this year and sold-out capacity next year,” adding, “The biggest risk is probably high expectations.”
 
 ---
 
-### 2026-03-10 | Funds Raise Micron Stakes After Earnings
-**Sentiment:** +0.37 (pos: 0.48, neg: 0.10, neu: 0.42)
+### 2026-03-22 | Micron gains Mosaic $241,000 stake
+**Sentiment:** +0.33 (pos: 0.49, neg: 0.16, neu: 0.35)
 
-Multiple institutional investors increased their stakes in Micron Technology during the third quarter, with Barclays PLC adding 215,540 shares (a 3.3% increase) to hold about 6.80 million shares worth roughly $1.14 billion, LOM Asset Management raising its position by 21% to 10,612 shares (~$1.78 million), Orion Portfolio Solutions increasing its stake by 4.5% to 60,943 shares (~$10.20 million), and Varenne Capital Partners boosting its holding by 31% to 24,186 shares (~$4.05 million). These filings reflect heavy institutional ownership—about 80.84% of Micron’s stock—and a broader pattern of portfolio adjustments by hedge funds and asset managers. Analysts have become more bullish alongside these flows, with firms including Susquehanna, Needham and Bank of America raising price targets and issuing positive or buy ratings, while other research houses maintain their coverage. Micron’s market metrics cited in filings show a large market capitalization and elevated valuation metrics (one report noted a market cap near $447 billion and a P/E around 37.8), underscoring why both investors and analysts are actively recalibrating positions.
+Mosaic Financial Group LLC disclosed a new position in Micron Technology, buying 1,438 shares worth about $241,000 in the third quarter, according to its filings. The report also noted that institutional investors and hedge funds own 80.84% of Micron’s shares, alongside other recent stake changes by major managers such as Vanguard and State Street. Separately, EVP April S. Arnzen sold 15,000 Micron shares at an average price of $277.09 for about $4.16 million, trimming her stake by 8.30% to 165,618 shares. On the research side, UBS raised its Micron target price to $475 and reiterated a “buy” rating, reflecting continued bullish analyst interest.
 
 **Key Points:**
-- Barclays PLC’s Micron stake represents roughly 0.61% of the company after the Q3 purchase (6,796,268 shares), valued at about $1.137 billion.
-- Micron EVP Manish H. Bhatia sold 26,623 shares of the company’s stock on January 22, 2026, representing an insider disposition during the period.
-- Micron’s balance-sheet and trading metrics cited in filings include a debt-to-equity ratio of 0.19, a quick ratio of 1.78, a current ratio of 2.46 and a beta of 1.50; its 50-day moving average was $378.27 and its 200-day moving average $259.86 at the time of reporting.
+- Among other recent fund activity, REAP Financial Group LLC opened a new Micron position worth about $25,000, while Barnes Dennig Private Wealth Management LLC bought shares worth about $27,000 in the third quarter.
+- Multiple managers reported sharp percentage increases even with smaller absolute stakes—for example, Cullen Frost Bankers Inc. boosted its Micron stake by 79.3% (to 199 shares, about $33,000), and Osterweis Capital Management Inc. increased its holdings by 205.5% (to 223 shares, about $37,000).
+- Large passive and international investors also adjusted positions: Vanguard Group Inc. increased its Micron stake by 0.7% to 104,653,450 shares (worth about $17.51 billion), while State Street Corp increased by 0.6% to 51,659,173 shares (about $8.64 billion).
 
 ---
 
-### 2026-03-07 | NITI Aayog appoints Nidhi Chhibber CEO
-**Sentiment:** +0.24 (pos: 0.40, neg: 0.16, neu: 0.44)
+### 2026-03-21 | SanDisk Shares Surge on AI-driven NAND Shortage
+**Sentiment:** +0.30 (pos: 0.51, neg: 0.21, neu: 0.28)
 
-Nidhi Chhibber has been given additional charge as Chief Executive Officer of NITI Aayog, according to a Department of Personnel and Training notification, after BVR Subrahmanyam completed his extended three‑year tenure in February 2026. She joins the post from her role as Director General of the Development Monitoring and Evaluation Office (DMEO). As CEO (additional charge) she will be responsible for national policy planning and cooperative federalism, coordinating between ministries and states and monitoring flagship programs such as PM GatiShakti, the National Nutrition Mission and NIPUN Bharat. The appointment preserves leadership continuity at India’s premier policy advisory body—which replaced the Planning Commission in 2015—and was highlighted as an instance of increasing female representation in senior government leadership.
+SanDisk’s shares have surged as a severe, AI data-center-driven NAND flash shortage has tightened supply, sent spot prices sharply higher, and left the company’s manufacturing capacity effectively sold out. The stock has rallied strongly (roughly 138% YTD) and posted much larger gains since its spin‑off from Western Digital as hyperscalers lock in multi‑year allocations. That pricing power is boosting profitability—management is guiding materially higher gross margins in the current quarter—and analysts are modeling outsized earnings growth. SanDisk is also introducing industrial-grade IX QD352 and IX LD352 storage cards for edge and industrial customers and working with partners on standards and supply arrangements to cement its position. Institutional investors have re-rated the company even as some insiders trimmed holdings, but commentators caution that late entrants face risk if market dynamics normalize or demand shifts.
 
 **Key Points:**
-- The CEO’s remit at NITI Aayog explicitly includes monitoring AI and technology initiatives in addition to social and infrastructure flagship programs.
-- Nidhi Chhibber comes from the Development Monitoring and Evaluation Office (DMEO), a body that specialises in monitoring and evaluating government programmes—experience directly relevant to overseeing implementation of NITI Aayog’s flagship schemes.
-- Beyond cooperative federalism and policy planning, NITI Aayog’s mandate is described in the articles as promoting sustainable development and long‑term strategic planning for the country.
+- Spot-market pressure has been acute: in February 2026 spot prices for 1Tb TLC NAND wafers jumped about 25% in a single month—the largest monthly increase of the current cycle.
+- SanDisk management is giving specific margin guidance—forecasting gross margins in the 65%–67% range for the current fiscal third quarter.
+- The newly announced industrial cards have concrete specs: the IX QD352 microSD and IX LD352 SD use BiCS8 TLC NAND, are rated to operate from −40°C to 85°C and offer endurance up to 768 TBW.
 
 ---
 
-### 2026-03-06 | Micron Opens India Plant, Launches 256GB DRAM Module
-**Sentiment:** +0.53 (pos: 0.60, neg: 0.07, neu: 0.32)
+### 2026-03-21 | Citi maintains Micron Buy, raises $510 target
+**Sentiment:** -0.13 (pos: 0.27, neg: 0.39, neu: 0.34)
 
-Micron Technology opened a semiconductor assembly and test facility in Sanand, Gujarat, India as part of its India expansion and has begun commercial production. The Sanand site will convert DRAM and NAND wafers into finished modules, add large single-floor cleanroom capacity, and plans to assemble and test tens of millions of chips in 2026 scaling to hundreds of millions in 2027 to diversify supply chains and support AI demand. Micron also launched a 256GB SOCAMM2 low-power DRAM module — reported as the highest capacity in its class — and has begun customer sampling to target AI data-center workloads that prioritize capacity, power efficiency and rack density. The company is positioning itself as a key memory supplier for AI workloads, and its stock has risen sharply, though valuation models are mixed with some DCF-based estimates below current prices, leaving investors to weigh AI-driven growth against cyclical and execution risks.
+Citi analyst Atif Malik reiterated a buy rating on Micron Technology and kept his target price at $510, with TipRanks citing a 73.8% success rate and 38.7% average return for the analyst over the prior year. Separately, Citigroup boosted its Sandisk target price from $750 to $875 while maintaining a buy rating, suggesting meaningful upside versus the stock’s prior close. In the market’s reaction, Sandisk shares fell about 1.6% after Micron’s earnings release, as investors weighed whether near-term growth momentum could slow. The memory-sector pullback also reflected broader profit-taking, despite Micron reporting strong results and a more cautious tone in its third-quarter supply-demand guidance. Sandisk’s recent performance highlighted the fundamental strength investors are balancing against that caution, including a reported quarter where earnings and revenue beat consensus expectations. Overall, the coverage shows a split between brokerage upside targets for memory names and a post-earnings risk-off move tied to durability of growth expectations.
 
 **Key Points:**
-- Micron says the new 256GB SOCAMM2 module uses roughly one-third the power and one-third the footprint of comparable modules, targeting customers focused on performance-per-watt, rack density and total cost of ownership.
-- The Sanand site is Micron’s first semiconductor assembly and test facility in India and the project is backed by partnerships with the Indian government.
-- Micron plans for the Sanand facility to convert wafers sourced from its fabs in the U.S., Japan and other locations into finished products closer to key Asian customers.
+- Despite the post-earnings drop, Micron reported a 138% year-over-year revenue surge to $19.18 billion and adjusted earnings of $8.66 per share (a 455% increase), though investors still judged the third-quarter supply-demand outlook as more cautious than expected.
+- Citigroup’s Sandisk ($SNDK$) $875 target was framed as implying 18.85% upside versus the stock’s previous close, alongside a maintained “buy” rating.
+- Beyond Citigroup, other analysts made notable changes: Wall Street Zen upgraded to “strong-buy,” Raymond James moved to “outperform” with a $725 target, Weiss reiterated a “sell (d+),” Wedbush raised its target to $740 (outperform), and KGI assumed coverage at “outperform” with a $992 price target; MarketBeat also cited a “Moderate Buy” consensus with an average target of $570.19.
 
 ---
 
-### 2026-03-06 | Micron reports 2026 HBM capacity sold out
-**Sentiment:** +0.21 (pos: 0.45, neg: 0.24, neu: 0.31)
+### 2026-03-21 | Analysts: Memory Shortages Expected Through 2027
+**Sentiment:** -0.10 (pos: 0.24, neg: 0.34, neu: 0.42)
 
-Micron is positioned as a critical supplier for AI infrastructure: its entire 2026 HBM capacity is reportedly sold out under multi-year contracts, it has begun shipping samples of a 256GB SOCAMM2 module, and a new Idaho fab is slated to start production in mid-2027. That demand backdrop has helped drive strong 90-day and one-year returns, even as the stock recently pulled back amid rising energy costs and Iran-related geopolitical concerns. Long-term supply agreements and tight fabrication lead times are giving Micron greater pricing power and less cyclicality than in past memory cycles. Valuation views diverge—narrative models cited a fair value near $507 per share and some analysts have lifted targets, while other DCF-based analysis warns the shares may already be richly priced. Key downside risks include a slowdown in hyperscaler AI capex, aggressive competitor pricing or a return to memory oversupply, and broader energy or geopolitical shocks that could compress margins.
+Memory suppliers including Samsung and SK hynix are taking a cautious stance on DRAM expansion to avoid overinvesting, with some suppliers expecting the current demand boom to fade by 2028. AI-driven demand for HBM and DRAM has created a multi-year supply crunch, and analysts including IDC expect shortages to persist through 2027 with prices only easing from 2028 and unlikely to return to 2025 levels. The tight supply is boosting semiconductor shares and margins—Micron’s stock has rallied on forecasts of sharply higher DRAM contract prices and sold-out HBM4 capacity—while new capacity such as the Idaho One fab won’t come online until 2027–28. Micron has exited the consumer RAM market (ending its Crucial brand) to focus on higher-margin data-center memory, a strategic shift that, combined with surging component costs, is pressuring consumer electronics pricing. As a result, research firms now expect substantial PC shipment declines and higher average selling prices in 2026, with geopolitical risks adding further upside to costs.
 
 **Key Points:**
-- UBS has raised its price target on Micron to $475, reflecting bullish analyst views tied to the tight HBM supply outlook.
-- Micron calls the new 256GB SOCAMM2 LPDRAM module the world’s first of its kind, claiming roughly one-third more capacity than prior leading modules while using noticeably less power and less physical space—key benefits for AI data center designs.
-- Customers are shifting from quarterly price negotiations to multi-year (typically 3–5 year) supply agreements, giving Micron greater revenue visibility and reducing the industry’s historical cyclicality.
+- Wedbush Morgan raised its Micron price target to $500 and reiterated an 'outperform' rating, while GF Securities analyst Jeff Pu forecast a dramatic 100% increase in DRAM contract prices for Q1 2026.
+- Micron's stock showed strong momentum—closing at $426.13 on March 13 after a 5.13% rally on elevated volume (39 million shares)—ahead of its Q2 earnings report (March 18) that analysts expect to beat estimates.
+- IDC cut its 2026 global PC shipment forecast sharply to an 11.6% decline and warned 'memory shortages will persist well into 2027' (Jitesh Ubrani); that revision was issued before the recent escalation of conflicts in Iran and the broader Middle East, which could further affect the computing industry.
 
 ---
 
-### 2026-03-06 | Micron begins mass production 256GB SOCAMM2 LPDRAM
-**Sentiment:** +0.52 (pos: 0.62, neg: 0.10, neu: 0.28)
+### 2026-03-21 | Micron reports $23.9B quarterly revenue record
+**Sentiment:** +0.60 (pos: 0.70, neg: 0.09, neu: 0.21)
 
-Micron has begun shipping samples of the world’s first 256GB SOCAMM2 LPDRAM module built on a monolithic 32Gb LPDDR5X die, positioning it as the highest-capacity, lowest-power modular memory aimed at AI and high‑performance computing datacenters. The module raises per‑module capacity by one‑third over Micron’s prior 192GB SOCAMM2 and enables up to 2TB of LPDRAM per 8‑channel CPU while reportedly using one‑third the power and occupying one‑third the space of comparable RDIMMs, improving rack density and thermal efficiency. Micron and NVIDIA collaborated on the design; Micron says SOCAMM2 supports high speeds (shipping at up to 9.6 Gbps), targets LLM inference and KV‑cache offloading use cases, and can deliver meaningful reductions in “time to first token.” The SOCAMM2’s modular, serviceable design is intended to simplify future capacity upgrades, and Micron is working to advance SOCAMM2 toward a JEDEC specification to enable broader industry adoption. Industry coverage frames the announcement as reinforcing Micron’s leadership in moving LPDDR5X technology from mobile into power‑efficient server memory for next‑generation AI workloads.
+Micron’s fiscal Q2 results showed a sharp earnings beat, with quarterly revenue of about $23.9 billion—well above its roughly $18 billion forecast—and a fourth straight quarter of record results. The upside is being attributed to strong, sustained demand for memory chips tied to AI data-center buildouts. Coverage of the company’s performance also highlights major profitability gains, including gross margins rising to about 74% and Micron raising its dividend by 30%. As Micron’s global growth continues to surge, local reporting links the momentum to progress on its major Central New York chipmaking project, which is ramping up alongside construction and investment. In the broader region, Oswego County is advancing plans for development—supported by state backing for a planned public sewage system—aiming to capture growth expected to follow Micron to the Syracuse area.
 
 **Key Points:**
-- Tweaktown reports Micron claims the 256GB SOCAMM2 can deliver a ~2.3x improvement in the key metric 'time to first token' for certain AI workloads.
-- Micron says it will ramp SOCAMM2 production to match customer launch schedules — a ramp the company expects will likely align with NVIDIA’s ramp for its next‑generation AI server products.
-- Raj Narasimhan, Micron’s SVP and GM of the Cloud Memory Business Unit, said: "The introduction of Micron's 256GB SOCAMM2 provides the most energy-efficient CPU-attached memory solution for artificial intelligence (AI) and high-performance computing (HPC). Today's announcement highlights Micron's advancements in technology and packaging, delivering the highest-capacity, lowest-power modular memory solution with the industry's smallest footprint."
+- Micron reported a major profit surge in fiscal Q2, with net profits rising to $13.8 billion from $1.6 billion a year earlier, alongside year-on-year revenue nearly tripling to $23.9 billion.
+- Micron’s results were also notable for profitability drivers beyond topline: one analyst account said gross margins hit a company-record ~75% and operating income reached $16.5 billion (69% margin), with the margin expansion tied to “high-70s percent price increases in NAND” plus favorable product mix—and CEO Sanjay Mehrotra characterized memory as a “strategic asset.”
+- Local coverage linked the earnings strength to execution on the Central New York build: Micron “broke ground in January” on its chipmaking complex and, after announcing record revenues and profits again, “expects to set even more records in the next quarter.”
 
 ---
 
-### 2026-03-05 | Rambus HBM4E Launch Amid DDR5 Scalping Surge
-**Sentiment:** -0.49 (pos: 0.12, neg: 0.61, neu: 0.27)
+### 2026-03-20 | Micron, Five Below, Alibaba shares swing
+**Sentiment:** -0.15 (pos: 0.29, neg: 0.44, neu: 0.28)
 
-Rambus announced a new HBM4E Memory Controller IP for next-generation AI accelerators, GPUs and HPC systems, claiming industry-first performance and advanced reliability features to help customers achieve first-time silicon success. The controller supports up to 16 Gbps per pin for as much as 4.1 TB/s per HBM4E device and can deliver over 32 TB/s in an eight-stack accelerator configuration, targeting large-model training, inference and data‑intensive HPC workloads. Separately, DataDome and multiple outlets report an AI-driven surge in DDR5 demand has spawned large-scale scalping operations, with bots generating more than 10 million scraping requests, querying product pages roughly every 6.5 seconds (about 551 checks per listing) and sending over 50,000 requests per hour. Those automated crawlers use cache-busting parameters, day/night patterns and throttled request pacing to evade detection while targeting consumer DDR5 kits and B2B/industrial components such as DIMM sockets, CAMM2 modules and server memory. Manufacturers shifting output toward higher-margin server-grade memory are tightening consumer supply and inflating secondary-market prices, creating tension between efforts to deliver higher-bandwidth memory technologies and constrained access to the DRAM needed to deploy them.
+Equity futures dipped as inflation worries resurfaced after hot producer-price data and the Federal Reserve held rates steady. Micron shares slid about 5% in premarket trading even after beating earnings, raising its dividend by 30%, and delivering strong guidance, with investors pointing to profit-taking after a 348% one-year surge that also pressured other memory-chip stocks. Alibaba’s U.S.-listed shares fell about 4.5% after a sharp profit decline and weaker-than-expected revenue, with the results suggesting AI gains weren’t enough to offset pressure on its core e-commerce business. Five Below jumped roughly 8% after stronger comparable-store sales and optimistic projections, while other stocks saw notable swings as well. Newmont dropped about 5.4% as gold prices pulled back following Fed signals. On a separate Monday market session, stocks rose as oil fell, President Donald Trump urged other countries to help ensure safe passage through the Strait of Hormuz, and Nvidia leadership highlighted long-term CUDA adoption while the company said it plans a second Taiwan manufacturing facility by the end of 2026.
 
 **Key Points:**
-- Rambus says the HBM4E controller builds on the company’s track record of more than 100 HBM design wins and can be paired with third‑party standards or through‑silicon via (TSV) PHY solutions to create a complete HBM4E implementation.
-- DataDome found the scalping bots hit DDR5 product pages nearly six times more often than legitimate users and benign crawlers — in one sample 91 listings were scraped an average of 551 times each (about once every 6.5 seconds) — indicating automated price/inventory monitoring designed to buy and resell stock instantly.
-- Researchers warn the threat actors are leveraging AI to improve scraping operations — including attempts to reverse‑engineer anti‑bot protections and automate scripting tasks — which lowers the bar so both script kiddies and professional scrapers can run fraud at scale.
+- Micron’s outlook included a specific range for adjusted results: it projected adjusted EPS of $18.75 to $19.55 and revenue of $32.75 billion to $34.25 billion, after raising its quarterly dividend by 30% to $0.15 per share.
+- The Micron-led selloff spilled into peers with specific moves: SanDisk fell about 5.5%, while Seagate Technology declined about 1.4% and Western Digital dropped about 2.6%.
+- On gold and Newmont, Fed commentary cited inflation risks linked to the conflict in Iran: the articles noted that gold pulled back after Fed Chair Jerome Powell said the central bank was not ready to ignore inflation risks tied to that situation.
 
 ---
 
-### 2026-03-05 | Netlist reports Q4 sales up 121%, loss narrows
-**Sentiment:** +0.39 (pos: 0.51, neg: 0.12, neu: 0.36)
+### 2026-03-20 | Asia-Pacific strains under oil shock
+**Sentiment:** -0.79 (pos: 0.05, neg: 0.84, neu: 0.11)
 
-Netlist reported sharply improved 2025 results driven by AI-fueled memory demand and constrained industry supply, with management saying price tailwinds and a chip shortage are likely to persist until new fab capacity comes online around 2027. The company posted fourth-quarter net sales of $75.7 million and full-year net sales of $188.6 million, alongside large percentage increases in gross profit and materially smaller net losses versus a year earlier. Leadership highlighted product momentum—notably the Lightning overclocked, low-latency DDR5 line, which has completed OEM qualifications and is ramping with system integrators—and said demand is coming from markets such as high-frequency trading and high-performance computing. Netlist also emphasized progress on intellectual-property enforcement, citing important appellate wins that upheld patent validity and expanded actions covering DDR5 and HBM technologies. Management said the company is investing in R&D for next-generation memory (including MRDIMM and CXL NVDIMM) and enters 2026 positioned to capitalize on these product, pricing, and IP developments.
+In Indonesia, some families are skipping the Eid al-Fitr “mudik” homecoming this year as fears over the Middle East crisis, higher oil prices, and knock-on commodity inflation lead people to cut travel and save for priorities like education and other essentials; authorities expect the flow of travelers to fall by nearly 2% to about 143.9 million. Asian markets climbed as oil prices paused their rally, giving investors temporary relief while Israel- Iran tensions intensified, with Brent and WTI easing and major regional indexes rising; attention also shifted to the U.S. Federal Reserve’s upcoming forecasts. Oil prices then rebounded in early Asian trading as supply concerns from the Middle East outweighed the effect of emergency stock releases, and analysts warned that higher global crude could soon raise fuel costs at the pump. Across the region, investors continued to watch the Strait of Hormuz as Japan began releasing strategic reserves and the International Energy Agency said members could unlock additional supplies, even as attacks on Middle Eastern oil facilities—including in the UAE and Iraq—continued; U.S. allies also pushed back on current U.S. President Donald Trump’s demands to help reopen the waterway. Governments across Asia responded with measures ranging from Japan’s record reserve release and efforts to boost LNG supply, to South Korea’s energy policy shifts and fuel-price curbs, China’s ban on refined fuel exports, India’s efforts to move stranded vessels amid a worsening gas squeeze, and Indonesia’s larger fuel-subsidy allocation plus faster biodiesel blending. Overall, the conflict’s energy-supply squeeze is amplifying fears of higher inflation and weaker growth throughout the Asia-Pacific.
 
 **Key Points:**
-- Netlist reported specific margin and profitability improvements: fourth-quarter gross profit was $6.9 million (up 2,620% year‑over‑year), full‑year gross profit was $11.4 million (up 297% y/y), and net loss improved by 82% in Q4 and 54% for the full year; Q4 net sales rose 79% sequentially and 121% year‑over‑year while full‑year sales increased 28%.
-- CEO C.K. (Chuck) Hong characterized the current production environment as a “zero‑sum game,” saying the tightness is largely AI‑driven and that Netlist is seeing limited access to DRAM “raw material” (and some NAND); he expects the supply imbalance to persist until new fab capacity comes online toward the second half of 2027.
-- Netlist said its Lightning overclocked, low‑latency DDR5 line has completed qualifications at a “global server OEM” that is now testing the modules with end customers, and Lightning sales volume is “ramping up nicely” in the system‑integrator market.
+- In Jakarta, computer repair shop owner Nugrah Wisnu Adi said he was saving the money he would normally spend on Eid travel “for other more important expenses like his children’s education,” while vegetable vendor Murniati canceled her trip to Karanganyar because “of the high prices of bus tickets,” illustrating how everyday cost pressures are reshaping Eid “mudik” plans in addition to Middle East fears. 
+- Oil prices reached a key milestone during the crisis: crude neared $120 a barrel on March 9 and for the first time crossed above $100 since July 2022—heightening concerns about follow-on impacts to Indonesia’s basic commodity prices.
+- The conflict driving energy fears escalated sharply, with Israel “heightening its offensive, killing Iran’s security chief,” followed by Iran retaliation strikes on oil facilities in the UAE—an attribution not reflected in the broader summary of ‘intensified’ tensions.
 
 ---
 
-### 2026-03-05 | Micron Gets Street-High $550 Target Ahead of Earnings
-**Sentiment:** +0.42 (pos: 0.50, neg: 0.07, neu: 0.43)
+### 2026-03-20 | Markets weigh Fed inflation outlook oil shock
+**Sentiment:** +0.04 (pos: 0.36, neg: 0.31, neu: 0.33)
 
-Street analysts have sharply boosted expectations for Micron as memory prices have climbed and supply appears tighter than expected, with Stifel raising its price target to a Street-high $550 and UBS lifting its target to $475. Stifel argues that stronger-than-anticipated pricing—including a near doubling of consumer price-per-bit and very high server DDR5 margins—could push Micron’s gross margins into the mid-to-upper 70% range by midyear and keep them elevated through 2026. Despite the bullish upgrades and a consensus skewed to Buy, some firms remain cautious (Goldman Sachs at Neutral with a $360 target) and Morgan Stanley has shifted its top semiconductor pick to Nvidia, underscoring a debate between betting on memory versus processors. Investors will watch Micron’s execution on high-bandwidth memory (HBM) and the pace of industry capacity additions to judge how durable current pricing is. Micron’s Q2 FY26 report on March 18—when Wall Street looks for about $8.52 in EPS on roughly $18.85 billion in revenue—will be a key test of whether elevated pricing and margin expectations are sustainable.
+Benzinga Pro argues that consistently profitable trading depends on preparation before the market opens, and its Morning Update consolidates key pre-9:30 inputs such as scheduled economic reports, index sentiment, and stock catalysts like analyst rating changes and IPOs into one dashboard that can be set to load automatically each day. BTTV’s new “Daily Calls” adds a live, expert-led format for investors to ask questions and get guidance on where to invest and how to structure portfolios. In broader market coverage, Yahoo/Reuters’ “Morning Bid” highlights how war-related oil volatility is feeding into inflation concerns the Federal Reserve may weigh when deciding on U.S. rate cuts this year, pointing to producer-price data and oil price moves tied to Iran and the Strait of Hormuz. The same briefing notes efforts to route around supply disruptions via pipelines and ports, with oil remaining pressured near the $100-plus level even as volatility eases, while global stocks take some comfort. CNBC Markets Now similarly focuses on day-of-market moves with commentary and analysis intended to help viewers interpret the day’s developments.
 
 **Key Points:**
-- UBS analyst Timothy Arcuri raised his Micron price target from $450 to $475 and flagged strengthening pricing dynamics in both DRAM and NAND; Micron shares were trading around $412.65 on the day, swinging between $408.17 and $414.10.
-- Stifel’s Brian Chin projects server DDR5 margins could exceed 80% and potentially surpass the profitability of HBM, a specific numeric forecast beyond the summary’s reference to ‘very high’ server DDR5 margins.
-- Chin says his supply checks indicate memory supply will remain tight over the next year and believes Micron’s earnings growth could effectively pull forward its expected FY27 performance by about a year — an outlook he argues the market hasn’t fully priced in; TipRanks data shows Chin ranks 163rd out of more than 12,000 analysts with a 67% success rate and an average one-year return per rating of 36.6%.
+- Benzinga Pro’s Morning Update is set up to be “your morning briefing dashboard” with a specific workflow: users open it via the profile icon in the upper-right of the platform, then click the gear cog and toggle “Initial Load” to ON so it automatically loads to that dated briefing each day.
+- In the Morning Bid briefing, Reuters/Yahoo says oil moved sharply around the Iran-Gulf flareup—crude “ended up more than 3%” on Tuesday after fresh Iranian attacks, then “eased early on Wednesday” as countries sought alternative export routes while the Strait of Hormuz remained blocked.
+- The Morning Bid report details the alternative routing: Saudi Arabia’s “East-West pipeline to the Red Sea” and exports resuming via Turkey’s “Ceyhan port” after a deal between “the Iraqi government and Kurdish authorities.” It also notes Brent staying elevated—“above $100 per barrel” for “four consecutive sessions.”
 
 ---
 
-### 2026-03-03 | Micron sets March 18 earnings, AI proxy
-**Sentiment:** -0.51 (pos: 0.13, neg: 0.64, neu: 0.23)
+### 2026-03-19 | US stock futures rise ahead of Fed decision
+**Sentiment:** +0.10 (pos: 0.42, neg: 0.32, neu: 0.26)
 
-Micron has delivered roughly 300% returns over the last year while still trading at a forward non‑GAAP P/E near 12.4 and a PEG around 0.21, reflecting persistent market skepticism despite sharply upgraded estimates. Wall Street now models roughly $76 billion in fiscal 2026 revenue and EPS near $33.92 after a string of upward analyst revisions. Demand appears strong — high‑bandwidth memory is reportedly fully allocated through 2026 and Micron’s cloud memory business posted about 66% gross margins in Q1 with company margins expected near 68% in Q2 — supporting tight pricing. At the same time, investors are watching for an “Nvidia hangover,” questions about enterprise ROI, and memory‑pricing or supply risks as hyperscaler capex cycles and competitive dynamics could alter the outlook. Micron’s March 18 fiscal Q2 report and conference call will be closely watched for signs on pricing trends, order pull‑forwards, and industry supply discipline that could move the stock.
+Canadian stocks edged higher as easing oil prices improved sentiment ahead of the Bank of Canada’s rate decision, with the TSX closing Tuesday up slightly and the Canadian dollar modestly weaker against the U.S. dollar. Data also showed foreign investors bought $46.7 billion of Canadian securities in January while Canadian investors added $11.4 billion of foreign securities, and home sales on Canadian MLS systems fell 1.3% month over month in February. In the U.S., stock-index futures rose as crude prices dipped and investors waited for the Federal Reserve, where rates are widely expected to stay in the 3.5% to 3.75% range. Traders will be watching Powell’s comments on how tariffs, Middle East-driven energy costs, and a softening labor market could affect future policy, with expectations that the first rate cut could be pushed back to December rather than July. Technology-related optimism also supported markets after reports that Nvidia received Beijing approval for sales of its second-tier AI chips in China and was developing a China-specific Groq AI chip, alongside an AMD-Samsung partnership to expand AI memory chip supply. Corporate and economic calendars add more catalysts, including attention on Micron’s quarterly results and the release of producer price data.
 
 **Key Points:**
-- Fox Business aired comments from Nvidia CEO Jensen Huang stating that “Nvidia is Micron’s largest customer.”
-- Nvidia forecast roughly $78 billion in first-quarter revenue and Jensen Huang said demand for compute is “growing exponentially” with customers “racing to invest in AI,” underlining a strong read-through to memory demand.
-- Analyst activity has been heavily tilted upward: all 28 analyst revisions over the past three months moved higher, and some analyst models imply upside to a $600–$700 share price if Micron traded at industry-consistent multiples.
+- Canada’s market breadth was mixed: the TSX Venture Exchange fell 1.11 points (about -0.1%) to 1,011.06, even as the main TSX edged higher.
+- Ahead of earnings, Micron was described as having “rallying nearly 62% this year” on “soaring demand for high-bandwidth memory,” with investors set to watch its quarterly results after the bell.
+- On the Fed outlook, ING rates strategist Benjamin Schroeder said the FOMC could “trim growth forecasts marginally, push up its inflation forecast and then delay the 2026 rate cut until 2027,” adding that Powell would “underline the challenges in the current volatile environment.”
 
 ---
 
 ## FMP Articles (30 articles)
 
-### 2026-05-09 | Apple dominated the 2026 chip war. Google's partners are left to buy scraps
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/09/apple-dominated-the-2026-chip-war-googles-partners-are-left-to-buy-scraps/
+### 2026-05-21 | Stock-Split Watch: Micron Could Be Next After Soaring by More Than 600% in 1 Year
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/05/21/stock-split-watch-micron-could-be-next-after-soari/
 
-Apple (NASDAQ: AAPL | AAPL Price Prediction) and Alphabet (NASDAQ: GOOGL) both just reported, and the contrast runs deeper than the headline numbers suggest.
+Micron hasn't split its stock since 2000. Micron's profits and revenues are soaring thanks to a major shortage of memory chips.
 
 ---
 
-### 2026-05-09 | Micron Has The Better Scarcity, Sandisk Has The Hotter Trade
+### 2026-05-21 | Micron's Management Has Just Shared 3 Game-Changing Insights
 **Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4901927-micron-has-the-better-scarcity-sandisk-has-the-hotter-trade
+**URL:** https://seekingalpha.com/article/4907575-micron-management-has-just-shared-3-game-changing-insights
 
-Micron benefits more directly from AI-driven HBM and DRAM scarcity, where supply constraints remain harder to resolve and pricing power appears structurally stronger and potentially more durable. Sandisk still has exceptional fundamentals, but upside increasingly depends on sustaining unusually strong NAND pricing rather than broadening volume-driven growth or underappreciated structural expansion. Sandisk's rerating now reflects aggressive earnings assumptions, elevated positioning, and peak enthusiasm, making the stock more vulnerable if pricing normalizes earlier, AI capex growth moderates, or valuation multiples compress.
-
----
-
-### 2026-05-08 | AMD, Micron shares surge on a big day for chip-sector outperformance
-**Source:** Market Watch
-**URL:** https://www.marketwatch.com/story/amd-micron-shares-surge-on-a-big-day-for-chip-sector-outperformance-fe2d5306
-
-The chip sector outperformed the S&P 500 on Friday to a degree not seen in over a year, as artificial-intelligence mania kicked into a new gear.
+Micron is my most successful investment of 2025, delivering over 1000% return since April 2025, when I doubled down. I remain bullish and fully invested, as Micron is still my high-conviction holding. Valuation is more attractive than many believe. Micron trades at a low 12.5x forward P/E despite leading growth expectations among peers, with business growth outpacing valuation expansion.
 
 ---
 
-### 2026-05-08 | Micron surges more than 30% on week as memory chip rally goes parabolic
-**Source:** CNBC
-**URL:** https://www.cnbc.com/2026/05/08/micron-surges-more-than-30percent-on-week-as-memory-chip-rally-goes-parabolic.html
+### 2026-05-21 | MU vs. AMD: Which AI Semiconductor Stock Is the Better Buy?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2924785/mu-vs-amd-which-ai-semiconductor-stock-is-the-better-buy?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2924785
 
-Micron is heading for its best week since 2008's Great Recession. Shares have gained 80% in the past month and its market cap is above $820 billion.
+Micron's AI memory surge is driving record results, while its lower P/E multiple than Advanced Micro Devices' makes it a better investment choice.
 
 ---
 
-### 2026-05-08 | Nasdaq-100 Rockets Past 5% for the Week; Dow Finally Stops Sulking
+### 2026-05-21 | Micron Technologies Will Be a $1 Trillion Company By This Date
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/21/micron-technologies-will-be-a-1-trillion-company-by-this-date/
+
+Micron Technology (NASDAQ:MU | MU Price Prediction) is rewriting its identity.
+
+---
+
+### 2026-05-21 | Micron's AI Memory Dominance Is Just Beginning
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4907508-microns-ai-memory-dominance-is-just-beginning
+
+Micron (MU) guided for $33.5 billion quarterly revenue and ~81% gross margins, levels previously unimaginable for a memory company. DRAM pricing surged 65%-67% sequentially while NAND demand strengthened, signaling structural AI-driven supply shortages across memory markets. Investors remain overly focused on Micron losing Nvidia's flagship HBM4 allocation while broader AI memory demand accelerates simultaneously.
+
+---
+
+### 2026-05-21 | Micron Biomedical Celebrates the Grand Opening of Its Commercial-Scale Manufacturing Site in Georgia
+**Source:** GlobeNewsWire
+**URL:** https://www.globenewswire.com/news-release/2026/05/21/3299251/0/en/Micron-Biomedical-Celebrates-the-Grand-Opening-of-Its-Commercial-Scale-Manufacturing-Site-in-Georgia.html
+
+National and local leaders across government, investors, life science industry and academia acknowledge the impact of Micron's dissolvable vaccines and therapies on human health and economic development National and local leaders across government, investors, life science industry and academia acknowledge the impact of Micron's dissolvable vaccines and therapies on human health and economic development
+
+---
+
+### 2026-05-21 | Micron and SK Hynix Stocks Rise. The Memory-Chip Boom Is Back.
+**Source:** Barrons
+**URL:** https://www.barrons.com/articles/micron-sk-hynix-stocks-samsung-strike-memory-9d9bc2ed
+
+The gains came after rival Samsung Electronics agreed a last-minute deal to avert a strike.
+
+---
+
+### 2026-05-20 | Down 14%, Should You Buy the Dip in Micron Stock?
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/05/20/down-14-should-you-buy-the-dip-in-micron-stock/
+
+Micron's (MU +4.60%) stock has soared over the previous few years, but has been down in recent days.
+
+---
+
+### 2026-05-20 | Why Micron Stock Jumped Today
 **Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/08/nasdaq-100-rockets-past-5-for-the-week/
+**URL:** https://www.fool.com/investing/2026/05/20/why-micron-stock-jumped-today/
 
-Intel, Micron, and a strong jobs report lifted the S&P 500 and Nasdaq-100 to fresh records. Here's what you need to know.
-
----
-
-### 2026-05-08 | Micron (MU) is an Incredible Growth Stock: 3 Reasons Why
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2918374/micron-mu-is-an-incredible-growth-stock-3-reasons-why?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_11_growth-2918374
-
-Micron (MU) could produce exceptional returns because of its solid growth attributes.
+Micron stock gained ground in a bullish day for tech stocks.
 
 ---
 
-### 2026-05-08 | Nasdaq Tops 29,000 Records, Micron Soars 13%: Stock Market Today
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/markets/equities/26/05/52422543/nasdaq-100-record-highs-tech-rally-semiconductor-performance-micron-best-week-since-2008-friday-
-
-Nasdaq jumps 1.6% to record highs Friday as semiconductor rally and stronger-than-expected April payrolls overshadow ongoing Strait of Hormuz tensions.
-
----
-
-### 2026-05-08 | Semiconductors Just Hit a 25-Year High and These Three Stocks Still Have Room to Run
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/opinion/26/05/52422038/semiconductors-just-hit-a-25-year-high-and-these-three-stocks-still-have-room-to-run
-
-The PHLX Semiconductor Index just reached its highest level since March 2000, the last time chips were this hot, the dot-com bubble burst six months later. This time, the underlying business is real: AI infrastructure spending is accelerating, hyperscalers are committing hundreds of billions to data centers, and the companies supplying the picks and shovels are printing cash.
-
----
-
-### 2026-05-08 | Why Micron Technology Stock Popped Today
-**Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8846380/why-micron-technology-stock-popped-today
-
-Micron Technology (MU) shares jumped on Friday after Bernstein reiterated its bullish stance on the memory-chip maker, despite warning that elevated pricing may
-
----
-
-### 2026-05-08 | Micron is now worth more than JPMorgan as the stock sees its best week in two decades
-**Source:** Market Watch
-**URL:** https://www.marketwatch.com/story/micron-is-now-worth-more-than-jpmorgan-as-the-stock-sees-its-best-week-in-two-decades-dc835514
-
-Micron has added $200 billion in market capitalization over the past week.
-
----
-
-### 2026-04-10 | Micron & 2 More Momentum Stocks You Shouldn't Miss This April
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2898506/micron-2-more-momentum-stocks-you-shouldn-t-miss-this-april
-
-Micron Technology joins top momentum picks under the "buy high, sell higher" strategy, with strong earnings surprises and technical signals driving its appeal.
-
----
-
-### 2026-04-10 | Wall Street Roundup: Risk On/Risk Off
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4889894-wall-street-roundup-risk-onrisk-off
-
-Ceasefire headlines triggered a relief rally in chip and AI stocks, with Intel up 22%, Micron up 13%, and Broadcom up 20% over five days. Oil stocks like ExxonMobil and Chevron declined on peace hopes, but remain significantly up year-to-date; crude oil prices are still elevated versus start-of-year levels.
-
----
-
-### 2026-04-10 | Alphabet's Google Has Given Birth to 3 Millionaire-Maker Stocks Hiding in Plain Sight. All of Them Are Trading at Incredible Valuations Right Now.
+### 2026-05-20 | These Super Stocks Could Be the Biggest Winners in the AI Inference and Agentic AI Economy
 **Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/04/10/google-has-given-birth-to-3-millionaire-maker/
+**URL:** https://www.fool.com/investing/2026/05/20/super-stocks-big-winners-ai-inference-agentic/
 
-Google's TurboQuant algorithm is going to be a boon for the memory industry, setting these three stocks up for outstanding long-term growth.
-
----
-
-### 2026-04-10 | Think It's Too Late to Buy Micron? Here's the Case for Getting In Now
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/04/10/think-its-too-late-to-buy-micron-heres-the-case-for-getting-in-now/
-
-Micron Technology (NASDAQ:MU | MU Price Prediction) has risen 522.09% over the past twelve months, climbing from $65.38 to $406.73.
+Nvidia is the biggest winner of the AI boom so far, but these three stocks could be the big winners from the shift toward inference and agentic AI.
 
 ---
 
-### 2026-04-10 | 4 Stocks to Watch From a Prospering Technology Solutions Industry
+### 2026-04-21 | What Makes Micron (MU) a Strong Momentum Stock: Buy Now?
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/commentary/2897904/4-stocks-to-watch-from-a-prospering-technology-solutions-industry
+**URL:** https://www.zacks.com/stock/news/2904694/what-makes-micron-mu-a-strong-momentum-stock-buy-now
 
-Amid supply-chain woes, Computer - Integrated Systems players like MU, AMD, HPE and AGYS benefit from the demand for integrated solutions and multi-cloud model adoption.
+Does Micron (MU) have what it takes to be a top stock pick for momentum investors? Let's find out.
 
 ---
 
-### 2026-04-10 | Boom or Bubble? Here's Where Micron Stock Could Be in 5 Years.
+### 2026-04-21 | 4 High-Flying Tech Stocks to Grab on Nasdaq's Ongoing Rally
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2904253/4-high-flying-tech-stocks-to-grab-on-nasdaq-s-ongoing-rally
+
+Nasdaq's rebound to record highs amid AI-driven momentum spotlights MU, NVDA, MSFT, and AVGO as top tech picks with strong growth potential.
+
+---
+
+### 2026-04-21 | The 3 Best Artificial Intelligence (AI) Growth Stocks to Buy on the Nasdaq Before Q1 Earnings Season
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/10/boom-or-bubble-heres-where-micron-stock-could-be/
+**URL:** https://www.fool.com/investing/2026/04/21/best-ai-growth-stocks-buy-nasdaq-q1/
 
-As inference workloads multiply, growth investors are realizing the need for high-bandwidth memory chips. Micron is poised to benefit from AI buildouts as new applications at the AI edge move into production.
+Nvidia is poised to see another strong quarter in Q1. After reporting a blowout quarter last month, expect more of the same from Micron this earnings cycle.
 
 ---
 
-### 2026-04-10 | Prediction: The Nasdaq Will Recover From This Correction Before the End of 2026. History Says Buy These AI Stocks Now.
+### 2026-04-21 | Evergreen Capital Management LLC Acquires 1,567 Shares of Micron Technology, Inc. $MU
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/21/evergreen-capital-management-llc-acquires-1567-shares-of-micron-technology-inc-mu.html
+
+Evergreen Capital Management LLC grew its position in shares of Micron Technology, Inc. (NASDAQ: MU) by 2.7% during the undefined quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The fund owned 60,393 shares of the semiconductor manufacturer's stock after buying an additional 1,567 shares during the
+
+---
+
+### 2026-04-21 | Buy 2 Artificial Intelligence (AI) Stocks That Are Crushing Nvidia and Palantir in 2026
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/10/predict-nasdaq-recover-correction-ai-stocks/
+**URL:** https://www.fool.com/investing/2026/04/21/buy-2-ai-stocks-crushing-nvidia-palantir-in-2026/
 
-Technology stocks are volatile, creating a tough environment as investors identify value traps versus dip opportunities. Some AI stocks sold off, but for the wrong reasons, providing a rare opportunity to buy asymmetric upside at a discount.
-
----
-
-### 2026-04-10 | Micron: Crushing Cyclical Fears (Rating Upgrade)
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4889774-micron-crushing-cyclical-fears-rating-upgrade
-
-Micron Technology (MU) is upgraded to 'Buy' due to strong operational momentum, execution, and undervaluation versus forward earnings consensus. MU reported a 196% YoY revenue increase and record gross margins, yet negative earnings revisions and sell-off have created a disconnect and upside potential. CAPEX expansion is viewed as a strategic response to structurally rising demand, with HBM and enterprise SSD execution de-risking future revenue streams.
+Year to date, Micron Technology and Comfort Systems shares have outperformed Nvidia and Palantir shares by a considerable margin. Micron is a key manufacturer of DRAM, HBM, and NAND flash memory chips that support artificial intelligence workloads in data centers.
 
 ---
 
-### 2026-04-10 | Micron Has 15.58% Downside Risk to Our $318.89 Target Despite the 485.1% Rally
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/04/10/micron-has-15-58-downside-risk-to-our-318-89-target-despite-the-485-1-rally/
-
-Micron Technology (NASDAQ:MU | MU Price Prediction) has risen 485.1% over the past year, but our model now flags a meaningful pullback risk.
-
----
-
-### 2026-04-10 | The Nasdaq Has Made a Solid Recovery. Here Are 2 Incredibly Attractive Stocks to Buy Before It's Too Late.
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/10/the-nasdaq-has-made-a-solid-recovery-here-are-2-in/
-
-The Nasdaq Composite has rebounded from its March slump. Micron Technology and SoundHound AI are still down, and trading at relatively attractive valuations.
-
----
-
-### 2026-03-11 | Micron Technology: HBM Sold Out For 2026, Wall Street Is Still Underpricing
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4881338-micron-technology-hbm-sold-out-for-2026-wall-street-is-still-underpricing
-
-Micron Technology, Inc. is rated Strong Buy, with a $500 price target, reflecting a structural shift from cyclical DRAM to AI-driven HBM dominance. MU's entire 2026 HBM production is sold out under binding contracts, providing unprecedented revenue visibility and margin expansion, with Q2 FY2026 guidance at 68% gross margin and $8.42 EPS. Valuation remains compressed at 10-12x FY2026 EPS, despite record growth and profitability metrics more akin to software or platform companies than commodity memory peers.
-
----
-
-### 2026-03-11 | The memory stock cycle of boom-bust-repeat is over, executives say
-**Source:** CNBC
-**URL:** https://www.cnbc.com/2026/03/11/memory-stocks-ai-chips-demand.html
-
-Memory stocks are soaring, and executives say that AI has upended the industry's old boom-bust cycle. Hyperscalers are more keen on signing long-term deals to lock in supply for years.
-
----
-
-### 2026-03-11 | Why Micron stock is soaring nearly 5% today?
+### 2026-04-21 | Why Morgan Stanley is doubling down on memory stocks amid AI boom?
 **Source:** Invezz
-**URL:** https://invezz.com/news/2026/03/11/why-micron-stock-is-soaring-nearly-5-today/
+**URL:** https://invezz.com/news/2026/04/21/why-morgan-stanley-is-doubling-down-on-memory-stocks-amid-ai-boom/
 
-Micron stock (NASDAQ: MU) surged nearly 5% on Wednesday as investors digested a fresh round of analyst upgrades. The fresh rally came in the backdrop of the artificial intelligence sector pulling demand in one direction, and the evidence shows that it is not slowing down.
+Wall Street's AI trade is broadening again, and Morgan Stanley wants investors to look beyond the chips that have dominated the first leg of the rally. In a note on April 20, the bank said increasingly autonomous, so-called agentic AI could lift demand for CPUs and memory.
 
 ---
 
-### 2026-03-11 | AI Stocks Worth Adding to Your Portfolio for Healthy Returns
+### 2026-04-20 | Prediction: This Artificial Intelligence (AI) Growth Stock Will Be the Nasdaq's Biggest Winner Over the Next 12 Months
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/20/prediction-this-artificial-intelligence-ai-growth/
+
+Some of the biggest casualties of the Nasdaq correction were artificial intelligence (AI) chip stocks. Micron's parabolic rise came to a screeching halt, but the company is well positioned for a rebound.
+
+---
+
+### 2026-04-20 | Micron Quietly Powers S&P Earnings Surge
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8803907/micron-quietly-powers-sp-earnings-surge
+
+Micron (MU) is doing far more heavy lifting than most investors might expect, accounting for 51% of all S&P 500 EPS revisions since the war began, according to
+
+---
+
+### 2026-04-20 | Here's Why Analysts Think Micron Technologies Stock Can Hit $600
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/20/heres-why-analysts-think-micron-technologies-stock/
+
+Micron Technology's stock has skyrocketed over the past year due to exceptional demand for its products. Analysts project that there will continue to be a shortage of memory and storage products until the middle of next year.
+
+---
+
+### 2026-04-20 | Why Micron (MU) is a Top Stock for the Long-Term
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2882568/ai-stocks-worth-adding-to-your-portfolio-for-healthy-returns?cid=CS-STOCKNEWSAPI-FT-artificial_intelligence_(ai)-2882568
+**URL:** https://www.zacks.com/stock/news/2903152/why-micron-mu-is-a-top-stock-for-the-long-term
 
-Here, we have picked three AI stocks, MU, TER and NVDA, which are well-poised to benefit from AI's growing use and ability to solve complex problems.
+Finding strong, market-beating stocks with a positive earnings outlook becomes easier with the Focus List, a top feature of the Zacks Premium portfolio service.
 
 ---
 
-### 2026-03-11 | Micron: A Pound-The-Table Moment Ahead Of Q2
+### 2026-03-22 | Micron: Buy The Latest Blowout
 **Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4881088-micron-a-pound-the-table-moment-ahead-of-q2
+**URL:** https://seekingalpha.com/article/4884837-micron-stock-q2-buy-the-latest-blowout
 
-AI infrastructure is dramatically increasing memory intensity, with modern AI servers requiring multiple terabytes of DRAM and hundreds of gigabytes of HBM, a structural shift that is driving much stronger. HBM supply remains structurally tight, controlled by a small group of suppliers and largely booked through 2026. MU trades at elevated revenue multiples ahead of Q2 earnings, reflecting market expectations of a cyclical peak, but HBM's growing revenue mix could drive further upside.
-
----
-
-### 2026-03-11 | Micron (MU) Earnings Expected to Grow: What to Know Ahead of Next Week's Release
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2882339/micron-mu-earnings-expected-to-grow-what-to-know-ahead-of-next-week-s-release?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_9-2882339
-
-Micron (MU) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.
+Micron reported record Q2 revenues of $23.86 billion, up 196% year-over-year, driven by explosive demand from the AI revolution. Both DRAM and NAND segments saw triple-digit revenue growth and significant price increases amid tight industry supply and favorable product mix. Non-GAAP gross margins surged to 74.9%, with adjusted operating margins hitting 69.0% and EPS of $12.20, far exceeding expectations.
 
 ---
 
-### 2026-03-11 | Live Nasdaq Composite: Tech Sentiment Improves but Oil a Wildcard Over Markets
-**Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/03/11/live-nasdaq-composite-tech-sentiment-improves-but-oil-a-wildcard-over-markets/
+### 2026-03-22 | Is Micron a Buy as Revenue Explodes Higher?
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/03/22/is-micron-a-buy-as-revenue-explodes-higher/
 
-Live Updates Finally! Access 25+ Cryptocurrencies The Easy Way After years of waiting for a good option, SoFi now offers access to major cryptocurrencies like Bitcoin, Ethereum, and Solana, along with more than 25 total digital assets. What stands out isn't just the selection, it's the integration. You don't need a separate app, a new... Live Nasdaq Composite: Tech Sentiment Improves but Oil a Wildcard Over Markets.
-
----
-
-### 2026-03-11 | Buy Or Sell Micron Stock At $400?
-**Source:** Forbes
-**URL:** https://www.forbes.com/sites/greatspeculations/2026/03/11/buy-or-sell-micron-stock-at-400/
-
-Our multi-factor evaluation indicates that it might be prudent to lessen exposure to MU stock.
+Micron turned in a blockbuster fiscal Q2 and issued impressive guidance. The stock isn't expensive if AI infrastructure spending continues to be a secular tailwind.
 
 ---
 
-### 2026-03-11 | Is Micron Getting Toppy? Not According to These Pros Who See Even More Upside Ahead
+### 2026-03-22 | Where Will Micron Stock Be in 3 Years?
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/03/22/where-will-micron-stock-be-in-3-years/
+
+Micron has emerged as a category leader of high-bandwidth memory solutions for artificial intelligence (AI) hyperscalers. The company's revenue and earnings growth are explosive, and secular tailwinds suggest the company's outlook remains strong.
+
+---
+
+### 2026-03-22 | AI picks 2 tech stocks to buy in Q2 2026
+**Source:** Finbold
+**URL:** https://finbold.com/ai-picks-2-tech-stocks-to-buy-in-q2-2026/
+
+The technology sector remains a focal point for investors seeking growth, even as the broader stock market experiences volatility.
+
+---
+
+### 2026-03-22 | CIBC Private Wealth Group LLC Purchases 3,009 Shares of Micron Technology, Inc. $MU
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/03/22/cibc-private-wealth-group-llc-purchases-3009-shares-of-micron-technology-inc-mu.html
+
+CIBC Private Wealth Group LLC lifted its holdings in Micron Technology, Inc. (NASDAQ: MU) by 31.6% in the third quarter, according to the company in its most recent disclosure with the SEC. The institutional investor owned 12,525 shares of the semiconductor manufacturer's stock after purchasing an additional 3,009 shares during the quarter. CIBC
+
+---
+
+### 2026-03-22 | 2 AI Stocks to Buy Before They Soar 80% and 50%, According to Wall Street Analysts
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/03/22/2-ai-stocks-to-buy-before-they-soar-80-and-50-acco/
+
+Nvidia is much more than a chipmaker today. Micron has huge upside if it can reduce the cyclical nature of its business.
+
+---
+
+### 2026-03-22 | 2 Semiconductor Stocks to Sell Before They Drop 32% and 43%, According to Wall Street Analysts (Hint: Not Nvidia)
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/03/22/2-semiconductor-stocks-sell-before-drop-43-wall-st/
+
+Micron reported strong financial results in the second quarter, but the driving force behind its recent success is a memory chip supply shortage, rather than a durable competitive advantage. Intel is losing market share in CPUs across personal computers and data center servers, and past execution missteps will make it difficult for the company to build a major foundry business.
+
+---
+
+### 2026-03-22 | Fed Chair Jerome Powell Just Connected AI to Inflation. Here's Your Investing Playbook.
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/03/22/fed-chair-jerome-powell-just-connected-ai-to-infla/
+
+Fed chairman Jerome Powell believes that AI data centers are pushing prices higher. Stocks to buy in the AI-induced inflationary environment include those with pricing power and address AI bottlenecks.
+
+---
+
+### 2026-03-21 | Is Micron the Next Nvidia?
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/03/21/is-micron-the-next-nvidia/
+
+Micron (MU 4.89%) reported fantastic quarterly financial results, yet the stock is still falling.
+
+---
+
+### 2026-03-21 | Buy These 3 Stocks Now, Hold 20 Years, Retire a Millionaire
 **Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/03/11/is-micron-getting-toppy-not-according-to-these-pros-who-see-even-more-upside-ahead/
+**URL:** https://247wallst.com/investing/2026/03/21/buy-these-3-stocks-now-hold-20-years-retire-a-millionaire/
 
-Since the new year began, shares of memory juggernaut Micron (NASDAQ:MU) have started to look toppy, with shares falling into two separate corrections (of around 13-15%) in the first quarter.
-
----
-
-### 2026-03-11 | AMAT and Micron still winning in AI trade despite QQQ and sector weakness
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/03/11/amat-and-micron-still-winning-in-ai-trade-despite-qqq-and-sector-weakness/
-
-In a choppy market where the AI trade has broadly struggled, one voice cutting through the noise put it simply: “Certain stocks have done well in the AI trade like AMAT, like Micron.
+You don't have to make flashy moves in the stock market to generate long-term wealth.
 
 ---
