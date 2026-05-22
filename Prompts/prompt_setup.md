@@ -75,28 +75,135 @@ python Scripts/earnings_calls.py {TICKER}
 
 **Output file:** `Data/tickers/{TICKER}/{TICKER}_mda_excerpts.md`
 
-### Critical instruction — read before extracting
+### Critical instruction — grep before extracting
 
-**You MUST read the FULL `{TICKER}_mda.md` file — every single line, from beginning to end — before extracting anything. Do NOT use grep, keyword search, ctrl+F, or any other shortcut. Read the entire file.**
+**Do NOT read the MD&A or Notes files. They are too long and will destroy session context. Use the grep commands below to extract the relevant passages for each target. The output of these greps IS your source material.**
 
-**Your job is to read the filing as a human would and identify what is relevant to each of the five questions based on the content and meaning of the text — not based on whether a section heading matches the question's name. Hold all five questions in mind as you read. A passage about revenue recognition assumptions buried in a "Liquidity" section is still relevant to Critical Accounting Estimates. A cautionary paragraph in "Results of Operations" is still relevant to risks. You are exercising judgment, not running a search.**
-
-**"Not found in filing" is only acceptable if you read the entire file and concluded — based on meaning, not the absence of a matching label — that nothing was relevant.**
-
-**If the file is long, read it in chunks of no more than 200 lines at a time, confirming each chunk before moving to the next. Do not proceed to extraction until you have read every chunk. There is no acceptable shortcut.**
-
-**This is a copy task, not a summary task.** Claude will read this file as raw source material for analysis. Any condensing, paraphrasing, or rewording you do here destroys analytical value — Claude cannot recover information that was cut.
+**This is a copy task, not a summary task.** Every passage you write into the excerpts file must be copied verbatim from grep output — exact figures, percentages, caveats, and hedging language intact. Do not paraphrase or compress. Do not add transitions. Do not editorialize.
 
 **Rules:**
-- Copy the relevant passages **exactly as written** in the filing, including all figures, percentages, dollar amounts, and qualifications.
-- Do **not** paraphrase, compress, or restate in your own words — not even one sentence.
-- Do **not** omit numbers, ranges, caveats, or hedging language. Every figure and qualifier matters.
-- Do **not** add commentary, interpretation, or editorial transitions between quotes.
-- If a passage is long, copy the full passage. Longer is always better than shorter here.
-- Use quotation marks or block-quote formatting to make clear the text is copied verbatim.
-- If a section is not found in the filing, write exactly: `Not found in filing.`
+- Copy passages **exactly as written**, including all figures, year-over-year comparisons, dollar amounts, and qualifications.
+- Do **not** paraphrase, compress, or restate — not even one sentence.
+- Do **not** omit numbers, ranges, or hedging language. Every qualifier matters.
+- Do **not** add commentary or editorial transitions between quoted passages.
+- Use block-quote formatting (`>`) to make clear the text is copied verbatim.
+- If a grep returns no output for a section, write exactly: `Not found in filing.`
 
-The only acceptable output for each section is the management's own words, copied directly.
+---
+
+### Required grep commands
+
+Run every command below. Each command targets one or more extraction sections. **Use the output verbatim — do not paraphrase.** The `-C` flag captures context lines before and after each match to preserve surrounding passage. If a command returns no output, note it and move on.
+
+**Source files:** `Data/tickers/{TICKER}/{TICKER}_mda.md` and `Data/tickers/{TICKER}/{TICKER}_notes.md`
+
+---
+
+#### Targets 1 & 2: Results drivers and segment breakdown
+
+```bash
+# Financial overview table + high-level results narrative (Targets 1 & 2)
+grep -n -A 120 "RESULTS OF OPERATIONS\|Financial Overview\|Overview of Financial Results" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -300
+
+# Segment results header — captures beginning of segment section (Target 2)
+grep -n -A 200 "^Segment Results$\|^SEGMENT RESULTS$" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -500
+
+# Per-segment revenue tables and narratives (catches individually-named segments)
+grep -n -B 2 -A 80 "^segment revenue$\|segment operating income\|Total segment revenue\|% of related revenue" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -400
+
+# Revenue drivers narrative — catches "increased/decreased" explanatory language
+grep -n -B 1 -A 8 "revenue increased\|revenue decreased\|revenue of \$\|segment revenue increased\|segment revenue decreased" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -300
+```
+
+#### Target 3: Management guidance
+
+```bash
+# Forward-looking quantitative guidance (ranges, percentages, dollar targets)
+grep -n -B 2 -A 8 \
+  "expect.*fiscal\|full.year\|full year\|next quarter\|guidance\|outlook\|between.*and.*million\|between.*and.*billion\|We estimate.*will\|we will incur\|restructuring.*plan\|2026 Plan\|2025 Plan" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -250
+
+# Directional forward-looking language from liquidity and other sections
+grep -n -B 1 -A 6 \
+  "we expect to\|we believe.*will\|we anticipate\|we plan to\|expect.*continue\|expect.*grow\|expect.*generate" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -200
+```
+
+#### Target 4: Risks and headwinds
+
+```bash
+# Named risk and challenge sections
+grep -n -A 40 "Key Challenges\|Key Risks\|RISK FACTORS\|Key Challenges and Risks" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -150
+
+# Headwind language embedded in results narrative
+grep -n -B 2 -A 4 \
+  "partially offset\|partially offsetting\|headwind\|pressure\|decline\|decrease.*due to\|fewer.*units\|lower.*volume\|unfavorable" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -200
+```
+
+#### Target 5: Critical Accounting Estimates
+
+```bash
+# Full Critical Accounting Estimates section — use large -A to capture entire section
+grep -n -A 200 "CRITICAL ACCOUNTING ESTIMATES\|Critical Accounting Estimates" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -300
+
+# 10-Q often defers to 10-K — capture that reference too
+grep -n -A 5 "no significant changes\|refer to.*Annual Report\|described in.*Form 10-K" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -30
+```
+
+#### Target 6: AI investment, pricing model, and monetization
+
+```bash
+# AI strategy, infrastructure, and product investment language
+grep -n -B 2 -A 12 \
+  "GenAI\|GenOS\|AI agent\|agentic AI\|artificial intelligence\|AI-driven\|AI-powered\|AI-enabled\|done-for-you\|Intuit Assist\|AI Operating System" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -400
+
+# Monetization, pricing model, and adoption metrics
+grep -n -B 2 -A 10 \
+  "monetiz\|pricing model\|consumption.based\|usage.based\|seat.based\|attach rate\|adoption\|remaining performance obligation\|RPO\|backlog" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -150
+
+# AI-related capex and investment commitments
+grep -n -B 2 -A 8 \
+  "capital expenditure\|infrastructure invest\|data center\|cloud.*invest\|invest.*AI\|AI.*invest\|committed demand\|vendor financing\|counterparty" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md | head -150
+```
+
+#### Target 7: Customers, suppliers, and competitors
+
+```bash
+# Purchase obligations and supplier commitments (MD&A and Notes)
+grep -n -B 2 -A 20 \
+  "purchase obligation\|cloud services agreement\|supply agreement\|advance payment.*supplier\|sole.source\|critical supplier" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md Data/tickers/{TICKER}/{TICKER}_notes.md | head -200
+
+# Customer concentration and named customers
+grep -n -B 2 -A 10 \
+  "customer.*concentration\|significant customer\|major customer\|accounted for.*revenue\|percent.*revenue.*customer\|no single customer" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md Data/tickers/{TICKER}/{TICKER}_notes.md | head -150
+
+# Named competitors and competitive landscape
+grep -n -B 1 -A 8 \
+  "competitor\|competition\|compete with\|competing.*products\|H&R Block\|TaxAct\|Block\|Xero\|Wave\|Sage\|FreshBooks\|Gusto\|Rippling\|Deel" \
+  Data/tickers/{TICKER}/{TICKER}_mda.md Data/tickers/{TICKER}/{TICKER}_notes.md | head -150
+
+# Related party transactions (Notes)
+grep -n -B 1 -A 15 \
+  "related party\|Related Party\|RELATED PARTY" \
+  Data/tickers/{TICKER}/{TICKER}_notes.md | head -100
+```
+
+---
+
+**After running all greps:** compile the output into the excerpts file below. Each section should contain only verbatim text from the grep output — no synthesis, no additions. If a target is genuinely absent from all grep output, write `Not found in filing.`
 
 ---
 

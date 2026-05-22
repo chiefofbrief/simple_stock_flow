@@ -64,11 +64,15 @@ REQUEST_TIMEOUT = 30
 # 'part_end':   'II' or 'III' if a PART boundary also closes this section.
 SECTION_DEFINITIONS = {
     '10-K': {
-        'mda':   {'start_item': '7',     'end_items': ['7A', '8'], 'part_end': None},
+        'mda':   {'start_item': '7',     'end_items': ['7A', '8'], 'part_end': None,
+                  'title_must_contain': 'MANAGEMENT'},
         'notes': {'start_item': 'NOTES', 'end_items': ['9', '15'], 'part_end': 'III'},
     },
     '10-Q': {
-        'mda':   {'start_item': '2',     'end_items': ['3', '4'],  'part_end': None},
+        # 10-Qs have TWO "ITEM 2" sections: Part I Item 2 (MD&A) and Part II Item 2
+        # (Unregistered Sales). title_must_contain disambiguates between them.
+        'mda':   {'start_item': '2',     'end_items': ['3', '4'],  'part_end': None,
+                  'title_must_contain': 'MANAGEMENT'},
         'notes': {'start_item': 'NOTES', 'end_items': ['2'],       'part_end': 'II'},
     },
 }
@@ -93,7 +97,7 @@ SECTION_PATTERNS = {
             'ends': [r'ITEM\s+3\s*[\.\-:]?\s*QUANTITATIVE', r'ITEM\s+4\s*[\.\-:]?\s*CONTROLS']
         },
         'notes': {
-            'start': r'(NOTES\s+TO\s+(CONDENSED\s+)?CONSOLIDATED\s+FINANCIAL\s+STATEMENTS|ITEM\s+1\s*[\.\-:]?\s*FINANCIAL\s+STATEMENTS)',
+            'start': r'(NOTES\s+TO\s+(UNAUDITED\s+)?(CONDENSED\s+)?CONSOLIDATED\s+FINANCIAL\s+STATEMENTS|ITEM\s+1\s*[\.\-:]?\s*FINANCIAL\s+STATEMENTS)',
             'ends': [r'ITEM\s+2\s*[\.\-:]?\s*MANAGEMENT', r'PART\s+II']
         }
     }
@@ -321,19 +325,48 @@ def discover_filing_structure(norm_text):
             'header_text': norm_text[m.start():m.start() + 120].strip(),
         })
 
-    # 3 & 4. For each item number, the real header has the longest span
+    # 3 & 4. For each item number, the real header has the longest span.
+    #
+    # Two-stage filtering before taking max-span:
+    #
+    # Stage 1 — header-syntax filter: real section headers have ITEM N followed
+    #   by punctuation (-, :, .) then title words.  In-body cross-references have
+    #   ITEM N followed by a comma or a lowercase function word ("Item 2, our
+    #   business..." / "Item 2 for more information...").  Prefer header-like
+    #   candidates; fall back to all candidates only if none qualify.
+    #
+    # Stage 2 — title-keyword filter (per-section, applied at extraction time via
+    #   title_must_contain in SECTION_DEFINITIONS): used to distinguish same-numbered
+    #   sections in different parts of a filing (e.g., 10-Q Part I Item 2 = MD&A
+    #   vs. Part II Item 2 = Unregistered Sales).  Stored in item_headers so the
+    #   extractor can apply it when looking up the start anchor.
+    _header_suffix_re = re.compile(
+        r'\bITEM\s+\d{1,2}[A-Z]?\s*[-:.]', re.IGNORECASE
+    )
+    _prose_suffix_re = re.compile(
+        r'\bITEM\s+\d{1,2}[A-Z]?\s*(?:,|\bfor\b|\bof\b|\bto\b|\bin\b|\band\b)',
+        re.IGNORECASE
+    )
+
     by_item = defaultdict(list)
     for c in candidates:
         by_item[c['item']].append(c)
 
     item_headers = {}
     for item_num, group in by_item.items():
-        best = max(group, key=lambda x: x['content_to_next'])
+        # Stage 1: prefer header-syntax candidates over prose references
+        header_like = [c for c in group if _header_suffix_re.search(c['header_text'][:40])
+                       and not _prose_suffix_re.search(c['header_text'][:40])]
+        pool = header_like if header_like else group
+        # Store ALL header-like candidates (not just the best) so the extractor can
+        # apply title_must_contain filtering before choosing the final start anchor.
+        best = max(pool, key=lambda x: x['content_to_next'])
         if best['content_to_next'] > 500:   # filters TOC entries (~50-200 chars)
-            item_headers[item_num] = best
+            item_headers[item_num] = {**best, '_all_header_like': pool}
 
     # 5. Notes section header (not ITEM-prefixed)
     notes_candidates = [
+        r'NOTES\s+TO\s+UNAUDITED\s+CONDENSED\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
         r'NOTES\s+TO\s+CONDENSED\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
         r'NOTES\s+TO\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
         r'NOTES\s+TO\s+FINANCIAL\s+STATEMENTS',
@@ -362,7 +395,8 @@ def discover_filing_structure(norm_text):
     return {'item_headers': item_headers, 'notes_header': notes_header}
 
 
-def extract_section_by_discovery(full_text, norm_text, structure, start_item, end_items, part_end=None):
+def extract_section_by_discovery(full_text, norm_text, structure, start_item, end_items,
+                                  part_end=None, title_must_contain=None):
     """Extract a filing section using positions discovered by discover_filing_structure().
 
     Uses exact discovered positions rather than regex patterns for end boundaries,
@@ -370,12 +404,19 @@ def extract_section_by_discovery(full_text, norm_text, structure, start_item, en
     Annual Report" that share phrasing with actual section headers.
 
     Args:
-        full_text:   Original parsed text (preserves line breaks for readability)
-        norm_text:   Normalized text (single-space, for position lookup)
-        structure:   Output of discover_filing_structure()
-        start_item:  Item number string ('7', '2') or 'NOTES'
-        end_items:   List of item number strings that terminate this section
-        part_end:    'II' or 'III' if a PART boundary also terminates the section
+        full_text:           Original parsed text (preserves line breaks for readability)
+        norm_text:           Normalized text (single-space, for position lookup)
+        structure:           Output of discover_filing_structure()
+        start_item:          Item number string ('7', '2') or 'NOTES'
+        end_items:           List of item number strings that terminate this section
+        part_end:            'II' or 'III' if a PART boundary also terminates the section
+        title_must_contain:  If set, the selected ITEM header's text must contain this
+                             substring (case-insensitive).  Used to disambiguate same-
+                             numbered sections in different filing parts (e.g., 10-Q
+                             Part I Item 2 = MD&A vs. Part II Item 2 = Unregistered
+                             Sales).  When the default best candidate does not match,
+                             the extractor tries other header-like candidates in
+                             descending span order.
 
     Returns:
         Extracted section text, or "" if the section could not be located.
@@ -390,8 +431,24 @@ def extract_section_by_discovery(full_text, norm_text, structure, start_item, en
         start_norm = notes_header['start']
         anchor = notes_header['header_text'][:40]
     elif start_item in item_headers:
-        start_norm = item_headers[start_item]['start']
-        anchor = item_headers[start_item]['header_text'][:40]
+        entry = item_headers[start_item]
+        if title_must_contain:
+            # Try each header-like candidate in descending span order until one
+            # whose title contains the required keyword is found.
+            pool = sorted(entry.get('_all_header_like', [entry]),
+                          key=lambda x: x['content_to_next'], reverse=True)
+            chosen = next(
+                (c for c in pool
+                 if title_must_contain.upper() in c['header_text'].upper()),
+                None
+            )
+            if not chosen:
+                # No candidate matches — fall back to default best
+                chosen = entry
+        else:
+            chosen = entry
+        start_norm = chosen['start']
+        anchor = chosen['header_text'][:40]
     else:
         return ""
 
@@ -648,6 +705,7 @@ def extract_filing_sections(html_file, ticker, form_type):
                 start_item=defn['start_item'],
                 end_items=defn['end_items'],
                 part_end=defn.get('part_end'),
+                title_must_contain=defn.get('title_must_contain'),
             )
 
             if len(text.split()) >= 100:
