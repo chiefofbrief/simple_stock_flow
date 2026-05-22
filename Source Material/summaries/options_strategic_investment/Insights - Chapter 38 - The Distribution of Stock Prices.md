@@ -1,51 +1,52 @@
-# USER NOTES - CHAPTER 38:
-
-- Much of the work that has been done in statistics and related areas regarding the stock market has made the assumption that stock prices are distributed normally, or more specifically, lognormally. In actual practice, this is usually an incorrect assumption. For the option strategist, this means that some of the things one might believe about certain option strategies having an advantage over certain other option strategies might be incorrect.
-- Perhaps wrong is too strong a word, but almost all estimates of stock price movement are overly conservative.
-- As a review for those not familiar with mathematical distributions, the lognormal distribution is what’s commonly used to describe stock prices because its shape is intuitively similar to the way stocks behave—they can’t go below zero, they can rise to infinity, and most of the time they don’t go much of anywhere. On top of that, the distribution’s shape is based on the historical volatility of the underlying instrument. In a lognormal distribution (and normal distribution, too), stocks remain within 3 standard deviations of their current price 99.74% of the time.
-- The problem lies in assuming that normal or lognormal distribution predicts stock price movements. Such an assumption does not allow for the occasional wild days that many stocks, some futures, and the relatively rare index undergo. The normal distribution pretty much says that a stock can’t rise or fall by more than 3 standard deviations. In fact, according to math, the probability of something that behaves according to the normal distribution (the “classic” bell curve is a normal distribution) moving three standard deviations is 0.0013 (or just a little more than one tenth of one percent). So, if there are 2,500 optionable stocks, say, then one would expect maybe 3 of them to move three standard deviations on any given day. However, in real market trading, there are routinely moves in stocks of more than 3 standard deviations—some as much as 5 standard deviations or more. Statistically (if the lognormal distribution were correct), one would only expect to see moves of that size maybe once in his lifetime, yet there are five or ten each day!
-- The point of the previous discussion is that stocks move a lot farther than you might expect. Moreover, when they make these moves, it tends to be with rapidity, generally including gap moves.
-- So, what does this information mean to the average option trader? For one, you should certainly think twice about selling stock options in a potentially volatile market (or any market, for that matter, since these large moves are not by any means limited to the volatile market periods). For example, covered call writing is considered to be “conservative.” However, when the stock has the potential to make these big moves, it will either cause one to give up large upside profits or to suffer large downside losses. Even spreading has problems along these lines. For example, a vertical spread limits profits so that one can’t participate in these relatively frequent large stock moves when they occur.
-- What can an option seller do? First, he must carefully analyze his position and allow for much larger stock movements than one would expect under the lognormal distribution. Also, he must be careful to sell options only when they are expensive in terms of implied volatility, so that any decrease in implied will work in his favor. Probably most judicious, though, is that an option seller should really concentrate on indices (or perhaps certain futures contracts), because they are statistically much less volatile than stocks.
-- The high probabilities on the ends of the distribution are called “fat tails” by most mathematicians and stock market practitioners alike. These “tails” are what get option writers in trouble—and perhaps even leveraged stock owners—because margin buyers and naked writers figure that they will never occur.
-- The most obvious thing that an option trader can learn from these distributions and studies is that buying options is probably a lot more feasible than conventional wisdom would have you believe. The old thinking that selling an option is “best” because it wastes away every day is false. In reality, when you have sold an option, you are exposed to adverse price movements and adverse movements in implied volatility all during the life of the option. The likelihood of those occurring is great, and they generally have more influence on the price of the option in the short run than does time decay.
-- Relating this to the option market, this means that one should concentrate on building strategies that can withstand the chaotic movements that occasionally occur, since chaotic stock price behavior can’t be predicted either.
-- Since one is buying options in this strategy, he should use the lowest of the above historical volatility measures as his volatility estimate. By doing so, he is taking a conservative approach. Similarly, if one is considering the sale of options or is taking a position with a negative vega (one that will be harmed if volatility increases), then he should use the highest historical volatility when making his probability projections.
-- When a longer lookback period is required, there is another method that can be used: Go back in a historical database of prices for the underlying and compute the 20-day, 50-day, and 100-day historical volatilities for all the time periods in the database, or at least during a fairly large segment of the past prices. Then use the median of those calculations for your volatility estimates.
-- This calculator can be found for free at the website www.optionstrategist.com. Its main problem is that it gives the probability of the stock being above or below the target price at the end of the time period, t. That’s not a totally realistic way of approaching probability analysis. Most option traders are very concerned with what happens to their positions during the life of the option, not just at expiration.
-- The simple probability calculator formula shown above does not take into account the trader’s third scenario. Since it is only concerned with where the stock is at expiration of the options, only scenarios 1 and 2 apply to it. Hence the usage of this simple calculator is not really descriptive of what might happen to a trade during its lifetime.
-- It has been mentioned earlier in this book that the delta of an option is actually a fairly good estimate of the probability of the option being in-the-money at its expiration date. Thus, the delta and the simple endpoint probability calculator shown above attempt to convey the same information to a trader. In reality, because of the fact that implied volatility might be different for various strikes (a volatility skew), especially in index options, the delta of the option might not agree exactly with the probability calculator. Even so, the delta is a quick and dirty way of estimating the probability of the stock being above the strike price (in the case of call options) or below the strike price (in the case of put options) at expiration.
-- These are the steps necessary in determining the formula for the “ever” probability of a stock hitting an upside target at any time during its life. First, make the assumption that stock prices behave randomly, and perform at the risk-free rate, r- Mathematicians call random behavior “Brownian motion.” There are a number of formulae available in statistics books regarding Brownian motion. If one is to estimate the probability of reaching a maximum (upside target) point, what is needed is the known formula for the cumulative density function (CDF) for a running maximum of a Brownian motion. In that formula, it is necessary to use the lognormal function to describe the upside target. Thus, instead of using the actual target price in the CDF formula, one substitutes In(q/p), where q is the target price and p is the current stock price.
-- Up to this point, the calculators we have discussed are subject to the limitations described earlier—mainly, that they rely heavily on one’s volatility estimate, that they assume the volatility will remain constant over time, and that they assume a lognormal distribution. The early part of this chapter was spent explaining that the lognormal distribution is not the real distribution that stock prices adhere to. So, what we'd like to see in a probability calculator is one that could adjust for various volatility scenarios as time passed and one in which the assumed distribution of stock prices was not lognormal. When one starts to make these sorts of assumptions, I do not believe there is a single formula that can be derived for the probability calculations. Rather, what is known as a Monte Carlo simulation must be undertaken. The Monte Carlo simulation technique can be thought of as letting the computer run through the simulation a lot of times and counting how many times a certain outcome occurs. If the number of trials (simulations) is large enough and the model is good enough, then the resulting count divided by the number of trials undertaken is a good probability estimate of the said event occurring.
-- In the case of a stock probability calculator, the Monte Carlo simulation can be undertaken as follows. We know what the distribution of stock prices looks like. The fat tails can be built into the distribution if one wants to simulate real life. See Figure 38-1 for both the lognormal distribution and the actual distribution. It’s a simple matter to tell the computer this information. For example, recall that 2.5 million points went into making up Figure 38-1. In the actual distribution in Figure 38-1, about 92,000 (or 3.68%) of them resulted in the stock being unchanged. Also, only about 2,500 of them, or 1/10th of one percent, resulted in a move of —4.0 standard deviations or more. Those percentages, along with all of the others, would be built into the computer, so that the total distribution accounts for 100% of all possible stock movements. Then, we tell the computer to allow a stock to move randomly in accordance with whatever volatility the user has input. So, there would be a fairly large probability that it wouldn't move very far on a given day, and a very small probability that it would move three or more standard deviations. Of course, with the fat tail distribution, there would be a larger probability of a movement of three or more standard deviations than there would be with the regular lognormal distribution. The Monte Carlo simulation progresses through the given number of trading days, moving the stock cumulatively as time passes. If the stock hits the break-even price, that particular simulation can be terminated and the next one begun. At the end of all the trials (100,000 perhaps), the number in which the upside target was touched is divided by the total number of trials to give the probability estimate.
-- In summary, then, one should use a probability calculator before taking an option position, even an outright option buy. Perhaps straight stock traders should use a probability calcutor as well. In doing so, though, one should be aware of the limitations of the estimate: It is heavily biased by the volatility estimate that is input and by the assumption of what distribution the underlying instrument will adhere to during the life of the position. While neither of those limitations can be overcome completely, one can mitigate the problems by using a conservative volatility estimate. Also, he can look at the results of the probability calculation under several distributions (perhaps lognormal, fat tail, and the distribution using only the past price behavior of the underlying instrument in question) and see how they differ. In that case, he would at least have a feeling for what could happen during the life of the option position.
-- In short, expected return is a position’s expected profit divided by its investment (or expected investment if the investment varies with stock price, as in a naked option position or a futures position). The crucial component, though, is expected profit. Expected profit is computed by calculating the profitability of a position at a certain stock price times the probability of the stock being at that price, and summing that multiple over all possible stock prices. When the concept was first introduced, the “probability of the stock being at the price” was given as what we now know is the “endpoint” probability. In reality, a much better measure of the expected profit of a position can be obtained by using one of the more advanced probability estimation models presented above. In generalized expected return studies done using the fat tails Monte Carlo simulation, certain general conclusions can be drawn about some strategies: A bull spread is an inferior strategy when the options are fairly priced, no matter which distribution is assumed. This more or less agrees with observations that have been made previously regarding the disappointments that traders often encounter when using vertical spreads. While covered writing might seem superior to stock ownership under the lognormal distribution, the two are about equal under a fat tail distribution. Most startling, though, is the fact that option buying strategies fare much, much better under a fat tail distribution than a lognormal one. This most clearly demonstrates the “power” of the fat tail distribution: A limited-risk investment with unlimited profit potential can be expected to perform very well if the fat tails are allowed for. 
-- Using the lognormal distribution more or less represents the conventional wisdom regarding option strategies—the one that many brokers promote: “Don't buy options, don’t mess with spreads, either buy stocks or do covered call writes.” The fat tail distribution column stands much of that advice on its head. In real life (as demonstrated by the fat tail distribution), strategies with limited profit potential and unlimited or large risk potential are inferior strategies.
-- Overall, in a diversified set of positions, the option strategist should use the fat tail distribution in a Monte Carlo simulation to estimate probabilities.
-- 
-
-
-
-# Chapter 38 — The Distribution of Stock Prices: Extracted Insights for the Conservative Options Playbook
+# Chapter 38: The Distribution of Stock Prices —
+# Extracted Insights for the Conservative Options Playbook
 
 ---
 
-## 1. The Core Finding: Stocks Move Far More Than the Lognormal Distribution Predicts
+## Foundational Observation: Almost All Estimates of Stock Price Movement
+## Are Overly Conservative
 
-"Much of the work that has been done in statistics and related areas regarding the stock
-market has made the assumption that stock prices are distributed normally, or more
-specifically, *lognormally.* In actual practice, this is usually an incorrect assumption."
+Before any data is presented, McMillan states this directly: almost all estimates of
+stock price movement are overly conservative. The statistical models used to price
+options assume a distribution that systematically understates how far stocks actually
+move. The consequence for the option trader is that certain strategies — particularly
+option buying — are more favorable than conventional wisdom suggests, and certain
+strategies — particularly option selling against individual stocks — are more dangerous.
 
-The lognormal distribution "says" that stocks remain within 3 standard deviations of
-their current price 99.74% of the time, and that the probability of a 3-standard deviation
-move is 0.0013 — roughly 3 stocks out of 2,500 on any given day. The probability of an
-8-standard deviation move under the lognormal distribution is 0.000000000000000629:
-"This number is so small that one would expect to see only one such occurrence in the
-known life of the universe."
+---
 
-In practice: "one can find several such moves on nearly any trading day."
+## 1. Why the Lognormal Distribution Is Used — and Why It Fails
 
-**Table 38-1. Sample large moves on one day (April 5, 1999 — Dow up 174 points):**
+The lognormal distribution is used to describe stock prices because its shape is
+intuitively similar to how stocks behave:
+- Stocks cannot fall below zero.
+- Stocks can rise to infinity.
+- Most of the time, stocks don't move much in any direction.
+- The distribution's shape is based on the historical volatility of the underlying.
+
+In a lognormal (or normal) distribution, outcomes remain within 3 standard deviations
+99.74% of the time. The probability of a 3-standard deviation move is 0.0013 —
+approximately one tenth of one percent.
+
+**The concrete daily implication:** With 2,500 optionable stocks, the lognormal model
+predicts approximately 3 stocks will move 3 standard deviations on any given day. In
+reality, there are routinely five to ten moves of 5 standard deviations or more per day —
+events the lognormal model says should occur perhaps once in a lifetime.
+
+The probability of an 8-standard deviation move under the lognormal distribution is
+0.000000000000000629. In practice, such moves occur on nearly any trading day.
+
+**The mechanism of failure:** The lognormal distribution does not allow for the
+occasional wild days that many stocks undergo. Large moves happen, they happen
+regularly, and they tend to happen rapidly — often including gap moves that provide
+no opportunity to exit at intermediate prices. This rapidity is as important as the
+magnitude: the large move arrives before most participants can react.
+
+---
+
+## 2. The Data: Fat Tails Quantified
+
+**Table 38-1. Sample large moves on one day (April 5, 1999):**
 
 | Stock | Last Sale | Change | Standard Deviations |
 |---|---|---|---|
@@ -55,231 +56,227 @@ In practice: "one can find several such moves on nearly any trading day."
 | CheckPoint (CHKP) | 28.75 | −10.75 | −8.4 |
 | Sabre Gp. (TSG) | 55 | +8.50 | +8.0 |
 
-"All in all, 58 stocks had moves of greater than *four* standard deviations on that day!"
+On that day, 58 stocks had moves greater than 4 standard deviations. Even on the
+lowest-volatility day since VIX inception (July 25, 1993), 12 stocks moved more than
+4 standard deviations.
 
-As a control, the lowest-volatility period since VIX inception was tested: July 25,
-1993. "On that day, *twelve* stocks had moves of more than four standard deviations.
-They included some big names, like Adaptec (ADPT), Bethlehem Steel (BS), U.S. Steel
-(X), Chiquita Brands (CQB), and Novell (NOVL)."
+**30-day studies of 2,500–2,900 optionable stocks:**
 
-**Three 30-day studies of 2,500–2,900 optionable stocks:**
-
-**Table 38-2. October 22 – December 7, 1999 (VIX at 23, moderate volatility):**
+**Table 38-2. October 22 – December 7, 1999 (VIX ~23, moderate volatility):**
 
 | | 3σ | 4σ | 5σ | >6σ | Total |
 |---|---|---|---|---|---|
-| Upside Moves | 309 | 116 | 44 | 47 | 516 |
-| Downside Moves | 69 | 29 | 15 | 19 | 132 |
-| Total stocks moving ≥3σ: 648 (22% of the stocks studied) | | | | | |
+| Upside | 309 | 116 | 44 | 47 | 516 |
+| Downside | 69 | 29 | 15 | 19 | 132 |
+| **Total ≥3σ: 648 stocks = 22% of stocks studied** | | | | | |
 
 **Table 38-3. June 1 – July 18, 1999 (quieter period):**
 
 | | 3σ | 4σ | 5σ | >6σ | Total |
 |---|---|---|---|---|---|
-| Upside Moves | 104 | 28 | 13 | 12 | 157 |
-| Downside Moves | 54 | 19 | 7 | 14 | 94 |
-| Total stocks moving ≥3σ: 251 (10% of the stocks studied) | | | | | |
+| Upside | 104 | 28 | 13 | 12 | 157 |
+| Downside | 54 | 19 | 7 | 14 | 94 |
+| **Total ≥3σ: 251 stocks = 10% of stocks studied** | | | | | |
 
 **Table 38-4. July 1 – August 17, 1993 (least volatile period in the database):**
 
 | | 3σ | 4σ | 5σ | >6σ | Total |
 |---|---|---|---|---|---|
-| Upside Moves | 14 | 5 | 1 | 1 | 21 |
-| Downside Moves | 28 | 5 | 3 | 4 | 40 |
-| Total stocks moving ≥3σ: 61 (10% of the stocks studied) | | | | | |
+| Upside | 14 | 5 | 1 | 1 | 21 |
+| Downside | 28 | 5 | 3 | 4 | 40 |
+| **Total ≥3σ: 61 stocks = 10% of stocks studied** | | | | | |
 
-"Once again, this means that there is a far greater chance for large standard deviation
-moves—about one in ten—than the nearly zero percent chance that the lognormal
-distribution would indicate."
+**The baseline number to internalize:** Even in the calmest market environment in
+the database, 1 in 10 stocks made a 3σ+ move in any 30-day period. The lognormal
+model assigns near-zero probability to these events.
 
-The methodology is robust against the objection that volatile periods skew the
-results: "The *current* 20-day historical volatility was used on each day of the study in
-order to determine how many standard deviations each stock moved. So, in 1999 and
-2000, that historical volatility was a high number and it therefore means that the stock
-would have had to move a very long way to move four standard deviations. In 1993,
-however, when the market was in the doldrums, historical volatility was low, and so a
-much smaller move was needed to register a 4-standard deviation move."
-
-> **Annotation:** The 10% baseline — one in ten stocks making a 3σ+ move in any
-> 30-day period, even in the calmest market environment in the database — is the
-> foundational number to internalize. The option market prices calls using the lognormal
-> distribution, which assigns near-zero probability to these moves. The call buyer at low
-> IV is therefore systematically undercharged for the actual distribution of outcomes.
+**Methodology note:** The current 20-day historical volatility was used each day of
+the study to define how many standard deviations each stock moved. In 1993, low
+historical volatility meant a smaller absolute move was needed to register 4σ. The
+results are not inflated by using a single low-volatility baseline.
 
 ---
 
-## 2. Fat Tails: The Quantified Gap Between Theory and Reality
+## 3. The Quantified Gap: 12-to-1 and 20-to-1 at the Tails
 
-The large-scale study covered over 2.5 million individual stock trading days, September
-1993 to April 2000. At the extremes — moves of ±4.0 standard deviations or more — the
-gap between the actual and theoretical distribution is not marginal:
+The large-scale study covered over 2.5 million individual stock trading days,
+September 1993 to April 2000.
 
-**Downside fat tail:** "the 'normal' distribution expects fewer than 200 moves out of 2.5
-million to be of −4.0 standard deviations or more… On the other hand, actual stock
-prices… fell more than −4.0 standard deviations nearly 2,500 times out of 2.5 million.
-Thus, in reality, there was really more than **12 times the chance** (2,500 vs. 200) that
-stocks could suffer a severely dramatic fall, when comparing actual to theoretical
-distribution."
+**Downside fat tail (−4σ or worse):**
+- Lognormal expectation: fewer than 200 occurrences out of 2.5 million
+- Actual occurrence: nearly 2,500 times
+- **Ratio: more than 12 times the theoretically expected frequency**
 
-**Upside fat tail:** "At the extreme—moves of +4.0 standard deviations or more—there
-were about 2,000 such moves in actual stock prices, compared with fewer than 100
-expected by the normal distribution. Again, a very large discrepancy: **twenty-to-one.**"
+**Upside fat tail (+4σ or better):**
+- Lognormal expectation: fewer than 100 occurrences
+- Actual occurrence: approximately 2,000 times
+- **Ratio: approximately 20 times the theoretically expected frequency**
 
-The inflection points: "the normal distribution is higher (i.e., is expected to occur
-more often than it actually does) between −2.5 standard deviations and +0.5 standard
-deviations. Outside of that range, the actual distribution is more frequent than it was
-expected to be."
+The lognormal distribution overpredicts outcomes between −2.5σ and +0.5σ relative
+to actual experience. Outside that range, actual frequency exceeds theoretical
+frequency — and the discrepancy grows rapidly at the extremes.
 
-**The mini-crash of April 14, 2000** (Dow −617, S&P −83, NASDAQ-100 −346): "the
-leftmost data point—representing all moves of −4.0 standard deviations and lower,
-shows that about **750 out of the 2,984 stocks** had moves of that size! That is
-unbelievable, and it really points out just how dangerous naked puts and long stock on
-margin can be on days like this. No probability calculator is going to give much likelihood
-to a day like this occurring, but it did occur and it **benefited those holding long puts
-greatly**, while it seriously hurt others."
+**The mini-crash of April 14, 2000** (Dow −617, S&P −83, NASDAQ-100 −346):
+approximately 750 out of 2,984 stocks had moves of −4σ or worse on a single day.
+This event benefited those holding long puts greatly, while it caused severe damage
+to naked put sellers and leveraged stock owners.
 
-> **Annotation:** The 12-to-1 and 20-to-1 ratios at the tails mean that any probability
-> analysis used to price an option is systematically underweighting large moves. For the
-> call buyer, this is a structural tailwind: premiums reflect the lognormal world, while
-> the actual world delivers large moves far more frequently. For the put buyer held as
-> downside protection, the 750-out-of-2,984 stocks on a single crash day is a concrete
-> illustration of what that protection actually delivers in a real crisis.
+> **Annotation:** The 12-to-1 and 20-to-1 ratios mean that any probability analysis
+> used to price an option systematically underweights large moves. The call buyer at
+> low IV is therefore undercharged for the actual distribution of outcomes. For the
+> put buyer held as downside protection, the 750-out-of-2,984 stocks on a single crash
+> day illustrates what that protection actually delivers in a real crisis.
 
 ---
 
-## 3. The Volatility Buyer's Rule: Large Moves Are Rapid and Often Include Gaps
+## 4. What Fat Tails Mean for Option Selling Strategies
 
-"The point of the previous discussion is that stocks move a lot farther than you might
-expect. Moreover, when they make these moves, it tends to be with rapidity, generally
-including gap moves."
+Large moves are rapid and often include gaps. This creates specific problems for
+strategies with limited upside and meaningful downside:
 
-What this means for option selling strategies:
+**Covered call writing:** When the stock makes a large upside move, the covered
+writer is capped at the strike and misses the full appreciation. When the stock drops
+sharply, the covered writer suffers the full downside loss offset only by the small
+premium received. In both tail scenarios — the ones that actually occur far more
+frequently than the lognormal model suggests — the covered writer is at a structural
+disadvantage.
 
-"For example, covered call writing is considered to be 'conservative.' However, when
-the stock has the potential to make these big moves, it will either cause one to give up
-large upside profits or to suffer large downside losses. (Covered call writing has limited
-profit potential and relatively large downside risk, as does its equivalent strategy, naked
-put selling.) When these large stock moves occur on the upside, a covered writer is often
-disappointed that he gave up too much of the upside profit potential. Conversely, if the
-stock drops quickly, and one is assigned on his naked put, he often no longer has much
-appetite for acquiring the stock (even though he said he 'wouldn't mind' doing so when
-he sold the puts to begin with)."
+**Vertical spreads:** A spread limits profit potential. When the large moves that
+actually occur in practice materialize, the spread holder cannot participate in the
+full extent of the favorable move. The spread was established to reduce cost; the
+fat tails mean the full move is precisely what was worth owning.
 
-"Even spreading has problems along these lines. For example, a vertical spread limits
-profits so that one can't participate in these relatively frequent large stock moves when
-they occur."
+**Naked put selling:** When an investor sells a naked put saying "I wouldn't mind
+owning the stock at that price," the large, rapid downside move arrives before they
+can exit. By the time assignment occurs, the stock has moved far beyond the strike
+on a gap — and the appetite for ownership has typically evaporated with the price.
 
-For option sellers who persist: "he must carefully analyze his position and allow for
-much larger stock movements than one would expect under the lognormal distribution.
-Also, he must be careful to sell options only when they are expensive in terms of implied
-volatility, so that any decrease in implied will work in his favor. Probably most judicious,
-though, is that an option seller should really concentrate on indices (or perhaps certain
-futures contracts), because they are statistically much less volatile than stocks."
-
-> **Annotation:** The covered call point is directly relevant to a value investor who
-> might consider writing calls against a long stock position to "reduce cost basis."
-> McMillan's data makes the case that this trade is structurally unattractive precisely
-> when it matters most: when the thesis plays out with a large, rapid upside move, the
-> covered writer is capped out of the very outcome their research identified. The investor
-> who has done the fundamental work to find an undervalued stock with a catalyst should
-> not sell that catalyst away.
+**For option sellers who persist:** Sell only when implied volatility is expensive
+relative to historical norms, so any subsequent IV decrease works in the seller's
+favor. More importantly: concentrate on **indices rather than individual stocks**.
+Indices are statistically much less volatile than individual stocks because the
+diversification effect dampens the impact of individual stock fat-tail moves on the
+index level.
 
 ---
 
-## 4. Fat Tails Vindicate Option Buying — The Expected Return Conclusions
+## 5. The Monte Carlo Simulation: What It Is and Why It Matters
 
-"The most obvious thing that an option trader can learn from these distributions and
-studies is that buying options is probably a lot more feasible than conventional wisdom
-would have you believe. The old thinking that selling an option is 'best' because it wastes
-away every day is false. In reality, when you have sold an option, you are exposed to
-adverse price movements and adverse movements in implied volatility all during the life
-of the option. The likelihood of those occurring is great, and they generally have more
-influence on the price of the option in the short run than does time decay."
+The simple probability calculator (the endpoint formula from Chapter 28) has two
+limitations: it assumes constant volatility and it assumes the lognormal distribution.
+Both assumptions are demonstrably wrong.
 
-From expected return studies using the fat tail Monte Carlo simulation, McMillan
-draws three conclusions:
+A Monte Carlo simulation addresses both. The intuitive description: let the computer
+run through the simulation many times and count how many times a certain outcome
+occurs. If the number of trials is large enough and the model is good enough, the
+resulting count divided by the number of trials is a reliable probability estimate.
 
-"A bull spread is an inferior strategy when the options are fairly priced, no matter
-which distribution is assumed. This more or less agrees with observations that have been
-made previously regarding the disappointments that traders often encounter when using
-vertical spreads."
+For a stock probability calculator, the Monte Carlo simulation proceeds as follows:
+1. Build the actual distribution of daily stock price moves into the computer —
+   including fat tails. A 2.5-million-point dataset produces an empirical distribution
+   where, for example, 3.68% of days result in no change and 0.10% result in a
+   move of −4σ or worse.
+2. Allow the stock to move randomly each day in accordance with the user's
+   volatility input, drawing from the actual distribution rather than the lognormal.
+3. Track each simulated path through the full number of trading days. Record
+   whether the target price (upside or downside) was reached at any point during
+   the path.
+4. After 100,000 trials, divide the number of paths that hit the target by 100,000.
+   The result is the probability estimate.
 
-"While covered writing might seem superior to stock ownership under the lognormal
-distribution, the two are about equal under a fat tail distribution."
-
-"Most startling, though, is the fact that **option buying strategies fare much, much
-better under a fat tail distribution than a lognormal one.** This most clearly demonstrates
-the 'power' of the fat tail distribution: A limited-risk investment with unlimited profit
-potential can be expected to perform very well if the fat tails are allowed for."
-
-"Using the lognormal distribution more or less represents the conventional wisdom
-regarding option strategies—the one that many brokers promote: 'Don't buy options,
-don't mess with spreads, either buy stocks or do covered call writes.' The fat tail
-distribution column stands much of that advice on its head. In real life (as demonstrated
-by the fat tail distribution), strategies with limited profit potential and unlimited or large
-risk potential are inferior strategies."
-
-> **Annotation:** This is the most strategically important passage in the chapter and the
-> empirical foundation for this entire playbook. The conventional case against buying
-> options is built on a distribution model that understates the probability of large moves
-> by 12 to 20 times at the tails. When the correct distribution is used, three things follow
-> simultaneously: bull spreads are confirmed as inferior (consistent with Chapter 37's
-> vega analysis), covered writing loses its apparent edge over owning stock outright, and
-> outright option buying with limited risk is the strategy that benefits most from the way
-> stocks actually behave. The three conclusions together close the argument that this
-> playbook has been building across the preceding chapters.
+The fat-tail Monte Carlo simulation is the correct tool for probability analysis
+because it reflects what actually happens — not what a smooth, thin-tailed
+mathematical model says should happen.
 
 ---
 
-## 5. Out-of-the-Money Options Are Probably Underpriced — With an Important Qualification
+## 6. Fat Tails Vindicate Option Buying: The Expected Return Conclusions
 
-"Does this mean that most options are underpriced, since traders and market-makers
-are using the Black-Scholes model (or similar models) to price them? Without getting
-too technical, the answer is that yes, some options—particularly **out-of-the-money
-options**—are probably underpriced. However, one must understand that it is still a
-relatively rare occurrence to experience one of these big moves—it's just not as rare as
-the lognormal distribution would indicate. So, an out-of-the-money option might be
-*slightly* underpriced, but often not enough to make any real difference."
+From expected return studies using the fat-tail Monte Carlo simulation, McMillan
+draws three conclusions — stated here in order of increasing surprise:
 
-The counterexample: "In fact, *futures* options in grains, gold, oil, and other markets
-that often experience large and sudden rallies display a distinct volatility skew. That is,
-out-of-the-money *call* options trade at significantly higher implied volatilities than do
-at-the-money options. Ironically, there is far less chance of one of these
-hyper-standard-deviation moves occurring in commodities than there is in stocks, at
-least if history is a guide. So, the fact that some out-of-the-money futures options are
-expensive is probably an incorrect overadjustment for the possibility of large moves."
+**First:** A bull spread is an inferior strategy when options are fairly priced, regardless
+of which distribution is assumed. This is consistent with the negative position vega
+findings in Chapter 37 and the general disappointment traders experience with
+vertical spreads.
 
-> **Annotation:** The qualification — "slightly underpriced, but often not enough to
-> make any real difference" — matters for strike selection. Buying deeply
-> out-of-the-money calls solely because they are theoretically underpriced relative to
-> fat-tail reality is not a sufficient strategy. The stronger case for option buying rests on
-> the combination of low IV entry, a specific fundamental thesis with a catalyst, and the
-> fat-tail distribution providing more upside probability than the market prices in. Fat
-> tails are a structural tailwind for the prepared buyer, not a standalone rationale for
-> buying cheap out-of-the-money lottery tickets.
+**Second:** Covered writing, which appears superior to outright stock ownership under
+the lognormal distribution, is approximately equal to stock ownership under the fat-tail
+distribution. The apparent edge of covered writing evaporates when the actual
+frequency of large moves is incorporated.
+
+**Third — most startling:** Option buying strategies fare much, much better under the
+fat-tail distribution than under the lognormal. A limited-risk investment with unlimited
+profit potential performs very well when fat tails are allowed for — because the large,
+favorable moves that the market underprices are precisely what the option buyer
+captures.
+
+**McMillan's summary verdict, stated as a rule:**
+
+> *In real life, strategies with limited profit potential and unlimited or large risk
+> potential are inferior strategies.*
+
+The conventional wisdom — promoted by many brokers — says: "Don't buy options,
+don't mess with spreads, either buy stocks or do covered call writes." The fat-tail
+distribution stands this advice on its head. The correct conclusion from the data is
+the opposite: the strategy that benefits most from how stocks actually behave is
+buying options with defined risk and unlimited profit potential.
+
+> **Annotation:** This is the empirical foundation for the entire playbook. The case
+> against buying options is built on a distribution model that understates the probability
+> of large moves by 12 to 20 times at the tails. When the correct distribution is used,
+> bull spreads are confirmed inferior (consistent with Chapter 37), covered writing loses
+> its edge over stock ownership, and outright option buying is the strategy that benefits
+> most from actual stock behavior. The three conclusions close the argument the playbook
+> has been building across the preceding chapters.
 
 ---
 
-## 6. How to Use a Volatility Estimate Conservatively When Evaluating a Position
+## 7. Out-of-the-Money Options Are Probably Slightly Underpriced — With a Qualification
 
-All probability calculators require a volatility input. McMillan's rule for selecting it:
+Because the market prices options using the lognormal model, and the actual
+distribution has fatter tails, out-of-the-money options are probably underpriced to
+some degree — the market assigns too low a probability to the large moves that would
+bring them in-the-money.
 
-"There is no certain way to mitigate these volatility 'problems' as far as the probability
-calculator is concerned, but one helpful technique is to **bias the volatility projection
-*against* your objectives.** That is, be overly conservative in your volatility projections.
-If things turn out to be better than you estimated, fine. However, at least you won't be
-overstating things initially."
+However: the underpricing is modest. Large moves are more frequent than the model
+predicts but still relatively rare in absolute terms. An OTM option may be slightly
+underpriced, but often not enough to make a material difference in practice.
 
-**For option buyers:** Use the *lowest* of the available historical volatility measures.
-"By doing so, he is taking a conservative approach. If the straddle buy looks good under
-this conservative assumption, then he can feel fairly certain that he has not overstated
-the possibilities of success. If it turns out that volatility is *higher* during the life of the
-position, that will be an added benefit."
+The counterexample: out-of-the-money call options on grain, gold, and oil futures
+often trade at significantly higher implied volatilities than at-the-money options —
+a market correction for the possibility of large moves. Ironically, such large moves
+are less common in commodities than in stocks historically. Those options are likely
+overpriced relative to the actual fat-tail risk they are compensating for.
+
+**The practical conclusion:** Fat tails are a structural tailwind for the prepared option
+buyer — not a standalone rationale for buying deeply OTM lottery tickets. The full
+case for option buying rests on: (1) low IV entry, (2) a specific fundamental thesis
+with a catalyst, and (3) the fat-tail distribution providing more probability of a large
+favorable move than the market prices in. All three together, not fat tails alone.
+
+---
+
+## 8. The Conservative Volatility Rule: Bias Against Your Objectives
+
+All probability calculators require a volatility input, and the output is only as reliable
+as that input. The governing rule:
+
+**Bias the volatility estimate against your objectives.**
+
+- **For option buyers** (positive vega positions): use the *lowest* reading in the
+  available historical volatility stack. If the position looks attractive under this
+  pessimistic assumption, it has genuine margin of safety. Any IV expansion above
+  the conservative base is incremental benefit.
+
+- **For option sellers** (negative vega positions): use the *highest* reading in the
+  available historical volatility stack. If the position still looks attractive under
+  an assumption of elevated volatility, it will not be unpleasantly surprised by
+  higher-than-expected realized volatility.
 
 **Worked example — option buyer:**
 
-A five-month straddle on XYZ, stock at 40, straddle cost 8, break-even points 48 and
-32. Historical volatility stack:
+Five-month straddle on XYZ at 40, straddle cost 8, break-evens at 48 and 32.
 
 | Period | Historical Volatility |
 |---|---|
@@ -288,40 +285,33 @@ A five-month straddle on XYZ, stock at 40, straddle cost 8, break-even points 48
 | 50-day | 28% |
 | 100-day | 33% |
 
-"Since one is buying options in this strategy, he should use the *lowest* of the above
-historical volatility measures as his volatility estimate… he should use the 20-day
-historical volatility *because it is the lowest of the four choices that he has.*"
+Use the 20-day reading of 20% — the lowest of the four — as the volatility input.
+If the straddle still shows an acceptable probability of reaching a break-even point
+under this conservative assumption, the trade has a genuine basis. If actual volatility
+turns out to be higher during the life of the position, that is additional benefit beyond
+what was modeled.
 
-**For option sellers:** "he should use the *highest* historical volatility when making his
-probability projections. By so doing, he is again being conservative. If the strategy in
-question still looks good, even under an assumption of high volatility, then he can figure
-that he won't be unpleasantly surprised by a higher volatility during the life of the
-position."
-
-> **Annotation:** The "bias against your objectives" rule is a practical pre-trade filter.
-> For the value investor evaluating a call purchase on a quiet, low-IV stock, the rule says:
-> use the *lowest* reading in the historical volatility stack as the input to any probability
-> calculation. If the trade looks attractive even under that pessimistic assumption, the
-> position has a genuine margin of safety. Any IV expansion that materializes on top of
-> that conservative base is purely incremental benefit. This is the options analogue of
-> using conservative assumptions in a DCF.
+> **Annotation:** This is the options analogue of using conservative assumptions in
+> a valuation. The value investor who builds a DCF with below-consensus growth
+> estimates is doing the same thing: biasing assumptions against the conclusion. If the
+> investment still passes at conservative inputs, the margin of safety is real.
 
 ---
 
-## 7. When the Standard Stack Is Insufficient: The Long-Lookback Median Method
+## 9. The Long-Lookback Median Method for Distressed Stocks
 
-When a stock has been behaving erratically for longer than 100 days — such that the
-entire 100-day historical volatility is contaminated by recent unusual behavior — a
-longer-lookback median approach is needed.
+When a stock has been behaving erratically for longer than 100 days — so that the
+entire standard volatility stack is contaminated by recent unusual behavior — the
+short-term readings overstate the stock's true long-term volatility. A longer-lookback
+median approach provides a more realistic baseline.
 
-"Go back in a historical database of prices for the underlying and compute the 20-day,
-50-day, and 100-day historical volatilities for *all* the time periods in the database, or at
-least during a fairly large segment of the past prices. Then use the *median* of those
-calculations for your volatility estimates."
+**The method:** Go back in a historical database and compute the 20-day, 50-day, and
+100-day historical volatilities for all time periods in the database (or at least a large
+segment of past prices). Use the median of those calculations as the volatility estimate.
 
 **Worked example:**
 
-XYZ has been chaotic for months. Current readings:
+XYZ has been in distress for months. Current readings:
 
 | Period | Historical Volatility |
 |---|---|
@@ -329,98 +319,77 @@ XYZ has been chaotic for months. Current readings:
 | 50-day | 100% |
 | 100-day | 80% |
 
-Trader looks back over the last 1,000 trading days and computes a distribution of
-100-day historical volatilities:
+Long-lookback analysis over the last 1,000 trading days:
 
-| Percentile | 100-Day Historical |
+| Percentile | 100-Day Historical Volatility |
 |---|---|
 | 0th | 34% |
 | 10th | 37% |
 | 20th | 43% |
 | 30th | 45% |
 | 40th | 46% |
-| 50th | 48% |
+| **50th (median)** | **48%** |
 | 60th | 51% |
 | 70th | 58% |
 | 80th | 67% |
 | 90th | 75% |
 | 100th | 81% |
 
-"The *median* of the above figures is 48%—the 100-day volatility at the 50th percentile."
+Median across all lookback periods: approximately **48–52%**. The correct volatility
+input for probability analysis is roughly 48–52%, not the current 80–130%.
 
-After computing similar analyses across all lookback periods using 1,000 days, the
-trader finds:
+There is nothing magical about 1,000 trading days. Approximately 600 trading days
+may be preferable in some cases. The goal is to bring in enough historical data to
+counterbalance recent, episodic behavior.
 
-| Period | Median Historical Volatility |
-|---|---|
-| 100-day | 48% |
-| 50-day | 49% |
-| 20-day | 52% |
-| 10-day | 49% |
+**The honest caveat:** Volatilities are unstable no matter how carefully they are
+computed. They are at best a fragile estimate of what might happen in the future. The
+long-lookback median mitigates the problem; it does not solve it.
 
-"If these were all the data that one had, then he would probably use a volatility
-estimate of 48% or so in his option models or probability calculators. Of course, this is
-starkly different from the current levels of historical volatility."
-
-"There is nothing magical about using 1,000 trading days. Perhaps something like 600
-trading days would be better. The idea is to use enough trading days to bring in some
-historic data to counterbalance the recent, erratic behavior of the stock."
-
-"Among other things, this example also shows that volatilities are unstable, no matter
-how much work and mathematics one puts into calculating them. Therefore, they are at
-best a fragile estimate of what might happen in the future."
-
-> **Annotation:** This method is particularly useful for the value investor targeting
-> beaten-down, high-volatility situations where recent price behavior reflects distress
-> rather than permanent character. When a stock has been in freefall — earnings
-> implosion, sector crisis, accounting restatement — the current 100-day HV will be
-> inflated by the episode, overstating the stock's true long-term volatility. The median
-> lookback gives a more realistic baseline for two questions: Is current IV genuinely high
-> relative to long-term norms? And what is a realistic expectation for movement over the
-> life of the position once the distress normalizes? If current IV is at the 90th percentile
-> of a 1,000-day distribution with a median of 48%, that is an expensive entry. If current
-> IV is near the 20th percentile because the stock has been quiet for a prolonged period,
-> that is the entry condition the playbook targets.
+> **Annotation:** This method is directly applicable to beaten-down, high-IV situations
+> that the playbook targets — stocks in distress where recent volatility reflects an
+> episode, not permanent character. The question it answers: is current IV genuinely
+> high relative to long-term norms, or does it just look high because it is being compared
+> to other recent distress readings? A stock at the 90th percentile of a 1,000-day
+> distribution with a median of 48% is genuinely expensive to hedge. A stock near
+> the 20th percentile of the same distribution is not — it is in the entry zone the
+> playbook targets regardless of the absolute current IV number.
 
 ---
 
-## 8. Delta as a Quick Probability Estimate — and Its Limitations
+## 10. Delta as a Probability Estimate — and the "Ever" vs. "Endpoint" Gap
 
-"The delta of an option is actually a fairly good estimate of the probability of the option
-being in-the-money at its expiration date… the delta is a quick and dirty way of
-estimating the probability of the stock being above the strike price (in the case of call
-options) or below the strike price (in the case of put options) at expiration."
+Delta is a reasonable quick estimate of the probability of an option expiring
+in-the-money. It is widely used as a shortcut:
 
-The limitation: delta estimates the probability of being in-the-money *at expiration*,
-not the probability of the option *ever* being in-the-money during its life. The "ever"
-probability is materially higher.
+- A call with delta 0.30 has approximately a 30% chance of expiring in-the-money.
+- A put with delta −0.20 has approximately a 20% chance of expiring in-the-money.
 
-**Worked example illustrating the gap:**
+**The limitation:** Delta estimates the probability at the *endpoint* only — where the
+stock is at expiration. It says nothing about the probability of the option being
+in-the-money at any point *during* its life. The "ever" probability is materially higher.
 
-OEX at 600, naked puts sold at strike 550, 30 days to expiration, volatility 25%:
+**Worked example:** OEX at 600, naked puts at strike 550, 30 days to expiration,
+volatility 25%.
 
-| Scenario | Actual Probability |
+Simple endpoint calculator (delta approximation):
+- Probability OEX above 550 at expiration: 81%
+- Probability OEX below 550 at expiration: 19%
+
+Actual three-scenario breakdown:
+| Scenario | Probability |
 |---|---|
-| 1. OEX never falls below 550 | 67% |
-| 2. OEX falls below 550 and remains there | 19% |
-| 3. OEX falls below 550 but rallies back above it | 14% |
+| OEX never falls below 550 | 67% |
+| OEX falls below 550 and stays there | 19% |
+| OEX falls below 550 but rallies back above it | 14% |
 
-Simple endpoint calculator (the delta approximation) would show only:
+The endpoint calculator shows an 81% probability of a worry-free trade. The actual
+probability of a worry-free trade is only 67%. The 14% difference — the probability
+that the option goes in-the-money during its life but recovers by expiration — is
+invisible to the endpoint calculator but very real to the position holder who must
+manage the position through that period.
 
-| | |
-|---|---|
-| Probability of OEX above 550 at expiration | 81% |
-| Probability of OEX below 550 at expiration | 19% |
-
-"So, with the simple calculator, it looks like there's an 81% chance of a worry-free
-trade. Just sit back and relax and let the option expire worthless. However, in real
-life… there's only a **67% chance** of a worry-free trade. The difference—the other
-14%—is the probability of the third scenario occurring (OEX falls below 550, but rallies
-back above it by expiration). The simple probability calculator doesn't account for that
-scenario at all."
-
-For the fat-tail distribution, the gap between endpoint and "ever" probabilities is
-even wider:
+**Fat-tail comparison for a put on XYZ at 70, put strike 60:**
 
 | Calculator | Probability XYZ ever trades < 60 |
 |---|---|
@@ -428,17 +397,41 @@ even wider:
 | "Ever" calculator (lognormal) | 20% |
 | "Ever" calculator (fat tail) | 22% |
 
-"If the true probability that the put will need attention is 22%, then he might *not*
-take the trade. Many naked option sellers try to sell options that have only probabilities
-of 15% or less of potentially becoming troublesome. Hence, the choice of which
-probability calculation he uses can make a difference in whether or not a trade is
-established."
+A naked put seller targeting 15% or less "probability of becoming troublesome" would
+accept the trade using the simple endpoint calculator (10%) but reject it using the
+correct "ever" probability (22%). The choice of calculator determines whether the
+trade is entered.
 
-> **Annotation:** For the call buyer, the delta-as-probability shorthand is useful but
-> conservative in a favorable direction: delta understates the probability of the call ever
-> reaching the strike during the option's life. A 30-delta call has roughly a 30% chance
-> of expiring in-the-money, but a meaningfully higher chance of trading in-the-money
-> at some point before expiration — which is the relevant scenario for an investor who
-> intends to sell the option before expiry. The fat-tail distribution widens this gap
-> further. Treating delta as a floor estimate of eventual profitability probability, rather
-> than the full picture, is the correct conservative interpretation.
+**For call buyers:** Delta is a conservative floor estimate of eventual profitability
+probability. A 30-delta call has roughly a 30% chance of expiring in-the-money but
+a materially higher chance of trading in-the-money at some point before expiration —
+which is the relevant scenario for an investor who intends to sell the option before
+expiry. The fat-tail distribution widens this gap further. Treat delta as a minimum
+probability estimate, not the complete picture.
+
+---
+
+## 11. Summary: Using a Probability Calculator Correctly
+
+Before taking any option position — including an outright call purchase — use a
+probability calculator. In doing so, be aware of three limitations:
+
+1. **Volatility input dependency:** The output is heavily biased by the volatility
+   estimate. Use the conservative volatility rule from Section 8 — bias against
+   your objectives.
+
+2. **Distribution assumption:** The lognormal distribution understates large moves
+   by 12 to 20 times at the tails. Where possible, use a fat-tail Monte Carlo
+   simulation rather than the simple endpoint formula.
+
+3. **Endpoint vs. "ever":** The simple calculator gives the probability at expiration
+   only. The probability of the option touching a price at any point during its life
+   is materially higher — use the "ever" calculator when managing positions where
+   interim drawdowns matter, not just the final expiration outcome.
+
+Run the analysis under multiple distribution assumptions — lognormal, fat-tail, and
+the historical distribution specific to the underlying. The range of results gives a
+realistic picture of what could happen during the life of the position. No single
+number from any model should be treated as a precise forecast; the goal is a
+calibrated sense of the range of outcomes and whether the position's risk/reward
+is genuinely attractive across scenarios.
