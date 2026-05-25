@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "DIS",
+    "companyName": "The Walt Disney Company",
+    "price": 103,
+    "mktCap": 178860676672
+  },
+  {
+    "symbol": "IMAX",
+    "companyName": "IMAX Corporation",
+    "price": 39.12,
+    "mktCap": 2145935424
+  },
+  {
+    "symbol": "LYV",
+    "companyName": "Live Nation Entertainment, Inc.",
+    "price": 165.55,
+    "mktCap": 38525603874
+  },
+  {
+    "symbol": "MSGE",
+    "companyName": "Madison Square Garden Entertainment Corp.",
+    "price": 69.64,
+    "mktCap": 3294336217
+  },
+  {
+    "symbol": "NWSA",
+    "companyName": "News Corporation",
+    "price": 25.89,
+    "mktCap": 14532882554
+  },
+  {
+    "symbol": "PLAY",
+    "companyName": "Dave & Buster's Entertainment, Inc.",
+    "price": 11.75,
+    "mktCap": 408187997
+  },
+  {
+    "symbol": "RSVR",
+    "companyName": "Reservoir Media, Inc.",
+    "price": 10.2,
+    "mktCap": 669122040
+  },
+  {
+    "symbol": "TKO",
+    "companyName": "TKO Group Holdings, Inc.",
+    "price": 191.5,
+    "mktCap": 14356314550
+  },
+  {
+    "symbol": "WBD",
+    "companyName": "Warner Bros. Discovery, Inc.",
+    "price": 27.03,
+    "mktCap": 67767905055
+  },
+  {
+    "symbol": "WMG",
+    "companyName": "Warner Music Group Corp.",
+    "price": 34.72,
+    "mktCap": 18118649985
+  }
+]

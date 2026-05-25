@@ -616,9 +616,11 @@ def extract_section_text(html_content, start_pattern, end_patterns):
         start_pos = full_text_match.start()
         output_text = full_text
     else:
-        # Fallback: use normalized position and text
+        # Fallback: use normalized position and text, but restore line breaks
+        # at sentence boundaries so the output isn't a single collapsed line.
         start_pos = chosen_start_match.start()
-        output_text = search_text
+        restored = re.sub(r'(?<=[.!?])\s+(?=[A-Z("])', '\n', search_text)
+        output_text = restored
 
     # Find earliest end marker after start
     end_positions = []
