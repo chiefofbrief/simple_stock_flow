@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "CDW",
+    "companyName": "CDW Corporation",
+    "price": 108.51,
+    "mktCap": 13862526968
+  },
+  {
+    "symbol": "CPAY",
+    "companyName": "Corpay, Inc.",
+    "price": 349.265,
+    "mktCap": 22828630640
+  },
+  {
+    "symbol": "FTV",
+    "companyName": "Fortive Corporation",
+    "price": 60.265,
+    "mktCap": 18372449431
+  },
+  {
+    "symbol": "GDDY",
+    "companyName": "GoDaddy Inc.",
+    "price": 88.92,
+    "mktCap": 11773897200
+  },
+  {
+    "symbol": "GIB",
+    "companyName": "CGI Inc.",
+    "price": 66.915,
+    "mktCap": 14537705114
+  },
+  {
+    "symbol": "J",
+    "companyName": "Jacobs Solutions Inc.",
+    "price": 116.005,
+    "mktCap": 13697972368
+  },
+  {
+    "symbol": "LDOS",
+    "companyName": "Leidos Holdings, Inc.",
+    "price": 128.135,
+    "mktCap": 16117520686
+  },
+  {
+    "symbol": "LOGI",
+    "companyName": "Logitech International S.A.",
+    "price": 111.4,
+    "mktCap": 15986134386
+  },
+  {
+    "symbol": "TRMB",
+    "companyName": "Trimble Inc.",
+    "price": 56.295,
+    "mktCap": 13123012962
+  },
+  {
+    "symbol": "UMC",
+    "companyName": "United Microelectronics Corporation",
+    "price": 21.085,
+    "mktCap": 52593536549
+  }
+]
