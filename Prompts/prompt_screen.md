@@ -136,7 +136,25 @@ Answer the following internally before presenting output. Do not include these a
 
 ## Step 3: Commit
 
-Present the table and narratives.
+Present the table and narratives in chat for review.
+
+Once the user has reviewed, append the full analysis (table + per-ticker narratives) to the existing screening file at:
+
+```
+Data/screening/Screen_{DATE}.txt
+```
+
+The script already wrote the raw data to this file. Append a clearly marked section break followed by the analysis:
+
+```
+════════════════════════════════════════════════
+ANALYSIS — {DATE}
+════════════════════════════════════════════════
+
+[table]
+
+[per-ticker narratives]
+```
 
 **Action:** Ask: *"Which of these tickers would you like to add to the tracker, and to which section?"*
 
