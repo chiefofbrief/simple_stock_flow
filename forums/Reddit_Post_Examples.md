@@ -1,7 +1,7 @@
 
-## Post 1
 
-**Am I wrong that most of what gets called value investing is closer to Graham than to Buffett?**
+
+## Am I wrong that most of what gets called value investing is closer to Graham than to Buffett?**
 After 12 years of running screens and managing my own portfolio, the pattern I keep noticing is how many people build screens to find Buffett-style quality but end up holding Graham-style cigar butts without realizing the two are different things. The holdings and the stated philosophy do not match, and I think that gap is part of why so many value portfolios underperform.
 The two approaches have almost nothing in common. Graham looked for statistical bargains. Net-nets, companies below liquidation value, situations where the margin of safety came from price being lower than hard assets. Quality was beside the point. You bought a dollar for fifty cents, diversified widely, and accepted that a good share would fail. The basket was the safety, not any single pick.
 Buffett started there and left. By 1972, when Berkshire bought See's Candy for $25 million at three times book, he had already moved on. See's earned $2 million on $8 million of tangible assets, a 25% return on capital. On a strict Graham basis the price was indefensible. Munger pushed him to pay it because the brand could raise prices every year without losing customers. Buffett has said since that Graham's approach left him underweight in the best businesses he ever found.
