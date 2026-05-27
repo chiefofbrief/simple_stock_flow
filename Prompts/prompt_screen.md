@@ -6,7 +6,12 @@ You are screening a list of tickers to determine which warrant further investiga
 
 ---
 
-## Step 1: Run the Script
+## Step 1: Gather Context
+
+**Guidelines**
+- `GEMINI.md` — Read the **Investment Types** and **Financials & Margin of Safety** sections. These define the analytical lens applied throughout — what constitutes a compelling signal, what quality means, and what the framework is trying to find.
+
+**Data**
 
 Run the following with the tickers to screen:
 
@@ -22,7 +27,7 @@ Data/screening/Screen_{DATE}.txt
 
 Do not proceed until the script completes successfully. If the script fails or returns missing data for any ticker, note the gap explicitly and proceed with available data — do not silently omit a ticker.
 
-**STOP. Do not proceed until the script output has been read in full.**
+**STOP. Do not proceed until GEMINI.md sections and the script output have both been read.**
 
 ---
 
