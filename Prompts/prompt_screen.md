@@ -105,9 +105,21 @@ Rev vs_2Y                |          |          |          |
 
 ---
 
-#### Per-Ticker Narrative
+#### Priority Ranking
 
-Below the table, write one focused paragraph per ticker. Each paragraph must address:
+Below the table, write a ranked priority list before the full narratives. Group tickers into three buckets:
+
+- **Investigate** — clear signal, quality supports it, worth a full thesis run
+- **Monitor / Needs Context** — signal present but distorted, incomplete, or quality mixed; needs one specific thing resolved before proceeding
+- **Skip** — no signal, inverted signal, or quality disqualifies it
+
+Format: one line per ticker, in order within each bucket. Each line states the one-sentence reason. Answer three things implicitly in that sentence: is earnings outpacing price, are earnings reliable, and what is the key flag.
+
+---
+
+#### Per-Ticker Narratives
+
+Below the priority ranking, write one focused paragraph per ticker. Each paragraph must address:
 
 1. What does the spread and P/E correlation say about the primary signal?
 2. What do the quality metrics say about the durability of that signal?
@@ -131,6 +143,8 @@ Answer the following internally before presenting output. Do not include these a
 - Does the narrative interpret rather than restate the numbers?
 - Have the strongest and weakest candidates been distinguished — is the comparison frame present?
 - Has every row in the table been populated, or noted as unavailable with a reason?
+- Does the priority ranking appear between the table and the narratives — not above the table?
+- Does each ranking line answer all three questions implicitly: signal direction, earnings reliability, key flag?
 
 ---
 
