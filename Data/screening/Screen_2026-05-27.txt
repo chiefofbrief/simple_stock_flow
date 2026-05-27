@@ -1,0 +1,315 @@
+SCREEN — 2026-05-27
+Tickers: MELI, AECOM, NU, FIS, ACN, VALE, CMCSA, M, DAL
+Script:  Scripts/screen.py
+Prompt:  Prompts/prompt_screen.md
+
+All percentages are point-in-time comparisons (most recent quarter vs.
+same quarter 1 or 2 years ago). ROIC deltas are in percentage points (pp).
+P/Owner Earnings = Market Cap / (FCF TTM - SBC TTM).
+Spread = EPS vs_1Y minus Price vs_1Y.
+
+══════════════════════════════════════════════
+MELI
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       +18.3%
+  P/E Correlation 1Y          +0.64
+
+  ── PRICE ───────────────────────────────────
+  Price                       $1691.58
+  vs_1Y                       -33.8%
+  vs_2Y                       -0.1%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $37.88
+  EPS vs_1Y                   -15.5%
+  EPS vs_2Y                   +21.2%
+  Avg EPS QoQ (4Q)            -1.5%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              44.7x
+  P/Owner Earnings            8.1x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        —
+  ROIC vs_1Y                  —
+  ROIC vs_2Y                  —
+  OCF/NI                      6.22x
+  FCF (TTM)                   $10.71B
+  FCF vs_1Y                   +90.6%
+  FCF vs_2Y                   +19.3%
+  Revenue (TTM)               $31.80B
+  Rev vs_1Y                   +49.0%
+  Rev vs_2Y                   +104.1%
+
+══════════════════════════════════════════════
+AECOM
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       —
+  P/E Correlation 1Y          —
+
+  ── PRICE ───────────────────────────────────
+  Price                       —
+  vs_1Y                       —
+  vs_2Y                       —
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   —
+  EPS vs_1Y                   —
+  EPS vs_2Y                   —
+  Avg EPS QoQ (4Q)            —
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              —
+  P/Owner Earnings            —
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        —
+  ROIC vs_1Y                  —
+  ROIC vs_2Y                  —
+  OCF/NI                      —
+  FCF (TTM)                   —
+  FCF vs_1Y                   —
+  FCF vs_2Y                   —
+  Revenue (TTM)               —
+  Rev vs_1Y                   —
+  Rev vs_2Y                   —
+
+══════════════════════════════════════════════
+NU
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       +54.1%
+  P/E Correlation 1Y          -0.03
+
+  ── PRICE ───────────────────────────────────
+  Price                       $13.08
+  vs_1Y                       +9.5%
+  vs_2Y                       +11.5%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $0.65
+  EPS vs_1Y                   +63.6%
+  EPS vs_2Y                   +132.3%
+  Avg EPS QoQ (4Q)            +13.4%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              20.1x
+  P/Owner Earnings            68.5x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        —
+  ROIC vs_1Y                  —
+  ROIC vs_2Y                  —
+  OCF/NI                      0.38x
+  FCF (TTM)                   $1.20B
+  FCF vs_1Y                   -228.6%
+  FCF vs_2Y                   -115.8%
+  Revenue (TTM)               $17.54B
+  Rev vs_1Y                   +53.4%
+  Rev vs_2Y                   +88.8%
+
+══════════════════════════════════════════════
+FIS
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       +3104.7%
+  P/E Correlation 1Y          -0.70
+
+  ── PRICE ───────────────────────────────────
+  Price                       $42.04
+  vs_1Y                       -46.1%
+  vs_2Y                       -43.5%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $5.18
+  EPS vs_1Y                   +3058.6%
+  EPS vs_2Y                   +275.4%
+  Avg EPS QoQ (4Q)            -26.8%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              8.1x
+  P/Owner Earnings            7.9x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        14.1%
+  ROIC vs_1Y                  +10.3pp
+  ROIC vs_2Y                  +36.0pp
+  OCF/NI                      1.10x
+  FCF (TTM)                   $2.78B
+  FCF vs_1Y                   -3.9%
+  FCF vs_2Y                   +1221.0%
+  Revenue (TTM)               $11.66B
+  Rev vs_1Y                   +30.1%
+  Rev vs_2Y                   +33.5%
+
+══════════════════════════════════════════════
+ACN
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       +46.2%
+  P/E Correlation 1Y          +0.37
+
+  ── PRICE ───────────────────────────────────
+  Price                       $177.48
+  vs_1Y                       -42.3%
+  vs_2Y                       -38.4%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $12.21
+  EPS vs_1Y                   +3.9%
+  EPS vs_2Y                   +11.4%
+  Avg EPS QoQ (4Q)            +7.1%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              14.5x
+  P/Owner Earnings            10.5x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        24.8%
+  ROIC vs_1Y                  -1.3pp
+  ROIC vs_2Y                  -2.4pp
+  OCF/NI                      1.70x
+  FCF (TTM)                   $12.50B
+  FCF vs_1Y                   +36.7%
+  FCF vs_2Y                   +84.2%
+  Revenue (TTM)               $72.11B
+  Rev vs_1Y                   +8.3%
+  Rev vs_2Y                   +14.2%
+
+══════════════════════════════════════════════
+VALE
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       -53.0%
+  P/E Correlation 1Y          -0.88
+
+  ── PRICE ───────────────────────────────────
+  Price                       $16.42
+  vs_1Y                       +86.4%
+  vs_2Y                       +53.6%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $0.66
+  EPS vs_1Y                   +33.3%
+  EPS vs_2Y                   +12.8%
+  Avg EPS QoQ (4Q)            -4.6%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              24.9x
+  P/Owner Earnings            20.9x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        7.0%
+  ROIC vs_1Y                  -7.0pp
+  ROIC vs_2Y                  -9.8pp
+  OCF/NI                      3.33x
+  FCF (TTM)                   $3.35B
+  FCF vs_1Y                   +65.1%
+  FCF vs_2Y                   -67.9%
+  Revenue (TTM)               $39.53B
+  Rev vs_1Y                   +14.1%
+  Rev vs_2Y                   +9.5%
+
+══════════════════════════════════════════════
+CMCSA
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       -8.0%
+  P/E Correlation 1Y          +0.49
+
+  ── PRICE ───────────────────────────────────
+  Price                       $25.28
+  vs_1Y                       -24.6%
+  vs_2Y                       -29.5%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $5.07
+  EPS vs_1Y                   -32.6%
+  EPS vs_2Y                   -38.1%
+  Avg EPS QoQ (4Q)            +32.7%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              5.0x
+  P/Owner Earnings            4.7x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        12.8%
+  ROIC vs_1Y                  +2.0pp
+  ROIC vs_2Y                  +3.0pp
+  OCF/NI                      1.72x
+  FCF (TTM)                   $20.39B
+  FCF vs_1Y                   -24.9%
+  FCF vs_2Y                   +0.0%
+  Revenue (TTM)               $125.28B
+  Rev vs_1Y                   +5.3%
+  Rev vs_2Y                   +4.7%
+
+══════════════════════════════════════════════
+M
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       -34.7%
+  P/E Correlation 1Y          +0.05
+
+  ── PRICE ───────────────────────────────────
+  Price                       $21.40
+  vs_1Y                       +85.9%
+  vs_2Y                       +15.9%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $2.32
+  EPS vs_1Y                   +51.2%
+  EPS vs_2Y                   +803.8%
+  Avg EPS QoQ (4Q)            +1105.2%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              9.2x
+  P/Owner Earnings            5.7x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        8.1%
+  ROIC vs_1Y                  +0.6pp
+  ROIC vs_2Y                  +5.7pp
+  OCF/NI                      2.23x
+  FCF (TTM)                   $1.06B
+  FCF vs_1Y                   -2.5%
+  FCF vs_2Y                   +28.3%
+  Revenue (TTM)               $22.62B
+  Rev vs_1Y                   -1.1%
+  Rev vs_2Y                   -5.5%
+
+══════════════════════════════════════════════
+DAL
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (EPS−Price 1Y)       -286.3%
+  P/E Correlation 1Y          +0.22
+
+  ── PRICE ───────────────────────────────────
+  Price                       $81.68
+  vs_1Y                       +67.3%
+  vs_2Y                       +61.3%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $6.85
+  EPS vs_1Y                   -218.9%
+  EPS vs_2Y                   -866.6%
+  Avg EPS QoQ (4Q)            +152.4%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              11.9x
+  P/Owner Earnings            13.7x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        16.9%
+  ROIC vs_1Y                  +4.6pp
+  ROIC vs_2Y                  +0.1pp
+  OCF/NI                      1.88x
+  FCF (TTM)                   $3.92B
+  FCF vs_1Y                   +6.8%
+  FCF vs_2Y                   +1.4%
+  Revenue (TTM)               $65.18B
+  Rev vs_1Y                   +12.9%
+  Rev vs_2Y                   +15.3%
