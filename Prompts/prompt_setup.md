@@ -12,7 +12,22 @@ Read `GEMINI.md` before proceeding — it governs the analytical philosophy and 
 
 **Ticker:** `{TICKER}`
 
-Confirm the ticker's Tag (LOSER or TAILWIND) from the tracker before running — this determines which context files Claude will need in Pass 1 and Pass 2.
+---
+
+## Operating Rules
+
+**Always start clean.** Before running any scripts, wipe all existing files for this ticker:
+
+```bash
+rm -f Data/tickers/{TICKER}/{TICKER}_*.{json,md,txt}
+rm -f Data/tickers/{TICKER}/raw/{TICKER}_*
+```
+
+The folder itself can stay. This prevents stale data from a prior run from contaminating the output.
+
+**Permanent scripts and prompts are read-only.** Do not modify any script in `Scripts/`, any prompt in `Prompts/`, or any shared utility file. If a workaround is needed for a specific ticker, create a temporary script (`Scripts/tmp_{TICKER}_*.py`), use it, then delete it when the ticker's data is complete. If you believe a fix should be made permanent (i.e., it would benefit most tickers), flag this loudly at the end of the task and ask the user. Do not make it permanent yourself.
+
+**Flag errors and suspect data loudly.** This includes: scripts that exit non-zero, output files that are unexpectedly short (e.g., MD&A under 1,000 words, footnotes.py word count failures), API responses that are empty or malformed, and any output that looks anomalous. Do not silently continue past a data quality issue.
 
 ---
 
@@ -20,23 +35,17 @@ Confirm the ticker's Tag (LOSER or TAILWIND) from the tracker before running —
 
 ### 1a. Profile and Peers Fetches
 
-Run these curl calls before the Python scripts.
+Run these curl calls before the Python scripts. API keys are available in the environment — do not check for them.
 
-**Profile (all tickers):**
-Check if `Data/tickers/{TICKER}/{TICKER}_profile.json` already exists. If it does, skip the API call.
-
-If not — create the directory first if it does not exist:
-```
+**Profile:**
+```bash
 mkdir -p Data/tickers/{TICKER}
 curl -s "https://financialmodelingprep.com/stable/profile?symbol={TICKER}&apikey=$FMP_API_KEY" -o Data/tickers/{TICKER}/{TICKER}_profile.json
 ```
 Extract and note: company name, description, sector, industry, market cap.
 
-**Peers (all tickers):**
-Check if `Data/tickers/{TICKER}/{TICKER}_peers.json` already exists. If it does, skip the API call.
-
-If not:
-```
+**Peers:**
+```bash
 curl -s "https://financialmodelingprep.com/stable/stock-peers?symbol={TICKER}&apikey=$FMP_API_KEY" -o Data/tickers/{TICKER}/{TICKER}_peers.json
 ```
 Extract the top peer ticker from the response — it will be passed to `financials.py` in step 1b.
@@ -358,8 +367,6 @@ MD&A extraction: ✓ {TICKER}_mda_excerpts.md written
 
 Context files: All present — ready for Claude
 Pass 1/2 files: All present [or: {FILE} missing — flagged]
-
-Tracker Tag: [LOSER / TAILWIND]
 
 Ready for Claude — Context step.
 ```

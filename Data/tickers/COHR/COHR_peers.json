@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ASTS",
+    "companyName": "AST SpaceMobile, Inc.",
+    "price": 127.73,
+    "mktCap": 38158826580
+  },
+  {
+    "symbol": "FLEX",
+    "companyName": "Flex Ltd.",
+    "price": 145.24,
+    "mktCap": 53212740720
+  },
+  {
+    "symbol": "FN",
+    "companyName": "Fabrinet",
+    "price": 690.78,
+    "mktCap": 24750440166
+  },
+  {
+    "symbol": "FTV",
+    "companyName": "Fortive Corporation",
+    "price": 60.04,
+    "mktCap": 18303855701
+  },
+  {
+    "symbol": "GFS",
+    "companyName": "GLOBALFOUNDRIES Inc.",
+    "price": 80.24,
+    "mktCap": 44646919338
+  },
+  {
+    "symbol": "JBL",
+    "companyName": "Jabil Inc.",
+    "price": 371.17,
+    "mktCap": 39159548510
+  },
+  {
+    "symbol": "SATS",
+    "companyName": "EchoStar Corporation",
+    "price": 123.07,
+    "mktCap": 35470613650
+  },
+  {
+    "symbol": "SSNC",
+    "companyName": "SS&C Technologies Holdings, Inc.",
+    "price": 65.7695,
+    "mktCap": 15839534328
+  },
+  {
+    "symbol": "TDY",
+    "companyName": "Teledyne Technologies Incorporated",
+    "price": 616.15,
+    "mktCap": 28545674965
+  },
+  {
+    "symbol": "TRMB",
+    "companyName": "Trimble Inc.",
+    "price": 54.7556,
+    "mktCap": 12764161090
+  }
+]
