@@ -1,5 +1,5 @@
 SCREEN — 2026-05-27
-Tickers: MELI, AECOM, NU, FIS, ACN, VALE, CMCSA, M, DAL
+Tickers: MELI, ACM, NU, FIS, ACN, VALE, CMCSA, M, DAL
 Script:  Scripts/screen.py
 Prompt:  Prompts/prompt_screen.md
 
@@ -12,13 +12,13 @@ Spread = EPS vs_1Y minus Price vs_1Y.
 MELI
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       +18.3%
+  Spread (Price−EPS 1Y)       -18.2%
   P/E Correlation 1Y          +0.64
 
   ── PRICE ───────────────────────────────────
-  Price                       $1691.58
-  vs_1Y                       -33.8%
-  vs_2Y                       -0.1%
+  Price                       $1693.78
+  vs_1Y                       -33.7%
+  vs_2Y                       +0.0%
 
   ── EARNINGS ────────────────────────────────
   EPS (TTM)                   $37.88
@@ -43,50 +43,50 @@ MELI
   Rev vs_2Y                   +104.1%
 
 ══════════════════════════════════════════════
-AECOM
+ACM
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       —
-  P/E Correlation 1Y          —
+  Spread (Price−EPS 1Y)       -62.3%
+  P/E Correlation 1Y          +0.70
 
   ── PRICE ───────────────────────────────────
-  Price                       —
-  vs_1Y                       —
-  vs_2Y                       —
+  Price                       $71.86
+  vs_1Y                       -33.6%
+  vs_2Y                       -17.6%
 
   ── EARNINGS ────────────────────────────────
-  EPS (TTM)                   —
-  EPS vs_1Y                   —
-  EPS vs_2Y                   —
-  Avg EPS QoQ (4Q)            —
+  EPS (TTM)                   $4.16
+  EPS vs_1Y                   +28.7%
+  EPS vs_2Y                   +13800.0%
+  Avg EPS QoQ (4Q)            +25.1%
 
   ── VALUATION ───────────────────────────────
-  P/E (GAAP TTM)              —
-  P/Owner Earnings            —
+  P/E (GAAP TTM)              17.3x
+  P/Owner Earnings            26.4x
 
   ── QUALITY ─────────────────────────────────
-  ROIC                        —
-  ROIC vs_1Y                  —
-  ROIC vs_2Y                  —
-  OCF/NI                      —
-  FCF (TTM)                   —
-  FCF vs_1Y                   —
-  FCF vs_2Y                   —
-  Revenue (TTM)               —
-  Rev vs_1Y                   —
-  Rev vs_2Y                   —
+  ROIC                        13.8%
+  ROIC vs_1Y                  -5.9pp
+  ROIC vs_2Y                  +10.9pp
+  OCF/NI                      1.10x
+  FCF (TTM)                   $410.2M
+  FCF vs_1Y                   -115.4%
+  FCF vs_2Y                   -137.1%
+  Revenue (TTM)               $15.99B
+  Rev vs_1Y                   +0.8%
+  Rev vs_2Y                   -3.6%
 
 ══════════════════════════════════════════════
 NU
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       +54.1%
-  P/E Correlation 1Y          -0.03
+  Spread (Price−EPS 1Y)       -53.7%
+  P/E Correlation 1Y          -0.02
 
   ── PRICE ───────────────────────────────────
-  Price                       $13.08
-  vs_1Y                       +9.5%
-  vs_2Y                       +11.5%
+  Price                       $13.13
+  vs_1Y                       +10.0%
+  vs_2Y                       +11.9%
 
   ── EARNINGS ────────────────────────────────
   EPS (TTM)                   $0.65
@@ -95,8 +95,8 @@ NU
   Avg EPS QoQ (4Q)            +13.4%
 
   ── VALUATION ───────────────────────────────
-  P/E (GAAP TTM)              20.1x
-  P/Owner Earnings            68.5x
+  P/E (GAAP TTM)              20.2x
+  P/Owner Earnings            68.8x
 
   ── QUALITY ─────────────────────────────────
   ROIC                        —
@@ -114,13 +114,13 @@ NU
 FIS
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       +3104.7%
+  Spread (Price−EPS 1Y)       -3104.6%
   P/E Correlation 1Y          -0.70
 
   ── PRICE ───────────────────────────────────
-  Price                       $42.04
-  vs_1Y                       -46.1%
-  vs_2Y                       -43.5%
+  Price                       $42.14
+  vs_1Y                       -45.9%
+  vs_2Y                       -43.4%
 
   ── EARNINGS ────────────────────────────────
   EPS (TTM)                   $5.18
@@ -148,12 +148,12 @@ FIS
 ACN
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       +46.2%
+  Spread (Price−EPS 1Y)       -46.1%
   P/E Correlation 1Y          +0.37
 
   ── PRICE ───────────────────────────────────
-  Price                       $177.48
-  vs_1Y                       -42.3%
+  Price                       $177.58
+  vs_1Y                       -42.2%
   vs_2Y                       -38.4%
 
   ── EARNINGS ────────────────────────────────
@@ -182,13 +182,13 @@ ACN
 VALE
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       -53.0%
+  Spread (Price−EPS 1Y)       +53.2%
   P/E Correlation 1Y          -0.88
 
   ── PRICE ───────────────────────────────────
-  Price                       $16.42
-  vs_1Y                       +86.4%
-  vs_2Y                       +53.6%
+  Price                       $16.43
+  vs_1Y                       +86.5%
+  vs_2Y                       +53.7%
 
   ── EARNINGS ────────────────────────────────
   EPS (TTM)                   $0.66
@@ -216,13 +216,13 @@ VALE
 CMCSA
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       -8.0%
+  Spread (Price−EPS 1Y)       +8.1%
   P/E Correlation 1Y          +0.49
 
   ── PRICE ───────────────────────────────────
-  Price                       $25.28
-  vs_1Y                       -24.6%
-  vs_2Y                       -29.5%
+  Price                       $25.31
+  vs_1Y                       -24.5%
+  vs_2Y                       -29.4%
 
   ── EARNINGS ────────────────────────────────
   EPS (TTM)                   $5.07
@@ -250,13 +250,13 @@ CMCSA
 M
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       -34.7%
+  Spread (Price−EPS 1Y)       +34.9%
   P/E Correlation 1Y          +0.05
 
   ── PRICE ───────────────────────────────────
-  Price                       $21.40
-  vs_1Y                       +85.9%
-  vs_2Y                       +15.9%
+  Price                       $21.42
+  vs_1Y                       +86.1%
+  vs_2Y                       +16.0%
 
   ── EARNINGS ────────────────────────────────
   EPS (TTM)                   $2.32
@@ -284,13 +284,13 @@ M
 DAL
 
   ── SIGNAL ──────────────────────────────────
-  Spread (EPS−Price 1Y)       -286.3%
+  Spread (Price−EPS 1Y)       +285.9%
   P/E Correlation 1Y          +0.22
 
   ── PRICE ───────────────────────────────────
-  Price                       $81.68
-  vs_1Y                       +67.3%
-  vs_2Y                       +61.3%
+  Price                       $81.51
+  vs_1Y                       +67.0%
+  vs_2Y                       +61.0%
 
   ── EARNINGS ────────────────────────────────
   EPS (TTM)                   $6.85
@@ -300,7 +300,7 @@ DAL
 
   ── VALUATION ───────────────────────────────
   P/E (GAAP TTM)              11.9x
-  P/Owner Earnings            13.7x
+  P/Owner Earnings            13.6x
 
   ── QUALITY ─────────────────────────────────
   ROIC                        16.9%
@@ -313,3 +313,150 @@ DAL
   Revenue (TTM)               $65.18B
   Rev vs_1Y                   +12.9%
   Rev vs_2Y                   +15.3%
+
+════════════════════════════════════════════════
+ANALYSIS — 2026-05-27
+════════════════════════════════════════════════
+
+                         | MELI    | ACM     | NU      | FIS        | ACN     | VALE    | CMCSA   | M       | DAL      |
+─── SIGNAL ──────────────┤
+Spread (Price−EPS 1Y)    | -18.2%  | -62.3%  | -53.7%  | -3104.6%* | -46.1%  | +53.2%  | +8.1%   | +34.9%  | +285.9%* |
+P/E Correlation 1Y       | +0.64   | +0.70   | -0.02   | -0.70      | +0.37   | -0.88   | +0.49   | +0.05   | +0.22    |
+
+─── PRICE ───────────────┤
+Price                    | $1693.78| $71.86  | $13.13  | $42.14     | $177.58 | $16.43  | $25.31  | $21.42  | $81.51   |
+vs_1Y                    | -33.7%  | -33.6%  | +10.0%  | -45.9%     | -42.2%  | +86.5%  | -24.5%  | +86.1%  | +67.0%   |
+vs_2Y                    | +0.0%   | -17.6%  | +11.9%  | -43.4%     | -38.4%  | +53.7%  | -29.4%  | +16.0%  | +61.0%   |
+
+─── EARNINGS ────────────┤
+EPS (TTM)                | $37.88  | $4.16   | $0.65   | $5.18      | $12.21  | $0.66   | $5.07   | $2.32   | $6.85    |
+EPS vs_1Y                | -15.5%  | +28.7%  | +63.6%  | +3058.6%*  | +3.9%   | +33.3%  | -32.6%  | +51.2%  | -218.9%* |
+EPS vs_2Y                | +21.2%  | +13800%*| +132.3% | +275.4%    | +11.4%  | +12.8%  | -38.1%  | +803.8%*| -866.6%* |
+Avg EPS QoQ (4Q)         | -1.5%   | +25.1%  | +13.4%  | -26.8%     | +7.1%   | -4.6%   | +32.7%  | +1105%* | +152.4%* |
+
+─── VALUATION ───────────┤
+P/E (GAAP TTM)           | 44.7x   | 17.3x   | 20.2x   | 8.1x       | 14.5x   | 24.9x   | 5.0x    | 9.2x    | 11.9x    |
+P/Owner Earnings         | 8.1x    | 26.4x   | 68.8x   | 7.9x       | 10.5x   | 20.9x   | 4.7x    | 5.7x    | 13.6x    |
+
+─── QUALITY ─────────────┤
+ROIC                     | —       | 13.8%   | —       | 14.1%      | 24.8%   | 7.0%    | 12.8%   | 8.1%    | 16.9%    |
+ROIC vs_1Y (pp)          | —       | -5.9pp  | —       | +10.3pp    | -1.3pp  | -7.0pp  | +2.0pp  | +0.6pp  | +4.6pp   |
+ROIC vs_2Y (pp)          | —       | +10.9pp | —       | +36.0pp    | -2.4pp  | -9.8pp  | +3.0pp  | +5.7pp  | +0.1pp   |
+OCF/NI                   | 6.22x   | 1.10x   | 0.38x   | 1.10x      | 1.70x   | 3.33x   | 1.72x   | 2.23x   | 1.88x    |
+FCF (TTM)                | $10.71B | $410.2M | $1.20B  | $2.78B     | $12.50B | $3.35B  | $20.39B | $1.06B  | $3.92B   |
+FCF vs_1Y                | +90.6%  | -115.4% | -228.6% | -3.9%      | +36.7%  | +65.1%  | -24.9%  | -2.5%   | +6.8%    |
+FCF vs_2Y                | +19.3%  | -137.1% | -115.8% | +1221.0%   | +84.2%  | -67.9%  | +0.0%   | +28.3%  | +1.4%    |
+Revenue (TTM)            | $31.80B | $15.99B | $17.54B | $11.66B    | $72.11B | $39.53B | $125.3B | $22.62B | $65.18B  |
+Rev vs_1Y                | +49.0%  | +0.8%   | +53.4%  | +30.1%     | +8.3%   | +14.1%  | +5.3%   | -1.1%   | +12.9%   |
+Rev vs_2Y                | +104.1% | -3.6%   | +88.8%  | +33.5%     | +14.2%  | +9.5%   | +4.7%   | -5.5%   | +15.3%   |
+
+* Distorted by prior-period one-time items — base effects, not organic trend.
+
+──────────────────────────────────────────────
+PRIORITY RANKING
+──────────────────────────────────────────────
+
+INVESTIGATE
+  ACN    — Price down 42% on both 1Y and 2Y while EPS grows steadily with 24.8% ROIC and FCF nearly
+           doubling; the strongest clean dislocation signal in the batch.
+  CMCSA  — Spread only modestly positive but quarterly EPS recovering hard (+32.7% QoQ) at 5x P/E
+           and 4.7x P/OE; cheapest name in the batch with improving ROIC and flat FCF over two years.
+
+MONITOR / NEEDS CONTEXT
+  ACM    — Spread compelling (-62.3%) with real EPS growth, but FCF sharply negative across both
+           periods while earnings grow — earnings quality must be resolved before proceeding.
+  FIS    — Strong spread and ROIC trend are real, but all YoY figures are base-effect distortions;
+           normalized earnings reconstruction required before any thesis can stand.
+  MELI   — Price down hard with FCF nearly doubling, but EPS declining and ROIC unavailable; the
+           FCF vs. EPS divergence needs explanation before adding to tracker.
+
+SKIP
+  NU     — Price rising with OCF/NI at 0.38x (flagged) and FCF declining on both 1Y and 2Y; no
+           signal and earnings quality is the worst in the batch.
+  VALE   — Price up 87% with ROIC falling hard on both periods; inverted signal, no thesis.
+  M      — Price up 86% on base-effect EPS with revenue contracting; inverted signal, noise numbers.
+  DAL    — Price up 67% with deeply inverted spread driven by base effects; quarterly trend promising
+           but dislocation is absent at current price.
+
+──────────────────────────────────────────────
+PER-TICKER NARRATIVES
+──────────────────────────────────────────────
+
+MELI — The spread is negative at -18.2% and the P/E correlation is positive at +0.64, which together
+say price and earnings have been moving together but price has fallen harder than earnings — a modest
+but real signal. The complication is that EPS is itself down 15.5% YoY, so the spread is driven by
+price falling more than EPS fell, not by earnings outpacing price in the conventional sense. FCF tells
+a better story: up 91% in one year and 19% over two, against revenue compounding at 49% YoY. ROIC is
+unavailable for financial companies with this capital structure — FCF is the right quality lens, and
+on that basis MELI is generating real cash at scale. The open question before adding to the tracker:
+is the EPS decline a genuine earnings deterioration or a one-time investment cycle (R&D, market
+expansion) that the FCF trend contradicts?
+
+ACM — The spread is the strongest clean signal in the batch at -62.3%: price down 34% while EPS grew
+29% — a textbook dislocation. P/E correlation at +0.70 shows price and earnings were moving in sync
+earlier in the year, making the recent divergence sharper in context. At 17.3x GAAP P/E this is cheap
+for a business with 13.8% ROIC recovering strongly (+10.9pp over two years). The serious flag is FCF:
+down over 115% in one year and 137% over two while EPS grows — this is the most acute
+earnings-quality mismatch in the batch and cannot be absorbed silently. ROIC recovery and EPS growth
+are real, but the cash is not materializing. The open question: is the FCF collapse driven by a
+specific large project drawdown, working capital investment, or something that impairs the EPS quality
+permanently?
+
+NU — The spread is -53.7%, which looks compelling on its face, but NU's price is actually up 10% YoY
+— the negative spread is driven entirely by EPS growing much faster (+64%) than price rose. That is
+technically the right signal, but the price is not dislocated downward; it is rising. The P/E
+correlation near zero means price and earnings have been disconnecting systematically throughout the
+year. The quality picture is the worst in the batch: OCF/NI at 0.38x is a serious flag (earnings far
+exceed cash generation), FCF is declining across both 1Y and 2Y while EPS compounds. These are not
+the characteristics of a durable signal — they suggest earnings quality problems, not temporary price
+dislocation. OCF/NI below 0.8 requires explicit explanation before any thesis is viable.
+
+FIS — The spread of -3,104.6% is entirely a base-effect artifact: FIS reported near-zero EPS in the
+prior year due to a large impairment, so the current period's recovery looks like a 3,059% EPS gain
+against a -46% price move. The ROIC story is real — 14.1% ROIC up 10pp in one year and 36pp over two
+years — and reflects genuine operational improvement post-divestiture. FCF is $2.78B and stable. But
+no spread, P/E, or YoY EPS figure can be interpreted at face value without normalizing for the
+prior-period distortion. The open question: what does a normalized EPS base look like, and does the
+spread hold up once it is recalculated against apples-to-apples earnings?
+
+ACN — The strongest clean signal in the batch. Price down 42% in one year and 38% over two — a
+persistent, broad dislocation with no acute catalyst distorting the comparison. EPS growing at 3.9%
+YoY and 11.4% over two years, with quarterly momentum at +7.1% QoQ — modest but steady, not a
+single-quarter spike. The spread of -46.1% reflects a real divergence where price has moved far
+further than earnings justify. ROIC at 24.8% is the only above-20% reading in the batch — this is a
+business creating durable value above its cost of capital, declining slightly (-1.3pp/-2.4pp) but from
+a strong base. FCF has nearly doubled over two years. At 14.5x P/E and 10.5x P/OE the valuation is
+cheap relative to quality. The open question: why is a 24.8%-ROIC business down 42%? Understanding
+the narrative driving the dislocation (AI displacement fears, federal spending exposure) is the single
+most important step before thesis construction.
+
+VALE — The spread is +53.2% with price up 87% in one year — this is the opposite of what the
+framework targets. EPS grew 33% but price more than doubled it. ROIC is 7.0% and declining sharply
+(-7pp in one year, -9.8pp over two) — a business below its cost of capital and getting worse. FCF
+down 68% over two years despite the recent recovery. There is no signal here in the direction the
+framework looks for, and quality is deteriorating. The only scenario worth revisiting: if commodity
+prices correct and price reverts while earnings hold — but that is speculation, not a signal.
+
+CMCSA — The spread is a modest +8.1% — price fell a little faster than earnings, which themselves
+declined. The more interesting signal is in the quarterly trend: EPS QoQ of +32.7% suggests a live
+recovery in real time that the annual figure is not yet reflecting. At 5.0x GAAP P/E and 4.7x P/OE
+this is the cheapest name in the batch, and the P/OE near P/E indicates SBC is negligible. ROIC at
+12.8% improving modestly. FCF declined 25% in one year but is flat over two years — not a clean
+deterioration. The open question: is the EPS quarterly recovery driven by a sustainable business
+improvement or a timing artifact in a structurally declining cable subscriber base?
+
+M — The spread is +34.9% with price up 86% in one year — Macy's benefited from the same base-effect
+distortion as FIS, with prior-year losses making current EPS growth look extraordinary. The underlying
+business shows revenue declining on both 1Y (-1.1%) and 2Y (-5.5%) — the top line is contracting.
+FCF is $1.06B but down slightly. ROIC at 8.1% is marginal. With price having nearly doubled, the
+dislocation signal is fully inverted — price has far outrun any fundamental recovery. There is no case
+to make here under the current framework.
+
+DAL — The spread is +285.9%*, entirely base-effect-driven: EPS YoY of -219% reflects prior-year
+losses making current earnings look like a collapse on a percentage basis, but the quarterly trend
+(+152.4% QoQ) is strongly positive and more informative than the annual figure. Price is up 67% in
+one year. The tension is that even if the quarterly trend reflects a genuine operational recovery,
+price has already moved substantially ahead. At 11.9x P/E with real earnings and $3.92B FCF growing
+modestly, this is not expensive — but the spread is deeply inverted and the dislocation the framework
+targets is absent. If the quarterly momentum continues and price corrects, this becomes interesting.
+Today it does not clear the bar.

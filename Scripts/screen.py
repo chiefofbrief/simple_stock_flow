@@ -512,7 +512,7 @@ def write_screening_file(tickers, blocks, out_dir):
         "All percentages are point-in-time comparisons (most recent quarter vs.",
         "same quarter 1 or 2 years ago). ROIC deltas are in percentage points (pp).",
         "P/Owner Earnings = Market Cap / (FCF TTM - SBC TTM).",
-        "Spread = EPS vs_1Y minus Price vs_1Y.",
+        "Spread = Price vs_1Y minus EPS vs_1Y.",
         "",
     ]
 
