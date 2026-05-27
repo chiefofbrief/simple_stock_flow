@@ -72,7 +72,7 @@ Present the full comparison table. All tickers appear as columns. Every row must
 ```
                          | TICKER A | TICKER B | TICKER C |
 ─── SIGNAL ──────────────┤
-Spread (EPS−Price 1Y)    |          |          |          |
+Spread (Price−EPS 1Y)    |          |          |          |
 P/E Correlation 1Y       |          |          |          |
 
 ─── PRICE ───────────────┤
@@ -166,7 +166,7 @@ ANALYSIS — {DATE}
 
 ---
 
-### SPREAD — EPS vs_1Y minus Price vs_1Y
+### SPREAD — Price vs_1Y minus EPS vs_1Y
 
 The spread is the primary signal. It answers the core question: **is earnings growth outpacing price growth?**
 

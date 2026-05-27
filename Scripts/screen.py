@@ -465,7 +465,7 @@ def format_ticker_block(ticker, m):
         ticker,
         "",
         ruled("SIGNAL"),
-        fmt_row("Spread (EPS−Price 1Y)", m["spread"]),
+        fmt_row("Spread (Price−EPS 1Y)", m["spread"]),
         fmt_row("P/E Correlation 1Y",    m["corr_1y"]),
         "",
         ruled("PRICE"),
@@ -570,10 +570,11 @@ def process_ticker(ticker):
     ocf_ni = compute_ocf_ni(fcf_m["ocf_ttm"], income_data)
     corr   = compute_pe_correlation(sorted_prices, income_data) if sorted_prices else None
 
-    # Spread = EPS vs_1Y - Price vs_1Y (positive = earnings outpacing price)
+    # Spread = Price vs_1Y - EPS vs_1Y (negative = earnings outpacing price = good signal)
+    # Matches tracker convention: ≤ 0% is the compelling signal.
     spread = None
     if eps_m["eps_vs1y"] is not None and vs_1y is not None:
-        spread = eps_m["eps_vs1y"] - vs_1y
+        spread = vs_1y - eps_m["eps_vs1y"]
 
     # --- Format ---
     return {
