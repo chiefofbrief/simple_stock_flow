@@ -74,6 +74,7 @@ Present the full comparison table. All tickers appear as columns. Every row must
 ─── SIGNAL ──────────────┤
 Spread (Price−EPS 1Y)    |          |          |          |
 P/E Correlation 1Y       |          |          |          |
+Mkt Cap                  |          |          |          |
 
 ─── PRICE ───────────────┤
 Price                    |          |          |          |
@@ -101,6 +102,7 @@ FCF vs_2Y                |          |          |          |
 Revenue (TTM)            |          |          |          |
 Rev vs_1Y                |          |          |          |
 Rev vs_2Y                |          |          |          |
+Debt/OCF                 |          |          |          |
 ```
 
 ---
@@ -287,3 +289,22 @@ vs_1Y and vs_2Y read together: FCF growing on both is the most durable cash gene
 Declining EPS alone is not sufficient — a company with deteriorating EPS but growing revenue may have a timing or accounting distortion, not a broken thesis. Only flag when deterioration is broad-based.
 
 vs_1Y and vs_2Y read together: revenue growing on both is the baseline healthy signal. Revenue vs_2Y strong but vs_1Y decelerating — assess whether the deceleration is cyclical, competitive, or structural. Revenue growing while EPS and FCF are flat or declining across both periods means growth is not reaching the bottom line; investigate before treating revenue growth as a positive signal.
+
+---
+
+### SIGNAL — Mkt Cap
+
+Context for normalization, not a signal in itself. Below $10B warrants additional scrutiny before proceeding further.
+
+---
+
+### QUALITY — Debt/OCF
+
+Measures the time required to eliminate all debt if 100% of operating cash flow were dedicated to debt repayment.
+
+**Below 3x:** Strong debt service capacity.
+**3x–5x:** Manageable with stable cash generation.
+**Above 5x:** Distress risk rises meaningfully if OCF declines.
+**Above 7x:** Serious scrutiny required regardless of spread.
+
+Ratio rising due to OCF decline rather than debt increase signals operational deterioration rather than strategic leverage increase. For highly seasonal businesses, evaluate on TTM basis only.
