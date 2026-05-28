@@ -35,12 +35,12 @@ The script outputs the following metrics for each ticker:
 - **EPS TTM** — trailing twelve months EPS (diluted)
 - **EPS vs_1Y** — most recent quarter EPS vs. same quarter prior year
 - **EPS vs_2Y** — EPS vs. same quarter two years ago
-- **EPS QoQ (4Q)** — average of last 4 quarterly EPS changes (smoothed momentum)
+- **Avg EPS QoQ (4Q)** — average of last 4 quarterly EPS changes (smoothed momentum)
 - **P/E** — GAAP trailing P/E (TTM)
 - **P/OE** — price to owner earnings (Market Cap / (FCF TTM − SBC TTM))
 - **ROIC** — TTM return on invested capital (NOPAT / Invested Capital)
-- **ROIC Δ1Y** — ROIC change vs. 1 year ago (percentage points)
-- **ROIC Δ2Y** — ROIC change vs. 2 years ago (percentage points)
+- **ROIC vs_1Y (pp)** — ROIC change vs. 1 year ago (percentage points)
+- **ROIC vs_2Y (pp)** — ROIC change vs. 2 years ago (percentage points)
 - **OCF/NI** — operating cash flow / net income (accrual quality)
 - **FCF TTM** — trailing twelve months free cash flow
 - **FCF vs_1Y** — FCF change vs. prior year
@@ -160,7 +160,7 @@ Do not restate the numbers — interpret them. The table already contains the da
 Answer the following internally before presenting output. Do not include these answers in your output — they are for your own verification only. If any answer is no, revise before proceeding.
 
 - Has the Metric Interpretations been read before beginning?
-- Has quarterly weighting been applied where an inflection appears underway?
+- Has quarterly weighting been applied where an industry inflection appears underway?
 - Has the ranking been holistic — not just a Spread sort?
 - Does the narrative interpret rather than restate the numbers?
 - Have the strongest and weakest candidates been distinguished — is the comparison frame present?
