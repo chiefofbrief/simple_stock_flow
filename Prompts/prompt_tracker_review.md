@@ -24,12 +24,12 @@ This updates all market data columns in `Stock_Tracker.md` via live FMP data:
 - **EPS TTM** — trailing twelve months EPS (diluted)
 - **EPS vs_1Y** — most recent quarter EPS vs. same quarter prior year
 - **EPS vs_2Y** — EPS vs. same quarter two years ago
-- **EPS QoQ (4Q)** — average of last 4 quarterly EPS changes (smoothed momentum)
+- **Avg EPS QoQ (4Q)** — average of last 4 quarterly EPS changes (smoothed momentum)
 - **P/E** — GAAP trailing P/E (TTM)
 - **P/OE** — price to owner earnings (Market Cap / (FCF TTM − SBC TTM))
 - **ROIC** — TTM return on invested capital (NOPAT / Invested Capital)
-- **ROIC Δ1Y** — ROIC change vs. 1 year ago (percentage points)
-- **ROIC Δ2Y** — ROIC change vs. 2 years ago (percentage points)
+- **ROIC vs_1Y (pp)** — ROIC change vs. 1 year ago (percentage points)
+- **ROIC vs_2Y (pp)** — ROIC change vs. 2 years ago (percentage points)
 - **OCF/NI** — operating cash flow / net income (accrual quality)
 - **FCF TTM** — trailing twelve months free cash flow
 - **FCF vs_1Y** — FCF change vs. prior year
@@ -56,7 +56,7 @@ Read the following before doing anything else:
 
 ---
 
-## Step 2: Generate Output
+## Step 2: Analyze
 
 ### Section 1: Analyze Now
 
@@ -65,25 +65,22 @@ Surface the 3 tickers with the strongest signal right now — the ones where the
 **Read the Metric Interpretations at the bottom of this prompt before beginning.** They are your primary reference for interpreting every metric in the table — spread, ROIC, FCF, revenue, valuation, and quality. Apply them across the full table before ranking.
 
 **Analysis guidance:**
-- **Spread** is the primary signal — earnings outpacing price is the core question.
-- **ROIC** is the second-order signal — it tells you whether the business behind the spread is creating durable value.
-- All other metrics in the table contribute to the conviction holistically. No single metric decides the ranking.
+Spread is the primary signal: is earnings growth outpacing price growth? ROIC is the second-order signal: is the business behind that spread creating durable value? All other metrics contribute to conviction holistically — this is a holistic read, not a sort. For example, a weak spread with exceptional ROIC and broad quality support can outrank a strong spread with deteriorating fundamentals. Establish the spread first, then assess the full picture.
 
 - When two candidates are otherwise equal, the one with an earnings print coming soon ranks higher — the data you are acting on is about to be refreshed.
 - Tickers with **Thesis = Y** already have an active thesis; weight them toward re-evaluation rather than first-time analysis.
-- This is a holistic read, not a sort. For example, a weak spread with exceptional ROIC and broad quality support can outrank a strong spread with deteriorating fundamentals.
 
 **Comparison frame**
 Read tickers against each other — the contrast between candidates is as informative as any individual reading. A spread that looks strong in isolation may look less compelling against a peer with a stronger spread and higher ROIC.
 
 **Quarterly weighting**
-For cyclical and growth businesses where an industry inflection may be underway, weight EPS QoQ (4Q) appropriately alongside the annual figures. Do not allow a lagging annual comparison to dismiss a live earnings recovery visible in the quarterly trend.
+For cyclical and growth businesses where an industry inflection may be underway, weight Avg EPS QoQ (4Q) appropriately alongside the annual figures. Do not allow a lagging annual comparison to dismiss a live earnings recovery visible in the quarterly trend.
 
 **GAAP vs. adjusted**
 Where P/E = — (undefined), the company is reporting a GAAP loss — weight FCF and ROIC as the primary quality signals. Where GAAP and adjusted earnings diverge materially (>15%), flag it.
 
 **Source discipline**
-This analysis must be grounded in the tracker data and the Metric Interpretations below. Outside knowledge may inform interpretation but must never substitute for data. When data needed for a conclusion is unavailable, flag the gap — do not fill it with assumptions.
+This analysis must be grounded in the tracker data and the Metric Interpretations below. Outside knowledge — industry norms, general financial theory — may inform interpretation but must never substitute for data. When you draw on outside knowledge, say so explicitly. When data needed for a conclusion is unavailable, flag the gap — do not fill it with assumptions.
 
 **Output per ticker:** Ticker | one sentence on why this is the strongest case right now.
 
@@ -123,8 +120,9 @@ The verdict is **Remove** or **Keep with caveat**. There is no demotion option.
 Answer the following internally before writing output. Do not include these answers in your output — they are for your own verification only. If any answer is no, revise before proceeding.
 
 - Has the Metric Interpretations been read and applied across the full table before ranking?
-- Has quarterly weighting been applied where an earnings inflection appears underway?
+- Has quarterly weighting been applied where an industry inflection appears underway?
 - Has the ranking been holistic — not just a Spread sort?
+- Are GAAP vs. adjusted gaps flagged where they diverge materially (>15%)?
 - Have tickers with Thesis = Y been weighted toward re-evaluation?
 - Has the Remove section checked for broad-based deterioration, not single-metric moves?
 - Are the one-sentence outputs specific enough to drive a decision — not generic enough to apply to any ticker?
