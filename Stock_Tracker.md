@@ -216,31 +216,6 @@ TICKER — $/Dollar — Date
 
 ---
 
-## SC Layer Coverage
-
-<!-- SC_LAYER_COVERAGE -->
-Pipeline count by AI SC layer. Updated by `prompt_tracker_review.md` each run. ⚠ = zero PIPELINE tickers in layer.
-
-```
-L1  Raw Materials          — 1  (FCX)
-L2  EDA / Semi Equipment   — 1  (CDNS)
-L3  Foundry / OSAT         — 0  ⚠ (TSM, INTC in WATCHLIST)
-L4  Compute Silicon        — 1  (NVDA)
-L5  Memory                 — 1  (MU)
-L6  Custom Silicon / NICs  — 0  ⚠ (MRVL, AVGO Tier 3 in WATCHLIST)
-L7  Optical / Connectivity — 0  ⚠ (CSCO Tier 2, ANET Tier 3 in WATCHLIST)
-L8  Power / Energy         — 0  ⚠ (BE reassessing, BKH/GEV Tier 2–3)
-L9  Data Center Infra      — 0  ⚠ (VRT, JCI Tier 3 in WATCHLIST)
-L10 Hyperscalers           — 1  (MSFT)
-L11 AI Cloud / Neocloud    — 0  ⚠ No actionable candidates remaining
-L12 Edge AI / Robotics     — 0  ⚠ (QCOM Tier 2 in WATCHLIST)
-L13 AI Software / Apps     — 1  (IBM)
-non-AI                     — 0  (AXON, UMAC in WATCHLIST)
-```
-<!-- /SC_LAYER_COVERAGE -->
-
----
-
 ## DROPPED
 
 Thesis failed, dislocation resolved, or better alternatives found. No market data maintained.
