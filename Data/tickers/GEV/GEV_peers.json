@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "AQN",
+    "companyName": "Algonquin Power & Utilities Corp.",
+    "price": 5.95,
+    "mktCap": 4573717400
+  },
+  {
+    "symbol": "CEG",
+    "companyName": "Constellation Energy Corporation",
+    "price": 286.89,
+    "mktCap": 103621817174
+  },
+  {
+    "symbol": "CWEN",
+    "companyName": "Clearway Energy, Inc.",
+    "price": 40.42,
+    "mktCap": 8305618939
+  },
+  {
+    "symbol": "DUK",
+    "companyName": "Duke Energy Corporation",
+    "price": 125.105,
+    "mktCap": 97531357580
+  },
+  {
+    "symbol": "ENLT",
+    "companyName": "Enlight Renewable Energy Ltd",
+    "price": 102.485,
+    "mktCap": 14278293008
+  },
+  {
+    "symbol": "NEE",
+    "companyName": "NextEra Energy, Inc.",
+    "price": 87.265,
+    "mktCap": 181977195100
+  },
+  {
+    "symbol": "ORA",
+    "companyName": "Ormat Technologies, Inc.",
+    "price": 138.81,
+    "mktCap": 8530367970
+  },
+  {
+    "symbol": "SO",
+    "companyName": "The Southern Company",
+    "price": 93.6999,
+    "mktCap": 105627897270
+  }
+]

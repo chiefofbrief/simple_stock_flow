@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "EME",
+    "companyName": "EMCOR Group, Inc.",
+    "price": 868.3,
+    "mktCap": 38667628794
+  },
+  {
+    "symbol": "FIX",
+    "companyName": "Comfort Systems USA, Inc.",
+    "price": 1892.51,
+    "mktCap": 66620894024
+  },
+  {
+    "symbol": "HEI",
+    "companyName": "HEICO Corporation",
+    "price": 311.75,
+    "mktCap": 43389013970
+  },
+  {
+    "symbol": "HUBB",
+    "companyName": "Hubbell Incorporated",
+    "price": 486.98,
+    "mktCap": 25732899764
+  },
+  {
+    "symbol": "IR",
+    "companyName": "Ingersoll Rand Inc.",
+    "price": 71.415,
+    "mktCap": 27947331855
+  },
+  {
+    "symbol": "OTIS",
+    "companyName": "Otis Worldwide Corporation",
+    "price": 71.88,
+    "mktCap": 27581511543
+  },
+  {
+    "symbol": "RKLB",
+    "companyName": "Rocket Lab USA, Inc.",
+    "price": 147,
+    "mktCap": 85093449000
+  },
+  {
+    "symbol": "UAL",
+    "companyName": "United Airlines Holdings, Inc.",
+    "price": 112.65,
+    "mktCap": 36562810500
+  },
+  {
+    "symbol": "WAB",
+    "companyName": "Westinghouse Air Brake Technologies Corporation",
+    "price": 261.355,
+    "mktCap": 44346022764
+  },
+  {
+    "symbol": "XYL",
+    "companyName": "Xylem Inc.",
+    "price": 110.12,
+    "mktCap": 26174863280
+  }
+]

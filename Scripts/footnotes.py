@@ -83,8 +83,9 @@ SECTION_DEFINITIONS = {
 SECTION_PATTERNS = {
     '10-K': {
         'mda': {
-            'start': r'ITEM\s+7\s*[\.\-:]?\s*MANAGEMENT',
-            'ends': [r'ITEM\s+7A\s*[\.\-:]?\s*QUANTITATIVE', r'ITEM\s+8\s*[\.\-:]?\s*FINANCIAL']
+            'start': r'ITEM\s+7\s*[\.\-:]?\s*MANAGEMENT|MANAGEMENT.S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS(?!\s*,)',
+            'ends': [r'ITEM\s+7A\s*[\.\-:]?\s*QUANTITATIVE', r'ITEM\s+7A\s*[\.\-:]',
+                     r'ITEM\s+8\s*[\.\-:]?\s*FINANCIAL', r'ITEM\s+8\s*[\.\-:]']
         },
         'notes': {
             'start': r'NOTES\s+TO\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
@@ -370,8 +371,15 @@ def discover_filing_structure(norm_text):
         r'NOTES\s+TO\s+CONDENSED\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
         r'NOTES\s+TO\s+CONSOLIDATED\s+FINANCIAL\s+STATEMENTS',
         r'NOTES\s+TO\s+FINANCIAL\s+STATEMENTS',
+        r'NOTE\s+1\s*[.\-\u2013]',
     ]
+    # Collect the best candidate across ALL patterns (max content_after wins).
+    # Breaking on first-match-above-threshold fails when a later pattern (e.g.
+    # NOTE 1) produces a far better match than an earlier pattern that scraped
+    # past the 500-char floor via an exhibit-list or TOC occurrence.
     notes_header = None
+    best_content = 0
+
     for pattern in notes_candidates:
         matches = list(re.finditer(pattern, norm_text, re.IGNORECASE))
         if not matches:
@@ -384,13 +392,13 @@ def discover_filing_structure(norm_text):
 
         best = max(matches, key=_content_after)
         content_len = _content_after(best)
-        if content_len > 500:
+        if content_len > 500 and content_len > best_content:
+            best_content = content_len
             notes_header = {
                 'start': best.start(),
                 'header_text': norm_text[best.start():best.start() + 120].strip(),
                 'content_after': content_len,
             }
-            break
 
     return {'item_headers': item_headers, 'notes_header': notes_header}
 
@@ -609,10 +617,15 @@ def extract_section_text(html_content, start_pattern, end_patterns):
     )
 
     # Map the position found in search_text back to full_text using the matched keyword
-    # so the output preserves the original line structure
+    # so the output preserves the original line structure.
+    # Use proportional position scaling to handle multiple occurrences of the same header
+    # (e.g., TOC vs body) — always pick the full_text occurrence closest to where we expect.
     start_keyword = chosen_start_match.group(0)
-    full_text_match = re.search(re.escape(start_keyword), full_text, re.IGNORECASE)
-    if full_text_match:
+    full_text_matches = list(re.finditer(re.escape(start_keyword), full_text, re.IGNORECASE))
+    if full_text_matches:
+        norm_ratio = chosen_start_match.start() / max(len(search_text), 1)
+        expected_ft_pos = int(norm_ratio * len(full_text))
+        full_text_match = min(full_text_matches, key=lambda m: abs(m.start() - expected_ft_pos))
         start_pos = full_text_match.start()
         output_text = full_text
     else:
