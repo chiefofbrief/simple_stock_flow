@@ -104,6 +104,19 @@ Stocks under active monitoring. Market data columns updated by `Scripts/tracker_
 
 ---
 
+## Trade Tracker
+
+Market data columns updated daily by `Scripts/tracker_update.py`. Use Price vs. Entry Price to identify add-to-position opportunities.
+
+| Ticker | Entry Date | Entry Price | Shares | Cost Basis | Price | vs_1Y | P/E | EPS QoQ (4Q) | EPS vs_1Y | Rev vs_1Y | Next Earn | Thesis |
+|--------|------------|-------------|--------|------------|-------|-------|-----|--------------|-----------|-----------|-----------|--------|
+| ADBE | 2026-04-17 | $250.00 | 20 | $5,000.00 | $241.06 | -41.5% | 14.0x | +2.8% | +11.4% | +12.0% | 2026-06-11 | ADBE_Thesis.md |
+| AMZN | 2026-02-05 | $214.89 | 46.535 | $9,999.78 | $269.95 | +31.9% | 32.3x | +16.1% | +74.8% | +16.6% | 2026-07-30 | — |
+| CRM | 2026-04-17 | $181.70 | 27.517 | $4,999.84 | $178.97 | -34.7% | 20.7x | +11.6% | +52.2% | +13.3% | 2026-09-02 | — |
+| IVV | — | $586.94 | 36.91 | $21,664.06 | $757.21 | +29.8% | — | — | — | — | — | — |
+
+---
+
 ## Thesis Archive
 
 Structured summaries for all tickers where a thesis has been completed. $/Dollar = expected value per $1 invested at thesis price. Revisit when price moves materially from the thesis price or after a significant earnings event. Tickers marked `—` in the table have no entry here — thesis pending re-run or never completed.
@@ -245,16 +258,3 @@ Thesis failed, dislocation resolved, or better alternatives found. No market dat
 | LEN | LOSER | 2026-04-28 | EPS YoY -52.0%, Avg QoQ -12.0%, Debt/OCF 24.3x — both earnings horizons declining, extreme leverage. |
 | PFE | TAILWIND | 2026-04-28 | Post-COVID earnings collapse — EPS YoY -500.6%, Rev -1.2%, FCF -22.4%. No AI thesis. |
 | T | TAILWIND | 2026-04-28 | EPS YoY -11.5%, FCF -43.8%, revenue barely growing. No catalyst. |
-
----
-
-## Trade Tracker
-
-Market data columns updated daily by `Scripts/tracker_update.py`. Use Price vs. Entry Price to identify add-to-position opportunities.
-
-| Ticker | Entry Date | Entry Price | Shares | Cost Basis | Price | vs_1Y | P/E | EPS QoQ (4Q) | EPS vs_1Y | Rev vs_1Y | Next Earn | Thesis |
-|--------|------------|-------------|--------|------------|-------|-------|-----|--------------|-----------|-----------|-----------|--------|
-| ADBE | 2026-04-17 | $250.00 | 20 | $5,000.00 | $241.06 | -41.5% | 14.0x | +2.8% | +11.4% | +12.0% | 2026-06-11 | ADBE_Thesis.md |
-| AMZN | 2026-02-05 | $214.89 | 46.535 | $9,999.78 | $269.95 | +31.9% | 32.3x | +16.1% | +74.8% | +16.6% | 2026-07-30 | — |
-| CRM | 2026-04-17 | $181.70 | 27.517 | $4,999.84 | $178.97 | -34.7% | 20.7x | +11.6% | +52.2% | +13.3% | 2026-09-02 | — |
-| IVV | — | $586.94 | 36.91 | $21,664.06 | $757.21 | +29.8% | — | — | — | — | — | — |
