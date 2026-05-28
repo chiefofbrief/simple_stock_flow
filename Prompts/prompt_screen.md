@@ -58,14 +58,14 @@ Do not proceed until the script completes successfully. If the script fails or r
 
 ## Step 2: Analyze
 
-> **Output mode — read before starting.**
-> Write the table and per-ticker narratives directly in chat. No file writes during this step. This keeps the output reviewable before any commitment is made.
+**Output mode:** Write the table and per-ticker narratives directly in chat. No file writes during this step. This keeps the output reviewable before any commitment is made.
 
 Work through the Output Format in order. The Metric Interpretations section at the bottom of this prompt is your primary interpretive reference — read it before beginning and apply it metric by metric.
 
----
-
 ### Analysis Guidelines
+
+**Source discipline**
+This analysis must be grounded in the script output and the Metric Interpretations below. Outside knowledge — industry norms, general financial theory — may inform interpretation but must never substitute for data. When you draw on outside knowledge, say so explicitly. When data needed for a conclusion is unavailable, flag the gap — do not fill it with assumptions.
 
 **Primary question first**
 Spread is the primary signal: is earnings growth outpacing price growth? ROIC is the second-order signal: is the business behind that spread creating durable value? All other metrics contribute to conviction holistically — this is a holistic read, not a sort. For example, a weak spread with exceptional ROIC and broad quality support can outrank a strong spread with deteriorating fundamentals. Establish the spread first, then assess the full picture.
@@ -79,18 +79,13 @@ For cyclical and growth businesses where an industry inflection may be underway,
 **GAAP vs. adjusted**
 Every P/E and EPS figure must be read as GAAP. Where GAAP and adjusted figures diverge materially (>15%), flag the gap and note the drivers — the adjusted figure may exclude real recurring costs such as SBC.
 
-**Source discipline**
-This analysis must be grounded in the script output and the Metric Interpretations below. Outside knowledge — industry norms, general financial theory — may inform interpretation but must never substitute for data. When you draw on outside knowledge, say so explicitly. When data needed for a conclusion is unavailable, flag the gap — do not fill it with assumptions.
-
 ---
 
 ### Output Format
 
 All sections below constitute the full screening output.
 
----
-
-#### Screening Table
+**Screening Table**
 
 Present the full comparison table. All tickers appear as columns. Every row must be populated — use `—` only when the data is genuinely unavailable from the script. Do not omit rows.
 
@@ -130,20 +125,16 @@ Rev vs_2Y                |          |          |          |
 Debt/OCF                 |          |          |          |
 ```
 
----
+**Priority Ranking**
 
-#### Priority Ranking
-
-Below the table, write a ranked priority list before the full narratives. Group tickers into three buckets:
+Below the table, write a ranked priority list before the full narratives. Group tickers into two buckets:
 
 - **Add to Tracker** — signal clear enough to warrant ongoing monitoring; quality supports it, or a specific blocker is identified and named
 - **Skip** — no signal, inverted signal, or quality disqualifies it
 
 Format: one line per ticker, in order within each bucket. Each line states the one-sentence reason. Answer three things implicitly in that sentence: is earnings outpacing price, are earnings reliable, and what is the key flag.
 
----
-
-#### Per-Ticker Narratives
+**Per-Ticker Narratives**
 
 Below the priority ranking, write one focused paragraph per ticker. Each paragraph must address:
 
@@ -153,9 +144,7 @@ Below the priority ranking, write one focused paragraph per ticker. Each paragra
 
 Do not restate the numbers — interpret them. The table already contains the data; the narrative is the read.
 
----
-
-## Self-Check
+### Self-Check
 
 Answer the following internally before presenting output. Do not include these answers in your output — they are for your own verification only. If any answer is no, revise before proceeding.
 
@@ -197,8 +186,6 @@ ANALYSIS — {DATE}
 ---
 
 ## Metric Interpretations
-
----
 
 ### SPREAD — Price vs_1Y minus EPS vs_1Y
 
@@ -246,7 +233,7 @@ P/E must always be read as GAAP. Where GAAP and adjusted figures diverge materia
 
 Owner Earnings = FCF − SBC. P/Owner Earnings = Market Cap ÷ Owner Earnings.
 
-> The appropriate owner-earnings figure is FCF minus SBC, not gross FCF. SBC is a recurring economic cost that dilutes shareholders; it inflates OCF relative to NI but does not improve earnings quality.
+The appropriate owner-earnings figure is FCF minus SBC, not gross FCF. SBC is a recurring economic cost that dilutes shareholders; it inflates OCF relative to NI but does not improve earnings quality.
 
 P/Owner Earnings is the correct economic multiple — it prices the business as a buyer of the whole enterprise would, after accounting for the true cost of equity compensation.
 
@@ -256,39 +243,39 @@ Read P/OE alongside P/E. When they are close, SBC is a small fraction of FCF and
 
 ### QUALITY — ROIC, ROIC vs_1Y (pp), ROIC vs_2Y (pp)
 
-> Measures how efficiently a business converts its total capital base — debt and equity combined — into after-tax operating profit. Unlike EPS, ROIC is unaffected by capital structure choices such as debt-funded buybacks or acquisitions. It answers the question EPS cannot: for every dollar deployed in the business, how many cents of operating profit does it generate?
+Measures how efficiently a business converts its total capital base — debt and equity combined — into after-tax operating profit. Unlike EPS, ROIC is unaffected by capital structure choices such as debt-funded buybacks or acquisitions. It answers the question EPS cannot: for every dollar deployed in the business, how many cents of operating profit does it generate?
 
-> **Above 20%:** Strong capital efficiency — indicative of durable competitive advantage. A business sustaining 20%+ ROIC across a full economic cycle is generating a meaningful spread over its cost of capital.
-> **10–20%:** Moderate — acceptable but not exceptional. The spread over cost of capital is narrow; growth does not automatically create value.
-> **Below 10%:** Weak — the business may be destroying value with every dollar it reinvests. Growth actively makes this worse.
+**Above 20%:** Strong capital efficiency — indicative of durable competitive advantage. A business sustaining 20%+ ROIC across a full economic cycle is generating a meaningful spread over its cost of capital.
+**10–20%:** Moderate — acceptable but not exceptional. The spread over cost of capital is narrow; growth does not automatically create value.
+**Below 10%:** Weak — the business may be destroying value with every dollar it reinvests. Growth actively makes this worse.
 
-> The ROIC trend is as informative as the absolute level. A business at 22% and rising tells a different story from one at 28% and declining. A narrowing ROIC trend is an early warning of moat erosion — it tends to precede margin compression and multiple contraction by two to three reporting periods.
+The ROIC trend is as informative as the absolute level. A business at 22% and rising tells a different story from one at 28% and declining. A narrowing ROIC trend is an early warning of moat erosion — it tends to precede margin compression and multiple contraction by two to three reporting periods.
 
 vs_1Y and vs_2Y express the trend in percentage points. Read them directionally: sustained improvement over two years is a moat-strengthening signal; sustained deterioration is a structural warning regardless of the absolute level. A single-year dip warrants less weight than a consistent multi-year trend.
 
-> **Intangible-heavy businesses:** Book value understates economic capital for companies whose competitive advantages rest on R&D, brand, or software. ROIC will appear elevated relative to asset-heavy peers — this is appropriate, not a distortion, if genuine intangible value creation underlies it.
-> **Asset age limitation:** A business can mechanically boost ROIC by underinvesting — fully depreciated assets reduce the denominator without reflecting economic reality. Cross-reference FCF trend when ROIC appears unusually high.
-> **Negative invested capital:** Asset-light businesses with large deferred revenue or negative working capital can have ROIC that is mathematically undefined or misleading. Flag this when it occurs; use FCF as the primary quality metric instead.
+**Intangible-heavy businesses:** Book value understates economic capital for companies whose competitive advantages rest on R&D, brand, or software. ROIC will appear elevated relative to asset-heavy peers — this is appropriate, not a distortion, if genuine intangible value creation underlies it.
+**Asset age limitation:** A business can mechanically boost ROIC by underinvesting — fully depreciated assets reduce the denominator without reflecting economic reality. Cross-reference FCF trend when ROIC appears unusually high.
+**Negative invested capital:** Asset-light businesses with large deferred revenue or negative working capital can have ROIC that is mathematically undefined or misleading. Flag this when it occurs; use FCF as the primary quality metric instead.
 
 ---
 
 ### QUALITY — OCF/NI
 
-> Measures earnings quality by comparing reported profits to actual cash collection.
+Measures earnings quality by comparing reported profits to actual cash collection.
 
-> **> 1.1:** Conservative accounting or efficient working capital management — high quality earnings.
-> **0.8–1.1:** Reasonable earnings quality.
-> **< 0.8** (especially if deteriorating): Earnings significantly exceed cash generation, suggesting potential revenue recognition issues, working capital consumption, or reserve inadequacy.
+**> 1.1:** Conservative accounting or efficient working capital management — high quality earnings.
+**0.8–1.1:** Reasonable earnings quality.
+**< 0.8** (especially if deteriorating): Earnings significantly exceed cash generation, suggesting potential revenue recognition issues, working capital consumption, or reserve inadequacy.
 
-> A ratio above 1.1 does not automatically indicate conservative accounting — identify the specific non-cash drivers first. SBC is a recurring economic cost that dilutes shareholders; it inflates OCF relative to NI but does not improve earnings quality. Amortization of acquired intangibles is a wasting charge that declines as acquisitions age — more benign, but requires verification. The appropriate owner-earnings figure is FCF minus SBC, not gross FCF.
+A ratio above 1.1 does not automatically indicate conservative accounting — identify the specific non-cash drivers first. SBC is a recurring economic cost that dilutes shareholders; it inflates OCF relative to NI but does not improve earnings quality. Amortization of acquired intangibles is a wasting charge that declines as acquisitions age — more benign, but requires verification. The appropriate owner-earnings figure is FCF minus SBC, not gross FCF.
 
 ---
 
 ### QUALITY — FCF TTM, vs_1Y, vs_2Y
 
-> Free cash flow represents the cash an owner can pocket after paying all expenses and making necessary maintenance investments — "the well from which all returns are drawn." It is the ultimate measure of value creation regardless of how that value is deployed.
+Free cash flow represents the cash an owner can pocket after paying all expenses and making necessary maintenance investments — "the well from which all returns are drawn." It is the ultimate measure of value creation regardless of how that value is deployed.
 
-> Consistent FCF generation indicates a self-funding business not dependent on external capital. Strong current FCF generation means nothing if the business model is deteriorating or if the company benefited from unsustainable temporary factors.
+Consistent FCF generation indicates a self-funding business not dependent on external capital. Strong current FCF generation means nothing if the business model is deteriorating or if the company benefited from unsustainable temporary factors.
 
 Positive/improving FCF = earnings are real. Declining FCF + positive EPS = yellow flag.
 
@@ -298,11 +285,11 @@ vs_1Y and vs_2Y read together: FCF growing on both is the most durable cash gene
 
 ### QUALITY — Revenue TTM, vs_1Y, vs_2Y
 
-> Revenue growth substantially above industry with maintained margins indicates strengthening position; growth above industry with compressing margins suggests buying share through price cuts.
+Revenue growth substantially above industry with maintained margins indicates strengthening position; growth above industry with compressing margins suggests buying share through price cuts.
 
-> Revenue growth without margin improvement creates no shareholder value — acceleration alone is meaningless if profit per dollar of sales remains constant or declines.
+Revenue growth without margin improvement creates no shareholder value — acceleration alone is meaningless if profit per dollar of sales remains constant or declines.
 
-> Red flag: Growth substantially outpacing competitors without operational explanation warrants investigation and could signal aggressive accounting.
+Red flag: Growth substantially outpacing competitors without operational explanation warrants investigation and could signal aggressive accounting.
 
 Declining EPS alone is not sufficient — a company with deteriorating EPS but growing revenue may have a timing or accounting distortion, not a broken thesis. Only flag when deterioration is broad-based.
 
