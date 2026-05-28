@@ -98,6 +98,9 @@ Stocks under active monitoring. Market data columns updated by `Scripts/tracker_
 | LIN | TAILWIND — AI SC L1 | $232.55B | -3.2% | -0.06 | $503.03 | +10.2% | +20.1% | $15.06 | +13.4% | +18.8% | +4.4% | 33.4x | 46.8x | 12.1% | +0.3pp | +0.2pp | 1.5x | $5.10B | +0.8% | -0.9% | $34.66B | +8.2% | +8.4% | 2.4x | 2026-08-07 | — | — |
 | APD | TAILWIND — AI SC L1 | $63.28B | -133.6% | +0.60 | $284.44 | +7.5% | +13.2% | $9.45 | +141.1% | +24.1% | +3441.2% | 30.1x | 59.7x | 6.4% | +1.1pp | -3.0pp | 2.0x | $1.11B | +250.6% | +371.4% | $12.46B | +8.8% | +8.2% | 4.5x | 2026-07-30 | — | — |
 | INTC | TAILWIND — AI SC L3/L4 | $604.38B | +774.6% | — | $120.27 | +490.4% | +289.7% | -$0.62 | -284.2% | -712.9% | -160.0% | — | — | -0.8% | +11.0pp | -5.4pp | -3.1x | $-3.12B | +41.9% | +64.7% | $53.76B | +7.2% | +6.7% | 4.5x | 2026-07-23 | Y | $1.30 |
+| LRCX | TAILWIND — AI SC L2 | $400.82B | +244.5% | +0.91 | $321.31 | +285.3% | +236.9% | $5.30 | +40.8% | +98.6% | +9.9% | 60.6x | 66.0x | 71.7% | +15.3pp | +20.2pp | 1.0x | $6.45B | -20.7% | -36.8% | $21.68B | +23.8% | +54.0% | 0.5x | 2026-07-29 | — | — |
+| HON | TAILWIND — AI SC L9 | $146.60B | +47.1% | -0.63 | $231.26 | +5.2% | +21.0% | $7.06 | -41.9% | -42.2% | +30.9% | 32.8x | 36.4x | 12.3% | -3.2pp | -8.5pp | 1.3x | $4.17B | -352.3% | -506.0% | $36.76B | -6.9% | +0.4% | 6.6x | 2026-07-23 | — | — |
+| BE | TAILWIND — AI SC L8 | $84.17B | +1088.0% | — | $297.38 | +1418.0% | +1699.0% | -$0.04 | +330.0% | +192.0% | +1394.8% | — | 711.8x | 3.6% | -0.4pp | +15.9pp | 50.0x | $233.0M | +138.0% | +128.2% | $2.45B | +130.4% | +219.2% | 9.2x | 2026-07-30 | — | — |
 
 ---
 
@@ -244,16 +247,13 @@ Thesis failed, dislocation resolved, or better alternatives found. No market dat
 
 | Ticker | Tag | Date | Reason |
 |--------|-----|------|--------|
+| CAG | LOSER — EPS+ | 2026-05-28 | ROIC -1.0%, Debt/OCF 5.3x, negative EPS TTM — no earnings quality to support the spread signal. Value trap. |
+| UMAC | TAILWIND | 2026-05-28 | Pre-profitability, ROIC -5.0%, FCF -$40M, Spread +273.2% — no thesis support at current price. |
 | LULU | LOSER | 2026-05-28 | EPS vs_1Y -19.1%, ROIC -14.5pp, FCF vs_1Y -17.7% — multi-year deterioration across all dimensions, not a dislocation. |
 | CPB | LOSER | 2026-05-28 | EPS vs_1Y -17.2%, Debt/OCF 6.2x, ROIC 7.7% — high-debt declining consumer staples; value trap profile. |
 | BKH | TAILWIND — AI SC L8 | 2026-05-28 | FCF negative, Debt/OCF 7.5x, EPS declining — leverage and cash generation disqualify thesis. |
 | MP | TAILWIND — AI SC L1 | 2026-05-28 | Unprofitable, negative FCF, Spread +161.8% (Tier 4), ROIC -2.0% — pre-profitability speculation. |
 | COP | TAILWIND | 2026-05-28 | EPS vs_1Y -20.2%, Rev vs_1Y -2.5%, ROIC declining — non-AI commodity play with deteriorating fundamentals on all fronts. |
-| CAG | LOSER — EPS+ | 2026-05-27 | ROIC -1.0% and Debt/OCF 5.3x; quality metrics disqualify the LOSER thesis — value trap. |
-| LRCX | TAILWIND — AI SC L2 | 2026-05-27 | Spread +243.7%; price completely detached from earnings, TAILWIND thesis broken. |
-| HON | TAILWIND — AI SC L9 | 2026-05-27 | EPS YoY -41.9% and FCF YoY -352.3%; thesis broken across multiple dimensions. |
-| UMAC | TAILWIND | 2026-05-27 | vs_1Y +225% on pre-profitability thesis with FCF YoY -1417.3%; risk/reward inverted. |
-| BE | TAILWIND — AI SC L8 | 2026-05-27 | vs_1Y +1365.9%; extreme price move exhausted the thesis and inverted risk/reward. |
 | AVAV | TAILWIND — AI SC L12 | 2026-04-28 | Dislocation reversed — vs_1Y +31.8%; EPS YoY -5150% disqualifies TAILWIND thesis. |
 | TH | TAILWIND — AI SC L9 | 2026-04-28 | EPS YoY -215.4% AND Avg QoQ -487.1% — both horizons negative; thesis broken. |
 | CC | TAILWIND | 2026-04-28 | EPS YoY -649.1%, Avg QoQ -2361.8%, Debt/OCF 17.4x — no thesis support. |
