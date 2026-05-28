@@ -7,13 +7,15 @@ Fetches all screening metrics for a list of arbitrary tickers and produces
 a structured screening summary for use with Prompts/prompt_screen.md.
 
 Metrics produced:
-  Signal    — Spread (EPS vs_1Y minus Price vs_1Y), P/E Correlation 1Y
+  Signal    — Spread (Price vs_1Y minus EPS vs_1Y), P/E Correlation 1Y
+  Size      — Mkt Cap
   Price     — Current price, vs_1Y, vs_2Y
   Earnings  — EPS TTM, EPS vs_1Y, EPS vs_2Y, Avg EPS QoQ (4Q)
   Valuation — P/E (GAAP TTM), P/Owner Earnings (FCF TTM - SBC TTM)
   Quality   — ROIC, ROIC vs_1Y (pp), ROIC vs_2Y (pp),
                OCF/NI, FCF TTM, FCF vs_1Y, FCF vs_2Y,
-               Revenue TTM, Rev vs_1Y, Rev vs_2Y
+               Revenue TTM, Rev vs_1Y, Rev vs_2Y,
+               Debt/OCF
 
 Usage:
     python Scripts/screen.py PLTR SMCI ARM RDDT
@@ -352,6 +354,16 @@ def compute_ocf_ni(ocf_ttm, income_data):
     return ocf_ttm / ni_ttm
 
 
+def compute_debt_ocf(balance_data, ocf_ttm):
+    """Debt/OCF = Total Debt (most recent quarter) / OCF TTM."""
+    if not balance_data or ocf_ttm is None or ocf_ttm == 0:
+        return None
+    total_debt = safe_float(balance_data[0].get("totalDebt"))
+    if total_debt is None:
+        return None
+    return total_debt / ocf_ttm
+
+
 # ---------------------------------------------------------------------------
 # P/E Correlation
 # ---------------------------------------------------------------------------
@@ -447,6 +459,14 @@ def fmt_ratio(val):
 def fmt_corr(val):
     return f"{val:+.2f}" if val is not None else "—"
 
+def fmt_mktcap(val):
+    if val is None:
+        return "—"
+    b = val / 1e9
+    if b >= 1000:
+        return f"${b/1000:.2f}T"
+    return f"${b:.1f}B"
+
 
 # ---------------------------------------------------------------------------
 # Output
@@ -467,6 +487,7 @@ def format_ticker_block(ticker, m):
         ruled("SIGNAL"),
         fmt_row("Spread (Price−EPS 1Y)", m["spread"]),
         fmt_row("P/E Correlation 1Y",    m["corr_1y"]),
+        fmt_row("Mkt Cap",               m["mkt_cap"]),
         "",
         ruled("PRICE"),
         fmt_row("Price",  m["price"]),
@@ -494,6 +515,7 @@ def format_ticker_block(ticker, m):
         fmt_row("Revenue (TTM)",    m["rev_ttm"]),
         fmt_row("Rev vs_1Y",        m["rev_vs1y"]),
         fmt_row("Rev vs_2Y",        m["rev_vs2y"]),
+        fmt_row("Debt/OCF",         m["debt_ocf"]),
         "",
     ]
     return "\n".join(lines)
@@ -513,6 +535,7 @@ def write_screening_file(tickers, blocks, out_dir):
         "same quarter 1 or 2 years ago). ROIC deltas are in percentage points (pp).",
         "P/Owner Earnings = Market Cap / (FCF TTM - SBC TTM).",
         "Spread = Price vs_1Y minus EPS vs_1Y.",
+        "Debt/OCF = Total Debt (most recent quarter) / OCF TTM.",
         "",
     ]
 
@@ -565,10 +588,11 @@ def process_ticker(ticker):
     fcf_m  = compute_fcf_metrics(cashflow_data)
     roic_m = compute_roic_metrics(income_data, balance_data)
 
-    pe     = compute_gaap_pe(income_data, price)
-    poe    = compute_poe(market_cap, fcf_m["fcf_ttm"], fcf_m["sbc_ttm"])
-    ocf_ni = compute_ocf_ni(fcf_m["ocf_ttm"], income_data)
-    corr   = compute_pe_correlation(sorted_prices, income_data) if sorted_prices else None
+    pe       = compute_gaap_pe(income_data, price)
+    poe      = compute_poe(market_cap, fcf_m["fcf_ttm"], fcf_m["sbc_ttm"])
+    ocf_ni   = compute_ocf_ni(fcf_m["ocf_ttm"], income_data)
+    debt_ocf = compute_debt_ocf(balance_data, fcf_m["ocf_ttm"])
+    corr     = compute_pe_correlation(sorted_prices, income_data) if sorted_prices else None
 
     # Spread = Price vs_1Y - EPS vs_1Y (negative = earnings outpacing price = good signal)
     # Matches tracker convention: ≤ 0% is the compelling signal.
@@ -580,6 +604,7 @@ def process_ticker(ticker):
     return {
         "spread":        fmt_pct(spread),
         "corr_1y":       fmt_corr(corr),
+        "mkt_cap":       fmt_mktcap(market_cap),
         "price":         fmt_price(price),
         "vs_1y":         fmt_pct(vs_1y),
         "vs_2y":         fmt_pct(vs_2y),
@@ -599,6 +624,7 @@ def process_ticker(ticker):
         "rev_ttm":       fmt_dollars(rev_m["rev_ttm"]),
         "rev_vs1y":      fmt_pct(rev_m["rev_vs1y"]),
         "rev_vs2y":      fmt_pct(rev_m["rev_vs2y"]),
+        "debt_ocf":      fmt_ratio(debt_ocf),
     }
 
 
@@ -636,7 +662,7 @@ def main():
             m     = process_ticker(ticker)
             block = format_ticker_block(ticker, m)
             blocks.append(block)
-            print(f"         Spread: {m['spread']}  ROIC: {m['roic']}  P/E: {m['pe']}  P/OE: {m['poe']}")
+            print(f"         Spread: {m['spread']}  ROIC: {m['roic']}  P/E: {m['pe']}  P/OE: {m['poe']}  Debt/OCF: {m['debt_ocf']}")
         except Exception as e:
             print(f"\n  ERROR: {e}")
             blocks.append(f"{'═' * BLOCK_WIDTH}\n{ticker}\n  ERROR: {e}\n")
