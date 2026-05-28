@@ -110,115 +110,115 @@ Structured summaries for all tickers where a thesis has been completed. $/Dollar
 
 ```
 TICKER — $/Dollar — Date
-  Numbers:    financial quality, cash generation, ROIC, balance sheet
-  Narrative:  market perception, analyst stance, narrative formation
-  Projection: scenario and skew — what the price embeds vs. what remains unpriced
-  Catalyst:   next thesis-critical event, entry criteria, key invalidation signal
+- **Numbers:** financial quality, cash generation, ROIC, balance sheet
+- **Narrative:** market perception, analyst stance, narrative formation
+- **Projection:** scenario and skew — what the price embeds vs. what remains unpriced
+- **Catalyst:** next thesis-critical event, entry criteria, key invalidation signal
 ```
 
 ---
 
 **IT — $0.75–0.80 — 2026-05-26**
-  Numbers:    Management-confirmed 27% ROIC, 12% FCF yield, 10.6% owner earnings yield, $3.0B all-fixed-rate debt at Debt/OCF 2.38x — priced for stagnation, not its actual quality.
-  Narrative:  Zero upgrades, retail entirely disengaged, securities class action unaddressed — stock fell 5.6% on an 11% EPS beat; story has not turned.
-  Projection: Bear case bounded at $97-135; federal lapping mechanism starting Q2 is calendar-driven; BTI engagement improvement (+170bps) is first evidence of transformation working.
-  Catalyst:   Q2 earnings Aug 4 — ex-Fed CV acceleration to 4%+ and total CV approaching 3% are the binary tests; adverse litigation development is the unquantified tail risk.
+- **Numbers:** Management-confirmed 27% ROIC, 12% FCF yield, 10.6% owner earnings yield, $3.0B all-fixed-rate debt at Debt/OCF 2.38x — priced for stagnation, not its actual quality.
+- **Narrative:** Zero upgrades, retail entirely disengaged, securities class action unaddressed — stock fell 5.6% on an 11% EPS beat; story has not turned.
+- **Projection:** Bear case bounded at $97-135; federal lapping mechanism starting Q2 is calendar-driven; BTI engagement improvement (+170bps) is first evidence of transformation working.
+- **Catalyst:** Q2 earnings Aug 4 — ex-Fed CV acceleration to 4%+ and total CV approaching 3% are the binary tests; adverse litigation development is the unquantified tail risk.
 
 **BR — ~$1.10 (est., pre-May 14 format) — 2026-04-30**
-  Numbers:    98% client retention, $1.3B FCF, 18% FCF CAGR, 7.3% FCF yield, Debt/OCF conservative — priced for structural moat erosion not visible in any reported metric.
-  Narrative:  AI disruption thesis is mis-targeted — Wells Fargo case shows banks using Broadridge technology to internalize proxy decisions, not bypassing it; zero sell ratings.
-  Projection: Bull case owns the DLR tokenization rail ($365B/day, growing); bear case is closed sales decline (-16-19%) becoming structural, visible in retention within 12-18 months.
-  Catalyst:   Q4 FY2026 earnings ~Aug 4 — $93-143M in Q4 closed sales validates deal-slippage narrative; below-midpoint miss shifts risk assessment materially toward re-evaluation.
+- **Numbers:** 98% client retention, $1.3B FCF, 18% FCF CAGR, 7.3% FCF yield, Debt/OCF conservative — priced for structural moat erosion not visible in any reported metric.
+- **Narrative:** AI disruption thesis is mis-targeted — Wells Fargo case shows banks using Broadridge technology to internalize proxy decisions, not bypassing it; zero sell ratings.
+- **Projection:** Bull case owns the DLR tokenization rail ($365B/day, growing); bear case is closed sales decline (-16-19%) becoming structural, visible in retention within 12-18 months.
+- **Catalyst:** Q4 FY2026 earnings ~Aug 4 — $93-143M in Q4 closed sales validates deal-slippage narrative; below-midpoint miss shifts risk assessment materially toward re-evaluation.
 
 **NFLX — $0.80–0.85 — 2026-05-26**
-  Numbers:    ROIC 38.9%, expanding margins (31%+), growing FCF, no fundamental deterioration — one of the strongest quality profiles in the tracker.
-  Narrative:  Institutional upgrades during selloff, resolved overhangs (WBD walk-away, Hastings transition), building at ~50-60% formation — not yet dominant.
-  Projection: Market pricing "premium multiple era is over" — likely overcorrect if advertising proves a durable second revenue engine; discount conditional on ad revenue becoming visible.
-  Catalyst:   Q2 earnings Jul 16 — guidance raise + first formal ad revenue quantification moves thesis toward $0.70 and accelerates narrative; flat guidance keeps it at $1.00 (no margin of safety).
+- **Numbers:** ROIC 38.9%, expanding margins (31%+), growing FCF, no fundamental deterioration — one of the strongest quality profiles in the tracker.
+- **Narrative:** Institutional upgrades during selloff, resolved overhangs (WBD walk-away, Hastings transition), building at ~50-60% formation — not yet dominant.
+- **Projection:** Market pricing "premium multiple era is over" — likely overcorrect if advertising proves a durable second revenue engine; discount conditional on ad revenue becoming visible.
+- **Catalyst:** Q2 earnings Jul 16 — guidance raise + first formal ad revenue quantification moves thesis toward $0.70 and accelerates narrative; flat guidance keeps it at $1.00 (no margin of safety).
 
 **MU — $0.85–0.90 — 2026-05-22**
-  Numbers:    Real cash-backed earnings at unprecedented ROIC (34.5% TTM vs. 7.6% five-year avg); FY2027 capex step-up ($35-40B net) may redirect most FCF back into deployment.
-  Narrative:  SCA structural evolution, HBM4 Vera Rubin design-in, ASML CEO validation — well-formed and credible, but broadly adopted; marginal buyers are FOMO retail, not new institutional conviction.
-  Projection: Strong FY2026, uncertain FY2027 — priced to require the new earnings floor thesis correct; bear scenario (historical cycle precedent) is not compensated in the current price.
-  Catalyst:   Q3 FY26 earnings Jun 24 — FY2027 margin guidance is critical new information; re-entry zone below $500-550 where bear scenario is priced in with margin.
+- **Numbers:** Real cash-backed earnings at unprecedented ROIC (34.5% TTM vs. 7.6% five-year avg); FY2027 capex step-up ($35-40B net) may redirect most FCF back into deployment.
+- **Narrative:** SCA structural evolution, HBM4 Vera Rubin design-in, ASML CEO validation — well-formed and credible, but broadly adopted; marginal buyers are FOMO retail, not new institutional conviction.
+- **Projection:** Strong FY2026, uncertain FY2027 — priced to require the new earnings floor thesis correct; bear scenario (historical cycle precedent) is not compensated in the current price.
+- **Catalyst:** Q3 FY26 earnings Jun 24 — FY2027 margin guidance is critical new information; re-entry zone below $500-550 where bear scenario is priced in with margin.
 
 **NVDA — $1.00 (asymmetric upside, 3–6 month window) — 2026-05-22**
-  Numbers:    ROIC ~117% operational, FCF $48.6B, $80.5B liquid, OCF/NI 1.10x — circular investment arrangement ($18.6B/qtr at 38% of FCF) is structurally underacknowledged but offset by real operating earnings.
-  Narrative:  Fully formed with named ROI evidence (Meta ad-click +3.5%, Anthropic 10x YoY); analyst consensus unanimous Buy; agentic AI inflection declared by Jensen on Q4 call with specific commercial data.
-  Projection: Base case priced in at $219.88 (Blackwell continuation, Rubin on schedule, China zero); Rubin pricing gap ($4.92/hr cost vs $12.25/hr ceiling) and China optionality remain unembedded upside.
-  Catalyst:   Q2 FY27 ~Aug 2026 — Rubin revenue >10% of Data Center at disclosed ASP above GB300 confirms pricing power; any top-5 hyperscaler cutting 2027 CapEx guidance below 2026 level is primary invalidation.
+- **Numbers:** ROIC ~117% operational, FCF $48.6B, $80.5B liquid, OCF/NI 1.10x — circular investment arrangement ($18.6B/qtr at 38% of FCF) is structurally underacknowledged but offset by real operating earnings.
+- **Narrative:** Fully formed with named ROI evidence (Meta ad-click +3.5%, Anthropic 10x YoY); analyst consensus unanimous Buy; agentic AI inflection declared by Jensen on Q4 call with specific commercial data.
+- **Projection:** Base case priced in at $219.88 (Blackwell continuation, Rubin on schedule, China zero); Rubin pricing gap ($4.92/hr cost vs $12.25/hr ceiling) and China optionality remain unembedded upside.
+- **Catalyst:** Q2 FY27 ~Aug 2026 — Rubin revenue >10% of Data Center at disclosed ASP above GB300 confirms pricing power; any top-5 hyperscaler cutting 2027 CapEx guidance below 2026 level is primary invalidation.
 
 **CDNS — $1.00 (option on $1.15–1.20 in 18–36 months) — 2026-05-18**
-  Numbers:    EDA duopoly moat, self-funding, exceptional quality — but priced at 85x owner earnings with zero margin of safety on current-year metrics.
-  Narrative:  AI chip design boom and agentic platform story institutionally credible, not at bubble extremes — analyst targets close to current price, not parabolic.
-  Projection: Fair price for quality compounder; 3-5 year horizon makes AI TAM optionality material; <12-month horizon carries 20-30% downside risk in a growth deceleration scenario.
-  Catalyst:   Q2 earnings Jul 27 and H2 management update — IP/EDA confirmation and Hexagon synergy ramp are resolution events; FY2026 adj EPS below $7.50 at any update is primary invalidation.
+- **Numbers:** EDA duopoly moat, self-funding, exceptional quality — but priced at 85x owner earnings with zero margin of safety on current-year metrics.
+- **Narrative:** AI chip design boom and agentic platform story institutionally credible, not at bubble extremes — analyst targets close to current price, not parabolic.
+- **Projection:** Fair price for quality compounder; 3-5 year horizon makes AI TAM optionality material; <12-month horizon carries 20-30% downside risk in a growth deceleration scenario.
+- **Catalyst:** Q2 earnings Jul 27 and H2 management update — IP/EDA confirmation and Hexagon synergy ramp are resolution events; FY2026 adj EPS below $7.50 at any update is primary invalidation.
 
 **SNPS — $1.00 — 2026-05-18**
-  Numbers:    39.5% pre-acquisition ROIC, EDA duopoly moat, self-sustaining cash generation — but 42x owner earnings after proper SBC accounting is not cheap for 8-9% organic EDA growth.
-  Narrative:  Elliott engagement, NVIDIA partnership, institutional accumulation building — joint solution monetization (FY2027) has language credit but not multiple expansion yet.
-  Projection: EV ~$476 vs. $494 price implies slight downward lean; $490-520 base case; bull case ($550-580) requires FY2027 joint solution revenue; bear case ($375-420) requires IP deterioration to persist.
-  Catalyst:   Q2 earnings May 27 (thesis-critical: IP sequential improvement required); Elliott disclosure is asymmetric upside catalyst; Design IP sequential decline in Q2 is immediate reassessment trigger.
+- **Numbers:** 39.5% pre-acquisition ROIC, EDA duopoly moat, self-sustaining cash generation — but 42x owner earnings after proper SBC accounting is not cheap for 8-9% organic EDA growth.
+- **Narrative:** Elliott engagement, NVIDIA partnership, institutional accumulation building — joint solution monetization (FY2027) has language credit but not multiple expansion yet.
+- **Projection:** EV ~$476 vs. $494 price implies slight downward lean; $490-520 base case; bull case ($550-580) requires FY2027 joint solution revenue; bear case ($375-420) requires IP deterioration to persist.
+- **Catalyst:** Q2 earnings May 27 (thesis-critical: IP sequential improvement required); Elliott disclosure is asymmetric upside catalyst; Design IP sequential decline in Q2 is immediate reassessment trigger.
 
 **AMD — $1.00 (slight downward skew) — 2026-05-21**
-  Numbers:    OCF/FCF quality confirmed; ROIC below cost of capital; P/OE ~106x; amortization tail through mid-2030s suppresses GAAP convergence — numbers alone cannot justify current price.
-  Narrative:  CPU TAM doubling, Helios demand visibility "down to which data centers," hyperscaler co-engineering depth — still in expansion mode, not yet priced exhaustively.
-  Projection: Symmetrical dollar terms but asymmetric percentage: -40% downside to bear (Helios miss); +15-30% upside to July/Q3 catalyst; risk/reward does not favor initiation.
-  Catalyst:   July 2026 Advancing AI event (nearest re-rating opportunity); Q3 2026 earnings Oct/Nov (first Helios revenue data — primary thesis-confirming event); ROIC crossing 10% TTM by Q4 2026.
+- **Numbers:** OCF/FCF quality confirmed; ROIC below cost of capital; P/OE ~106x; amortization tail through mid-2030s suppresses GAAP convergence — numbers alone cannot justify current price.
+- **Narrative:** CPU TAM doubling, Helios demand visibility "down to which data centers," hyperscaler co-engineering depth — still in expansion mode, not yet priced exhaustively.
+- **Projection:** Symmetrical dollar terms but asymmetric percentage: -40% downside to bear (Helios miss); +15-30% upside to July/Q3 catalyst; risk/reward does not favor initiation.
+- **Catalyst:** July 2026 Advancing AI event (nearest re-rating opportunity); Q3 2026 earnings Oct/Nov (first Helios revenue data — primary thesis-confirming event); ROIC crossing 10% TTM by Q4 2026.
 
 **AMKR — $1.00 (marginally below parity) — 2026-05-21**
-  Numbers:    Real business, stable OCF, CRITICAL L3 — but adj. P/E ~43.7x, FCF deeply negative ($-1.4-1.9B in 2026), ROIC 10.1% declining; not self-funding at current capex pace.
-  Narrative:  Institutional momentum building (CoWoS overflow, HDFO broadening) — management narrative coherent and repeating, but largely priced in at 81st percentile of 52-week range.
-  Projection: Weighted EV approximately flat to -5% from $67.67; 30-45% downside probability vs. 20-35% bull probability; not a buy at current price.
-  Catalyst:   Q2 earnings Jul 27 requires triple confirmation (EPS ≥$0.47 + computing growing + GM ≥15%); entry at $48-55 or CHIPS Act first disbursement; AI packaging <2× by Q3 is primary invalidation.
+- **Numbers:** Real business, stable OCF, CRITICAL L3 — but adj. P/E ~43.7x, FCF deeply negative ($-1.4-1.9B in 2026), ROIC 10.1% declining; not self-funding at current capex pace.
+- **Narrative:** Institutional momentum building (CoWoS overflow, HDFO broadening) — management narrative coherent and repeating, but largely priced in at 81st percentile of 52-week range.
+- **Projection:** Weighted EV approximately flat to -5% from $67.67; 30-45% downside probability vs. 20-35% bull probability; not a buy at current price.
+- **Catalyst:** Q2 earnings Jul 27 requires triple confirmation (EPS ≥$0.47 + computing growing + GM ≥15%); entry at $48-55 or CHIPS Act first disbursement; AI packaging <2× by Q3 is primary invalidation.
 
 **INTU — $0.70 — 2026-05-21**
-  Numbers:    Exceptional (ROIC 21.3%, P/OE 15.1x, 5yr EPS CAGR 19.4%, Debt/OCF 0.87x, $7.71B FCF) — business does not support the AI disruption dislocation narrative at any level.
-  Narrative:  Fragile (C+) — nine analyst Buy ratings held post-Q3 beat, but 20% drop on a beat-and-raise; targets declining $636→$419 over same period stock fell 59%; market not ready to receive evidence.
-  Projection: Bear case bounded (AI disruption not materialized in three consecutive quarters); restructuring savings unquantified is primary uncertainty; 12-18 month re-rating window, not 3-6.
-  Catalyst:   Q4 FY2026 Aug 20 — first post-restructuring report with FY2027 guidance; restructuring savings quantification is single most important disclosure; TurboTax revenue decline (not units) is primary invalidation.
+- **Numbers:** Exceptional (ROIC 21.3%, P/OE 15.1x, 5yr EPS CAGR 19.4%, Debt/OCF 0.87x, $7.71B FCF) — business does not support the AI disruption dislocation narrative at any level.
+- **Narrative:** Fragile (C+) — nine analyst Buy ratings held post-Q3 beat, but 20% drop on a beat-and-raise; targets declining $636→$419 over same period stock fell 59%; market not ready to receive evidence.
+- **Projection:** Bear case bounded (AI disruption not materialized in three consecutive quarters); restructuring savings unquantified is primary uncertainty; 12-18 month re-rating window, not 3-6.
+- **Catalyst:** Q4 FY2026 Aug 20 — first post-restructuring report with FY2027 guidance; restructuring savings quantification is single most important disclosure; TurboTax revenue decline (not units) is primary invalidation.
 
 **MRVL — $1.00–1.10 — 2026-05-25**
-  Numbers:    CRITICAL L6/L7; ROIC ~8% (below CoC); owner earnings 211x (FCF−SBC=$0.81B); bull case fully priced at $195.79; base case 17-46% downside.
-  Narrative:  Contracted ASIC demand confirmed with POs, second XPU ramp secured — but optical platform (Celestial AI) 12-24mo from revenue; Goldman Sachs EPS gap ($15B FY28 revenue not translating proportionately) unanswered.
-  Projection: Current price at midpoint of discounted bull scenario, not below it; base case fair value $105-162; bull $171-210; downside asymmetry sharper than Context suggested.
-  Catalyst:   No new entry at current price; pullback to $140-160 range required; Q1 FY27 May 27 binary event; second XPU delay or Distributor A AR buildup are primary invalidation triggers.
+- **Numbers:** CRITICAL L6/L7; ROIC ~8% (below CoC); owner earnings 211x (FCF−SBC=$0.81B); bull case fully priced at $195.79; base case 17-46% downside.
+- **Narrative:** Contracted ASIC demand confirmed with POs, second XPU ramp secured — but optical platform (Celestial AI) 12-24mo from revenue; Goldman Sachs EPS gap ($15B FY28 revenue not translating proportionately) unanswered.
+- **Projection:** Current price at midpoint of discounted bull scenario, not below it; base case fair value $105-162; bull $171-210; downside asymmetry sharper than Context suggested.
+- **Catalyst:** No new entry at current price; pullback to $140-160 range required; Q1 FY27 May 27 binary event; second XPU delay or Distributor A AR buildup are primary invalidation triggers.
 
 **AVGO — $1.00 (binary Jun 3 event) — 2026-05-25**
-  Numbers:    CRITICAL L6; 6 hyperscaler XPU customers through 2029-2031; FY2027 AI chip "well over $100B"; owner earnings 95.7x (FCF$28.9B−SBC$8.5B=$20.5B); VMware ARR +19%, ARR $7.7B.
-  Narrative:  Execution-validated — rack margin concern reversed Q1 FY2026; $7.88B amortization burning off creates mechanical GAAP EPS tailwind through FY2030; Singapore tax impact manageable.
-  Projection: Base case fully priced at $412.91; bear (-30 to -50%) larger than bull (+10-30%) — late-cycle quality dynamic; hold existing, new entry requires pullback to $310-350.
-  Catalyst:   Jun 3 earnings — beat-and-raise converts to $1.20, miss converts to $0.80; non-GAAP GM <74% or FY2027 AI guidance <$80B are primary invalidation triggers.
+- **Numbers:** CRITICAL L6; 6 hyperscaler XPU customers through 2029-2031; FY2027 AI chip "well over $100B"; owner earnings 95.7x (FCF$28.9B−SBC$8.5B=$20.5B); VMware ARR +19%, ARR $7.7B.
+- **Narrative:** Execution-validated — rack margin concern reversed Q1 FY2026; $7.88B amortization burning off creates mechanical GAAP EPS tailwind through FY2030; Singapore tax impact manageable.
+- **Projection:** Base case fully priced at $412.91; bear (-30 to -50%) larger than bull (+10-30%) — late-cycle quality dynamic; hold existing, new entry requires pullback to $310-350.
+- **Catalyst:** Jun 3 earnings — beat-and-raise converts to $1.20, miss converts to $0.80; non-GAAP GM <74% or FY2027 AI guidance <$80B are primary invalidation triggers.
 
 **KLAC — $1.00 — 2026-05-12**
-  Numbers:    46% average cycle ROIC, 1.07x OCF/NI, 38-43% stable operating margins — exceptional quality; but at ~51x trailing GAAP P/E, stock is essentially at analyst consensus target ($1,852 EV vs. $1,845 price).
-  Narrative:  WFE cycle confirmed, HBM process control intensity structural, 2nm ramp visibility strong — narrative solid but broadly priced; stock split Jun 11 (10-for-1) is economically neutral.
-  Projection: EV/price ~1.004; base case (50%) implies flat returns 18 months; bear case (25%) implies ~40% downside; only bull case (25%) generates meaningful alpha.
-  Catalyst:   Q4 FY2026 earnings Jul 30 — H2 ramp confirmation and 2027 WFE guidance update; entry at $1,500-1,600 pre-split ($150-160 post-split); WFE 2027 below $130B is primary invalidation.
+- **Numbers:** 46% average cycle ROIC, 1.07x OCF/NI, 38-43% stable operating margins — exceptional quality; but at ~51x trailing GAAP P/E, stock is essentially at analyst consensus target ($1,852 EV vs. $1,845 price).
+- **Narrative:** WFE cycle confirmed, HBM process control intensity structural, 2nm ramp visibility strong — narrative solid but broadly priced; stock split Jun 11 (10-for-1) is economically neutral.
+- **Projection:** EV/price ~1.004; base case (50%) implies flat returns 18 months; bear case (25%) implies ~40% downside; only bull case (25%) generates meaningful alpha.
+- **Catalyst:** Q4 FY2026 earnings Jul 30 — H2 ramp confirmation and 2027 WFE guidance update; entry at $1,500-1,600 pre-split ($150-160 post-split); WFE 2027 below $130B is primary invalidation.
 
 **TSM — $0.90–1.00 — 2026-05-13**
-  Numbers:    ROIC 48.5%, FCF growing, N2 ramp confirmed, no leverage — 33x trailing P/E embeds 25-35% EPS growth 2-3 years; geopolitical discount for Taiwan domicile is real but hard to model.
-  Narrative:  AI infrastructure demand confirmed, N3 crossover imminent, government structural support — P/E 1.0x in tracker is a confirmed FMP data error (correct ~34.8x trailing).
-  Projection: Upside to $450-490 on N3 margin confirmation; downside to ~$253 if AI capex decelerates materially (low probability); strong thesis at fair price.
-  Catalyst:   Oct 2026 print — N3 gross margin crossover or pricing shift confirmation triggers upgrade to CONVICTION; AI capex deceleration from any top-3 CSP is primary invalidation.
+- **Numbers:** ROIC 48.5%, FCF growing, N2 ramp confirmed, no leverage — 33x trailing P/E embeds 25-35% EPS growth 2-3 years; geopolitical discount for Taiwan domicile is real but hard to model.
+- **Narrative:** AI infrastructure demand confirmed, N3 crossover imminent, government structural support — P/E 1.0x in tracker is a confirmed FMP data error (correct ~34.8x trailing).
+- **Projection:** Upside to $450-490 on N3 margin confirmation; downside to ~$253 if AI capex decelerates materially (low probability); strong thesis at fair price.
+- **Catalyst:** Oct 2026 print — N3 gross margin crossover or pricing shift confirmation triggers upgrade to CONVICTION; AI capex deceleration from any top-3 CSP is primary invalidation.
 
 **ASML — $0.90–1.10 — 2026-05-12**
-  Numbers:    EUV monopoly, 64.3% ROIC, 34.8% operating margin — exceptional quality; FCF YoY extreme negative likely one-time; structural demand from EUV node transitions non-discretionary.
-  Narrative:  Premium justified by EUV monopoly; MATCH Act geopolitical risk is primary overhang; analyst consensus strong but geopolitical discount limits near-term multiple expansion.
-  Projection: Essentially fairly valued with modest upside lean; high quality at a stretched price; bull case requires sustained EUV adoption cadence at expected pace.
-  Catalyst:   Q2 earnings Jul 15; MATCH Act legislative developments; FY2026 revenue below €35B or gross margin below 50% any quarter are primary invalidation triggers.
+- **Numbers:** EUV monopoly, 64.3% ROIC, 34.8% operating margin — exceptional quality; FCF YoY extreme negative likely one-time; structural demand from EUV node transitions non-discretionary.
+- **Narrative:** Premium justified by EUV monopoly; MATCH Act geopolitical risk is primary overhang; analyst consensus strong but geopolitical discount limits near-term multiple expansion.
+- **Projection:** Essentially fairly valued with modest upside lean; high quality at a stretched price; bull case requires sustained EUV adoption cadence at expected pace.
+- **Catalyst:** Q2 earnings Jul 15; MATCH Act legislative developments; FY2026 revenue below €35B or gross margin below 50% any quarter are primary invalidation triggers.
 
 **ADBE — $0.70 — 2026-05-14**
-  Numbers:    $10.32B FCF TTM, $8.34B owner earnings at 11.4x, ROIC 62.3%, GAAP margins 37.8% (CV 0.06 — most stable metric in dataset); SBC stable at ~8.1% of revenue; RPO $22.22B +13% YoY — financial quality among the strongest in large-cap software.
-  Narrative:  Nascent value + buyback narrative (Burry buying, $25B authorization, $3.89B remaining); 4 institutional downgrades vs. 0 upgrades in 90 days; CEO transition overhang is the primary re-rating blocker until successor named; June 11 earnings is a data gate, not a re-rating catalyst.
-  Projection: Dollar for 70 cents — financial value real (11.4x owner earnings for a 15.7% GAAP EPS compounder) but path blocked by CEO uncertainty, ARR trajectory question, and risk-off macro suppressing software multiples; 12–18-month re-rating horizon.
-  Catalyst:   Jun 11 earnings — ARR re-acceleration above 11% + CEO successor announcement = re-rating; stock business accelerating decline or ARR below 10% growth for 2 consecutive quarters is primary invalidation.
+- **Numbers:** $10.32B FCF TTM, $8.34B owner earnings at 11.4x, ROIC 62.3%, GAAP margins 37.8% (CV 0.06 — most stable metric in dataset); SBC stable at ~8.1% of revenue; RPO $22.22B +13% YoY — financial quality among the strongest in large-cap software.
+- **Narrative:** Nascent value + buyback narrative (Burry buying, $25B authorization, $3.89B remaining); 4 institutional downgrades vs. 0 upgrades in 90 days; CEO transition overhang is the primary re-rating blocker until successor named; June 11 earnings is a data gate, not a re-rating catalyst.
+- **Projection:** Dollar for 70 cents — financial value real (11.4x owner earnings for a 15.7% GAAP EPS compounder) but path blocked by CEO uncertainty, ARR trajectory question, and risk-off macro suppressing software multiples; 12–18-month re-rating horizon.
+- **Catalyst:** Jun 11 earnings — ARR re-acceleration above 11% + CEO successor announcement = re-rating; stock business accelerating decline or ARR below 10% growth for 2 consecutive quarters is primary invalidation.
 
 **INTC — $1.30 — 2026-05-14**
-  Numbers:    Absent — Intel Products healthy (32% margins, six consecutive guidance beats) but Foundry losing $2.4B/qtr at -45% margins; no owner earnings; speculative at current price.
-  Narrative:  Strong — 14A ahead of schedule, Google LTA + anonymous LTAs signed, ASIC doubled YoY, Lip-Bu Tan institutional credibility — "Intel turnaround" narrative gaining traction.
-  Projection: Buying $2.00 of story at $1.00 of confirmed fundamentals — $150+ path on Apple commercial scale confirmation; $70-80 analyst consensus without foundry thesis materializing.
-  Catalyst:   Q2 earnings Jul 23; H2 2026 14A customer commitments; entry on pullback to $75-85 or Apple >$1B foundry revenue confirmation; 14A PDK 1.0 delay past Q4 2026 is primary invalidation.
+- **Numbers:** Absent — Intel Products healthy (32% margins, six consecutive guidance beats) but Foundry losing $2.4B/qtr at -45% margins; no owner earnings; speculative at current price.
+- **Narrative:** Strong — 14A ahead of schedule, Google LTA + anonymous LTAs signed, ASIC doubled YoY, Lip-Bu Tan institutional credibility — "Intel turnaround" narrative gaining traction.
+- **Projection:** Buying $2.00 of story at $1.00 of confirmed fundamentals — $150+ path on Apple commercial scale confirmation; $70-80 analyst consensus without foundry thesis materializing.
+- **Catalyst:** Q2 earnings Jul 23; H2 2026 14A customer commitments; entry on pullback to $75-85 or Apple >$1B foundry revenue confirmation; 14A PDK 1.0 delay past Q4 2026 is primary invalidation.
 
 ---
 
