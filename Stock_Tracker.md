@@ -208,6 +208,12 @@ TICKER — $/Dollar — Date
   Projection: Essentially fairly valued with modest upside lean; high quality at a stretched price; bull case requires sustained EUV adoption cadence at expected pace.
   Catalyst:   Q2 earnings Jul 15; MATCH Act legislative developments; FY2026 revenue below €35B or gross margin below 50% any quarter are primary invalidation triggers.
 
+**ADBE — $0.70 — 2026-05-14**
+  Numbers:    $10.32B FCF TTM, $8.34B owner earnings at 11.4x, ROIC 62.3%, GAAP margins 37.8% (CV 0.06 — most stable metric in dataset); SBC stable at ~8.1% of revenue; RPO $22.22B +13% YoY — financial quality among the strongest in large-cap software.
+  Narrative:  Nascent value + buyback narrative (Burry buying, $25B authorization, $3.89B remaining); 4 institutional downgrades vs. 0 upgrades in 90 days; CEO transition overhang is the primary re-rating blocker until successor named; June 11 earnings is a data gate, not a re-rating catalyst.
+  Projection: Dollar for 70 cents — financial value real (11.4x owner earnings for a 15.7% GAAP EPS compounder) but path blocked by CEO uncertainty, ARR trajectory question, and risk-off macro suppressing software multiples; 12–18-month re-rating horizon.
+  Catalyst:   Jun 11 earnings — ARR re-acceleration above 11% + CEO successor announcement = re-rating; stock business accelerating decline or ARR below 10% growth for 2 consecutive quarters is primary invalidation.
+
 **INTC — $1.30 — 2026-05-14**
   Numbers:    Absent — Intel Products healthy (32% margins, six consecutive guidance beats) but Foundry losing $2.4B/qtr at -45% margins; no owner earnings; speculative at current price.
   Narrative:  Strong — 14A ahead of schedule, Google LTA + anonymous LTAs signed, ASIC doubled YoY, Lip-Bu Tan institutional credibility — "Intel turnaround" narrative gaining traction.
