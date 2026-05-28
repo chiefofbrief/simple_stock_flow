@@ -24,88 +24,60 @@ TICKER — $/Dollar — Date
 
 ## Done
 
-- [x] `Scripts/screen.py` — new standalone screening script (23 metrics, writes `Data/screening/Screen_{DATE}.txt`)
-- [x] `Prompts/prompt_screen.md` — new screening prompt (table → priority ranking → narratives → append to file)
-- [x] Test run: 9-ticker batch (MELI, ACM, NU, FIS, ACN, VALE, CMCSA, M, DAL) with analysis appended to `Data/screening/Screen_2026-05-27.txt`
+- [x] `Scripts/screen.py` — 25 metrics including Mkt Cap and Debt/OCF; tested against AAPL
+- [x] `Prompts/prompt_screen.md` — updated with Mkt Cap and Debt/OCF guidance (verbatim from prompt_the_numbers.md where possible)
+- [x] Test run: 9-ticker batch (MELI, ACM, NU, FIS, ACN, VALE, CMCSA, M, DAL) appended to `Data/screening/Screen_2026-05-27.txt`
 - [x] Fix: spread sign convention (Price−EPS, ≤0 = good signal)
-- [x] Fix: stale header text in screen.py
-- [x] `Stock_Tracker_backup_2026-05-28.md` — new tracker structure drafted (unified table, 27 columns, Thesis Archive section)
+- [x] `Stock_Tracker_backup_2026-05-28.md` — unified table (27 columns), all data populated via tracker_update_v2.py run against all 55 tickers
+  - Column rename: vs_1Y → Price vs_1Y, vs_2Y → Price vs_2Y
+  - Thesis Archive: 16 entries in 4-field format (IT, NFLX, BR, MU, NVDA, CDNS, SNPS, AMD, AMKR, AVGO, INTC, INTU, MRVL, KLAC, TSM, ASML)
+  - Dropped (approved): LULU, CPB, BKH, MP, COP, CAG, UMAC
+  - Restored (were dropped without approval): HON, LRCX, BE
+  - Kept with monitoring rationale: INTC, SNPS (AI SC indicators), TEAM (accounting losses not operational), HON (restructuring noise), LRCX, BE
+- [x] `Scripts/tracker_update_v2.py` — new script targeting backup file, 27-column unified table, all formulas matched to screen.py
 
 ---
 
 ## In Progress
 
-- [ ] **Thesis Archive cleanup** — `Stock_Tracker_backup_2026-05-28.md`
-  - Flip `Thesis=—` and `$/Dollar=—` for 12 tickers: IBM, TEAM, ZM, NOW, META, WDAY, SAP, DPZ, AXON, BKH, RDDT, ORCL
-  - Remove those 12 entries from Thesis Archive section
-  - Reformat 16 kept entries to new 4-field format (Numbers / Narrative / Projection / Catalyst)
-  - Populate 16 entries from actual thesis files
-
-  **Keep (16):**
-  - Post-May 14: IT, NFLX, CDNS, SNPS, AMD, AMKR, MU, NVDA, INTU, MRVL, AVGO, INTC
-  - Pre-May 14 (kept): BR, TSM, KLAC, ASML
-
-  **Remove (12):**
-  - Re-run later: IBM, TEAM, ZM, NOW, META, WDAY, SAP
-  - Stubs (never run): DPZ, AXON, BKH, RDDT, ORCL
+- [ ] **`Prompts/prompt_tracker_review.md`** — full rewrite to new structure (approved direction)
+  - Structure: Role → Step 0 → Step 1 → Step 2 (Analyze Now / Add to Position / Remove) → Step 3 → Metric Interpretations → AUTOMATION OVERRIDE
+  - File/script refs stay as Stock_Tracker.md / tracker_update.py (backup→main rename pending)
+  - Step 0: update column list to 27-column set
+  - Step 1: remove Pipeline/Watchlist language; read unified # Ticker Tracker table
+  - Analyze Now: unified ranking (no LOSER/TAILWIND split); Spread is primary, ROIC is #2, full table informs conviction holistically; output = Ticker | one sentence; earnings date tiebreaker when otherwise equal
+  - Remove SC Layer Coverage entirely
+  - Remove: no demote-to-watchlist; just Remove or Keep with caveat
+  - Metric Interpretations: verbatim from prompt_screen.md (Spread, P/E Corr, Price, Earnings, P/E, P/OE, ROIC, OCF/NI, FCF, Revenue, Mkt Cap, Debt/OCF)
+  - AUTOMATION OVERRIDE: keep verbatim
+  - **CRITICAL: show full draft to user BEFORE editing file**
 
 ---
 
 ## Pending
 
-### 1. screen.py — add Mkt Cap and Debt/OCF
-- Add `Mkt Cap` to script output (already fetched via profile endpoint)
-- Add `Debt/OCF` to script output (total debt from balance sheet / OCF TTM)
-- Add to SIGNAL section header in output file, or new section
-- Update `prompt_screen.md` column guide and metric interpretations:
-  - Mkt Cap: below $10B warrants more scrutiny (slower normalization, liquidity risk)
-  - Debt/OCF: below 3x safe; above 5x distress risk; above 7x serious scrutiny
-
-### 2. tracker_update.py — new column set
-Current columns to REMOVE: `Yrs Profitable (5yr)`, `Op Margin %`, `Phase`, `Last Run`, `Status`, `Added`, `Thesis` (old file-link format)
-
-New columns to ADD:
-- `Spread` (Price vs_1Y − EPS vs_1Y) — primary signal
-- `P/E Corr` (P/E Correlation 1Y — Pearson, monthly price vs TTM EPS)
-- `vs_2Y` (price)
-- `EPS TTM`
-- `EPS vs_2Y`
-- `P/OE` (P/Owner Earnings = Mkt Cap / (FCF TTM − SBC TTM))
-- `ROIC Δ1Y` (pp)
-- `ROIC Δ2Y` (pp)
-- `OCF/NI`
-- `FCF TTM`
-- `FCF vs_2Y`
-- `Rev TTM`
-- `Rev vs_2Y`
-- `Mkt Cap`
-- `Debt/OCF`
-- `Thesis` (Y / —)
-- `$/Dollar` (manual, not computed by script)
-
-Columns carried over unchanged: `vs_1Y`, `P/E`, `ROIC`, `EPS vs_1Y` (rename from EPS YoY), `EPS QoQ (4Q)`, `Rev vs_1Y`, `FCF vs_1Y`, `Next Earn`
-
-**Note:** `P/E Corr` requires 12 months of daily prices + quarterly EPS — expensive but already computed in screen.py. Reuse same logic.
-
-### 3. prompt_tracker_review.md — update to new structure
-- Remove all Pipeline/Watchlist/Phase references — unified table now
-- Update column names throughout (EPS YoY → EPS vs_1Y, etc.)
-- Update LOSER/TAILWIND ranking criteria to reference `Spread` column directly
-- Update SC Layer Coverage section to reflect unified table
-- Remove `Status` references; replace with `$/Dollar` and `Thesis` columns
-- Update "Analyze Now" output format to include Spread and $/Dollar
-- Update "Remove" section — no more demote-to-watchlist, just Remove or keep
-
-### 4. Rename Stock_Tracker_backup → Stock_Tracker
-- Once tracker_update.py and prompt are updated and tested
+### 1. Rename Stock_Tracker_backup → Stock_Tracker
+- Once prompt is updated and tested
 - Archive or delete original Stock_Tracker.md
+
+### 2. Update `Prompts/prompt_screen.md` — ranking hierarchy
+- Spread is primary but not the only ranking signal; ROIC is #2, full table informs conviction
+- Current screen prompt language implies quality metrics only "confirm or disqualify" — needs to reflect holistic ranking (same correction applied to prompt_tracker_review.md)
 
 ---
 
 ## Column Reference (final agreed set)
 
 ### Screener (23 data columns)
-Mkt Cap | Spread | P/E Corr | Price | vs_1Y | vs_2Y | EPS TTM | EPS vs_1Y | EPS vs_2Y | EPS QoQ (4Q) | P/E | P/OE | ROIC | ROIC Δ1Y | ROIC Δ2Y | OCF/NI | FCF TTM | FCF vs_1Y | FCF vs_2Y | Rev TTM | Rev vs_1Y | Rev vs_2Y | Debt/OCF
+Mkt Cap | Spread | P/E Corr | Price | Price vs_1Y | Price vs_2Y | EPS TTM | EPS vs_1Y | EPS vs_2Y | EPS QoQ (4Q) | P/E | P/OE | ROIC | ROIC Δ1Y | ROIC Δ2Y | OCF/NI | FCF TTM | FCF vs_1Y | FCF vs_2Y | Rev TTM | Rev vs_1Y | Rev vs_2Y | Debt/OCF
 
 ### Tracker (27 columns = screener + Next Earn + Tag + Thesis + $/Dollar)
 All screener columns above + Next Earn | Tag | Thesis | $/Dollar
+
+---
+
+## Key Rules (session-specific)
+- NO edits of any kind without explicit written user approval first
+- Scripts: show output after running; do not commit test artifacts
+- Prompts: show proposed changes in full before touching the file
+- Commits: only after explicit user approval
