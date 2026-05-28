@@ -42,7 +42,7 @@ Stocks under active monitoring. Market data columns updated by `Scripts/tracker_
 - **ROIC Δ1Y / Δ2Y**: ROIC trend in percentage points. Sustained improvement = moat strengthening; sustained deterioration = early warning of moat erosion
 - **OCF/NI**: Operating cash flow / net income. Above 1.1x = conservative accounting; 0.8–1.1x = reasonable; below 0.8x = flag explicitly
 - **FCF TTM**: Trailing twelve month free cash flow
-- **FCF vs_1Y / vs_2Y**: FCF trend. Declining FCF alongside growing EPS across multiple periods = most serious earnings quality flag at screening level
+- **FCF vs_1Y / vs_2Y**: FCF trend. Declining FCF alongside growing EPS across multiple periods = most serious earnings quality flag
 - **Rev TTM**: Trailing twelve month revenue
 - **Rev vs_1Y / vs_2Y**: Revenue growth trend. Read together — decelerating vs_1Y after strong vs_2Y warrants assessment of whether cyclical or structural
 - **Debt/OCF**: Total debt / TTM operating cash flow. Below 3x safe; above 5x introduces distress risk; above 7x warrants serious scrutiny
@@ -52,248 +52,169 @@ Stocks under active monitoring. Market data columns updated by `Scripts/tracker_
 
 | Ticker | Tag | Mkt Cap | Spread | P/E Corr | Price | vs_1Y | vs_2Y | EPS TTM | EPS vs_1Y | EPS vs_2Y | EPS QoQ (4Q) | P/E | P/OE | ROIC | ROIC Δ1Y | ROIC Δ2Y | OCF/NI | FCF TTM | FCF vs_1Y | FCF vs_2Y | Rev TTM | Rev vs_1Y | Rev vs_2Y | Debt/OCF | Next Earn | Thesis | $/Dollar |
 |--------|-----|---------|--------|----------|-------|-------|-------|---------|-----------|-----------|--------------|-----|------|------|----------|----------|--------|---------|-----------|-----------|---------|-----------|-----------|----------|-----------|--------|---------|
-| IT | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| IT | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $0.75–0.80 |
 | BR | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| NFLX | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| WDAY | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| SAP | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| MU | TAILWIND — AI SC L5 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| NFLX | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $0.80–0.85 |
+| WDAY | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| SAP | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| MU | TAILWIND — AI SC L5 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $0.85–0.90 |
 | FCX | TAILWIND — AI SC L1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| MSFT | TAILWIND — AI SC L10 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| IBM | TAILWIND — AI SC L13 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| NVDA | TAILWIND — AI SC L4/L12 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| CDNS | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| AMD | TAILWIND — AI SC L4 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| TEAM | LOSER | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| ZM | LOSER | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| MSFT | TAILWIND — AI SC L10 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| IBM | TAILWIND — AI SC L13 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| NVDA | TAILWIND — AI SC L4/L12 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00 |
+| CDNS | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00 |
+| AMD | TAILWIND — AI SC L4 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00 |
+| TEAM | LOSER | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| ZM | LOSER | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | AIG | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | CPB | LOSER | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | INTU | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $0.70 |
 | LULU | LOSER | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| NOW | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| NOW | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | NVO | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| DPZ | LOSER | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| AXON | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| META | TAILWIND — AI SC L10 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| RDDT | TAILWIND — AI SC L13 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| BKH | TAILWIND — AI SC L8 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| DPZ | LOSER | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| AXON | LOSER — EPS+ | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| META | TAILWIND — AI SC L10 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| RDDT | TAILWIND — AI SC L13 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| BKH | TAILWIND — AI SC L8 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | CCJ | TAILWIND — AI SC L1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | CSCO | TAILWIND — AI SC L7 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | GEV | TAILWIND — AI SC L8 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | GOOGL | TAILWIND — AI SC L10 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| KLAC | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| KLAC | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00 |
 | MP | TAILWIND — AI SC L1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| MRVL | TAILWIND — AI SC L6 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00–$1.10 |
+| MRVL | TAILWIND — AI SC L6 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00–1.10 |
 | QCOM | TAILWIND — AI SC L12 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| SNPS | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
-| TSM | TAILWIND — AI SC L3 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| SNPS | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00 |
+| TSM | TAILWIND — AI SC L3 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $0.90–1.00 |
 | VRT | TAILWIND — AI SC L9 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | AMAT | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | ANET | TAILWIND — AI SC L7 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | ARM | TAILWIND — AI SC L2/L4 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| ASML | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| ASML | TAILWIND — AI SC L2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $0.90–1.10 |
 | AMKR | TAILWIND — AI SC L3 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00 |
 | AVGO | TAILWIND — AI SC L6 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.00 |
 | GLW | TAILWIND — AI SC L7 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | JCI | TAILWIND — AI SC L9 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| ORCL | TAILWIND — AI SC L13 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| ORCL | TAILWIND — AI SC L13 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | SNOW | TAILWIND — AI SC L13 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | COP | TAILWIND | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | EOG | TAILWIND | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | LIN | TAILWIND — AI SC L1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | APD | TAILWIND — AI SC L1 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| INTC | TAILWIND — AI SC L3/L4 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | — |
+| INTC | TAILWIND — AI SC L3/L4 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | Y | $1.30 |
 
 ---
 
 ## Thesis Archive
 
-Structured summaries for all tickers where a thesis has been run. Each entry captures the core finding, entry criteria, invalidation conditions, and current monitoring notes. Updated after each thesis completion. $/Dollar reflects expected value per $1 invested at the time of the thesis — revisit when price moves materially from the thesis price.
+Structured summaries for all tickers where a thesis has been completed. $/Dollar = expected value per $1 invested at thesis price. Revisit when price moves materially from the thesis price or after a significant earnings event. Tickers marked `—` in the table have no entry here — thesis pending re-run or never completed.
 
-**Format:**
 ```
 TICKER — $/Dollar — Date
-  Finding:      one sentence on the core conclusion
-  Entry:        specific criteria to act
-  Invalidation: conditions that break the thesis
-  Watch:        what to monitor since thesis was run
+  Numbers:    financial quality, cash generation, ROIC, balance sheet
+  Narrative:  market perception, analyst stance, narrative formation
+  Projection: scenario and skew — what the price embeds vs. what remains unpriced
+  Catalyst:   next thesis-critical event, entry criteria, key invalidation signal
 ```
 
 ---
 
-**IT — $/Dollar TBD — 2026-05-26**
-  Finding:      TBD — migrate from IT_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-08-04
+**IT — $0.75–0.80 — 2026-05-26**
+  Numbers:    Management-confirmed 27% ROIC, 12% FCF yield, 10.6% owner earnings yield, $3.0B all-fixed-rate debt at Debt/OCF 2.38x — priced for stagnation, not its actual quality.
+  Narrative:  Zero upgrades, retail entirely disengaged, securities class action unaddressed — stock fell 5.6% on an 11% EPS beat; story has not turned.
+  Projection: Bear case bounded at $97-135; federal lapping mechanism starting Q2 is calendar-driven; BTI engagement improvement (+170bps) is first evidence of transformation working.
+  Catalyst:   Q2 earnings Aug 4 — ex-Fed CV acceleration to 4%+ and total CV approaching 3% are the binary tests; adverse litigation development is the unquantified tail risk.
 
-**BR — $/Dollar TBD — 2026-04-30**
-  Finding:      TBD — migrate from Thesis_BR.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-08-04
+**BR — ~$1.10 (est., pre-May 14 format) — 2026-04-30**
+  Numbers:    98% client retention, $1.3B FCF, 18% FCF CAGR, 7.3% FCF yield, Debt/OCF conservative — priced for structural moat erosion not visible in any reported metric.
+  Narrative:  AI disruption thesis is mis-targeted — Wells Fargo case shows banks using Broadridge technology to internalize proxy decisions, not bypassing it; zero sell ratings.
+  Projection: Bull case owns the DLR tokenization rail ($365B/day, growing); bear case is closed sales decline (-16-19%) becoming structural, visible in retention within 12-18 months.
+  Catalyst:   Q4 FY2026 earnings ~Aug 4 — $93-143M in Q4 closed sales validates deal-slippage narrative; below-midpoint miss shifts risk assessment materially toward re-evaluation.
 
-**NFLX — $/Dollar TBD — 2026-05-26**
-  Finding:      TBD — migrate from NFLX_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-16
+**NFLX — $0.80–0.85 — 2026-05-26**
+  Numbers:    ROIC 38.9%, expanding margins (31%+), growing FCF, no fundamental deterioration — one of the strongest quality profiles in the tracker.
+  Narrative:  Institutional upgrades during selloff, resolved overhangs (WBD walk-away, Hastings transition), building at ~50-60% formation — not yet dominant.
+  Projection: Market pricing "premium multiple era is over" — likely overcorrect if advertising proves a durable second revenue engine; discount conditional on ad revenue becoming visible.
+  Catalyst:   Q2 earnings Jul 16 — guidance raise + first formal ad revenue quantification moves thesis toward $0.70 and accelerates narrative; flat guidance keeps it at $1.00 (no margin of safety).
 
-**WDAY — $/Dollar TBD — 2026-05-10**
-  Finding:      TBD — migrate from WDAY_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-08-20
+**MU — $0.85–0.90 — 2026-05-22**
+  Numbers:    Real cash-backed earnings at unprecedented ROIC (34.5% TTM vs. 7.6% five-year avg); FY2027 capex step-up ($35-40B net) may redirect most FCF back into deployment.
+  Narrative:  SCA structural evolution, HBM4 Vera Rubin design-in, ASML CEO validation — well-formed and credible, but broadly adopted; marginal buyers are FOMO retail, not new institutional conviction.
+  Projection: Strong FY2026, uncertain FY2027 — priced to require the new earnings floor thesis correct; bear scenario (historical cycle precedent) is not compensated in the current price.
+  Catalyst:   Q3 FY26 earnings Jun 24 — FY2027 margin guidance is critical new information; re-entry zone below $500-550 where bear scenario is priced in with margin.
 
-**SAP — $/Dollar TBD — 2026-05-06**
-  Finding:      TBD — migrate from SAP_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-23
+**NVDA — $1.00 (asymmetric upside, 3–6 month window) — 2026-05-22**
+  Numbers:    ROIC ~117% operational, FCF $48.6B, $80.5B liquid, OCF/NI 1.10x — circular investment arrangement ($18.6B/qtr at 38% of FCF) is structurally underacknowledged but offset by real operating earnings.
+  Narrative:  Fully formed with named ROI evidence (Meta ad-click +3.5%, Anthropic 10x YoY); analyst consensus unanimous Buy; agentic AI inflection declared by Jensen on Q4 call with specific commercial data.
+  Projection: Base case priced in at $219.88 (Blackwell continuation, Rubin on schedule, China zero); Rubin pricing gap ($4.92/hr cost vs $12.25/hr ceiling) and China optionality remain unembedded upside.
+  Catalyst:   Q2 FY27 ~Aug 2026 — Rubin revenue >10% of Data Center at disclosed ASP above GB300 confirms pricing power; any top-5 hyperscaler cutting 2027 CapEx guidance below 2026 level is primary invalidation.
 
-**MU — $/Dollar TBD — 2026-05-22**
-  Finding:      TBD — migrate from MU_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-06-24
+**CDNS — $1.00 (option on $1.15–1.20 in 18–36 months) — 2026-05-18**
+  Numbers:    EDA duopoly moat, self-funding, exceptional quality — but priced at 85x owner earnings with zero margin of safety on current-year metrics.
+  Narrative:  AI chip design boom and agentic platform story institutionally credible, not at bubble extremes — analyst targets close to current price, not parabolic.
+  Projection: Fair price for quality compounder; 3-5 year horizon makes AI TAM optionality material; <12-month horizon carries 20-30% downside risk in a growth deceleration scenario.
+  Catalyst:   Q2 earnings Jul 27 and H2 management update — IP/EDA confirmation and Hexagon synergy ramp are resolution events; FY2026 adj EPS below $7.50 at any update is primary invalidation.
 
-**MSFT — $/Dollar TBD — 2026-04-30**
-  Finding:      TBD — migrate from MSFT_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-29
-
-**IBM — $/Dollar TBD — 2026-05-08**
-  Finding:      TBD — migrate from IBM_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-22
-
-**NVDA — $/Dollar TBD — 2026-05-22**
-  Finding:      TBD — migrate from NVDA_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-08-26
-
-**CDNS — $/Dollar TBD — TBD**
-  Finding:      TBD — migrate from CDNS_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-27
+**SNPS — $1.00 — 2026-05-18**
+  Numbers:    39.5% pre-acquisition ROIC, EDA duopoly moat, self-sustaining cash generation — but 42x owner earnings after proper SBC accounting is not cheap for 8-9% organic EDA growth.
+  Narrative:  Elliott engagement, NVIDIA partnership, institutional accumulation building — joint solution monetization (FY2027) has language credit but not multiple expansion yet.
+  Projection: EV ~$476 vs. $494 price implies slight downward lean; $490-520 base case; bull case ($550-580) requires FY2027 joint solution revenue; bear case ($375-420) requires IP deterioration to persist.
+  Catalyst:   Q2 earnings May 27 (thesis-critical: IP sequential improvement required); Elliott disclosure is asymmetric upside catalyst; Design IP sequential decline in Q2 is immediate reassessment trigger.
 
 **AMD — $1.00 (slight downward skew) — 2026-05-21**
-  Finding:      TBD — migrate from AMD_Thesis.md
-  Entry:        vs_1Y ≤50% (~$270-300), OR ROIC >15% AND warrant milestones confirmed, OR FY2026 non-GAAP EPS ≥$7.00 AND ROIC crossing 10% TTM by Q3 2026
-  Invalidation: Q3 2026 Data Center revenue <$7.0B; non-GAAP GM <54% for 2 consecutive quarters; ROIC fails to cross 10% by Q4 2026; warrant vesting surprise; Lisa Su or Jean Hu departure
-  Watch:        July 2026 Advancing AI event; Q3 2026 earnings (Oct/Nov) first thesis-confirming data point
-
-**TEAM — $/Dollar TBD — 2026-05-08**
-  Finding:      TBD — migrate from TEAM_Thesis.md
-  Entry:        Aug 6 Q4 FY2026 shows SBC/Rev ≤21% AND organic cloud growth ≥20%
-  Invalidation: SBC/Rev ≥25% in Q4 FY2026 OR FY2027 GAAP target deferred OR new restructuring in FY2027 Q1–Q2
-  Watch:        Next earnings 2026-08-06
-
-**ZM — $/Dollar TBD — 2026-05-06**
-  Finding:      TBD — migrate from ZM_Thesis.md
-  Entry:        Pullback to $85-90, OR Anthropic IPO confirmed >$500B, OR Contact Center $500M+ ARR at 50%+ growth
-  Invalidation: Revenue <2% for 2+ qtrs; NRR below 95%; Anthropic IPO delayed past 2027
-  Watch:        Next earnings 2026-08-20; Q1 FY27 beat+raise and Contact Center ARR disclosure
-
-**INTU — $0.70 — 2026-05-21**
-  Finding:      Exceptional quality at fire-sale price (ROIC 21.3%, P/OE 15.1x, 5yr EPS CAGR 19.4%) — market pricing AI disruption scenario not materialized in three consecutive quarters of results
-  Entry:        Q4 FY2026 (Aug 20) confirms restructuring savings AND TurboTax Live ≥35% growth AND revenue at high end of guidance
-  Invalidation: TurboTax revenue declines (not just units); QuickBooks measurable attrition from AI alternatives; IRS Direct File material expansion
-  Watch:        Next earnings 2026-08-20 — first post-restructuring report with FY2027 guidance; restructuring savings quantification is single most important disclosure
-
-**NOW — $/Dollar TBD — 2026-05-10**
-  Finding:      TBD — migrate from NOW_Thesis.md
-  Entry:        Q2 earnings ~Jul 22: sub gross margin ≥79%, Now Assist H1 pace ≥$650M NNACV, Armis on guide
-  Invalidation: Q2 sub gross margin <77%; Now Assist cumulative <$1.0B FY; post-Armis ROIC <10% in H2 2027; organic growth <17% CC
-  Watch:        Next earnings 2026-07-22
-
-**DPZ — $/Dollar TBD — TBD**
-  Finding:      TBD — migrate from DPZ_Thesis.md
-  Entry:        Next earnings recovers EPS YoY positive; Debt/OCF trend improving
-  Invalidation: EPS continues negative; Debt/OCF remains >6x
-  Watch:        Next earnings 2026-07-20
-
-**AXON — $/Dollar TBD — TBD**
-  Finding:      TBD — migrate from AXON_Thesis.md; analysis was in progress at demotion
-  Entry:        TBD
-  Invalidation: Debt/OCF and Op Margin resolution required
-  Watch:        Next earnings 2026-08-03
-
-**META — $/Dollar TBD — 2026-05-10**
-  Finding:      TBD — migrate from META_Thesis.md
-  Entry:        Weakness toward $580–600
-  Invalidation: Ad rev growth <25% YoY for 2 qtrs; 2027 capex $150B+; ROIC TTM <15%; EU DSA fine >$5B; ad impression growth <10% YoY
-  Watch:        Next earnings 2026-07-29; 2027 capex guidance
-
-**RDDT — $/Dollar TBD — 2026-04-29**
-  Finding:      TBD — migrate from RDDT_Thesis.md; filtered at Financials — 83x owner earnings on 1/5 yrs profitability
-  Entry:        2–3 consecutive profitable quarters + SBC/Rev declining toward 10% + data licensing revenue at material scale
-  Invalidation: SBC/Rev remains >15%; profitability not sustained
-  Watch:        Next earnings 2026-07-30
-
-**BKH — $/Dollar TBD — TBD**
-  Finding:      TBD — migrate from BKH_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-29
-
-**KLAC — $/Dollar TBD — TBD**
-  Finding:      TBD — migrate from KLAC_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-30
-
-**MRVL — $1.00–$1.10 (bull case priced) — 2026-05-25**
-  Finding:      CRITICAL L6/L7; owner earnings 211x (FCF−SBC = $0.81B); ASIC POs secured but second XPU ramp back-loaded; optical platform (Celestial AI) 12-24mo from revenue — bull case fully priced at $195.79
-  Entry:        No new entry at current price; pullback to $140-160 range required
-  Invalidation: Q1 FY27 revenue <$2.3B; second XPU delay; Distributor A AR buildup; Celestial AI slip >Q3 FY28
-  Watch:        Q1 FY27 May 27 binary catalyst; bear $72-91, bull $266-280
-
-**SNPS — $/Dollar TBD — 2026-05-15**
-  Finding:      TBD — migrate from SNPS_Thesis.md; HOLD — FAIRLY VALUED; GAAP EPS depressed by Ansys amortization $394M/qtr
-  Entry:        IP sequential improvement required; EV ≈ $476 vs. $495 price at thesis
-  Invalidation: EDA duopoly moat erosion; joint solution revenue delayed past FY2027
-  Watch:        Next earnings 2026-05-27 — thesis-critical: IP sequential improvement required
-
-**TSM — $/Dollar TBD — 2026-05-08**
-  Finding:      TBD — migrate from TSM_Thesis.md; P/E 1.0x confirmed FMP data error (correct ~34.8x trailing)
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-16; upgrade to CONVICTION on Oct print if N3 margin crossover confirms
-
-**ASML — $/Dollar TBD — TBD**
-  Finding:      TBD — migrate from ASML_Thesis.md
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-07-15
+  Numbers:    OCF/FCF quality confirmed; ROIC below cost of capital; P/OE ~106x; amortization tail through mid-2030s suppresses GAAP convergence — numbers alone cannot justify current price.
+  Narrative:  CPU TAM doubling, Helios demand visibility "down to which data centers," hyperscaler co-engineering depth — still in expansion mode, not yet priced exhaustively.
+  Projection: Symmetrical dollar terms but asymmetric percentage: -40% downside to bear (Helios miss); +15-30% upside to July/Q3 catalyst; risk/reward does not favor initiation.
+  Catalyst:   July 2026 Advancing AI event (nearest re-rating opportunity); Q3 2026 earnings Oct/Nov (first Helios revenue data — primary thesis-confirming event); ROIC crossing 10% TTM by Q4 2026.
 
 **AMKR — $1.00 (marginally below parity) — 2026-05-21**
-  Finding:      CRITICAL L3 OSAT; adj P/E ~43.7x; FCF ~-$1.4-1.9B in 2026 (not self-funding); Apple 29.8% revenue concentration; 5+ HDFO customers broadening — marginally below fair value at thesis price
-  Entry:        Pullback to $48-55, OR Q2 Jul 27 confirms EPS ≥$0.47 + computing growing + GM ≥15%, OR CHIPS Act first disbursement announced
-  Invalidation: AI packaging <2× by Q3; GM <13% any H2 qtr; Apple diversifies sourcing; dilutive equity raise; ROIC <8% TTM
-  Watch:        Next earnings 2026-07-27; CHIPS Act disbursement timeline; bear ~$28-31, bull ~$70-75
+  Numbers:    Real business, stable OCF, CRITICAL L3 — but adj. P/E ~43.7x, FCF deeply negative ($-1.4-1.9B in 2026), ROIC 10.1% declining; not self-funding at current capex pace.
+  Narrative:  Institutional momentum building (CoWoS overflow, HDFO broadening) — management narrative coherent and repeating, but largely priced in at 81st percentile of 52-week range.
+  Projection: Weighted EV approximately flat to -5% from $67.67; 30-45% downside probability vs. 20-35% bull probability; not a buy at current price.
+  Catalyst:   Q2 earnings Jul 27 requires triple confirmation (EPS ≥$0.47 + computing growing + GM ≥15%); entry at $48-55 or CHIPS Act first disbursement; AI packaging <2× by Q3 is primary invalidation.
 
-**AVGO — $1.00 (base case fully priced) — 2026-05-25**
-  Finding:      CRITICAL L6; 6 hyperscaler XPU customers through 2029-2031; FY2027 AI chip "well over $100B"; owner earnings 95.7x — base case at $412.91 fully priced, hold existing
-  Entry:        Pullback to $310-350 or Jun 3 beat-and-raise
-  Invalidation: Non-GAAP GM <74%; FY2027 AI guidance <$80B; Google order pause; software revenue declines 2 consecutive qtrs
-  Watch:        Next earnings 2026-06-03; rack margin trend; VMware ARR growth; bear $259-302, bull $720-900
+**INTU — $0.70 — 2026-05-21**
+  Numbers:    Exceptional (ROIC 21.3%, P/OE 15.1x, 5yr EPS CAGR 19.4%, Debt/OCF 0.87x, $7.71B FCF) — business does not support the AI disruption dislocation narrative at any level.
+  Narrative:  Fragile (C+) — nine analyst Buy ratings held post-Q3 beat, but 20% drop on a beat-and-raise; targets declining $636→$419 over same period stock fell 59%; market not ready to receive evidence.
+  Projection: Bear case bounded (AI disruption not materialized in three consecutive quarters); restructuring savings unquantified is primary uncertainty; 12-18 month re-rating window, not 3-6.
+  Catalyst:   Q4 FY2026 Aug 20 — first post-restructuring report with FY2027 guidance; restructuring savings quantification is single most important disclosure; TurboTax revenue decline (not units) is primary invalidation.
 
-**ORCL — $/Dollar TBD — TBD**
-  Finding:      TBD — migrate from ORCL_Thesis.md; FCF YoY -16274.6% is almost certainly a data error — manual audit required
-  Entry:        TBD
-  Invalidation: TBD
-  Watch:        Next earnings 2026-06-10
+**MRVL — $1.00–1.10 — 2026-05-25**
+  Numbers:    CRITICAL L6/L7; ROIC ~8% (below CoC); owner earnings 211x (FCF−SBC=$0.81B); bull case fully priced at $195.79; base case 17-46% downside.
+  Narrative:  Contracted ASIC demand confirmed with POs, second XPU ramp secured — but optical platform (Celestial AI) 12-24mo from revenue; Goldman Sachs EPS gap ($15B FY28 revenue not translating proportionately) unanswered.
+  Projection: Current price at midpoint of discounted bull scenario, not below it; base case fair value $105-162; bull $171-210; downside asymmetry sharper than Context suggested.
+  Catalyst:   No new entry at current price; pullback to $140-160 range required; Q1 FY27 May 27 binary event; second XPU delay or Distributor A AR buildup are primary invalidation triggers.
 
-**INTC — $/Dollar TBD — 2026-05-14**
-  Finding:      TBD — migrate from INTC_Thesis.md; narrative STRONG, numbers ABSENT, catalyst MODERATE; Intel Products healthy, Foundry losing $2.4B/qtr
-  Entry:        Pullback to $75-85 OR Apple confirmed at commercial scale (>$1B foundry revenue)
-  Invalidation: 14A PDK 1.0 delayed past Q4 2026; Apple absent from H2 2026 LTA; 18A yields stall below 60% by Q3 2026; Foundry gross margin not neutral by Q4 2027; Lip-Bu Tan departure
-  Watch:        Next earnings 2026-07-23; H2 2026 14A commitments; H2 Analyst Day
+**AVGO — $1.00 (binary Jun 3 event) — 2026-05-25**
+  Numbers:    CRITICAL L6; 6 hyperscaler XPU customers through 2029-2031; FY2027 AI chip "well over $100B"; owner earnings 95.7x (FCF$28.9B−SBC$8.5B=$20.5B); VMware ARR +19%, ARR $7.7B.
+  Narrative:  Execution-validated — rack margin concern reversed Q1 FY2026; $7.88B amortization burning off creates mechanical GAAP EPS tailwind through FY2030; Singapore tax impact manageable.
+  Projection: Base case fully priced at $412.91; bear (-30 to -50%) larger than bull (+10-30%) — late-cycle quality dynamic; hold existing, new entry requires pullback to $310-350.
+  Catalyst:   Jun 3 earnings — beat-and-raise converts to $1.20, miss converts to $0.80; non-GAAP GM <74% or FY2027 AI guidance <$80B are primary invalidation triggers.
+
+**KLAC — $1.00 — 2026-05-12**
+  Numbers:    46% average cycle ROIC, 1.07x OCF/NI, 38-43% stable operating margins — exceptional quality; but at ~51x trailing GAAP P/E, stock is essentially at analyst consensus target ($1,852 EV vs. $1,845 price).
+  Narrative:  WFE cycle confirmed, HBM process control intensity structural, 2nm ramp visibility strong — narrative solid but broadly priced; stock split Jun 11 (10-for-1) is economically neutral.
+  Projection: EV/price ~1.004; base case (50%) implies flat returns 18 months; bear case (25%) implies ~40% downside; only bull case (25%) generates meaningful alpha.
+  Catalyst:   Q4 FY2026 earnings Jul 30 — H2 ramp confirmation and 2027 WFE guidance update; entry at $1,500-1,600 pre-split ($150-160 post-split); WFE 2027 below $130B is primary invalidation.
+
+**TSM — $0.90–1.00 — 2026-05-13**
+  Numbers:    ROIC 48.5%, FCF growing, N2 ramp confirmed, no leverage — 33x trailing P/E embeds 25-35% EPS growth 2-3 years; geopolitical discount for Taiwan domicile is real but hard to model.
+  Narrative:  AI infrastructure demand confirmed, N3 crossover imminent, government structural support — P/E 1.0x in tracker is a confirmed FMP data error (correct ~34.8x trailing).
+  Projection: Upside to $450-490 on N3 margin confirmation; downside to ~$253 if AI capex decelerates materially (low probability); strong thesis at fair price.
+  Catalyst:   Oct 2026 print — N3 gross margin crossover or pricing shift confirmation triggers upgrade to CONVICTION; AI capex deceleration from any top-3 CSP is primary invalidation.
+
+**ASML — $0.90–1.10 — 2026-05-12**
+  Numbers:    EUV monopoly, 64.3% ROIC, 34.8% operating margin — exceptional quality; FCF YoY extreme negative likely one-time; structural demand from EUV node transitions non-discretionary.
+  Narrative:  Premium justified by EUV monopoly; MATCH Act geopolitical risk is primary overhang; analyst consensus strong but geopolitical discount limits near-term multiple expansion.
+  Projection: Essentially fairly valued with modest upside lean; high quality at a stretched price; bull case requires sustained EUV adoption cadence at expected pace.
+  Catalyst:   Q2 earnings Jul 15; MATCH Act legislative developments; FY2026 revenue below €35B or gross margin below 50% any quarter are primary invalidation triggers.
+
+**INTC — $1.30 — 2026-05-14**
+  Numbers:    Absent — Intel Products healthy (32% margins, six consecutive guidance beats) but Foundry losing $2.4B/qtr at -45% margins; no owner earnings; speculative at current price.
+  Narrative:  Strong — 14A ahead of schedule, Google LTA + anonymous LTAs signed, ASIC doubled YoY, Lip-Bu Tan institutional credibility — "Intel turnaround" narrative gaining traction.
+  Projection: Buying $2.00 of story at $1.00 of confirmed fundamentals — $150+ path on Apple commercial scale confirmation; $70-80 analyst consensus without foundry thesis materializing.
+  Catalyst:   Q2 earnings Jul 23; H2 2026 14A customer commitments; entry on pullback to $75-85 or Apple >$1B foundry revenue confirmation; 14A PDK 1.0 delay past Q4 2026 is primary invalidation.
 
 ---
 
