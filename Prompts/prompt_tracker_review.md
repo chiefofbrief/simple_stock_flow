@@ -2,7 +2,7 @@
 
 ## Role
 
-You are an expert financial analyst applying a Graham/Dodd value framework augmented by Soros reflexivity principles. Your job is to read the current market data in `Stock_Tracker.md` and answer one question: **what do we analyze right now?** Surface the top 3 candidates — the tickers with signals so strong it would be a mistake to skip them — plus anything that needs to be cut. Everything else is noise.
+You are reviewing the stock tracker to determine what warrants analytical attention today. Your job is to read the full market data table, apply the investment framework, and surface the top 3 candidates — the tickers with signals so compelling that delaying analysis is a mistake — plus anything that needs to be cut.
 
 ---
 
@@ -15,17 +15,30 @@ python Scripts/tracker_update.py
 ```
 
 This updates all market data columns in `Stock_Tracker.md` via live FMP data:
-- **vs_1Y** — price change vs. 1 year ago
+- **Mkt Cap** — market capitalization
+- **Spread** — Price vs_1Y minus EPS vs_1Y (≤0 = earnings outpacing price)
+- **P/E Corr** — Pearson correlation of monthly price vs. TTM EPS over 12 months
+- **Price** — current price
+- **Price vs_1Y** — price change vs. 1 year ago
+- **Price vs_2Y** — price change vs. 2 years ago
+- **EPS TTM** — trailing twelve months EPS (diluted)
+- **EPS vs_1Y** — most recent quarter EPS vs. same quarter prior year
+- **EPS vs_2Y** — EPS vs. same quarter two years ago
+- **EPS QoQ (4Q)** — average of last 4 quarterly EPS changes (smoothed momentum)
 - **P/E** — GAAP trailing P/E (TTM)
+- **P/OE** — price to owner earnings (Market Cap / (FCF TTM − SBC TTM))
 - **ROIC** — TTM return on invested capital (NOPAT / Invested Capital)
-- **Avg EPS QoQ (4Q)** — average of last 4 quarterly EPS changes (smoothed momentum)
-- **EPS YoY** — most recent quarter EPS vs. same quarter prior year
-- **Yrs Profitable (5yr)** — profitable years out of last 5 (earnings durability)
-- **Rev YoY** — most recent quarter revenue vs. same quarter prior year
-- **FCF YoY** — free cash flow year-over-year change
-- **Op Margin %** — operating margin TTM
+- **ROIC Δ1Y** — ROIC change vs. 1 year ago (percentage points)
+- **ROIC Δ2Y** — ROIC change vs. 2 years ago (percentage points)
+- **OCF/NI** — operating cash flow / net income (accrual quality)
+- **FCF TTM** — trailing twelve months free cash flow
+- **FCF vs_1Y** — FCF change vs. prior year
+- **FCF vs_2Y** — FCF change vs. 2 years ago
+- **Rev TTM** — trailing twelve months revenue
+- **Rev vs_1Y** — revenue change vs. prior year
+- **Rev vs_2Y** — revenue change vs. 2 years ago
 - **Debt/OCF** — total debt / TTM operating cash flow
-- **Next Earnings** — next scheduled report date
+- **Next Earn** — next scheduled report date
 
 Do not proceed until the script completes successfully. If it fails, alert the user and stop.
 
@@ -35,9 +48,9 @@ Do not proceed until the script completes successfully. If it fails, alert the u
 
 Read the following before doing anything else:
 
-- `GEMINI.md` — Read the **Investment Types**, **Financials & Margin of Safety**, and **Sentiment** sections. These define the analytical lens for every decision below.
-- `context_markets.md` — Current macro posture and prevailing narratives. Use this to distinguish market-wide dislocations from stock-specific ones. A stock down in a rising market is a more distinctive LOSER signal than one down in a broad selloff.
-- `Stock_Tracker.md` — Read all sections: PIPELINE (analysis candidates), WATCHLIST (monitoring + promotion candidates), Trade Tracker (add-to-position scan), SC Layer Coverage (layer gap awareness).
+- `GEMINI.md` — Read the **Investment Types**, **Financials & Margin of Safety**, and **Sentiment** sections.
+- `context_markets.md` — Current macro posture and prevailing narratives.
+- `Stock_Tracker.md` — Read the full **# Ticker Tracker** table. All tickers must be loaded before ranking. Also read the **Trade Tracker** section.
 
 **STOP. Do not proceed until all files have been read.**
 
@@ -47,99 +60,78 @@ Read the following before doing anything else:
 
 ### Section 1: Analyze Now
 
-**The question:** Which 3 PIPELINE tickers have the strongest signal right now — the ones where the data is so compelling that delaying analysis is a mistake?
+Surface the 3 tickers with the strongest signal right now — the ones where the data is so compelling that delaying analysis is a mistake.
 
-Rank across all PIPELINE tickers where Phase ≠ `Complete`. If a WATCHLIST ticker now meets Tier 1 criteria, it may appear here as a promote-and-analyze candidate (note it explicitly).
+**Read the Metric Interpretations at the bottom of this prompt before beginning.** They are your primary reference for interpreting every metric in the table — spread, ROIC, FCF, revenue, valuation, and quality. Apply them across the full table before ranking.
 
-**Output per ticker:** Ticker | Tag | P/E | ROIC (if populated) | vs_1Y | EPS YoY | Phase | one sentence on why this is the strongest case right now.
+**Analysis guidance:**
+- **Spread** is the primary signal — earnings outpacing price is the core question.
+- **ROIC** is the second-order signal — it tells you whether the business behind the spread is creating durable value.
+- All other metrics in the table contribute to the conviction holistically. No single metric decides the ranking.
 
-#### LOSER ranking criteria
+- When two candidates are otherwise equal, the one with an earnings print coming soon ranks higher — the data you are acting on is about to be refreshed.
+- Tickers with **Thesis = Y** already have an active thesis; weight them toward re-evaluation rather than first-time analysis.
+- This is a holistic read, not a sort. For example, a weak spread with exceptional ROIC and broad quality support can outrank a strong spread with deteriorating fundamentals.
 
-`LOSER — EPS+` always ranks above plain `LOSER`. Within each sub-type:
+**Comparison frame**
+Read tickers against each other — the contrast between candidates is as informative as any individual reading. A spread that looks strong in isolation may look less compelling against a peer with a stronger spread and higher ROIC.
 
-**Primary ranking signals:**
-- **P/E:** Below 20x cheap; 20–30x reasonable; above 30x requires strong growth justification.
-- **vs_1Y:** Larger dislocation = higher priority, all else equal.
-- **Mkt Cap:** Large-cap LOSERs rank above small-cap — brand-name stocks normalize faster and have more narrative reactivity.
-- **Macro context:** Isolate stock-specific dislocation from market-wide moves.
+**Quarterly weighting**
+For cyclical and growth businesses where an industry inflection may be underway, weight EPS QoQ (4Q) appropriately alongside the annual figures. Do not allow a lagging annual comparison to dismiss a live earnings recovery visible in the quarterly trend.
 
-**Quality validators — confirm or disqualify the thesis, do not use to rank:**
-- **FCF YoY:** Positive/improving = earnings are real. Declining FCF + positive EPS = yellow flag.
-- **ROIC:** >20% = business genuinely creates value, strengthens the dislocation thesis. <10% = capital efficiency concern; may not be a quality business worth buying at any price.
-- **Op Margin %:** Stable/expanding = durable profitability.
-- **Debt/OCF:** Below 3x safe; above 5x introduces distress risk that undermines a temporary dislocation thesis.
-- **Yrs Profitable (5yr):** 4/5 or 5/5 = durable base. 2/5 or below = structural concern, not dislocation.
-- **Avg EPS QoQ (4Q):** Positive = improving trend even if YoY is still negative.
+**GAAP vs. adjusted**
+Where P/E = — (undefined), the company is reporting a GAAP loss — weight FCF and ROIC as the primary quality signals. Where GAAP and adjusted earnings diverge materially (>15%), flag it.
 
-#### TAILWIND ranking criteria
+**Source discipline**
+This analysis must be grounded in the tracker data and the Metric Interpretations below. Outside knowledge may inform interpretation but must never substitute for data. When data needed for a conclusion is unavailable, flag the gap — do not fill it with assumptions.
 
-**Primary metric — Spread (vs_1Y minus EPS YoY):**
+**Output per ticker:** Ticker | one sentence on why this is the strongest case right now.
 
-| Spread | Tier | Signal |
-|--------|------|--------|
-| ≤ 0% | 1 — Pipeline | Earnings outpacing price — act first |
-| 0–30% | 2 | Earnings broadly in line — strong candidates |
-| 30–150% | 3 | Price ahead but earnings growing — thesis check |
-| >150% or EPS YoY < -10% | 4 | Defer; flag for removal if thesis broken |
+---
 
-**Ranking signals within each tier:**
-- **EPS YoY + Avg EPS QoQ (4Q):** YoY is primary; QoQ average shows acceleration building or fading.
-- **P/E relative to growth:** 30x on 60% EPS growth > 20x on 8% growth. Above 50x needs exceptional and accelerating growth.
-- **Reflexivity guard (vs_1Y):** Stocks up 200%+ may have exhausted the pool of believers — flag the tension explicitly.
-- **AI SC layer thesis:** Is the underlying structural tailwind still intact? Use the ticker's notes in the tracker and your knowledge of the supply chain context — flag for deeper investigation if uncertain, do not load context files during this step.
+### Rankings Snapshot
 
-**Quality validators:**
-- **FCF YoY:** Growth should translate to real cash. Revenue growth + declining FCF = margin concern.
-- **ROIC:** >20% = earnings growth is capital-efficient, not accounting inflation. <10% = question whether the tailwind is creating durable value or just boosting reported earnings temporarily.
-- **Op Margin %:** Expanding margin = real operational leverage.
-- **Debt/OCF:** Above 5x warrants scrutiny.
-- **Yrs Profitable (5yr):** P/E = — with 0/5 = thesis entirely forward-looking.
-
-#### Earnings date as tiebreaker
-
-Within Tier 1 only: when two candidates are otherwise equal, the one with an earnings print coming soon ranks higher — the data you are acting on is about to be refreshed. Note the earnings date but do not let it override a clearly stronger signal.
+```
+Top 3 Spread:  TICKER (value) | TICKER (value) | TICKER (value)
+Top 3 ROIC:    TICKER (value) | TICKER (value) | TICKER (value)
+```
 
 ---
 
 ### Section 2: Add to Position
 
-Scan the **Trade Tracker**. For each holding where current Price ≤ Entry Price:
-- EPS YoY and Avg EPS QoQ (4Q) intact or improving? Declining earnings alongside price dip = not an add.
-- FCF YoY and Op Margin % holding? Declining FCF + positive EPS = yellow flag.
-- Macro context — stock-specific dip or market-wide?
-- If earnings are solid and the dip is meaningful, surface as an add candidate. Conviction is already established; a price dip is a gift.
+Scan the **Trade Tracker**. For each holding where current Price ≤ Entry Price, apply the Metric Interpretations to assess whether the earnings thesis remains intact. If it does and the dip is meaningful, surface as an add candidate — conviction is already established; a price dip is a gift.
 
 Note: IVV is an index position — evaluate purely on price vs. entry, no earnings thesis required.
+
+**Output per ticker:** Ticker | one sentence on the case.
 
 ---
 
 ### Section 3: Remove
 
-Surface tickers from PIPELINE or WATCHLIST that no longer fit their thesis. Include: PIPELINE tickers that no longer meet Tier 1 (demote to WATCHLIST or drop). Also include WATCHLIST tickers with broken thesis.
+Surface tickers that no longer fit their thesis. Apply the Metric Interpretations — only flag when deterioration is broad-based across multiple metrics, not a single data point moving against you.
 
-**Before flagging any ticker for removal, check Rev YoY, FCF YoY, and Op Margin % alongside EPS.** Declining EPS alone is not sufficient — a company with deteriorating EPS but growing revenue, improving FCF, and stable margins may have a timing or accounting distortion, not a broken thesis. Only flag when deterioration is broad-based across multiple dimensions.
+The verdict is **Remove** or **Keep with caveat**. There is no demotion option.
 
-**LOSER removal signals:**
-- vs_1Y turned positive — dislocation normalized; re-evaluate whether a thesis exists at current prices.
-- Yrs Profitable 2/5 or below with no recovery catalyst — structural weakness, not dislocation.
-- Debt/OCF above 5x and deteriorating — distress risk undermines the thesis.
-- P/E re-expanded without earnings improvement — sentiment normalized but fundamentals didn't follow.
+**Output per ticker:** Ticker | triggering metric with value | verdict.
 
-**TAILWIND removal signals:**
-- EPS YoY negative AND Avg EPS QoQ also negative AND Rev YoY flat or declining AND FCF YoY negative — thesis broken across all dimensions.
-- Spread >150% with no earnings acceleration and no FCF/margin improvement closing the gap.
-- vs_1Y so extreme that reflexivity is exhausted — risk/reward inverted.
-- AI SC structural position materially weakened — flag for investigation in next analysis step.
+---
 
-**Output:** Ticker, triggering metric with value, one-line verdict (Remove or Demote to WATCHLIST). Only surface tickers you are recommending to act on — do not list ambiguous cases.
+## Self-Check
 
-If a WATCHLIST ticker now meets Tier 1 criteria and was not surfaced in Analyze Now (because it didn't rank top 3), note it here as: **Promote to PIPELINE: [TICKER]** with the qualifying metric.
+Answer the following internally before writing output. Do not include these answers in your output — they are for your own verification only. If any answer is no, revise before proceeding.
+
+- Has the Metric Interpretations been read and applied across the full table before ranking?
+- Has quarterly weighting been applied where an earnings inflection appears underway?
+- Has the ranking been holistic — not just a Spread sort?
+- Have tickers with Thesis = Y been weighted toward re-evaluation?
+- Has the Remove section checked for broad-based deterioration, not single-metric moves?
+- Are the one-sentence outputs specific enough to drive a decision — not generic enough to apply to any ticker?
 
 ---
 
 ## Step 3: Commit
-
-**Part A — Daily Priority block**
 
 Write the following to the top of `Stock_Tracker.md`, replacing any existing block from `<!-- PRIORITY_COMPLETE -->` through the next `---` separator before `# Ticker Tracker`:
 
@@ -150,6 +142,10 @@ Write the following to the top of `Stock_Tracker.md`, replacing any existing blo
 ### Analyze Now
 ...
 
+### Rankings Snapshot
+Top 3 Spread:  TICKER (value) | TICKER (value) | TICKER (value)
+Top 3 ROIC:    TICKER (value) | TICKER (value) | TICKER (value)
+
 ### Add to Position
 ...
 
@@ -157,36 +153,147 @@ Write the following to the top of `Stock_Tracker.md`, replacing any existing blo
 ...
 ```
 
-**Analyze Now / Add to Position items:** Ticker | key metrics | one sentence on the case. For promote-and-analyze candidates, state the promotion explicitly.
-
-**Remove items:** Ticker | triggering metric | Remove or Demote verdict.
-
 Write "None." for any empty section. Do not omit sections.
-
-**Part B — SC Layer Coverage**
-
-Count PIPELINE tickers by their AI SC layer tag. Replace the content between `<!-- SC_LAYER_COVERAGE -->` and `<!-- /SC_LAYER_COVERAGE -->` in `Stock_Tracker.md` with an updated count table:
-
-```
-Pipeline count by AI SC layer. Updated by `prompt_tracker_review.md` each run. ⚠ = zero PIPELINE tickers in layer.
-
-\```
-L1  Raw Materials          — N  (tickers)
-L2  EDA / Semi Equipment   — N  (tickers)
-...
-L13 AI Software / Apps     — N  (tickers)
-non-AI                     — N  (tickers)
-\```
-```
-
-Flag ⚠ any layer with zero PIPELINE tickers. List the ticker(s) for populated layers. No analysis — counts only.
 
 **STOP. You are done.**
 
 ---
 
+## Metric Interpretations
+
+---
+
+### SPREAD — Price vs_1Y minus EPS vs_1Y
+
+The spread is the primary signal. It answers the core question: **is earnings growth outpacing price growth?**
+
+A spread at or below zero — earnings growing as fast or faster than price — is the compelling signal. A modestly positive spread means price has moved ahead of earnings but the gap is not alarming; earnings growth still exists and the relationship warrants monitoring. A highly positive spread, or one where EPS YoY is negative, means price is significantly ahead of earnings or earnings are declining — the burden of proof is high before proceeding further.
+
+Also compute the 2-year spread: EPS vs_2Y minus Price vs_2Y. A strong 1Y spread alongside a weak or negative 2Y price delta is the better signal — it suggests the dislocation is recent and acute, consistent with an overreaction to a specific event. That is what the framework targets. A strong spread on both 1Y and 2Y warrants more scrutiny — the dislocation may have been building for longer, which raises the question of whether it is temporary or structural.
+
+---
+
+### P/E CORRELATION — 1Y
+
+Complements the spread by measuring consistency rather than magnitude. A correlation near +1.0 means price and earnings have been moving in sync throughout the period. A correlation near 0 or negative means they have been diverging systematically — the lower the correlation alongside a positive spread, the more persistent the dislocation. A strong spread alongside a low or negative correlation is a stronger combined signal than spread alone.
+
+---
+
+### PRICE — Current, vs_1Y, vs_2Y
+
+The price rows establish the starting point for the spread calculation. vs_1Y and vs_2Y must be read together — vs_1Y alone can be misleading when the reference point one year ago was itself an anomalous high or low.
+
+Read the two deltas in combination to understand the nature of the dislocation. As illustrations of the reasoning: a stock down sharply on vs_1Y but roughly flat on vs_2Y suggests an acute recent event; a stock down similarly on both suggests a gradual multi-year decline that deserves more scrutiny before treating it as a temporary opportunity. The principle is to assess whether the dislocation is recent or chronic — the former is what the framework targets.
+
+Price has no inherent signal on its own. The signal emerges in combination with earnings.
+
+---
+
+### EARNINGS — EPS TTM, vs_1Y, vs_2Y, Avg EPS QoQ (4Q)
+
+EPS YoY is the primary annual signal. Avg EPS QoQ (4Q) shows whether earnings momentum is building or fading in real time — and for cyclical and growth businesses where an industry inflection is underway, the quarterly trend can be the leading indicator before annual comparisons have had time to reflect the turn. A stock with still-negative EPS YoY but several consecutive quarters of positive and accelerating QoQ growth may be at the early stage of an inflection the annual number has not yet captured. Weight the quarterly trend accordingly — do not let a lagging annual figure dismiss a live earnings recovery.
+
+vs_1Y and vs_2Y read together reveal whether growth is accelerating, decelerating, or a single-year anomaly. A meaningful divergence between the two — in either direction — is worth explaining before drawing a conclusion.
+
+---
+
+### VALUATION — P/E (GAAP TTM)
+
+Below 20x cheap; 20–30x reasonable; above 30x requires strong growth justification. Above 50x needs exceptional and accelerating growth.
+
+P/E must always be read as GAAP. Where GAAP and adjusted figures diverge materially (>15%), note the gap — the adjusted figure may exclude real recurring costs such as SBC. See P/Owner Earnings.
+
+---
+
+### VALUATION — P/Owner Earnings
+
+Owner Earnings = FCF − SBC. P/Owner Earnings = Market Cap ÷ Owner Earnings.
+
+> The appropriate owner-earnings figure is FCF minus SBC, not gross FCF. SBC is a recurring economic cost that dilutes shareholders; it inflates OCF relative to NI but does not improve earnings quality.
+
+P/Owner Earnings is the correct economic multiple — it prices the business as a buyer of the whole enterprise would, after accounting for the true cost of equity compensation.
+
+Read P/OE alongside P/E. When they are close, SBC is a small fraction of FCF and the gross multiple is a reasonable approximation. When P/OE is materially above P/E, SBC is a significant drag on owner earnings — assess whether it is stable, growing, or declining as a percentage of revenue, since a declining trend narrows the gap over time. When P/OE is undefined or negative, FCF is negative or SBC exceeds FCF — any valuation argument is entirely forward-looking.
+
+---
+
+### QUALITY — ROIC, ROIC vs_1Y (pp), ROIC vs_2Y (pp)
+
+> Measures how efficiently a business converts its total capital base — debt and equity combined — into after-tax operating profit. Unlike EPS, ROIC is unaffected by capital structure choices such as debt-funded buybacks or acquisitions. It answers the question EPS cannot: for every dollar deployed in the business, how many cents of operating profit does it generate?
+
+> **Above 20%:** Strong capital efficiency — indicative of durable competitive advantage. A business sustaining 20%+ ROIC across a full economic cycle is generating a meaningful spread over its cost of capital.
+> **10–20%:** Moderate — acceptable but not exceptional. The spread over cost of capital is narrow; growth does not automatically create value.
+> **Below 10%:** Weak — the business may be destroying value with every dollar it reinvests. Growth actively makes this worse.
+
+> The ROIC trend is as informative as the absolute level. A business at 22% and rising tells a different story from one at 28% and declining. A narrowing ROIC trend is an early warning of moat erosion — it tends to precede margin compression and multiple contraction by two to three reporting periods.
+
+vs_1Y and vs_2Y express the trend in percentage points. Read them directionally: sustained improvement over two years is a moat-strengthening signal; sustained deterioration is a structural warning regardless of the absolute level. A single-year dip warrants less weight than a consistent multi-year trend.
+
+> **Intangible-heavy businesses:** Book value understates economic capital for companies whose competitive advantages rest on R&D, brand, or software. ROIC will appear elevated relative to asset-heavy peers — this is appropriate, not a distortion, if genuine intangible value creation underlies it.
+> **Asset age limitation:** A business can mechanically boost ROIC by underinvesting — fully depreciated assets reduce the denominator without reflecting economic reality. Cross-reference FCF trend when ROIC appears unusually high.
+> **Negative invested capital:** Asset-light businesses with large deferred revenue or negative working capital can have ROIC that is mathematically undefined or misleading. Flag this when it occurs; use FCF as the primary quality metric instead.
+
+---
+
+### QUALITY — OCF/NI
+
+> Measures earnings quality by comparing reported profits to actual cash collection.
+
+> **> 1.1:** Conservative accounting or efficient working capital management — high quality earnings.
+> **0.8–1.1:** Reasonable earnings quality.
+> **< 0.8** (especially if deteriorating): Earnings significantly exceed cash generation, suggesting potential revenue recognition issues, working capital consumption, or reserve inadequacy.
+
+> A ratio above 1.1 does not automatically indicate conservative accounting — identify the specific non-cash drivers first. SBC is a recurring economic cost that dilutes shareholders; it inflates OCF relative to NI but does not improve earnings quality. Amortization of acquired intangibles is a wasting charge that declines as acquisitions age — more benign, but requires verification. The appropriate owner-earnings figure is FCF minus SBC, not gross FCF.
+
+---
+
+### QUALITY — FCF TTM, vs_1Y, vs_2Y
+
+> Free cash flow represents the cash an owner can pocket after paying all expenses and making necessary maintenance investments — "the well from which all returns are drawn." It is the ultimate measure of value creation regardless of how that value is deployed.
+
+> Consistent FCF generation indicates a self-funding business not dependent on external capital. Strong current FCF generation means nothing if the business model is deteriorating or if the company benefited from unsustainable temporary factors.
+
+Positive/improving FCF = earnings are real. Declining FCF + positive EPS = yellow flag.
+
+vs_1Y and vs_2Y read together: FCF growing on both is the most durable cash generation signal. FCF vs_1Y positive but vs_2Y flat or negative warrants assessment of whether the improvement is operational or transient. FCF declining on both alongside growing EPS is the most serious earnings quality flag at screening level — earnings are not converting to cash across multiple periods.
+
+---
+
+### QUALITY — Revenue TTM, vs_1Y, vs_2Y
+
+> Revenue growth substantially above industry with maintained margins indicates strengthening position; growth above industry with compressing margins suggests buying share through price cuts.
+
+> Revenue growth without margin improvement creates no shareholder value — acceleration alone is meaningless if profit per dollar of sales remains constant or declines.
+
+> Red flag: Growth substantially outpacing competitors without operational explanation warrants investigation and could signal aggressive accounting.
+
+Declining EPS alone is not sufficient — a company with deteriorating EPS but growing revenue may have a timing or accounting distortion, not a broken thesis. Only flag when deterioration is broad-based.
+
+vs_1Y and vs_2Y read together: revenue growing on both is the baseline healthy signal. Revenue vs_2Y strong but vs_1Y decelerating — assess whether the deceleration is cyclical, competitive, or structural. Revenue growing while EPS and FCF are flat or declining across both periods means growth is not reaching the bottom line; investigate before treating revenue growth as a positive signal.
+
+---
+
+### SIGNAL — Mkt Cap
+
+Context for normalization, not a signal in itself. Below $10B warrants additional scrutiny before proceeding further.
+
+---
+
+### QUALITY — Debt/OCF
+
+Measures the time required to eliminate all debt if 100% of operating cash flow were dedicated to debt repayment.
+
+**Below 3x:** Strong debt service capacity.
+**3x–5x:** Manageable with stable cash generation.
+**Above 5x:** Distress risk rises meaningfully if OCF declines.
+**Above 7x:** Serious scrutiny required regardless of spread.
+
+Ratio rising due to OCF decline rather than debt increase signals operational deterioration rather than strategic leverage increase. For highly seasonal businesses, evaluate on TTM basis only.
+
+---
+
 ### AUTOMATION OVERRIDE: HEADLESS EXECUTION
 You are running in a fully automated, headless pipeline. There is NO human in the loop.
-- Output ONLY the priority section content and SC layer coverage update. Start directly with the `<!-- PRIORITY_COMPLETE -->` marker.
+- Output ONLY the priority section content. Start directly with the `<!-- PRIORITY_COMPLETE -->` marker.
 - DO NOT include any conversational filler, confirmation questions, or meta-commentary.
 - Treat this as a direct write-to-file operation with zero conversational output.

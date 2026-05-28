@@ -17,134 +17,202 @@
 - **BE:** vs_1Y +1365.9%; this extreme price move has exhausted the TAILWIND thesis and inverted the risk/reward. Verdict: Remove.
 - **Promote to PIPELINE: AXON** | Re-tags to LOSER—EPS+ (vs_1Y -49.1%, EPS YoY +89.8%), a strong Tier 1 signal.
 - **Promote to PIPELINE: ORCL** | TAILWIND Spread -6.6% (vs_1Y +17.9%, EPS YoY +24.5%), a clear Tier 1 signal.
-- **Promote to PIPELINE: AIG** | LOSER—EPS+ (vs_1Y -4.9%, EPS YoY +21.6%), a clean dislocation signal with strong FCF YoY growth.
-
----
-## SC Layer Coverage
-
-<!-- SC_LAYER_COVERAGE -->
-Pipeline count by AI SC layer. Updated by `prompt_tracker_review.md` each run. ⚠ = zero PIPELINE tickers in layer.
-
-```
-L1  Raw Materials          — 1  (FCX)
-L2  EDA / Semi Equipment   — 1  (CDNS)
-L3  Foundry / OSAT         — 0  ⚠
-L4  Compute Silicon        — 1  (NVDA)
-L5  Memory                 — 1  (MU)
-L6  Custom Silicon / NICs  — 0  ⚠
-L7  Optical / Connectivity — 0  ⚠
-L8  Power / Energy         — 0  ⚠
-L9  Data Center Infra      — 0  ⚠
-L10 Hyperscalers           — 1  (MSFT)
-L11 AI Cloud / Neocloud    — 0  ⚠
-L12 Edge AI / Robotics     — 1  (NVDA)
-L13 AI Software / Apps     — 1  (IBM)
-non-AI                     — 6  (IT, BR, NFLX, WDAY, SAP, CAG)
-```
-<!-- /SC_LAYER_COVERAGE -->
 
 ---
 
 # Ticker Tracker
 
----
+Stocks under active monitoring. Market data columns updated by `Scripts/tracker_update.py`. Thesis Archive below the table contains structured summaries for all tickers where a thesis has been run. SC Layer Coverage tracks AI supply chain layer representation across the full tracker.
 
-## PIPELINE
-
-Stocks under active analysis. Work through three passes sequentially per `GEMINI.md`: Context → The Numbers → The Projection. Verdict (Status) written once, at end of The Projection. Market data columns updated daily by `Scripts/tracker_update.py` (automated via GitHub Actions).
-
-**Tier 1 criteria (required for PIPELINE):** LOSER—EPS+ tag (EPS YoY > 0 AND vs_1Y < 0) OR TAILWIND with Spread ≤ 0% (EPS YoY ≥ vs_1Y). Anything below Tier 1 belongs in WATCHLIST.
+**Tier 1 criteria (required for Analyze Now):** LOSER with EPS vs_1Y > 0 AND vs_1Y < 0, OR TAILWIND with Spread ≤ 0% (EPS vs_1Y ≥ vs_1Y). Anything below Tier 1 is monitoring-only until signal improves.
 
 **Column Guide**
-- **Tag**: `LOSER` or `TAILWIND` — see `GEMINI.md`. `LOSER — EPS+` auto-applied by script when EPS YoY > 0 and vs_1Y < 0.
-- **Mkt Cap**: Market capitalization (updated by script)
-- **vs_1Y**: Price change vs. 1 year ago (updated by script)
-- **P/E**: GAAP TTM P/E — diluted EPS from income statement (updated by script)
-- **ROIC**: TTM return on invested capital — NOPAT / (Equity + Debt - Cash). Measures capital efficiency independent of leverage. >20% indicates strong competitive advantage; <10% may signal value destruction (updated by script)
-- **Avg EPS QoQ (4Q)**: Average of last 4 quarters of EPS QoQ change (updated by script)
-- **EPS YoY**: Most recent quarter diluted EPS vs. same quarter prior year (updated by script)
-- **Yrs Profitable (5yr)**: Profitable years out of last 5 (updated by script)
-- **Rev YoY**: Most recent quarter revenue vs. same quarter prior year (updated by script)
-- **FCF YoY**: Free cash flow year-over-year change (updated by script)
-- **Op Margin %**: Operating margin TTM (updated by script)
-- **Debt/OCF**: Total debt / TTM operating cash flow (updated by script)
-- **Next Earnings**: Next scheduled earnings date (updated by script)
-- **Phase**: `Context` → `The Numbers` → `The Projection` → `Complete`
-- **Last Run**: Date of last completed workflow step
-- **Status**: `REMOVE` | `MONITOR` | `BUY — ACCUMULATE` | `BUY — MEASURED` | `BUY — CONVICTION` — written only when Phase = `Complete`
-- **Added**: Date added to PIPELINE
+- **Tag**: `LOSER` or `TAILWIND` per `GEMINI.md`; `LOSER — EPS+` auto-applied when EPS vs_1Y > 0 and vs_1Y < 0; AI SC layer appended where applicable
+- **Mkt Cap**: Market capitalization. Below $10B warrants additional scrutiny — smaller cap names normalize more slowly and carry higher liquidity risk
+- **Spread**: Price vs_1Y minus EPS vs_1Y. ≤ 0% = earnings outpacing price (compelling); 0–30% = price modestly ahead; > 30% = price significantly ahead; extreme values from base effects require normalization before interpretation
+- **P/E Corr**: Pearson correlation of monthly price vs. TTM EPS over 12 months. Near +1.0 = moving in sync; near 0 or negative alongside negative spread = persistent dislocation signal
+- **Price**: Current price
+- **Price vs_1Y / Price vs_2Y**: Price change vs. 1 and 2 years ago. Read together — acute recent dislocation (Price vs_1Y down, Price vs_2Y flat) vs. chronic multi-year decline (both down materially)
+- **EPS TTM**: Trailing twelve month diluted EPS
+- **EPS vs_1Y / vs_2Y**: EPS change vs. 1 and 2 years ago. Read together to assess acceleration, deceleration, or single-year anomaly
+- **EPS QoQ (4Q)**: Average of last 4 quarters of EPS QoQ change — leading indicator for live earnings inflections before annual comparisons reflect the turn
+- **P/E**: GAAP TTM P/E. Below 20x cheap; 20–30x reasonable; above 30x requires growth justification; above 50x needs exceptional and accelerating growth
+- **P/OE**: P/Owner Earnings = Market Cap / (FCF TTM − SBC TTM). The correct economic multiple after accounting for SBC; read alongside P/E — material gap means SBC is a significant drag on owner earnings
+- **ROIC**: TTM return on invested capital. Above 20% = strong competitive advantage; 10–20% = moderate; below 10% = may be destroying value with reinvestment
+- **ROIC Δ1Y / Δ2Y**: ROIC trend in percentage points. Sustained improvement = moat strengthening; sustained deterioration = early warning of moat erosion
+- **OCF/NI**: Operating cash flow / net income. Above 1.1x = conservative accounting; 0.8–1.1x = reasonable; below 0.8x = flag explicitly
+- **FCF TTM**: Trailing twelve month free cash flow
+- **FCF vs_1Y / vs_2Y**: FCF trend. Declining FCF alongside growing EPS across multiple periods = most serious earnings quality flag
+- **Rev TTM**: Trailing twelve month revenue
+- **Rev vs_1Y / vs_2Y**: Revenue growth trend. Read together — decelerating vs_1Y after strong vs_2Y warrants assessment of whether cyclical or structural
+- **Debt/OCF**: Total debt / TTM operating cash flow. Below 3x safe; above 5x introduces distress risk; above 7x warrants serious scrutiny
+- **Next Earn**: Next scheduled earnings date
+- **Thesis**: `Y` = thesis completed, see Thesis Archive below; `—` = no thesis run
+- **$/Dollar**: Expected value per $1 invested at thesis price. Below $1.00 = paying premium; $1.00 = fair value; above $1.00 = margin of safety. Blank until thesis completed
 
-| Ticker | Tag | Mkt Cap | vs_1Y | P/E | ROIC | Avg EPS QoQ (4Q) | EPS YoY | Yrs Profitable (5yr) | Rev YoY | FCF YoY | Op Margin % | Debt/OCF | Next Earnings | Phase | Last Run | Status | Thesis | Added |
-|--------|-----|---------|-------|-----|---|------------------|---------|----------------------|---------|---------|-------------|----------|---------------|-------|----------|--------|--------|-------|
-| IT | LOSER — EPS+ | $10.84B | -64.2% | 15.8x | 47.8% | +134.9% | +17.3% | 5/5 | -1.5% | +28.7% | 16.4% | 2.4x | 2026-08-04 | Complete | 2026-05-26 | MONITOR | IT_Thesis.md | 2026-05-26 |
-| BR | LOSER — EPS+ | $17.11B | -37.6% | 15.8x | 20.1% | +17.2% | +15.1% | 5/5 | +7.8% | -17.6% | 17.1% | 2.5x | 2026-08-04 | Complete | 2026-04-30 | MONITOR | Thesis_BR.md | 2026-04-28 |
-| NFLX | LOSER — EPS+ | $369.27B | -27.6% | 28.3x | 38.9% | +26.4% | +86.4% | 5/5 | +16.2% | +91.4% | 29.7% | 1.3x | 2026-07-16 | Complete | 2026-05-26 | BUY — MEASURED | NFLX_Thesis.md | 2026-04-28 |
-| WDAY | LOSER — EPS+ | $33.20B | -47.7% | 39.1x | 9.3% | +66.1% | +248.0% | 3/5 | +13.5% | +46.3% | 11.7% | 1.2x | 2026-08-20 | Complete | 2026-05-10 | BUY — MEASURED | WDAY_Thesis.md | 2026-04-28 |
-| SAP | LOSER — EPS+ | $204.60B | -41.3% | 27.5x | 23.1% | +2.8% | +9.3% | 5/5 | +6.0% | -9.4% | 26.9% | 0.0x | 2026-07-23 | Complete | 2026-05-06 | BUY — MEASURED | SAP_Thesis.md | 2026-04-28 |
-| CAG | LOSER — EPS+ | $6.41B | -36.6% | — | -1.0% | -84.4% | +40.0% | 4/5 | -1.9% | -6.8% | 12.3% | 5.3x | 2026-07-09 | — | — | — | — | 2026-04-28 |
-| MU | TAILWIND — AI SC L5 | $1.04T | +858.2% | 43.5x | 34.5% | +78.2% | +756.7% | 4/5 | +196.3% | -22.8% | 48.5% | 0.4x | 2026-06-24 | Complete | 2026-05-22 | MONITOR | MU_Thesis.md | 2026-04-28 |
-| FCX | TAILWIND — AI SC L1 | $91.14B | +61.9% | 33.6x | 7.9% | +46.7% | +154.2% | 5/5 | +12.2% | +557.9% | 27.8% | 1.7x | 2026-07-22 | — | — | — | — | 2026-04-28 |
-| MSFT | TAILWIND — AI SC L10 | $3.06T | -9.9% | 24.5x | 29.0% | +7.2% | +23.4% | 5/5 | +18.3% | -22.1% | 46.8% | 0.3x | 2026-07-29 | Complete | 2026-04-30 | MONITOR | MSFT_Thesis.md | 2026-04-28 |
-| IBM | TAILWIND — AI SC L13 | $238.38B | -1.1% | 22.4x | 13.7% | +56.8% | +14.3% | 5/5 | +9.5% | +20.2% | 16.4% | 5.0x | 2026-07-22 | Complete | 2026-05-08 | BUY — MEASURED | IBM_Thesis.md | 2026-04-28 |
-| NVDA | TAILWIND — AI SC L4/L12 | $5.12T | +55.7% | 32.3x | 82.0% | +33.4% | +214.5% | 5/5 | +85.2% | +85.5% | 64.0% | 0.1x | 2026-08-26 | Complete | 2026-05-22 | MONITOR | NVDA_Thesis.md | 2026-04-28 |
-| CDNS | TAILWIND — AI SC L2 | $104.24B | +16.8% | 88.0x | 15.3% | +14.7% | +23.0% | 5/5 | +18.7% | -33.8% | 31.1% | 1.9x | 2026-07-27 | — | — | — | — | 2026-04-28 |
+| Ticker | Tag | Mkt Cap | Spread | P/E Corr | Price | Price vs_1Y | Price vs_2Y | EPS TTM | EPS vs_1Y | EPS vs_2Y | EPS QoQ (4Q) | P/E | P/OE | ROIC | ROIC Δ1Y | ROIC Δ2Y | OCF/NI | FCF TTM | FCF vs_1Y | FCF vs_2Y | Rev TTM | Rev vs_1Y | Rev vs_2Y | Debt/OCF | Next Earn | Thesis | $/Dollar |
+|--------|-----|---------|--------|----------|-------|-------|-------------|---------|-----------|-----------|--------------|-----|------|------|----------|----------|--------|---------|-----------|-----------|---------|-----------|-----------|----------|-----------|--------|---------|
+| IT | LOSER — EPS+ | $10.68B | -80.6% | +0.82 | $160.07 | -63.2% | -63.2% | $10.12 | +17.3% | +19.1% | +134.9% | 15.8x | 9.7x | 47.8% | -9.4pp | +13.7pp | 1.8x | $1.26B | +28.7% | +123.0% | $6.47B | -1.5% | +2.6% | 2.4x | 2026-08-04 | Y | $0.75–0.80 |
+| BR | LOSER — EPS+ | $17.29B | -51.9% | -0.93 | $149.40 | -36.7% | -21.3% | $9.34 | +15.1% | +31.8% | +17.2% | 16.0x | 14.2x | 20.1% | +4.5pp | +5.8pp | 1.2x | $1.30B | -17.6% | +71.9% | $7.32B | +7.8% | +13.2% | 2.5x | 2026-08-04 | Y | — |
+| NFLX | LOSER — EPS+ | $362.12B | -115.2% | -0.64 | $86.03 | -28.8% | +32.6% | $3.10 | +86.4% | +132.1% | +26.4% | 27.8x | 31.6x | 38.9% | +9.9pp | +16.0pp | 0.9x | $11.89B | +91.4% | +138.4% | $46.89B | +16.2% | +30.7% | 1.3x | 2026-07-16 | Y | $0.80–0.85 |
+| WDAY | LOSER — EPS+ | $33.37B | -294.6% | -0.81 | $128.19 | -46.6% | -40.5% | $3.20 | +248.0% | +117.5% | +66.1% | 40.1x | 23.9x | 9.3% | +4.2pp | -9.7pp | 3.8x | $2.97B | +46.3% | +111.7% | $9.85B | +13.5% | +27.7% | 1.2x | 2026-08-20 | — | — |
+| SAP | LOSER — EPS+ | $205.37B | -49.3% | -0.87 | $176.51 | -40.0% | -6.3% | $6.37 | +9.3% | +335.7% | +2.8% | 27.7x | 30.1x | 23.1% | +9.7pp | +10.3pp | 1.2x | $8.06B | -9.4% | +21.7% | $37.34B | +6.0% | +18.8% | 0.0x | 2026-07-23 | — | — |
+| MU | TAILWIND — AI SC L5 | $1.06T | +118.1% | +0.77 | $935.40 | +874.9% | +610.0% | $21.19 | +756.7% | +1601.4% | +78.2% | 44.1x | 116.1x | 34.5% | +25.5pp | +41.1pp | 1.3x | $10.28B | -22.8% | +3443.0% | $58.12B | +196.3% | +309.7% | 0.4x | 2026-06-24 | Y | $0.85–0.90 |
+| FCX | TAILWIND — AI SC L1 | $92.58B | -87.7% | +0.66 | $63.99 | +66.4% | +22.4% | $1.89 | +154.2% | +90.6% | +46.7% | 33.9x | 15.3x | 7.9% | +2.3pp | +1.8pp | 2.2x | $6.25B | +557.9% | -18.7% | $26.42B | +12.2% | +0.4% | 1.7x | 2026-07-22 | — | — |
+| MSFT | TAILWIND — AI SC L10 | $3.15T | -29.9% | -0.78 | $424.50 | -6.4% | +0.2% | $16.80 | +23.4% | +45.2% | +7.2% | 25.3x | 52.1x | 29.0% | +4.2pp | +3.0pp | 1.4x | $72.92B | -22.1% | -24.6% | $318.27B | +18.3% | +34.0% | 0.3x | 2026-07-29 | — | — |
+| IBM | TAILWIND — AI SC L13 | $248.48B | -9.8% | -0.20 | $265.23 | +4.5% | +65.2% | $11.31 | +14.3% | -25.6% | +56.8% | 23.5x | 19.1x | 13.7% | +5.1pp | +0.1pp | 1.3x | $13.09B | +20.2% | +25.9% | $68.91B | +9.5% | +10.1% | 5.0x | 2026-07-22 | — | — |
+| NVDA | TAILWIND — AI SC L4/L12 | $5.14T | -157.0% | +0.72 | $212.30 | +57.5% | +86.5% | $6.53 | +214.5% | +298.3% | +33.4% | 32.5x | 45.8x | 82.0% | -15.6pp | +0.9pp | 0.8x | $119.08B | +85.5% | +224.4% | $253.49B | +85.2% | +213.4% | 0.1x | 2026-08-26 | Y | $1.00 |
+| CDNS | TAILWIND — AI SC L2 | $102.28B | +5.4% | -0.08 | $370.53 | +28.4% | +25.1% | $4.29 | +23.0% | +35.2% | +14.7% | 86.4x | 96.7x | 15.3% | -10.5pp | -18.3pp | 1.4x | $1.43B | -33.8% | +50.7% | $5.53B | +18.7% | +46.1% | 1.9x | 2026-07-27 | Y | $1.00 |
+| AMD | TAILWIND — AI SC L4 | $842.22B | +262.3% | +0.65 | $511.47 | +353.2% | +198.0% | $3.06 | +90.9% | +1020.0% | +19.0% | 167.1x | 123.6x | 8.2% | +4.2pp | +5.9pp | 1.9x | $8.57B | +253.0% | +577.0% | $37.45B | +37.8% | +87.3% | 0.4x | 2026-08-04 | Y | $1.00 |
+| TEAM | LOSER | $24.42B | -15.6% | — | $92.97 | -56.4% | -43.6% | -$0.83 | -40.7% | -880.3% | -42.8% | — | — | -16.9% | — | +3.6pp | -5.8x | $1.20B | -12.1% | +1.2% | $6.19B | +31.7% | +50.3% | 1.0x | 2026-08-06 | — | — |
+| ZM | LOSER | $29.29B | -49.2% | +0.44 | $99.78 | +25.2% | +60.8% | $6.80 | +74.4% | +105.8% | +22.5% | 14.7x | 24.0x | 22.7% | +9.1pp | +9.7pp | 1.0x | $1.96B | +8.0% | -12.1% | $4.93B | +5.5% | +8.6% | 0.0x | 2026-08-20 | — | — |
+| AIG | LOSER — EPS+ | $40.02B | -28.3% | -0.11 | $75.43 | -6.8% | +1.8% | $5.67 | +21.6% | -19.0% | +16.8% | 13.3x | 11.4x | 7.2% | +10.6pp | -1.0pp | 1.1x | $3.52B | +376.8% | -70.1% | $26.65B | -1.8% | -1.8% | 2.6x | 2026-08-05 | — | — |
+| INTU | LOSER — EPS+ | $86.01B | -68.3% | -0.91 | $317.01 | -57.6% | -46.4% | $16.50 | +10.7% | +31.9% | +83.9% | 19.2x | 15.2x | 21.3% | +4.5pp | +5.7pp | 1.7x | $7.71B | +20.1% | +34.6% | $20.93B | +10.4% | +27.0% | 0.9x | 2026-08-20 | Y | $0.70 |
+| NOW | LOSER — EPS+ | $110.09B | -49.7% | -0.73 | $107.40 | -47.4% | -26.3% | $1.68 | +2.3% | +34.7% | +2.9% | 63.9x | 42.3x | 15.4% | -1.6pp | -8.2pp | 3.1x | $4.63B | +3.9% | +29.0% | $13.96B | +22.1% | +44.8% | 0.4x | 2026-07-22 | — | — |
+| NVO | LOSER — EPS+ | $202.88B | -98.1% | -0.03 | $45.72 | -31.1% | -64.2% | $27.41 | +67.1% | +92.1% | +20.4% | 1.7x | 6.5x | 39.2% | -13.3pp | -39.2pp | 1.0x | $31.03B | +20.4% | +127.0% | $327.80B | +24.0% | +48.2% | 1.2x | 2026-08-05 | — | — |
+| DPZ | LOSER | $10.21B | -30.6% | -0.32 | $307.52 | -35.3% | -37.7% | $17.37 | -4.6% | +15.4% | +0.9% | 17.7x | 16.7x | 74.8% | -2.3pp | +4.4pp | 1.3x | $654.1M | -10.6% | +42.2% | $4.98B | +3.5% | +6.1% | 6.6x | 2026-07-20 | — | — |
+| AXON | LOSER — EPS+ | $34.98B | -132.0% | +0.76 | $434.04 | -42.2% | +50.6% | $2.49 | +89.8% | +18.5% | +1693.8% | 174.2x | — | 6.9% | -3.0pp | -6.0pp | 0.7x | $19.5M | -5962.9% | -70.1% | $2.98B | +33.7% | +75.6% | 11.9x | 2026-08-03 | — | — |
+| META | TAILWIND — AI SC L10 | $1.61T | -63.5% | +0.39 | $634.50 | -1.1% | +33.1% | $27.50 | +62.4% | +121.7% | +172.1% | 23.1x | 62.1x | 23.4% | -9.3pp | -6.4pp | 1.8x | $48.25B | +19.3% | +3.0% | $214.96B | +33.1% | +54.5% | 0.7x | 2026-07-29 | — | — |
+| RDDT | TAILWIND — AI SC L13 | $30.86B | -569.4% | -0.56 | $160.32 | +52.1% | +174.1% | $3.53 | +621.4% | +128.7% | +86.5% | 45.4x | 56.9x | 38.7% | +31.5pp | +106.3pp | 1.2x | $868.7M | +145.8% | +965.2% | $2.47B | +69.1% | +173.1% | 0.0x | 2026-07-30 | — | — |
+| CCJ | TAILWIND — AI SC L1 | $47.45B | -13.0% | +0.67 | $108.98 | +80.8% | +102.1% | $1.50 | +93.8% | +1650.0% | +37582.8% | 72.7x | 54.5x | 14.2% | +9.7pp | +10.2pp | 1.9x | $899.7M | -286.1% | -532.3% | $3.54B | +7.1% | +33.4% | 0.6x | 2026-07-31 | — | — |
+| CSCO | TAILWIND — AI SC L7 | $469.48B | +55.3% | +0.83 | $119.12 | +92.4% | +171.2% | $3.00 | +37.1% | +84.8% | +8.3% | 39.7x | 54.6x | 18.1% | +1.2pp | -0.4pp | 1.1x | $12.62B | -6.1% | -6.3% | $60.75B | +12.0% | +24.7% | 2.4x | 2026-08-12 | — | — |
+| GEV | TAILWIND — AI SC L8 | $269.43B | -1709.0% | +0.95 | $1004.31 | +107.5% | +466.0% | $34.22 | +1816.5% | +3733.3% | +208.4% | 29.3x | 35.8x | 121.0% | -2.7pp | +127.4pp | 1.0x | $7.53B | +391.4% | +824.8% | $39.38B | +16.1% | +28.7% | 0.3x | 2026-07-22 | — | — |
+| GOOGL | TAILWIND — AI SC L10 | $4.72T | +45.4% | +0.82 | $390.38 | +127.3% | +123.1% | $13.11 | +81.9% | +170.4% | +21.5% | 29.8x | 123.3x | 30.2% | -1.9pp | +2.3pp | 1.1x | $64.43B | -46.6% | -39.9% | $422.57B | +21.8% | +36.5% | 0.5x | 2026-07-22 | — | — |
+| KLAC | TAILWIND — AI SC L2 | $253.23B | +139.4% | +0.97 | $1939.97 | +151.1% | +150.7% | $35.33 | +11.8% | +105.9% | +3.0% | 54.9x | 68.2x | 48.3% | +0.1pp | +12.7pp | 0.9x | $4.01B | -37.0% | -25.8% | $13.10B | +11.5% | +45.0% | 1.4x | 2026-07-30 | Y | $1.00 |
+| MRVL | TAILWIND — AI SC L6 | $174.02B | +289.1% | +0.13 | $199.09 | +209.1% | +155.7% | $2.91 | -80.0% | +116.0% | +183.8% | 68.4x | 172.6x | 13.5% | +15.3pp | +17.4pp | 0.8x | $1.66B | +126.8% | +107.8% | $8.72B | +27.6% | +108.3% | 2.4x | 2026-08-27 | Y | $1.00–1.10 |
+| QCOM | TAILWIND — AI SC L12 | $256.84B | -103.7% | +0.00 | $244.13 | +69.3% | +19.6% | $9.32 | +173.0% | +234.0% | +32.6% | 26.2x | 25.4x | 28.3% | -4.9pp | -1.2pp | 1.4x | $12.50B | -18.1% | -43.1% | $44.49B | -3.5% | +12.9% | 1.1x | 2026-07-29 | — | — |
+| SNPS | TAILWIND — AI SC L2 | $92.77B | +103.5% | +0.56 | $484.90 | +4.9% | -17.5% | $4.32 | -98.7% | -98.4% | -37.4% | 112.2x | 56.3x | 2.1% | -32.9pp | -20.6pp | 3.6x | $2.63B | +161.5% | +31.2% | $8.68B | +41.9% | +56.5% | 3.9x | 2026-09-08 | Y | $1.00 |
+| TSM | TAILWIND — AI SC L3 | $2.19T | +59.3% | +0.97 | $422.90 | +117.7% | +170.8% | $372.85 | +58.4% | +153.8% | +12.2% | 1.1x | 2.0x | 48.5% | +8.1pp | +19.4pp | 1.2x | $1102.16B | +27.9% | +47.9% | $4113.79B | +35.1% | +91.4% | 0.5x | 2026-07-16 | Y | $0.90–1.00 |
+| VRT | TAILWIND — AI SC L9 | $120.06B | +51.0% | +0.95 | $312.71 | +186.7% | +198.2% | $3.98 | +135.7% | +6446.2% | +29.8% | 78.6x | 53.2x | 30.4% | +13.0pp | +16.2pp | 1.7x | $2.31B | +147.3% | +547.7% | $10.84B | +30.1% | +61.6% | 1.2x | 2026-07-29 | — | — |
+| AMAT | TAILWIND — AI SC L2 | $360.48B | +149.8% | +0.96 | $454.34 | +183.2% | +108.7% | $10.64 | +33.5% | +70.4% | +9.2% | 42.7x | 66.5x | 36.3% | +0.5pp | -7.6pp | 0.9x | $5.96B | -21.6% | -26.7% | $29.02B | +11.4% | +19.0% | 0.8x | 2026-08-13 | — | — |
+| ANET | TAILWIND — AI SC L7 | $194.10B | +40.9% | +0.62 | $153.97 | +65.9% | +100.3% | $2.92 | +25.0% | +60.0% | +5.9% | 52.7x | 40.3x | 34.8% | -1.8pp | -4.9pp | 1.5x | $5.28B | +167.2% | +224.9% | $9.71B | +35.1% | +72.4% | 0.0x | 2026-08-04 | — | — |
+| ARM | TAILWIND — AI SC L2/L4 | $364.74B | +108.6% | +0.50 | $343.70 | +153.6% | +175.1% | $0.84 | +45.0% | +38.1% | +19.2% | 409.2x | 782.7x | 15.1% | -0.3pp | +6.6pp | 1.7x | $972.0M | +1.1% | -71.3% | $4.92B | +20.1% | +60.6% | 0.3x | 2026-07-29 | — | — |
+| ASML | TAILWIND — AI SC L2 | $623.82B | +95.7% | +0.80 | $1616.97 | +118.3% | +65.8% | $25.87 | +22.6% | +127.7% | +6.4% | 62.5x | 73.7x | 64.3% | -7.9pp | +11.2pp | 1.1x | $8.58B | -466.3% | -285.9% | $33.69B | +13.2% | +65.7% | 0.3x | 2026-07-15 | Y | $0.90–1.10 |
+| AMKR | TAILWIND — AI SC L3 | $17.77B | +3.7% | +0.95 | $71.57 | +291.9% | +122.5% | $1.75 | +288.2% | +37.5% | +68.4% | 40.9x | 106.2x | 10.1% | +2.0pp | +0.2pp | 2.8x | $167.2M | -42.6% | -220.2% | $7.07B | +27.5% | +23.4% | 1.3x | 2026-07-27 | Y | $1.00 |
+| AVGO | TAILWIND — AI SC L6 | $2.00T | +46.7% | +0.61 | $423.49 | +78.3% | +205.9% | $5.12 | +31.6% | +435.7% | +15.9% | 82.7x | 98.0x | 21.2% | +11.0pp | +11.1pp | 1.2x | $28.91B | +33.2% | +70.7% | $68.28B | +29.5% | +61.4% | 2.2x | 2026-06-03 | Y | $1.00 |
+| GLW | TAILWIND — AI SC L7 | $164.58B | +152.3% | +0.88 | $190.61 | +291.2% | +453.9% | $2.10 | +138.9% | +79.2% | +46.7% | 90.8x | 142.7x | 10.7% | +6.9pp | +6.0pp | 1.6x | $1.50B | +152.6% | +119.2% | $16.32B | +20.0% | +39.3% | 3.1x | 2026-08-04 | — | — |
+| JCI | TAILWIND — AI SC L9 | $82.91B | -3.1% | +0.75 | $135.92 | +35.8% | +93.4% | $5.59 | +38.9% | +343.9% | +36.9% | 24.3x | 66.3x | 16.3% | +5.6pp | +7.9pp | 0.5x | $1.40B | +19.6% | +282.5% | $24.43B | +8.2% | +9.7% | 5.4x | 2026-08-04 | — | — |
+| ORCL | TAILWIND — AI SC L13 | $583.98B | +0.8% | -0.81 | $203.20 | +25.3% | +66.7% | $5.57 | +24.5% | +49.4% | +17.5% | 36.5x | — | 12.2% | -3.6pp | -4.4pp | 1.5x | $-24.74B | -16274.6% | -402.1% | $64.08B | +21.7% | +29.4% | 6.9x | 2026-06-10 | — | — |
+| SNOW | TAILWIND — AI SC L13 | $81.23B | -18.3% | — | $235.21 | +15.1% | +56.0% | -$3.52 | +33.3% | +9.5% | +8.6% | — | — | -43.1% | +5.6pp | -16.7pp | -1.0x | $1.17B | +26.9% | -31.3% | $5.03B | +33.5% | +67.8% | 2.2x | 2026-08-26 | — | — |
+| EOG | TAILWIND | $71.75B | -13.3% | -0.26 | $134.70 | +26.3% | +14.2% | $10.16 | +39.6% | +19.4% | +33.8% | 13.3x | 17.9x | 16.1% | -6.1pp | -11.1pp | 2.0x | $4.23B | +83.0% | +38.1% | $23.48B | +15.7% | +15.8% | 0.8x | 2026-08-06 | — | — |
+| LIN | TAILWIND — AI SC L1 | $232.55B | -3.2% | -0.06 | $503.03 | +10.2% | +20.1% | $15.06 | +13.4% | +18.8% | +4.4% | 33.4x | 46.8x | 12.1% | +0.3pp | +0.2pp | 1.5x | $5.10B | +0.8% | -0.9% | $34.66B | +8.2% | +8.4% | 2.4x | 2026-08-07 | — | — |
+| APD | TAILWIND — AI SC L1 | $63.28B | -133.6% | +0.60 | $284.44 | +7.5% | +13.2% | $9.45 | +141.1% | +24.1% | +3441.2% | 30.1x | 59.7x | 6.4% | +1.1pp | -3.0pp | 2.0x | $1.11B | +250.6% | +371.4% | $12.46B | +8.8% | +8.2% | 4.5x | 2026-07-30 | — | — |
+| INTC | TAILWIND — AI SC L3/L4 | $604.38B | +774.6% | — | $120.27 | +490.4% | +289.7% | -$0.62 | -284.2% | -712.9% | -160.0% | — | — | -0.8% | +11.0pp | -5.4pp | -3.1x | $-3.12B | +41.9% | +64.7% | $53.76B | +7.2% | +6.7% | 4.5x | 2026-07-23 | Y | $1.30 |
+| LRCX | TAILWIND — AI SC L2 | $400.82B | +244.5% | +0.91 | $321.31 | +285.3% | +236.9% | $5.30 | +40.8% | +98.6% | +9.9% | 60.6x | 66.0x | 71.7% | +15.3pp | +20.2pp | 1.0x | $6.45B | -20.7% | -36.8% | $21.68B | +23.8% | +54.0% | 0.5x | 2026-07-29 | — | — |
+| HON | TAILWIND — AI SC L9 | $146.60B | +47.1% | -0.63 | $231.26 | +5.2% | +21.0% | $7.06 | -41.9% | -42.2% | +30.9% | 32.8x | 36.4x | 12.3% | -3.2pp | -8.5pp | 1.3x | $4.17B | -352.3% | -506.0% | $36.76B | -6.9% | +0.4% | 6.6x | 2026-07-23 | — | — |
+| BE | TAILWIND — AI SC L8 | $84.17B | +1088.0% | — | $297.38 | +1418.0% | +1699.0% | -$0.04 | +330.0% | +192.0% | +1394.8% | — | 711.8x | 3.6% | -0.4pp | +15.9pp | 50.0x | $233.0M | +138.0% | +128.2% | $2.45B | +130.4% | +219.2% | 9.2x | 2026-07-30 | — | — |
 
 ---
 
-## WATCHLIST
+## Thesis Archive
 
-Stocks under continuous monitoring. Move to PIPELINE when Tier 1 criteria are met. Move to DROPPED if thesis fails.
+Structured summaries for all tickers where a thesis has been completed. $/Dollar = expected value per $1 invested at thesis price. Revisit when price moves materially from the thesis price or after a significant earnings event. Tickers marked `—` in the table have no entry here — thesis pending re-run or never completed.
 
-**Column Guide** (market data columns same as PIPELINE; WATCHLIST-specific below)
-- **Status**: `WATCHING` | `READY` (Tier 1 criteria now met — move to PIPELINE)
-- **Notes**: Thesis context, entry signal criteria, and invalidation conditions
+```
+TICKER — $/Dollar — Date
+  Numbers:    financial quality, cash generation, ROIC, balance sheet
+  Narrative:  market perception, analyst stance, narrative formation
+  Projection: scenario and skew — what the price embeds vs. what remains unpriced
+  Catalyst:   next thesis-critical event, entry criteria, key invalidation signal
+```
 
-| Ticker | Tag | Mkt Cap | vs_1Y | P/E | ROIC | Avg EPS QoQ (4Q) | EPS YoY | Yrs Profitable (5yr) | Rev YoY | FCF YoY | Op Margin % | Debt/OCF | Next Earnings | Status | Thesis | Notes | Added |
-|--------|-----|---------|-------|-----|---|------------------|---------|----------------------|---------|---------|-------------|----------|---------------|--------|--------|-------|-------|
-| AMD | TAILWIND — AI SC L4 | $814.60B | +334.8% | 162.8x | 8.2% | +19.0% | +90.9% | 5/5 | +37.8% | +253.0% | 11.7% | 0.4x | 2026-08-04 | WATCHING | AMD_Thesis.md | **Full 3-pass analysis complete 2026-05-21. DOLLAR FOR A DOLLAR — slight downward skew. WATCHING.** Numbers: OCF $9.72B TTM, FCF $8.57B (23% margin), Debt/OCF 0.40x. Owner earnings (FCF−SBC) $6.81B → P/OE ~106x. ROIC 8.2% (below CoC; AMAT peer 36.3%). Amortization tail to mid-2030s ($16.2B remaining, $7.4B post-2030). Warrant vesting: 0 of 320M shares vested Mar 28, 2026 — dual conditions (GPU milestones + stock price targets); liability-classified, marks to market. Pass 2 key findings: (1) CPU TAM doubled to $120B by 2030 — AMD repositioned as CPU+GPU AI platform, additive TAMs; (2) Helios demand visibility "down to which data centers" — strongest demand language AMD has given for any product launch; (3) Stacy Rasgon Q1 Q&A evasion suggests ex-China AI GPU was flat-to-down sequentially in Q1 — H2 depends entirely on Helios executing; (4) Helios margins confirmed below corporate average, no timeline to convergence. Narrative STRONG; Catalyst PRESENT BUT BACK-LOADED — July 2026 Advancing AI event (nearest); Q3 2026 earnings (Oct/Nov) is first thesis-confirming data point (first Helios revenue). Conviction on business HIGH; conviction on investment at $444.50 LOW. **Promote to PIPELINE if:** vs_1Y ≤50% (price ~$270-300), OR ROIC >15% TTM AND warrant milestones confirmed commercially paced, OR FY2026 non-GAAP EPS ≥$7.00 AND ROIC crossing 10% TTM by Q3 2026. **Invalidation:** Q3 2026 Data Center revenue <$7.0B; non-GAAP GM <54% for 2 consecutive quarters; ROIC fails to cross 10% TTM by Q4 2026; warrant vesting surprise P&L charge; Meta/OpenAI GPU commitment reduction; Lisa Su or Jean Hu departure. | 2026-05-21 |
-| TEAM | LOSER | $22.70B | -58.8% | — | -16.9% | -42.8% | -40.7% | 0/5 | +31.7% | -12.1% | -3.7% | 1.0x | 2026-08-06 | WATCHING | TEAM_Thesis.md | Full analysis complete 2026-05-08. MONITOR verdict. Owner earnings -$356M TTM (FCF-SBC); SBC 24-27% of revenue 4 consecutive years — no confirmed normalization. Revenue quality excellent (NRR >120%, RPO $4B +37%, 25.7% CAGR). Non-GAAP EPS beat amplified by restructuring add-back (~$0.86/share) absent from FY2025 comparisons. CEO explicit FY2027 GAAP profitability commitment (first in 11 public years). **Promote to PIPELINE if:** Aug 6 Q4 FY2026 shows SBC/Rev ≤21% AND organic cloud growth ≥20%. **Remove if:** SBC/Rev ≥25% in Q4 FY2026 OR FY2027 GAAP target deferred OR new restructuring plan in FY2027 Q1–Q2. | 2026-05-08 |
-| ZM | LOSER | $29.25B | +25.9% | 14.6x | 22.7% | +22.5% | +74.4% | 5/5 | +5.5% | +8.0% | 24.2% | 0.0x | 2026-08-20 | WATCHING | ZM_Thesis.md | Synthesis complete 2026-05-06. MONITOR — SOTP: $7.8B cash + Anthropic stake (~0.6% est.; $3.6B at $600B Anthropic → core at 16.9x owner earnings). KEY WATCH: Q1 FY27 **2026-05-21** — beat+raise and Contact Center ARR disclosure is primary near-term catalyst test. Upgrade to BUY—MEASURED on: (1) price pullback to $85-90, OR (2) Anthropic IPO confirmed >$500B, OR (3) Contact Center $500M+ ARR at 50%+ growth. Invalidation: revenue <2% for 2+ qtrs, NRR below 95%, Anthropic IPO delayed past 2027. Counter-signal: insider selling (CEO -65.5%, COO -86.7%, CFO -24.8% in same 90-day window). | 2026-05-06 |
-| AIG | LOSER — EPS+ | $41.02B | -4.9% | 13.7x | 7.2% | +16.8% | +21.6% | 4/5 | -1.8% | +376.8% | 14.7% | 2.6x | 2026-08-05 | WATCHING | — | FCF +408.8% diverging strongly from EPS — worth monitoring for earnings recovery confirmation. | — |
-| CPB | LOSER | $6.15B | -36.2% | 11.2x | 7.7% | +16.8% | -17.2% | 5/5 | -4.5% | +56.4% | 12.1% | 6.2x | 2026-06-08 | WATCHING | — | FCF +56.4% and QoQ improving despite YoY decline — direction of travel improving. | — |
-| INTU | LOSER — EPS+ | $84.22B | -58.6% | 18.7x | 21.3% | +83.9% | +10.7% | 5/5 | +10.4% | +20.1% | 27.5% | 0.9x | 2026-08-20 | WATCHING | INTU_Thesis.md | Synthesis complete 2026-04-23. MONITOR — entry signal: Q3 FY2026 (May 21) confirms TurboTax Live 35%+, revenue at high end of guidance, Credit Karma holds. Invalidation: TurboTax Live <20% growth, revenue <11%, IRS Direct File expansion. | — |
-| LULU | LOSER | $15.84B | -58.5% | 10.0x | 31.9% | +9.3% | -19.1% | 5/5 | +0.8% | -17.7% | 19.8% | 1.1x | 2026-06-04 | WATCHING | — | — | — |
-| NOW | LOSER — EPS+ | $104.45B | -50.6% | 60.5x | 15.4% | +2.9% | +2.3% | 5/5 | +22.1% | +3.9% | 13.4% | 0.4x | 2026-07-22 | Complete | NOW_Thesis.md | **BUY — MEASURED** (2026-05-10). Owner earnings $2.60B; FCF P/FCF ~21x; forward P/S 6.1x — below historical fair value. Armis closed Apr 21; Now Assist raised to $1.5B target; sub gross margin FY2026 guide 81.5% (Q1 78% was partly one-time). Numbers STRONG. Catalyst: Q2 earnings ~Jul 22 (gross margin recovery, Now Assist pace, Armis contribution). Narrative building institutionally but not in price (−12% AH on beat-and-raise). **Upgrade to CONVICTION if Jul 22:** sub gross margin ≥79%, Now Assist H1 pace ≥$650M NNACV, Armis on guide. **Invalidation:** Q2 sub gross margin <77%; Now Assist cumulative implying <$1.0B FY; post-Armis ROIC <10% in H2 2027; organic growth <17% CC. | 2026-05-10 |
-| NVO | LOSER — EPS+ | $197.70B | -34.4% | 1.6x | 39.2% | +20.4% | +67.1% | 5/5 | +24.0% | +20.4% | 45.3% | 1.2x | 2026-08-05 | WATCHING | — | P/E 1.8x and FCF -750.8% are almost certainly FMP data errors. Flag for manual audit before thesis decision. | — |
-| DPZ | LOSER | $10.45B | -34.3% | 18.0x | 74.8% | +0.9% | -4.6% | 5/5 | +3.5% | -10.6% | 19.6% | 6.6x | 2026-07-20 | WATCHING | DPZ_Thesis.md | Demoted from PIPELINE 2026-04-28 — EPS YoY turned -5.0% (was +9.6%); lost LOSER—EPS+ tag. Debt/OCF 6.6x elevated. Promote back if next earnings recovers EPS. | 2026-04-15 |
-| AXON | TAILWIND | $30.35B | -49.1% | 152.3x | 6.9% | +1693.8% | +89.8% | 5/5 | +33.7% | -5962.9% | 1.5% | 11.9x | 2026-08-03 | WATCHING | AXON_Thesis.md | Demoted from PIPELINE 2026-04-28 — Tier 3 spread; Financials phase analysis was in progress. Debt/OCF 9.0x and Op Margin 0.0% are concerns to resolve. | 2026-04-14 |
-| META | TAILWIND — AI SC L10 | $1.55T | -4.6% | 22.2x | 23.4% | +172.1% | +62.4% | 5/5 | +33.1% | +19.3% | 41.2% | 0.7x | 2026-07-29 | Complete | META_Thesis.md | **BUY — ACCUMULATE (2026-05-10).** FoA quality exceptional (41% margins, 33% rev growth, OCF $124B TTM, GAAP P/E 21.8x vs. 28.3x 5yr avg). Muse Spark validated; value optimization suite $20B+ run rate (2×YoY); partnership ads $10B+ (2×YoY). Owner economics near-negative in 2026 (FCF ~$3B − SBC ~$22B ≈ −$19B at $135B capex midpoint). ROIC declining toward 16–19% by end-2026. $234.8B+ off-balance-sheet commitments. 2027 capex opaque — mgmt declined to guide, said they "continue to underestimate" compute needs. No discrete near-term catalyst; Q2 earnings is a data gate, not a re-rating event. Buy quality compounder at compressed multiple on weakness toward $580–600. **Invalidation:** ad rev growth <25% YoY for 2 qtrs; 2027 capex $150B+; ROIC TTM <15%; EU DSA fine >$5B; ad impression growth <10% YoY. | 2026-05-10 |
-| RDDT | TAILWIND — AI SC L13 | $28.73B | +42.3% | 42.2x | 38.7% | +86.5% | +621.4% | 2/5 | +69.1% | +145.8% | 25.1% | 0.0x | 2026-07-30 | WATCHING | RDDT_Thesis.md | Filtered at Financials 2026-04-29 — 83× owner earnings (FCF−SBC) on 1/5 yrs profitability; 238.5% EPS growth is largely IPO SBC normalization artifact, not durable compounding. Re-entry: 2–3 consecutive profitable quarters surviving Q1 seasonal weakness + SBC/Rev declining toward 10% + data licensing revenue at material scale. | 2026-04-14 |
-| UMAC | TAILWIND | $576.22M | +225.0% | — | -5.0% | -136.0% | +200.0% | 0/5 | +296.4% | -1417.3% | -168.9% | — | 2026-08-13 | WATCHING | UMAC_Thesis.md | Demoted from PIPELINE 2026-04-28 — Tier 3 spread; FCF -705.6%, Op Margin -224.6%. Price has outrun pre-profitability thesis. | 2026-04-14 |
-| BKH | TAILWIND — AI SC L8 | $5.72B | +33.3% | 19.6x | 5.4% | +60.8% | -7.5% | 5/5 | -3.0% | -221.8% | 23.3% | 7.5x | 2026-07-29 | WATCHING | BKH_Thesis.md | Tier 2 spread +26.8%; FCF -67.8% and Debt/OCF 7.0x are concerns. | — |
-| CCJ | TAILWIND — AI SC L1 | $46.46B | +75.7% | 70.7x | 14.2% | +37582.8% | +93.8% | 4/5 | +7.1% | -286.1% | 16.6% | 0.6x | 2026-07-31 | WATCHING | — | Tier 3 spread +111.9%; Avg QoQ is near-zero base noise. | — |
-| CSCO | TAILWIND — AI SC L7 | $470.69B | +91.2% | 39.7x | 18.1% | +8.3% | +37.1% | 5/5 | +12.0% | -6.1% | 23.4% | 2.4x | 2026-08-12 | WATCHING | — | Tier 2 spread +23.6% — approaching Tier 1; clean fundamentals. | 2026-04-28 |
-| GEV | TAILWIND — AI SC L8 | $277.90B | +117.9% | 30.0x | 121.0% | +208.4% | +1816.5% | 2/5 | +16.1% | +391.4% | 3.9% | 0.3x | 2026-07-22 | WATCHING | — | Tier 1 spread by math (-1623%) but base-effect distortion (prior EPS near-zero). QoQ +208.7% and FCF +391.4% are the real signals. Op Margin 3.9% is thin. | — |
-| GOOGL | TAILWIND — AI SC L10 | $4.71T | +125.8% | 29.7x | 30.2% | +21.5% | +81.9% | 5/5 | +21.8% | -46.6% | 32.7% | 0.5x | 2026-07-22 | WATCHING | — | Tier 3 spread +87.2%; strong fundamentals but price has meaningfully outrun earnings. | — |
-| KLAC | TAILWIND — AI SC L2 | $259.69B | +153.3% | 56.2x | 48.3% | +3.0% | +11.8% | 5/5 | +11.5% | -37.0% | 42.1% | 1.4x | 2026-07-30 | WATCHING | — | Tier 3 spread +121.4%; QoQ flat — deceleration signal. | — |
-| LRCX | TAILWIND — AI SC L2 | $400.55B | +284.5% | 60.5x | 71.7% | +9.9% | +40.8% | 5/5 | +23.8% | -20.7% | 34.3% | 0.5x | 2026-07-29 | WATCHING | — | Tier 4 spread +213%; FCF declining. | — |
-| MP | TAILWIND — AI SC L1 | $11.42B | +242.8% | — | -2.0% | -31.7% | +71.4% | 3/5 | +118.6% | +15.4% | -39.4% | — | 2026-08-06 | WATCHING | — | Tier 2 spread +10.4%; no GAAP earnings, FCF -877.9% — pre-profitability. | — |
-| MRVL | TAILWIND — AI SC L6 | $179.37B | +219.3% | 66.2x | 17.7% | +203.4% | +100.0% | 1/5 | +22.1% | -41.5% | 16.3% | 2.6x | 2026-05-27 | Complete | MRVL_Thesis.md | **Full thesis complete 2026-05-25. DOLLAR FOR $1.00–1.10 — bull case priced at $195.79.** CRITICAL L6/L7; owner earnings mult 211x (FCF−SBC = $0.81B); normalized GAAP P/E ~171x; ROIC ~8%. ASIC demand contracted (POs secured; H2 FY27 second XPU ramp in plan); optical platform (Celestial AI) 12-24mo from revenue. **No new entry.** Q1 FY27 May 27 binary catalyst. Bear: Distributor A destocking (38% rev) → $72-91. Bull: beat + ramp → $266-280. **Invalidation:** Q1 FY27 <$2.3B; second XPU delay; Distributor A AR buildup; Celestial AI slip >Q3 FY28. | 2026-05-25 |
-| QCOM | TAILWIND — AI SC L12 | $244.18B | +59.4% | 24.8x | 28.3% | +32.6% | +173.0% | 5/5 | -3.5% | -18.1% | 25.5% | 1.1x | 2026-07-29 | WATCHING | — | Tier 2 spread +5.7%; EPS barely negative, QoQ fading — approaching Tier 1 if EPS recovers. | — |
-| SNPS | TAILWIND — AI SC L2 | $101.34B | +3.5% | 81.1x | 4.3% | -9.6% | -78.8% | 5/5 | +65.5% | +859.5% | 10.8% | 4.1x | 2026-05-27 | Complete | SNPS_Thesis.md | HOLD — FAIRLY VALUED. GAAP EPS depressed by Ansys amortization ($394M/qtr); honest owner earnings P/E ~42x vs. headline 34x non-GAAP. EDA duopoly moat confirmed; monetization gap real; joint solution revenue FY2027+. Q2 (May 27) is thesis-critical: IP sequential improvement required. EV ≈ $476 vs. $495 price. | 2026-05-15 |
-| TSM | TAILWIND — AI SC L3 | $2.22T | +115.9% | 1.1x | 48.5% | +12.2% | +58.4% | 5/5 | +35.1% | +27.9% | 53.2% | 0.5x | 2026-07-16 | Complete | TSM_Thesis.md | BUY — MEASURED. Tier 3 spread +82.3%; P/E 1.0x is a confirmed FMP data error (correct: ~34.8x trailing). Upgrade to CONVICTION on Oct print if N3 margin crossover confirms or pricing shift signals. | 2026-05-08 |
-| VRT | TAILWIND — AI SC L9 | $123.16B | +187.4% | 79.2x | 30.4% | +29.8% | +135.7% | 5/5 | +30.1% | +147.3% | 18.5% | 1.2x | 2026-07-29 | WATCHING | — | Tier 3 spread +117.3%; large run partially justified by earnings acceleration. | — |
-| BE | TAILWIND — AI SC L8 | $84.51B | +1365.9% | — | 3.6% | +1394.8% | +330.0% | 2/5 | +130.4% | +138.0% | 8.2% | 9.2x | 2026-07-30 | WATCHING | — | Prior removal flag stale — EPS YoY reversed to +350.0% (was -99.1%). vs_1Y +1076.6% and Debt/OCF 9.1x remain concerns. Reassess from current data. | — |
-| AMAT | TAILWIND — AI SC L2 | $356.57B | +178.1% | 42.0x | 36.3% | +9.2% | +33.5% | 5/5 | +11.4% | -21.6% | 29.5% | 0.8x | 2026-08-13 | WATCHING | — | Tier 3 spread +80.1%; earnings accelerating, FCF +91.2%. | 2026-04-28 |
-| ANET | TAILWIND — AI SC L7 | $196.67B | +68.2% | 53.3x | 34.8% | +5.9% | +25.0% | 5/5 | +35.1% | +167.2% | 42.8% | 0.0x | 2026-08-04 | WATCHING | — | Tier 3 spread +92.3%; dominant AI networking, clean balance sheet. | 2026-04-28 |
-| ARM | TAILWIND — AI SC L2/L4 | $330.80B | +133.4% | 372.1x | 15.1% | +19.2% | +45.0% | 4/5 | +20.1% | +1.1% | 18.3% | 0.3x | 2026-07-29 | WATCHING | — | Tier 4 — EPS declining at P/E 264.9x; architecture royalty thesis not yet in GAAP numbers. | 2026-04-28 |
-| ASML | TAILWIND — AI SC L2 | $621.09B | +113.9% | 62.1x | 64.3% | +6.4% | +22.6% | 5/5 | +13.2% | -466.3% | 34.8% | 0.3x | 2026-07-15 | WATCHING | Complete | Tier 3 spread +85.0%; EUV monopoly structural premium; FCF YoY extreme negative likely one-time. | 2026-05-12 |
-| AMKR | TAILWIND — AI SC L3 | $18.05B | +287.3% | 41.3x | 10.1% | +68.4% | +288.2% | 5/5 | +27.5% | -42.6% | 7.6% | 1.3x | 2026-07-27 | WATCHING | AMKR_Thesis.md | **Full thesis complete 2026-05-21. DOLLAR FOR A DOLLAR — marginally below parity. WATCHING.** CRITICAL L3 OSAT; adj P/E ~43.7x (useful life ext +$0.20 EPS). FCF ~-$1.4-1.9B in 2026; NOT self-funding. Apple 29.8% revenue (concentration risk). 5+ HDFO customers (broadening). Supply constraint $50-100M/quarter pushout risk. **Upgrade to BUY—MEASURED on:** (1) pullback to $48-55; OR (2) Q2 earnings Jul 27 confirms EPS ≥ $0.47 + computing growing share + GM ≥ 15%; OR (3) CHIPS Act first disbursement announced. **Invalidation:** AI packaging < 2× by Q3 Oct earnings; GM < 13% any H2 qtr; Apple diversifies sourcing; dilutive equity raise; ROIC < 8% TTM. Bear ~$28-31; Bull ~$70-75. | — |
-| AVGO | TAILWIND — AI SC L6 | $2.02T | +81.7% | 83.0x | 21.2% | +15.9% | +31.6% | 5/5 | +29.5% | +33.2% | 40.9% | 2.2x | 2026-06-03 | Complete | AVGO_Thesis.md | **Full thesis complete 2026-05-25. DOLLAR FOR A DOLLAR — base case fully priced at $412.91.** CRITICAL L6; 6 hyperscaler XPU customers (Google 2031, Meta 2029, OpenAI 2029). FY2027 AI chip guidance "well over $100B" (≈10GW, bottoms-up verified). Owner earnings mult 95.7x (FCF $28.91B − SBC $8.46B = $20.45B); GAAP P/E 78.2x, non-GAAP 56.8x. Amortization burns $7.88B→$3.18B/yr by FY2030: mechanical GAAP EPS tailwind ~$0.75/share/yr. Rack margin concern reversed Q1 FY2026. VMware 13% YoY, ARR +19%. Singapore tax: non-GAAP rate 14%→16.5% (manageable ~-$0.25/share). **Hold existing; new entry wait for pullback to $310-350 or June 3 beat-and-raise.** Bear: rack margin re-compression →~$259-302. Bull: FY2027 beat + amortization → $720-900. **Invalidation:** non-GAAP GM <74%; FY2027 AI guidance <$80B; Google order pause; software revenue declines 2 consecutive qtrs; Apollo/BX $35B financing confirmed. | 2026-05-25 |
-| GLW | TAILWIND — AI SC L7 | $162.75B | +281.7% | 89.4x | 10.7% | +46.7% | +138.9% | 5/5 | +20.0% | +152.6% | 15.3% | 3.1x | 2026-08-04 | WATCHING | — | Tier 3 spread +113%; re-rating from depressed base; QoQ solid. | — |
-| HON | TAILWIND — AI SC L9 | $147.90B | +5.7% | 33.2x | 12.3% | +30.9% | -41.9% | 5/5 | -6.9% | -352.3% | 14.9% | 6.6x | 2026-07-23 | WATCHING | — | Tier 4 — EPS declining -42.4%, FCF -352.3%. Thesis needs catalyst before promoting. | 2026-04-28 |
-| JCI | TAILWIND — AI SC L9 | $84.60B | +38.4% | 24.7x | 16.3% | +36.9% | +38.9% | 5/5 | +8.2% | +19.6% | 13.6% | 5.4x | 2026-08-04 | WATCHING | — | Tier 3 spread +42.1%; earnings and FCF genuinely growing; Debt/OCF 5.4x borderline. | 2026-04-28 |
-| ORCL | TAILWIND — AI SC L13 | $547.56B | +17.9% | 33.9x | 12.2% | +17.5% | +24.5% | 5/5 | +21.7% | -16274.6% | 30.8% | 6.9x | 2026-06-10 | WATCHING | — | Tier 2 spread +2.3% — near Tier 1; FCF YoY -16274.6% is almost certainly a data error; manual audit needed. | 2026-04-28 |
-| SNOW | TAILWIND — AI SC L13 | $60.92B | -14.9% | — | -71.6% | -0.1% | +9.1% | 0/5 | +30.1% | +81.5% | -30.6% | 2.2x | 2026-05-27 | WATCHING | — | Spread -19.4% but EPS still deeply negative GAAP (0/5 profitable). Rev +30.1% and FCF +81.5% are the real signals. Promote only when GAAP turns positive. | 2026-04-28 |
-| COP | TAILWIND | $140.64B | +39.7% | 19.7x | 9.8% | -1.0% | -20.2% | 5/5 | -2.5% | +56.9% | 18.3% | 1.3x | 2026-08-06 | WATCHING | — | ConocoPhillips — upstream E&P; AI data center power demand angle. Run tracker_update.py to populate. | 2026-04-28 |
-| EOG | TAILWIND | $71.50B | +25.0% | 13.2x | 16.1% | +33.8% | +39.6% | 5/5 | +15.7% | +83.0% | 36.9% | 0.8x | 2026-08-06 | WATCHING | — | EOG Resources — upstream E&P; AI data center power demand angle. Run tracker_update.py to populate. | 2026-04-28 |
-| LIN | TAILWIND — AI SC L1 | $236.85B | +10.8% | 34.0x | 12.1% | +4.4% | +13.4% | 5/5 | +8.2% | +0.8% | 28.8% | 2.4x | 2026-08-07 | WATCHING | — | Linde — industrial/process gases for semiconductor fabs. Run tracker_update.py to populate. | 2026-04-28 |
-| APD | TAILWIND — AI SC L1 | $64.01B | +7.2% | 30.3x | 6.4% | +3441.2% | +141.1% | 5/5 | +8.8% | +250.6% | 18.4% | 4.5x | 2026-07-30 | WATCHING | — | Air Products and Chemicals — industrial gases, hydrogen. Run tracker_update.py to populate. | 2026-04-28 |
-| INTC | TAILWIND — AI SC L3/L4 | $600.78B | +484.7% | — | -0.8% | -160.0% | -284.2% | 2/5 | +7.2% | +41.9% | -9.4% | 4.5x | 2026-07-23 | WATCHING | INTC_Thesis.md | Thesis complete 2026-05-14. MONITOR — dollar for $1.30 at $116.14; narrative STRONG, Numbers ABSENT, Catalyst MODERATE. Intel Products healthy (32% margins, six consecutive guidance beats, supply-constrained); Intel Foundry losing $2.4B/qtr (-45% margins). 18A yields ahead of schedule; advanced packaging demand upgraded to "billions/year"; Google LTA + multiple anonymous LTAs signed. ASIC business doubled YoY. Entry signal: pullback to $75-85 OR Apple confirmed at commercial scale (>$1B foundry revenue). Catalysts: Q2 earnings 2026-07-23, H2 2026 14A commitments, H2 Analyst Day. **Invalidation:** (1) 14A PDK 1.0 delayed past Q4 2026; (2) Apple absent from H2 2026 LTA announcements; (3) 18A yields stall below 60% by Q3 2026; (4) Foundry gross margin not neutral by Q4 2027; (5) Zinsner FCF/breakeven guidance materially withdrawn; (6) Lip-Bu Tan departure. Run tracker_update.py to populate market data. | 2026-05-14 |
+---
+
+**IT — $0.75–0.80 — 2026-05-26**
+  Numbers:    Management-confirmed 27% ROIC, 12% FCF yield, 10.6% owner earnings yield, $3.0B all-fixed-rate debt at Debt/OCF 2.38x — priced for stagnation, not its actual quality.
+  Narrative:  Zero upgrades, retail entirely disengaged, securities class action unaddressed — stock fell 5.6% on an 11% EPS beat; story has not turned.
+  Projection: Bear case bounded at $97-135; federal lapping mechanism starting Q2 is calendar-driven; BTI engagement improvement (+170bps) is first evidence of transformation working.
+  Catalyst:   Q2 earnings Aug 4 — ex-Fed CV acceleration to 4%+ and total CV approaching 3% are the binary tests; adverse litigation development is the unquantified tail risk.
+
+**BR — ~$1.10 (est., pre-May 14 format) — 2026-04-30**
+  Numbers:    98% client retention, $1.3B FCF, 18% FCF CAGR, 7.3% FCF yield, Debt/OCF conservative — priced for structural moat erosion not visible in any reported metric.
+  Narrative:  AI disruption thesis is mis-targeted — Wells Fargo case shows banks using Broadridge technology to internalize proxy decisions, not bypassing it; zero sell ratings.
+  Projection: Bull case owns the DLR tokenization rail ($365B/day, growing); bear case is closed sales decline (-16-19%) becoming structural, visible in retention within 12-18 months.
+  Catalyst:   Q4 FY2026 earnings ~Aug 4 — $93-143M in Q4 closed sales validates deal-slippage narrative; below-midpoint miss shifts risk assessment materially toward re-evaluation.
+
+**NFLX — $0.80–0.85 — 2026-05-26**
+  Numbers:    ROIC 38.9%, expanding margins (31%+), growing FCF, no fundamental deterioration — one of the strongest quality profiles in the tracker.
+  Narrative:  Institutional upgrades during selloff, resolved overhangs (WBD walk-away, Hastings transition), building at ~50-60% formation — not yet dominant.
+  Projection: Market pricing "premium multiple era is over" — likely overcorrect if advertising proves a durable second revenue engine; discount conditional on ad revenue becoming visible.
+  Catalyst:   Q2 earnings Jul 16 — guidance raise + first formal ad revenue quantification moves thesis toward $0.70 and accelerates narrative; flat guidance keeps it at $1.00 (no margin of safety).
+
+**MU — $0.85–0.90 — 2026-05-22**
+  Numbers:    Real cash-backed earnings at unprecedented ROIC (34.5% TTM vs. 7.6% five-year avg); FY2027 capex step-up ($35-40B net) may redirect most FCF back into deployment.
+  Narrative:  SCA structural evolution, HBM4 Vera Rubin design-in, ASML CEO validation — well-formed and credible, but broadly adopted; marginal buyers are FOMO retail, not new institutional conviction.
+  Projection: Strong FY2026, uncertain FY2027 — priced to require the new earnings floor thesis correct; bear scenario (historical cycle precedent) is not compensated in the current price.
+  Catalyst:   Q3 FY26 earnings Jun 24 — FY2027 margin guidance is critical new information; re-entry zone below $500-550 where bear scenario is priced in with margin.
+
+**NVDA — $1.00 (asymmetric upside, 3–6 month window) — 2026-05-22**
+  Numbers:    ROIC ~117% operational, FCF $48.6B, $80.5B liquid, OCF/NI 1.10x — circular investment arrangement ($18.6B/qtr at 38% of FCF) is structurally underacknowledged but offset by real operating earnings.
+  Narrative:  Fully formed with named ROI evidence (Meta ad-click +3.5%, Anthropic 10x YoY); analyst consensus unanimous Buy; agentic AI inflection declared by Jensen on Q4 call with specific commercial data.
+  Projection: Base case priced in at $219.88 (Blackwell continuation, Rubin on schedule, China zero); Rubin pricing gap ($4.92/hr cost vs $12.25/hr ceiling) and China optionality remain unembedded upside.
+  Catalyst:   Q2 FY27 ~Aug 2026 — Rubin revenue >10% of Data Center at disclosed ASP above GB300 confirms pricing power; any top-5 hyperscaler cutting 2027 CapEx guidance below 2026 level is primary invalidation.
+
+**CDNS — $1.00 (option on $1.15–1.20 in 18–36 months) — 2026-05-18**
+  Numbers:    EDA duopoly moat, self-funding, exceptional quality — but priced at 85x owner earnings with zero margin of safety on current-year metrics.
+  Narrative:  AI chip design boom and agentic platform story institutionally credible, not at bubble extremes — analyst targets close to current price, not parabolic.
+  Projection: Fair price for quality compounder; 3-5 year horizon makes AI TAM optionality material; <12-month horizon carries 20-30% downside risk in a growth deceleration scenario.
+  Catalyst:   Q2 earnings Jul 27 and H2 management update — IP/EDA confirmation and Hexagon synergy ramp are resolution events; FY2026 adj EPS below $7.50 at any update is primary invalidation.
+
+**SNPS — $1.00 — 2026-05-18**
+  Numbers:    39.5% pre-acquisition ROIC, EDA duopoly moat, self-sustaining cash generation — but 42x owner earnings after proper SBC accounting is not cheap for 8-9% organic EDA growth.
+  Narrative:  Elliott engagement, NVIDIA partnership, institutional accumulation building — joint solution monetization (FY2027) has language credit but not multiple expansion yet.
+  Projection: EV ~$476 vs. $494 price implies slight downward lean; $490-520 base case; bull case ($550-580) requires FY2027 joint solution revenue; bear case ($375-420) requires IP deterioration to persist.
+  Catalyst:   Q2 earnings May 27 (thesis-critical: IP sequential improvement required); Elliott disclosure is asymmetric upside catalyst; Design IP sequential decline in Q2 is immediate reassessment trigger.
+
+**AMD — $1.00 (slight downward skew) — 2026-05-21**
+  Numbers:    OCF/FCF quality confirmed; ROIC below cost of capital; P/OE ~106x; amortization tail through mid-2030s suppresses GAAP convergence — numbers alone cannot justify current price.
+  Narrative:  CPU TAM doubling, Helios demand visibility "down to which data centers," hyperscaler co-engineering depth — still in expansion mode, not yet priced exhaustively.
+  Projection: Symmetrical dollar terms but asymmetric percentage: -40% downside to bear (Helios miss); +15-30% upside to July/Q3 catalyst; risk/reward does not favor initiation.
+  Catalyst:   July 2026 Advancing AI event (nearest re-rating opportunity); Q3 2026 earnings Oct/Nov (first Helios revenue data — primary thesis-confirming event); ROIC crossing 10% TTM by Q4 2026.
+
+**AMKR — $1.00 (marginally below parity) — 2026-05-21**
+  Numbers:    Real business, stable OCF, CRITICAL L3 — but adj. P/E ~43.7x, FCF deeply negative ($-1.4-1.9B in 2026), ROIC 10.1% declining; not self-funding at current capex pace.
+  Narrative:  Institutional momentum building (CoWoS overflow, HDFO broadening) — management narrative coherent and repeating, but largely priced in at 81st percentile of 52-week range.
+  Projection: Weighted EV approximately flat to -5% from $67.67; 30-45% downside probability vs. 20-35% bull probability; not a buy at current price.
+  Catalyst:   Q2 earnings Jul 27 requires triple confirmation (EPS ≥$0.47 + computing growing + GM ≥15%); entry at $48-55 or CHIPS Act first disbursement; AI packaging <2× by Q3 is primary invalidation.
+
+**INTU — $0.70 — 2026-05-21**
+  Numbers:    Exceptional (ROIC 21.3%, P/OE 15.1x, 5yr EPS CAGR 19.4%, Debt/OCF 0.87x, $7.71B FCF) — business does not support the AI disruption dislocation narrative at any level.
+  Narrative:  Fragile (C+) — nine analyst Buy ratings held post-Q3 beat, but 20% drop on a beat-and-raise; targets declining $636→$419 over same period stock fell 59%; market not ready to receive evidence.
+  Projection: Bear case bounded (AI disruption not materialized in three consecutive quarters); restructuring savings unquantified is primary uncertainty; 12-18 month re-rating window, not 3-6.
+  Catalyst:   Q4 FY2026 Aug 20 — first post-restructuring report with FY2027 guidance; restructuring savings quantification is single most important disclosure; TurboTax revenue decline (not units) is primary invalidation.
+
+**MRVL — $1.00–1.10 — 2026-05-25**
+  Numbers:    CRITICAL L6/L7; ROIC ~8% (below CoC); owner earnings 211x (FCF−SBC=$0.81B); bull case fully priced at $195.79; base case 17-46% downside.
+  Narrative:  Contracted ASIC demand confirmed with POs, second XPU ramp secured — but optical platform (Celestial AI) 12-24mo from revenue; Goldman Sachs EPS gap ($15B FY28 revenue not translating proportionately) unanswered.
+  Projection: Current price at midpoint of discounted bull scenario, not below it; base case fair value $105-162; bull $171-210; downside asymmetry sharper than Context suggested.
+  Catalyst:   No new entry at current price; pullback to $140-160 range required; Q1 FY27 May 27 binary event; second XPU delay or Distributor A AR buildup are primary invalidation triggers.
+
+**AVGO — $1.00 (binary Jun 3 event) — 2026-05-25**
+  Numbers:    CRITICAL L6; 6 hyperscaler XPU customers through 2029-2031; FY2027 AI chip "well over $100B"; owner earnings 95.7x (FCF$28.9B−SBC$8.5B=$20.5B); VMware ARR +19%, ARR $7.7B.
+  Narrative:  Execution-validated — rack margin concern reversed Q1 FY2026; $7.88B amortization burning off creates mechanical GAAP EPS tailwind through FY2030; Singapore tax impact manageable.
+  Projection: Base case fully priced at $412.91; bear (-30 to -50%) larger than bull (+10-30%) — late-cycle quality dynamic; hold existing, new entry requires pullback to $310-350.
+  Catalyst:   Jun 3 earnings — beat-and-raise converts to $1.20, miss converts to $0.80; non-GAAP GM <74% or FY2027 AI guidance <$80B are primary invalidation triggers.
+
+**KLAC — $1.00 — 2026-05-12**
+  Numbers:    46% average cycle ROIC, 1.07x OCF/NI, 38-43% stable operating margins — exceptional quality; but at ~51x trailing GAAP P/E, stock is essentially at analyst consensus target ($1,852 EV vs. $1,845 price).
+  Narrative:  WFE cycle confirmed, HBM process control intensity structural, 2nm ramp visibility strong — narrative solid but broadly priced; stock split Jun 11 (10-for-1) is economically neutral.
+  Projection: EV/price ~1.004; base case (50%) implies flat returns 18 months; bear case (25%) implies ~40% downside; only bull case (25%) generates meaningful alpha.
+  Catalyst:   Q4 FY2026 earnings Jul 30 — H2 ramp confirmation and 2027 WFE guidance update; entry at $1,500-1,600 pre-split ($150-160 post-split); WFE 2027 below $130B is primary invalidation.
+
+**TSM — $0.90–1.00 — 2026-05-13**
+  Numbers:    ROIC 48.5%, FCF growing, N2 ramp confirmed, no leverage — 33x trailing P/E embeds 25-35% EPS growth 2-3 years; geopolitical discount for Taiwan domicile is real but hard to model.
+  Narrative:  AI infrastructure demand confirmed, N3 crossover imminent, government structural support — P/E 1.0x in tracker is a confirmed FMP data error (correct ~34.8x trailing).
+  Projection: Upside to $450-490 on N3 margin confirmation; downside to ~$253 if AI capex decelerates materially (low probability); strong thesis at fair price.
+  Catalyst:   Oct 2026 print — N3 gross margin crossover or pricing shift confirmation triggers upgrade to CONVICTION; AI capex deceleration from any top-3 CSP is primary invalidation.
+
+**ASML — $0.90–1.10 — 2026-05-12**
+  Numbers:    EUV monopoly, 64.3% ROIC, 34.8% operating margin — exceptional quality; FCF YoY extreme negative likely one-time; structural demand from EUV node transitions non-discretionary.
+  Narrative:  Premium justified by EUV monopoly; MATCH Act geopolitical risk is primary overhang; analyst consensus strong but geopolitical discount limits near-term multiple expansion.
+  Projection: Essentially fairly valued with modest upside lean; high quality at a stretched price; bull case requires sustained EUV adoption cadence at expected pace.
+  Catalyst:   Q2 earnings Jul 15; MATCH Act legislative developments; FY2026 revenue below €35B or gross margin below 50% any quarter are primary invalidation triggers.
+
+**INTC — $1.30 — 2026-05-14**
+  Numbers:    Absent — Intel Products healthy (32% margins, six consecutive guidance beats) but Foundry losing $2.4B/qtr at -45% margins; no owner earnings; speculative at current price.
+  Narrative:  Strong — 14A ahead of schedule, Google LTA + anonymous LTAs signed, ASIC doubled YoY, Lip-Bu Tan institutional credibility — "Intel turnaround" narrative gaining traction.
+  Projection: Buying $2.00 of story at $1.00 of confirmed fundamentals — $150+ path on Apple commercial scale confirmation; $70-80 analyst consensus without foundry thesis materializing.
+  Catalyst:   Q2 earnings Jul 23; H2 2026 14A customer commitments; entry on pullback to $75-85 or Apple >$1B foundry revenue confirmation; 14A PDK 1.0 delay past Q4 2026 is primary invalidation.
 
 ---
 
@@ -179,6 +247,13 @@ Thesis failed, dislocation resolved, or better alternatives found. No market dat
 
 | Ticker | Tag | Date | Reason |
 |--------|-----|------|--------|
+| CAG | LOSER — EPS+ | 2026-05-28 | ROIC -1.0%, Debt/OCF 5.3x, negative EPS TTM — no earnings quality to support the spread signal. Value trap. |
+| UMAC | TAILWIND | 2026-05-28 | Pre-profitability, ROIC -5.0%, FCF -$40M, Spread +273.2% — no thesis support at current price. |
+| LULU | LOSER | 2026-05-28 | EPS vs_1Y -19.1%, ROIC -14.5pp, FCF vs_1Y -17.7% — multi-year deterioration across all dimensions, not a dislocation. |
+| CPB | LOSER | 2026-05-28 | EPS vs_1Y -17.2%, Debt/OCF 6.2x, ROIC 7.7% — high-debt declining consumer staples; value trap profile. |
+| BKH | TAILWIND — AI SC L8 | 2026-05-28 | FCF negative, Debt/OCF 7.5x, EPS declining — leverage and cash generation disqualify thesis. |
+| MP | TAILWIND — AI SC L1 | 2026-05-28 | Unprofitable, negative FCF, Spread +161.8% (Tier 4), ROIC -2.0% — pre-profitability speculation. |
+| COP | TAILWIND | 2026-05-28 | EPS vs_1Y -20.2%, Rev vs_1Y -2.5%, ROIC declining — non-AI commodity play with deteriorating fundamentals on all fronts. |
 | AVAV | TAILWIND — AI SC L12 | 2026-04-28 | Dislocation reversed — vs_1Y +31.8%; EPS YoY -5150% disqualifies TAILWIND thesis. |
 | TH | TAILWIND — AI SC L9 | 2026-04-28 | EPS YoY -215.4% AND Avg QoQ -487.1% — both horizons negative; thesis broken. |
 | CC | TAILWIND | 2026-04-28 | EPS YoY -649.1%, Avg QoQ -2361.8%, Debt/OCF 17.4x — no thesis support. |
@@ -196,9 +271,9 @@ Thesis failed, dislocation resolved, or better alternatives found. No market dat
 
 Market data columns updated daily by `Scripts/tracker_update.py`. Use Price vs. Entry Price to identify add-to-position opportunities.
 
-| Ticker | Entry Date | Entry Price | Shares | Cost Basis | Price | vs_1Y | P/E | Avg EPS QoQ (4Q) | EPS YoY | Rev YoY | Next Earnings | Thesis |
-|--------|------------|-------------|--------|------------|-------|-------|-----|------------------|---------|---------|---------------|--------|
-| ADBE | 2026-04-17 | $250.00 | 20 | $5,000.00 | $240.30 | -41.8% | 14.0x | +2.8% | +11.4% | +12.0% | 2026-06-11 | ADBE_Thesis.md |
-| AMZN | 2026-02-05 | $214.89 | 46.535 | $9,999.78 | $268.35 | +30.3% | 32.1x | +16.1% | +74.8% | +16.6% | 2026-07-30 | — |
-| CRM | 2026-04-17 | $181.70 | 27.517 | $4,999.84 | $180.81 | -34.3% | 23.2x | +5.1% | +18.3% | +12.1% | 2026-05-27 | — |
-| IVV | — | $586.94 | 36.91 | $21,664.06 | $753.79 | +28.5% | — | — | — | — | — | — |
+| Ticker | Entry Date | Entry Price | Shares | Cost Basis | Price | vs_1Y | P/E | EPS QoQ (4Q) | EPS vs_1Y | Rev vs_1Y | Next Earn | Thesis |
+|--------|------------|-------------|--------|------------|-------|-------|-----|--------------|-----------|-----------|-----------|--------|
+| ADBE | 2026-04-17 | $250.00 | 20 | $5,000.00 | $241.06 | -41.5% | 14.0x | +2.8% | +11.4% | +12.0% | 2026-06-11 | ADBE_Thesis.md |
+| AMZN | 2026-02-05 | $214.89 | 46.535 | $9,999.78 | $269.95 | +31.9% | 32.3x | +16.1% | +74.8% | +16.6% | 2026-07-30 | — |
+| CRM | 2026-04-17 | $181.70 | 27.517 | $4,999.84 | $178.97 | -34.7% | 20.7x | +11.6% | +52.2% | +13.3% | 2026-09-02 | — |
+| IVV | — | $586.94 | 36.91 | $21,664.06 | $757.21 | +29.8% | — | — | — | — | — | — |

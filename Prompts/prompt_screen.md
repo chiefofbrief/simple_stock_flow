@@ -2,7 +2,7 @@
 
 ## Role
 
-You are screening a list of tickers to determine which warrant further investigation and potential addition to the tracker. The primary question is whether earnings growth is outpacing price growth, and whether the underlying business quality is durable enough to support a thesis. This is triage, not analysis. The output is a structured comparison table and a brief per-ticker narrative — sufficient to surface the strongest candidates and dismiss the rest.
+You are screening a list of tickers to determine which warrant further investigation and potential addition to the tracker. This is triage, not analysis. The output is a structured comparison table and a brief per-ticker narrative — sufficient to surface the strongest candidates and dismiss the rest.
 
 ---
 
@@ -25,6 +25,31 @@ Read the output file produced at:
 Data/screening/Screen_{DATE}.txt
 ```
 
+The script outputs the following metrics for each ticker:
+- **Mkt Cap** — market capitalization
+- **Spread** — Price vs_1Y minus EPS vs_1Y (≤0 = earnings outpacing price)
+- **P/E Corr** — Pearson correlation of monthly price vs. TTM EPS over 12 months
+- **Price** — current price
+- **Price vs_1Y** — price change vs. 1 year ago
+- **Price vs_2Y** — price change vs. 2 years ago
+- **EPS TTM** — trailing twelve months EPS (diluted)
+- **EPS vs_1Y** — most recent quarter EPS vs. same quarter prior year
+- **EPS vs_2Y** — EPS vs. same quarter two years ago
+- **EPS QoQ (4Q)** — average of last 4 quarterly EPS changes (smoothed momentum)
+- **P/E** — GAAP trailing P/E (TTM)
+- **P/OE** — price to owner earnings (Market Cap / (FCF TTM − SBC TTM))
+- **ROIC** — TTM return on invested capital (NOPAT / Invested Capital)
+- **ROIC Δ1Y** — ROIC change vs. 1 year ago (percentage points)
+- **ROIC Δ2Y** — ROIC change vs. 2 years ago (percentage points)
+- **OCF/NI** — operating cash flow / net income (accrual quality)
+- **FCF TTM** — trailing twelve months free cash flow
+- **FCF vs_1Y** — FCF change vs. prior year
+- **FCF vs_2Y** — FCF change vs. 2 years ago
+- **Rev TTM** — trailing twelve months revenue
+- **Rev vs_1Y** — revenue change vs. prior year
+- **Rev vs_2Y** — revenue change vs. 2 years ago
+- **Debt/OCF** — total debt / TTM operating cash flow
+
 Do not proceed until the script completes successfully. If the script fails or returns missing data for any ticker, note the gap explicitly and proceed with available data — do not silently omit a ticker.
 
 **STOP. Do not proceed until GEMINI.md sections and the script output have both been read.**
@@ -43,7 +68,7 @@ Work through the Output Format in order. The Metric Interpretations section at t
 ### Analysis Guidelines
 
 **Primary question first**
-The spread and P/E correlation answer the primary question: is earnings growth outpacing price growth? Quality metrics then assess whether the business behind that signal is durable. Do not lead with quality if the primary signal is absent or weak — establish the signal first.
+Spread is the primary signal: is earnings growth outpacing price growth? ROIC is the second-order signal: is the business behind that spread creating durable value? All other metrics contribute to conviction holistically — this is a holistic read, not a sort. For example, a weak spread with exceptional ROIC and broad quality support can outrank a strong spread with deteriorating fundamentals. Establish the spread first, then assess the full picture.
 
 **Comparison frame**
 This is a side-by-side screening, not a series of individual analyses. Read tickers against each other. A spread that looks strong in isolation may look less compelling against a peer with a stronger spread and higher ROIC. The contrast between candidates is as informative as any individual reading.
@@ -51,11 +76,11 @@ This is a side-by-side screening, not a series of individual analyses. Read tick
 **Quarterly weighting**
 For cyclical and growth businesses where an industry inflection may be underway, weight Avg EPS QoQ (4Q) appropriately alongside the annual figures. Do not allow a lagging annual comparison to dismiss a live earnings recovery visible in the quarterly trend.
 
-**Earnings quality flags**
-If OCF/NI is below 0.8 for any ticker, flag it explicitly in the narrative. If FCF is declining while EPS is growing across multiple periods, flag it. These are not automatic disqualifiers — but they must be named and addressed, not absorbed silently into a positive read.
+**GAAP vs. adjusted**
+Every P/E and EPS figure must be read as GAAP. Where GAAP and adjusted figures diverge materially (>15%), flag the gap and note the drivers — the adjusted figure may exclude real recurring costs such as SBC.
 
 **Source discipline**
-This analysis is grounded in the script output and the Metric Interpretations below. Do not introduce outside metrics or frameworks not defined here. If additional context from outside the script output would materially change the read on a ticker, flag it explicitly rather than incorporating it without notice.
+This analysis must be grounded in the script output and the Metric Interpretations below. Outside knowledge — industry norms, general financial theory — may inform interpretation but must never substitute for data. When you draw on outside knowledge, say so explicitly. When data needed for a conclusion is unavailable, flag the gap — do not fill it with assumptions.
 
 ---
 
@@ -111,8 +136,7 @@ Debt/OCF                 |          |          |          |
 
 Below the table, write a ranked priority list before the full narratives. Group tickers into three buckets:
 
-- **Investigate** — clear signal, quality supports it, worth a full thesis run
-- **Monitor / Needs Context** — signal present but distorted, incomplete, or quality mixed; needs one specific thing resolved before proceeding
+- **Add to Tracker** — signal clear enough to warrant ongoing monitoring; quality supports it, or a specific blocker is identified and named
 - **Skip** — no signal, inverted signal, or quality disqualifies it
 
 Format: one line per ticker, in order within each bucket. Each line states the one-sentence reason. Answer three things implicitly in that sentence: is earnings outpacing price, are earnings reliable, and what is the key flag.
@@ -135,18 +159,12 @@ Do not restate the numbers — interpret them. The table already contains the da
 
 Answer the following internally before presenting output. Do not include these answers in your output — they are for your own verification only. If any answer is no, revise before proceeding.
 
-- Has the spread been computed and interpreted correctly for each ticker, using both 1Y and 2Y?
-- Has P/E correlation been read alongside the spread — not in isolation?
-- Has the price vs_1Y and vs_2Y combination been used to assess whether the dislocation is recent or chronic?
-- Has Avg EPS QoQ been weighted appropriately for any ticker where a quarterly inflection appears to be underway?
-- Has P/Owner Earnings been computed as FCF minus SBC, and compared to P/E in the narrative where the gap is material?
-- Has OCF/NI been explicitly flagged in the narrative for any ticker below 0.8?
-- Has declining FCF alongside growing EPS across multiple periods been flagged where it occurs?
+- Has the Metric Interpretations been read before beginning?
+- Has quarterly weighting been applied where an inflection appears underway?
+- Has the ranking been holistic — not just a Spread sort?
 - Does the narrative interpret rather than restate the numbers?
 - Have the strongest and weakest candidates been distinguished — is the comparison frame present?
-- Has every row in the table been populated, or noted as unavailable with a reason?
-- Does the priority ranking appear between the table and the narratives — not above the table?
-- Does each ranking line answer all three questions implicitly: signal direction, earnings reliability, key flag?
+- Are GAAP vs. adjusted gaps flagged where they diverge materially (>15%)?
 
 ---
 
