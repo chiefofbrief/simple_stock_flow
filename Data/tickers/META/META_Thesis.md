@@ -611,7 +611,213 @@ The thesis is **confirmed but with higher-than-initially-apparent valuation comp
 7. What do peers (Google, Amazon) report as their advertising growth rates in Q1 2026 — does META's 33% acceleration reflect share gain or industry-wide improvement? [This requires checking other tracker data or earnings call data]
 
 ### The Projection
-*Pending analysis.*
+
+---
+
+**Q1. Which earnings call is more strategically material for the current thesis?**
+
+The Q4 2025 call (February 2026) is the more strategically material call. It established the annual capex guidance range ($115–135B originally, raised in Q1), set RL loss guidance ("likely the peak"), introduced the FCF outlook for 2026, disclosed full-year 2025 results as the baseline, and contained the most substantive analyst questions on long-term capital allocation strategy. The Q1 2026 call (April 2026) refined and updated that framework — it raised capex guidance to $125–145B, refined RL guidance from "likely the peak" to "remain similar to 2025," and provided Q2 revenue guidance ($58–61B). Both calls are read here; Q4 2025 sets the strategic narrative and Q1 2026 updates it. [CONFIRMED: META_earnings_remarks.md, both call sections]
+
+---
+
+**Q2. What did management say vs. what did the numbers show?**
+
+**Revenue**: Management characterized Q4 2025 as a strong close to the year, with full-year 2025 revenue of $163.57B (+21.9%) and Q4 specifically at $48.39B (+21% YoY). Q1 2026 revenue of $56.31B (+33%) demonstrated an acceleration they attributed directly to AI-driven improvements in ad ranking and recommendation. [CONFIRMED: META_earnings_remarks.md, Q4 2025 and Q1 2026 prepared remarks] The numbers validate the narrative: ad impressions grew +12% in FY2025 and re-accelerated to +19% in Q1 2026; average price per ad grew +9% in FY2025 and +12% in Q1 2026. Both volume and price are moving in the right direction simultaneously. [CONFIRMED: META_mda_excerpts.md, advertising metrics Q1 2026]
+
+**AI product traction**: Management introduced several quantitative AI product metrics:
+- Business AIs at 10M weekly conversations as of Q1 2026 call date, up 10x year-to-date. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+- AI glasses daily active users tripling YoY. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+- Value optimization suite (Andromeda, Lattice, conversational ads) exceeding $20B annual revenue run rate, doubled YoY. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+- Partnership ads reaching $10B annual run rate, doubled YoY. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+
+These are quantitative milestones for AI advertising — not speculative futures but current-period revenue run rates. They materially strengthen the thesis that AI is already flowing through to the income statement in the form of improved ad products.
+
+**Muse Spark**: The Muse Spark Large Multimodal (MSL) model was released in Q1 2026, enabling META's first video generation and editing capabilities for creators on Instagram and Facebook. [CONFIRMED: META_earnings_remarks.md, Q1 2026] Zuckerberg described this as the "most capable model in our history for our use cases." [CONFIRMED: META_earnings_remarks.md, Q1 2026] The path from Muse Spark to incremental monetization is not direct or immediate — it builds creator engagement, which builds DAP, which drives advertising.
+
+**Infrastructure deployment**: Zuckerberg confirmed 1 GW of MTIA chip deployment with Broadcom on a 2nm process, with new NVIDIA systems also being rolled out alongside AMD chips. This is a hybrid compute strategy, not a single-vendor dependency. [CONFIRMED: META_earnings_remarks.md, Q1 2026] The AMD chips were described as "complementing NVIDIA" rather than replacing it. The Broadcom MTIA is specifically suited for META's inference workloads.
+
+**RL tone shift**: Q4 2025 language: "expect [RL operating losses to be] approximately similar to last year or possibly improve." [CONFIRMED: META_earnings_remarks.md, Q4 2025] Q1 2026 language: "We expect our full-year 2026 Reality Labs operating losses to increase compared to 2025." [CONFIRMED: META_earnings_remarks.md, Q1 2026] This is a material revision — RL losses will not be flat, they will grow. The softening was not prominent in Q1 headlines but represents a meaningful upward shift in the RL cost trajectory. [INFERRED: Comparison of Q4 2025 and Q1 2026 prepared remarks language]
+
+**Capex**: The capex increase from $115–135B to $125–145B guidance was attributed to higher memory component costs (primarily HBM memory pricing), not an expansion of the scope of the program. [CONFIRMED: META_earnings_remarks.md, Q1 2026; META_earnings_qa.md, Q1 2026 Q5] This is a cost inflation story, not a deliberate acceleration — which is meaningfully different for long-term return analysis. The capacity itself was not increased; the cost per unit of compute did.
+
+---
+
+**Q3. What forward guidance and financial projections did management provide?**
+
+**Q2 2026 Revenue**: $58B–$61B, implying YoY growth of approximately 33–37% (Q2 2025 was approximately $44.9B per tracker data). [CONFIRMED: META_mda_excerpts.md, 10-Q Guidance; META_earnings_qa.md, Q1 2026]
+
+**Full-year 2026 expenses**: $162B–$169B (unchanged from Q4 2025 guidance). [CONFIRMED: META_mda_excerpts.md, 10-Q Guidance] This implies operating income growth — if full-year revenue approaches $230B+ and expenses are capped at $169B, operating income would be approximately $61B+ at the high end, before RL losses. [ESTIMATED: Revenue estimate from Q1 run rate + guidance; expense from confirmed guidance]
+
+**Full-year 2026 CapEx**: Raised to $125B–$145B from $115B–$135B. [CONFIRMED: META_mda_excerpts.md, 10-Q Guidance] This guidance increase was memory-cost-driven, not scope-driven.
+
+**Reality Labs FY2026**: Operating losses to "increase compared to 2025." [CONFIRMED: META_earnings_remarks.md, Q1 2026] FY2025 RL losses were $19.19B. [CONFIRMED: META_financial_analysis.md] The 2026 RL loss could therefore reach $20B+ — a headwind not captured in the prior "similar to 2025" framing.
+
+**Tax rate**: Guidance of 13–16% for remaining 2026 quarters (excluding Q1's CAMT benefit). [CONFIRMED: META_mda_excerpts.md, 10-Q Guidance]
+
+**FCF 2026**: Management's Q4 2025 framing indicated they expect available funds and cash generation to support all infrastructure investments. Susan Li's Q4 2025 response to the FCF question: "We're in a strong position to support [infrastructure] with the cash generation of our business this year." [CONFIRMED: META_earnings_qa.md, Q4 2025 Q4 analyst question] This is not a commitment to positive FCF but strongly implies it is expected. Note: Q1 2026 CapEx guidance was raised subsequent to this Q4 2025 statement — the revised math (midpoint $135B capex vs. ~$130–140B estimated OCF) tightens the FCF margin.
+
+**2027 CapEx**: Management explicitly declined to provide 2027 capex guidance on the Q1 2026 call. Susan Li: "We're not providing guidance for 2027 at this time." [CONFIRMED: META_earnings_qa.md, Q1 2026 Q3] The reasoning was that capacity planning is dynamic and demand projections remain highly uncertain.
+
+---
+
+**Q4. Tone and language changes between Q4 2025 and Q1 2026 calls — what signals a shift?**
+
+Three tone shifts are noteworthy:
+
+**RL losses**: Q4 2025 framed as "peak" or possible improvement. Q1 2026 explicitly guided higher. This is a reversal — not a catastrophic one, but a directional change that adds cost without a visible revenue offset.
+
+**Product timeline**: Q4 2025 Zuckerberg was confident about Muse Spark and AI product cadence. Q1 2026, when asked about specific Muse Spark product monetization timelines, he gave a qualitative 3-step framework (model quality → product scale → monetize) without specific dates. [CONFIRMED: META_earnings_qa.md, Q1 2026 Q1] The absence of specificity on timelines when pressed is a mild red flag — consistent with genuine uncertainty rather than evasion, but worth tracking.
+
+**Manus acquisition**: On the Q4 2025 call, the Manus acquisition was mentioned in a positive context as furthering agentic capabilities. On the Q1 2026 call, Zuckerberg said "still working through details, no update." [CONFIRMED: META_earnings_qa.md, Q1 2026 Q4] A completed acquisition that produces no update on the following quarterly call is unusual. This may indicate integration challenges or regulatory review.
+
+**CapEx narrative**: The capex increase from Q4 to Q1 was characterized as memory cost inflation, not strategic scope expansion. [CONFIRMED: META_earnings_qa.md, Q1 2026 Q5] However, the refusal to provide 2027 guidance — while saying capacity planning is dynamic — creates ambiguity about whether the capex ramp is a defined 1-2 year program or an open-ended commitment.
+
+---
+
+**Q5. Which open questions from Pass 1 are resolved? Which remain open?**
+
+**Resolved:**
+
+(1) **FCF positive 2026**: Strongly implied by Q4 2025 management language ("strong position to support infrastructure with cash generation"). Not a binding commitment. The subsequent capex guidance increase tightens the margin, but the $81.18B cash buffer and $30B November 2025 debt issuance provide flexibility. [CONFIRMED: META_earnings_qa.md, Q4 2025 Q4; META_mda_excerpts.md, Q1 2026]
+
+(2) **ROIC signposts from Zuckerberg**: Addressed at length — but only qualitatively. Zuckerberg's framework (model quality → product quality → scale → monetize) is a logical roadmap but has no specific financial milestones attached. The ROIC question will not be answered until 2026–2027 operating results confirm whether the AI advertising improvement compounds or plateaus. [CONFIRMED: META_earnings_qa.md, Q1 2026 Q1]
+
+(3) **MTIA/AMD/Broadcom architecture**: Confirmed as a hybrid compute strategy. 1 GW MTIA with Broadcom for inference; NVIDIA for training; AMD complementing as available. Not single-vendor dependent. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+
+(4) **RL path**: Q4 2025 was NOT the peak as described — Q1 2026 guidance explicitly says losses will increase. The "peak" language from Q4 appears to have been premature or revised in light of higher planned investment. [CONFIRMED: META_earnings_remarks.md, Q1 2026 vs. Q4 2025]
+
+(5) **Cloud computing**: Q4 2025 Q&A addressed this directly. Zuckerberg: "over the next couple of years, advertising will be the primary revenue driver" but he wants META to be "leaders across each of the major technology waves — mobile, social, AI." Selling compute to other companies is framed as a "worst case" scenario (Zuckerberg's terminology on an earlier investor day), not a primary strategy. [CONFIRMED: META_earnings_qa.md, Q4 2025 Q5]
+
+**Remaining open:**
+
+(6) **$28B RVG trigger conditions**: Not addressed on either call. The Louisiana Venture residual value guarantee remains an unaddressed contingent liability. No analyst asked about it on either call.
+
+(7) **Peer advertising growth rates**: Not available from earnings call data in this analysis. Whether META's +33% ad growth reflects share gain versus industry-wide improvement cannot be confirmed from available files. This is a gap that would require peer (Google, Amazon) earnings data.
+
+(8) **Manus acquisition integration**: Status unclear. Q1 2026 produced no update.
+
+---
+
+**Q6. What were analysts most focused on — and what does the pattern of questions reveal?**
+
+The analyst questioning pattern across both calls reveals three primary concerns:
+
+**CapEx ROI (primary concern)**: Brian Nowak (Morgan Stanley) asked the most pointed ROIC question on the Q1 2026 call — effectively asking for financial signposts for when capex spending will show returns. [CONFIRMED: META_earnings_qa.md, Q1 2026 Q1] The response was qualitative. Ross Sandler (Barclays) probed the $100B AMD commitment in Q4. Shmulik Kogan asked specifically about whether management intended to provide 2027 capex guidance. [CONFIRMED: META_earnings_qa.md, Q1 2026 Q3] The refusal to guide 2027 created visible concern — several follow-up questions in the Q1 session returned to capex duration.
+
+**FCF sustainability**: Douglas Anmuth (JPMorgan) asked directly about FCF on the Q4 2025 call. [CONFIRMED: META_earnings_qa.md, Q4 2025 Q4] The management response implied confidence but avoided an explicit FCF commitment.
+
+**Advertising durability and AI lift**: Multiple analysts probed whether AI ad improvements had further headroom or were plateauing. Susan Li's response on the Q1 2026 call confirmed the recommendation model improvements "have significant headroom remaining" — specifically mentioning the new trillion-parameter LLM-scale model operating at sub-second latency via intelligent routing. [CONFIRMED: META_earnings_qa.md, Q1 2026 Q2]
+
+**Agentic commerce opportunity**: Eric Sheridan (Goldman Sachs) asked about the pathway from AI agents to commerce on both calls. Zuckerberg was enthusiastic about business AIs managing customer service and lead generation. The $10B partnership ads ARR (doubled YoY) is the most concrete quantitative evidence of agentic monetization already in the income statement. [CONFIRMED: META_earnings_qa.md, Q4 2025; META_earnings_remarks.md, Q1 2026]
+
+**What the pattern reveals**: The analyst community is not questioning the advertising business quality — it is questioning the capex duration and ROI. This is the correct question. The absence of meaningful pushback on the advertising metrics themselves (impressions, pricing, product improvements) implies broad buy-side acceptance that the core business is executing. The unresolved debate is purely on capital allocation.
+
+---
+
+**Q7. Catalyst check — what is the most likely market event to shift the narrative positively or negatively?**
+
+**Primary catalyst (positive)**: Q2 2026 earnings (July 29, 2026) confirming $58B+ revenue in line or above guidance midpoint, FoA margins holding at 45%+ despite cost ramp, and either (a) CapEx growth rate stabilizing or narrowing to the low end of guidance, or (b) Zuckerberg providing concrete signals of post-2026 capex normalization. Any specific 2027 capex guidance would be a significant positive catalyst. [CONFIRMED: Stock_Tracker.md, next earnings 2026-07-29; META_mda_excerpts.md, guidance]
+
+**Secondary catalyst (positive)**: An announced cloud computing product or enterprise AI agreement at scale — any named contract with a Fortune 500 company for META's AI infrastructure would trigger a narrative re-rating. Currently speculative. [INFERRED: META_news.md, Motley Fool cloud commentary; META_earnings_qa.md, Q4 2025 Q5]
+
+**Primary catalyst (negative)**: A Q2 2026 miss against the $58–61B guidance, or a further capex raise to $145B+ on the Q2 call, would likely trigger a price reaction toward the 52-week low ($520). At that point the stock would be priced at approximately 10.4x OCF — a compelling entry for patient capital, but the sentiment headwind would be severe.
+
+**Regulatory catalyst (negative)**: FTC antitrust appeal outcome remains pending. A ruling requiring Instagram or WhatsApp divestiture would fundamentally impair the thesis. Timeline is uncertain. The district court ruled in META's favor in November 2025; the FTC filed notice of appeal January 20, 2026. [CONFIRMED: META_mda_excerpts.md, 10-K Risks section; META_notes.md, lines 1873-1878] Appeal outcomes typically take 18–36 months.
+
+**Sentiment catalyst (negative)**: The EU employee mouse-click surveillance ruling (Reuters, May 29, 2026) could accelerate regulatory pressure. EU GDPR enforcement actions that materially restrict ad targeting in Europe would impact the 39% YoY Europe revenue growth that is partially driving Q1 2026 outperformance. [CONFIRMED: META_news.md, Reuters headline 2026-05-29; META_mda_excerpts.md, European segment growth]
+
+---
+
+**Q8. Named companies surfacing across both calls — supply chain and competitive map:**
+
+```
+Broadcom (AVGO) — Supplier; MTIA chip design and manufacturing partner, 2nm process, 1 GW deployment confirmed. Deal extended through 2029. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+
+NVIDIA — Supplier; New NVIDIA systems being deployed alongside MTIA. Training workloads. Not replacing MTIA — complementary architecture. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+
+AMD — Supplier; Chips complementing NVIDIA in compute stack. $100B infrastructure commitment broader than chips alone. [CONFIRMED: META_earnings_remarks.md, Q1 2026; context_ai_supply_chain_index.md]
+
+EssilorLuxottica — Hardware partner; Ray-Ban and Oakley AI glasses. Daily users tripling YoY. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+
+Anthropic — Competitor reference; analysts used Anthropic's coding-focused AI as a contrast to META's social/advertising focus. [CONFIRMED: META_earnings_qa.md, Q1 2026]
+
+Amazon/AWS — Cloud partner; $14.72B contingent cloud capacity commitment, 5-year. [CONFIRMED: META_mda_excerpts.md, 10-Q]
+```
+
+No new supply chain candidates surfaced that were not already identified in Passes 1 and 2. The Broadcom MTIA partnership is the most strategically important — it represents META's vertical integration into custom silicon, reducing dependence on NVIDIA for inference workloads.
+
+---
 
 ### Synthesis
-*Pending finalization.*
+
+---
+
+#### Bear Case
+
+The bear case for META is not implausible — it is arithmetically coherent.
+
+**The core bear argument**: META is voluntarily compressing its FCF to near zero in 2026 to fund an infrastructure program ($125–145B capex) whose returns are qualitatively described but not financially demonstrated. At current reported metrics, owner earnings (FCF minus SBC) are approximately $26B against a $1.60T market cap — a 62x owner-earnings multiple. [ESTIMATED: $48.25B FCF - $22.31B SBC / $1.60T market cap; values confirmed from META_financial_analysis.md and META_profile.json] This is not a bargain on a current-economics basis.
+
+**The RL cost escalation is now confirmed**: Q1 2026 management explicitly guided RL operating losses will increase relative to FY2025's $19.19B. [CONFIRMED: META_earnings_remarks.md, Q1 2026; META_financial_analysis.md FY2025 RL losses] The prior "likely the peak" narrative from Q4 2025 did not hold. RL has now consumed $60B in cumulative operating losses since 2020, with no revenue trajectory that suggests profitability before 2028 at the earliest — and that may be optimistic. [INFERRED: META_financial_analysis.md RL loss trend; management commentary]
+
+**Capex duration uncertainty is the most dangerous element**: Management declined to provide 2027 capex guidance on the Q1 2026 call. [CONFIRMED: META_earnings_qa.md, Q1 2026 Q3] A "dynamic planning process" for multi-hundred-billion-dollar commitments is not reassuring. If 2027 capex is $125–145B (matching 2026), the multi-year OCF-to-capex ratio remains at or near 1:1, meaning FCF stays near zero and owner earnings remain compressed through at least 2028. The $237B in non-cancelable commitments as of Q1 2026 confirms the infrastructure program is largely locked in — META is not in a position to reverse course. [CONFIRMED: META_mda_excerpts.md, 10-Q Guidance]
+
+**Regulatory tail risks are not priced in**: The FTC antitrust appeal is pending (Instagram/WhatsApp divestiture remains the theoretical outcome). [CONFIRMED: META_notes.md, lines 1873-1878] EU DMA compliance failures carry ongoing fine exposure and potential operational restrictions. The GDPR surveillance ruling (May 2026) adds a new enforcement layer. The $45.95B VIE maximum loss exposure (Louisiana Venture) is not recorded on balance sheet and is not visible in standard metrics. [CONFIRMED: META_notes.md, lines 1368-1372] The $28B residual value guarantee creates a contingent liability that could crystallize if data center real estate values deteriorate — not a likely scenario but not impossible given the pace of capacity buildout across all major hyperscalers.
+
+**Advertising is not immune to macro**: At 95%+ advertising revenue concentration, META is highly exposed to cyclical advertising budget cuts. [INFERRED: META_mda_excerpts.md — no non-advertising revenue material disclosure] A consumer recession, trade-disruption-driven ad budget compression, or iOS/Apple privacy enforcement escalation could hit revenue simultaneously with the peak capex year. The comment noted in the Reddit data — "if oil stays elevated, consumer discretionary spend gets squeezed, that hits return on ad spend for advertisers, which means ad budgets get cut first" [CONFIRMED: META_social.md, r/ValueInvesting ↑108, May 2, 2026] — is arithmetically correct as a scenario, not yet as a current reality.
+
+**The downside price math**: If FoA operating margins compress to 35% (plausible in a 15% revenue growth + elevated D&A scenario) and RL losses reach $21B, consolidated operating income falls to approximately $56B. At 14% tax, net income = ~$48B. At 18x GAAP P/E (reasonable for 15% growth), market cap = ~$864B — a ~46% decline from current $1.60T. At $627/share, the downside scenario implies approximately $335/share. [ESTIMATED: Using confirmed FoA revenue trajectory and margin; confirmed RL loss guidance; assumed multiple contraction] This is a meaningful downside for a stock often described as "the cheapest Mag-7."
+
+---
+
+#### Bull Case
+
+The bull case is grounded in demonstrated financial performance, not speculative narrative.
+
+**The advertising AI improvement is real and in the income statement**: Q1 2026 ad impressions +19%, ad price +12% — both re-accelerating from FY2025 (impressions +12%, price +9%). [CONFIRMED: META_mda_excerpts.md, 10-Q advertising metrics] This is not a projection. The value optimization suite exceeds $20B annual revenue run rate, doubled YoY. Partnership ads at $10B annual run rate, doubled YoY. [CONFIRMED: META_earnings_remarks.md, Q1 2026] The AI is producing measurable, growing advertiser returns that are compounding.
+
+**3.56 billion daily active people is a structural moat that competitors cannot replicate in any plausible scenario**: Facebook, Instagram, WhatsApp, and Messenger collectively serve a user base larger than any prior media entity in history. [CONFIRMED: META_mda_excerpts.md, 10-Q — 3.56B DAP Q1 2026] Advertising revenue follows attention. Attention follows social connection. Social connection has network effects that reinforce concentration. No competitor has approached this scale, and new entrants (TikTok regulatory uncertainty, Reddit in a niche) are not displacing the core platforms in the near term.
+
+**OCF is growing at 19% CAGR while producing $124B TTM — the business is an exceptional cash engine**: The 5-year OCF CAGR of 19% on a base that is already $124B is one of the more remarkable cash generation records in modern business. [CONFIRMED: META_financial_analysis.md] The capex ramp is compressing FCF, not OCF. The core cash generation is intact and growing.
+
+**The owner-earnings multiple compresses rapidly if growth continues**: At 33% revenue growth sustained into 2027–2028, with FoA margins at 45–48%, the forward owner-earnings multiple on 2028 estimates could be as low as 20–25x. The 62x trailing owner-earnings multiple is a trailing metric on a high-growth business — it overstates the forward burden at high growth rates. If revenues reach $280–300B by FY2028 with improving margins, owner earnings could reach $50–70B, implying a 23–32x forward price/owner-earnings at today's price. [ESTIMATED: Applying 15-20% revenue growth assumption from confirmed 2026 run rate; margin assumptions from current FoA trajectory; forward owner-earnings derivation]
+
+**The capex is building a structural infrastructure advantage that is self-reinforcing**: The MTIA chip (1 GW deployment with Broadcom) reduces inference costs below GPU-equivalent economics. As inference costs fall, AI ad product quality improves. Better products attract more ad spend. More ad spend funds more infrastructure. The reflexivity loop here is not speculative — the $20B value optimization suite ARR (doubled YoY) is the current-period evidence that the loop is operating. [CONFIRMED: META_earnings_remarks.md, Q1 2026]
+
+**The "worst case is cloud computing" quote is actually a bull case signal**: Zuckerberg's public comments about excess compute potentially being sold to third parties frames the worst case as a business that generates additional revenue. [INFERRED: META_news.md, Motley Fool headline 2026-05-29; META_earnings_qa.md, Q4 2025 Q5] A company where the downside produces a new revenue stream is structurally positioned differently from one where the downside produces write-offs.
+
+**The stock is at a 21% discount from 52-week highs on accelerating fundamentals**: The 52-week high of $796 was reached while fundamentals were demonstrably good. Q1 2026 fundamentals are better than whatever drove the stock to $796. The pullback to $627 is entirely capex-narrative-driven — there is no impairment of the actual advertising business. Institutions have maintained bullish consensus (median target $835) throughout the capex uncertainty. [CONFIRMED: META_analyst.md; META_profile.json]
+
+**The upside price math**: If the AI advertising improvement continues and operating margins re-expand to 44% on $240B+ revenue by FY2028, operating income approaches $105B, minus $21B RL losses = $84B consolidated, minus 14% tax = $72B net income. At 25x GAAP P/E, market cap = $1.80T — approximately +13% from current. This is the conservative bull case. At 30x P/E (justified for 20%+ forward EPS growth), market cap = $2.16T, or approximately +35% from current. [ESTIMATED: Forward estimates from confirmed guidance and current trajectory; multiple assumption based on growth rate and peer context]
+
+---
+
+#### Expected Value
+
+**Classification**: TAILWIND — AI SC L10 (Application Layer), Tier 1 signal (spread -64.7%, earnings substantially outpacing price). [CONFIRMED: Stock_Tracker.md, META row; context_ai_supply_chain_index.md, META entry]
+
+**The honest summary**: META is a genuinely exceptional business trading at a discount to consensus fair value, but the discount exists for legitimate reasons — and the "cheapness" is less apparent on an owner-earnings basis than headline P/E metrics suggest.
+
+The advertising franchise at 3.56B DAP, 33% revenue growth, 48% FoA operating margins, and demonstrably AI-driven ad improvement is among the highest-quality advertising businesses ever constructed. It is real, confirmed in the financials, and compounding. [CONFIRMED: Multiple sources above]
+
+The complication is the owner-earnings reality: $48.25B FCF minus $22.31B SBC equals approximately $26B in owner earnings against a $1.60T market cap — approximately 62x. [ESTIMATED: Confirmed FCF and SBC values; market cap from META_profile.json] This is not how "cheap Mag-7" framings characterize the stock, and it is material.
+
+The capex program ($125–145B in 2026, undisclosed in 2027) is the central uncertainty. If it produces returns — via compounding AI advertising improvements, eventual agentic monetization, or optionality in cloud/enterprise AI — the trailing owner-earnings multiple is meaningless because it is a trailing metric on a business that will look materially different in 2028. If it does not produce returns — or if it escalates into 2027–2028 at the same pace — the FCF compression is multi-year and the 62x owner-earnings multiple does not compress.
+
+The probability-weighted assessment:
+
+- **Base case (~55% probability)**: Advertising AI improvements continue at 20–25% annual pace. CapEx normalizes after 2026. RL losses stabilize near $20B. FCF re-expands to $60–80B by FY2028. Stock re-rates to $800–900/share over 18–24 months as FCF compression resolves. Expected return from current ~$627: approximately +28–44%. [ESTIMATED: Forward earnings scenario constructed from confirmed guidance and current trajectory]
+
+- **Bull case (~20% probability)**: Muse Spark unlocks subscription/agentic monetization. Cloud computing is formally announced with named contracts. CapEx decelerates in 2027. Revenue accelerates to 25%+ annual pace through FY2028. Stock reaches $1,000–1,200. Expected return: approximately +60–91%. [ESTIMATED: Upside scenario from optionality sources identified in The Numbers]
+
+- **Bear case (~25% probability)**: CapEx escalates into 2027–2028. Revenue decelerates below 15% as macro headwinds or regulatory action impairs ad markets. FoA margin compresses to 35–38%. FCF remains near zero through 2028. Stock reprices to $400–450. Expected return: approximately -28–36%. [ESTIMATED: Downside scenario constructed from identified risks]
+
+**Probability-weighted expected return**: (0.55 × +36%) + (0.20 × +76%) + (0.25 × -32%) = +19.8% + 15.2% − 8.0% = approximately **+27% expected return** over 18–24 months from current price. [ESTIMATED: Probability-weighted sum of scenario returns; probabilities are analytical judgments, not confirmed figures]
+
+**Margin of safety assessment**: The margin of safety here is partial. On a Price/OCF basis (12.9x), the stock is inexpensive for a 33% growth business — that level provides meaningful downside protection for the advertising business alone. On an owner-earnings basis (62x), there is no Graham-style margin of safety. The safety embedded in the investment rests on the demonstrated and continuing AI advertising improvement cycle, the structural depth of the user base moat, and the $81B cash cushion that provides balance sheet flexibility. It is not a dollar for 70 cents — it is closer to a dollar for 90 cents, with optionality that could make it a dollar for 60 cents in retrospect if the AI capex pays off.
+
+**Assessment**: META at ~$627 offers an **adequate expected return for a patient capital allocation** with above-average uncertainty. The expected value is positive and meaningfully above zero, but the investment requires tolerance for: (1) a multi-year FCF compression that could extend through 2027; (2) a 62x owner-earnings entry multiple that demands continued execution; and (3) regulatory and competitive tail risks that are real and non-trivial. For a portfolio that can absorb 2–3 years of price uncertainty, META offers a favorable risk/reward skew anchored by one of the strongest advertising franchises in history. For capital with a shorter horizon or lower tolerance for multiple compression, the 62x owner-earnings multiple and FCF-near-zero 2026 are disqualifying.
+
+**Dollar for how many cents?** At current price, approximately **a dollar for 85–90 cents** on the core advertising business alone, with unpriced optionality (cloud, agentic, Muse Spark products) that could widen the margin meaningfully if it materializes over the next 24 months. The Tier 1 TAILWIND classification is appropriate. The investment case is sound but not obvious — the sophistication required is in seeing through the owner-earnings complexity to the genuine quality of the underlying business, and having the patience to hold through the capex trough.
+
+*Source citations for all factual claims are embedded inline per epistemic tagging convention. Forward estimates are labeled [ESTIMATED] throughout. All P/E and earnings figures are GAAP unless labeled otherwise.*

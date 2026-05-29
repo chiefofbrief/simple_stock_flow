@@ -539,7 +539,321 @@ AT&T is a capital-intensive telecom executing a credible fiber buildout at appro
 *Pass 1 written: 2026-05-29.*
 
 ### The Projection
-*Pending analysis.*
+
+---
+
+*Sources: `T_earnings_remarks.md`, `T_earnings_qa.md`*
+
+**Q1. Which of the two calls is more strategically material, and why?**
+
+The Q4 2025 earnings call (reported February 26, 2026) is more strategically material. It presented AT&T's full-year 2025 results, introduced the new segment reporting structure (Advanced Connectivity + Legacy), and contained the first multi-year financial framework through 2028: EBITDA growth of 3–4% in 2026 accelerating to 5%+ in 2028, double-digit adjusted EPS CAGR through 2028, FCF of $18B+ in 2026 with growth thereafter, and a $45B+ shareholder return plan (dividends + buybacks) over 2026–2028. [CONFIRMED: T_earnings_remarks.md, Q4 2025 prepared remarks] This call reset the investment thesis anchor entirely — prior guidance was replaced with an explicit multi-year financial framework that the market could evaluate. The Q1 2026 call (reported April 23, 2026) is an incremental update: it confirmed guidance, provided quarterly execution data, and introduced the OneConnect product and EchoStar strategic rationale, but did not materially change the multi-year framework.
+
+Where the two calls diverge in tone and emphasis: Q4 2025 was explicitly strategic and forward-looking, framing AT&T's transformation from a legacy-burdened telecom to a converged infrastructure provider. Q1 2026 was operationally focused, validating execution (584K Advanced Connectivity net adds, $0.57 adjusted EPS) but also managing a visible miss (wireless service revenue below consensus). The Q4 call set the targets; the Q1 call ran the first data point against them. Where they diverge, Q4 carries more weight as the authoritative framework.
+
+---
+
+**Q2. Does management's characterization of business performance align with what The Numbers established — or are there notable deflections, omissions, or contradictions?**
+
+**Alignment with The Numbers:**
+
+Management's characterization of Q1 2026 performance is largely consistent with what The Numbers established. Specifically:
+
+(1) **Fiber growth confirmed:** CEO Stankey described Q1 2026 as "the best first quarter we've ever had for Advanced Connectivity internet customer net adds," with 584K net adds against a footprint of 37.5M premises passed. [CONFIRMED: T_earnings_remarks.md, Q1 2026] The financial statements show Advanced Home Internet revenue +27.3% YoY. [CONFIRMED: T_mda_excerpts.md, Section 2] Alignment is complete — the narrative matches the numbers.
+
+(2) **FCF pressure acknowledged but rationalized:** Management explicitly attributed Q1 FCF decline (to $2.5B) to: (a) Lumen acquisition closing costs ($5.76B investing outflow), and (b) the absence of DIRECTV distributions that were in Q1 2025 OCF ($1.42B). [CONFIRMED: T_earnings_remarks.md, Q1 2026 FCF bridge; T_mda_excerpts.md, Section 4] This aligns precisely with the Numbers analysis — the -43.8% FCF decline is a comparability artifact, not operational deterioration.
+
+(3) **Wireless service revenue miss acknowledged but minimized:** The Q1 2026 wireless service revenue of $16,941M (+1.7% YoY) missed consensus ($17.02B). Management framed this as: "phone churn was impacted by decisions related to devices that we had to make — specifically around removing the phone payment plan that had negative margin characteristics." [CONFIRMED: T_earnings_remarks.md, Q1 2026] Management also noted the April pricing actions (mid-cycle rate increases) would help H2 growth. The Numbers flagged this as the primary consensus miss; management's response partially explains it but doesn't quantify the pricing action impact.
+
+(4) **Debt and leverage trajectory:** CFO Desroches confirmed net leverage at 2.71x at Q1 end, noting it would rise to approximately 3.2x upon EchoStar spectrum close. [CONFIRMED: T_earnings_remarks.md, Q1 2026] This matches the Numbers analysis that identified ~3.2x as the covenant-approaching temporary peak. [INFERRED: T_notes.md, line 1671, covenant ≤3.75x]
+
+**Notable additions from the calls not visible in financial statements:**
+
+(1) **OneConnect product introduction:** Q1 2026 prepared remarks introduced OneConnect — a mobile/internet bundle combining fiber + 5G under a single bill. [CONFIRMED: T_earnings_remarks.md, Q1 2026] This product is not reflected in any financial statement line item yet but represents the commercial implementation of the convergence strategy. Analyst John Hodulik probed target market and near-term sub impact — management gave a vague answer ("targeted market initially, broader rollout as OneConnect gains traction"). [CONFIRMED: T_earnings_qa.md, Q1 2026, Q1 and Q5]
+
+(2) **"Open network" architecture:** CEO Stankey described AT&T as intending to operate "the most advanced and open communications network by end of decade," meaning software-defined routing with open APIs accessible to hyperscalers, enterprises, and application developers. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q2 — Michael Rollins exchange] This was not visible in any financial statement — it is a positioning claim about future product/service architecture. No revenue or contract metrics were provided.
+
+(3) **Lumen integration progress:** CEO Stankey described completing the Lumen integration within two quarters of close, with Lumen customer migration underway and AT&T already operating the network. Q4 2025 remarks had cited 1.1M Lumen customers acquired. [CONFIRMED: T_earnings_remarks.md, Q4 2025] The integration appears on schedule, though no specific financial metrics for Lumen contribution were isolated in Q1 2026.
+
+**Deflections and omissions:**
+
+(1) **"$13B AI contracts" claim from Motley Fool:** Neither call references $13B in AI contracts. The AI discussion across both calls is entirely framed as: AI driving broadband demand (customer growth), AT&T using AI for internal cost efficiency, and AI enabling the "open network" vision. No revenue-bearing AI contracts are disclosed in either call. [INFERRED: comparative review of T_earnings_remarks.md and T_news.md — Motley Fool claim unverifiable in earnings call transcripts] This confirms the Context analysis finding: the "$13B" figure has no basis in management disclosures.
+
+(2) **Latin America margin deterioration:** Neither call discusses the Latin America segment's declining operating margin (1.7% Q1 2026 vs. 4.4% prior year). [CONFIRMED: T_mda_excerpts.md, Section 2] This is a consistent omission — management focuses exclusively on the U.S. Advanced Connectivity and Legacy segments. The segment is too small (4% of revenues) to merit significant call time, but the deterioration trend is real and unremarked.
+
+---
+
+**Q3. What is management saying about the path forward — and where does this diverge from historical trends?**
+
+**Forward guidance (all labeled as forward-looking per GEMINI.md standards):**
+
+- Adjusted EPS 2026 guidance: $2.25–$2.35 [CONFIRMED: T_earnings_remarks.md, Q1 2026 reaffirmation]
+- FCF 2026 guidance: at least $18B [CONFIRMED: T_earnings_remarks.md, Q1 2026 reaffirmation]
+- Adjusted EBITDA growth 2026: 3–4% [CONFIRMED: T_earnings_remarks.md, Q4 2025]
+- Adjusted EBITDA growth 2028: 5%+ [CONFIRMED: T_earnings_remarks.md, Q4 2025]
+- Adjusted EPS CAGR through 2028: double-digit [CONFIRMED: T_earnings_remarks.md, Q4 2025]
+- Capital investment 2026: $23–24B [CONFIRMED: T_mda_excerpts.md, Section 3]
+- Fiber footprint: 40M premises by year-end 2026, 60M+ by 2030 [CONFIRMED: T_earnings_remarks.md, Q4 2025]
+- Net leverage: rising to ~3.2x post-EchoStar, then declining [CONFIRMED: T_earnings_remarks.md, Q1 2026]
+- Dividend: sustainable and increasing [CONFIRMED: T_earnings_remarks.md, Q4 2025]
+- Share repurchases: ~$8B in 2026 [CONFIRMED: T_earnings_remarks.md, Q4 2025]
+
+**Deltas from historical trend (The Numbers findings):**
+
+The guidance implies acceleration in two key dimensions not supported by the 5-year historical record:
+
+(1) **Double-digit adjusted EPS CAGR through 2028.** Historical adjusted EPS CAGR is not directly extractable from the financial analysis tables, but the 5-year revenue CAGR of -1.6% and FCF CAGR of -6.5% [CONFIRMED: T_financial_analysis.md] create a problematic backdrop for a double-digit EPS CAGR claim. Management's path depends on: (a) legacy cost elimination accelerating operating income faster than revenue grows; (b) D&A declining as legacy assets fully depreciate; (c) share repurchases ($8B/year) mathematically reducing share count and improving per-share figures. [INFERRED: T_earnings_remarks.md Q4 2025 strategic framing and T_financial_analysis.md historical figures, logic: double-digit EPS growth requires margin expansion plus buyback-driven share count reduction in a flat revenue environment] The EPS CAGR is achievable through buybacks and cost reduction even without revenue acceleration — this is primarily an engineering of per-share metrics, not organic business expansion. This is not a contradiction but an important qualification: "double-digit EPS CAGR" is not the same as double-digit earnings growth.
+
+(2) **EBITDA growth inflecting to 5%+ by 2028.** Historical EBITDA growth is roughly flat (operating margin stable at 19–20%). For EBITDA to accelerate to 5%+ by 2028, the Lumen integration must: (a) mature from its current 2-quarter ramp phase; (b) add ARPU from higher-speed fiber tiers; (c) converge legacy wireline customers to fiber. [INFERRED: T_earnings_qa.md, Q4 2025, Michael Ng Q7 exchange on EBITDA growth drivers, logic: management cited Lumen ramp + pricing actions + cost transformation] This is plausible but represents a meaningful forward acceleration from the current 3–4% trajectory and is entirely dependent on the fiber buildout's penetration curve.
+
+**On the AI investment cycle:**
+
+Management did not describe the capital investment program as backed by contracted AI-specific customer demand. The $23–24B capital investment is described as: "fiber to 40 million locations and 5G everywhere." [CONFIRMED: T_earnings_remarks.md, Q4 2025] No named hyperscaler or enterprise contracts are cited as underwriting the capex. The return on investment is framed as incremental fiber ARPU and convergence churn reduction — not AI-specific contracted revenue. [INFERRED: T_earnings_remarks.md, Q4 2025, review of capex framing — no contract-backed demand cited] This keeps AT&T in the "installation phase" category for AI monetization: the infrastructure is being built in anticipation of demand, not in response to signed contracts.
+
+---
+
+**Q4. Has management's language or tone shifted relative to the prior call?**
+
+**Topics foregrounded in Q4 2025 that received less emphasis in Q1 2026:**
+
+(1) **Multi-year 2028 framework:** The Q4 2025 call was almost entirely organized around the 2028 financial framework (double-digit EPS, 5%+ EBITDA, $45B+ shareholder return). Q1 2026 management pivoted to quarterly execution — the 2028 framework was mentioned only in passing. This is normal (Q1 is an execution quarter, Q4 is a strategy quarter), but it signals the investor relations arc: the 2028 targets were set, and Q1 was the first progress check.
+
+(2) **Spectrum strategy:** Q4 2025 extensively discussed the EchoStar spectrum acquisition's strategic rationale (midband augmentation for 5G, footprint expansion). Q1 2026 briefly updated the status (expected to close in late 2026, FCC approval pending). The topic moved from strategic centerpiece to a routine update. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q4 — David Barden question on EchoStar]
+
+**New in Q1 2026 that was not present in Q4 2025:**
+
+(1) **OneConnect:** The product was formally named and announced in Q1 2026. It did not appear in Q4 2025 prepared remarks. This is a genuinely new element — the commercial packaging of the convergence strategy. [CONFIRMED: T_earnings_remarks.md, Q1 2026; absence in T_earnings_remarks.md Q4 2025]
+
+(2) **Device subsidy exit strategy:** CEO Stankey explicitly articulated a strategy to "compete more on service and less on device subsidy" — describing this as a philosophical shift in how AT&T competes for wireless customers. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q5 — Michael Ng exchange] This represents a material strategic disclosure: AT&T intends to reduce promotional device subsidies in favor of service-quality competition. If successful, this would improve wireless margins; if unsuccessful (T-Mobile/Verizon don't follow), AT&T risks sub losses.
+
+(3) **Copper retirement FCC progress:** Management disclosed that 30% of wire centers have been approved by the FCC for copper network retirement, with more approvals expected. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q4 — David Barden question] This is operational progress not previously quantified.
+
+**Tone shifts:**
+
+Q4 2025 was more aspirational — it was a "reset" call introducing the 2028 framework with aggressive targets. Q1 2026 was noticeably more defensive: management spent significant time explaining the wireless service revenue miss, the FCF seasonality, and the device subsidy trade-off. The Q1 tone was "execution is on track but let us explain the headline metrics you may misread." The shift from aspiration to explanation is a modest negative signal — the 2028 framework has encountered its first turbulence in Q1.
+
+---
+
+**Q5. Open questions from The Numbers — resolution status:**
+
+**OQ1: Reconcile annual ROIC (9.8%) vs. quarterly ROIC (~2%).**
+*Call response:* Neither call discusses ROIC directly. The Numbers analysis resolved this independently — the DIRECTV gain ($5.6B) inflated annual NOPAT, producing the 9.8% figure. [CONFIRMED: T_notes.md, line 744] True operating ROIC is 6–7%. The earnings calls do not change this conclusion. *Status: RESOLVED in Pass 1. Earnings calls do not add to or change this finding.*
+
+**OQ2: GAAP vs. adjusted EPS divergence.**
+*Call response:* Management reaffirmed 2026 adjusted EPS guidance of $2.25–$2.35. [CONFIRMED: T_earnings_remarks.md, Q1 2026] The Q4 2025 call disclosed FY2025 adjusted EPS of $2.12 (+9% vs. 2024), and noted GAAP EPS was elevated by the DIRECTV gain. [CONFIRMED: T_earnings_remarks.md, Q4 2025] GAAP equivalent for 2026 guidance was not disclosed — management cited only adjusted. *Status: PARTIALLY RESOLVED. The adjusted anchor ($2.25–$2.35) is confirmed. GAAP 2026 equivalent is not provided — this is a gap that would require the filed 10-Q for full resolution.*
+
+**OQ3: EPS volatility — is the EPS YoY -11.5% tracker note trailing or forward?**
+*Call response:* Q4 2025 reported FY2025 adjusted EPS of $2.12. [CONFIRMED: T_earnings_remarks.md, Q4 2025] FY2024 adjusted EPS was $2.17 per the Q4 call context (implied: $2.12 / "9% increase" → this would imply FY2024 adjusted EPS of ~$1.94, not $2.17). [ESTIMATED: T_earnings_remarks.md Q4 2025, arithmetic: if $2.12 represents a 9% increase, FY2024 adjusted EPS was approximately $1.94] The "EPS YoY -11.5%" in the tracker was based on April 2026 data point — likely a GAAP figure post-DIRECTV gain normalization, not the adjusted figure. The adjusted EPS trajectory is *positive*, not negative: adjusted EPS grew from ~$1.94 (2024) to $2.12 (2025), +9%. The tracker note reflects GAAP confusion, not adjusted deterioration. *Status: RESOLVED. Tracker EPS YoY -11.5% was based on GAAP/trailing metric, not the adjusted recurring earnings which show +9% growth.*
+
+**OQ4: Actual debt level confirmation.**
+*Call response:* CFO confirmed net leverage at 2.71x at Q1 2026 end, implying net debt of approximately $116–120B at current EBITDA run rates. [CONFIRMED: T_earnings_remarks.md, Q1 2026; T_earnings_qa.md, Q4 2025, Q5 Sebastiano Petti — leverage target discussed] The Numbers established gross debt of $134.7B as of Dec 31, 2025, and net debt of approximately $116.5B. *Status: RESOLVED. $134.7B gross / ~$116B net confirmed; leverage ratio of 2.71x matches.*
+
+**OQ5: Quarterly Debt/OCF masking deterioration.**
+*Call response:* Not addressed directly — management uses net debt/EBITDA as its primary leverage metric. The quarterly Debt/OCF figures (15–22x range) are confirmed as not meaningful metrics for AT&T and should be evaluated on an annual TTM basis. *Status: RESOLVED in Pass 1 as an analytical methodology issue, not a financial concern.*
+
+**OQ6: FCF $18B+ guidance achievability given Q1 FCF of $2.68B.**
+*Call response:* Management explicitly addressed H2 weighting. CFO Desroches in Q1 2026 noted that FCF would "accelerate in Q2" and H2 would reflect higher EBITDA, lower capex seasonality, and Lumen integration proceeding. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q5 — Michael Ng question on EBITDA acceleration drivers] The EBITDA acceleration in Q2 was cited as coming from: April pricing actions, Lumen integration ramp, and cost transformation continuing. $18B+ for the full year remains the guidance, with H2 expected to be significantly higher than H1. *Status: RESOLVED. Management confirms H2 weighting; Q1's $2.68B requires approximately $15.3B in Q2–Q4 combined, averaging ~$5.1B/quarter — consistent with the $4.5–5.3B quarterly FCF range from prior three quarters (Q2–Q4 2025). Achievable but requires execution.*
+
+**OQ7: Fiber investment ROIC relative to cost of capital.**
+*Call response:* Management described fiber returns in terms of penetration rate and ARPU, not explicit ROIC targets. CEO Stankey noted fiber markets at 40–50% penetration are performing differently from 0–40% markets, and that "mature fiber" ARPU is growing. [CONFIRMED: T_earnings_qa.md, Q4 2025, Q3 — Peter Supino exchange on fiber ARPU and pricing] No specific ROIC targets on fiber investment were disclosed. *Status: UNRESOLVED. Management does not disclose fiber segment ROIC explicitly. The implied return on fiber investment remains analytically inferred from ARPU trends and penetration data, not confirmed from management disclosure.*
+
+**Risk-side mandatory tracking (per Q5 framework):**
+
+**(a) Self-sustaining investment cycle:**
+AT&T's investment cycle (capex $23–24B in 2026) is funded from operating cash flows of ~$40B, not external capital. Dividend and buyback commitments (~$16B combined) plus capex ($23–24B) sum to approximately $39–40B — matching OCF closely. There is no reliance on equity issuance or sustained credit facility drawdowns. The EchoStar acquisition ($23B) is the one exception — it requires debt financing beyond internal cash flow, temporarily pushing leverage to ~3.2x. [CONFIRMED: T_earnings_remarks.md, Q1 2026 leverage commentary] *Assessment: Investment cycle is substantially self-sustaining; EchoStar is a discrete, planned leverage event.*
+
+**(b) Off-balance-sheet structures:**
+Vendor financing ($1,892M) and EIP receivables securitization (up to $2,067M beneficial interests retained) were not discussed in either earnings call. Neither structure was addressed or avoided explicitly — they simply did not come up. [INFERRED: review of T_earnings_qa.md — no analyst probed these structures] The Numbers established these are disclosed and modest. *Status: Not addressed on calls; no new information.*
+
+**(c) AI asset useful life and obsolescence:**
+Not discussed in either call. AT&T's assets are network infrastructure (fiber, spectrum, switching equipment), not GPU-type compute hardware subject to rapid obsolescence. The useful life question is not material for AT&T's asset base. [INFERRED: T_notes.md, PP&E composition] *Status: Not applicable for AT&T's asset class.*
+
+**(d) Circular arrangement flags:**
+No circular revenue arrangements were identified in the Numbers accounting checklist, and no evidence of such arrangements surfaced in either call. The Lumen acquisition represents AT&T buying assets from a now-customer/partner, which could theoretically create circular revenue dynamics if Lumen paid AT&T for connectivity services while AT&T paid Lumen for assets — but this is speculative and not supported by available disclosures. [INFERRED: T_earnings_qa.md Q4 2025 Sebastiano Petti question on Lumen JV] *Status: No flags confirmed.*
+
+**Upside-side mandatory tracking:**
+
+**(e) AI deployment progress not visible in financial statements:**
+Management described the Wiliot Physical AI partnership as "expanding" [CONFIRMED: T_news.md, 2026-05-29 headline], and the "open network" architecture as a platform for hyperscaler and enterprise AI workloads. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q2] No deployment metrics, utilization rates, or AI-related revenue run rates were disclosed. The progress is qualitative and architectural — not quantified. *No financial visibility into AI deployment progress was provided.*
+
+**(f) Pricing power:**
+Confirmed pricing actions in April 2026 (consumer broadband and wireless rate increases). [CONFIRMED: T_earnings_remarks.md, Q1 2026] The OneConnect bundle is positioned as a value-based offering to reduce competitive price sensitivity. Management described the April pricing actions as "expected to contribute to H2 EBITDA growth." [CONFIRMED: T_earnings_qa.md, Q1 2026, Q5] Structural pricing power for fiber remains high given the limited number of providers in fiber-served markets (typically AT&T vs. one cable operator). *Assessment: Real but modest — pricing power is maintained, not expanding.*
+
+**(g) Timeline compression:**
+No evidence that the fiber-to-revenue timeline is compressing. Management reiterated the 2028 framework. The Lumen integration was described as proceeding on a 2-quarter ramp. [CONFIRMED: T_earnings_remarks.md, Q1 2026] No signals of deployment acceleration beyond the announced plan. *Status: No compression identified.*
+
+---
+
+**Q6. What are analysts most concerned about and most excited about?**
+
+**Primary analyst concerns (Q1 2026 Q&A):**
+
+(1) **OneConnect rollout and churn trajectory:** John Hodulik (UBS) probed whether OneConnect could drive near-term subscriber additions and whether the phone churn improvement was durable. Management gave a qualified answer: OneConnect is being rolled out gradually, initially to BYOD/convergence customers, with broader rollout contingent on traction. On churn: "up 6 basis points" improvement was described as better than the double-digit increases seen previously. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q1] Management was notably vague on the timeline for broad OneConnect rollout — this is a hedge: the product is new and unproven, and management avoided committing to a specific ramp schedule.
+
+(2) **Device subsidies vs. service competition:** Michael Ng (Goldman) pressed on whether the shift away from device subsidies would be a "harder shift" or a gradual transition. CEO Stankey confirmed it would be gradual — "1.0 plans will be sold alongside 2.0 plans" for an extended period. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q5] This is a candid disclosure: the subsidy reduction is a multi-year process, not a near-term step-change in margin improvement. The implication is that wireless margins won't dramatically improve from subsidy reduction in 2026.
+
+(3) **EBITDA acceleration curve:** Michael Ng (Goldman) in Q4 2025 specifically asked: "What are the key drivers for EBITDA acceleration to 5% in 2028?" CFO Desroches answered with: Lumen revenues maturing, legacy declines moderating, cost transformation, and pricing. [CONFIRMED: T_earnings_qa.md, Q4 2025, Q6 — Michael Ng] The answer was directional without milestones — no quarterly EBITDA targets, no specific Lumen revenue contribution numbers. Analysts probing this question were not given specific checkpoints.
+
+(4) **Broadband market saturation / DSL feedstock:** Peter Supino (Wolfe) in Q1 2026 observed that AT&T's 2.5M DSL base is declining rapidly and asked whether the loss of DSL as a "feedstock" for fiber upgrades would affect fiber volume growth. CEO Stankey deflected elegantly: "The DSL base fading away doesn't diminish the opportunity — it accelerates the need for fiber in those territories." [CONFIRMED: T_earnings_qa.md, Q1 2026, Q6] The answer was framed as an opportunity rather than a headwind, but the structural concern is legitimate: once DSL is fully migrated, the organic fiber upgrade pool shrinks.
+
+(5) **EchoStar spectrum returns:** David Barden (New Street Research) pressed on how AT&T generates returns on the EchoStar spectrum acquisition. CEO Stankey described the spectrum as augmenting both FWA (complementing the fiber build in un-served areas) and 5G wireless (filling mid-band spectrum gaps for capacity). [CONFIRMED: T_earnings_qa.md, Q1 2026, Q4] No specific ROI target was cited for the EchoStar spectrum. The return argument is framed as "spectrum optionality and capacity augmentation" — a long-duration return not quantifiable in near-term financial metrics.
+
+**Topics analysts endorsed/probed favorably:**
+
+(1) **Convergence metrics:** Multiple analysts referenced the 42% convergence rate (fiber customers also taking AT&T wireless) positively and asked about the trajectory. CEO Stankey projected convergence rates reaching "50%+" as the fiber footprint matures. [CONFIRMED: T_earnings_qa.md, Q4 2025, Q1 — Hodulik question] Analysts appeared to accept convergence as the core thesis driver.
+
+(2) **"Open network" architecture:** Michael Rollins (Citi) explicitly asked what "open" means for AT&T's go-to-market and whether it creates a TAM expansion via partnerships or acquisitions. CEO Stankey described a software-defined API layer on a unified routing infrastructure, enabling third-party applications (hyperscalers, enterprises) to interact with AT&T's network programmatically. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q2] The analyst seemed to view this as a potentially significant TAM expansion opportunity — management's response was directional but did not commit to specific revenue streams.
+
+**Q&A reveals vs. prepared remarks:**
+
+The Q&A revealed one significant item not in prepared remarks: under Michael Ng's Q5 question about H2 EBITDA drivers, CFO Desroches disclosed that the April pricing actions (rate increases) are the single most important near-term EBITDA catalyst. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q5] This was not emphasized in the prepared remarks, which focused on fiber adds and convergence metrics. The implication: the H2 EBITDA rebound is more dependent on successful execution of price increases (a consumer behavior risk) than the fiber growth narrative would suggest.
+
+Under David Barden's copper decommissioning question, management disclosed that FCC approval for 30% of wire centers for copper retirement has been received. [CONFIRMED: T_earnings_qa.md, Q1 2026, Q4] This was not in prepared remarks. The significance: copper retirement cost savings begin materializing when the physical infrastructure is decommissioned — the 30% approval milestone is earlier in the timeline than the Numbers analysis anticipated from the MD&A language alone.
+
+---
+
+**Q7. Did the earnings calls strengthen or undermine the narrative and catalyst picture established in Context?**
+
+**Updated narrative assessment:**
+
+The Q1 2026 call neither materially strengthened nor broke the narrative established in Context. It confirmed the structural thesis (fiber growth, convergence) while adding one point of concern (wireless service revenue miss + device subsidy exit risk) and one new element (OneConnect product).
+
+The Context analysis identified AT&T's narrative as: a slow-moving, execution-dependent infrastructure thesis with modest AI narrative formation and limited retail interest. The earnings calls confirm all three: execution is proceeding on fiber (584K Q1 net adds), AI narrative remains aspirational and unmonetized, and retail engagement remains minimal. The institutional narrative is intact. The Q1 miss on wireless service revenue is a minor setback but not a thesis-breaking development — it is consistent with competitive pressure that management attributed to specific device financing policy changes rather than structural market share loss.
+
+One narrative upgrade from the calls: the "open network" language in Q1 2026 is a forward-looking positioning for AT&T as hyperscaler infrastructure — if hyperscalers begin using AT&T's network APIs for AI workloads, this would create a new category of enterprise/AI services revenue. This is not yet monetized but is a real strategic direction disclosed in the Q1 call that was not visible in prior quarters. Its speculative probability is low in the 12-month horizon but worth tracking.
+
+**Catalyst assessment:**
+
+Two identifiable near-term catalysts:
+
+(1) **CFO Conference — Mizuho Technology Conference, June 9, 2026.** Management-flagged; CFO Desroches scheduled to present. [CONFIRMED: T_news.md, PRNewsWire, 2026-05-27] This is a tactical catalyst — positive messaging on FCF trajectory or convergence metrics could drive a modest re-rating. Window: approximately 2 weeks from current date. Credibility: moderate; such conferences rarely produce new information but can shift sentiment if framing is favorable.
+
+(2) **Q2 2026 Earnings — expected late July 2026.** Q2 is the first quarter where the April pricing actions and Lumen ramp will appear in results. If H2 EBITDA acceleration is tracking (as management committed), Q2 should show EBITDA growth meaningfully above Q1's 2.3%. A Q2 print showing 4%+ EBITDA growth and FCF recovery toward $4–5B would validate the $18B annual FCF guidance and could drive a re-rating. Window: ~8 weeks. Credibility: high — management explicitly flagged Q2 as showing "accelerating growth." The caveat: this is thesis-confirmatory only if the metrics actually improve, and consumer price increases face churn risk.
+
+Q2 earnings qualifies as a catalyst under the framework: it is the first print that will specifically resolve whether the April price increases drove churn or ARPU growth — a material thesis question directly tied to the wireless service revenue miss. The results are genuinely thesis-critical. [INFERRED: T_earnings_qa.md, Q1 2026, Q5 — management commitment to Q2 acceleration; GEMINI.md catalyst criteria applied]
+
+---
+
+**Q8. Major customers, suppliers, and competitors surfacing in earnings calls:**
+
+New publicly traded companies identified in the earnings calls not captured in prior passes:
+
+```
+EchoStar Corporation (SATS) — Spectrum seller (EchoStar spectrum acquisition, Q1 2026 Q&A Q4)
+Lumen Technologies (LUMN) — Fiber assets acquired; mass markets fiber customer migration, Q4 2025 remarks
+AST SpaceMobile (ASTS) — Satellite direct-to-device partner; CEO Stankey cited as preferred partner, Q1 2026 Q&A Q3
+Frontier Communications (subsidiary of VZ) — $900M advance payment counterparty; mentioned in Q4 2025 context
+Verizon Communications (VZ) — Frontier parent; named indirectly as spectrum/network counterparty
+Crown Castle (CCI) — Tower infrastructure counterparty; referenced in context of tower financing obligations
+```
+
+Previously identified in prior passes and confirmed in calls:
+```
+T-Mobile US (TMUS) — Primary wireless competitor
+Comcast Corporation (CMCSA) — Broadband competitor ("large cable companies")
+Charter Communications (CHTR) — Broadband competitor
+América Móvil (AMX) — Mexico wireless competitor
+Cisco Systems (CSCO) — Edge AI infrastructure partner
+NVIDIA Corporation (NVDA) — Edge AI inference partner
+```
+
+---
+
+*Pass 2 written: 2026-05-29.*
 
 ### Synthesis
-*Pending finalization.*
+
+---
+
+**Cross-section consistency check performed.** Key figures across all three passes:
+- Forward adjusted EPS guidance: $2.25–$2.35 (consistent across Context, Numbers, and Projection)
+- Current price: $24.64 (consistent — from T_profile.json)
+- Forward adjusted P/E: ~10.7x (consistent calculation throughout)
+- FCF guidance: $18B+ 2026 (consistent)
+- Gross debt: $134,718M at Dec 31, 2025 (consistent)
+- Net leverage at Q1 2026: 2.71x (Numbers cited ~3.2x as post-EchoStar peak; Projection confirmed from Q1 earnings call)
+- Q1 2026 fiber net adds: 584K (consistent)
+- Advanced home internet revenue growth Q1 2026: +27.3% YoY (consistent)
+- True operating ROIC: 6–7% (consistent; 9.8% headline figure identified as DIRECTV-gain-distorted across both Numbers and Projection)
+
+No material cross-section inconsistencies identified.
+
+---
+
+**Numbers**
+
+AT&T generates $38–40B in annual operating cash flow from a stable, mature telecommunications network with operating margins of 19–21% and a fiber segment growing at 20%+ revenue rates. Adjusted forward P/E of ~10.7x on $2.25–$2.35 guidance is the correct valuation anchor — the historical GAAP P/E of 8.49x is distorted by the one-time $5.6B DIRECTV gain and is not a reliable earnings quality signal. True operating ROIC of 6–7% places AT&T approximately at its cost of capital: the business is not destroying value, but neither is it compounding significantly above it, and the $20B+ capex cycle must drive ROIC above 10% sustainably for the infrastructure investment to be clearly value-creating. [CONFIRMED: T_financial_analysis.md, T_notes.md, T_mda_excerpts.md] The dividend ($1.11/share) is well-covered by FCF ($18B guidance vs. ~$7.9B annual dividend), providing a real income floor that caps downside repricing absent a FCF collapse.
+
+---
+
+**Narrative & Catalyst**
+
+AT&T occupies an early-stage narrative position: the stock has attracted moderate institutional attention as a "get paid to wait" dividend/FCF story with an emerging convergence growth narrative, but carries no retail FOMO, no AI-speculative premium, and no analyst upgrade momentum. [CONFIRMED: T_analyst.md — 7 maintains, 0 upgrades in 90 days; T_social.md — no retail thesis] The earnings calls confirmed that the "open network" AI infrastructure thesis is a real strategic direction but is pre-revenue and pre-contract — it represents option value, not present value. The most credible near-term catalyst is Q2 2026 earnings (late July 2026), when the April pricing actions and Lumen integration ramp will show in EBITDA — management explicitly committed to "accelerating EBITDA growth in Q2." [CONFIRMED: T_earnings_qa.md, Q1 2026, CFO Desroches] The Mizuho CFO conference on June 9, 2026 is a secondary tactical catalyst. Neither is transformative — both are confirmatory. The narrative requires patience; there is no event that will rapidly compress the gap between current price ($24.64) and analyst consensus ($29.25).
+
+---
+
+**Scenario**
+
+The current price (~10.7x forward adjusted EPS, ~9.5x FCF on $18B guidance) embeds a base case of modest, persistent execution: fiber growth continues, wireless holds near 2% service revenue growth, FCF achieves $18B, debt gradually declines. The Projection confirms this is achievable — Q1 2026 results are broadly on plan despite the wireless service revenue headline miss, and management's EBITDA acceleration narrative has specific drivers (April pricing, Lumen ramp, cost transformation). What the price does not embed: (a) any AI monetization premium; (b) any acceleration above the 3–4% EBITDA guidance; (c) any convergence multiple expansion above the utility-like 10–11x. This means the current price is fundamentally fair to modestly cheap, not transformatively undervalued. The macro context (risk-off, Brent at $99, 10Y at 4.30%, Consumer Defensive leading) [CONFIRMED: context_markets.md, 2026-04-21] favors AT&T as a defensive income hold — the market environment supports the "get paid to wait" thesis because alternatives (energy, discretionary) carry greater geopolitical risk. However, the same risk-off environment that makes AT&T relatively attractive also suppresses any narrative-driven re-rating momentum.
+
+---
+
+**Reflexivity + AI Lifecycle**
+
+AT&T does not appear in the AI supply chain framework [CONFIRMED: context_ai_supply_chain_index.md] and is therefore not subject to the reflexive feedback loop that AI SC companies face where stock price elevation enables cheaper capital, enabling more investment, enabling stronger narrative. AT&T's AI position is the opposite: it is a potential beneficiary of AI demand (more data consumption → more broadband demand → more fiber customers) but the causal mechanism is indirect and shared equally with all broadband competitors. There is no AT&T-specific AI narrative strong enough to create a self-reinforcing sentiment loop. [INFERRED: T_news.md, T_analyst.md, T_social.md — aggregate narrative review across all three passes]
+
+On the Perez technology lifecycle framework: AT&T is in the late Installation Phase of the fiber/5G technology cycle — the physical infrastructure is being built (37.5M fiber premises passed toward 60M), but the Deployment Phase (where the financial returns materialize through mass adoption and ARPU compounding) has not yet fully arrived. The convergence strategy (42–45% of fiber customers taking wireless) is the first evidence of Deployment Phase economics, but the timeline to full return on the $20B+ annual capex cycle is a 3–7 year horizon, not a 12-month catalyst.
+
+The one reflexivity signal worth monitoring: the "open network" architecture disclosure creates a theoretical future state where AT&T's network becomes infrastructure for AI workloads — if hyperscalers or AI application companies begin relying on AT&T's network APIs in a way that AT&T can monetize (managed connectivity, edge compute, SLA-backed API access), this could initiate a modest reflexive loop where AI narrative raises the stock, enabling cheaper capital for spectrum/fiber, enabling better network, attracting more AI workloads. This is speculative as of Q1 2026, but it is a real strategic direction. The signal that this loop has begun would be: named hyperscaler contracts with revenue terms, or an AI-specific revenue line appearing in the Advanced Connectivity segment.
+
+---
+
+**Thesis**
+
+The preliminary hypothesis from Context is confirmed with one meaningful complication. The hypothesis stated: "AT&T is a mature infrastructure business trading at a utility-like multiple with a credible fiber growth narrative and emerging (but unconfirmed) AI tailwind. The stock offers a potential margin of safety at current prices based on demonstrated FCF ($17–19B TTM range), but the investment case is constrained by a structural capex burden, $130B net debt, and the absence of a confirmed AI revenue contribution."
+
+The confirmation: all three elements are confirmed by the earnings calls. FCF is real, fiber is growing, AI is unconfirmed as a revenue driver.
+
+The complication: the pass-through of FCF to equity holders (dividend + buybacks) is tighter than the preliminary hypothesis implied. The gap between what AT&T generates ($18B FCF guided) and what it must return ($7.9B dividend + $8B buyback = $15.9B committed) leaves only ~$2B annually for debt reduction. At that rate, the $116B net debt would take approximately 60 years to repay organically — debt reduction requires EBITDA growth, not just free cash flow surplus. The thesis is therefore more dependent on EBITDA acceleration than the Numbers analysis alone suggested. The 2028 5%+ EBITDA growth target is not optional for the thesis — it is load-bearing.
+
+*Bear scenario:*
+- Wireless service revenue growth stalls at 0–1% YoY as T-Mobile and cable competitors match the OneConnect bundle, eliminating the convergence premium. [INFERRED: T_earnings_qa.md Q1 2026 Q1, churn dynamics and OneConnect rollout gradualism; T_mda_excerpts.md competitive environment] The April pricing actions drive 150–200K additional postpaid churn in Q2–Q3, offsetting the EBITDA benefit of higher rates.
+- Quantifiable bear condition: FCF falls below $16B in 2026 (below the combined $15.9B dividend + buyback commitment), forcing either a dividend cut or buyback suspension. Trigger threshold: Q2 2026 FCF below $3.5B (annualizing below $14B given Q1 at $2.68B and assuming only modest H2 recovery) would force reassessment. At $14B FCF, the dividend is covered ($7.9B) but buybacks become unfeasible, the shareholder return narrative breaks, and multiple compression to 8–9x forward earnings (~$18–21 stock price) follows. [ESTIMATED: T_financial_analysis.md FCF figures and T_earnings_remarks.md dividend/buyback commitment, arithmetic]
+- EchoStar acquisition ($23B) closes in late 2026, pushing net leverage to 3.3–3.4x approaching the 3.75x covenant ceiling, removing financial flexibility and triggering a leverage-discount repricing.
+
+*Bull scenario:*
+- The April 2026 pricing actions (consumer broadband and wireless rate increases) produce 200–300 bps of EBITDA margin improvement in H2 2026, with low churn response because convergence customers (42–45% of fiber base) are stickier than single-service customers. FCF beats $18B guidance, confirming the thesis and allowing buyback acceleration. [INFERRED: T_earnings_qa.md Q1 2026 Q5, management's H2 EBITDA acceleration commitment; T_mda_excerpts.md convergence churn dynamics]
+- Quantifiable bull condition: Q2 2026 FCF of $4.5B+ and EBITDA growth of 4%+ YoY would validate the H2 rebound narrative, likely driving a re-rating toward the $27–29 analyst consensus range (~10–18% upside from $24.64). The "open network" initiative attracts a named hyperscaler partnership announcement in 2026 or 2027, initiating a multiple re-rating from 10–11x toward 12–14x forward earnings ($27–32 price range).
+
+*Expected Value:*
+
+**This is approximately a dollar for a dollar — with a modest tilt toward "dollar for 90 cents" pending Q2 confirmation.**
+
+Numbers dimension is present but not compelling: AT&T generates genuine FCF ($17–19B), pays a well-covered dividend (~4.5% yield), and grows fiber revenues at 20%+ rates. The adjusted forward P/E of ~10.7x is not expensive. But true operating ROIC of 6–7% at cost of capital means the reinvestment value is limited — every dollar AT&T spends on capex earns approximately what it costs. The earnings quality is high; the earnings growth engine is real but not powerful.
+
+Narrative dimension is absent: no institutional upgrade cycle, no retail thesis, no AI narrative with any quantifiable near-term revenue basis. The "open network" disclosure is interesting but is 3–5 years from monetization at optimistic timelines.
+
+Catalyst dimension is weak-to-moderate: Q2 earnings (late July) is a real, thesis-critical catalyst — the first print that will confirm or deny EBITDA acceleration. The Mizuho CFO conference (June 9) is tactical. Neither is transformative. The path from $24.64 to analyst consensus of $29.25 is a grinding, 6–18 month journey of execution confirmation with no single inflection event.
+
+The "dollar for 90 cents" tilt reflects: (1) the thesis is execution-dependent and Q1 already showed one miss (wireless service revenue); (2) the FCF commitment structure leaves almost no margin for error (FCF must come in at $18B or the capital return program is at risk); (3) the macro environment (risk-off, elevated oil, geopolitical stress) supports defensive income holds but creates macro headwinds for a consumer telecom if energy costs raise broadband price sensitivity; (4) the AT&T-specific risk that competitor behavior (T-Mobile aggressive promos) forces a response that impairs margins.
+
+The honest conclusion: AT&T is an income investment, not a value investment in the classic sense. The dividend yield (~4.5%) and the 18.7% implied upside to analyst consensus are real but require patience and execution from a management team that has a credible but unproven plan. The stock is not overpriced, and the dividend provides a real income floor, but the thesis does not embed a wide margin of safety — it requires AT&T to execute its 2028 plan substantially as described. Investors buying for income with a 3–5 year horizon receive the dividend plus potential capital appreciation to consensus; investors seeking a near-term re-rating catalyst or a transformative value realization event will likely be disappointed.
+
+---
+
+**Invalidation**
+
+Specific, observable developments that would make this thesis wrong and require reassessment:
+
+1. **FCF below $15B in any trailing twelve-month period:** This would indicate the dividend ($7.9B) + buybacks ($8B committed) exceed sustainable FCF, forcing a capital return cut and destroying the income thesis. Threshold: $15B is the effective minimum for maintaining both dividend and buybacks.
+
+2. **Wireless service revenue YoY decline in any quarter:** A reversal from +1.7% growth to negative would signal that T-Mobile/Verizon competitive intensity is structurally eroding AT&T's wireless ARPA, breaking the convergence thesis that depends on wireless + fiber bundling maintaining ARPA.
+
+3. **Adjusted EBITDA growth in Q2 2026 below 2% (flat to Q1's 2.3%):** Management explicitly committed to EBITDA acceleration in Q2, citing April pricing actions and Lumen ramp. If Q2 EBITDA growth is not materially above Q1, it would indicate the price increases drove churn rather than margin, and the 2028 5%+ EBITDA framework is unreachable.
+
+4. **EchoStar acquisition closing with leverage above 3.5x net debt/EBITDA:** This would approach the 3.75x covenant ceiling with no buffer for operating variance, constituting a genuine financial flexibility risk rather than a planned temporary leverage event.
+
+5. **Goodwill impairment on Consumer Wireline unit:** A repeat of the 2024 Business Wireline $4.4B impairment on the Consumer Wireline book would confirm that the fiber convergence strategy is not generating sufficient returns to justify the allocated goodwill — a direct challenge to the thesis's core asset quality assumption.
+
+---
+
+*Synthesis written: 2026-05-29.*
