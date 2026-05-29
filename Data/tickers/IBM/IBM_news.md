@@ -1,25 +1,24 @@
 # IBM News Data
-**Generated:** 2026-05-08 16:31
-**Date Range:** 2026-02-07 to 2026-05-08
+**Generated:** 2026-05-29 17:46
+**Date Range:** 2026-02-28 to 2026-05-29
 
 ## Summary Statistics
 
 ### Coverage
 - **Perigon:** 30 stories (aggregated from 30 media items)
-- **FMP:** 29 articles from 14 sources
-- **Total:** 59 items
+- **FMP:** 30 articles from 18 sources
+- **Total:** 60 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
 | 2026-05 | 10 | 10 |
-| 2026-04 | 8 | 10 |
-| 2026-03 | 6 | 9 |
-| 2026-02 | 6 | 0 |
+| 2026-04 | 10 | 10 |
+| 2026-03 | 10 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.200)
+**Perigon** (avg composite: +0.253)
 - Positive-leaning: 23 stories
 - Neutral: 0 stories
 - Negative-leaning: 7 stories
@@ -28,219 +27,243 @@
 
 ## Perigon Stories (30 stories)
 
-### 2026-05-08 | Saudi Aramco IBM plans industrial AI partnership
-**Sentiment:** +0.51 (pos: 0.58, neg: 0.07, neu: 0.35)
+### 2026-05-29 | IBM raises 2026 outlook above 10%
+**Sentiment:** +0.54 (pos: 0.59, neg: 0.06, neu: 0.35)
 
-IBM and Saudi Aramco announced an intended collaboration to pursue artificial intelligence (including agentic AI), automation, and materials science, along with other areas, for industrial and energy applications. Announced at IBM’s THINK Boston event and involving IBM CEO Arvind Krishna and Aramco’s Sami Al Ajmi, the effort will combine IBM’s enterprise technology platforms, hybrid cloud and consulting capabilities, and research expertise with Aramco’s industrial scale, data assets, and energy-sector experience. The companies say the work will target practical, high-impact solutions—especially industrial AI use cases in mission-critical settings—aiming to improve operational excellence, reliability, safety, and system resilience. IBM Middle East and Africa’s Saad Toma framed the partnership as a next step in enterprise transformation to address complex industrial challenges. The collaboration builds on a long relationship dating back to 1947 and remains subject to the parties reaching definitive agreements.
+IBM is pitching an AI-led turnaround built on software and consulting momentum, hybrid cloud growth anchored by Red Hat, and mainframe modernization, with some coverage pointing to a 2026 software outlook of over 10% and record mainframe gains driven by the new z17 and on-device AI inference. Recent investor updates emphasize IBM’s shift toward recurring, higher-margin business as hybrid cloud demand and Red Hat’s platform continue to expand. Alongside that business progress, IBM is increasingly viewed by markets as tied to U.S. quantum ambitions, with reporting that the company could be a major recipient of government quantum funding. The broader push toward AI compute and real-asset infrastructure is reflected in institutional investors moving into areas like data centers, power, and semiconductors rather than relying only on software bets. In parallel, a published experiment used a quantum component inside a real language-model workflow on IBM quantum hardware, improving outcomes modestly and suggesting quantum could eventually complement classical scaling—though it is not yet a replacement for GPU-style infrastructure.
 
 **Key Points:**
-- Aramco’s Sami Al Ajmi said industrial AI and related domains are aimed at “enhanc[ing] operational excellence and resilience,” while “reinforcing our leadership in Industrial AI—particularly in reliability, safety, and mission-critical environments.”
-- IBM’s Saad Toma described the effort as “the next frontier in enterprise transformation,” adding that the collaboration is exploring how emerging technologies “address[] some of the world’s most complex industrial challenges,” alongside “continuous investment in innovation.”
-- The announcement was made at THINK Boston on May 6, 2026, and the companies framed their partnership as having evolved through “successive waves of digital transformation,” moving from “foundational systems” to “modern digital platforms.”
+- IBM said more than 30% of its consulting backlog comes from generative AI, linking its services momentum directly to the AI buildout rather than only to cloud/software contracts.
+- In its upbeat Q1 2026 investor update, IBM reported 6% revenue growth, record first‑quarter free cash flow of $2.2 billion, software revenue up 8%, and annualized recurring revenue rising 10% to $24.6 billion—figures cited as evidence of expanding margins and a scaling hybrid-cloud/AI platform mix.
+- IBM’s quantum narrative was tied to a specific funding expectation: analysts and market coverage said IBM could receive about $1 billion from the U.S. government’s proposed $2 billion quantum package, and Wedbush described IBM’s transformation as a “turnaround story with massive upside,” while calling CEO Arvind Krishna “underappreciated by investors.”
 
 ---
 
-### 2026-05-08 | IBM,Yotta plans sovereign agentic AI platform India
-**Sentiment:** +0.51 (pos: 0.55, neg: 0.05, neu: 0.40)
+### 2026-05-29 | IBM Red Hat Pledge $5B for Project Lightwell
+**Sentiment:** +0.37 (pos: 0.46, neg: 0.09, neu: 0.44)
 
-IBM and Yotta Data Services announced a strategic partnership to deliver an agentic AI platform for enterprises and government organizations in India. The platform is proposed to run on Yotta’s Shakti Cloud and be built with IBM watsonx Orchestrate, aimed at moving organizations from AI experimentation to operational deployment. It is designed to orchestrate and manage AI agents across functions such as IT service management, HR, finance, procurement, and customer support, reflecting growing demand for AI-driven workflow automation. The partners also plan to bring IBM Sovereign Core to Shakti Cloud to help create “sovereign” environments with continuous compliance monitoring, verifiable control, and governed AI execution. The effort is positioned as an India-hosted approach to address data residency, security, and evolving regulatory requirements while maintaining governance and trust.
+IBM and Red Hat announced Project Lightwell, a $5 billion, AI-assisted initiative to accelerate the identification, validation, and remediation of vulnerabilities in widely used open-source software across enterprise supply chains. The effort will draw on a global workforce of more than 20,000 engineers and is positioned as a “trusted enterprise clearinghouse” where companies can subscribe to tested fixes and lifecycle-managed patch deployment. IBM said the urgency has grown as AI systems can rapidly uncover thousands of high- and critical-severity issues in open source, alongside increasing pressure on maintainers as security reports surge and backlogs worsen. The program is intended to coordinate upstream disclosure and send production-ready patches back to the broader open-source community, and it will expand beyond Red Hat’s traditional scope to include independent libraries and components. IBM is already running early trials with major financial institutions, and Reuters reported the commercial offering is planned to launch within about 30 days, though pricing and exact workflows were not yet fully specified.
 
 **Key Points:**
-- IBM India and South Asia managing director Sandip Patel said the tie-up is meant to “embed[] sovereignty, governance, transparency, and trust from the outset,” describing it as combining IBM’s AI capabilities with Yotta’s sovereign cloud infrastructure.
-- IBM Sovereign Core is described as “now generally available,” and the partnership plans to bring it onto Yotta’s Shakti Cloud as part of creating AI-ready “sovereign environments.”
-- One article adds IBM’s “four pillars” framing for digital sovereignty: operational sovereignty, data sovereignty, technology sovereignty (including use of “open, modular architectures” such as Red Hat OpenShift to reduce vendor lock-in), and AI sovereignty (governing “where models run” and how inference is executed).
+- Open-source maintainer Daniel Steinberg (cURL) said security-report volume has become unsustainable: incoming security reports are “four to five times higher than it was in 2024 and double the speed of 2025,” and that he is “on the verge of burning out,” asking for more companies “to fund us” to hire help to handle the workload. 
+- IBM CEO Arvind Krishna told CNBC the immediate catalyst for Project Lightwell was Anthropic’s Mythos: “Mythos was the critical triggering factor on this,” adding that advanced LLMs are “remarkably adept at finding vulnerabilities” and exploiting security gaps in both proprietary and open-source code.
+- Red Hat SVP and CPO Ashesh Badani described the core bottleneck as speed: “The advancement in AI tools has broken the patching map, which is the ability to discover vulnerabilities in software without losing the speed of remediation.”
 
 ---
 
-### 2026-05-07 | IBM Think 2026 highlights agentic AI, sovereign cloud
-**Sentiment:** +0.29 (pos: 0.41, neg: 0.12, neu: 0.47)
+### 2026-05-29 | AI Reskilling Emphasized as Costs and Governance Questioned
+**Sentiment:** +0.32 (pos: 0.47, neg: 0.15, neu: 0.37)
 
-At IBM Think 2026, IBM highlighted an “AI operating model” that ties together data, agents, automation, and hybrid cloud so enterprises can move beyond isolated AI projects and deliver AI into core business operations (rather than only chatbots). IBM also used the event to advance IBM Sovereign Core, released in general availability, positioning it as an open, runtime-enforcement approach to sovereignty that embeds continuous compliance, auditability, and governed AI execution inside a sovereign boundary. The platform is built on open enterprise components such as Red Hat OpenShift and Red Hat AI, with a customer-operated control plane, in-boundary encryption and data services, and automated evidence generation tied to preloaded regulatory frameworks. Separately, the Sovereign Cloud Compass project evaluates 17 cloud providers across multiple sovereignty criteria and use cases (like government, critical infrastructure, and financial services), reflecting skepticism about “sovereignty washing” and emphasizing verifiable controls such as encryption and admin isolation. Together, the reports underscore a shift in digital sovereignty priorities from simply where data sits to who operates platforms, what dependencies exist, and how AI inference and compliance can be continuously demonstrated.
+Leaders speaking at Boston Tech Week said AI is reshaping startups and hiring by shortening time-to-prototype and shifting the most valuable workplace skills toward communication, leadership, judgment, and other strengths that complement automation. They also reported that corporate users are questioning whether heavy AI spending is delivering returns, citing ballooning costs, uneven productivity gains, and employee skepticism, including concerns about inefficient “tokenmaxxing” practices. US employer surveys indicated AI is the policy area most likely to drive regulatory and workplace changes, with many organizations now reporting formal AI governance and review processes. Executives framed AI’s job impact as a tradeoff—potentially reducing some roles while increasing demand for AI-capable work—paired with a renewed emphasis on reskilling and job redesign. Banking leaders argued firms should use AI to empower employees and invest in training, while IBM India head Sandip Patel said India’s demographic strength will translate into AI leadership only if governments, industry, and academia coordinate large-scale retraining.
 
 **Key Points:**
-- At Think 2026, IBM tied its “AI operating model” push to specific product milestones: a private preview of a new iteration of Watsonx Orchestrate, a public preview of the Concert operations platform, and general availability of both the IBM Bob agentic developer product and IBM Sovereign Core.
-- IBM CEO Arvind Krishna argued that value goes beyond chat: “not just a chatbot… Those are important, but they only get to the first 20 percent of the value. The next value comes from deploying hybrid cloud technologies.” He also advised partners to invest in more automation to “remove human labor complexities” and move toward real-time value.
-- Sovereign Cloud Compass was created by investor Jörn Petereit after frustration that “sovereignty washing” debates lacked concrete requirements or verifiable facts; he found there was “no simple overall winner” because results depend on the use case. The report highlights the stakes driving demand—Google, AWS and Microsoft reportedly control about 70% of the European cloud market—and notes that the 2018 Cloud Act can compel US companies to provide data to law enforcement upon request.
+- Several corporate leaders are actively pulling back on GenAI spending after cost blowups. Microsoft “canceled most of its Claude Code licenses, in part over costs,” and Uber’s COO said AI costs are getting “harder to justify,” according to reporting cited by Axios.
+- An Axios-cited AI consultant said one client spent “half a billion dollars in a single month” on Claude after failing to put usage limits on employee licenses—an example of how unbounded deployments can rapidly erode ROI.
+- The Littler Annual Employer Survey found employers’ expectations of AI-related policy change surged: the share of respondents selecting AI rose from 42% in 2025 to 84% in 2026 (with data privacy second at 53%).
 
 ---
 
-### 2026-05-07 | IBM Expands Db2 Genius Hub for Agentic AI
-**Sentiment:** +0.16 (pos: 0.33, neg: 0.17, neu: 0.50)
+### 2026-05-29 | Global firms shift more AI work in-house
+**Sentiment:** +0.41 (pos: 0.55, neg: 0.14, neu: 0.32)
 
-IBM is expanding its Db2 Genius Hub for “agentic” database automation by adding integrations with Google Cloud’s Vertex AI, Intel Gaudi, and Microsoft Azure AI Foundry, while keeping support for Amazon Bedrock and IBM watsonx.ai and requiring user sign-off for proposed database actions. IBM says the hub, launched in March, can cut management costs by 25%, manual intervention by 30%, and time to resolution by 35%. Separately, board-level guidance says agentic AI is spreading quickly (74% of companies use it at least moderately) but that only 21% have mature autonomous-agent governance, underscoring the need for human-approval guardrails, monitoring, and audit trails. Commentary also warns that legacy hardware and software can become bottlenecks as on-device AI/NPUs and agentic workloads grow, pushing some firms to upgrade for compatibility and performance. Other analysis cautions that executives can still choose ineffective tech stacks due to decision biases such as trend-chasing and overreliance on developers, which may surface as scaling costs and operational friction. In Australia, governance-focused guidance adds that directors face heightened personal scrutiny and continuing legal duties of care over non-financial risks including cybersecurity and climate disclosure.
+Global companies expanding their India global capability centres are using AI to boost productivity and bring more work in-house, shifting these centres from mainly cost-focused support into units that own core functions like engineering, product development, and analytics. As GCCs take on more technically demanding responsibilities, hiring has moved from scaling headcount toward recruiting specialized talent who can contribute across the AI lifecycle, from development and deployment to monitoring and optimization. Executives say AI is also automating tasks that once defined junior roles, reducing reliance on traditional campus hiring and increasing demand for practical AI skills, portfolios, internships, and hands-on proof of capability. At the same time, leaders report a tightening talent crunch—particularly for niche expertise such as AI and cybersecurity—making it harder for firms to find the right mix of technical skill and adaptability, even as hiring continues. Industry estimates cited by Reuters put India on track for about 2,117 GCCs by fiscal 2026, employing about 2.36 million people and generating roughly $100 billion in revenue. Beyond talent and workload, consultancy and industry voices note GCCs are increasingly judged by business outcomes and AI governance, with operating models emphasizing faster delivery, workflow redesign, and human-AI collaboration for judgment and ethics.
 
 **Key Points:**
-- IBM said the Db2 Genius Hub is designed so that “AI agents in Db2 Genius Hub can propose and execute database operations with user approval,” aiming to move “from diagnosis to action without giving up control of what happens in production,” with human judgment kept “at the core.”
-- IBM highlighted Db2’s banking footprint—“Banks make up nearly 43 percent of its users,” naming American Express, Bank of America, Citibank, and Deutsche Bank—context for why IBM is positioning the automation as bounded/guardrailed for high-stakes environments.
-- One analysis argued that agentic AI increasingly needs local compute: for real-time workflows, “dedicated Neural Processing Units (NPUs) are essential,” and it claimed that “NPUs with 50–85 TOPS” are becoming a baseline in business laptops—suggesting why legacy hardware can’t efficiently run on-device agent workloads.
+- Daimler Truck Innovation Center India’s CEO said the automaker is prioritizing internal control over “software that directly influences vehicle performance and safety,” keeping activities it views as core while using “external vendors for functions that fluctuate at the project level.”
+- Target India’s head, Andrea Zimmerman, said the retailer already does “the vast majority of our tech in-house,” with external partners mainly offering “flexibility.”
+- A Reuters summit executive noted GCCs’ influence on product launches worldwide, saying: “A good proportion of the work for any market (launch) would be done out of the India centre” and adding that there is “probably not a medicine launched anywhere in the world that hasn’t had a thumbprint of Bengaluru on it.”
 
 ---
 
-### 2026-05-07 | Db2 Genius Hub adds Vertex AI, Intel Gaudi
-**Sentiment:** +0.47 (pos: 0.54, neg: 0.07, neu: 0.39)
+### 2026-05-29 | DTST CEO Charles Piluso sells 12,555 shares
+**Sentiment:** +0.01 (pos: 0.21, neg: 0.20, neu: 0.59)
 
-IBM announced that Db2 Genius Hub, its AI-driven operating layer for managing Db2, now officially supports Google Vertex AI and Intel Gaudi accelerators for AI inferencing, expanding the mix of cloud and hardware options for enterprise customers. The update builds on earlier support for Amazon Bedrock and major GPU/accelerator platforms, and IBM says Genius Hub works across both on-prem and cloud deployments (including IBM Cloud, AWS with Bedrock, and Google Cloud with Vertex AI). At Think 2026, IBM also positioned Db2 Genius Hub as moving beyond recommendations toward “Level 3” autonomy, where AI agents can propose and execute database operations with user approval and guardrails. IBM said the platform is designed to reduce the time between diagnosing issues and translating recommendations into safe production actions, with examples like proposing index creation or configuration updates for DBA review. For on-prem environments—especially air-gapped setups—IBM highlighted Intel Gaudi 3 inferencing to maintain low latency and handle high concurrency, using its multicard setup and vLLM-based approach. IBM additionally described integrations such as MCP access for Genius Hub agents, allowing teams to connect the platform into broader AI-managed IT workflows.
+Data Storage Corp CEO Charles Piluso sold shares of DTST in two SEC-reported transactions intended to cover tax withholding tied to equity award vesting. On May 21, he sold 12,555 shares at an average price of $3.91 for about $49,090, reducing his stake by 4.05% to 297,477 shares. On May 22, he sold 41,793 shares at an average price of $3.82 for about $159,649, trimming his holdings by 14.05% to 255,684 shares. The company’s stock is thinly capitalized and has traded in a narrow range, with recent price moves around $3.84 and market valuation near $8.3 million. On May 15, Data Storage reported quarterly results that included EPS of -$0.25, which beat the consensus, while revenue of $0.35 million came in slightly below expectations. Institutional investors have taken mixed actions, and analyst coverage remains cautious, with one reported rating change from sell to hold while another view indicated a broader “reduce” consensus.
 
 **Key Points:**
-- IBM said the Db2 Genius Hub announcement introducing Google Vertex AI and Intel Gaudi inferencing support came with a May 4, 2026 press-release date, and that existing Db2 customers would be able to upgrade to “Db2 AI Editions” to access Genius Hub and the new inferencing capabilities.
-- IBM described Db2 Genius Hub as a console experience that “continuously correlates performance signals and operational context across the Db2 estate,” using AI to generate recommendations/explanations/insights grounded in live operational data at production scale.
-- For on-prem deployments (including air-gapped environments), IBM specifically tied Intel Gaudi inferencing to its multicard architecture and a “RedHat vLLM engine,” saying it supports running concurrent instances of LLMs to distribute inferencing workload and handle high request concurrency while maintaining latency.
+- In the run-up to the May insider sales, DTST showed relatively heavy trading activity: shares traded at 69,139 versus an average volume of 44,198, and the stock had a beta of 1.15 with a negative P/E of -11.64. It also sat below key trend levels, with a 50-day moving average of $4.00 and a 200-day moving average of $4.32.
+- Data Storage’s May 15 earnings included additional profitability/lossability metrics not highlighted in the summary: it posted a negative return on equity of -3.76% and an unusually high net margin of 81.52%, alongside the EPS/RVA figures already discussed.
+- Institutional activity described in the reports included specific purchases/additions with dollar amounts—for example, Dimensional Fund Advisors LP increased its position by 15.1% in the third quarter, adding 4,920 shares to reach 37,574 shares valued at about $162,000; Zacks Investment Management bought a new stake worth about $83,000; and XTX Topco Ltd acquired a new stake worth about $134,000.
 
 ---
 
-### 2026-05-07 | IBM Think 2026 to unveil Watsonx for 5,000
-**Sentiment:** +0.45 (pos: 0.53, neg: 0.08, neu: 0.40)
+### 2026-05-29 | ACAM,Kantar announce Australia AI marketing benchmark expansion
+**Sentiment:** +0.55 (pos: 0.61, neg: 0.06, neu: 0.33)
 
-IBM will kick off its annual Think 2026 conference in Boston on May 5 at 8:30 a.m. ET, with CEO Arvind Krishna set to outline how AI is becoming central to enterprise operations and how quantum is emerging as the next frontier. The event expects more than 5,000 senior business and technology leaders from over 80 countries and will emphasize moving from AI pilots to large-scale, measurable deployments, with sessions spanning agentic AI, hybrid cloud, trusted data strategies, automation, and quantum. IBM is also previewing a broad set of announcements, including hybrid data and real-time streaming integrations with Confluent (for making live event data “AI-ready”) and an AI mediation governance gateway (DataPower Interact Gateway) aimed at securing, governing, and observing interactions between agents, models, and enterprise tools. IBM says it will show how organizations can safely deploy agentic AI across workflows, while highlighting the economics of AI at scale and progress toward “quantum advantage.” IBM’s Think coverage also points to teased products and briefings such as an evolution of Db2 Genius Hub, a consulting offering called Enterprise Advantage, and a private-preview related to IBM Cyber Fraud. Ahead of the conference, IBM communications also highlight expanded enterprise AI and hybrid-cloud capabilities at Think 2026, including new releases connected to watsonx.
+The Australian Centre for AI in Marketing has expanded its national benchmark tracking how organisations use AI in marketing and has added Kantar as a strategic research and insights partner, while IBM remains the founding and primary enterprise partner. Now in its second year, participation has more than doubled, reflecting growing pressure on CMOs and senior leaders to assess AI readiness and progress on transformation rather than treating AI as an isolated experiment. The expanded 2026 study draws input from marketing leaders across financial services, retail, technology, telecommunications, government, and not-for-profit sectors, aiming to show how AI maturity varies by industry. Across the findings so far, the focus is shifting from experimentation toward embedding AI through operational change, governance frameworks, leadership readiness, and workforce capability. The July 2026 report is expected to highlight how organisations’ approaches to adopting AI, integrating it into operations, and scaling beyond pilot projects are evolving since the inaugural benchmark, including the view that competitive advantage depends on embedding AI into decision-making.
 
 **Key Points:**
-- IBM is also featuring specific client executives at Think 2026, including Dr. Serpil Erzurum (Cleveland Clinic) and Ratnakar Lavu (Elevance Health) discussing how their organizations are adopting AI and quantum.
-- In its Confluent partnership pitch, IBM says Confluent’s streaming platform powers real-time data for “more than 40% of the Fortune 500,” and is built on open standards including Kafka, Flink and Iceberg. IBM also highlights that watsonx.data and Confluent Tableflow work together to make real-time streams available as open table formats for analysis and business intelligence.
-- IBM describes its DataPower Interact Gateway as a “context-aware unified gateway” that, unlike traditional API gateways retrofitted for AI traffic, enforces security, governance and observability directly at the AI interaction layer—helping enterprises manage and scale AI “without rebuilding their architecture.”
+- Kantar’s Karin Du Chenne said AI is “already reshaping how brands grow,” but warned many organisations are “still underestimating what it takes to turn capability into competitive advantage,” arguing the next phase will be defined by who can embed AI into decision-making rather than merely “deploy it in pockets.”
+- One report added that the benchmark announcement comes as businesses face pressure “to turn AI projects into standard practice rather than keep them as ring-fenced experiments,” and that in marketing the conversation has expanded beyond software tools to include “management structures” plus “staff capability and oversight.”
+- Louise Cummins said Kantar’s addition is intended to “strengthen the next phase of our benchmark and insights capability” and to help ACAM “continue building the broader ACAM ecosystem alongside our strategic partners.”
 
 ---
 
-### 2026-05-07 | Broadcom Automic 26 Adds Agentic Job Type
-**Sentiment:** +0.26 (pos: 0.44, neg: 0.17, neu: 0.39)
+### 2026-05-28 | IBM shares jump 4% on $10B quantum plans
+**Sentiment:** +0.53 (pos: 0.63, neg: 0.10, neu: 0.27)
 
-Arm says its new Arm AGI CPU is designed for the “agentic” era, emphasizing scalable, efficient CPU performance so the CPU can act as a control layer coordinating complex interactions across CPUs, GPUs, and accelerators; Arm also announced that Verda will deploy the Arm AGI CPU for agentic AI orchestration alongside NVIDIA-based systems as part of next-generation infrastructure plans at the OCP EMEA Summit ([https://www.design-reuse.com/blog/56319-from-deployment-to-open-standards-arm-advances-ai-infrastructure-for-the-agentic-era/](https://www.design-reuse.com/blog/56319-from-deployment-to-open-standards-arm-advances-ai-infrastructure-for-the-agentic-era/)). At the enterprise level, multiple articles describe a shift away from ERP as static “systems of record” toward software that functions as autonomous engines of productivity, changing how organizations structure work and respond to real-time complexity ([https://b2bdaily.com/it/oracle-transforms-enterprise-software-into-autonomous-engines/](https://b2bdaily.com/it/oracle-transforms-enterprise-software-into-autonomous-engines/)). Legacy automation platforms are likewise evolving to connect agentic AI to critical workflows: Broadcom’s Automic version 26 adds an “Agentic AI Job” that can operate as a Model Context Protocol (MCP) server, while BMC’s Control-M adds an AI assistant/workflow creator and expands AI agent support for mainframe environments ([https://www.techtarget.com/searchitoperations/news/366642753/Bridging-the-gap-Legacy-tools-gain-enterprise-AI-support](https://www.techtarget.com/searchitoperations/news/366642753/Bridging-the-gap-Legacy-tools-gain-enterprise-AI-support)). A key barrier to production deployment is security and authorization: the risk that agents act like autonomous “insiders,” generating queries or actions that expose sensitive data, especially when applications are not consistently enforcing security boundaries ([https://blogs.oracle.com/database/oracle-deep-data-security-is-now-available-in-oracle-ai-database-26ai](https://blogs.oracle.com/database/oracle-deep-data-security-is-now-available-in-oracle-ai-database-26ai)). Oracle argues it can reduce this exposure by enforcing end-user authorization at the database layer via Oracle Deep Data Security in Oracle AI Database 26ai, even when agents use highly privileged connections ([https://blogs.oracle.com/database/oracle-deep-data-security-is-now-available-in-oracle-ai-database-26ai](https://blogs.oracle.com/database/oracle-deep-data-security-is-now-available-in-oracle-ai-database-26ai)). Finally, Oracle Financial Services says its agentic AI platform is being integrated directly into legacy core banking systems while automating document-heavy workflows, aiming for incremental modernization rather than full replacement ([https://finainews.com/banking/oracles-new-agentic-ai-platform-integrates-with-legacy-systems/](https://finainews.com/banking/oracles-new-agentic-ai-platform-integrates-with-legacy-systems/)).
+IBM shares rose about 4% to around $265 after the company filed with regulators and detailed a five-year, $10 billion push to expand quantum computing research and production. The plan targets Starling, IBM’s first large-scale fault-tolerant quantum computer, slated for delivery by the end of 2029, alongside continued deployment of its quantum systems and cloud access approach. IBM also announced Project Lightwell, a $5 billion open-source security initiative backed by more than 20 financial institutions and aimed at using AI to strengthen security in open-source software. The quantum strategy is further tied to a letter of intent with the U.S. government to pursue a quantum chip manufacturing facility in Albany, New York, supported by proposed CHIPS Act incentives and IBM investment. Trading-focused coverage highlighted strong momentum but also pointed to potentially stretched, overbought conditions and expectations for near-term volatility and consolidation around key price levels.
 
 **Key Points:**
-- Arm said its Arm AGI CPU work is closely aligned with hyperscaler Meta, described as both a “lead partner and customer,” tying the chip’s agentic-orchestration focus to a major customer’s direction.
-- Broadcom’s Automic version 26 (released April 8) introduces a specific “Agentic AI Job” capability that can operate as an MCP server—and the article adds that Automic can connect critical data from ERP, mainframes, and core banking into Broadcom’s private AI infrastructure portfolio based on VMware.
-- BMC’s Control-M rollout includes concrete product and reporting changes: it added an AI assistant and workflow creator on March 18, issued an April 8 statement of direction for AI agent support in its Automated Mainframe Intelligence (AMI) offering, and expanded its AI-generated zAdviser Enterprise mainframe reports to cover distributed systems applications.
+- IBM said its Starling system is engineered to perform about 100 million quantum operations using 200 logical qubits—specific performance details not included in the summary.
+- Project Lightwell was described as being unveiled by IBM and its Red Hat subsidiary and as creating a “clearinghouse” for open-source security, supported by a global team of “over 20,000 engineers.”
+- For the Albany chip effort, IBM said the foundry will focus on manufacturing 300-millimeter quantum wafers, and the deal terms include proposed CHIPS funding plus IBM cash and contributions of IP, assets, and personnel.
 
 ---
 
-### 2026-05-03 | Oppenheimer boosts IBM stake 38.9%
-**Sentiment:** +0.28 (pos: 0.42, neg: 0.14, neu: 0.44)
+### 2026-05-28 | House lawmaker challenges $2B US quantum investment
+**Sentiment:** +0.46 (pos: 0.58, neg: 0.12, neu: 0.30)
 
-Multiple institutional investors adjusted their holdings of International Business Machines (IBM) in recent quarters, with some cutting positions and others adding. Oppenheimer & Co. increased its stake by 38.9%, adding 31,104 shares to reach 111,068 shares worth about $32.9 million. In contrast, Jennison Associates trimmed its IBM position by 5.7% (down 34,236 shares to 563,006 shares worth about $166.8 million), while Total Clarity Wealth Management reduced its holdings by 66.8% (down to 1,760 shares worth about $521,000). New York State Teachers Retirement System also decreased its stake by 1.9%, leaving it with 726,231 shares worth about $215.1 million. Wagner Wealth Management cut its position by 22.3%, holding 8,952 shares worth about $2.65 million. Across these reports, hedge funds and other institutional investors collectively own about 58.96% of IBM’s stock.
+The U.S. Department of Commerce has signed letters of intent to provide just over $2 billion in CHIPS and Science Act incentives to nine quantum hardware companies, largely through minority, non-controlling equity stakes rather than traditional grants. IBM is set to receive $1 billion to build a new superconducting quantum foundry subsidiary, while GlobalFoundries is slated for $375 million to establish a domestic quantum foundry supporting multiple quantum modalities; smaller awards go to companies including Infleqtion, PsiQuantum, Quantinuum, Atom Computing, D-Wave, Rigetti, and Diraq. Proponents say the approach will accelerate quantum R&D, address engineering bottlenecks, and support domestic production and jobs. But Representative Zoe Lofgren argues the administration is using CHIPS and Science Act funding in ways that exceed Congress’s intent for semiconductor-focused work and criticizes the structure of creating a new foundry entity, including an IBM-linked setup. Reporting also highlights that the funding is conditional and intended to move technology from lab development toward scalable foundry-based operations, with Diraq specifically planning to scale its “quantum dot” silicon/CMOS manufacturing to U.S. production. The dispute has turned the funding push into both a policy fight over executive authority and a test of whether the government’s quantum procurement model will withstand legal scrutiny.
 
 **Key Points:**
-- Other large asset managers also increased IBM exposure in the same period: Vanguard Group raised its stake by 1.5% to 97,216,131 shares (valued at about $28.8B), and Capital World Investors added 13.9% to 17,045,156 shares (about $4.81B).
-- Additional increases came from Legal & General Group (+2.5% to 7,302,722 shares), Amundi (+17.9% to 4,777,516 shares), and Invesco (+2.2% to 3,921,228 shares), showing broad, not isolated, institutional buying alongside Oppenheimer’s addition.
-- Jennison’s trim was part of a wider pattern of mixed activity: Waverton Investment Management increased IBM by 3.3% (to 993,743 shares), while NEOS Investment Management rose 51.7% (to 114,395 shares) and Newbridge Financial Services Group grew 30.0% (to 13,122 shares).
+- The Department of Commerce said the conditional funding is meant to address “the most consequential unresolved engineering problems,” including “device reproducibility, optical complexity, error rates, cryogenic systems integration, control hardware, ultra-fast readout electronics, photonic loss, and interconnects.”
+- Commerce officials said the equity-stake structure (minority, non-controlling stakes) “mimics” the model used in the government’s prior Intel deal—an $8.9 billion investment in exchange for a 9.9% stake.
+- GlobalFoundries’ planned “secure, domestic quantum foundry” is described as supporting multiple specific quantum modalities: “superconducting, trapped ion, photonic, topological, and silicon spin” architectures.
 
 ---
 
-### 2026-05-03 | IBM, Dallara partnership targets AI-quantum aerodynamics
-**Sentiment:** +0.29 (pos: 0.40, neg: 0.11, neu: 0.49)
+### 2026-05-28 | Anderon plans $1 billion CHIPS-backed Albany quantum foundry
+**Sentiment:** +0.37 (pos: 0.47, neg: 0.10, neu: 0.44)
 
-IBM and Italy’s Dallara Group announced a collaboration to speed high-performance vehicle design by building physics-based AI foundation models trained on Dallara’s proprietary aerodynamic and simulation data. Early tests reportedly cut aerodynamic evaluation time from hours to about 10 seconds for a conceptual Le Mans Prototype 2-like car and can identify optimal rear diffuser configurations with accuracy similar to conventional CFD. The companies say the approach could reduce broader simulation workloads from days to minutes and let engineers explore more design options earlier in development without replacing established simulation tools. IBM is also looking at how quantum computing could be integrated into future design workflows to improve simulation fidelity for complex aerodynamic problems. Dallara’s long-running racing engineering experience is positioned as key for validating models against real-world performance. Separate market and company-overview reporting highlighted investor and valuation context around the announcement.
+IBM and the U.S. Department of Commerce have announced a Letter of Intent to create Anderon, a standalone, purpose-built quantum chip foundry in Albany, New York, supported by a proposed $1 billion CHIPS incentive and a matching $1 billion investment from IBM. Anderon will run a 300-millimeter quantum wafer fabrication facility aimed initially at superconducting qubit technologies and the supporting electronics and manufacturing processes needed to scale them. The broader federal effort includes a $2 billion quantum package across multiple companies, with the government seeking minority equity stakes to build domestic capability and create jobs. IBM positions the foundry as “pure-play” capacity for multiple quantum hardware vendors, with advanced manufacturing capabilities such as superconducting wiring, through-silicon vias, and wafer testing to speed iteration. Separately, imec reported a major manufacturing milestone by fabricating quantum dot spin qubit devices using high-NA EUV lithography, underscoring that improved semiconductor fabrication processes are increasingly seen as the key bottleneck toward commercially useful quantum systems.
 
 **Key Points:**
-- IBM said its collaboration builds on its “Gauge-Invariant Spectral Transformers” model, and that initial results were detailed in an arXiv preprint published April 20, 2026, with research later presented at the International Conference on Learning Representations (ICLR) in Rio de Janeiro.
-- IBM Fellow Alessandro Curioni framed the effort around physics fidelity, saying: “Some of the hardest engineering challenges come down to accurately simulating the physical world.”
-- The companies plan to expand the AI models beyond the initial test case to cover “different driving conditions and maneuvers,” aiming to broaden applicability of the accelerated simulation approach.
+- IBM CEO Arvind Krishna compared the Anderon push to the early days of AI chip development and suggested it could translate into “revenue in the billions annually by the mid-2030s.”
+- The broader $2B quantum effort is structured unevenly across the nine companies: besides Anderon’s proposed $1B, other firms (including Diraq and six others) were described as receiving between “$38 million and $375 million,” reflecting a bet that superconducting silicon is the most production-ready option among modalities.
+- IBM framed the foundry as part of a much larger economic outlook for the sector, citing estimates that quantum computing could generate “up to $850 billion in economic value by 2040,” and also said it has already “deployed more than 90 quantum systems globally.”
 
 ---
 
-### 2026-05-01 | IBM 511,000-square-foot quantum facility filed Poughkeepsie
-**Sentiment:** +0.40 (pos: 0.48, neg: 0.08, neu: 0.44)
+### 2026-05-26 | Kishan Reddy directs agencies fast-tracking mining, exploration
+**Sentiment:** +0.50 (pos: 0.55, neg: 0.06, neu: 0.39)
 
-IBM has filed with the Town of Poughkeepsie Planning Board to build a 511,000-square-foot quantum computing facility at its existing campus, demolishing two older buildings to make room for manufacturing and assembly of its next-generation Starling quantum systems. The project would expand IBM’s Poughkeepsie footprint to about 3.9 million square feet and is expected to create roughly 200 permanent jobs, with design limits addressed by capping the facility at 40 feet and placing portions below grade for quantum cooling infrastructure. Starling, which IBM says it plans to deliver by 2029, is described as a large-scale fault-tolerant system designed to run about 100 million quantum operations using 200 logical qubits, leveraging qLDPC error-correcting codes to reduce physical qubit overhead, while local officials have raised questions about electricity demand and the grid’s ability to support the cooling loads. Separately, IBM says it has completed an expansion of its IBM Quantum Data Center in Poughkeepsie, deploying new Heron-based systems available via the cloud that it claims deliver major performance and speed gains and support “utility-scale” quantum computing for clients worldwide. IBM also announced an expanded MIT-IBM Computing Research Lab that broadens its long-running partnership to include quantum computing alongside AI research, targeting new computational approaches that combine quantum hardware with classical and AI methods. The lab will pursue work spanning AI and quantum algorithms, including applications such as materials science, chemistry, and biology, while drawing on a track record of hundreds of sponsored projects and thousands of research outputs since 2017.
+Union Coal and Mines Minister G. Kishan Reddy directed India’s mining and exploration agencies to fast-track pending projects in Bengaluru under a mission-mode approach to strengthen the country’s mineral security and strategic growth. He called for outcome-driven functioning and for technology, transparency, and efficiency to be built into institutional processes, with alignment to the Viksit Bharat 2047 vision and broader efforts toward self-reliance. The Geological Survey of India reported exploration updates in Karnataka and Goa, including identification of zones bearing gold, copper, nickel, cobalt, and platinum group elements, and outlined a five-year roadmap that uses AI and machine learning-enabled targeting and advanced exploration across nearly 48,000 square kilometres. The National Institute of Rock Mechanics highlighted work focused on mining safety, tunnel engineering, seismic monitoring, controlled blasting, and related infrastructure needs such as metro systems, while the Indian Bureau of Mines reviewed progress on sustainable mining, scientific mine closure, mineral beneficiation, and the operationalisation of auctioned mineral blocks under the National Critical Mineral Mission. The Remote Sensing and Aerial Survey division said its national aerogeophysical mapping has covered more than 6.5 lakh square kilometres and supported over 200 exploration projects using aero-geophysical datasets, with exploration priorities spanning critical and strategic minerals such as rare earth elements, lithium, nickel, cobalt, tungsten, and vanadium.
 
 **Key Points:**
-- Dutchess County Executive Ron Hicks called IBM’s planned quantum expansion “one of the most significant investments in Dutchess County’s history” and noted that IBM’s 1964 System/360 work in Poughkeepsie “helped transform computing,” adding, “Today, it is poised to do so once aga...”
-- IBM says Starling’s qLDPC error-correcting codes could reduce required physical-qubit overhead by up to 90%, enabling more reliable, complex simulations in areas including “drug discovery, materials science, and large-scale optimization.”
-- On the project’s power needs, IBM representatives said existing grid capacity—backed by “two dedicated Central Hudson substations”—should be sufficient through 2030, while the planning board asked for independent verification and longer-term projections.
+- Reddy directly warned that agencies must deliver “speed, accountability and visible outcomes,” saying: “All organisations must fast-track pending projects and ensure that technology, transparency, and efficiency become the foundation of every institutional process. The people of India and the Government of India expect speed, accountability and visible outcomes from every agency working in this sector.”
+- The minister linked exploration of rare earth elements and other strategic minerals to specific end-use priorities—stating they are crucial for India’s “clean energy transition,” “electronics manufacturing” and “defence supply chains.”
+- The National Institute of Rock Mechanics’ review presentation included additional infrastructure/sectoral work beyond safety and tunnelling—specifically mentioning “hydropower projects” alongside metro rail systems, seismic monitoring and controlled blasting.
 
 ---
 
-### 2026-04-07 | Tata Play Fiber, IBM plan 25-source lakehouse
-**Sentiment:** +0.58 (pos: 0.64, neg: 0.06, neu: 0.31)
+### 2026-04-26 | Accenture shares slide 6.7% on consulting worries
+**Sentiment:** -0.36 (pos: 0.17, neg: 0.53, neu: 0.30)
 
-Tata Play Fiber said it is partnering with IBM to build an AI-ready enterprise data lakehouse on IBM watsonx that will unify 25 previously disconnected data sources into a single, scalable environment. The companies said the move is designed to eliminate inconsistencies and standardization gaps from fragmented customer, marketing, finance, call-center, and service-operation systems that previously limited real-time reporting. With structured and semi-structured data consolidated into a “trusted” foundation, Tata Play Fiber expects improved operational agility and real-time visibility that can help teams—from call center agents to field service engineers—respond with more contextual insights. IBM and Tata Play Fiber also framed the platform as a way to strengthen customer retention and identify new cross-sell and upsell opportunities in India’s competitive broadband market. They added that enhanced analytics will support more accurate regional demand forecasting. IBM said the collaboration demonstrates how a hybrid, AI-enabled data architecture can modernize data estates and scale AI workloads for future business and operational datasets.
+Accenture shares fell sharply after investor worries about weakness in the consulting sector spread from IBM to peers, following analyst commentary pointing to near-term softness and lackluster consulting growth at IBM. The selloff also reflects broader sentiment around slower near-term performance: Accenture’s full-year revenue forecast was lowered to a 3–5% growth range, helping drive P/E compression as the stock is down more than 30% over the past year despite still growing revenue. One interpretation is that the market is mistaking a strategic pivot for a structural decline, arguing that AI may shift project economics rather than eliminate the need for large integrators like Accenture as enterprises implement AI in complex ways. The decline has pushed the stock to new 52-week lows, with traders citing a mid-day low around the mid-$170s and the shares still about 40% below their 52-week high. Recent analyst coverage remains mixed but generally constructive, with multiple firms maintaining Buy or Hold stances and an average “Moderate Buy” rating alongside a mid-$200s average price target. Recent results also offer some counterpoint: Accenture reported quarterly EPS and revenue above consensus and year-over-year revenue growth of roughly 7.8%.
 
 **Key Points:**
-- The companies said the data-lakehouse deal’s “financial terms were not disclosed,” according to the Economic Times report.
-- IBM India & South Asia highlighted that telecom/broadband providers are undergoing rapid transformation while “managing cost pressures and rising customer expectations,” framing the collaboration as a response to those twin pressures.
-- Tata Play Fiber’s IT VP Nebu Joy said, “Navigating today’s data complexity requires more than just consolidation, it demands intelligence,” adding that unifying the 25 sources is meant to deliver enterprise-wide, real-time visibility for contextual decision-making.
+- The selloff was directly tied to specific IBM read-throughs from analysts Wedbush and BMO Capital, which cited “near-term softness in consulting” and “lackluster consulting growth,” raising fears the slowdown could spread beyond IBM to peers like Accenture.
+- A prior market scare echoed in the coverage: about three months earlier, Accenture shares dropped 8.7% after Gartner’s consulting segment revenue fell 12.8%, fueling broader “IT services and consulting” slowdown concerns that then spilled over into other major stocks.
+- Intraday trading details underscored the severity of the move: Accenture hit a new 52-week low at $175.45, with last trade at $176.5810 versus a prior close of $190.10, on volume of 1,136,462 shares.
 
 ---
 
-### 2026-04-06 | Moms for Liberty gains White House influence
-**Sentiment:** -0.17 (pos: 0.25, neg: 0.42, neu: 0.34)
+### 2026-04-25 | IBM Shares Drop After Q1 Beat, No Guidance Raise
+**Sentiment:** -0.48 (pos: 0.11, neg: 0.59, neu: 0.30)
 
-Moms for Liberty, a conservative parent group that built its reputation through local school-board fights over “woke indoctrination,” has rapidly expanded into national influence under President Trump. AP reports that co-founder and CEO Tina Descovich says she has been invited into White House policy discussions on issues including bans on transgender athletes, AI in education, and efforts to dismantle the Education Department and end diversity, equity and inclusion programs. AP also notes that after Trump signed an executive order against transgender athletes, he thanked Descovich, and she later appeared at the White House seated with CEOs of Google and IBM to discuss AI and education policy, and attended a technology summit hosted by First Lady Melania Trump. Supporters argue the group’s “parental rights” agenda is a powerful conservative platform, while critics warn that its presence in federal decision-making promotes extreme views and undermines public schools. Additional reporting links the group’s access to Trump’s embrace of similar education and cultural battles, including Descovich speaking with Trump at the group’s Washington convention and appearing at a campaign rally in late 2024, followed by Trump’s 2025 action on transgender athletes. The group’s trajectory illustrates how grassroots education activism can become a direct input channel into national policymaking.
+IBM shares fell about 6–7% in after-hours/premarket trading after the company reported Q1 2026 results, with revenue of about $15.9 billion (about +6% at constant currency) and adjusted EPS of $1.91 beating analysts’ estimates. Software growth was described as softer than some investors expected (roughly 8%), while infrastructure rose about 11–12%, supported by strength in IBM’s mainframe-related business. Despite a “double beat,” investors were disappointed that IBM did not raise full-year guidance, and continued to weigh concerns that generative-AI tools could reduce parts of traditional software (and consulting) demand. IBM reaffirmed expectations for FY 2026 of more than 5% constant-currency revenue growth and about a $1 billion year-over-year increase in free cash flow, citing AI demand and hybrid-cloud adoption as tailwinds. Separately, investors are watching for a dividend increase that would mark 27 consecutive years of dividend growth, with the expected quarterly payout around $1.6875 per share.
 
 **Key Points:**
-- In an AP interview, Moms for Liberty co-founder Tina Descovich said, “We have a seat at the table in so many policy discussions throughout the administration,” adding that the group is “invited to participate in discussions and meetings where some of these things are hashed out.” AP also notes she “lives in Florida.”
-- AP reports Moms for Liberty was founded in Florida and “became known for challenging classroom instruction it deemed inappropriate for children, often involving sex, race or LGBTQ+ themes,” before shifting to higher-level political fights.
-- National lobbying influence, AP’s background section shows, was preceded by aggressive local tactics: one report says the group’s confrontational approach included “disrupting school board meetings and filing lawsuits,” helping it win control of multiple school boards.
+- IBM’s software segment revenue was $7.1 billion, topping expectations of $6.98 billion—reinforcing it as the company’s “primary growth engine” for hybrid cloud, even though investors wanted more than the quarter delivered.
+- Red Hat accelerated to 13% year-over-year growth (from 10% in the prior quarter), and the article links earlier Red Hat weakness to “delays in US federal contracts during the 2025 government shutdown.”
+- IBM said infrastructure strength included a 48% jump in sales of a new mainframe product line—an additional detail beyond general infrastructure growth.
 
 ---
 
-### 2026-04-05 | IBM announces Arm dual-architecture hardware for enterprise AI
-**Sentiment:** +0.35 (pos: 0.45, neg: 0.10, neu: 0.45)
+### 2026-04-25 | IBM reports 9% revenue growth, higher cash
+**Sentiment:** +0.27 (pos: 0.47, neg: 0.20, neu: 0.33)
 
-IBM and Arm are teaming up to develop dual-architecture hardware intended to make it easier for enterprises to run AI and other data-intensive workloads across IBM’s enterprise systems using Arm-based software. The companies’ work centers on expanding virtualization so Arm application environments can run in IBM platforms, while also addressing enterprise needs for high availability, security, and local data sovereignty. They also plan to improve performance and efficiency by enabling IBM systems to recognize and execute Arm applications, aiming to streamline deployment into mission-critical environments. IBM and Arm say the effort is designed for long-term ecosystem growth by creating shared technology layers between platforms to broaden software compatibility and give customers more architectural choices. IBM’s messaging highlights its Z-series and LinuxOne heritage in reliability and security, while Arm’s strategy includes moving beyond devices toward deeper enterprise data-center roles. Market observers note that the partnership’s significance will depend on how quickly software vendors and enterprise customers build on Arm-based platforms in these IBM-supported settings.
+IBM started 2026 with a broad-based first-quarter showing, reporting $15.9 billion in revenue, up 9% year over year, as gains came across software, consulting, and infrastructure. Software revenue rose 11% (to $7.1 billion), with particular strength in hybrid cloud (Red Hat), automation, data, and transaction processing, while infrastructure climbed 15% (to $3.3 billion) led by a sharp jump in IBM Z. Profitability improved, including a GAAP gross margin of 56.2% and stronger margin-related performance alongside double-digit profit and free-cash-flow growth. IBM also reaffirmed its outlook, expecting more than 5% constant-currency revenue growth for 2026, with exchange rates potentially adding 0.5 to 1 percentage point and citing improved free-cash-flow prospects. In an AI-themed angle, IBM’s results and strategy are positioned as “plumbing” for enterprise AI—cloud software, data management, security, and mainframe modernization—while a separate debate over using AI tools to modernize COBOL underscores IBM’s claim that customers are using its Watson Code Assistant to expand mainframe capacity rather than reduce it.
 
 **Key Points:**
-- Arm said the enterprise push is built on its broader “Agentic AI” data-center direction—highlighting its Arm Agentic AI CPU, which Arm positions as handling tasks for distributed AI operations such as “orchestrating AI accelerators,” “managing memory and storage,” “scheduling workloads,” and “moving data across systems.”
-- IBM tied the collaboration to specific mainframe lineage: it pointed to its Integrated Facility for Linux (introduced in 2000) and LinuxOne, which IBM describes as letting enterprise customers run Linux workloads “in situ” while the “data resides on the mainframe system.”
-- IBM’s systems development leadership framed the effort as a continuation of its end-to-end Z and LinuxOne design approach; IBM CTO Christian Jacobi said, “This moment marks the latest step in our innovation journey for future generations of our IBM Z and LinuxOne systems, reinforcing our end-to-end system design as a powerful advantage.”
+- IBM reported consulting revenue of $5.3 billion, up 4% year over year—described as “resilience” amid cautious customer spending.
+- Beyond the GAAP gross-margin figure, IBM also highlighted stronger profitability metrics including a 57.7% operating (non-GAAP) margin (up 110 bps) and a GAAP pre-tax income margin of 8.7% (up 80 bps).
+- CEO Arvind Krishna said IBM’s Q1 results reflect the “integrated value of our portfolio” and the “trust clients put in us” to improve operations, adding that “AI continues to be a tailwind” and that “IBM products and services are helping clients orchestrate, deploy and govern AI across hybrid environments.”
 
 ---
 
-### 2026-04-04 | IBM wins approval for 11 AI tools
-**Sentiment:** +0.35 (pos: 0.53, neg: 0.18, neu: 0.29)
+### 2026-04-25 | S&P 500 hits record amid Iran war
+**Sentiment:** -0.08 (pos: 0.29, neg: 0.37, neu: 0.34)
 
-IBM announced that 11 of its AI and automation tools, including parts of its watsonx lineup, have received FedRAMP approval for U.S. government use after running on Amazon Web Services’ AWS GovCloud, which is built for government security and compliance. The company said the number of FedRAMP-approved products has grown fourfold over the past year, positioning IBM to help agencies adopt AI without managing the underlying systems themselves. In markets, IBM shares have edged up modestly but sentiment remains cautious as investors look to the April 22 Q1 earnings report to confirm that IBM’s AI strategy is translating into sustained, repeatable growth rather than one-off beats. Recent results showed strength across software and infrastructure, while investors are still weighing concerns such as slowing legacy revenue and execution risks in a competitive AI market. IBM is also betting on a broader “full-stack” AI push—highlighted by its $11 billion Confluent acquisition to improve real-time data capabilities, along with further watsonx expansion including speech integration with ElevenLabs and additional enterprise security and infrastructure efforts. Even so, analysts are split: some view IBM as undervalued with potential upside, while others warn that macro pressure on consulting demand and competitive strain on software franchises could limit the upside narrative.
+Wall Street rose to fresh record highs as strong first-quarter earnings—reported by companies including GE Vernova, Boston Scientific, Boeing and Philip Morris—offset worries tied to the Iran conflict, with both the S&P 500 and Nasdaq setting new all-time highs. The main market pressure remained oil, after Strait of Hormuz disruption tied to Iran firing on ships and seizing vessels; President Trump said the ceasefire would remain in place indefinitely while the U.S. maintained a blockade that halted Iranian exports. Markets also digested Tehran-related comments that the Strait was “completely open,” which supported equities even as crude pricing eased sharply. Brent climbed to about $101.91 (up roughly 3.5%) amid the disruption before crude futures fell (over 11%) toward around $96, reducing near-term inflation and rate-pressure concerns. A prediction-market read-through also pointed to optimism (about “100% YES” for near-term strength), but warned thin liquidity could make pricing sensitive to any sudden ceasefire breakdown or further Fed/oil developments.
 
 **Key Points:**
-- IBM told Reuters it will drop its separate “AI book-of-business” metric starting with the current quarter, removing an easier benchmark for AI demand expectations.
-- In its January update ahead of April 22 results, IBM reported Q4 revenue of $19.69 billion and adjusted EPS of $4.52; it also said software sales rose 14% and infrastructure grew 21%, while CEO Arvind Krishna noted generative AI is now topping $12.5 billion.
-- On the rationale for IBM’s $11 billion Confluent acquisition, Sanjeev Mohan (SanjMo) told Reuters that AI agents “require live operational signals,” not just historical data—framing the deal as central to agent reliability.
+- Brent’s run-up earlier in the conflict was much sharper than what later easing implied: Business Standard reported it jumped from about $70 per barrel pre-war to over $119 amid supply fears, before the subsequent pullback tied to the Strait-of-Hormuz reopening.
+- Not all earnings/market reactions were bullish: Business Standard noted Best Buy shares fell 4.6% after CEO Corie Barry’s departure, while cannabis stocks rose on reports that the Trump administration planned to reclassify marijuana as less dangerous.
+- In extended trading, sector-level earnings warnings also moved markets: TradingView reported Tesla fluctuated after warning of a sharp increase in capital expenditures, while IBM and ServiceNow dropped more than 7% and 12%, respectively, after disappointing results.
 
 ---
 
-### 2026-04-03 | Bengaluru tech couple suicide after U.S. AI layoffs
-**Sentiment:** -0.68 (pos: 0.05, neg: 0.73, neu: 0.22)
+### 2026-04-25 | Material names Raman Kalra APAC president
+**Sentiment:** +0.77 (pos: 0.79, neg: 0.03, neu: 0.18)
 
-A Bengaluru tech couple, Banu Chandra Reddy (32) and his wife Bibi Shaziya Siraj (IBM), died by suicide in separate incidents shortly after Reddy had lost his software job in the United States. Investigators and reporting tied Reddy’s nearly yearlong struggle to find stable work in Bengaluru to AI-driven changes in hiring, which left the family facing mounting financial pressure and severe mental distress. Multiple accounts also pointed to social isolation in the city and strained family dynamics, including limited family support linked to the couple’s interfaith marriage. Police recovered a note in which Reddy reportedly took responsibility and asked that his wife not be blamed, and investigators said further details are still being gathered. Broader coverage of India’s tech labor market framed the tragedy as part of a wider pattern of AI adoption accelerating layoffs, worsening job insecurity, and heightening mental-health risks for displaced professionals and returning workers. https://americanbazaaronline.com/2026/04/01/indian-couples-american-dream-turns-sour-highlighting-ai-driven-job-loss-478071/
+Material, an “intelligent growth” firm focused on consumer data and brand strategy, has named Raman Kalra as President for Asia Pacific (APAC). The company said the move supports Material’s ongoing global expansion by extending its AI-driven insights, strategy, design, and marketing-technology capabilities closer to both local and global clients across the region. Material CEO Laila Worrell described the appointment as well-suited to a “transformative” period for clients and the industry, emphasizing Kalra’s AI-first transformation experience. In his new role, Kalra will lead APAC operations and help deliver strategy-to-execution solutions combining data-backed insights with demand engineering. Kalra brings more than 30 years of experience, including senior leadership roles with IBM and PwC Consulting and most recently leading IBM’s Business Transformation Services across India and South Asia.
 
 **Key Points:**
-- Investigators and reports described the timeline and manner of death in greater detail: Reddy was found “hanging in his apartment” on Monday, and his wife, Bibi Shaziya Siraj, “allegedly jumped from the 17th floor” of their apartment building shortly after discovering his body.
-- Multiple outlets reported that family opposition was tied to more than just an interfaith marriage: sources said Reddy’s father—described as having “strong political connections in Telangana”—was not in favour of the relationship, contributing to strained ties and limited support.
-- Investigators said Shaziya had only recently returned to Bengaluru before the tragedy; one report described that she “took the step shortly after discovering her husband’s death,” highlighting how quickly the final sequence followed after the discovery.
+- Kalra said his APAC leadership will help Material "reimagine how human insights and AI-first technology redefine how brands grow and businesses perform" and that he plans to leverage Material’s "deep legacy of behavioral insights" to build tech-based solutions for clients.
+- The announcement adds that, at IBM and PwC Consulting, Kalra led "AI-first growth strategies for global brands across media, telecom and energy," detailing the industry verticals of his prior work.
+- Material CEO Laila Worrell’s full statement frames the hire as ideal leadership during a "transformative time for the industry and our clients," citing both Kalra’s "AI-driven transformation" and "success in APAC."
 
 ---
 
-### 2026-04-03 | Bengaluru techie couple die, wife jumps 17th-floor
-**Sentiment:** -0.57 (pos: 0.08, neg: 0.65, neu: 0.27)
+### 2026-04-24 | Software shares near cash value after 39% plunge
+**Sentiment:** -0.23 (pos: 0.26, neg: 0.49, neu: 0.25)
 
-A software engineer in Bengaluru, identified by police as Bhanuchandra Reddy (also reported as Bhanu Chander Reddy Kunta), was found hanging inside his apartment in Kothanur, after which his wife—Shazia/Sajiya/Bibi Shazia Siraj (reported as 31)—jumped from the building’s 17th floor and died. Police said the sequence likely began when she returned home, found the room locked or otherwise discovered his body, and took the fatal step in shock. Investigators are treating the deaths as unnatural pending post-mortem results and are examining possible contributing factors including prolonged illness and reported marital discord or frequent quarrels. One report said police recovered a death note in which he asked that no one be held responsible and cited health as the reason for his death. Two separate cases have been registered, and authorities say they will determine the exact circumstances after further investigation.
+Software stocks have been hammered as investors worry AI will erode parts of the SaaS model, with the sector down about 21.5% over six months while the S&P 500 rose 4.8% in the same period. One take argues Zoom and 8x8 deserve caution because of weak recent billings growth and signs of churn/sluggish demand, making it harder for them to sustain premium valuations. In contrast, another view says Microsoft still looks historically cheap, pointing to its subscription-heavy model, Azure cloud position, and role as a foundation for many AI platforms. Other analysts contend that some software businesses can’t be easily replaced with prompting—citing examples like Procore’s construction-management workflow and need for reliable, integrated compliance and audit trails. A related article similarly flags Procore, along with dLocal and Intuit, as “undervalued” relative to expected earnings growth and the discounts created by AI fears.
 
 **Key Points:**
-- Police reports identified the wife as Bibi Shazia Siraj (31), who was working at IBM, alongside her husband Bhanu Chander Reddy Kunta (32), a software engineer from Siddipet, Telangana.
-- A more detailed discovery account said Shazia returned after work to a locked apartment/bedroom, repeatedly knocked without getting a response, then contacted security and neighbours; they forced the door open and found Bhanu hanging.
-- Police sources said Bhanu had been unwell for some time and had been staying at home; investigators alleged he hanged himself when Shazia was not at home, before she returned and discovered the body.
+- Zoom’s latest fundamentals were flagged as soft: StockStory cited “Average billings growth of 4% over the last year” plus “Projected sales growth of 4.2% for the next 12 months,” along with churn indicated by “98% net revenue retention.” It also noted Zoom was trading at “$90.95 per share, or 5.4x forward price-to-sales.”
+- StockStory said 8x8 (EGHT) was another pass largely due to weak growth signals, pointing to “2.4% average billings growth over the last year” and suggesting that its “products, pricing, or go-to-market strategy may need some adjustments.”
+- A separate pro-Microsoft view argued investors were missing a valuation opportunity by emphasizing an “operating price-to-earnings ratio” lens (to reduce noise from one-time items). The piece claimed Microsoft is “still at one of its cheapest levels in recent history” and estimated “36% upside” if the stock re-rates back toward “about 30 times operating profits.”
 
 ---
 
-### 2026-04-02 | College AI Use Rises as Singapore Sets Higher-Ed Rules
-**Sentiment:** +0.20 (pos: 0.39, neg: 0.19, neu: 0.41)
+### 2026-04-23 | IBM Agrees $17M False Claims Act Settlement
+**Sentiment:** -0.43 (pos: 0.09, neg: 0.52, neu: 0.39)
 
-New U.S. polling reported that AI use is widespread in higher education, with more than half of college students saying they use AI in coursework at least weekly and about one in five using it daily, even as roughly half say their schools discourage or restrict AI use. A Lumina Foundation–Gallup study found 42% of bachelor’s students and 56% of associate students are reconsidering their majors, with 16% overall already changing majors, and about one in seven students citing preparation for AI and related technologies as an enrollment reason. Discussions around AI in education increasingly emphasize broader governance concerns—privacy, bias, and student agency—alongside cheating worries, warning that overreliance can lead to “cognitive offloading” or deskilling and may require regulation. In North Dakota, Valley City State University launched a free three-part lecture series explaining practical opportunities and risks of AI for the workplace. In Singapore, a committee led by Education Minister Desmond Lee coordinates best practices for AI in higher education and supports inter-institution research. Some institutions are also moving toward intensive AI-driven personalization models, including “two-hour learning” approaches using AI tutors to deliver lessons aligned to student pacing and mastery.
+On April 10, Acting Attorney General Todd Blanche announced the first U.S. Department of Justice False Claims Act resolution under its Civil Rights Fraud Initiative, with IBM agreeing to pay about $17 million to resolve allegations that it violated federal contractor anti-discrimination requirements tied to Title VII and contract clauses such as FAR 52.222-26; the settlement does not involve an admission of liability. The DOJ alleged that between Jan. 1, 2019 and the agreement’s effective date, IBM certified compliance while maintaining employment practices that allegedly considered race, color, national origin, and sex in hiring, compensation, and other workforce decisions. Those practices included a “diversity modifier” that linked bonus compensation to demographic targets, use of “diverse interview slates” that allegedly altered interview criteria based on protected characteristics, setting demographic goals for business units that allegedly influenced employment decisions, and limiting access to certain training and development opportunities based on protected traits. Legal commentators say the matter signals the Trump administration’s heightened willingness to use the False Claims Act against perceived unlawful DEI discrimination, raising enforcement and whistleblower-suit risk for federal contractors and grant recipients. The DOJ said it credited IBM’s cooperation and voluntary remedial steps, including terminating or modifying programs the government challenged.
 
 **Key Points:**
-- AI use on campus is not evenly distributed by major: the Lumina Foundation–Gallup polling reported that “70%” of business majors use AI in coursework on a daily or weekly basis—despite about half of students saying their schools discourage or restrict AI use.
-- The Lumina Foundation–Gallup study also found demographic differences and details of how the results were produced: it surveyed 1,433 students in associate programs and 2,368 bachelor’s students via a web panel (Oct. 2–31, 2025, opt-in panel), and reported that men are more likely than women to say they changed majors because of AI (21% vs. 12%).
-- On how AI is already affecting hiring, students in Ireland described recruitment processes becoming heavily automated: student Imran Bennekrela said “CVs are scanned by AI in the recruitment process” and that there is “basically there are no more humans in the process,” adding that he saw “back and forth with AI checking for AI” and that “half of them don’t even respond.”
+- The IBM settlement coverage period, as described by one legal alert, runs from Jan. 1, 2019 “through present day” (not just through the agreement’s effective date).
+- One analysis notes that Title VII’s requirements are “ubiquitous” in federal contracting because it applies to employers with “15 or more employees,” reinforcing how widely the underlying non-discrimination obligation can reach contractors.
+- A separate commentary highlights that under the False Claims Act, cases can be brought not only by DOJ but also by private citizens (whistleblowers), and it characterizes the IBM matter as stemming “from an investigation brought by the government.”
 
 ---
 
-### 2026-04-01 | Amaravati plans April 14 open-access quantum computer
-**Sentiment:** +0.69 (pos: 0.72, neg: 0.04, neu: 0.24)
+### 2026-04-21 | Eclipse Foundation launches Open VSX Managed Registry
+**Sentiment:** +0.51 (pos: 0.56, neg: 0.05, neu: 0.39)
 
-Andhra Pradesh Chief Minister N. Chandrababu Naidu said the state will launch India’s first open-access quantum computer at Amaravati on April 14, with access for students and researchers for testing and research, supported by partners including SRM University and Qubit Force. Speaking at a roundtable of the quantum hardware manufacturing ecosystem, Naidu laid out a plan centered on the Amaravati Quantum Valley (AQV) to reduce import dependence by driving domestic manufacture of quantum-computing hardware and components within two years. Stakeholders including representatives from the National Quantum Mission, IBM, C-DAC, C-DOT, DRDO, BARC and NSTL discussed building a full “Made in Amaravati” quantum ecosystem that includes infrastructure, cryogenics and photonics capabilities, plus algorithm development and startup-led innovation. Naidu also described AQV as expanding research and skills through dedicated infrastructure such as eight planned towers and ongoing quantum training efforts, alongside collaborations that include biofoundry-led initiatives. The meeting reached a broad consensus that Andhra Pradesh should work toward becoming one of the world’s top five global quantum hubs by 2030, with the state offering support for coordination among research institutions, startups and industry. National Quantum Mission leadership endorsed the effort as aligned with the broader mission and said further support and partnerships would be provided.
+The Eclipse Foundation announced it is launching Open VSX Managed Registry, a fee-based, foundation-operated managed service for Open VSX—the vendor-neutral extension registry used by VS Code–compatible tooling. The service is aimed at enterprise and commercial adopters that rely on AI-native IDEs and cloud development platforms, offering a 99.95% uptime SLA, service credits, defined support tiers, and production-focused operational guarantees. The registry already sees more than 300 million downloads per month and peaks at over 200 million requests per day, hosting 12,000+ extensions from 8,000+ publishers. The Eclipse Foundation said rising AI-driven usage has increased the infrastructure, bandwidth, security operations, and engineering demands needed to keep the registry available and resilient. Initial customers named include AWS, Google, and Cursor, which will continue to use the registry in their offerings without requiring developers to sign up for an Eclipse Foundation service. The program is designed to preserve open governance and vendor neutrality while using usage-aligned payments to fund ongoing operations and security.
 
 **Key Points:**
-- Naidu said the open-access quantum computer will be launched on **April 14, 2026**, and that the system will be installed at **SRM University**, where it will be available for students and researchers for “testing and research.”
-- Naidu highlighted that Andhra Pradesh is already ahead on policy and execution: it was **the first state to roll out a dedicated quantum computing policy**, and the **State Quantum Computing Mission has begun operations from Medha Towers in Vijayawada (on a temporary basis)**.
-- The state reported concrete industry onboarding: it has **signed MoUs with 15 companies**, and **seven have already commenced operations at Medha Towers in Vijayawada**—a step meant to accelerate the “Made in Amaravati” ecosystem.
+- Eclipse Foundation Executive Director Mike Milinkovich said, “Open VSX has become critical infrastructure for modern developer platforms,” adding that “commercial adopters require defined service levels and operational guarantees” because AI-era usage is driving “exponential growth in traffic and operational complexity.”
+- Eclipse Foundation’s Thabang Mashologu described the managed registry as an “economically sustainable approach” and said Open VSX has been “consuming significant infrastructure resources” as AI coding tools from providers including AWS, Google, Cursor, Windsurf, and IBM are adopted more widely.
+- The service was positioned as tailored for “automation, continuous installs, and machine-to-machine traffic,” framing extension registries as “high-traffic, always-on infrastructure” that has shifted from community scale to sustained commercial platform dependency.
+
+---
+
+### 2026-04-18 | IBM, University of Illinois expand $100M AI-quantum institute
+**Sentiment:** +0.57 (pos: 0.63, neg: 0.06, neu: 0.32)
+
+The University of Illinois Urbana-Champaign and IBM have renewed and expanded the IBM-Illinois Discovery Accelerator Institute, a collaboration launched in 2021 to advance AI and quantum computing research. In its second phase—an agreement described as a 10-year, $100 million effort—the institute will deepen “quantum-centric supercomputing” by integrating IBM quantum computers with UIUC’s NCSA Delta and DeltaAI supercomputers, including developing workflow tools that connect quantum and classical systems (CPUs/GPUs) for researchers in Illinois. The program will pursue new quantum-classical algorithms and architectures aimed at problems such as chemistry, condensed-matter physics, and materials science, while also exploring AI advances like next-generation AI systems and distributed inference of AI workloads across computing infrastructures. IBM and UIUC say the institute has already produced more than 230 research papers and runs about 20 active projects, and the expanded effort will further grow research, partnerships, and hands-on workforce training for AI and quantum computing careers. The initiative is also tied to Chicago’s technology ambitions, with the expanded institute becoming a second home at the Discovery Partners Institute in Chicago while downstate UIUC remains involved.
+
+**Key Points:**
+- CBS News explains IBM’s basic framing of qubits: unlike classical bits based on voltage levels, qubits are created by “manipulating and measuring quantum particles (the smallest known building blocks of the physical universe), such as photons, electrons, trapped ions, superconducting circuits and atoms,” IBM said.
+- IBM’s expansion adds a distinct research thrust called “Algorithms-to-Silicon-to-Systems,” aiming to co-evolve algorithms, silicon, and systems software together—rather than developing them separately—to accelerate integration into specialized hardware.
+- IBM says it will lead the “National Quantum Algorithm Center” in Chicago’s Illinois Quantum and Microelectronics Park, and the company’s Illinois ecosystem ties include relationships with the University of Chicago and Chicago Quantum Exchange members.
+
+---
+
+### 2026-04-18 | Oppenheimer keeps IBM Outperform, cuts $320 target
+**Sentiment:** -0.20 (pos: 0.21, neg: 0.40, neu: 0.39)
+
+Oppenheimer kept an “Outperform” rating on IBM but lowered its price target to $320 from $380, citing recent compression in market multiples while still arguing the stock looks highly undervalued. The firm expects IBM to beat first-quarter 2026 expectations when it reports on April 22 and to raise full-year revenue guidance, pointing to strength in software and the earlier close of the Confluent acquisition. Oppenheimer also expects management to remain cautious on free cash flow but to keep its free-cash-flow guidance at $15.7 billion. It cited renewal tailwinds (including 20–30% higher uplift from enterprise license agreement renewals and 10–15% from Red Hat renewals) alongside demand pickup tied to OpenShift as alternatives to VMware and infrastructure-related hardware price hikes. Other analysts have recently reduced targets as well (e.g., Bernstein and BofA), while GuruFocus data included in the coverage shows mixed valuation signals—highlighting insider buys but suggesting the shares may trade at a premium versus its intrinsic-value estimate.
+
+**Key Points:**
+- Oppenheimer’s bullish “undervalued” framing was backed by specific valuation metrics in the coverage: IBM was cited as trading at a P/E of about 21.75 and a PEG ratio of 0.3, with InvestingPro analysis also indicating the stock is undervalued versus its Fair Value and among the most undervalued names in the screen.
+- GuruFocus’s included valuation snapshot contradicted the “undervalued” narrative by indicating IBM’s GF Value™ at $210.85—implying the shares were about 18.9% overvalued at the $250.76 level used in that analysis.
+- The same GuruFocus coverage quantified recent insider trading as $0.4M in buys over the last three months, with no sells reported.
 
 ---
 
@@ -268,356 +291,340 @@ Eagle Rock Investment Company LLC increased its stake in Cummins by 51.7% in the
 
 ---
 
-### 2026-03-07 | IBM validates first half‑Möbius molecule with quantum computer
-**Sentiment:** +0.08 (pos: 0.29, neg: 0.22, neu: 0.49)
+### 2026-03-28 | IBM Quantum simulates magnetic materials, matches data
+**Sentiment:** +0.28 (pos: 0.45, neg: 0.17, neu: 0.39)
 
-An international team led by IBM Research, with collaborators at the University of Manchester, Oxford, ETH Zurich, EPFL, and the University of Regensburg, has synthesized and characterized the first molecule exhibiting a half‑Möbius electronic topology, C13Cl2, in work published in Science. The molecule was built atom‑by‑atom at IBM Zurich from a custom precursor made at Oxford using scanning tunneling and atomic force microscopy under ultra‑high vacuum and near‑absolute‑zero conditions, removing individual atoms with precisely calibrated voltage pulses. Measurements showed electrons follow a corkscrew path that rotates 90 degrees each loop—requiring four full circuits to return to their original phase—producing the half‑Möbius behavior mapped by STM and AFM. The topology can be reversibly switched between clockwise, counterclockwise, and untwisted states via STM tip voltage pulses, and the effect is driven by a helical pseudo‑Jahn–Teller mechanism that alters the molecule’s chemical and magnetic properties. High‑fidelity quantum simulations run on an IBM Heron quantum processor, combined with classical computation, validated the exotic electronic structure and exceeded what conventional simulations could reliably model. The result demonstrates that electronic topology can be deliberately engineered and validated with quantum computing, opening new avenues for designing materials and advanced electronic technologies.
-
-**Key Points:**
-- Alessandro Curioni, IBM Fellow and Director of IBM Research Zurich, summarized the workflow: “First, we designed a molecule we thought could be created, then we built it, and then we validated it and its exotic properties with a quantum computer.”
-- The researchers explicitly framed the work as realizing Richard Feynman’s long‑standing vision of using computers to simulate quantum physics, evoking Feynman’s phrase “there’s plenty of room at the bottom.”
-- Using AFM the team resolved the molecule’s enantiomeric (left‑ and right‑twisted) geometries, and STM was used to map the helical orbital densities that reveal the corkscrew electronic structure.
-
----
-
-### 2026-03-06 | IBM Opens First AI Infrastructure Hub Bengaluru
-**Sentiment:** +0.76 (pos: 0.79, neg: 0.03, neu: 0.19)
-
-In March 2026 IBM opened the Sangam Infrastructure Innovation Centre within its India Systems Development Lab (ISDL) in Bengaluru, underscoring continued investment in India as a hub for advanced infrastructure engineering and enterprise AI. The centre is designed as a collaborative engineering hub that brings IBM systems architects and infrastructure specialists together with clients, ISVs, global system integrators, global capability centres and ecosystem partners to co-create AI solutions and accelerate deployment of secure, scalable enterprise AI by integrating hybrid cloud, advanced infrastructure technologies and AI under one roof. IBM leaders said the initiative will help organisations modernize mission-critical systems to become AI-ready and tailor infrastructure solutions to India’s unique market needs while contributing to global innovation. Subhathra Srinivasaraghavan noted that consolidating teams who work across the stack — from processor design and firmware to operating systems and virtualization — in the same facility will speed innovation and collaboration. ISDL, IBM’s largest infrastructure development hub supporting mainframes, servers, storage, cloud and technology lifecycle services, will anchor the centre’s work for both domestic and global markets.
+IBM announced pre-print results showing its quantum computer can simulate real magnetic materials with accuracy comparable to neutron scattering experiments, using a quantum-centric supercomputing workflow and lower hardware error rates. The work, carried out with scientists from multiple U.S. institutions within the DOE Quantum Science Center network, positions quantum computers as a potential new “instrument” for materials discovery, with downstream implications for fields like superconductors and drug development. Separately, U.S. researchers reported a rare nickel-sulfide quantum material, KxNi4S2, whose composition can be tuned by electrical current to reversibly switch between distinct electronic states, including Dirac cones and flat bands—features that could enable faster electronics and adaptive sensors. Quantum Brilliance, meanwhile, says it has built quantum hardware based on nitrogen-vacancy centers in synthetic diamonds that can operate at room temperature, aiming to reduce barriers to deployment by enabling hybrid quantum-classical computing. The company is working with DOE’s Oak Ridge National Laboratory on co-scheduling and performance tuning for small quantum clusters, while noting that practical commercialization likely remains a bit away. In the UK, the University of Manchester convened industry and government partners to discuss how to translate quantum science into real-world technologies, emphasizing collaboration to accelerate development and commercialization.
 
 **Key Points:**
-- Sandip Patel, Managing Director, IBM India & South Asia, said ‘‘India is at a pivotal moment in its AI journey’’ and warned that ‘‘resilient, secure, and high-performance infrastructure will be the bedrock’’ as India advances toward becoming a global AI leader.
-- Subhathra Srinivasaraghavan noted IBM has ‘‘added a lot of new missions, scope, and products that are completely getting done and delivered from India,’’ underscoring that more work and product delivery are now being executed out of India.
-- IBM described the Sangam Infrastructure Innovation Centre as its maiden (first) Infrastructure Innovation Centre, marking the company’s inaugural facility of this type within the ISDL campus.
+- IBM’s pre-print results were framed as demonstrating simulations “many previously believed to be beyond current quantum capabilities,” and the work involved a specific DOE Quantum Science Center team spanning Oak Ridge National Laboratory, Purdue University, the University of Illinois Urbana-Champaign, Los Alamos National Laboratory, the University of Tennessee, and IBM itself.
+- For the switchable nickel-sulfide material KxNi4S2, lead researcher Mercouri Kanatzidis said the key lever is potassium content: “You can tune how much potassium comes out of the material, from full to empty and everything in between,” and researchers found that pushing potassium out collapses the potassium/nickel-sulfur “sandwich,” a process Kanatzidis described as reversible.
+- The KxNi4S2 study emphasizes why the two states matter for electronics: in the Dirac state electrons behave “as if they are nearly massless” and move extremely fast, while flat-band states “slow electrons down,” effectively making them behave “as if they are heavier,” which the team likened to turning the material into an “electron traffic controller.”
 
 ---
 
-### 2026-03-06 | IBM Shares Rally 37.8% Year After UBS Upgrade
-**Sentiment:** -0.25 (pos: 0.27, neg: 0.52, neu: 0.22)
+### 2026-03-28 | HMRC awards £472.8M AWS data center migration
+**Sentiment:** -0.15 (pos: 0.15, neg: 0.31, neu: 0.54)
 
-IBM’s stock has shown mixed recent performance, with short-term gains (about +1.9% one day, +5.3% one week) but weaker 30‑ and 90‑day returns as investors debate the pace of hybrid cloud and AI adoption. A UBS upgrade, insider buying and recent earnings have renewed interest, even as Simply Wall St and Yahoo highlight a notable 30‑day decline and YTD pullback in some measures. The shares trade near $250.06 versus a commonly cited fair‑value estimate near $302, implying an intrinsic discount that fuels the debate over upside versus already priced‑in AI growth. Options activity and elevated implied volatility indicate a modestly bullish tone after the UBS move, with a put/call ratio around 0.9 (well below typical levels) and an expected daily move of roughly $5.76. Analyst tallies place IBM near the bottom of Dow picks (#29) and low in S&P rankings, and differing short‑term return figures across outlets underscore timing and metric differences in coverage.
+HMRC has awarded Amazon Web Services (AWS) a roughly £500 million, VAT-included contract to help it “exit” three Fujitsu-run data centers by migrating services to UK-based cloud hosting. The deal, confirmed in an award notice published March 23, runs from April 2026 to April 2033 with an optional extension to April 2036 and is valued at £472.8 million, with extra funding available for areas such as business transformation and application modernization. HMRC says AWS submitted the only tender received and assessed, following earlier participation by other hyperscalers that ultimately dropped out. Procurement critics argue the process—described as effectively “hyperscaler only,” narrowed to a single bidder, and likely to create hard-to-exit technical environments—risks lock-in, higher long-term costs, and reduced bargaining power for government. They also call for reforms such as more modular, shorter contracts and for an independent oversight body with decision authority. Separate reporting notes HMRC’s data-center exit had been long in the making amid broader fallout from the Post Office scandal tied to Fujitsu’s Horizon system and that HMRC previously extended its Fujitsu contract in June 2025 before agreeing to transition to AWS.
 
 **Key Points:**
-- IBM reported annual revenue of $67.5 billion and net income of $10.6 billion, and the company operates across four reporting segments: Software, Consulting, Infrastructure and Financing.
-- The UBS upgrade was followed by a notable single-session move — a 7.55% share-price jump — and, together with insider buying and quarterly results, helped put IBM back on investors’ radar.
-- Longer-term total shareholder returns remain strong: Simply Wall St reports a 3‑year TSR of 116.46% and a 5‑year TSR of 149.92%, highlighting large gains for earlier investors despite recent short-term weakness.
+- HMRC said the contract is intended to end its use of the three Fujitsu-managed data centres by June 2028, with migration of services to UK-based cloud hosting tied to that exit timeline.
+- HMRC set a heavily quality-weighted evaluation for the deal, stating that 70% of the decision would be based on quality, 20% on price and 10% on social value.
+- Beyond migrating existing services, the award notice said AWS would help with “exiting” the data centres and also “decommissioning any remaining infrastructure.”
 
 ---
 
-### 2026-03-04 | Institutional investors trim, boost IBM stakes
-**Sentiment:** +0.29 (pos: 0.41, neg: 0.12, neu: 0.47)
+### 2026-03-27 | Cohere launches open-source Transcribe ASR, 14 languages
+**Sentiment:** +0.52 (pos: 0.60, neg: 0.08, neu: 0.31)
 
-Third-quarter 13F filings show mixed institutional activity in International Business Machines (IBM): several managers opened or increased stakes while others trimmed positions. Griffith & Werner opened a new position of 3,922 shares (~$1.21M) and Blueprint Investment Partners boosted its stake 36.5% to 12,562 shares, while Dimensional Fund Advisors trimmed its holding by 0.4%, selling 22,157 shares to end with about 5.01 million shares. Oak Grove Capital cut its position 15% to 38,400 shares, and other firms such as AustralianSuper and Picton Mahoney established or sharply increased multi‑million‑dollar positions. Institutional investors collectively own roughly 58.96% of IBM, director David N. Farr purchased 1,000 shares on Jan. 30, and the stock recently traded near $245 with a 12‑month range of about $214.50 to $324.90.
+Cohere on Thursday launched Transcribe, its first open-source automatic speech recognition (ASR) model, built for self-hosting on consumer-grade GPUs and supporting 14 languages. The 2 billion–parameter model posts an average word error rate (WER) of 5.42 on the Hugging Face Open ASR leaderboard, which Cohere says is better than competing speech models, though it underperforms its rivals on Portuguese, German, and Spanish. Cohere also says Transcribe can process 525 minutes of audio in one minute of compute time, and plans to integrate it into its North enterprise agent platform while offering it free via an API and through its managed inference service, Model Vault. In parallel, Tencent released Covo-Audio, a 7B-parameter open model that combines recognition and speech generation end-to-end (rather than using a cascaded ASR → text processing → text-to-speech pipeline). Tencent says Covo-Audio achieves top benchmark results for models of its size, with open weights and code under a CC BY 4.0 license, using continuous audio in a single architecture to produce spoken output with lower latency.
 
 **Key Points:**
-- Norges Bank established a new stake in IBM during the second quarter valued at approximately $2,011,122,000.
-- Vanguard Group Inc. holds 95,051,475 shares of IBM (after adding 1,913,708 shares in the quarter), a position valued at about $28,019,274,000.
-- Picton Mahoney Asset Management massively increased its stake — up 1,412,220% — and now owns 70,616 IBM shares valued at roughly $19,926,000.
+- Cohere said Transcribe won a “61%” average win rate over other models when human evaluators judged transcriptions on “accuracy, coherence and usability.”
+- Cohere also provided additional business context alongside the launch: it reportedly told investors it was generating about $240 million in annual recurring revenue in 2025, and CEO Aidan Gomez said a potential IPO could happen “soon.”
+- Tencent’s Covo-Audio details how it achieves end-to-end speech generation: it uses a Whisper-large-v3 audio encoder at 50 Hz, downsamples to 6.25 Hz so each second yields about six feature frames, uses Alibaba’s Qwen2.5-7B-Base for interleaved acoustic+text tokens, and applies a WavLM-large–based speech tokenizer to produce 25 Hz audio tokens (16,384 codebook entries). A Flow-Matching framework with a BigVGAN vocoder then reconstructs 24 kHz waveforms.
 
 ---
 
-### 2026-02-28 | Anthropic COBOL claim sends IBM shares tumbling
-**Sentiment:** -0.51 (pos: 0.11, neg: 0.62, neu: 0.28)
+### 2026-03-27 | IBM expands voice AI agents with ElevenLabs, CrowdStrike
+**Sentiment:** +0.54 (pos: 0.60, neg: 0.06, neu: 0.35)
 
-Anthropic on Feb. 23 released Claude Code, an AI tool that reads, maps and translates legacy COBOL codebases—claiming it automates discovery, dependency mapping and documentation to greatly reduce the cost of modernization. Markets reacted violently, pricing the announcement as an existential threat to IBM: the company’s stock plunged roughly 12–13% in a single day, erasing about $30–40 billion of market value. IBM and its executives counter that simple code translation does not equal platform modernization, pointing to decades of tight hardware–software integration on mainframes and the broader systems, transaction integrity, observability and organizational work that migrations require. IBM already offers AI-assisted modernization tooling (including watsonx Code Assistant and the new Project Bob) and competitors such as AWS and Google have similar services, underscoring that Claude is another entrant rather than a lone disruptor. Independent analysts and coverage say AI accelerates analysis and transformation phases and is useful—especially for distributed targets—but does not yet resolve the full regulatory, behavioral-equivalence and program-management challenges that determine migration success.
+IBM is partnering with ElevenLabs to add multilingual, voice-first capabilities to its watsonx Orchestrate platform, enabling speech-to-text and text-to-speech for enterprise AI agents across more than 70 languages with natural-sounding interactions. The integration is aimed at regulated businesses, incorporating enterprise security and compliance features such as PCI and HIPAA-related protections, including zero-retention data handling and data residency options. IBM and ElevenLabs say the voice layer can support a range of use cases—from customer support and sales to employee experience and internal operations—using multiple regional accents and voices. The move also reflects IBM’s broader strategy to make watsonx Orchestrate the “control plane” for agentic workflows that extend beyond text-based chat into real conversational systems. Separately, IBM expanded its partnership with CrowdStrike to bring AI-powered, autonomous threat detection and response across security and IT environments, signaling demand for tighter security and automation integration. Together, the announcements underscore an enterprise focus on deploying AI agents that are both more human-like in interaction quality and more governable in security-sensitive deployments.
 
 **Key Points:**
-- Anthropic described a structured Claude Code methodology that reads entire COBOL codebases, maps dependencies, identifies program entry points, traces execution paths, surfaces implicit couplings (shared data structures/file ops) that static analysis misses, and automatically generates workflow documentation and diagrams of processing pipelines.
-- IBM’s Project Bob is an AI-first IDE built on VS Code with a multi-model architecture (it even includes Claude), and IBM i CTO Steve Will said Project Bob will replace watsonx Code Assistant for i — covering RPG, CL, SQL, COBOL, Java and Python on IBM i at launch.
-- COBOL’s longevity stems from deliberate design choices and standards: it was standardized by ANSI/ISO, was derived in part from FLOW‑MATIC and Grace Hopper’s work, and is valued for strong support for large‑precision fixed‑point decimal calculations useful to financial institutions — reasons banks and other critical entities still run COBOL systems.
+- ElevenLabs’ voice tech is positioned as more than “natural sounding” TTS: the integration is described as bringing “nuance, emotion, and rhythm of human speech” to improve human-centered, voice-first agent experiences.
+- IBM watsonx Orchestrate customers integrating ElevenLabs can draw from an “extensive library of 10,000+ voices,” expanding voice variety for enterprise agent deployments.
+- IBM described watsonx Orchestrate (with the ElevenLabs layer) as a “unified platform” that can “connect to existing systems, models or automation tools,” offering “a scalable foundation for trustworthy explainable enterprise AI” rather than only adding a voice interface.
 
 ---
 
-### 2026-02-28 | Open Source Endowment launches, aims $100M
-**Sentiment:** -0.18 (pos: 0.19, neg: 0.37, neu: 0.44)
+### 2026-03-24 | IBM, Masters Tournament launch generative AI tools
+**Sentiment:** +0.27 (pos: 0.45, neg: 0.18, neu: 0.37)
 
-A coalition of prominent open-source developers and a venture investor launched the Open Source Endowment, a newly minted 501(c)(3) nonprofit led by founder Konstantin Vinogradov that aims to provide permanent, predictable funding for critical open-source projects. The group has secured more than $750,000 in early commitments, assembled a board, and is targeting $100 million in assets within seven years to underwrite maintainers via investment returns rather than one-off donations. The endowment model will invest principal and distribute a steady annual allocation, designed to replace episodic corporate sponsorships, tip jars, and grants with a long-term financial backstop. Projects will be selected based on criteria such as user base, the degree to which other software depends on them, and whether they currently lack adequate support from grants or umbrella organizations. Early backers include Thomas Dohmke, Mitchell Hashimoto, Paul Copplestone, a co-founder of NGINX, the creators of Vue.js and cURL, and executives from Elastic and Spotify, with more than 50 donors signed on. Organizers say the effort responds to maintainer burnout and high-profile security incidents like Log4j and XZ Utils that exposed the fragility of underfunded infrastructure and the need for a perpetual funding mechanism.
+IBM and the Masters Tournament rolled out new fan-facing generative AI features on Masters digital platforms, including conversational search of historic footage and real-time shot analysis powered by IBM’s Granite small language models on its watsonx Orchestrate platform. Beyond the sports spotlight, IBM is deepening its enterprise AI push by expanding its Nvidia partnership to help businesses deploy large-scale AI, including integrating “agentic AI” into widely used IBM software products. IBM also completed its Confluent acquisition (about $11 billion, completed in mid-March) to strengthen real-time data streaming for AI workflows in hybrid cloud environments and reduce data silos. IBM’s broader strategy extends to future-computing and security efforts such as collaboration with Lam Research for sub–1nm process-node capabilities and advisory work with Bain & Company on post-quantum cryptography. Multiple reports note a gap between IBM’s operational AI/cloud momentum and investor enthusiasm, with IBM trading below analyst and model-based estimates and technical indicators suggesting limited near-term upside.
 
 **Key Points:**
-- Konstantin Vinogradov previously served as a general partner at Runa Capital and said he has “some experience with university endowments,” which informed the decision to model the nonprofit on long-lived academic endowments.
-- Several early backers bring notable track records: Thomas Dohmke (ex-GitHub CEO) raised $60 million for his dev-tool startup Entire, and Mitchell Hashimoto’s HashiCorp was acquired by IBM for $6.4 billion last year.
-- The organizers emphasize a conservative endowment spending rule—endowments typically spend only a sliver of investment returns each year—so the fund would invest principal and distribute a predictable annual allocation rather than tapping the corpus.
+- IBM also tied its AI/cloud push to mainframe modernization, finalizing a $104.8 million extension to its mainframe modernization program as the Australian Taxation Office upgrades to IBM’s z17 mainframe.
+- In the deepened Nvidia collaboration, IBM said the work is aimed at making large-scale AI applications usable for businesses, with a focus on “data analytics and intelligent document processing,” and it is integrating “agentic AI” into its widely used software products.
+- On the stock’s near-term trading outlook, one report cited bearish technical indicators such as a “strong sell” MACD, RSI at 39.18 (mildly oversold), and projected the next week’s trading range at $242.50 to $258.00, with a probability of an increase “below 20%.”
 
 ---
 
-### 2026-02-28 | UBS revises ratings across major companies
-**Sentiment:** +0.13 (pos: 0.38, neg: 0.26, neu: 0.36)
+### 2026-03-24 | Hedgehog lab names Leighton chair amid fivefold growth
+**Sentiment:** +0.59 (pos: 0.66, neg: 0.07, neu: 0.27)
 
-UBS made several notable analyst moves: it upgraded CBRE to Buy from Neutral and raised the target to $185 from $175, calling the recent pullback a rare buying opportunity and noting CBRE’s strong position and data assets amid an improving commercial real estate environment. UBS also kept a Buy on Chemours and raised the price target sharply to $23 from $18, signaling a more positive outlook for the chemicals maker. The firm maintained a Buy on Abercrombie & Fitch but trimmed the price target to $149 from $160, reducing expected upside. UBS upgraded IBM to Hold while keeping the $236 target; TipRanks data cited for the covering analyst shows a 60% success rate and a one‑year average return of 7.4%. UBS left its BlackRock target at $1,280 and noted BlackRock’s entry into DeFi, including acquiring UNI tokens and launching a tokenized Treasury fund (BUIDL) on UniswapX.
+hedgehog lab, the Newcastle-based product design consultancy backed by growth investor BGF, has appointed Julian Leighton as its new chair as it pushes forward with expansion plans. Leighton, a nearly 30-year tech veteran and co-founder of digital agency Orange Bus (built from two to 150 staff before a sale to Capita), previously served on the Capita Software board and later helped develop software firm Therion. He will work with CEO Malcolm Seagrave, who became head of hedgehog lab after 18 months as managing director of its UK operations. The company reported turnover rose 30% during 2025 and aims to increase revenues five-fold in the coming years. hedgehog lab is also expanding its footprint, operating across Newcastle, Leeds and Edinburgh following its acquisition of innovation consultancy Label Sessions, and supporting clients with engineering teams in Romania and Bulgaria, with Manchester and Glasgow identified as next targets.
 
 **Key Points:**
-- The UBS analyst who reaffirmed the Buy rating and raised Chemours' price target to $23 is Joshua Spector.
-- TipRanks—which UBS cited for the covering analyst’s record—defines an analyst’s 'success rate' as the share of that analyst’s ratings that produced a positive return in TipRanks’ virtual portfolio, reports a 'total average return' for that portfolio, provides a 1–5 star ranking for analysts, and states the information is for informational purposes only (not investment advice).
-- UBS’s Abercrombie & Fitch note referenced competing analyst activity such as Citigroup’s Paul Lejuez upgrading ANF to Buy on Jan. 21, 2026 and raising his price target from $90 to $135, giving broader context to the stock’s analyst landscape.
+- Before joining hedgehog lab, Julian Leighton “now runs his own consultancy providing non-executive director support, advisory, and mentorship to help established businesses grow,” and he was “recently appointed a non-exec at Newcastle creative agency Different Narrative.”
+- Hedgehog lab is B Corp-accredited, according to the reports.
+- Leighton said his appointment has personal resonance because of the agencies’ shared origins: “Orange Bus and hedgehog lab started around the same time – and, in fact, we were even in the same building during the early years,” adding that the role is “a hands-on role” that will help him “scratch the itch” from having founded and built an agency.
 
 ---
 
-### 2026-02-28 | Multiple US firms file annual SEC reports
-**Sentiment:** -0.01 (pos: 0.33, neg: 0.34, neu: 0.33)
+### 2026-03-21 | IBM expands Nvidia partnership to scale enterprise AI
+**Sentiment:** +0.55 (pos: 0.63, neg: 0.08, neu: 0.28)
 
-Four recent filings paint a mixed but instructive corporate picture. First Advantage’s Feb. 26, 2026 10‑K shows rapid growth—$1,574.4 million in 2025 revenue, up 83% year‑over‑year and roughly 86% U.S. revenue—driven by its screening, digital identity and AI capabilities, while it flags regulatory, data‑privacy and security risks. Old Republic’s Feb. 26, 2026 10‑K emphasizes underwriting discipline and a conservative, income‑focused investment strategy across its Specialty and Title Insurance segments, supporting favorable underwriting results and financial resilience. HP’s Feb. 25, 2026 10‑Q records slightly lower net earnings ($545 million vs. $565 million prior year) and a significant other comprehensive loss, even as the company leans into AI and 3D printing amid supply‑chain and outsourcing dependencies. Stanley Black & Decker’s Feb. 24, 2026 10‑K reports $15.1 billion in 2025 revenue, a dominant Tools & Outdoor segment and a strong branded portfolio (DEWALT, CRAFTSMAN, BLACK+DECKER) while noting customer concentration and geopolitical supply‑chain pressures alongside continued R&D investment.
+IBM and Nvidia are expanding their partnership to help enterprises move AI projects beyond pilots into production at scale, focusing on GPU-native data analytics, intelligent document processing, and better real-world deployment. The deal builds on integrating IBM’s watsonx.data SQL engine with Nvidia’s cuDF software to speed up large-scale queries; in testing tied to Nestlé’s Order-to-Cash system, processing time fell from about 15 minutes to about three minutes, with reported 83% cost savings. The companies also plan to pair IBM’s Sovereign Core with Nvidia infrastructure for GPU-intensive workloads while supporting data residency and regulatory compliance, and to make Nvidia’s Blackwell Ultra GPUs available on IBM Cloud in early Q2 2026. Those GPUs will be incorporated across Red Hat AI Factory systems and related cloud services to give enterprises controls for regulated environments. IBM’s broader push includes adding Nvidia AI technology across its watsonx platform, cloud offerings, and Red Hat-based software, alongside expanded consulting to manage deployment and operations. Nvidia’s stock momentum is also being supported by strong recent financial results and forward guidance, reinforcing investor expectations for continued AI infrastructure demand that underpins the ecosystem driving this partnership.
 
 **Key Points:**
-- First Advantage conducts over 200 million background screens annually, serves roughly two‑thirds of the Fortune 100, and operates across more than 200 countries and territories—benefits the company cites as evidence of its scale and market leadership (organized into segments: First Advantage Americas, First Advantage International and Sterling).
-- Old Republic’s Specialty Insurance business emphasizes commercial lines—limiting exposure to volatile personal lines—and the company explicitly pursues a conservative investment approach focused on capital protection, liquidity, long holding periods and income from interest/dividends and dividend‑paying equities to stabilize investment returns.
-- HP reported an other comprehensive loss, net of taxes, of $197 million for the period (versus a comprehensive income of $230 million a year earlier), and the company highlights reliance on outsourced manufacturing and channel partners for sales and marketing as a material operational and supply‑chain risk even as it pushes into AI and 3D printing.
+- IBM and Nvidia’s push isn’t just about structured analytics: they specifically target faster processing of “unstructured data, such as documents, reports, and emails,” using Nvidia GPUs to help enterprises analyze large volumes beyond pilots.
+- The companies say the expanded collaboration is meant to tackle enterprise obstacles including “dispersed data environments,” “compliance demands,” and “computing limitations,” as firms try to move AI projects from testing to production.
+- Nvidia’s stock outperformance is tied to concrete financial disclosures: it reported record fiscal 2026 revenue of $215.9 billion (+65% year over year) and guided to $78 billion in revenue for the upcoming quarter; the article also cites a balance sheet with $10.61 billion in cash and relatively low debt.
 
 ---
 
-### 2026-02-27 | IBM CEO meets Indian ministers on AI plans
-**Sentiment:** +0.39 (pos: 0.55, neg: 0.16, neu: 0.29)
+### 2026-03-21 | JPMorgan cuts IBM price target to $283
+**Sentiment:** +0.08 (pos: 0.32, neg: 0.24, neu: 0.44)
 
-Union ministers including Finance Minister Nirmala Sitharaman and Commerce Minister Piyush Goyal met IBM Chairman and CEO Arvind Krishna to discuss the company’s expanding footprint in India and to advance AI skilling initiatives aimed at equipping Indian talent for future roles. The talks are part of broader government outreach led by IT Minister Ashwini Vaishnaw, who said IBM plans significant investments in quantum computing, cloud infrastructure and the expansion of semiconductor design teams. Officials emphasized that the engagement supports India’s push to deepen its role in global technology and investment ecosystems and to build domestic capabilities in innovation and sustainability. Krishna has also publicly downplayed a recent IBM stock drop, urging a focus on AI deployment while acknowledging concerns about workforce disruption as the company continues to invest in emerging technologies in India.
+JPMorgan analyst David Karnovsky cut Liberty Media’s FWONK price target to $115 from $122 while keeping an “Overweight” rating, suggesting the average Street target remains broadly supportive versus the stock’s then-current level (with the article citing potential upside). Separately, JPMorgan analyst Brian Essex lowered IBM’s price target to $283 from $317 but maintained a “Neutral” rating, pointing to compressed peer valuation multiples even as it framed IBM’s risk/reward as balanced. The shift comes around IBM’s roughly $11 billion acquisition of data-streaming firm Confluent, which IBM completed and which the coverage links to making enterprise data more accessible for AI agents. Reporting on the deal emphasized IBM’s view that AI agents require real-time access to data wherever it resides, reinforcing its broader hybrid cloud and AI strategy. Other analysts cited in the coverage were mixed—UBS moved IBM to Neutral with a lower target, while firms such as Wedbush continued to hold higher upside targets. In a different development, JPMorgan also launched an athlete-focused wealth management and financial literacy initiative, including an Athlete Council and plans to reach more than 500,000 athletes as NCAA compensation rules reshape early-career finances.
 
 **Key Points:**
-- Ashwini Vaishnaw said IBM’s collaboration with India would support advanced chip technology work specifically targeting 7-nanometre and 2-nanometre semiconductor nodes.
-- Jefferies analyst Christopher Wood joined the high-level delegation meeting with Commerce Minister Piyush Goyal alongside IBM CEO Arvind Krishna.
-- IBM’s shares fell about 13% after an Anthropic blog post suggested its AI tool could compress legacy system maintenance timelines; Arvind Krishna called the market’s reaction 'excessive' in an interview.
+- IBM CEO Arvind Krishna told The Wall Street Journal that for AI agents, “You need to be able to get data wherever it is,” and “get it instantly,” explaining the rationale for the Confluent acquisition.
+- Coverage of the Confluent deal said it was IBM’s “second-largest deal,” designed to help businesses make better use of existing IT systems and data in an AI-driven environment—part of Krishna’s push to strengthen IBM’s hybrid cloud and AI positioning.
+- For Liberty Media (FWONK), the GuruFocus-linked dataset pegged the Street’s one-year consensus at an average target of $115.93 (high $140, low $95), implying 38.99% upside from a referenced $83.41 share price.
 
 ---
 
-### 2026-02-27 | IBM Posts Cloud, Data Roles Across India
-**Sentiment:** +0.45 (pos: 0.52, neg: 0.08, neu: 0.40)
+## FMP Articles (30 articles)
 
-IBM Consulting is recruiting for technical roles in its Client Innovation/Delivery Centers to help clients advance hybrid cloud and AI initiatives, leveraging IBM technology and Red Hat. The Data Engineer (Data Platforms on AWS) role focuses on designing, building and operating batch and real-time data pipelines using AWS services such as EMR, Glue (and Glue Catalog), Kinesis, and creating data layers on RedShift, Aurora and DynamoDB with migrations via DMS. Responsibilities include scheduling and managing data services and developing pipelines for data warehouses and data lakes using managed streaming technologies. The Application Developer (AWS Cloud FullStack) role requires building rich SPAs or microfrontends (React/Angular), scalable backend microservices (Java/Node/Python) following 12‑factor principles, and implementing cloud‑native CI/CD in an Agile environment. Both roles emphasize close client collaboration, long-term career development, curiosity-driven innovation, and delivering measurable client impact.
+### 2026-05-29 | 5 Quantum stocks to watch as Trump backs sector with $2 billion
+**Source:** Finbold
+**URL:** https://finbold.com/5-quantum-stocks-to-watch-as-trump-backs-sector-with-2-billion/
 
-**Key Points:**
-- The Data Engineer role is posted under IBM Consulting India (Bayt India), while the Application Developer role is listed under Bayt Pakistan—indicating the job listings are targeted to specific regional markets.
-- IBM Consulting’s Client Innovation (Delivery) Centers are described as providing locally based skills and technical expertise to a wide range of public and private sector clients around the world.
-- IBM highlights a ‘culture of growth and empathy’ that focuses on long-term career development and explicitly values employees’ unique skills and experiences.
+Following President Donald Trump's recent announcement of $2.013 billion in federal incentives for quantum companies, Finbold has identified five stocks that stand to benefit the most as of May 29.
 
 ---
 
-## FMP Articles (29 articles)
+### 2026-05-29 | IBM Is Chasing A '$1 Trillion Value Creation Engine' — And It's Spending $15 Billion To Get There
+**Source:** Benzinga
+**URL:** https://www.benzinga.com/trading-ideas/long-ideas/26/05/52871310/ibm-is-chasing-a-1-trillion-value-creation-engine-and-its-spending-15-billion-to-get-there
 
-### 2026-05-08 | Dickens: Why You Should Care about Secondary AI Names
-**Source:** Schwab Network
-**URL:** https://www.youtube.com/watch?v=zqKEZDLIbSw
-
-Steven Dickens sits with Nicole Petallides to dive into some underappreciated players in the AI investment theme including IBM (IBM), Teradata (TER) and even Amazon (AMZN). He talks about the inertia AI capex spending from the Mag 7 names has on secondary derivatives, calling them "hidden gems.
+While much of Wall Street remains focused on artificial intelligence, IBM Corp (NYSE:IBM) is placing a massive bet on what could come next.
 
 ---
 
-### 2026-05-08 | International Business Machines Corporation (IBM) is Attracting Investor Attention: Here is What You Should Know
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2917901/international-business-machines-corporation-ibm-is-attracting-investor-attention-here-is-what-you-should-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2917901
-
-Zacks.com users have recently been watching IBM (IBM) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.
-
----
-
-### 2026-05-07 | IBM touts AI productivity gains and quantum milestones at Think conference
-**Source:** Proactive Investors
-**URL:** https://www.proactiveinvestors.com/companies/news/1091929
-
-International Business Machines Corp (NYSE:IBM) showcased sweeping advances in artificial intelligence and quantum computing at its annual Think 2026 conference in Boston this week, highlighting mounting productivity gains for enterprise customers and signaling that quantum advantage is within reach this year. IBM management pointed to a 45% average productivity gain among its own developers and projecting that enterprises broadly will see 42% more productivity from AI by 2030.
-
----
-
-### 2026-05-07 | Why to Bet on Quantum Computing ETFs Now
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2917368/why-to-bet-on-quantum-computing-etfs-now?cid=CS-STOCKNEWSAPI-FT-etf_news_and_commentary-2917368
-
-Quantum ETFs are surging as breakthroughs, funding and AI demand fuel growth, offering diversified exposure to a high-risk, high-reward theme.
-
----
-
-### 2026-05-07 | IBM Plummets 27% in 6 Months: Should You Reassess the Stock?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2917287/ibm-plummets-27-in-6-months-should-you-reassess-the-stock?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2917287
-
-International Business Machines Corporation IBM has declined 27% over the past six months against the industry's growth of 60.7% due to macroeconomic challenges and a sudden development in the artificial intelligence (AI) domain that threatens its core legacy businesses. The stock has lagged peers like Microsoft Corporation MSFT and Amazon.com, Inc. AMZN.
-
----
-
-### 2026-05-07 | IBM touts AI productivity gains and quantum milestones at Think conference
-**Source:** Proactive Investors - Finance
-**URL:** https://www.proactiveinvestors.com/companies/news/1091929/ibm-touts-ai-productivity-gains-and-quantum-milestones-at-think-conference-1091929.html
-
-International Business Machines Corp (NYSE:IBM) showcased sweeping advances in artificial intelligence and quantum computing at its annual Think 2026...
-
----
-
-### 2026-05-07 | The Next Phase of the AI Boom Could Be Even Kinder to the Pick-and-Shovel Plays
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/07/the-next-phase-of-the-ai-boom-could-be-even-kinder-to-the-pick-and-shovel-plays/
-
-The first wave of the AI boom rewarded the most obvious names. The next wave spreads wealth across the entire infrastructure stack: foundries, custom silicon, networking fabric, and enterprise deployment tools.
-
----
-
-### 2026-05-06 | Quantum's Risks Are Overstated—and the Investment Opportunity May Be Underestimated
+### 2026-05-29 | Dell and 6 More Stocks That Explain the Market Today
 **Source:** Barrons
-**URL:** https://www.barrons.com/articles/quantum-computing-stocks-risks-rewards-opportunity-8dd2b24f
+**URL:** https://www.barrons.com/articles/stock-movers-a16036be
 
-Barclays says quantum computing demand could reach $100 billion by 2040, with companies like IonQ, IBM, and Nvidia positioned across the value chain.
+The PC and server maker's stellar first-quarter earnings lift Hewlett Packard, IBM, and Super Micro Computer.
 
 ---
 
-### 2026-05-06 | Stock Market Today (LIVE): Kyndryl Plunges on Job Cuts, Outlook; AMD Steps Out of Nvidia's Shadow
+### 2026-05-28 | IBM shares rise after unveiling $15B cybersecurity and quantum investment plan
+**Source:** Proactive Investors
+**URL:** https://www.proactiveinvestors.com/companies/news/1093082
+
+International Business Machines Corp (NYSE:IBM) shares rose more than 3% on Thursday to trade at about $264 after the company announced a combined $15 billion investment initiative focused on cybersecurity and quantum computing, moves that Wedbush said could help “future-proof” the company's business amid rapid technological shifts. The company unveiled a new cybersecurity effort with Red Hat called Project Lightwell, backed by a $5 billion commitment aimed at securing open-source software using AI-driven tools and services.
+
+---
+
+### 2026-05-28 | IBM Rises on $15 Billion Tech Push
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8888484/ibm-rises-on-15-billion-tech-push
+
+IBM (IBM, Financials) moved higher after laying out a $15 billion investment plan aimed at two areas it sees as important to its future: quantum computing and s
+
+---
+
+### 2026-05-28 | Mythos was the critical trigger for IBM's open-source cybersecurity push, Krishna says
+**Source:** CNBC
+**URL:** https://www.cnbc.com/2026/05/28/ibm-mythos-open-source-cybersecurity.html
+
+IBM is investing $5 billion into a new cybersecurity push to address vulnerabilities in open-source software. CEO Arvind Krishna said the launch of Anthropic's Mythos was the "critical triggering factor.
+
+---
+
+### 2026-05-28 | Why IBM Stock Jumped 5.3% This Morning
 **Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/06/stock-market-today-live-coverage/
+**URL:** https://www.fool.com/investing/2026/05/28/why-ibm-stock-jumped-53-this-morning/
 
-Top insights from the latest market news from Wednesday, May 6, from The Motley Fool analysts on Team Rule Breakers and Team Hidden Gems.
+What's behind IBM's Thursday morning surge? A pair of billion-dollar bets that could reshape the storied company's future.
 
 ---
 
-### 2026-05-06 | IBM Consulting Expands AI Capabilities to Accelerate Enterprise Transformation
+### 2026-05-28 | IBM shares rise after unveiling $15B cybersecurity and quantum investment plan
+**Source:** Proactive Investors - Finance
+**URL:** https://www.proactiveinvestors.com/companies/news/1093082/ibm-shares-rise-after-unveiling-15b-cybersecurity-and-quantum-investment-plan-1093082.html
+
+International Business Machines Corp (NYSE:IBM) shares rose more than 3% on Thursday to trade at about $264 after the company announced a combined $15...
+
+---
+
+### 2026-05-28 | IBM says to boost open-source security with $5 bn project
+**Source:** TechXplore
+**URL:** https://techxplore.com/news/2026-05-ibm-boost-source-bn.html
+
+American tech giant IBM and its IT services subsidiary Red Hat said Thursday that they would deploy billions of dollars and thousands of staff to secure open source software against new cybersecurity threats.
+
+---
+
+### 2026-05-28 | IBM Has a $10 Billion Plan to Build the Ultimate Quantum Computer
+**Source:** Barrons
+**URL:** https://www.barrons.com/articles/ibm-stock-quantum-computing-aafbb1eb
+
+IBM stock climbs as the tech giant unveils a fresh funding push to support its quantum research and development efforts.
+
+---
+
+### 2026-04-29 | IBM Launches AI and Quantum Hubs in Illinois and Massachusetts
+**Source:** PYMNTS
+**URL:** https://www.pymnts.com/artificial-intelligence-2/2026/ibm-launches-ai-and-quantum-hubs-in-illinois-and-massachusetts/
+
+IBM has announced two new hubs at which it will work on artificial intelligence and quantum computing.
+
+---
+
+### 2026-04-29 | IBM launches Bob with multi-model routing and human checkpoints to turn AI coding into a secure production system
+**Source:** VentureBeat
+**URL:** https://venturebeat.com/orchestration/ibm-launches-bob-with-multi-model-routing-and-human-checkpoints-to-turn-ai-coding-into-a-secure-production-system
+
+Bringing AI agents into the enterprise software development lifecycle is fast becoming the norm. As developers experiment with new platforms, organizations are exposed to potential security and orchestration failures.
+
+---
+
+### 2026-04-29 | STX Q3 Earnings Top Estimates, Revenues Up on AI-Led Storage Demand
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2910946/stx-q3-earnings-top-estimates-revenues-up-on-ai-led-storage-demand?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2910946
+
+Seagate's fiscal Q3 beat on earnings and revenues estimates as AI-driven data center demand lifts nearline shipments and margins, sending shares higher.
+
+---
+
+### 2026-04-29 | Entrust Announces Collaboration With IBM to Help Enterprises Modernize Cryptography Security Posture and Make the Transition Toward Quantum-Safe Security
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260429538858/en/Entrust-Announces-Collaboration-With-IBM-to-Help-Enterprises-Modernize-Cryptography-Security-Posture-and-Make-the-Transition-Toward-Quantum-Safe-Security/
+
+MINNEAPOLIS--(BUSINESS WIRE)--Entrust collaborates with IBM Consulting, helping enterprises take control of their cryptography and execute a transition to quantum-safe security.
+
+---
+
+### 2026-04-29 | The MIT-IBM Computing Research Lab Launches to Shape the Future of AI and Quantum Computing
 **Source:** PRNewsWire
-**URL:** https://www.prnewswire.com/news-releases/ibm-consulting-expands-ai-capabilities-to-accelerate-enterprise-transformation-302763432.html
+**URL:** https://www.prnewswire.com/news-releases/the-mit-ibm-computing-research-lab-launches-to-shape-the-future-of-ai-and-quantum-computing-302756294.html
 
-New updates to IBM Enterprise Advantage fast-track enterprise AI transformation across hybrid and regulated environments Pearson and Providence accelerate AI transformation with IBM Expanded AWS and SAP collaborations boost multi ‑ agent interoperability and deployment flexibility BOSTON, May 6, 2026 /PRNewswire/ -- At Think 2026, IBM (NYSE: IBM) announced new capabilities delivered through IBM Enterprise Advantage, a first-of-its-kind asset-based consulting service that helps clients build and operate their own hybrid-AI platforms. IBM also introduced updates across IBM Consulting Advantage, its internal hybrid-AI platform for delivering consulting services to clients.
-
----
-
-### 2026-04-08 | IBM (IBM) Stock Declines While Market Improves: Some Information for Investors
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2896877/ibm-ibm-stock-declines-while-market-improves-some-information-for-investors
-
-In the closing of the recent trading day, IBM (IBM) stood at $241.74, denoting a -1.36% move from the preceding trading day.
+Building on a long-standing MIT–IBM collaboration, the new lab will chart the convergence of AI, algorithms, and quantum computing CAMBRIDGE, Mass., April 29, 2026 /PRNewswire/ -- IBM (NYSE: IBM) and the Massachusetts Institute of Technology today announced the launch of the MIT-IBM Computing Research Lab, advancing their long-standing collaboration to shape the next era of computing.
 
 ---
 
-### 2026-04-08 | IBM In Focus After Analyst Price Target Trim
-**Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8781991/ibm-in-focus-after-analyst-price-target-trim
+### 2026-04-28 | I/ONX Appoints Former IBM Executive Steven Eliuk as CEO
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260428046276/en/IONX-Appoints-Former-IBM-Executive-Steven-Eliuk-as-CEO/
 
-IBM (IBM) is back in the spotlight ahead of its Q1 results, with Needham lowering its price target to $290 from $340 as it adjusts for a more mixed outlook.Anal
-
----
-
-### 2026-04-08 | Stifel Resets IBM Stock Price Target Ahead of Earnings
-**Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8781732/stifel-resets-ibm-stock-price-target-ahead-of-earnings
-
-Stifel cut its price target on International Business Machines (IBM) to $290 from $340 while keeping a Buy rating on the shares.The firm cited potential headwin
+LAS VEGAS--(BUSINESS WIRE)--I/ONX High Performance Compute (HPC), a leading provider of heterogeneous AI systems, today announced the appointment of Steven Eliuk as Chief Executive Officer. Eliuk joins I/ONX to lead the commercial scaling of Symphony, a platform designed to eliminate the "Host Tax" and provide more mature infrastructure for inference while preserving an open ecosystem of compute. Eliuk previously served as Vice President of Data Intelligence and Single Threaded Owner (STO) at I.
 
 ---
 
-### 2026-04-08 | IBM to Announce First-Quarter 2026 Financial Results
+### 2026-04-28 | Introducing IBM Bob: AI Development Partner that Takes Enterprises from AI-Assisted Coding to Production-Ready Software
 **Source:** PRNewsWire
-**URL:** https://www.prnewswire.com/news-releases/ibm-to-announce-first-quarter-2026-financial-results-302737156.html
+**URL:** https://www.prnewswire.com/news-releases/introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assisted-coding-to-production-ready-software-302755018.html
 
-ARMONK, N.Y., April 8, 2026 /PRNewswire/ -- IBM (NYSE: IBM) will hold its quarterly conference call to discuss its first-quarter 2026 financial results on Wednesday, April 22, 2026 at 5:00 p.m.
+80,000+ IBM employees currently using IBM Bob; surveyed users report average 45% productivity gain Multi-model orchestration automatically routes each task to a suitable model based on accuracy, performance, and cost Goes beyond code generation to automate full software development lifecycle workflows Governance, compliance, and security controls built into every step ARMONK, N.Y., April 28, 2026 /PRNewswire/ -- IBM (NYSE: IBM) today announced the global availability of IBM Bob, an AI-first development partner built for enterprise teams.
 
 ---
 
-### 2026-04-06 | Should You Bet on IBM Stock Amid Rising Estimate Revisions?
+### 2026-04-27 | IBM's Post‑Earnings Slide is Overdone. The Quantum AI Story is Mispriced and Misunderstood
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/04/27/ibms-post%e2%80%91earnings-slide-is-overdone-the-quantum-ai-story-is-mispriced-and-misunderstood/
+
+Shares of International Business Machines (NYSE:IBM | IBM Price Prediction) are being left out of the latest AI party, thanks in part to a quarterly beat that failed to impress.
+
+---
+
+### 2026-04-27 | International Business Machines Corporation (IBM) is Attracting Investor Attention: Here is What You Should Know
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2894642/should-you-bet-on-ibm-stock-amid-rising-estimate-revisions
-
-International Business Machines Corporation IBM is currently witnessing an uptrend in estimate revisions. Earnings estimates for IBM for 2026 have moved up 6.6% to $12.44 over the past year, while the same for 2027 has increased 5.4% to $13.36.
-
----
-
-### 2026-04-06 | International Business Machines Corporation $IBM Shares Sold by Financial & Tax Architects LLC
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/06/international-business-machines-corporation-ibm-shares-sold-by-financial-tax-architects-llc.html
-
-Financial and Tax Architects LLC cut its stake in shares of International Business Machines Corporation (NYSE: IBM) by 8.4% in the fourth quarter, according to the company in its most recent disclosure with the SEC. The institutional investor owned 28,563 shares of the technology company's stock after selling 2,604 shares during the quarter.
-
----
-
-### 2026-04-06 | The Quantum Computing Paradox: Brilliant Future, Complicated Present
-**Source:** Investor Place
-**URL:** https://investorplace.com/hypergrowthinvesting/2026/04/the-quantum-computing-paradox-brilliant-future-complicated-present/
-
-Quantum computing stocks surged, crashed, and now face a timing problem. Here's what will drive the next major breakout.
-
----
-
-### 2026-04-05 | IBM and the Masters use AI to Bring the Fairway to Every Fan
-**Source:** Bloomberg Markets and Finance
-**URL:** https://www.youtube.com/watch?v=nGIeeamE7hA
-
-IBM and the Masters Golf Tournament are teaming up to give fans an experience unlike any other.  IBM SVP of Marketing & Communications Jonathan Adashek and Longtime Caddy Jim "Bones" Mackay join Joe Mathieu and Christina Ruffini on Bloomberg This Weekend to discuss the economic impact the move could have on the country.
-
----
-
-### 2026-04-05 | International Business Machines Corporation $IBM Shares Purchased by Savvy Advisors Inc.
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/05/international-business-machines-corporation-ibm-shares-purchased-by-savvy-advisors-inc.html
-
-Savvy Advisors Inc. lifted its stake in International Business Machines Corporation (NYSE: IBM) by 21.2% in the undefined quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 21,296 shares of the technology company's stock after purchasing an additional 3,728 shares during the quarter. Savvy Advisors Inc.'s
-
----
-
-### 2026-04-03 | IBM Shares Rise 2% After Announcing Strategic Partnership With Arm
-**Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8769801/ibm-shares-rise-2-after-announcing-strategic-partnership-with-arm
-
-IBM (IBM) shares climbed about 2% after the company said it partnered with Arm to develop dual-architecture hardware.The collaboration focuses on creating compu
-
----
-
-### 2026-03-09 | International Business Machines Corporation (IBM) is Attracting Investor Attention: Here is What You Should Know
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2880679/international-business-machines-corporation-ibm-is-attracting-investor-attention-here-is-what-you-should-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2880679
+**URL:** https://www.zacks.com/stock/news/2908231/international-business-machines-corporation-ibm-is-attracting-investor-attention-here-is-what-you-should-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2908231
 
 IBM (IBM) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.
 
 ---
 
-### 2026-03-08 | 2 Tech Stocks You Can Buy and Hold for the Next Decade
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/08/2-tech-stocks-you-can-buy-and-hold-for-the-next-de/
+### 2026-04-27 | A Strong Quarter Does Not Make IBM Stock A Strong Buy
+**Source:** Forbes
+**URL:** https://www.forbes.com/sites/greatspeculations/2026/04/27/a-strong-quarter-does-not-make-ibm-stock-a-strong-buy/
 
-Technology stocks have enjoyed impressive returns, but artificial intelligence (AI) has cast doubt over which companies can sustain long-term success. Two tech stocks that stand out amid AI-driven uncertainty are IBM and Amazon.
+IBM (NYSE: IBM) announced Q1 2026 revenue of $15.9 billion, marking a 9% year-over-year rise, along with Non-GAAP EPS of $1.91. This revenue achievement hides a structural discrepancy: current cyclical robustness in hardware is compensating for a significant deceleration in high-margin Consulting and Software sectors.
 
 ---
 
-### 2026-03-07 | Dow Jones Movers: IBM Leads, Sherwin-Williams Drags as Analysts Clash on Salesforce
+### 2026-03-30 | Everyone Is Rotating Out of Artificial Intelligence (AI) Stocks. Here's Why That Could Be a Costly Mistake in 2026.
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/03/30/everyone-is-rotating-out-of-artificial-intelligenc/
+
+Plenty of artificial intelligence stocks were and still are overpriced. More than enough of them are fairly valued relative to future earnings, however, to merit bullishness rather than worry.
+
+---
+
+### 2026-03-30 | 1 Top Stock to Buy for the ‘Quantum Advantage' in the 2030s
 **Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/03/07/dow-jones-movers-ibm-leads-sherwin-williams-drags-as-analysts-clash-on-salesforce/
+**URL:** https://247wallst.com/investing/2026/03/30/1-top-stock-to-buy-for-the-quantum-advantage-in-the-2030s/
 
-The Dow Jones Industrial Average (NYSE: DIA) had a rough week, falling 2.95% as tariff anxiety, macro uncertainty, and a VIX spike to 23.75 rattled blue-chip investors.
+Investors probably aren't thinking all too much about the former high-flying quantum computing stocks or the nascent technological trend as a whole now that most of the names are down an obscene amount from their prior all-time highs (some of the pure-plays are now off more than 60% from their all-time highs).
 
 ---
 
-### 2026-03-07 | First Trust Advisors LP Purchases 865,253 Shares of International Business Machines Corporation $IBM
+### 2026-03-29 | Chesley Taft & Associates LLC Has $4.76 Million Holdings in International Business Machines Corporation $IBM
 **Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/07/first-trust-advisors-lp-purchases-865253-shares-of-international-business-machines-corporation-ibm.html
+**URL:** https://www.defenseworld.net/2026/03/29/chesley-taft-associates-llc-has-4-76-million-holdings-in-international-business-machines-corporation-ibm.html
 
-First Trust Advisors LP grew its position in shares of International Business Machines Corporation (NYSE: IBM) by 39.6% in the third quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The institutional investor owned 3,052,880 shares of the technology company's stock after purchasing an additional 865,253 shares
-
----
-
-### 2026-03-07 | International Business Machines Corporation (IBM) Presents at Morgan Stanley Technology, Media & Telecom Conference 2026 Transcript
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4879779-international-business-machines-corporation-ibm-presents-at-morgan-stanley-technology-media
-
-International Business Machines Corporation (IBM) Presents at Morgan Stanley Technology, Media & Telecom Conference 2026 Transcript
+Chesley Taft and Associates LLC cut its stake in International Business Machines Corporation (NYSE: IBM) by 16.5% in the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission (SEC). The firm owned 16,067 shares of the technology company's stock after selling 3,185 shares during the
 
 ---
 
-### 2026-03-05 | IBM and University Researchers Create a Never-Before-Seen Molecule and Prove its Exotic Nature with Quantum Computing
-**Source:** PRNewsWire
-**URL:** https://www.prnewswire.com/news-releases/ibm-and-university-researchers-create-a-never-before-seen-molecule-and-prove-its-exotic-nature-with-quantum-computing-302705789.html
+### 2026-03-29 | Rep. Jonathan L. Jackson Sells Shopify Inc. (NASDAQ:SHOP) Stock
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/03/29/rep-jonathan-l-jackson-sells-shopify-inc-nasdaqshop-stock.html
 
-- Published today in Science, the discovery marks the creation and observation of the first molecule with a half-Möbius electronic topology. - It shows how quantum computers can directly contribute to understanding complex molecular behavior.
-
----
-
-### 2026-03-04 | IBM (IBM) Laps the Stock Market: Here's Why
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2878967/ibm-ibm-laps-the-stock-market-here-s-why?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2878967
-
-IBM (IBM) reached $250.06 at the closing of the latest trading day, reflecting a +1.95% change compared to its last close.
+Representative Jonathan L. Jackson (Democratic-Illinois) recently sold shares of Shopify Inc. (NASDAQ: SHOP). In a filing disclosed on March 12th, the Representative disclosed that they had sold between $1,001 and $15,000 in Shopify stock on February 3rd. The trade occurred in the Representative's "MORGAN STANLEY IRA" account. Representative Jonathan L. Jackson also recently made the following
 
 ---
 
-### 2026-03-04 | Why I'm Watching IBM Stock Heading Into March
+### 2026-03-29 | Rep. Julia Letlow Purchases Shares of International Business Machines Corporation (NYSE:IBM)
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/03/29/rep-julia-letlow-purchases-shares-of-international-business-machines-corporation-nyseibm.html
+
+Representative Julia Letlow (Republican-Louisiana) recently bought shares of International Business Machines Corporation (NYSE: IBM). In a filing disclosed on March 12th, the Representative disclosed that they had bought between $1,001 and $15,000 in International Business Machines stock on February 2nd. The trade occurred in the Representative's "MERRILL LYNCH INVESTMENT ACCOUNT #025" account. Representative Julia Letlow also
+
+---
+
+### 2026-03-27 | Irresistible Change: How to Spot Real Growth
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/04/why-im-watching-ibm-stock-heading-into-march/
+**URL:** https://www.fool.com/investing/2026/03/27/irresistible-change-how-to-spot-real-growth/
 
-The company is leaning into cloud computing and artificial intelligence.  The century-old business has proved it can adapt to the ever-changing tech landscape.
+Phil Gilbert, serial entrepreneur and former general manager at IBM, joins this episode of Motley Fool Money to talk about his new book, Irresistible Change: A Blueprint for Earning Buy-In and Breakout Success.
 
 ---
 
-### 2026-03-03 | If IBM Can Drop 13% In A Day, What Does This Say About These Market Conditions?
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4877925-if-ibm-can-drop-13-percent-in-a-day-what-does-this-say-about-these-market-conditions
+### 2026-03-27 | Seagate vs. IBM: Which Enterprise Storage Stock is the Better Bet?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2891133/seagate-vs-ibm-which-enterprise-storage-stock-is-the-better-bet?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2891133
 
-If IBM can drop 13% in a day
+Seagate rides AI-driven storage demand with HAMR and strong cash flow, while IBM bets on hybrid cloud and AI platforms-two different paths into the data boom.
+
+---
+
+### 2026-03-27 | IBM Expands watsonx Capability With Voice AI: Can it Fuel User Growth?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2890908/ibm-expands-watsonx-capability-with-voice-ai-can-it-fuel-user-growth?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2890908
+
+IBM teams with ElevenLabs to add voice AI to watsonx Orchestrate, aiming to boost enterprise adoption as agentic AI demand surges globally.
+
+---
+
+### 2026-03-26 | 2 Reasons IBM's COBOL Fears Are Overblown
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/03/26/2-reasons-ibms-cobol-fears-are-overblown/
+
+AI can translate COBOL code, but that's the easy part. Here's what investors missed on Feb. 23.
+
+---
+
+### 2026-03-26 | CrowdStrike And IBM Are Rethinking Cyber Defense
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8745052/crowdstrike-and-ibm-are-rethinking-cyber-defense
+
+CrowdStrike (CRWD) is leaning further into AI driven cybersecurity, expanding its partnership with IBM (IBM) in a way that is really about one thing, responding
 
 ---

@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ADSK",
+    "companyName": "Autodesk, Inc.",
+    "price": 231.3931,
+    "mktCap": 48857496100
+  },
+  {
+    "symbol": "CDNS",
+    "companyName": "Cadence Design Systems, Inc.",
+    "price": 375.825,
+    "mktCap": 103658548200
+  },
+  {
+    "symbol": "CRWV",
+    "companyName": "CoreWeave, Inc. Class A Common Stock",
+    "price": 105.68,
+    "mktCap": 57655877019
+  },
+  {
+    "symbol": "DDOG",
+    "companyName": "Datadog, Inc.",
+    "price": 241.47,
+    "mktCap": 85953705630
+  },
+  {
+    "symbol": "FICO",
+    "companyName": "Fair Isaac Corporation",
+    "price": 1280.36,
+    "mktCap": 29692708406
+  },
+  {
+    "symbol": "FTNT",
+    "companyName": "Fortinet, Inc.",
+    "price": 135.495,
+    "mktCap": 99270193739
+  },
+  {
+    "symbol": "INFY",
+    "companyName": "Infosys Limited",
+    "price": 12.455,
+    "mktCap": 50513245300
+  },
+  {
+    "symbol": "MSI",
+    "companyName": "Motorola Solutions, Inc.",
+    "price": 403.25,
+    "mktCap": 66937887000
+  },
+  {
+    "symbol": "MSTR",
+    "companyName": "Strategy Inc",
+    "price": 161.5,
+    "mktCap": 47977239112
+  },
+  {
+    "symbol": "TEAM",
+    "companyName": "Atlassian Corporation",
+    "price": 104.195,
+    "mktCap": 27369350251
+  }
+]

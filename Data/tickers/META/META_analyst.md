@@ -1,11 +1,11 @@
 # Analyst Consensus: META
-*Generated: 2026-05-10 | Price as of: 2026-05-08*
+*Generated: 2026-05-29 | Price as of: 2026-05-29*
 
 ## Price Targets
 
-**Current Price:** $609.63
-**Median Target:** $825.00 — implied +35.3% vs current price
-**Consensus Target:** $821.80 — implied +34.8%
+**Current Price:** $626.64
+**Median Target:** $835.00 — implied +33.3% vs current price
+**Consensus Target:** $824.22 — implied +31.5%
 **Target Range:** $700.00 (low) — $910.00 (high)
 
 **Coverage:** 19 analyst target(s) in past year | 1 last quarter | 1 last month

@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ADSK",
+    "companyName": "Autodesk, Inc.",
+    "price": 231.3983,
+    "mktCap": 48858594054
+  },
+  {
+    "symbol": "CDNS",
+    "companyName": "Cadence Design Systems, Inc.",
+    "price": 375.93,
+    "mktCap": 103687508880
+  },
+  {
+    "symbol": "CRWV",
+    "companyName": "CoreWeave, Inc. Class A Common Stock",
+    "price": 105.6756,
+    "mktCap": 57653476509
+  },
+  {
+    "symbol": "DDOG",
+    "companyName": "Datadog, Inc.",
+    "price": 242.07,
+    "mktCap": 86167281741
+  },
+  {
+    "symbol": "GLW",
+    "companyName": "Corning Incorporated",
+    "price": 176.17,
+    "mktCap": 151618565630
+  },
+  {
+    "symbol": "MSI",
+    "companyName": "Motorola Solutions, Inc.",
+    "price": 403.25,
+    "mktCap": 66937887000
+  },
+  {
+    "symbol": "MSTR",
+    "companyName": "Strategy Inc",
+    "price": 161.44,
+    "mktCap": 47959414751
+  },
+  {
+    "symbol": "NET",
+    "companyName": "Cloudflare, Inc.",
+    "price": 235.555,
+    "mktCap": 83260738750
+  },
+  {
+    "symbol": "SNPS",
+    "companyName": "Synopsys, Inc.",
+    "price": 479.855,
+    "mktCap": 91882311978
+  },
+  {
+    "symbol": "WDAY",
+    "companyName": "Workday, Inc.",
+    "price": 144.105,
+    "mktCap": 37747167329
+  }
+]

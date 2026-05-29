@@ -1,13 +1,13 @@
 # WDAY SEC Filings: Notes to Financial Statements
-**Generated:** 2026-05-10
-**Filings:** 10-K (period ending 2026-01-31), 10-Q (period ending 2025-10-31)
+**Generated:** 2026-05-29
+**Filings:** 10-K (period ending 2026-01-31), 10-Q (period ending 2026-04-30)
 
 ## Section Summary
 
 | Section | Words | Lines |
 |---------|------:|------:|
 | 10-K Notes to Financial Statements | 25,620 | 3,415 |
-| 10-Q Notes to Financial Statements | 11,426 | 2,234 |
+| 10-Q Notes to Financial Statements | 10,008 | 1,820 |
 
 ---
 
@@ -3437,985 +3437,820 @@ Notes to Condensed Consolidated Financial Statements
 9
 Item 2.
 Management’s Discussion and Analysis of Financial Condition and Results of Operations
-27
+25
 Item 3.
 Quantitative and Qualitative Disclosures About Market Risk
-40
+36
 Item 4.
 Controls and Procedures
-40
+36
 PART II. OTHER INFORMATION
 Item 1.
 Legal Proceedings
-42
+38
 Item 1A.
 Risk Factors
-43
+39
 Item 2.
 Unregistered Sales of Equity Securities and Use of Proceeds
-65
+62
 Item 3.
 Defaults Upon Senior Securities
-65
+62
 Item 4.
 Mine Safety Disclosures
-65
+62
 Item 5.
 Other Information
-65
+62
 Item 6.
 Exhibits
-67
+63
 Signatures
-68
+64
 2
-Table o
-f Contents
+Table of Cont
+ents
 PART I. FINANCIAL INFORMATION
 ITEM 1. FINANCIAL STATEMENTS
 Workday, Inc.
 Condensed Consolidated Balance Sheets
 (in millions)
 (unaudited)
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 Assets
 Current assets:
 Cash and cash equivalents
 $
-2,609
+559
 $
-1,543
+1,501
 Marketable securities
-4,234
-6,474
+3,794
+3,942
 Trade and other receivables, net
-1,750
-1,950
+1,575
+2,332
 Deferred costs
-286
-267
+307
+306
 Prepaid expenses and other current assets
-296
-311
+357
+348
 Total current assets
-9,175
-10,545
+6,592
+8,429
 Property and equipment, net
-1,132
-1,239
+1,121
+1,093
 Operating lease right-of-use assets
-721
-336
+706
+719
 Deferred costs, noncurrent
-573
-561
+619
+634
 Acquisition-related intangible assets, net
-549
-361
+645
+681
 Deferred tax assets
-905
-1,039
+745
+829
 Goodwill
-4,263
-3,478
+5,228
+5,229
 Other assets
-433
-418
+435
+460
 Total assets
 $
-17,751
+16,091
 $
-17,977
+18,074
 Liabilities and stockholders’ equity
 Current liabilities:
 Accounts payable
 $
-103
+116
 $
-108
+142
 Accrued expenses and other current liabilities
-352
-296
+457
+454
 Accrued compensation
-574
-578
+508
+642
 Unearned revenue
-3,871
-4,467
+4,325
+5,010
 Operating lease liabilities
-117
-99
+131
+130
+Debt, current
+998
+0
 Total current liabilities
-5,017
-5,548
+6,535
+6,378
 Debt, noncurrent
-2,986
-2,984
+1,990
+2,987
 Unearned revenue, noncurrent
 70
-80
+71
 Operating lease liabilities, noncurrent
-690
-279
+686
+704
 Other liabilities
-109
-52
+127
+129
 Total liabilities
-8,872
-8,943
+9,408
+10,269
 Stockholders’ equity:
 Common stock
 0
 0
 Additional paid-in capital
-12,311
-11,463
+12,932
+12,673
 Treasury stock
-(2,706)
-(1,308)
-Accumulated other comprehensive income (loss)
-(69)
-84
+(5,834)
+(4,220)
+Accumulated other comprehensive loss
+(125)
+(136)
 Accumulated deficit
-(657)
-(1,205)
+(290)
+(512)
 Total stockholders’ equity
-8,879
-9,034
+6,683
+7,805
 Total liabilities and stockholders’ equity
 $
-17,751
+16,091
 $
-17,977
+18,074
 See Notes to Condensed Consolidated Financial Statements
 3
-Table o
-f Contents
+Table of Cont
+ents
 Workday, Inc.
 Condensed Consolidated Statements of Operations
 (in millions, except number of shares which are reflected in thousands and per share data)
 (unaudited)
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Revenues:
 Subscription services
 $
-2,244
+2,354
 $
-1,959
-$
-6,473
-$
-5,678
+2,059
 Professional services
 188
-201
-547
-557
+181
 Total revenues
-2,432
-2,160
-7,020
-6,235
+2,542
+2,240
 Costs and expenses
 (1)
 :
 Costs of subscription services
-395
-329
-1,115
-924
+412
+350
 Costs of professional services
-196
-201
-595
-606
+192
+187
 Product development
-666
-647
-1,988
-1,952
+705
+663
 Sales and marketing
-677
-620
-1,941
-1,804
+679
+623
 General and administrative
-234
-198
-662
-600
+216
+212
 Restructuring
-5
 0
-172
-9
+166
 Total costs and expenses
-2,173
-1,995
-6,473
-5,895
+2,204
+2,201
 Operating income
-259
-165
-547
-340
-Other income, net
-79
-62
-198
-178
-Income before provision for income taxes
 338
-227
-745
-518
+39
+Other income, net
+17
+64
+Income before provision for income taxes
+355
+103
 Provision for income taxes
-86
-34
-197
-86
+133
+35
 Net income
 $
-252
+222
 $
-193
-$
-548
-$
-432
+68
 Net income per share, basic
 $
-0.95
+0.87
 $
-0.73
-$
-2.06
-$
-1.63
+0.25
 Net income per share, diluted
 $
-0.94
+0.87
 $
-0.72
-$
-2.03
-$
-1.61
+0.25
 Weighted-average shares used to compute net income per share, basic
-265,870
-265,411
-266,387
-265,062
+253,891
+266,516
 Weighted-average shares used to compute net income per share, diluted
-268,629
-268,549
-269,700
-268,936
+254,313
+270,296
 (1) Costs and expenses include share-based compensation expense as follows:
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Costs of subscription services
 $
-39
+37
 $
-35
-$
-120
-$
-108
+42
 Costs of professional services
-27
-28
-84
-86
+26
+30
 Product development
-162
-162
-515
-498
+184
+183
 Sales and marketing
-83
-78
-261
-226
+90
+92
 General and administrative
-65
-65
-205
-204
+72
+70
 Restructuring
 0
-0
 42
-0
 Total share-based compensation expense
 $
-376
+409
 $
-368
-$
-1,227
-$
-1,122
+459
 See Notes to Condensed Consolidated Financial Statements
 4
-Table o
-f Contents
+Table of Cont
+ents
 Workday, Inc.
-Condensed Consolidated Statements of Comprehensive Income
+Condensed Consolidated Statements of Comprehensive Income (Loss)
 (in millions)
 (unaudited)
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Net income
 $
-252
+222
 $
-193
-$
-548
-$
-432
+68
 Other comprehensive income (loss), net of tax:
 Net change in foreign currency translation adjustment
-0
-1
-3
-(2)
-Net change in unrealized gains on available-for-sale debt securities, net of tax provision of $2, $2, $7, and $2, respectively
-6
-5
-20
-7
-Net change in unrealized losses on cash flow hedges, net of tax benefit of $(1), $(1), $(6), and $0, respectively
 (1)
-(9)
-(176)
-(10)
+2
+Net change in unrealized gains (losses) on available-for-sale debt securities, net of tax provision (benefit) of
+$(6)
+and $10, respectively
+(18)
+30
+Net change in unrealized gains (losses) on cash flow hedges, net of tax provision (benefit) of $(2) and $(4), respectively
+30
+(160)
 Other comprehensive income (loss), net of tax
-5
-(3)
-(153)
-(5)
-Comprehensive income
+11
+(128)
+Comprehensive income (loss)
 $
-257
+233
 $
-190
-$
-395
-$
-427
+(60)
 See Notes to Condensed Consolidated Financial Statements
 5
-Table o
-f Contents
+Table of Cont
+ents
 Workday, Inc.
 Condensed Consolidated Statements of Stockholders’ Equity
 (in millions, except number of shares which are reflected in thousands)
 (unaudited)
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Common stock:
 Balance, beginning of period
 $
 0
 $
 0
-$
-0
-$
-0
 Issuance of common stock under employee equity plans
-0
-0
 0
 0
 Shares withheld related to net share settlement of equity awards
 0
 0
-0
-0
 Balance, end of period
-0
-0
 0
 0
 Additional paid-in capital:
 Balance, beginning of period
-12,055
-10,869
+12,673
 11,463
-10,400
 Issuance of common stock under employee equity plans
 0
 0
-111
-106
 Shares withheld related to net share settlement of equity awards
-(122)
-(123)
-(496)
-(518)
+(151)
+(223)
 Share-based compensation
-378
-369
-1,233
-1,127
+410
+461
 Balance, end of period
-12,311
-11,115
-12,311
-11,115
+12,932
+11,701
 Treasury stock:
 Balance, beginning of period
-(1,900)
-(1,051)
+(4,220)
 (1,308)
-(608)
 Common stock repurchases under share repurchase programs
-(806)
-(157)
-(1,398)
-(600)
+(1,614)
+(293)
 Balance, end of period
-(2,706)
-(1,208)
-(2,706)
-(1,208)
+(5,834)
+(1,601)
 Accumulated other comprehensive income (loss):
 Balance, beginning of period
-(74)
-19
+(136)
 84
-21
 Other comprehensive income (loss)
-5
-(3)
-(153)
-(5)
+11
+(128)
 Balance, end of period
-(69)
-16
-(69)
-16
+(125)
+(44)
 Accumulated deficit:
 Balance, beginning of period
-(909)
-(1,492)
+(512)
 (1,205)
-(1,731)
 Net income
-252
-193
-548
-432
+222
+68
 Balance, end of period
-(657)
-(1,299)
-(657)
-(1,299)
+(290)
+(1,137)
 Total stockholders’ equity
 $
-8,879
+6,683
 $
-8,624
-$
-8,879
-$
-8,624
-Three Months Ended October 31,
-Nine Months Ended October 31,
+8,919
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Common stock shares:
 Balance, beginning of period
-266,904
-265,260
+259,131
 266,352
-263,862
 Issuance of common stock under employee equity plans
-1,348
-1,340
-6,027
-6,179
+2,734
+2,537
 Shares withheld related to net share settlement of equity awards
-(519)
-(506)
-(2,140)
-(2,058)
+(1,110)
+(1,003)
 Common stock repurchased
-(3,367)
-(649)
-(5,873)
-(2,538)
-Other share issuances
-45
-24
-45
-24
+(12,025)
+(1,290)
 Balance, end of period
-264,411
-265,469
-264,411
-265,469
+248,730
+266,596
 See Notes to Condensed Consolidated Financial Statements
 6
-Table o
-f Contents
+Table of Cont
+ents
 Workday, Inc.
 Condensed Consolidated Statements of Cash Flows
 (in millions)
 (unaudited)
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
 Cash flows from operating activities:
 Net income
 $
-548
+222
 $
-432
+68
 Adjustments to reconcile net income to net cash provided by operating activities:
 Depreciation and amortization
-250
-235
-Share-based compensation expense
-1,227
-1,122
-Amortization of deferred costs
-215
-185
-Non-cash lease expense
+92
 84
-77
-Net (gains) losses on investments
-(24)
-6
+Share-based compensation expense
+409
+459
+Amortization of deferred costs
+79
+68
+Non-cash lease expense
+32
+27
+Net losses on investments
+8
+1
 Accretion of discounts on marketable debt securities, net
-(52)
-(90)
+(9)
+(20)
 Deferred income taxes
-145
-38
+93
+18
+Asset impairments
+0
+34
 Other
-52
-4
-Changes in operating assets and liabilities, net of business combinations:
+5
+13
+Changes in operating assets and liabilities:
 Trade and other receivables, net
-211
-238
+747
+601
 Deferred costs
-(247)
-(178)
+(65)
+(53)
 Prepaid expenses and other assets
-42
-57
+(31)
+(38)
 Accounts payable
-(7)
-(3)
+(1)
+(4)
 Accrued expenses and other liabilities
-(124)
-(136)
+(200)
+(131)
 Unearned revenue
-(659)
-(638)
+(685)
+(670)
 Net cash provided by operating activities
-1,661
-1,349
+696
+457
 Cash flows from investing activities:
 Purchases of marketable securities
-(2,450)
-(3,134)
+(200)
+(1,345)
 Maturities of marketable securities
-2,062
-2,980
+231
+722
 Sales of marketable securities
-2,653
-115
+96
+140
 Capital expenditures
-(102)
-(183)
-Business combinations, net of cash acquired
-(974)
-(824)
-Purchases of other intangible assets
-0
-(3)
+(80)
+(36)
 Purchases of non-marketable equity and other investments
-(17)
-(10)
+0
+(4)
 Sales of non-marketable equity and other investments
-5
-5
+41
+0
+Other
+9
+0
 Net cash provided by (used in) investing activities
-1,177
-(1,054)
+97
+(523)
 Cash flows from financing activities:
 Repurchases of common stock
-(1,391)
-(597)
-Proceeds from issuance of common stock from employee equity plans
-111
-106
+(1,587)
+(290)
 Taxes paid related to net share settlement of equity awards
-(495)
-(505)
+(146)
+(211)
 Net cash used in financing activities
-(1,775)
-(996)
+(1,733)
+(501)
 Effect of exchange rate changes
+(1)
 1
-0
-Net increase (decrease) in cash, cash equivalents, and restricted cash
-1,064
-(701)
+Net decrease in cash, cash equivalents, and restricted cash
+(941)
+(566)
 Cash, cash equivalents, and restricted cash at the beginning of period
+1,509
 1,554
-2,024
 Cash, cash equivalents, and restricted cash at the end of period
 $
-2,618
+568
 $
-1,323
+988
 See Notes to Condensed Consolidated Financial Statements
 7
-Table o
-f Contents
-Nine Months Ended October 31,
+Table of Cont
+ents
+Three Months Ended April 30,
+2026
 2025
-2024
 Supplemental cash flow data:
-Cash paid for interest
+Cash paid for interest, net of amounts capitalized
 $
-110
+52
 $
-110
+55
 Cash paid for income taxes, net of refunds
-72
-48
+15
+10
 Non-cash investing and financing activities:
 Purchases of property and equipment, accrued but not paid
-35
-66
+62
+8
+Repurchases of common stock, including excise tax, accrued but not paid
+44
+3
 Taxes related to net share settlement of equity awards, accrued but not paid
-14
-13
-As of October 31,
+16
+25
+As of April 30,
+2026
 2025
-2024
 Reconciliation of cash, cash equivalents, and restricted cash as shown in the Condensed Consolidated Statements of Cash Flows:
 Cash and cash equivalents
 $
-2,609
+559
 $
-1,311
+972
 Restricted cash included in Prepaid expenses and other current assets
 9
-12
+16
 Total cash, cash equivalents, and restricted cash
 $
-2,618
+568
 $
-1,323
+988
 See Notes to Condensed Consolidated Financial Statements
 8
-Table o
-f Contents
+Table of Cont
+ents
 Workday, Inc.
 Notes to Condensed Consolidated Financial Statements
 As used in this report, the terms “Workday,” “registrant,” “we,” “us,” and “our” mean Workday, Inc. and its subsidiaries unless the context indicates otherwise.
 Amounts in this report may not recalculate due to rounding. Year-over-year comparisons, operating margin, and net income per share are calculated using unrounded data.
 Note 1. Overview and Basis of Presentation
 Description of the Business
-Workday is a leading enterprise platform that provides organizations with solutions for financial management, human capital management (“HCM”), planning, spend management, and analytics. With Workday, our customers have an artificial intelligence (“AI”)-powered cloud platform to help manage their people, money, and agents.
+Workday is a leading enterprise AI platform that operates at the core of human resources, finance, and information technology, providing solutions for human capital management, financial management, spend management, and planning. Workday couples AI with the context, guardrails, and trusted processes that run the enterprise, delivering both AI that assists with work and agents that are capable of driving measurable outcomes for our customers.
 Basis of Presentation
-The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States (“GAAP”) and applicable rules and regulations of the Securities and Exchange Commission (“SEC”) regarding interim financial reporting. The condensed consolidated financial statements include the results of Workday, Inc. and its wholly-owned subsidiaries. All intercompany balances and transactions have been eliminated. Certain information and note disclosures normally included in the financial statements prepared in accordance with GAAP have been condensed or omitted pursuant to such rules and regulations. In the opinion of our management, the information contained herein reflects all adjustments necessary for a fair presentation of Workday’s financial position, results of operations, stockholders’ equity, and cash flows. All such adjustments are of a normal, recurring nature. The results of operations for the three and nine months ended October 31, 2025, shown in this report are not necessarily indicative of the results to be expected for the full fiscal year ending January 31, 2026. The unaudited condensed consolidated financial statements should be read in conjunction with the audited consolidated financial statements in our Annual Report on Form 10-K for the fiscal year ended January 31, 2025, filed with the SEC on March 11, 2025.
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States (“GAAP”) and applicable rules and regulations of the Securities and Exchange Commission (“SEC”) regarding interim financial reporting. The condensed consolidated financial statements include the results of Workday, Inc. and its wholly-owned subsidiaries. All intercompany balances and transactions have been eliminated. Certain information and note disclosures normally included in the financial statements prepared in accordance with GAAP have been condensed or omitted pursuant to such rules and regulations. In the opinion of our management, the information contained herein reflects all adjustments necessary for a fair presentation of Workday’s financial position, results of operations, stockholders’ equity, and cash flows. All such adjustments are of a normal, recurring nature. The results of operations for the three months ended April 30, 2026, shown in this report are not necessarily indicative of the results to be expected for the full fiscal year ending January 31, 2027. The unaudited condensed consolidated financial statements should be read in conjunction with the audited consolidated financial statements in our Annual Report on Form 10-K for the fiscal year ended January 31, 2026, filed with the SEC on March 6, 2026.
 Certain prior period amounts reported in our unaudited condensed consolidated financial statements and notes thereto have been reclassified to conform to current period presentation.
 Use of Estimates
-The preparation of condensed consolidated financial statements in conformity with GAAP requires us to make certain estimates, judgments, and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities as of the date of the condensed consolidated financial statements, as well as the reported amounts of revenues and expenses during the reporting period. Significant estimates, judgments, and assumptions include, but are not limited to, the identification of distinct performance obligations for revenue recognition, the determination of the period of benefit for deferred commissions, the realizability of deferred tax assets, the measurement of uncertain tax positions, the fair value and useful lives of assets acquired and liabilities assumed through business combinations, and the valuation of non-marketable equity investments. Actual results could differ from those estimates, judgments, and assumptions, and such differences could be material to our condensed consolidated financial statements.
+The preparation of condensed consolidated financial statements in conformity with GAAP requires us to make certain estimates, judgments, and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities as of the date of the condensed consolidated financial statements, as well as the reported amounts of revenues and expenses during the reporting period. Significant estimates, judgments, and assumptions include, but are not limited to, the identification of distinct performance obligations for revenue recognition, the determination of the period of benefit for deferred commissions, the realizability of deferred tax assets, the measurement of uncertain tax positions, the fair value and useful lives of assets acquired and liabilities assumed through business combinations, the measurement of share-based compensation expense, and the valuation of non-marketable equity investments. Actual results could differ from those estimates, judgments, and assumptions, and such differences could be material to our condensed consolidated financial statements.
 Segment Information
 We operate as a single operating and reportable segment: cloud applications. Although we offer a variety of enterprise cloud solutions to a diverse global customer base, we operate in one operating segment because our business activities are managed on a consolidated basis, our service offerings all operate on the Workday platform and are deployed in a similar manner, and our Chief Operating Decision Maker (“CODM”), who is our Chief Executive Officer, allocates resources and assesses performance based upon discrete financial information at the consolidated level.
-Our CODM assesses performance and decides how to allocate resources based on Net income, as reported on the Condensed Consolidated Statements of Operations. Net income is used to evaluate the overall profitability of the business and to guide decisions on how to invest in and grow the business. Our CODM also reviews Total assets, as reported on the Condensed Consolidated Balance Sheets, and Capital expenditures, as reported on the Condensed Consolidated Statements of Cash Flows. Significant segment expenses include the costs and expenses presented on the Condensed Consolidated Statements of Operations. Other segment items include Other income, net and Provision for income taxes.
 9
-Table o
-f Contents
+Table of Cont
+ents
+Our CODM assesses performance and decides how to allocate resources based on Net income, as reported on the Condensed Consolidated Statements of Operations. Net income is used to evaluate the overall profitability of the business and to guide decisions on how to invest in and grow the business. Our CODM also reviews Total assets, as reported on the Condensed Consolidated Balance Sheets, and Capital expenditures, as reported on the Condensed Consolidated Statements of Cash Flows. Significant segment expenses include the costs and expenses presented on the Condensed Consolidated Statements of Operations. Other segment items include Other income, net and Provision for income taxes.
 Note 2. Significant Accounting Policies and Accounting Standards
 Significant Accounting Policies
-There have been no material changes in our significant accounting policies as described in our Annual Report on Form 10-K for the fiscal year ended January 31, 2025.
+There have been no material changes in our significant accounting policies as described in our Annual Report on Form 10-K for the fiscal year ended January 31, 2026.
 Concentrations of Risk and Significant Customers
 Our financial instruments that are exposed to concentrations of credit risk consist primarily of cash and cash equivalents, debt securities, derivative instruments, and trade and other receivables. Our deposits exceed federally insured limits.
-No customer individually accounted for more than 10% of trade and other receivables, net as of October 31, 2025, or January 31, 2025. No customer individually accounted for more than 10% of total revenues during the three and nine months ended October 31, 2025, or 2024.
-Other than the United States, no country individually accounted for more than 10% of total revenues during the three and nine months ended October 31, 2025, or 2024.
-In order to reduce the risk of disruption of our cloud applications, we host our applications in data centers operated by third parties located in the United States, Europe, Canada, and the Asia-Pacific region. These data centers include third-party hosted infrastructure, including Amazon Web Services and Google Cloud, and co-location data centers.  Procedures are in place to restore services in the event of disruption at one of these data center facilities. Even with these procedures for disaster recovery in place, our cloud applications could be significantly interrupted during the implementation of the procedures to restore services.
+No customer individually accounted for more than 10% of trade and other receivables, net as of April 30, 2026, or January 31, 2026. No customer individually accounted for more than 10% of total revenues during the three months ended April 30, 2026, or 2025.
+Other than the United States (“U.S.”), no country individually accounted for more than 10% of total revenues during the three months ended April 30, 2026, or 2025.
+In order to reduce the risk of disruption of our cloud applications, we host our applications in data centers operated by third parties located in the U.S., Europe, Canada, and the Asia-Pacific region. These data centers include third-party hosted infrastructure, including Amazon Web Services and Google Cloud, and co-location data centers. Procedures are in place to restore services in the event of disruption at one of these data center facilities. Even with these procedures for disaster recovery in place, our cloud applications could be significantly interrupted during the implementation of the procedures to restore services.
 Recently Issued Accounting Pronouncements
-In December 2023, the Financial Accounting Standards Board (“FASB”) issued Accounting Standard Update (“ASU”) No. 2023-09,
-Income Taxes (Topic 740): Improvements to Income Disclosures
-, which requires disclosure of disaggregated income taxes paid, prescribes standard categories for the components of the effective tax rate reconciliation, and modifies other income tax-related disclosures. This ASU is effective for annual periods beginning in our fiscal 2026. The updated standard allows for adoption on a prospective basis, with a retrospective option. We are currently evaluating the effect the updated standard will have on our financial statement disclosures.
-In July 2025, the FASB issued ASU No. 2025-05,
-Financial Instruments - Credit Losses (Topic 326): Measurement of Credit Losses for Accounts Receivable and Contract Assets
-, which introduces a practical expedient for the application of the current expected credit loss model to current accounts receivable and contract assets. This ASU is effective for interim and annual reporting periods beginning in the first quarter of our fiscal 2027, with early adoption permitted. The updated standard provides for adoption on a prospective basis. We are currently evaluating the effect the updated standard will have on our financial statements and related disclosures.
-In November 2024, the FASB issued ASU No. 2024-03,
+In November 2024, the Financial Accounting Standards Board (“FASB”) issued Accounting Standard Update (“ASU”) No. 2024-03,
 Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses,
 which requires the disclosure of additional information about specific expense categories in the notes to the financial statements. This ASU is effective for annual periods beginning in our fiscal 2028, and interim periods beginning in the first quarter of our fiscal 2029, with early adoption permitted. The updated standard allows for adoption on a prospective or retrospective basis. We are currently evaluating the effect the updated standard will have on our financial statement disclosures.
 In September 2025, the FASB issued ASU No. 2025-06,
 Intangibles - Goodwill and Other - Internal-Use Software (Subtopic 350-40), Targeted Improvements to the Accounting for Internal-Use Software
-, which modernizes the internal-use software costs capitalization model by eliminating stage-based rules and replacing them with a principles-based framework to be more aligned with modern software development practices. This ASU is effective for interim and annual reporting periods beginning in the first quarter of our fiscal 2029, with early adoption permitted as of the beginning of an annual reporting period. Entities may adopt the guidance using prospective application, retrospective application, or a modified transition approach. We are currently evaluating the effect the updated standard will have on our financial statements and related disclosures.
+, which modernizes the internal-use software costs capitalization model by eliminating stage-based rules and replacing them with a principles-based framework to be more aligned with modern software development practices. This ASU is effective for interim and annual reporting periods beginning in the first quarter of our fiscal 2029, with early adoption permitted as of the beginning of an annual reporting period. Entities may adopt the guidance using prospective application, retrospective application, or a modified transition approach. We are currently evaluating the effect the updated standard will have on our consolidated financial statements and related disclosures.
 10
-Table o
-f Contents
+Table of Cont
+ents
 Note 3. Investments
 Debt Securities
-As of October 31, 2025, debt securities consisted of the following (in millions):
+As of April 30, 2026, debt securities consisted of the following (in millions):
 Amortized Cost
-Unrealized Gains
-Unrealized Losses
+Gross Unrealized Gains
+Gross Unrealized Losses
 Aggregate Fair Value
 U.S. treasury securities
 $
-1,559
+1,491
 $
-12
+5
 $
 0
 $
-1,571
+1,496
 U.S. agency obligations
-352
-1
+215
 0
-353
+0
+215
 Corporate bonds
-2,095
-25
-0
-2,120
-Commercial paper
-26
-0
-0
-26
+1,890
+10
+(3)
+1,897
 Asset-backed securities
-156
-2
+158
+0
 0
 158
 Supranational securities
-27
+28
 0
 0
-27
+28
 Total debt securities
 $
-4,215
+3,782
 $
-40
+15
 $
-0
+(3)
 $
-4,255
+3,794
 Included in Cash and cash equivalents
 $
-21
-$
 0
 $
 0
 $
-21
+0
+$
+0
 Included in Marketable securities
 $
-4,194
+3,782
 $
-40
+15
 $
-0
+(3)
 $
-4,234
-As of January 31, 2025, debt securities consisted of the following (in millions):
+3,794
+As of January 31, 2026, debt securities consisted of the following (in millions):
 Amortized Cost
-Unrealized Gains
-Unrealized Losses
+Gross Unrealized Gains
+Gross Unrealized Losses
 Aggregate Fair Value
 U.S. treasury securities
 $
-2,069
+1,820
 $
-4
+11
 $
-(1)
+0
 $
-2,072
+1,831
 U.S. agency obligations
-634
+265
+1
+0
+266
+Corporate bonds
+1,874
+22
+0
+1,896
+Commercial paper
+164
+0
+0
+164
+Asset-backed securities
+155
 2
 0
-636
-Corporate bonds
-3,532
-11
-(3)
-3,540
-Commercial paper
-294
-0
-0
-294
-Asset-backed securities
-104
-0
-0
-104
+157
 Supranational securities
-5
+26
 0
 0
-5
+26
 Total debt securities
 $
-6,638
+4,304
 $
-17
+36
 $
-(4)
+0
 $
-6,651
+4,340
 Included in Cash and cash equivalents
 $
-177
+398
 $
 0
 $
 0
 $
-177
+398
 Included in Marketable securities
 $
-6,461
+3,906
 $
-17
+36
 $
-(4)
+0
 $
-6,474
-The following table presents the fair values of debt securities as of October 31, 2025, by remaining contractual maturity (in millions). Actual maturities may differ from contractual maturities because borrowers may have certain prepayment conditions.
+3,942
+The following table presents the fair values of debt securities as of April 30, 2026, by remaining contractual maturity (in millions). Actual maturities may differ from contractual maturities because borrowers may have certain prepayment conditions.
+April 30, 2026
 Due within 1 year
 $
-1,049
+1,431
 Due 1 year through 5 years
-3,129
+2,302
 Due 5 years through 10 years
-47
+36
 Due after 10 years
-30
+25
 Total debt securities
 $
-4,255
+3,794
 We classify our debt securities as available-for-sale at the time of purchase and reevaluate such classification as of each balance sheet date. We consider all debt securities as funds available for use in current operations, including those with maturity dates beyond one year, and therefore classify these securities as current assets on the Condensed Consolidated Balance Sheets. Debt securities included in Marketable securities on the Condensed Consolidated Balance Sheets consist of securities with original maturities at the time of purchase greater than three months, and the remaining securities are included in Cash and cash equivalents.
-Interest receivable of $39 million and $53 million was included in
+Interest receivable of $34 million and $33 million was included in
 Prepaid expenses and other current assets
-on the Condensed Consolidated Balance Sheets as of October 31, 2025, and January 31, 2025, respectively.
-As of October 31, 2025, and January 31, 2025, unrealized losses on our debt securities were not material. We did not recognize any credit losses related to our debt securities during the periods presented.
+on the Condensed Consolidated Balance Sheets as of April 30, 2026, and January 31, 2026, respectively.
+As of April 30, 2026, and January 31, 2026, unrealized losses on our debt securities were not material. We did not recognize any credit losses related to our debt securities during the periods presented.
+We sold $96 million and $140 million of debt securities during the three months ended April 30, 2026, and 2025, respectively. The realized gains and losses from the sales were immaterial.
 11
-Table o
-f Contents
-We sold $2.7 billion of debt securities during the nine months ended October 31, 2025, with a corresponding realized gain of $24 million. We sold $115 million of debt securities during the nine months ended October 31, 2024, with an immaterial corresponding realized gain.
+Table of Cont
+ents
 Equity Investments
 Equity investments consisted of the following (in millions):
 Condensed Consolidated Balance Sheets Location
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 Money market funds
 Cash and cash equivalents
 $
-2,301
+204
 $
-988
+694
 Non-marketable equity investments measured using the measurement alternative
 Other assets
-236
-244
+220
+230
 Total equity investments
 $
-2,537
+424
 $
-1,232
+924
 Non-Marketable Equity Investments Measured Using the Measurement Alternative
 Non-marketable equity investments measured using the measurement alternative include investments in privately held companies without readily determinable fair values in which we do not own a controlling interest or exercise significant influence. These investments are recorded at cost and are adjusted for observable transactions for same or similar securities of the same issuer or impairment events. The carrying values for our non-marketable equity investments are summarized below (in millions):
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 Total initial cost
 $
-205
+198
 $
-217
+205
 Cumulative net unrealized gains
-31
-27
+22
+25
 Carrying value
 $
-236
+220
 $
-244
-During the three and nine months ended October 31, 2025, and 2024, there were no material gains or losses recorded on our non-marketable equity investments.
+230
+During the three months ended April 30, 2026, and 2025, we recognized net losses on our non-marketable equity investments of $8 million and $1 million, respectively.
 Note 4. Fair Value Measurements
 We use a fair value hierarchy that requires that we maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value. A financial instrument’s classification within the fair value hierarchy is based upon the lowest level of input that is significant to the fair value measurement. Three levels of inputs may be used to measure fair value:
 Level 1 — Observable inputs that reflect quoted prices (unadjusted) for identical assets or liabilities in active markets.
 Level 2 — Other inputs that are directly or indirectly observable in the marketplace.
 Level 3 — Unobservable inputs that are supported by little or no market activity.
-12
-Table o
-f Contents
 Assets and Liabilities Measured at Fair Value on a Recurring Basis
-The following table presents information about our assets and liabilities that are measured at fair value on a recurring basis and their assigned levels within the valuation hierarchy as of October 31, 2025 (in millions):
+The following table presents information about our assets and liabilities that are measured at fair value on a recurring basis and their assigned levels within the valuation hierarchy as of April 30, 2026 (in millions):
 Level 1
 Level 2
 Level 3
 Total
 U.S. treasury securities
 $
-1,571
+1,496
 $
 0
 $
 0
 $
-1,571
+1,496
 U.S. agency obligations
 0
-353
+215
 0
-353
+215
 Corporate bonds
 0
-2,120
+1,897
 0
-2,120
-Commercial paper
-0
-26
-0
-26
+1,897
 Asset-backed securities
 0
 158
@@ -4423,334 +4258,293 @@ Asset-backed securities
 158
 Supranational securities
 0
-27
+28
 0
-27
+28
 Money market funds
-2,301
+204
 0
 0
-2,301
+204
 Foreign currency derivative assets
 0
-33
+27
 0
-33
+27
 Total assets
 $
-3,872
+1,700
 $
-2,717
+2,325
 $
 0
 $
-6,589
+4,025
 Foreign currency derivative liabilities
 $
 0
 $
-111
+128
 $
 0
 $
-111
+128
 Total liabilities
 $
 0
 $
-111
+128
 $
 0
 $
-111
-The following table presents information about our assets and liabilities that are measured at fair value on a recurring basis and their assigned levels within the valuation hierarchy as of January 31, 2025 (in millions):
+128
+12
+Table of Cont
+ents
+The following table presents information about our assets and liabilities that are measured at fair value on a recurring basis and their assigned levels within the valuation hierarchy as of January 31, 2026 (in millions):
 Level 1
 Level 2
 Level 3
 Total
 U.S. treasury securities
 $
-2,072
+1,831
 $
 0
 $
 0
 $
-2,072
+1,831
 U.S. agency obligations
 0
-636
+266
 0
-636
+266
 Corporate bonds
 0
-3,540
+1,896
 0
-3,540
+1,896
 Commercial paper
 0
-294
+164
 0
-294
+164
 Asset-backed securities
 0
-104
+157
 0
-104
+157
 Supranational securities
 0
-5
+26
 0
-5
+26
 Money market funds
-988
+694
 0
 0
-988
+694
 Foreign currency derivative assets
 0
-112
+21
 0
-112
+21
 Total assets
 $
-3,060
+2,525
 $
-4,691
+2,530
 $
 0
 $
-7,751
+5,055
 Foreign currency derivative liabilities
 $
 0
 $
-26
+148
 $
 0
 $
-26
+148
 Total liabilities
 $
 0
 $
-26
+148
 $
 0
 $
-26
+148
 Non-Marketable Equity Investments Measured at Fair Value on a Non-Recurring Basis
 Non-marketable equity investments that have been remeasured due to an observable event or impairment are classified within Level 3 in the fair value hierarchy because we estimate the value based on valuation methods which may include a combination of the observable transaction price at the transaction date and other unobservable inputs including volatility, rights, and obligations of the investments we hold. For further information, see
 Note 3, Investments
 .
 Fair Value Measurements of Other Financial Instruments
-We carry our debt at face value less unamortized debt discount and issuance costs on our Condensed Consolidated Balance Sheets and present the fair value for disclosure purposes only. The fair values of all of our debt obligations are categorized as Level 2 financial instruments. For further information on the fair values of our debt and the inputs used in the calculations, see
-Note 11, Debt
+We carry our debt at face value less unamortized debt discount and issuance costs on the Condensed Consolidated Balance Sheets and present the fair value for disclosure purposes only. The fair values of all of our debt obligations are categorized as Level 2 financial instruments. For further information on the fair values of our debt and the inputs used in the calculations, see
+Note 10, Debt
 .
 Note 5. Deferred Costs
-Deferred costs, which consist of deferred sales commissions, were $859 million and $828 million as of October 31, 2025, and January 31, 2025, respectively. Amortization expense for the deferred costs was $75 million and $64 million for the three months ended October 31, 2025, and 2024, respectively, and $215 million and $185 million for the nine months ended October 31, 2025, and 2024, respectively. There was no impairment loss in relation to the costs capitalized for the periods presented.
-13
-Table o
-f Contents
+Deferred costs, which consist of deferred sales commissions, were $926 million and $940 million as of April 30, 2026, and January 31, 2026, respectively. Amortization expense for the deferred costs was $79 million and $68 million for the three months ended April 30, 2026, and 2025, respectively. There was no impairment loss in relation to the costs capitalized for the periods presented.
 Note 6. Property and Equipment, Net
 Property and equipment, net consisted of the following (in millions):
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 Computers, equipment, and software
 $
-1,317
+1,271
 $
-1,370
+1,285
 Buildings
-702
-752
+698
+690
 Leasehold improvements
-282
-252
+385
+334
 Furniture, fixtures, and transportation equipment
-110
-108
+119
+112
 Land and land improvements
-77
-81
+74
+74
 Property and equipment, gross
-2,488
-2,563
+2,547
+2,495
 Less accumulated depreciation and amortization
-(1,356)
-(1,324)
+(1,426)
+(1,402)
 Property and equipment, net
 $
-1,132
+1,121
 $
-1,239
-Depreciation expense totaled $59 million and $60 million for the three months ended October 31, 2025, and 2024, respectively, and $180 million and $174 million for the nine months ended October 31, 2025, and 2024, respectively.
-Note 7. Business Combinations
-Paradox Acquisition
-In September 2025, we acquired all outstanding stock of Paradox, Inc. (“Paradox”), a candidate experience agent that uses conversational AI to simplify the job application journey. We have included the financial results of Paradox in our condensed consolidated financial statements from the date of acquisition.
-The total acquisition-date fair value of the purchase consideration was $1.1 billion, attributable to cash consideration of $1.0 billion and the fair value of a previously held equity interest of $20 million. The purchase consideration was preliminarily allocated to the tangible and intangible assets acquired and liabilities assumed based on their estimated fair values as of the acquisition date, with the excess recorded to goodwill. The fair values of assets acquired and liabilities assumed may be subject to change over the measurement period as additional information is received and certain tax matters are finalized. The measurement period will end no later than one year from the acquisition date. The preliminary fair values of the assets acquired and liabilities assumed as of the date of acquisition were as follows (in millions):
-Cash
-$
-75
-Acquisition-related intangible assets
-253
-Goodwill
-781
-Other assets
-49
-Other liabilities
-(95)
-Total purchase consideration, inclusive of previously held equity interest
-$
-1,063
-The fair values and weighted-average useful lives of the acquired intangible assets by category were as follows (in millions, except years):
-Estimated Fair Values
-Weighted-Average Useful Lives (in Years)
-Developed technology
-$
-133
-5
-Customer relationships
-116
-9
-Backlog
-2
-3
-Trade name
-2
-1
-Total acquisition-related intangible assets
-$
-253
-7
-The goodwill recognized was primarily attributable to the assembled workforce and the expected synergies from integrating Paradox’s technology into our product portfolio. The goodwill is not deductible for income tax purposes.
-Separate operating results and pro forma results of operations for Paradox have not been presented as the effect of this acquisition was not material to our financial results.
-14
-Table o
-f Contents
-Other Acquisitions
-In August 2025, we completed an acquisition for total purchase consideration of $6 million, resulting in an increase of $1 million and $4 million in acquired developed technology and goodwill, respectively.
-Note 8. Acquisition-Related Intangible Assets, Net
-Acquisition-related intangible assets, net consisted of the following as of October 31, 2025 (in millions):
-Gross Carrying Amount
+1,093
+Depreciation expense totaled $55 million and $62 million for the three months ended April 30, 2026, and 2025, respectively.
+There were no impairment charges recognized on property and equipment during the three months ended April 30, 2026. We recognized impairment charges of $34 million for the three months ended April 30, 2025, related to certain property and equipment as a result of our restructuring activities. For further information, see
+Note 19, Restructuring
+.
+13
+Table of Cont
+ents
+Note 7. Acquisition-Related Intangible Assets, Net
+Acquisition-related intangible assets, net consisted of the following as of April 30, 2026 (in millions):
+Gross Carrying Value
 Accumulated Amortization
 Net Book Value
 Developed technology
 $
-606
+742
 $
-(342)
+(384)
 $
-264
+358
 Customer relationships
-478
-(197)
-281
+506
+(222)
+284
 Backlog
 17
 (15)
 2
 Trade name
-16
-(14)
-2
+17
+(16)
+1
 Total
 $
-1,117
+1,282
 $
-(568)
+(637)
 $
-549
-Acquisition-related intangible assets, net consisted of the following as of January 31, 2025 (in millions):
-Gross Carrying Amount
+645
+Acquisition-related intangible assets, net consisted of the following as of January 31, 2026 (in millions):
+Gross Carrying Value
 Accumulated Amortization
 Net Book Value
 Developed technology
 $
-473
+742
 $
-(303)
+(362)
 $
-170
+380
 Customer relationships
-362
-(171)
-191
+506
+(210)
+296
 Backlog
-15
+17
 (15)
-0
+2
 Trade name
-14
+17
 (14)
-0
+3
 Total
 $
-864
+1,282
 $
-(503)
+(601)
 $
-361
-Amortization expense related to acquisition-related intangible assets was $25 million and $20 million for the three months ended October 31, 2025, and 2024, respectively, and $67 million and $58 million for the nine months ended October 31, 2025, and 2024, respectively.
-As of October 31, 2025, our future estimated amortization expense related to acquisition-related intangible assets was as follows (in millions):
+681
+Amortization expense related to acquisition-related intangible assets was $36 million and $21 million for the three months ended April 30, 2026, and 2025, respectively.
+As of April 30, 2026, our future estimated amortization expense related to acquisition-related intangible assets was as follows (in millions):
 Fiscal Period:
-Remainder of 2026
+Remainder of 2027
 $
-30
-2027
-99
+103
 2028
-93
+132
 2029
-83
+122
 2030
-75
+106
+2031
+60
 Thereafter
-169
+122
 Total
 $
-549
-Note 9. Other Assets
+645
+Note 8. Other Assets
 Other assets consisted of the following (in millions):
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 Non-marketable equity and other investments
 $
-239
+223
 $
-247
+233
 Contract assets
-54
-44
+65
+59
 Prepayments for goods and services
-31
-16
+46
+64
 Technology patents and other intangible assets, net
-24
-25
+20
+21
 Deposits
-13
-10
+15
+14
 Derivative assets
-12
-52
+9
+2
 Other
-60
-24
+57
+67
 Total other assets
 $
-433
+435
 $
-418
-15
-Table o
-f Contents
-Technology patents and other intangible assets with estimable useful lives are amortized on a straight-line basis. As of October 31, 2025, our future estimated amortization expense was as follows (in millions):
+460
+14
+Table of Cont
+ents
+Technology patents and other intangible assets with estimable useful lives are amortized on a straight-line basis. As of April 30, 2026, our future estimated amortization expense was as follows (in millions):
 Fiscal Period:
-Remainder of 2026
+Remainder of 2027
 $
-3
-2027
 3
 2028
 3
@@ -4758,174 +4552,132 @@ $
 3
 2030
 2
+2031
+2
 Thereafter
-10
+7
 Total
 $
-24
-Note 10. Derivative Instruments
+20
+Note 9. Derivative Instruments
 We conduct business on a global basis in multiple foreign currencies, subjecting Workday to foreign currency exchange risk. To mitigate this risk, we utilize derivative hedging contracts as described below. We do not enter into any derivatives for trading or speculative purposes.
 Our foreign currency contracts are classified within Level 2 of the fair value hierarchy because the valuation inputs are based on quoted prices and market observable data of similar instruments in active markets, such as currency spot and forward rates.
 Cash Flow Hedges
 We enter into foreign currency forward contracts to hedge a portion of our forecasted revenue and expense transactions (“cash flow hedges”). We designate these forward contracts as cash flow hedging instruments since the accounting criteria for such designation has been met.
-Cash flow hedges are recorded on the Condensed Consolidated Balance Sheets at fair value. Cash flows from the settlement of these forward contracts are classified as operating activities on the Condensed Consolidated Statements of Cash Flows. Gains or losses resulting from changes in the fair value of these hedges are recorded in Accumulated other comprehensive income (loss) (“AOCI”) on the Condensed Consolidated Balance Sheets and are subsequently reclassified to the same line item as the hedged transaction on the Condensed Consolidated Statements of Operations in the same period that the hedged transaction affects earnings. As of October 31, 2025, we estimate that $26 million of net losses recorded in AOCI related to our cash flow hedges will be reclassified into earnings within the next 12 months.
-As of October 31, 2025, and January 31, 2025, the notional values of the cash flow hedges that we held to buy U.S. dollars in exchange for other currencies were $3.0 billion and $2.8 billion, respectively, and the notional values of the cash flow hedges that we held to sell U.S. dollars in exchange for other currencies were $433 million and $420 million, respectively. All contracts had maturities of less than 51 months.
+Cash flow hedges are recorded on the Condensed Consolidated Balance Sheets at fair value. Cash flows from the settlement of these forward contracts are classified as operating activities on the Condensed Consolidated Statements of Cash Flows. Gains and losses resulting from changes in the fair value of these hedges are recorded in Accumulated other comprehensive income (loss) (“AOCI”) on the Condensed Consolidated Balance Sheets and are subsequently reclassified to the same line item as the hedged transaction on the Condensed Consolidated Statements of Operations in the same period that the hedged transaction affects earnings. As of April 30, 2026, we estimate that $48 million of net losses recorded in AOCI related to our cash flow hedges will be reclassified into earnings within the next 12 months.
+As of April 30, 2026, and January 31, 2026, the notional values of the cash flow hedges that we held to buy U.S. dollars in exchange for other currencies were $3.3 billion and $3.0 billion, respectively, and the notional values of the cash flow hedges that we held to sell U.S. dollars in exchange for other currencies were $867 million and $874 million, respectively. All contracts had maturities of less than 45 months.
 Non-Designated Hedges
-We also enter into foreign currency forward contracts to hedge a portion of our net outstanding monetary assets and liabilities (“non-designated hedges”). These forward contracts are intended to offset foreign currency gains or losses associated with the underlying monetary assets and liabilities and are recorded on the Condensed Consolidated Balance Sheets at fair value. These forward contracts are not designated as hedging instruments under applicable accounting guidance, and therefore all changes in the fair value of these forward contracts are recorded in Other income, net on the Condensed Consolidated Statements of Operations. Cash flows from the settlement of these forward contracts are classified as operating activities on the Condensed Consolidated Statements of Cash Flows.
-As of October 31, 2025, and January 31, 2025, the notional values of the non-designated hedges that we held to buy U.S. dollars in exchange for other currencies were $229 million and $242 million, respectively, and the notional values of the non-designated hedges that we held to sell U.S. dollars in exchange for other currencies were $535 million and $91 million, respectively.
-16
-Table o
-f Contents
+We also enter into foreign currency forward contracts to hedge a portion of our net outstanding monetary assets and liabilities (“non-designated hedges”). These forward contracts are intended to offset foreign currency gains or losses associated with the underlying monetary assets and liabilities and are recorded on the Condensed Consolidated Balance Sheets at fair value. These forward contracts are not designated as hedging instruments under applicable accounting guidance, and therefore all changes in the fair value of these forward contracts are recorded in Other income, net on the Condensed Consolidated Statements of Operations in the period incurred. Cash flows from the settlement of these forward contracts are classified as operating activities on the Condensed Consolidated Statements of Cash Flows.
+As of April 30, 2026, and January 31, 2026, the notional values of the non-designated hedges that we held to buy U.S. dollars in exchange for other currencies were $311 million and $442 million, respectively, and the notional values of the non-designated hedges that we held to sell U.S. dollars in exchange for other currencies were $619 million and $565 million, respectively.
+15
+Table of Cont
+ents
 The fair values of outstanding derivative instruments were as follows (in millions):
 Condensed Consolidated Balance Sheets Location
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 Derivative assets:
 Cash flow hedges
 Prepaid expenses and other current assets
 $
-17
+13
 $
-59
+15
 Cash flow hedges
 Other assets
-12
-52
+9
+2
 Non-designated hedges
 Prepaid expenses and other current assets
+5
 4
-1
 Total derivative assets
 $
-33
+27
 $
-112
+21
 Derivative liabilities:
 Cash flow hedges
 Accrued expenses and other current liabilities
 $
-49
+65
 $
-22
+71
 Cash flow hedges
 Other liabilities
 49
-3
+65
 Non-designated hedges
 Accrued expenses and other current liabilities
+14
 12
-1
-Non-designated hedges
-Other liabilities
-1
-0
 Total derivative liabilities
 $
-111
+128
 $
-26
+148
 The effect of cash flow hedges on the Condensed Consolidated Statements of Operations was as follows (in millions):
-Three Months Ended October 31,
+Three Months Ended April 30,
 Condensed Consolidated Statements of Operations Location
+2026
 2025
-2024
 Total
 Gains (losses) related to cash flow hedges
 Total
 Gains (losses) related to cash flow hedges
 Revenues
 $
-2,432
+2,542
 $
-3
+(9)
 $
-2,160
+2,240
 $
-7
+8
 Costs and expenses
-2,173
-5
-1,995
-3
-Nine Months Ended October 31,
-Condensed Consolidated Statements of Operations Location
-2025
-2024
-Total
-Gains (losses) related to cash flow hedges
-Total
-Gains (losses) related to cash flow hedges
-Revenues
-$
-7,020
-$
-19
-$
-6,235
-$
-23
-Costs and expenses
-6,473
-5
-5,895
-(2)
+2,204
+2
+2,201
+(6)
 Pre-tax gains (losses) associated with cash flow hedges were as follows (in millions):
-Condensed Consolidated Statements of Operations and Statements of Comprehensive Income Locations
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Condensed Consolidated Statements of Operations and Statements of Comprehensive Income (Loss) Locations
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Gains (losses) recognized in OCI
 Net change in unrealized gains (losses) on cash flow hedges
 $
-6
+21
 $
-0
-$
-(158)
-$
-11
+(162)
 Gains (losses) reclassified from AOCI into income (effective portion)
 Revenues
-3
-7
-19
-23
+(9)
+8
 Gains (losses) reclassified from AOCI into income (effective portion)
 Costs and expenses
-5
-3
-5
-(2)
+2
+(6)
 Gains (losses) associated with non-designated hedges were as follows (in millions):
 Condensed Consolidated Statements of Operations Location
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Gains (losses) related to non-designated hedges
 Other income, net
 $
-3
+(4)
 $
 0
-$
-(10)
-$
-(2)
-17
-Table o
-f Contents
-We manage our exposure to counterparty risk by entering into foreign currency forward contracts with a diversified group of nine major financial institutions and by actively monitoring outstanding positions. We are subject to netting agreements with all of these counterparties, under which we are permitted to net settle transactions of the same currency with a single net amount payable by one party to the other. After consideration of these netting arrangements, the total net settlement amount related to our foreign currency forward contracts is an asset position of $4 million and a liability position of $82 million as of October 31, 2025, and an asset position of $86 million as of January 31, 2025.
+We manage our exposure to counterparty risk by entering into foreign currency forward contracts with a diversified group of nine major financial institutions and by actively monitoring outstanding positions. We are subject to netting agreements with all of these counterparties, under which we are permitted to net settle transactions of the same currency with a single net amount payable by one party to the other. After consideration of these netting arrangements, the total net settlement amount related to our foreign currency forward contracts is an asset position of $4 million and a liability position of $105 million as of April 30, 2026, and an asset position of $1 million and a liability position of $128 million as of January 31, 2026.
 Although legally enforceable master netting arrangements exist between Workday and each counterparty, it is our policy to present the derivatives gross on the Condensed Consolidated Balance Sheets. Our foreign currency forward contracts are not subject to any credit contingent features or collateral requirements.
-Note 11. Debt
+16
+Table of Cont
+ents
+Note 10. Debt
 Outstanding debt consisted of the following (in millions):
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 2027 Notes
 $
 1,000
@@ -4941,19 +4693,23 @@ Total principal amount
 3,000
 3,000
 Less: unamortized debt discount and issuance costs
-(14)
-(16)
+(12)
+(13)
+Net carrying amount
+2,988
+2,987
+Less: debt, current
+(998)
+0
 Debt, noncurrent
 $
-2,986
+1,990
 $
-2,984
-As of October 31, 2025, our future principal payments for the outstanding debt were as follows (in millions):
+2,987
+As of April 30, 2026, our future principal payments for the outstanding debt were as follows (in millions):
 Fiscal Period:
-Remainder of 2026
+Remainder of 2027
 $
-0
-2027
 0
 2028
 1,000
@@ -4961,6 +4717,8 @@ $
 0
 2030
 750
+2031
+0
 Thereafter
 1,250
 Total principal amount
@@ -4968,149 +4726,114 @@ $
 3,000
 Senior Notes
 In fiscal 2023, we issued $3.0 billion aggregate principal amount of senior notes, consisting of $1.0 billion aggregate principal amount of 3.500% notes due April 1, 2027 (“2027 Notes”), $750 million aggregate principal amount of 3.700% notes due April 1, 2029 (“2029 Notes”), and $1.25 billion aggregate principal amount of 3.800% notes due April 1, 2032 (“2032 Notes,” and together with the 2027 Notes and the 2029 Notes, “Senior Notes”). Interest is payable semi-annually in arrears on April 1 and October 1 of each year.
-The Senior Notes are unsecured obligations and rank equally with all existing and future unsecured and unsubordinated indebtedness of Workday. We may redeem the Senior Notes in whole or in part at any time or from time to time, at specified redemption dates and prices. In addition, upon the occurrence of certain change of control triggering events, we may be required to repurchase the Senior Notes under specified terms. The indenture governing the Senior Notes also includes covenants (including certain limited covenants restricting our ability to incur certain liens and enter into certain sale and leaseback transactions), events of default, and other customary provisions. As of October 31, 2025, and January 31, 2025, we were in compliance with all covenants associated with the Senior Notes.
+The Senior Notes are unsecured obligations and rank equally with all existing and future unsecured and unsubordinated indebtedness of Workday. We may redeem the Senior Notes in whole or in part at any time or from time to time, at specified redemption dates and prices. In addition, upon the occurrence of certain change of control triggering events, we may be required to repurchase the Senior Notes under specified terms. The indenture governing the Senior Notes also includes covenants (including certain limited covenants restricting our ability to incur certain liens and enter into certain sale and leaseback transactions), events of default, and other customary provisions. As of April 30, 2026, and January 31, 2026, we were in compliance with all covenants associated with the Senior Notes.
 We incurred debt discount and issuance costs of approximately $27 million in connection with the Senior Notes offering, which were allocated on a pro rata basis to the 2027 Notes, 2029 Notes, and 2032 Notes. The debt discount and issuance costs are amortized on a straight-line basis, which approximates the effective interest rate method, to interest expense over the contractual term of each arrangement. The effective interest rates on the 2027 Notes, 2029 Notes, and 2032 Notes, which are calculated as the contractual interest rates adjusted for the debt discount and issuance costs, are 3.67%, 3.82%, and 3.90%, respectively.
-18
-Table o
-f Contents
-As of October 31, 2025, and January 31, 2025, the total estimated fair value of the Senior Notes was $2.9 billion and $2.8 billion, respectively. The estimated fair values of the Senior Notes, which we have classified as Level 2 financial instruments, were determined based on quoted bid prices in an over-the-counter market on the last trading day of the reporting period.
+As of both April 30, 2026, and January 31, 2026, the total estimated fair value of the Senior Notes was $2.9 billion. The estimated fair values of the Senior Notes, which we have classified as Level 2 financial instruments, were determined based on quoted bid prices in an over-the-counter market on the last trading day of the reporting period.
+17
+Table of Cont
+ents
 Credit Agreement
-In fiscal 2023, we entered into a credit agreement (“2022 Credit Agreement”) which provides for a revolving credit facility in an aggregate principal amount of $1.0 billion. As of October 31, 2025, and January 31, 2025, we had no outstanding revolving loans under the 2022 Credit Agreement. The revolving loans under the 2022 Credit Agreement may be borrowed, repaid, and reborrowed until April 6, 2027, at which time all amounts borrowed must be repaid. The revolving loans under the 2022 Credit Agreement will bear interest, at our option, at a base rate plus a margin of 0.000% to 0.500% or a secured overnight financing rate (“SOFR”) plus 10 basis points, plus a margin of 0.750% to 1.500%, with such margin being determined based on our consolidated leverage ratio or debt rating. We are also obligated to pay an ongoing commitment fee on undrawn amounts.
-The 2022 Credit Agreement contains customary representations, warranties, and affirmative and negative covenants, including a financial covenant, events of default, and indemnification provisions in favor of the lenders. The negative covenants include restrictions on the incurrence of liens and indebtedness, certain merger transactions, and other matters, all subject to certain exceptions. The financial covenant, based on a quarterly financial test, requires that we do not exceed a maximum leverage ratio of 3.50:1.00, subject to a step-up to 4.50:1.00 at our election for a certain period following an acquisition. As of October 31, 2025, and January 31, 2025, we were in compliance with all covenants included in the 2022 Credit Agreement.
+In fiscal 2023, we entered into a credit agreement (“2022 Credit Agreement”) which provides for a revolving credit facility in an aggregate principal amount of $1.0 billion. As of April 30, 2026, and January 31, 2026, we had no outstanding revolving loans under the 2022 Credit Agreement. The revolving loans under the 2022 Credit Agreement may be borrowed, repaid, and reborrowed until April 6, 2027, at which time all amounts borrowed must be repaid. The revolving loans under the 2022 Credit Agreement will bear interest, at our option, at a base rate plus a margin of 0.000% to 0.500% or a secured overnight financing rate (“SOFR”) plus 10 basis points, plus a margin of 0.750% to 1.500%, with such margin being determined based on our consolidated leverage ratio or debt rating. We are also obligated to pay an ongoing commitment fee on undrawn amounts.
+The 2022 Credit Agreement contains customary representations, warranties, and affirmative and negative covenants, including a financial covenant, events of default, and indemnification provisions in favor of the lenders. The negative covenants include restrictions on the incurrence of liens and indebtedness, certain merger transactions, and other matters, all subject to certain exceptions. The financial covenant, based on a quarterly financial test, requires that we do not exceed a maximum leverage ratio of 3.50:1.00, subject to a step-up to 4.50:1.00 at our election for a certain period following an acquisition. As of April 30, 2026, and January 31, 2026, we were in compliance with all covenants included in the 2022 Credit Agreement.
 Interest Expense on Debt
 The following table sets forth total interest expense recognized related to our debt (in millions):
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Contractual interest expense
 $
 28
 $
 28
-$
-83
-$
-83
 Interest cost related to amortization of debt discount and issuance costs
 1
 1
-3
-3
 Total interest expense
 $
 29
 $
 29
-$
-86
-$
-86
-Note 12. Leases
-We have entered into operating lease agreements for our office space, data centers, and other property and equipment. Operating lease right-of-use assets were $721 million and $336 million as of October 31, 2025, and January 31, 2025, respectively, and operating lease liabilities were $807 million and $378 million as of October 31, 2025, and January 31, 2025, respectively.
-In July 2025, the 20-year lease for our new European headquarters in Dublin, Ireland, commenced, following its execution in the first quarter of fiscal 2026. This resulted in the recognition of an operating lease right-of-use asset of $313 million, and a corresponding operating lease liability of $333 million.
-19
-Table o
-f Contents
+Note 11. Leases
+We have entered into operating lease agreements for our office space, data centers, and other property and equipment. Operating lease right-of-use assets were $706 million and $719 million as of April 30, 2026, and January 31, 2026, respectively, and operating lease liabilities were $817 million and $834 million as of April 30, 2026, and January 31, 2026, respectively.
 The components of operating lease expense were as follows (in millions):
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Operating lease cost
 $
-40
+42
 $
-30
-$
-105
-$
-88
-Short-term lease cost
-0
-0
-1
-1
+31
 Variable lease cost
 14
-15
-38
-39
+11
 Total operating lease cost
 $
-54
+56
 $
-45
-$
-144
-$
-128
+42
 Supplemental cash flow information related to our operating leases was as follows (in millions):
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
 Cash paid for operating lease liabilities
 $
-97
+37
 $
-80
+33
 Operating lease right-of-use assets obtained in exchange for new operating lease liabilities
-467
-123
+21
+42
 Other information related to our operating leases was as follows:
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 Weighted average remaining lease term (in years)
 11
-5
+11
 Weighted average discount rate
-4.16
+4.2
 %
-4.20
+4.2
 %
-As of October 31, 2025, maturities of operating lease liabilities were as follows (in millions):
+18
+Table of Cont
+ents
+As of April 30, 2026, maturities of operating lease liabilities were as follows (in millions):
 Fiscal Period:
-Remainder of 2026
+Remainder of 2027
 $
-36
-2027
-137
+112
 2028
-143
+159
 2029
-114
+127
 2030
-78
+90
+2031
+66
 Thereafter
-527
+487
 Total lease payments
-1,035
+1,041
 Less imputed interest
-(228)
+(224)
 Total operating lease liabilities
 $
-807
-As of October 31, 2025, we had operating leases for office space that had not yet commenced with total undiscounted lease payments of $36 million. These operating leases will commence in fiscal 2026 and fiscal 2027, with lease terms ranging from approximately
-five
-to ten years.
-Note 13. Commitments and Contingencies
+817
+Note 12. Commitments and Contingencies
 Purchase Obligations
-Our purchase obligations are primarily related to agreements for third-party hosted infrastructure platforms, data center equipment and software, business technology software and support, and sales and marketing activities. During the nine months ended October 31, 2025, there were no material changes outside the ordinary course of business to our non-cancelable purchase obligations disclosed in our Annual Report on Form 10-K for the fiscal year ended January 31, 2025.
+Our purchase obligations are primarily related to agreements for third-party hosted infrastructure platforms, data center equipment and software, business technology software and support, and sales and marketing activities. During the three months ended April 30, 2026, there were no material changes outside the ordinary course of business to our non-cancelable purchase obligations disclosed in our Annual Report on Form 10-K for the fiscal year ended January 31, 2026.
 Legal Matters
-We are a party to various legal proceedings and claims that arise in the ordinary course of business. We make a provision for a liability relating to legal matters when it is both probable that a liability has been incurred and the amount of the loss can be reasonably estimated. These provisions are reviewed at least quarterly and adjusted to reflect the impacts of negotiations, settlements, rulings, advice of legal counsel, and other information and events pertaining to a particular matter. In our opinion, as of October 31, 2025, there was not at least a reasonable possibility that we had incurred a material loss, or a material loss in excess of a recorded accrual, with respect to such loss contingencies.
-20
-Table o
-f Contents
-Note 14. Stockholders’ Equity
+We are a party to various legal proceedings and claims that arise in the ordinary course of business. We make a provision for a liability relating to legal matters when it is both probable that a liability has been incurred and the amount of the loss can be reasonably estimated. These provisions are reviewed at least quarterly and adjusted to reflect the impacts of negotiations, settlements, rulings, advice of legal counsel, and other information and events pertaining to a particular matter. In our opinion, as of April 30, 2026, there was not at least a reasonable possibility that we had incurred a material loss, or a material loss in excess of a recorded accrual, with respect to such loss contingencies.
+Note 13. Stockholders’ Equity
 Common Stock
-As of October 31, 2025, there were 214 million shares of Class A common stock, net of treasury stock, and 50 million shares of Class B common stock outstanding. The rights of the holders of Class A common stock and Class B common stock are identical, except with respect to voting and conversion. Each share of Class A common stock is entitled to one vote per share and each share of Class B common stock is entitled to 10 votes per share. Each share of Class B common stock can be converted into a share of Class A common stock at any time at the option of the holder.
+As of April 30, 2026, there were 203 million shares of Class A common stock and 46 million shares of Class B common stock outstanding. The rights of the holders of Class A common stock and Class B common stock are identical, except with respect to voting and conversion. Each share of Class A common stock is entitled to one vote per share and each share of Class B common stock is entitled to 10 votes per share. Each share of Class B common stock can be converted into a share of Class A common stock at any time at the option of the holder.
 Share Repurchase Programs
 We repurchase shares of our Class A common stock under share repurchase programs authorized by our Board of Directors. Under these programs, in accordance with applicable securities laws and other restrictions, we may repurchase shares of our Class A common stock through open market purchases, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, in privately negotiated transactions, or by other means. The timing and total amount of share repurchases will depend upon business, economic, and market conditions, corporate and regulatory requirements, prevailing stock prices, and other considerations. The share repurchase programs have no expiration date, may be suspended or discontinued at any time, and do not obligate us to acquire any amount of Class A common stock.
-Share repurchase programs authorized by our Board of Directors that were in effect during the three and nine months ended October 31, 2025, and 2024, were as follows (in millions):
+19
+Table of Cont
+ents
+Share repurchase programs authorized by our Board of Directors that were in effect during the three months ended April 30, 2026, and 2025, were as follows (in millions):
 Authorization Date
 Amount Authorized
 Authorization Completion Date
@@ -5126,496 +4849,266 @@ August 2024
 Q3 fiscal 2026
 May 2025
 1,000
+Q4 fiscal 2026
 September 2025
 4,000
 The table below sets forth information regarding repurchase of shares under our share repurchase programs (in millions, except number of shares which are reflected in thousands, and per share data):
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Total number of shares repurchased
-3,367
-649
-5,873
-2,538
+12,025
+1,290
 Average price paid per share
 (1)
 $
-238.40
+133.05
 $
-242.42
-$
-237.42
-$
-236.73
+227.20
 Amount repurchased
 (1)
 $
-803
+1,600
 $
-157
-$
-1,394
-$
-600
+293
 (1)
 Amounts exclude excise tax and commissions.
-All repurchases were made in open market transactions. As of October 31, 2025, we were authorized to repurchase a remaining $4.4 billion of our outstanding shares of Class A common stock under our share repurchase programs.
+All repurchases were made in open market transactions. As of April 30, 2026, we were authorized to repurchase a remaining
+$1.3 billion
+of our outstanding shares of Class A common stock under our share repurchase programs.
 Employee Equity Plans
-In fiscal 2023, our stockholders approved the 2022 Equity Incentive Plan (“2022 Plan”), with a reserve of 30 million shares for issuance. The 2022 Plan serves as the successor to our 2012 Equity Incentive Plan (“2012 Plan” and, together with the 2022 Plan, “Stock Plans”). Awards that are granted on or after the effective date of the 2022 Plan will be granted pursuant to and subject to the terms and provisions of the 2022 Plan. Prior awards granted under the 2012 Plan continue to be subject to the terms and provisions of the 2012 Plan. Shares that are forfeited or withheld in connection with the net share settlement of restricted stock units (“RSUs”) are added to the reserves of the 2022 Plan. As of October 31, 2025, 13 million shares of Class A common stock were available for future grants under the 2022 Plan.
-In fiscal 2023, our stockholders approved the Amended and Restated 2012 Employee Stock Purchase Plan (“2012 ESPP”). Under the 2012 ESPP, eligible employees are granted options to purchase shares at the lower of 85% of the fair market value of the stock at the time of grant or 85% of the fair market value at the time of exercise. Options to purchase shares are granted twice yearly on or about June 1 and December 1, and are exercisable on or about the succeeding November 30 and May 31, respectively. As of October 31, 2025, 2 million shares of Class A common stock were available for issuance under the 2012 ESPP.
-21
-Table o
-f Contents
+In fiscal 2023, our stockholders approved the 2022 Equity Incentive Plan (“2022 Plan”), with a reserve of 30 million shares for issuance. The 2022 Plan serves as the successor to our 2012 Equity Incentive Plan (“2012 Plan” and, together with the 2022 Plan, “Stock Plans”). Awards that are granted on or after the effective date of the 2022 Plan will be granted pursuant to and subject to the terms and provisions of the 2022 Plan. Prior awards granted under the 2012 Plan continue to be subject to the terms and provisions of the 2012 Plan. Shares that are forfeited or withheld in connection with the net share settlement of restricted stock units (“RSUs”) are added to the reserves of the 2022 Plan. As of April 30, 2026, 13 million shares of Class A common stock were available for future grants under the 2022 Plan.
+In fiscal 2023, our stockholders approved the Amended and Restated 2012 Employee Stock Purchase Plan (“2012 ESPP”). Under the 2012 ESPP, eligible employees are granted options to purchase shares at the lower of 85% of the fair market value of the stock at the time of grant or 85% of the fair market value at the time of exercise. Options to purchase shares are granted twice yearly on or about June 1 and December 1, and are exercisable on or about the succeeding November 30 and May 31, respectively. As of April 30, 2026, 2 million shares of Class A common stock were available for issuance under the 2012 ESPP.
+20
+Table of Cont
+ents
 Restricted Stock Units and Performance-Based Restricted Stock Units
-The Stock Plans provide for the issuance of RSUs and performance-based restricted stock units (“PSUs”) to employees and non-employees. RSUs generally vest over four years. Activity during the nine months ended October 31, 2025, was as follows (in thousands, except per share data):
+The Stock Plans provide for the issuance of RSUs and performance-based restricted stock units (“PSUs”) to employees and non-employees. RSUs generally vest over four years. Activity during the three months ended April 30, 2026, was as follows (in thousands, except per share data):
 Number of Shares
 Weighted-Average Grant Date Fair Value
-Outstanding balance as of January 31, 2025
-14,361
+Outstanding balance as of January 31, 2026
+14,128
 $
-226.52
+222.83
 Granted- restricted stock units
-7,281
-219.30
+1,664
+151.83
 Granted- performance-based restricted stock units
 (1)
-84
-215.98
+21
+127.94
 Vested
-(3,322)
-227.69
+(1,596)
+215.41
 Forfeited and canceled
 (2)
-(3,672)
-224.06
-Outstanding balance as of October 31, 2025
-14,732
-223.24
+(1,993)
+220.37
+Outstanding balance as of April 30, 2026
+12,224
+214.37
 (1)
-Includes approximately 42 thousand PSUs granted to executives in April 2025. The PSUs are subject to vesting based on the achievement of annual performance-based conditions determined at the beginning of each fiscal year and a
-three
--year service-based condition. The PSUs will vest at the end of the
-three
+Includes approximately 21 thousand PSUs granted to executives in April 2026. The PSUs are subject to vesting based on the achievement of annual performance-based conditions determined at the beginning of each fiscal year. The PSUs will vest at the end of the
+two
 -year service period, with the number of shares vesting ranging from 0% to 150% of the target, based on the average attainment of the annual performance conditions.
 (2)
-Includes shares withheld in connection with the net share settlement of RSUs.
-As of October 31, 2025, there was a total of $2.7 billion in unrecognized compensation cost, adjusted for estimated forfeitures, related to unvested RSUs and PSUs, which is expected to be recognized over a weighted-average period of approximately three years.
+Includes shares withheld in connection with the net share settlement of RSUs and PSUs.
+As of April 30, 2026, there was a total of $2.3 billion in unrecognized compensation cost, adjusted for estimated forfeitures, related to unvested RSUs and PSUs, which is expected to be recognized over a weighted-average period of approximately three years.
 Market-Based Restricted Stock Units
-In fiscal 2023, 0.3 million shares of market-based RSUs were granted to Mr. Eschenbach in connection with his appointment as Co-CEO that vest based on appreciation of the price of our Class A common stock over a multi-year period and upon continued service (“PVU Award”). We estimated the fair value of the PVU Award on the grant date using the Monte Carlo simulation model with the following assumptions: (i) expected volatility of 40%, (ii) risk-free interest rate of 4%, and (iii) total performance period of six years. The weighted-average grant date fair value of the PVU Award was $124.80 per share. We recognize expense for the PVU Award over the requisite service period of five years using the accelerated attribution method. Provided that the requisite service is rendered, the total fair value of the PVU Award at the date of grant is recognized as compensation expense even if the market condition is not achieved. However, the number of shares that ultimately vest can vary significantly with the achievement of the specified market criteria.
-As of October 31, 2025, there was a total of $4 million in unrecognized compensation cost related to the PVU Award, which is expected to be recognized over approximately two years.
-Note 15. Contract Balances and Performance Obligations
+In the first quarter of fiscal 2027, 0.5 million shares of market-based RSUs were granted to Mr. Bhusri in connection with his appointment as CEO that vest based on appreciation of the price of our Class A common stock over a multi-year period and upon continued service (“PVU Award”). We estimated the fair value of the PVU Award on the grant date using the Monte Carlo simulation model with the following assumptions: (i) expected volatility of 40%, (ii) risk-free interest rate of 3.72%, and (iii) total performance period of five years. The weighted-average grant date fair value of the PVU Award was $107.22 per share. We recognize expense for the PVU Award over the requisite service period of five years using the accelerated attribution method. Provided that the requisite service is rendered, the total fair value of the PVU Award at the date of grant is recognized as compensation expense even if the market condition is not achieved. However, the number of shares that ultimately vest can vary significantly with the achievement of the specified market criteria.
+As of April 30, 2026, there was a total of $55 million in unrecognized compensation cost related to the PVU Award, which is expected to be recognized over approximately five years.
+Note 14. Contract Balances and Performance Obligations
 Contract Balances
 Contract assets and unearned revenue balances were as follows (in millions):
 Condensed Consolidated Balance Sheets Location
-October 31, 2025
-January 31, 2025
+April 30, 2026
+January 31, 2026
 Contract assets:
 Contract assets, current
 Trade and other receivables, net
 $
-512
+540
 $
-373
+443
 Contract assets, noncurrent
 Other assets
-54
-44
+65
+59
 Total contract assets
 $
-566
+605
 $
-417
-Unearned revenue
-(1)
-:
+502
+Unearned revenue:
 Unearned revenue, current
+(1)
 Unearned revenue
 $
-3,871
+4,325
 $
-4,467
+5,010
 Unearned revenue, noncurrent
 Unearned revenue, noncurrent
 70
-80
+71
 Total unearned revenue
 $
-3,941
+4,395
 $
-4,547
+5,081
 (1)
-Included in this balance are amounts related to professional services that are subject to cancellation and pro-rated refund rights of $79 million and $83 million as of October 31, 2025, and January 31, 2025, respectively.
-22
-Table o
-f Contents
-Revenues of $1.8 billion and $1.6 billion were recognized during the three months ended October 31, 2025, and 2024, respectively, that were included in the unearned revenue balances as of July 31, 2025, and 2024, respectively. Revenues of $3.9 billion and $3.6 billion were recognized during the nine months ended October 31, 2025, and 2024, respectively, that were included in the unearned revenue balances as of January 31, 2025, and 2024, respectively.
+Included in this balance are amounts related to professional services that are subject to cancellation and pro-rated refund rights of $75 million and $89 million as of April 30, 2026, and January 31, 2026, respectively.
+21
+Table of Cont
+ents
+Revenues of $2.0 billion and $1.7 billion were recognized during the three months ended April 30, 2026, and 2025, respectively, that were included in the unearned revenue balances as of January 31, 2026, and 2025, respectively.
 Transaction Price Allocated to the Remaining Performance Obligations
-As of October 31, 2025, approximately $26.0 billion of revenues are expected to be recognized from remaining performance obligations for subscription contracts. We expect to recognize revenues on approximately $8.2 billion and $14.6 billion of these remaining performance obligations over the next 12 and 24 months, respectively, with the balance recognized thereafter. Revenues from remaining performance obligations for professional services contracts as of October 31, 2025, were not material.
-Note 16. Other Income, Net
+As of April 30, 2026, approximately $27.3 billion of revenues are expected to be recognized from remaining performance obligations for subscription contracts. We expect to recognize revenues on approximately $8.8 billion and $15.6 billion of these remaining performance obligations over the next 12 and 24 months, respectively, with the balance recognized thereafter. Revenues from remaining performance obligations for professional services contracts as of April 30, 2026, were not material.
+Note 15. Other Income, Net
 Other income, net consisted of the following (in millions):
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Interest income
 $
-84
+52
 $
-86
-$
-263
-$
-267
+93
 Interest expense
 (1)
+(26)
 (29)
-(29)
-(86)
-(86)
 Other
 (2)
-24
-5
-21
-(3)
+(9)
+0
 Total other income, net
 $
-79
+17
 $
-62
-$
-198
-$
-178
+64
 (1)
-Interest expense primarily includes the contractual interest expense of our debt obligations, and the related non-cash interest expense attributable to amortization of the debt discount and issuance costs. For further information, see
-Note 11, Debt
+Interest expense primarily includes the contractual interest expense of our debt obligations and the related non-cash interest expense attributable to amortization of the debt discount and issuance costs, net of amounts capitalized. For further information, see
+Note 10, Debt
 .
 (2)
-Other primarily includes the realized gains (losses) from sales of debt securities and net gains (losses) from our equity investments. For further information, see
+Other primarily includes the realized net gains (losses) from sales of debt securities and net gains (losses) from our equity investments. For further information, see
 Note 3, Investments
 .
-Note 17. Income Taxes
-We reported an income tax provision of $197 million and $86 million for the nine months ended October 31, 2025, and 2024, respectively. The income tax provision for the nine months ended October 31, 2025, was primarily attributable to earnings in the U.S. and profitable foreign jurisdictions. The income tax provision for the nine months ended October 31, 2024, was primarily attributable to earnings in the U.S. and profitable foreign jurisdictions, offset by the excess tax benefit from share-based compensation and increase in research and development credits.
+Note 16. Income Taxes
+We reported an income tax provision of $133 million and $35 million for the three months ended April 30, 2026, and 2025, respectively. The income tax provision for the three months ended April 30, 2026, was primarily attributable to earnings in the U.S. and profitable foreign jurisdictions, and incremental tax expense from share-based compensation awards where the tax deduction realized was lower than the compensation expense recognized. The income tax provision for the three months ended April 30, 2025, was primarily attributable to earnings in the U.S. and profitable foreign jurisdictions.
 We are subject to income tax audits in the U.S. and foreign jurisdictions. We record liabilities related to uncertain tax positions and believe that we have provided adequate reserves for income tax uncertainties in all open tax years. Due to our history of tax losses, all years remain open to tax audit.
-We periodically evaluate the realizability of our deferred tax assets based on all available evidence, both positive and negative, such as historic results, future reversals of existing deferred tax liabilities, and projected future taxable income, as well as prudent and feasible tax-planning strategies. The assessment requires significant judgment and is performed in each of the applicable jurisdictions. As of October 31, 2025, we continue to maintain valuation allowances related to tax credits in certain state jurisdictions and net operating loss in certain foreign jurisdictions. We will continue to evaluate the need for valuation allowances for our deferred tax assets.
-On July 4, 2025, the One Big Beautiful Bill Act (“The 2025 Tax Act”) was signed into law. The 2025 Tax Act makes permanent key elements of the Tax Cuts and Jobs Act, including 100% bonus depreciation, domestic research cost expensing, and modifications to the international tax framework. The 2025 Tax Act did not have a material impact on our annual effective tax rate and is expected to reduce our domestic cash tax outflows for the remainder of fiscal 2026. Due to the complexity and various upcoming effective dates of the 2025 Tax Act, we are still in the process of assessing its impact on our condensed consolidated financial statements. The final impact may differ from our current estimates based on further analysis, regulatory guidance, and any legislative changes.
-Note 18. Net Income Per Share
-Basic net income per share is computed by dividing net income by the weighted-average number of shares of common stock outstanding during the period, net of treasury stock. Diluted net income per share is computed by giving effect to all potentially dilutive shares of common stock, including outstanding share-based awards consisting primarily of unvested RSUs and ESPP obligations. We determine the dilutive effect of outstanding share-based awards using the treasury stock method.
-23
-Table o
-f Contents
-The net income per share is allocated based on the contractual participation rights of the Class A common shares and Class B common shares as if the income for the period had been distributed. As the liquidation and dividend rights are identical, the net income is allocated on a proportionate basis. The computation of the diluted net income per share of Class A common stock assumes the conversion of our Class B common stock to Class A common stock, while the diluted net income per share of Class B common stock does not assume the conversion of those shares.
+We periodically evaluate the realizability of our deferred tax assets based on all available evidence, both positive and negative, such as historic results, future reversals of existing deferred tax liabilities, and projected future taxable income, as well as prudent and feasible tax-planning strategies. The assessment requires significant judgment and is performed in each of the applicable jurisdictions. As of April 30, 2026, we continue to maintain valuation allowances related to tax credits in certain state jurisdictions and net operating loss in certain foreign jurisdictions. We will continue to evaluate the need for valuation allowances for our deferred tax assets.
+Note 17. Net Income Per Share
+Basic net income per share is computed by dividing net income by the weighted-average number of shares of common stock outstanding during the period. Diluted net income per share is computed by giving effect to all potentially dilutive shares of common stock, including outstanding share-based awards consisting primarily of unvested RSUs and ESPP obligations. We determine the dilutive effect of outstanding share-based awards using the treasury stock method.
+The holders of our Class A and Class B common stock have identical liquidation and dividend rights but different voting rights. Accordingly, we present net income per share for Class A and Class B common stock together as the two-class method does not result in a difference.
+22
+Table of Cont
+ents
 The following table presents the calculation of basic and diluted net income per share (in millions, except number of shares, which are reflected in thousands, and per share data):
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
-Class A
-Class B
-Class A
-Class B
-Class A
-Class B
-Class A
-Class B
+(1)
 Net income per share, basic:
 Numerator:
 Net income
 $
-205
+222
 $
-47
-$
-155
-$
-38
-$
-444
-$
-104
-$
-346
-$
-86
+68
 Denominator:
 Weighted-average shares outstanding, basic
-215,620
-50,250
-213,047
-52,364
-215,736
-50,651
-212,350
-52,712
+253,891
+266,516
 Net income per share, basic
 $
-0.95
+0.87
 $
-0.95
-$
-0.73
-$
-0.73
-$
-2.06
-$
-2.06
-$
-1.63
-$
-1.63
+0.25
 Net income per share, diluted:
 Numerator:
 Net income
 $
-205
+222
 $
-47
-$
-155
-$
-38
-$
-444
-$
-104
-$
-346
-$
-86
-Reallocation of net income as a result of conversion of Class B to Class A common stock
-47
-0
-38
-0
-104
-0
-86
-0
-Reallocation of net income to Class B common stock
-0
-0
-0
-0
-0
-(1)
-0
-(1)
-Net income for diluted calculation
-$
-252
-$
-47
-$
-193
-$
-38
-$
-548
-$
-103
-$
-432
-$
-85
+68
 Denominator:
 Weighted-average shares outstanding, basic
-215,620
-50,250
-213,047
-52,364
-215,736
-50,651
-212,350
-52,712
-Conversion of Class B to Class A common stock
-50,250
-0
-52,364
-0
-50,651
-0
-52,712
-0
+253,891
+266,516
 Dilutive effect of share-based awards
-2,759
-0
-3,138
-0
-3,313
-0
-3,874
-0
+422
+3,780
 Weighted-average shares outstanding, diluted
-268,629
-50,250
-268,549
-52,364
-269,700
-50,651
-268,936
-52,712
+254,313
+270,296
 Net income per share, diluted
 $
-0.94
+0.87
 $
-0.94
-$
-0.72
-$
-0.72
-$
-2.03
-$
-2.03
-$
-1.61
-$
-1.61
+0.25
+(1)
+The prior period net income per share for Class A and Class B common stock has been presented together to conform to current period presentation, which had no impact on our previously reported basic or diluted net income per share.
 The computation of diluted net income per share does not include the effect of the following potentially outstanding weighted-average shares of common stock because their effect would have been anti-dilutive (in thousands):
-Three Months Ended October 31,
-Nine Months Ended October 31,
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
 Total weighted-average shares related to outstanding share-based awards
-3,487
-258
-1,305
-2,217
-24
-Table o
-f Contents
-Note 19. Geographic Information
+13,661
+201
+Note 18. Geographic Information
 Revenues
-We sell our subscription contracts and related services in two primary geographical markets: to customers located in the United States and to customers located outside of the United States. Revenues by geography are generally based on the address of the customer as specified in our customer subscription agreement. The following table sets forth revenues by geographic area (in millions):
-Three Months Ended October 31,
-Nine Months Ended October 31,
+We sell our subscription contracts and related services in two primary geographical markets: to customers located in the U.S. and to customers located outside of the U.S. Revenues by geography are generally based on the address of the customer as specified in our customer subscription agreement. The following table sets forth revenues by geographic area (in millions):
+Three Months Ended April 30,
+2026
 2025
-2024
-2025
-2024
-United States
+U.S.
 $
-1,825
+1,893
 $
-1,623
-$
-5,270
-$
-4,676
+1,681
 Other countries
-607
-537
-1,750
-1,559
+649
+559
 Total revenues
 $
-2,432
+2,542
 $
-2,160
-$
-7,020
-$
-6,235
+2,240
+23
+Table of Cont
+ents
 Long-Lived Assets
-Our long-lived assets are attributed to a country based on the physical location of the assets. We define long-lived assets as property and equipment and operating lease right-of-use assets because many of these assets cannot be readily moved and are relatively illiquid, subjecting them to geographic risk. None of our other assets are subject to significant geographic risk. Aggregate Property and equipment, net and Operating lease right-of-use assets by geographic area was as follows (in millions):
-October 31, 2025
-January 31, 2025
-United States
+Our long-lived assets are attributed to a country based on the physical location of the assets. We define long-lived assets as property and equipment and operating lease right-of-use assets because many of these assets cannot be readily moved and are relatively illiquid, subjecting them to geographic risk. None of our other assets are subject to significant geographic risk. Aggregate Property and equipment, net and Operating lease right-of-use assets by geographic area were as follows (in millions):
+April 30, 2026
+January 31, 2026
+U.S.
 $
-1,161
+1,046
 $
-1,197
+1,080
 Ireland
-516
-215
+566
+531
 Other countries
-176
-163
+215
+201
 Total long-lived assets
 $
-1,853
+1,827
 $
-1,575
-Note 20. Restructuring
-In February 2025, we announced a restructuring plan (“Fiscal 2026 Restructuring Plan”) intended to prioritize our investments and continue advancing our ongoing focus on durable growth. This plan resulted in the elimination of approximately 7.5% of our workforce. In connection with this plan, we have exited certain owned office space. The activities associated with this plan were substantially completed in the second quarter of fiscal 2026.
-We incurred $237 million in charges in connection with this plan, of which $65 million was recognized in the fourth quarter of fiscal 2025, $166 million was recognized in the first quarter of fiscal 2026, and the remainder was recognized thereafter. The total charges consisted of $198 million related to employee transition, severance payments, employee benefits, and share-based compensation, and $39 million related to an impairment of office space.
-Fiscal 2026 Restructuring Plan activity was as follows (in millions):
-Three Months Ended October 31, 2025
-Nine Months Ended October 31, 2025
-Workforce Reduction
-Office Space Reduction
-Total
-Workforce Reduction
-Office Space Reduction
-Total
-Restructuring liability, beginning of the period
-$
-6
-$
-0
-$
-6
-$
-57
-$
-0
-$
-57
-Charges
-0
-5
-5
-133
-39
-172
-Payments
-(1)
-0
-(1)
-(145)
-0
-(145)
-Non-cash items
-0
-(5)
-(5)
-(40)
-(39)
-(79)
-Restructuring liability, end of the period
-$
-5
-$
-0
-$
-5
-$
-5
-$
-0
-$
-5
-We recorded $9 million in exit charges associated with office space reductions under a separate restructuring plan during the nine months ended October 31, 2024.
-25
-Table o
-f Contents
-Note 21. Subsequent Events
-In November 2025, we completed our acquisition of Sana Labs AB (“Sana”), an AI company building the next generation of enterprise knowledge tools, for approximately $1.0 billion in cash. The acquisition will be accounted for as a business combination and, accordingly, the purchase consideration will be allocated to the tangible and intangible assets acquired and liabilities assumed based on their estimated fair values as of the acquisition date. We are in the process of finalizing the preliminary purchase price allocation for the transaction and will provide the preliminary purchase price allocation within our Annual Report on Form 10-K for the fiscal year ending January 31, 2026.
-In November 2025, we entered into a definitive agreement to acquire Pipedream, Inc. (“Pipedream”), an integration platform for AI agents with pre-built connectors to common business applications. The acquisition is expected to close during the fourth quarter of fiscal 2026, subject to the satisfaction of closing conditions.
-26
-Table o
-f Contents
+1,812
+Note 19. Restructuring
+Fiscal 2027 Restructuring Plan
+In February 2026, we announced a restructuring plan (“Fiscal 2027 Restructuring Plan”) intended to better align our people and resources to our highest priorities in fiscal 2027. The plan resulted in the reduction of approximately 2% of our workforce, and the impairment of certain office space and long-lived assets. The activities associated with this plan were substantially completed in the first quarter of fiscal 2027. The remaining liability was $5 million and $41 million as of April 30, 2026, and January 31, 2026, respectively.
+We incurred total charges of $135 million in connection with this plan in fiscal 2026. The charges consisted of $55 million related to employee transition, severance payments, employee benefits, and share-based compensation, and $80 million related to impairments of office space and certain long-lived assets. During the three months ended April 30, 2026, we did not record any additional charges under this plan.
+Fiscal 2026 Restructuring Plan
+In February 2025, we announced a restructuring plan (“Fiscal 2026 Restructuring Plan”) intended to prioritize our investments and continue advancing our ongoing focus on durable growth. This plan resulted in the reduction of approximately 7.5% of our workforce and the exit of certain owned office space. The activities associated with this plan were substantially completed in the second quarter of fiscal 2026, with no remaining liability as of January 31, 2026.
+We incurred total charges of $233 million in connection with this plan, consisting of $196 million related to employee transition, severance payments, employee benefits, and share-based compensation, and $37 million related to an impairment of office space. During the three months ended April 30, 2025, we recorded charges of $166 million under this plan.
+24
+Table of Cont
+ents
 SPECIAL NOTE REGARDING FORWARD-LOOKING STATEMENTS
 This report contains forward-looking statements, which are subject to safe harbor protection under the Private Securities Litigation Reform Act of 1995. All statements contained in this report other than statements of historical fact, including statements regarding our future financial condition and operating results, business strategy and plans, and objectives for future operations, are forward-looking statements. The words
 “
@@ -5648,7 +5141,7 @@ seek,
 “
 plan,
 ”
-and similar expressions are intended to identify forward-looking statements. We have based these forward-looking statements largely on our current expectations, beliefs, and projections about future events, conditions, and trends that we believe may affect our financial condition, operating results, business strategy, short-term and long-term business operations and objectives, and financial needs. These forward-looking statements are subject to a number of risks, uncertainties, assumptions, and changes in circumstances that are difficult to predict and many of which are outside of our control, such as those arising from the impact of recent macroeconomic events, including geopolitical instability, increased tariffs, elevated inflation, and fluctuating interest rates and foreign currency exchange rates, as well as those described in the
+and similar expressions are intended to identify forward-looking statements. We have based these forward-looking statements largely on our current expectations, beliefs, and projections about future events, conditions, and trends that we believe may affect our financial condition, operating results, business strategy, short-term and long-term business operations and objectives, and financial needs. These forward-looking statements are subject to a number of risks, uncertainties, assumptions, and changes in circumstances that are difficult to predict and many of which are outside of our control, such as those arising from the impact of recent macroeconomic events, including geopolitical instability, increased tariffs, elevated inflation and energy prices, and fluctuating interest rates and foreign currency exchange rates, as well as those described in the
 “
 Risk Factors
 ”
@@ -5657,15 +5150,108 @@ In light of these risks, uncertainties, assumptions, and potential changes in ci
 ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
 You should read the following discussion of our financial condition and results of operations in conjunction with the condensed consolidated financial statements and notes thereto included in Part I, Item 1 of this report.
 Overview
-Workday is the enterprise artificial intelligence (“AI”) platform for managing people, money, and agents. We deliver cloud-based, AI-powered applications for financial management, human capital management (“HCM”), planning, spend management, and analytics. Our diverse customer base includes emerging, medium-sized, and large global organizations within numerous industries, including professional and business services, financial services, healthcare, education, government, technology, media, retail, and hospitality. Workday helps customers deliver better employee experiences, increase productivity, improve operational efficiencies, and provide insights for faster, data-driven decision-making.
-We have achieved significant growth since our inception in 2005, when we pioneered HCM in the cloud. As a result of our innovation and commitment to customer success, today we are a Fortune 500 company with more than 11,000 customers around the world. As we continue to grow, we are focused on driving sustainable, long-term subscription revenue growth by adding new customers and expanding our relationships with existing customers through increased adoption of our suite of solutions. Central to this effort is investing in strategic growth areas including developing innovative AI solutions, expanding internationally, growing our partner ecosystem, deepening our presence in industry verticals and the emerging and medium enterprise market, and exploring strategic acquisitions to complement our organic innovation. Our investments across these targeted growth areas may require additional costs, but we remain committed to optimizing resource allocation and realizing a return on our investments. Over time, we believe these investments will support revenue growth and a more scalable business.
+Workday is the enterprise AI platform that operates at the core of human resources, finance, and information technology. We deliver cloud-based, AI-powered applications for human capital management (“HCM”), financial management, spend management, and planning. Our diverse customer base includes emerging, medium-sized, and large global organizations within numerous industries, including financial services, government, healthcare, higher education, hospitality, manufacturing, professional and business services, retail, technology and media, and transportation. Workday helps customers deliver better employee experiences, increase productivity, improve operational efficiencies, and provide insights for faster, data-driven decision-making.
+We have achieved significant growth since our inception in 2005, when we pioneered HCM in the cloud. As a result of our innovation and commitment to customer success, today we are a Fortune 500 company with more than 11,500 customers around the world. As we continue to grow, we are focused on driving sustainable, long-term subscription revenue growth by adding new customers and expanding our relationships with existing customers through increased adoption of our suite of solutions. Central to this effort is investing in strategic growth areas including developing innovative AI solutions, expanding internationally, growing our partner ecosystem, deepening our presence in industry verticals and the emerging and medium enterprise market, and exploring strategic acquisitions to complement our organic innovation. Our investments across these targeted growth areas may require additional costs, but we remain committed to optimizing resource allocation and realizing a return on our investments. Over time, we believe these investments will support revenue growth and a more scalable business.
 We are focused on expanding our operating margin by driving scale and building efficiencies across the business through investments in people, processes, and systems. As a result of our focus on expanding operating margin, we expect our product development, sales and marketing, and general and administrative expenses as a percentage of total revenues will decrease over the longer term as we grow our revenues and invest in a disciplined manner to support our long-term growth objectives.
-In February 2025, we announced a restructuring plan (“Fiscal 2026 Restructuring Plan”), which was intended to prioritize our investments and continue advancing our ongoing focus on durable growth. The plan resulted in the reduction of approximately 7.5% of our workforce. In connection with this plan, we exited certain owned office space.
-27
-Table o
-f Contents
+25
+Table of Cont
+ents
+Financial Results Overview
+The following table provides an overview of our key metrics (in millions, except percentages, basis points, and headcount data):
+Three Months Ended April 30,
+2026
+2025
+Change
+Total revenues
+$
+2,542
+$
+2,240
+13
+%
+Subscription services revenues
+$
+2,354
+$
+2,059
+14
+%
+GAAP operating income
+$
+338
+$
+39
+762
+%
+Non-GAAP operating income
+(1)
+$
+809
+$
+677
+19
+%
+GAAP operating margin
+13.3
+%
+1.8
+%
+1,154 bps
+Non-GAAP operating margin
+(1)
+31.8
+%
+30.2
+%
+159 bps
+Operating cash flows
+$
+696
+$
+457
+52
+%
+Free cash flows
+(1)
+$
+616
+$
+421
+46
+%
+As of April 30,
+2026
+2025
+Change
+Total subscription revenue backlog
+$
+27,294
+$
+24,621
+11
+%
+12-month subscription revenue backlog
+$
+8,806
+$
+7,627
+15
+%
+Cash, cash equivalents, and marketable securities
+$
+4,353
+$
+7,970
+(45)
+%
+Headcount
+20,834
+20,515
+2
+%
+(1)
+See “Non-GAAP Financial Measures” below for further information.
 Impact of Current Economic Conditions
-Recent macroeconomic events including increased tariffs, elevated inflation, and fluctuating interest rates and foreign currency exchange rates, as well as geopolitical instability, continue to impact the global economy and create uncertainty, volatility, and disruption of financial markets. We remain confident in the long-term overall health of our business, the strength of our product offerings, and our ability to continue to execute on our strategy and help our customers on their human capital and finance digital transformation journeys. Demand for our products remains strong, we continue to achieve solid new subscription bookings, and our near-term revenues are relatively predictable as a result of our subscription-based business model.
-We have experienced, and may continue to experience, a moderation of revenue growth rates due to deal scrutiny and the lengthening of certain sales cycles, particularly within net new opportunities, and reduced growth in headcount level commitments upon renewals of existing customers. Further, we have provided, and may continue to provide, certain customers with more flexible payment terms. If the economic uncertainty continues, we may also experience additional negative impacts on customer renewals, customer collections, sales and marketing efforts, customer deployments, product development, or other financial metrics. Any of these factors could harm our business, financial condition, and operating results. For further discussion of the potential impacts of recent macroeconomic events on our business, financial condition, and operating results, see “Risk Factors” included in
+Recent macroeconomic events including increased tariffs, elevated inflation and energy prices, and fluctuating interest rates and foreign currency exchange rates, as well as geopolitical instability and conflicts, continue to impact the global economy and create uncertainty, volatility, and disruption of financial markets. As a result, we have experienced, and may continue to experience, a moderation of revenue growth rates due to deal scrutiny and the lengthening of certain sales cycles, particularly within net new opportunities, as well as reduced growth in headcount-level commitments upon renewals of existing customers. The extended sales cycles are particularly evident in the government, higher education, and healthcare industries which are tied to federal funding. Further, we have provided, and may continue to provide, certain customers with more flexible payment terms. For further discussion of the potential impacts of recent macroeconomic events on our business, financial condition, and operating results, see “Risk Factors” included in
 
 ---

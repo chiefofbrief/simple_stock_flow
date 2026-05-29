@@ -2,55 +2,55 @@
   {
     "symbol": "AMAT",
     "companyName": "Applied Materials, Inc.",
-    "price": 435.3575,
-    "mktCap": 345504065575
+    "price": 449.115,
+    "mktCap": 356578896285
   },
   {
     "symbol": "AVGO",
     "companyName": "Broadcom Inc.",
-    "price": 430,
-    "mktCap": 2035908100000
+    "price": 435.995,
+    "mktCap": 2064292446650
   },
   {
     "symbol": "CSCO",
     "companyName": "Cisco Systems, Inc.",
-    "price": 96.57,
-    "mktCap": 381441171066
+    "price": 120.405,
+    "mktCap": 474568440839
   },
   {
     "symbol": "GOOGL",
     "companyName": "Alphabet Inc.",
-    "price": 400.713,
-    "mktCap": 4846571759719
+    "price": 382.525,
+    "mktCap": 4626590258830
   },
   {
     "symbol": "GRMN",
     "companyName": "Garmin Ltd.",
-    "price": 240.09,
-    "mktCap": 46302846739
+    "price": 237.34,
+    "mktCap": 45772491932
   },
   {
     "symbol": "IBM",
     "companyName": "International Business Machines Corporation",
-    "price": 229.76,
-    "mktCap": 215947977600
+    "price": 290.52,
+    "mktCap": 273055390200
   },
   {
     "symbol": "MU",
     "companyName": "Micron Technology, Inc.",
-    "price": 746.79,
-    "mktCap": 842177486700
+    "price": 953.73,
+    "mktCap": 1075549932900
   },
   {
     "symbol": "ORCL",
     "companyName": "Oracle Corporation",
-    "price": 195.94,
-    "mktCap": 563532453240
+    "price": 222.54,
+    "mktCap": 640035276840
   },
   {
     "symbol": "TSM",
     "companyName": "Taiwan Semiconductor Manufacturing Company Limited",
-    "price": 411.68,
-    "mktCap": 2135182151011
+    "price": 418.85,
+    "mktCap": 2172357148000
   }
 ]

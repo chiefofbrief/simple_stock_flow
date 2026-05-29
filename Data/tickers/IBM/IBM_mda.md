@@ -1,20 +1,20 @@
 # IBM SEC Filings: MD&A
-**Generated:** 2026-05-08
+**Generated:** 2026-05-29
 **Filings:** 10-K (period ending 2025-12-31), 10-Q (period ending 2026-03-31)
 
 ## Section Summary
 
 | Section | Words | Lines |
 |---------|------:|------:|
-| 10-K MD&A (Item 7) | 14 | 2 |
+| 10-K MD&A (Item 7) | 32 | 2 |
 | 10-Q MD&A (Item 2) | 24,015 | 5,140 |
 
 ---
 
 ## 10-K MD&A (Item 7)
 
-Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations
-12
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations:
+Refer to pages 6 through 38 of IBM’s 2025 Annual Report to Stockholders, which are incorporated herein by reference.
 
 ---
 

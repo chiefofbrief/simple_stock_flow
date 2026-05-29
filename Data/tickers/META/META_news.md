@@ -1,209 +1,269 @@
 # META News Data
-**Generated:** 2026-05-10 18:31
-**Date Range:** 2026-02-09 to 2026-05-10
+**Generated:** 2026-05-29 18:23
+**Date Range:** 2026-02-28 to 2026-05-29
 
 ## Summary Statistics
 
 ### Coverage
 - **Perigon:** 30 stories (aggregated from 30 media items)
-- **FMP:** 30 articles from 16 sources
+- **FMP:** 30 articles from 17 sources
 - **Total:** 60 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
 | 2026-05 | 10 | 10 |
-| 2026-04 | 5 | 10 |
-| 2026-03 | 15 | 10 |
+| 2026-04 | 10 | 10 |
+| 2026-03 | 10 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: -0.042)
-- Positive-leaning: 15 stories
+**Perigon** (avg composite: -0.060)
+- Positive-leaning: 14 stories
 - Neutral: 0 stories
-- Negative-leaning: 15 stories
+- Negative-leaning: 16 stories
 
 ---
 
 ## Perigon Stories (30 stories)
 
-### 2026-05-10 | Apple, Meta oppose Bill C-22 encryption backdoors
-**Sentiment:** -0.29 (pos: 0.11, neg: 0.40, neu: 0.49)
+### 2026-05-29 | Delhi court orders day-to-day hearings July 20-25
+**Sentiment:** -0.52 (pos: 0.07, neg: 0.58, neu: 0.35)
 
-Apple and Meta are publicly opposing Canada’s proposed Bill C-22, which they argue could compel companies to weaken encryption or insert backdoors, despite the bill not explicitly mentioning encryption. The companies say the legislation’s broad lawful-access powers could undermine the privacy and security protections users expect from end-to-end encrypted services. Canadian law enforcement supporters argue the bill would enable them to investigate security threats and criminal cases earlier and act more quickly. The dispute mirrors a prior clash in the UK, where Apple limited its advanced end-to-end encryption feature after a government order to enable access, and the US later said the UK backed away after concerns were raised. Meta and Apple also warn that creating any special access pathway would increase risk from malicious actors, potentially forcing providers to make major product changes if the bill passes. Across the debate, the core fight is whether governments can expand access to encrypted data without creating vulnerabilities that weaken digital communications security.
+A Delhi court has ordered day-to-day hearings for the Shraddha Walkar murder trial starting July 20, aiming to end prolonged delays in the case of accused Aftab Poonawala. Additional Sessions Judge Hargurvarinder Singh Jaggi directed that prosecution evidence be recorded daily from July 20 to July 25, citing a months-long lull and that multiple prosecution witnesses still have incomplete testimony, while the defence said it faced practical constraints. The court said Poonawala’s lawyer must ensure he is represented if unable to argue and advised that a new counsel be engaged if time limitations persist. During the proceedings, the court recorded evidence from Head Constable Deepak (discharged for the day) after the defence sought time to review a related video, while special public prosecutors pointed to repeated postponements that could hinder trial completion. Separate applications seeking permission to record testimonies of witnesses from companies including Google, Meta/WhatsApp, Bumble and Hopper via video conferencing were also under consideration, with the court reserving orders. Prosecutors allege that on May 18, 2022, Poonawala strangled Walkar at their Delhi residence and then dismembered and concealed her body parts by storing and disposing of them across multiple locations.
 
 **Key Points:**
-- Bill C-22 is proposed by Canada’s ruling Liberal Party, which “gained a parliamentary majority last month,” and it is currently being debated in the House of Commons.
-- Meta’s prepared testimony in Canada was delivered by Rachel Curran (head of public policy for Canada) and Robyn Greene (Privacy and Public Policy Director), who argued the bill has “sweeping powers, minimal oversight, and lack of clear safeguards.”
-- Apple’s earlier UK stance included the explicit statement: “We have never and will never, build a backdoor or master key to any of our products or services.”
+- In justifying the fast-track, the judge explicitly said the “trial… has been tardy” and noted that “13 prosecution witnesses have yet to complete their testimonies,” adding that the court would list the matter “on a day-to-day basis from 2 pm onwards.”
+- Prosecutors highlighted that Head Constable Deepak Kumar’s cross-examination had stretched for nearly three months—Friday being the ninth day—and argued that the defence’s continuing cross-examination over alleged forensic discrepancies (including relating to a plastic container used to store body parts) meant the trial would not conclude.
+- The court reserved its decision on video-conferencing requests for witnesses from companies including Google, Bumble, WhatsApp/Meta and Hopper, with Special Public Prosecutor submissions showing the applications were dated 24.12.2024, 17.02.2025 and 10.07.2025; the order was set to be pronounced on June 1 at 4 PM after the defence said it did not want to file a reply.
 
 ---
 
-### 2026-05-10 | Institutional investors boost Meta Platforms stakes
-**Sentiment:** +0.24 (pos: 0.38, neg: 0.14, neu: 0.48)
+### 2026-05-29 | US Supreme Court declines Meta Instagram appeal
+**Sentiment:** -0.22 (pos: 0.18, neg: 0.40, neu: 0.43)
 
-Several institutional investors have recently adjusted their positions in Meta Platforms. Quent Capital LLC increased its stake by 10% in the fourth quarter, while ProVise Management Group LLC boosted its holdings by about 9.8% after buying additional shares. In contrast, Montrusco Bolton Investments Inc. cut its stake by roughly 15.9% during the same quarter, leaving Meta as its 8th-largest portfolio position. Across these filings, hedge funds and other institutional investors collectively hold about 79.91% of Meta’s shares, underscoring the stock’s heavy institutional ownership. Analysts cited in the coverage also reflect a split in views, with at least one firm reaffirming a hold rating and another maintaining an outperform stance with a $810 price target.
+The U.S. Supreme Court declined to hear Meta Platforms’ appeal, letting a lawsuit by Vermont’s attorney general proceed accusing the company of designing Instagram to be addictive for teenagers. The justices rejected Meta’s argument that Vermont courts lack jurisdiction over the dispute, after lower courts allowed the case to move forward. Vermont alleges Instagram was engineered to exploit teens’ developing brains to drive compulsive use and boost advertising revenue, and that Meta misled consumers about the app’s safety. Meta counters that Vermont’s complaint does not allege it designed Instagram or its features in Vermont, nor that any alleged misrepresentations were made there. The decision arrives amid a broader wave of state and local legal actions targeting social media companies’ alleged role in child and teen harms, including adverse rulings involving Meta in other states.
 
 **Key Points:**
-- Quent Capital LLC increased its Meta position to 9,270 shares after buying an additional 839 shares in the fourth quarter; the stake was valued at about $6.119 million at the end of the most recent reporting period.
-- In the same coverage, Meta stock was reported opening at $612.88, alongside balance-sheet metrics including a debt-to-equity ratio of 0.24 and current and quick ratios of 2.35.
-- ProVise Management Group LLC raised its Meta stake to 23,790 shares after purchasing an additional 2,116 shares in the fourth quarter; the holding was worth about $15.704 million in its latest SEC filing.
+- Vermont sued Meta in 2023 under the state’s consumer protection law, alleging Instagram went beyond “passive” content by studying “teens' neurological, cognitive and psychological vulnerabilities” to drive compulsive, excessive use that harmed mental health.
+- Meta’s jurisdiction challenge was rejected at multiple levels: after a Vermont lower court denied Meta’s dismissal motion, Meta later lost its appeal to the Supreme Court of Vermont before seeking review from the U.S. Supreme Court.
+- Meta CEO Mark Zuckerberg testified in February at a youth social media addiction trial in California, denying that Instagram targets kids.
 
 ---
 
-### 2026-05-08 | Zee sues Nykaa over Instagram reels music
-**Sentiment:** -0.63 (pos: 0.05, neg: 0.68, neu: 0.27)
+### 2026-05-29 | Analysts assess Meta valuation after share pullback
+**Sentiment:** +0.15 (pos: 0.40, neg: 0.25, neu: 0.35)
 
-Zee Entertainment has sued Nykaa in Delhi High Court, alleging the beauty retailer used Zee’s copyrighted Hindi songs in Instagram reels to promote products without permission. Zee says it has a licensing agreement with Meta Platforms that allows non-commercial use of its music on Instagram, but that Nykaa crossed into commercial advertising content aimed at its large follower base. In its filings, Zee identified 12 specific reels (supported by screenshots) and is seeking damages of ₹2 crore (about $210,000), with the case reportedly spanning more than 900 pages. Nykaa’s counsel told the court that the flagged links had been taken down. Legal analysts say the dispute could clarify how brands should interpret music licensing terms on social platforms where short-form video is central to marketing. The matter is scheduled for the next hearing on May 26, amid similar copyright fights and court rulings that have tightened expectations for authorized music use in digital content.
+Meta shares have pulled back after a strong multi-year run, trading around the $610 level amid mixed investor sentiment. Multiple reports point to Meta’s Q1 2026 earnings strength—solid double-digit revenue growth and improved profitability—supported by continued digital advertising momentum and tighter cost discipline. The debate is centered on how aggressively Meta should fund AI infrastructure, with higher capital expenditure guidance aimed at accelerating AI data centers and models that could improve ad targeting and performance, but also weighing on near-term margins and free cash flow. Analysts remain broadly bullish, describing the recent weakness as a potential buying opportunity, citing long-term upside tied to AI-driven ad improvements and ambitious monetization efforts. Key risks highlighted include escalating capex requirements, ongoing Reality Labs losses from mixed-reality bets, and regulatory scrutiny around antitrust, privacy, and content moderation. Valuation-focused coverage frames the pullback as potentially placing the stock below certain intrinsic-value estimates, while noting legal and AI-related uncertainties could challenge those forecasts.
 
 **Key Points:**
-- Zee’s complaint was filed on April 3, according to the court filing described in coverage—making the timing of the application a specific part of the record, not just the May 26 court date.
-- Legal experts highlighted a practical reason brands may misstep: Ira Law partner Aditya Gupta said marketing teams often use music available in platform libraries “without fully understanding licensing terms,” underscoring why these disputes may affect day-to-day ad production workflows.
-- A prior similar dispute cited in the reporting—T-Series’ 2020 lawsuit against ShareChat over allegedly unauthorized use of its catalogue—was later resolved via a licensing deal, with ShareChat agreeing to pay for access to T-Series’ catalogue.
+- Meta’s Q1 2026 results included revenue of $56.31 billion (+33% year-over-year), EPS of $10.44, and daily active users across its family of apps reaching 3.56 billion—figures that helped drive the initial earnings optimism even as the stock later retreated.
+- The pullback was tied to Meta raising full-year capital expenditure guidance to between $125 billion and $145 billion to accelerate AI infrastructure; the company also guided Q2 2026 revenue to $58 billion to $61 billion, which frames how near-term spending may translate into top-line growth.
+- Analyst positioning cited in the coverage leaned constructive: TipRanks showed a ‘Strong Buy’ consensus rating for Meta, with an average 12-month price target of $817.71 (about 33.99% upside), ranging from a high forecast of $1,015 to a low of $622.25.
 
 ---
 
-### 2026-05-07 | Microchip Technology plans May 7 fiscal earnings
-**Sentiment:** +0.56 (pos: 0.63, neg: 0.08, neu: 0.29)
+### 2026-05-29 | Meta Platforms institutional investors boost META stakes
+**Sentiment:** +0.33 (pos: 0.42, neg: 0.09, neu: 0.49)
 
-Investors are bracing for a tight cluster of earnings catalysts, with Microchip (MCHP) set to report May 7, and several other major names—IonQ (May 6), Strategy/MicroStrategy (May 5), and PayPal (May 5)—also delivering updates in the same window. Microchip’s shares have rebounded sharply after a period of semiconductor inventory pressure, and the company is guiding fourth-quarter fiscal 2026 results ahead of the May 7 report, supported by recent revenue growth, steady cash generation, and continued capital returns. IonQ’s momentum follows World Quantum Day breakthroughs, including a photonically linked trapped-ion milestone and a DARPA networking contract, and the stock’s upcoming May 6 earnings call will be a key test after a quiet start to the year and a still-rich valuation. Strategy’s “Bitcoin + AI” narrative is expected to be front and center on May 5, as the stock’s BTC leverage drives large swings while recent share sales that did not add to its Bitcoin holdings add uncertainty into earnings. PayPal’s May 5 report is likely to be viewed through a cautious lens given weak expectations tied to consumer spending, but supporters point to a low valuation and potential longer-term upside from AI and new leadership. Western Digital (WDC), meanwhile, is framed as a data-storage beneficiary of AI-driven data creation, following strong recent results and a dividend that underscores confidence in its HDD-centered growth story.
+Multiple institutional investors increased their positions in Meta Platforms, with several funds reporting sizable percentage gains in Meta shares across recent filings, underscoring continued market interest and that roughly four-fifths of Meta stock is held by hedge funds and other institutions. The largest holders cited include major index and asset managers such as Vanguard and State Street, while smaller firms highlighted in these reports—like Hartford Funds, Berbice Capital, Sequent Planning, Gambit Capital, and Requisite Capital—also added shares, including Sequent Planning’s sharply higher stake. One internal transaction also stood out: Meta COO Javier Olivan sold shares, according to an SEC disclosure. Alongside the investment activity, Meta’s business developments are being framed as a potential catalyst, including launching subscription plans for Facebook, Instagram, WhatsApp and AI users to add recurring revenue beyond ads. Meta is also testing paid AI subscription tiers, signaling additional monetization levers for its AI products, and commentary in these reports suggests investors are increasingly viewing Meta’s AI spending as likely to sustain competitive momentum. Analysts referenced in the coverage issued mixed views, with some raising price targets and maintaining buy or overweight stances.
 
 **Key Points:**
-- Microchip’s most recent quarter showed momentum despite margin pressure: in fiscal Q3 it reported revenue of $1.19 billion (+15.6% YoY) and non-GAAP EPS of $0.44 (marginally above consensus), even as net margin was -1.57% during the inventory slump. The company also generated $898 million in operating cash flow for the fiscal year and has continued capital returns via a $0.455 quarterly dividend; management’s Q4 fiscal 2026 outlook called for EPS of $0.48–$0.52 on revenue of about $1.26 billion.
-- IonQ’s World Quantum Day breakthroughs were paired with additional performance/rollout claims: the company highlights “world-class” execution such as 99.99% two-qubit gate fidelity, and it sells its 5th-generation “IonQ Tempo” machines through cloud partners including AWS and Microsoft (MSFT). IonQ’s May 6 earnings call is scheduled for 4:30 p.m. ET after the May 6 release covering the quarter ended March 31, 2026.
-- Strategy’s “Bitcoin + AI” leverage is explicitly tied to its scale: the company holds more than 800,000 BTC and is described as the largest corporate Bitcoin holder globally—helping explain why its stock tends to track sharp BTC moves (including a cited 22% Bitcoin climb in a single month that coincided with a more than 57% jump in MSTR over the same period).
+- Hartford Funds Management Co. said it boosted its Meta stake by 77.5% in the fourth quarter, ending the period with 4,707 shares (up 2,055 shares) worth about $3.108 million—making Meta its 19th-largest holding at roughly 0.3% of the portfolio.
+- Meta COO Javier Olivan’s disclosed sale involved 837 shares sold at an average price of $608.98 for about $509,716.26, reducing his position by 5.71% to 13,823 shares (valued at about $8.418 million) after the transaction.
+- Analyst commentary in the filings referenced specific targets and ratings: Canaccord Genuity raised its Meta price target from $900 to $930 and reiterated a “buy,” while Morgan Stanley cut its target from $825 to $775 but maintained an “overweight” rating.
 
 ---
 
-### 2026-05-07 | Meta Q1 2026 revenue rises 33% $56.3B
-**Sentiment:** +0.16 (pos: 0.37, neg: 0.21, neu: 0.42)
+### 2026-05-28 | Umreth BJP MLA oath after 30,000-vote win
+**Sentiment:** +0.16 (pos: 0.30, neg: 0.14, neu: 0.55)
 
-Meta Platforms reported strong first-quarter 2026 results, with revenue of $56.31 billion (up 33% year over year) and operating income up 30%, driven primarily by advertising across its family of apps and continued AI-enabled ad personalization. EPS came in at $10.44 and beat consensus, supported by increases in ad impressions and price per ad, but Meta’s stock still fell after management raised 2026 capex guidance to $125–$145 billion amid heavy compute spending and ongoing Reality Labs losses. Separately, Meta completed a multi-tranche debt offering totaling $25 billion in senior notes spanning 2031 through 2066. On the Street, Mizuho lowered its Meta price target to $835 from $850 while maintaining an Outperform rating. Stock prediction markets and related sentiment indicators remain optimistic about Meta reaching $740 by late April 2026, tied to expectations for AI-driven earnings growth.
+Harshad Parmar, the newly elected BJP MLA from Umreth in Gujarat, took his oath as a member of the Gujarat Legislative Assembly on May 26 before Speaker Shankar Chaudhary in Gandhinagar, with Chief Minister Bhupendra Patel and other state leaders in attendance. Parmar won the April 23 by-election for the seat in Anand district after the death of the sitting BJP MLA Govind Parmar, defeating Congress candidate Bhrugurajsinh Chauhan by more than 30,000 votes, securing 85,500 votes to Chauhan’s 54,757. Multiple reports noted the BJP fielded Parmar, the late MLA’s son, in what was described as his first major electoral contest, and he dedicated the victory to his late father while thanking voters. In a related development shared at the same swearing-in event, Gujarat announced steps toward “WhatsApp Governance,” signing an MoU with Meta Platforms to make roughly 20 citizen-centric services available via a WhatsApp chatbot through the Sugam Digital Gujarat initiative. The state said the single WhatsApp number would help citizens access services at home and reduce reliance on multiple web portals or in-person queues.
 
 **Key Points:**
-- Meta reported an operating margin of 41% in Q1 2026, with income from operations of $22.87 billion (+30% year over year).
-- Meta’s cost base rose sharply in Q1 2026: costs and expenses increased 35% to $33.44 billion (from $24.76 billion a year earlier).
-- The EPS beat was underpinned by specific advertising drivers: ad impressions grew 19% and price per ad increased 12%.
+- The by-election was triggered by the death of sitting BJP MLA Govind Parmar “due to a heart attack on March 6,” according to PTI/Newsdrum.
+- At the swearing-in, officials specifically named in the reports included the Assembly Chief Whip Balkrishna Shukla and the Legislative and Parliamentary Affairs Minister Rushikesh Patel (along with other ministers/MLAs).
+- Parmar described the win as “historic for a by-election” and said, “The support reflected the goodwill earned through my father’s work in the constituency over the years. People had backed me from the beginning, and I secured victory with their blessings and support by a substantial margin.”
 
 ---
 
-### 2026-05-07 | Five Bursa Malaysia momentum stocks highlighted
-**Sentiment:** +0.16 (pos: 0.41, neg: 0.24, neu: 0.35)
+### 2026-05-27 | Gujarat signs Meta MoU for WhatsApp governance
+**Sentiment:** +0.48 (pos: 0.54, neg: 0.06, neu: 0.39)
 
-A Bursa Malaysia momentum screen using trading-volume and price patterns (not a buy/sell signal) flagged Ocean Vantage Holdings Bhd and Euro Holdings Bhd as showing negative momentum at the April 29 afternoon close. On April 28, the same type of screen showed Hiap Teck Venture Bhd and Ralco Corporation Bhd with positive momentum, while Euro Holdings Bhd, KESM Industries Bhd, and Meta Bright Group Bhd were listed with negative momentum. Separately, Meta Platforms Inc. has lagged the broader U.S. market over the past year and is up nearly 2.8% in 2026 versus about 4.8% for the S&P 500, but analyst sentiment remains largely bullish, with most ratings categorized as “Strong Buy” and price targets ranging up to $1,015. A separate growth-and-technical screening approach also characterizes Meta as a strong fundamentals-plus-setup candidate, assigning it a 7/10 fundamental score driven by high growth, profitability, and financial health metrics, and pointing to a potential bull-flag-style technical configuration.
+Gujarat’s government has signed a memorandum of understanding with Meta Platforms to launch “WhatsApp Governance,” expanding the Sugam Digital Gujarat initiative. Under the deal, about 20 citizen services from five departments—such as grievance redressal, income, caste and EWS certificates, ration card updates, revenue records, and official affidavits—will be made available in English and Gujarati via a WhatsApp chatbot using a single WhatsApp number. Officials say the move will help residents access services from home, reducing the need to use multiple web portals or visit offices and wait in queues. The government also expects improved real-time tracking of applications and a phased shift toward end-to-end processing, potentially including certificate issuance through mobile devices. The initiative is positioned as a step toward “Nagrik Devo Bhava,” building on Gujarat’s existing service delivery channels in cities and rural areas.
 
 **Key Points:**
-- On Bursa Malaysia’s April 29 afternoon close, the “negative momentum” names included Ocean Vantage Holdings (KL:OVH), which was up 1.5 sen (+7.7%) to 21 sen, and Euro Holdings (KL:EURO), which was down 0.5 sen (-6.3%) to 7.5 sen—while the article notes only one stock among the five had positive momentum.
-- On April 28, the “positive momentum” stocks were Hiap Teck Venture (KL:HIAPTEK) up 0.5 sen (+1.67%) to 30.5 sen and Ralco Corporation (KL:RALCO) up RM0.04 (+3.67%) to RM1.13; meanwhile, the “negative momentum” list still showed price gains for some counters—KESM Industries (KL:KESM) up 0.43 (+11.53%) to RM4.16 and Meta Bright Group (KL:MBRIGHT) up 0.5 sen (+3.45%) to 15 sen—illustrating that the momentum tag reflects volume/price pattern behavior, not simple up/down performance.
-- For Meta Platforms, analyst-coverage details were spelled out: among 56 analysts, ratings were 45 “Strong Buy,” 3 “Moderate Buys,” and 8 “Holds,” alongside expectations that META’s EPS would rise for the current year and that the company had beaten consensus in each of the last four quarters.
+- The announcement frames the MoU as a step beyond Gujarat’s earlier “One Day Governance,” describing it as “advancing from One Day Governance to WhatsApp Governance” in line with PM Narendra Modi’s “Nagrik Devo Bhava.”
+- Before the MoU, Gujarat’s Sugam Digital Gujarat rollout of nearly 20 WhatsApp-based citizen services is described as being built “based on recommendations made by GARC,” which shaped the initial set of departments/services now slated for WhatsApp delivery.
+- Multiple officials were reported to have exchanged the MoU/participated in the signing beyond the CM—specifically mentioning Hareet/Harit Shukla, Aman Jain, and A. Srinivas in the presence of Chief Minister Bhupendra Patel.
 
 ---
 
-### 2026-05-06 | China blocks Meta Manus AI acquisition
-**Sentiment:** -0.34 (pos: 0.15, neg: 0.49, neu: 0.36)
+### 2026-05-24 | Texas Sues Meta, WhatsApp Over WhatsApp Encryption Claims
+**Sentiment:** -0.54 (pos: 0.07, neg: 0.62, neu: 0.31)
 
-Chinese authorities blocked Meta Platforms’ planned $2 billion acquisition of AI startup Manus, a decision that stunned the global AI industry and underscored how geopolitics is increasingly overriding normal regulatory and market logic (https://www.whalesbook.com/news/English/tech/China-Blocks-Meta-AI-Deal-Sparking-Global-Tech-Merger-Shake-up/69fa8e9ea029d5f529dfa1a; https://cryptobriefing.com/beijing-blocks-metas-2b-manus-deal-amid-us-china-tensions/). China’s National Development and Reform Commission said it would prohibit the foreign investment in the deal and require the parties to withdraw, while reporting also indicated Manus co-founders were restricted from leaving the country during a regulatory review (https://www.morningchronicle.co.uk/Technology/664563-china-blocks-metas-acquisition-of-ai-firm-manus.html; https://www.bloomberg.com/news/articles/2026-05-05/china-blocked-meta-s-manus-deal-what-now-for-ai-startups). The move signals China’s stronger digital-control and technology-protection stance in the US-China AI rivalry, likely complicating Meta’s efforts to expand its AI agent capabilities and shaping how cross-border tech M&A is valued and negotiated (https://www.whalesbook.com/news/English/tech/China-Blocks-Meta-AI-Deal-Sparking-Global-Tech-Merger-Shake-up/69fa8e9ea029e57f529dfa1a; https://cryptobriefing.com/china-blocks-us-funding-for-ai-startups-amid-meta-acquisition-tensions/). In parallel, Bloomberg’s discussion highlighted what the crumbling deal means for Chinese AI startups trying to go global, suggesting tighter constraints on outbound ambitions (https://www.bloomberg.com/news/articles/2026-05-05/china-blocked-meta-s-manus-deal-what-now-for-ai-startups). Separately, Secretary of State Marco Rubio’s comments about expected Taiwan-related talks between current president Trump and Xi were discussed alongside market odds of a potential Trump-Xi meeting, illustrating how the broader diplomatic environment is being watched for spillover effects (https://cryptobriefing.com/beijing-blocks-metas-2b-manus-deal-amid-us-china-tensions/). Related reporting also pointed to a wider policy posture—urging AI startups to reject American funding unless approved—which, along with the Manus restrictions, could further limit US-linked investment channels for China-based AI companies (https://cryptobriefing.com/china-blocks-us-funding-for-ai-startups-amid-meta-acquisition-tensions/).
+Texas Attorney General Ken Paxton sued Meta Platforms and WhatsApp in Harrison County, alleging the companies misled users by marketing WhatsApp as end-to-end encrypted in a way that is fully inaccessible to Meta. Paxton’s complaint argues that investigations and whistleblower reports indicate message content may have been accessed despite encryption claims, citing related media coverage and an SEC-submitted whistleblower account. The suit, filed under the Texas Deceptive Trade Practices–Consumer Protection Act, seeks monetary penalties and a court order barring Meta and WhatsApp from accessing Texans’ messages without consent. Meta has denied the allegations, saying WhatsApp cannot access encrypted communications and that the claims are false. The case follows a separate federal privacy-focused lawsuit in San Francisco brought by plaintiffs from multiple countries and comes as Paxton pursues other privacy-related actions, including an investigation into Meta’s smart glasses.
 
 **Key Points:**
-- Meta agreed in December to acquire Manus, an AI agent startup “created by a company founded in China but now based in Singapore,” according to the firms’ prior disclosure; Meta described the deal as bringing “a leading agent to billions of people” and unlocking “opportunities for businesses across our products.”
-- Reporting said Manus co-founders were not just restricted but were “summoned to a meeting in Beijing in March” and told they “were not allowed to leave China because of a regulatory review” of Meta’s acquisition—naming CEO Xiao Hong and chief scientist Ji Yichao (normally based in Singapore).
-- Manus’s described product uses include sifting through and summarizing resumes and helping create a stock-analysis website—details that illustrate what Meta would have gained in “AI agent” capabilities beyond the deal’s headline valuation.
+- Paxton’s complaint criticizes Meta’s conduct in reporting and user protections, saying Meta has “a rich track record of (i) choosing profit and ‘efficiency’ over meaningful user protections; and (ii) speaking in half-truths (at best) when it comes to reporting breaches or other potentially negative information to the public, investors, and regulators.”
+- KXAN reported that Paxton filed the WhatsApp/Meta case alleging false end-to-end-encryption advertising “one day after” his office opened a separate privacy investigation into Meta smart glasses—positioning the two actions as part of an immediate enforcement push.
+- The lawsuit asserts WhatsApp was marketed as secure and encrypted, but that Meta allegedly retained access to “virtually all” private user communications—an escalation in the scope of alleged access beyond a generic claim that messages “may have been accessed.”
 
 ---
 
-### 2026-05-06 | Sonali Garg joins Core AI Advisory Board
-**Sentiment:** +0.32 (pos: 0.43, neg: 0.12, neu: 0.45)
+### 2026-05-23 | Institutional investors boost Meta Platforms stakes
+**Sentiment:** +0.00 (pos: 0.27, neg: 0.27, neu: 0.46)
 
-Core AI Holdings (Nasdaq: CHAI) appointed Sonali Garg—co-founder and COO of Allianca Group—to its advisory board as it scales its AI infrastructure strategy. The company said the move supports execution as Core AI deepens its recently announced joint venture with Allianca to deliver AI-ready, hyperscale data center capacity focused on speed, efficiency, and scale. Garg brings extensive hyperscale delivery experience, including oversight of more than 720 MW of mission-critical data center capacity and annual project portfolios exceeding $6 billion at Allianca. She previously led operational scaling and program cost control for Meta’s global data center portfolio, which grew from $2 billion to $10 billion over five years, supporting roughly 20% year-over-year capacity growth, and also contributed to infrastructure and database initiatives at Google. Core AI CEO Aitan Zacharin said the company is strengthening its “operational bench” as it scales, while Garg emphasized that strategy in this market must be built through an operator’s lens. The appointment was announced in a May 5, 2026 press release filed with the SEC as part of the company’s Form 8-K materials.
+Several institutional investors increased their positions in Meta Platforms, with Pure Financial Advisors raising its stake by 50.6%, Bensler LLC increasing holdings by 14.7%, and GCQ FUNDS MANAGEMENT PTY Ltd growing its position by 14.1%, reinforcing that much of the company’s ownership remains concentrated among hedge funds and other institutions. This comes as Meta begins laying off about 8,000 employees—roughly 10% of its workforce—as it pushes toward an AI-first transformation. The job cuts have drawn attention to rising restructuring costs and the size of Meta’s AI spending, with some investors concerned the investment could pressure margins and near-term earnings. Separately, Meta is testing a limited free-access arrangement for WhatsApp in Europe for rival AI chatbot makers before charging once usage limits are reached, aiming to sustain engagement while monetizing the rollout.
 
 **Key Points:**
-- Core AI describes itself as a Nasdaq-listed, Miami-based “global AI infrastructure and technology platform” company, and notes that through its subsidiary Core Gaming it also “operates an AI-driven mobile game development and publishing business.”
-- Core AI said the appointment is meant to reinforce “execution capabilities” across its “expanding AI-ready data center platform,” tying Garg’s advisory role specifically to operational scaling of the platform beyond the partnership announcement.
-- Beyond hyperscale delivery metrics, the company highlighted Garg’s cross-functional operator experience spanning “finance, legal, talent, vendor management, and enterprise delivery,” positioning her as infrastructure-scale “operator” across multiple internal and external stakeholders.
+- GCQ FUNDS MANAGEMENT PTY Ltd said Meta accounts for 3.6% of its portfolio and is its 9th biggest position, with the firm owning 39,388 shares (up by 4,867) worth about $26 million—details beyond the headline stake increase.
+- In addition to smaller investors, large asset managers also increased or maintained exposure: Vanguard Group rose its stake by 3.8%, State Street by 1.9%, Capital World Investors by 0.7%, Invesco by 0.8%, and Legal & General Group Plc by 4.1%—all cited via the companies’ recent filings.
+- The articles provide a precise figure for concentration: hedge funds and other institutional investors own 79.91% of Meta’s stock.
 
 ---
 
-### 2026-05-04 | Investor behavior and costs drag returns, Morningstar warns
-**Sentiment:** +0.18 (pos: 0.46, neg: 0.27, neu: 0.27)
+### 2026-05-23 | Meta Offers AI Rivals Limited Free WhatsApp Access
+**Sentiment:** -0.27 (pos: 0.18, neg: 0.46, neu: 0.36)
 
-India’s small- and mid-cap stocks rebounded sharply in April, with the Nifty Smallcap 250 up 17.1% (its best monthly gain since inception in April 2016) after a March slide of 10% (the worst since February 2025), while the Nifty and Midcap 150 also posted strong monthlies (+7.5% and +13.2%). The rally followed a broader correction in these segments of roughly 25–35%, attributed to expensive valuations and a weakening growth outlook under tighter fiscal and monetary policy, leading to bargain buying supported by ongoing foreign selling in large caps. Strategists cautioned that the move’s durability depends on earnings catching up with valuations, with Q4 FY26 and Q1 FY27 results highlighted as a key test and the possibility of a correction if the market has priced in too much upside. Analysts also reiterated that investor behavior—especially emotionally reactive short-term trading—often undermines outcomes, including documented “gap” effects between fund and investor returns. Separate reporting also noted US markets were tracking their best month since 2020 amid stronger early-year growth and AI-led mega-cap tech strength, while an Ireland review found after-tax gains on balanced funds of about 2.44%–2.75% over multi-year periods once levies, fees, and taxes are included.
+Meta has proposed, under the EU Digital Markets Act framework, allowing rival AI chatbots to access WhatsApp Business API for free up to a usage cap before fees apply, following earlier moves that blocked third-party assistants and drew antitrust scrutiny, along with a prior per-message fee compromise. Meta has also announced an “Incognito Chat” mode designed to keep conversation history off company servers for temporary everyday and business AI sessions, while raising regulatory and transparency questions about how data is handled. In Nigeria, Meta partnered with the federal government to launch GovGuide Nigeria, a multilingual voice-and-text chatbot intended to help citizens access information on government services using open-source models such as Llama. Separately, a dev.to post describes an AI agent for managing Meta Ads that generates campaign structures and copy from a business brief, monitors performance against thresholds, and escalates decisions requiring human judgment.
 
 **Key Points:**
-- The article on India’s small-caps says the rebound came after a sell-off tied to the West Asia conflict: local investors were “lapsing up stocks battered by the previous month’s sharp sell-off triggered by the West Asia conflict,” and the earlier correction (in 2025) saw “nearly 66% of small-cap stocks had fallen,” per Anand Rathi Wealth’s joint CEO Feroze Azeez.
-- The April rally was not broad only in index terms: the Economic Times names specific mid/small-cap gainers that “soared between 56% and 71%” in April, including HFCL, Ola Electric Mobility, Cohance Lifesciences, Cemindia Projects, Gallantt Ispat and Welspun Corp—called out as the biggest contributors to index gains.
-- Beyond valuation talk, one strategist offered a near-term technical/bottoming view and a valuation gap: Motilal Oswal’s Ruchit Jain said he expects the Smallcap 250 “to gain 5-8% immediately after forming a bottom around its weekly 200 EMA,” while Anand Rathi Wealth’s Feroze Azeez said the index was “trading nearly 17.4% below estimated fair value” at the time.
+- The dev.to post details a specific “four stages / one context window” design for the Meta Ads agent: it starts with a structured business brief (including positioning, target audience, offer details, tone constraints, budget ceiling, and the exact optimization metric), then has the LLM generate “campaign objective, ad set targeting parameters, and three to five ad copy variations per ad set,” before monitoring performance against thresholds and only escalating decisions that require human judgment.
+- For GovGuide Nigeria, Punch reports the chatbot is being built through a stated collaboration that includes Meta, Nigeria’s Federal Ministry of Communications, Innovation and Digital Economy, the National Centre for Artificial Intelligence and Robotics, and local tech firm Publica AI—and the launch announcement came after Meta’s Economic Impact Report in Nigeria.
+- In Punch’s coverage, Minister Dr. Bosun Tijani explicitly framed the project as improving governance-side outcomes, saying deploying AI “in local languages and on platforms people already use daily” would “strengthen transparency, trust, and citizen engagement.”
 
 ---
 
-### 2026-05-03 | EU Finds Meta DSA Breach Over Under-13 Access
-**Sentiment:** -0.12 (pos: 0.17, neg: 0.29, neu: 0.54)
+### 2026-05-23 | Wells Fargo lowers Meta price target $765
+**Sentiment:** +0.31 (pos: 0.50, neg: 0.18, neu: 0.32)
 
-The European Commission has issued preliminary findings under the EU Digital Services Act saying Meta is breaching rules by failing to keep children under 13 from accessing Facebook and Instagram, including by inadequately preventing sign-ups using false birth dates. Regulators also fault Meta’s tools for reporting underage accounts as difficult to use and often not leading to effective follow-up removal, and say its risk assessment methodology for age-inappropriate experiences is incomplete and arbitrary. The Commission estimates that about 10%–12% of children under 13 in Europe use the platforms and says fines could reach up to 6% of Meta’s global annual turnover if the findings are confirmed. Meta disputes the allegations, saying it already detects and removes under-13 accounts and plans to announce additional measures next week. Separately, the EU is pushing member states to rapidly adopt a privacy-preserving age-verification app blueprint to block minors from age-inappropriate content without revealing identities or exact ages.
+Wells Fargo cut its price target for Meta Platforms from $770 to $765 while keeping an Overweight rating, a modest adjustment after Meta reported strong Q1 FY2026 results. Meta posted $56.31 billion in revenue, up 33% year over year, and earnings per share of $10.44, but Reality Labs continued to weigh on profitability with an operating loss of $4.03 billion. The firm raised its full-year capital expenditure guidance to $125 billion to $145 billion, citing higher data center and component costs alongside demand tied to the AI compute ecosystem. Wells Fargo said the investment thesis remains intact because Meta is benefiting from improving confidence in companies that monetize compute spending, even though it does not sell cloud services to outside customers. Advertising momentum also supported the view, with ad impressions up 19% and the average price per ad up 12%, alongside continued user scale. Separate reporting flagged notable insider selling over the past few months, adding a note of caution for investors despite the maintained bullish stance.
 
 **Key Points:**
-- The European Commission’s preliminary conclusions against Meta were based on an “almost two-year” (two-year) investigation before issuing the DSA notice.
-- EU tech policy leader Henna Virkkunen said Meta’s “terms and conditions should not be mere written statements, but rather the basis for concrete action to protect users — including children.”
-- The Commission described Meta’s risk assessment as contradicting “large bodies of evidence” that 10%–12% of children under 13 access the services, and said Meta appears to have disregarded readily available scientific evidence.
+- Wells Fargo’s Overweight view came from analyst Ken Gawrelski, who lowered his Meta price target to $765 from $770 while keeping the rating unchanged.
+- Alongside the target cut, reporting highlighted insider activity: shares totaling about $109.6 million were sold over the prior three months, adding a concrete caution flag for investors.
+- The Wells Fargo note placed Meta in a specific valuation context at the time of coverage: a market capitalization around $1.53 trillion and a roughly 22x price-to-earnings multiple.
 
 ---
 
-### 2026-04-10 | EU omnibus plans cookie, AI regulation simplification
-**Sentiment:** -0.10 (pos: 0.21, neg: 0.31, neu: 0.48)
+### 2026-04-28 | Nigeria withdraws $32.8m Meta fine
+**Sentiment:** -0.53 (pos: 0.10, neg: 0.63, neu: 0.27)
 
-The European Union’s proposed “digital framework” omnibus would shift cookie rules into the GDPR, streamline cybersecurity incident reporting into a single contact point, and adjust its AI rollout by delaying requirements for “high-risk” systems (such as HR and creditworthiness assessments) until at the latest December 2027 while expanding some exemptions to larger mid-sized firms and allowing sensitive data use to detect bias (https://www.bbva.com/en/economy-and-finance/simplifying-to-compete-redefining-the-eus-digital-framework/). The aim is to preserve strong privacy and AI safeguards while reducing compliance complexity, costs, and legal uncertainty, with lawmakers working toward timely adoption (https://www.bbva.com/en/economy-and-finance/simplifying-to-compete-redefining-the-eus-digital-framework/). BusinessEurope, however, argues that the EU’s AI Act/GDPR/Data Act “rulebook” needs further refinement so risk-based compliance does not choke innovation, warning that expensive auditing and regulator-by-regulator enforcement gaps across countries can create a “compliance lottery” for cross-border firms (https://www.world-today-news.com/impact-of-europes-digital-rulebook-on-innovation-and-cross-border-operations/). In South Korea, the Korea Internet Companies Association’s 2025 white paper says industry regulation is hampered by unclear definitions and weak linkage across laws, and it urges that digital regulation be reviewed at the design stage for technological change and compatibility with existing systems (https://www.digitaltoday.co.kr/en/view/46368/kia-regulation-impact-review-digital-industry-design-stage). A separate assessment argues South Korea’s platform-focused rules align with broader international governance trends akin to the EU’s Digital Markets Act—emphasizing interoperability, transparency, and safety for dominant platforms rather than targeting U.S. companies specifically (https://www.streetinsider.com/GetNews/Global+Affairs+Lab%3A+South+Korea%E2%80%99s+Digital+Regulations+Align+with+EU%E2%80%99s+Digital+Markets+Act+Standards/26280118.html).
+Nigeria’s Data Protection Commission (NDPC) fined Meta Platforms $32.8 million in February 2025 after a long investigation into alleged violations of Nigeria’s Data Protection Act, including improper consent for behavioral advertising and unlawful handling or transfer of personal data affecting more than 60 million Nigerians. The enforcement was abruptly reversed when NDPC and Meta signed a confidential settlement on Oct. 30, 2025, which a Federal High Court in Abuja converted into a consent judgment on Nov. 3—writing off the fine, softening key corrective orders, and limiting Meta’s obligation to covering the government’s legal costs. Reporting based on later-disclosed documents and expert commentary said the reversal has sparked concerns about transparency and enforcement strength, arguing that removing penalties reduces the credibility of compliance obligations. NDPC spokesperson Itunu Dosekun defended the deal as a “balanced” approach aimed at encouraging business compliance while improving privacy practices without prolonged litigation. Separate reporting also alleges the quid pro quo involved future commitments such as a Lagos-based data processing hub, hiring, and digital literacy funding, with critics warning this could amount to regulatory capture or side-deals that undermine consistent cross-border digital governance.
 
 **Key Points:**
-- Under the cookie overhaul, individuals would be able to set default cookie preferences, which the proposal says would reduce the number of cookie-consent prompts they see on websites and improve the browsing experience.
-- The timetable in the legislative process is tight: the AI “Omnibus” would need to be adopted before August 2026, and the Council and European Parliament are already “removing or modifying the most sensitive provisions” to keep negotiations moving.
-- BusinessEurope points to concrete cross-country enforcement gaps—for example, it cites differing outcomes between France’s CNIL and Ireland’s DPC—arguing that the result is a “compliance lottery” where what is accepted in one jurisdiction may be treated as a violation in another.
+- Before the settlement, the regulator’s directive set went beyond consent and data transfers, including orders that Meta (1) stop transferring Nigerian users’ data abroad without regulatory approval, (2) “cease collecting data on non-users,” and (3) conduct a “Data Processing Impact Assessment” covering potential effects of its algorithms on human rights and Nigeria’s democratic development.
+- The original fine calculation and legal basis were tied to NDPR provisions and revenue estimates: one report says Nigeria’s penalty was set at “2% of Meta’s annual revenue derived from Nigerian users,” with NITDA estimating that at $1.64 billion for 2022, and citing NDPR consent-transfer issues under “Sections 2.1 and 2.3.”
+- A data protection lawyer, Iliya-Ezekiel Ndatse, argued that writing off penalties weakened enforcement credibility even if commitments remained: “Regulatory action is strongest when there is a clear finding of a breach, backed by penalties and the risk of further sanctions. Setting aside the earlier orders removed that weight, leaving the commitments with little additional force.”
 
 ---
 
-### 2026-04-08 | Meta plans El Paso AI data center $10B
-**Sentiment:** +0.13 (pos: 0.37, neg: 0.24, neu: 0.39)
+### 2026-04-27 | Tin Can Wi-Fi landline hits hundreds-thousands sold
+**Sentiment:** -0.01 (pos: 0.26, neg: 0.27, neu: 0.47)
 
-Meta shares are trading below key moving averages amid persistent selling pressure, with momentum indicators suggesting a bearish bias and heightened near-term uncertainty. The latest fundamental backdrop includes Meta’s Q4 2025 results—revenue of $59.89 billion (+24% year over year) and record EPS of $8.88—along with Q1 2026 revenue guidance of $53.5 billion to $56.5 billion, while the company continues Reality Labs workforce cuts and pushes product and AI developments such as Ray-Ban smart glasses. Sentiment has also been hit by a landmark court decision over safeguards for young users, which sparked a sharp selloff (down more than 7% in a session) and erased over $100 billion in market value, reinforcing concerns about ongoing litigation. Wall Street remains mixed: Morgan Stanley kept an “Overweight” rating but trimmed its price target to $775, pointing to regulatory uncertainty, weaker ad conditions, and questions about Meta’s long-term AI positioning, even as it sees potential upside from “agentic” AI catalysts. Meta’s AI-infrastructure buildout is central to the bullish case, including a reported increase in planned El Paso, Texas data-center investment from $1.5 billion to $10 billion, targeting 1-gigawatt capacity by a 2028 opening and supported by renewable-energy and water-management plans. Still, valuation arguments vary—some investors worry about very large AI capital expenditures (reported as exceeding $135 billion), while a discounted-earnings estimate put intrinsic value around $730 (suggesting a margin of safety) and analyst consensus price targets imply meaningful upside from current levels.
+A growing “Analog Rebellion” movement is pushing families away from smartphones by swapping in retro, presence-focused hardware—most notably the landline-inspired “Tin Can” phone—for kids who still need to stay reachable. Advocates argue the device’s voice-first, call-and-hang-up format creates a healthier social rhythm by restoring the “pause” that texts and group chats often remove. Reporting on the Tin Can describes a cream-colored, $100 Wi‑Fi-enabled device with speakerphone, speed-dial buttons, and an answering-machine feature, which has gone viral and been shown to quickly capture children’s attention at home. Since its April 2025 debut, the company says it sold hundreds of thousands largely through word of mouth, despite limited marketing, and has raised funding including a $12 million seed round led by Greylock Partners. The trend is unfolding as parents, educators, and lawmakers look for alternatives to constant screen time, amid global policy moves such as Australia’s ban for under-16s on social media and ongoing legal efforts in the US tied to alleged mental-health harms. Some coverage also points to schools distributing devices across grade cohorts, aiming to make the analog option the social norm rather than an isolating exception for one child.
 
 **Key Points:**
-- Meta reported that Instagram Reels reached “revenue parity with Feed and Stories,” driven by a “30% year-over-year rise in watch time.”
-- Reuters reported additional operational details for Meta’s El Paso AI data center: it will be Meta’s 29th data center globally and third in Texas, is expected to create “300 permanent positions,” and employ “over 3,000 construction workers during the peak buildout phase.” Meta also said it has contracts to add “over 5,000 megawatts” of renewable energy and plans to ease “local water pressure” via fresh-water partnerships.
-- QuiverQuant said Meta insiders made “$META stock” trades “108 times in the past 6 months,” and “0 have been purchases and 108 have been sales,” including multiple selling tranches by executives such as CFO Susan J. Li, CTO Andrew Bosworth, and COO Javier Olivan.
+- Tin Can’s CEO, Chet Kittleson, frames the product as a way to give kids a “digital detox for kids without isolating them,” contrasting it with years when parents tried to limit screens but accidentally left children as the “only one” without a phone.
+- The device’s advocates argue the “pause” is especially important because, in text-based communication, silence can be misread as anxiety or “ghosting,” while voice calls treat silence as “a space for thought, reflection, and emotional calibration.”
+- In one family’s account, Justin Finn said the Tin Can “start[s] ringing within minutes” of the children coming home—an effect he described as “real excitement around it that we have not seen with many other additions within the home.”
 
 ---
 
-### 2026-04-04 | Court dismisses Sowore suit, orders N1.5m
-**Sentiment:** -0.57 (pos: 0.07, neg: 0.64, neu: 0.29)
+### 2026-04-25 | AI Marketing Platforms and Measurement Security Warnings
+**Sentiment:** -0.15 (pos: 0.25, neg: 0.40, neu: 0.35)
 
-A Federal High Court in Abuja dismissed Omoyele Sowore’s fundamental rights enforcement suit against Nigeria’s Department of State Services (DSS), its Director-General, and Meta Platforms, after finding his claims lacked merit. The case followed Sowore’s Aug. 26, 2025 Facebook post describing President Bola Tinubu as a “criminal,” after which Meta took down the post and deactivated his account, which Sowore alleged was done on DSS instructions. In ruling against him, Justice Mohammed Umar said the constitutional right to fair hearing applies to proceedings before courts or tribunals established by law, not actions by non-judicial bodies such as the DSS or Meta. The court also rejected Sowore’s arguments that the takedown and deactivation violated his rights to freedom of expression and association. Justice Umar ordered Sowore to pay costs of N500,000 each to the DSS, its DG, and Meta—totaling N1.5 million—and declined to grant any of the reliefs he sought.
+MarketingBlocks 3.0 was pitched as an all-in-one, keyword-prompted AI marketing platform that aims to replace multiple standalone tools in a single dashboard at about $497 per year. Reporting based on Forrester research argues that generative AI search and “zero-click” answers may erode the engagement-based metrics traditionally used to justify marketing spend in B2B. Search Engine Journal also said many AI-driven SEO transitions stall due to change-management execution issues, noting that only about 30% of enterprise SEO teams have restructured roles. In ad operations, a dev.to post warned that AI agents that can take actions on ad accounts require a stricter threat model than read-only assistants, citing risks such as fraudulent or costly spend, brand-search manipulation, and credential/token theft. For measurement, another dev.to walkthrough cautioned that GA4 can misclassify Meta ad traffic if the UTM source token (including dot/casing/variant forms) doesn’t match Google’s published channel-group regex list, potentially pushing Paid Social into Referral/Other.
 
 **Key Points:**
-- Sowore’s Aug. 26, 2025 Facebook post did not stop at calling Tinubu a “criminal” — he added: “This criminal actually went to Brazil to state that there is no more corruption in Nigeria. What audacity to lie shamelessly!”
-- Sowore said Meta took down the post and deactivated his account “acting on the instruction of the DSS and its DG” and argued the decision was made without hearing from him; his lawyer, Marshall Abubakar, advanced this position in court.
-- In dismissing the fair hearing claim, Justice Mohammed Umar explicitly grounded the reasoning in the constitutional text, stating that enforcement of the right to fair hearing under Section 36(1) requires the alleged violation to be in relation to “proceedings before a court or tribunal established by law.”
+- MarketingBlocks 3.0’s pitch includes replacing a long list of existing tools in one workflow—calling out categories covered by Canva (design), Jasper and ChatGPT (copy), Synthesia (video), and Teachable (courses)—and claims savings by replacing “platforms typically costing over $1,000/month combined,” positioning its $497/year price as a budget substitute.
+- Forrester/Forbes reports a broader B2B urgency signal: “90% of B2B marketing leaders report that AI visibility is, at minimum, an investment-level priority,” and it argues engagement remains deeply embedded in governance—“Eight of the top 12 criteria on which leaders judge B2B marketing are built upon proof of engagement.”
+- In ad-accounts agent risk modeling, dev.to emphasizes that agent inputs extend beyond what operators type: “every document, URL, campaign name, ad copy, and asset filename that enters the conversation” can contain hidden instructions (e.g., “markdown, HTML, or unicode”), so an LLM may follow embedded directives when asked to “review our current ad copy”—meaning defenses like “sanitize the input” are not adequate for unstructured, untrusted text.
 
 ---
 
-### 2026-04-03 | Alcoa shares surge after Iran missile strikes
-**Sentiment:** -0.16 (pos: 0.29, neg: 0.45, neu: 0.26)
+### 2026-04-25 | France, U.K. drive €68.18 million GDPR Q1
+**Sentiment:** -0.68 (pos: 0.06, neg: 0.74, neu: 0.20)
 
-Shares of Alcoa surged as Iranian missile strikes hit two major Middle East aluminum sites, boosting prices and lifting the stock toward its best day in months. The rally comes after aluminum-related optimism stood out while Alcoa’s performance had stalled earlier in 2026. Separately, Wall Street’s broader market mood has been hit by uncertainty tied to the Iran war, contributing to corrections across major indexes even as record highs had become common. One analysis argues that these double-digit pullbacks are part of the normal investing cycle and, historically, can represent buying opportunities for long-term investors. It also points to specific growth-stock opportunities—such as Meta—while acknowledging investor concerns about AI spending pressuring margins.
+Regulators enforcing the EU’s GDPR handed out €68.18 million in fines in Q1 2026, up sharply from €13.8 million in the same quarter of 2025, reflecting a tougher enforcement climate where companies can face roughly €757,600 per day for breaches. France and the U.K. accounted for 94% of all fines, led by France’s €47 million and the U.K.’s €16.89 million, with major penalties including CNIL’s €27 million fine of Free Mobile for subscriber data security failures and the U.K. ICO’s €16 million sanction of Reddit over inadequate protection of underage users’ data. More broadly, since GDPR took effect in 2018, European regulators have issued 2,825 fines totaling over €6 billion, and enforcement remained concentrated among the largest penalties in the first quarter. A separate measurement study comparing web tracking across 10 jurisdictions found that EU privacy rules reduce tracking relative to non-EU locations, with EU users seeing about 50.5% fewer tracker connections on average on a shared set of popular sites. The study suggests the largest reductions occur in the high-enforcement jurisdictions—Germany and Spain—while cookies-banners ignored more often than accepted led to bigger tracking drops in Germany than in California, aligning with opt-in enforcement differences. Overall, the fines trend and the tracking data point to privacy compliance efforts increasingly being tested both in the courtroom and in day-to-day website tracking behavior.
 
 **Key Points:**
-- Alcoa’s surge came after the stock had “mostly stalled this year,” including being “down for the month… since the Iran war started,” until Iran struck Emirates Global Aluminium’s Al Taweelah site in the UAE and Aluminium Bahrain’s (Alba) Bahrain site on Saturday—pushing the shares “heading toward their best day in months.”
-- The broader market selloff tied to the Iran war is anchored in specific drawdown figures: the Iran war began Feb. 28, and by the March 27 close the Dow was down 10% from its record-closing high while the Nasdaq was off 12.6% (described as “officially” putting the Dow and Nasdaq into full-blown corrections).
-- For Meta, the article adds concrete valuation/drawdown context and a more detailed capex concern: Meta “ended March 27 more than 33% below their all-time closing high,” and the worry is that the company is “being too aggressive” in AI infrastructure—spending “a small fortune to purchase graphics processing units” and growing its “AI Superintelligence Lab,” which “may weigh on its margins and profits.”
+- Beyond the top two penalties, CNIL also fined Free Mobile’s parent, Fee, €15 million on January 8 for “inadequate technical and organisational measures,” and France Travail was hit with a €5 million fine on January 22 for not securing job-seeker information; in Poland, DPD Polska paid €2.68 million on February 5 for insufficient data-processing practices.
+- The Q1 2026 enforcement totals were concentrated in France and the U.K., but other countries still received notable fines: Poland was fined €2.94 million, while Sweden and the Netherlands received €565,000 and €250,000 respectively (the report lists these as follow-on jurisdictions behind the leaders).
+- A report analyst said the shift in enforcement focus is toward issues that are harder for firms to defend, stating authorities are “increasingly focusing on core issues like data security and lawful processing, areas where violations are harder to justify.”
 
 ---
 
-### 2026-04-02 | Meta shares fall 7.92% after dividend
-**Sentiment:** +0.20 (pos: 0.41, neg: 0.21, neu: 0.37)
+### 2026-04-24 | Meta Q1 earnings set April 29, AI capex
+**Sentiment:** -0.02 (pos: 0.23, neg: 0.25, neu: 0.51)
 
-Meta Platforms describes its business as centered on its Family of Apps (Facebook, Instagram, Messenger, Threads, WhatsApp, and Meta AI) and its Reality Labs portfolio (including Meta Quest and AI glasses like Ray-Ban Meta), alongside partnerships with major tech firms such as Microsoft and NVIDIA. The company’s first quarterly dividend of $0.525 per share landed on March 26, and for Singapore holders of U.S. shares the article notes a 30% withholding tax, leaving $0.3675 per share net and an initial annualized run rate of about $2.10. The dividend discussion is paired with an investor optimism theme that Meta’s heavy AI infrastructure spending supports earnings power, with metrics cited for capex, R&D, and cash generation, and an analyst upgrade to FY2027 EPS tied to improving AI monetization. At the same time, Meta shares fell sharply during the trading day highlighted in another report, with the decline attributed in part to a $6 million verdict against Meta and YouTube over products allegedly linked to harmful behavior for young users, alongside news of layoffs. Overall, the coverage frames Meta’s near-term outlook as a tradeoff between new shareholder income and AI-driven growth expectations versus legal and reputational risks facing the company.
+Ahead of Meta Platforms’ first-quarter earnings report after the market close on April 29 (with a conference call later that day), the stock has been volatile and slightly lower, as investors weigh whether advertising revenue can keep funding the company’s accelerating artificial-intelligence spending. Meta has guided 2026 capital expenditures of $115 billion to $135 billion to expand data centers, custom chips, and its AI initiatives, while targeting operating income ahead of 2025—an outlook that still raises near-term margin concerns. Analysts broadly expect Q1 revenue in the range of about $53.5 billion to $56.5 billion and EPS around $6.65 to $6.71, and one Wall Street view cited expects Meta to top consensus thanks to expense discipline. In its most recent quarter, Meta posted revenue growth of 24% to $59.9 billion alongside a 40% jump in expenses, while ad impressions and pricing improved and management highlighted new AI model rollouts and monetization efforts such as WhatsApp paid messaging reaching a $2 billion annual run rate. Separately, analyst sentiment remains very bullish, with many expecting upside supported by Meta’s plan to deploy one gigawatt of custom MTIA AI chips and expand over time to reduce dependence on Nvidia. Offsetting that optimism, shares also saw insider selling by a director and the COO, reflecting heightened scrutiny of cost growth and AI ROI as results approach.
 
 **Key Points:**
-- Meta’s Reality Labs also includes an AI-glasses control setup that goes beyond the headline Ray-Ban Meta product: the company describes “AI glasses like Ray Ban Meta and Oakley Meta glasses,” plus the “Meta Ray Ban Display” (AI glasses with an integrated lens display) and the “Meta Neural Band,” a wrist-worn electromyography device that lets users control the glasses via neuromuscular signals.
-- One investor-note breakdown adds detailed capital-allocation context for the dividend/AI narrative: capex is cited at “34.68% of revenue” and “60.18% of operating cash flow,” while R&D is “28.55% of revenue.” It also states the payout ratio is “8.81%,” leaving capacity for “repurchases and future dividend steps.”
-- The legal trigger behind the stock drop is described with more specificity than the summary’s general “$6 million verdict”: the report says jurors found Meta “negligent in platform design and operation,” including that it “fail[ed] to warn users of potential risks.”
+- Meta’s earnings timetable: results are due after the market close on April 29, followed by a conference call scheduled for 2:30 p.m. Pacific (5:30 p.m. ET), where executives are expected to face questions about AI monetization progress, expense growth, and any updates to full-year guidance.
+- BofA Securities analyst Justin Post said Meta is poised to “top consensus,” forecasting $56 billion in revenue and $7.44 in EPS for the March quarter—above the street’s $55.4 billion and $6.64—and he trimmed his price target to $820 from $885 while keeping a Buy rating, citing “expense discipline.”
+- Meta’s custom-chip push is tied to more specific hardware details: the company plans to deploy one gigawatt of its custom MTIA AI chips “built in partnership with Broadcom on a 2-nanometer process,” with the effort expected to scale to “multiple gigawatts” by 2027—aimed at reducing dependence on Nvidia.
+
+---
+
+### 2026-04-24 | Alaska revenue agency boosts Argan stake
+**Sentiment:** +0.30 (pos: 0.40, neg: 0.10, neu: 0.49)
+
+State of Alaska Department of Revenue sharply increased its Argan, Inc. stake, raising shares by 279.7% in the fourth quarter to a reported value of about $883,000 (https://www.americanbankingnews.com/2026/04/23/state-of-alaska-department-of-revenue-has-883000-holdings-in-argan-inc-agx.html). In Meta Platforms, Inc., Financial Futures Ltd Liability Co nearly doubled its position, while Assetmark Inc. also added shares, signaling continued institutional appetite for the stock (https://www.americanbankingnews.com/2026/04/23/meta-platforms-inc-meta-shares-acquired-by-financial-futures-ltd-liability-co.html, https://www.americanbankingnews.com/2026/04/23/meta-platforms-inc-meta-shares-purchased-by-assetmark-inc.html). Not all investors were buyers—Blue Fin Capital Inc. trimmed its Meta position by 5.7%, reducing its stake to about $26.4 million (https://www.americanbankingnews.com/2026/04/23/meta-platforms-inc-meta-shares-sold-by-blue-fin-capital-inc.html). The Meta moves come alongside broadly bullish Wall Street coverage tied to Meta’s AI investments and expectations for core advertising strength, with analysts cited as maintaining Buy/upgrade-type views and price targets in the high-$900s (https://www.americanbankingnews.com/2026/04/23/meta-platforms-inc-meta-shares-acquired-by-financial-futures-ltd-liability-co.html, https://www.americanbankingnews.com/2026/04/23/meta-platforms-inc-meta-shares-purchased-by-assetmark-inc.html). In JPMorgan Chase & Co., State of Alaska Department of Revenue cut its holding by 9.8% in the fourth quarter to roughly $87.3 million (https://baseballnewssource.com/2026/04/22/state-of-alaska-department-of-revenue-has-87-34-million-position-in-jpmorgan-chase-co-jpm/11095626.html). Even with Alaska’s reduction, other institutional investors increased their stakes in JPMorgan, suggesting diversified buying interest alongside selective trimming by some funds (https://baseballnewssource.com/2026/04/22/state-of-alaska-department-of-revenue-has-87-34-million-position-in-jpmorgan-chase-co-jpm/11095626.html).
+
+**Key Points:**
+- For Argan (AGX), State of Alaska Department of Revenue said it owned 2,821 shares after adding 2,078 in Q4, with the article noting that “Institutional investors and hedge funds own 79.43% of the company’s stock.”
+- On Meta (META), Financial Futures Ltd Liability Co. described its position as 0.7% of its portfolio and “the 27th biggest holding,” owning 2,222 shares after buying 1,102 more; the stake was valued at $1,467,000 in its SEC filing.
+- The Meta coverage cited more specific bullish analyst targets: Deutsche Bank “reiterates a Buy” and highlighted Meta’s AI investments, including a “$920 target,” while UBS raised its price target to “~$908” and Citi/JMP reaffirmed “market-outperform/near-$900” targets.
+
+---
+
+### 2026-04-24 | Meta breaks ground $1B Tulsa AI data center
+**Sentiment:** +0.41 (pos: 0.53, neg: 0.12, neu: 0.35)
+
+Meta has begun building its first Oklahoma data center in Tulsa at Fair Oaks Innovation Park, a more than 2 million–square-foot facility designed specifically to run large-scale AI workloads. The project, valued above $1 billion, includes over $25 million in local infrastructure upgrades such as road and water-system improvements and is expected to create more than 1,000 construction jobs at peak and about 100 permanent roles after opening. To address environmental concerns, Meta says it will support the site’s power demand with 100% clean energy and add more than 1,500 MW of renewable capacity to the regional grid, while using a closed-loop liquid-cooling system intended to minimize—or for most of the year eliminate—additional water use. Meta also plans regional water-savings efforts using sensor-based irrigation across roughly 1,500 acres, estimating about 50 million gallons saved annually. While some regulators and environmental groups have scrutinized the high energy and water use of rapidly expanding AI data centers, Meta frames the Tulsa project as integrating resource-management investments to reduce those impacts. Overall, the move underscores Meta’s effort to secure the computing backbone for next-generation AI as tech firms race to scale infrastructure.
+
+**Key Points:**
+- Meta said the Tulsa facility’s electricity demand will be met through grid-infrastructure investments funded through utility payments—including “expenditures on substations and transmission systems.”
+- Meta also stated it will “cover the full cost of water and wastewater services required for the site,” in addition to using a closed-loop liquid-cooling system.
+- Oklahoma Gov. Kevin Stitt said the state produces more energy than it consumes and that companies like Meta need “reliable and affordable power to grow and innovate,” framing the project as consistent with Oklahoma’s priorities for tech development.
+
+---
+
+### 2026-04-24 | SeaBridge trims 7.3% Meta stake
+**Sentiment:** -0.06 (pos: 0.24, neg: 0.29, neu: 0.47)
+
+Meta Platforms shares are in focus as multiple institutional investors adjusted their stakes, including SeaBridge Investment Advisors cutting its position by 7.3% in the fourth quarter, Baillie Gifford & Co. trimming by 16.8%, and Hardman Johnston Global Advisors reducing its stake by 51.7%. At the same time, other investors appeared to add exposure, with several large asset managers increasing their holdings during recent quarters. Separately, Meta COO Javier Olivan disclosed stock sales under a pre-arranged Rule 10b5-1 plan, including selling shares in April at an average price above $680. On the company side, Meta is set to report first-quarter 2026 earnings on April 29 after starting a quarterly dividend of $0.525 per share, and it recently reported gains in Instagram conversion rates and ad quality. Meta also announced plans for a major Tulsa data center and said it would reduce its workforce by about 8,000 jobs as part of broader cost-cutting efforts.
+
+**Key Points:**
+- SeaBridge Investment Advisors said it cut its Meta position by 7.3%—selling 1,380 shares to end the quarter with 17,576 shares, worth about $11.602 million. The stake was also described as ~1.9% of SeaBridge’s holdings and Meta was its 12th-largest position.
+- Baillie Gifford & Co. reported a 16.8% reduction in Meta during the fourth quarter, selling 890,995 shares and leaving it with 4,399,233 shares. The firm said Meta was ~2.4% of its portfolio and its 13th-largest holding, worth about $2.903 billion at quarter-end.
+- Hardman Johnston Global Advisors reduced its Meta stake by 51.7%, selling 23,117 shares to hold 21,605 shares afterward. The firm put the value of its Meta holdings at about $14.261 million at the end of the most recent quarter.
+
+---
+
+### 2026-04-23 | Meta reserves 100 GWh storage
+**Sentiment:** +0.68 (pos: 0.72, neg: 0.03, neu: 0.25)
+
+Meta Platforms has reserved up to 1 GW / 100 GWh of ultra-long-duration energy storage capacity from Noon Energy to support the reliable power needs of hyperscale AI data centers. The effort will start with a 25 MW / 2.5 GWh project expected to be completed by 2028, after which Noon is set to deliver systems under the larger 1 GW / 100 GWh supply arrangement. Noon’s modular, reversible solid oxide fuel cell system is designed for 100+ hours of storage and discharge—enabling multi-day “firm” clean power when intermittent renewables underperform. The technology stores energy via carbon-based media using air-derived oxygen and aims to rely far less on scarce critical materials than lithium-ion batteries, which could reduce exposure to lithium price volatility. Meta said the deal will help data centers come online faster by providing grid resilience and reliable power, and Noon said the partnership supports building production capacity and an ultra-LDES supply chain. The announcement also reflects a broader push in the data center sector to explore long-duration energy storage beyond typical four-hour lithium-ion solutions.
+
+**Key Points:**
+- Noon’s technology is described as decoupling power and energy via a system architecture with three main parts: a reversible solid oxide fuel cell “power block,” a “charge tank” that converts electricity into a carbon-based storage medium while releasing oxygen to the air, and a “discharge tank” that takes oxygen from the air to convert stored energy back into electricity (analogized as flow-battery-like liquid electrolyte storage).
+- Noon previously announced an operational demonstration project in January, and the company claimed it was capable of “200 hours of discharge at maximum output” (a performance detail beyond the 100+ hour framing in the reservation announcement).
+- Noon said it uses about “1% of the critical materials found in traditional lithium-ion batteries,” positioning the approach as a hedge against lithium supply-chain and price volatility.
+
+---
+
+### 2026-04-23 | J.P. Morgan lifts S&P 500 target to 7,600
+**Sentiment:** +0.38 (pos: 0.50, neg: 0.12, neu: 0.37)
+
+J.P. Morgan raised its year-end target for the S&P 500 to 7,600 from 7,200, citing higher earnings projections and easing geopolitical worries, and pointing to Anthropic’s Claude/Mythos messaging as a catalyst for improving AI-linked performance. The International Energy Agency said global electricity consumption rose 3% last year, with demand supported by data centers and electric vehicles, reinforcing the view that AI buildouts are also driving power demand. Separate coverage highlighted ASML as a top AI beneficiary, arguing that sustained AI-chip demand and its leading position in advanced lithography support multiyear semiconductor equipment backlogs. Other articles also argued consumer-facing retailers are finding ways to gain share, naming Costco, Dutch Bros, and Five Below as standout plays, with Costco’s profitability supported largely by member fees.
+
+**Key Points:**
+- J.P. Morgan said its S&P 500 target revision wasn’t driven by valuation expansion: it kept the forward P/E at 22x while raising 2026 earnings-per-share to $330 (from $315) and 2027 EPS to $385 (from $355), implying about 22% year-over-year EPS growth and roughly 6.9% upside from the index’s April close.
+- J.P. Morgan strategist Dubravko Lakos-Bujas linked the improvement in AI-linked stocks to Anthropic’s Mythos catalyst, writing that "66% of S&P 500 AI names outperforming since April 7th" was “evidence of rapidly improving models and AI services,” and pointing to Anthropic’s "revenue run rate has tripled YTD" plus an expected “significant improvement” tied to an upcoming OpenAI “Spud” release.
+- The JPMorgan-linked Anthropic news included a rollout caveat: Anthropic “temporarily halted its broader rollout” of Mythos due to “potential cybersecurity vulnerability concerns.”
 
 ---
 
@@ -267,364 +327,304 @@ China’s leading science and technology federation, CAST, announced a boycott o
 
 ---
 
-### 2026-03-11 | Meta reported Moltbook acquisition, boosts AI infrastructure
-**Sentiment:** -0.06 (pos: 0.29, neg: 0.35, neu: 0.36)
+### 2026-03-28 | Meta Approves Exec Stock Options After Layoffs
+**Sentiment:** +0.29 (pos: 0.43, neg: 0.14, neu: 0.43)
 
-Meta Platforms’ surprise acquisition of Moltbook, a social network for AI agents, is being framed as a strategic move that dovetails with rising data‑center demand and the company’s broader AI investments. The company remains a massive ad‑driven business—operating Facebook, Instagram, Messenger, WhatsApp and Reality Labs—with roughly $60 billion in recent quarterly revenue and a market value near $1.6 trillion, even as shares are down about 17% from recent highs. Reports that Meta plans advertiser fee increases to offset Europe’s digital taxes have drawn mixed reactions, highlighting tension between protecting margins and risking client pushback, while some technical models still flag downside risk despite earnings resilience. Insiders have only sold stock in the past six months—multiple senior executives executed sizeable sales—which may weigh on investor sentiment. J.P. Morgan analyst Doug Anmuth maintains a Buy rating and an $825 price target, underscoring a bullish institutional view amid the company’s strategic AI moves and ongoing market volatility.
+Meta has laid off about 700 employees across teams including Reality Labs. Hours later, the company approved a multi-tranche stock-option incentive plan for senior executives tied to an aggressive five-year performance goal with high exercise prices, while CEO Mark Zuckerberg is not included. The plan covers leaders including CFO Susan Li, technology chief Andrew Bosworth, Chief Product Officer Chris Cox, and operating chief Javier Olivan, with payouts only if Meta’s share price meaningfully exceeds the exercise levels. CNBC reports the thresholds are roughly $1,116 for the first tranche and about $3,727 for the top tranche, and the Wall Street Journal–cited analysis says Meta aims to grow its market capitalization to $9 trillion by 2031. Separately, Meta’s AI buildout includes projected capital expenditures up to $135 billion this year and a reported $27 billion capacity deal for dedicated data-center GPU infrastructure, intended to secure scarce accelerators and speed training and new services.
 
 **Key Points:**
-- Meta insiders executed 100 open‑market trades in the past six months — all sales and no purchases (0 buys, 100 sales).
-- Several senior executives made sizeable recent sales: CFO Susan J. Li sold 144,355 shares for an estimated $92,273,250; CTO Andrew Bosworth sold 24,842 shares for about $15,127,520; and COO Javier Olivan sold 20,356 shares for about $13,383,522 (among other insider sales listed).
-- J.P. Morgan analyst Doug Anmuth — who maintains a Buy rating and an $825 price target on META — has a TipRanks track record showing a 58.3% success rate and a 15.9% average return over the past year.
+- Meta’s stock-option incentive package was described as worth “up to $921 million” for top executives, rolling out just hours after laying off about 700 employees across teams including Reality Labs.
+- Meta framed the pay package as an “exceedingly aggressive 5-year timeline,” with a spokesperson saying: “This is a big bet… These pay packages will not be realized unless Meta achieves massive future success… As with all stock options, there is only value if the share price meaningfully exceeds the exercise price.” CNBC also notes the plan details were in SEC filings released Tuesday evening.
+- Beyond the senior executives highlighted in the summary, the plan’s listed beneficiaries also included Chief Legal Officer C.J. Mahoney and Vice Board Chair Dina Powell McCormick; the report also said the top tier could generate “windfalls” of up to about $2.7 billion depending on the stock price at exercise.
 
 ---
 
-### 2026-03-08 | Moody's Affirms Meta Aa3 Rating, Stable Outlook
-**Sentiment:** +0.42 (pos: 0.53, neg: 0.12, neu: 0.35)
+### 2026-03-26 | FTSE 100 flat as Iran uncertainty lingers
+**Sentiment:** -0.57 (pos: 0.13, neg: 0.70, neu: 0.17)
 
-Meta delivered a strong Q4 FY2025 with quarterly revenue of $59.9 billion (up 24% year‑over‑year) and full‑year revenue topping $200.97 billion, and CFO Susan Li said demand remained strong entering Q1 FY2026. Moody’s affirmed Meta’s Aa3 rating and stable outlook, citing its leading non‑search ad position and roughly 3.6 billion daily users while projecting robust revenue growth but warning that elevated capex will likely constrain free cash flow near term. Market commentary highlights that AI‑driven ad performance and efficiency gains underpin optimism, but heavy AI infrastructure spending and continued multibillion‑dollar Reality Labs losses are fueling skepticism about sustainability. Investor positioning is mixed: some institutional buyers like Empirical Asset Management materially increased META stakes, even as several insiders have been net sellers and large funds rotated their 13F holdings post‑earnings. Shares have pulled back recently below some fair‑value estimates, leaving a conditional upside that depends on whether ad momentum and AI returns can outweigh regulatory risk and high spending.
+London shares were set for a largely flat open as early gains faded and gilt yields were mixed, with markets reacting to fast-changing Middle East headlines. US President Donald Trump said he had “very good” talks with an Iranian official and paused planned strikes, but Tehran denied the talks and accused him of manipulating energy markets, leaving uncertainty high ahead of a deadline over reopening the Strait of Hormuz. Reports and analyst commentary pointed to “headline whiplash” driving sentiment between escalation fears and tentative hope, which also helped swing oil prices sharply. UK Prime Minister Keir Starmer told MPs the Iran conflict could last “for some time” and warned against “false comfort,” emphasizing it was not Britain’s war. Across broader markets, US and some Asian equities stabilized after earlier volatility, but energy-supply risk from the Strait remained a key overhang. (All of this unfolded alongside ongoing corporate updates, but investor focus stayed on the Iran/energy outlook.)
 
 **Key Points:**
-- Meta guided Q1 FY2026 revenue to $53.5–$56.5 billion, above analyst consensus (~$51.3 billion); CFO Susan Li attributed the guide to “strong demand we observed at the end of Q4 and continuing into the beginning of 2026.”
-- Meta reported quarterly EPS of $8.88, beating Wall Street’s estimate of $8.19.
-- Insider activity was heavily tilted to sales: there were 96 insider trades in the past six months and all were sales — including CFO Susan J. Li selling 144,355 shares for an estimated $92,273,250 — with other senior executives (CTO, COO, Chief Legal Officer) also selling material stakes.
+- Axios, citing an Israeli official, identified the “unidentified Iranian official” Trump spoke with as Mohammad Bagher Ghalibaf, Iran’s parliamentary speaker.
+- Reports cited by Axios and Reuters said US envoys Steve Witkoff and Jared Kushner could meet an Iranian delegation in Pakistan “as soon as this week,” with Vice President JD Vance potentially joining.
+- Hargreaves Lansdown strategist Emma Wall said the market move was driven by hope versus denial, noting: “the prospect of a ceasefire was enough to push Brent crude oil down 11% yesterday to below $100 a barrel for the first time in weeks,” before Iran’s denial and a report the UAE and Saudi Arabia may enter the war pushed oil back up.
 
 ---
 
-### 2026-03-08 | Karnataka announces social media ban for under-16s
-**Sentiment:** -0.27 (pos: 0.17, neg: 0.44, neu: 0.38)
+### 2026-03-23 | AGCO stake increase to $194.11 million
+**Sentiment:** +0.34 (pos: 0.43, neg: 0.09, neu: 0.48)
 
-In its 2026–27 budget, Karnataka announced a major education package that includes a ban on social-media use for children under 16 (described in some reports as a ban on mobile-phone use), the rollout of AI-powered personal tutors for over 1.2 million government students, and a plan to upgrade 800 schools into Karnataka Public Schools with an investment of around INR 3,900 crore. The state says the measures aim to curb mental-health and academic harms from excessive screen time, but it has not yet released Standard Operating Procedures or a clear enforcement roadmap; Chief Minister Siddaramaiah said a programme will be formulated. Parents, child-rights activists, psychiatrists and school associations broadly welcomed the intent but warned implementation will be difficult given homework and communication via apps, the ease of falsifying ages, and uncertainty over monitoring or penalties. Meta cautioned regulators not to push teenagers toward unregulated platforms and urged balanced rules, while observers note similar age-restriction approaches are being discussed or adopted in countries such as Australia and the UK. Overall, the budget signals a technology-forward push to improve learning outcomes but raises immediate questions about enforceability, students’ access to digital education tools, and protections for children’s rights.
+Davis Selected Advisers modestly increased its stake in AGCO by about 0.5% in the third quarter, ending with 1,812,922 shares valued in its most recent SEC filing. The firm sharply trimmed its holding in the iShares S&P 500 Value ETF (IVE), cutting its position by 39.8% to 6,614 shares (worth about $1.366 million). It also raised its real estate exposure, increasing BXP by 14.4% to 239,760 shares (about $17.824 million). Davis Selected Advisers likewise boosted American Homes 4 Rent (AMH) by 14.1% to 285,600 shares (about $9.496 million) and increased Cousins Properties (CUZ) by 11.3% to 512,355 shares (about $14.828 million). Overall, the filings described a mix of trimming in the value ETF while adding to multiple individual REIT positions.
 
 **Key Points:**
-- Chief Minister Siddaramaiah clarified that children below 16 can physically keep mobile phones but will be barred from using social media: "children below 16 years can keep a mobile phone, but they cannot use social media. We will ban social media for them," he said.
-- The budget also includes a plan to revive student union elections in colleges and universities — elections that were banned decades ago amid clashes — a move some Vice-Chancellors reportedly opposed even as they welcomed the mobile/social-media restriction.
-- The central government's Economic Survey (tabled in January) recommended considering age-based access to online platforms and reducing online teaching to avoid digital addiction — a rationale cited in state discussions around the restriction.
+- In its AGCO filing, Davis Selected Advisers said it bought an additional 8,358 shares during the quarter, bringing its total to 1,812,922 shares.
+- For IVE, the article included broader fund market details beyond Davis’s trim: it opened at $209.93, had a 52-week range of $165.45–$223.05, and showed a market cap of about $47.42 billion with a P/E of 20.70 and beta of 0.89.
+- For BXP, the report noted concentration in institutional ownership—"Institutional investors own 98.72% of the company’s stock"—and provided trading context including that BXP opened at $52.96 that day (with a 50-day moving average referenced at $61.16).
 
 ---
 
-### 2026-03-07 | Meta plans custom AI chips, training teams
-**Sentiment:** +0.32 (pos: 0.41, neg: 0.10, neu: 0.49)
+### 2026-03-22 | Major Funds Reduce Meta Holdings
+**Sentiment:** -0.22 (pos: 0.22, neg: 0.44, neu: 0.35)
 
-Meta is building an applied AI engineering organization to provide the tooling, data pipelines, evaluation systems and real‑world feedback loops needed to train and improve its frontier models; the group will be led by Maher Saba, report to CTO Andrew Bosworth, and work closely with Meta Superintelligence Labs under Alexandr Wang. Company leadership emphasizes that model progress requires not just research and compute but production engineering that turns real‑world data into faster, better model improvements. Separately, Meta is expanding its custom‑chip effort beyond ranking and recommendation workloads toward training larger AI models, with CFO Susan Li saying some workloads are specialized enough to warrant in‑house silicon and the firm reportedly began testing a first training chip in early 2025. That push for custom processors is intended to improve performance and cost efficiency and to reduce reliance on third‑party suppliers even as Meta continues to make large purchases from Nvidia and AMD. Together, the initiatives signal Meta’s effort to vertically integrate model research, production engineering, data pipelines, and hardware to accelerate its superintelligence ambitions.
+Multiple institutional investors have recently rebalanced their holdings in Meta Platforms, with Invesco Discovery Large Cap Fund selling 126,868 shares (about a 25.9% reduction) and holding roughly $235 million of the stock, Dodge & Cox selling 200,046 shares (a 4.8% cut) leaving about $2.91 billion in holdings, Capital Wealth Planning trimming its position by 20.2% (selling 194,492 shares), and Zuckerman Investment Group reducing its stake by 3.5% (selling 1,371 shares). At the same time, large asset managers including various Capital Group ETFs, Vanguard, State Street, Geode and Capital World Investors have boosted or modestly increased positions, leaving institutional owners with roughly 79.91% of outstanding shares. Meta announced a quarterly dividend of $0.525 (annualized $2.10), implying about a 0.34% yield, with a record date in mid‑March and payment later that month. Insider filings show continued executive selling: COO Javier Olivan disclosed multiple sales (including 926 shares at an average of $634.94), and other senior executives such as CTO Andrew Bosworth and CFO Susan J. Li have also reported sales in recent filings. These filings, disclosed in recent 13F and SEC reports, indicate active portfolio rebalancing among institutions and ongoing insider stock sales amid the company’s high institutional ownership.
 
 **Key Points:**
-- The new applied AI engineering organization will be split into two primary teams — one focused on building tooling and the other on data pipelines to support the model development pipeline.
-- Maher Saba, who will lead the new group, currently serves as a vice president in Meta’s Reality Labs division.
-- Meta reportedly began testing its first in‑house AI training chip in early 2025, but executives’ plans to deploy generative AI workloads more broadly in 2026 have been complicated by problems with some sophisticated chip designs.
+- The company’s payout ratio was reported in filings as 0.090000%.
+- Capital Group Growth ETF increased its Meta stake by 14.48%, buying 274,341 shares to hold 2,169,603 shares valued at about $1,405,794,260.
+- Dodge & Cox’s Meta position represents roughly 1.6% of its total portfolio, making Meta its 24th-largest holding.
 
 ---
 
-### 2026-03-07 | Level Four Advisory Increases ETF Stakes to $23.7M
-**Sentiment:** +0.39 (pos: 0.46, neg: 0.07, neu: 0.47)
+### 2026-03-22 | Tigress Maintains Meta Strong Buy, $945 Target
+**Sentiment:** +0.09 (pos: 0.36, neg: 0.26, neu: 0.38)
 
-Level Four Advisory Services LLC materially increased its ETF holdings in the third quarter, filing big purchases of SPHQ (up 496.8% to 83,376 shares, about $6.11M), IWP (up 676.5% to 29,693 shares, about $4.23M), FEZ (up 33.2% to 91,964 shares, about $5.71M), JEPQ (up 41.9% to 53,434 shares, about $3.07M), and JEPI (up 30.0% to 79,270 shares, about $4.53M). These moves span U.S. large‑cap quality, mid‑cap growth, European equities, and equity‑premium/income strategies, indicating a diversified accumulation across asset and style exposures. The 13F disclosures also show numerous other institutional investors adjusting positions in the same ETFs during the period, pointing to broader portfolio rebalancing in ETF markets. Taken together, the filings portray Level Four building sizable, varied ETF stakes rather than concentrating in a single market segment.
-
-**Key Points:**
-- The Invesco S&P 500 Quality ETF (SPHQ) that Level Four bought has a market capitalization of about $16.20 billion, a P/E ratio of 25.36, a beta of 0.92, 50- and 200-day simple moving averages of $78.05 and $75.16 respectively, and a 1-year trading range of $57.67–$81.04.
-- iShares Russell Mid‑Cap Growth ETF (IWP) is heavily held by institutions: hedge funds and other institutional investors own roughly 74.49% of the fund.
-- Other very large institutional buyers also added sizable positions in the SPDR EURO STOXX 50 ETF (FEZ) around the same period — notable moves included purchases by Prudential PLC, Cetera Investment Advisers, Thrivent Financial, Ameriprise Financial and a large increase by Sumitomo Life Insurance Co.
-
----
-
-### 2026-03-07 | Indonesia warns Meta over harmful content
-**Sentiment:** -0.33 (pos: 0.13, neg: 0.46, neu: 0.41)
-
-Indonesia’s communications ministry issued a stern warning to Meta Platforms after an unscheduled visit by Communications and Digital Affairs Minister Meutya Hafid, saying the company has not adequately policed harmful content across Facebook, Instagram and WhatsApp. The ministry reports Meta acted on only about 28.47% of flagged items, with persistent disinformation, online gambling promotion, defamation, hate speech and health misinformation circulating widely. Hafid pressed Meta to be more transparent about its algorithms and content-moderation practices, asked for a formal commitment to improve compliance, and said the ministry has set a deadline for action. The government has also enacted Government Regulation No. 17 of 2025 (PP TUNAS) to impose age restrictions and child-safety measures and strengthen personal data protections, and officials urged Meta to accelerate technical, reporting and takedown measures given Indonesia’s large internet user base.
+Tigress Financial reaffirmed a “Strong Buy” rating on Meta Platforms and raised its price target to $945, citing continued confidence in the company’s growth prospects. Other bullish Wall Street calls backed Meta as it shifts toward AI, including JPMorgan’s “Overweight” stance and Bernstein’s “Outperform,” both tied to expectations that AI could strengthen Meta’s long-term outlook; those views came amid reporting that Meta plans to cut about 20% of its workforce to help offset AI infrastructure costs. The debate over the AI transition remains mixed, with Needham keeping a “Hold” rating and pointing to risks such as the long, capital-intensive path to more advanced AI and concerns that Meta’s open approach (including Llama models) may limit monetization and value capture from consumer data. Investor activity also reflected ongoing interest: Zacks Focus Growth ETF increased its Meta stake by buying an additional 769 shares (to 3,074 shares), and other large funds also reported stake increases in recent filings. Meta remains a dominant social-media platform, with roughly 4 billion monthly active users worldwide and a “Family of Apps” anchored by Facebook, Instagram, Messenger, and WhatsApp.
 
 **Key Points:**
-- The unannounced inspection of Meta’s Jakarta office occurred on March 5, 2026.
-- The ministry flagged a rise in digital crimes — including online fraud and scams — saying these are becoming more widespread and affect both middle-class and lower-income communities.
-- Officials warned that disinformation related to government policies and national development could create divisions between the public and the government or even spark social conflict.
-
----
-
-### 2026-03-07 | AMD stock surges after Meta deal, AI demand
-**Sentiment:** +0.08 (pos: 0.47, neg: 0.39, neu: 0.14)
-
-Advanced Micro Devices shares jumped about 5.7% to roughly $202 in early March after a string of AI-focused announcements that boosted investor confidence. The centerpiece was a multi‑year, 6‑gigawatt agreement with Meta to supply Instinct GPUs for Meta’s AI infrastructure, a deal structured with GPU deliveries and warrants that analysts say could be transformational. AMD also unveiled its Ryzen AI 400 series for next‑gen AI PCs, announced a $150 million partnership with Nutanix, opened a research lab at the University of Toronto, and outlined further AI hardware plans including the MI450 accelerator and related rack-scale solutions. Wall Street firms including Piper Sandler, Jefferies and TD Cowen reaffirmed bullish ratings and roughly $290–$300 price targets, while advisers note the warrants and deal costs offset some near-term profits but help establish market presence. Despite the rally, AMD remains below its year‑to‑date highs and faces recent macro pressures, though executives forecast multi‑year growth and institutional ownership is high.
-
-**Key Points:**
-- Piper Sandler said the Meta partnership could position AMD to generate roughly $100 billion in revenue over the next five years.
-- The Meta agreement is structured as a roughly five-year, ~$100 billion arrangement that includes up to 160 million performance-based warrants allowing Meta to buy AMD shares at a reduced price.
-- The warrants tied to the Meta deal are scheduled to expire in February 2031.
-
----
-
-### 2026-03-06 | Meta CFO sells $36M, COO sells $990K
-**Sentiment:** +0.20 (pos: 0.40, neg: 0.20, neu: 0.40)
-
-Meta executives have been selling notable stakes: COO Javier Olivan sold 1,555 Class A shares on March 2 under a prearranged Rule 10b5-1 plan adopted Nov. 17, 2025, for roughly $990,861 while still directly holding 16,113 shares, and filings show he executed multiple other tranches in February and March. CFO Susan Li divested 56,571 shares on Feb. 27 via a 10b5-1 plan established Nov. 25, 2025, generating about $36.47 million and leaving her foundation with no direct Class A holdings while she retains indirect ownership. The insider sales follow Meta’s strong Q4 results and come as the company accelerates AI initiatives, including a multiyear News Corp content licensing deal potentially worth up to $50 million per year and the recent announcement of a quarterly dividend. Institutional activity also shifted, with Farley Capital trimming its Meta position by 23.3% in the third quarter to about $7.95 million in holdings, and Wall Street maintaining a “Moderate Buy” consensus with an elevated price target.
-
-**Key Points:**
-- Olivan’s March 2 sale was completed in five separate transactions, with shares sold not only personally but also via entities: Olivan D LLC (82 shares), Olivan Reinhold D LLC (57), Reinhold D LLC (82) and the Olivan Reinhold Family Revocable Trust (408), in addition to 926 shares sold directly by Olivan.
-- Javier Olivan executed a series of additional insider sales across January and February (multiple tranches on Feb. 2, Feb. 9, Feb. 15, Feb. 17, Feb. 23 and Mar. 2) at varying prices, a pattern that amounted to a 5.43% decrease in his direct ownership and left him with 16,113 directly held shares valued at roughly $10.27 million after the March 2 trades.
-- CFO Susan Li’s divestiture was processed through the Li‑Hegeman Family Foundation and, while that foundation’s direct Class A holdings fell to zero, Li continues to hold indirect ownership of 13,186 shares via the Li‑Hegeman Living Trust.
-
----
-
-### 2026-03-06 | Meta Opens WhatsApp to Rival AI Chatbots
-**Sentiment:** -0.50 (pos: 0.08, neg: 0.58, neu: 0.34)
-
-Facing regulatory pressure, Meta has paused plans to block third-party AI assistants and will allow rival chatbots to use the WhatsApp Business API in Europe for 12 months while the European Commission investigates. Brazil’s antitrust authority CADE likewise rejected Meta’s appeal, forcing the company to permit external chatbots there as well and prompting a rollout tied to legal requirements. Meta says it will charge per-message fees for these integrations—€0.0490 to €0.1323 per non-template message in Europe and $0.0625 per non-template message in Brazil—effective as regulators’ orders take hold. European and Brazilian regulators argued that an outright ban on external AI services would be disproportionate and risk harming competition in messaging and adjacent AI markets. Developers warn the per-message pricing could create prohibitive costs for smaller firms, while Meta defends the move by saying the WhatsApp Business API was not designed for high-volume AI chatbots and that such use strains the system.
-
-**Key Points:**
-- Meta already embeds its own Llama-powered Meta AI across its apps — Facebook, Instagram, WhatsApp and Messenger — a factor regulators cited when assessing whether blocking third-party chatbots would favor Meta’s in-house assistant.
-- Meta began allowing third-party chatbots via the WhatsApp Business API in Italy on Feb. 16, 2026, with the change scheduled to roll out to 30 more European countries on March 11, 2026.
-- The reopening of the Business API is limited to general-purpose conversational AI assistants; companies using AI for customer-support automations (template-based business messaging) are not affected by the policy change in the same way.
-
----
-
-### 2026-03-06 | Meta, AMD Report 6GW, $60–100B AI Deal
-**Sentiment:** +0.70 (pos: 0.75, neg: 0.05, neu: 0.20)
-
-Meta has struck a landmark multi‑year agreement with AMD to deploy six gigawatts of AI computing capacity beginning in the second half of 2026, a procurement industry sources value at roughly $60–100 billion (and described by some outlets as potentially up to $100 billion). The deal includes performance‑based warrants allowing Meta to acquire up to 160 million AMD shares—potentially roughly a 10% stake—contingent on project and stock milestones, which could make Meta a major shareholder. AMD will supply custom Instinct MI450 GPUs (built on TSMC 2nm‑class processes with next‑gen HBM4) alongside 6th‑generation EPYC CPUs tuned for Meta’s Llama‑class models, signaling deep technical integration. Markets reacted positively, with AMD shares jumping and firms like TD Cowen reaffirming Buy ratings and price targets, even as other analysts warned initial gains may not be sustained. Meta frames the purchase as part of its Meta Compute strategy to scale tens to hundreds of gigawatts to secure AI leadership, but some investors caution the pace of AI capex risks creating a spending bubble. Observers call the move the “Gigawatt Pivot,” a pivotal shift away from single‑vendor dominance toward a duopoly and more competitive, multi‑vendor high‑end AI infrastructure landscape.
-
-**Key Points:**
-- AMD CEO Lisa Su said the transactions will be worth “double‑digit billions” of dollars per gigawatt, indicating a per‑GW pricing level well into the billions.
-- Technical specs in the deal include AMD’s Instinct MI450 GPUs with next‑generation HBM4 memory delivering roughly 19.6 TB/s of bandwidth, built on a TSMC 2nm‑class node, underscoring deep hardware tuning for Meta’s Llama‑class models.
-- Analyst reactions were mixed in detail: TD Cowen reaffirmed a Buy rating and set a $290 price target on AMD, while RBC Capital retained a Sector Perform rating and Mizuho warned that initial stock gains may not be sustained.
+- Tigress Financial’s “Strong Buy” reiteration came from analyst Ivan Feinseth, who lifted Meta’s price target from $935 to $945 (a 1.07% increase).
+- JPMorgan estimated Meta’s planned workforce cuts could save $5–6 billion, while noting that this would be relatively small versus Meta’s projected total expenses of about $162–169 billion for the year.
+- Bernstein argued Meta is well positioned for an “AI-first” shift, citing the company’s post–COVID restructuring (reducing non-technical roles and streamlining management layers) and pointing to a currently strong 82% gross profit margin plus $200.97 billion in trailing revenue (22% year-over-year growth).
 
 ---
 
 ## FMP Articles (30 articles)
 
-### 2026-05-10 | Uh-Oh! President Trump’s Landmark Tax Cuts Bill Could Be What Kills the Trump Bull Market
-**Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/05/10/uh-oh-president-trumps-landmark-tax-cuts-bill-could-be-what-kills-the-trump-bull-market/
+### 2026-05-29 | Meta Platforms (META) Up 3.8% Since Last Earnings Report: Can It Continue?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2929257/meta-platforms-meta-up-3-8-since-last-earnings-report-can-it-continue?cid=CS-STOCKNEWSAPI-FT-realtime_blog-2929257
 
-The stock market has been on a tear during President Donald Trump's second term. Since Jan. 20, 2025, the S&P 500 has climbed 23.4%. More stunningly, it has surged 48.5% since the April 8, 2025 tariff panic low, as investors decided the White House's trade fights were survivable and artificial intelligence spending was unstoppable. That... Uh-Oh! President Trump's Landmark Tax Cuts Bill Could Be What Kills the Trump Bull Market
-
----
-
-### 2026-05-09 | Paul Tudor Jones Warns Trump-Era Market Boom Could End in a 35% Crash. Here’s Why He’s Still Buying Stocks
-**Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/05/09/paul-tudor-jones-warns-trump-era-market-boom-could-end-in-a-35-crash-heres-why-hes-still-buying-stocks/
-
-Wall Street has embraced the return of pro-growth economic policies, lighter regulation, and an AI spending boom, helping push U.S. stocks to record territory again under President Donald Trump. Yet as warning signs pile up, legendary investor Paul Tudor Jones says the same forces driving markets higher today may also be laying the groundwork for... Paul Tudor Jones Warns Trump-Era Market Boom Could End in a 35% Crash. Here's Why He's Still Buying Stocks
+Meta Platforms (META) reported earnings 30 days ago. What's next for the stock?
 
 ---
 
-### 2026-05-09 | BlackRock's Larry Fink Says AI Is Creating a New Trillion Dollar Asset Class — And Trump's Policies May Accelerate It
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/09/blackrocks-larry-fink-says-ai-is-creating-a-new-trillion-dollar-asset-class-and-trumps-policies-may-accelerate-it/
-
-Artificial intelligence has already reshaped the stock market.
-
----
-
-### 2026-05-09 | Apple dominated the 2026 chip war. Google's partners are left to buy scraps
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/09/apple-dominated-the-2026-chip-war-googles-partners-are-left-to-buy-scraps/
-
-Apple (NASDAQ: AAPL | AAPL Price Prediction) and Alphabet (NASDAQ: GOOGL) both just reported, and the contrast runs deeper than the headline numbers suggest.
-
----
-
-### 2026-05-09 | Why Meta's Pullback Looks Bullish
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4901949-meta-pullback-looks-bullish
-
-Meta AI adoption accelerated across Facebook, Instagram, WhatsApp, and Ray-Ban devices as Business AI conversations surged 10x YTD. Q1 revenue climbed 33% YoY to $56.3 billion while ad impressions rose 19% and average ad prices increased 12%. AI-powered recommendation systems improved Facebook and Instagram conversion rates, supporting stronger engagement and expanding advertising monetization efficiency.
-
----
-
-### 2026-05-09 | $5,000 Monthly Passive Income For Financial Freedom
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4899045-5000-monthly-passive-income-for-financial-freedom
-
-In this article, we will discuss why financial independence is important, not just for retirees but for anyone aspiring for a stress-free and secure financial life. We present a buy-and-hold, easy-to-maintain portfolio formed with only nine funds. The portfolio is income-focused and is diversified in termsof strategies and asset classes, and likely to provide market-matchinggrowth. We will also demonstrate that if you invest a reasonable sum today inincome-growing funds, it takes roughly 10-12 years to potentially generate$5,000 of monthly income.
-
----
-
-### 2026-05-09 | Missed April's AI Rally? These 3 Stocks Still Look Like Bargains.
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/09/missed-aprils-ai-rally-these-3-stocks-still-look-l/
-
-Several megacaps are still well below their all-time highs.
-
----
-
-### 2026-05-09 | Alphabet, Microsoft, Amazon, and Meta Platforms Just Reported Earnings. Which Is the Best Buy?
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/09/alphabet-microsoft-amazon-and-meta-platforms-just/
-
-The AI hyperscalers are all delivering solid results.
-
----
-
-### 2026-05-08 | Deal Dispatch: J.M. Smucker Considers Strategic Review, Meta Buys Assured Robot Intelligence, Buzzfeed On Brink Of Bankruptcy
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/m-a/26/05/52423926/deal-dispatch-j-m-smucker-considers-strategic-review-meta-buys-assured-robot-intelligence-buzzfeed-on-brink-of-bankruptcy
-
-Popular peanut butter and jelly brand J.M. Smucker (NYSE:SJM) hired Goldman Sachs to conduct a strategic review of its portfolio, sources told Axios Pro.
-
----
-
-### 2026-05-08 | Semiconductors Just Hit a 25-Year High and These Three Stocks Still Have Room to Run
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/opinion/26/05/52422038/semiconductors-just-hit-a-25-year-high-and-these-three-stocks-still-have-room-to-run
-
-The PHLX Semiconductor Index just reached its highest level since March 2000, the last time chips were this hot, the dot-com bubble burst six months later. This time, the underlying business is real: AI infrastructure spending is accelerating, hyperscalers are committing hundreds of billions to data centers, and the companies supplying the picks and shovels are printing cash.
-
----
-
-### 2026-04-10 | Massive News for Meta Stock Investors
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/10/massive-news-for-meta-stock-investors/
-
-Meta Platforms (META +0.22%) announced major news that sent its stock price soaring.
-
----
-
-### 2026-04-10 | Meta Platforms: A Strong Contender in the Social Media Arena
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/10/meta-platforms-a-strong-contender-in-the-social-me/
-
-Explore the exciting world of Meta Platforms (META +0.22%) with our contributing expert analysts in this Motley Fool Scoreboard episode. Check out the video below to gain valuable insights into market trends and potential investment opportunities!
-
----
-
-### 2026-04-10 | Meta launches Muse Spark, its most powerful AI model yet
-**Source:** CNBC Television
-**URL:** https://www.youtube.com/shorts/Us8PCpQUogE
-
-Meta's long-awaited AI model Muse Spark is finally here. CNBC's Julia Boorstin explores why the launch is such a big deal for Meta.
-
----
-
-### 2026-04-10 | Meta must face youth addiction lawsuit by Massachusetts, court rules
-**Source:** New York Post
-**URL:** https://nypost.com/2026/04/10/business/meta-must-face-youth-addiction-lawsuit-by-massachusetts-court-rules/
-
-The Massachusetts Supreme Judicial Court's ruling marked the first time a state high court has considered whether a federal law that generally shields internet companies from lawsuits over content posted by users.
-
----
-
-### 2026-04-10 | Meta's AI Outlook Brightens With Muse Spark Release
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/Opinion/26/04/51758783/metas-ai-outlook-brightens-with-muse-spark-release
-
-What Is Muse Spark
-
----
-
-### 2026-04-10 | Meta's Latest $21 Billion Move Could Help De-Risk CoreWeave's Growth: Analyst
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/analyst-stock-ratings/reiteration/26/04/51758621/metas-latest-21-billion-move-could-help-de-risk-coreweaves-growth-analyst
-
-Murphy reiterated a Neutral rating on CoreWeave with a $90 price forecast on Thursday.
-
----
-
-### 2026-04-10 | Got $10,000? Here's the Clear Winner Between Meta and Alphabet
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/04/10/got-10000-heres-the-clear-winner-between-meta-and-alphabet/
-
-Alphabet (NASDAQ:GOOG | GOOG Price Prediction) and Meta Platforms (NASDAQ:META) both beat expectations in the quarterly results, but their business models, cost structures, and AI strategies diverge meaningfully.
-
----
-
-### 2026-04-10 | META Muse Spark & AI Strategies: Social Media Giant Primed for Further Growth?
-**Source:** Schwab Network
-**URL:** https://www.youtube.com/watch?v=XBR9Iso1eDM
-
-As Meta Platforms (META) battles legal suits and juggles exuberant CapEx in its AI buildout, Ron Westfall still sees lots of upside as the Mag 7 company trades below its historical value. He points to Meta's new Muse Spark LLM as the latest innovation he sees bolstering the balance sheet long-term.
-
----
-
-### 2026-04-10 | CoreWeave Stock's Momentum Score Spikes As $21 Billion Meta Deal Ignites Rally
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/markets/equities/26/04/51755678/coreweave-stocks-momentum-score-spikes-as-21-billion-meta-deal-ignites-rally
-
-CoreWeave Inc. (NASDAQ: CRWV) is experiencing a massive technical reversal, with its Benzinga Edge momentum score surging from 32.22 to 73.68 in a single week amid analyst optimism.
-
----
-
-### 2026-04-10 | Meta must face youth addiction lawsuit by Massachusetts, court rules
+### 2026-05-29 | Exclusive: Meta tool to track employee mouse clicks on collision course with EU privacy rules
 **Source:** Reuters
-**URL:** https://www.reuters.com/world/meta-must-face-youth-addiction-lawsuit-by-massachusetts-court-rules-2026-04-10/
+**URL:** https://www.reuters.com/business/meta-tool-track-employee-mouse-clicks-collision-course-with-eu-privacy-rules-2026-05-29/
 
-Meta Platforms must face a lawsuit by Massachusetts' attorney general alleging that the Facebook and Instagram parent deliberately designed features to addict young users, the state's top court ruled on Friday.
-
----
-
-### 2026-03-11 | Big tech given warning - and deadline - by UK regulator
-**Source:** Skynews
-**URL:** https://news.sky.com/story/tech-giants-warned-to-protect-children-online-as-ofcom-hands-down-deadline-13518297
-
-Tech companies have been warned to protect young people online after MPs voted down a blanket social media ban for under-16s.
+Meta Platforms' plan to collect detailed records of U.S. employees' computer usage for training its AI models is more extensive than initially described and set to capture non-U.S. data in the process, according to internal documentation seen by ​Reuters.
 
 ---
 
-### 2026-03-11 | UK watchdogs press Meta, TikTok, Snap and YouTube to block children
-**Source:** Reuters
-**URL:** https://www.reuters.com/legal/litigation/uk-watchdogs-press-meta-tiktok-snap-youtube-block-children-2026-03-12/
+### 2026-05-29 | This Dirt Cheap Magnificent Seven Stock May Be a Once-in-a-Decade Buying Opportunity Right Now.
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/05/29/this-dirt-cheap-magnificent-seven-stock-is-a-once/
 
-Britain's media and privacy regulators on Thursday demanded that major social media platforms do more to keep children ​off their services, warning that companies were failing to enforce ‌their own minimum age rules.
+This player is the cheapest of the Magnificent Seven.
 
 ---
 
-### 2026-03-11 | 3 Top Artificial Intelligence Stocks to Buy in March
+### 2026-05-29 | Michael Burry Keeps Calling The Top. This Bull Market Indicator Isn't Buying It
+**Source:** Benzinga
+**URL:** https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/05/52878478/michael-burry-keeps-calling-the-top-this-bull-market-indicator-isnt-buying-it
+
+Michael Burry thinks the stock market may finally be approaching the moment he's been warning about. Earlier this month, writing on his Substack, Cassandra Unchained, the famed investor behind ‘The Big Short,' declared that “the market has jumped the shark” and suggested history was beginning to rhyme with previous market peaks.
+
+---
+
+### 2026-05-29 | Is Big Tech Creating a National Security Crisis? Pentagon Says U.S. Troops Were Targeted Using Ad Data
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/29/is-big-tech-creating-a-national-security-crisis-pentagon-says-u-s-troops-were-targeted-using-ad-data/
+
+Advertising has quietly become the economic engine powering much of the modern internet.
+
+---
+
+### 2026-05-29 | Will Meta Stock Hit $800 This Year?
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/29/will-meta-stock-hit-800-this-year/
+
+The $800 question for Meta Platforms (NASDAQ:META | META Price Prediction) comes down to whether the AI capex narrative can re-rate the multiple before late-2026 expense growth bites.
+
+---
+
+### 2026-05-29 | Meta Platforms Could Open Up a Massive New Revenue Stream
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/11/top-artificial-intelligence-stocks-to-buy-march/
+**URL:** https://www.fool.com/investing/2026/05/29/meta-platforms-could-open-up-a-massive-new-revenue-stream/
 
-Nvidia remains well-positioned to benefit from huge AI infrastructure spending. With the most complete AI stack, Alphabet is a top AI stock.
-
----
-
-### 2026-03-11 | The memory stock cycle of boom-bust-repeat is over, executives say
-**Source:** CNBC
-**URL:** https://www.cnbc.com/2026/03/11/memory-stocks-ai-chips-demand.html
-
-Memory stocks are soaring, and executives say that AI has upended the industry's old boom-bust cycle. Hyperscalers are more keen on signing long-term deals to lock in supply for years.
+Meta CEO Mark Zuckerberg said the company is considering launching a cloud computing business. Its first priority is using its compute capacity for its own needs.
 
 ---
 
-### 2026-03-11 | Meta to Deploy Homegrown Chips, Uber to Offer Zoox Rides | Bloomberg Tech 3/11/2026
-**Source:** Bloomberg Technology
-**URL:** https://www.youtube.com/watch?v=vYcm0JtlF9A
+### 2026-05-29 | Live Nasdaq Composite: Tech Stocks Fuel Historic May Gains as AI Earnings Impress
+**Source:** 247 Wallst
+**URL:** https://247wallst.com/investing/2026/05/29/live-nasdaq-composite-tech-stocks-fuel-historic-may-gains-as-ai-earnings-impress/
 
-Bloomberg's Caroline Hyde and Ed Ludlow discuss Oracle's strong third quarter sales and full year outlook as demand for AI computing shows no sign of letting up. Plus, Meta plans to deploy four new generations of its in-house AI chips by the end of 2027 to help power its rapidly expanding AI workloads.
-
----
-
-### 2026-03-11 | Meta Expands In-House AI Chip Roadmap
-**Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8699194/meta-expands-inhouse-ai-chip-roadmap
-
-Meta (META) introduced updates to its in-house Meta Training and Inference Accelerator chip roadmap. The MTIA 300 is already deployed for ranking and recommenda
+Live Updates Act now: the analyst who called NVIDIA in 2010 just named his top 10 AI stocks - and Dell Technologies didn't make the cut. Grab the names FREE today. Morgan Stanley on Memory Chip Market 10 minutes ago Live Morgan Stanley is predicting a tighter-than-expected setup in the older memory chip market, with... Live Nasdaq Composite: Tech Stocks Fuel Historic May Gains as AI Earnings Impress
 
 ---
 
-### 2026-03-11 | Meta Platforms Is on a Spending Spree -- and It's Massive. Here's Some Telling Perspective.
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/11/meta-platforms-is-on-a-spending-spree-and-its-mass/
+### 2026-05-29 | Trump's nuclear agenda could IGNITE America's BIGGEST energy comeback
+**Source:** Fox Business
+**URL:** https://www.youtube.com/watch?v=HKobuXyxmdk
 
-Meta management expects capital expenditures to be at least $115 billion in 2026, marking a massive acceleration in infrastructure spending. Surging operating cash flow gives the company the resources to fund its artificial intelligence ambitions.
-
----
-
-### 2026-03-11 | Meta further diversifies beyond Nvidia as it unveils four custom AI chips
-**Source:** Market Watch
-**URL:** https://www.marketwatch.com/story/meta-further-diversifies-beyond-nvidia-as-it-unveils-four-custom-ai-chips-3fbd30d0
-
-The tech giant's AI chips are used to train and power its ranking and recommendations systems and AI models.
+Oklo CEO Jacob DeWitte joins 'Mornings with Maria' to discuss the rising AI energy demand, a major Meta partnership and President Donald Trump's nuclear agenda are accelerating America's nuclear future.
 
 ---
 
-### 2026-03-11 | Meta Taps AI to Combat Fraud Across WhatsApp and Facebook
+### 2026-05-29 | Meta's Manus Mess: Why China Blocked the Deal and What It Means
+**Source:** MarketBeat
+**URL:** https://www.marketbeat.com/originals/metas-manus-mess-why-china-blocked-the-deal-and-what-happens-next/
+
+Meta Platforms NASDAQ: META took a real step forward with its artificial intelligence (AI) strategy in April. The company announced the release of its Muse Spark model, helping shares of the tech stock go on a solid run.
+
+---
+
+### 2026-04-29 | Meta Spending BILLIONS on Custom AI Chips | Zuckerberg Explains Why
+**Source:** Yahoo Finance
+**URL:** https://www.youtube.com/watch?v=m-A08IarONQ
+
+Meta is ramping up AI spending—but says the future of work may look very different than many expect. In its latest earnings call, the company outlined its strategy for AI infrastructure, custom chips, and how it sees AI shaping the future of work and human productivity.
+
+---
+
+### 2026-04-29 | Meta Platforms (META) Q1 Earnings: How Key Metrics Compare to Wall Street Estimates
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2911441/meta-platforms-meta-q1-earnings-how-key-metrics-compare-to-wall-street-estimates?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2911441
+
+The headline numbers for Meta Platforms (META) give insight into how the company performed in the quarter ended March 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.
+
+---
+
+### 2026-04-29 | Meta's AI Is Delivering but Comes With a Hefty Price Tag
 **Source:** PYMNTS
-**URL:** https://www.pymnts.com/fraud-prevention/2026/meta-taps-ai-to-combat-fraud-across-whatsapp-and-facebook/
+**URL:** https://www.pymnts.com/meta/2026/metas-ai-is-delivering-but-comes-with-a-hefty-price-tag/
 
-Meta has launched new artificial intelligence-powered anti-scam tools for its platforms WhatsApp, Facebook and Messenger. These tools are designed to help users of these platforms spot and avoid scammers, the company said in a Wednesday (March 11) press release.
+Meta platforms operate on a tight feedback loop across its family of apps — Facebook, Instagram and WhatsApp. Content drives engagement.
 
 ---
 
-### 2026-03-11 | Will New Custom AI Chips Propel Meta Platforms to $750?
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/03/11/will-new-custom-ai-chips-propel-meta-platforms-to-750/
+### 2026-04-29 | Investors still trust Google more than Meta when it comes to spending their money on AI
+**Source:** CNBC
+**URL:** https://www.cnbc.com/2026/04/29/investors-trust-google-more-than-meta-when-comes-to-spending-on-ai.html
 
-Meta Platforms (NASDAQ:META | META Price Prediction) unveiled four new in-house AI chips today, a move that reads like a declaration of infrastructure independence.
+Alphabet and Meta both boosted their capex guidance when they issued first-quarter earnings on Wednesday. But Wall Street applauded Google's parent while punishing Meta, a reflection on how investors view their AI strategies.
+
+---
+
+### 2026-04-29 | Amazon, Meta join fight to end Google Pay, PhonePe dominance in India
+**Source:** TechCrunch
+**URL:** https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/
+
+Amazon and Meta are among the big companies set to lobby India's payments body over the dominance of Walmart-owned PhonePe and Google Pay in the country's fast-growing instant payments network.
+
+---
+
+### 2026-04-29 | Meta's AI Bet, and the Evolution of Smart Glasses
+**Source:** CNET
+**URL:** https://www.cnet.com/tech/services-and-software/metas-ai-bet-and-the-evolution-of-smart-glasses/
+
+Meta's answer to declining user growth? Personal AI agents in its smart glasses.
+
+---
+
+### 2026-04-29 | Meta is still burning money on AR/VR
+**Source:** TechCrunch
+**URL:** https://techcrunch.com/2026/04/29/meta-is-still-burning-money-on-ar-vr/
+
+When Meta released its quarterly earnings report on Wednesday evening, a colleague pointed out how Meta lost $4 billion on Reality Labs, the division responsible for its AR glasses, VR headsets, and VR software.
+
+---
+
+### 2026-04-29 | Meta shares slide as tech giant hikes AI spending forecast, warns of youth social media backlash
+**Source:** New York Post
+**URL:** https://nypost.com/2026/04/29/business/meta-shares-slide-as-tech-giant-hikes-ai-spending-forecast-warns-of-youth-social-media-backlash/
+
+Legal and regulatory blowback in the European Union and the US "could significantly impact our business and financial results," the Facebook parent cautioned.
+
+---
+
+### 2026-04-29 | Powell to Stay on as Fed Governor, Plus Huge Mag 7 Earnings
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2911323/powell-to-stay-on-as-fed-governor-plus-huge-mag-7-earnings?cid=CS-STOCKNEWSAPI-FT-ahead_of_wall_street-2911323
+
+Fed Chair Powell says goodbye to FOMC press corps, while AI-fueled earnings & growth astound.
+
+---
+
+### 2026-04-29 | Meta Shares Plunge as AI Investments Raise Spending Outlook
+**Source:** Bloomberg Markets and Finance
+**URL:** https://www.youtube.com/watch?v=4z5OA-NFtgQ
+
+Meta Platforms Inc. shares slid after the company raised its spending outlook for the year, reigniting fears that the historic levels of investment it's making to build artificial intelligence models won't pay off. The social-media giant projected full-year capital expenditures between $125 billion and $145 billion, far exceeding analysts' estimates and marking a roughly 7.4% increase from what the company had previously projected.
+
+---
+
+### 2026-03-30 | Indonesia summons Meta and Google over non-compliance with child social media curbs, minister says
+**Source:** Reuters
+**URL:** https://www.reuters.com/legal/litigation/indonesia-summons-meta-google-over-non-compliance-with-child-social-media-curbs-2026-03-31/
+
+Indonesia summoned officials from Meta and Google over non-compliance with social media restrictions for children under 16 that went into full ​effect last week, a minister said in a video statement published ‌on Tuesday.
+
+---
+
+### 2026-03-30 | Meta Tests Instagram Subscription That Offers Exclusive Features
+**Source:** PYMNTS
+**URL:** https://www.pymnts.com/meta/2026/meta-tests-instagram-subscription-that-offers-exclusive-features/
+
+Meta is testing a premium subscription on Instagram that offers access to exclusive features, TechCrunch reported Monday (March 30), citing an email from the company. The Instagram Plus subscription is being tested in Mexico, Japan and the Philippines, and possibly other countries, the report said, citing information from users.
+
+---
+
+### 2026-03-30 | Meta Is Now Testing Premium Instagram Subscriptions
+**Source:** CNET
+**URL:** https://www.cnet.com/tech/services-and-software/meta-is-now-testing-premium-instagram-subscriptions/
+
+New features behind a paywall include spotlighting one story per week, previewing stories without showing up as a viewer and extending your stories for 24 hours.
+
+---
+
+### 2026-03-30 | Meta Aims to Share Brick-and-Mortar Success Stories With Wearables Retailers
+**Source:** PYMNTS
+**URL:** https://www.pymnts.com/meta/2026/meta-aims-to-share-brick-and-mortar-success-stories-with-wearables-retailers/
+
+Meta aims to share what it learns at its Meta Lab stores with the retailers of its artificial intelligence (AI)- and virtual reality (VR)-enabled wearables, Retail TouchPoints reported Monday (March 30).
+
+---
+
+### 2026-03-30 | Meta Platforms (META) Advances While Market Declines: Some Information for Investors
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2891814/meta-platforms-meta-advances-while-market-declines-some-information-for-investors?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2891814
+
+Meta Platforms (META) reached $536.38 at the closing of the latest trading day, reflecting a +2.03% change compared to its last close.
+
+---
+
+### 2026-03-30 | Meta Had a Very Messy March
+**Source:** Bloomberg Markets and Finance
+**URL:** https://www.youtube.com/watch?v=AuzRx2pFutY
+
+Meta's market cap is down about $280 billion this month, shares are down 17%. It could be the company's worst performance since October 2022.
+
+---
+
+### 2026-03-30 | Can Meta Platforms Get to a $9 Trillion Valuation by 2031?
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/03/30/can-meta-platforms-get-to-a-9-trillion-valuation-b/
+
+Meta Platforms has a new aggressive stock option program that's targeting a lofty valuation of $9 trillion. The stock would have to rise by around 560% to reach that level.
+
+---
+
+### 2026-03-30 | Meta faces regulatory risks but Jefferie sees buying opportunity
+**Source:** Proactive Investors
+**URL:** https://www.proactiveinvestors.com/companies/news/1089773
+
+Analysts at Jefferies say that while regulatory scrutiny may affect Meta Platforms Inc (NASDAQ:META, XETRA:FB2A, SIX:FB), the company could still present attractive long-term investment opportunities. In a note to clients, Jefferies highlighted that concerns around regulatory and court-related issues have been persistent for years and may not be as severe as feared.
+
+---
+
+### 2026-03-30 | Meta Shares Rise 2% After Key Trading Signal
+**Source:** Benzinga
+**URL:** https://www.benzinga.com/Opinion/26/03/51551044/meta-shares-rise-2-percent-after-key-trading-signal
+
+Meta Platforms Inc (NASDAQ: META) experienced a significant Power Inflow alert, a key bullish indicator that is closely tracked by traders who value order flow analytics, specifically institutional and retail order flow data.
+
+---
+
+### 2026-03-30 | Meta starts testing a premium subscription on Instagram
+**Source:** TechCrunch
+**URL:** https://techcrunch.com/2026/03/30/meta-starts-testing-a-premium-subscription-on-instagram/
+
+Meta has begun testing a premium subscription on Instagram in a few countries, the company confirmed to TechCrunch on Monday. The subscription, called Instagram Plus, unlocks access to exclusive features.
 
 ---

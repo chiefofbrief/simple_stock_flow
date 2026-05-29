@@ -10,7 +10,7 @@ Metrics updated (all auto-computed columns):
   Mkt Cap | Spread | P/E Corr | Price | Price vs_1Y | Price vs_2Y |
   EPS TTM | EPS vs_1Y | EPS vs_2Y | EPS QoQ (4Q) | P/E | P/OE |
   ROIC | ROIC Δ1Y | ROIC Δ2Y | OCF/NI | FCF TTM | FCF vs_1Y | FCF vs_2Y |
-  Rev TTM | Rev vs_1Y | Rev vs_2Y | Debt/OCF | Next Earn
+  Rev TTM | Rev vs_1Y | Rev vs_2Y | Debt/OCF | Next Earn | Last Earn
 
 Manual columns (read but never overwritten):
   Tag | Thesis | $/Dollar
@@ -76,8 +76,9 @@ MARKET_COL_INDICES = {
     "rev_vs2y":       24,
     "debt_ocf":       25,
     "next_earn":      26,
-    # col 27 = Thesis   — manual, never overwritten
-    # col 28 = $/Dollar — manual, never overwritten
+    "last_earn":      27,
+    # col 28 = Thesis   — manual, never overwritten
+    # col 29 = $/Dollar — manual, never overwritten
 }
 
 # Trade Tracker column indices (unchanged from v1)
@@ -537,6 +538,17 @@ def extract_next_earnings(earnings_history):
     return None
 
 
+def extract_last_earnings(earnings_history):
+    """Most recent quarter where actual EPS was reported."""
+    if not earnings_history:
+        return None
+    for h in earnings_history:
+        act = safe_float(h.get("epsActual"))
+        if act is not None:
+            return h.get("date")
+    return None
+
+
 # ---------------------------------------------------------------------------
 # Formatting
 # ---------------------------------------------------------------------------
@@ -680,6 +692,7 @@ def update_tracker(ticker_metrics):
                             cells[MARKET_COL_INDICES["rev_vs2y"]]       = f" {m['rev_vs2y']} "
                             cells[MARKET_COL_INDICES["debt_ocf"]]       = f" {m['debt_ocf']} "
                             cells[MARKET_COL_INDICES["next_earn"]]      = f" {m['next_earn']} "
+                            cells[MARKET_COL_INDICES["last_earn"]]      = f" {m['last_earn']} "
 
                             # Auto-update LOSER — EPS+ sub-tag
                             tag = cells[2].strip()
@@ -796,6 +809,7 @@ def main():
             spread = vs_1y - eps_m["eps_vs1y"]
 
         next_earn = extract_next_earnings(earnings_history)
+        last_earn = extract_last_earnings(earnings_history)
 
         # --- Format ---
         m = {
@@ -823,6 +837,7 @@ def main():
             "rev_vs2y":       fmt_pct(rev_m["rev_vs2y"]),
             "debt_ocf":       fmt_ratio(debt_ocf),
             "next_earn":      next_earn if next_earn else "—",
+            "last_earn":      last_earn if last_earn else "—",
             # Raw values for tag logic and anomaly detection
             "_vs_1y_raw":       vs_1y,
             "_pe_raw":          pe,

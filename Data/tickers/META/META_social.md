@@ -1,216 +1,204 @@
 # Reddit: META
-*Generated: 2026-05-10 | Lookback: 90 days | Sources: r/stocks, r/ValueInvesting*
+*Generated: 2026-05-29 | Lookback: 90 days | Sources: r/stocks, r/ValueInvesting*
 
-**Posts found:** 20 | **Total upvotes:** 8,655 | **Total comments:** 4,111
+**Posts found:** 18 | **Total upvotes:** 6,513 | **Total comments:** 3,965
 
 ---
 
-#### 1. Jury orders Meta and Google to pay woman $6 million in social media addiction trial
-**↑819** • 349 comments • r/stocks • Mar 26, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1s3ryee/jury_orders_meta_and_google_to_pay_woman_6/)
+#### 1. Reddit stock drops 6% after Meta announces a Facebook Groups app
+**↑1,193** • 341 comments • r/stocks • May 23, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1tl1m3q/reddit_stock_drops_6_after_meta_announces_a/)
 
 **Top Comments:**
-* **u/hroaks** (↑480): Where's my check?
-* **u/ExpletiveWork** (↑180): They will now add timed warnings for social media sites and making them even more annoying to use.
-* **u/MVP_Mitt_Discord_Mod** (↑96): Addicted to gooning, I’m going to sue the woman and the website for making me addicted!
+* **u/Behold_My_Stuff** (↑994): I just bought reddit yesterday lmao Edit: I am now happy I bought reddit at all
+* **u/DoubleFamous5751** (↑722): Please sign in with your Facebook account. PASS
+* **u/gym_fun** (↑346): Meta is just copy-pasting competitors. Innovation where?
 
 ---
 
-#### 2. Meta shares slide as plan to spend billions more on AI spooks investors
-**↑770** • 253 comments • r/stocks • Apr 30, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1szvsh1/meta_shares_slide_as_plan_to_spend_billions_more/)
+#### 2. Reddit stock drops 6% after Meta launches standalone app for online forums
+**↑832** • 296 comments • r/ValueInvesting • May 22, 2026
+[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1tkst3r/reddit_stock_drops_6_after_meta_launches/)
 
 **Top Comments:**
-* **u/bartturner** (↑189): I actually agree with this.  Meta is NOT like Google, Amazon and Microsoft. Those three pass on the depreciation of the hardware to the customer.   Meta can not do that. Google is showing exactly why their investment makes total sense. They explained that their investment will cause over 50% of thei...
-* **u/atdharris** (↑89): I've been in this company since 2013, and I just don't get the sentiment. Their quarterly numbers were excellent, and AI has helped tremendously with its ad business that has overtaken Google. The PE is around 20 now. I get the concern over Capex, but let's be honest, if they were not spending on Ca...
-* **u/IncidentSome4403** (↑79): All the doom and gloom on Reddit about this company is making me want to load up more at open today. Their CapEx is bearing fruit. Looking forward to when it hits $1000 and it suddenly becomes good enough for all the usual doomers on here to FOMO into, just like Google last year.
+* **u/ACivtech** (↑1213): Time for Reddit to launch a marketplace and I can be done with Facebook for good.
+* **u/anarchy_pizza** (↑408): Sorry guys I bought Reddit stock yesterday. I should’ve warned ya
+* **u/MiddleAgedSponger** (↑257): What this tells me is that Facebook is worried about Reddit. Instagram is doing fine, but Facebook is a cesspool of Boomers and dipshits. This is a positive for RDDT .
 
 ---
 
-#### 3. Big Six (AAPL, AMZN, GOOGL, META, MSFT, NVDA): Combined Quarterly Revenue $680 billion and Net Income $202 billion
-**↑671** • 158 comments • r/stocks • Feb 26, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1rexrcu/big_six_aapl_amzn_googl_meta_msft_nvda_combined/)
+#### 3. Trump traded over $50 million in 'Magnificent 7' stocks last quarter, loading up on Apple and Google and selling Tesla
+**↑679** • 107 comments • r/stocks • May 19, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1thqvqc/trump_traded_over_50_million_in_magnificent_7/)
 
 **Top Comments:**
-* **u/Time-Combination4710** (↑478): Insane the amount of money these mega corps make
-* **u/StupidTurtle88** (↑273): I thought there were 7 kingdoms in the realm.
-* **u/ThanklessWaterHeater** (↑110): Anybody else old enough to remember FAANG?
+* **u/JohnBrownsErection** (↑286): That undersells just how much insider trading he's been doing. It's in the thousands(3.5k in the first quarter alone) https://www.axios.com/2026/05/19/trump-stocks-nvidia-boeing Makes Pelosi look like an amateur with his corruption.
+* **u/DanielzeFourth** (↑131): That thoroughly explains all his flip-flopping policy tweets . How this guy still runs the U.S. is beyond me.
+* **u/Extraordinary_yfj** (↑96): This is only the front, wait till you see Eric and Barron account
 
 ---
 
-#### 4. Meta planning sweeping layoffs as AI costs mount
-**↑652** • 151 comments • r/stocks • Mar 14, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1rt64g0/meta_planning_sweeping_layoffs_as_ai_costs_mount/)
+#### 4. Meta releases a new Reddit-like app called Forum
+**↑617** • 424 comments • r/stocks • May 22, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1tkl2pu/meta_releases_a_new_redditlike_app_called_forum/)
 
 **Top Comments:**
-* **u/Fit-Army7395** (↑286): This seems to be a broader trend across tech right now. Companies are pouring massive amounts into AI infrastructure, and eventually they have to offset those costs somewhere. It’s interesting because AI is supposed to increase productivity, but in the short term it’s actually leading to higher spen...
-* **u/Criticall16** (↑221): Losing confidence in META tbh. They are either spending 100million a hire on AI engineers and fuckin Alexander Wang or they are firing 20% of their workforce. Nothing in between.  Only own it cause it’s cheap(er)
-* **u/The_Playbook88** (↑188): This is the recession finally starting. Nothing to do with AI. Amazon suddenly started to do it too along with Oracle.
+* **u/PawPatsPizza** (↑1054): Has Meta invented anything after FB that became a success?
+* **u/foamrollmyback** (↑596): No privacy Reddit. Sure bud
+* **u/MultiPass21** (↑588): Users will need a Facebook account … and I’m out.
 
 ---
 
-#### 5. Meta Strikes $100B AI Deal with AMD, Stock Soars 15%
-**↑648** • 160 comments • r/stocks • Feb 24, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1rdfw2t/meta_strikes_100b_ai_deal_with_amd_stock_soars_15/)
-
-**Top Comments:**
-* **u/Adept-Bet-2420** (↑488): OP spent an hour writing a sentence - it's down to 9% now.
-* **u/pogkaku96** (↑118): Meta has now struck deals with Nvidia,  AMD and Google for TPUs. Are they doing this to prevent their competitors from getting the chips thereby slowing them down?
-* **u/Muddled_Baseball_** (↑111): That level of spending suggests they are planning for way more than just chatbots.
-
----
-
-#### 6. Am I crazy to think AMZN can hit $300 and META can hit $1000 this year?
-**↑644** • 377 comments • r/stocks • Feb 11, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1r2cxb1/am_i_crazy_to_think_amzn_can_hit_300_and_meta_can/)
-
-**Top Comments:**
-* **u/FuzzyDynamics** (↑631): META at $1K is pretty crazy. Amazon just needs one hype cycle to send it off. People are bored by it like Walmart but it’s still a juggernaut putting up insane numbers
-* **u/Totallycomputername** (↑310): Yes but crazy things have happened before. Won't make money if your not invested though.
-* **u/UnObtainium17** (↑107): If this year would be 700 days long, yeah it definitely can.
-
----
-
-#### 7. Meta up nearly 3% in premarket as it plans mass layoff to offset increased AI spending
-**↑627** • 208 comments • r/stocks • Mar 16, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1rv7anb/meta_up_nearly_3_in_premarket_as_it_plans_mass/)
-
-**Top Comments:**
-* **u/cdttedgreqdh** (↑406): If he stopped paying 100m to guys who can‘t build a competitive model, that would be great.
-* **u/007meow** (↑348): So long as Wall Street continues to reward layoffs, execs will pull that lever.
-* **u/No_Soup_1180** (↑110): Most of these companies are going to pay a big price in a few years when they will realize they need people to make all of that AI investment work and by then it will already be a big catastrophe. Salesforce already realized that.
-
----
-
-#### 8. Reddit is a better buy then Meta.
-**↑566** • 252 comments • r/ValueInvesting • Apr 30, 2026
+#### 5. Reddit is a better buy then Meta.
+**↑574** • 254 comments • r/ValueInvesting • Apr 30, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1t0a14j/reddit_is_a_better_buy_then_meta/)
 
 **Top Comments:**
-* **u/Consistent_Math_5984** (↑268): When all of Reddit starts hating a specific stock it usually means it’s time to buy
-* **u/Chance_969** (↑152): I work at a digital media agency and we still hardly run Reddit ads for any clients. It’s gaining some traction and starting to pick up some, but their ad platform isn’t great and most clients would rather spend their money elsewhere for now, like in meta. It might be a good long term play bc their ...
-* **u/SelenaMeyers2024** (↑114): I picked up some meta at 600... It's my official policy, touch 600.. I'll pick up a fair amount (no yolos)... And my hands are paper as a library, pay me 660 they are yours  This has happened like 5 cycles this year
+* **u/Consistent_Math_5984** (↑273): When all of Reddit starts hating a specific stock it usually means it’s time to buy
+* **u/Chance_969** (↑159): I work at a digital media agency and we still hardly run Reddit ads for any clients. It’s gaining some traction and starting to pick up some, but their ad platform isn’t great and most clients would rather spend their money elsewhere for now, like in meta. It might be a good long term play bc their ...
+* **u/SelenaMeyers2024** (↑114): I picked up some meta at 600... It's my official policy, touch 600.. I'll pick up a fair amount (no yolos)... And my hands are paper as a library, pay me 660 they are yours This has happened like 5 cycles this year
 
 ---
 
-#### 9. Meta stock drops as capex, user growth numbers come in below Wall Street estimates
-**↑556** • 210 comments • r/stocks • Apr 29, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1szaaxa/meta_stock_drops_as_capex_user_growth_numbers/)
+#### 6. I may be the worst stock picker there is
+**↑475** • 562 comments • r/stocks • May 22, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1tkuwux/i_may_be_the_worst_stock_picker_there_is/)
 
 **Top Comments:**
-* **u/ASKMEIFIMAN** (↑374): Capex is too high, stock down. Capex too low, stock down.
-* **u/xcorv42** (↑189): Maybe they should rebrand to change their narrative.
-* **u/Not69Batman** (↑187): Revenue of $56 billion, up 33% YoY. Net income of $26.8 billion, up 61% YoY. Those are very healthy growth numbers.
+* **u/Totallycomputername** (↑1873): Sounds like you pick stocks fine, you just have no conviction.
+* **u/ImpossiblePromise363** (↑375): Stay away from options. You’ll lose even more. You seem like an emotional investor rather than a rational one
+* **u/Anxious-Place3434** (↑275): OP, tell me when you're planning to sell MSFT so I know when my holdings are going to go up
 
 ---
 
-#### 10. Meta to overtake Google in Digital Ad Revenue for the first time
-**↑534** • 174 comments • r/stocks • Apr 13, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1skpxws/meta_to_overtake_google_in_digital_ad_revenue_for/)
-
-**Top Comments:**
-* **u/GuiltyShirt3771** (↑392): Don't use Facebook that much but dang
-* **u/RamBamBooey** (↑150): I'm impressed.  I didn't think Meta's ad revenue was growing so fast.   One caveat.  Google has been trying to diversify; in 2025 they made about 25% revenue outside of advertising.  Meta revenue is 98% advertising
-* **u/banff_lover** (↑76): But but Reddit said Facebook is dead. Meta has no innovation. I am shocked!
-
----
-
-#### 11. Meta, Amazon, Microsoft, Google and Apple - which one you think will win?
-**↑469** • 319 comments • r/stocks • Apr 28, 2026
+#### 7. Meta, Amazon, Microsoft, Google and Apple - which one you think will win?
+**↑467** • 316 comments • r/stocks • Apr 28, 2026
 [View Thread](https://www.reddit.com/r/stocks/comments/1sybnwy/meta_amazon_microsoft_google_and_apple_which_one/)
 
 **Top Comments:**
 * **u/Totallycomputername** (↑615): See a lot of negative for Microsoft so I'm going with them.
-* **u/sarhoshamiral** (↑190): Does there have to be a winner? There is enough room for all 5 to compete continously and make big bucks.
-* **u/bartturner** (↑163): Think they will all win.  But Google will win the most. They are the best positioned by far.  With most of what is possible today is thanks to Google.
+* **u/sarhoshamiral** (↑191): Does there have to be a winner? There is enough room for all 5 to compete continously and make big bucks.
+* **u/bartturner** (↑164): Think they will all win. But Google will win the most. They are the best positioned by far. With most of what is possible today is thanks to Google.
 
 ---
 
-#### 12. Microsoft, Google, Amazon, Meta Issuing $400B Debt as Capex Surges 74%
-**↑453** • 113 comments • r/ValueInvesting • Apr 27, 2026
-[View Thread](https://blocknow.com/microsoft-google-amazon-meta-400-billion-debt-ai-capex/)
-
----
-
-#### 13. Meta stock is falling this AM (-5.6%)
-**↑287** • 302 comments • r/stocks • Mar 26, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1s4alpu/meta_stock_is_falling_this_am_56/)
+#### 8. Meta acquires AI agent social network Moltbook
+**↑265** • 44 comments • r/stocks • Mar 10, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1rq0en1/meta_acquires_ai_agent_social_network_moltbook/)
 
 **Top Comments:**
-* **u/[deleted]** (↑216): [deleted]
-* **u/PhiladelphiaManeto** (↑101): They are probably 50% of all Americans' media consumption at this point, with all the doomscrolling happening. I won't sell it in the next ten years.
-* **u/Lazerys** (↑66): Ridiculous fall.. The court cases will go nowhere in the end. You cannot seriously blame social media companies for addiction and make them pay millions in damages for someone watching too many reels. This is going to be easy money, I bought the dip.
+* **u/chronoit** (↑194): This is very strange given the entire thing is a lie. https://www.forbes.com/sites/ronschmelzer/2026/02/10/moltbook-looked-like-an-emerging-ai-society-but-humans-were-pulling-the-strings/
+* **u/J0hnnyBlazer** (↑42): ofc he wants to own the facebook of ai
+* **u/doggadooo57** (↑29): This seems like an acquihire , rather than meta wanting moltbook itself. As others mentioned there was likely shady growth hacks for moltbook, but that is a exactly the skillset meta wants for its “ai” products
 
 ---
 
-#### 14. SaaS stock drawdowns since Oct peak
-**↑200** • 88 comments • r/ValueInvesting • Mar 21, 2026
-[View Thread](https://i.redd.it/kl4yehq0acqg1.jpeg)
-
----
-
-#### 15. META or MSFT
-**↑152** • 227 comments • r/ValueInvesting • Mar 22, 2026
-[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1s0hzsf/meta_or_msft/)
+#### 9. everything is at all time highs except microsoft… is msft about to sinkhole?
+**↑248** • 310 comments • r/ValueInvesting • May 13, 2026
+[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1tca2f6/everything_is_at_all_time_highs_except_microsoft/)
 
 **Top Comments:**
-* **u/Portfoliana** (↑98): msft. i own both but keep adding msft on dips. meta prints cash but 16b/yr into reality labs with zero non-ad revenue to show for it is alot of faith in zuck. azure at least compounds whether the AI narrative holds or not
-* **u/srgp294** (↑67): Short answer: - META = better value + high upside - MSFT = higher quality + more predictable returns META looks like the more interesting opportunity right now because you’re paying less for more growth: lower multiple (cheaper than MSFT), higher revenue growth, massive margins from ads, and a marke...
-* **u/UsualDue** (↑38): why is META a great buy? just because its down 20%? they killed the whole metaverse thing and have nothing in the pipeline except squeezing everything out of their advertisers. their ad revenue might be still going up but the amount of advertisers is down, its just matter of time before CAC caps and...
+* **u/itstheskylion** (↑282): It’s because I bought it years ago at 408 therefore it’s punishing y’all
+* **u/SelenaMeyers2024** (↑236): What the heck are you talking about? In the world not named memory and chips, literally everything is at all time lows.. Food... All food. All fintech Saas. Any saas. Msft and meta not 52 week lows but closer to the lows than highs... Almost any insurance.. mkl, pgr, frfhf All apparel. Onon nke lulu...
+* **u/Greedy_Watch6954** (↑92): I don’t own MSFT yet, looks like it’s time for an up trend. It reminds me of UNH and look it now.
 
 ---
 
-#### 16. The 145 billion gamble: should I buy the Meta dip?
-**↑150** • 153 comments • r/stocks • Apr 30, 2026
+#### 10. Thinking of selling my meta
+**↑245** • 292 comments • r/stocks • May 26, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1tomixx/thinking_of_selling_my_meta/)
+
+**Top Comments:**
+* **u/vladutzmihai** (↑163): I did it with Microsoft after 2 years of no gain for me but great results for them. No regrets
+* **u/Evening_Control6034** (↑156): This is why I do just SPY and QQQ . Let market decide who is good and who is bad. During covid times so many stocks went up a lot (Twilio, Shop, Paypal, Zoom) they are all dead now but SPY and QQQ are up 60-70% in 5 years. Once AI optimism settles Sandisk and Micron might crash hard but SPY and QQQ ...
+* **u/Worst-Eh-Sure** (↑143): In paragraph 2 you identify that you are having FOMO . That right there is an emotion, and emotions, especially fear, is an enemy of successful investing. Be careful and good luck.
+
+---
+
+#### 11. Micron reached 1T, am I a fool for buying Meta?
+**↑187** • 151 comments • r/ValueInvesting • May 27, 2026
+[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1tp6p2c/micron_reached_1t_am_i_a_fool_for_buying_meta/)
+
+**Top Comments:**
+* **u/Good-Bid-7325** (↑169): I got mad hate when I suggested Micron on here a couple of months ago. You'll find more than enough support for buying Meta though. It's a great company at a great valuation.
+* **u/RazDoStuff** (↑75): All the degens can FOMO into MU.
+* **u/Prize_Bar_5767** (↑66): $Meta bag holder gang unite.
+
+---
+
+#### 12. META is growing a neocloud business under everyone’s nose
+**↑163** • 149 comments • r/ValueInvesting • May 15, 2026
+[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1te02rd/meta_is_growing_a_neocloud_business_under/)
+
+**Top Comments:**
+* **u/inverted180** (↑154): Is neo and hyper like the cool new words in the stonk market?
+* **u/Tim_Apple_938** (↑43): Fireworks.ai was founded by a bunch of execs from Meta I feel like they could EASILY just acquire existing neos like that to get the built in customer base
+* **u/Wild_Space** (↑42): Zuck laid out selling over capacity as the worst case scenario. Best case: AI. Mid case: Ads. Worst case: Lease it.
+
+---
+
+#### 13. Meta vs Microsoft ? Which one are you choosing
+**↑160** • 187 comments • r/ValueInvesting • May 24, 2026
+[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1tmgsa4/meta_vs_microsoft_which_one_are_you_choosing/)
+
+**Top Comments:**
+* **u/CH1974** (↑158): I've made the most money over the years buying Mag 7 stocks individually when sentiment was down.. eg: Meta was going down a few years ago, buy in the 100s . Just 12 months or so ago Google was done for cause OAI was coming for it...same with AMZN, APPL, NFLX etc...the market will give you oppertuni...
+* **u/STierMansierre** (↑93): I'd choose MSFT. I think both companies are decent but like others said, Microsoft has an edge on diversification. I also think they have a better long term infrastructure embedding that serves as a moat .
+* **u/Spins13** (↑68): Both. They are great buys. I think META is more high risk high reward though. They could get hit hard by ad budget cuts but they are growing much faster
+
+---
+
+#### 14. The 145 billion gamble: should I buy the Meta dip?
+**↑157** • 152 comments • r/stocks • Apr 30, 2026
 [View Thread](https://www.reddit.com/r/stocks/comments/1szw711/the_145_billion_gamble_should_i_buy_the_meta_dip/)
 
 **Top Comments:**
-* **u/Dapolish** (↑285): Because when you hear that Meta is investing billions in something many think “oh what stupid thing are they doing now”, and when you hear Google is investing billions in something many think “whoa what is going to come of this?” Just my two cents
-* **u/About_to_kms** (↑97): I’m buying. The financials look fantastic and the moat is impenetrable. This ai spending is short term imo and will level out next year
-* **u/RandomC6** (↑49): GOOGL develops its own TPU which is great for their AI infrastructure. AMZN sam as META getting punished today for above average CapEx spending, and META was heavily ramping up above expectations, too. GOOGL heavily beat all estimates while CapEx spending was in line. Think where money is going. If ...
+* **u/Dapolish** (↑290): Because when you hear that Meta is investing billions in something many think “oh what stupid thing are they doing now”, and when you hear Google is investing billions in something many think “whoa what is going to come of this?” Just my two cents
+* **u/About_to_kms** (↑99): I’m buying. The financials look fantastic and the moat is impenetrable. This ai spending is short term imo and will level out next year
+* **u/RandomC6** (↑47): GOOGL develops its own TPU which is great for their AI infrastructure . AMZN sam as META getting punished today for above average CapEx spending, and META was heavily ramping up above expectations, too. GOOGL heavily beat all estimates while CapEx spending was in line. Think where money is going. If...
 
 ---
 
-#### 17. Meta or MSFT?
-**↑133** • 295 comments • r/stocks • Apr 29, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1szaev7/meta_or_msft/)
-
-**Top Comments:**
-* **u/PeanutButtaRari** (↑502): Believe it or not, Google
-* **u/Cramer4President** (↑110): I use Microsoft stuff about 12 hours a day and it completely dominates my office at work. It isn't going anywhere so easy decision for me
-* **u/IncidentSome4403** (↑84): Meta but only because I’m a fucking bagholder now, please help.
-
----
-
-#### 18. Amzn, Msft, Goog and Meta All report same day Today. We never had “same day” delivery before!?
-**↑120** • 72 comments • r/ValueInvesting • Apr 29, 2026
-[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1sz1sgt/amzn_msft_goog_and_meta_all_report_same_day_today/)
-
-**Top Comments:**
-* **u/DrPuzzle** (↑79): They're all going to go up  If they all go down I'm buying  It's quite simple really
-* **u/MapAwareness007** (↑39): If AI CAPEX is still high, I think picks and shovels should go up. Semiconductors already rallied hard, so maybe other areas like energy and data centers?
-* **u/Sufficient-Flan1565** (↑18): Will inverse myself. Was thinking puts on MSFT earlier. Calls it is now
-
----
-
-#### 19. What price is META cheap enough to be MSFT at $350?
-**↑110** • 107 comments • r/ValueInvesting • May 02, 2026
+#### 15. What price is META cheap enough to be MSFT at $350?
+**↑108** • 107 comments • r/ValueInvesting • May 02, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1t20u33/what_price_is_meta_cheap_enough_to_be_msft_at_350/)
 
 **Top Comments:**
-* **u/chenkai1980** (↑97): Let's be real: Meta's core advertising business (Facebook, Instagram, WhatsApp) is an absolute money-printing machine. The ad platform is one of the strongest and most resilient business models in tech. But looking back at the last decade, their capital allocation has been a massive exercise in burn...
+* **u/chenkai1980** (↑98): Let's be real: Meta's core advertising business (Facebook, Instagram, WhatsApp) is an absolute money-printing machine. The ad platform is one of the strongest and most resilient business models in tech. But looking back at the last decade, their capital allocation has been a massive exercise in burn...
 * **u/Coldfire5** (↑56): My concern: if oil stays elevated, consumer discretionary spend gets squeezed. That hits return on ads spend for advertisers, which means ad budgets get cut first. $META is 95%+ ad revenue. Mark also admitted this in recent wsj article
-* **u/Guboj** (↑48): Right now both Meta and MSFT have the best price amongst the MAG7, so you can wait for another correction or start DCA into them.
+* **u/Guboj** (↑49): Right now both Meta and MSFT have the best price amongst the MAG7 , so you can wait for another correction or start DCA into them.
 
 ---
 
-#### 20. meta beats earnings and still sinks… is this exactly why buffett avoids businesses like this?
-**↑94** • 143 comments • r/ValueInvesting • Apr 29, 2026
-[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1sza1n8/meta_beats_earnings_and_still_sinks_is_this/)
+#### 16. META OR MSFT
+**↑71** • 158 comments • r/ValueInvesting • May 04, 2026
+[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1t3izjh/meta_or_msft/)
 
 **Top Comments:**
-* **u/mbr902000** (↑280): People dont trade earnings, they trade the guide. Im not sure how people keep making post like this
-* **u/notreallydeep** (↑232): >is this exactly why buffett avoids businesses like this? Yes. Definitely. I had dinner with him once and I still remember what he said to me after I puked up some lobster onto the waiter's feet: "If  your 10-year investment drops 5% intraday for no reason, freak the fuck out and sell everything." C...
-* **u/Carsmes** (↑68): Capex increase
+* **u/Outrageous_Mistake_5** (↑117): I feel safer in MSFT as at least you can see the vision of their capex/use case of their data centres.
+* **u/Right_Astronaut6037** (↑68): I fucking hate zuck and what he is doing with the fabric of society. In this sense im more ok owning microsoft than anything that retard touches.
+* **u/Necessary-Jacket-476** (↑54): Both
+
+---
+
+#### 17. If the addiction elements of social media platforms has to be curtailed, what are the companies worth?
+**↑43** • 40 comments • r/stocks • Mar 26, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1s4ck26/if_the_addiction_elements_of_social_media/)
+
+**Top Comments:**
+* **u/angelstbeatrixxx** (↑50): these companies are literally worth nothing except as advertising platforms. so theres your answer. if we as a society decide that addictive applications on your phone whose only purpose is to trick you into scrolling by infinite ads, most of which are outright scams or harmful woowoo nonsense, then...
+* **u/ArcticRiot** (↑7): let's ask Big Pharma
+* **u/[deleted]** (↑7): [deleted]
+
+---
+
+#### 18. META might take longer to recover than everyone thinks...
+**↑29** • 75 comments • r/ValueInvesting • Apr 29, 2026
+[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1szf9sl/meta_might_take_longer_to_recover_than_everyone/)
+
+**Top Comments:**
+* **u/java_brogrammer** (↑73): Meta is continuing to crush earnings and getting cheaper. Yeah, let's assume it will continue to get even cheaper when it's already the cheapest mag7 . Also interesting that you're talking about risk to reward ratio and encourage buying more overvalued stocks at ATH that are likely to experience a p...
+* **u/cinciNattyLight** (↑44): Them fucking up overspending has created tremendous buying opportunities. All for it.
+* **u/NarcolepticWook** (↑31): Who is we?
 
 ---

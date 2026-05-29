@@ -1,0 +1,80 @@
+[
+  {
+    "symbol": "ADSK",
+    "companyName": "Autodesk, Inc.",
+    "price": 230.91,
+    "mktCap": 48755491950
+  },
+  {
+    "symbol": "CDNS",
+    "companyName": "Cadence Design Systems, Inc.",
+    "price": 374.6381,
+    "mktCap": 103331182190
+  },
+  {
+    "symbol": "CRM",
+    "companyName": "Salesforce, Inc.",
+    "price": 192.6,
+    "mktCap": 157739400000
+  },
+  {
+    "symbol": "INTU",
+    "companyName": "Intuit Inc.",
+    "price": 329.72501,
+    "mktCap": 90191990060
+  },
+  {
+    "symbol": "NOW",
+    "companyName": "ServiceNow, Inc.",
+    "price": 123.71,
+    "mktCap": 127583112680
+  },
+  {
+    "symbol": "PTC",
+    "companyName": "PTC Inc.",
+    "price": 137.9761,
+    "mktCap": 15937067407
+  },
+  {
+    "symbol": "ROP",
+    "companyName": "Roper Technologies, Inc.",
+    "price": 325.6724,
+    "mktCap": 32865998507
+  },
+  {
+    "symbol": "SHOP",
+    "companyName": "Shopify Inc.",
+    "price": 118.46,
+    "mktCap": 153720177539
+  },
+  {
+    "symbol": "SNOW",
+    "companyName": "Snowflake Inc.",
+    "price": 251.79,
+    "mktCap": 87271147968
+  },
+  {
+    "symbol": "TEAM",
+    "companyName": "Atlassian Corporation",
+    "price": 107.7652,
+    "mktCap": 28307150091
+  },
+  {
+    "symbol": "TYL",
+    "companyName": "Tyler Technologies, Inc.",
+    "price": 311.22,
+    "mktCap": 13123369350
+  },
+  {
+    "symbol": "WDAY",
+    "companyName": "Workday, Inc.",
+    "price": 145.42,
+    "mktCap": 38091621200
+  },
+  {
+    "symbol": "ZM",
+    "companyName": "Zoom Communications, Inc.",
+    "price": 102.4431,
+    "mktCap": 30039617124
+  }
+]

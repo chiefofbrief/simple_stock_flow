@@ -1,19 +1,20 @@
 # NOW SEC Filings: MD&A
-**Generated:** 2026-05-10
+**Generated:** 2026-05-29
 **Filings:** 10-K (period ending 2025-12-31), 10-Q (period ending 2026-03-31)
 
 ## Section Summary
 
 | Section | Words | Lines |
 |---------|------:|------:|
-| 10-K MD&A (Item 7) | 8,297 | 531 |
+| 10-K MD&A (Item 7) | 8,411 | 532 |
 | 10-Q MD&A (Item 2) | 7,076 | 466 |
 
 ---
 
 ## 10-K MD&A (Item 7)
 
-Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 31, 2024, filed on January 30, 2025.
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+This section of our Annual Report on Form 10-K discusses our financial condition and results of operations for the fiscal years ended December 31, 2025 and 2024, and year-to-year comparisons between fiscal 2025 and fiscal 2024 in accordance with U.S. Generally Accepted Accounting Principles (“GAAP”). A discussion of our financial condition and results of operations for the fiscal year ended December 31, 2023 and year-to-year comparisons between fiscal 2024 and fiscal 2023 that is not included in this Annual Report on Form 10-K can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 31, 2024, filed on January 30, 2025.
 Our free cash flow and non-GAAP consolidated income from operations measures included in the section entitled “Key Business Metrics—Free Cash Flow” and “Key Business Metrics—Non-GAAP Consolidated Income from Operations” are not in accordance with GAAP. These non-GAAP financial measures are not intended to be considered in isolation or as a substitute for, or superior to, financial information prepared and presented in accordance with GAAP. These measures may be different from non-GAAP financial measures used by other companies, limiting their usefulness for comparison purposes. We encourage investors to carefully consider our results under GAAP, as well as our supplemental non-GAAP results, to more fully understand our business.
 Overview
 ServiceNow delivers solutions that help public and private organizations govern, secure and manage artificial intelligence and digitalize and streamline workflows to drive collaboration, productivity and better experiences across the enterprise. At the core of these solutions is the ServiceNow AI Platform (“Platform”), a robust, cloud-based Platform that facilitates comprehensive delivery of seamless workflows and drives digital transformation across all departments and personas within an organization. Our Platform’s single data fabric and integrated data layer supports organizations’ operationalization of their AI strategy with speed, scale and security. Our workflow applications built on the Platform are grouped into four areas: Technology, CRM and Industry, Core Business, and Creator and Other. We offer an innovative suite of products, including AI-powered applications, and services designed to automate workflows, integrate systems and empower employees, regardless of existing systems, cloud environments or collaboration tools. Our one platform architecture provides the foundation for organizations to seamlessly integrate AI, data, and workflows and create intelligent processes across their enterprise.

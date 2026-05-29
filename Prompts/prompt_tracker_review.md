@@ -67,7 +67,6 @@ This analysis must be grounded in the tracker data and the Metric Interpretation
 Spread is the primary signal: is earnings growth outpacing price growth? ROIC is the second-order signal: is the business behind that spread creating durable value? All other metrics contribute to conviction holistically — this is a holistic read, not a sort. For example, a weak spread with exceptional ROIC and broad quality support can outrank a strong spread with deteriorating fundamentals. Establish the spread first, then assess the full picture.
 
 - When two candidates are otherwise equal, the one with an earnings print coming soon ranks higher — the data you are acting on is about to be refreshed.
-- Tickers with **Thesis = Y** already have an active thesis; weight them toward re-evaluation rather than first-time analysis.
 
 **Comparison frame**
 Read tickers against each other — the contrast between candidates is as informative as any individual reading. A spread that looks strong in isolation may look less compelling against a peer with a stronger spread and higher ROIC.
@@ -82,28 +81,52 @@ Where P/E = — (undefined), the company is reporting a GAAP loss — weight FCF
 
 ### Output Format
 
-Read the Metric Interpretations at the bottom of this prompt before beginning. They are your primary reference for interpreting every metric in the table — spread, ROIC, FCF, revenue, valuation, and quality. Apply them across the full table before ranking.
+Read the Metric Interpretations at the bottom of this prompt before beginning. They are your primary reference for interpreting every metric in the table — spread, ROIC, FCF, revenue, valuation, and quality. Apply them across the full table before ranking. All signal assessments in every section below use these same Metric Interpretations — there is one signal standard, applied consistently.
 
-**Analyze Now**
+---
 
-Surface the 3 tickers with the strongest signal right now — the ones where the data is so compelling that delaying analysis is a mistake.
+**Run Thesis** (max 3)
 
-**Output:** Ticker | one sentence on why this is the strongest case right now.
+Surface the 3 tickers where running (or re-running) a thesis is most urgently needed. Priority is signal-driven across both groups below — the 3 slots go to whichever tickers have the strongest signal, regardless of type.
+
+Eligibility:
+- **No thesis (Thesis = —):** eligible on signal strength alone — apply the Metric Interpretations.
+- **Thesis = Y:** eligible if **(a)** thesis date is older than Last Earn (the analytical baseline predates the most recent earnings print) **OR (b)** current signals indicate a material change since the thesis was run — apply the Metric Interpretations signal read. When citing condition (b), name the specific metric(s) that have moved materially. For Thesis = Y candidates, read the Thesis Archive entry before ranking — the re-run case must explain what is specifically different now versus what the thesis found.
+
+**Output:** Ticker | one sentence on why — for any Thesis = Y entry, state condition (a) or (b) explicitly.
+
+---
 
 **Rankings Snapshot**
 
-```
-Top 3 Spread:  TICKER (value) | TICKER (value) | TICKER (value)
-Top 3 ROIC:    TICKER (value) | TICKER (value) | TICKER (value)
-```
+| Metric | #1 | #2 | #3 |
+|--------|----|----|-----|
+| Spread | TICKER (value) | TICKER (value) | TICKER (value) |
+| ROIC   | TICKER (value) | TICKER (value) | TICKER (value) |
 
-**Add to Position**
+---
 
-Scan the **Trade Tracker**. For each holding where current Price ≤ Entry Price, apply the Metric Interpretations to assess whether the earnings thesis remains intact. If it does and the dip is meaningful, surface as an add candidate — conviction is already established; a price dip is a gift.
+**Buy Now**
+
+Surface all tickers where a completed thesis supports purchase at the current price. This section is informational — it identifies where the signal is favorable right now, not a directive to trade.
+
+Eligibility:
+- Must have Thesis = Y and $/Dollar < $1.00
+- Signal must be compelling — apply the Metric Interpretations
+- If a ticker appears in **Run Thesis**, exclude it — a stale or re-triggered thesis cannot support a buy recommendation until it is refreshed
+- Note if current price has moved materially from the thesis price: lower current price strengthens the case; higher current price may have eroded the margin of safety
+
+**Output:** Ticker | $/Dollar | one sentence on why the current signal supports the thesis.
+
+#### Add to Position
+
+Subset of Buy Now: tickers already held in the Trade Tracker where current Price ≤ Entry Price. Conviction is already established; a price dip below entry is a gift.
 
 Note: IVV is an index position — evaluate purely on price vs. entry, no earnings thesis required.
 
-**Output:** Ticker | one sentence on the case.
+**Output:** Ticker | current price vs. entry | one sentence on why the dip is a gift, not a warning.
+
+---
 
 **Remove**
 
@@ -123,7 +146,8 @@ Answer the following internally before writing output. Do not include these answ
 - Has quarterly weighting been applied where an industry inflection appears underway?
 - Has the ranking been holistic — not just a Spread sort?
 - Are GAAP vs. adjusted gaps flagged where they diverge materially (>15%)?
-- Have tickers with Thesis = Y been weighted toward re-evaluation?
+- For every Thesis = Y ticker in Run Thesis: has its Thesis Archive entry been read, and does the output state condition (a) or (b) explicitly?
+- Has the Buy Now section excluded any ticker that appears in Run Thesis?
 - Has the Remove section checked for broad-based deterioration, not single-metric moves?
 - Are the one-sentence outputs specific enough to drive a decision — not generic enough to apply to any ticker?
 
@@ -137,14 +161,20 @@ Write the following to the top of `Stock_Tracker.md`, replacing any existing blo
 <!-- PRIORITY_COMPLETE -->
 ## Daily Priority — {DATE}
 
-### Analyze Now
+### Run Thesis
 ...
 
 ### Rankings Snapshot
-Top 3 Spread:  TICKER (value) | TICKER (value) | TICKER (value)
-Top 3 ROIC:    TICKER (value) | TICKER (value) | TICKER (value)
 
-### Add to Position
+| Metric | #1 | #2 | #3 |
+|--------|----|----|-----|
+| Spread | TICKER (value) | TICKER (value) | TICKER (value) |
+| ROIC   | TICKER (value) | TICKER (value) | TICKER (value) |
+
+### Buy Now
+...
+
+#### Add to Position
 ...
 
 ### Remove

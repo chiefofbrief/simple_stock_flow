@@ -1,5 +1,5 @@
 # META SEC Filings: Notes to Financial Statements
-**Generated:** 2026-05-10
+**Generated:** 2026-05-29
 **Filings:** 10-K (period ending 2025-12-31), 10-Q (period ending 2026-03-31)
 
 ## Section Summary

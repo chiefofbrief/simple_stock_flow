@@ -108,8 +108,8 @@ A misconception is always involved. What makes it durable is that it is reinforc
 
 | Step | Phase | Script | Prompt | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| **Tracker Update** | Maintenance | `tracker_update.py` | — | Run weekly. Refreshes all market data columns (P/E, ROIC, EPS YoY, FCF, etc.) for PIPELINE and WATCHLIST via FMP. |
-| **Tracker Review** | Maintenance | — | `prompt_tracker_review.md` | Run after Tracker Update. Identifies top 3 analysis candidates, add-to-position signals, removal flags. Updates SC Layer Coverage. |
+| **Tracker Update** | Maintenance | `tracker_update.py` | — | Run weekly. Refreshes all market data columns (P/E, ROIC, EPS YoY, FCF, etc.) for all tickers in the tracker via FMP. |
+| **Tracker Review** | Maintenance | — | `prompt_tracker_review.md` | Run after Tracker Update. Identifies Run Thesis candidates, Buy Now signals, and removal flags. |
 | **Markets Digest** | Screening | `Digest Scripts/markets_digest.py` | `prompt_digest_markets.md` | Run daily. Updates `context_markets.md`. |
 | **Sectors Digest** | Screening | `Digest Scripts/sectors_digest.py` | `prompt_ai_supply_chain_update.md` | Run when sector developments warrant. Updates `context_ai_supply_chain.md`. |
 | **Price & Earnings** | Screening | `price_earnings.py` | — | Screens candidates on price and earnings. Can run standalone. |
@@ -122,7 +122,7 @@ A misconception is always involved. What makes it durable is that it is reinforc
 
 ## Core Tracking
 For a complete breakdown of all files and scripts, **always consult `index.md`**. Key tracking files:
-- **`Stock_Tracker.md`**: Central tracker — PIPELINE (active analysis), WATCHLIST (monitoring, awaiting entry signal), SC Layer Coverage (pipeline count by AI layer), Trade Tracker (open positions). Market data columns refreshed weekly by `tracker_update.py`.
+- **`Stock_Tracker.md`**: Central tracker — Ticker Tracker (all active candidates), SC Layer Coverage (AI layer representation), Trade Tracker (open positions). Market data columns refreshed weekly by `tracker_update.py`.
 - **`context_markets.md`**: Rolling market context — macro conditions, prevailing narratives, recurring signals. Updated via the Markets Digest flow.
 - **`context_ai_supply_chain.md`**: AI supply chain context — layer-by-layer dynamics, constraint map, and company-level theses. Updated when sector developments warrant.
 - **Thesis Files**: Located in `Data/tickers/{TICKER}/{TICKER}_Thesis.md`. Four sections built sequentially: `### Context` → `### The Numbers` → `### The Projection` → `### Synthesis`. Assessment (Expected Value) written only at Synthesis.

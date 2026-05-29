@@ -2,38 +2,38 @@
   {
     "symbol": "ACN",
     "companyName": "Accenture plc",
-    "price": 178.66,
-    "mktCap": 109953634430
+    "price": 187.29,
+    "mktCap": 115264848869
   },
   {
     "symbol": "CRM",
     "companyName": "Salesforce, Inc.",
-    "price": 180.26,
-    "mktCap": 171245136472
+    "price": 194.01,
+    "mktCap": 158894190000
   },
   {
     "symbol": "CSCO",
     "companyName": "Cisco Systems, Inc.",
-    "price": 95.765,
-    "mktCap": 378261507167
+    "price": 120.1136,
+    "mktCap": 473419906778
   },
   {
     "symbol": "EPAM",
     "companyName": "EPAM Systems, Inc.",
-    "price": 100.375,
-    "mktCap": 5295468417
+    "price": 104.11,
+    "mktCap": 5439169794
   },
   {
     "symbol": "III",
     "companyName": "Information Services Group, Inc.",
-    "price": 4.07,
-    "mktCap": 194034568
+    "price": 4.565,
+    "mktCap": 218386286
   },
   {
     "symbol": "INFY",
     "companyName": "Infosys Limited",
-    "price": 12.685,
-    "mktCap": 51445539700
+    "price": 12.615,
+    "mktCap": 51162150900
   },
   {
     "symbol": "MGIC",
@@ -44,19 +44,19 @@
   {
     "symbol": "MU",
     "companyName": "Micron Technology, Inc.",
-    "price": 738.36,
-    "mktCap": 832670722800
+    "price": 953.3181,
+    "mktCap": 1075085420913
   },
   {
     "symbol": "SAP",
     "companyName": "SAP SE",
-    "price": 172.105,
-    "mktCap": 200542797900
+    "price": 181.93,
+    "mktCap": 211991233387
   },
   {
     "symbol": "WIT",
     "companyName": "Wipro Limited",
-    "price": 1.975,
-    "mktCap": 20692054035
+    "price": 2.255,
+    "mktCap": 23643888143
   }
 ]

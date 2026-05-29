@@ -1,0 +1,1 @@
+# GEV — Investment Thesis

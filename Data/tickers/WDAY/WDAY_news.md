@@ -1,66 +1,149 @@
 # WDAY News Data
-**Generated:** 2026-05-10 13:30
-**Date Range:** 2026-02-09 to 2026-05-10
+**Generated:** 2026-05-29 16:21
+**Date Range:** 2026-02-28 to 2026-05-29
 
 ## Summary Statistics
 
 ### Coverage
 - **Perigon:** 30 stories (aggregated from 30 media items)
-- **FMP:** 30 articles from 9 sources
+- **FMP:** 30 articles from 11 sources
 - **Total:** 60 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 3 | 6 |
-| 2026-04 | 13 | 14 |
-| 2026-03 | 8 | 10 |
-| 2026-02 | 6 | 0 |
+| 2026-05 | 10 | 10 |
+| 2026-04 | 10 | 10 |
+| 2026-03 | 10 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.115)
-- Positive-leaning: 21 stories
+**Perigon** (avg composite: +0.051)
+- Positive-leaning: 20 stories
 - Neutral: 0 stories
-- Negative-leaning: 9 stories
+- Negative-leaning: 10 stories
 
 ---
 
 ## Perigon Stories (30 stories)
 
-### 2026-05-09 | S&P Global names eight-member Mobility Global board
-**Sentiment:** +0.37 (pos: 0.48, neg: 0.11, neu: 0.41)
+### 2026-05-29 | Workday price target raised to $135 from $125
+**Sentiment:** +0.05 (pos: 0.26, neg: 0.22, neu: 0.52)
 
-S&P Global has named an eight-member board for its upcoming Mobility Global spinoff, which is expected to become an independent public company by mid-2026, subject to regulatory approvals and final S&P Global board consent. Joe Hinrichs, formerly CEO of CSX, will chair the board, joining Bill Eager (CEO-designate of Mobility Global), Eric Aboaf (S&P Global CFO), and leaders from Voya Financial, Desjardins Group, Workday, Expedia Group, and Lightspeed Venture Partners. Mobility Global will focus on automotive data and analytics across the vehicle lifecycle through brands including CARFAX, Polk Automotive Solutions, automotiveMastermind, and Market Scan, serving automakers, suppliers, dealers, and other stakeholders. S&P Global also indicated the deal has advanced through filings, including a Form 10 submitted to the SEC, setting the stage for the separation to proceed on schedule. Market commentary around the move suggests investors may view the spinoff as a way to sharpen each company’s focus and potentially unlock value, while separate reporting highlighted ongoing insider buying activity and the company’s valuation profile.
+DA Davidson raised its Workday price target to $135 from $125 and kept a Neutral rating, pointing to an outsized Q1 beat and strong ACV growth while saying investors should wait for clearer signs that growth is stabilizing. Goldman Sachs also kept a Neutral rating but cut its price target to $151 from $206, arguing that a more durable re-rating will depend on execution and customer adoption of Workday’s internally developed AI agents, along with stronger product-market fit for its headless and ITSM offerings. Other analyst commentary remains mixed, with ratings spanning from downgrades to higher targets, leaving a consensus view of “Moderate Buy” and an average price target near the high-$180s. Recent earnings showed Workday topping expectations, with revenue growth year over year and profitability metrics supportive of the results. Goldman’s stance reflects ongoing caution into the near term, including noted insider selling activity.
 
 **Key Points:**
-- Joe Hinrichs’ background extends beyond being CSX CEO: he previously led Ford’s global automotive business and currently serves on the board of The Goodyear Tire & Rubber Company (since July 2023), reflecting deep mobility/auto-industry ties that S&P highlighted for the chair role.
-- Mobility Global’s customer scope is broader than automakers and dealers mentioned in the overview: StreetInsider reports it will serve automakers, suppliers, dealer groups, media companies, financial institutions, and consumers.
-- The Form 10 step is dated and described in more detail by TipRanks: Mobility Global “publicly filed” its Form 10 with the SEC on May 7, 2026, and the filing includes the company’s business profile, strategy, and historical financial results.
+- Goldman Sachs’ lowered $151 price target implies a potential upside of 17.84% versus the stock’s previous close, according to Benzinga’s summary of the note.
+- Workday’s reported quarter included $2.66 EPS (vs. $2.51 expected), net margin of 8.60%, return on equity of 13.92%, and revenue of $2.54 billion (vs. $2.52 billion expected), with quarterly revenue up 13.5% year over year; analysts forecast $5.12 EPS for the current year.
+- GuruFocus data cited alongside Goldman’s view showed a GF Score™ of 71/100, and highlighted insider selling of $145.4 million in shares sold over the last three months.
 
 ---
 
-### 2026-05-05 | Gloo completes EnterpriseMarketdesk acquisition, expands Workday services
-**Sentiment:** +0.69 (pos: 0.75, neg: 0.05, neu: 0.20)
+### 2026-05-29 | Anthropic Expands Cybersecurity Models, Releases Opus 4.8
+**Sentiment:** +0.24 (pos: 0.41, neg: 0.17, neu: 0.41)
 
-Gloo Holdings completed its acquisition of EnterpriseMarketdesk (EMD) on May 4, 2026, after announcing the deal on April 14, adding AI-enabled Workday services and expertise to its Gloo 360 platform. The acquisition brings Workday consulting, implementation, and ongoing support, along with deployments, application management, and staff augmentation for nonprofit and mid-market organizations and systems integrator partners. Gloo CEO Scott Beck said the move supports its strategy of modernizing core systems using applied AI and forward-deployed engineering/agentic AI to improve outcomes and lower costs, while EMD managing partner Alan Corbeil emphasized scale and long-term value in a Workday segment he says is often underserved. Reporting also noted the practical question of how quickly existing EMD customers will feel the added platform scale as Gloo folds the business into its services ecosystem, and that deal terms were not disclosed. Separately, coverage of Gloo’s recent financial outlook said it expects about $190 million in fiscal 2026 sales and profitability by the fourth quarter of 2026, after earlier targeted workforce reductions to reduce duplication. A different analysis flagged potential challenges for shareholders, including a low GF Score and a relatively high price-to-sales ratio, suggesting profitability and valuation may remain concerns as integration proceeds.
+Anthropic said it will expand the rollout of its Mythos-level cybersecurity AI models to a wider customer base in the coming weeks, citing progress on safety safeguards and plans to broaden its U.S.-backed partner initiative. The company also released Opus 4.8, a new flagship model aimed at improving coding performance, financial analysis, and more human-like reasoning, with early testers reporting better self-checking on uncertain answers. Anthropic said it is preparing for heightened competitive pressure from OpenAI and Google while nearing a new funding round at a valuation above $900 billion and reportedly discussing a possible IPO as early as this fall. Separately, Salesforce reported accelerating growth tied to adoption of Agentforce and Sales Cloud, attributing momentum to industry-specific solutions, bundled offerings, and a shift toward value-based pricing, with CEO Marc Benioff saying Agentforce is now available across all of Salesforce’s products, including core applications. Cursor 3 also introduced an Agents Window that provides a unified view of multiple concurrently running AI agents across repositories while leaving output coordination to the user.
 
 **Key Points:**
-- Gloo says its Gloo 360 platform already serves "over 140,000 faith, ministry, and nonprofit leaders," positioning EMD’s Workday services as an add-on to an established customer base.
-- EnterpriseMarketdesk’s Workday services are described as covering payroll and human-resources consulting for nonprofit and mid-market organizations—not just implementation and support.
-- In discussing the deal’s rationale, Scott Beck said the strategy of "forward-deployed engineering and agentic AI" is intended to deliver "better outcomes at lower cost" while "creating higher-margin growth for Gloo."
+- Anthropic said its Mythos system can “identify and exploit vulnerabilities ‘in every major operating system and every major web browser’ when directed by a user,” explaining why the company initially restricted access despite demand.
+- When Anthropic first introduced Mythos, it limited availability to “a handful of large tech and Wall Street companies” through Project Glasswing in April, amid “broader global alarm” about risks to critical systems.
+- Anthropic added that it plans to expand Project Glasswing by working with “the U.S. and allied governments” to bring in more partner organizations, as part of the broader effort to widen distribution of Mythos-level capabilities.
 
 ---
 
-### 2026-05-02 | Workday embeds AI-powered employee recognition integrations
-**Sentiment:** +0.13 (pos: 0.37, neg: 0.24, neu: 0.40)
+### 2026-05-28 | Workday reports $2.54B Q1 revenue, AI momentum
+**Sentiment:** +0.24 (pos: 0.45, neg: 0.21, neu: 0.35)
 
-Organizations are seeing growing pressure to respond faster and resolve HR issues more consistently, driving demand for AI-assisted employee case triage that can classify requests, recommend relevant knowledge, and automate routing to reduce delays and case backlogs (https://aijourn.com/ai-driven-employee-case-triage-knowledge-recommendation-a-scalable-framework-for-intelligent-hr-service-delivery/). At the engagement level, HR leaders highlighted strategies centered on flexibility, data-driven and personalized rewards, and using AI for proactive wellbeing and real-time recognition, including gamification and stronger connection-building in hybrid or remote settings (https://www.tipranks.com/news/private-companies/hr-tech-platform-emphasizes-ai-driven-and-personalized-employee-engagement). Workday is moving to operationalize that recognition and communication promise by integrating AI-powered employee recognition via Achievers and using Exclaimer integrations to unify email signatures and meeting branding based on Workday HR data (https://news.ssbcrack.com/workday-expands-hr-platform-with-new-ai-powered-integrations/). A broader review frames AI for engagement as a continuous system that uses machine learning, NLP, predictive analytics, and generative interfaces to sense sentiment, forecast risks, personalize development, and trigger timely interventions—aiming to improve trust while addressing the rising costs of disengagement (https://b2bdaily.com/hrtech/ai-for-employee-engagement-review/). Together, these pieces suggest HR tech is shifting from manual, survey-based approaches toward AI-enabled workflows that tie employee data to everyday recognition, support, and communication—while requiring careful attention to trade-offs like accuracy, consistency, and maintaining human context.
+BofA Securities reinstated coverage on Workday with a neutral view, citing the company’s deep enterprise footprint in HR and payroll systems of record—serving roughly 65% of the Fortune 500 with very high retention—but warning that AI could compress value because Workday’s pricing is largely seat- and headcount-based. The firm also noted that Workday’s growth had been slowing even before recent AI disruption and modeled moderate revenue expansion into fiscal 2027 and 2028, implying a $140 price forecast. In earnings coverage, Workday’s first-quarter 2026 results showed momentum, with revenue of about $2.54 billion, net income of $222 million, and higher EPS alongside stronger operating income and continued subscription dominance. Multiple reports tied the quarter’s performance and guidance confidence to AI agent platform rollout, including embedded features and automated capabilities such as faster financial close, which management says are not disrupting subscription growth. Workday’s CEO, Aneel Bhusri, emphasized operating more like a startup by reorganizing product teams and narrowing agent development, while targeting additional margin expansion while keeping headcount closer to flat. Valuation commentary remained mixed: optimistic scenarios assume sustained growth and stable margins to justify a much higher fair value, while long-term returns have lagged and investors remain sensitive to whether AI will translate into higher profitability without threatening traditional pricing power.
 
 **Key Points:**
-- The AI triage proposal is explicitly described as a “vendor-neutral framework” and is built as four core layers—starting with “Employee Request Intake,” followed by “Simulated AI Classification,” “Knowledge Recommendation,” and “Automated Routing”—to address delays, backlog growth, and inconsistent handling.
-- The framework’s authors say organizations can get “AI-like behavior” even before fully deploying machine learning—by using structured logic plus workflow automation to simulate intelligent decision-making for HR case handling.
-- Workday’s new Achievers and Exclaimer integrations are framed as strengthening the company’s position “at the intersection of HR and IT workflows,” but the coverage also flags a possible downside: tighter coupling to third-party partners may raise “perceptions of diminishing control” over crucial AI/workflow functions as competitors like SAP and Oracle expand their ecosystems.
+- In its quarterly filing for the period ended April 30, 2026 (filed May 22), Workday said its subscription-service model generated 92% of total revenue, with operating income of $338 million (+51% YoY) and EPS of $0.87 (up from $0.68). The filing also flagged a near-term liquidity shift: the company’s asset base contracted ~11% due largely to depletion of cash and marketable securities, while keeping debt “modest” (debt-to-equity about ~1.5:1).
+- Workday’s AI rollout included the Sana superintelligence platform becoming generally available worldwide, along with new agents for IT service management and corporate travel. The agents reportedly pull real-time data from Workday’s HR and finance systems and can perform tasks such as IT ticketing, equipment provisioning, access requests, travel booking, and expense reconciliation—while maintaining existing identity, policy, and approval structures without requiring “extra governance layers.”
+- Bhusri linked the company’s AI strategy to a specific staffing and margin approach: Workday raised full-year non-GAAP operating-margin guidance to 30.5% while holding its subscription-revenue outlook steady, and he reiterated a goal to keep headcount “as close to flat for the year as possible” because Workday’s “own products and other AI tools” are expected to drive efficiency. The report also noted Workday previously cut 1,750 roles (about 8.5%) in 2025 and sent mixed signals on rehiring afterward.
+
+---
+
+### 2026-05-28 | S&P 500 posts eighth straight weekly gain
+**Sentiment:** +0.00 (pos: 0.37, neg: 0.36, neu: 0.27)
+
+The S&P 500 extended an eight-week winning streak, up roughly 18% over the period and on track for its longest run of weekly gains since 2023, as investors weighed optimism against lingering uncertainty. Markets were supported by the Federal Reserve holding rates steady and by signs of cooling inflation and resilient jobs data, though policymakers’ language suggested inflation risk is not fully gone. Tech and AI-linked demand helped power the rally, with growth outperforming value and semiconductors showing particular strength despite elevated concerns about how much of the good news is already priced in. The mood also improved on hopes for progress toward a U.S.-Iran agreement, with mediators traveling to Tehran, U.S. officials pointing to “good signs,” and Iran remaining more cautious—an outlook that helped steady Treasury yields. Traders further cited robust corporate earnings and IPO optimism, alongside record highs in major indexes, while sector leadership varied with healthcare outperforming and communications lagging. Quantum computing stocks also surged after awards tied to President Trump’s administration, even as the overall rally remained sensitive to deal developments and valuation risk.
+
+**Key Points:**
+- Investors’ “soft landing” hopes were underpinned by specific data: the Fed held rates at 5.25%, core CPI fell to 2.8% in April 2026 (from 3.5% in March), and nonfarm payrolls rose by 227,000 in April while the unemployment rate stayed at 3.9%.
+- Despite the pause, the Fed’s own messaging emphasized uncertainty—its April 2026 statement referred to “modest inflation pressures.” Former Council of Economic Advisers chair Gregory Mankiw warned the central bank is “walking a tightrope,” where a premature pivot could “reignite inflation” and being “too cautious” could “stifle growth.”
+- The Iran-deal optimism included concrete negotiation updates: Iranian local media said Pakistan’s Army Chief of Staff Asim Munir (the mediator) left for Tehran on Friday, while Reuters reported a Qatari negotiating team also arrived in Tehran. U.S. Secretary of State Marco Rubio said, “there are some good signs,” adding he didn’t want to be “too optimistic,” while Iranian Foreign Ministry spokesman Esmaeil Baghaei said, “I cannot say that an agreement is imminent.”
+
+---
+
+### 2026-05-27 | Dow closes record high as Wall Street rallies
+**Sentiment:** +0.57 (pos: 0.69, neg: 0.12, neu: 0.20)
+
+Wall Street rose Friday ahead of the Memorial Day holiday, pushing the Dow to an intraday record and helping the S&P 500 maintain an eighth straight weekly gain. Investors cited signs of progress in U.S.-Iran diplomacy, including a Qatari delegation traveling to Tehran alongside U.S. coordination, as well as comments from Secretary of State Marco Rubio that progress is being made despite remaining differences. Strong corporate earnings and generally solid economic data supported risk appetite, while easing Treasury yields and stabilization in bond markets helped sustain the move. Chip and mega-cap stocks led the advance, with gains in semiconductor names such as Qualcomm and a boost for PC makers after China’s Lenovo reported better-than-expected revenue. Oil prices edged higher but stayed below earlier peaks as hopes for a negotiated resolution tempered concerns about supply disruption. Broader market sentiment remained upbeat, with volatility subdued at the open and buybacks and M&A activity adding additional support.
+
+**Key Points:**
+- Apple jumped about 2% and hit a market capitalization of more than USD 4.5 trillion for the first time, underscoring how mega-cap strength—particularly in tech—was propelling the record run.
+- Market optimism at the open was also tied to risk gauges improving: the VIX volatility index slid to its lowest level since early February, while commentary linked the move to a broader liquidity boost and signs of manufacturing resilience from the S&P PMI. The article also argued that AI capex is starting to show up in tangible macroeconomic data.
+- Rates specifics: the benchmark 10-year Treasury yield fell about 2.6 basis points to 4.558% (and other coverage also cited the 30-year Treasury yield declining to roughly 5.06%), reflecting the bond-market stabilization that helped equities hold gains.
+
+---
+
+### 2026-05-25 | Workday Beats Q1 Estimates, Shares Rise
+**Sentiment:** +0.28 (pos: 0.51, neg: 0.23, neu: 0.27)
+
+Workday reported first-quarter fiscal 2027 results after the market close Thursday, posting about $2.54 billion in revenue and $2.66 in non-GAAP EPS, with GAAP profitability rising to $222 million (87 cents per share). Subscription revenue grew about 14%, including subscription revenue backlog rising to $8.81 billion for cRPO and $27.29 billion total, alongside higher profitability and growth in remaining performance obligations. The company said demand for its AI agents continued to accelerate, with customers using the agents more than doubling to over 4,000 and management pointing to “agentic” applications as the key to sustained differentiation. Workday raised its full-year adjusted operating margin forecast to 30.5% from 30% and kept revenue growth guidance roughly in the 12%–13% range. Shares jumped about 12% in extended trading as investors saw the quarter and early AI traction as evidence that near-term generative-AI disruption fears may be overstated, though some investors remained skeptical about subscription growth durability and whether AI could divert budgets from Workday’s core offerings. Analyst reactions were mixed, with a largely Buy-biased consensus but notable price-target trims from some firms even as others reiterated that Workday is relatively insulated due to its scale and retention.
+
+**Key Points:**
+- Workday said about 60% of its 14% subscription revenue growth came from expansion within existing customers, highlighting a retention/upsell engine rather than purely net-new logos. 
+- The company emphasized a shift in delivery toward service partners to reduce professional-services intensity while funding product, infrastructure, and international sales/marketing to scale AI and cloud—an operating-change detail not covered in the summary.
+- Workday’s new AI agent rollout included named products beyond core HCM/finance, with analysts noting the launch of “Sana ITSM Agent” and “Sana Travel Agent,” suggesting Workday’s agent strategy is expanding into broader enterprise workflows.
+
+---
+
+### 2026-05-24 | Wall Street rises eighth week
+**Sentiment:** -0.29 (pos: 0.27, neg: 0.56, neu: 0.17)
+
+Wall Street’s rally and a record-breaking stretch of gains continued Friday as the S&P 500 rose and moved closer to its all-time high, with the Dow and Nasdaq also posting increases. The advance underscored a growing gap between markets and consumers, even as a University of Michigan survey found household sentiment at a record low and inflation expectations rising. Several high-profile earnings results helped lift stocks, including strong performances from Ross Stores, Estee Lauder, Workday, and Zoom, all beating analysts’ expectations for early 2026 results. Consumers’ concerns are tied to worries about inflation—forecast to worsen over the next year—linked in part to higher oil prices attributed to the war involving Iran. Economists warn that increasing inflation expectations can shape consumer and spending behavior in ways that complicate the outlook.
+
+**Key Points:**
+- Stocks extended an “eighth straight winning week,” the best such streak since 2023, as the S&P 500 gained 0.4%, the Dow rose 294 points (0.6%), and the Nasdaq climbed 0.2%.
+- Ross Stores’ CEO Jim Conroy said the company saw “strong customer traffic” and that it “may have benefited from households spending their tax refunds.”
+- Estee Lauder jumped after it said it was “no longer considering a possible merger with Puig,” the Spanish fragrance and beauty products company.
+
+---
+
+### 2026-05-24 | Workday shares jump 7% after AI-fueled earnings
+**Sentiment:** -0.07 (pos: 0.26, neg: 0.33, neu: 0.41)
+
+Philippine “hidden champion” BPO firms say customer service is moving beyond rigid automation toward agentic AI workflows that interpret intent, operate across back-end systems, and perform multi-step resolutions—while human-in-the-loop oversight reframes agents as pilots and exception handlers. In enterprise software, Workday’s strong quarterly results and investor focus on AI helped drive a stock jump as the company pointed to execution of an agentic AI roadmap and expanding use of its in-house AI agents by thousands of customers. Workday is also extending its AI beyond HR and finance with tools aimed at IT service management tasks like handling common employee requests and a travel assistant that streamlines trip planning and expense handling through conversational workflows. Reuters-style analysis highlights that subscription growth is the proof investors want, because AI features must translate into better renewals and expansions rather than just product demos. Separately, Australia’s Commonwealth Bank is using AI to process large volumes of employees’ free-text survey feedback, add adaptive follow-ups, and reduce both the time and potential bias involved in turning insights into actions. Across these stories, the promise is faster, more scalable service and decision-making, but safe rollout depends on strong data quality and clear rules for what AI is allowed to do.
+
+**Key Points:**
+- In the Philippines’ BPO “Hidden Champions” story, PITON-Global CEO John Maczynski said the shift is “different in kind, not just degree,” with “Agentic AI workflows — autonomous systems capable of interpreting customer intent, navigating multiple back-end platforms, and executing multi-step resolutions without constant human prompting.” He also framed the change as repositioning human expertise around AI orchestration rather than replacing Filipino agents, with agents becoming “AI Pilot and exception handler.”
+- Workday’s quarter included detailed performance markers beyond the headline AI narrative: quarterly revenue of $2.542 billion (+13.5% YoY), adjusted earnings of $2.66 per share (vs. $2.51 consensus), and subscription revenue up 14.3% to $2.354 billion. The company also kept its full-year subscription revenue target at $9.925–$9.950 billion and raised its non-GAAP operating margin forecast to 30.5%; it reported that its Recruiting Agent handled 14 million hiring processes in the latest quarter.
+- Workday also addressed the specific investor worry that AI could either “boost big software companies or challenge the seat-based subscription model” — with leadership directly tying results to action-taking AI. Co-CEO Aneel Bhusri said the company was “ready for this AI moment,” while CFO Zane Rowe emphasized Workday is focused on “executing on our agentic AI roadmap,” defining agentic AI as software that “takes action, not just giving answers.”
+
+---
+
+### 2026-05-23 | Workday reports Q1 FY2027 revenue $2.542B
+**Sentiment:** +0.28 (pos: 0.43, neg: 0.15, neu: 0.41)
+
+Workday reported strong first-quarter fiscal 2027 results, with total revenue of $2.542 billion (up about 13%) and subscription revenue of $2.354 billion (up about 14%). Profit and operating performance improved as the company posted GAAP operating income of $338 million and non-GAAP operating margin of about 31.8%, supported by $696 million in operating cash flow and significant share repurchases. The company highlighted accelerating AI momentum, with new annual contract value from AI products rising more than 200% year over year and customer usage of Workday-built AI agents more than doubling to over 4,000 customers. Workday also cited broader agent adoption across its platform, including hiring activity via its recruiting agent, and said its “Agent System of Record” reached general availability. Management reiterated its full-year subscription revenue outlook, increased adjusted operating margin guidance, and projected second-quarter subscription revenue slightly above analyst expectations. The company additionally described product and geographic expansion, including worldwide availability for its Sana offering and new agent releases, alongside partner and data residency updates.
+
+**Key Points:**
+- Workday reported GAAP quarterly profit of $222 million (87 cents per share) and adjusted EPS of $2.66, ahead of analysts’ FactSet estimate of $2.51.
+- In addition to $696 million operating cash flow, Workday generated $616 million in free cash flow and ended the quarter with $4.353 billion in cash, cash equivalents, and marketable securities.
+- The company said its Recruiting Agent supported 14 million hiring processes in the quarter—up 44% year over year—underscoring deeper deployment beyond general agent usage metrics.
+
+---
+
+### 2026-05-20 | Workday plans Delhi, Bengaluru AI hiring expansion
+**Sentiment:** +0.05 (pos: 0.34, neg: 0.29, neu: 0.37)
+
+Workday says it will sustain the same rapid hiring pace in India, where its headcount has more than doubled in 12 to 14 months to about 1,300 employees. The company operates in Mumbai and plans to add new offices in New Delhi and Bengaluru, aiming to tap India’s large pool of skilled workers for tech, finance, and engineering roles tied to global capability centers. Workday is also increasing investments in artificial intelligence across both internal operations and customer-facing products, using AI agents to automate workflows such as payroll, hiring, finance, and expense management. Customers are adopting these tools to speed up routine processes, including an unnamed retailer that reduced hiring time by 70% and overall automation that can cut the time needed for nearly two-thirds of tasks. The push for AI talent and automation comes as multinational firms ramp up generative AI and related roles, even as software and services stocks have slumped amid concerns AI could disrupt traditional business models. Workday serves more than 1,800 customers in India, including major brands such as Target, Netflix, and Nvidia.
+
+**Key Points:**
+- Reuters reported that India is home to “more than half of all global capability centres,” with firms attracted by “large skilled workforce,” “lower operating costs,” and a growing ability to support “high-value jobs across technology, finance and engineering.”
+- Sunil Jose told Reuters, “We would continue (hiring) at the same pace,” and Reuters added that he did not provide a timeline for opening the planned new offices in Bengaluru and Delhi.
+- Workday said it already has offices not just in Mumbai but also in “two more cities,” before expanding its footprint to New Delhi and Bengaluru.
 
 ---
 
@@ -148,6 +231,30 @@ Workday’s shares have recently weakened, prompting debate over whether the sto
 
 ---
 
+### 2026-04-11 | Co-founder David Duffield sells $28 million
+**Sentiment:** -0.16 (pos: 0.26, neg: 0.42, neu: 0.31)
+
+Workday is covered by analysts who rate the stock a “Moderate Buy,” with most firms issuing buy or hold calls despite some recent price-target cuts, after the company reported quarterly results that beat expectations (EPS and revenue) and showed year-over-year revenue growth. Separate reports highlight large insider sales by Workday co-founder and major shareholder David Duffield under pre-arranged Rule 10b5-1 plans as the stock has fallen sharply over the past four months, including a $28 million sale reported around late March. Another filing-based account similarly describes Duffield’s March 31 sale of 107,500 shares at about $129.76 and notes the transactions were conducted under a 10b5-1 trading plan. In contrast, institutional investors appear to be adding to Workday, with multiple fund purchases reported—including Figure 8 Investment Strategies’ new stake and large positions maintained or increased by other asset managers—so the insider activity is occurring alongside continued institutional ownership. Overall, the news combines mixed Wall Street sentiment, a recent earnings beat, insider-led sales during a downturn, and ongoing institutional accumulation.
+
+**Key Points:**
+- Analyst sentiment on Workday is quantified: among 34 covering firms, 19 rate the stock a “buy,” 14 “hold,” and 1 “sell,” with an average 12-month target price of $199.7097.
+- Workday’s earnings beat came with specific profitability metrics: it reported $2.47 EPS vs. $2.32 expected, $2.53B revenue vs. $2.52B expected, plus a 7.26% net margin and 13.37% return on equity (with revenue up 14.5% year over year).
+- In addition to planned sales, David Duffield also carried out a Class B to Class A conversion “at no cost,” which boosts voting power while keeping influence as he sells down part of his stake.
+
+---
+
+### 2026-04-11 | Storm-2755 payroll pirate attacks redirect Canadian salaries
+**Sentiment:** -0.46 (pos: 0.10, neg: 0.56, neu: 0.34)
+
+Microsoft’s Incident Response team says the financially motivated threat actor Storm-2755 is targeting Canadian employees by hijacking Microsoft 365 accounts and redirecting salary payments into attacker-controlled bank accounts (https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/, https://undercodenews.com/storm-2755-payroll-heist-how-cybercriminals-are-hijacking-salaries-through-microsoft-365-attacks/, https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/). The campaign uses search engine manipulation and malicious advertising to route victims—often after queries like “Office 365” or similar misspellings—to convincing but fake Microsoft 365 login pages hosted on attacker-controlled domains (https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/, https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/). In adversary-in-the-middle attacks, the intruders steal session cookies and OAuth tokens and then replay those tokens to bypass non–phishing-resistant MFA and preserve authenticated access (https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/, https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/, https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/). After gaining mailbox access, Storm-2755 creates inbox rules to hide HR/banking messages, then sends “direct deposit” change requests that appear to come from the victim; in some cases it also changes passwords and MFA settings to retain control even after tokens expire (https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/, https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/). Microsoft also reports persistence by continuously replaying active sessions and notes disruption actions such as tenant takedowns, while advising defenses including phishing-resistant MFA and blocking legacy authentication protocols (https://undercodenews.com/storm-2755-payroll-pirate-attacks-how-cybercriminals-hijack-salaries-through-session-theft/, https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/, https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/). Taken together, the reports depict “payroll pirate” identity theft that targets day-to-day financial workflows rather than data forensics, leading to direct financial harm for victims (https://undercodenews.com/storm-2755-payroll-heist-how-cybercriminals-are-hijacking-salaries-through-microsoft-365-attacks/, https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/).
+
+**Key Points:**
+- Microsoft DART said Storm-2755 used a specific tooling detail—leveraging version 1.7.9 of the Axios HTTP client—to relay authentication tokens to customer infrastructure, enabling an AiTM replay flow that “bypassed non-phishing resistant MFA and preserved access without requiring repeated sign ins.”
+- The campaign maintained persistence not just by replaying tokens, but by reportedly refreshing/replaying sessions about every 30 minutes to keep access “blending” with normal user activity.
+- After inbox-rule-based hiding, Storm-2755 reportedly searched the mailbox for terms such as “payroll,” “HR,” “direct deposit,” and “finance,” then sent HR-targeted emails using a recognizable lure: the subject line “Question about direct deposit.”
+
+---
+
 ### 2026-04-10 | Workday major shareholder David Duffield sells $13.9m
 **Sentiment:** +0.07 (pos: 0.37, neg: 0.30, neu: 0.33)
 
@@ -157,66 +264,6 @@ Several investors reported changes in Workday’s ownership amid ongoing market 
 - Major shareholder David Duffield sold 107,500 shares at an average price of $129.60 for about $13.93 million, cutting his ownership to 105,049 shares—an approximately 50.58% decrease—under a pre-arranged Rule 10b5-1 trading plan.
 - Insider Robert Enslin sold 5,373 shares at an average price of $129.41 for about $695,320, reducing his stake to 165,414 shares (about a 3.15% decrease); the filing says the sale was made to cover tax-withholding obligations tied to vested equity awards under a pre-arranged Rule 10b5-1 plan.
 - Portside Wealth Group LLC significantly reduced its Workday position, trimming 75.4% during the fourth quarter—selling 6,583 shares and leaving it with 2,145 shares valued at roughly $461,000 as of the most recent reporting period.
-
----
-
-### 2026-04-09 | Rankings spotlight AI sales tools spanning sales funnel
-**Sentiment:** +0.13 (pos: 0.32, neg: 0.19, neu: 0.49)
-
-Sales teams often spend only about a third of their time actively selling, and that productivity gap is driving rapid adoption of AI sales tools that automate or improve prospecting, email/call support, and forecasting. One example highlighted is HeyReach, a LinkedIn-focused automation platform for high-volume outreach that can rotate sending across accounts and is described as adding a more advanced “MCP” server to connect with AI agents. In parallel, marketers are shifting from manual, technical SEO work toward AI-driven strategy—using automation to handle chores like keyword research and tagging while refocusing teams on narrative-driven, multi-channel campaigns. For SMBs evaluating “agentic” AI, the focus is on tools that can perform multi-step workflows with minimal input, including trends such as multi-agent collaboration, durable/self-healing execution, and no-code builders. The guidance also stresses that even when licenses are free, businesses still need to budget for underlying model token costs and setup/implementation expertise, or outsource that maintenance and oversight to BPO providers.
-
-**Key Points:**
-- Salesforce’s State of Sales research pegs the gap at 28–30% of a rep’s week spent “actually selling,” with the remainder going to CRM updates, meeting prep, manual research, and chasing leads that never respond—clarifying exactly where teams lose time before AI tools are adopted.
-- The HeyReach example includes specific compliance/throughput positioning: it lets teams connect “unlimited accounts under one flat fee” and “automatically rotate sending,” enabling them to reach “over 1,000 leads per week without tripping LinkedIn’s daily limits.”
-- On the marketing side, the roadmap for switching to AI starts with “heavy lifting” chores such as “managing complex spreadsheets” and “fighting with stubborn HTML tags,” and then recommends automating “multi-channel distribution and keyword research” first, so teams can reclaim bandwidth to focus on narrative/brand-building instead of execution.
-
----
-
-### 2026-04-09 | Workday CTO Peter Bailis joins Anthropic
-**Sentiment:** -0.00 (pos: 0.26, neg: 0.26, neu: 0.48)
-
-Peter Bailis, who had taken the CTO job at Workday and left after a very short stint, has joined Anthropic as a “member of technical staff.” Workday said he is being replaced by Gabe Monroy, its incoming CTO, and described Bailis’s departure as part of Workday’s ongoing AI push. At Anthropic, Bailis is expected to work on reinforcement-learning engineering aimed at making the startup’s systems run faster and more reliably. Multiple reports note that Anthropic is also recruiting to build “people products” (HR applications covering hiring, training, development, and promotions) and has sought candidates with prior experience in Workday, Salesforce, and NetSuite. The staffing shift reflects a broader trend in frontier AI labs toward flattening titles—granting engineers research-and-product influence through roles like “member of technical staff”—while also importing domain expertise from enterprise software. Overall, Anthropic’s hire signals closer integration of enterprise HR domain knowledge with hands-on ML systems work at the frontier labs.
-
-**Key Points:**
-- Workday’s president of product and technology, Gerrit Kazmaier, said Bailis’s move was tied to the company going “all in” on AI, framing the CTO’s very short stint and rapid exit as part of that push.
-- Workday’s spokesperson said, “We’re grateful for Peter’s contributions and wish him the best in his next chapter,” adding that “we’re thrilled that Gabe Monroy has taken on the role of Chief Technology Officer at Workday, leading our next chapter of AI innovation.”
-- Anthropic’s recruiting messaging emphasizes cross-pollination between research and production: its careers page states that “engineers here do lots of research, and researchers do lots of engineering,” and that engineers will “have as much input into Anthropic’s direction as anyone else.”
-
----
-
-### 2026-04-08 | Intecrowd acquisition boosts UST Workday ecosystem
-**Sentiment:** +0.86 (pos: 0.88, neg: 0.02, neu: 0.10)
-
-UST, an Aliso Viejo-based AI and technology transformation firm, said it acquired Intecrowd, a boutique Workday partner in Lake Worth, Florida, though it did not disclose financial terms. UST said the deal is intended to strengthen its Workday capabilities to better serve its global client base and expand its Workday ecosystem offerings, aligning with its “inorganic growth” strategy. Intecrowd is described as a Workday-focused partner with Workday-certified implementation expertise that supports full lifecycle deployments, continuous optimization, and faster time-to-value. The companies said they will combine implementation experience with “AI-ready” data foundations, intelligent automation, and AI-driven solutions to improve service delivery for large enterprises. Intecrowd provides end-to-end services across Workday HCM, Workday Financial Management, and Workday Extend, and is noted as being among the first authorized Workday partners to build Extend applications. UST’s CFO Vijay Padmanabhan said integrating this expertise into UST’s global operating model will create a scalable platform for efficient growth and long-term value creation.
-
-**Key Points:**
-- Intecrowd was founded in 2014 and is headquartered in Lake Worth, Florida.
-- Intecrowd employs more than 250 people across multiple countries, including the US, India, Australia, Canada, New Zealand, the Philippines, Poland, Germany, and the UK.
-- The company says Intecrowd’s exclusive Workday focus has translated into “strong client retention” and “a consistent track record of delivering high-quality outcomes.”
-
----
-
-### 2026-04-05 | Universities seek animal-care staff across campuses
-**Sentiment:** +0.15 (pos: 0.31, neg: 0.17, neu: 0.52)
-
-Several employers are advertising animal-care and veterinary roles ranging from academic lab support to school-based animal care and specialized poultry medicine. At the University of Florida (Gainesville, Florida), an Animal Care Technician I (Cage Wash) position focuses on sanitizing research caging and facilities, operating cage-wash and autoclave equipment, handling biohazard and chemical waste properly, and supporting SOP- and compliance-driven workflows (with an expected salary of $16 an hour). The posting lists responsibilities that include preparing and transporting bedding and supplies, ensuring equipment is processed under strict guidelines, and running efficacy checks by collecting swabs and biological indicators. In the UK, Outwood Academy Adwick is seeking an Animal Care Technician with relevant science A-level-equivalent study and laboratory/school experience, emphasizing communication, teamwork, health-and-safety/COSHH knowledge, and child safeguarding requirements (including an enhanced DBS check and UK work eligibility), alongside a benefits package with pension enrollment and paid leave. Ohio State University also has a Poultry Veterinarian and Outreach Specialist role, and its hiring guidance stresses uploading up to five documents, avoiding resume autofill for multi-page resumes, and using accessibility or HR support channels if application assistance is needed.
-
-**Key Points:**
-- At the University of Florida, the Animal Care Technician I (Cage Wash) listing is marked “Veteran’s Preference Eligible” and specifies that the technician must keep up to date on SOPs in “Policy Manager” and complete required trainings using facility computers during normal working hours, with clock-in/clock-out handled through “Timeclock Plus.”
-- The UF cage-wash role includes submitting sanitizing/sterilizing efficacy testing materials by “collect[ing] swabs and Biological Indicators and deliver[ing] samples for assessment of sanitizing/sterilizing efficacy to our Clinical Diagnostic Lab,” as well as supporting operations by “assist[ing] in requesting, receiving, and rotating bedding and other supplies.”
-- Outwood Academy Adwick states that applicants must undergo a “full enhanced DBS check” and be “eligible to work in the UK,” and notes that its recruitment process follows the “keeping children safe in education” guidance.
-
----
-
-### 2026-04-02 | Tennessee Grandmother Jailed Over AI Misidentification
-**Sentiment:** -0.40 (pos: 0.11, neg: 0.51, neu: 0.37)
-
-Angela Lipps, a Tennessee grandmother, says Fargo-area police wrongly linked her to North Dakota bank-fraud cases through facial-recognition output despite evidence she had never visited the state. Fargo-area authorities later acknowledged “a few errors,” including reliance on information from a neighboring agency’s AI facial-recognition system that Chief Dave Zibolski said was “part of the issue”; he added the system had been purchased without executive-level awareness and was later prohibited. Multiple accounts reported investigators relied on the match despite basic checks that could have ruled out a mismatch, including that the person sought (named in reports as Burgess) reportedly had leg tattoos Lipps did not have and that time records placed Burgess at work on key dates. Lipps was detained more than 1,000 miles from home, and her attorneys produced records showing she was in Tennessee during the relevant periods. Fargo dismissed the charges without prejudice after the case unraveled in December. The incident has prompted renewed scrutiny of how facial recognition is used in criminal investigations and how errors can cascade into arrests and extradition.
-
-**Key Points:**
-- News reports say Lipps was arrested at gunpoint by US Marshals on July 14, 2025 while she was babysitting four children, and that she spent 108 days in a county jail without bail before being flown to North Dakota on charges including felony theft and felony unauthorized use of personal identifying information.
-- Fargo police told CNN they used Clearview AI for the facial recognition work: West Fargo uses the startup’s database of “billions of photos scraped from the internet, including social media,” which (they said) generated a match with similar features that was then shared with Fargo.
-- Fargo Police Chief Dave Zibolski said West Fargo forwarded only the facial-recognition output and that Fargo detectives incorrectly assumed West Fargo had also sent the underlying surveillance photos with the photo ID—an error he said contributed to the misidentification.
 
 ---
 
@@ -268,189 +315,157 @@ Workday has launched “Sana from Workday,” an AI platform that brings convers
 
 ---
 
-### 2026-03-07 | Citi cuts Workday price target to $148
-**Sentiment:** +0.21 (pos: 0.33, neg: 0.12, neu: 0.55)
+### 2026-03-21 | Tool-Using AI Agents Expand Workflows and Cost Controls
+**Sentiment:** +0.04 (pos: 0.27, neg: 0.24, neu: 0.49)
 
-DraftKings Inc. is a digital sports-entertainment and gaming company offering online and retail sports betting (Sportsbook), online casino (iGaming), daily fantasy sports, digital lottery courier, media and other products, with Sportsbook operations live under regulation in 28 states, Washington, D.C., and Ontario, Canada. RTX Corporation is an aerospace and defense company serving commercial, military, and government customers through three main segments—Collins Aerospace, Pratt & Whitney, and Raytheon—providing advanced aerospace and defense products, systems and aftermarket services. Workday reported fourth-quarter revenue of $2.53 billion and adjusted EPS of $2.47, beating expectations, but several Wall Street firms have trimmed price targets amid concerns that near-term margin pressure from AI investments could keep shares range-bound. Management’s fiscal first-quarter guidance for subscription revenue and a projected 30.5% adjusted operating margin fell short of consensus, highlighting that continued investment in AI may temper near-term margin expansion even as the company pursues long-term cloud and AI-driven growth. J2 Metals Inc., formerly Cranstown Capital, is a Canada-based exploration company focused on critical minerals and precious metals with projects including Twenty Mile, Napoleon and Miniac, with the Twenty Mile project located in British Columbia’s Quesnel Trough porphyry belt. McDonald’s Corporation is a global foodservice retailer organized into U.S., International Operated Markets, and International Developmental Licensed Markets & Corporate segments, with the U.S. market its largest and roughly 95% franchised.
+Tool-using AI agents are increasingly moving beyond chat by calling APIs, running code, retrieving data, and automating multi-step workflows, raising the need for clear interfaces and safety boundaries. A Bridge ACE live demo showed multi-agent coordination in real time, with agents reporting results, verifying each other, and iteratively improving the system after initial direction. An OpenCode guide argues that developer productivity gains depend more on practical, opinionated integration into messy production codebases than on raw agent capability. Separate reporting describes running local personal AI agents using Ollama for model hosting and n8n for automation to avoid recurring subscription costs. In the “right now” economics of autonomous agents, x402 proposes HTTP-based per-request payments so agents can pay for services without subscriptions, account creation, or API-key overhead. Related coverage highlights cost-control failures from a multi-agent recursion incident that reportedly burned $47,000+ and points to efforts such as ampersend’s wallet-level payment limits and Paperclip’s orchestration for budget- and goal-driven “AI company” operations.
 
 **Key Points:**
-- Multiple sell-side firms recently cut Workday price targets: Citi lowered its target to $148 from $247 (Feb. 26), Morgan Stanley cut to $185 from $200 (Feb. 25), and BTIG trimmed its target to $230 from $285 earlier in the month.
-- Workday was founded in 2005 and is headquartered in Pleasanton, California; the company provides cloud-based financial management, human capital management (HCM), and student information systems.
-- J2 Metals’ Twenty Mile project sits in British Columbia’s Quesnel Trough porphyry belt and is approximately 220 kilometers from Prince George and about 80 kilometers northwest of the Mount Milligan mine.
+- In the Bridge ACE live demo, the multi-agent workflow is explicitly shown as a register-and-assign loop: the system “receives a role,” agents “report results back to the team via real-time messages,” and multiple agents then “review” one another—one writes, another reviews, and a third verifies. The developer also notes the platform provides “204 built-in MCP tools available to every agent.”
+- The OpenCode guide is framed as targeted at skeptical, experienced developers rather than “hello world” users: the author says they are a “senior developer” and “skeptical of anything that claims to ‘revolutionize’ my workflow without concrete examples,” emphasizing a “production-ready” workflow and that OpenCode can “interact[] with your codebase” and “even execut[e] commands.”
+- The local-personal-agent walkthrough gives specific hardware- and model-sizing guidance: it recommends “Llama 3.1 8B if you have 16GB RAM” and “Phi-3 Mini if you’re on 8GB,” and says Ollama’s initial download is “about 4.7GB,” serving models via an API for the agent automation layer.
 
 ---
 
-### 2026-03-06 | Workday Insider Sells $14.4M, Plans 107,500-Share Sale
-**Sentiment:** -0.08 (pos: 0.16, neg: 0.24, neu: 0.60)
+### 2026-03-20 | OhioHealth recognized for two-decade Delaware County partnership
+**Sentiment:** +0.21 (pos: 0.31, neg: 0.10, neu: 0.59)
 
-Institutional investors have been accumulating Workday stock—Level Four Advisory bought 5,748 shares in Q3 (about $1.38M) while several other funds, including PKO, Phoenix Financial, Rakuten and Norges Bank, initiated or enlarged positions, leaving institutions owning roughly 89.81% of the company. At the same time, insiders have sold shares: Robert Enslin disposed of 22,185 shares on Jan. 5 at an average of $210.17 (~$4.66M) and CEO Carl Eschenbach sold 3,125 shares that day at $210 (~$656K), reducing their holdings. The shares have fallen sharply—last closing around $134.01, down roughly 47% over the past year and nearly 35% year to date—prompting broader reassessment of growth-software valuations. Simply Wall St’s DCF, using trailing free cash flow of about $2.68B and projecting FCF to $4.89B by 2031, estimates an intrinsic value near $279.68 per share, implying the stock trades about 52% below that model and earning only 2/6 on its undervaluation checklist. Investors now face a mixed signal of heavy institutional buying, insider selling, a steep price decline, and a cash-flow based valuation that suggests substantial upside if growth and execution assumptions hold.
+OhioHealth’s Grady Memorial Hospital has been recognized for two decades of community health leadership with the City of Delaware and regional partners, coordinating community health priorities through efforts such as CHNA/CHA alignment and implementation planning tied to the county’s improvement strategy. The partnership highlights work focused on improving access to care, health literacy, and workforce development, including expanding training and experiential learning for future healthcare professionals. Separately, MiracleFeet is recruiting a Health Systems Integration Officer to help integrate clubfoot screening and treatment into national health systems in low- and middle-income countries, emphasizing government and civil society partnership-building and evidence-based adaptation to local contexts. The role centers on advocacy, coordination, technical support to regional teams, and guiding tools/frameworks to enable sustainable scale-up. Additional openings at The Ohio State University Wexner Medical Center include a Reporting and Analytics Senior Consultant for cross-functional radiology analytics to support research, operations, and patient care, along with a Quality Program Coordination Lead to design and monitor quality programs and compliance-related improvement efforts. A Data Analytics Specialist role within the cancer program analytics team focuses on descriptive through predictive analytics and communicating results to leadership across strategic health initiatives.
 
 **Key Points:**
-- EULAV Asset Management boosted its stake in Workday by 69.4% in Q3, adding 25,000 shares and bringing its total to 61,000 shares valued at $14,685,000.
-- Following the January 5 sales, insider Robert Enslin still directly owned 106,330 shares (valued at $22,347,376.10) — a 17.26% reduction — and CEO Carl M. Eschenbach owned 17,097 shares (valued at approximately $3,590,370) after his sale.
-- Simply Wall St notes very short-term price moves that the summary didn’t list: Workday was up 3.7% over the past 7 days but down 23.7% over 30 days; the Simply Wall St DCF is built using a 2‑stage Free Cash Flow to Equity approach modeling intermediate years between 2026 and 2035.
+- OhioHealth Grady Memorial Hospital president Cherie Smith said the partnership “has allowed us to better serve our community and address critical health needs,” adding that “From expanding access to care to supporting educational opportunities, these efforts have strengthened health and wellness throughout Delaware County.”
+- In addition to CHNA/CHA and aligning the implementation strategy with the county’s CHIP, the City of Delaware team noted OhioHealth prioritized “leveraging technology,” “enhancing education and training,” and “supporting policy updates that make healthcare more accessible and understandable for all residents.”
+- MiracleFeet’s role description specifies that clubfoot screening and referral for treatment should occur “at birth as part of routine newborn care,” and the Health Systems Integration Officer is explicitly a remote position based in one of these countries: Philippines, Pakistan, Sri Lanka, Uganda or Paraguay.
 
 ---
 
-### 2026-03-06 | Multiple universities seek collegiate sports staff
-**Sentiment:** +0.27 (pos: 0.37, neg: 0.10, neu: 0.53)
+### 2026-03-20 | Workday acquires Sana AI for HR
+**Sentiment:** +0.22 (pos: 0.41, neg: 0.19, neu: 0.40)
 
-Several U.S. universities are advertising higher-education openings spanning athletics administration, coaching, facility management, and student career services at Ohio State, Kennesaw State, and Florida State. Ohio State is hiring an Administrative Assistant for Football to manage Workday procurement and travel transactions, mail and p-card handling, inventory, and administrative support for coaches. Kennesaw State seeks an Assistant Coach, Sports Performance to design and implement scientifically based strength and conditioning programs, perform athlete testing, and assist with facility operations and administrative duties. Florida State is recruiting a Head Coach for Cheer and Spirit responsible for coaching, off-season conditioning, recruiting, event planning, transportation logistics, and required safety/coaching certifications, and is also recruiting an Assistant Director for Competitive Sports Facilities within its large research-university environment. FSU additionally seeks a Career Liaison to partner with academic colleges to deliver tailored career advising, employer and alumni engagement, workshops, and student career development services. Applicants are advised to review each posting for required documents and qualifications and to update their candidate profiles or use internal application systems as directed before applying.
+BI WORLDWIDE India has received Great Place to Work® Certification for a fifth consecutive year in the mid-size category, citing high employee ratings and a culture centered on belonging, trust, and innovation under its “Grow and have fun in a culture of innovation and trust” employee value proposition. In the broader HR technology space, Workday is rolling out “agentic HR” capabilities by integrating Sana—powered by agents that can write, execute, and advance work across enterprise systems—aiming to reduce case volume and enable end-to-end, governed process automation. Workday also plans to deliver the new AI functionality using a consumption model tied to outcomes (such as cases deflected or contracts analyzed), with existing customers receiving the innovation on current terms. Meanwhile, HR’s real-world value is highlighted through conference-submitted workplace-management anecdotes, illustrating that HR often handles the messy, unpredictable situations that arise at work. Finally, a Seattle Human Services employee spotlight underscores the human side of HR and public-sector operations, focusing on accessibility, Americans with Disabilities Act compliance, language and digital access, and advancing racial equity as part of departmental goals.
 
 **Key Points:**
-- The Ohio State posting notes accessibility support for applicants who use screen readers and provides a dedicated contact email for assistance (hr-accessibleapplication@osu.edu); it also instructs current Ohio State employees or students to apply via the internal Workday process.
-- Kennesaw State emphasizes institutional context for the Sports Performance role: KSU is one of the 50 largest public institutions in the U.S., serving over 50,000 students, offering 190+ degree programs, and fielding Division I athletics.
-- The FSU Head Coach, Cheer and Spirit posting lists specific pre-season certification requirements — a valid State of Florida Coaching Certificate (or ability to obtain), and current CPR, First Aid, Concussion in Sports, and Sudden Cardiac Arrest certifications — and includes operational duties such as assigning staff per collective-bargaining supplements, scheduling sanctioned competitions through fhsaahome.org, and reporting scores/statistics to local media.
+- BI WORLDWIDE India said “over 80%” of employees rate the company highly, and CEO Siddharth Reddy credited the workplace culture with driving superior business outcomes.
+- Workday’s Sana-powered agentic HR launch includes a “self-service agent with 300-plus skills,” and early adopters in a pilot program saw a “25% case volume reduction.”
+- Workday executives framed the approach as governed process transformation “within ‘deterministic rails’” and told HR Executive they can deliver “transparency” plus “control and access” mapped to enterprise workflows, data, security, and auditability.
 
 ---
 
-### 2026-03-03 | Workday earnings show AI-driven profitable growth
-**Sentiment:** +0.11 (pos: 0.37, neg: 0.26, neu: 0.37)
+### 2026-03-18 | AI misidentification jails Tennessee grandmother six months
+**Sentiment:** -0.58 (pos: 0.08, neg: 0.66, neu: 0.26)
 
-Workday is pivoting from a system-of-record to an AI-powered system-of-action, with Workday Ventures refocusing on agentic AI investments that target labor-intensive industries and AI-native HR/finance tools—backing companies such as Sully.ai, Laurel AI and Numeric to drive operational margin improvement. On its Q4 call management touted double-digit subscription and total revenue growth, industry-leading retention and strong cash generation while emphasizing agentic AI as the next growth leg even as near-term guidance remains cautious; Q4 subscription revenue was reported at $2.36 billion. Leadership has returned capital through sizable buybacks and closed the year with material cash reserves, but it also signaled incremental investment in its agentic AI roadmap that will slow margin expansion. That investment posture and conservative guidance prompted analyst price-target cuts and downgrades despite viewing the quarter as largely solid. Market reaction was sharp: Jim Cramer and others highlighted steep stock weakness and lingering investor skepticism about AI competition (e.g., Anthropic) contributing to the selloff and analyst actions.
+Angela Lipps, a 50-year-old grandmother from Tennessee, was wrongly identified by AI facial-recognition software in Fargo bank-surveillance footage, arrested at her home last July and flown more than 1,200 miles to North Dakota to face charges tied to an alleged organized bank-fraud scheme. She was held as a fugitive without bail for about 108 days in Tennessee before extradition and ultimately spent nearly six months jailed overall. Authorities say detectives matched the surveillance image to Lipps using facial-recognition tools and cross-referenced social media and her driver’s license, but the case was dismissed after bank records showed she was in Tennessee when the withdrawals occurred. Lipps says the ordeal upended her life—she lost her home, car and dog, spent Christmas displaced, and was arrested at gunpoint while babysitting—and Fargo police state the matter is under investigation. Journalists note the episode underscores broader concerns about wrongful arrests tied to facial-recognition errors and the risks of relying on imperfect AI matches in criminal investigations.
 
 **Key Points:**
-- Workday Ventures is using partnerships — not just capital — to secure access to leading AI innovations; the fund doubled in size in 2023 as generative AI moved into the boardroom, and Barbry McGann described the portfolio companies it backs as “Real margin hitters.”
-- Workday’s contracted revenue and retention metrics remained robust: 12‑month subscription backlog (cRPO) reached $8.83 billion, total subscription backlog grew to $28.1 billion, and gross revenue retention held at 97%.
-- The quarter showed strong profitability and cash generation: Q4 non‑GAAP operating income was $774 million (30.6% margin), full‑year non‑GAAP operating income was $2.82 billion (29.6% margin); operating cash flow was $1.28 billion in Q4 and $2.94 billion for the year, with free cash flow up 27% to $2.78 billion. Management repurchased $1.5 billion in Q4 and $2.9 billion over the fiscal year, leaving $2.9 billion under the buyback authorization and $5.4 billion in cash and marketable securities.
+- Surveillance footage showed the suspect using a fake U.S. Army military ID to withdraw tens of thousands of dollars, which was the transaction investigators were trying to trace.
+- Lipps says no one from the Fargo Police Department contacted her before she was arrested; North Dakota officers only met her after she had already spent about 108 days in a Tennessee county jail.
+- The case was dismissed on Christmas Eve, and Lipps says North Dakota authorities refused to cover her travel home — she spent Christmas in a hotel without adequate clothing and described standing in the cold with 'no coat' and 'snow on the ground.'
 
 ---
 
-### 2026-02-28 | Multiple Analysts Lower Workday Price Targets
-**Sentiment:** -0.37 (pos: 0.16, neg: 0.53, neu: 0.31)
+### 2026-03-18 | Workday Major Shareholder Sells $15.3M Stake
+**Sentiment:** +0.27 (pos: 0.39, neg: 0.12, neu: 0.50)
 
-Multiple Wall Street firms trimmed price targets on Workday this week while largely maintaining buy/overweight ratings, signaling a more cautious near-term view despite the company’s recent quarter beating expectations. Notable cuts included Wells Fargo to $180, Sanford C. Bernstein to $214, Mizuho to $210 and Citigroup to $148, which together compress implied upside from Workday’s current price. Analysts nevertheless still show a consensus “Moderate Buy” with the majority of ratings in buy or hold categories and an average target near $205.19. Workday reported an earnings beat with $2.47 EPS versus a $2.32 consensus and $2.53 billion in revenue, with revenue growth in the mid-teens and a net margin around 7%. The revisions reflect differing views on near-term growth and valuation—Citigroup’s cut leaves only modest upside while other firms still see substantial potential—keeping analyst opinion mixed but tilted toward buy.
+Institutional investors have been significantly increasing their exposure to Workday, with large asset managers such as Vanguard, Hotchkis & Wiley, First Eagle, UBS Asset Management, Generation Investment, Meritage and VanEck materially adding to positions while smaller managers including Delta Global, Azimuth and Landscape also bought shares, leaving institutional ownership around 89.8%. Notable stake builds include Meritage’s 1,489,253-share position (~$358.5M) and Hotchkis & Wiley’s 5,842,491-share holding (~$1.406B), alongside multi-hundred-million-dollar new or increased positions from First Eagle and UBS AM. At the same time major shareholder David Duffield sold 107,500 shares on March 10 for about $15.28M and insider Gerrit S. Kazmaier sold 6,547 shares in December, indicating some insider trimming. Workday recently reported quarterly EPS of $2.47 (above estimates) and revenue of $2.53B, up about 14.5% year-over-year, and the company trades with a market capitalization near $35 billion, suggesting underlying business growth as institutional demand rises.
 
 **Key Points:**
-- Needham & Company reaffirmed a bullish stance on Workday, keeping a “buy” rating and a $300 price target — one of the highest targets cited among analysts.
-- Mizuho’s lowered $210 target was presented as implying roughly a 50.96% upside from the company’s then-current share price, illustrating that some brokers still see sizable upside despite cuts.
-- Citigroup’s reduction to a $148 target implies only about a 6.44% upside from the prior close, underscoring why that firm shifted to a “neutral” stance and why some analysts view near-term upside as limited.
+- Vanguard Group substantially increased its stake, owning 21,799,056 shares of Workday (after adding 684,872 shares, a 3.2% increase) valued at about $5.248 billion, making it one of the largest institutional holders.
+- Norges Bank initiated a new position in Workday valued at approximately $442.7 million during the reporting periods.
+- Key valuation and balance-sheet metrics reported: Workday trades at a P/E of 51.59, a P/E/G of 1.29 and has a beta of 1.16; liquidity and leverage metrics include a quick ratio of 1.83, current ratio of 1.32 and debt-to-equity of 0.38. The 12‑month trading range was about $117.76 to $276.00.
 
 ---
 
-### 2026-02-27 | Workday Q4 Beats; Bhusri Returns, Shares Drop
-**Sentiment:** +0.01 (pos: 0.35, neg: 0.34, neu: 0.32)
+### 2026-03-14 | Workday Shares Slide 4.5% After Soft Guidance
+**Sentiment:** -0.52 (pos: 0.08, neg: 0.61, neu: 0.31)
 
-Workday reported Q4 FY2025 revenue of $2.53 billion and adjusted EPS of $2.47, topping a roughly $2.32 consensus; subscription revenue rose about 15.7% year-over-year and billings increased 12.7% to $3.66 billion. The company posted improved margins, with operating margin at 6.9% and free cash flow margin at 48.1%. Management issued soft forward guidance — Q1 subscription growth of about 13% and fiscal subscription growth guided to roughly 12%–13% — below Street expectations. Investors viewed the outlook as signaling slowing demand, and shares fell about 7.5% in after-hours trading with heavier selling and steep recent 30‑day and year‑to‑date drawdowns. Analysts responded with downgrades and lower price targets, notably Jefferies’ cut to Hold and a reduced target. Co‑founder Aneel Bhusri has resumed the CEO role after Carl Eschenbach’s departure, and management emphasized AI as an opportunity even as investors weigh whether the selloff is a buying opportunity or a repricing for slower growth and AI risk.
-
-**Key Points:**
-- Workday guided first‑quarter revenue of $2.51 billion (versus a $2.53 billion consensus) and fiscal‑year revenue of $10.63 billion to $10.66 billion (versus a $10.72 billion consensus), underscoring the company's specific revenue shortfalls versus Street estimates.
-- CEO Aneel Bhusri directly pushed back on fears that AI will replace Workday’s tools, saying “no amount of coding can produce such a system,” arguing that AI is an opportunity rather than an existential replacement risk.
-- Valuation commentators note a large gap between price and model fair value — Chester’s fair value estimate was $253.14 versus a recent share price around $130 — arguing that sustaining <15% revenue growth and sub‑20% margins would not justify Workday’s prior high P/E.
-
----
-
-### 2026-02-27 | Workday reinstates founder Aneel Bhusri as CEO
-**Sentiment:** -0.20 (pos: 0.26, neg: 0.46, neu: 0.28)
-
-Workday has replaced CEO Carl Eschenbach with co-founder Aneel Bhusri, a change the company says is meant to accelerate an AI-first strategy and position the firm for the next generation of market leaders. Bhusri and company messaging frame agentic AI as a growth opportunity for automating business processes, but Workday cautioned that AI products are not expected to generate meaningful revenue until later in the year. The leadership shift comes as analysts and investors reassess the company: Simply Wall St trimmed Workday’s fair value to about $231 and many firms have cut price targets amid AI uncertainty, slower bookings and the executive change. Shares have fallen sharply in recent weeks and months, reflecting broader software-sector volatility tied to AI disruption, even as several banks and firms maintain constructive longer-term views. Market watchers say the key questions now are how quickly Workday can translate its AI roadmap into products, adjust go-to-market and pricing, and manage capital allocation under Bhusri’s renewed direction.
+Workday shares have plunged to roughly $142 after a late‑February earnings update that included softer fiscal‑2027 subscription guidance, prompting broad analyst price‑target cuts and downgrades. The company nevertheless reported a strong fourth quarter—revenue grew about 14.5% to $2.53 billion, adjusted EPS beat estimates, and subscription backlog expanded—while management is betting on AI and has tied CEO incentives to multi‑year stock targets. Valuation views are mixed: Simply Wall St’s DCF model pegs intrinsic value near $271 per share despite a low valuation score, while the consensus one‑year analyst target is around $189, implying upside from current levels. Institutional ownership remains high at roughly 90%, though some funds (including Natixis) trimmed positions as others increased holdings, reflecting divergent investor sentiment. Heavy insider selling over the past six months, with many open‑market sales and no purchases reported, has added to investor concern about near‑term momentum.
 
 **Key Points:**
-- Several major Wall Street firms remain constructive on Workday despite cuts to price targets — firms including Wells Fargo, Cantor Fitzgerald, BMO Capital, Oppenheimer, Baird and Deutsche Bank keep Overweight/Outperform ratings — and Wells Fargo highlighted Workday trading at about 9x next‑12‑months EV/free cash flow as an attractive valuation.
-- On the earnings call Workday reported revenue and net‑income growth for the January‑ended quarter but projected slower subscription revenue growth for the coming fiscal year, and the stock fell roughly 10% after that outlook; CEO Aneel Bhusri said on the call, “What can agents do to replace human labor?” and added the company must “figure out what we’re going to do with those humans that are displaced,” while a company spokesperson later said the remarks were not about Workday planning to replace its own employees.
-- Carl Eschenbach stepped down effective immediately and also left Workday’s board; Eschenbach had joined as co‑CEO at the end of 2022 and took sole operational responsibility in February, while co‑founder Aneel Bhusri — who had been executive chairman — permanently returned as CEO.
-
----
-
-### 2026-02-26 | Workday Draws Analyst Target Cuts
-**Sentiment:** +0.03 (pos: 0.30, neg: 0.27, neu: 0.44)
-
-Analysts issued a wave of price‑target changes across cloud, e‑commerce and payments stocks, often trimming targets while keeping generally constructive ratings. Workday drew particular attention: Wolfe Research cut its target to $150 from $220 while maintaining an Outperform rating, and other firms set targets ranging from Needham’s $300 to Rosenblatt’s $150 (including Guggenheim $275, Cantor Fitzgerald $200, BTIG $175 and Piper Sandler at $135, now Neutral). Firms cited slowing net‑new core business, deal slippage in federal/state and certain verticals and lengthening sales cycles—prompting management to lower subscription revenue guidance for fiscal Q1 and fiscal 2027—even as Workday reported subscription revenue of $2.532 billion (+14.5% YoY), RPO of $8.833 billion (+15.8% YoY) and about $400 million in AI ARR (with over $100 million in new AI ACV). Evercore ISI and Citizens downgraded amid a CEO transition and concerns about an early‑stage AI strategy. Separately, analysts including Wedbush and BofA trimmed targets on MercadoLibre, Xometry and Block (BofA cut Block to $75 from $86), signaling more cautious valuations despite ongoing topline resilience and emerging AI revenue streams.
-
-**Key Points:**
-- Wedbush explicitly maintained an Outperform rating on MercadoLibre while lowering its price target to $2,400.
-- Wedbush also kept an Outperform rating on Xometry and trimmed its price target to $60.
-- Cantor Fitzgerald reiterated an Overweight rating on Workday and maintained a $200 price target.
-
----
-
-### 2026-02-24 | Schools face nationwide athletic trainer shortage
-**Sentiment:** +0.18 (pos: 0.34, neg: 0.16, neu: 0.50)
-
-When Kelso High quarterback Anders Dahl dislocated his elbow, certified athletic trainers from both schools stabilized and evaluated him before an ambulance arrived, underscoring how critical on-site athletic trainers are for immediate care. The Columbian reports a broader shortage of certified athletic trainers in schools, leaving many programs without needed emergency response and preventative care. Job postings from Ohio State’s sports medicine program — including Athletic Trainer 2 and a Physical Therapy Resident — illustrate active hiring and training pathways in outreach, event coverage, rehabilitation and multidisciplinary sports-medicine care. Expanding those pipelines and filling more athletic-training and allied-health positions is presented as a practical way to improve safety and care for student-athletes.
-
-**Key Points:**
-- The Athletic Trainer 2 position at Ohio State explicitly includes outreach duties such as event and practice coverage, preventative practice, athletic training room coverage and educational involvement, and may provide components of physical therapy treatment plans and serve as a physician extender in clinics.
-- The Physical Therapy Resident role requires current Ohio licensure to practice physical therapy, works within a team‑oriented sports‑medicine rehabilitation program at outpatient sites, and functions under the supervision of a rehab manager and education manager while evaluating and treating primarily orthopedic and sports‑related injuries.
-- The Nurse Practitioner opening is for the Interprofessional Collaborative Practice Clinic at OSU East Hospital and requires a master's degree or DNP, national NP certification, Ohio RN and APN licensure, Ohio prescriptive authority and a DEA registration; responsibilities include primary care, emergency triage, in‑service training, mentoring and serving as a preceptor for students.
-
----
-
-### 2026-02-23 | Ohio State lists multiple medical faculty, staff openings
-**Sentiment:** +0.18 (pos: 0.28, neg: 0.10, neu: 0.62)
-
-The Ohio State University Wexner Medical Center and College of Medicine have posted multiple openings across research, clinical, administrative and nursing tracks. A Visiting Scholar position in Medical Oncology will conduct cancer research, maintain lab operations and prepare results for publication. A Postdoctoral Scholar in Cardiovascular Medicine (Gumina lab) will investigate inflammation’s role in atherosclerosis and support NIH-sponsored research. The Director of Finance for the OSU Comprehensive Cancer Center will lead accounting, purchasing, shared-resources finance and post-award grants management. An Integrative Medicine Endowed Chair/Functional Medicine Physician is a hybrid clinical and strategic role to build an integrative primary care service line collaborating with specialties including Oncology, and a Staff Nurse opening in the Oncology MICU will provide direct patient care and clinical team supervision; applicants are instructed to ensure required documents, update their candidate profile, use Workday if internal, and may request accessibility assistance; the university is an equal opportunity employer.
-
-**Key Points:**
-- The Director of Finance role oversees the OSUCCC’s support across 12 colleges, administration of nearly 450,000 square feet of space and 12 Shared Resources, and serves the center’s catchment area (the state of Ohio).
-- The Postdoctoral Scholar position requires a doctoral degree in a biological or health sciences field (or equivalent) and experience in animal studies and molecular techniques; the role includes developing and troubleshooting new experimental techniques, attending research seminars, contributing to manuscript preparation, and participating in grant application preparation.
-- The Integrative Medicine position is an endowed chair (open rank/track faculty) within the Center for Integrative Health that combines clinical and strategic responsibilities and explicitly aims to build collaborations with multiple specialties beyond Oncology — including Long COVID, Women’s Health, and Neurology — while emphasizing a patient-centered, individualized, science-based approach to address root causes of chronic disease.
+- Insiders executed 120 open‑market sales of WDAY stock in the past six months with zero insider purchases; David A. Duffield alone sold 936,532 shares for an estimated $189,512,707, and several other senior executives (including Robert Enslin, Zane Rowe, Gerrit Kazmaier and CEO Carl Eschenbach) also sold sizeable blocks.
+- Several major brokerages explicitly cut price targets and adjusted ratings in late February: Goldman Sachs lowered its target from $238 to $206 and set a 'neutral' rating (Feb. 25), JPMorgan trimmed its target from $270 to $230 and kept an 'overweight' rating (Feb. 24), and UBS cut its target from $170 to $130 and set 'neutral'.
+- Simply Wall St’s detailed valuation work assigns Workday a low value score (2 out of 6) but its 2‑stage Free Cash Flow to Equity DCF uses a latest‑twelve‑month free cash flow of about $2.68 billion and projects FCF reaching roughly $4.76 billion by 2031, producing an estimated intrinsic value of about $271.19 per share under that model.
 
 ---
 
 ## FMP Articles (30 articles)
 
-### 2026-05-05 | Why Workday (WDAY) Outpaced the Stock Market Today
+### 2026-05-29 | Workday (WDAY) is a Top-Ranked Momentum Stock: Should You Buy?
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2915229/why-workday-wday-outpaced-the-stock-market-today?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2915229
+**URL:** https://www.zacks.com/stock/news/2929024/workday-wday-is-a-top-ranked-momentum-stock-should-you-buy?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|zacks_education_momentum_score-2929024
 
-The latest trading day saw Workday (WDAY) settling at $128.59, representing a +1.28% change from its previous close.
+Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores.
 
 ---
 
-### 2026-05-05 | Brokers Suggest Investing in Workday (WDAY): Read This Before Placing a Bet
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2914713/brokers-suggest-investing-in-workday-wday-read-this-before-placing-a-bet?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|average_broker_rating-2914713
-
-When deciding whether to buy, sell, or hold a stock, investors often rely on analyst recommendations. Media reports about rating changes by these brokerage-firm-employed (or sell-side) analysts often influence a stock's price, but are they really important?
-
----
-
-### 2026-05-05 | QGenda Unlocks New Value for Healthcare Workforce Management with Certified Integration to Workday Human Capital Management
+### 2026-05-28 | Incorta Powers Adaptive Data Foundation for Workday Adaptive Planning - Giving Finance Teams Real-Time Operational Data Without IT Dependency
 **Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260505900290/en/QGenda-Unlocks-New-Value-for-Healthcare-Workforce-Management-with-Certified-Integration-to-Workday-Human-Capital-Management/
+**URL:** https://www.businesswire.com/news/home/20260528583919/en/Incorta-Powers-Adaptive-Data-Foundation-for-Workday-Adaptive-Planning---Giving-Finance-Teams-Real-Time-Operational-Data-Without-IT-Dependency/
 
-ATLANTA--(BUSINESS WIRE)-- #WDAYPartner--QGenda, a leading provider of healthcare workforce management solutions, today announced a new partnership agreement with Workday. The agreement is designed to create a unified workforce ecosystem for healthcare organizations, with QGenda solving the complex scheduling needs specific to healthcare systems. This approach will align HR, scheduling, time tracking, and payroll data to improve operational efficiency, increase workforce data visibility, and control labor cos.
-
----
-
-### 2026-05-04 | First Eagle U.S. Fund Q1 2026 Portfolio Review
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4898036-first-eagle-us-fund-q1-2026-portfolio-review
-
-U.S. Fund A Shares (without sales charge*) posted a return of 1.17% in first quarter 2026. Leading contributors in the First Eagle U.S. Fund this quarter included gold bullion, Exxon Mobil Corporation, Noble Corporation PLC Class A, IPG Photonics Corporation and SLB Limited. The leading detractors in the quarter were Workday, Inc. Class A, Oracle Corporation, Salesforce.com, Inc., Meta Platforms, Inc. Class A and Universal Health Services, Inc, Class B.
+FOSTER CITY, Calif.--(BUSINESS WIRE)--Incorta launched a finance-owned data tool for Workday, providing real-time data refreshes.
 
 ---
 
-### 2026-05-04 | Is Big Tech's $725B AI splurge being funded by mass layoffs?
-**Source:** Invezz
-**URL:** https://invezz.com/news/2026/05/04/is-big-techs-725b-ai-splurge-being-funded-by-mass-layoffs/
+### 2026-05-28 | Why Workday (WDAY) is a Top Value Stock for the Long-Term
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2928213/why-workday-wday-is-a-top-value-stock-for-the-long-term?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|zacks_education_value_score-2928213
 
-A widely reported figure this past week is that 81,747 tech workers lost their jobs in Q1 2026, the highest quarterly layoff figure the industry has seen in at least two years. This has sparked the debate once again about large tech firms, AI and layoffs.
+Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.
 
 ---
 
-### 2026-05-01 | Workday to Announce Fiscal 2027 First Quarter Financial Results on May 21, 2026
+### 2026-05-28 | Workday and Google Cloud Expand Strategic Partnership to Bring AI Agents for HR and Finance Into Employees' Daily Workflows
 **Source:** PRNewsWire
-**URL:** https://www.prnewswire.com/news-releases/workday-to-announce-fiscal-2027-first-quarter-financial-results-on-may-21-2026-302759586.html
+**URL:** https://www.prnewswire.com/news-releases/workday-and-google-cloud-expand-strategic-partnership-to-bring-ai-agents-for-hr-and-finance-into-employees-daily-workflows-302784125.html
 
-PLEASANTON, Calif., May 1, 2026 /PRNewswire/ -- Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for managing people, money, and agents, will announce its fiscal 2027 first quarter financial results after market close on Thursday, May 21, 2026.
-
----
-
-### 2026-04-30 | Jade Global Named Workday Partner
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260430272729/en/Jade-Global-Named-Workday-Partner/
-
-SAN JOSE, Calif.--(BUSINESS WIRE)-- #itconsulting--Jade Global, a premier global provider of digital transformation services and solutions, today announced it has signed a partnership agreement with Workday (NASDAQ: WDAY), a leading provider of solutions to help organizations manage their people and money. This partnership will bring deep domain expertise across industries, including manufacturing, High-tech, healthcare, and retail. As a Workday deployment partner, Jade Global is now positioned to support clie.
+Sana Self-Service Agent from Workday is Now Available in Gemini Enterprise, Delivering Multi-Agent Orchestration Directly Where Employees Already Work Gemini Becomes Default AI Model for Sana for Workday Workday and Google Cloud Will Collaborate on a Next Generation of Workday Agents for HR and Finance PLEASANTON, Calif. and SUNNYVALE, Calif.
 
 ---
 
-### 2026-04-30 | Investors Heavily Search Workday, Inc. (WDAY): Here is What You Need to Know
+### 2026-05-27 | Workday viewed as high-quality but maturing SaaS franchise with limited near-term catalysts
+**Source:** Proactive Investors
+**URL:** https://www.proactiveinvestors.com/companies/news/1092999
+
+Workday Inc (NASDAQ:WDAY) was reinstated with a 'Neutral' rating and a $140 price objective by Bank of America, which said the enterprise software company remains a high-quality franchise but faces limited near-term catalysts as growth moderates. Shares traded at about $124 on Wednesday, down about 42% in the year-to-date.
+
+---
+
+### 2026-05-27 | WDAY vs. SPOT: Which Stock Is the Better Value Option?
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2911786/investors-heavily-search-workday-inc-wday-here-is-what-you-need-to-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2911786
+**URL:** https://www.zacks.com/stock/news/2927686/wday-vs-spot-which-stock-is-the-better-value-option?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_3-2927686
 
-Zacks.com users have recently been watching Workday (WDAY) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.
+Investors looking for stocks in the Internet - Software sector might want to consider either Workday (WDAY) or Spotify (SPOT). But which of these two stocks is more attractive to value investors?
+
+---
+
+### 2026-05-27 | How Much Upside is Left in Workday (WDAY)? Wall Street Analysts Think 46.84%
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2927528/how-much-upside-is-left-in-workday-wday-wall-street-analysts-think-46-84?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|consensus_price_target-2927528
+
+The average of price targets set by Wall Street analysts indicates a potential upside of 46.8% in Workday (WDAY). While the effectiveness of this highly sought-after metric is questionable, the positive trend in earnings estimate revisions might translate into an upside in the stock.
+
+---
+
+### 2026-05-27 | Workday Introduces Adaptive Decision Intelligence, Bringing Planning Questions, Scenarios, and Decisions Into One AI Experience
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/workday-introduces-adaptive-decision-intelligence-bringing-planning-questions-scenarios-and-decisions-into-one-ai-experience-302783100.html
+
+Adaptive Decision Intelligence Lets Teams Ask Questions in Natural Language, Explore Scenarios, and Commit Decisions to the Governed Plan – in Minutes, Not Days NATIONAL HARBOR, Md., May 27, 2026 /PRNewswire/ -- Gartner Finance Symposium/Xpo™ -- Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for HR, finance, and IT, today introduced Adaptive Decision Intelligence, a new AI capability in Workday Adaptive Planning.
+
+---
+
+### 2026-05-27 | The Four Signs a Company Is About to Destroyed by AI
+**Source:** Investor Place
+**URL:** https://investorplace.com/hypergrowthinvesting/2026/05/the-four-signs-a-company-is-about-to-destroyed-by-ai/
+
+AI is creating stock-market casualties. Four warning signs are now flashing across 12 familiar software names.
+
+---
+
+### 2026-05-26 | Can Workday's New Sana AI Solutions for Enterprises Boost Its Shares?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2926959/can-workday-s-new-sana-ai-solutions-for-enterprises-boost-its-shares?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2926959
+
+WDAY rolls out Sana for ITSM and a new Travel Agent, adding AI agents that automate IT support and travel-to-expense workflows in a single platform.
 
 ---
 
@@ -470,162 +485,146 @@ New Agent Reduces PAR Cycle Times by Up to 60% and Improves Decision Accuracy Ne
 
 ---
 
-### 2026-04-10 | Douglas Lane & Associates LLC Lowers Position in Workday, Inc. $WDAY
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/10/douglas-lane-associates-llc-lowers-position-in-workday-inc-wday.html
+### 2026-04-27 | Three Link Solutions Addresses Common Questions about Workday GO during Free Webinar for National Small Business Week
+**Source:** GlobeNewsWire
+**URL:** https://www.globenewswire.com/news-release/2026/04/27/3282039/0/en/Three-Link-Solutions-Addresses-Common-Questions-about-Workday-GO-during-Free-Webinar-for-National-Small-Business-Week.html
 
-Douglas Lane and Associates LLC reduced its stake in Workday, Inc. (NASDAQ: WDAY) by 6.0% in the fourth quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 268,006 shares of the software maker's stock after selling 17,078 shares during the quarter. Douglas Lane and Associates LLC
-
----
-
-### 2026-04-09 | Workday stock sell-off is irrational, but monthly chart points to a steeper crash
-**Source:** Invezz
-**URL:** https://invezz.com/news/2026/04/09/workday-stock-sell-off-is-irrational-but-monthly-chart-points-to-a-steeper-crash/
-
-Workday stock price continues its strong freefall this year, and is now hovering at its lowest level since April 2020. It has slumped in the last four consecutive months, and is down by 61.95% from its all-time high.
+Three Link Solutions offers webinar for small businesses to learn how Workday GO can help HR, payroll and finance teams save time and position for growth.
 
 ---
 
-### 2026-04-09 | Workday Shares Slide As Anthropic AI Threat Hits SaaS Sentiment
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/trading-ideas/movers/26/04/51733341/workday-shares-slide-as-anthropic-ai-threat-hits-saas-sentiment
-
-Workday Inc (NASDAQ: WDAY) shares are falling Thursday morning as AI-driven SaaS disruption fears keep pressuring enterprise software names.
-
----
-
-### 2026-04-09 | David Duffield Sells 107,500 Shares of Workday (NASDAQ:WDAY) Stock
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/09/david-duffield-sells-107500-shares-of-workday-nasdaqwday-stock-3.html
-
-Workday, Inc. (NASDAQ: WDAY - Get Free Report) major shareholder David Duffield sold 107,500 shares of Workday stock in a transaction dated Monday, April 6th. The shares were sold at an average price of $129.60, for a total value of $13,932,000.00. Following the transaction, the insider owned 105,049 shares of the company's stock, valued at $13,614,350.40.
-
----
-
-### 2026-04-09 | Gerrit Kazmaier Sells 9,356 Shares of Workday (NASDAQ:WDAY) Stock
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/09/gerrit-kazmaier-sells-9356-shares-of-workday-nasdaqwday-stock.html
-
-Workday, Inc. (NASDAQ: WDAY - Get Free Report) insider Gerrit Kazmaier sold 9,356 shares of the business's stock in a transaction on Tuesday, April 7th. The stock was sold at an average price of $128.39, for a total value of $1,201,216.84. Following the completion of the transaction, the insider directly owned 165,074 shares in the company,
-
----
-
-### 2026-04-09 | Zane Rowe Sells 6,000 Shares of Workday (NASDAQ:WDAY) Stock
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/09/zane-rowe-sells-6000-shares-of-workday-nasdaqwday-stock.html
-
-Workday, Inc. (NASDAQ: WDAY - Get Free Report) CFO Zane Rowe sold 6,000 shares of the business's stock in a transaction on Tuesday, April 7th. The shares were sold at an average price of $128.22, for a total transaction of $769,320.00. Following the transaction, the chief financial officer directly owned 217,930 shares of the company's stock,
-
----
-
-### 2026-04-09 | Robert Enslin Sells 5,373 Shares of Workday (NASDAQ:WDAY) Stock
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/09/robert-enslin-sells-5373-shares-of-workday-nasdaqwday-stock.html
-
-Workday, Inc. (NASDAQ: WDAY - Get Free Report) insider Robert Enslin sold 5,373 shares of Workday stock in a transaction on Monday, April 6th. The shares were sold at an average price of $129.41, for a total value of $695,319.93. Following the transaction, the insider owned 165,414 shares in the company, valued at $21,406,225.74. This trade
-
----
-
-### 2026-04-08 | Advisor360° and GWN Securities Expand Relationship to Deliver AI-Powered Advisor Workday
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260408237481/en/Advisor360%C2%B0-and-GWN-Securities-Expand-Relationship-to-Deliver-AI-Powered-Advisor-Workday/
-
-NEEDHAM, Mass.--(BUSINESS WIRE)-- #Data--GWN Securities to integrate Parrot AI, advanced meeting prep and AI assistants into its integrated Advisor360° platform for financial advisors.
-
----
-
-### 2026-04-07 | UST Acquires Award-Winning Workday Partner Intecrowd
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260406030207/en/UST-Acquires-Award-Winning-Workday-Partner-Intecrowd/
-
-ALISO VIEJO, Calif.--(BUSINESS WIRE)-- #AI--UST has acquired Intecrowd LLC (Intecrowd), a Workday Partner specializing in strategic deployments and full lifecycle support for Workday solutions.
-
----
-
-### 2026-04-06 | Workday (WDAY) Stock Sinks As Market Gains: Here's Why
+### 2026-04-22 | Workday (WDAY) Stock Slides as Market Rises: Facts to Know Before You Trade
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2895158/workday-wday-stock-sinks-as-market-gains-here-s-why
+**URL:** https://www.zacks.com/stock/news/2905964/workday-wday-stock-slides-as-market-rises-facts-to-know-before-you-trade
 
-Workday (WDAY) concluded the recent trading session at $129.72, signifying a -1.92% move from its prior day's close.
-
----
-
-### 2026-03-11 | Is AppLovin A Better Pick Over Workday Stock?
-**Source:** Forbes
-**URL:** https://www.forbes.com/sites/greatspeculations/2026/03/11/is-applovin-a-better-pick-over-workday-stock/
-
-APP is Workday's competitor in the Application Software sector that has:
+In the closing of the recent trading day, Workday (WDAY) stood at $126.6, denoting a -1.98% move from the preceding trading day.
 
 ---
 
-### 2026-03-11 | Can Workday's Wellness Tie-Up With Lyra Health Aid the Stock?
+### 2026-04-21 | Workday: A Competitive Analysis With Oracle And SAP
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4892601-workday-stock-competitive-analysis-with-oracle-sap
+
+Workday receives a Buy rating, driven by consistent earnings beats, growing ROTC, and robust free cash flow per share. WDAY is positioned as a tech growth stock, investing in AI-powered HCM and ERP, while Oracle and SAP show more mature, income-oriented profiles. Despite recent share price declines and decelerating momentum, analysts expect WDAY to deliver 14–15% average annual EPS growth over the next three years.
+
+---
+
+### 2026-04-21 | EZE Cloud Consulting Advances AI-first Strategy with Agile In-house Deployment of Workday GO
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260421261653/en/EZE-Cloud-Consulting-Advances-AI-first-Strategy-with-Agile-In-house-Deployment-of-Workday-GO/
+
+SINGAPORE; BENGALURU, INDIA; AND SAN FRANCISCO, USA--(BUSINESS WIRE)---- $WDAY #AI--EZE Cloud Consulting Advances AI-first Strategy with Agile In-house Deployment of Workday GO.
+
+---
+
+### 2026-04-21 | 85% of Desk Workers Hit a Tech-Related Slowdown Every Workday, New Standley Systems Survey Finds
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260421225021/en/85-of-Desk-Workers-Hit-a-Tech-Related-Slowdown-Every-Workday-New-Standley-Systems-Survey-Finds/
+
+PLANO, Texas--(BUSINESS WIRE)--Routine office technology problems are quietly eating into productivity, according to new research from Standley Systems, a leading provider of managed print services, managed IT services, and business technology solutions in Dallas-Fort Worth and Oklahoma. The survey found most desk workers run into daily slowdowns tied to computers, networks, software and print devices. For the 2026 Office Technology Report: How Workplace Slowdowns Affect Productivity, Standley.
+
+---
+
+### 2026-04-18 | Lbp Am Sa Has $4.55 Million Stock Position in Workday, Inc. $WDAY
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/18/lbp-am-sa-has-4-55-million-stock-position-in-workday-inc-wday.html
+
+Lbp Am Sa lowered its holdings in Workday, Inc. (NASDAQ: WDAY) by 57.6% during the fourth quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 21,164 shares of the software maker's stock after selling 28,731 shares during the quarter. Lbp Am Sa's holdings in Workday were
+
+---
+
+### 2026-04-17 | Parnassus Growth Equity Fund Q1 2026 Portfolio Activity
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4891572-parnassus-growth-equity-fund-q1-2026-portfolio-activity
+
+We are actively monitoring Meta Platforms' social and data privacy risks and believe the company has made progress on strengthening its policies and enforcement. We believe the market is underestimating the durability of Edwards' transcatheter aortic valve replacement franchise and the opportunity for its transcatheter mitral and tricuspid therapies. We exited our position in Workday to bring the portfolio's software exposure closer to market weight.
+
+---
+
+### 2026-04-16 | Wall Street Bulls Look Optimistic About Workday (WDAY): Should You Buy?
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2882414/can-workday-s-wellness-tie-up-with-lyra-health-aid-the-stock?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2882414
+**URL:** https://www.zacks.com/stock/news/2901405/wall-street-bulls-look-optimistic-about-workday-wday-should-you-buy
 
-WDAY teams up with Lyra Health to bring AI-driven mental health support to its employee wellness platform.
-
----
-
-### 2026-03-10 | TD Advances Embedded Banking for U.S. Businesses with Workday Integration
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260310671999/en/TD-Advances-Embedded-Banking-for-U.S.-Businesses-with-Workday-Integration/
-
-MOUNT LAUREL, N.J.--(BUSINESS WIRE)--TD has expanded its embedded banking offering to include functionality in Workday for U.S. business clients.
+Investors often turn to recommendations made by Wall Street analysts before making a Buy, Sell, or Hold decision about a stock. While media reports about rating changes by these brokerage-firm employed (or sell-side) analysts often affect a stock's price, do they really matter?
 
 ---
 
-### 2026-03-10 | Lyra Health Joins Workday Wellness Program as Preferred Mental Health Partner
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260310336183/en/Lyra-Health-Joins-Workday-Wellness-Program-as-Preferred-Mental-Health-Partner/
-
-BURLINGAME, Calif.--(BUSINESS WIRE)--Lyra Health, the leader in workforce mental health solutions, today announced that it has been named the Workday Wellness Preferred Mental Health Partner. This designation recognizes Lyra's extensive experience in workforce well-being, bringing its high-quality care and offerings directly into the Workday Wellness ecosystem. Workday Wellness is an AI-powered solution that offers employees more seamless access to their benefits and offers employers a real-tim.
-
----
-
-### 2026-03-10 | Workday (NASDAQ:WDAY) Major Shareholder David Duffield Sells 107,500 Shares of Stock
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/10/workday-nasdaqwday-major-shareholder-david-duffield-sells-107500-shares-of-stock.html
-
-Workday, Inc. (NASDAQ: WDAY - Get Free Report) major shareholder David Duffield sold 107,500 shares of the business's stock in a transaction that occurred on Thursday, March 5th. The shares were sold at an average price of $147.16, for a total transaction of $15,819,700.00. Following the sale, the insider owned 105,049 shares of the company's stock,
-
----
-
-### 2026-03-09 | Why Are Software Stocks Down?
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/09/why-are-software-stocks-down/
-
-Anthropic's Claude Cowork plugins leverage agentic AI to complete tasks that have previously been performed by human workers. The advanced capabilities of Cowork mimic many of those found in legacy enterprise software platforms.
-
----
-
-### 2026-03-09 | Clarkston Capital Partners LLC Buys New Shares in Workday, Inc. $WDAY
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/09/clarkston-capital-partners-llc-buys-new-shares-in-workday-inc-wday.html
-
-Clarkston Capital Partners LLC bought a new position in shares of Workday, Inc. (NASDAQ: WDAY) during the third quarter, according to its most recent 13F filing with the Securities and Exchange Commission. The fund bought 37,714 shares of the software maker's stock, valued at approximately $9,079,000. Several other institutional investors and hedge funds
-
----
-
-### 2026-03-06 | Fisher Asset Management LLC Sells 4,170 Shares of Workday, Inc. $WDAY
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/06/fisher-asset-management-llc-sells-4170-shares-of-workday-inc-wday.html
-
-Fisher Asset Management LLC decreased its holdings in shares of Workday, Inc. (NASDAQ: WDAY) by 10.8% in the undefined quarter, according to its most recent Form 13F filing with the SEC. The firm owned 34,330 shares of the software maker's stock after selling 4,170 shares during the period. Fisher Asset Management LLC's holdings
-
----
-
-### 2026-03-05 | Should You Avoid WDAY Stock Amid Declining Estimate Revisions?
+### 2026-03-30 | WDAY Rides on Strong Cash Flow Growth: Will the Momentum Sustain?
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2879294/should-you-avoid-wday-stock-amid-declining-estimate-revisions?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2879294
+**URL:** https://www.zacks.com/stock/news/2891614/wday-rides-on-strong-cash-flow-growth-will-the-momentum-sustain?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2891614
 
-Workday faces falling earnings estimates, slowing growth, stiff competition and rising costs, raising concerns about margins even as it expands into AI and new markets.
+WDAY's surging cash flow and strong subscription demand fuel growth, but with shares lagging and estimates flat, questions loom on sustaining momentum.
 
 ---
 
-### 2026-03-04 | Empathy Named a Workday Wellness Partner
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260304640058/en/Empathy-Named-a-Workday-Wellness-Partner/
+### 2026-03-30 | Revisiting ‘The Jetsons': Where's My Flying Car and Three-Hour Workday?
+**Source:** WSJ
+**URL:** https://www.wsj.com/tech/personal-tech/the-jetsons-predictions-innovation-f97faa99
 
-NEW YORK--(BUSINESS WIRE)--Empathy, the technology company transforming how the world plans for and navigates life's hardest moments, today announced it has been named a Workday Wellness partner. Empathy Loss Support™, an innovative blend of advanced technology and human-first support for bereavement, and Empathy LifeVault™, a digital legacy planning and organization tool, will integrate with Workday Wellness, empowering employers with AI-driven recommendations to improve benefit offerings and.
+The 1960s version of the future is way more fun than our reality—but when it comes to innovations, we're catching up.
+
+---
+
+### 2026-03-29 | The problem for investors: We don't know how Trump wants the Iran war to end
+**Source:** CNBC
+**URL:** https://www.cnbc.com/2026/03/29/the-problem-for-investors-we-dont-know-how-trump-wants-the-iran-war-to-end.html
+
+In his Sunday column for Investing Club subscribers, Jim Cramer argues that the S&P 500 is likely to see further declines during the Iran war.
+
+---
+
+### 2026-03-29 | Why the SaaS Sell-Off Is Creating Generational Buying Opportunities
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/03/29/why-the-saas-sell-off-is-creating-generational-buy/
+
+Not every SaaS stock will be a winner, but ones with these traits likely will be.
+
+---
+
+### 2026-03-26 | Why Is Workday (WDAY) Down 4.6% Since Last Earnings Report?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2890337/why-is-workday-wday-down-4-6-since-last-earnings-report?cid=CS-STOCKNEWSAPI-FT-realtime_blog-2890337
+
+Workday (WDAY) reported earnings 30 days ago. What's next for the stock?
+
+---
+
+### 2026-03-26 | Workday Announces Date of Annual Stockholder Meeting on June 16, 2026
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/workday-announces-date-of-annual-stockholder-meeting-on-june-16-2026-302725450.html
+
+PLEASANTON, Calif., March 26, 2026 /PRNewswire/ -- Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for managing people, money, and agents, today announced that its 2026 annual meeting of stockholders will be held virtually on Tuesday, June 16, 2026 at 9:00 a.m.
+
+---
+
+### 2026-03-24 | Workday Rides on Subscription Revenue Growth: Will it Sustain?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2888933/workday-rides-on-subscription-revenue-growth-will-it-sustain?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2888933
+
+WDAY rides subscription revenue growth and AI-driven innovation, but slowing estimates and stock decline raise questions about sustainability.
+
+---
+
+### 2026-03-23 | Can Workday's Collaboration With Harness Fuel Its Shares?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2888237/can-workday-s-collaboration-with-harness-fuel-its-shares?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2888237
+
+WDAY expands AI-driven software delivery through its partnership with Harness, boosting automation, security validation and faster innovation for enterprise systems.
+
+---
+
+### 2026-03-23 | Nordea Investment Management AB Lowers Holdings in Workday, Inc. $WDAY
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/03/23/nordea-investment-management-ab-lowers-holdings-in-workday-inc-wday.html
+
+Nordea Investment Management AB reduced its holdings in shares of Workday, Inc. (NASDAQ: WDAY) by 43.4% during the undefined quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The firm owned 789,459 shares of the software maker's stock after selling 604,137 shares during the period.
+
+---
+
+### 2026-03-23 | Workday, Inc. $WDAY Shares Sold by MassMutual Private Wealth & Trust FSB
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/03/23/workday-inc-wday-shares-sold-by-massmutual-private-wealth-trust-fsb.html
+
+MassMutual Private Wealth and Trust FSB cut its holdings in shares of Workday, Inc. (NASDAQ: WDAY) by 65.8% in the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The firm owned 2,933 shares of the software maker's stock after selling 5,633 shares during the
 
 ---

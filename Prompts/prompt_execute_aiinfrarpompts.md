@@ -26,7 +26,7 @@ These rules override any conflicting instructions in the individual prompt files
 ### Output & File Integrity
 - Do NOT update the Stock Tracker under any circumstances.
 - Never edit any permanent files — scripts, prompts, CLAUDE.md, GEMINI.md, index files, or context files. Your writes are restricted to the thesis file and ticker data files only.
-- Write to the thesis file after each pass. Use Write to create the thesis file if it does not exist; use Edit for all subsequent sections.
+- Write to the thesis file after each pass. Files under `Data/tickers/` are pre-authorized for both Write and Edit — no permission prompt will fire. If the thesis file does not exist, use Write to create it; use Edit for all subsequent sections. You must Read the file at least once before using Edit.
 
 ### Tools
 - Use the Grep tool for all search operations. Never use Bash.
