@@ -52,6 +52,7 @@ Stocks under active monitoring. Market data columns updated by `Scripts/tracker_
 
 | Ticker | Tag | Mkt Cap | Spread | P/E Corr | Price | Price vs_1Y | Price vs_2Y | EPS TTM | EPS vs_1Y | EPS vs_2Y | EPS QoQ (4Q) | P/E | P/OE | ROIC | ROIC Δ1Y | ROIC Δ2Y | OCF/NI | FCF TTM | FCF vs_1Y | FCF vs_2Y | Rev TTM | Rev vs_1Y | Rev vs_2Y | Debt/OCF | Next Earn | Last Earn | Thesis | $/Dollar |
 |--------|-----|---------|--------|----------|-------|-------|-------------|---------|-----------|-----------|--------------|-----|------|------|----------|----------|--------|---------|-----------|-----------|---------|-----------|-----------|----------|-----------|-----------|--------|---------|
+| COHR | TAILWIND — AI SC L7 | $60.9B | — | — | $383.97 | +307.7% | — | $2.29 | — | — | — | 167.7x | — | 6.0% | +4.9pp | +4.6pp | 0.30x | $-0.54B | — | — | $6.60B | +23.4% | — | 24.4x | 2026-08-12 | 2026-05-06 | Y | $1.30–1.40 |
 | IT | LOSER — EPS+ | $10.79B | -80.6% | +0.83 | $160.05 | -63.3% | -62.6% | $10.12 | +17.3% | +19.1% | +134.9% | 15.8x | 9.8x | 47.8% | -9.4pp | +13.7pp | 1.8x | $1.26B | +28.7% | +123.0% | $6.47B | -1.5% | +2.6% | 2.4x | 2026-08-04 | — | Y | $0.75–0.80 |
 | BR | LOSER — EPS+ | $17.50B | -51.2% | -0.96 | $150.68 | -36.1% | -19.8% | $9.34 | +15.1% | +31.8% | +17.2% | 16.1x | 14.4x | 20.1% | +4.5pp | +5.8pp | 1.2x | $1.30B | -17.6% | +71.9% | $7.32B | +7.8% | +13.2% | 2.5x | 2026-08-04 | — | Y | — |
 | NFLX | LOSER — EPS+ | $362.00B | -113.7% | -0.63 | $86.08 | -27.4% | +31.5% | $3.10 | +86.4% | +132.1% | +26.4% | 27.8x | 31.6x | 38.9% | +9.9pp | +16.0pp | 0.9x | $11.89B | +91.4% | +138.4% | $46.89B | +16.2% | +30.7% | 1.3x | 2026-07-16 | — | Y | $0.80–0.85 |
@@ -76,7 +77,7 @@ Stocks under active monitoring. Market data columns updated by `Scripts/tracker_
 | RDDT | TAILWIND — AI SC L13 | $32.38B | -568.1% | -0.55 | $167.20 | +53.4% | +190.1% | $3.53 | +621.4% | +128.7% | +86.5% | 47.4x | 59.7x | 38.7% | +31.5pp | +106.3pp | 1.2x | $868.7M | +145.8% | +965.2% | $2.47B | +69.1% | +173.1% | 0.0x | 2026-07-30 | — | — | — |
 | CCJ | TAILWIND — AI SC L1 | $48.61B | -5.5% | +0.69 | $111.12 | +88.2% | +105.3% | $1.50 | +93.8% | +1650.0% | +37582.8% | 74.1x | 55.8x | 14.2% | +9.7pp | +10.2pp | 1.9x | $899.7M | -286.1% | -532.3% | $3.54B | +7.1% | +33.4% | 0.6x | 2026-07-31 | — | — | — |
 | CSCO | TAILWIND — AI SC L7 | $465.12B | +55.2% | +0.84 | $118.51 | +92.3% | +171.0% | $3.00 | +37.1% | +84.8% | +8.3% | 39.5x | 54.1x | 18.1% | +1.2pp | -0.4pp | 1.1x | $12.62B | -6.1% | -6.3% | $60.75B | +12.0% | +24.7% | 2.4x | 2026-08-12 | — | — | — |
-| GEV | TAILWIND — AI SC L8 | $266.94B | -1706.3% | +0.95 | $987.94 | +110.1% | +459.2% | $34.22 | +1816.5% | +3733.3% | +208.4% | 28.9x | 35.5x | 121.0% | -2.7pp | +127.4pp | 1.0x | $7.53B | +391.4% | +824.8% | $39.38B | +16.1% | +28.7% | 0.3x | 2026-07-22 | — | — | — |
+| GEV | TAILWIND — AI SC L8 | $266.94B | -1706.3% | +0.95 | $987.94 | +110.1% | +459.2% | $34.22 | +1816.5% | +3733.3% | +208.4% | 28.9x | 35.5x | 121.0% | -2.7pp | +127.4pp | 1.0x | $7.53B | +391.4% | +824.8% | $39.38B | +16.1% | +28.7% | 0.3x | 2026-07-22 | 2026-04-23 | Y | $1.00 |
 | GOOGL | TAILWIND — AI SC L10 | $4.65T | +41.8% | +0.81 | $383.00 | +123.6% | +119.5% | $13.11 | +81.9% | +170.4% | +21.5% | 29.2x | 121.5x | 30.2% | -1.9pp | +2.3pp | 1.1x | $64.43B | -46.6% | -39.9% | $422.57B | +21.8% | +36.5% | 0.5x | 2026-07-22 | — | — | — |
 | KLAC | TAILWIND — AI SC L2 | $257.77B | +142.8% | +0.96 | $1957.36 | +154.5% | +157.4% | $35.33 | +11.8% | +105.9% | +3.0% | 55.4x | 69.4x | 48.3% | +0.1pp | +12.7pp | 0.9x | $4.01B | -37.0% | -25.8% | $13.10B | +11.5% | +45.0% | 1.4x | 2026-07-30 | — | Y | $1.00 |
 | MRVL | TAILWIND — AI SC L6 | $178.99B | +300.8% | +0.11 | $203.43 | +220.1% | +170.1% | $2.91 | -80.7% | +115.4% | +183.7% | 69.9x | 177.6x | 14.0% | +15.7pp | +17.9pp | 0.8x | $1.66B | +126.8% | +107.8% | $8.72B | +27.6% | +108.3% | 2.4x | 2026-08-27 | — | Y | $1.00–1.10 |
@@ -100,7 +101,7 @@ Stocks under active monitoring. Market data columns updated by `Scripts/tracker_
 | INTC | TAILWIND — AI SC L3/L4 | $617.14B | +786.8% | — | $122.03 | +502.6% | +307.6% | -$0.62 | -284.2% | -712.9% | -160.0% | — | — | -0.8% | +11.0pp | -5.4pp | -3.1x | $-3.12B | +41.9% | +64.7% | $53.76B | +7.2% | +6.7% | 4.5x | 2026-07-23 | — | Y | $1.30 |
 | LRCX | TAILWIND — AI SC L2 | $405.26B | +247.1% | +0.89 | $324.07 | +287.9% | +246.3% | $5.30 | +40.8% | +98.6% | +9.9% | 61.1x | 66.7x | 71.7% | +15.3pp | +20.2pp | 1.0x | $6.45B | -20.7% | -36.8% | $21.68B | +23.8% | +54.0% | 0.5x | 2026-07-29 | — | — | — |
 | HON | TAILWIND — AI SC L9 | $148.09B | +48.0% | -0.66 | $233.79 | +6.1% | +23.7% | $7.06 | -41.9% | -42.2% | +30.9% | 33.1x | 36.8x | 12.3% | -3.2pp | -8.5pp | 1.3x | $4.17B | -352.3% | -506.0% | $36.76B | -6.9% | +0.4% | 6.6x | 2026-07-23 | — | — | — |
-| BE | TAILWIND — AI SC L8 | $79.87B | +1062.6% | — | $277.18 | +1392.6% | +1686.0% | -$0.04 | +330.0% | +192.0% | +1394.8% | — | 675.4x | 3.6% | -0.4pp | +15.9pp | 50.0x | $233.0M | +138.0% | +128.2% | $2.45B | +130.4% | +219.2% | 9.2x | 2026-07-30 | — | — | — |
+| BE | TAILWIND — AI SC L8 | $79.87B | +1062.6% | — | $277.18 | +1392.6% | +1686.0% | -$0.04 | +330.0% | +192.0% | +1394.8% | — | 675.4x | 3.6% | -0.4pp | +15.9pp | 50.0x | $233.0M | +138.0% | +128.2% | $2.45B | +130.4% | +219.2% | 9.2x | 2026-07-30 | 2026-05-24 | Y | $1.60–1.80 |
 
 ---
 
@@ -227,11 +228,29 @@ TICKER — $/Dollar — Date
 - **Projection:** Dollar for 70 cents — financial value real (11.4x owner earnings for a 15.7% GAAP EPS compounder) but path blocked by CEO uncertainty, ARR trajectory question, and risk-off macro suppressing software multiples; 12–18-month re-rating horizon.
 - **Catalyst:** Jun 11 earnings — ARR re-acceleration above 11% + CEO successor announcement = re-rating; stock business accelerating decline or ARR below 10% growth for 2 consecutive quarters is primary invalidation.
 
+**COHR — $1.30–1.40 — 2026-05-31**
+- **Numbers:** CRITICAL L7; adj P/E 79x, owner earnings P/E ~100x, ROIC 6% (below CoC); FCF -$0.54B (investment phase); $283M/yr merger amortization persists through FY2030 — 112% GAAP-adj gap is structural; NVIDIA $2B equity improved net leverage to 0.5x; $2.91B debt wall FY2030.
+- **Narrative:** Maximum institutional penetration — NVIDIA-validated, S&P 500 added, 25 analysts mostly Buy; LTAs confirmed binding with minimum demand commitments; CPO is a full optical subsystem bundle, not just a laser; OCS market doubled to $4B+. Retail entered late.
+- **Projection:** Price at top of base case ($254–$382, FY2027 $6.37 adj EPS × 40–60x); bull ($400–$600, FY2028 $10–12 EPS) only modestly above current; bear ($200–$220, CPO delay + GM stall) is 43–48% downside. Business worth owning, not at this price.
+- **Catalyst:** Q4 FY26 earnings Aug 12, 2026 — InP doubling complete, CPO first revenue window; adj EPS below $1.45 OR FY2027 guidance below $7.00 is primary invalidation; BIS/Huawei penalty >$500M is tail risk.
+
+**BE — $1.60–1.80 — 2026-05-31**
+- **Numbers:** GAAP EPS −$0.04 TTM; owner earnings ~$0.12B (FCF $0.23B − SBC $0.13B) → P/OE ~700x; ROIC 3.6% (below cost of capital); Debt/OCF 9.19x ($2.60B due 2028); product gross margin flat at 34% GAAP despite 208% volume growth; 50% of Q1 2026 revenue from Bloom's own Brookfield Fund JV (related party) — revenue is real but counterparty is not the hyperscaler directly; investment cycle not self-sustaining (FY2026 FCF guided ~$0–50M).
+- **Narrative:** Peak enthusiasm — stock +1,495% in 12 months, at 91% of all-time high; Oracle 2.8GW + Nebius $2.6B + AEP 1GW are named real contracts; institutional validation (Druckenmiller, Manchester & London 10% NAV) present; analyst consensus 14 Buy / 13 Hold with median target −23.7% below price; insider selling pervasive (28 transactions, all sales); retail absent from thesis discussion.
+- **Projection:** Price embeds extraordinary bull case: 143x forward adj P/E on FY2026 guidance midpoint ($2.05), 124x forward EV/non-GAAP OI. For fair value at 30x EV/OI: OI would need to be $2.8B — 4x current guidance. Q2 2026 guidance ("at least as good as Q1") partially de-risks near-term miss but does not change multi-year execution requirement embedded in price. Brookfield JV revenue circularity unaddressed on either earnings call.
+- **Catalyst:** Q2 2026 earnings Jul 30 — management committed to $751M+ revenue; miss reprices to $90–150 range (−50–70%); meet confirms run-rate but leaves multiple unchanged; entry only on thesis-breaking miss followed by financial stabilization evidence.
+
 **INTC — $1.30 — 2026-05-14**
 - **Numbers:** Absent — Intel Products healthy (32% margins, six consecutive guidance beats) but Foundry losing $2.4B/qtr at -45% margins; no owner earnings; speculative at current price.
 - **Narrative:** Strong — 14A ahead of schedule, Google LTA + anonymous LTAs signed, ASIC doubled YoY, Lip-Bu Tan institutional credibility — "Intel turnaround" narrative gaining traction.
 - **Projection:** Buying $2.00 of story at $1.00 of confirmed fundamentals — $150+ path on Apple commercial scale confirmation; $70-80 analyst consensus without foundry thesis materializing.
 - **Catalyst:** Q2 earnings Jul 23; H2 2026 14A customer commitments; entry on pullback to $75-85 or Apple >$1B foundry revenue confirmation; 14A PDK 1.0 delay past Q4 2026 is primary invalidation.
+
+**GEV — $1.00 — 2026-05-31**
+- **Numbers:** Confirmed CRITICAL L8 oligopolist — clean ROIC 25-40%, $163B RPO of legally contracted revenue, customers pre-paying $5.6B in a single quarter for turbine delivery slots. Self-funding (returned $1.4B to shareholders in Q1 while expanding capacity). TTM FCF $7.53B and OCF $9.0B overstate operational cash generation 3-5x due to advance payment timing; operational FCF ~$2.5-4.5B annually. Q1 2026 margins tracking materially ahead of guidance (Power 16.3% vs. 14-15% guided; Electrification 17.8% vs. 16-17% guided).
+- **Narrative:** Institutionally embedded, uniformly bullish, broadly held — virtually no counter-narrative except BNP's explicit valuation call. April Power orders exceeded full Q1 in value. EMS/SST/stability block product pipeline adds Electrification entitlement per data center GW not yet in reported figures. 30-35 framework agreements in active discussion, none closed — closure would be asymmetric upside catalyst.
+- **Projection:** Stock priced on 22% per-segment EBITDA margins by 2028 on $50-56B revenue (full bull case); at that scenario, EV ~$308B ≈ 10% above current. Base case (20% total company on $52B) ≈ $229B = 18% below current. Bear case (16-18% margins) = $138-198B = 30-50% below current. Dollar for a dollar of best-case 2028 value — no margin of safety at current price.
+- **Catalyst:** Q2 earnings Jul 22 — genuine thesis test: April order confirmation, first print at 20 GW/yr production rate, Electrification margin guidance "modestly above Q1's 17.8%"; any framework agreement announcement is asymmetric upside not priced in. Power segment EBITDA margin below 15% in Q2 or Q3 is primary invalidation; two consecutive quarters of orders below $12B signals demand deceleration.
 
 ---
 
