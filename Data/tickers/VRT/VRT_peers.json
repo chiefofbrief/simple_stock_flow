@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "CTAS",
+    "companyName": "Cintas Corporation",
+    "price": 171.26,
+    "mktCap": 68518899620
+  },
+  {
+    "symbol": "EMR",
+    "companyName": "Emerson Electric Co.",
+    "price": 143.82,
+    "mktCap": 80553582000
+  },
+  {
+    "symbol": "ITW",
+    "companyName": "Illinois Tool Works Inc.",
+    "price": 247.28,
+    "mktCap": 71142456000
+  },
+  {
+    "symbol": "JCI",
+    "companyName": "Johnson Controls International plc",
+    "price": 134.06,
+    "mktCap": 81792150960
+  },
+  {
+    "symbol": "NOC",
+    "companyName": "Northrop Grumman Corporation",
+    "price": 563.68,
+    "mktCap": 80061161440
+  },
+  {
+    "symbol": "PWR",
+    "companyName": "Quanta Services, Inc.",
+    "price": 711.73,
+    "mktCap": 106802203800
+  },
+  {
+    "symbol": "TDG",
+    "companyName": "TransDigm Group Incorporated",
+    "price": 1258.32,
+    "mktCap": 70382367552
+  },
+  {
+    "symbol": "TRI",
+    "companyName": "Thomson Reuters Corporation",
+    "price": 86.51,
+    "mktCap": 37764974789
+  },
+  {
+    "symbol": "UPS",
+    "companyName": "United Parcel Service, Inc.",
+    "price": 106.72,
+    "mktCap": 90712668601
+  },
+  {
+    "symbol": "WM",
+    "companyName": "Waste Management, Inc.",
+    "price": 211.46,
+    "mktCap": 84917260960
+  }
+]

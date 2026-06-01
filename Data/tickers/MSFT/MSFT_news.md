@@ -1,390 +1,390 @@
 # MSFT News Data
-**Generated:** 2026-05-10 14:08
-**Date Range:** 2026-02-09 to 2026-05-10
+**Generated:** 2026-06-01 13:29
+**Date Range:** 2026-03-03 to 2026-06-01
 
 ## Summary Statistics
 
 ### Coverage
 - **Perigon:** 10 stories (aggregated from 10 media items)
-- **FMP:** 30 articles from 18 sources
+- **FMP:** 30 articles from 16 sources
 - **Total:** 40 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 10 | 10 |
+| 2026-06 | 10 | 8 |
+| 2026-05 | 0 | 12 |
 | 2026-04 | 0 | 10 |
-| 2026-03 | 0 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.053)
-- Positive-leaning: 4 stories
+**Perigon** (avg composite: +0.136)
+- Positive-leaning: 7 stories
 - Neutral: 0 stories
-- Negative-leaning: 6 stories
+- Negative-leaning: 3 stories
 
 ---
 
 ## Perigon Stories (10 stories)
 
-### 2026-05-10 | AI arms race expected free cash flow dip
-**Sentiment:** -0.20 (pos: 0.26, neg: 0.47, neu: 0.27)
+### 2026-06-01 | IREN closes $3.65B GPU financing for Microsoft
+**Sentiment:** +0.30 (pos: 0.39, neg: 0.10, neu: 0.51)
 
-Big Tech’s AI buildout is shifting Alphabet, Amazon, Meta, and Microsoft from cash generators toward heavy infrastructure spenders, as capex for data centers, chips, servers, and power takes a growing share of operating cash. Analysts say free cash flow is set to plunge to the lowest levels not seen since 2014, with Morgan Stanley estimating hyperscalers could spend roughly $805 billion this year and as much as $1.1 trillion next year. Wall Street forecasts also project combined free cash flow for Amazon, Alphabet, Microsoft, and Meta around $4 billion in the third quarter, down sharply from much higher post-COVID averages. The strain is already visible in specific companies’ actions—Amazon is expected to burn cash and has large planned 2026 spending, while Meta has issued significant debt and paused buybacks. Even as Alphabet remains free-cash-flow positive, it’s doing so at its weakest level in more than a decade and has reduced repurchases, underscoring that investors are increasingly judging whether AI spending will convert into future cash. Overall, analysts view the cash pressure as temporary, hinging on AI-driven revenue growth that could improve cash generation later.
+IREN said it has closed a $3.65 billion investment-grade GPU financing facility to support delivery of its AI Cloud contract with Microsoft, combining a $2.10 billion U.S. private placement and a $1.55 billion delayed-draw term loan. The financing is priced around SOFR plus margins (yielding a blended cost of debt of about 6.0%), carries Fitch and DBRS ratings of A and A(low), and is secured by the GPUs and related contracted cash flows. With customer prepayments, the facility is expected to fund roughly $5.59 billion of about $5.81 billion in GPU capital spending under the Microsoft deal, helping expand capacity to about 480MW by the end of 2026. An SEC 8-K filing describes the underlying financing agreements executed by IREN’s subsidiary, including senior notes and the term-loan component totaling approximately $3.6 billion. Separately, reporting on IREN and Be Networks highlights the use of an Nvidia-based system to run large-scale simulations—on the order of 50,000 units—to detect issues early as AI infrastructure operations scale.
 
 **Key Points:**
-- Morgan Stanley’s estimate for AI-related spending explicitly includes Oracle alongside Amazon, Alphabet, Meta, and Microsoft—hyperscalers “could spend nearly $805 billion this year” (up from an earlier $765 billion projection).
-- The scale of the planned AI buildout is so large that Morgan Stanley-linked commentary says 2026 spending would be “roughly equal to what all non-tech companies in the S&P 500 spent combined in 2025,” with the expected ~$800B in 2026 “nearly double the 2025 levels and about three times what was spent in 2024.”
-- Amazon’s cash drain is quantified: Visible Alpha estimates a roughly “$10 billion cash burn,” and the firm is projected to spend more cash than it generates this year; additionally, its announced “plans to invest $200 billion in 2026” are described as the largest among peers.
+- IREN co-founder and co-CEO Daniel Roberts said the deal underscores “both the quality of our customer contracts” and that the company “own[s] the data center infrastructure these GPUs run in,” framing the financing as tied to asset control rather than only credit quality.
+- Along with customer prepayments, the facility was described as funding $5.59 billion of $5.81 billion of GPU capex under the Microsoft contract—about 96%—at an “average financing cost of 3.31%.”
+- An SEC 8-K said the financing was entered into by IREN subsidiary IE US Hardware 3 LLC under agreements “each dated May 29, 2026,” totaling approximately $3.6 billion, including an approximately $1.5 billion delayed draw term loan facility and $2.1 billion of 5.96% senior notes due December 31, 2031.
 
 ---
 
-### 2026-05-10 | CVE-2026-26129 Copilot Business Chat reported data exposure
-**Sentiment:** -0.05 (pos: 0.22, neg: 0.27, neu: 0.52)
+### 2026-06-01 | Nvidia RTX Spark Arrives on Surface Laptop Ultra
+**Sentiment:** +0.24 (pos: 0.43, neg: 0.20, neu: 0.37)
 
-Multiple newly flagged vulnerabilities across Microsoft AI agent/assistant deployments and several third-party web applications present high, attacker-friendly paths to data exposure and account/session compromise. In Microsoft 365 Copilot Business Chat, attackers may be able to trigger information disclosure through largely permissionless probing of widely used chat sessions, with risk rising where many users (including partners) can initiate sessions that reference internal or regulated content. Separate guidance warns that publicly reachable M365 “published agents” could allow remote privilege elevation that expands beyond agent interfaces into broader tenant/service permissions via changed scope and shared connectors. A public proof-of-concept for remote SQL injection in a pharmacy sales and inventory system is rated priority 1 because it can enable manipulation or extraction of operational data once the internet-facing endpoint is reached. Stored XSS in DivvyDrive is also treated as priority 1, since malicious payloads persist and execute whenever authenticated users view affected pages, potentially enabling session theft or account takeover within impacted browser contexts. Across all cases, the recommended response is rapid vendor patching paired with compensating controls like restricting or disabling exposed agent features, enforcing least-privilege and safer query practices, and tightening web input handling and monitoring.
+At Computex 2026, Nvidia unveiled its RTX Spark “AI personal computer” superchip with an integrated Blackwell GPU and an Arm CPU built with MediaTek, supporting unified memory up to 128GB and targeting petaflop-level local AI performance for Windows devices. Nvidia and Microsoft said Windows-on-Arm game compatibility would improve as they work with anti-cheat and DRM providers to enable native anti-cheat through an expanded Prism emulator compatibility layer, even though many titles may still run via emulation. Microsoft announced the Surface Laptop Ultra as a flagship RTX Spark device, citing up to 20 CPU cores, 6,144 GPU cores, RTX 5070-class graphics performance, and a 15-inch mini-LED display with launches planned later this year, while major PC makers including Dell, HP, Lenovo, ASUS, and MSI are expected to ship RTX Spark laptops “this fall” and at least one desktop. Nvidia separately announced DLSS 4.5 Ray Reconstruction, a transformer-based denoiser/upscaler arriving in August across GeForce RTX GPUs and selected games, and said it will support the next release of Blender Cycles. Nvidia framed RTX Spark as an extension of its AI hardware leadership into consumer PCs by combining AI performance, gaming features, and developer tooling under a single platform pitch.
 
 **Key Points:**
-- For publicly reachable Microsoft 365 “published agents,” Redpacket Security’s guidance includes concrete monitoring/detection steps: look for spikes in agent execution/management API calls from new IPs or service principals, and alert on changes to agent permission scopes or agent configuration by atypical identities; it also recommends patching first via staging validation before wider rollout.
-- For Copilot Business Chat information disclosure, the article adds that defenders should correlate tenant logs with “new or anomalous client IP/user agents” initiating chat sessions at volume, and—if possible—inspect for content-type anomalies in assistant outputs such as unexpected document excerpts.
-- In the pharmacy sales/inventory remote SQL injection case, the compensating-control example is specific: add WAF rules targeting `ajax.php?action=save_user` and enforce strict input validation for `id`; the hunting guidance also calls for SQL error patterns and response-time spikes tied to crafted inputs.
+- Nvidia said the RTX Spark platform’s CPU was designed by “Mediatek,” specifically citing Mediatek’s N1 and N1X CPU at the heart of the superchip, and Nvidia CEO Jensen Huang framed the effort as “reinventing the personal computer, for creating, for gaming, for agents.”
+- For Windows-on-Arm anti-cheat/DRM, Tom’s Hardware reported Nvidia confirmed work toward native support for specific platforms including “Easy Anti-Cheat, BattlEye, Denuvo,” and said the plan is to expand Prism emulator compatibility so anti-cheat can run natively even if the games are still emulated—adding that a Windows blog announcement said: “Today, native anti-cheat solutions from partners like Epic’s Easy Anti-Cheat and BattlEye, expanded Prism emulator compatibility, and XBOX PC app support means players will have access to a deep catalog of Windows PC games.”
+- PC form factor details were also part of the market coverage: MarketWatch reported Nvidia’s first RTX Spark-based laptops “will be as slim as 14 millimeters,” with the lightest “weighing less than 3 pounds,” and that Nvidia would target “creators, AI developers and gamers” with premium pricing.
 
 ---
 
-### 2026-05-10 | DekaBank adds 150,000 Microsoft shares
-**Sentiment:** +0.20 (pos: 0.36, neg: 0.16, neu: 0.47)
+### 2026-06-01 | Nebius raises 2026 capex forecast to $25B
+**Sentiment:** +0.47 (pos: 0.57, neg: 0.10, neu: 0.33)
 
-Recent 13F filings show continued institutional interest in Microsoft, with multiple asset managers increasing or initiating positions across the latest reporting periods. Hendershot Investments, Argo Wealth Advisory, Means Investment, and DekaBank Deutsche Girozentrale all reported added stakes, with Microsoft remaining a top holding for several of them. The filings also reflect broad participation by large investors, including major moves by Norges Bank, Nuveen, and UBS Asset Management, while overall institutional ownership is reported at about 71% of the company’s shares. Other reports indicate a two-way flow—thousands of institutional investors added shares while thousands reduced positions—underscoring that enthusiasm is paired with selective trimming. Microsoft insider activity during the past six months leaned toward sales rather than purchases. Analyst coverage cited in the reports remains broadly bullish, including reiterated “buy” calls and higher price targets from research firms.
+Nebius, an AI cloud and data-center infrastructure provider, is signaling a major buildout by lifting its 2026 capital spending plan to $20 billion to $25 billion, supported by large customer commitments tied to Meta and Microsoft contracts and financing from multiple sources. In its latest results, Nebius reported a sharp jump in momentum, including first-quarter revenue of $399 million (up 684% year over year) and a move to positive adjusted EBITDA, alongside strong operating cash flow and a sizable cash balance. The expansion push is gaining traction on the ground as Nebius clears a legal zoning hurdle in Alabama for a 300-megawatt data center and continues work on a larger Missouri campus. Adding to the bullish narrative, hedge fund Situational Awareness LP, led by former OpenAI researcher Leopold Aschenbrenner, disclosed a 5.6% passive stake worth about $2.6 billion, and the filing said no activism is planned. Analysts remain divided: Citi reiterated a Buy with a higher target, while DA Davidson downgraded the stock to Neutral, arguing the valuation leaves limited near-term upside. Together, the updates have helped drive a rapid share rally and renewed investor focus on Nebius’s ability to secure power and infrastructure capacity for AI demand.
 
 **Key Points:**
-- Hendershot Investments raised its Microsoft stake 5.4% in the fourth quarter—buying an additional 3,296 shares to total 64,291 shares. Microsoft was 4.0% of Hendershot’s portfolio, the fund’s 7th-largest holding, worth about $31.092 million.
-- Argo Wealth Advisory initiated a new Microsoft position in the fourth quarter, purchasing 8,121 shares valued at approximately $3.928 million. Microsoft accounted for about 2.3% of Argo’s portfolio, making it the fund’s 11th-largest holding.
-- UBS Asset Management Americas disclosed a sharp Microsoft increase: UBS AM A boosted its stake by 500.0% during the third quarter, rising to 59,543,261 shares after adding 49,618,571 shares (reported value: about $30.84 billion).
+- Nebius said its expansion is backed by demand already “locked in” for 2027 capacity delivery, and that by the end of 2026 it expects to have “more than four gigawatts of contracted power capacity” in place.
+- For the ramp-up funding, Nebius outlined multiple sources beyond Meta/Microsoft-linked structures—specifically citing $4.3 billion in convertible notes and a direct $2 billion investment from NVIDIA (alongside asset-backed financing and customer prepayments).
+- The Alabama approval included project specifics: a judge dismissed a May 29 zoning challenge for a 300-megawatt data center on a 75-hectare site in Birmingham’s Oxmoor Valley; Alabama Power confirmed the needed capacity, and Nebius said it will self-fund the grid connection infrastructure.
 
 ---
 
-### 2026-05-10 | Nebius stock rallies on $643M Eigen AI
-**Sentiment:** +0.74 (pos: 0.77, neg: 0.04, neu: 0.19)
+### 2026-06-01 | Alpha Skip-Ahead tests Xbox Hex color codes
+**Sentiment:** +0.25 (pos: 0.38, neg: 0.13, neu: 0.50)
 
-Nebius Group has agreed to acquire Eigen AI for about $643 million, aiming to fold Eigen’s inference optimization technology into its Token Factory to shift from infrastructure services toward a higher-value Platform as a Service model with more recurring revenue. The company says the move is supported by a $2 billion equity investment from Nvidia and by multi-year, multi-billion dollar AI infrastructure and platform agreements with Meta and Microsoft. Nebius’s planned data center expansion is positioned to capitalize on these contracted commitments, which also deepen its access to GPU supply channels. In financial markets, NBIS shares opened around $177 and traded near their 52-week high, with analysts listing a “Moderate Buy” consensus. Still, one view highlights that execution risk remains: heavy capital expenditures and losses could persist if capacity utilization and operating leverage don’t translate into durable GAAP profitability. Investors are watching upcoming results closely to judge whether the contracted backlog turns into scalable, cash-generating performance.
+Starting today, select Alpha Skip-Ahead Xbox Insiders can test a new console dashboard update focused on personalization and easier in-console information. The Xbox Accessories app will show a preview image of the exact controller connected, helping players confirm they selected the right standard or special edition model before remapping or changing settings. Microsoft is also expanding console color customization with options for precise hex color input and a “match my gamerpic” feature, plus a preview of how the selected color will look across the interface. After updates, a quicker link to improved “What’s New” release notes will appear from the Home screen, including more detail on new features, changes, and major bug fixes. A new Xbox service status indicator will show when there’s a confirmed outage and lets users jump directly to a status page from the console. Microsoft says these features will roll out to more Insiders over time before reaching all players.
 
 **Key Points:**
-- Institutional ownership in Nebius has risen to 21.9%, with Mitsubishi UFJ Asset Management increasing its stake by 230.6%.
-- Nebius says its data center expansion includes a planned 310 megawatt facility in Finland, tying the GPU-supply and capacity buildout directly to the new platform push.
-- The Meta and Microsoft agreements were described with specific headline sizes—about $27 billion for Meta and about $19.4 billion for Microsoft—raising both the potential for utilization/ARR and the execution bar for margins as deployments scale.
+- Microsoft said the changes are part of its ongoing feedback loop through “Xbox Player Voice,” the feedback hub the company launched earlier this month—linking the Insider dashboard updates to broader player feedback collection.
+- For confirmed outages, the new Xbox service status indicator is described as appearing in the upper-right corner of the console UI; it’s meant to let players quickly understand what’s happening before jumping to a status page.
+- After updates, the “What’s New” access changes include a dedicated button appearing in the top navigation bar on the Xbox home screen, with “update descriptions” improved to include more detail about new features, changes, and major bug fixes.
 
 ---
 
-### 2026-05-10 | 2026 AI glossary released by TechCrunch
-**Sentiment:** -0.15 (pos: 0.20, neg: 0.35, neu: 0.45)
+### 2026-06-01 | Reported MFA setup failures affect MySignIns portal
+**Sentiment:** -0.63 (pos: 0.05, neg: 0.68, neu: 0.27)
 
-As AI tools move from novelty to core business infrastructure, several outlets are publishing updated “glossaries” to help non-specialists understand the jargon that now dominates tech conversations. The TechCrunch-linked guide focuses on the practical mechanics behind modern systems, defining terms such as large language models, hallucinations, inference, and training/correction approaches like retrieval-augmented generation and reinforcement learning from human feedback. Other versions of the glossary frame the same problem at a higher level, clarifying concepts like artificial general intelligence, which different major groups define somewhat differently, and “AI agents,” described as tools that can carry out multistep tasks using multiple technologies. The materials also simplify developer building blocks such as API endpoints, likening them to software “buttons” that integrations and agents can invoke. Across the sources, the goal is consistent: demystify what the words mean, reduce confusion—even among experts—and keep the reference current as the field evolves.
+Microsoft reported an ongoing service disruption affecting some users’ ability to set up multi-factor authentication (MFA) and access the My Sign Ins self-service portal at mysignins.microsoft.com. Microsoft said affected users may see 504 Gateway Timeout errors and pointed administrators to incident tracking code MO1329260 in the Microsoft 365 Admin Center for updates. The company mitigated the problem by failing over to alternate healthy infrastructure and continued monitoring service telemetry while elevated error rates persisted. The outage could disrupt enterprise workflows including MFA onboarding, account recovery, and security policy enforcement, with Conditional Access requirements potentially temporarily locking out new or existing users. Microsoft later restored access to the My Sign Ins service and attributed the outage to a recent cache configuration change.
 
 **Key Points:**
-- TechCrunch says it released its “massive glossary” on May 9 to translate machine-learning jargon into “plain English,” specifically targeting the backend mechanisms behind the tools people use every day.
-- A separate glossary push referenced in the coverage (from CNET) frames the need for clarity around “hallucinations” by emphasizing that readers must understand “exactly why a system makes things up.”
-- The glossary material connects core terms to real-world deployments by tying the under-the-hood vocabulary to named assistants/models: OpenAI’s ChatGPT, Anthropic’s Claude, Google’s Gemini, Meta’s Llama, Microsoft’s Copilot, and Mistral’s Le Chat.
+- Microsoft initially announced the problem via its Microsoft 365 Status account, saying: “We’re investigating an issue where some users may be unable to setup MFA or access the mysignins.microsoft.com website.”
+- Microsoft said that even as mitigations were underway, “As elevated error rates persist,” it was “actively evaluating additional mitigation options,” including “optimizing how service requests are processed to further stabilize the service.”
+- Microsoft confirmed the outage began at about 5 AM ET, classified it as an ongoing incident, and had not disclosed which regions were affected.
 
 ---
 
-### 2026-05-10 | Microsoft begins Xbox Mode rollout Windows 11 PCs
-**Sentiment:** +0.17 (pos: 0.35, neg: 0.18, neu: 0.48)
+### 2026-06-01 | NVIDIA releases physical AI agent toolkit
+**Sentiment:** +0.26 (pos: 0.44, neg: 0.18, neu: 0.39)
 
-Microsoft is rolling out “Xbox Mode” (formerly the full-screen experience/FSE) to Windows 11 PCs—starting in selected markets and on a staggered basis—so the interface works like a console for desktops, laptops, tablets, and handheld PCs. The feature replaces the traditional desktop with a controller-first, full-screen gaming dashboard that minimizes background distractions/notification clutter and can be toggled back to the normal Windows desktop. Xbox Mode is designed to pull game libraries into one place, combining Xbox Game Pass with storefronts such as Steam, Epic Games Store, EA Play (and, in some descriptions, Ubisoft Connect) while allowing controller-friendly browsing and launching. Access is offered through Settings > Gaming > Xbox mode and via shortcuts like Windows + F11, with Microsoft also surfacing the option through the Xbox app and Game Bar to keep it easy to reach. The update is tied to Microsoft’s broader Project Helix effort and had been tested in Xbox/Windows Insider builds before reaching stable users via KB5083631 on Windows 11 24H2 and 25H2, though rollout can be uneven and multi-monitor support may have issues; one report also claims the UI can reduce memory use by about 1–2GB on tested hardware. (https://www.qoo10.co.id/en/tech/94045/windows-11-gets-xbox-mode-a-full-screen-console-interface-pushes-the-desktop-aside/; https://www.qoo10.co.id/en/tech/93883/microsoft-expands-xbox-mode-across-windows-11-pcs-bringing-a-console-like-gaming-experience/; https://pokde.net/system/software/operating-system/xbox-mode-windows-11; https://assets.thehansindia.com/technology/tech-news/microsoft-brings-console-like-xbox-mode-to-windows-11-pcs-and-tablets-1072000; https://www.business-standard.com/technology/tech-news/full-screen-experience-xbox-mode-available-windows-11-pc-tablet-126050400323_1.html)
+NVIDIA announced a major open-source collection of “physical AI” agent skills and tools designed to help developers convert robotics, autonomous vehicle, vision AI, and industrial digital twin workflows into agent-executable tasks, accelerating data generation, simulation, training, evaluation, and deployment. The company also highlighted broad industry adoption of these physical AI tools to reduce the cost and complexity of scaling such development. Separately, NVIDIA and Dassault Systèmes are building an industrial AI platform that combines NVIDIA’s AI infrastructure with Dassault’s virtual twin software, aiming to create “industry world models” grounded in physics-based simulation and validated engineering knowledge to predict real-world behavior earlier in R&D, including for materials discovery and drug development. At 3DEXPERIENCE World in Houston, Dassault and NVIDIA framed AI not as an add-on but as a core engineering capability, unveiling “skilled virtual companions” (agents) such as Aura, Leo, and Marie to support engineering and project workflows using science-validated world models. Dassault also announced that 3DEXPERIENCE World 2026 will return to Houston from February 1–4, with NVIDIA’s Jensen Huang among featured speakers, underscoring the sustained focus on AI-driven virtual environments for design and manufacturing.
 
 **Key Points:**
-- Microsoft says Xbox Mode is meant to make PCs feel like dedicated game machines by providing quick access not only to installed titles and Game Pass, but also to cloud gaming.
-- For the initial rollout, Microsoft has not disclosed which specific regions will receive Xbox Mode first, only that it is launching in selected markets.
-- One report compares Xbox Mode to Steam’s Big Picture, describing it as a controller-first, console-style UI on Windows 11 that minimizes reliance on keyboard and mouse for browsing and launching games.
+- NVIDIA said the open-source physical AI agent tools are already being used by a broad set of industry players, naming companies including Cadence, Dassault Systèmes, Delta Electronics, Foxconn, Pegatron, PTC, Siemens, Synopsys, and TSMC.
+- For materials and drug R&D, NVIDIA and Dassault Systèmes detailed a specific stack: Dassault’s BIOVIA paired with NVIDIA’s ALCHEMI generative AI services, claiming atomistic/molecular simulations with “quantum-level accuracy” and performance “up to 10,000 times faster than traditional methods.” The companies also pointed to Bel Group as an early adopter, saying it “gain[s] the computational power to model and optimize our products at scale.”
+- In describing why their “industry world models” differ from consumer generative AI, NVIDIA’s Rev Lebaredian said, “What’s missing is how the world is built,” arguing that many models are trained on observations but not on physics/engineering-grounded construction of real systems.
 
 ---
 
-### 2026-05-10 | Trump plans H-1B wage hike, $18B cost
-**Sentiment:** -0.30 (pos: 0.18, neg: 0.48, neu: 0.34)
+### 2026-06-01 | Nemotron 3 Ultra And Arm Windows AI PCs
+**Sentiment:** +0.32 (pos: 0.41, neg: 0.09, neu: 0.50)
 
-President Trump’s administration is proposing major increases to the required minimum wages for H-1B and PERM visas, including raising the entry-level qualifying salary for roles such as a software engineer to about $162,000 in San Francisco, $132,000 in New York, and $113,000 in Dallas—nearly 30% higher than current thresholds. The Department of Labor proposal would also change how “prevailing wages” are calculated by moving the anchor for entry-tier pay from the 17th percentile to the 34th, with larger jumps higher up the wage levels. An analysis cited by the report estimates the rule could cost H-1B-using employers at least $18 billion in the first 12 months, rising to as much as $43 billion annually within three years, and supporters argue the changes are meant to stop foreigners from undercutting American wages. But the higher salary floors could deter hiring and reduce opportunities for younger or less-established talent, as employers may choose not to sponsor visas that become more expensive. The effect would stack with other immigration-cost changes already underway, including a $100,000 fee for new H-1B petitions that a federal judge upheld after industry and state challenges.
+At Computex 2026, Nvidia unveiled Nemotron 3 Ultra, a 500–550B-parameter open-weights AI model aimed at complex planning and agentic workflows, claiming 5x faster inference and roughly 30% lower costs for difficult agent tasks. Nvidia said the model uses NVFP4 training and a latent mixture-of-experts approach that activates only relevant parts of the network, and an evaluation by Artificial Analysis placed it among the top US open-weights intelligence results, behind China’s Kimi K2. Separately, Nvidia and Microsoft are signaling a major shift in personal computing toward Windows PCs that act as AI assistants and run more AI locally instead of relying purely on the cloud. Multiple reports tie the push to a new Arm-based Windows platform that could feature Nvidia-designed N1 and N1X chips, with devices expected from Microsoft’s Surface line and other PC makers around Computex in Taipei and Microsoft’s Build event in San Francisco, alongside coordinated “A new era of PC” teases. The companies also indicate accompanying Windows software changes for locally running AI agents. Some coverage notes that next-wave device pricing may remain high, partly due to costly RAM, even as the pitch emphasizes efficiency and on-device capability.
 
 **Key Points:**
-- The Department of Labor’s proposed prevailing-wage change was released on March 27, and the proposal would reset not just entry-level pay but the entire wage ladder by shifting the entry-tier anchor from the 17th percentile to the 34th percentile.
-- The rule would be especially steep for senior roles: DOL projected that Level IV (senior-tier) wages would jump by moving the anchor from the 67th to the 88th percentile—such as a Level IV data scientist in Silicon Valley potentially seeing the wage floor rise by more than $45,000, with some occupation/metro combinations reaching or exceeding $208,000.
-- In explaining the wage proposal, the administration said H-1B visa holders are “generally offered about $10,000 less a year” than their U.S. counterparts, arguing the program is being used in ways that undercut domestic workers.
+- At GTC Taipei, Nvidia unveiled RTX Spark as a “superchip” that pairs Nvidia’s Blackwell graphics architecture with a custom Arm-based CPU developed in collaboration with MediaTek.
+- Nvidia claimed RTX Spark-powered PCs could deliver up to “one petaflop” of AI performance and support up to 128GB of unified memory, aimed at running large AI models locally.
+- Nvidia also said the platform would let users run large language models up to 120 billion parameters and handle context windows reaching one million tokens, along with capabilities such as generating AI video and editing ultra-high-resolution content without relying entirely on the cloud.
 
 ---
 
-### 2026-05-10 | Global AI use rises; adoption divide widens
-**Sentiment:** -0.27 (pos: 0.30, neg: 0.57, neu: 0.13)
+### 2026-06-01 | US stock futures rise on Nvidia AI chip
+**Sentiment:** +0.51 (pos: 0.64, neg: 0.14, neu: 0.22)
 
-Microsoft’s Global AI Diffusion Report finds that generative AI use rose to 17.8% of the world’s working-age population in the first quarter of 2026, up from 16.3% previously, with 26 economies now exceeding 30% adoption. However, the report says the adoption gap is widening between developed and developing countries, with 27.5% usage in developed economies versus 15.4% in the developing world. Microsoft attributes the divide to uneven access to internet connectivity, basic digital skills, and electricity, alongside lingering model-performance advantages in English that slow adoption in many non-English-speaking regions. The UAE leads global adoption at 70.1%, followed by Singapore, Norway, Ireland, and France, while the United States ranks 21st at 31.3% despite hosting major AI models such as ChatGPT, Claude, and Gemini; China is reported at 16.4%, and some data is missing for parts of the world where Microsoft’s telemetry coverage is limited. Microsoft says its estimates rely mainly on Windows and Microsoft-linked products and partially miss Apple device usage, but it also points to improving support for Asian languages as a driver of momentum in parts of Asia. On jobs, the company argues AI coding tools could increase demand for developer work, while cautioning it is too early to determine AI’s full labor-market impact.
+U.S. stock index futures rose at the start of trading as Nvidia and Microsoft extended a tech-led rally, helping benchmarks build on May’s record levels even as investors stayed cautious amid renewed U.S.-Iran hostilities and higher oil prices. Nvidia gained in premarket trading after announcing an AI chip aimed at laptops and desktops developed in a multi-year collaboration with Microsoft, while Microsoft also rose on the news; by contrast, rival chipmakers such as AMD and Intel fell. Oil prices jumped following renewed attacks in the Gulf, pushing back inflation concerns and pressuring expectations around monetary policy ahead of an upcoming Federal Reserve meeting. Traders also weighed upcoming U.S. catalysts including additional Fed commentary, the Beige Book, and May jobs data, with market pricing implying a substantial chance of a rate increase later in the year. In a separate view on the AI economy, Wolfe Research projected that expanding agentic AI workloads could grow the total addressable CPU market by roughly 30% by 2028, with “orchestration” processors becoming a major growth driver. The outlook suggests competition for share in next-generation AI computing ecosystems will hinge as much on access to manufacturing capacity and platform ecosystems as on chip performance.
 
 **Key Points:**
-- Microsoft reported a sharp rise in developer activity: “Git pushes … rose 78 percent year over year,” which it cited as evidence of increased coding activity alongside generative AI tools.
-- For its estimates, Microsoft said it relied on anonymized telemetry data and made adjustments for “differences in OSes, device market share, Internet access and country populations,” adding that it continues refining its measurement approach.
-- Microsoft said some regions were missing from its consolidated data, naming Russia, Iran and China as areas where reporting was incomplete.
+- Nvidia’s new chip was identified as the RTX Spark PC, and Nvidia CEO Jensen Huang said the product is the result of three years of work with Microsoft to “reinvent the PC” for AI (with the chip “scheduled for release this autumn”).
+- Oil and rates moved further than described in the summary: Brent crude futures jumped almost 3% to near $94 a barrel, and the 10-year Treasury yield rose to around 4.46%, underscoring the renewed inflation/rate sensitivity.
+- Fed leadership focus extended beyond the meeting itself: coverage noted new Fed chair Kevin Warsh “wants the Fed to think about inflation differently,” urging the central bank to consider alternatives to its standard gauge for underlying inflation.
 
 ---
 
-### 2026-05-10 | TCLBANKER trojan targets 59 platforms via WhatsApp,Outlook
-**Sentiment:** -0.27 (pos: 0.12, neg: 0.39, neu: 0.48)
+### 2026-06-01 | Xbox plans June 7 Showcase, no Project Helix
+**Sentiment:** -0.20 (pos: 0.21, neg: 0.41, neu: 0.39)
 
-Elastic Security Labs says the Brazilian banking trojan TCLBANKER (REF3076) is a major update to earlier LATAM malware families and is delivered via a trojanized Logitech installer that abuses the legitimately signed Logi AI Prompt Builder using DLL side-loading. After installation, it includes both a banking credential-theft module targeting 59 banking, fintech, and crypto sites and a worm component that propagates through victims’ WhatsApp and Microsoft Outlook accounts. The malware is engineered to evade analysis and automated detection by using sandbox/anti-debug checks, disabling ETW telemetry and security hooks, and applying environment fingerprinting plus multiple geofencing signals to confirm the target is in Brazil. Once active, it monitors browser activity in near real time to detect targeted sites and uses full-screen WPF overlays to imitate login and update screens while enabling additional remote-control and data-collection capabilities. For propagation, the WhatsApp module hijacks existing authenticated WhatsApp Web sessions in Chromium-based browsers, copies session artifacts, bypasses bot protections, and then uses the victim’s contacts to send phishing messages, while the Outlook component similarly leverages authenticated access to spread further.
+Ahead of the June 7 Xbox Games Showcase 2026, Xbox chief content officer Matt Booty said the presentation will focus on games—specifically team and title updates—rather than broad platform strategy. Booty also confirmed that there will be no Project Helix news during the showcase, signaling the console’s details will come later. At the same time, Microsoft indicated it will be transparent about where its games are headed, including highlighting competing platforms when relevant. That multiplatform stance suggests players should continue to expect first-party releases to appear on other systems in addition to Xbox. While some fans are hoping for more clarity on exclusives and backward compatibility, Booty’s messaging framed the showcase as a lineup-focused event rather than a forum for deciding Xbox’s long-term direction.
 
 **Key Points:**
-- TCLBANKER’s delivery chain includes a malicious MSI bundled inside a ZIP, and its DLL loader uses the filename “screen_retriever_plugin.dll,” masquerading as a legitimate Flutter plugin. Elastic also reports the installer deploys two embedded .NET Reactor-protected payloads (the banking trojan module and the worm module).
-- The malware contains a “comprehensive watchdog subsystem” that scans for analysis tooling and terminates immediately if detected—Elastic lists targets including x64dbg, Ghidra, dnSpy, IDA Pro, Process Hacker, Frida, and CheatEngine. Additionally, the malicious DLL only executes when loaded by specific processes (e.g., “logiaipromptbuilder.exe” or “tclloader.exe”).
-- Elastic details the ETW tampering technique: the loader patches “EtwEventWrite” using the instruction sequence “xor eax, eax; ret” and generates direct syscall trampolines to bypass security hooks, rather than relying solely on higher-level evasion.
+- Matt Booty said Microsoft will explicitly name the platforms for each game and “continue the precedent,” adding: “We’ll be very clear about what platforms a game is coming to… I think we’ve got a good system going, where we make it clear in Showcase,” which he suggested could mean seeing “a PlayStation logo or two.”
+- Booty also pointed to specific fan “hot topics” that are being discussed around Xbox’s direction—particularly “the desire for new backwards compatible Xbox games as the Xbox Backwards Compatibility Program returns in some capacity.”
+- Wccftech reported that Xbox recently launched a new way for fans to give direct feedback, and that “almost immediately, the top issue… was first-party exclusive titles,” with many users asking Xbox to return to that exclusives-first model rather than releasing on Nintendo and PlayStation.
 
 ---
 
-### 2026-05-10 | Alphabet market value nears Nvidia No.1
-**Sentiment:** +0.67 (pos: 0.76, neg: 0.10, neu: 0.14)
+### 2026-06-01 | Microsoft plans Entra ID SSPR stricter auth
+**Sentiment:** -0.14 (pos: 0.16, neg: 0.31, neu: 0.53)
 
-Alphabet is moving quickly toward overtaking Nvidia as the world’s most valuable company after a surge in its stock, driven by accelerating AI monetization and a rebound in Google Cloud. Following its latest earnings, Alphabet’s market cap jumped to about $4.67T—bringing the gap with Nvidia to roughly $200B and narrowing to a point where some analysts see Alphabet as likely to take the top spot by mid-May. The shift is tied to strong cloud growth (up about 63% in the first quarter), record acceleration since 2020, and rapidly growing revenue from generative-AI–based products, alongside steady YouTube ad strength and a growing subscription base. Investors also view Alphabet as benefiting from “measurable” AI demand converting into recurring services, while Nvidia’s valuation has been more vulnerable to broader AI supply-chain sentiment—after reporting and market coverage raised concerns about end-demand predictability around major AI buyers like OpenAI. Overall, multiple accounts frame this as a broader transition from an AI chip race to a full-stack contest in which cloud, software, and custom hardware can capture more of the value chain than chips alone.
+Microsoft is tightening security for Entra ID Self-Service Password Reset by requiring that identity verification rely only on explicitly registered authentication methods rather than unverified contact details stored in user directory attributes. Under Message Center guidance MC1325414, Microsoft will begin prompting users and administrators to register compliant authentication methods starting July 6, 2026, with enforcement beginning September 7, 2026, when directory-sourced contact attributes that are not registered will be rejected for SSPR. The change targets a long-standing gap where values populated via onboarding or HR systems could function as account recovery factors without a deliberate enrollment step, an issue Microsoft says becomes more dangerous as front-door MFA protections improve. Microsoft reports that about 86% of SSPR verifications already use registered methods, so the majority of users are expected to see little disruption, but the remaining users could be unable to reset passwords without action. Organizations are advised to review SSPR authentication method coverage in the Entra admin center so affected users can register before enforcement. While options like phone numbers and alternate emails can still be used, they must be explicitly registered as authentication methods to work for password resets.
 
 **Key Points:**
-- Alphabet’s custom AI chips have moved beyond pilots: CEO Sundar Pichai said Google has begun selling its custom AI processors directly to some customers, and those chips “have already been used by Anthropic,” according to one report interpreting Alphabet’s earnings backdrop.
-- Nvidia’s recent market-pressure was not attributed to weaker results from the chipmaker itself: one report said Nvidia posted $68.1 billion in revenue for its latest quarter and that its data center revenue rose 75%—while sentiment shifted after coverage tied to end-demand predictability around major AI buyers.
-- Hightower Advisors’ Stephanie Link tied the stock rerating to AI infrastructure spending dynamics—saying the move was “really about hyperscaler capex spend” and “early signs of better monetization,” especially versus the broader AI ‘food chain,’ which includes “data centers, grid and power.”
+- Microsoft framed the SSPR change as part of its broader “Secure Future Initiative,” positioning it as a cross-platform identity-verification hardening effort rather than a narrow SSPR tweak.
+- In its explanation of the security rationale, Microsoft drew a strict distinction between data and security trust: “a directory attribute is data about a user,” while “an authentication method is a security object trusted to unlock an account,” adding that the two “should never be treated interchangeably.”
+- The rollout is described as two stages, with a July 6 campaign that “automatically prompts affected users and administrators to register authentication methods,” followed by September 7 enforcement; Microsoft also described broad General Availability spanning Public cloud, GCC, GCC High, and DoD through mid-September 2026.
 
 ---
 
 ## FMP Articles (30 articles)
 
-### 2026-05-10 | Microsoft's African data center falters on payment demands, Bloomberg News reports
-**Source:** Reuters
-**URL:** https://www.reuters.com/world/africa/microsofts-african-data-center-falters-payment-demands-bloomberg-news-reports-2026-05-10/
-
-A Microsoft data center site in East Africa ​has been delayed by ‌disagreements with the Kenyan government over the company's request ​for guaranteed payments, Bloomberg ​News reported on Sunday citing ⁠people familiar with the ​matter.
-
----
-
-### 2026-05-10 | The AI Threat Google Couldn't Mount: Why This Expert Says Microsoft's $70 Billion Cash Cow Is Vulnerable Now
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/10/the-ai-threat-google-couldnt-mount-why-this-expert-says-microsofts-70-billion-cash-cow-is-vulnerable-now/
-
-On the We Study Billionaires podcast (episode TIP813), Stig Brodersen laid out a bear case that puts Microsoft's Office cash cow squarely in the crosshairs of generative AI.
-
----
-
-### 2026-05-10 | Chip Stocks Are Soaring While Software Slows. Is a Reversal Looming?
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/10/chip-stocks-are-soaring-while-software-slows-is-a-reversal-looming/
-
-The 2026 tape has split in two. Semiconductor stocks have ripped higher on AI infrastructure demand, while software names that powered the last cycle have stalled or rolled over.
-
----
-
-### 2026-05-10 | SCHB and SPTM Are Both Excellent Broad Market Funds. Here's How to Choose.
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/coverage/etfs/2026/05/10/schb-and-sptm-are-both-excellent-broad-market-funds-here-s-how-to-choose/
-
-Both ETFs charge just 0.03%, but differ in holdings, sector weightings, and risk profiles. See how their approaches impact long-term portfolio construction.
-
----
-
-### 2026-05-09 | Great News for Microsoft Stock Investors
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/05/09/great-news-for-microsoft-stock-investors/
-
-Microsoft's (MSFT 1.33%) management team said the magic words every shareholder loves to hear.
-
----
-
-### 2026-05-09 | Paul Tudor Jones Warns Trump-Era Market Boom Could End in a 35% Crash. Here’s Why He’s Still Buying Stocks
-**Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/05/09/paul-tudor-jones-warns-trump-era-market-boom-could-end-in-a-35-crash-heres-why-hes-still-buying-stocks/
-
-Wall Street has embraced the return of pro-growth economic policies, lighter regulation, and an AI spending boom, helping push U.S. stocks to record territory again under President Donald Trump. Yet as warning signs pile up, legendary investor Paul Tudor Jones says the same forces driving markets higher today may also be laying the groundwork for... Paul Tudor Jones Warns Trump-Era Market Boom Could End in a 35% Crash. Here's Why He's Still Buying Stocks
-
----
-
-### 2026-05-09 | Amazon CEO Andy Jassy Has Good News and Bad News for Nvidia Investors
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/09/amazon-ceo-andy-jassy-has-good-news-and-bad-news-f/
-
-Amazon is seeing accelerating demand for AI services, but it's not all going to Nvidia.
-
----
-
-### 2026-05-09 | BlackRock's Larry Fink Says AI Is Creating a New Trillion Dollar Asset Class — And Trump's Policies May Accelerate It
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/09/blackrocks-larry-fink-says-ai-is-creating-a-new-trillion-dollar-asset-class-and-trumps-policies-may-accelerate-it/
-
-Artificial intelligence has already reshaped the stock market.
-
----
-
-### 2026-05-09 | MSFT's Place in a Shifting AI Landscape
-**Source:** Schwab Network
-**URL:** https://www.youtube.com/watch?v=vu6ySvbGcj0
-
-Microsoft (MSFT) is standing out as a defensive AI leader, leveraging its enterprise scale and infrastructure investments to stay competitive, according to Jed Ellerbroek. He highlights strong Azure growth, steady positioning in AI chips versus Nvidia (NVDA) and Micron (MU), and strength extending into cyclicals like United Rentals (URI) as infrastructure demand builds.
-
----
-
-### 2026-05-09 | Microsoft: The Best Time To Buy Is When Others Continue To Ignore
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4901917-microsoft-best-time-to-buy-when-others-continue-to-ignore
-
-Microsoft Corporation continues to grind at the bottom of the valley, trading at just 22.7x forward earnings, close to a 5-year low. MSFT maintains robust FCF margins near 20%, with adjusted EPS growth expected to average 15% over the next two years despite AI investment headwinds. What slowdown? Azure is still projected to deliver 39.5% growth in the current quarter, and Copilot adoption rose 33% quarter-over-quarter, highlighting ongoing monetization potential.
-
----
-
-### 2026-04-10 | The Best Quantum Computing Stocks to Buy Today
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/10/the-best-quantum-computing-stocks-to-buy-today/
-
-Pure play IonQ holds the world record for the most accurate quantum computing. Microsoft and Alphabet serve as excellent legacy quantum investing alternatives.
-
----
-
-### 2026-04-10 | Microsoft Azure Still Poised To Crush Estimates Despite $150 Billion Spending Fears: Analyst
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/analyst-stock-ratings/reiteration/26/04/51761533/microsoft-azure-still-poised-to-crush-estimates-despite-150-billion-spending-fears-analyst
-
-Slowinski said on Thursday that investors are increasingly scrutinizing how Microsoft allocates constrained GPU capacity across internal initiatives and external customers, including AI model development.
-
----
-
-### 2026-04-10 | Microsoft Seen Gaining From Copilot, Azure Momentum
-**Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8787062/microsoft-seen-gaining-from-copilot-azure-momentum
-
-Microsoft (MSFT, Financials) has been stuck in an awkward spot lately. Investors still believe in the company's long-term AI position, but they also want cleare
-
----
-
-### 2026-04-10 | Live Nasdaq Composite: Market Recovery Underway Amid Economic Tailwinds
-**Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/04/10/live-nasdaq-composite-market-recovery-underway-amid-economic-tailwinds/
-
-Live Updates The analyst who called NVIDIA in 2010 just named his top 10 AI stocks Wall Street is pouring billions into AI, but most investors are buying the wrong stocks. The analyst who first identified NVIDIA as a buy back in 2010 - before its 28,000% run - has just pinpointed 10 new AI... Live Nasdaq Composite: Market Recovery Underway Amid Economic Tailwinds
-
----
-
-### 2026-04-10 | Why Citi Is Betting on Palantir and Microsoft as the Software Stock Slump Refuses to Let Up
-**Source:** Barrons
-**URL:** https://www.barrons.com/articles/palantir-microsoft-software-stocks-slump-cec95b4d
-
-The firm downgrades a handful of software stocks including Docusign, Autodesk, and Veeva Systems.
-
----
-
-### 2026-04-10 | The 'Mag 7' Just Became The 'Lag 7': Analyst
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/04/51752126/the-mag-7-just-became-the-lag-7-analyst
-
-On CNBC Squawk Box, Craig Johnson of Piper Sandler said the market remains "bullish, but with a lowercase b," expects roughly 5% upside, and sees better opportunities outside the "Mag 7," favoring rotation into sectors like energy over big tech.
-
----
-
-### 2026-04-10 | Microsoft: Temporary CapEx Panic Masks The Long-Term Edge
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4889744-microsoft-stock-temporary-capex-panic-masks-the-long-term-edge
-
-Microsoft is rated a strong buy at $374.33, with Wall Street mispricing its AI-driven transformation and temporary FCF compression. MSFT's shift to agentic AI orchestration, custom silicon (Maia 200/Cobalt 200), and the M365 E7 suite positions it to absorb SaaS budget consolidation and defend margins. Risks include $281B OpenAI concentration, potential seat deflation from autonomous agents, and possible re-rating if forced into power generation.
-
----
-
-### 2026-04-10 | Microsoft Corporation $MSFT Shares Sold by Allspring Global Investments Holdings LLC
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/10/microsoft-corporation-msft-shares-sold-by-allspring-global-investments-holdings-llc.html
-
-Allspring Global Investments Holdings LLC decreased its position in Microsoft Corporation (NASDAQ: MSFT) by 1.3% in the undefined quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 3,442,207 shares of the software giant's stock after selling 45,657 shares during the quarter. Microsoft comprises about 2.6% of
-
----
-
-### 2026-04-10 | Rep. Cleo Fields Purchases Shares of Alphabet Inc. (NASDAQ:GOOG)
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/10/rep-cleo-fields-purchases-shares-of-alphabet-inc-nasdaqgoog.html
-
-Representative Cleo Fields (Democratic-Louisiana) recently bought shares of Alphabet Inc. (NASDAQ: GOOG). In a filing disclosed on April 07th, the Representative disclosed that they had bought between $1,001 and $15,000 in Alphabet stock on March 16th. The trade occurred in the Representative's "MORGAN STANLEY - E*TRADE #2" account. Representative Cleo Fields also recently made the following
-
----
-
-### 2026-04-10 | Prediction: These Will Be the 5 Largest Companies in the Stock Market by 2030
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/10/prediction-these-will-be-the-5-largest-companies-i/
-
-Nvidia should stay atop the market cap rankings if artificial intelligence infrastructure spending holds up. If AI spending increases to the degree that some projections predict, Broadcom and Taiwan Semiconductor could make their way onto the list of the world's five biggest companies.
-
----
-
-### 2026-03-11 | Microsoft plans to ship prototype of next Xbox console to developers in 2027
-**Source:** CNBC
-**URL:** https://www.cnbc.com/2026/03/11/microsoft-plans-to-ship-prototype-of-next-xbox-to-developers-in-2027.html
-
-Microsoft's next-generation game console will feature AMD silicon, as did the Xbox Series X and Series S from 2020, an executive said on Wednesday. Jason Ronald, a vice president in Microsoft's Xbox division, said in a blog post that the new console "delivers an order of magnitude leap in ray tracing performance and capability.
-
----
-
-### 2026-03-11 | Microsoft's brief in Anthropic case shows new alliance and willingness to challenge Trump administration
-**Source:** GeekWire
-**URL:** https://www.geekwire.com/2026/microsofts-brief-in-anthropic-case-shows-new-alliance-and-willingness-to-challenge-trump-administration/
-
-Microsoft filed a friend-of-the-court brief in Anthropic's lawsuit against the Department of War, urging a judge to block the Pentagon's supply chain risk designation.
-
----
-
-### 2026-03-11 | Microsoft backs Anthropic in legal fight over Pentagon AI ban
-**Source:** Proactive Investors
-**URL:** https://www.proactiveinvestors.com/companies/news/1088744
-
-Microsoft Corp (NASDAQ:MSFT) has filed a legal brief supporting Anthropic in its challenge to the Pentagon's designation of the AI company as a “supply-chain risk,” which effectively barred it from federal contracts. The Department of Defense ended all contracts with Anthropic last month after the company refused to remove safeguards limiting military use of its AI model, Claude, including restrictions on mass surveillance and fully autonomous weapons.
-
----
-
-### 2026-03-11 | The Big 3: BIDU, JETS, MSFT
-**Source:** Schwab Network
-**URL:** https://www.youtube.com/watch?v=a_2QRV4Y9-o
-
-"It's going to get downright crazy" when it comes to market moves, says @Theotrade's Don Kaufman, urging investors to keep your heads on a swivel for the remainder of the trading week. As for his Big 3, he leans bearish on Baidu (BIDU) and Microsoft (MSFT) but bullish on the U.S. Global Jets ETF (JETS) after the airline industry's strong sell-off.
-
----
-
-### 2026-03-11 | 2 Stocks That Will Be Worth More Than Apple by 2028
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/11/2-stocks-that-will-be-worth-more-than-apple-2028/
-
-Alphabet and Microsoft are growing faster than Apple. Both companies produce more net income than Apple.
-
----
-
-### 2026-03-11 | AmeriTrust CEO on scaling used vehicle leasing as it targets $1T auto finance market
-**Source:** Proactive Investors - Finance
-**URL:** https://www.proactiveinvestors.com/companies/news/1088741/ameritrust-ceo-on-scaling-used-vehicle-leasing-as-it-targets-1t-auto-finance-market-1088741.html
-
-AmeriTrust Financial Technologies Inc (OTCQB:AMTFF, TSX-V:AMT) CEO Jeff Morgan talked with Proactive's Stephen Gunnion about the company’s strategy to scale...
-
----
-
-### 2026-03-11 | Microsoft Trades at a Premium P/S: Buy, Sell or Hold the Stock?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2882372/microsoft-trades-at-a-premium-p-s-buy-sell-or-hold-the-stock?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2882372
-
-MSFT trades at a premium P/S despite strong cloud growth and Copilot expansion, as rising AI capex and slowing Azure growth push investors toward a Hold stance.
-
----
-
-### 2026-03-11 | Why Jefferies thinks Supermarket Income REIT is worth buying after solid update
-**Source:** Proactive Investors - Finance
-**URL:** https://www.proactiveinvestors.com/companies/news/1088713/why-jefferies-thinks-supermarket-income-reit-is-worth-buying-after-solid-update-1088713.html
-
-Jefferies has reiterated its 'buy' rating on Supermarket Income REIT PLC (LSE:SUPR, OTC:SUPIF), the London-listed grocery property investor, with a 90p...
-
----
-
-### 2026-03-11 | Stock Market Today: Major Indexes Mixed After Inflation Data Matches Expectations; Oil Sits Near $85 With IEA Set to Decide on Releasing Reserves
+### 2026-06-01 | 5 Things to Know Before the Stock Market Opens
 **Source:** Investopedia
-**URL:** https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-031126-11923524
+**URL:** https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-june-1-2026-11987631
 
-Major stock indexes were mixed after an important reading on consumer inflation Wednesday, while oil prices hovered near $85 a barrel ahead of an International Energy Agency decision on whether to release strategic reserves to stabilize prices.
+Stocks futures are slightly higher to kick off the week as announcements from AI chipmaker Nvidia spark big moves in a number of tech sector shares; Nvidia stock gaining after CEO Jensen Huang delivered a keynote address at a conference in Taiwan; Huang unveiled a new line of AI agent-focused laptops Nvidia is building in partnership with a group of companies, news that sent IBM soaring and Intel sliding; Berkshire Hathaway is acquiring Taylor Morrison Home Corp. in the firm's first big acquisition under CEO Greg Abel; investors are preparing for a busy week of earnings reports and economic data. Here's what you need to know today.
 
 ---
 
-### 2026-03-11 | Microsoft backs Anthropic in Pentagon blacklist battle, urges temporary restraining order
-**Source:** CNBC Television
-**URL:** https://www.youtube.com/shorts/bdKecS3noXE
+### 2026-06-01 | groundcover to Showcase Enhanced Agent Mode at Microsoft Build 2026, Now Live on Microsoft Azure
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260601374996/en/groundcover-to-Showcase-Enhanced-Agent-Mode-at-Microsoft-Build-2026-Now-Live-on-Microsoft-Azure/
 
-Microsoft threw its support behind Anthropic on Tuesday, saying a judge should issue a restraining order that would block the Pentagon's designation of the artificial intelligence giant as a supply chain risk "for all existing contracts."
+SAN FRANCISCO--(BUSINESS WIRE)--groundcover, the world's leading bring-your-own-cloud (BYOC) observability platform, today announced an update to Agent Mode, adding native support for Microsoft Azure. With this release, all groundcover customers on Azure now have access to a production-grade observability agent that runs exclusively inside their own cloud environment. The agent can now run on Azure against Anthropic Claude models hosted on Microsoft Foundry. Unlike SaaS-based alternatives, grou.
+
+---
+
+### 2026-06-01 | Top 5 Stocks That Will Profit From Nvidia's PC Market Invasion of Intel Territory
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/06/01/top-5-stocks-that-will-profit-from-nvidias-pc-market-invasion-of-intel-territory/
+
+CNBC's Dominic Chu confirmed this morning that Nvidia's new PC chip lands in Dell and Lenovo laptops and desktops starting fall 2026, runs on Microsoft Windows, and targets thin-and-light form factors capable of running large AI models and higher-end games.
+
+---
+
+### 2026-06-01 | Here Are Monday’s Top Wall Street Analyst Research Calls: Accenture, Caesars Entertainment, Carnival, Dell Technologies, IBM, Kohl’s, Microsoft, Zscaler, and More
+**Source:** 247 Wallst
+**URL:** https://247wallst.com/investing/2026/06/01/here-are-mondays-top-wall-street-analyst-research-calls-accenture-caesars-entertainment-carnival-dell-technologies-ibm-kohls-microsoft-zscaler-and-more/
+
+Pre-Market Stock Futures: Futures are trading higher to start a new trading week and a new month after what was an incredible May, and anybody who followed "Sell in May and Go Away" is having total seller's remorse. All the major indices, except the Russell 2000, finished the day higher, helping them reach all-time highs,... Here Are Monday's Top Wall Street Analyst Research Calls: Accenture, Caesars Entertainment, Carnival, Dell Technologies, IBM, Kohl's, Microsoft, Zscaler, and More
+
+---
+
+### 2026-06-01 | Breakfast News: Nvidia Sets Sights On PC Market
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/breakfast-news/2026/06/01/breakfast-news-nvidia-sets-sights-on-pc-market/
+
+Nvidia launches new AI superchip for PCs, Berkshire Hathaway buys Taylor Morrison, and more
+
+---
+
+### 2026-06-01 | Nvidia Plans To Take Control Of The PC Market
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/06/01/nvidia-plans-to-take-control-of-the-pc-market/
+
+NVIDIA (NASDAQ: NVDA | NVDA Price Prediction) has announced a plan to do the unimaginable, particularly going back a year ago.
+
+---
+
+### 2026-06-01 | High Oil Prices, Sticky Inflation, and a Frozen Housing Market -- How Did Companies Still Beat Estimates?
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/06/01/high-oil-prices-sticky-inflation-and-a-frozen-hous/
+
+Corporate resilience is defying economic headwinds.
+
+---
+
+### 2026-06-01 | Nvidia jumps into PCs with new Arm-based chip debuting in laptops from Microsoft, Dell, HP
+**Source:** CNBC
+**URL:** https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html
+
+Nvidia, which has dominated the market for AI chips in data centers, is pushing into PCs with a new processor called N1X on a new RTX Spark superchip. The Arm-based chip will debut on laptop models from Microsoft, Dell, HP, ASUS, Lenovo and MSI.
+
+---
+
+### 2026-05-31 | 7 Billionaires Just Sold Shares of This AI Giant That's Climbed 105,000% Since Its IPO. And 1 Bought the Stock.
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/05/31/7-billionaires-just-sold-shares-of-this-ai-giant-t/
+
+David Tepper and Philippe Laffont were among the sellers of this AI stock in the first quarter, while Bill Ackman was a buyer. This company has been trading at an interesting valuation in recent months.
+
+---
+
+### 2026-05-31 | The Smarter Way to Invest in AI Without Taking Extreme Risk
+**Source:** MarketBeat
+**URL:** https://www.marketbeat.com/originals/the-smarter-way-to-invest-in-ai-without-taking-extreme-risk/
+
+Artificial intelligence (AI) is the trade of the decade. It turned NVIDIA NASDAQ: NVDA into a household name.
+
+---
+
+### 2026-05-02 | Alphabet Is Outgrowing Amazon and Microsoft Where It Matters Most -- Why This Makes Alphabet Stock a Buy
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/05/02/alphabet-is-outgrowing-amazon-and-microsoft-where/
+
+Google Cloud grew 63% in the first quarter, well ahead of Microsoft Azure's 40% and AWS's 28%. Google Cloud's backlog nearly doubled in three months to over $460 billion.
+
+---
+
+### 2026-05-02 | Major Hyperscalers Just Reported Earnings. Nvidia Was The Winner
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/05/02/major-hyperscalers-just-reported-earnings-nvidia-w/
+
+Nvidia's shareholders should be celebrating.
+
+---
+
+### 2026-05-02 | The Energy Transition Isn't Dead. These 3 Renewable Stocks Are Built to Last Decades.
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/05/02/the-energy-transition-isnt-dead-these-3-renewable/
+
+The world is focused on oil, but don't forget about the ongoing shift toward cleaner alternatives.
+
+---
+
+### 2026-05-02 | The Shocking Similarity Between Micron and Nvidia as AI Turns Memory Into a Goldmine
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/02/the-shocking-similarity-between-micron-and-nvidia-as-ai-turns-memory-into-a-goldmine/
+
+Nvidia (NASDAQ:NVDA | NVDA Price Prediction) led the first wave of AI enthusiasm with its powerful GPUs.
+
+---
+
+### 2026-05-02 | Can Europe Compete With SpaceX Launch Price? Only If Elon Musk Says "Yes."
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/05/02/europe-still-cant-compete-with-spacex-launch-price/
+
+Don't believe everything you read. ArianeGroup still cannot compete with SpaceX on price.
+
+---
+
+### 2026-05-02 | Mag 7 Just Committed $710 Billion To AI Capex
+**Source:** Benzinga
+**URL:** https://www.benzinga.com/Opinion/26/05/52235838/mag-7-just-committed-710-billion-to-ai-capex
+
+Apple beat at $111.2B with a $100B buyback. Meta got hit.
+
+---
+
+### 2026-05-01 | Entwistle & Cappucci LLP and Saxena White P.A. File Securities Class Action Lawsuit Against Activision Blizzard, Inc. and Related Defendants
+**Source:** GlobeNewsWire
+**URL:** https://www.globenewswire.com/news-release/2026/05/02/3286282/0/en/Entwistle-Cappucci-LLP-and-Saxena-White-P-A-File-Securities-Class-Action-Lawsuit-Against-Activision-Blizzard-Inc-and-Related-Defendants.html
+
+BOCA RATON, Fla., May 01, 2026 (GLOBE NEWSWIRE) -- Entwistle & Cappucci LLP and Saxena White P.A. have filed a securities class action lawsuit (the “Class Action”) in the U.S. District Court for the District of Delaware against Activision Blizzard, Inc. (“Activision” or the “Company”) and certain members of the Company's Board of Directors (the “Board”) (collectively, “Defendants”). The Class Action asserts claims under Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 (the “Exchange Act”) and U.S. Securities and Exchange Commission (“SEC”) Rule 10b-5 promulgated thereunder, on behalf of a class (the “Class”) consisting of all sellers of Activision common stock from January 18, 2022—the announcement date of the acquisition (the “Merger”) of Activision by Microsoft Corporation (“Microsoft”)—to October 13, 2023 (excluding those that tendered their Activision common stock in the Merger), and were damaged thereby. The Class Action filed by Entwistle & Cappucci and Saxena White is captioned The Arbitrage Fund v. Activision Blizzard, Inc., et al., No. 1:26-cv-00489 (D. Del.).
+
+---
+
+### 2026-05-01 | The Enormous Earnings Power of the Mag 7 Companies
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/commentary/2913390/the-enormous-earnings-power-of-the-mag-7-companies?cid=CS-STOCKNEWSAPI-FT-earnings_preview-2913390
+
+Combining the actual results for the 6 Magnificent 7 members that have reported already with estimates for Nvidia, total Q1 earnings for the group are expected to be up +45.7% from the same period last year on +24.6% higher revenues.
+
+---
+
+### 2026-05-01 | Why the Biggest AI Winners May Not Be AI Companies
+**Source:** InvestorPlace
+**URL:** https://investorplace.com/2026/05/biggest-ai-winners-not-ai-companies/
+
+When a new technology takes off, most investors instinctively chase the companies building it – history suggests that's often a mistake. In today's Friday Digest takeover, our macro investing expert Eric Fry revisits a pattern that's played out across multiple technological revolutions.
+
+---
+
+### 2026-05-01 | Microsoft: Underdog Cloud Player With Serious Upside
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4897574-microsoft-underdog-cloud-player-with-serious-upside
+
+Microsoft maintains strong AI-driven growth, with Q3 earnings and revenue surpassing expectations despite sector concerns about CapEx spending levels. MSFT's Azure Cloud business delivered 40% year-over-year growth in Q3'26, driving consolidated results and reinforcing its position against AWS and Google Cloud. Significant CapEx increases—$30.9B in Q4 and $190B expected for the year—reflect aggressive AI and Cloud infrastructure investment.
+
+---
+
+### 2026-04-02 | Microsoft to invest $10 billion in Japan for AI and cyber defence expansion
+**Source:** Reuters
+**URL:** https://www.reuters.com/business/media-telecom/microsoft-invest-10-billion-japan-ai-cyber-defence-expansion-2026-04-03/
+
+Microsoft on Friday said it will invest 1.6 trillion yen ($10 billion) in ​Japan between 2026 and 2029 to expand ‌artificial intelligence infrastructure and strengthen cybersecurity cooperation with the government.
+
+---
+
+### 2026-04-02 | Got $1,000? 3 Unstoppable Tech Stocks to Buy and Hold Forever.
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/02/got-1000-3-unstoppable-tech-stocks-to-buy-and-hold/
+
+Alphabet has always been at the forefront of tech. Microsoft is adopting generative AI technologies.
+
+---
+
+### 2026-04-02 | Microsoft executive touts Copilot sales traction as AI anxiety weighs on stock
+**Source:** CNBC
+**URL:** https://www.cnbc.com/2026/04/02/microsoft-executive-touts-copilot-traction-after-analyst-pressure.html
+
+Microsoft adjusted its approach to selling the Microsoft 365 Copilot artificial intelligence productivity add-on to corporate workers after feedback from analysts on January disclosures, executive Judson Althoff told employees. The company set a big target for the March quarter and attained it, he said.
+
+---
+
+### 2026-04-02 | The Best-Performing Vanguard ETF Over the Last Decade Is Issuing an 8-for-1 Stock Split. But Should Investors Be Concerned That 44% of the ETF Is Invested in Just 3 Growth Stocks?
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/04/02/buy-best-performing-vanguard-tech-etf-growth-stock/
+
+Betting big on tech stocks has paid off for long-term investors.
+
+---
+
+### 2026-04-02 | Microsoft (MSFT) Rises Higher Than Market: Key Facts
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2894036/microsoft-msft-rises-higher-than-market-key-facts
+
+Microsoft (MSFT) closed at $373.5 in the latest trading session, marking a +1.12% move from the prior day.
+
+---
+
+### 2026-04-02 | Microsoft Is 11% Of My NAV And I'm Targeting Monster Returns
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4888209-microsoft-is-11-percent-of-my-nav-and-im-targeting-monster-returns
+
+Microsoft Corporation is down nearly 8% since my last analysis, now approaching oversold territory with a weekly RSI of 30.5. I am targeting a return to $600 per MSFT share within 12–18 months, representing over 50% upside and a significant portfolio impact. AI is set to expand TAM for Office, boosting both seat value and ARPU through new subscription and metering models.
+
+---
+
+### 2026-04-02 | Stock Market Today, April 2: Markets Muted on Mixed Iran War Reports
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/coverage/stock-market-today/2026/04/02/stock-market-today-april-2-markets-muted-on-mixed-iran-reports/
+
+Today, April 2, 2026, stocks bounced following early losses on hopes that oil traffic could resume.
+
+---
+
+### 2026-04-02 | MSFT, AVGO, LLY & Other Stock Market Opportunities Amid U.S.-Iran War
+**Source:** Schwab Network
+**URL:** https://www.youtube.com/watch?v=cSuNAYpGbZE
+
+There's always opportunity in markets if you know where to look, says Tiffany McGhee. She offers insight into how her firm positions portfolios in times of profound volatility, including now as the U.S.-Iran War drags on.
+
+---
+
+### 2026-04-02 | Apple, Nvidia and Microsoft: Buy the Dip in Big Tech?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/commentary/2893985/apple-nvidia-and-microsoft-buy-the-dip-in-big-tech
+
+2026 has proven more challenging for equities than many anticipated, with former market leaders like the Magnificent Seven delivering a rare period of underperformance. More broadly, the group has traded sideways to lower over the past six months, weighed down by concerns around elevated valuations, aggressive AI-related capital spending, and, more recently, geopolitical tensions in the Middle East.
+
+---
+
+### 2026-04-02 | Microsoft Rolls Out New AI Models to Take On Rivals
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8768640/microsoft-rolls-out-new-ai-models-to-take-on-rivals
+
+Microsoft's (MSFT, Financials) next AI initiative is centered on real world use. The company introduced three new in-house models for transcription, voice gener
 
 ---

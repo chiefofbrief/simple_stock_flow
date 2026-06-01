@@ -1,6 +1,6 @@
 # Financial Statement Analysis: MSFT [Target]
 
-**Date:** 2026-05-10
+**Date:** 2026-06-01
 
 ## Financial Analysis
 
@@ -52,7 +52,7 @@
 
 # Financial Statement Analysis: AAPL [Peer 1]
 
-**Date:** 2026-05-10
+**Date:** 2026-06-01
 
 ## Financial Analysis
 

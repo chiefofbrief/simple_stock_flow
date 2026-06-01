@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "AMT",
+    "companyName": "American Tower Corporation",
+    "price": 186.96,
+    "mktCap": 87103368180
+  },
+  {
+    "symbol": "CCI",
+    "companyName": "Crown Castle Inc.",
+    "price": 91.5,
+    "mktCap": 39935356445
+  },
+  {
+    "symbol": "DLR",
+    "companyName": "Digital Realty Trust, Inc.",
+    "price": 190,
+    "mktCap": 66767140000
+  },
+  {
+    "symbol": "O",
+    "companyName": "Realty Income Corporation",
+    "price": 61.28,
+    "mktCap": 57143142238
+  },
+  {
+    "symbol": "PLD",
+    "companyName": "Prologis, Inc.",
+    "price": 143.52,
+    "mktCap": 133809149760
+  },
+  {
+    "symbol": "PSA",
+    "companyName": "Public Storage",
+    "price": 303.69,
+    "mktCap": 53311488210
+  },
+  {
+    "symbol": "SPG",
+    "companyName": "Simon Property Group, Inc.",
+    "price": 204.91,
+    "mktCap": 66448624620
+  }
+]

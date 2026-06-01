@@ -1,45 +1,46 @@
 # Analyst Consensus: MSFT
-*Generated: 2026-05-10 | Price as of: 2026-05-08*
+*Generated: 2026-06-01 | Price as of: 2026-05-29*
 
 ## Price Targets
 
-**Current Price:** $415.12
-**Median Target:** $550.00 — implied +32.5% vs current price
-**Consensus Target:** $556.88 — implied +34.1%
+**Current Price:** $450.24
+**Median Target:** $550.00 — implied +22.2% vs current price
+**Consensus Target:** $551.96 — implied +22.6%
 **Target Range:** $415.00 (low) — $680.00 (high)
 
-**Coverage:** 72 analyst target(s) in past year | 16 last quarter | 15 last month
+**Coverage:** 71 analyst target(s) in past year | 16 last quarter | 1 last month
 
 **Target Trend:**
 
 | Window | Avg Target | Count | Note |
 |--------|-----------|-------|------|
-| Last month | $544.73 | 15 |  |
+| Last month | $680.00 | 1 | ⚠ low coverage — treat as unreliable |
 | Last quarter | $545.44 | 16 |  |
-| Last year | $591.29 | 72 |  |
+| Last year | $592.37 | 71 |  |
 
 ## Grade Actions — Last 90 Days
 
-**Summary:** 25 maintained
+**Summary:** 26 maintained
 
 | Date | Firm | Action | Previous | New |
 |------|------|--------|----------|-----|
+| 2026-05-13 | Wedbush | Maintain | Outperform | Outperform |
 | 2026-05-06 | Tigress Financial | Maintain | Buy | Buy |
 | 2026-05-01 | Stifel | Maintain | Hold | Hold |
-| 2026-04-30 | Cantor Fitzgerald | Maintain | Overweight | Overweight |
-| 2026-04-30 | Wells Fargo | Maintain | Overweight | Overweight |
-| 2026-04-30 | Wedbush | Maintain | Outperform | Outperform |
-| 2026-04-30 | Truist Securities | Maintain | Buy | Buy |
-| 2026-04-30 | Scotiabank | Maintain | Sector Outperform | Sector Outperform |
-| 2026-04-30 | Benchmark | Maintain | Buy | Buy |
-| 2026-04-30 | Bernstein | Maintain | Outperform | Outperform |
-| 2026-04-30 | Citigroup | Maintain | Buy | Buy |
-| 2026-04-30 | Piper Sandler | Maintain | Overweight | Overweight |
 | 2026-04-30 | Evercore ISI Group | Maintain | Outperform | Outperform |
-| 2026-04-30 | Guggenheim | Maintain | Buy | Buy |
+| 2026-04-30 | Wedbush | Maintain | Outperform | Outperform |
+| 2026-04-30 | Scotiabank | Maintain | Sector Outperform | Sector Outperform |
+| 2026-04-30 | Wells Fargo | Maintain | Overweight | Overweight |
 | 2026-04-30 | Barclays | Maintain | Overweight | Overweight |
-| 2026-04-28 | BMO Capital | Maintain | Outperform | Outperform |
+| 2026-04-30 | Bernstein | Maintain | Outperform | Outperform |
+| 2026-04-30 | Cantor Fitzgerald | Maintain | Overweight | Overweight |
+| 2026-04-30 | Guggenheim | Maintain | Buy | Buy |
+| 2026-04-30 | Citigroup | Maintain | Buy | Buy |
+| 2026-04-30 | Benchmark | Maintain | Buy | Buy |
+| 2026-04-30 | Truist Securities | Maintain | Buy | Buy |
+| 2026-04-30 | Piper Sandler | Maintain | Overweight | Overweight |
 | 2026-04-28 | Benchmark | Maintain | Buy | Buy |
+| 2026-04-28 | BMO Capital | Maintain | Outperform | Outperform |
 | 2026-04-27 | Oppenheimer | Maintain | Outperform | Outperform |
 | 2026-04-23 | Guggenheim | Maintain | Buy | Buy |
 | 2026-04-22 | Citigroup | Maintain | Buy | Buy |
