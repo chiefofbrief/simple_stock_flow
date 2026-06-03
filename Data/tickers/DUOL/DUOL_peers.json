@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "BSY",
+    "companyName": "Bentley Systems, Incorporated",
+    "price": 32.81,
+    "mktCap": 9589757557
+  },
+  {
+    "symbol": "DAY",
+    "companyName": "Dayforce Inc",
+    "price": 69.86,
+    "mktCap": 11180042515
+  },
+  {
+    "symbol": "GTM",
+    "companyName": "ZoomInfo Technologies Inc.",
+    "price": 2.99,
+    "mktCap": 881206922
+  },
+  {
+    "symbol": "IDCC",
+    "companyName": "InterDigital, Inc.",
+    "price": 256.0036,
+    "mktCap": 6616413042
+  },
+  {
+    "symbol": "MANH",
+    "companyName": "Manhattan Associates, Inc.",
+    "price": 150.63,
+    "mktCap": 8911963999
+  },
+  {
+    "symbol": "PAYC",
+    "companyName": "Paycom Software, Inc.",
+    "price": 136.24001,
+    "mktCap": 7435827021
+  },
+  {
+    "symbol": "PCOR",
+    "companyName": "Procore Technologies, Inc.",
+    "price": 50.81,
+    "mktCap": 7666720900
+  },
+  {
+    "symbol": "PEGA",
+    "companyName": "Pegasystems Inc.",
+    "price": 34.84,
+    "mktCap": 5822323217
+  },
+  {
+    "symbol": "QXO",
+    "companyName": "QXO, Inc.",
+    "price": 16.48,
+    "mktCap": 11950768640
+  },
+  {
+    "symbol": "SAIL",
+    "companyName": "SailPoint, Inc.",
+    "price": 18.91,
+    "mktCap": 10726179120
+  }
+]

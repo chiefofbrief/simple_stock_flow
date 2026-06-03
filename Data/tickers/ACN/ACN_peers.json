@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ADBE",
+    "companyName": "Adobe Inc.",
+    "price": 256.97,
+    "mktCap": 103867274000
+  },
+  {
+    "symbol": "AMAT",
+    "companyName": "Applied Materials, Inc.",
+    "price": 498.365,
+    "mktCap": 395681377035
+  },
+  {
+    "symbol": "APH",
+    "companyName": "Amphenol Corporation",
+    "price": 148.68,
+    "mktCap": 182910596400
+  },
+  {
+    "symbol": "INFY",
+    "companyName": "Infosys Limited",
+    "price": 12.405,
+    "mktCap": 50310462300
+  },
+  {
+    "symbol": "KLAC",
+    "companyName": "KLA Corporation",
+    "price": 2085.66992,
+    "mktCap": 272446888224
+  },
+  {
+    "symbol": "LDOS",
+    "companyName": "Leidos Holdings, Inc.",
+    "price": 124.97,
+    "mktCap": 15719409686
+  },
+  {
+    "symbol": "PANW",
+    "companyName": "Palo Alto Networks, Inc.",
+    "price": 280.765,
+    "mktCap": 191344526883
+  },
+  {
+    "symbol": "QCOM",
+    "companyName": "QUALCOMM Incorporated",
+    "price": 248.19,
+    "mktCap": 261592260000
+  },
+  {
+    "symbol": "SONY",
+    "companyName": "Sony Group Corporation",
+    "price": 22.155,
+    "mktCap": 130893100605
+  },
+  {
+    "symbol": "TXN",
+    "companyName": "Texas Instruments Incorporated",
+    "price": 308.17,
+    "mktCap": 280463359810
+  }
+]

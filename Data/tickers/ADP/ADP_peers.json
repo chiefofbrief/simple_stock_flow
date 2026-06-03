@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "DE",
+    "companyName": "Deere & Company",
+    "price": 589.28,
+    "mktCap": 159068738768
+  },
+  {
+    "symbol": "GD",
+    "companyName": "General Dynamics Corporation",
+    "price": 341.43,
+    "mktCap": 92332978747
+  },
+  {
+    "symbol": "HON",
+    "companyName": "Honeywell International Inc.",
+    "price": 234.3448,
+    "mktCap": 148493313441
+  },
+  {
+    "symbol": "LMT",
+    "companyName": "Lockheed Martin Corporation",
+    "price": 521.94,
+    "mktCap": 120340369560
+  },
+  {
+    "symbol": "MMM",
+    "companyName": "3M Company",
+    "price": 152.62,
+    "mktCap": 79601595374
+  },
+  {
+    "symbol": "NOC",
+    "companyName": "Northrop Grumman Corporation",
+    "price": 536.505,
+    "mktCap": 76201414665
+  },
+  {
+    "symbol": "PAYX",
+    "companyName": "Paychex, Inc.",
+    "price": 98.5664,
+    "mktCap": 35315454022
+  },
+  {
+    "symbol": "PH",
+    "companyName": "Parker-Hannifin Corporation",
+    "price": 852.9,
+    "mktCap": 107539081178
+  },
+  {
+    "symbol": "TT",
+    "companyName": "Trane Technologies plc",
+    "price": 464.89,
+    "mktCap": 102766480703
+  },
+  {
+    "symbol": "UPS",
+    "companyName": "United Parcel Service, Inc.",
+    "price": 110.13,
+    "mktCap": 93611186440
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "AMX",
+    "companyName": "América Móvil, S.A.B. de C.V.",
+    "price": 25.78,
+    "mktCap": 77481790000
+  },
+  {
+    "symbol": "CHTR",
+    "companyName": "Charter Communications, Inc.",
+    "price": 131.4,
+    "mktCap": 16160229000
+  },
+  {
+    "symbol": "DASH",
+    "companyName": "DoorDash, Inc.",
+    "price": 152.52,
+    "mktCap": 66455815971
+  },
+  {
+    "symbol": "LBRDA",
+    "companyName": "Liberty Broadband Corporation",
+    "price": 30.7293,
+    "mktCap": 4414631805
+  },
+  {
+    "symbol": "RCI",
+    "companyName": "Rogers Communications Inc.",
+    "price": 38.04,
+    "mktCap": 20550171135
+  },
+  {
+    "symbol": "RELX",
+    "companyName": "RELX Plc",
+    "price": 32.945,
+    "mktCap": 58129546236
+  },
+  {
+    "symbol": "T",
+    "companyName": "AT&T Inc.",
+    "price": 23.755,
+    "mktCap": 165057816700
+  },
+  {
+    "symbol": "VZ",
+    "companyName": "Verizon Communications Inc.",
+    "price": 46.455,
+    "mktCap": 193975639800
+  }
+]

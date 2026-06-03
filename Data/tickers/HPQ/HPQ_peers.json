@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "BR",
+    "companyName": "Broadridge Financial Solutions, Inc.",
+    "price": 152.405,
+    "mktCap": 17626902754
+  },
+  {
+    "symbol": "FLEX",
+    "companyName": "Flex Ltd.",
+    "price": 163.686,
+    "mktCap": 59970949308
+  },
+  {
+    "symbol": "LDOS",
+    "companyName": "Leidos Holdings, Inc.",
+    "price": 124.605,
+    "mktCap": 15673497991
+  },
+  {
+    "symbol": "LOGI",
+    "companyName": "Logitech International S.A.",
+    "price": 120.145,
+    "mktCap": 17241060285
+  },
+  {
+    "symbol": "NTAP",
+    "companyName": "NetApp, Inc.",
+    "price": 180.05,
+    "mktCap": 35660765837
+  },
+  {
+    "symbol": "RGTI",
+    "companyName": "Rigetti Computing, Inc.",
+    "price": 24.175,
+    "mktCap": 8035741159
+  },
+  {
+    "symbol": "SMCI",
+    "companyName": "Super Micro Computer, Inc.",
+    "price": 46.15,
+    "mktCap": 27755440700
+  },
+  {
+    "symbol": "TDY",
+    "companyName": "Teledyne Technologies Incorporated",
+    "price": 620.05,
+    "mktCap": 28726358455
+  },
+  {
+    "symbol": "WIT",
+    "companyName": "Wipro Limited",
+    "price": 2.135,
+    "mktCap": 22396929076
+  },
+  {
+    "symbol": "ZM",
+    "companyName": "Zoom Communications, Inc.",
+    "price": 106.2321,
+    "mktCap": 31150675899
+  }
+]

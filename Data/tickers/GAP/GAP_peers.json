@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ALV",
+    "companyName": "Autoliv, Inc.",
+    "price": 130.41,
+    "mktCap": 9762922953
+  },
+  {
+    "symbol": "AN",
+    "companyName": "AutoNation, Inc.",
+    "price": 190.83,
+    "mktCap": 6385458045
+  },
+  {
+    "symbol": "FIVE",
+    "companyName": "Five Below, Inc.",
+    "price": 223.3158,
+    "mktCap": 12348224829
+  },
+  {
+    "symbol": "GIL",
+    "companyName": "Gildan Activewear Inc.",
+    "price": 58.95,
+    "mktCap": 9019783872
+  },
+  {
+    "symbol": "LAD",
+    "companyName": "Lithia Motors, Inc.",
+    "price": 293.62,
+    "mktCap": 6696244868
+  },
+  {
+    "symbol": "LEVI",
+    "companyName": "Levi Strauss & Co.",
+    "price": 22.845,
+    "mktCap": 8997451369
+  },
+  {
+    "symbol": "LKQ",
+    "companyName": "LKQ Corporation",
+    "price": 25.55,
+    "mktCap": 6509910050
+  },
+  {
+    "symbol": "MUSA",
+    "companyName": "Murphy USA Inc.",
+    "price": 545.69,
+    "mktCap": 10079276283
+  },
+  {
+    "symbol": "URBN",
+    "companyName": "Urban Outfitters, Inc.",
+    "price": 72.3317,
+    "mktCap": 6486629895
+  },
+  {
+    "symbol": "VIPS",
+    "companyName": "Vipshop Holdings Limited",
+    "price": 14.195,
+    "mktCap": 6984538605
+  }
+]

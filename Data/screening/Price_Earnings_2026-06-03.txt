@@ -1,0 +1,42 @@
+PRICE & EARNINGS — 2026-06-03
+Tickers: CMCSA
+
+--- PRICE ---
+
+Ticker |  Price | vs1Y | vs2Y | vs3Y | vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+--------+------+------+------+------+------+---------+---------+------------+---------+---------
+ CMCSA | $23.71 | -28% | -36% | -34% | -52% | 0.18 |    -0.5 |      2% |         8% |    +20% |   -13.3%
+
+----------------------------------------
+
+Recent Trend: CMCSA
+      Date |  Close |  MoM %
+-----------+--------+-------
+2026-06-03 | $23.71 |  -4.7%
+2026-05-29 | $24.87 |  -8.0%
+2026-04-30 | $27.04 |  -4.7%
+2026-03-31 | $28.38 |  -7.3%
+2026-02-27 | $30.60 |  +4.0%
+2026-01-30 | $29.41 |  +7.5%
+2025-12-31 | $27.36 |  +4.9%
+2025-11-28 | $26.08 |  -4.1%
+2025-10-31 | $27.20 | -10.5%
+2025-09-30 | $30.40 |  -7.5%
+2025-08-29 | $32.87 |  +2.2%
+2025-07-31 | $32.15 |  -6.1%
+
+--- EARNINGS ---
+
+Ticker | GAAP P/E | Adj P/E | vs1Y | vs3Y | vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+----------+---------+------+------+------+-------+--------+----+----------+-----------+----------
+ CMCSA |     4.7x |    5.9x | -22% | -38% | -68% |  -43% |   0.63 | || |    +8.5% |      0.10 |     $0.19
+
+LEGEND (Price):
+CV: Volatility relative to price. Z-Score: Std devs of recent 1mo return.
+52w Pos: Position in 52-week range. Drop/MaxDD: Recent drop as % of worst 5yr drawdown.
+Revert↑: Upside if price reverts to 1yr average.
+
+LEGEND (Earnings):
+vsXY: % diff between current P/E and P/E X years ago.
+1yCorr: Correlation between price and earnings over last 12 months.
+Stability: CV of annual EPS (lower = smoother). Fwd Delta: Next est minus last actual.
