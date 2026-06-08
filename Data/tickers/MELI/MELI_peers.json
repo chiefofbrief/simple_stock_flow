@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "CPNG",
+    "companyName": "Coupang, Inc.",
+    "price": 16.745,
+    "mktCap": 30058349610
+  },
+  {
+    "symbol": "CVNA",
+    "companyName": "Carvana Co.",
+    "price": 66,
+    "mktCap": 71545137840
+  },
+  {
+    "symbol": "EBAY",
+    "companyName": "eBay Inc.",
+    "price": 109.47,
+    "mktCap": 48604680000
+  },
+  {
+    "symbol": "JD",
+    "companyName": "JD.com, Inc.",
+    "price": 29.345,
+    "mktCap": 40246931531
+  },
+  {
+    "symbol": "LOW",
+    "companyName": "Lowe's Companies, Inc.",
+    "price": 207.8,
+    "mktCap": 116514914600
+  },
+  {
+    "symbol": "NKE",
+    "companyName": "NIKE, Inc.",
+    "price": 43.505,
+    "mktCap": 64316726345
+  },
+  {
+    "symbol": "PDD",
+    "companyName": "PDD Holdings Inc.",
+    "price": 86.49,
+    "mktCap": 121431914938
+  },
+  {
+    "symbol": "SBUX",
+    "companyName": "Starbucks Corporation",
+    "price": 95.635,
+    "mktCap": 108995209500
+  },
+  {
+    "symbol": "SE",
+    "companyName": "Sea Limited",
+    "price": 92.58,
+    "mktCap": 56703819269
+  },
+  {
+    "symbol": "TJX",
+    "companyName": "The TJX Companies, Inc.",
+    "price": 158.57,
+    "mktCap": 175172984002
+  }
+]

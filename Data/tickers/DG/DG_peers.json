@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "BG",
+    "companyName": "Bunge Global S.A.",
+    "price": 130.13,
+    "mktCap": 25247562340
+  },
+  {
+    "symbol": "BJ",
+    "companyName": "BJ's Wholesale Club Holdings, Inc.",
+    "price": 88.775,
+    "mktCap": 11336032986
+  },
+  {
+    "symbol": "CHD",
+    "companyName": "Church & Dwight Co., Inc.",
+    "price": 93.32,
+    "mktCap": 22111576939
+  },
+  {
+    "symbol": "DLTR",
+    "companyName": "Dollar Tree, Inc.",
+    "price": 110.01,
+    "mktCap": 21141171750
+  },
+  {
+    "symbol": "FMX",
+    "companyName": "Fomento Económico Mexicano, S.A.B. de C.V.",
+    "price": 122.26,
+    "mktCap": 41651659060
+  },
+  {
+    "symbol": "GIS",
+    "companyName": "General Mills, Inc.",
+    "price": 31.865,
+    "mktCap": 17005745065
+  },
+  {
+    "symbol": "MKC",
+    "companyName": "McCormick & Company, Incorporated",
+    "price": 46.565,
+    "mktCap": 12518683655
+  },
+  {
+    "symbol": "STZ",
+    "companyName": "Constellation Brands, Inc.",
+    "price": 136.38,
+    "mktCap": 23480891551
+  },
+  {
+    "symbol": "TSN",
+    "companyName": "Tyson Foods, Inc.",
+    "price": 57.31,
+    "mktCap": 20402328881
+  }
+]

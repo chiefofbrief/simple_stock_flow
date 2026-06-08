@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "ALLY",
+    "companyName": "Ally Financial Inc.",
+    "price": 42.38,
+    "mktCap": 12990447368
+  },
+  {
+    "symbol": "AXP",
+    "companyName": "American Express Company",
+    "price": 312.3,
+    "mktCap": 213090548149
+  },
+  {
+    "symbol": "BAC",
+    "companyName": "Bank of America Corporation",
+    "price": 53.915,
+    "mktCap": 382612684949
+  },
+  {
+    "symbol": "JPM",
+    "companyName": "JPMorgan Chase & Co.",
+    "price": 310.37,
+    "mktCap": 831639958805
+  },
+  {
+    "symbol": "MA",
+    "companyName": "Mastercard Incorporated",
+    "price": 479.91,
+    "mktCap": 424040712976
+  },
+  {
+    "symbol": "PYPL",
+    "companyName": "PayPal Holdings, Inc.",
+    "price": 42.9938,
+    "mktCap": 37925067145
+  },
+  {
+    "symbol": "SEZL",
+    "companyName": "Sezzle Inc.",
+    "price": 121.4946,
+    "mktCap": 4085501101
+  },
+  {
+    "symbol": "SLM",
+    "companyName": "SLM Corporation",
+    "price": 22.49,
+    "mktCap": 4241231670
+  }
+]

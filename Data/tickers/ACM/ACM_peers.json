@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "APG",
+    "companyName": "APi Group Corporation",
+    "price": 42.33,
+    "mktCap": 18338540774
+  },
+  {
+    "symbol": "CHRW",
+    "companyName": "C.H. Robinson Worldwide, Inc.",
+    "price": 186.8045,
+    "mktCap": 22019214674
+  },
+  {
+    "symbol": "EXPD",
+    "companyName": "Expeditors International of Washington, Inc.",
+    "price": 161.74,
+    "mktCap": 21154157851
+  },
+  {
+    "symbol": "FTAI",
+    "companyName": "FTAI Aviation Ltd.",
+    "price": 249.9252,
+    "mktCap": 25638069794
+  },
+  {
+    "symbol": "JBHT",
+    "companyName": "J.B. Hunt Transport Services, Inc.",
+    "price": 281.87,
+    "mktCap": 26580116350
+  },
+  {
+    "symbol": "LII",
+    "companyName": "Lennox International Inc.",
+    "price": 519.69,
+    "mktCap": 18085212000
+  },
+  {
+    "symbol": "MTZ",
+    "companyName": "MasTec, Inc.",
+    "price": 369.9,
+    "mktCap": 29228963864
+  },
+  {
+    "symbol": "PNR",
+    "companyName": "Pentair plc",
+    "price": 72.05,
+    "mktCap": 11643679229
+  },
+  {
+    "symbol": "SNA",
+    "companyName": "Snap-on Incorporated",
+    "price": 378.98,
+    "mktCap": 19631890126
+  },
+  {
+    "symbol": "STN",
+    "companyName": "Stantec Inc.",
+    "price": 75.26,
+    "mktCap": 8584682044
+  }
+]

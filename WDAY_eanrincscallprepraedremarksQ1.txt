@@ -1,0 +1,344 @@
+1
+Workday, Inc.
+First Quarter Fiscal 2027
+Prepared Remarks
+May 21, 2026
+Introduction
+Thank you, Operator.
+Welcome to Workday’s first quarter fiscal 2027 earnings conference call. On the call we have
+Aneel Bhusri, our CEO; Gerrit Kazmaier, our President, Product & Technology; Rob Enslin, our
+President and Chief Commercial Officer; and Zane Rowe, our CFO. Following prepared
+remarks, we will take questions. Our press release was issued after close of market and is
+posted on our website, where this call is being simultaneously webcast.
+Before we get started, we want to emphasize that some of our statements on this call,
+particularly our guidance, are based on the information we have as of today, and include
+forward-looking statements regarding our financial results, applications, customer demand,
+operations and other matters. These statements are subject to risks, uncertainties and
+assumptions that could cause actual results to differ materially. Please refer to the press release
+and the risk factors in documents we file with the Securities and Exchange Commission,
+including our fiscal 2026 Annual Report on Form 10-K, for additional information on risks,
+uncertainties and assumptions that may cause actual results to differ materially from those set
+forth in such statements.
+In addition, during today’s call, we will discuss non-GAAP financial measures, which we believe
+are useful as supplemental measures of Workday’s performance. These non-GAAP measures
+should be considered in addition to, and not as a substitute for or in isolation from GAAP results.
+You can find additional disclosures regarding these non-GAAP measures, including
+reconciliations with comparable GAAP results, in our earnings press release, in our investor
+presentation, and on the Investor Relations page of our website.
+The webcast replay of this call will be available for the next 90 days on our company website
+under the Investor Relations link. Additionally, the prepared remarks of this call and our
+quarterly investor presentation will be posted on our Investor Relations website following this
+call.
+Our second quarter fiscal 2027 quiet period begins on July 15th, 2026. Unless otherwise stated,
+all financial comparisons in this call will be to our results for the comparable period of our fiscal
+2026.
+With that, I will hand the call over to Aneel. 
+2
+CEO Remarks
+Thanks, Justin. And thanks to everyone for joining us today.
+It’s great to be with all of you. I now have a full quarter under my belt since returning as CEO,
+and I truly feel the energy building at Workday every day—both around our path forward on AI
+and the company as a whole.
+We’re in New York City this week for the Sana AI Summit, where we’ve brought together some
+of the brightest minds in AI with our top customers. It’s an incredible event, and it was great to
+see a few of you there.
+A few weeks ago, we hosted our top industry analysts at our annual Innovation Summit.
+Typically, a skeptical group—They came away genuinely impressed by the pace of innovation
+and by our renewed focus on operating like a startup.
+One of them even called it the Re-Invention of Workday. Indeed, their reaction to our vision and
+execution around AI told me that we are absolutely on the right path.
+So do our Q1 results.
+We had a great first quarter. In fact, it was our best first quarter of new ACV growth in five years,
+anchored by the strength of our core business and the traction we’re seeing with AI.
+Following slower ACV growth in FY26, we’re seeing momentum once again building in the
+business. I’m confident in our ability to drive accelerated new ACV bookings this year, as we
+bring new agents to market for our customers and drive even greater adoption.
+Last quarter, I mentioned that I came back to help Workday lead again during the biggest
+technology transformation of our lives. After being back for three months, I have even more
+conviction that this is Workday’s moment to lead.
+But to do it, we need to operate differently than we have been.
+In coming back, I was very focused on returning Workday to a startup orientation and a growth
+mindset. Indeed, I watched a lot of Steve Jobs videos where he talked about his management
+approach when he returned as CEO.
+What struck me most wasn’t what Apple built after he returned, which was obviously incredible.
+It was more about his management philosophy. There was one interview in particular from All
+Things D, where he called Apple the biggest startup in the world and said it was the startup
+mindset he brought back. Fewer layers, faster decisions, the best ideas winning, and more
+ownership.
+3
+We are trying to emulate that startup playbook. As the great philosopher Yogi Berra once said—
+and apropos that we are in NYC this week— "It’s like déjà vu all over again.” And so, we’re
+going back to our founding principles.
+I’ve said before, Chapter 4 is a re-founding moment for Workday. With AI, we are essentially a
+startup again. We’re a startup sitting on one of the most important enterprise platforms ever built
+and the trust of more than 11,500 customers.
+We need to embrace that mindset. It’s all about focus and trust, clear ownership, and the best
+ideas winning. That’s how we are leading Workday now. And it’s how Dave and I led the
+company early on.
+As part of this mindset, we’ve simplified our priorities to three:
+▪ #1, Build and deliver the AI future.
+▪ #2, Grow with our customers.
+▪ And #3, live our values.
+We’ve also streamlined ownership across the organization so every Workmate knows exactly
+how their work connects. Fewer things, done with greater focus.
+A dedicated AI Agent Factory, building agents across all of our application areas.
+Clear ownership and accelerated development of our AI APIs.
+And we’ve got the right people to do it. We have some incredible leaders from the companies
+we’ve acquired, now in key roles at Workday.
+One of them is Joel Hellermark, the founder of Sana, who we named our Chief AI Officer just
+today.
+That’s by design. These leaders know the startup mindset and they’re helping Workday move
+faster and stay focused.
+I’ve also thought a lot about why Workday wins in this new chapter. I’ve met with dozens of
+customers since I’ve been back and I keep hearing the same thing: Not one of them is looking
+to replace Workday with something they’re building internally or from a startup.
+Instead, they are looking to us first for AI solutions for the HR and Finance worlds, and hopefully
+IT in the future. It’s really our opportunity for the taking, but we need to execute flawlessly and
+with speed.
+4
+We have all the requisite components: one data model for all customers, one security model,
+and a true cloud architecture. Our business process framework gives AI the rails it needs to
+operate safely and accurately inside the enterprise.
+And over the past several years, we have completely rewritten our tech platform to be AI-native
+in the way we manage transactions, reports and UI requests.
+That’s basically the foundation we’ve spent 21 years building, and now it’s been modernized for
+AI, down to the core OMS.
+And we’re delivering the results as well.
+Q1 was our first quarter with both Sana and Paradox fully integrated. With Sana, we’re giving
+our customers a completely new Workday experience. It’s the new front door to Workday that is
+simple and modern.
+The Sana platform is also the foundation for everything we’re building in AI going forward. Joel
+and his team have created something remarkable, and the integration has gone further and
+faster than I anticipated.
+We’ve already proven that customers trust Workday to deliver AI through the agents we
+acquired. This is the year we prove they’ll also buy the agents we’re building organically —
+agents only Workday can build, and Gerrit will share more on that momentum in a moment.
+And while there are some who believe that AI can disrupt Workday, I see something different:
+our chance to once again be a disruptor, with AI clearly driving that disruption.
+To that point, Gerrit will talk about Sana for ITSM and the new Travel agent we announced
+today at the Summit. These are early examples of what it looks like when we use Sana to
+rapidly innovate on top of our data and context.
+What ties all of this together is one simple truth: customers don’t want AI for AI’s sake.
+They want AI that adds value to how they run their businesses. Our early adopter customers are
+already seeing that, and they want more from Workday.
+To close, I am confident Workday is ready for this AI moment. Our core business is strong, our
+AI strategy is working, and our execution is accelerating, starting with Q1.
+Seeing the agents Gerrit is building and the success Rob is having selling and deploying them
+with customers, I couldn’t be more confident in our path ahead and ability to lead.
+Gerrit, over to you.
+5
+President, P&T Remarks
+Awesome, thanks, Aneel. And hello to everyone.
+For AI, the "world model" it is like the holy grail.
+Today, a large language model, it just predicts the next token in a sentence.
+And the world model, it is the step change needed for it to understand the physics of its real
+environment: it’s about how things actually work and the laws that govern them.
+On Workday’s platform, we have over 80 million users under contract and approximately 1.4
+trillion transactions annually, that is giving us a set of data and context that no other competitor
+can replicate. For more than 20 years, we’ve been on the journey of building the “World Model
+of Work.”
+And here is what we’ve done. We’ve mapped the patterns of work at scale:
+▪ Who approves what. How money moves.
+▪ How people get hired, assessed, developed, and scheduled for their work.
+▪ And the policies, processes, and exceptions around them.
+And here is the key insight, this World Model of Work is the best context engine for agentic HR,
+Finance and beyond.
+It unlocks unmatched enterprise grade accuracy for AI automation.
+All of this is adding up to agents that our customers can trust to perform actual work inside real
+business processes.
+And you can see that clearly in the impact they’re delivering already for our customers.
+In Q1, for example, we have supported 14 million hiring processes with our Recruiting Agent,
+that is up 44% year over year.
+And we have analyzed more than 1.1 million contracts with Contract Intelligence, that’s up 53%
+from last quarter.
+Now that’s the World Model of Work, at Work!
+And while we’re driving all of this amazing impact, the pace of innovation at Workday is
+increasing.
+We now have 20 organic agents in GA or EA.
+6
+And the number of customers using these agents has more than doubled quarter-over-quarter,
+with over 4,000 customers using at least one organically developed agent, as of today.
+And here are a just few highlights for you:
+Deployment Agent is now being used in our first end-to-end customer projects, it is designed to
+deliver an estimated 30% reduction in implementation hours and costs.
+And in our next wave of AI-driven projects, we're aiming to get that reduction up to 50%.
+And here’s why this is so important.
+This reduction in time and costs of deployment is removing a historic barrier to choosing
+Workday, particularly in the mid-market segment.
+Further, customers like the University of Arkansas System, GE Vernova and Mohegan they are
+using Deployment Agent across their Workday systems to instantly resolve issues and answer
+questions, so admins, they can spend thier time moving their projects forward.
+Also, we see a super fast take off of our Self-service agent. This quarter, our first Fortune 500
+customers are expected to go live on Self-Service Agent.
+And we will take another big step at the end of this month. All HCM and Finance customers on
+our AI terms of service they will get Sana for Workday and our Self Service Agent as a part of
+their existing contract.
+So now let’s talk about our accelerating AI business momentum.
+In Q1, our new ACV from agentic AI products, it grew more than 200% year-over-year.
+And we’re also approaching $500 million US Dollars in ARR from our Agentic AI Solutions.
+But we’re not stopping here.
+AI lets us break free from the narrow definitions of legacy business applications that lead to
+frustrating user experience breaks and outsized spend for so many companies out there.
+With Sana as our AI platform, we are pushing the boundaries of HR and Finance and IT with
+new AI solutions.
+Just today, here in New York City, we announced two new agentic solutions from Workday that
+prove this out.
+7
+Sana Travel Agent brings business travel planning, booking and expenses into a single
+conversational experience.
+With more than 5 million expense reports processed monthly on Workday—and much of it is
+travel—this agent takes on the heavy lifting.
+It can automatically handle bookings, receipts, policy checks, and expenses. So employees get
+a more seamless travel experience and finance teams get real-time visibility into current spend
+and future travel commitments.
+We also announced Sana for ITSM, which automates workflows for employee on- and
+offboarding, access changes, and everyday IT requests.
+Many service requests start with employee lifecycle changes that Workday already knows
+about. Like joining a company, moving across teams or even exiting.
+And with the key data, the worker identity, the org charts, job profiles and more running on
+Workday, we inherently know the chain of approvals, the required policies and the right work
+context.
+That allows us to simplify and automate ITSM requests at a whole new level.
+Lastly, let’s take a look at the Workday Platform and our AI momentum there.
+Workday Extend Pro enables customers to build their own AI-powered solutions on our
+platform, taking advantage of our AI APIs.
+In Q1, Extend Pro continued to be one of our fastest-growing products, with new ACV nearly
+doubling year-over-year.
+And here is our approach: at Workday we embrace the AI ecosystem and we design for
+openness, so our customers and our partners they can build their own AI innovations without
+locking them into a single vendor stack.
+We’re giving our customers choice, and three clear paths to run agents on the Workday
+platform—designed to meet them wherever they are:
+▪ First, our customers can build their own AI agents with Workday’s Agent-Ready Tools.
+These are a new class of Workday connectors and APIs that are purpose-built for
+autonomous consumption by AI agents at enterprise scale and available via open
+standards like MCP.
+▪ Second, our customers can plug Workday’s agents into any agentic front door using the
+A2A protocol. And already in Q1, we made Self-Service Agent available in Microsoft
+Teams, Microsoft Copilot and Google Gemini.
+8
+▪ Third, they can use Workday’s agents in Sana for the fully optimized work experience,
+where Workday provides the reasoning, the context and the ultimate AI user experience.
+It’s the AI workbench for work.
+These options give our customers and partners the flexibility to adopt AI the way that best fits
+their business.
+So stay tuned for our upcoming annual developer conference, DevCon, the first week of June in
+Las Vegas. There we’ll announce new Workday AI platform innovations.
+And here is the bottom line of all of this, Enterprise AI starts to pay off when agents can perform
+actual work with the same approvals, security, policy and guardrails that govern the rest of the
+business.
+That’s exactly the future we’re delivering for our customers:
+▪ Powerful AI Agents
+▪ Harnessing the world’s model of work
+▪ Build on an open platform
+Over to you, Rob.
+President, CCO Remarks
+Thank you, Gerrit, and hello everyone.
+We’re proud that more than 11,500 customers around the world trust Workday with the most
+important parts of their business—from payroll to closing the books. And as Aneel said, growing
+with our customers is one of our top priorities. You see that in our results.
+In Q1, expansions once again drove roughly 60% of our subscription revenue growth, with
+customers like Queensland University of Technology, Rakuten Group and Bank OZK expanding
+their relationships with Workday.
+We also continue to go deeper in Federal and had a record turnout at our 4th annual Fed Forum
+in D.C. last month with nearly 600 attendees. And in Q1, we kicked off the next phase of our
+contract with the Defense Intelligence Agency.
+Also in Q1, net new business drove 40% of our subscription revenue growth. We formed new
+relationships around the world with key brands, including Harley Davidson, Del Monte,
+Australian Gas Infrastructure Group, Smiths Group, Heartland Dental, and ACHM Hotels by
+Marriott.
+State and local government was also a standout this quarter, where we signed statewide deals
+with The State of Delaware and The Commonwealth of Massachusetts. 
+9
+Turning to AI, the numbers this quarter tell a clear story.
+More than a quarter of new ACV from customer base expansions came from AI. And expansion
+deals that included AI were over 50% larger on average. The pattern is consistent: customers
+who adopt our AI go deeper on the platform.
+The University of Arkansas System is a great example.
+They have 21 institutions, including research universities, community colleges, and an academic
+medical center, all on a single Workday instance. They process over 2 million transactions a
+month.
+And in Q1, they used our Deployment Agent there to cut support tickets and uncover
+configuration insights that once required manual searches. Deployment Agent has significantly
+increased their operational velocity and allowed them to scale Workday with less reliance on
+external consultants.
+Our Flex Credits pricing model is quickly gaining traction. With Flex Credits, we've unified AI
+monetization across Workday—one model for agents, AI APIs, and Data Cloud. It makes AI
+adoption simpler for our customers.
+While still early in the journey, we’re seeing a growing mix of AI monetization coming through
+Flex Credits. And, as we bring our new agentic innovations and acquired agents onto the model
+throughout the year, this will become a more meaningful part of how we grow.
+We’re also continuing to make progress outside of North America.
+In APAC, we expanded operations into Vietnam, which opens up a brand new market for
+Workday. This strategic expansion is made possible by five global and regional partners, all
+dedicated to meeting the growing local demand in Vietnam for digital transformation.
+And in EMEA, we launched an EU-based data residency in Frankfurt. This was a significant
+milestone for European customers with data sovereignty requirements.
+We’re also expanding Workday GO globally to help these customers get up and run faster in a
+more standardized way. EMEA is now our second-largest region for medium enterprise—which
+we define as 500 to 3,500 employees—and new ACV in that segment grew by more than 50%
+in the quarter.
+Workday GO is now available in France, Germany, and the UK, with an additional 14 countries
+available through our partner network.
+Speaking of partners, our ecosystem continues to be a meaningful driver of our growth. In Q1,
+roughly 30% of net new ACV was sourced by partners. We also hit several milestones worth
+mentioning, including:
+- Insperity's HRScale solution is now generally available, bringing Workday to the PEO
+market for the first time to deliver full-service HR for growing businesses; 
+10
+- Workday Recognition, powered by Achievers, is live;
+- And we expanded our Workday Wellness program with Morgan Stanley at Work and
+Perkspot.
+The momentum this quarter was broad. Across expansions, net new, AI, and international, we
+are growing with our customers and continuously evolving to meet their needs.
+Now, over to Zane to share more on our financials.
+CFO Remarks
+Thanks, Rob, and thank you to everyone for joining today’s call. As Rob mentioned, our results
+this quarter demonstrate ongoing customer adoption across our platform as enterprises around
+the globe turn to Workday to manage and empower their most important assets.
+Subscription revenue in Q1 was $2.354 billion, up 14%. Professional services revenue was
+$188 million, resulting in total revenue of $2.542 billion, growth of 13%
+From a geographic perspective, U.S. revenue in Q1 totaled $1.89 billion, up 13%, and
+international revenue totaled $649 million, up 16%.
+12-month subscription revenue backlog, or cRPO, was $8.81 billion at the end of Q1, growing
+15.5%. This was driven by continued customer expansion - bolstered by our AI solutions - and
+growth from new customers.
+Total subscription revenue backlog at the end of Q1 was $27.29 billion, up 11%.
+Gross revenue retention rates remained strong at 97% in the quarter. Net customer expansion
+rates remained consistent with what we observed last quarter, contributing roughly 60% of our
+subscription revenue growth for Q1.
+Non-GAAP operating income for the first quarter was $809 million, representing a non-GAAP
+operating margin of 31.8%. Margin strength was the result of the revenue outperformance,
+combined with favorable spend versus expectations.
+Q1 operating cash flow was $696 million, growth of 52%, and free cash flow for the quarter was
+$616 million, growth of 46% and in line with our expectations.
+We repurchased $1.6 billion dollars of our shares during the quarter and had $1.3 billion in
+remaining authorization as of April 30.
+We ended the quarter with $4.4 billion in cash and marketable securities.
+Our headcount as of quarter end stood at 20,834 workmates around the globe. 
+11
+Now turning to guidance. We remain focused on driving adoption of our agentic solutions across
+HR and Finance, while expanding into adjacent market opportunities providing a foundation for
+long-term growth. We are pleased with our performance in Q1, and we are reiterating our FY27
+subscription revenue outlook of $9.925 billion to $9.950 billion, growth of 12% to 13%.
+We expect Q2 FY27 subscription revenue to be approximately $2.455 billion, growth of 13%.
+We anticipate cRPO to increase between 13.5% and 14.5% in Q2.
+For Q2, we expect professional services revenue of $180 million.
+As Aneel mentioned, we are streamlining how we operate the business and are focused on
+investing in areas with the highest returns. We are increasing our FY27 non-GAAP operating
+margin guidance to 30.5%. For Q2, we expect a non-GAAP operating margin of approximately
+30%.
+We expect the Q2 GAAP operating margin to be approximately 19 percentage points lower than
+our non-GAAP operating margin, and the full-year FY27 GAAP operating margin to be
+approximately 18 to 19 points lower.
+The FY27 non-GAAP tax rate is expected to be 19%.
+We are maintaining our FY27 operating cash flow outlook of $3.45 billion, and we continue to
+expect FY27 capital expenditures of approximately $270 million, resulting in free cash flow of
+$3.180 billion, growth of 15%.
+In closing, we remain focused on the potential for AI to transform our HCM and Finance
+solutions. While still early in this journey, we are beginning to see the benefits from AI to our
+business model across both the top and bottom-line, and we are executing on a framework to
+drive long-term growth while expanding GAAP and non-GAAP margins. We look forward to
+updating you on our progress in the quarters ahead.
+With that, I'll turn it back over to the operator to begin Q&A.
+________________________
