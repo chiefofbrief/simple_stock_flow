@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "APP",
+    "companyName": "AppLovin Corporation",
+    "price": 567.175,
+    "mktCap": 190536505764
+  },
+  {
+    "symbol": "CSCO",
+    "companyName": "Cisco Systems, Inc.",
+    "price": 125.29,
+    "mktCap": 493822349178
+  },
+  {
+    "symbol": "IBM",
+    "companyName": "International Business Machines Corporation",
+    "price": 288.405,
+    "mktCap": 271067533425
+  },
+  {
+    "symbol": "INTU",
+    "companyName": "Intuit Inc.",
+    "price": 295.9663,
+    "mktCap": 80957733803
+  },
+  {
+    "symbol": "LRCX",
+    "companyName": "Lam Research Corporation",
+    "price": 321.7651,
+    "mktCap": 402389781107
+  },
+  {
+    "symbol": "MU",
+    "companyName": "Micron Technology, Inc.",
+    "price": 942,
+    "mktCap": 1062321660000
+  },
+  {
+    "symbol": "NOW",
+    "companyName": "ServiceNow, Inc.",
+    "price": 115.8,
+    "mktCap": 119425466400
+  },
+  {
+    "symbol": "SAP",
+    "companyName": "SAP SE",
+    "price": 187.24,
+    "mktCap": 218178632107
+  },
+  {
+    "symbol": "SHOP",
+    "companyName": "Shopify Inc.",
+    "price": 111.63,
+    "mktCap": 144857180096
+  },
+  {
+    "symbol": "UBER",
+    "companyName": "Uber Technologies, Inc.",
+    "price": 71.24,
+    "mktCap": 145016073686
+  }
+]

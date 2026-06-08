@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "AEM",
+    "companyName": "Agnico Eagle Mines Limited",
+    "price": 163.66,
+    "mktCap": 81991936660
+  },
+  {
+    "symbol": "APD",
+    "companyName": "Air Products and Chemicals, Inc.",
+    "price": 282.35,
+    "mktCap": 62873891692
+  },
+  {
+    "symbol": "B",
+    "companyName": "Barrick Mining Corporation",
+    "price": 39.46,
+    "mktCap": 66109705600
+  },
+  {
+    "symbol": "BHP",
+    "companyName": "BHP Group Limited",
+    "price": 82.72,
+    "mktCap": 210137350105
+  },
+  {
+    "symbol": "CRH",
+    "companyName": "CRH plc",
+    "price": 105.06,
+    "mktCap": 70201114693
+  },
+  {
+    "symbol": "CTVA",
+    "companyName": "Corteva, Inc.",
+    "price": 77.03,
+    "mktCap": 51519204600
+  },
+  {
+    "symbol": "ECL",
+    "companyName": "Ecolab Inc.",
+    "price": 257.97,
+    "mktCap": 72602435487
+  },
+  {
+    "symbol": "VALE",
+    "companyName": "Vale S.A.",
+    "price": 15.23,
+    "mktCap": 64948852835
+  },
+  {
+    "symbol": "VMC",
+    "companyName": "Vulcan Materials Company",
+    "price": 281.38,
+    "mktCap": 36510461900
+  }
+]

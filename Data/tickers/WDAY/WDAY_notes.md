@@ -1,5 +1,5 @@
 # WDAY SEC Filings: Notes to Financial Statements
-**Generated:** 2026-05-29
+**Generated:** 2026-06-05
 **Filings:** 10-K (period ending 2026-01-31), 10-Q (period ending 2026-04-30)
 
 ## Section Summary

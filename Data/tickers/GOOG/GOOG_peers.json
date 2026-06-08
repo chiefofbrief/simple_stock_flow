@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc.",
+    "price": 307.34,
+    "mktCap": 4514011993040
+  },
+  {
+    "symbol": "AVGO",
+    "companyName": "Broadcom Inc.",
+    "price": 385.73,
+    "mktCap": 1826303558614
+  },
+  {
+    "symbol": "CSCO",
+    "companyName": "Cisco Systems, Inc.",
+    "price": 121.64,
+    "mktCap": 479436112651
+  },
+  {
+    "symbol": "EXLS",
+    "companyName": "ExlService Holdings, Inc.",
+    "price": 29.67,
+    "mktCap": 4533071610
+  },
+  {
+    "symbol": "FLEX",
+    "companyName": "Flex Ltd.",
+    "price": 151.92,
+    "mktCap": 55660145760
+  },
+  {
+    "symbol": "GRMN",
+    "companyName": "Garmin Ltd.",
+    "price": 236.57,
+    "mktCap": 45623992653
+  },
+  {
+    "symbol": "META",
+    "companyName": "Meta Platforms, Inc.",
+    "price": 593,
+    "mktCap": 1505284980727
+  },
+  {
+    "symbol": "MSFT",
+    "companyName": "Microsoft Corporation",
+    "price": 416.67,
+    "mktCap": 3095203928100
+  },
+  {
+    "symbol": "NVDA",
+    "companyName": "NVIDIA Corporation",
+    "price": 205.1,
+    "mktCap": 4967727100000
+  },
+  {
+    "symbol": "TSM",
+    "companyName": "Taiwan Semiconductor Manufacturing Company Limited",
+    "price": 415.17,
+    "mktCap": 2153270901600
+  }
+]

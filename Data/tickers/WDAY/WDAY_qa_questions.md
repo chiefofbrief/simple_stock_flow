@@ -7,7 +7,7 @@
 ---
 ## CURRENT QUARTER: 2027Q1
 
-*No analyst questions found in this transcript.*
+*Q1 FY27 Q&A transcript not available — prepared remarks only (sourced manually, May 21, 2026). Use Q4 FY26 Q&A below as the primary analyst question source.*
 
 ---
 ## PRIOR QUARTER: 2026Q4

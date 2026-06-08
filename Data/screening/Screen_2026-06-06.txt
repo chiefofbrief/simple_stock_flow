@@ -1,0 +1,46 @@
+SCREEN — 2026-06-06
+Tickers: WDAY
+Script:  Scripts/screen.py
+Prompt:  Prompts/prompt_screen.md
+
+All percentages are point-in-time comparisons (most recent quarter vs.
+same quarter 1 or 2 years ago). ROIC deltas are in percentage points (pp).
+P/Owner Earnings = Market Cap / (FCF TTM - SBC TTM).
+Spread = Price vs_1Y minus EPS vs_1Y.
+Debt/OCF = Total Debt (most recent quarter) / OCF TTM.
+
+══════════════════════════════════════════════
+WDAY
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (Price−EPS 1Y)       -290.9%
+  P/E Correlation 1Y          -0.81
+  Mkt Cap                     $37.8B
+
+  ── PRICE ───────────────────────────────────
+  Price                       $144.28
+  vs_1Y                       -42.9%
+  vs_2Y                       -32.9%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $3.20
+  EPS vs_1Y                   +248.0%
+  EPS vs_2Y                   +117.5%
+  Avg EPS QoQ (4Q)            +66.1%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              45.1x
+  P/Owner Earnings            27.1x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        9.3%
+  ROIC vs_1Y                  +4.2pp
+  ROIC vs_2Y                  -9.7pp
+  OCF/NI                      3.75x
+  FCF (TTM)                   $2.97B
+  FCF vs_1Y                   +46.3%
+  FCF vs_2Y                   +111.7%
+  Revenue (TTM)               $9.85B
+  Rev vs_1Y                   +13.5%
+  Rev vs_2Y                   +27.7%
+  Debt/OCF                    1.20x

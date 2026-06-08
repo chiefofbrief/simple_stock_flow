@@ -1,0 +1,256 @@
+SCREEN — 2026-06-04
+Tickers: DG, VRRM, V, MA, PATH
+Script:  Scripts/screen.py
+Prompt:  Prompts/prompt_screen.md
+
+All percentages are point-in-time comparisons (most recent quarter vs.
+same quarter 1 or 2 years ago). ROIC deltas are in percentage points (pp).
+P/Owner Earnings = Market Cap / (FCF TTM - SBC TTM).
+Spread = Price vs_1Y minus EPS vs_1Y.
+Debt/OCF = Total Debt (most recent quarter) / OCF TTM.
+
+══════════════════════════════════════════════
+DG
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (Price−EPS 1Y)       -17.6%
+  P/E Correlation 1Y          +0.39
+  Mkt Cap                     $23.0B
+
+  ── PRICE ───────────────────────────────────
+  Price                       $103.79
+  vs_1Y                       -5.3%
+  vs_2Y                       -19.2%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $7.07
+  EPS vs_1Y                   +12.4%
+  EPS vs_2Y                   +21.2%
+  Avg EPS QoQ (4Q)            +6.9%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              14.7x
+  P/Owner Earnings            8.3x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        7.4%
+  ROIC vs_1Y                  +1.7pp
+  ROIC vs_2Y                  +0.2pp
+  OCF/NI                      2.88x
+  FCF (TTM)                   $2.89B
+  FCF vs_1Y                   -34.5%
+  FCF vs_2Y                   +13.3%
+  Revenue (TTM)               $43.08B
+  Rev vs_1Y                   +3.4%
+  Rev vs_2Y                   +8.8%
+  Debt/OCF                    3.50x
+
+══════════════════════════════════════════════
+VRRM
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (Price−EPS 1Y)       -67.8%
+  P/E Correlation 1Y          -0.71
+  Mkt Cap                     $0.6B
+
+  ── PRICE ───────────────────────────────────
+  Price                       $4.18
+  vs_1Y                       -82.8%
+  vs_2Y                       -83.8%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $0.82
+  EPS vs_1Y                   -15.0%
+  EPS vs_2Y                   +0.0%
+  Avg EPS QoQ (4Q)            +6.0%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              5.1x
+  P/Owner Earnings            7.0x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        58.5%
+  ROIC vs_1Y                  +53.4pp
+  ROIC vs_2Y                  +48.1pp
+  OCF/NI                      1.78x
+  FCF (TTM)                   $103.9M
+  FCF vs_1Y                   -78.3%
+  FCF vs_2Y                   -54.6%
+  Revenue (TTM)               $979.4M
+  Rev vs_1Y                   +0.1%
+  Rev vs_2Y                   +6.6%
+  Debt/OCF                    0.32x
+
+══════════════════════════════════════════════
+V
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (Price−EPS 1Y)       -47.8%
+  P/E Correlation 1Y          -0.71
+  Mkt Cap                     $612.6B
+
+  ── PRICE ───────────────────────────────────
+  Price                       $319.68
+  vs_1Y                       -12.4%
+  vs_2Y                       +19.1%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $11.48
+  EPS vs_1Y                   +35.3%
+  EPS vs_2Y                   +37.1%
+  Avg EPS QoQ (4Q)            +8.2%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              27.8x
+  P/Owner Earnings            30.2x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        48.9%
+  ROIC vs_1Y                  +5.4pp
+  ROIC vs_2Y                  +9.6pp
+  OCF/NI                      1.02x
+  FCF (TTM)                   $21.18B
+  FCF vs_1Y                   -39.9%
+  FCF vs_2Y                   -38.3%
+  Revenue (TTM)               $43.03B
+  Rev vs_1Y                   +17.1%
+  Rev vs_2Y                   +28.0%
+  Debt/OCF                    1.05x
+
+══════════════════════════════════════════════
+MA
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (Price−EPS 1Y)       -38.5%
+  P/E Correlation 1Y          -0.84
+  Mkt Cap                     $424.0B
+
+  ── PRICE ───────────────────────────────────
+  Price                       $479.89
+  vs_1Y                       -17.4%
+  vs_2Y                       +9.2%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $17.28
+  EPS vs_1Y                   +21.2%
+  EPS vs_2Y                   +35.1%
+  Avg EPS QoQ (4Q)            +5.1%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              27.8x
+  P/Owner Earnings            24.6x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        90.9%
+  ROIC vs_1Y                  +14.4pp
+  ROIC vs_2Y                  +12.0pp
+  OCF/NI                      1.17x
+  FCF (TTM)                   $17.72B
+  FCF vs_1Y                   +28.1%
+  FCF vs_2Y                   +119.9%
+  Revenue (TTM)               $33.94B
+  Rev vs_1Y                   +15.8%
+  Rev vs_2Y                   +32.3%
+  Debt/OCF                    1.04x
+
+══════════════════════════════════════════════
+PATH
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (Price−EPS 1Y)       -206.6%
+  P/E Correlation 1Y          -0.03
+  Mkt Cap                     $6.3B
+
+  ── PRICE ───────────────────────────────────
+  Price                       $11.84
+  vs_1Y                       -9.3%
+  vs_2Y                       +0.8%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $0.60
+  EPS vs_1Y                   +197.3%
+  EPS vs_2Y                   +179.4%
+  Avg EPS QoQ (4Q)            +3159.5%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              19.6x
+  P/Owner Earnings            58.5x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        24.4%
+  ROIC vs_1Y                  +30.7pp
+  ROIC vs_2Y                  +33.5pp
+  OCF/NI                      1.17x
+  FCF (TTM)                   $375.2M
+  FCF vs_1Y                   +21.7%
+  FCF vs_2Y                   +30.8%
+  Revenue (TTM)               $1.67B
+  Rev vs_1Y                   +17.3%
+  Rev vs_2Y                   +24.8%
+  Debt/OCF                    0.19x
+
+════════════════════════════════════════════════
+ANALYSIS — 2026-06-04
+════════════════════════════════════════════════
+
+SCREENING TABLE
+
+                         |     DG     |    VRRM    |     V      |     MA     |    PATH    |
+─── SIGNAL ──────────────┤────────────┼────────────┼────────────┼────────────┼────────────┤
+Spread (Price−EPS 1Y)    |   -17.6%   |   -67.8%   |   -47.8%   |   -38.5%   |  -206.6%   |
+P/E Correlation 1Y       |   +0.39    |   -0.71    |   -0.71    |   -0.84    |   -0.03    |
+Mkt Cap                  |   $23.0B   |    $0.6B   |  $612.6B   |  $424.0B   |    $6.3B   |
+─── PRICE ───────────────┤────────────┼────────────┼────────────┼────────────┼────────────┤
+Price                    |  $103.79   |    $4.18   |  $319.68   |  $479.89   |   $11.84   |
+vs_1Y                    |    -5.3%   |   -82.8%   |   -12.4%   |   -17.4%   |    -9.3%   |
+vs_2Y                    |   -19.2%   |   -83.8%   |   +19.1%   |    +9.2%   |    +0.8%   |
+─── EARNINGS ────────────┤────────────┼────────────┼────────────┼────────────┼────────────┤
+EPS (TTM, GAAP)          |    $7.07   |    $0.82   |   $11.48   |   $17.28   |    $0.60   |
+EPS vs_1Y                |   +12.4%   |   -15.0%   |   +35.3%   |   +21.2%   |  +197.3%   |
+EPS vs_2Y                |   +21.2%   |    +0.0%   |   +37.1%   |   +35.1%   |  +179.4%   |
+Avg EPS QoQ (4Q)         |    +6.9%   |    +6.0%   |    +8.2%   |    +5.1%   | +3,159.5%  |
+─── VALUATION ───────────┤────────────┼────────────┼────────────┼────────────┼────────────┤
+P/E (GAAP TTM)           |   14.7x    |    5.1x    |   27.8x    |   27.8x    |   19.6x    |
+P/Owner Earnings         |    8.3x    |    7.0x    |   30.2x    |   24.6x    |   58.5x    |
+─── QUALITY ─────────────┤────────────┼────────────┼────────────┼────────────┼────────────┤
+ROIC                     |    7.4%    |   58.5%    |   48.9%    |   90.9%    |   24.4%    |
+ROIC vs_1Y (pp)          |   +1.7pp   |  +53.4pp   |   +5.4pp   |  +14.4pp   |  +30.7pp   |
+ROIC vs_2Y (pp)          |   +0.2pp   |  +48.1pp   |   +9.6pp   |  +12.0pp   |  +33.5pp   |
+OCF/NI                   |    2.88x   |    1.78x   |    1.02x   |    1.17x   |    1.17x   |
+FCF (TTM)                |   $2.89B   |  $103.9M   |  $21.18B   |  $17.72B   |  $375.2M   |
+FCF vs_1Y                |   -34.5%   |   -78.3%   |   -39.9%   |   +28.1%   |   +21.7%   |
+FCF vs_2Y                |   +13.3%   |   -54.6%   |   -38.3%   |  +119.9%   |   +30.8%   |
+Revenue (TTM)            |  $43.08B   |  $979.4M   |  $43.03B   |  $33.94B   |   $1.67B   |
+Rev vs_1Y                |    +3.4%   |    +0.1%   |   +17.1%   |   +15.8%   |   +17.3%   |
+Rev vs_2Y                |    +8.8%   |    +6.6%   |   +28.0%   |   +32.3%   |   +24.8%   |
+Debt/OCF                 |    3.50x   |    0.32x   |    1.05x   |    1.04x   |    0.19x   |
+
+────────────────────────────────────────────────
+PRIORITY RANKING
+
+Add to Tracker:
+1. MA  — Earnings +21% while price -17%, ROIC 91% improving, FCF growing +28% YoY; strongest P/E correlation divergence (-0.84); all three quality dimensions confirm the spread signal.
+2. V   — 35% EPS growth against a -12% price, ROIC 49% and rising, recent dislocation (up over 2Y, only down on 1Y); FCF declining -40% on both 1Y and 2Y is an unresolved contradiction requiring explanation.
+3. DG  — Classic LOSER signal: 12% EPS growth, -5% price, 14.7x GAAP P/E, 8.3x P/OE; blocked by sub-10% ROIC and -34.5% FCF decline in the most recent year.
+
+Skip:
+4. PATH — Spread is a base-effect artifact from near-zero EPS; P/OE 58.5x vs GAAP P/E 19.6x reveals SBC consuming ~71% of FCF; P/E correlation -0.03 confirms no systematic dislocation; below $10B.
+5. VRRM — Price -83% on both 1Y and 2Y (structural, not acute); EPS declining; FCF -78% while ROIC +53pp signals invested capital denominator distortion, not genuine efficiency; below $10B.
+
+────────────────────────────────────────────────
+PER-TICKER NARRATIVES
+
+MA (Mastercard)
+MA is the standout in this group and not close. The spread (-38.5%) is powered by genuine, durable earnings growth — EPS up 21% on 1Y and 35% on 2Y — while price has fallen 17% over the past year after being up 9% over two years. That pattern (recent dislocation against a positive 2Y backdrop) is exactly what the framework targets: an acute event overriding a fundamentally intact business. The P/E correlation of -0.84 is the most negative in the group, confirming that the divergence has been persistent and systematic throughout the year, not just a single quarter's artifact. What separates MA from V — with whom it shares an identical P/E of 27.8x — is what happens below the P/E line: MA's P/OE is 24.6x (below P/E, meaning owner earnings exceed net income after SBC), FCF is growing +28% vs_1Y and +120% vs_2Y, and ROIC at 91% is nearly double V's and rising +14pp in the past year alone. A business compounding owner earnings at 20%+ with a 91% ROIC and minimal leverage (Debt/OCF 1.04x) doesn't often trade at 27.8x GAAP earnings after a 17% price decline. The key open question: what triggered the sell-off, and is it exogenous (macro, tariff-related payment volume fears) or specific to Mastercard? The answer determines whether the dislocation is recoverable or a leading indicator of fundamental pressure.
+
+V (Visa)
+V presents a strong spread signal with a more complicated quality picture than the surface numbers suggest. EPS growing 35% on 1Y and 37% on 2Y while price is down 12% — and the P/E correlation of -0.71 confirms the divergence has been persistent. The business is exceptional by conventional measures: ROIC 49% and rising, revenue growing 17–28% across both periods, Debt/OCF 1.05x. What makes V rank below MA despite a larger spread is the FCF anomaly: FCF is declining -40% on both 1Y and 2Y, at the same time that EPS is growing 35% and revenue is growing 17%. Earnings quality (OCF/NI: 1.02x) looks clean, which raises the question of where the FCF erosion is coming from — heavy capex, working capital changes, or cash used in buybacks not flowing through to the FCF line. A 35% EPS growth rate alongside a -40% FCF decline over two consecutive periods is a contradiction that should be resolved before conviction. V and MA are structurally similar businesses, but MA's FCF growing +120% over two years vs. V's falling -38% over the same window is a real distinction. The 27.8x GAAP P/E is the same for both; MA gets you substantially better economics for the same multiple. The single most important open question: what is driving FCF to decline sharply while EPS grows strongly, and is this a structural shift in the business model or a transient deployment of capital?
+
+DG (Dollar General)
+DG has the hallmarks of a LOSER candidate at the price level: 12.4% EPS growth while price declined 5.3% this year, GAAP P/E of 14.7x — cheap by the framework's benchmark — and P/OE of 8.3x, which is exceptionally low and implies the market is pricing this at roughly 8x owner earnings. OCF/NI of 2.88x is a real data point about cash generation but requires explanation: for a capital-intensive retailer, large depreciation charges will inflate OCF relative to net income structurally, and the P/OE accounts for SBC already. The concerning elements are two. First, ROIC is 7.4% — below the 10% threshold, meaning the business may be marginally destroying value on capital it reinvests. The ROIC trend is flat (+0.2pp over two years), not improving. Second, FCF fell -34.5% this year after growing from the 2Y base. Revenue grew only 3.4% this year. A discount retailer with flat ROIC, decelerating revenue growth, and a sharp FCF decline is not obviously "high quality with a solvable problem" — it may be a structurally challenged business priced cheap for good reason. That the stock is also down on both 1Y (-5.3%) and 2Y (-19.2%) means the dislocation is not recent or acute; it has been building for two years. The key open question: is the FCF decline a capex cycle (investment that will earn future returns) or evidence of operational deterioration, and at 7.4% ROIC, are there any signs of franchise strengthening?
+
+PATH (UiPath)
+The -206.6% spread is entirely a base effect, not a signal. EPS went from approximately $0.20 to $0.60 TTM — a 197% gain that reflects recovery from near-zero profitability, not a compounding franchise. The Avg EPS QoQ figure of +3,159% confirms the noise: a business oscillating around breakeven produces infinite-percentage swings on small absolute moves. The P/E correlation of -0.03 tells the story directly — price and earnings have had essentially no relationship for a year, which means there is no systematic dislocation to exploit. The valuation surface is also misleading: GAAP P/E of 19.6x looks reasonable until the P/OE of 58.5x is read alongside it. The gap between the two implies roughly $267M of annual SBC being applied to a business with $375M of gross FCF — SBC consumes approximately 71% of free cash flow. Shareholders are meaningfully diluted by the equity compensation structure even as reported EPS improves. Revenue growth (17.3%) and FCF growth (21.7%) are genuine positives, and if the SBC trajectory were declining as a share of revenue, there would be a case for watching this name. But at below $10B market cap with zero P/E correlation, no systematic dislocation, and SBC consuming most of FCF, this does not meet the bar for tracker inclusion.
+
+VRRM (Verra Mobility)
+The spread of -67.8% looks like a strong signal until the price data is read: -82.8% on 1Y and -83.8% on 2Y. This is not an acute recent dislocation — it is a sustained multi-year collapse in price with no sign of stabilization at the 2Y horizon. The framework's spread signal is designed to identify temporary mispricings; a stock down 84% on a 2-year basis warrants structural explanation, not a dislocation thesis. The quality data compounds the concern: ROIC jumped +53pp to 58.5% while FCF fell -78% over the same year. These two figures cannot both be accurate reflections of economic reality — a business generating 58.5% returns on capital would produce growing, not collapsing, cash flows. The almost certain explanation is an invested capital denominator effect: write-offs or impairments reduced book equity and debt on the balance sheet, inflating the ROIC calculation mechanically without any improvement in cash generation. FCF declining -54.6% over two years alongside a -83.8% price decline and -15% EPS decline is the actual picture of the business — not a compelling one. Below $10B market cap and a price decline matching the depth of the FCF decline both argue this is priced down for operational reasons that the spread calculation obscures.

@@ -1,7 +1,7 @@
 # Reddit: WDAY
-*Generated: 2026-05-29 | Lookback: 90 days | Sources: r/stocks, r/ValueInvesting*
+*Generated: 2026-06-05 | Lookback: 90 days | Sources: r/stocks, r/ValueInvesting*
 
-**Posts found:** 8 | **Total upvotes:** 1,140 | **Total comments:** 527
+**Posts found:** 8 | **Total upvotes:** 1,141 | **Total comments:** 525
 
 ---
 
@@ -10,7 +10,7 @@
 [View Thread](https://www.reddit.com/r/stocks/comments/1t8b4br/tokenmaxxing_how_ai_demand_is_inflated_by/)
 
 **Top Comments:**
-* **u/MirthandMystery** (↑192): This feels like a rigged flywheel. If AI agents are used to amplify token usage who will audit that? This is like Musk saying he has hundred of millions of active users but under the hood you find troves of bots.. he's goosing the numbers, ripping off advertisers.
+* **u/MirthandMystery** (↑192): This feels like a rigged flywheel. If AI agents are used to amplify token usage who will audit that? This is like Musk saying he has hundred of millions of active users but under the hood you find troves of bots .. he's goosing the numbers, ripping off advertisers.
 * **u/Alarming_Head_4263** (↑70): Kind of a learned principal of computer science is that if you make arbitrary rules with no benefit, people will find ways around them. In this case , it sounds like people are scripting to get around a set of arbitrary rules. In the 80s it was people scripting to get around keyboard loggers that tr...
 * **u/bankermayfield2026** (↑60): Absolutely the case at my company. Widespread gamesmanship.
 
@@ -39,22 +39,22 @@
 ---
 
 #### 4. Not to be reductive but… is SaaSpocalypse this years version of 2024 goog? If so what’s the move?
-**↑108** • 139 comments • r/ValueInvesting • May 16, 2026
+**↑108** • 137 comments • r/ValueInvesting • May 16, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1tescbw/not_to_be_reductive_but_is_saaspocalypse_this/)
 
 **Top Comments:**
-* **u/SherbertMindless8205** (↑82): There are tons of SaaS companies. I'm sure some will recover and find new strength, but some will wither away to be boring losing assets without much upside. Which ones will be which? Who knows.
 * **u/EmbarrassedWish5839** (↑29): I’ve got 250 shares of NOW but it’s probably going to be years, and I am likely to have 1000+ shares by the time I sell in 2-3 years
 * **u/SkruszonyBankster** (↑20): Isn’t CSU.TO the daddy of SaaS?
+* **u/AltruisticMaybe7799** (↑16): I am in on this narrative, partially because the semi trade is so crowded now is the time it chooses sideways or down for awhile. Markets will hold up, but the profit taking needs to go somewhere.
 
 ---
 
 #### 5. I blind-scored 44 SaaS companies on AI disruption risk using anonymized 10-K filings. 9 scored as resilient but are still down 30% YTD.
-**↑64** • 55 comments • r/ValueInvesting • Apr 01, 2026
+**↑65** • 55 comments • r/ValueInvesting • Apr 01, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1s9jido/i_blindscored_44_saas_companies_on_ai_disruption/)
 
 **Top Comments:**
-* **u/TheKingOfSwing777** (↑25): Just use this hilarious website. https://deathbyclawd.com/
+* **u/TheKingOfSwing777** (↑26): Just use this hilarious website. https://deathbyclawd.com/
 * **u/HesitantInvestor0** (↑5): How in the actual fuck did you decide that Docusign is structurally resilient? I don't see it at all.
 * **u/foira** (↑4): Fun post Realistically does anyone think these downturns are actually due to AI, lmao? Nobody is vibe coding a replacement to hubspot and switching their business to it in the next decade.
 

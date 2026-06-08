@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "ACN",
+    "companyName": "Accenture plc",
+    "price": 177.6,
+    "mktCap": 109301284416
+  },
+  {
+    "symbol": "ADBE",
+    "companyName": "Adobe Inc.",
+    "price": 249.84,
+    "mktCap": 100985328000
+  },
+  {
+    "symbol": "AMAT",
+    "companyName": "Applied Materials, Inc.",
+    "price": 474.04,
+    "mktCap": 376368520613
+  },
+  {
+    "symbol": "APH",
+    "companyName": "Amphenol Corporation",
+    "price": 141.74,
+    "mktCap": 174372800200
+  },
+  {
+    "symbol": "ARM",
+    "companyName": "Arm Holdings plc American Depositary Shares",
+    "price": 358.8065,
+    "mktCap": 381770116000
+  },
+  {
+    "symbol": "INTC",
+    "companyName": "Intel Corporation",
+    "price": 103.55,
+    "mktCap": 520442300000
+  },
+  {
+    "symbol": "INTU",
+    "companyName": "Intuit Inc.",
+    "price": 294.54,
+    "mktCap": 80567587980
+  },
+  {
+    "symbol": "KLAC",
+    "companyName": "KLA Corporation",
+    "price": 2003.5253,
+    "mktCap": 261716500885
+  },
+  {
+    "symbol": "QCOM",
+    "companyName": "QUALCOMM Incorporated",
+    "price": 224.95,
+    "mktCap": 237097300000
+  },
+  {
+    "symbol": "TXN",
+    "companyName": "Texas Instruments Incorporated",
+    "price": 289.57,
+    "mktCap": 263535630010
+  }
+]

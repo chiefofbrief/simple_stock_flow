@@ -2,61 +2,61 @@
   {
     "symbol": "AMAT",
     "companyName": "Applied Materials, Inc.",
-    "price": 449.87,
-    "mktCap": 357178335330
+    "price": 453.01,
+    "mktCap": 359671561384
   },
   {
     "symbol": "ANET",
     "companyName": "Arista Networks, Inc.",
-    "price": 157.44,
-    "mktCap": 198243636319
+    "price": 154.27,
+    "mktCap": 194252069200
   },
   {
     "symbol": "APP",
     "companyName": "AppLovin Corporation",
-    "price": 606.03,
-    "mktCap": 203589425488
+    "price": 557.2,
+    "mktCap": 187185512245
   },
   {
     "symbol": "CRM",
     "companyName": "Salesforce, Inc.",
-    "price": 192.735,
-    "mktCap": 157849965000
+    "price": 185.66,
+    "mktCap": 152055540000
   },
   {
     "symbol": "INTU",
     "companyName": "Intuit Inc.",
-    "price": 328.0368,
-    "mktCap": 89730202162
+    "price": 296.76,
+    "mktCap": 81174840120
   },
   {
     "symbol": "LRCX",
     "companyName": "Lam Research Corporation",
-    "price": 319.11,
-    "mktCap": 399069392700
+    "price": 303.28,
+    "mktCap": 379272869600
   },
   {
     "symbol": "PANW",
     "companyName": "Palo Alto Networks, Inc.",
-    "price": 274.7488,
-    "mktCap": 187244418455
+    "price": 272.05,
+    "mktCap": 185405155694
   },
   {
     "symbol": "QCOM",
     "companyName": "QUALCOMM Incorporated",
-    "price": 253.2322,
-    "mktCap": 266906738800
+    "price": 215.94,
+    "mktCap": 227600760000
   },
   {
     "symbol": "SHOP",
     "companyName": "Shopify Inc.",
-    "price": 119.75,
-    "mktCap": 155394152121
+    "price": 109.54,
+    "mktCap": 142145082036
   },
   {
     "symbol": "UBER",
     "companyName": "Uber Technologies, Inc.",
-    "price": 71.74,
-    "mktCap": 146033944000
+    "price": 70.71,
+    "mktCap": 143937206209
   }
 ]

@@ -1,0 +1,46 @@
+SCREEN — 2026-06-08
+Tickers: FCX
+Script:  Scripts/screen.py
+Prompt:  Prompts/prompt_screen.md
+
+All percentages are point-in-time comparisons (most recent quarter vs.
+same quarter 1 or 2 years ago). ROIC deltas are in percentage points (pp).
+P/Owner Earnings = Market Cap / (FCF TTM - SBC TTM).
+Spread = Price vs_1Y minus EPS vs_1Y.
+Debt/OCF = Total Debt (most recent quarter) / OCF TTM.
+
+══════════════════════════════════════════════
+FCX
+
+  ── SIGNAL ──────────────────────────────────
+  Spread (Price−EPS 1Y)       -99.6%
+  P/E Correlation 1Y          +0.82
+  Mkt Cap                     $91.1B
+
+  ── PRICE ───────────────────────────────────
+  Price                       $63.37
+  vs_1Y                       +54.5%
+  vs_2Y                       +32.0%
+
+  ── EARNINGS ────────────────────────────────
+  EPS (TTM)                   $1.89
+  EPS vs_1Y                   +154.2%
+  EPS vs_2Y                   +90.6%
+  Avg EPS QoQ (4Q)            +46.7%
+
+  ── VALUATION ───────────────────────────────
+  P/E (GAAP TTM)              33.5x
+  P/Owner Earnings            15.0x
+
+  ── QUALITY ─────────────────────────────────
+  ROIC                        7.9%
+  ROIC vs_1Y                  +2.3pp
+  ROIC vs_2Y                  +1.8pp
+  OCF/NI                      2.21x
+  FCF (TTM)                   $6.25B
+  FCF vs_1Y                   +557.9%
+  FCF vs_2Y                   -18.7%
+  Revenue (TTM)               $26.42B
+  Rev vs_1Y                   +12.2%
+  Rev vs_2Y                   +0.4%
+  Debt/OCF                    1.72x

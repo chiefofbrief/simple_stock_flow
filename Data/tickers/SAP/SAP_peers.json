@@ -2,79 +2,79 @@
   {
     "symbol": "ADSK",
     "companyName": "Autodesk, Inc.",
-    "price": 230.91,
-    "mktCap": 48755491950
+    "price": 230.73,
+    "mktCap": 48717543763
   },
   {
     "symbol": "CDNS",
     "companyName": "Cadence Design Systems, Inc.",
-    "price": 374.6381,
-    "mktCap": 103331182190
+    "price": 387.705,
+    "mktCap": 106935242280
   },
   {
     "symbol": "CRM",
     "companyName": "Salesforce, Inc.",
-    "price": 192.6,
-    "mktCap": 157739400000
+    "price": 185.25,
+    "mktCap": 151719750000
   },
   {
     "symbol": "INTU",
     "companyName": "Intuit Inc.",
-    "price": 329.72501,
-    "mktCap": 90191990060
+    "price": 294.3247,
+    "mktCap": 80508695464
   },
   {
     "symbol": "NOW",
     "companyName": "ServiceNow, Inc.",
-    "price": 123.71,
-    "mktCap": 127583112680
+    "price": 113.522,
+    "mktCap": 117076146776
   },
   {
     "symbol": "PTC",
     "companyName": "PTC Inc.",
-    "price": 137.9761,
-    "mktCap": 15937067407
+    "price": 137.3739,
+    "mktCap": 15867509693
   },
   {
     "symbol": "ROP",
     "companyName": "Roper Technologies, Inc.",
-    "price": 325.6724,
-    "mktCap": 32865998507
+    "price": 331.9291,
+    "mktCap": 33497408147
   },
   {
     "symbol": "SHOP",
     "companyName": "Shopify Inc.",
-    "price": 118.46,
-    "mktCap": 153720177539
+    "price": 109.93,
+    "mktCap": 142651167320
   },
   {
     "symbol": "SNOW",
     "companyName": "Snowflake Inc.",
-    "price": 251.79,
-    "mktCap": 87271147968
+    "price": 236.62,
+    "mktCap": 82012492000
   },
   {
     "symbol": "TEAM",
     "companyName": "Atlassian Corporation",
-    "price": 107.7652,
-    "mktCap": 28307150091
+    "price": 97.4294,
+    "mktCap": 25592200906
   },
   {
     "symbol": "TYL",
     "companyName": "Tyler Technologies, Inc.",
-    "price": 311.22,
-    "mktCap": 13123369350
+    "price": 306.86,
+    "mktCap": 12939519050
   },
   {
     "symbol": "WDAY",
     "companyName": "Workday, Inc.",
-    "price": 145.42,
-    "mktCap": 38091621200
+    "price": 144.4856,
+    "mktCap": 37846862495
   },
   {
     "symbol": "ZM",
     "companyName": "Zoom Communications, Inc.",
-    "price": 102.4431,
-    "mktCap": 30039617124
+    "price": 101.39,
+    "mktCap": 29730814279
   }
 ]

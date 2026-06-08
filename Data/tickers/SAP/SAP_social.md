@@ -1,11 +1,33 @@
 # Reddit: SAP
-*Generated: 2026-05-29 | Lookback: 90 days | Sources: r/stocks, r/ValueInvesting*
+*Generated: 2026-06-05 | Lookback: 90 days | Sources: r/stocks, r/ValueInvesting*
 
-**Posts found:** 7 | **Total upvotes:** 326 | **Total comments:** 618
+**Posts found:** 9 | **Total upvotes:** 738 | **Total comments:** 1,066
 
 ---
 
-#### 1. what “boring but consistent” stocks are you buying right now?
+#### 1. $NOW is up 10% overnight. Is SaaS the next boom that won't ever stop?
+**↑256** • 154 comments • r/stocks • Jun 01, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1ttccux/now_is_up_10_overnight_is_saas_the_next_boom_that/)
+
+**Top Comments:**
+* **u/DependentSpecific206** (↑199): Money rotating into beaten down software companies because everything else AI-related is insanely overpriced for a promise of a possible future
+* **u/redfre813** (↑155): NOW is the one to watch in this SAAS rebound rally .
+* **u/danielskshin** (↑68): Jim Cramer said "I don't think that it's going to have a huge year." We going to the moon in 2026 fellas!
+
+---
+
+#### 2. I'm getting real tired
+**↑155** • 287 comments • r/ValueInvesting • Apr 09, 2026
+[View Thread](https://www.reddit.com/r/ValueInvesting/comments/1sh3c2m/im_getting_real_tired/)
+
+**Top Comments:**
+* **u/Teembeau** (↑80): I believe sanity will be restored on SaaS once Anthropic and OpenAI go public.
+* **u/Chuck-AP** (↑75): Did you consider that perhaps the market is rational and it is you who may be irrational?
+* **u/Cav829** (↑64): If you want me to be honest? It's hit such a state of peak euphoria that we just had a move this week so out of whack with reality I've seen 2-3 decade long traders just throwing up their hands at it. it was so bad I was told by multiple people today and saw on numerous social media platforms that n...
+
+---
+
+#### 3. what “boring but consistent” stocks are you buying right now?
 **↑98** • 229 comments • r/stocks • Apr 09, 2026
 [View Thread](https://www.reddit.com/r/stocks/comments/1sge50e/what_boring_but_consistent_stocks_are_you_buying/)
 
@@ -16,7 +38,7 @@
 
 ---
 
-#### 2. Why the World Still Runs on SAP
+#### 4. Why the World Still Runs on SAP
 **↑57** • 22 comments • r/ValueInvesting • Mar 17, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1rw1gfa/why_the_world_still_runs_on_sap/)
 
@@ -27,8 +49,8 @@
 
 ---
 
-#### 3. The one SaaS company that rarely gets brought up in this sub: I’m buying at these prices.
-**↑54** • 62 comments • r/ValueInvesting • May 16, 2026
+#### 5. The one SaaS company that rarely gets brought up in this sub: I’m buying at these prices.
+**↑55** • 64 comments • r/ValueInvesting • May 16, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1teu8ta/the_one_saas_company_that_rarely_gets_brought_up/)
 
 **Top Comments:**
@@ -38,40 +60,40 @@
 
 ---
 
-#### 4. Major SaaS Earnings Calendar: April – June
-**↑37** • 14 comments • r/stocks • Apr 23, 2026
-[View Thread](https://www.reddit.com/r/stocks/comments/1st4emr/major_saas_earnings_calendar_april_june/)
+#### 6. Could SAP ever reclaim its position as Europe’s biggest company by market cap?
+**↑37** • 18 comments • r/stocks • Jun 04, 2026
+[View Thread](https://www.reddit.com/r/stocks/comments/1tx2m6a/could_sap_ever_reclaim_its_position_as_europes/)
 
 **Top Comments:**
-* **u/theunknown996** (↑14): You forgot a big one. CSU on May 12th.
-* **u/Aware_Secret_8910** (↑2): This is a mess. If an earnings miss can make them all fall like flies, it will feel bad holding them. Look at what happened yesterday with NOW.
-* **u/oulipo** (↑1): What's the typical rules around earnings? I have a feeling that stocks can fluctuate up/down, and that before or after earnings, whatever the actual earnings say (missed target, over target, etc)
+* **u/RNS-Watch** (↑20): SAP’s biggest advantage is probably the same reason many investors overlook it - it’s not exciting. Once SAP is embedded into finance, procurement, supply chain and HR systems, replacing it can become a multi-year project with significant cost and risk. The more interesting question isn’t whether SA...
+* **u/steady_compounder** (↑18): It can, but I think the real question is whether the market starts paying a premium again for boring, sticky enterprise software instead of treating it like an ex-growth utility. SAP’s moat is still real because ripping it out of a big company is painful, expensive, and risky. So I would focus less ...
+* **u/levendeabortus445** (↑8): Nah I think ASML gets to a trillion dollar market cap faster than SAP!
 
 ---
 
-#### 5. What do you all think of SAP stock?
-**↑37** • 44 comments • r/ValueInvesting • Apr 24, 2026
+#### 7. What do you all think of SAP stock?
+**↑37** • 45 comments • r/ValueInvesting • Apr 24, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1su7ues/what_do_you_all_think_of_sap_stock/)
 
 **Top Comments:**
 * **u/Flashy-Result-6958** (↑40): Big and medium companies trust only SAP products. SAP has solid business reputation at the ground level, its customers are not going anywhere. Many customers are just moving to their cloud products this year, they are going to rely heavily on SAP to transform their business from legacy software.
 * **u/ShootsnLadders** (↑16): It’s now my largest SaaS holding and I think it represents the best value in this sell off by far.
-* **u/Alarming_Tonight_552** (↑15): SAP is a strong moat, sticky enterprise software company that’s more of a steady long-term compounder than a high-growth AI winner, so the selloff is more about slower growth expectations than it being genuinely at risk of disruption. I suggest you run this through tryLattice though so you have bett...
+* **u/Ancient_Bobcat_9150** (↑10): It is a mature company that still have some good potential tailwinds ahead of it. At current price, you take a longterm bet on a solid company at fair price. It could be a solid addition in many portfolio, a bit like a European Microsoft . I need a bigger margin of safety (but that is my style - I a...
 
 ---
 
-#### 6. What established compounder haven't you been able to buy yet
+#### 8. What established compounder haven't you been able to buy yet
 **↑29** • 61 comments • r/ValueInvesting • May 03, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1t2fakx/what_established_compounder_havent_you_been_able/)
 
 **Top Comments:**
 * **u/rargghh** (↑29): Costco lmao it just keeps being crazy fml
-* **u/Illustrious_Plum4175** (↑9): Constellation Software
 * **u/Radiant_Owl_875** (↑9): IBKR - Interactive Brokers - Always seems a little high price for me, although I think it's a great business. Founder/owner owns a huge % and is quite old so I'm not sure what will happen there when he packs it in
+* **u/Illustrious_Plum4175** (↑9): Constellation Software
 
 ---
 
-#### 7. Best SaaS value play?
+#### 9. Best SaaS value play?
 **↑14** • 186 comments • r/ValueInvesting • May 04, 2026
 [View Thread](https://www.reddit.com/r/ValueInvesting/comments/1t3rz81/best_saas_value_play/)
 

@@ -1,31 +1,104 @@
 # WDAY News Data
-**Generated:** 2026-05-29 16:21
-**Date Range:** 2026-02-28 to 2026-05-29
+**Generated:** 2026-06-05 15:29
+**Date Range:** 2026-03-07 to 2026-06-05
 
 ## Summary Statistics
 
 ### Coverage
 - **Perigon:** 30 stories (aggregated from 30 media items)
-- **FMP:** 30 articles from 11 sources
+- **FMP:** 30 articles from 10 sources
 - **Total:** 60 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 10 | 10 |
+| 2026-06 | 5 | 3 |
+| 2026-05 | 7 | 13 |
 | 2026-04 | 10 | 10 |
-| 2026-03 | 10 | 10 |
+| 2026-03 | 8 | 4 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.051)
-- Positive-leaning: 20 stories
+**Perigon** (avg composite: +0.128)
+- Positive-leaning: 22 stories
 - Neutral: 0 stories
-- Negative-leaning: 10 stories
+- Negative-leaning: 8 stories
 
 ---
 
 ## Perigon Stories (30 stories)
+
+### 2026-06-05 | Workday, Google Cloud expand AI agents for HR
+**Sentiment:** +0.40 (pos: 0.48, neg: 0.09, neu: 0.43)
+
+Workday and Google Cloud announced an expanded partnership to embed Workday’s AI agents—through Sana self-service—directly into Gemini Enterprise, so employees can get answers and take actions on real HR and finance tasks with Workday governance, permissions, and approvals. The deal combines Workday’s Agent System of Record approach with Google Cloud’s enterprise agent platform and models, and it emphasizes a tighter connection to Workday Data Cloud so HR and finance work can move from static reports to immediate action without data leaving Workday’s secure environment. Workday also rolled out developer-focused tooling, including a Developer Agent and Agent-Ready Tools, along with an Agent Passport for independent third-party verification to help make agent deployments safer and easier for enterprise development workflows. On the wider market front, Microsoft is positioning Azure-hosted AI agents as a core, production-ready cloud capability by expanding Azure AI Foundry with tools for designing, managing, and monitoring agents at scale, including managed model services like GPT-4.5. Microsoft is also expanding Azure AI Agent Service to support “bring your VNet” isolation so enterprises can keep interactions within their own virtual networks for regulated industries, while testing orchestration methods that coordinate many specialized agents in parallel for complex business processes.
+
+**Key Points:**
+- Workday and Google Cloud detailed specific HR and finance use cases enabled by the Sana–Gemini integration, including employees checking time-off balances, updating personal information, viewing payslips and tax withholding, and requesting leave via chat; managers approving timesheets in bulk and starting performance reviews; and finance teams handling expense/travel policy questions, checking corporate-card eligibility, and submitting payroll-related inputs.
+- Workday’s developer updates included concrete guidance on where its Developer Agent can appear in developers’ day-to-day workflows—Workday said Developer Agent “fits into how developers work every day,” appearing in tools such as Cline, Claude Code, Cursor, and Google Antigravity.
+- At launch, Workday framed the shift to agentic development as a fundamental change: Workday’s Jay Wieczorkowski told SiliconANGLE that “Agentic AI is not incremental change for developers; it’s permanently rewriting the playbook.”
+
+---
+
+### 2026-06-05 | Auditoria expands governed SmartResearch for AP
+**Sentiment:** +0.40 (pos: 0.50, neg: 0.09, neu: 0.41)
+
+Across finance and accounting, multiple efforts are positioning AI as a practical, workflow-centered upgrade rather than a standalone technology. Puzzle highlights a “human-in-the-loop” approach for AI-assisted accounting workflows, arguing the industry conversation is shifting from whether to use AI to how to integrate it correctly in professional processes. OCTA and other providers are pitching AI dashboards and invoice automation that prioritize next actions, reduce repetitive handling, and speed up core accounts receivable and accounts payable work, aiming to improve collections and payment cycles. Odoo’s invoice automation focus similarly frames invoice processing as a growing bottleneck that manual data entry and delayed approvals exacerbate as volume rises. For enterprises seeking safer adoption, Auditoria.AI announced expansion of its SmartResearch governed intelligence layer, including certified Workday integration and additional autonomous accounts payable capabilities designed to operate within policy boundaries and generate defensible audit trails. Meanwhile, the same “AI-led” promise is reaching consumers through Abu Dhabi Commercial Bank’s out-of-home campaign promoting AI-powered mobile banking with the slogan “Powered by AI. Shaped by you.”
+
+**Key Points:**
+- Puzzle’s accounting AI argument is framed alongside “Ramp’s launch of its Stack product,” with the company saying the transition period is decisive for defining what it calls “modern accounting” over the next decade.
+- OCTA describes its AI finance dashboard as a customizable interface built with “26 widgets” spanning payables, receivables, charts, analysis, and activity—while bills/invoices/overdue receivables are automatically prioritized into an action queue.
+- Odoo’s invoice automation pitch is backed by a cited benchmark: “Ardent Partners’ AP Metrics that Matter in 2025” says Best-in-Class AP teams process invoices “82% faster” than other organizations via automation-driven workflows.
+
+---
+
+### 2026-06-05 | Trafigura 2026 half-year net profit tops $4bn
+**Sentiment:** -0.28 (pos: 0.16, neg: 0.44, neu: 0.41)
+
+A UK corporate law and market-update briefing highlights regulatory work that will affect listed companies, investment entities, and shareholders, including court rulings on whether deal documents are binding and how warranties can be treated in fraud-related disputes. In separate High Court decisions, judges took differing approaches to assessing fraud in the context of warranties, with potentially major consequences because establishing fraud can eliminate liability limits. The FCA is also moving forward with several policy reviews building on recent listing-rule changes, including a review of the Disclosure and Transparency Rules to ensure the regime remains fit for purpose and supports public-market attractiveness. Separately, the FCA’s multi-firm review of market soundings in UK equity capital markets suggests that smaller market-sounding exercises may sometimes be sufficient, as trading volumes dipped during sounding periods without broader damage to market quality metrics. The regulator also warned that the risk of inside information leaking may rise as the number and scale of sounding recipients increase, signaling continued supervisory scrutiny in this area.
+
+**Key Points:**
+- The FCA’s multi-firm market-sounding review was based on data from five banks covering 63 transactions between January 2023 and June 2025 (with 90% of transactions market sounded), including 50 accelerated bookbuilds (ABBs) with a collective value of about £32 billion.
+- In that dataset, the FCA found an average of 33 investors were sounded per transaction; one sounding exercise involved nearly 90 investors. Trading volumes fell by an average of 13% during sounding periods, while other market-quality metrics were not materially affected.
+- The FCA also observed that ABBs approaching an above-average number of investors did not see a meaningful increase in overall demand or oversubscription after launch—an empirical basis for the suggestion that smaller sounding exercises may sometimes be sufficient.
+
+---
+
+### 2026-06-04 | Databricks AI Search indexes Delta tables
+**Sentiment:** +0.18 (pos: 0.33, neg: 0.15, neu: 0.51)
+
+Databricks documentation outlines the Databricks CLI command groups available for managing common platform functions, including Unity Catalog capabilities such as allow lists for artifacts, catalogs and external connections, credentials, data classification, data quality, tagging, and lineage, plus commands that map to Databricks REST API operations. It also explains Databricks Designated Services, which use Databricks Geos to process customer content within the workspace’s geo and may require enabling cross-geo processing for certain services, while still keeping data stored inside the workspace’s geo. In addition, Databricks describes what “GenAI apps” are, ranging from simple LLM-backed features to more complex agent-based systems, emphasizing that success depends on both application development and specialized evaluation for open-ended model behavior. The material further provides an overview of Databricks AI Search, a vector search capability built into the Databricks Data Intelligence Platform that turns Delta tables into embedding indexes, supports REST queries for similar vectors, and can auto-sync as data changes. AI Search uses the HNSW approximate nearest neighbor algorithm with L2 distance by default, supports cosine similarity via embedding normalization, and offers hybrid search that blends vector similarity with full-text keyword matching. Overall, the articles connect governance and operational tooling with practical building blocks for deploying and evaluating AI-powered applications on Databricks.
+
+**Key Points:**
+- Databricks CLI guidance notes that for Unity Catalog artifact allow lists, “in Databricks Runtime 13.3 and above” admins can add “libraries and init scripts” to the UC allowlist so users can leverage those artifacts on compute configured with “standard access mode.”
+- For Designated Services, Databricks specifies model residency behavior for AI assistive features when cross-geo processing is enabled: workspaces in the Americas use a “US-based model,” while workspaces in Europe use a “Europe-based model.”
+- Databricks defines user-facing GenAI app examples in concrete deployment forms, including: a chat app (deployed using Databricks Apps), an API endpoint (an agent deployed to Model Serving), and a SQL function for analysts (an “AI Function”).
+
+---
+
+### 2026-06-03 | Workday reports strong earnings, shares lag
+**Sentiment:** +0.60 (pos: 0.68, neg: 0.08, neu: 0.24)
+
+Workday’s recent earnings reaction appears muted, with analysts arguing the results lacked surprises, but highlighting an important quality-of-earnings signal: its accrual ratio is negative, meaning free cash flow exceeds reported profit. Over the trailing year, Workday generated substantially more free cash flow than statutory profit, suggesting shareholder cash generation is stronger than accounting earnings imply. In parallel, Workday’s stock performance has been mixed—down over longer periods despite a modest near-term rebound—leaving investors to weigh whether the market is discounting future growth. One valuation view sets fair value above the recent share price and frames upside around an improving long-term earnings trajectory tied to AI-driven expansion. That upside, however, depends on execution amid higher spending on AI and acquisitions and rising competitive pressure in key markets.
+
+**Key Points:**
+- The earnings-quality discussion is grounded in the “accrual ratio” methodology: it’s calculated by subtracting free cash flow from profit and dividing by average operating assets; the article also cites a 2014 paper arguing that “firms with higher accruals tend to be less profitable in the future,” framing why Workday’s negative accrual ratio is a favorable signal.
+- Workday’s trailing-year accrual ratio was -0.46, with free cash flow of about $3.0 billion versus reported profit of about $847.0 million—i.e., statutory earnings substantially lagged cash generation (and the article notes that shareholders would likely be pleased that free cash flow improved over the last 12 months).
+- Stock momentum is quantified with finer-grained performance metrics: Workday was up ~0.1% over the past day (~0.2% over the past week and month), but down ~24% year-to-date, ~37% over the past year, ~26% over the past 3 months, and ~30% over the past 5 years—while a ~23.8% one-month rebound partially reversed the year’s weakness (with a ~36.5% decline in 1-year total shareholder return showing weaker longer-term momentum).
+
+---
+
+### 2026-05-30 | Anthropic Expands Cybersecurity Models, Releases Opus 4.8
+**Sentiment:** +0.28 (pos: 0.44, neg: 0.16, neu: 0.40)
+
+Anthropic said it will expand the rollout of its Mythos-level cybersecurity AI models to a wider customer base in the coming weeks, citing progress on safety safeguards and plans to broaden its U.S.-backed partner initiative. The company also released Opus 4.8, a new flagship model aimed at improving coding performance, financial analysis, and more human-like reasoning, with early testers reporting better self-checking on uncertain answers. Anthropic said it is preparing for heightened competitive pressure from OpenAI and Google while nearing a new funding round at a valuation above $900 billion and reportedly discussing a possible IPO as early as this fall. Separately, Salesforce reported accelerating growth tied to adoption of Agentforce and Sales Cloud, attributing momentum to industry-specific solutions, bundled offerings, and a shift toward value-based pricing, with CEO Marc Benioff saying Agentforce is now available across all of Salesforce’s products, including core applications. Cursor 3 also introduced an Agents Window that provides a unified view of multiple concurrently running AI agents across repositories while leaving output coordination to the user.
+
+**Key Points:**
+- Anthropic said its Mythos system can “identify and exploit vulnerabilities ‘in every major operating system and every major web browser’ when directed by a user,” explaining why the company initially restricted access despite demand.
+- When Anthropic first introduced Mythos, it limited availability to “a handful of large tech and Wall Street companies” through Project Glasswing in April, amid “broader global alarm” about risks to critical systems.
+- Anthropic added that it plans to expand Project Glasswing by working with “the U.S. and allied governments” to bring in more partner organizations, as part of the broader effort to widen distribution of Mythos-level capabilities.
+
+---
 
 ### 2026-05-29 | Workday price target raised to $135 from $125
 **Sentiment:** +0.05 (pos: 0.26, neg: 0.22, neu: 0.52)
@@ -36,18 +109,6 @@ DA Davidson raised its Workday price target to $135 from $125 and kept a Neutral
 - Goldman Sachs’ lowered $151 price target implies a potential upside of 17.84% versus the stock’s previous close, according to Benzinga’s summary of the note.
 - Workday’s reported quarter included $2.66 EPS (vs. $2.51 expected), net margin of 8.60%, return on equity of 13.92%, and revenue of $2.54 billion (vs. $2.52 billion expected), with quarterly revenue up 13.5% year over year; analysts forecast $5.12 EPS for the current year.
 - GuruFocus data cited alongside Goldman’s view showed a GF Score™ of 71/100, and highlighted insider selling of $145.4 million in shares sold over the last three months.
-
----
-
-### 2026-05-29 | Anthropic Expands Cybersecurity Models, Releases Opus 4.8
-**Sentiment:** +0.24 (pos: 0.41, neg: 0.17, neu: 0.41)
-
-Anthropic said it will expand the rollout of its Mythos-level cybersecurity AI models to a wider customer base in the coming weeks, citing progress on safety safeguards and plans to broaden its U.S.-backed partner initiative. The company also released Opus 4.8, a new flagship model aimed at improving coding performance, financial analysis, and more human-like reasoning, with early testers reporting better self-checking on uncertain answers. Anthropic said it is preparing for heightened competitive pressure from OpenAI and Google while nearing a new funding round at a valuation above $900 billion and reportedly discussing a possible IPO as early as this fall. Separately, Salesforce reported accelerating growth tied to adoption of Agentforce and Sales Cloud, attributing momentum to industry-specific solutions, bundled offerings, and a shift toward value-based pricing, with CEO Marc Benioff saying Agentforce is now available across all of Salesforce’s products, including core applications. Cursor 3 also introduced an Agents Window that provides a unified view of multiple concurrently running AI agents across repositories while leaving output coordination to the user.
-
-**Key Points:**
-- Anthropic said its Mythos system can “identify and exploit vulnerabilities ‘in every major operating system and every major web browser’ when directed by a user,” explaining why the company initially restricted access despite demand.
-- When Anthropic first introduced Mythos, it limited availability to “a handful of large tech and Wall Street companies” through Project Glasswing in April, amid “broader global alarm” about risks to critical systems.
-- Anthropic added that it plans to expand Project Glasswing by working with “the U.S. and allied governments” to bring in more partner organizations, as part of the broader effort to widen distribution of Mythos-level capabilities.
 
 ---
 
@@ -87,63 +148,27 @@ Wall Street rose Friday ahead of the Memorial Day holiday, pushing the Dow to an
 
 ---
 
-### 2026-05-25 | Workday Beats Q1 Estimates, Shares Rise
-**Sentiment:** +0.28 (pos: 0.51, neg: 0.23, neu: 0.27)
+### 2026-05-05 | Gloo completes EnterpriseMarketdesk acquisition, expands Workday services
+**Sentiment:** +0.69 (pos: 0.75, neg: 0.05, neu: 0.20)
 
-Workday reported first-quarter fiscal 2027 results after the market close Thursday, posting about $2.54 billion in revenue and $2.66 in non-GAAP EPS, with GAAP profitability rising to $222 million (87 cents per share). Subscription revenue grew about 14%, including subscription revenue backlog rising to $8.81 billion for cRPO and $27.29 billion total, alongside higher profitability and growth in remaining performance obligations. The company said demand for its AI agents continued to accelerate, with customers using the agents more than doubling to over 4,000 and management pointing to “agentic” applications as the key to sustained differentiation. Workday raised its full-year adjusted operating margin forecast to 30.5% from 30% and kept revenue growth guidance roughly in the 12%–13% range. Shares jumped about 12% in extended trading as investors saw the quarter and early AI traction as evidence that near-term generative-AI disruption fears may be overstated, though some investors remained skeptical about subscription growth durability and whether AI could divert budgets from Workday’s core offerings. Analyst reactions were mixed, with a largely Buy-biased consensus but notable price-target trims from some firms even as others reiterated that Workday is relatively insulated due to its scale and retention.
+Gloo Holdings completed its acquisition of EnterpriseMarketdesk (EMD) on May 4, 2026, after announcing the deal on April 14, adding AI-enabled Workday services and expertise to its Gloo 360 platform. The acquisition brings Workday consulting, implementation, and ongoing support, along with deployments, application management, and staff augmentation for nonprofit and mid-market organizations and systems integrator partners. Gloo CEO Scott Beck said the move supports its strategy of modernizing core systems using applied AI and forward-deployed engineering/agentic AI to improve outcomes and lower costs, while EMD managing partner Alan Corbeil emphasized scale and long-term value in a Workday segment he says is often underserved. Reporting also noted the practical question of how quickly existing EMD customers will feel the added platform scale as Gloo folds the business into its services ecosystem, and that deal terms were not disclosed. Separately, coverage of Gloo’s recent financial outlook said it expects about $190 million in fiscal 2026 sales and profitability by the fourth quarter of 2026, after earlier targeted workforce reductions to reduce duplication. A different analysis flagged potential challenges for shareholders, including a low GF Score and a relatively high price-to-sales ratio, suggesting profitability and valuation may remain concerns as integration proceeds.
 
 **Key Points:**
-- Workday said about 60% of its 14% subscription revenue growth came from expansion within existing customers, highlighting a retention/upsell engine rather than purely net-new logos. 
-- The company emphasized a shift in delivery toward service partners to reduce professional-services intensity while funding product, infrastructure, and international sales/marketing to scale AI and cloud—an operating-change detail not covered in the summary.
-- Workday’s new AI agent rollout included named products beyond core HCM/finance, with analysts noting the launch of “Sana ITSM Agent” and “Sana Travel Agent,” suggesting Workday’s agent strategy is expanding into broader enterprise workflows.
+- Gloo says its Gloo 360 platform already serves "over 140,000 faith, ministry, and nonprofit leaders," positioning EMD’s Workday services as an add-on to an established customer base.
+- EnterpriseMarketdesk’s Workday services are described as covering payroll and human-resources consulting for nonprofit and mid-market organizations—not just implementation and support.
+- In discussing the deal’s rationale, Scott Beck said the strategy of "forward-deployed engineering and agentic AI" is intended to deliver "better outcomes at lower cost" while "creating higher-margin growth for Gloo."
 
 ---
 
-### 2026-05-24 | Wall Street rises eighth week
-**Sentiment:** -0.29 (pos: 0.27, neg: 0.56, neu: 0.17)
+### 2026-05-02 | Workday embeds AI-powered employee recognition integrations
+**Sentiment:** +0.13 (pos: 0.37, neg: 0.24, neu: 0.40)
 
-Wall Street’s rally and a record-breaking stretch of gains continued Friday as the S&P 500 rose and moved closer to its all-time high, with the Dow and Nasdaq also posting increases. The advance underscored a growing gap between markets and consumers, even as a University of Michigan survey found household sentiment at a record low and inflation expectations rising. Several high-profile earnings results helped lift stocks, including strong performances from Ross Stores, Estee Lauder, Workday, and Zoom, all beating analysts’ expectations for early 2026 results. Consumers’ concerns are tied to worries about inflation—forecast to worsen over the next year—linked in part to higher oil prices attributed to the war involving Iran. Economists warn that increasing inflation expectations can shape consumer and spending behavior in ways that complicate the outlook.
-
-**Key Points:**
-- Stocks extended an “eighth straight winning week,” the best such streak since 2023, as the S&P 500 gained 0.4%, the Dow rose 294 points (0.6%), and the Nasdaq climbed 0.2%.
-- Ross Stores’ CEO Jim Conroy said the company saw “strong customer traffic” and that it “may have benefited from households spending their tax refunds.”
-- Estee Lauder jumped after it said it was “no longer considering a possible merger with Puig,” the Spanish fragrance and beauty products company.
-
----
-
-### 2026-05-24 | Workday shares jump 7% after AI-fueled earnings
-**Sentiment:** -0.07 (pos: 0.26, neg: 0.33, neu: 0.41)
-
-Philippine “hidden champion” BPO firms say customer service is moving beyond rigid automation toward agentic AI workflows that interpret intent, operate across back-end systems, and perform multi-step resolutions—while human-in-the-loop oversight reframes agents as pilots and exception handlers. In enterprise software, Workday’s strong quarterly results and investor focus on AI helped drive a stock jump as the company pointed to execution of an agentic AI roadmap and expanding use of its in-house AI agents by thousands of customers. Workday is also extending its AI beyond HR and finance with tools aimed at IT service management tasks like handling common employee requests and a travel assistant that streamlines trip planning and expense handling through conversational workflows. Reuters-style analysis highlights that subscription growth is the proof investors want, because AI features must translate into better renewals and expansions rather than just product demos. Separately, Australia’s Commonwealth Bank is using AI to process large volumes of employees’ free-text survey feedback, add adaptive follow-ups, and reduce both the time and potential bias involved in turning insights into actions. Across these stories, the promise is faster, more scalable service and decision-making, but safe rollout depends on strong data quality and clear rules for what AI is allowed to do.
+Organizations are seeing growing pressure to respond faster and resolve HR issues more consistently, driving demand for AI-assisted employee case triage that can classify requests, recommend relevant knowledge, and automate routing to reduce delays and case backlogs (https://aijourn.com/ai-driven-employee-case-triage-knowledge-recommendation-a-scalable-framework-for-intelligent-hr-service-delivery/). At the engagement level, HR leaders highlighted strategies centered on flexibility, data-driven and personalized rewards, and using AI for proactive wellbeing and real-time recognition, including gamification and stronger connection-building in hybrid or remote settings (https://www.tipranks.com/news/private-companies/hr-tech-platform-emphasizes-ai-driven-and-personalized-employee-engagement). Workday is moving to operationalize that recognition and communication promise by integrating AI-powered employee recognition via Achievers and using Exclaimer integrations to unify email signatures and meeting branding based on Workday HR data (https://news.ssbcrack.com/workday-expands-hr-platform-with-new-ai-powered-integrations/). A broader review frames AI for engagement as a continuous system that uses machine learning, NLP, predictive analytics, and generative interfaces to sense sentiment, forecast risks, personalize development, and trigger timely interventions—aiming to improve trust while addressing the rising costs of disengagement (https://b2bdaily.com/hrtech/ai-for-employee-engagement-review/). Together, these pieces suggest HR tech is shifting from manual, survey-based approaches toward AI-enabled workflows that tie employee data to everyday recognition, support, and communication—while requiring careful attention to trade-offs like accuracy, consistency, and maintaining human context.
 
 **Key Points:**
-- In the Philippines’ BPO “Hidden Champions” story, PITON-Global CEO John Maczynski said the shift is “different in kind, not just degree,” with “Agentic AI workflows — autonomous systems capable of interpreting customer intent, navigating multiple back-end platforms, and executing multi-step resolutions without constant human prompting.” He also framed the change as repositioning human expertise around AI orchestration rather than replacing Filipino agents, with agents becoming “AI Pilot and exception handler.”
-- Workday’s quarter included detailed performance markers beyond the headline AI narrative: quarterly revenue of $2.542 billion (+13.5% YoY), adjusted earnings of $2.66 per share (vs. $2.51 consensus), and subscription revenue up 14.3% to $2.354 billion. The company also kept its full-year subscription revenue target at $9.925–$9.950 billion and raised its non-GAAP operating margin forecast to 30.5%; it reported that its Recruiting Agent handled 14 million hiring processes in the latest quarter.
-- Workday also addressed the specific investor worry that AI could either “boost big software companies or challenge the seat-based subscription model” — with leadership directly tying results to action-taking AI. Co-CEO Aneel Bhusri said the company was “ready for this AI moment,” while CFO Zane Rowe emphasized Workday is focused on “executing on our agentic AI roadmap,” defining agentic AI as software that “takes action, not just giving answers.”
-
----
-
-### 2026-05-23 | Workday reports Q1 FY2027 revenue $2.542B
-**Sentiment:** +0.28 (pos: 0.43, neg: 0.15, neu: 0.41)
-
-Workday reported strong first-quarter fiscal 2027 results, with total revenue of $2.542 billion (up about 13%) and subscription revenue of $2.354 billion (up about 14%). Profit and operating performance improved as the company posted GAAP operating income of $338 million and non-GAAP operating margin of about 31.8%, supported by $696 million in operating cash flow and significant share repurchases. The company highlighted accelerating AI momentum, with new annual contract value from AI products rising more than 200% year over year and customer usage of Workday-built AI agents more than doubling to over 4,000 customers. Workday also cited broader agent adoption across its platform, including hiring activity via its recruiting agent, and said its “Agent System of Record” reached general availability. Management reiterated its full-year subscription revenue outlook, increased adjusted operating margin guidance, and projected second-quarter subscription revenue slightly above analyst expectations. The company additionally described product and geographic expansion, including worldwide availability for its Sana offering and new agent releases, alongside partner and data residency updates.
-
-**Key Points:**
-- Workday reported GAAP quarterly profit of $222 million (87 cents per share) and adjusted EPS of $2.66, ahead of analysts’ FactSet estimate of $2.51.
-- In addition to $696 million operating cash flow, Workday generated $616 million in free cash flow and ended the quarter with $4.353 billion in cash, cash equivalents, and marketable securities.
-- The company said its Recruiting Agent supported 14 million hiring processes in the quarter—up 44% year over year—underscoring deeper deployment beyond general agent usage metrics.
-
----
-
-### 2026-05-20 | Workday plans Delhi, Bengaluru AI hiring expansion
-**Sentiment:** +0.05 (pos: 0.34, neg: 0.29, neu: 0.37)
-
-Workday says it will sustain the same rapid hiring pace in India, where its headcount has more than doubled in 12 to 14 months to about 1,300 employees. The company operates in Mumbai and plans to add new offices in New Delhi and Bengaluru, aiming to tap India’s large pool of skilled workers for tech, finance, and engineering roles tied to global capability centers. Workday is also increasing investments in artificial intelligence across both internal operations and customer-facing products, using AI agents to automate workflows such as payroll, hiring, finance, and expense management. Customers are adopting these tools to speed up routine processes, including an unnamed retailer that reduced hiring time by 70% and overall automation that can cut the time needed for nearly two-thirds of tasks. The push for AI talent and automation comes as multinational firms ramp up generative AI and related roles, even as software and services stocks have slumped amid concerns AI could disrupt traditional business models. Workday serves more than 1,800 customers in India, including major brands such as Target, Netflix, and Nvidia.
-
-**Key Points:**
-- Reuters reported that India is home to “more than half of all global capability centres,” with firms attracted by “large skilled workforce,” “lower operating costs,” and a growing ability to support “high-value jobs across technology, finance and engineering.”
-- Sunil Jose told Reuters, “We would continue (hiring) at the same pace,” and Reuters added that he did not provide a timeline for opening the planned new offices in Bengaluru and Delhi.
-- Workday said it already has offices not just in Mumbai but also in “two more cities,” before expanding its footprint to New Delhi and Bengaluru.
+- The AI triage proposal is explicitly described as a “vendor-neutral framework” and is built as four core layers—starting with “Employee Request Intake,” followed by “Simulated AI Classification,” “Knowledge Recommendation,” and “Automated Routing”—to address delays, backlog growth, and inconsistent handling.
+- The framework’s authors say organizations can get “AI-like behavior” even before fully deploying machine learning—by using structured logic plus workflow automation to simulate intelligent decision-making for HR case handling.
+- Workday’s new Achievers and Exclaimer integrations are framed as strengthening the company’s position “at the intersection of HR and IT workflows,” but the coverage also flags a possible downside: tighter coupling to third-party partners may raise “perceptions of diminishing control” over crucial AI/workflow functions as competitors like SAP and Oracle expand their ecosystems.
 
 ---
 
@@ -243,27 +268,27 @@ Workday is covered by analysts who rate the stock a “Moderate Buy,” with mos
 
 ---
 
-### 2026-04-11 | Storm-2755 payroll pirate attacks redirect Canadian salaries
-**Sentiment:** -0.46 (pos: 0.10, neg: 0.56, neu: 0.34)
+### 2026-04-05 | Universities seek animal-care staff across campuses
+**Sentiment:** +0.15 (pos: 0.31, neg: 0.17, neu: 0.52)
 
-Microsoft’s Incident Response team says the financially motivated threat actor Storm-2755 is targeting Canadian employees by hijacking Microsoft 365 accounts and redirecting salary payments into attacker-controlled bank accounts (https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/, https://undercodenews.com/storm-2755-payroll-heist-how-cybercriminals-are-hijacking-salaries-through-microsoft-365-attacks/, https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/). The campaign uses search engine manipulation and malicious advertising to route victims—often after queries like “Office 365” or similar misspellings—to convincing but fake Microsoft 365 login pages hosted on attacker-controlled domains (https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/, https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/). In adversary-in-the-middle attacks, the intruders steal session cookies and OAuth tokens and then replay those tokens to bypass non–phishing-resistant MFA and preserve authenticated access (https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/, https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/, https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/). After gaining mailbox access, Storm-2755 creates inbox rules to hide HR/banking messages, then sends “direct deposit” change requests that appear to come from the victim; in some cases it also changes passwords and MFA settings to retain control even after tokens expire (https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/, https://www.helpnetsecurity.com/2026/04/10/poisoned-office-365-search-results-lead-to-stolen-paychecks/). Microsoft also reports persistence by continuously replaying active sessions and notes disruption actions such as tenant takedowns, while advising defenses including phishing-resistant MFA and blocking legacy authentication protocols (https://undercodenews.com/storm-2755-payroll-pirate-attacks-how-cybercriminals-hijack-salaries-through-session-theft/, https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/, https://www.bleepingcomputer.com/news/microsoft/microsoft-canadian-employees-targeted-in-payroll-pirate-attacks/). Taken together, the reports depict “payroll pirate” identity theft that targets day-to-day financial workflows rather than data forensics, leading to direct financial harm for victims (https://undercodenews.com/storm-2755-payroll-heist-how-cybercriminals-are-hijacking-salaries-through-microsoft-365-attacks/, https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/).
+Several employers are advertising animal-care and veterinary roles ranging from academic lab support to school-based animal care and specialized poultry medicine. At the University of Florida (Gainesville, Florida), an Animal Care Technician I (Cage Wash) position focuses on sanitizing research caging and facilities, operating cage-wash and autoclave equipment, handling biohazard and chemical waste properly, and supporting SOP- and compliance-driven workflows (with an expected salary of $16 an hour). The posting lists responsibilities that include preparing and transporting bedding and supplies, ensuring equipment is processed under strict guidelines, and running efficacy checks by collecting swabs and biological indicators. In the UK, Outwood Academy Adwick is seeking an Animal Care Technician with relevant science A-level-equivalent study and laboratory/school experience, emphasizing communication, teamwork, health-and-safety/COSHH knowledge, and child safeguarding requirements (including an enhanced DBS check and UK work eligibility), alongside a benefits package with pension enrollment and paid leave. Ohio State University also has a Poultry Veterinarian and Outreach Specialist role, and its hiring guidance stresses uploading up to five documents, avoiding resume autofill for multi-page resumes, and using accessibility or HR support channels if application assistance is needed.
 
 **Key Points:**
-- Microsoft DART said Storm-2755 used a specific tooling detail—leveraging version 1.7.9 of the Axios HTTP client—to relay authentication tokens to customer infrastructure, enabling an AiTM replay flow that “bypassed non-phishing resistant MFA and preserved access without requiring repeated sign ins.”
-- The campaign maintained persistence not just by replaying tokens, but by reportedly refreshing/replaying sessions about every 30 minutes to keep access “blending” with normal user activity.
-- After inbox-rule-based hiding, Storm-2755 reportedly searched the mailbox for terms such as “payroll,” “HR,” “direct deposit,” and “finance,” then sent HR-targeted emails using a recognizable lure: the subject line “Question about direct deposit.”
+- At the University of Florida, the Animal Care Technician I (Cage Wash) listing is marked “Veteran’s Preference Eligible” and specifies that the technician must keep up to date on SOPs in “Policy Manager” and complete required trainings using facility computers during normal working hours, with clock-in/clock-out handled through “Timeclock Plus.”
+- The UF cage-wash role includes submitting sanitizing/sterilizing efficacy testing materials by “collect[ing] swabs and Biological Indicators and deliver[ing] samples for assessment of sanitizing/sterilizing efficacy to our Clinical Diagnostic Lab,” as well as supporting operations by “assist[ing] in requesting, receiving, and rotating bedding and other supplies.”
+- Outwood Academy Adwick states that applicants must undergo a “full enhanced DBS check” and be “eligible to work in the UK,” and notes that its recruitment process follows the “keeping children safe in education” guidance.
 
 ---
 
-### 2026-04-10 | Workday major shareholder David Duffield sells $13.9m
-**Sentiment:** +0.07 (pos: 0.37, neg: 0.30, neu: 0.33)
+### 2026-04-02 | Tennessee Grandmother Jailed Over AI Misidentification
+**Sentiment:** -0.40 (pos: 0.11, neg: 0.51, neu: 0.37)
 
-Several investors reported changes in Workday’s ownership amid ongoing market scrutiny of the stock. Douglas Lane & Associates LLC reduced its stake in Workday by selling shares, while other large investors showed mixed activity including new or increased positions, and broker commentary also reflected more cautious outlooks with lowered price targets from multiple firms. Meanwhile, major shareholder David Duffield sold 107,500 shares in an SEC-disclosed transaction under a pre-arranged Rule 10b5-1 plan, and insider Robert Enslin sold 5,373 shares under a similar Rule 10b5-1 plan tied to tax withholding for vested equity awards. Recent company updates cited include Workday adding OnePay’s financial-wellness tools to its employee benefits experience, recognition as a Leader in Gartner’s 2026 Magic Quadrant for higher education student information systems, and go-to-market support from a partner ecosystem expansion tied to UST’s acquisition of a Workday implementation partner. Taken together, the filings and investor commentary point to continued share-selling by insiders/large holders alongside business developments aimed at strengthening product adoption and recurring revenue.
+Angela Lipps, a Tennessee grandmother, says Fargo-area police wrongly linked her to North Dakota bank-fraud cases through facial-recognition output despite evidence she had never visited the state. Fargo-area authorities later acknowledged “a few errors,” including reliance on information from a neighboring agency’s AI facial-recognition system that Chief Dave Zibolski said was “part of the issue”; he added the system had been purchased without executive-level awareness and was later prohibited. Multiple accounts reported investigators relied on the match despite basic checks that could have ruled out a mismatch, including that the person sought (named in reports as Burgess) reportedly had leg tattoos Lipps did not have and that time records placed Burgess at work on key dates. Lipps was detained more than 1,000 miles from home, and her attorneys produced records showing she was in Tennessee during the relevant periods. Fargo dismissed the charges without prejudice after the case unraveled in December. The incident has prompted renewed scrutiny of how facial recognition is used in criminal investigations and how errors can cascade into arrests and extradition.
 
 **Key Points:**
-- Major shareholder David Duffield sold 107,500 shares at an average price of $129.60 for about $13.93 million, cutting his ownership to 105,049 shares—an approximately 50.58% decrease—under a pre-arranged Rule 10b5-1 trading plan.
-- Insider Robert Enslin sold 5,373 shares at an average price of $129.41 for about $695,320, reducing his stake to 165,414 shares (about a 3.15% decrease); the filing says the sale was made to cover tax-withholding obligations tied to vested equity awards under a pre-arranged Rule 10b5-1 plan.
-- Portside Wealth Group LLC significantly reduced its Workday position, trimming 75.4% during the fourth quarter—selling 6,583 shares and leaving it with 2,145 shares valued at roughly $461,000 as of the most recent reporting period.
+- News reports say Lipps was arrested at gunpoint by US Marshals on July 14, 2025 while she was babysitting four children, and that she spent 108 days in a county jail without bail before being flown to North Dakota on charges including felony theft and felony unauthorized use of personal identifying information.
+- Fargo police told CNN they used Clearview AI for the facial recognition work: West Fargo uses the startup’s database of “billions of photos scraped from the internet, including social media,” which (they said) generated a match with similar features that was then shared with Fargo.
+- Fargo Police Chief Dave Zibolski said West Fargo forwarded only the facial-recognition output and that Fargo detectives incorrectly assumed West Fargo had also sent the underlying surveillance photos with the photo ID—an error he said contributed to the misidentification.
 
 ---
 
@@ -363,31 +388,31 @@ Angela Lipps, a 50-year-old grandmother from Tennessee, was wrongly identified b
 
 ---
 
-### 2026-03-18 | Workday Major Shareholder Sells $15.3M Stake
-**Sentiment:** +0.27 (pos: 0.39, neg: 0.12, neu: 0.50)
-
-Institutional investors have been significantly increasing their exposure to Workday, with large asset managers such as Vanguard, Hotchkis & Wiley, First Eagle, UBS Asset Management, Generation Investment, Meritage and VanEck materially adding to positions while smaller managers including Delta Global, Azimuth and Landscape also bought shares, leaving institutional ownership around 89.8%. Notable stake builds include Meritage’s 1,489,253-share position (~$358.5M) and Hotchkis & Wiley’s 5,842,491-share holding (~$1.406B), alongside multi-hundred-million-dollar new or increased positions from First Eagle and UBS AM. At the same time major shareholder David Duffield sold 107,500 shares on March 10 for about $15.28M and insider Gerrit S. Kazmaier sold 6,547 shares in December, indicating some insider trimming. Workday recently reported quarterly EPS of $2.47 (above estimates) and revenue of $2.53B, up about 14.5% year-over-year, and the company trades with a market capitalization near $35 billion, suggesting underlying business growth as institutional demand rises.
-
-**Key Points:**
-- Vanguard Group substantially increased its stake, owning 21,799,056 shares of Workday (after adding 684,872 shares, a 3.2% increase) valued at about $5.248 billion, making it one of the largest institutional holders.
-- Norges Bank initiated a new position in Workday valued at approximately $442.7 million during the reporting periods.
-- Key valuation and balance-sheet metrics reported: Workday trades at a P/E of 51.59, a P/E/G of 1.29 and has a beta of 1.16; liquidity and leverage metrics include a quick ratio of 1.83, current ratio of 1.32 and debt-to-equity of 0.38. The 12‑month trading range was about $117.76 to $276.00.
-
----
-
-### 2026-03-14 | Workday Shares Slide 4.5% After Soft Guidance
-**Sentiment:** -0.52 (pos: 0.08, neg: 0.61, neu: 0.31)
-
-Workday shares have plunged to roughly $142 after a late‑February earnings update that included softer fiscal‑2027 subscription guidance, prompting broad analyst price‑target cuts and downgrades. The company nevertheless reported a strong fourth quarter—revenue grew about 14.5% to $2.53 billion, adjusted EPS beat estimates, and subscription backlog expanded—while management is betting on AI and has tied CEO incentives to multi‑year stock targets. Valuation views are mixed: Simply Wall St’s DCF model pegs intrinsic value near $271 per share despite a low valuation score, while the consensus one‑year analyst target is around $189, implying upside from current levels. Institutional ownership remains high at roughly 90%, though some funds (including Natixis) trimmed positions as others increased holdings, reflecting divergent investor sentiment. Heavy insider selling over the past six months, with many open‑market sales and no purchases reported, has added to investor concern about near‑term momentum.
-
-**Key Points:**
-- Insiders executed 120 open‑market sales of WDAY stock in the past six months with zero insider purchases; David A. Duffield alone sold 936,532 shares for an estimated $189,512,707, and several other senior executives (including Robert Enslin, Zane Rowe, Gerrit Kazmaier and CEO Carl Eschenbach) also sold sizeable blocks.
-- Several major brokerages explicitly cut price targets and adjusted ratings in late February: Goldman Sachs lowered its target from $238 to $206 and set a 'neutral' rating (Feb. 25), JPMorgan trimmed its target from $270 to $230 and kept an 'overweight' rating (Feb. 24), and UBS cut its target from $170 to $130 and set 'neutral'.
-- Simply Wall St’s detailed valuation work assigns Workday a low value score (2 out of 6) but its 2‑stage Free Cash Flow to Equity DCF uses a latest‑twelve‑month free cash flow of about $2.68 billion and projects FCF reaching roughly $4.76 billion by 2031, producing an estimated intrinsic value of about $271.19 per share under that model.
-
----
-
 ## FMP Articles (30 articles)
+
+### 2026-06-02 | Workday Launches New Tools for Developers to Build, Connect, and Verify AI Agents For HR, Finance, and IT
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/workday-launches-new-tools-for-developers-to-build-connect-and-verify-ai-agents-for-hr-finance-and-it-302787997.html
+
+Developer Agent Lets Developers Build AI Apps and Agents on Workday Using Natural Language in Agentic Tools Like Claude Code, Cline, Codex, Cursor, and Google Antigravity Agent-Ready Tools Enable Customer-Built and Third-Party Agents to Safely Act on HR and Finance Data from Any Surface Agent Passport Tests, Verifies, and Continuously Monitors Every AI Agent in Workday Against Public Standards Like OWASP LLM Top 10, NIST AI RMF, and MITRE ATLAS LAS VEGAS, June 2, 2026 /PRNewswire/ -- Workday DevCon — Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for HR, finance, and IT, today unveiled new agentic capabilities in Workday Build, its platform for developers to build custom AI apps and agents that run on Workday. The new capabilities include Developer Agent, which lets developers build AI apps and agents in plain language from the agentic tools they already use; Agent-Ready Tools, which provide controlled guardrails for agents to access HR and finance data over Model Context Protocol (MCP); and Agent Passport, which gives agents digital stamps from trusted security and compliance vendors to verify they are safe to deploy.
+
+---
+
+### 2026-06-02 | Workday Launches Agent Passport to Test, Verify, and Continuously Monitor Every AI Agent in the Enterprise
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/workday-launches-agent-passport-to-test-verify-and-continuously-monitor-every-ai-agent-in-the-enterprise-302787979.html
+
+Agent Passport Measures Every Agent Against Industry Standards Including OWASP LLM Top 10, NIST AI RMF, and MITRE ATLAS Cisco Joins as Launch Partner to Independently Test AI Agents in Workday Using Cisco AI Defense LAS VEGAS, June 2, 2026 /PRNewswire/ -- Workday DevCon — Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for HR, finance, and IT, today announced Agent Passport, which tests and verifies every AI agent, Workday-built or third-party, before it goes into production, and continuously monitors it after. Every attestation is tied to a public industry standard, such as OWASP LLM Top 10, NIST AI RMF, and MITRE ATLAS, so security teams have a signed, auditable record of what each agent has been tested for and who did the testing.
+
+---
+
+### 2026-06-02 | Workday Announces Workday Data Cloud Integration with AWS, Giving Developers Direct Access to Workday's Governed Data Layer
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/workday-announces-workday-data-cloud-integration-with-aws-giving-developers-direct-access-to-workdays-governed-data-layer-302787977.html
+
+New Integration Provides Bi-Directional, Zero-Copy Access Between AWS Data and AI Services, and Workday's HR and Finance Data Workday Data Cloud Capabilities for AWS Customers Coming Soon in Early Access LAS VEGAS, June 2, 2026 /PRNewswire/ -- Workday DevCon —  Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for HR, finance, and IT, today announced that Workday Data Cloud will integrate with Amazon Web Services (AWS). With the new integration, developers have bi-directional zero-copy access to Workday's governed HR and finance data from the AWS tools and AI services they already use, without needing to build custom pipelines, duplicate data, or rebuild business logic from scratch.
+
+---
 
 ### 2026-05-29 | Workday (WDAY) is a Top-Ranked Momentum Stock: Should You Buy?
 **Source:** Zacks Investment Research
@@ -445,27 +470,67 @@ The average of price targets set by Wall Street analysts indicates a potential u
 
 ---
 
-### 2026-05-27 | Workday Introduces Adaptive Decision Intelligence, Bringing Planning Questions, Scenarios, and Decisions Into One AI Experience
-**Source:** PRNewsWire
-**URL:** https://www.prnewswire.com/news-releases/workday-introduces-adaptive-decision-intelligence-bringing-planning-questions-scenarios-and-decisions-into-one-ai-experience-302783100.html
-
-Adaptive Decision Intelligence Lets Teams Ask Questions in Natural Language, Explore Scenarios, and Commit Decisions to the Governed Plan – in Minutes, Not Days NATIONAL HARBOR, Md., May 27, 2026 /PRNewswire/ -- Gartner Finance Symposium/Xpo™ -- Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for HR, finance, and IT, today introduced Adaptive Decision Intelligence, a new AI capability in Workday Adaptive Planning.
-
----
-
-### 2026-05-27 | The Four Signs a Company Is About to Destroyed by AI
-**Source:** Investor Place
-**URL:** https://investorplace.com/hypergrowthinvesting/2026/05/the-four-signs-a-company-is-about-to-destroyed-by-ai/
-
-AI is creating stock-market casualties. Four warning signs are now flashing across 12 familiar software names.
-
----
-
-### 2026-05-26 | Can Workday's New Sana AI Solutions for Enterprises Boost Its Shares?
+### 2026-05-05 | Why Workday (WDAY) Outpaced the Stock Market Today
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2926959/can-workday-s-new-sana-ai-solutions-for-enterprises-boost-its-shares?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2926959
+**URL:** https://www.zacks.com/stock/news/2915229/why-workday-wday-outpaced-the-stock-market-today?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2915229
 
-WDAY rolls out Sana for ITSM and a new Travel Agent, adding AI agents that automate IT support and travel-to-expense workflows in a single platform.
+The latest trading day saw Workday (WDAY) settling at $128.59, representing a +1.28% change from its previous close.
+
+---
+
+### 2026-05-05 | Brokers Suggest Investing in Workday (WDAY): Read This Before Placing a Bet
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2914713/brokers-suggest-investing-in-workday-wday-read-this-before-placing-a-bet?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|average_broker_rating-2914713
+
+When deciding whether to buy, sell, or hold a stock, investors often rely on analyst recommendations. Media reports about rating changes by these brokerage-firm-employed (or sell-side) analysts often influence a stock's price, but are they really important?
+
+---
+
+### 2026-05-05 | QGenda Unlocks New Value for Healthcare Workforce Management with Certified Integration to Workday Human Capital Management
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260505900290/en/QGenda-Unlocks-New-Value-for-Healthcare-Workforce-Management-with-Certified-Integration-to-Workday-Human-Capital-Management/
+
+ATLANTA--(BUSINESS WIRE)-- #WDAYPartner--QGenda, a leading provider of healthcare workforce management solutions, today announced a new partnership agreement with Workday. The agreement is designed to create a unified workforce ecosystem for healthcare organizations, with QGenda solving the complex scheduling needs specific to healthcare systems. This approach will align HR, scheduling, time tracking, and payroll data to improve operational efficiency, increase workforce data visibility, and control labor cos.
+
+---
+
+### 2026-05-04 | First Eagle U.S. Fund Q1 2026 Portfolio Review
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4898036-first-eagle-us-fund-q1-2026-portfolio-review
+
+U.S. Fund A Shares (without sales charge*) posted a return of 1.17% in first quarter 2026. Leading contributors in the First Eagle U.S. Fund this quarter included gold bullion, Exxon Mobil Corporation, Noble Corporation PLC Class A, IPG Photonics Corporation and SLB Limited. The leading detractors in the quarter were Workday, Inc. Class A, Oracle Corporation, Salesforce.com, Inc., Meta Platforms, Inc. Class A and Universal Health Services, Inc, Class B.
+
+---
+
+### 2026-05-04 | Is Big Tech's $725B AI splurge being funded by mass layoffs?
+**Source:** Invezz
+**URL:** https://invezz.com/news/2026/05/04/is-big-techs-725b-ai-splurge-being-funded-by-mass-layoffs/
+
+A widely reported figure this past week is that 81,747 tech workers lost their jobs in Q1 2026, the highest quarterly layoff figure the industry has seen in at least two years. This has sparked the debate once again about large tech firms, AI and layoffs.
+
+---
+
+### 2026-05-01 | Workday to Announce Fiscal 2027 First Quarter Financial Results on May 21, 2026
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/workday-to-announce-fiscal-2027-first-quarter-financial-results-on-may-21-2026-302759586.html
+
+PLEASANTON, Calif., May 1, 2026 /PRNewswire/ -- Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for managing people, money, and agents, will announce its fiscal 2027 first quarter financial results after market close on Thursday, May 21, 2026.
+
+---
+
+### 2026-04-30 | Jade Global Named Workday Partner
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260430272729/en/Jade-Global-Named-Workday-Partner/
+
+SAN JOSE, Calif.--(BUSINESS WIRE)-- #itconsulting--Jade Global, a premier global provider of digital transformation services and solutions, today announced it has signed a partnership agreement with Workday (NASDAQ: WDAY), a leading provider of solutions to help organizations manage their people and money. This partnership will bring deep domain expertise across industries, including manufacturing, High-tech, healthcare, and retail. As a Workday deployment partner, Jade Global is now positioned to support clie.
+
+---
+
+### 2026-04-30 | Investors Heavily Search Workday, Inc. (WDAY): Here is What You Need to Know
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2911786/investors-heavily-search-workday-inc-wday-here-is-what-you-need-to-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2911786
+
+Zacks.com users have recently been watching Workday (WDAY) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.
 
 ---
 
@@ -485,67 +550,59 @@ New Agent Reduces PAR Cycle Times by Up to 60% and Improves Decision Accuracy Ne
 
 ---
 
-### 2026-04-27 | Three Link Solutions Addresses Common Questions about Workday GO during Free Webinar for National Small Business Week
-**Source:** GlobeNewsWire
-**URL:** https://www.globenewswire.com/news-release/2026/04/27/3282039/0/en/Three-Link-Solutions-Addresses-Common-Questions-about-Workday-GO-during-Free-Webinar-for-National-Small-Business-Week.html
-
-Three Link Solutions offers webinar for small businesses to learn how Workday GO can help HR, payroll and finance teams save time and position for growth.
-
----
-
-### 2026-04-22 | Workday (WDAY) Stock Slides as Market Rises: Facts to Know Before You Trade
+### 2026-04-06 | Workday (WDAY) Stock Sinks As Market Gains: Here's Why
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2905964/workday-wday-stock-slides-as-market-rises-facts-to-know-before-you-trade
+**URL:** https://www.zacks.com/stock/news/2895158/workday-wday-stock-sinks-as-market-gains-here-s-why
 
-In the closing of the recent trading day, Workday (WDAY) stood at $126.6, denoting a -1.98% move from the preceding trading day.
-
----
-
-### 2026-04-21 | Workday: A Competitive Analysis With Oracle And SAP
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4892601-workday-stock-competitive-analysis-with-oracle-sap
-
-Workday receives a Buy rating, driven by consistent earnings beats, growing ROTC, and robust free cash flow per share. WDAY is positioned as a tech growth stock, investing in AI-powered HCM and ERP, while Oracle and SAP show more mature, income-oriented profiles. Despite recent share price declines and decelerating momentum, analysts expect WDAY to deliver 14–15% average annual EPS growth over the next three years.
+Workday (WDAY) concluded the recent trading session at $129.72, signifying a -1.92% move from its prior day's close.
 
 ---
 
-### 2026-04-21 | EZE Cloud Consulting Advances AI-first Strategy with Agile In-house Deployment of Workday GO
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260421261653/en/EZE-Cloud-Consulting-Advances-AI-first-Strategy-with-Agile-In-house-Deployment-of-Workday-GO/
+### 2026-04-06 | Workday Named a Leader in 2026 Gartner® Magic Quadrant™ for Higher Education Student Information Systems
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/workday-named-a-leader-in-2026-gartner-magic-quadrant-for-higher-education-student-information-systems-302734767.html
 
-SINGAPORE; BENGALURU, INDIA; AND SAN FRANCISCO, USA--(BUSINESS WIRE)---- $WDAY #AI--EZE Cloud Consulting Advances AI-first Strategy with Agile In-house Deployment of Workday GO.
-
----
-
-### 2026-04-21 | 85% of Desk Workers Hit a Tech-Related Slowdown Every Workday, New Standley Systems Survey Finds
-**Source:** Business Wire
-**URL:** https://www.businesswire.com/news/home/20260421225021/en/85-of-Desk-Workers-Hit-a-Tech-Related-Slowdown-Every-Workday-New-Standley-Systems-Survey-Finds/
-
-PLANO, Texas--(BUSINESS WIRE)--Routine office technology problems are quietly eating into productivity, according to new research from Standley Systems, a leading provider of managed print services, managed IT services, and business technology solutions in Dallas-Fort Worth and Oklahoma. The survey found most desk workers run into daily slowdowns tied to computers, networks, software and print devices. For the 2026 Office Technology Report: How Workplace Slowdowns Affect Productivity, Standley.
+Institutions Across the Globe are Using Workday Student to Manage More Than 5.8 Million Student Records, Helping Improve Student Engagement and Adapt to Changing Industry Needs PLEASANTON, Calif., April 6, 2026 /PRNewswire/ -- Workday, Inc. (NASDAQ: WDAY), the AI platform for managing people, money, and agents today announced it has again been named a Leader in the Gartner® Magic Quadrant™ for Student Information Systems1.
 
 ---
 
-### 2026-04-18 | Lbp Am Sa Has $4.55 Million Stock Position in Workday, Inc. $WDAY
+### 2026-04-04 | Workday, Inc. (NASDAQ:WDAY) Receives Average Recommendation of “Moderate Buy” from Brokerages
 **Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/18/lbp-am-sa-has-4-55-million-stock-position-in-workday-inc-wday.html
+**URL:** https://www.defenseworld.net/2026/04/04/workday-inc-nasdaqwday-receives-average-recommendation-of-moderate-buy-from-brokerages.html
 
-Lbp Am Sa lowered its holdings in Workday, Inc. (NASDAQ: WDAY) by 57.6% during the fourth quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 21,164 shares of the software maker's stock after selling 28,731 shares during the quarter. Lbp Am Sa's holdings in Workday were
-
----
-
-### 2026-04-17 | Parnassus Growth Equity Fund Q1 2026 Portfolio Activity
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4891572-parnassus-growth-equity-fund-q1-2026-portfolio-activity
-
-We are actively monitoring Meta Platforms' social and data privacy risks and believe the company has made progress on strengthening its policies and enforcement. We believe the market is underestimating the durability of Edwards' transcatheter aortic valve replacement franchise and the opportunity for its transcatheter mitral and tricuspid therapies. We exited our position in Workday to bring the portfolio's software exposure closer to market weight.
+Shares of Workday, Inc. (NASDAQ: WDAY - Get Free Report) have earned a consensus recommendation of "Moderate Buy" from the thirty-four ratings firms that are covering the firm, MarketBeat.com reports. One equities research analyst has rated the stock with a sell rating, fourteen have given a hold rating and nineteen have given a buy rating to
 
 ---
 
-### 2026-04-16 | Wall Street Bulls Look Optimistic About Workday (WDAY): Should You Buy?
+### 2026-04-03 | Why Workday (WDAY) is a Top Growth Stock for the Long-Term
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2901405/wall-street-bulls-look-optimistic-about-workday-wday-should-you-buy
+**URL:** https://www.zacks.com/stock/news/2894205/why-workday-wday-is-a-top-growth-stock-for-the-long-term
 
-Investors often turn to recommendations made by Wall Street analysts before making a Buy, Sell, or Hold decision about a stock. While media reports about rating changes by these brokerage-firm employed (or sell-side) analysts often affect a stock's price, do they really matter?
+Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.
+
+---
+
+### 2026-04-02 | Workday: SaaSpocalypse Selloff Creates A Golden Opportunity
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4888199-workday-saaspocalypse-selloff-creates-a-golden-opportunity
+
+Workday has been unjustifiably punished, with shares down over 40% in 6 months despite resilient fundamentals and accelerating growth. The company reported Q4 revenue up 14.5% YoY, subscription revenue up 15.7%, and non-GAAP operating margin expanding to 30.6%. Guidance for FY2027 calls for revenue growth of 11–12% and modest margin expansion, reflecting ongoing AI investments.
+
+---
+
+### 2026-04-02 | Anthropic’s Claude Mythos Leak Is Bigger Than You Think
+**Source:** Investor Place
+**URL:** https://investorplace.com/hypergrowthinvesting/2026/04/anthropics-claude-mythos-leak-is-bigger-than-you-think/
+
+Anthropic's Claude Mythos leak reveals a major AI breakthrough - boosting infrastructure stocks while putting SaaS business models at risk.
+
+---
+
+### 2026-03-31 | Wall Street Analysts Think Workday (WDAY) Is a Good Investment: Is It?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2892152/wall-street-analysts-think-workday-wday-is-a-good-investment-is-it?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|average_broker_rating-2892152
+
+When deciding whether to buy, sell, or hold a stock, investors often rely on analyst recommendations. Media reports about rating changes by these brokerage-firm-employed (or sell-side) analysts often influence a stock's price, but are they really important?
 
 ---
 
@@ -570,61 +627,5 @@ The 1960s version of the future is way more fun than our reality—but when it c
 **URL:** https://www.cnbc.com/2026/03/29/the-problem-for-investors-we-dont-know-how-trump-wants-the-iran-war-to-end.html
 
 In his Sunday column for Investing Club subscribers, Jim Cramer argues that the S&P 500 is likely to see further declines during the Iran war.
-
----
-
-### 2026-03-29 | Why the SaaS Sell-Off Is Creating Generational Buying Opportunities
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/03/29/why-the-saas-sell-off-is-creating-generational-buy/
-
-Not every SaaS stock will be a winner, but ones with these traits likely will be.
-
----
-
-### 2026-03-26 | Why Is Workday (WDAY) Down 4.6% Since Last Earnings Report?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2890337/why-is-workday-wday-down-4-6-since-last-earnings-report?cid=CS-STOCKNEWSAPI-FT-realtime_blog-2890337
-
-Workday (WDAY) reported earnings 30 days ago. What's next for the stock?
-
----
-
-### 2026-03-26 | Workday Announces Date of Annual Stockholder Meeting on June 16, 2026
-**Source:** PRNewsWire
-**URL:** https://www.prnewswire.com/news-releases/workday-announces-date-of-annual-stockholder-meeting-on-june-16-2026-302725450.html
-
-PLEASANTON, Calif., March 26, 2026 /PRNewswire/ -- Workday, Inc. (NASDAQ: WDAY), the enterprise AI platform for managing people, money, and agents, today announced that its 2026 annual meeting of stockholders will be held virtually on Tuesday, June 16, 2026 at 9:00 a.m.
-
----
-
-### 2026-03-24 | Workday Rides on Subscription Revenue Growth: Will it Sustain?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2888933/workday-rides-on-subscription-revenue-growth-will-it-sustain?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2888933
-
-WDAY rides subscription revenue growth and AI-driven innovation, but slowing estimates and stock decline raise questions about sustainability.
-
----
-
-### 2026-03-23 | Can Workday's Collaboration With Harness Fuel Its Shares?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2888237/can-workday-s-collaboration-with-harness-fuel-its-shares?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2888237
-
-WDAY expands AI-driven software delivery through its partnership with Harness, boosting automation, security validation and faster innovation for enterprise systems.
-
----
-
-### 2026-03-23 | Nordea Investment Management AB Lowers Holdings in Workday, Inc. $WDAY
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/23/nordea-investment-management-ab-lowers-holdings-in-workday-inc-wday.html
-
-Nordea Investment Management AB reduced its holdings in shares of Workday, Inc. (NASDAQ: WDAY) by 43.4% during the undefined quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The firm owned 789,459 shares of the software maker's stock after selling 604,137 shares during the period.
-
----
-
-### 2026-03-23 | Workday, Inc. $WDAY Shares Sold by MassMutual Private Wealth & Trust FSB
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/23/workday-inc-wday-shares-sold-by-massmutual-private-wealth-trust-fsb.html
-
-MassMutual Private Wealth and Trust FSB cut its holdings in shares of Workday, Inc. (NASDAQ: WDAY) by 65.8% in the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The firm owned 2,933 shares of the software maker's stock after selling 5,633 shares during the
 
 ---
