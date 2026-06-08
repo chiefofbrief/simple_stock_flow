@@ -4,6 +4,38 @@
 
 ---
 
+## IPO Scenario Analysis
+
+*Thought exercise. SpaceX targeting June 12 Nasdaq listing at $1.75–2T. OpenAI confidential S-1 filed May 22, targeting September at ~$850B–$1T. Anthropic confidential S-1 filed June 1, $47B ARR run-rate, targeting October at ~$965B. 50/50 weighting.*
+
+**Best case:** IPOs validate AI monetization at scale — $47B ARR for Anthropic, $20B+ for OpenAI prove the compute spend generates real revenue. Hyperscaler CapEx is justified. Reflexivity ascending: proven revenue → more infrastructure investment → more AI company growth → more investment. META's capex flips from reckless to visionary. NVDA's demand floor is cemented. GOOG's Anthropic stake re-marks higher.
+
+**Worst case:** S-1s reveal thin or negative margins despite real revenue — OpenAI not profitable until 2030 on $20B ARR, Anthropic burning through compute to generate compute revenue. SpaceX re-rates toward Morningstar's $780B DCF from the $1.75-2T ask. Market asks "if the AI companies themselves can't make money, who actually profits?" Hyperscalers signal CapEx deceleration in July earnings. Reflexivity reverses.
+
+| Ticker | Base EV | Best Case | Worst Case | Blended (50/50) | Blended Rank |
+|--------|---------|-----------|------------|-----------------|--------------|
+| SONY | 70¢ | 70¢ | 70¢ | **70¢** | 1 |
+| META | 80¢ | 60¢ | $1.15 | **88¢** | 2 |
+| MSFT | 80¢ | 65¢ | $1.10 | **88¢** | 3 |
+| TSM | $1.00 | 85¢ | $1.08 | **96¢** | 4 |
+| FCX | $1.00 | 90¢ | $1.00 | **95¢** | 5 |
+| NVDA | $1.00† | 70¢ | $1.45 | **$1.07** | 6 |
+| GEV | $1.05 | $1.00 | $1.15 | **$1.07** | 7 |
+| GOOG | $1.10 | 90¢ | $1.35 | **$1.12** | 8 |
+| ASML | $1.10 | $1.00 | $1.25 | **$1.12** | 9 |
+| KLAC | $1.10 | $1.00 | $1.30 | **$1.15** | 10 |
+| COHR | $1.30 | $1.10 | $1.60 | **$1.35** | 11 |
+
+† NVDA base was already conditional on hyperscaler CapEx — this scenario directly tests that condition.
+
+**Key ranking changes from base:**
+- SONY jumps from #5 → #1: only name where both scenarios produce the same EV. The value is intrinsic — conglomerate discount, net cash, I&SS/Music/PlayStation franchises. Neither AI boom nor AI bust changes the gap between price and value in 3 months.
+- NVDA drops from #3 → #6: most binary name in the dataset. Best case is deeply attractive (70¢); worst case is the largest single downside (145¢). The 50/50 blend erases the conditional advantage.
+- FCX holds at #5 and improves slightly: commodity thesis is independent. Grasberg execution is the driver regardless of AI narrative direction.
+- COHR, KLAC, ASML all worsen: already priced above intrinsic in the base case; worst case accelerates the gap.
+
+---
+
 ## Summary Table
 
 | 3M Rank | Ticker | Expected Value | Quality | Valuation | Narrative | Catalyst |
