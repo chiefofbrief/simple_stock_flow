@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "BABA",
+    "companyName": "Alibaba Group Holding Limited",
+    "price": 116.265,
+    "mktCap": 271324962523
+  },
+  {
+    "symbol": "CASY",
+    "companyName": "Casey's General Stores, Inc.",
+    "price": 877.23,
+    "mktCap": 32516224758
+  },
+  {
+    "symbol": "ETSY",
+    "companyName": "Etsy, Inc.",
+    "price": 69.17,
+    "mktCap": 6563972298
+  },
+  {
+    "symbol": "GME",
+    "companyName": "GameStop Corp.",
+    "price": 22.36,
+    "mktCap": 10032735836
+  },
+  {
+    "symbol": "LITB",
+    "companyName": "LightInTheBox Holding Co., Ltd.",
+    "price": 3.55,
+    "mktCap": 32443128
+  },
+  {
+    "symbol": "LQDT",
+    "companyName": "Liquidity Services, Inc.",
+    "price": 38.17,
+    "mktCap": 1190187587
+  },
+  {
+    "symbol": "RERE",
+    "companyName": "ATRenew Inc.",
+    "price": 3.965,
+    "mktCap": 1437909108
+  },
+  {
+    "symbol": "RH",
+    "companyName": "Rh",
+    "price": 148.9,
+    "mktCap": 2814324206
+  },
+  {
+    "symbol": "RVLV",
+    "companyName": "Revolve Group, Inc.",
+    "price": 20.91,
+    "mktCap": 1491890904
+  },
+  {
+    "symbol": "TLF",
+    "companyName": "Tandy Leather Factory, Inc.",
+    "price": 2.31,
+    "mktCap": 18811644
+  }
+]
