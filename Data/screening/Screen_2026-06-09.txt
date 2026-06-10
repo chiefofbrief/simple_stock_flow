@@ -1,5 +1,5 @@
-SCREEN — 2026-06-08
-Tickers: NOW
+SCREEN — 2026-06-09
+Tickers: ACM
 Script:  Scripts/screen.py
 Prompt:  Prompts/prompt_screen.md
 
@@ -10,37 +10,37 @@ Spread = Price vs_1Y minus EPS vs_1Y.
 Debt/OCF = Total Debt (most recent quarter) / OCF TTM.
 
 ══════════════════════════════════════════════
-NOW
+ACM
 
   ── SIGNAL ──────────────────────────────────
-  Spread (Price−EPS 1Y)       -46.7%
-  P/E Correlation 1Y          -0.73
-  Mkt Cap                     $118.1B
+  Spread (Price−EPS 1Y)       -64.0%
+  P/E Correlation 1Y          +0.65
+  Mkt Cap                     $9.1B
 
   ── PRICE ───────────────────────────────────
-  Price                       $114.50
-  vs_1Y                       -44.4%
-  vs_2Y                       -18.1%
+  Price                       $71.02
+  vs_1Y                       -35.3%
+  vs_2Y                       -15.5%
 
   ── EARNINGS ────────────────────────────────
-  EPS (TTM)                   $1.68
-  EPS vs_1Y                   +2.3%
-  EPS vs_2Y                   +34.7%
-  Avg EPS QoQ (4Q)            +2.9%
+  EPS (TTM)                   $4.16
+  EPS vs_1Y                   +28.7%
+  EPS vs_2Y                   +13800.0%
+  Avg EPS QoQ (4Q)            +25.1%
 
   ── VALUATION ───────────────────────────────
-  P/E (GAAP TTM)              68.2x
-  P/Owner Earnings            45.4x
+  P/E (GAAP TTM)              17.1x
+  P/Owner Earnings            26.2x
 
   ── QUALITY ─────────────────────────────────
-  ROIC                        15.4%
-  ROIC vs_1Y                  -1.6pp
-  ROIC vs_2Y                  -8.2pp
-  OCF/NI                      3.09x
-  FCF (TTM)                   $4.63B
-  FCF vs_1Y                   +3.9%
-  FCF vs_2Y                   +29.0%
-  Revenue (TTM)               $13.96B
-  Rev vs_1Y                   +22.1%
-  Rev vs_2Y                   +44.8%
-  Debt/OCF                    0.45x
+  ROIC                        13.8%
+  ROIC vs_1Y                  -5.9pp
+  ROIC vs_2Y                  +10.9pp
+  OCF/NI                      1.10x
+  FCF (TTM)                   $410.2M
+  FCF vs_1Y                   -115.4%
+  FCF vs_2Y                   -137.1%
+  Revenue (TTM)               $15.99B
+  Rev vs_1Y                   +0.8%
+  Rev vs_2Y                   -3.6%
+  Debt/OCF                    6.04x
