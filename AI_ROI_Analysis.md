@@ -1,7 +1,24 @@
 # AI ROI Analysis
-*Date: 2026-06-11 | Source: Theses, earnings calls, and MD&A for META, MSFT, AMZN, CRM, SAP*
+*Date: 2026-06-11 | Source: Theses, earnings calls, and MD&A for META, MSFT, AMZN, CRM, SAP; plus external research (SAP/Oxford, Salesforce, Bain, PwC, Reddit)*
 
 ---
+
+## Summary — Combined Takeaway
+
+**The question:** What ROI are enterprises (the demand side) actually getting from AI — and is the narrative driving the capex about to turn?
+
+**One line:** AI's demonstrated ROI today is real but concentrated in cost-avoidance and captured by a minority of companies; the revenue-generating, broadly-distributed ROI that the capex trajectory is priced on is asserted, not shown — and the coming shift to consumption pricing is the mechanism that will force the question.
+
+**From the thesis data (META, MSFT, AMZN, CRM, SAP):** Every company posts strong *sell-side* AI metrics (ARR, attach rates, seats), but none has clean *customer-outcome* ROI. The honest tell is Jassy conceding enterprise success is concentrated in cost avoidance, not new revenue. Net positive today — but thinly, resting on capped cost savings while the uncapped prize (AI-driven revenue growth) stays absent from the numbers. The infrastructure spenders (META/MSFT/AMZN) are funding $130B–$200B/yr each against qualitative "trajectory" ROI cases; the application layer (CRM/SAP) has a more direct demand signal but smaller scale and consumption-pricing risk.
+
+**From the external data (SAP/Oxford, Salesforce, Reddit, Bain/Zitron, PwC):** Four sources with opposing incentives converge: (1) efficiency gains are real but concentrated — PwC's 20% capture 74% of returns; (2) the majority spend without demonstrated ROI and fund the next wave on *unrealized* savings (Bain: 44%); (3) the flat→usage billing transition is the structural catalyst that surfaces real per-enterprise ROI. SAP/Oxford's own commissioned data shows net-negative cash ($26.7M spent / $4.7M returned).
+
+**The combined verdict:** Internal earnings show what vendors are *selling*; external research shows what enterprises are *experiencing*. The gap between the two is the risk. It is currently bridged only by "trajectory" (ROI is back-loaded) or "Dark Output" (ROI is real but unmeasurable) — both ask the market to accept assertion over evidence. A public Anthropic S-1 ($5B sworn cumulative vs. $19B marketed ARR) is the most likely near-term catalyst to force the denominator into the open. The narrative turning earlier than the prior 2027 estimate is a credible, well-supported scenario.
+
+---
+
+# Part 1 — Thesis Data
+*Internal evidence: theses, earnings calls, and MD&A for META, MSFT, AMZN, CRM, SAP.*
 
 ## TL;DR — Plain English Verdict
 
@@ -103,9 +120,8 @@ So the net-positive verdict rests on cost savings, which is real but inherently 
 
 ---
 
-## External Research
-
-*Five sources, four bias directions: two bull-adjacent (SAP/Oxford, Salesforce), one neutral-to-bear (PwC), one bear (Zitron/Bain), one unfiltered (Reddit). They converge more than they diverge.*
+# Part 2 — External Data
+*Independent research outside the corpus: five sources, four bias directions — two bull-adjacent (SAP/Oxford, Salesforce), one neutral-to-bear (PwC), one bear (Zitron/Bain), one unfiltered (Reddit). They converge more than they diverge.*
 
 ### Synthesis — Lead Finding
 
