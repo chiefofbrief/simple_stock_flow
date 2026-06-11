@@ -100,3 +100,80 @@ So the net-positive verdict rests on cost savings, which is real but inherently 
 **Bull:** The most concrete AI attach metric in the corpus. *">2/3 of cloud order entry contained SAP Business AI — a >20pp jump from Q3 2025"* (Q4'25). *"90% of top 50 deals contained AI"* (Q1'26). AI migration tools are measurably compressing ERP implementation costs — Christian Klein: *"customers want to see the cost come down for ERP migrations... AI tooling for ERP migration sold very well."* This is genuine customer ROI: lower implementation cost = faster time-to-value. CFO Dominik Asam on the data moat: *"much of what we do is around hard monetary transactions in complex end-to-end processes... assurance that numbers are precise is ultrahigh."* SAP's AI has an audit/compliance angle that pure LLM outputs can't match.
 
 **Bear:** The attach rate is at the top of the funnel (order entry), not at production deployment. Klein's Q1'26 admission: *"the focus was on making this AI productive, putting those agents into production with our customers. That progressed really well"* — the word "progressed" means it's not done. The consumption-pricing transition risk is explicit from management: Klein said the shift *"could temporarily compress revenue per customer."* The services revenue line is already declining because AI migration tools are reducing what system integrators (SAP's implementation partners) charge — *"the increase in adoption of these AI migration tools naturally reduces the budgets billed to system integrators."* That's deflationary for the broader SAP ecosystem. Cloud backlog decelerated 29% → 25% CC, and management itself flagged it as *"more pronounced than anticipated."* Klein's response when asked if customers are building agents outside the SAP ecosystem: *"We see examples... but nothing that keeps me up at night."* That phrasing is exactly what keeps investors up at night.
+
+---
+
+## External Research
+
+*Five sources, four bias directions: two bull-adjacent (SAP/Oxford, Salesforce), one neutral-to-bear (PwC), one bear (Zitron/Bain), one unfiltered (Reddit). They converge more than they diverge.*
+
+### Synthesis — Lead Finding
+
+**Four sources with opposing incentives agree on the same three things:**
+
+1. **The efficiency gains are real but concentrated.** PwC: 20% of companies capture 74% of returns. Bain: only 4% show >30% improvement. Jassy's internal framing matches: "the largest place enterprises are having success is cost avoidance." The bull case is real — for a minority.
+
+2. **The majority are spending without demonstrated ROI, and funding future spend with unrealized returns.** SAP/Oxford: net-negative cash on reported figures ($26.7M spent / $4.7M returned). Bain: 44% funding the next wave on *unrealized* savings. Salesforce: 84% lack the data infrastructure to deploy AI effectively. That is not an investment posture — it's procurement inertia and FOMO at scale.
+
+3. **The billing transition is the structural risk.** Every relevant source — GitHub Copilot (token consumption), CRM Flex Credits, SAP consumption pricing, Uber's blown token budget — points to the same event: the shift from flat/seat pricing to usage-based pricing surfaces actual ROI at the individual enterprise level. When procurement gets a real denominator, the spread between the 20% and the 80% becomes undeniable.
+
+**What external research adds that earnings data can't:** Earnings calls show what vendors are *selling*. External research shows what enterprises are *experiencing*. The gap between those datasets is the risk — and today it's large enough to require either a "Dark Output" argument (ROI exists but is unmeasurable) or a timing argument (ROI is real but back-loaded). Both require the market to keep accepting assertions over evidence. The question is how long that lasts, not whether it's finite.
+
+**Anthropic IPO as catalyst:** A public S-1 discloses frontier-lab gross margins, compute commitments, and revenue composition under oath. If the $5B cumulative sworn figure represents the underlying frontier-layer economics, the $19B ARR narrative compresses — and with it, the implied ROI case for every enterprise that justified its spend on the assumption that the leading model vendor is economically viable at scale.
+
+---
+
+### SAP/Oxford Economics + Salesforce (vendor-commissioned, bull-incentivized)
+
+*Grouped because both are first-party vendor surveys whose most honest signals survived their own editorial control. The nuances differ.*
+
+**SAP/Oxford (n=1,600):**
+- $26.7M average spend vs. $4.7M average return — net-negative cash on reported figures.
+- 65% unsure AI is delivering full potential; only 9% investing *strategically* (from demonstrated ROI). The rest cite competitive pressure, compliance, or vendor mandates.
+- "There is no going back" = lock-in language from a vendor whose own services revenue is declining because AI cut implementation costs. They need committed customers.
+- The majority are simultaneously spending and cautious — procurement inertia, not conviction.
+
+**Salesforce State of Sales, 7th Ed. (first-party):**
+- *No ROI dollar figure exists in the report.* For a vendor whose incentive is to prove AI works, that absence is the finding.
+- 130,000 leads → 3,200 qualified opportunities (2.5%); no baseline disclosed, so "better than before" is unverifiable.
+- 84% say they need a "complete overhaul" of data infrastructure first — meaning most current spend is *pre-ROI*, buying the preconditions for ROI.
+- Usage-based pricing becoming dominant → enterprises can no longer forecast AI costs per outcome.
+
+**Shared tell:** Both vendors had every incentive to publish a clean ROI number. Neither could. SAP's gap survived editorial control; Salesforce led with infrastructure deficits instead of dollars.
+
+---
+
+### Reddit Thread — Unfiltered Power-User Signal
+
+*Not data — the enterprise power-user read the earnings calls can't produce.*
+
+- **Anthropic affidavit discrepancy:** CFO sworn affidavit (March 9, 2026) states $5B *cumulative lifetime* revenue vs. $19B ARR marketed. Not directly comparable metrics, but the gap implies the ARR figure is heavily forward-projected or built on a narrow committed-contract subset. *Caveat: the $10B compute-cost figure cited alongside is Zitron's estimate, not in the filing — treat as informed estimate, not sworn number.*
+- **Efficiency leakage:** Productivity gains accrue to *employees* (career advancement), not employers (P&L). Structurally why enterprise ROI is hard to find — the value is real but flows to the wrong pocket for corporate accounting.
+- **MSFT opacity:** $37B "AI ARR" spans Azure/M365/GitHub; no Copilot-specific breakout. Seat growth (+6%) is the best demand signal available, and it's decelerating.
+- **Calibration:** Selection-biased toward skeptics. Signal isn't "AI has no ROI" — it's "people close enough to see results clearly aren't seeing the narrative play out."
+
+---
+
+### Zitron + Bain / Uber / Altman (bear-to-neutral)
+
+**Bain data (most important external figures):**
+- 40% of deployments show ≤10% improvement; only 4% show >30%.
+- **44% funding the next investment wave on *unrealized* savings** — nearly half of current capex financed by ROI that hasn't materialized. A circular bet with a built-in financing gap.
+
+**Uber:** Burned its entire annual AI token budget in 4 months — consumption-pricing risk made concrete. Variable AI costs aren't forecastable; underfund and you hit a wall mid-year, overfund and throttle is the same problem reversed.
+
+**Altman admission:** OpenAI's CEO acknowledged most enterprise deployments aren't yet producing measurable ROI — the supplier conceding the demand problem, against his own incentive.
+
+**GitHub Copilot billing transition:** Seat-based flat rate ($19/seat) → token consumption. Flat rate hid low utilization; consumption surfaces it. Same dynamic as MSFT's seat-vs-consumption shift — same product.
+
+**"Dark Output" (bull rebuttal):** Bulls argue value is real but unmeasurable. Treated here as desperate framing: ROI that can't be measured can't justify spend, and procurement eventually reflects that. Unfalsifiable bull cases don't survive budget cycles.
+
+---
+
+### PwC AI Jobs Barometer (n=1,217 C-suite)
+
+**Power-law finding:** 20% of companies capture 74% of AI returns; the other 80% share 26%. This isn't "AI ROI is unproven" — it's "AI ROI is extremely concentrated, and outside the top 20% you're likely net-negative after implementation cost."
+
+The 20% have clean proprietary data, AI governance, and redesigned workflows. The 80% don't: 49% expect *no headcount change* (adding a tool, not redesigning work), and only 15% of leaders have deployed autonomous AI at scale.
+
+**Convergence with internal data:** CRM's own deployment (4M autonomous transactions, 3% Slackbot productivity) puts Salesforce in the 20% — its customers may not be. SAP's 66%+ attach is at order entry, not production — most customers are early in an 80%-distribution journey.
