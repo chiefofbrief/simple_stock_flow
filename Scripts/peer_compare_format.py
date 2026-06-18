@@ -351,6 +351,113 @@ NARRATIVE = """## Part 2 — Narrative
 *Data notes: KLAC and AMKR had no rating distribution three months ago (source coverage begins ~1 month ago). AMKR's source "consensus" label reads Overweight, but its mix (5 Buy / 7 Hold / 2 Underweight) is more cautious than that implies.*"""
 
 
+EARNINGS_QA = """### Earnings-Call Q&A (latest call)
+
+*Every analyst question from each company's most recent earnings call, compressed to one row, with management's response and a tone tag (confident / measured / hedged / declined). Latest call per company: TSM Q1 2026 (Apr 16), NVDA Q1 FY2027 (May 20), AVGO Q2 FY2026 (Jun 3), KLAC Q3 FY2026 (Apr 29), AMKR Q1 2026 (Apr 29). ASML is excluded — its earnings-call Q&A was not captured in any available source (transcripts are prepared-remarks only).*
+
+#### TSM (Q1 2026)
+
+| # | Analyst (firm) | Question — thrust | Management response — substance + tone |
+|---|---|---|---|
+| 1 | Haas Liu (BofA) | What sustains multi-year 3nm demand, and where does 3nm margin go after full depreciation? | HPC/AI is the driver; N3 crosses corporate GM in H2'26, post-depreciation "generally very high" — no number. **Declined/confident** |
+| 2 | Haas Liu (BofA) | What gives confidence to take CapEx to the high end ($56B)? | Demand "very robust" (HPC/AI), pulling equipment in, supply still tight. **Confident** |
+| 3 | Gokul Hariharan (JPM) | How long does the shortage last; build clean-room space first? | 2–3 yrs to build a fab; '27 stays "very tight"; building 3 new N3 fabs. **Confident** |
+| 4 | Gokul Hariharan (JPM) | View on Tesla Terafab / Samsung; can you win it back? | Intel & Tesla are customers and competitors; Intel "formidable," but "no shortcuts." **Confident** |
+| 5 | Charlie Chan (MS) | Threat from larger-reticle/EMIB; open your die to Intel for packaging? | Already supplies largest-reticle CoWoS; building bigger packaging (CoPoS pilot, ~2yrs); "don't leave business on the table." **Confident** |
+| 6 | Charlie Chan (MS) | Give a 3-year dollar CapEx guide (like 2021); is EUV a constraint? | No number, but next 3 yrs "significantly higher" than the prior $101B. **Confident/declined number** |
+| 7 | Sunny Lin (UBS) | Revenue growth vs CapEx growth / capital intensity ahead? | Revenue keeps outpacing CapEx; "no sudden surge in capital intensity." **Confident** |
+| 8 | Sunny Lin (UBS) | Spend extra CapEx so customers don't diversify? | Capacity set by customer demand, "not because of our competitor." **Measured** |
+| 9 | Sunny Lin (UBS) | Upside above +30% 2026; memory-price hit to phone/PC? | Slight softening in price-sensitive PC/phone (high-end fine); precise number in July. **Measured/deferred** |
+| 10 | Jim Fontanelli (Arete) | Has your long-term margin/return view changed as peers print super-normal returns? | Holds 56%+ GM, high-20s ROE "through the cycle"; "ongoing process." **Measured/holds line** |
+| 11 | Jim Fontanelli (Arete) | Arizona's strategic role; will US fab economics match Taiwan? | Bought 2nd land to build more fabs for multiyear US demand; "much more confidence" on cost. **Confident** |
+| 12 | Bruce Lu (Goldman) | Does current profitability fully reflect TSMC's value? | Deflects to "customers are partners," won't price dramatically. **Measured/non-denial** |
+| 13 | Bruce Lu (Goldman) | Change to the mid-to-high-50s AI-accelerator CAGR given token growth? | Nudges up to "toward higher 50s." **Confident** |
+| 14 | Laura Chen (Citi) | Advanced-packaging strategy and model with OSAT partners? | Priority is customers; own packaging "very tight," working with OSATs to add capacity. **Measured** |
+| 15 | Laura Chen (Citi) | Can SoIC/CoPoS solve warpage at large die sizes? | Yes those are the challenges; deep experience, "the harder the better." **Confident** |
+| 16 | Laura Chen (Citi) | Introduce SoIC earlier given your learning curve? | "We work with customers to meet demand" — no speed-up/slow-down. **Measured/deflect** |
+| 17 | Charles Shi (Needham) | Include data-center CPUs in AI revenue; restate history? | Can't separate conventional vs AI server CPU; still excludes CPUs; "someday later might consider." **Declined** |
+| 18 | Charles Shi (Needham) | Nvidia's LPU at Samsung = Samsung's first AI inroad; win it back? | Working with the customer on next-gen LPU; confident in position. **Confident** |
+
+#### NVDA (Q1 FY2027)
+
+| # | Analyst (firm) | Question — thrust | Management response — substance + tone |
+|---|---|---|---|
+| 1 | Joseph Moore (Morgan Stanley) | Why the new segmentation, and the surprising CPU number? | Explains AI/computing diversity; 3 segments (hyperscale / AI-natives+enterprise+sovereign / robotic edge). **Confident/expansive** |
+| 2 | Ben Reitzes (Melius) | Keep growing faster than hyperscaler CapEx; still $3–4T by 2030? | Yes — two engines (hyperscalers + huge fragmented 2nd category); endorses it. **Confident** |
+| 3 | C.J. Muse (Cantor) | Vera Rubin + co-design impact on inference share into '26/'27? | Gaining inference share fast; Vera Rubin "more successful than Grace Blackwell." **Confident** |
+| 4 | Tim Arcuri (UBS) | Traction for merchant CPX/LPX? | LPX is niche (low-latency, high token-rate, limited context); GB/Vera Rubin cover the full lifecycle. **Measured** |
+| 5 | Vivek Arya (BofA) | Agentic CPUs incremental or cannibalistic; is $20B standalone Vera? | $20B is standalone CPU; agents need CPUs; Vera is the "agentic CPU"; supply-constrained. **Confident** |
+| 6 | Stacy Rasgon (Bernstein) | Where do neoclouds sit; does ACIE grow faster than hyperscale? | AI-native clouds = 2nd category; both grow fast, 2nd faster over time. **Confident** |
+| 7 | Jim Schneider (Goldman) | Is Vera the biggest upside above the $1T Rubin/Blackwell visibility? | Upside = growing frontier share, standalone Vera (2nd-largest), LPX (niche). **Confident** |
+| 8 | Joshua Buchalter (TD Cowen) | Will Vera Rubin ramp as fast as the record GB300 ramp? | Starts Q3, ramps Q4; POs and nearly all customers ready; "early to say" exact slope. **Measured** |
+
+#### AVGO (Q2 FY2026)
+
+| # | Analyst (firm) | Question — thrust | Management response — substance + tone |
+|---|---|---|---|
+| 1 | Harlan Sur (JPM) | Square the AI math ($56B H2); is the 18-month backlog now $200B+? | Math ties (2× $19B H1); 2027 "easily" >$100B, "if anything stronger." **Confident** |
+| 2 | Blayne Curtis (Jefferies) | Google LTA — share risk, fixed vs variable, upside? | "Very strong," "substantial dollar" commitment; expects "some diversity of sources" at Google. **Confident/mild hedge** |
+| 3 | Ross Seymore (Deutsche) | Why is gross margin falling harder; continue next year? | Semis mix dilutes consolidated GM (TPUs/ASICs lower, networking rich); operating leverage holds op margins. **Measured/dilution acknowledged** |
+| 4 | Ross Seymore (Deutsche) | Rack vs chip dynamics? | "No racks. It is all chip business only." **Blunt/confident** |
+| 5 | Ben Reitzes (Melius) | Is TAM-per-gigawatt rising (per Jensen); an accelerant? | $/GW "relatively stable" (more power, fewer chips, higher ASP); gigawatts accelerating; 2028 substantial growth. **Confident** |
+| 6 | Tim Arcuri (UBS) | Secure incremental wafers/HBM; add other foundries? | "Comfortable" — supply secured for '26/'27, working '28/'29. **Confident** |
+| 7 | Stacy Rasgon (Bernstein) | Any change to the ~10GW 2027 shipment target? | ~10GW "intact," back-half loaded; more in 2028. **Confident** |
+| 8 | Jim Schneider (Goldman) | Will networking (40% of AI rev) fall as XPUs ramp; optical/CPO timing? | 40% is "high end," trends toward ~30%; optical/CPO increasingly meaningful. **Measured** |
+| 9 | Tom O'Malley (Barclays) | Is the Anthropic deal a chip "backstop"; more such deals? | Corrects framing — TPUs provide compute (not backstop); building a funded-compute XPU vehicle. **Corrective/measured** |
+| 10 | C.J. Muse (Cantor) | Any niche XPU-attached programs of interest? | "No" — straightforward model (XPUs + components) plus the funded-compute vehicle. **Measured** |
+| 11 | Atif Malik (Citi) | Is AI hurting Infrastructure Software growth/renewals? | No — higher-core servers accelerate VMware; expects tailwinds. **Confident** |
+| 12 | Edward Snyder (Charter) | A second wave of enterprise AI demand coming? | Enterprise AI early; mostly consumed via frontier-model platforms → demand returns to AVGO compute. **Measured** |
+| 13 | Joe Moore (Morgan Stanley) | Why $30B AI bookings vs much smaller shipments? | Customers order far ahead for lead times; visibility now into 2028. **Confident** |
+| 14 | Joshua Buchalter (TD Cowen) | How does revenue-per-gigawatt evolve? | Content/GW rises over generations (more HBM, CPU cores, multi-die). **Confident** |
+
+#### KLAC (Q3 FY2026)
+
+| # | Analyst (firm) | Question — thrust | Management response — substance + tone |
+|---|---|---|---|
+| 1 | C.J. Muse (Cantor) | Where is the extended lead-time / '27 visibility coming from? | Broad-based, backlogs building, urgency to secure slots; '27 a "massive buildup." **Confident** |
+| 2 | C.J. Muse (Cantor) | Does high-teens H2 imply ~$15B for cal-2026? | Yes, ~15-ish (15–20% H2 sequential). **Confident** |
+| 3 | Stacy Rasgon (Bernstein) | Why isn't the 2030 model higher given current strength? | Semi-revenue piece rising on memory-pricing elasticity; would push up if redone today. **Confident** |
+| 4 | Stacy Rasgon (Bernstein) | Impact of the new China/Huahong ban letter? | Immaterial to guidance (affiliated-fab focus); China grows slower than WFE. **Measured** |
+| 5 | Harlan Sur (JPM) | WFE upside — greenfield vs migrations vs yield; which segments drive '27? | Urgency across segments; '27 greenfield logic+memory+flash+packaging — broad-based. **Confident** |
+| 6 | Harlan Sur (JPM) | Services growth vs the 13–15% target? | In range, trending to the higher end as shipments flow into service. **Confident** |
+| 7 | Krish Sankar (TD Cowen) | How much visibility is true demand vs customers reserving capacity? | Real — customers are opening these fabs, large committed investments. **Confident** |
+| 8 | Krish Sankar (TD Cowen) | Does CPU demand on Intel 3/7 prior nodes benefit KLA? | Yes — broadening leading-edge + yield focus plays to KLA. **Confident** |
+| 9 | Joe Quatrochi (Wells Fargo) | Yield drive = process-control sales or service? | Drives process-control sales (esp. die-size changes); Intel publicly adding metrology. **Confident** |
+| 10 | Joe Quatrochi (Wells Fargo) | KLA's own supply-chain capacity to support the ramp into '27? | H1'26 was supply-constrained (ramp slope "surprised us"); better for '27; hiring. **Measured/acknowledges constraint** |
+| 11 | Tim Arcuri (UBS) | You guide high-teens vs consensus mid-20s WFE — is WFE too high? | Baseline ~$120B→$140B+ (high-teens); KLA systems business grows >20%. **Measured** |
+| 12 | Tim Arcuri (UBS) | High-NA pushout — net puts/takes for KLA? | No change to the model; a "push"; intensity driven by more than litho (2nm > 3nm). **Measured** |
+| 13 | Jim Schneider (Goldman) | Advanced-packaging revenue growth this year? | >$1B (from $635M in '25) — one of the fastest-growing markets. **Confident** |
+| 14 | Jim Schneider (Goldman) | When does process-control intensity materially outgrow WFE? | +160bps share/5yr (6.5% above market); targeting +150bps more (~4.5% above ~12% WFE). **Confident** |
+| 15 | Charles Shi (Needham) | X-ray vs optical metrology — who wins? | Highest-capability tool, then cost-of-ownership; x-ray slow (cost/throughput), ~$75–100M market, KLA ~60%. **Measured/technical** |
+| 16 | Charles Shi (Needham) | What drove the advanced-packaging upward revision in 60–90 days? | Was >30% growth, now upper-50s%; packaging short lead-time, momentum picked up. **Confident/notable revision** |
+| 17 | Srini Pajjuri (RBC) | WFE $140B+ but guide still high-teens — reconcile? | Small upward adjustment; slightly stronger '26 view. **Measured** |
+| 18 | Srini Pajjuri (RBC) | '27 by end-market (memory vs logic); China base case? | More memory-weighted next year (greenfield DRAM/flash); China grows slower than WFE. **Measured** |
+| 19 | Shane Brett (Morgan Stanley) | Use slot scarcity to raise margin / pass DRAM cost faster? | "We don't price on scarcity" — value-based pricing; memory headwind normalizes eventually. **Measured/disciplined** |
+| 20 | Shane Brett (Morgan Stanley) | Advanced packaging $13–14B vs the $12B guide? | KLA process-control high-50s% growth; overall packaging market ~$13B (~30%). **Confident** |
+| 21 | Edward Yang (Oppenheimer) | DRAM chips procured through '26 or longer? | "Longer" — comfortable through next year. **Confident** |
+| 22 | Edward Yang (Oppenheimer) | Bridge WFE to hyperscaler CapEx — some came in light? | Demand "way underserving"; can't draw a straight line; "massive shortage through 2030." **Very confident/rebuts CapEx fear** |
+| 23 | Chris Caso (Wolfe) | Does demand>supply cap what KLA can ship in '26 (clean-room limits)? | Yes — ecosystem-constrained; can't jump $140B→$200B in '26; fabs must be built now. **Confident** |
+| 24 | Chris Caso (Wolfe) | Gross-margin 62% puts/takes? | Memory headwind worse (~100bps), DDR4/DDR5, tariffs; 62% ±50bps still appropriate. **Measured/margin headwind** |
+
+#### AMKR (Q1 2026)
+
+| # | Analyst (firm) | Question — thrust | Management response — substance + tone |
+|---|---|---|---|
+| 1 | Jim Schneider (Goldman) | H2 gross-margin puts/takes from the Q2 baseline? | Pricing covers most cost increases; GM to mid-high teens H2 on utilization/mix/pricing. **Measured/confident** |
+| 2 | Jim Schneider (Goldman) | Does the compute ramp inflect in Q3 or Q4? | CPE ramp starts this quarter, meaningful in Q3, continues into '27. **Confident** |
+| 3 | Ben Reitzes (Melius) | Timing of the 1–2pt Arizona margin hit in '27 + offsetting revenue? | Early to be precise; ~1–2% full-year op-margin hit; meaningful Arizona revenue end-'29, full impact 2030. **Hedged on timing** |
+| 4 | Ben Reitzes (Melius) | CPU ramp — one win or a category (ARM/x86)? | One device ramps first; >5 customers engaged on HDFO; broadening. **Measured** |
+| 5 | Randy Abrams (UBS) | Utilization/headroom in Korea/Vietnam ahead of Arizona? | Q1 utilization "low 70s" (vs 50s yr-ago); building Korea facility; Vietnam headroom. **Confident** |
+| 6 | Randy Abrams (UBS) | Arizona scale + Intel EMIB + CoWoS-L? | Arizona ~$1B run-rate (>10% of '25 rev); EMIB collaboration continuing; CoWoS-L a 2027 story. **Measured** |
+| 7 | Peter Peng (JPM) | AI advanced packaging — demand-driven or supply-constrained? | Still on track to triple, could exceed; silicon/memory supply + ramp timing are the swing factors. **Confident** |
+| 8 | Peter Peng (JPM) | Is low-single-digit assumed for the rest of the business; comms H2? | Comms stronger (low-double-digit possible); cautious on the usual H2 boost. **Measured** |
+| 9 | Craig Ellis (B. Riley) | Comms better; why are notebooks/PCs soft? | A customer is rebalancing its supply chain (prioritizing non-PC); not signaling strong PC. **Measured** |
+| 10 | Craig Ellis (B. Riley) | CapEx linearity for the $2.75B? | ~30% H1 / 70% H2. **Confident** |
+| 11 | Denis Pyatchanin (Needham) | Rank-order end-market growth; memory-price impact on demand? | Compute +20%, auto/industrial strong on advanced, comms ~double-digit; ~$50–100M material pushout. **Measured** |
+| 12 | Denis Pyatchanin (Needham) | Arizona margin into '28 + financing mix for the $7B? | Arizona "meaningfully higher" margin; CHIPS $400M + 35% ITC ≈ $2.8B; ample '26 liquidity. **Measured/confident** |
+| 13 | Joe Moore (Morgan Stanley) | Export-control variables to watch? | Two: Middle-East/oil commodity pressure + US-China AI export rules; "normalized," no big impact today. **Measured** |"""
+
+
 doc = (f"# TSM ANALYSIS\n\n*Generated {date}. All figures USD. Part 1 = financials; Part 2 = narrative.*\n\n"
        + "> Read **Section 4 — Data-Quality Notes** before drawing conclusions. An asterisk (\\*) marks a figure the notes flag as potentially misleading.\n\n"
        + DETERMINATION + "\n\n"
@@ -359,7 +466,8 @@ doc = (f"# TSM ANALYSIS\n\n*Generated {date}. All figures USD. Part 1 = financia
        + section_trend() + "\n\n"
        + DATA_QUALITY + "\n\n"
        + GLOSSARY + "\n\n"
-       + NARRATIVE + "\n")
+       + NARRATIVE + "\n\n"
+       + EARNINGS_QA + "\n")
 
 with open(os.path.join(base, "..", "TSM ANALYSIS.md"), "w") as f:
     f.write(doc)
