@@ -536,4 +536,32 @@ Technical: The Q1 2026 effective tax rate was 12.8% versus a 20% full-year targe
 
 ## Additional Context
 
-*Qualitative context from third-party articles and TSMC investor reports (Q1 2026 + 2025 annual). Raw verbatim excerpts are retained in `Additional_Context_Sources.md`. Synthesis to follow — focus: the advanced-packaging (CoWoS) chokepoint, TSM's deliberate under-pricing, and what mainstream analysis is missing.*
+*Qualitative context from third-party articles and TSMC investor reports (Q1 2026 + 2025 annual). Raw verbatim excerpts in `Additional_Context_Sources.md` (A1–A5 = articles; B1–B8 = TSM reports). Each takeaway is labeled by how well TSM's own filings corroborate it.*
+
+### 1. Under-monetized pricing and an unrealized margin runway — [Corroborated by TSM's reports]
+
+TSM is deliberately under-pricing its lead, leaving margin upside that models built on current pricing do not capture.
+- *Pricing philosophy* (A5): "they are not using or abusing [their position] to crank up prices… Never disturb a customer who is busy buying… the benefits of a new node are given to the clients up front… Despite being the most successful node ever, the 3nm process has not reached the corporate point yet, which will happen sometime during 2026."
+- *TSM's own numbers corroborate the runway:* 3nm was 24% of wafer revenue in 2025 in its third full year of ramp (B5), yet group gross margin is already 66.2% (+7.4pp YoY) and operating margin 58.1% (+9.6pp YoY) (B8). 3nm crossing the corporate margin in 2026 plus the 2nm ramp is a structural tailwind not yet in the P&L.
+- Ties to Part 2: this is the same "unexercised pricing optionality" analysts probed (Goldman's "does profitability fully reflect TSMC's value") — here confirmed by management's stated philosophy, not just inferred.
+
+### 2. The advanced-packaging (CoWoS) chokepoint — [Moat corroborated by TSM; revenue scale is third-party]
+
+The most under-weighted structural argument is that the scarce step in AI hardware is packaging, not the wafer — and it sits between every AI chip and its shipment.
+- *The chokepoint and ASP* (A1): "the only version that works at scale is TSMC's CoWoS… Advanced packaging prices are rising at 2-4x the rate of the wafers themselves. Scarcity isn't in the silicon, it's in the glue." Capacity ~35k wafers/mo (end-2024) → ~75k (end-2025) → ~125–130k target (end-2026), "still not enough."
+- *It captures the whole custom-ASIC wave* (A2): Google TPU, Amazon Trainium, Microsoft Maia, Meta MTIA, and OpenAI (via Broadcom) all route through TSM for fabrication and CoWoS. "Broadcom and Marvell together control roughly 95% of the ASIC… co-design market," and custom ASICs are growing ~44% CAGR vs ~16% for GPUs — so packaging demand compounds from Nvidia GPUs and all five hyperscaler ASIC programs at once.
+- *Broadcom is structurally downstream of TSM* (A1): "$73 billion AI chip backlog… targeting $100 billion in annual AI chip revenue by 2027… Broadcom doesn't own a single fab… Broadcom's revenue conversion rate is, at a structural level, a function of what TSMC schedules on its CoWoS line."
+- *The revenue claim — flagged as third-party* (A3): "TSMC's packaging business could nearly double into a $6-7B quarterly revenue engine by 2027… That projection exists nowhere in published analyst models." TSM does not disclose CoWoS revenue; the closest proxy — the "Others" product line — was NT$166.0B in Q1'26, +32.6% YoY, slightly *slower* than Wafer (+35.6%) (B1). So packaging is not visibly out-growing wafers at the disclosed level. Treat the capacity/ASP/$6–7B figures as credible industry reporting, not filing-confirmed.
+- *What TSM does corroborate — moat depth* (B6): a multi-generation 3DFabric roadmap (CoWoS-L 3.5-reticle in 2024 → 5.5-reticle qualifying 2026 → 9.5-reticle in progress; SoIC 3nm in volume 2025; SoW gen-2 logic+HBM in development; COUPE silicon photonics to volume 2026).
+- *Reframes the top narrative concern:* the "customers diversifying to Samsung/Intel" worry (Part 2) is largely a capacity-overflow symptom — the diversifying ASICs still route through TSM's fab and CoWoS.
+- *Counter-risks* (A4): Powertech's PiFO glass-substrate packaging is "reportedly around 30% cheaper than TSMC's CoWoS" and would pressure pricing "if it scales… before 2027"; outsourcing to Amkor/SPIL (240k–270k wafers/yr) eases but does not fix the bottleneck; TSM's Arizona advanced-packaging facility is "not expected to reach volume production before 2028."
+
+### 3. Physical AI / robotics — an under-modeled growth vector — [Optionality]
+
+If physical AI (robotics, edge) becomes a wave, it is incremental TSM demand that analysts modeling TSM on data-center HPC are not capturing.
+- *The signal in the data:* IoT was the fastest-growing platform in Q1'26 at +59% YoY (NT$38.7B → NT$61.6B; B1) and +12% QoQ (B4) — ahead of HPC (+41%).
+- *The gap:* TSM's own outlook names "the explosive growth in token volume," enterprise AI, and "Sovereign AI" as the AI drivers — not robotics/physical AI (B5). Meanwhile NVDA management leans heavily on "Physical AI is here" and the robotic edge (Part 2 Q&A). So physical AI is currently an NVDA narrative, largely absent from how TSM is framed — yet every robot/edge "brain" is fabbed and packaged at TSM.
+- *Caveat:* IoT is only ~5.4% of revenue (small base) and bundles edge/connectivity/wearables — robotics is a subset and a leading indicator, not the whole line.
+
+### Net
+The strongest *corroborated* bull driver is the under-monetized pricing/margin runway. The packaging-chokepoint argument is the most powerful *if* the revenue scale proves out — TSM confirms the moat but not the numbers — and it also defuses the main diversification concern. Physical AI is genuine optionality the Street is not yet modeling for TSM. The honest bear points are PiFO/glass substrates and the 2028 Arizona-packaging timeline.
