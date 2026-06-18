@@ -27,6 +27,25 @@ ROWS = [
 ]
 THRESH = 20  # bold when peer beats TSM by >= 20% (snapshot) / 20pp (CAGR)
 
+# Cells the Section-4 notes flag as potentially misleading. Scope letters:
+# C = Current table, T = TTM table, Y = trend (3yr) block. Numbers are NOT changed;
+# an asterisk is appended so the reader checks the matching Section-4 note.
+FLAGS = {
+    "TSM":  {"op_margin": "CTY", "roic": "CTY", "fcf": "CTY", "fcf_ocf": "CTY"},
+    "NVDA": {"gaap_pe": "CT", "roic": "CTY", "revenue": "CT"},
+    "AVGO": {"gaap_pe": "CT", "fcf": "CTY", "fcf_ocf": "CTY", "revenue": "CTY",
+             "roic": "CTY", "op_margin": "Y"},
+    "ASML": {"ocf": "C", "fcf": "C", "revenue": "CT", "roic": "CTY"},
+    "KLAC": {"nongaap_pe": "CT", "ocf": "CT", "fcf": "CT", "fcf_ocf": "CT"},
+    "AMKR": {"gaap_pe": "CT", "nongaap_pe": "CT", "poe": "CT", "roic": "CTY",
+             "op_margin": "CTY", "fcf": "CTY", "fcf_ocf": "CTY", "capex": "CTY",
+             "revenue": "CTY"},
+}
+
+
+def star(ticker, key, scope):
+    return "*" if scope in FLAGS.get(ticker, {}).get(key, "") else ""
+
 
 def fmt(v, kind):
     if v is None:
@@ -54,18 +73,20 @@ def section_snapshot(which, title):
     L = [f"## {title}", "",
          "| Metric | " + " | ".join(TICKERS) + " |",
          "|" + "---|" * (len(TICKERS) + 1)]
+    sc = "C" if which == "current" else "T"
     for key, label, kind, *_rest, direction in ROWS:
         tsm = d["TSM"][which].get(key)
-        cells = [fmt(tsm, kind)]
+        cells = [fmt(tsm, kind) + star("TSM", key, sc)]
         for t in TICKERS[1:]:
             v = d[t][which].get(key)
             delta = snap_cell(v, tsm, direction)
+            s = star(t, key, sc)
             if v is None:
-                cells.append("NM")
+                cells.append("NM" + s)
             elif delta is None:
-                cells.append(f"{fmt(v, kind)} (NM)")
+                cells.append(f"{fmt(v, kind)}{s} (NM)")
             else:
-                cells.append(f"{fmt(v, kind)} {delta}")
+                cells.append(f"{fmt(v, kind)}{s} {delta}")
         L.append(f"| {label} | " + " | ".join(cells) + " |")
     return "\n".join(L)
 
@@ -109,7 +130,8 @@ def section_trend():
                         dstr = f"**{pp:+.0f}pp**" if beat else f"{pp:+.0f}pp"
             else:
                 cstr, dstr = "—", "—"
-            L.append(f"| {label} | " + " | ".join(vals) + f" | {cstr} | {dstr} |")
+            lbl = label + star(t, key, "Y")
+            L.append(f"| {lbl} | " + " | ".join(vals) + f" | {cstr} | {dstr} |")
         out.append("\n".join(L))
     return "\n".join(out)
 
@@ -293,7 +315,7 @@ Plain: AMKR paid an unusually low tax rate last quarter, which boosted its earni
 Technical: The Q1 2026 effective tax rate was 12.8% versus a 20% full-year target, so at a normal rate Q1 EPS would have been roughly $0.27-$0.29 rather than the reported $0.33 [`AMKR_Thesis.md:578`]."""
 
 doc = (f"# TSM ANALYSIS\n\n*Financials only. Generated {date}. All figures USD.*\n\n"
-       + "> Read **Section 4 — Data-Quality Notes** before drawing conclusions from the tables.\n\n"
+       + "> Read **Section 4 — Data-Quality Notes** before drawing conclusions. An asterisk (\\*) marks a figure the notes flag as potentially misleading.\n\n"
        + section_snapshot("current", "Section 1 — Current (latest quarter, annualized x4)") + "\n\n"
        + section_snapshot("ttm", "Section 2 — TTM (trailing four quarters)") + "\n\n"
        + section_trend() + "\n\n"
