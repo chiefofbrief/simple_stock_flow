@@ -335,6 +335,29 @@ DETERMINATION = """## Part 1 — Financial Determination (financials only)
 
 NARRATIVE = """## Part 2 — Narrative
 
+### Narrative Determination
+
+*Narrative only — drawn from the Analyst Grades, Earnings-Call Q&A, and News subsections below. No financials; geopolitics appears only where it surfaces in the coverage itself.*
+
+**TSM — the prevailing narrative.** The dominant story is the "irreplaceable AI foundry / pick-and-shovel": demand far exceeds supply through at least 2027, record results, and an accelerating capacity buildout (3 new N3 fabs, Arizona expansion, ~$200B 2026–28 capex). It is the most uniformly positive narrative in the peer set — analysts are 98% bullish with zero Hold-or-worse dissent, management's Q&A tone is confident throughout, and the news skews Bull (record May revenue +30%, capacity expansion). The only real debate in the coverage is valuation framing ("Not Expensive… On AI Demand" vs "Bubble Territory"), not the business trajectory.
+
+**Most excited about:**
+- **Supply-constrained demand = pricing power.** The shortage is treated as a high-quality problem; management expects supply "very tight" through 2027.
+- **Unexercised pricing optionality.** Analysts (Bruce Lu, Goldman) explicitly probe whether current profitability "fully reflects TSMC's value" — the bull tell that the Street sees upside management has not yet taken.
+- **Capacity & packaging leadership** — 3 new N3 fabs, Arizona, CoWoS/CoPoS; AI-accelerator CAGR nudged up to "higher 50s."
+
+**Most concerned about:**
+- **Customers diversifying to Samsung/Intel** — the single recurring concern across Q&A and News: "Google, Tesla, BYD seek Samsung amid TSMC crunch," Tesla's Terafab, AMD's 2nm talks with Samsung, and Nvidia's LPU at Samsung (the one "Samsung made its first AI inroad" data point). Notably it is framed as a consequence of TSM's strength (too much demand to serve), not share loss on merit.
+- **Margin/capex cadence** — when N3 margin crosses over and where capital intensity goes; management repeatedly declines specifics ("no number").
+- **Taiwan structural limits** (talent, water) and US-China framing appear in the news as background concerns, secondary to the diversification thread.
+
+**TSM vs the peer set — narrative is a clear tailwind, the strongest in the group:**
+- **Analyst conviction:** TSM is #1 at 98% bullish with zero dissent — ahead of NVDA (94%), AVGO (93%), ASML (81%), KLAC (59%), AMKR (36%).
+- **Cleanliness of the story:** TSM's narrative has the fewest cracks. By contrast, AVGO's latest print drew "Broadcom shares plunge after AI guidance" plus VMware backlash; AMKR's story is bullish but speculative (Arizona dilution, a $1.15B convertible, financing questions); ASML carries China/MATCH-Act and 1,700-layoff overhangs; KLAC's rally comes with a "post-split warning"/valuation caution and a DRAM margin headwind. NVDA is the only peer with a comparably euphoric narrative.
+- **TSM vs NVDA:** NVDA's narrative is louder and more retail-driven (bond issuance, "$6 trillion," "physical AI"); TSM's is institutional and execution-based (record results, capacity, little drama). Both are demand-constrained and confident; TSM's is the steadier.
+
+**Narrative caveat (narrative-only).** TSM's story is so uniformly positive — 98% bullish, no dissent, an active "fully priced/bubble" debate — that the narrative itself leaves little room for positive surprise and is exposed if any crack widens (the Samsung-diversification thread is the most likely candidate). A unanimous narrative is a tailwind today but a thin margin of safety on sentiment.
+
 ### Analyst Grades
 
 *Manually pulled 2026-06-18. The FMP analyst feed was unreliable (thin coverage for TSM/ASML/AMKR; split-distorted price targets for KLAC), so this hand-collected rating distribution replaces it. "% Bullish" = (Buy + Overweight) / Total; the trend column shows % Bullish three months ago to now.*
