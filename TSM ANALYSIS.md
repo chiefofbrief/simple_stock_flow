@@ -446,3 +446,67 @@ Technical: The Q1 2026 effective tax rate was 12.8% versus a 20% full-year targe
 | 11 | Denis Pyatchanin (Needham) | Rank-order end-market growth; memory-price impact on demand? | Compute +20%, auto/industrial strong on advanced, comms ~double-digit; ~$50–100M material pushout. **Measured** |
 | 12 | Denis Pyatchanin (Needham) | Arizona margin into '28 + financing mix for the $7B? | Arizona "meaningfully higher" margin; CHIPS $400M + 35% ITC ≈ $2.8B; ample '26 liquidity. **Measured/confident** |
 | 13 | Joe Moore (Morgan Stanley) | Export-control variables to watch? | Two: Middle-East/oil commodity pressure + US-China AI export rules; "normalized," no big impact today. **Measured** |
+
+### News (last ~90 days, through 2026-06-18)
+
+*Organic themes from each company's news file (Perigon + FMP). Headlines are verbatim, cited [source, date]. "Lean" (Bull / Concern / Neutral) is tagged to triangulate with the Analyst Grades and the Q&A. All six included (ASML has news; only its call Q&A was missing).*
+
+#### TSM
+
+| Theme | Lean | Verbatim headline(s) [source, date] |
+|---|---|---|
+| AI/HPC demand, record results & capacity buildout | Bull | "TSMC reports May revenue up 30% on AI" [Perigon, 2026-06-14]; "TSMC Reports Record Profit, Beats Q1 Estimates" [Perigon, 2026-04-19]; "TSMC approves $20B Arizona expansion" [Perigon, 2026-05-17] |
+| Customers seeking Samsung as backup (concentration/competition) | Concern | "Google, Tesla, BYD seek Samsung amid TSMC crunch" [Perigon, 2026-06-18]; "Samsung draws advanced chipmaking interest as TSMC capacity tightens" [FMP, 2026-06-18]; "AMD reported advanced talks with Samsung for 2nm" [Perigon, 2026-05-07] |
+| Advanced-packaging race (CoPoS / panel-level; Amkor pact) | Bull | "TSMC reported panel-level packaging push against Samsung" [Perigon, 2026-06-18]; "Amkor shares jump on 10-year TSMC partnership" [Perigon, 2026-06-18] |
+| Valuation debate (cheap vs bubble) | Neutral | "Taiwan Semiconductor: Not Expensive When You Run The Numbers On AI Demand" [FMP, 2026-06-18]; "TSM at $426: Bubble Territory or a Buy for the Next AI Supercycle?" [FMP, 2026-06-17] |
+| Taiwan/geopolitical constraints (talent, water, US-China) | Concern | "TSMC CEO warns Taiwan talent, water shortages" [Perigon, 2026-06-14]; "Did the US-China Summit Make TSMC More Vulnerable?" [FMP, 2026-05-19] |
+
+#### NVDA
+
+| Theme | Lean | Verbatim headline(s) [source, date] |
+|---|---|---|
+| Demand momentum / "buy the dip" | Bull | "NVIDIA CEO Jensen Huang on AI Stock Dips: "Everybody Should Be Very Excited to Buy Stock at a Cheaper Price"…" [FMP, 2026-06-18]; "Nvidia Stock Gains as the Chip Maker Looks to Growth Outside the U.S." [FMP, 2026-06-18] |
+| Debt-funded AI expansion | Neutral | "Nvidia to Sell $20 Billion in Bonds" [Perigon, 2026-06-18]; "Nvidia Sells $25B Bonds to Fund AI Expansion" [Perigon, 2026-06-18] |
+| Competition (AMD/Intel, custom ASICs, AWS/Qualcomm) | Concern | "11 Words From Nvidia CFO Colette Kress That Should Have AMD and Intel Investors Worried" [FMP, 2026-06-18]; "AWS, Qualcomm plan AI200 accelerators to cut inference costs" [Perigon, 2026-06-18] |
+| Valuation / "mispriced" upside | Bull | "Why Nvidia's stock is mispriced, and Wall Street is underestimating its earnings power." [FMP, 2026-05-19]; "Will Nvidia Be Worth $6 Trillion a Year From Now? Wall Street Has a Clear Answer." [FMP, 2026-04-19] |
+| Physical AI / ecosystem expansion | Bull | "Nvidia says "Physical AI is here". Is Your Blue Collar Job in Danger?" [FMP, 2026-05-19] |
+
+#### AVGO
+
+| Theme | Lean | Verbatim headline(s) [source, date] |
+|---|---|---|
+| AI-guidance disappointment / post-earnings slide | Concern | "Broadcom shares plunge after AI guidance" [Perigon, 2026-06-13]; "Broadcom shares slide after earnings AI outlook" [Perigon, 2026-06-14] |
+| VMware backlash / customer exits | Concern | "Tesco plans 40,000-workload VMware exit, sues Broadcom" [Perigon, 2026-06-18] |
+| Custom-ASIC / funded-compute deals | Bull | "Apollo, Blackstone $35B AI deal for Anthropic" [Perigon, 2026-06-12] |
+| Street support despite the miss | Bull | "Broadcom Stock Pops After JPMorgan Calls For Aggressive Buying" [FMP, 2026-06-17]; "Good News for Broadcom Stock Fans" [FMP, 2026-06-18] |
+| AI-bubble / valuation skepticism | Concern | "Legendary Short Seller Jim Chanos Issues Dire Prediction: "We Have the Same Setup" As the Dot-Com Crash…" [FMP, 2026-06-17] |
+
+#### ASML
+
+| Theme | Lean | Verbatim headline(s) [source, date] |
+|---|---|---|
+| Record valuation / Europe's most valuable | Bull | "ASML becomes Europe's most valuable listed company" [Perigon, 2026-06-12]; "ASML Stock Surges on Record $700B Market Cap" [Perigon, 2026-06-11] |
+| China export-control / MATCH Act risk | Concern | "China warns MATCH Act chip export curbs" [Perigon, 2026-04-26]; "ASML faces proposed US China export curbs" [Perigon, 2026-04-08] |
+| Restructuring / layoffs | Concern | "ASML plans 1,700 layoffs amid restructure" [Perigon, 2026-04-24]; "ASML finalizes social plan, delays 1,700 job cuts" [Perigon, 2026-06-13] |
+| High-NA EUV ramp + raised guidance | Bull | "ASML Expects First High-NA Chip Products Within Months" [FMP, 2026-05-19]; "ASML Raises 2026 Net Sales Guidance on Strong Q1" [Perigon, 2026-04-18] |
+| Valuation debate (overvalued?) | Neutral | "Is ASML Overvalued? DCF Says Worth $1075" [FMP, 2026-05-18]; "ASML Premium Shrinks To Decade Low As Shares Rise 36% YTD" [FMP, 2026-04-16] |
+
+#### KLAC
+
+| Theme | Lean | Verbatim headline(s) [source, date] |
+|---|---|---|
+| 10-for-1 stock split | Neutral | "KLA completes 10-for-1 stock split" [Perigon, 2026-06-16]; "KLA announces 10-for-1 stock split, dividend" [Perigon, 2026-05-15] |
+| Earnings + AI chip-equipment rally | Bull | "KLA shares jump 10% after earnings, split" [Perigon, 2026-06-12]; "Applied Materials, KLA stocks gain as AI boom lifts chip equipment outlook" [FMP, 2026-06-11] |
+| Process-control / 2nm & yield positioning | Bull | "KLA Corporation: Quietly Dominating The 2nm Hyperscaler Race" [FMP, 2026-05-15]; "Is KLA Becoming the Biggest Beneficiary of AI Semiconductor Spending?" [FMP, 2026-05-14] |
+| China chip-tool restrictions | Concern | "US orders multiple chip-tool halts, Hua Hong" [Perigon, 2026-05-01]; "KLA stock drops 3.35% on Samsung-strike fears" [Perigon, 2026-05-17] |
+| Valuation / post-split warning & buyback | Neutral | "After a 45% Rally, This Post-Split Stock May Be Sending a Warning Signal" [FMP, 2026-06-16]; "KLAC DCF Analysis: Intrinsic Value $1108 vs Price $1737" [FMP, 2026-04-13] |
+
+#### AMKR
+
+| Theme | Lean | Verbatim headline(s) [source, date] |
+|---|---|---|
+| TSMC 10-year advanced-packaging partnership | Bull | "Amkor shares jump on 10-year TSMC partnership" [Perigon, 2026-06-18]; "TSMC and Amkor Technology Announce Long Term Partnership to Accelerate Advanced Packaging in the United States" [FMP, 2026-06-16] |
+| Arizona $7B expansion / re-rating | Bull | "Amkor $7B Arizona advanced packaging expansion plans" [Perigon, 2026-05-25]; "Amkor Technology: The Arizona Re-Rating Has More Room To Run" [FMP, 2026-05-12] |
+| Earnings beat but stock dipped | Neutral | "Amkor Q1 Beats; Issues Q2 and 2026 Guidance" [Perigon, 2026-04-29]; "Amkor Shares Dip After Q1 2026 Earnings Beat" [Perigon, 2026-05-01] |
+| Debt financing ($1.15B convertible) | Concern | "Amkor stock rise after $1.15 billion debt deal" [Perigon, 2026-05-12]; "Amkor plans $1B convertible notes offering" [Perigon, 2026-05-02] |
+| AI packaging / HDFO / smartphone demand | Bull | "Amkor shares surge 7.6% amid packaging targets" [Perigon, 2026-06-12]; "Can HDFO Adoption Strengthen Amkor's Compute Growth Opportunity?" [FMP, 2026-06-12] |
