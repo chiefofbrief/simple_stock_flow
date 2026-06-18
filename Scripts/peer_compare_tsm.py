@@ -44,7 +44,7 @@ FMP_API_KEY = os.getenv("FMP_API_KEY")
 EURUSD = 1.16128
 USDTWD = 31.496
 
-TICKERS = ["TSM", "ASML", "KLAC", "NVDA", "AMD", "INTC", "AMKR"]
+TICKERS = ["TSM", "NVDA", "AVGO", "ASML", "KLAC", "AMKR"]
 ANCHOR = "TSM"
 ADR_RATIO = {"TSM": 5}  # ordinary shares per ADR; default 1
 

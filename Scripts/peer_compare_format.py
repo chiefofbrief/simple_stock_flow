@@ -7,9 +7,9 @@ date = datetime.now().strftime("%Y-%m-%d")
 base = os.path.dirname(os.path.abspath(__file__))
 d = json.load(open(os.path.join(base, "..", "Data", "screening",
                                 f"Peer_Compare_TSM_{date}.json")))
-TICKERS = ["TSM", "ASML", "KLAC", "NVDA", "AMD", "INTC", "AMKR"]
-FY_END = {"TSM": "Dec", "ASML": "Dec", "KLAC": "Jun", "NVDA": "Jan",
-          "AMD": "Dec", "INTC": "Dec", "AMKR": "Dec"}
+TICKERS = ["TSM", "NVDA", "AVGO", "ASML", "KLAC", "AMKR"]
+FY_END = {"TSM": "Dec", "NVDA": "Jan", "AVGO": "Nov", "ASML": "Dec",
+          "KLAC": "Jun", "AMKR": "Dec"}
 
 # key, label, kind, in_trend, has_cagr, direction(better)
 ROWS = [
@@ -116,7 +116,7 @@ def section_trend():
 
 GLOSSARY = f"""## Glossary
 
-- **Companies:** TSM (anchor) vs ASML, KLAC (KLA), NVDA, AMD, INTC, AMKR.
+- **Companies:** TSM (anchor) vs NVDA, AVGO, ASML, KLAC (KLA), AMKR.
 - **Currency:** all figures USD. FX [ESTIMATED, FMP spot {date}]: EUR/USD 1.16128, USD/TWD 31.496. Ratios (P/E, ROIC, margins, Capex/Rev, FCF/OCF) are currency-neutral.
 - **% gap:** each peer cell shows (peer - TSM) / |TSM|. **Bold** = peer beats TSM by >= {THRESH}% (snapshot) or {THRESH}pp (CAGR). "Beats" = lower for P/E, P/Owner Earnings, Capex, Capex/Revenue; higher for ROIC, Operating margin, Revenue, OCF, FCF, FCF/OCF.
 - **Current:** latest reported quarter, annualized x4 (run-rate). Noisy for lumpy quarters.
