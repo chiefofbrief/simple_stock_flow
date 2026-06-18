@@ -70,7 +70,7 @@ def snap_cell(peer, tsm, direction):
 
 
 def section_snapshot(which, title):
-    L = [f"## {title}", "",
+    L = [f"### {title}", "",
          "| Metric | " + " | ".join(TICKERS) + " |",
          "|" + "---|" * (len(TICKERS) + 1)]
     sc = "C" if which == "current" else "T"
@@ -103,11 +103,11 @@ def cagr3(a, key):
 
 def section_trend():
     tsm_cagr = {k: cagr3(d["TSM"]["annual"], k) for k, *_ in ROWS}
-    out = ["## Section 3 — Last 3 Fiscal Years (USD)"]
+    out = ["### Section 3 — Last 3 Fiscal Years (USD)"]
     for t in TICKERS:
         a = d[t]["annual"]
         yrs = [x["fy"] for x in a[:3]]
-        L = [f"\n### {t}  (FY ends {FY_END[t]})", "",
+        L = [f"\n#### {t}  (FY ends {FY_END[t]})", "",
              "| Metric | " + " | ".join(f"FY{y}" for y in yrs) + " | 3yr CAGR | Δ CAGR vs TSM |",
              "|" + "---|" * (len(yrs) + 3)]
         for key, label, kind, in_trend, has_cagr, direction in ROWS:
@@ -136,7 +136,7 @@ def section_trend():
     return "\n".join(out)
 
 
-GLOSSARY = f"""## Glossary
+GLOSSARY = f"""### Glossary
 
 - **Companies:** TSM (anchor) vs NVDA, AVGO, ASML, KLAC (KLA), AMKR.
 - **Currency:** all figures USD. FX [ESTIMATED, FMP spot {date}]: EUR/USD 1.16128, USD/TWD 31.496. Ratios (P/E, ROIC, margins, Capex/Rev, FCF/OCF) are currency-neutral.
@@ -154,15 +154,15 @@ GLOSSARY = f"""## Glossary
 - **NM** = not meaningful (negative earnings/cash/returns, a % gap on a negative base, or a split-distorted source).
 - Source: FMP (financialmodelingprep.com), {date}. P/E and P/Owner Earnings carry no CAGR (valuation multiples, not growth)."""
 
-DATA_QUALITY = """## Section 4 — Data-Quality Notes
+DATA_QUALITY = """### Section 4 — Data-Quality Notes
 
 How to read and trust the figures above. Each item opens with a plain-English explanation, then the technical detail with citations (`{TICKER}_Thesis.md:line`).
 
-### Cross-cutting — the "Current" column
+#### Cross-cutting — the "Current" column
 **Plain:** The "Current" column annualizes only the most recent quarter (x4). For a few companies, a single quarter's cash flow is unusually high or low purely because money arrives in lumps, so that snapshot can look alarming when nothing is actually wrong.
 **Technical:** For ASML, KLAC, and AMKR, read operating and free cash flow off the TTM column, not Current, because their quarterly cash flow swings on the timing of customer deposits, inventory purchases, and capital spending.
 
-### TSM (anchor) — cleanest in the set
+#### TSM (anchor) — cleanest in the set
 
 **1. Depreciation timing slightly flatters profit, ROIC, and margins.**
 Plain: When TSM finishes building a new factory, it chooses when to start counting that factory's cost as a yearly expense. Pushing that start date out makes today's profit look a little bigger than it really is.
@@ -180,7 +180,7 @@ Technical: Stock-based compensation is approximately 0% of revenue, so GAAP and 
 Plain: TSM does not buy other companies, so it carries none of the paper "purchase-price" charges that artificially depress other firms' reported profits.
 Technical: There is no goodwill on the balance sheet [`TSM_Thesis.md:599`].
 
-### NVDA — GAAP P/E flattered, ROIC understated
+#### NVDA — GAAP P/E flattered, ROIC understated
 
 **1. GAAP P/E (31x) understates the true multiple.**
 Plain: NVDA owns stakes in other companies, and when those stocks rise, the accounting counts the paper gain as "profit" even though NVDA sold nothing and received no cash. That inflates reported earnings, which makes the stock look cheaper than it really is.
@@ -202,7 +202,7 @@ Technical: Three direct customers accounted for 54% of revenue, up from 36% from
 Plain: NVDA recently changed what counts in its "adjusted" profit, so comparing this year's adjusted number to older ones is apples-to-oranges unless the old ones are restated.
 Technical: Beginning Q1 FY2027, stock-based compensation is now included in non-GAAP earnings and prior periods were restated, so any pre-FY2027 non-GAAP EPS is on a different basis [`NVDA_Thesis.md:661`].
 
-### AVGO — GAAP P/E overstated, FCF overstates owner economics
+#### AVGO — GAAP P/E overstated, FCF overstates owner economics
 
 **1. GAAP P/E (64x) is inflated by amortization, which will fade.**
 Plain: When AVGO bought VMware, the accounting forces it to spread that purchase price across future years as a paper expense, not real cash going out. That paper charge shrinks reported profit and makes the P/E look higher than the cash reality. The charge gets smaller every year on a fixed schedule, so reported profit will rise on its own.
@@ -236,7 +236,7 @@ Technical: The prior tax benefit was $2.709B (about $0.56 per share), so losing 
 Plain: News reports mention a big new borrowing that does not appear in any official document yet; if it turns out to be real, AVGO's debt load would jump a lot.
 Technical: A reported $35B Apollo/Blackstone financing is absent from filings as of February 1, 2026; if executed it would lift gross debt from about $65B toward $100B and raise Debt/OCF from 2.2x to roughly 5.6x [`AVGO_Thesis.md:721`].
 
-### ASML — quarterly cash flow is timing noise
+#### ASML — quarterly cash flow is timing noise
 
 **1. The negative "Current" OCF/FCF is a timing artifact, not a problem.**
 Plain: ASML's customers put down large deposits before machines ship. Depending on which quarter those deposits land in, a single quarter's cash flow can lurch, even go negative, while the full year is strongly positive.
@@ -258,7 +258,7 @@ Technical: ROIC declined from 102% (FY2025) to 64% TTM, driven by the EUR 1.3B M
 Plain: ASML's sales of older-generation machines outside China are actually soft, but unexpectedly strong China sales are covering that up. If export rules cut off China, the underlying weakness would show.
 Technical: The annual report disclosed that non-China DUV demand was "marginally lower than anticipated," offset by stronger-than-expected China DUV, so tightening export restrictions would expose the pre-existing softness [`ASML_Thesis.md:290`].
 
-### KLAC — cash understated this quarter; split glitch
+#### KLAC — cash understated this quarter; split glitch
 
 **1. TTM operating and free cash flow are temporarily understated.**
 Plain: KLAC deliberately stockpiled inventory to prepare for a big upcoming sales ramp. Paying for that inventory used cash now, so its cash flow looks weak this period, but that is a deliberate choice, not a problem.
@@ -276,7 +276,7 @@ Technical: Backlog fell about 20%, from $9.83B (June 2024) to $7.86B (June 2025)
 Plain: Even in its worst recent year, KLAC earned very high returns on the money invested in the business, which is strong evidence of a durable competitive advantage.
 Technical: ROIC averaged about 46% over five years and stayed at 36.9% even in the FY2024 downturn, with no accounting distortions in the core process-control segment [`KLAC_Thesis.md:404`].
 
-### AMKR — the most caveated; numbers flatter a weak base
+#### AMKR — the most caveated; numbers flatter a weak base
 
 **1. Profit is partly flattered by an accounting change.**
 Plain: AMKR decided its test machines now last 7 years instead of 5, which lets it charge less wear-and-tear each year and makes annual profit look bigger without anything actually improving.
@@ -314,7 +314,9 @@ Technical: Non-recourse factoring removes receivables from the balance sheet, so
 Plain: AMKR paid an unusually low tax rate last quarter, which boosted its earnings in a way that will not repeat.
 Technical: The Q1 2026 effective tax rate was 12.8% versus a 20% full-year target, so at a normal rate Q1 EPS would have been roughly $0.27-$0.29 rather than the reported $0.33 [`AMKR_Thesis.md:578`]."""
 
-DETERMINATION = """## Part 1 — Financial Determination (financials only)
+DETERMINATION = """## Numbers
+
+### Financial Determination
 
 **Question:** On the financials alone, is TSM priced below what its quality and growth warrant? Peers are benchmarks only. Figures below are note-adjusted (Section 4); raw values are in the tables, flagged with an asterisk.
 
@@ -330,10 +332,10 @@ DETERMINATION = """## Part 1 — Financial Determination (financials only)
 
 **Determination — mixed, leaning toward an unexplained residual cheapness:** The capex penalty fully accounts for why TSM is not the cheapest on a pure earnings multiple, and that part is earned. But it does not close the gap. Even on the capex-neutral measure (P/Owner-Earnings 64x, and ~41x once TSM's FCF understatement is corrected), TSM still trades below ASML (73x), AVGO (78x), KLAC (84x), and AMKR (128x) — every one of which has lower ROIC, lower margins, and slower growth than TSM, on less clean earnings. After accounting for the only financial knock against it, TSM is still priced under demonstrably lower-quality, slower-growing peers. On the financials alone, that residual gap is unexplained, which is the financial signature of possible undervaluation.
 
-**Scope:** Financials only. Whatever explains the residual is for later parts, not here."""
+**Scope:** Financials only. Whatever explains the residual is for later sections, not here."""
 
 
-NARRATIVE = """## Part 2 — Narrative
+NARRATIVE = """## Narrative
 
 ### Narrative Determination
 
@@ -555,7 +557,7 @@ ADDITIONAL_CONTEXT = """## Additional Context
 TSM is deliberately under-pricing its lead, leaving margin upside that models built on current pricing do not capture.
 - *Pricing philosophy* (A5): "they are not using or abusing [their position] to crank up prices… Never disturb a customer who is busy buying… the benefits of a new node are given to the clients up front… Despite being the most successful node ever, the 3nm process has not reached the corporate point yet, which will happen sometime during 2026."
 - *TSM's own numbers corroborate the runway:* 3nm was 24% of wafer revenue in 2025 in its third full year of ramp (B5), yet group gross margin is already 66.2% (+7.4pp YoY) and operating margin 58.1% (+9.6pp YoY) (B8). 3nm crossing the corporate margin in 2026 plus the 2nm ramp is a structural tailwind not yet in the P&L.
-- Ties to Part 2: this is the same "unexercised pricing optionality" analysts probed (Goldman's "does profitability fully reflect TSMC's value") — here confirmed by management's stated philosophy, not just inferred.
+- Ties to the Narrative section: this is the same "unexercised pricing optionality" analysts probed (Goldman's "does profitability fully reflect TSMC's value") — here confirmed by management's stated philosophy, not just inferred.
 
 ### 2. The advanced-packaging (CoWoS) chokepoint — [Moat corroborated by TSM; revenue scale is third-party]
 
@@ -565,14 +567,14 @@ The most under-weighted structural argument is that the scarce step in AI hardwa
 - *Broadcom is structurally downstream of TSM* (A1): "$73 billion AI chip backlog… targeting $100 billion in annual AI chip revenue by 2027… Broadcom doesn't own a single fab… Broadcom's revenue conversion rate is, at a structural level, a function of what TSMC schedules on its CoWoS line."
 - *The revenue claim — flagged as third-party* (A3): "TSMC's packaging business could nearly double into a $6-7B quarterly revenue engine by 2027… That projection exists nowhere in published analyst models." TSM does not disclose CoWoS revenue; the closest proxy — the "Others" product line — was NT$166.0B in Q1'26, +32.6% YoY, slightly *slower* than Wafer (+35.6%) (B1). So packaging is not visibly out-growing wafers at the disclosed level. Treat the capacity/ASP/$6–7B figures as credible industry reporting, not filing-confirmed.
 - *What TSM does corroborate — moat depth* (B6): a multi-generation 3DFabric roadmap (CoWoS-L 3.5-reticle in 2024 → 5.5-reticle qualifying 2026 → 9.5-reticle in progress; SoIC 3nm in volume 2025; SoW gen-2 logic+HBM in development; COUPE silicon photonics to volume 2026).
-- *Reframes the top narrative concern:* the "customers diversifying to Samsung/Intel" worry (Part 2) is largely a capacity-overflow symptom — the diversifying ASICs still route through TSM's fab and CoWoS.
+- *Reframes the top narrative concern:* the "customers diversifying to Samsung/Intel" worry (see Narrative) is largely a capacity-overflow symptom — the diversifying ASICs still route through TSM's fab and CoWoS.
 - *Counter-risks* (A4): Powertech's PiFO glass-substrate packaging is "reportedly around 30% cheaper than TSMC's CoWoS" and would pressure pricing "if it scales… before 2027"; outsourcing to Amkor/SPIL (240k–270k wafers/yr) eases but does not fix the bottleneck; TSM's Arizona advanced-packaging facility is "not expected to reach volume production before 2028."
 
 ### 3. Physical AI / robotics — an under-modeled growth vector — [Optionality]
 
 If physical AI (robotics, edge) becomes a wave, it is incremental TSM demand that analysts modeling TSM on data-center HPC are not capturing.
 - *The signal in the data:* IoT was the fastest-growing platform in Q1'26 at +59% YoY (NT$38.7B → NT$61.6B; B1) and +12% QoQ (B4) — ahead of HPC (+41%).
-- *The gap:* TSM's own outlook names "the explosive growth in token volume," enterprise AI, and "Sovereign AI" as the AI drivers — not robotics/physical AI (B5). Meanwhile NVDA management leans heavily on "Physical AI is here" and the robotic edge (Part 2 Q&A). So physical AI is currently an NVDA narrative, largely absent from how TSM is framed — yet every robot/edge "brain" is fabbed and packaged at TSM.
+- *The gap:* TSM's own outlook names "the explosive growth in token volume," enterprise AI, and "Sovereign AI" as the AI drivers — not robotics/physical AI (B5). Meanwhile NVDA management leans heavily on "Physical AI is here" and the robotic edge (Narrative Q&A). So physical AI is currently an NVDA narrative, largely absent from how TSM is framed — yet every robot/edge "brain" is fabbed and packaged at TSM.
 - *Caveat:* IoT is only ~5.4% of revenue (small base) and bundles edge/connectivity/wearables — robotics is a subset and a leading indicator, not the whole line.
 
 ### Net
@@ -594,13 +596,13 @@ TSM is one of the highest-quality and most positively-covered businesses among t
 
 On the robotics question — is physical AI the next S-curve, and is it priced in? Honest read: it's probably a real next wave, but it's earlier and far less certain than the data-center wave, and "it probably is" is doing a lot of work — commercial robotics at scale is still years out. As for pricing: the robotics *leaders* (chip designers and a few robot makers) have already run hard this year, so for them it's at least partly in the price. For TSM specifically it's almost certainly *not* — the company isn't framed around robotics, it's ~5% of revenue today, and analysts model it on data-center demand. The catch is that TSM only captures the make-and-package slice of each robot, not the robot's economics, so even a big robotics wave is a steady, moderate tailwind for it — the same picks-and-shovels role it plays in data centers — not an explosive one. So: under-appreciated for TSM, yes; a needle-mover tomorrow, no.
 
-*Detail and sourcing for everything above is in Part 1 (financials), Part 2 (narrative), and Additional Context below.*"""
+*Detail and sourcing for everything above is in the Numbers, Narrative, and Additional Context sections below.*"""
 
 
-doc = (f"# TSM ANALYSIS\n\n*Generated {date}. All figures USD. Part 1 = financials; Part 2 = narrative.*\n\n"
+doc = (f"# TSM ANALYSIS\n\n*Generated {date}. All figures USD. Top-down: Synthesis, then Numbers, Narrative, and Additional Context.*\n\n"
        + SYNTHESIS + "\n\n"
-       + "> Read **Section 4 — Data-Quality Notes** before drawing conclusions. An asterisk (\\*) marks a figure the notes flag as potentially misleading.\n\n"
        + DETERMINATION + "\n\n"
+       + "> The tables below are raw. An asterisk (\\*) marks a figure flagged in the Data-Quality Notes (Section 4) as potentially misleading.\n\n"
        + section_snapshot("current", "Section 1 — Current (latest quarter, annualized x4)") + "\n\n"
        + section_snapshot("ttm", "Section 2 — TTM (trailing four quarters)") + "\n\n"
        + section_trend() + "\n\n"
