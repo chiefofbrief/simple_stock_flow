@@ -1,6 +1,6 @@
 # TSM ANALYSIS
 
-*Financials only. Generated 2026-06-18. All figures USD.*
+*Generated 2026-06-18. All figures USD. Part 1 = financials; Part 2 = narrative.*
 
 > Read **Section 4 — Data-Quality Notes** before drawing conclusions. An asterisk (\*) marks a figure the notes flag as potentially misleading.
 
@@ -323,3 +323,20 @@ Technical: The Q1 2026 effective tax rate was 12.8% versus a 20% full-year targe
 - **3yr CAGR** = (latest FY / FY three years earlier)^(1/3) - 1; uses a 4th (base) year not displayed.
 - **NM** = not meaningful (negative earnings/cash/returns, a % gap on a negative base, or a split-distorted source).
 - Source: FMP (financialmodelingprep.com), 2026-06-18. P/E and P/Owner Earnings carry no CAGR (valuation multiples, not growth).
+
+## Part 2 — Narrative
+
+### Analyst Grades
+
+*Manually pulled 2026-06-18. The FMP analyst feed was unreliable (thin coverage for TSM/ASML/AMKR; split-distorted price targets for KLAC), so this hand-collected rating distribution replaces it. "% Bullish" = (Buy + Overweight) / Total; the trend column shows % Bullish three months ago to now.*
+
+| Company | Buy | OW | Hold | UW | Sell | Total | % Bullish (Buy+OW) | % Bullish 3mo->now |
+|---|---|---|---|---|---|---|---|---|
+| TSM | 38 | 8 | 1 | 0 | 0 | 47 | 98% | 98% -> 98% |
+| NVDA | 57 | 7 | 3 | 0 | 1 | 68 | 94% | 93% -> 94% |
+| AVGO | 41 | 10 | 4 | 0 | 0 | 55 | 93% | 96% -> 93% |
+| ASML | 28 | 6 | 5 | 3 | 0 | 42 | 81% | 81% -> 81% |
+| KLAC | 15 | 4 | 11 | 1 | 1 | 32 | 59% | n/a -> 59% |
+| AMKR | 5 | 0 | 7 | 2 | 0 | 14 | 36% | n/a -> 36% |
+
+*Data notes: KLAC and AMKR had no rating distribution three months ago (source coverage begins ~1 month ago). AMKR's source "consensus" label reads Overweight, but its mix (5 Buy / 7 Hold / 2 Underweight) is more cautious than that implies.*

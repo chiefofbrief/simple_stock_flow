@@ -333,14 +333,33 @@ DETERMINATION = """## Part 1 — Financial Determination (financials only)
 **Scope:** Financials only. Whatever explains the residual is for later parts, not here."""
 
 
-doc = (f"# TSM ANALYSIS\n\n*Financials only. Generated {date}. All figures USD.*\n\n"
+NARRATIVE = """## Part 2 — Narrative
+
+### Analyst Grades
+
+*Manually pulled 2026-06-18. The FMP analyst feed was unreliable (thin coverage for TSM/ASML/AMKR; split-distorted price targets for KLAC), so this hand-collected rating distribution replaces it. "% Bullish" = (Buy + Overweight) / Total; the trend column shows % Bullish three months ago to now.*
+
+| Company | Buy | OW | Hold | UW | Sell | Total | % Bullish (Buy+OW) | % Bullish 3mo->now |
+|---|---|---|---|---|---|---|---|---|
+| TSM | 38 | 8 | 1 | 0 | 0 | 47 | 98% | 98% -> 98% |
+| NVDA | 57 | 7 | 3 | 0 | 1 | 68 | 94% | 93% -> 94% |
+| AVGO | 41 | 10 | 4 | 0 | 0 | 55 | 93% | 96% -> 93% |
+| ASML | 28 | 6 | 5 | 3 | 0 | 42 | 81% | 81% -> 81% |
+| KLAC | 15 | 4 | 11 | 1 | 1 | 32 | 59% | n/a -> 59% |
+| AMKR | 5 | 0 | 7 | 2 | 0 | 14 | 36% | n/a -> 36% |
+
+*Data notes: KLAC and AMKR had no rating distribution three months ago (source coverage begins ~1 month ago). AMKR's source "consensus" label reads Overweight, but its mix (5 Buy / 7 Hold / 2 Underweight) is more cautious than that implies.*"""
+
+
+doc = (f"# TSM ANALYSIS\n\n*Generated {date}. All figures USD. Part 1 = financials; Part 2 = narrative.*\n\n"
        + "> Read **Section 4 — Data-Quality Notes** before drawing conclusions. An asterisk (\\*) marks a figure the notes flag as potentially misleading.\n\n"
        + DETERMINATION + "\n\n"
        + section_snapshot("current", "Section 1 — Current (latest quarter, annualized x4)") + "\n\n"
        + section_snapshot("ttm", "Section 2 — TTM (trailing four quarters)") + "\n\n"
        + section_trend() + "\n\n"
        + DATA_QUALITY + "\n\n"
-       + GLOSSARY + "\n")
+       + GLOSSARY + "\n\n"
+       + NARRATIVE + "\n")
 
 with open(os.path.join(base, "..", "TSM ANALYSIS.md"), "w") as f:
     f.write(doc)
