@@ -4,6 +4,24 @@
 
 > Read **Section 4 — Data-Quality Notes** before drawing conclusions. An asterisk (\*) marks a figure the notes flag as potentially misleading.
 
+## Part 1 — Financial Determination (financials only)
+
+**Question:** On the financials alone, is TSM priced below what its quality and growth warrant? Peers are benchmarks only. Figures below are note-adjusted (Section 4); raw values are in the tables, flagged with an asterisk.
+
+**Honest figures used:** TSM's ~36x P/E is clean (GAAP = non-GAAP), and its FCF/owner-earnings are if anything conservative because reported FCF understates owner earnings (maintenance FCF ~$55B vs reported ~$35B). NVDA's flattered 31x GAAP is read at its truer ~35x, ROIC ~117%. AVGO's amortization-inflated 64x GAAP is read toward ~48x, with a true owner-earnings multiple ~96x after stock comp. KLAC's split-broken non-GAAP is replaced by GAAP ~67x. AMKR's 49x is flattered (useful-life + tax), real worse. ASML cash is read off TTM.
+
+**Where TSM ranks:**
+- **Valuation — 2nd-cheapest.** Honest P/E: NVDA ~35x ≈ TSM ~36x < AVGO ~48x < ASML ~62-67x ≈ KLAC ~67x. P/Owner-Earnings (TTM): NVDA 44x < TSM 64x < ASML 73x < AVGO 78x < KLAC 84x < AMKR 128x. Correcting TSM's understated FCF to maintenance owner earnings pulls its multiple toward ~41x, roughly level with or below NVDA.
+- **Quality — top-tier.** Operating margin 53% is #2 (only NVDA higher); ROIC ~49% is #3, tied with KLAC, behind only NVDA and a temporarily-depressed ASML. The one weak spot is FCF/OCF conversion at 46%, second-worst in the set.
+- **Growth — #2, not slow.** 3-yr revenue CAGR 19.3% and OCF CAGR 14.0% trail only NVDA and beat ASML, KLAC, AMKR (and AVGO once its VMware-distorted base is set aside). TSM's ROIC trend is rising while most peers' are flat-to-negative.
+- **Earnings honesty — cleanest.** TSM needed essentially no downward adjustment; every higher-multiple peer did.
+
+**Financial reason a lower multiple is deserved (capital intensity):** TSM spends 31% of revenue on capex (vs 1-6% for the asset-light peers) and converts only 46% of operating cash into free cash (vs 80-97%). A dollar of TSM earnings becomes far less distributable cash. This correctly explains why TSM screens cheaper on P/E than on P/Owner-Earnings — moving from earnings to owner-cash re-rates TSM from 2nd-cheapest (36x) toward mid-pack (64x). That re-rating is the market pricing the capex penalty properly, not a mispricing.
+
+**Determination — mixed, leaning toward an unexplained residual cheapness:** The capex penalty fully accounts for why TSM is not the cheapest on a pure earnings multiple, and that part is earned. But it does not close the gap. Even on the capex-neutral measure (P/Owner-Earnings 64x, and ~41x once TSM's FCF understatement is corrected), TSM still trades below ASML (73x), AVGO (78x), KLAC (84x), and AMKR (128x) — every one of which has lower ROIC, lower margins, and slower growth than TSM, on less clean earnings. After accounting for the only financial knock against it, TSM is still priced under demonstrably lower-quality, slower-growing peers. On the financials alone, that residual gap is unexplained, which is the financial signature of possible undervaluation.
+
+**Scope:** Financials only. Whatever explains the residual is for later parts, not here.
+
 ## Section 1 — Current (latest quarter, annualized x4)
 
 | Metric | TSM | NVDA | AVGO | ASML | KLAC | AMKR |
