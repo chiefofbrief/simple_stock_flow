@@ -1,9 +1,150 @@
 # Earnings Call Q&A: AVGO
 
-**Quarters Analyzed:** 2026Q1, 2025Q4
+**Quarters Analyzed:** 2026Q2, 2026Q1
 
 ---
-# CURRENT QUARTER: 2026Q1
+# CURRENT QUARTER: 2026Q2
+
+**Operator** (Operator)
+Operator, please open up the call for questions. Thank you. Due to time restraints, we ask that you please limit yourself to one question. Please stand by while we compile the Q&A roster. And our first question will come from the line of Harlan Sur with JPMorgan.
+
+**Harlan Sur** (Analyst (JPMorgan))
+Your line is open. Yes, good afternoon. Thank you for taking my question. Thanks for all your support, Kirsten. And Amy, welcome to the team. First, just a quick housekeeping item. Hock, on this fiscal year, AI sort of two-times growth second half over first half, that would put AI revenues over $60 billion with sequential growth in fiscal Q4, but you gave us the $56 billion number, which is only about 1.5x half-over-half growth with Q4 AI actually being down sequentially. So if you could just help us kind of square the numbers there. And then for my real question: last year, you talked about an AI backlog for the next 18 months of $73 billion. The market sort of took that number and spread that linearly over six quarters, but we know that the backlog is always more front-loaded over the first four quarters. And sure enough, you are going to deliver around 80% or more of that backlog in this fiscal year or first four quarters. Just given the strength of all your programs, the broadening of the customer base, accelerating year-over-year trends in your AI shipments, all the multi-gigawatt partnerships that you just articulated today, most of which are set to start to fire next year, is it fair to assume that your 18-month backlog, second half of this year through all of fiscal 2027, sits at $200 billion or better?
+
+**Hock E. Tan** (President and CEO)
+That is a very complicated set of questions. To begin with, let's start with 2026. If you do the math, basically two-times the first half: we shipped in total AI revenue something in the range of $19 billion in the first half. If you do what I indicated, two-times that, the second half gets to pretty much in the range of what we are talking about, which is around $56 billion, Harlan. So that set of numbers does tie up very well. Now on the second question, which requires a very detailed analysis: we do expect to keep the momentum going into 2027 and to see continued growth. If you extrapolate based on what we are seeing here, almost two-times what 2026 will be, I think you will easily see that 2027 will exceed, very easily, $100 billion in 2027, which is what we indicated last quarter, and we continue to say that it will be over $100 billion in 2027. So in that sense, if anything, it might be stronger. But we are not trying to guide you every quarter on what 2027 would be like. So we basically say we continue to expect in excess of $100 billion in 2027, and it is on the same trajectory as we are seeing in the back half of 2026.
+
+**Harlan Sur** (Analyst (JPMorgan))
+Got it. Okay. Thank you, Hock.
+
+**Operator** (Operator)
+One moment for our next question. And that will come from the line of Blayne Curtis with Jefferies. Your line is open.
+
+**Blayne Curtis** (Analyst (Jefferies))
+Hock, I wanted to ask you on the quarter, you had that 8-K with the long-term agreement with Google. I think, obviously, you are probably not going to tell me what the total value is there, but I think there is a lot of concern about share within that customer. I was just kind of curious: now that you have this agreement, maybe you could speak to a little bit more in terms of your confidence and if there is upside with that customer. Is it a fixed amount or are there shares? Is there any way you can kind of add some color to that agreement?
+
+**Hock E. Tan** (President and CEO)
+It is a very, very strong agreement, and it basically reflects the strength of the partnership we have because of the products we deliver, the multigenerational products, and the intellectual property we deploy into this whole program. To answer your questions specifically: it is a commitment that is very substantial in dollars. Now, we also accept the fact that while we like to win every design in that program, given the rate of growth of development and consumption of AI compute by our partner Google, we fully expect that there will be some diversity of sources for them. But our commitment from them is a very substantial dollar amount.
+
+**Operator** (Operator)
+One moment for our next question. And that will come from the line of Ross Seymore with Deutsche Bank. Your line is open.
+
+**Ross Seymore** (Analyst (Deutsche Bank))
+Hi, thanks for allowing the question and congrats to both Kirsten and Amy. Question on the gross margin side of things. I know, Kirsten, you talked about it going down due to the mix dynamics within the semis versus the software side. But given the strength on the software side in the quarter, it seems like gross margin is falling a little bit harder. So behind the scenes, can you just talk a little bit about what the drivers within semis are? Is that the ex versus the networking side of things? And is that trend likely to continue next year? Are there rack-scale versus chip-scale dynamics? Any color you could give on that would be helpful.
+
+**Kirsten Spears** (Chief Financial Officer)
+Yes. Certainly. As our semiconductor business grows on a consolidated basis relative to our software business, you are going to have some decline in consolidated gross margin as the mix shifts to semiconductors. You will have some compression, but remember that it is accretive because we have strong operating leverage, so our operating margins will hold up over time. Within semiconductors, we have always said our ASICs, TPUs, and some of the wireless business have lower margins. So as the TPUs continue to accelerate, there will be pressure overall on gross margin. But the connectivity side, the AI networking side of the business, has very rich margins, so it will offset some of that pressure as we go.
+
+**Hock E. Tan** (President and CEO)
+Ross, as Kirsten said in her remarks, structurally the semiconductor margins remain very stable and solid. It is the mix—particularly the mix between software and the very rapidly growing AI semiconductors—that is diluting consolidated gross margin.
+
+**Ross Seymore** (Analyst (Deutsche Bank))
+In the rack versus chip side of things, is that all clarified now?
+
+**Hock E. Tan** (President and CEO)
+No racks. It is all chip business only. We only do chips. Only chips.
+
+**Operator** (Operator)
+One moment for our next question. And that will come from the line of Benjamin Reitzes with Melius. Your line is open.
+
+**Ben Reitzes** (Analyst (Melius Research))
+Yeah. Hey, guys. Thanks. Appreciate it. Wanted to ask about 2027, Hock. With regard—previously you talked about the TAM being a longer-term question. It seems that one of your competitors talked recently about the TAM per gigawatt going up a lot as we go throughout the decade. It seems it was not just due to infrastructure but due to compute and networking components and other things. Perhaps you are familiar with that comment that Jensen made, where the overall infrastructure is going from something around 50-something towards 100, and the compute content going way up. Are you seeing the same thing as you go throughout the long term? Is that potentially being an accelerator to what you have already outlined in terms of your TAM per gigawatt? And how are you thinking about that?
+
+**Hock E. Tan** (President and CEO)
+Sure. When you talk about dollars per gigawatt—the content dollars per gigawatt—they are not accelerating that much simply because chips are drawing higher power, so you are driving fewer chips per rack while the ASP per chip is going up. So dollars per gigawatt in terms of billions per gigawatt are relatively stable. But the number of gigawatts required is accelerating quickly. We are seeing that in our customer engagements. For customers such as Anthropic and OpenAI, the compute capacity they require, measured in gigawatt power, is far ahead of what we expected six months ago. And that is just these customers; fold in Google, Meta, and our other customers, and you are talking about gigawatts in totality that will continue to grow. We expect 2028 to show substantial growth beyond what we are forecasting for 2027.
+
+**Operator** (Operator)
+One moment for our next question. And that will come from the line of Timothy Arcuri with UBS. Your line is open.
+
+**Timothy Arcuri** (Analyst (UBS))
+Thanks a lot, Hock. I wanted to ask you about supply and your ability to get incremental volume of wafers and HBM. As I look at some of your competitors, they are kind of able to drop $20 billion out of thin air and get incremental wafer supply. So I am wondering: do you feel pretty good about, if a customer comes to you, are you able to get up in terms of wafers and HBM? And are you beginning to consider maybe using other foundries to add more optionality to your supply? Thanks a lot.
+
+**Hock E. Tan** (President and CEO)
+Getting supply is not just about dropping money, though that does help. We are very comfortable that we have been able to secure supply of the types you mentioned for our needs for 2026 and 2027, and we are working on 2028 and 2029 right now. Customers have been coming to us incrementally over the last few months. We expect that to continue. By and large, yes, we can go to our suppliers and secure the supply required.
+
+**Operator** (Operator)
+One moment for our next question. And that will come from the line of Stacy Rasgon with Bernstein Research. Your line is open.
+
+**Stacy Rasgon** (Analyst (Bernstein))
+Hi, guys. Thanks for taking my question. Hock, you gave some gigawatt shipment targets for next year for your various customers. I just want to know, are those any different? Do they contemplate any change from what you said last quarter? I think you said that you were going to ship close to 10 gigawatts in 2027. Can you just sort of help us shape the year? It sounded to me like you expect that to be more back-half loaded in 2027 given the shape of the ramps. But most importantly, is there any change—are there more gigawatts or fewer gigawatts or the same gigawatts versus what you were suggesting last quarter?
+
+**Hock E. Tan** (President and CEO)
+Good question. For 2027, we indicated about 10 gigawatts of shipments in 2027. That is still very much intact. We are planning to ship 10 gigawatts in 2027 and nothing has changed. It will be back-half loaded to that extent, which provides an interesting trajectory into 2028 with more gigawatts expected in 2028.
+
+**Operator** (Operator)
+One moment for our next question. And that will come from the line of James (Jim) Schneider with Goldman Sachs. Your line is open.
+
+**Jim Schneider** (Analyst (Goldman Sachs))
+Good afternoon. Thanks for taking my question. I was wondering if you could comment a little bit on the profile of your networking business, Hock. As we head through fiscal 2026 and 2027—about 40% of AI revenue this quarter—will you expect that to fall back down as some of these custom ramps ramp up into the end of the year and into early next year? Would you expect it to stay at the upper end of that range? And maybe you can talk about when you see some of the optical and CPO revenue becoming meaningful. Thank you.
+
+**Hock E. Tan** (President and CEO)
+That is a great question, Jim, and it is difficult to answer precisely because there are many moving parts. One thing: as more customers turn to XPUs, XPUs use a lot of our networking components across the board, so that is positive. At the same time, we have been able to sell networking into non-XPU footprints, which will dilute the percentage. The 40% number is a situation where stars are aligned—we are shipping a lot of networking to non-XPU deployments while XPU growth allows networking consumption to rise. I see 40% as probably the high end for networking as a percentage of AI revenue. Over time, I expect the percentage of networking as a share of total AI revenue to be closer to around 30%. In terms of optical and CPO revenue, those elements are increasingly meaningful as deployments scale, and we are already the de facto standard in many CPO components.
+
+**Operator** (Operator)
+One moment for our next question. That will come from the line of Thomas O'Malley with Barclays. Your line is open.
+
+**Tom O'Malley** (Analyst (Barclays))
+Hey, Hock. Thanks for taking the question. I noticed with the most recent deal with Anthropic that you guys are using Broadcom chips as a backstop for the deal. Do you expect more deals to come like this in the future? And as you start to see the AI environment, is there any way you are thinking about financing in the future? Are you going to continue to do it with chips or is there anything else you can offer on that? Thank you.
+
+**Hock E. Tan** (President and CEO)
+I need to correct you on that. Our deal with Anthropic disclosed in our 8-K is that we will use our TPU chips to provide compute capacity to Anthropic. It was not that our chips were a backstop. We are providing the chips and the compute capacity to Anthropic. As for whether more deals will be structured this way, we are creating an XPU platform with partners to enable frontier model customers to access funded compute capacity when needed. That can take different forms, but in the Anthropic example, we are providing the compute via our chips.
+
+**Operator** (Operator)
+One moment for our next question. And that will come from the line of Christopher Muse with Cantor Fitzgerald. Your line is open.
+
+**CJ Muse** (Analyst (Cantor Fitzgerald))
+Yeah, good afternoon. Thanks for taking the question. Hock, in recent years you have talked about focusing efforts on very large XPU platforms. We are seeing many XPU-attached derivatives across interconnect, storage, and other areas. I am wondering if there are any programs that are more niche that are whetting your appetite?
+
+**Hock E. Tan** (President and CEO)
+No, I don't think so. Our business model is straightforward: we are developing XPUs—customer AI accelerators—for use by our customers, who are primarily frontier model developers, for training or inference. We are also creating a portfolio of critical components to enable these XPUs and GPUs to be clustered and to achieve better performance, including switches, PCI Express components, connectors, DSPs, lasers, NICs, and routers. That continues to be our model in semiconductors. In addition, to enable some of these frontier model players to access the volumes of compute capacity they need, we are creating, in partnership with investors with strong balance sheets, a vehicle to have these chips funded for these customers, who otherwise might have difficulty accessing our technology at the necessary scale.
+
+**Operator** (Operator)
+That will come from the line of Atif Malik with Citi. Your line is open.
+
+**Atif Malik** (Analyst (Citi))
+Hi, thank you for taking my question. I have a question on the Infrastructure Software business. Are you seeing any impact of AI or generative AI on your software growth and renewals? And can you just talk about some longer-term growth expectations for that business?
+
+**Hock E. Tan** (President and CEO)
+We are not seeing a negative impact. If anything, as I reported, the higher core-count CPU and GPU server demand is driving accelerated growth in our VMware business. We see this accelerating into the next multiple quarters as demand picks up. Long term, given that our Infrastructure Software products are very close to hardware—essentially hypervisor and platform-level software—we do not expect disruption in our software products from AI; instead, we expect tailwinds from increased demand for on-prem and private cloud deployments that support AI workloads.
+
+**Operator** (Operator)
+And one moment for our next question. That will come from the line of Edward Snyder with Charter Equity Research. Your line is open.
+
+**Edward Snyder** (Analyst (Charter Equity Research))
+Thanks a lot. Hock, the gigawatts you have laid out for different customers make it clear that Anthropic and OpenAI have very large gigawatt commitments in the out years. I know part of that is catch-up because they started later, whereas your oldest customer has been doing this for some time. But even part of Google's offering cloud services to other folks too. Are we seeing a shift where there will be a big second wave of demand driven as AI starts hitting enterprises and consumers get access to usable tools? The numbers you are saying here are significantly different for the two classes of customers.
+
+**Hock E. Tan** (President and CEO)
+That's an interesting observation and you may be right that enterprise consumption of AI is still relatively early. However, much of enterprise AI consumption today is using tokens or APIs from the frontier model platforms—OpenAI, Google (Vertex/Bedrock), and others. As those frontier model providers productize their models, enterprises and consumers will consume through those platforms, which drives demand back to the compute capacity we provide. So even as enterprise consumption grows, the primary source of large-scale compute demand remains the frontier model developers and the products they deliver. While some enterprises may deploy their own dedicated XPUs, most demand will continue to originate from the platforms and model providers that serve enterprises and consumers.
+
+**Operator** (Operator)
+One moment for our next question. And that will come from the line of Joe Moore with Morgan Stanley. Your line is open.
+
+**Joe Moore** (Analyst (Morgan Stanley))
+Thank you. You talked about $30 billion of AI bookings in the quarter, which is a lot relative to the quarter and next quarter shipments. Can you talk about the dynamic? Why is there so much backlog now? You said you can react to upside supply, but why so many bookings this quarter relative to revenue?
+
+**Hock E. Tan** (President and CEO)
+There is huge demand for compute. Our large customers understand lead times for compute—they need lead time for wafers, memory, power infrastructure, and facility-level planning. Many are placing large orders now for future delivery, not immediate delivery, because they must align other elements like power and facility capacity. This gives us a lot more visibility than we normally would have in semiconductors. Our visibility now extends into 2028. The bookings are a reflection of customers planning ahead to secure capacity, not due to component shortages alone but due to the full system planning required to deploy large-scale AI compute.
+
+**Operator** (Operator)
+Thank you. We do have time for one final question. And that will come from the line of Joshua Buchalter with TD Cowen. Your line is open.
+
+**Joshua Buchalter** (Analyst (TD Cowen))
+In the past, you talked about $15 billion to $20 billion per gigawatt of compute. Given the 10 gigawatts you implied you would be doing next year and the implications for revenue, how should we think about the evolution of your revenue per gigawatt over time? On one hand, generation-to-generation pricing may increase on programs you are already shipping, and on the other hand there are other projects entering the model. How should we think about revenue per gigawatt evolving?
+
+**Hock E. Tan** (President and CEO)
+Our content per gigawatt will increase over time. XPU compute chips will increase in content and price as we integrate more capabilities—more HBM, embedded CPU cores, multi-die designs—and these enhancements raise the revenue content per gigawatt generation-to-generation. It will not rise every month or quarter, but over generations of product, content per gigawatt will trend up.
+
+**Operator** (Operator)
+I would now like to turn the call over to Ji Yoo, Head of Investor Relations, for closing remarks.
+
+**Ji Yoo** (Head of Investor Relations)
+Thank you, operator. Broadcom currently plans to report its earnings for the third quarter of fiscal year 2026 after close of market on Wednesday, September 2, 2026. A public webcast of Broadcom's earnings conference call will follow at 2 p.m. Pacific Time. That will conclude our earnings call today. Thank you all for joining.
+
+**Operator** (Operator)
+Operator, you may end the call. This concludes today's program. Thank you all for participating. You may now disconnect.
+
+---
+# PRIOR QUARTER: 2026Q1
 
 **Operator** (Operator)
 And our first question will come from Blayne Curtis with Jefferies.
@@ -133,126 +274,6 @@ That is all the time we have for Q&A today. I would now like to turn the call ba
 
 **Ji Yoo** (Head of Investor Relations)
 Thank you, Sherry. Broadcom currently plans to report its earnings for the second quarter of fiscal year 2026 after the close of market on Wednesday, June 3, 2026. A public webcast of Broadcom's earnings conference call will follow at 2:00 p.m. Pacific. That will conclude our earnings call today. Thank you all for joining. Sherry, you may end the call.
-
-**Operator** (Operator)
-This concludes today's program. Thank you all for participating. You may now disconnect.
-
----
-# PRIOR QUARTER: 2025Q4
-
-**Operator** (Operator)
-Thank you. Due to time restraints, we ask that you please limit yourself to one question. Please stand by while we come to our first question.
-
-**Vivek Arya** (Analyst)
-Our first question will come from the line of Vivek Arya with Bank of America. Your line is open.
-
-**Hock Tan** (President and CEO)
-Thank you. Just wanted to clarify, Hock, you said $73 billion over eighteen months for AI. That's, you know, roughly $50 billion plus for fiscal 2026. For AI. I just wanted to make sure I got that right. And then the main question, Hock, is that there is sort of this emerging debate about customer-owned tooling. You know, your asynchronous customers potentially wanting to do more things on their own. How do you see your XPU content and share at your largest customer evolve over the next one or two years? Thank you. Well, to answer your first question, what we said is correct that as of now, we have $73 billion of backlog in place, account of XPU switches, DSPs, lasers, for AI data centers that we anticipate shipping over the next eighteen months. And obviously, this is as of now. I mean, we fully expect more bookings to come in over that period of time. And so do not take that $73 billion as that's the revenue we ship over the next eighteen months. Just saying we have that now, and then the bookings have been accelerating. And frankly, we see that bookings not just in XPUs, but in switches, DSPs, all the other components that go into AI data centers. We have never seen bookings of the nature that what we have seen over the past three months. Particularly, with respect to Taiwan six switches. This is one of the fastest-growing products in terms of deployment that we have ever seen. Of any switch product that we put out there. It is pretty interesting. And partly because it's the only one of its kind out there at this point. At 102 terabit per second. And that's the exact product needed to expand the clusters of the latest GPU and XPUs out there. No. That's great. But as far as what is the future as XPU is your broader question. My answer to you is do not follow what you hear out there as gospel. It's a trajectory. It's a multiyear journey. And many of the players and not too many players doing LLMs want to do their own custom AI accelerator for very good reasons. You can put in hardware what if you use a general-purpose GPU you can only do in software and kernels in software. You can achieve performance-wise so much better in the custom-purpose design hardware-driven XPU. And we see that in the TPU and we see that in all the accelerators we are doing for other customers. Much much better in areas of sparse call, training, inference, reasoning, all that stuff. Now will that mean that over time, they all want to go do it themselves? Not necessarily. And in fact, because the technology in silicon keeps updating, keeps evolving. And if you are an LLM player, where do you put your resources in order to compete in this space? Especially when you have to compete at the end of the day against merchant GPU who are not slowing down in their rate of evolution. So I see that as this concept of customer tooling is an overblown hypothesis which frankly I do not think will happen.
-
-**Operator** (Operator)
-And that will come from the line of Ross Seymore with Deutsche Bank. Your line is open.
-
-**Ross Seymore** (Analyst)
-Hi, thanks for letting me ask a question. Hock, I wanted to go to something you touched on earlier about the TPUs going a little bit more to like a merchant go-to-market to other customers. Do you believe that's the substitution effect for customers who otherwise would have done ASICs with you, or do you think it's actually broadening the market? And so what are kind of the financial implications of that from your perspective?
-
-**Hock Tan** (President and CEO)
-That's a very good question, Ross. And what we see right now is the most obvious move it does is it goes to the people who use TPUs. The alternative is GPUs, merchant basis. That's the most common thing that happens. Because to do that substitution for another custom, it's different. To make an investment in a custom accelerator is a multiyear journey. It's a strict directional thing. It's not necessarily a very transactional or short-term move. Moving from GPU to TPU is a transactional move. Going into an AI accelerator of your own is a long-term strategic move and nothing would deter you from there to continue to make that investment towards that end goal of successfully creating and deploying your own custom AI accelerator. So that's the motion we see.
-
-**Operator** (Operator)
-And that will come from the line of Harlan Sur with JPMorgan.
-
-**Harlan Sur** (Analyst)
-Yes, good afternoon. Thanks for taking my question and congratulations on the strong results, guidance, and execution. Hock, again, I just want to sort of verify this. Right? So you talked about total AI backlog of $73 billion over the next six quarters. Right? This is just a snap of your order book, like, right now. But given your lead times, I think customers can and still will place orders for AI in quarters four, five, and six. So as time moves forward, that backlog number for more shipments in '26 will probably still go up. Right? Is that the correct interpretation? And then given the strong and growing backlog, right, the question is does the team have three nanometer, two nanometer wafer supply, COA substrate, HBM supply commitments to support all of the demand in your order book and I know one of the areas where you are trying to mitigate this is in advanced packaging. Right? You're bringing up your Singapore facility. You guys just remind us what part of the advanced packaging process the team is focusing on with the Singapore facility? Thanks.
-
-**Hock Tan** (President and CEO)
-Thanks. Well, to answer your first simpler question, you're right. You can say that $73 billion is the backlog we have today. To ship over the next six quarters. You might also say that and given our lead time, we expect more orders to be able to be absorbed into our backlog for shipments over the next six quarters. So take it that we expect revenue a minimum revenue, one way to look at it, of $73 billion over the next six quarters. But we do expect much more as more orders come in. For shipments within the next six quarters. Yeah. Our lead time depending on the particular product it is, can be anywhere from six months to a year. On with respect to supply chain is what you're asking critical supply chain on silicon. Yeah. And packaging. Yeah. That's an interesting challenge that we have been addressing over for constantly and continue to. And with the strength of the demand and the need for more innovative packaging, advanced packaging, because you are talking about multi chips multi multi chips in creating every customer accelerator now. The packaging becomes a very interesting and technical challenge. And building our Singapore fab is to really talk about partially insourcing those advanced packaging. We believe that we have enough demand we can literally insource not from the viewpoint of not just cost, but in the viewpoint of supply chain security and delivery. And we're building up a fairly substantial facility for packaging advanced packaging, Singapore as indicated. Purely for that purpose to address the package advanced packaging site. Silicon wise, now we go back to the same pressure source in Taiwan, TSMC. And so we keep going for more and more capacity in two nanometers, three nanometers, and so far, we do not have that constraint. But again, time will tell as we progress and as our backlog builds up.
-
-**Operator** (Operator)
-The next question will come from the line of Blayne Curtis with Jefferies. Your line is open.
-
-**Blayne Curtis** (Analyst)
-Hey, good afternoon. Thanks for taking my question. I wanted to ask with the original $10 billion deal, you talked about a rack sale. I just wanted to with the follow-on order as well as the fifth customer, can you just maybe describe how you gonna deliver those? Is it an XPU, or is it a rack? And then maybe you can kinda just walk us through the math and kinda what the deliverable is. Obviously, Google uses its own networking, so I'm kinda curious too. Would it be a copy exactly what Google does? That you could talk to it to name? Or would you have your own networking there as well?
-
-**Hock Tan** (President and CEO)
-Thanks. That's a very complicated question, Blayne. Let me tell you what it is. It's a system sale. How about that? It's a real system sale. We have so many components beyond XPUs, customer accelerators, in or any system, in AI system, any AI system, used by hyperscalers that, yeah, we believe it begins to make sense to do it as a system sales and be responsive but be fully responsible for the entire system or rack as you call it. I think people understand it as a system still better. And so on this customer number four, we are selling it as a system with our key components in it. And that's no different than selling a chip. We certify a final ability to run as part of the wholesale selling process.
-
-**Operator** (Operator)
-And that will come from the line of Stacy Rasgon with Bernstein. Your line is open.
-
-**Stacy Rasgon** (Analyst)
-Wanted to touch on gross margins and maybe it feeds into a little bit of prior question. So I understand why the AI business is somewhat dilutive to gross margins. We have the HPM pass-through. And then presumably with the system sales, that will be more diluted. And you've hinted at this in the past, but I was wondering if you could be a little more explicit. As this AI revenue starts to ramp, as we start to get system sales, how should we be thinking about that gross margin number, say, if we're looking out, you know, four quarters or six quarters, is it low 70s? I mean, could it start with a six at the corporate level? And I guess I'm also wondering I understand how that comes down, but what about the operating margins? Do you think you get enough operating leverage on the OpEx side to keep operating margins flat, or do they need to come down as well?
-
-**Hock Tan** (President and CEO)
-I'll let Kirsten give you the details, enough for me to broadly high level explain to you stating good question. Phenomenal. You don't see that impacting us right now, and we have already started that process. Of some system sales. You don't see that in our numbers, but it worked. And we have said that openly. The AI revenue has a lower gross margin than our obviously, the rest of the business, including software, of course. But we expect the rate of growth to offer as we do more and more AI revenue to be so so much that we get the operating leverage on our operating spending that operating margin won't deliver dollars that are still a high level of growth from what it has been. So we expect operating leverage to benefit us at the operating margin level even as gross margin will start to deteriorate. High level.
-
-**Kirsten Spears** (Chief Financial Officer)
-No. I think Hock said that fairly. And the second half of the year when we do start shipping more systems, the situation is straightforward. We'll be passing through more components that are not ours. So think of it similar to the XPUs where we have memory on those XPUs, we're passing through those costs. We'll be passing through more costs within the rack. And so those gross margins will be lower. However, overall, the way Hock said it, gross margin dollars will go up. Margins will go down. Operating margins, because we have leverage, operating margin dollars will go up, but the margin itself, a percentage of revenues will come down a bit. But we're not I mean, we'll guide closer to you know, the end of the year for that.
-
-**Operator** (Operator)
-One moment for our next question. That will come from the line of Jim Schneider with Goldman Sachs. Your line is open.
-
-**Jim Schneider** (Analyst)
-Good afternoon. Thanks for taking my question. Hock, I was wondering if you might care to calibrate your expectations for AI revenue in fiscal 2026 a little bit more closely. I believe you talked about acceleration in fiscal 2026 off of the 65% growth rate you did in fiscal 2025. And then you're guiding to 100% growth for Q1. So I'm just wondering if the Q1 is a good jumping-off point for the growth rate you expect for the full year something maybe a little bit less than that? And then maybe if you could separately clarify whether your $1 billion of orders for the fifth customer is indeed OpenAI, which you made a separate announcement about. Thank you.
-
-**Hock Tan** (President and CEO)
-Wow. There's a lot of question here. But let me start off with 2026. You know, our backlog is very dynamic these days. As I said. And it is continuing to ramp up. And you're right. We originally, six months ago said maybe year on year, AI revenues would grow in 2026 sixty, 70%. Q1, we doubled. And Q1 2026, today, we're saying it doubled. And when we're looking at it, because all the fresh orders keep coming in, and we give you a milestone of where we are today. Which is $73 billion of backlog to be shipped over the next eighteen months. And we do fully expect as I answered the earlier question, for that $73 billion over the eighteen months, to keep growing. Now it's a moving target. It's a moving number as we move in time. But it will grow. And it's hard for me to pinpoint what 2026 is going to look like precisely. I rather not give you guys any guidance, and that's why we don't give you guidance. But we do give it for Q1. Give it time or give it till Q2, and you're right. It's saying that to us, is it an accelerating trend? And my answer is it's likely to be an accelerating trend. As we progress through 2026. Hope that answers your question.
-
-**Operator** (Operator)
-One moment for our next question. And that will come from the line of Ben Reitzes with Melius Research. Your line is open.
-
-**Ben Reitzes** (Analyst)
-Yeah. Hey, guys. Thanks a lot. Hey, Hock. I wanted to ask I I'm not sure if the last caller said something on it, but I didn't hear it in the answer was wanted to ask about the OpenAI contract that it's supposed to start in the second half of the year and go through 2029 for 10 gigawatts. I'm gonna assume that that's the that's the fifth customer order there. And I was just wondering if you're still confident in that being a driver. Are there any obstacles to making that a major driver? And when you expect, you know, that to contribute? And your confidence in it. Thanks so much, Hock.
-
-**Hock Tan** (President and CEO)
-You didn't hear that answer from my last caller, Jim's question was because I did not answer it I'm not answering it either. The fifth customer. And he's a real customer and he will grow. They are on their multi-year journey to their own XPUs. And let's leave it at that. As far as the OpenAI view that you have, I we appreciate the fact that it is a multiyear journey. That will run through '29 as our press release with OpenAI showed. 10 gigawatts between '26 to more more like '27, 28, 29. 29. Ben. Not 26. It's more like 27, 28, 29, 10 gigawatts. That was the OpenAI discussion. And that's I call it an agreement, an alignment where we're headed with respect to a various respected and valued customer OpenAI.
-
-**Operator** (Operator)
-One moment for our next question. And that will come from the line of CJ Muse with Cantor Fitzgerald. Your line is open.
-
-**CJ Muse** (Analyst)
-Yes. Good afternoon. Thank you for taking the question. I guess, Hock, I wanted to talk about custom silicon and maybe speak to how you expect content to grow for broad generation to generation. And as part of that, you know, your competitor announced CPX offering essentially accelerator for an accelerator for massive context windows. I'm curious if you see it a broadening opportunity you know, for your existing five customers to have multiple XPU offerings. Thanks so much.
-
-**Hock Tan** (President and CEO)
-Thank you. No. Yeah. It's you hit it right on. I mean, the nice thing about a custom accelerator is you try not to do one size fits all. And do and generationally. Each of these five customers now can create their version of chip of an XPU customer accelerator for training. And inference. And it basically is almost two parallel tracks going on almost simultaneously for each of them. So I would have plenty of versions to deal with. I do not need to create any more versions. We got plenty of different content out there. Just on the basis of creating these customer accelerators. And by the way, when you do customer accelerators, you tend to put more hardware in that unique differentiated versus trying to make it work on software. And creating kernels into software. I know that's very tricky too. But think about the difference where you can create in hardware those sparse call data routers. Versus the dense matrix multipliers all in one same chip. And that's one of many one of just one example of what creating customer accelerators is letting us do. Over that matter, a variation in how much memory capacity or memory bandwidth from for the same customer from chip to chip just because even in inference, want to do more reasoning, first decoding, versus something else, like prefilled. So you literally start to create different hardware for different and run your workloads. aspect of how you want to train or inference It's a very fascinating area. And we are seeing a lot of variations and multiple chips. For each of our customers. Thank you.
-
-**Operator** (Operator)
-One moment for our next question. That will come from the line of Harsh Kumar with Piper Sandler. Your line is open.
-
-**Harsh Kumar** (Analyst)
-Yeah, Hock and team. First of all, congratulations on some pretty stunning numbers. I've got an easy one and a more strategic one. The easy one is, your guide in AI Hock and Kirsten is calling for almost $1.7 billion of sequential growth. I was curious, maybe you could talk about the diversity of the growth between the three existing customers. Is it pretty well spread out? All of them growing? Or is one sort of driving much of the growth? And then how strategically one of your competitors bought a photonic fabric company recently I was curious about your take on that technology and if you think it's disruptive or you think it's just gimmickry at this point in time.
-
-**Hock Tan** (President and CEO)
-I like the way you address this question because the way that you address the question to me is almost hesitant. Thank you. I appreciate that. But on your first part, yeah, we are driving growth and we it began to feel like this thing never ends. And it's a real mixed bag. Of existing customers and on existing XPUs And I'll be part of it as XPUs that we're seeing. And that's not to slow down the fact that as I indicated in my remarks and commented on the demand for switches. Not just among six, not among five. Switches. The demand for our latest 1.6 terabit per second DSPs. That enables optical interconnects for scale out. Particularly? It's just very, very strong. And by extension, demand for the optical components like lasers, pin diodes, just going nuts. All that come together. Now, all that is small dollar, relatively lesser dollars when it comes to XPUs, as you probably guessed. I mean, no. Of this to give you a sense, maybe let me look at it on a backlog side. Of the $73 billion or AI revenue backlog over the next eighteen months, I talked about maybe $20 billion of it is everything else. The rest is XPUs. Hope that gives you a sense for what the mix is. That's not to say that the rest is still $20 billion. That's not small. By any means. So we value that. So when you talk about your next question of silicon photonics, and as a means to create basically much better, more efficient, lower power interconnects in not just scale out, but hopefully scale up. Yeah. I could see a point in time in the future when silicon photonics methods as the only way to do it. We're not quite there yet. But we have the technology and we continue to develop the technology even as each time we develop it first for 400 gigabit then we going on to nine 800 gigabit bandwidth Not ready for it yet. So and even we have the product, and we're now doing it for 1.6 terabit bandwidth to create silicon photonics switches silicon photonics interconnects Not even sure it will get fully deployed because you know, engineers, our engineers, our peer, and the peers we have out there, was somehow trying to find a way to still do try to do scale up within a rack in copper as long as possible. And in scale up in no pluggable optics. The final final straw is when you can't do it well in pluggable optics. Of course, when you can't do it even in copper, then you're right. You go to silicon photonics. And it will happen. And we're ready for it. Just saying, not anytime soon.
-
-**Operator** (Operator)
-One moment for our next question. That will come from the line of Carl Ackerman with BNP Paribas. Your line is open.
-
-**Carl Ackerman** (Analyst)
-Yes. Thank you. Could you speak to the supply chain resiliency and visibility you have with your key material suppliers, particularly co-ops as you not only support your existing customer programs, but the two new custom compute processors that you announced since your quarter. I guess what I can get at is you also happen to address the very large subset of networking and compute AI supply chains. You've talked about record backlog. If you were to pin some of the bottlenecks that you have, the areas that you're aiming to address and mitigate from supply chain bottlenecks, what would they be and how do you see that ameliorating into '26? Thank you.
-
-**Hock Tan** (President and CEO)
-It's across the board. Typically. I mean, it's we are very fortunate in some ways that we have the product technology and the operating business lines. To create multiple key leading-edge components that enable today's state-of-the-art AI data centers. I mean, our DSP as I said earlier, is now at 1.6 terabits per second. That's the leading edge. Connectivity for bandwidth for this for the top of the top of the heap, XPU, and even GPU. And we intend to be that way. And we have the lasers EMLs, VCSELs, CWL lasers that go with it. So it's fortunate that we have all this. And the key comp active components that go with it and we see it very quick early, and we expand the capacity as we do the design to match it. And along this is the long answer to what I'm trying to get at, which is I think we are of any of any of this data center suppliers of the system racks not counting the power the power shell and all that. Now that's hard to get beyond us. On the PowerShell and the transformers and the gas turbines. If you just look at the rack, the systems on AI, we probably have a good handle on where the bottlenecks are because sometimes we are part of the bottlenecks. Which we then want to get rid to resolve. So we feel pretty good about that. Through 2026.
-
-**Operator** (Operator)
-One moment for our next question.
-
-**Christopher Rolland** (Analyst)
-Hi, thanks for the question. Just first a clarification and then my question. And sorry to come back to this issue, but if I understand you correctly, Hock, I think you were saying that OpenAI would be a general agreement so it's not binding maybe similar to the agreements with both NVIDIA and AMD. And then secondly, you talked about flat non-AI semiconductor revenue Maybe what's going on there? Is there still an inventory overhang in and what could what what do we need to get that going again? Do you see growth, eventually, eventually in that business? Thank you.
-
-**Hock Tan** (President and CEO)
-Well, on the non-AI semiconductor, we see broadband literally recovering very well. And we do not see the others No. We see stability. We do not see a sharp recovery that is sustainable yet. So I guess given a one a couple more quarters, but we do not see any further deterioration in demand. And it's more I think maybe the ops and AI is sucking the ops oxygen a lot out of enterprise spending elsewhere. And hyperscaler spending elsewhere. We do not see it getting any worse. We do not see it recovering very quickly. With the exception of broadband. That's a simple summary of non-AI. With respect to OpenAI now before diving into the I'm just telling you what that 10 gigawatt announcement is all about. Separately, the journey with them on the customer accelerated progresses at a very advanced stage and will happen very, very quickly. And it's and we will have a committed element to this whole thing. And I won't. But what we I was articulating earlier was the 10 gigawatt announcement. And that 10 gigawatt announcement is an agreement to be aligned on developing 10 gigawatts for OpenAI over 27 to 29 time frame. I said, that's different from the XPU program we're developing with them.
-
-**Operator** (Operator)
-Thank you. And we do have time for one final question, and that will come from the line of Joe Moore with Morgan Stanley. Your line is open.
-
-**Joe Moore** (Analyst)
-Great. Thank you very much. So if you have $21 billion of rack revenue in 2026, I guess, do we stay at that run rate beyond that? Are you gonna continue to sell racks, or does that sort of that type of business make shift over time? And I'm really just trying to figure out the percentage of your eighteen-month backlog that's actually full systems at this point.
-
-**Hock Tan** (President and CEO)
-Well, it's an interesting question. And while that question basically comes to how much compute capacity is needed by our customers over the next as I say, over the period beyond eighteen months. And your guess is probably as good as mine based on what we all know out there. Which is really what it relates to. But if they need more, then you see that continuing even larger. If they do not need it, then probably it won't. But so one is what we're trying to indicate is that the demand we are seeing over that period of time right now.
-
-**Ji Yoo** (Head of Investor Relations)
-Thank you, operator. This quarter, Broadcom will be presenting at the New Street Research Virtual AI Big Ideas Conference on Monday, 12/15/2025. Broadcom currently plans to report its earnings for the 2026 after close of market on Wednesday, 03/04/2026. A public webcast of Broadcom's earnings conference. That will conclude our earnings call today. Thank you all for joining.
 
 **Operator** (Operator)
 This concludes today's program. Thank you all for participating. You may now disconnect.

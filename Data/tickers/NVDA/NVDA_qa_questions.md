@@ -7,7 +7,29 @@
 ---
 ## CURRENT QUARTER: 2027Q1
 
-*No analyst questions found in this transcript.*
+**Q1 — Joseph Moore**
+Great. Thank you for letting me ask the question. I guess I would like to ask what drove the change in segmentation? What is the philosophy behind giving us the numbers that way? And then can you talk about any competitive differences between the two segments and this kind of surprising CPU number that you talked about? How do you see that across the two segments as well? Thank you.
+
+**Q2 — Ben Reitzes**
+Hey, guys. Thank you so much. I wanted to ask, Jensen, about your philosophy on growth. Your data center business ex-China grew about 120% in the quarter, and hyperscaler CapEx is forecast by many, including myself, to grow 90% to 100% this year. You talked about data center still on track to be $3 trillion to $4 trillion by the end of the decade. I was just wondering the goal for the company to grow faster than hyperscaler CapEx? Are you still comfortable endorsing that view? And do you still see hyperscaler CapEx growing at a very rapid clip after this year? Thanks a lot.
+
+**Q3 — Christopher Muse**
+VeraRubin is coming soon, and you obviously have great insight into coming updates to frontier models and new techniques to optimize around diverse AI workloads. With investors keenly focused on your market share in inference, how do you see VeraRubin and your extreme co-engineering impacting your share of the inference market as we look into late 2026 and 2027?
+
+**Q4 — Timothy Arcuri**
+Thanks a lot. Jensen, I wanted to ask about the traction you are getting with some of these custom merchant things you are doing, like CPX and LPX. You've talked before about high-rate token synthesis being, I think, 20% of the market. Would you imagine you're getting pretty good traction with LPX? Can you talk about that and how it fits into your broader platform strategy? Thanks.
+
+**Q5 — Vivek Arya**
+Thanks for taking my question. Jensen, there's a lot of excitement around CPUs for agentic applications and some noise about the number of CPUs exceeding the number of GPUs. Could you give your perspective: is this incremental workload or cannibalistic of GPU workloads? And the $20 billion number you gave, is that for standalone Vera CPUs or is that included in Vera as part of VeraRubin? How should we think about the role of CPU versus GPU and the $20 billion number in context with what you sell, which is usually CPUs as part of GPU systems?
+
+**Q6 — Stacy Rasgon**
+I wanted to go back to the segmentation. First, where do you put the neo clouds across those two segments? Are they in hyperscale or in the AI cloud? I assume the latter, but I am not sure. And what is the magnitude of them? Both are about the same magnitude now. It sounded like you were suggesting that ACIE might grow faster going forward than hyperscale. Is that what you mean? Do you see similar growth coming from both segments?
+
+**Q7 — James Schneider**
+Good afternoon. Thanks for taking my question. Back at GTC, I believe you discussed a trillion dollars visibility into both your Rubin and Blackwell platform revenue, but I believe that excluded things like LPX, Rubin CPX, and the Vera CPU racks. Could you give us a sense about whether Vera CPUs are going to be the biggest source of upside above and beyond that $1 trillion? Are you contemplating other combinations of products, including CPUs, that would allow you to gain an even greater share of that total TAM? Thank you.
+
+**Q8 — Joshua Buchalter**
+Hey, guys. Thanks for taking my question and congrats on the great results. Colette, I believe in your prepared remarks you mentioned GB-300 is the fastest ramp in the company's history. How should we think about VeraRubin against this benchmark? It is obviously a new architecture at the silicon level, but it is similar at the rack level. Should we expect a similar slope to the VeraRubin ramp as the GB300 or will it be more gradual given the new silicon?
 
 ---
 ## PRIOR QUARTER: 2026Q4
