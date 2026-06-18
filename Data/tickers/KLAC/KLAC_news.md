@@ -1,35 +1,131 @@
 # KLAC News Data
-**Generated:** 2026-05-11 20:14
-**Date Range:** 2026-02-10 to 2026-05-11
+**Generated:** 2026-06-18 15:00
+**Date Range:** 2026-03-20 to 2026-06-18
 
 ## Summary Statistics
 
 ### Coverage
-- **Perigon:** 15 stories (aggregated from 15 media items)
-- **FMP:** 30 articles from 13 sources
-- **Total:** 45 items
+- **Perigon:** 18 stories (aggregated from 18 media items)
+- **FMP:** 30 articles from 15 sources
+- **Total:** 48 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 4 | 10 |
-| 2026-04 | 3 | 6 |
-| 2026-03 | 5 | 14 |
-| 2026-02 | 3 | 0 |
+| 2026-06 | 4 | 10 |
+| 2026-05 | 8 | 10 |
+| 2026-04 | 3 | 10 |
+| 2026-03 | 3 | 0 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.270)
-- Positive-leaning: 12 stories
+**Perigon** (avg composite: +0.237)
+- Positive-leaning: 15 stories
 - Neutral: 0 stories
 - Negative-leaning: 3 stories
 
 ---
 
-## Perigon Stories (15 stories)
+## Perigon Stories (18 stories)
 
-### 2026-05-11 | KLA 10-for-1 forward split expected June 11
-**Sentiment:** +0.09 (pos: 0.35, neg: 0.27, neu: 0.38)
+### 2026-06-16 | KLA completes 10-for-1 stock split
+**Sentiment:** +0.51 (pos: 0.61, neg: 0.10, neu: 0.29)
+
+KLA completed a ten-for-one forward stock split effective June 11, 2026, a move aimed at improving liquidity and making the shares more accessible as the company reported strong quarterly results, upbeat guidance, and higher dividends. The split has boosted attention among investors amid major recent momentum tied to enthusiasm for AI-driven semiconductor equipment, though some analysts warn the stock may already be pricing in very optimistic outcomes. At the same time, Cantor Fitzgerald maintained an overweight rating but sharply cut its price target from $2,500 to $250, citing concerns about forward expectations and noting insider selling activity. Valuation signals from the GuruFocus analysis also point to substantial overvaluation versus intrinsic-value estimates, while other broker coverage remains mixed, with an overall “Moderate Buy” consensus and widely varying price targets. Investors are therefore weighing near-term optimism from earnings and market demand against risks such as weaker China demand and potential tariff pressure on margins.
+
+**Key Points:**
+- KLA said the split was implemented via an amendment to its Restated Certificate of Incorporation that increased the number of authorized shares from 500 million to 5 billion, effective June 11, 2026 at 11:59 p.m. ET.
+- After the split, KLA’s stock showed strong near-term momentum: a 1-day return of 5.55% and a 30-day return of 41.07%, translating to a 1-year total shareholder return of 187.08%; the article also cites a “most followed narrative” that pins fair value near $1,855—implying a large gap versus the ~$254 trading level.
+- Broker coverage summary from MarketBeat: out of 30 brokerages, 10 rate KLA a “hold” and 20 rate it a “buy,” producing a “Moderate Buy” consensus; the average 12-month price target cited is $342.4429.
+
+---
+
+### 2026-06-12 | KLA shares jump 10% after earnings, split
+**Sentiment:** +0.31 (pos: 0.56, neg: 0.26, neu: 0.18)
+
+KLA shares have surged, with recent trading showing strong day-to-day momentum and the stock on pace for one of its biggest percent increases since April 2025. The rally follows KLA’s fiscal third-quarter 2026 results that beat expectations on both revenue and earnings per share, alongside an upbeat outlook for the fourth quarter and full-year guidance. Management projected continued growth outpacing the broader wafer fabrication equipment market, driven by strong demand in advanced packaging and KLA’s process control and inspection tools supporting AI-related chip manufacturing. Investor sentiment has also been boosted by a planned 10-for-1 stock split, an increased quarterly dividend, and a sizable share repurchase authorization. Analysts largely remain positive, citing KLA’s dominant position in process control and expectations for sustained earnings gains.
+
+**Key Points:**
+- KLA’s 10-for-1 stock split was announced as taking effect on June 12, 2026, a detail the market viewed as part of management’s longer-term outlook and a way to make shares more accessible.
+- Intraday and market-ranking momentum: KLA was up 8.53% to about $2,093.72 by 10:55 a.m. ET, up five of the prior six days, and was listed as the fourth-best performer in both the S&P 500 and Nasdaq 100 at that time—while still trading about 1.75% below its all-time closing high set June 4, 2026.
+- Advanced packaging demand was described as strong enough to produce revenue growth that “exceed[ed] earlier estimates,” reinforcing the company’s broader expectation that semiconductor process control systems will keep outgrowing the wafer fab equipment market.
+
+---
+
+### 2026-06-11 | KLA shares jump 9.5% stock split
+**Sentiment:** +0.70 (pos: 0.77, neg: 0.07, neu: 0.16)
+
+Stocks traded mixed for the broader market, with the S&P 500 down in the sessions covered while the Dow was flat to slightly higher. Kroger shares rose about 2% and notched a second straight day of gains despite a broadly grim trading backdrop. Labcorp and Corpay each gained roughly 3% and 2.5%, respectively, also extending momentum into another session. Verisk advanced about 2% but remained well below its 52-week peak, highlighting that the rallies are still off highs. KLA was the standout, jumping about 9.5% on heavy trading after multiple analysts raised or reiterated bullish price targets, and the company also announced a planned 10-for-1 stock split ahead of June market trading.
+
+**Key Points:**
+- KLA’s 9.5% jump came on relatively light trading volume: the stock traded about 268,019 shares in mid-day, down 75% from its average session volume, after rising from a prior close of $1,929.20 and hitting an intraday high of $2,089.50.
+- KLA’s recent earnings also provided tailwinds cited in the coverage: the semiconductor company reported $9.40 EPS for the quarter, topping analysts’ consensus of $9.17 by $0.23 (as referenced in the article).
+- The planned KLA 10-for-1 split has a specific timetable: it is set to occur before market opens on Friday, June 12; the split was announced May 7; and the newly created shares will be issued after market closes on Thursday, June 11.
+
+---
+
+### 2026-06-03 | MUFG Securities EMEA boosts AMAT stake
+**Sentiment:** +0.34 (pos: 0.42, neg: 0.08, neu: 0.49)
+
+Applied Materials is seeing notable shifts in institutional ownership, with MUFG Securities EMEA plc dramatically increasing its stake by about 1,317% in the fourth quarter to roughly 217,659 shares worth about $56 million. Norges Bank also emerged as a major new holder, buying about 11.1 million shares worth roughly $2.86 billion, while other investors reported smaller adds or trims. In contrast, Holderness Investments Co. reduced its Applied Materials position by about 3.9% in the fourth quarter, keeping the stock as its 5th-largest holding. Overall, hedge funds and other institutional investors hold about 80.6% of the company. Separately, Cantor Fitzgerald reiterated an Overweight view and lifted its price target to $575, signaling continued bullish sentiment toward Applied Materials’ outlook.
+
+**Key Points:**
+- Eurizon Capital SGR S.p.A. also initiated a position in Applied Materials in the 4th quarter, buying shares worth about $89,247,000, according to its most recent filing cited by the article.
+- Washington Trust Co increased its Applied Materials stake by 6.3% in the 4th quarter, bringing its total to 1,677 shares valued at about $431,000 after acquiring an additional 100 shares.
+- Holderness Investments Co. trimmed its position to 60,977 shares after selling 2,452 shares during the quarter; the stock also represented about 3.2% of Holderness’s investment portfolio (and remained its 5th-largest holding).
+
+---
+
+### 2026-05-29 | KLA hits 52-week high, plans split
+**Sentiment:** +0.13 (pos: 0.46, neg: 0.33, neu: 0.21)
+
+KLA shares rose to fresh 52-week highs, reflecting strong market optimism alongside recent analyst sentiment that is mixed but trending upward, including upgrades and higher price targets. The stock also drew attention for corporate moves and performance: KLA is set for a 10-for-1 forward split in mid-June, and its latest earnings showed results that beat expectations on both EPS and revenue. Multiple reports tied the buying pressure to a semiconductor equipment upcycle driven by AI-related memory and capacity expansion, suggesting equipment demand is structurally supported by chipmakers’ multi-year capex plans. In particular, coverage of KLA’s CFO at a major conference pointed to unusually strong visibility into 2027 demand, with customers reportedly locking in delivery slots for wafer-fab equipment. Other commentary emphasized volatility in the name, but argued that recent gains reflect meaningful signals about longer-dated AI infrastructure spending rather than only near-term results.
+
+**Key Points:**
+- KLA’s 10-for-1 forward stock split has specific timing: shares will split before the market opens on Friday, June 12, and the newly minted shares will be distributed to shareholders after the closing bell on Thursday, June 11.
+- In its latest reported quarter, KLA posted EPS of $9.40 (vs. $9.17 consensus) and revenue of $3.42 billion (vs. $3.37 billion consensus), with a 35.66% net margin and 91.89% return on equity—additional profitability detail beyond the headline “beat.”
+- At J.P. Morgan’s Global Technology, Media and Communications Conference, KLA’s CFO tied the stronger demand outlook to wafer-fab equipment spending expectations, saying wafer fab equipment spending is expected to exceed $140 billion this year, and that the global wafer fab equipment market is expected to reach $140 billion in fiscal 2026 (27% year-over-year growth).
+
+---
+
+### 2026-05-17 | KLA stock drops 3.35% on Samsung-strike fears
+**Sentiment:** -0.46 (pos: 0.14, neg: 0.60, neu: 0.27)
+
+KLA shares moved lower amid broader weakness in semiconductors, with investors citing pullback risk tied to concerns about a potential Samsung Electronics strike later in May and fears of supply-chain disruption. Markets also appeared cautious after hotter-than-expected April CPI data raised the prospect of higher-for-longer rates, while attention turned to a new Federal Reserve chair and potential policy readjustments. In company-specific news, recent insider selling by KLA executives added to investor unease despite the firm’s previously strong fiscal third-quarter results. Elsewhere, GuruFocus articles highlighted mixed valuation signals as multiple stocks fell: Karat Packaging looked modestly undervalued, Kura Sushi appeared far below its estimated intrinsic value but carried “possible value trap” risk, and Karooooo was also modestly undervalued with a high overall score. By contrast, KT Corp was flagged as significantly overvalued, suggesting limited margin of safety even as its valuation multiples were near historical norms.
+
+**Key Points:**
+- The semiconductor pullback also appears to be tied to technical/positioning concerns: the iShares Semiconductor ETF was described as “poised to conclude a period of rally,” as worries about a potential Samsung Electronics strike later in May raised fears of supply-chain disruption—particularly for high-bandwidth memory.
+- KLA’s insider-selling narrative included a specific detail: its President “recently sold a substantial portion of his holdings,” and while such sales can be pre-scheduled, the article noted they may still be “perceived negatively” by some investors as a question of executive confidence.
+- Karat Packaging (KRT) was quantified as modestly undervalued by GuruFocus: shares around $26.27 vs GF Value™ of $29.84 (about 12% undervaluation), with a forward P/E of 14.9x and no insider transactions in the prior three months.
+
+---
+
+### 2026-05-15 | KLA announces 10-for-1 stock split, dividend
+**Sentiment:** +0.47 (pos: 0.54, neg: 0.07, neu: 0.38)
+
+KLA Corporation announced a 10-for-1 stock split and an accompanying quarterly cash dividend, aiming to make its shares more accessible to retail investors while maintaining its shareholder-return strategy. Income-focused coverage emphasized that the split is largely cosmetic, pointing instead to the company’s sustained dividend growth, including a 21% increase to $2.30 per share and a 17th consecutive annual dividend hike. Other reporting tied the dividend decision to strong operating momentum, citing robust fiscal Q2 results with $3.42 billion in revenue and $9.40 in earnings per share. Analysts and investors highlighted KLA’s cash-generation capacity as the underpinning for continued dividend growth through multiple semiconductor cycles and the current AI-driven capex environment. In parallel, executive insider transactions were reported, including share sales by CEO Richard Wallace and other senior officers, alongside the earnings and dividend news. Overall, the updates combine market-mechanics changes (the split) with a core income-investor narrative (durable dividend growth) and routine insider selling.
+
+**Key Points:**
+- KLA’s dividend came with specific timing details: the cash dividend is payable June 2, 2026, to shareholders of record May 18, 2026, and after the June 11, 2026 split date it projects an August payment of about $0.23 per share (math-equivalent to the pre-split payout).
+- Insider-selling disclosures included exact trade sizes and dates: CEO Richard Wallace sold 4,512 shares (reported May 12, 2026), and SVP & Chief Accounting Officer Virendra Kirloskar sold 297 shares at $1,879.02 per share (reported May 11, 2026), while retaining holdings including RSUs.
+- Beyond the split/dividend headline, coverage emphasized KLA’s business mix and tooling: its Semiconductor Process Control segment accounted for over 90% of total sales, and products cited included the 8950e broadband plasma inspector and Surfscan SP7 unpatterned wafer defect inspector used in advanced-node manufacturing (3nm and below).
+
+---
+
+### 2026-05-14 | Dr. Reddy’s Schedules Analyst Meetings Mumbai, Singapore
+**Sentiment:** +0.40 (pos: 0.47, neg: 0.07, neu: 0.46)
+
+Multiple listed companies have announced scheduled analyst and institutional investor interactions as part of routine investor-relations activities. ACI Worldwide said its management will participate in J.P. Morgan’s 2026 Global Technology, Media and Communications Conference on May 18, with the company’s CEO, CFO, and an SVP slated to attend. IndiaMART InterMESH disclosed planned one-on-one and group meetings with Centrum Broking on May 21, including a video-conference format, and separately reported prior institutional engagement on May 12, each time reiterating that no unpublished price-sensitive information was shared. Dr. Reddy’s Laboratories also notified exchanges of in-person analyst and institutional investor meetings in Mumbai and Singapore in May, with the schedule subject to change, and noted compliance with SEBI disclosure requirements.
+
+**Key Points:**
+- ACI Worldwide said its management delegation for J.P. Morgan’s 2026 Global Technology, Media and Communications Conference on May 18 will include President and CEO Thomas Warsop, CFO Bobby Leibrock, and SVP John Kraft.
+- IndiaMART InterMESH disclosed that the May 12, 2026 one-on-one meetings were conducted by separate institutional investors, with the disclosures made by Vasudha Bagri, Compliance Officer (Membership No: A28500).
+- For the May 21, 2026 interaction with Centrum Broking, IndiaMART InterMESH specified it will be held at the “Nakshatra III” venue and described the format as a video conference (while reiterating that no unpublished price-sensitive information will be shared).
+
+---
+
+### 2026-05-13 | KLA 10-for-1 forward split expected June 11
+**Sentiment:** +0.13 (pos: 0.31, neg: 0.19, neu: 0.50)
 
 Ahead of major earnings this week, TipRanks estimates investors’ expected post-earnings stock moves using at-the-money options straddles expiring closest to each announcement, noting that implied volatility typically rises before results and then drops sharply in a “volatility crush” after uncertainty is resolved. The analysis covers several upcoming reporters, including Alibaba, Plug Power, D-Wave Quantum, Rigetti Computing, and Applied Materials. In the stock-split arena, KLA approved a 10-for-1 forward split effective after trading ends June 11, aiming to make shares more accessible and liquid while keeping its long-term capital strategy intact. The report frames KLA’s move as part of a broader wave of split enthusiasm tied to market accessibility, following recent splits by Booking Holdings and Carvana. A separate weekly calendar highlights that many corporate split actions are now reverse splits for exchange compliance or share-price requirements, including Xiao-I’s 1-for-20 reverse split of its ADS to maintain Nasdaq listing standards.
 
@@ -148,145 +244,205 @@ The U.S. has launched a multi-trillion-dollar investment consortium to strengthe
 
 ---
 
-### 2026-03-16 | KLA announces $7B buyback, raises 21% dividend
-**Sentiment:** +0.61 (pos: 0.67, neg: 0.06, neu: 0.27)
-
-KLA’s board authorized a $7 billion share repurchase and raised its quarterly dividend by 21% to $2.30, announcements made at the company’s 2026 Investor Day. The new buyback supplements an existing authorization (about $3.944 billion remaining) and amounts to roughly 3.7% of shares available for open‑market repurchases. Management used Investor Day to reaffirm guidance, present a 2030 target model and emphasize KLA’s positioning to benefit from semiconductor and AI-driven demand. Analysts have generally lifted price targets and maintained bullish views, while market reaction was mixed with some reports of premarket gains and others noting modest dips. The moves are backed by recent strong results and healthy margins, though several outlets note KLA trades at a premium versus peers.
-
-**Key Points:**
-- The dividend increase to $2.30 marks KLA’s 17th consecutive annual dividend raise and CEO Rick Wallace framed the actions as reaffirming the company’s confidence in the business and its disciplined capital-allocation approach.
-- KLA’s most recent quarter showed an $8.85 EPS (beating the $8.75 consensus by $0.10), revenue of $3.30 billion (up 7.1% year-over-year), a net margin of 35.76% and a very high return on equity of 98.18%.
-- Several large brokerages raised or set lofty price targets on KLA following the news — examples include Bank of America boosting its target to $1,650, Wells Fargo raising its target to $1,900, and Jefferies lifting its target to $1,850.
-
----
-
-### 2026-03-06 | KLA Placed on Catalyst Watch Ahead of Investor Day
-**Sentiment:** -0.14 (pos: 0.29, neg: 0.42, neu: 0.29)
-
-KLA was placed on a 30‑day positive Catalyst Watch ahead of its March 12 Investor Day, where investors expect new product announcements and an updated long‑term financial model. The stock trades around $1,441, roughly 16% below consensus analyst targets after a recent pullback. Citi and other analysts are bullish on KLA’s ability to improve margins and market share over the coming years and project significant 2030 revenue and EPS upside if wafer‑fab equipment demand normalizes, though the company has recently lagged some peers amid WFE concerns. Broker notes are mixed, with several firms maintaining hold/neutral stances and at least one reported price‑target adjustment. Broader market headwinds — including mounting AI uncertainty and a regional Middle East escalation that disrupted shipping and pushed crude higher — are adding to volatility and weighing on risk assets. Analysts warn many beaten‑down tech and software names remain vulnerable until demand stabilizes and clear bullish reversal patterns emerge.
-
-**Key Points:**
-- Simply Wall St flags that KLA has delivered very strong longer‑term returns (5‑year return of 416.5%, up 107.8% over the past year, and 13.1% YTD) even as it has consolidated recently (4.3% decline over the past week and a 30‑day return of 0.94%); the service also notes its fair‑value model currently sees the shares as about 81.5% above estimated fair value.
-- Citi analyst Atif Malik quantified a bullish downside/upside scenario: he expects KLA could reach roughly $24 billion in revenue and $68 in EPS by 2030 on an assumed $200 billion WFE market — driven by higher process‑control concentration — and projects 'modestly improving gross margins of 63% from 2026 levels.'
-- KLA is noted as one of the 12 best‑performing S&P 500 stocks over the past decade, and the company’s core business is providing process control, inspection, metrology and yield‑management systems that are critical to advanced semiconductor manufacturing.
-
----
-
-### 2026-02-27 | Morgan Stanley Raises KLA Price Target $1809
-**Sentiment:** +0.39 (pos: 0.53, neg: 0.14, neu: 0.33)
-
-KLA shares have rallied into 2026—trading around $1,546 and posting strong momentum (90-day gains near 33% and roughly 1-year returns above 100%) as investors position for AI-driven semiconductor spending. Multiple brokerages have raised targets and maintained bullish ratings—with Morgan Stanley lifting its target to $1,809 and the consensus one-year target near $1,670—citing KLA’s dominant position in wafer-inspection and process-control equipment and major customers like TSMC and Samsung. The company’s recent quarter beat expectations on EPS ($8.85) and revenue (~$3.30 billion), reinforcing the growth case and healthy margins. At the same time, valuation is contested—some fair-value models sit well below the market price—and analysts warn that cooling AI capex or rivals bundling inspection features could pressure KLA’s pricing power. The stock was also highlighted in Aristotle’s Growth Equity Fund letter, even as that fund modestly underperformed its growth benchmark, underscoring KLA’s prominence in institutional portfolios amid broader market resilience and investor debate.
-
-**Key Points:**
-- Aristotle noted KLA closed at $1,546.68 on Feb. 25, 2026, has a market capitalization of $203.222 billion and a one‑month return of -8.19%.
-- A Simply Wall St fair‑value model cited a materially lower intrinsic/fair value of $1,312.45 for KLA, highlighting a valuation gap beneath the recent share price (and raising debate over how much AI optimism is priced in).
-- Analysts note KLA’s core strength is process‑control/inspection (where it holds a majority share) but the company has only a small exposure to etch and deposition segments of the wafer fabrication equipment market.
-
----
-
-### 2026-02-19 | Applied Materials shares surge on Q1 beat
-**Sentiment:** +0.57 (pos: 0.63, neg: 0.06, neu: 0.32)
-
-On Feb. 17, 2026, Applied Materials’ Q1 results validated what analysts are calling an “AI Giga‑cycle,” repositioning the company as a foundational builder of AI infrastructure rather than a cyclical hardware vendor. The company reported non‑GAAP EPS of $2.38 on $7.01 billion in revenue, posted a 49.1% gross margin—the highest in decades—and set second‑quarter guidance well above Street estimates. Investors rotated away from AI software winners and into pick‑and‑shovel hardware providers, driving AMAT shares to record levels (reports noted gains of more than 8%, with some accounts citing intraday moves up to 11%). Management’s shift toward integrated “Materials‑to‑Systems” and PPACt solutions, plus demand for HBM and next‑generation 2nm logic tooling, underpins expectations for a multi‑year capex cycle. The breakout underscores a broader market reassessment that prizes the makers of advanced semiconductor equipment as essential to the AI economy.
-
-**Key Points:**
-- Applied Materials gave explicit fiscal second‑quarter guidance that was well above Street expectations: management projected roughly $7.65 billion in revenue and about $2.64 in non‑GAAP EPS for Q2.
-- The stock hit a specific all‑time closing high in mid‑February — closing at $354.91 on Feb. 13, 2026 — part of a multi‑day technical breakout that included session moves of more than 8% and, by some accounts, intraday spikes up to ~11%.
-- Applied Materials has a long corporate history that helps explain its breadth today: it was founded in 1967 by Michael A. McNeilly (went public in 1972) and was reshaped under longtime CEO James C. Morgan (from 1976), who diversified the company into a broad portfolio of fabrication tools and steered it through multiple industry cycles.
-
----
-
-### 2026-02-14 | KLA to Invest $400M in Chennai R&D Campus
-**Sentiment:** +0.79 (pos: 0.81, neg: 0.02, neu: 0.17)
-
-KLA Corporation has signed a memorandum of understanding with the Tamil Nadu government to invest about $400 million (roughly ₹3,510–3,600 crore) to establish a global R&D and innovation campus in Chennai. The planned 12-acre facility, whose MoU was signed in the presence of Chief Minister M.K. Stalin and senior officials, could grow to about 1.5 million square feet and is expected to generate up to 4,000 high-skilled jobs over the next decade. The campus will focus on advanced research in high-performance computing, process-control engineering software and AI-driven semiconductor innovation. KLA said the investment reflects a long-term commitment to India as a strategic hub for R&D and AI-led semiconductor work, and the company expects the campus to become one of its largest integrated R&D presences outside its global headquarters. Tamil Nadu officials said the move strengthens the state's role in the global semiconductor value chain and reflects investor confidence in its talent and policy environment.
-
-**Key Points:**
-- The MoU signing was attended by several senior officials including Deputy Chief Minister Udhayanidhi Stalin, Industries Minister T.R.B. Rajaa, Chief Secretary N. Muruganandam, Industry Secretary Arun Roy, and Bobby Bell, EVP and Head of Government Relations, KLA.
-- KLA said the investment commitment is 'up to $400 million' to be made over the next decade, underscoring the long-term timeline for the project.
-- Tamil Nadu Industries Minister T. R. B. Rajaa posted that 'KLA which is one of the BIG 3 in Semiconductor manufacturing design and R&D' and added, 'From electronics manufacturing to semiconductor R&D, we are moving up the value chain !' in announcing the deal.
-
----
-
 ## FMP Articles (30 articles)
 
-### 2026-05-11 | Wall Street's Next Blockbuster Stock Split Was Just Announced -- and This Industry Titan Has Skyrocketed Over 51,000% in 32 Years
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/11/wall-st-next-blockbuster-stock-split-gain-51000/
+### 2026-06-17 | Wednesday's Morning Movers: AI Manufacturer PT Hikes, JBL & LZB Beat Earnings
+**Source:** Schwab Network
+**URL:** https://www.youtube.com/watch?v=-rDgJ4kIVx8
 
-A critical cog to the semiconductor manufacturing industry is prepping for its sixth forward stock split since going public in 1980.
+At the opening bell, Diane King Hall discusses this morning's top moving stocks in companies like Applied Materials (AMAT), Lam Research (LRCX), and KLA Corp. (KLAC) receiving price targets hikes from Citigroup. She also highlights earnings movers in Jabil's (JBL) earnings beat and La-Z-Boy (LZB) raising guidance as U.S. consumers show strength.
 
 ---
 
-### 2026-05-08 | Can KLA's Advanced Packaging Strength Support $1B Revenue Target?
+### 2026-06-16 | After a 45% Rally, This Post-Split Stock May Be Sending a Warning Signal
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/06/16/after-a-45-rally-this-post-split-stock-may-be-sending-a-warning-signal/
+
+KLA Corporation (NASDAQ:KLAC | KLAC Price Prediction) at $254.54 is a Hold.
+
+---
+
+### 2026-06-16 | Can KLA's Yield Tools Power the Next Leg of AI Chip Growth?
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2917965/can-kla-s-advanced-packaging-strength-support-1b-revenue-target?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2917965
+**URL:** https://www.zacks.com/stock/news/2937786/can-kla-s-yield-tools-power-the-next-leg-of-ai-chip-growth?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2937786
 
-KLA Corporation KLAC is seeing strong momentum in the advanced packaging business, supported by rising artificial intelligence (AI) infrastructure investments and growing semiconductor complexity. Management now expects advanced packaging revenues from the semiconductor process control portfolio to increase to nearly $1 billion in 2026 from around $635 million in 2025, reflecting stronger-than-expected customer demand.
+KLAC's yield tools gain relevance as AI chip complexity drives demand for defect detection, process monitoring and faster production ramp-up.
 
 ---
 
-### 2026-05-08 | Wall Street Bulls Look Optimistic About KLA (KLAC): Should You Buy?
+### 2026-06-15 | Big Moves: GOOGL, RKLB, KLAC
+**Source:** Schwab Network
+**URL:** https://www.youtube.com/watch?v=TZB__UDDsSs
+
+Tom White breaks down stocks on the move and shows unusual options trades he found for all his picks. He says Alphabet's (GOOGL) recent rally has more room to run, Rocket Lab (RKLB) will have more muscle due to its Nasdaq-100 (NDX) inclusion, and KLA Corp. (KLAC) gaining more interest as shares hit an all-time high.
+
+---
+
+### 2026-06-15 | Semiconductor ETFs Now Dominate the Most‑Traded List — A Signal You Can't Ignore
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/06/15/semiconductor-etfs-now-dominate-the-most%e2%80%91traded-list-a-signal-you-cant-ignore/
+
+The semiconductor rally has continued to act as a trader's playground. In a recent comment on X, Eric Balchunas, a senior ETF analyst, remarked on a snapshot of his that half of the most-traded ETFs on that day (that was at the start of June) were related to the semiconductor industry.
+
+---
+
+### 2026-06-12 | KLA (KLAC) Stock Dips While Market Gains: Key Facts
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2917975/wall-street-bulls-look-optimistic-about-kla-klac-should-you-buy?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|average_broker_rating-2917975
+**URL:** https://www.zacks.com/stock/news/2936880/kla-klac-stock-dips-while-market-gains-key-facts?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6v2-2936880
 
-When deciding whether to buy, sell, or hold a stock, investors often rely on analyst recommendations. Media reports about rating changes by these brokerage-firm-employed (or sell-side) analysts often influence a stock's price, but are they really important?
-
----
-
-### 2026-05-08 | Why Intel Is The Secret Winner Of The Elon Musk Terafab Buildout
-**Source:** Forbes
-**URL:** https://www.forbes.com/sites/greatspeculations/2026/05/08/why-intel-is-the-secret-winner-of-the-elon-musk-terafab-buildout/
-
-Earlier this week, Elon Musk formally introduced the Terafab Initiative, a chip manufacturing facility located in Texas, designed to create processors for Tesla (TSLA), SpaceX, and xAI.
+KLA (KLAC) concluded the recent trading session at $253.84, signifying a -89.47% move from its prior day's close.
 
 ---
 
-### 2026-05-07 | This 150% Run Is Just the Beginning
-**Source:** InvestorPlace
-**URL:** https://investorplace.com/2026/05/this-150-run-just-beginning/
+### 2026-06-11 | Is Jeff Bezos’ New Startup An Even Bigger Idea than Amazon? He Tells CNBC it Will Drive ‘Civilizational Wealth.’
+**Source:** 247 Wallst
+**URL:** https://247wallst.com/investing/2026/06/11/is-jeff-bezos-new-startup-an-even-bigger-idea-than-amazon-he-tells-cnbc-it-will-drive-civilizational-wealth/
 
-The AI trade shifts to CPUs
-
----
-
-### 2026-05-07 | KLA Corporation Announces Ten-to-One Stock Split and Quarterly Cash Dividend Payment
-**Source:** PRNewsWire
-**URL:** https://www.prnewswire.com/news-releases/kla-corporation-announces-ten-to-one-stock-split-and-quarterly-cash-dividend-payment-302766137.html
-
-MILPITAS, Calif., May 7, 2026 /PRNewswire/ -- KLA Corporation (NASDAQ: KLAC) today announced that its board of directors approved a Ten‑for‑One forward stock split of the company's outstanding shares of common stock—enhancing share accessibility and reinforcing the company's long-term innovation and growth strategy.
+Jeff Bezos sat down with CNBC on June 11, 2026, to make the case that his next act could become even bigger than Amazon. As co-founder and co-CEO of Prometheus, Bezos is pitching a thesis that tries to answer one question: What actually makes societies rich? His answer is invention. "What drives the wealth of... Is Jeff Bezos' New Startup An Even Bigger Idea than Amazon? He Tells CNBC it Will Drive 'Civilizational Wealth.'
 
 ---
 
-### 2026-05-07 | 4 High Quality Stocks with Growing Dividends
+### 2026-06-11 | Applied Materials, KLA stocks gain as AI boom lifts chip equipment outlook
+**Source:** Invezz
+**URL:** https://invezz.com/news/2026/06/11/applied-materials-kla-stocks-gain-as-ai-boom-lifts-chip-equipment-outlook/
+
+Shares of semiconductor equipment makers moved higher after analysts raised expectations for the wafer fabrication equipment market, arguing that growing artificial intelligence investment continues to support long-term demand across the industry. While chip stocks have come under pressure in recent sessions, analysts say the outlook remains favorable for companies that supply the tools needed to manufacture semiconductors.
+
+---
+
+### 2026-06-11 | Applied Materials and KLA Are Surging. Why You Should Buy the Stocks, Says This Analyst.
+**Source:** Barrons
+**URL:** https://www.barrons.com/articles/applied-materials-stock-kla-ai-buy-277b3e2f
+
+Barclays reiterates Overweight ratings on Applied Materials and KLA amid strong investment in new chip supply.
+
+---
+
+### 2026-06-10 | Why KLA Corporation Stock Edged Past the Broader Market Today
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/06/10/why-kla-corporation-stock-edged-past-the-broader-m/
+
+He also held fast to his equivalent of a buy recommendation. This move was made in advance of a 10-for-1 stock split, scheduled for Friday.
+
+---
+
+### 2026-05-19 | KLA Corporation (KLAC) Presents at J.P. Morgan 54th Annual Global Technology, Media and Communications Conference Transcript
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4906522-kla-corporation-klac-presents-at-j-p-morgan-54th-annual-global-technology-media-and
+
+KLA Corporation (KLAC) Presents at J.P. Morgan 54th Annual Global Technology, Media and Communications Conference Transcript
+
+---
+
+### 2026-05-19 | KLAC Stock Skyrockets 59% in 6 Months: Is More Upside Ahead?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2923419/klac-stock-skyrockets-59-in-6-months-is-more-upside-ahead?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2923419
+
+KLAC's shares have jumped 59% in six months as AI chip demand and advanced packaging growth strengthen KLA's outlook.
+
+---
+
+### 2026-05-18 | ASML Expands Globally, Joins Tata for India Semiconductor Hub
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2922901/asml-expands-globally-joins-tata-for-india-semiconductor-hub?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2922901
+
+ASML teams up with Tata Electronics to help ramp a $11B Dholera 300mm fab, boosting its India footprint and future DUV-to-EUV sales.
+
+---
+
+### 2026-05-18 | From High-Yield to High-Growth: 3 Stocks Boosting Dividends
+**Source:** MarketBeat
+**URL:** https://www.marketbeat.com/stock-ideas/from-high-yield-to-high-growth-3-stocks-boosting-dividends/
+
+Three big-name stocks recently added more juice to their dividends. These stocks sit on different ends of the dividend yield to dividend growth spectrum.
+
+---
+
+### 2026-05-15 | Vegas casino pulls plug on prediction market conference amid Nevada crackdown
+**Source:** New York Post
+**URL:** https://nypost.com/2026/05/15/business/vegas-casino-pulls-plug-on-prediction-market-conference-amid-nevada-crackdown-report/
+
+The Nevada Gaming Commission sued the company over its sports event contracts, and the platform was briefly barred from operating in the state earlier this year, according to Barron's.
+
+---
+
+### 2026-05-15 | Forget Micron. Every Dollar of AI Memory Spending Has to Pass Through These 2 Stocks First
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/15/forget-micron-every-dollar-of-ai-memory-spending-has-to-pass-through-these-2-stocks-first/
+
+Micron (NASDAQ:MU | MU Price Prediction) is the memory stock dominating every AI headline this quarter, with traders glued to high-bandwidth memory pricing and the next supply-cycle data point.
+
+---
+
+### 2026-05-15 | Will Solid Dragonfly G5 & Atlas G6 Traction Fuel More Upside for ONTO?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2921823/will-solid-dragonfly-g5-atlas-g6-traction-fuel-more-upside-for-onto?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2921823
+
+Onto Innovation's Dragonfly G5 and Atlas G6 are gaining AI chip traction, with HBM deals and advanced-node growth fueling momentum in 2026.
+
+---
+
+### 2026-05-15 | KLA Corporation: Quietly Dominating The 2nm Hyperscaler Race
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4905147-kla-corporation-quietly-dominating-the-2nm-hyperscaler-race
+
+KLA Corporation is positioned for sustained growth, driven by leading-edge foundry investments and dominance in semiconductor process control. KLAC commands a 58% global market share in process control, benefiting from surging 2nm node and AI infrastructure demand by hyperscalers. KLAC targets $26 billion in revenue by 2030 (13-17% CAGR), with gross margin expansion to 63.5% and forward EPS growth outpacing peers.
+
+---
+
+### 2026-05-14 | Is KLA Becoming the Biggest Beneficiary of AI Semiconductor Spending?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2921408/is-kla-becoming-the-biggest-beneficiary-of-ai-semiconductor-spending?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2921408
+
+KLAC is riding the AI chip boom as soaring demand for advanced packaging and process-control tools boosts growth and backlog visibility.
+
+---
+
+### 2026-05-13 | Wall Street Says Sell in May. A 10-Year Pattern on This Semiconductor Stock Says the Opposite.
 **Source:** Benzinga
-**URL:** https://www.benzinga.com/opinion/26/05/52380842/4-high-quality-stocks-with-growing-dividends
+**URL:** https://www.benzinga.com/news/26/05/52538616/wall-street-says-sell-in-may-a-10-year-pattern-on-this-semiconductor-stock-says-the-opposite
 
-The post-Iran-war rebound has been fast and furious — but rising tides lift all boats, including the leaky ones. When every stock is going up, separating genuine quality from speculative momentum feels nearly impossible.
+Every spring, Wall Street recycles its favorite piece of advice: “Sell in May and go away.” It's tidy, it rhymes, and for a lot of traders, it's gospel.
 
 ---
 
-### 2026-05-07 | Option Spread Trade on Leading AI Stock Offers 32% Return Potential
+### 2026-04-17 | KLA Corporation $KLAC Shares Acquired by Farther Finance Advisors LLC
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/17/kla-corporation-klac-shares-acquired-by-farther-finance-advisors-llc.html
+
+Farther Finance Advisors LLC boosted its position in KLA Corporation (NASDAQ: KLAC) by 86.6% in the undefined quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 4,063 shares of the semiconductor company's stock after purchasing an additional 1,886 shares during the quarter. Farther Finance Advisors LLC's
+
+---
+
+### 2026-04-15 | KLA (NASDAQ:KLAC) Reaches New 52-Week High  – Should You Buy?
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/15/kla-nasdaqklac-reaches-new-52-week-high-should-you-buy.html
+
+Shares of KLA Corporation (NASDAQ: KLAC - Get Free Report) hit a new 52-week high during mid-day trading on Wednesday. The stock traded as high as $1,798.00 and last traded at $1,795.91, with a volume of 867092 shares. The stock had previously closed at $1,768.78. More KLA News Here are the key news stories impacting
+
+---
+
+### 2026-04-14 | KLA (KLAC) Surpasses Market Returns: Some Facts Worth Knowing
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/commentary/2917046/option-spread-trade-on-leading-ai-stock-offers-32-return-potential?cid=CS-STOCKNEWSAPI-FT-know_your_options-2917046
+**URL:** https://www.zacks.com/stock/news/2900219/kla-klac-surpasses-market-returns-some-facts-worth-knowing
 
-Regardless of whether KLAC increases in price, remains flat, or even loses 5% from our entry, this option spread trade will produce a 32.7% return.
+KLA (KLAC) reached $1 at the closing of the latest trading day, reflecting a +1.53% change compared to its last close.
 
 ---
 
-### 2026-05-07 | KLA (KLAC) Just Flashed Golden Cross Signal: Do You Buy?
+### 2026-04-13 | KLA (KLAC) Outpaces Stock Market Gains: What You Should Know
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2916932/kla-klac-just-flashed-golden-cross-signal-do-you-buy?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|20_day_moving_average_(yseop)-2916932
+**URL:** https://www.zacks.com/stock/news/2899377/kla-klac-outpaces-stock-market-gains-what-you-should-know
 
-KLA (KLAC) reached a significant support level, and could be a good pick for investors from a technical perspective. Recently, KLAC broke through the 20-day moving average, which suggests a short-term bullish trend.
+KLA (KLAC) closed at $1 in the latest trading session, marking a +1.81% move from the prior day.
 
 ---
 
-### 2026-05-06 | KLA Corp. (KLAC) Price Forecast: Advance Signals Potential Trend Continuation
-**Source:** FXEmpire
-**URL:** https://www.fxempire.com/forecasts/article/kla-corp-klac-price-forecast-advance-signals-potential-trend-continuation-1596293
+### 2026-04-13 | KLAC DCF Analysis: Intrinsic Value $1108 vs Price $1737
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8789180/klac-dcf-analysis-intrinsic-value-1108-vs-price-1737
 
-KLAC stabilizes after a pullback to key support, reclaiming the 20-day average while facing critical confirmation levels that will determine continuation of its broader uptrend.
+On April 13, 2026, we delve into the DCF analysis for KLA Corp (KLAC), a company that has shown remarkable price performance recently. Over the past year, KLAC'
 
 ---
 
@@ -327,125 +483,5 @@ Semis rallied with the support of tailwinds, but they reversed course when the s
 **URL:** https://www.fxempire.com/forecasts/article/watch-kla-rise-on-institutional-inflows-1589590
 
 KLA Corporation (KLAC) shares up 27,230% since 1994 after 116 outlier inflows.
-
----
-
-### 2026-04-02 | KLA Corporation: A 7.1 Rating in the Semiconductor Equipment Arena
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/02/kla-corporation-a-71-rating-in-the-semiconductor-e/
-
-Explore the exciting world of KLA Corporation (KLAC 0.24%) with our contributing expert analysts in this Motley Fool Scoreboard episode. Check out the video below to gain valuable insights into market trends and potential investment opportunities!
-
----
-
-### 2026-03-31 | Why KLA (KLAC) Could Beat Earnings Estimates Again
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2892390/why-kla-klac-could-beat-earnings-estimates-again?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_7-2892390
-
-KLA (KLAC) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.
-
----
-
-### 2026-03-30 | Chip Stocks Falls as Sector Selloff Deepens, Optical Names Lead Losses
-**Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8756485/chip-stocks-falls-as-sector-selloff-deepens-optical-names-lead-losses
-
-Semiconductor stocks fell broadly Monday, extending losses from last week as investors weighed headwinds across the sector.The Philadelphia Semiconductor Index
-
----
-
-### 2026-03-27 | Which Chip Equipment Stock Now Offers the Smartest Dip Buy?
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/03/27/which-chip-equipment-stock-now-offers-the-smartest-dip-buy/
-
-Applied Materials (NASDAQ: AMAT | AMAT Price Prediction), ASML (NASDAQ: ASML), KLA (NASDAQ: KLAC), and Lam Research (NASDAQ: LRCX) have all retreated sharply in recent weeks.
-
----
-
-### 2026-03-25 | KLA (KLAC) Stock Dips While Market Gains: Key Facts
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2889879/kla-klac-stock-dips-while-market-gains-key-facts?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6v2-2889879
-
-In the closing of the recent trading day, KLA (KLAC) stood at $1, denoting a -1.43% move from the preceding trading day.
-
----
-
-### 2026-03-12 | KLA (KLAC) Registers a Bigger Fall Than the Market: Important Facts to Note
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2883462/kla-klac-registers-a-bigger-fall-than-the-market-important-facts-to-note?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6v3-2883462
-
-In the most recent trading session, KLA (KLAC) closed at $1, indicating a -3.78% shift from the previous trading day.
-
----
-
-### 2026-03-12 | 3 Electronics Stocks Set to Benefit From a Thriving Industry
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/commentary/2883325/3-electronics-stocks-set-to-benefit-from-a-thriving-industry?cid=CS-STOCKNEWSAPI-FT-industry_outlook-2883325
-
-Electronics stocks like KLAC, TER and GRMN are expected to benefit from investments in infrastructure and expanded capacity despite macroeconomic headwinds.
-
----
-
-### 2026-03-12 | KLA Corp Announces Massive $7 Billion Buyback, Dividend Hike
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/markets/large-cap/26/03/51208398/kla-corp-announces-massive-7-billion-buyback-dividend-hike
-
-KLA Corporation (NASDAQ: KLAC) shares are up during Thursday's premarket session following the announcement of a new $7 billion share repurchase program and a 21% increase in the quarterly dividend.
-
----
-
-### 2026-03-12 | Chipmaking tool provider KLA unveils $7 billion share buyback
-**Source:** Reuters
-**URL:** https://www.reuters.com/business/chipmaking-tool-provider-kla-unveils-7-billion-share-buyback-2026-03-12/
-
-Chipmaking tool ​provider KLA Corp ‌on Thursday ​announced ​a share buyback ⁠program ​worth $7 billion, ​in addition to ​its ​existing share repurchase ‌authorization, ⁠which stood at $3.94 billion ​as ​of ⁠December ​31, 2025.
-
----
-
-### 2026-03-12 | KLA Hosts Investor Day; Announces $7 Billion Share Repurchase Program and 21% Increase to Quarterly Dividend; Reaffirms March 2026 Guidance
-**Source:** PRNewsWire
-**URL:** https://www.prnewswire.com/news-releases/kla-hosts-investor-day-announces-7-billion-share-repurchase-program-and-21-increase-to-quarterly-dividend-reaffirms-march-2026-guidance-302711610.html
-
-Announces new $7 billion Share Repurchase Authorization Announces 21% increase in quarterly dividend level to $2.30 per share from $1.90 Reaffirms current March 2026 quarter guidance MILPITAS, Calif., March 12, 2026 /PRNewswire/ -- KLA Corporation (NASDAQ: KLAC) will hold its 2026 Investor Day today in New York City with presentations by Rick Wallace, President and Chief Executive Officer, Bren Higgins, Executive Vice President and Chief Financial Officer, and other senior executives of the Company.
-
----
-
-### 2026-03-11 | KLA Jumps 22% in 3 Months: Is There More Room for the Stock to Grow?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2882562/kla-jumps-22-in-3-months-is-there-more-room-for-the-stock-to-grow?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2882562
-
-KLAC shares jump 21.7% in three months despite a softer fiscal Q3 outlook, as strong AI infrastructure spending and accelerating advanced packaging demand support growth.
-
----
-
-### 2026-03-10 | Can KLA Stock Rise To $1,000?
-**Source:** Forbes
-**URL:** https://www.forbes.com/sites/greatspeculations/2026/03/10/can-kla-stock-rise-to-1000/
-
-KLA (KLAC) shares have risen by 6.3% in the last day, and they are currently trading at $1,429.10. Our multi-faceted analysis indicates that it might be the right time to decrease exposure to KLAC shares.
-
----
-
-### 2026-03-06 | Semiconductor Opportunity Is Here
-**Source:** FXEmpire
-**URL:** https://www.fxempire.com/forecasts/article/semiconductor-opportunity-is-here-1583774
-
-In markets, 2026 has been the year of the stock picker. And among the successful equities targets this year, semiconductor stocks have been some of the biggest winners.
-
----
-
-### 2026-03-05 | Here's Why KLA (KLAC) Fell More Than Broader Market
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2879747/here-s-why-kla-klac-fell-more-than-broader-market?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6v2-2879747
-
-In the closing of the recent trading day, KLA (KLAC) stood at $1, denoting a -3.37% move from the preceding trading day.
-
----
-
-### 2026-03-05 | KLA (KLAC) Just Overtook the 20-Day Moving Average
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2879283/kla-klac-just-overtook-the-20-day-moving-average?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|20_day_moving_average_(yseop)-2879283
-
-KLA (KLAC) reached a significant support level, and could be a good pick for investors from a technical perspective. Recently, KLAC broke through the 20-day moving average, which suggests a short-term bullish trend.
 
 ---

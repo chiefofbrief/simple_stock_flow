@@ -1,390 +1,390 @@
 # NVDA News Data
-**Generated:** 2026-05-21 16:18
-**Date Range:** 2026-02-20 to 2026-05-21
+**Generated:** 2026-06-18 15:00
+**Date Range:** 2026-03-20 to 2026-06-18
 
 ## Summary Statistics
 
 ### Coverage
 - **Perigon:** 10 stories (aggregated from 10 media items)
-- **FMP:** 30 articles from 15 sources
+- **FMP:** 30 articles from 14 sources
 - **Total:** 40 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 10 | 10 |
+| 2026-06 | 10 | 10 |
+| 2026-05 | 0 | 10 |
 | 2026-04 | 0 | 10 |
-| 2026-03 | 0 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.101)
-- Positive-leaning: 6 stories
+**Perigon** (avg composite: +0.304)
+- Positive-leaning: 8 stories
 - Neutral: 0 stories
-- Negative-leaning: 4 stories
+- Negative-leaning: 2 stories
 
 ---
 
 ## Perigon Stories (10 stories)
 
-### 2026-05-21 | Nvidia Reports Record Revenue, Forecasts $91B
-**Sentiment:** +0.13 (pos: 0.29, neg: 0.16, neu: 0.55)
+### 2026-06-18 | AWS, Qualcomm plan AI200 accelerators to cut inference costs
+**Sentiment:** +0.10 (pos: 0.35, neg: 0.25, neu: 0.40)
 
-Nvidia reported record fiscal 2027 first-quarter revenue of $81.6 billion, up 85% year over year, driven primarily by data center sales of $75.2 billion (+92%), along with EPS of $1.87 and a gross margin of 74.9%. The company raised its quarterly dividend to $0.25 per share and authorized an additional $80 billion share repurchase, saying it returned about $20 billion to shareholders during the quarter. For the current quarter, Nvidia forecast revenue of $91 billion and signaled continued AI infrastructure demand supported by broad deployment of its Blackwell platform across major hyperscalers and clouds. Nvidia said China has not materially affected earnings because it has yet to generate revenue from approved H200 exports, while trade and export restrictions remain a key watch for investors. In how it reports the business, Nvidia is reframing results around data center and edge computing sub-markets rather than focusing solely on GPU sales. Despite upbeat fundamentals, market pricing for near-term stock thresholds softened slightly amid lingering U.S.-China geopolitical uncertainty.
+AWS and other cloud providers are increasingly focused on the economics of AI inference, where the ongoing cost of running models for large user bases can outweigh the one-time expense of training. In that effort, AWS is exploring partnerships and silicon choices designed to reduce inference bottlenecks, including a potential deepening of its relationship with Qualcomm around AI200 inference accelerators that are reported to offer very large memory capacity per chip and a rollout timeline into 2026. Separately, AWS’s push into custom compute is extending beyond GPUs: Meta’s deal to use AWS Graviton chips highlights a shift toward CPUs as agentic AI workloads grow more orchestration-heavy rather than purely GPU-driven. AWS also continues to advance its own hardware stack with Graviton5, now generally available for customers using AWS infrastructure and aimed at improving performance and cost for AI and high-performance cloud workloads. Taken together, the reporting suggests AWS’s strategy is to optimize the full compute lifecycle—hardware through services—to protect margins as AI usage scales globally.
 
 **Key Points:**
-- Nvidia said it generated $50.3 billion in operating cash flow and $48.6 billion in free cash flow during the quarter, alongside its record revenue and margins.
-- Within the data center segment, Nvidia reported “Data Center compute” revenue of $60.4 billion (+77% year over year) and networking revenue of $14.8 billion (+199% annually), underscoring demand beyond GPUs.
-- Citing Blackwell’s adoption, Nvidia CFO Colette Kress said: “Our Blackwell architecture is everywhere, adopted and deployed by every major hyperscaler, every cloud provider, and every major model maker.”
+- A Wells Fargo research note (as reported by Wccftech) ties the potential AWS–Qualcomm deepening to specific economics: it models a deployment cost figure of “$3.5 billion per gigawatt” and an “illustrative $2.50 earnings-per-share uplift” if Qualcomm increases accelerators per rack.
+- Details on the Qualcomm AI200 hardware reportedly include a memory capacity target of up to “768GB of memory per chip,” with the note also characterizing the chip as designed for inference workloads and differentiated by large memory for serving large language models.
+- AWS’s CPU-centric shift for agentic workloads is framed as more than swapping away from GPUs: the article argues CPUs are becoming more valuable because agentic AI increases “orchestration and control-plane tasks,” including “orchestration” work like data fetching, state management, and session management—tasks earlier generations treated CPUs mainly as queue/traffic-management components.
 
 ---
 
-### 2026-05-21 | Taiwan executes first Nvidia smuggling crackdown, 12 locations
-**Sentiment:** -0.40 (pos: 0.12, neg: 0.52, neu: 0.37)
+### 2026-06-18 | Trump Says Apple, Intel to Make US Chips
+**Sentiment:** +0.68 (pos: 0.74, neg: 0.05, neu: 0.21)
 
-Taiwan’s Keelung District Prosecutors carried out searches at 12 locations and are seeking to detain three suspects in what officials describe as the island’s first formal semiconductor-smuggling crackdown, targeting alleged document forgery to export U.S.-made Supermicro AI servers to China, Hong Kong, and Macau. Prosecutors say the servers contained Nvidia chips whose export is barred under U.S. trade restrictions, and that the suspects provided false customs information and conspired to profit from the illicit shipments, which involved roughly dozens of servers (about 50). While the case is relatively small in volume, Taiwan’s move is seen as a response to sustained U.S. pressure to tighten export-control enforcement and avoid broader trade actions. Multiple reports link the allegations to a wider Supermicro-linked diversion network the U.S. has been pursuing, including schemes routed through third countries to evade restrictions. Authorities also said they treated the suspects as flight risks after questioning them during the raids.
+President Donald Trump said on Truth Social that Apple has agreed to work with Intel to design and manufacture chips in the United States, but neither Apple nor Intel has publicly confirmed the partnership or its terms. Reporting before Trump’s post indicated talks had been underway for more than a year, and analysts said any initial Apple use would likely involve lower-volume product tiers rather than Apple’s newest flagship iPhone and high-end M-series lines that still rely heavily on Taiwan Semiconductor Manufacturing Company’s most advanced nodes. The rationale cited for Apple is supply diversification as leading-edge capacity is strained by AI customers, while Intel views an anchor customer as important to its foundry turnaround as it moves forward with its 18A-P process. Several outlets reported Intel has begun early-stage steps for 18A-P, but full availability for Apple could slip into 2027 or later depending on yield and scale. Trump framed the deal as part of a broader U.S. push to reshore semiconductor manufacturing, building on prior administration moves including a government stake in Intel and incentives for domestic chip expansion, though the likely scope and delivery timeline remain unclear pending formal company disclosures.
 
 **Key Points:**
-- Taiwan prosecutors said the three defendants “fully knew” that exports of the servers to China were “strictly regulated” under U.S. rules, and that they allegedly conspired “to purchase the servers in Taiwan and export them using fraudulent documentation” in pursuit of “exorbitant profits.” The suspects were therefore targeted for offenses that included “forgery of documents under the Criminal Code.”
-- The Taiwan News report identified the suspects only by surname—men surnamed Yu (游), Wang (王), and Chen (陳)—and said prosecutors alleged they planned to buy dozens of servers valued at NT$10 million (about US$316,000) each. It also said Keelung prosecutors and Coast Guard Administration officers raided properties on Wednesday, confiscated evidence across the 12 locations, questioned the suspects overnight, and concluded they were flight risks.
-- Reporting tied the alleged Taiwan shipment scheme to the broader Supermicro-linked diversion network being mapped by U.S. prosecutors, describing tactics such as falsified paperwork and “dummy server shells” used to conceal Nvidia Hopper-based systems, with a Thailand-based government entity described as an intermediate routing point used to reach Chinese end-customers.
+- Reporting ahead of Trump’s post said Intel had already begun “test production” for the Apple-related chips in May 2026, and analysts interpreted the expected output as “older or lower-end processors” (e.g., Intel not making chips for the iPhone 18 Pro Max or later M-series chips).
+- A Reuters report (via Tom’s Hardware) said neither Apple nor Intel responded to comment requests, and it framed the arrangement as a “purely” foundry deal: Apple continues designing its own silicon while Intel would act as contract manufacturer, rather than a return to Apple using Intel-designed processors.
+- The same Reuters report cited analyst work (Ming-Chi Kuo and GF Securities) that described a likely scope of Intel’s 18A-P: Apple’s “M7 SoC” (for MacBook Air and entry-level iPad Pro), with mass production targeted for late 2027 (and those product tiers estimated at ~20 million units in 2025).
 
 ---
 
-### 2026-05-21 | Nasdaq Slides on Yields, Oil and Iran Risk
-**Sentiment:** -0.19 (pos: 0.19, neg: 0.38, neu: 0.43)
+### 2026-06-18 | Marvell 10% rise on S&P 500 June 22
+**Sentiment:** +0.50 (pos: 0.60, neg: 0.09, neu: 0.31)
 
-U.S. stocks retreated as surging Treasury yields and volatile oil prices tied to uncertainty around Iran and the Strait of Hormuz pushed markets into a more risk-off stance, pressuring tech-heavy indexes including the Nasdaq 100. A sharp decline in Microsoft left it as the biggest drag on the S&P 500 even as other megacap losses were comparatively smaller. Investors increasingly priced at least one Fed rate hike, though some relief appeared as hopes grew that oil flows may improve through the strait after Donald Trump signaled planned Iran strikes would be paused for negotiations. Stock weakness spread to Asia, where major benchmarks slid on higher U.S. yields and renewed geopolitical risk, while China’s central bank kept policy rates steady. Near-term catalysts include upcoming Nvidia results and investors closely watching FOMC minutes for clues on rates. Despite the tech pullback, the equal-weighted S&P 500 showed signs of resilience, suggesting investors are beginning to rebalance rather than fully exit risk.
+Marvell Technology shares are in a strong bull run, rising sharply as investors focus on AI infrastructure demand and Wall Street sentiment remains heavily skewed toward optimism. In its latest quarterly results, Marvell reported year-over-year revenue growth led by cloud data center and custom silicon, while some more traditional carrier and networking segments showed softer demand; management also highlighted ongoing support from AI-related workloads. The bullish case centers on Marvell’s growing data-center momentum, a concentration of revenue in major customers, and continued guidance for expansion driven by AI-focused custom chips and related technologies. A near-term catalyst is Marvell’s confirmed S&P 500 inclusion effective June 22, which is expected to bring incremental buying from passive funds and index-tracking ETFs, alongside new analyst support such as GF Securities raising its price target to $350. At the same time, valuation and momentum concerns persist, with one view flagging an elevated forward P/E, an overheated stock profile versus peers, and the risk that AI capital spending could slow or hyperscalers reduce custom-chip orders—leading to a potential earnings and valuation reset.
 
 **Key Points:**
-- Microsoft’s slump is quantified as being down about 13% in 2026, making it the “by far the biggest drag” on the S&P 500’s 8.6% gain; the next biggest contributors (Meta Platforms and Tesla) are down more than 7% but “amount[] to a fraction of Microsoft’s weight,” according to Bloomberg data.
-- Oil-market details offered a partial cushion: three oil tankers (two Chinese, one South Korean) “crossed the strait overnight,” per LSEG data, helping Brent fall more than 2% to near $108 a barrel; President Trump also suggested the Iran war “could end ‘very quickly,’” while warning the U.S. might resume military strikes.
-- Rate expectations were sharpened with specific figures: Asian trading was hit as the odds of “at least one interest rate hike” rose to 56.3% on the CME FedWatch tool, while U.S. yields were at fresh highs intraday—10-year Treasuries at about 4.69% and 30-year yields around 5.2% (highest levels beyond the sub-prime crisis).
+- Analyst sentiment is not just broadly bullish but heavily skewed: across 20 active institutions, the simple average rating is 4.33, the performance-weighted rating is 9.08, with 13 “Strong Buy,” 6 “Buy,” and 5 “Neutral” recommendations—aligning with the stock’s recent surge.
+- Marvell’s fundamentals show a specific split that isn’t captured in the summary: the article cites a profit margin of about 70.71% (Profit-MV 0.71), while noting a negative cash metric (Cash-UP -0.44) and a weak revenue-metric score (Revenue-MV -0.21), implying cash/liquidity pressure despite strong profitability.
+- In discussing the earnings backdrop behind the rally, CEO Matt Murphy said Marvell was seeing “exceptional AI-related bookings,” and the article ties this demand to specific areas including optics, Ethernet switches, and data-center interconnect momentum; it also cites fiscal Q1 revenue of $2.418 billion (+28% YoY) and guidance for fiscal Q2 revenue of $2.7 billion at the midpoint.
 
 ---
 
-### 2026-05-21 | China Blocks Nvidia RTX 5090D V2 and H200 Sales
-**Sentiment:** -0.27 (pos: 0.18, neg: 0.45, neu: 0.37)
+### 2026-06-18 | Server CPU market expected top $170B by 2030
+**Sentiment:** +0.31 (pos: 0.48, neg: 0.17, neu: 0.35)
 
-China has reportedly added Nvidia’s RTX 5090D V2 to a customs list of prohibited goods during the Trump-Xi diplomatic period, when Nvidia CEO Jensen Huang was in the country. Separately, the U.S. Commerce Department cleared about 10 Chinese firms to buy up to 75,000 Nvidia H200 chips each through approved distributors, but reporting says no H200 units had shipped to Chinese buyers and that Beijing discouraged follow-through on earlier orders. Analysts and reporting link the lack of shipments to a broader shift by Chinese buyers toward domestic AI alternatives, including Huawei’s Ascend ecosystem and platforms used by labs such as DeepSeek. A separate U.S. export-control case alleges restricted Nvidia hardware and other advanced U.S. technology were diverted to China and Russia using encrypted communications, front companies, and third-country intermediaries. Nvidia shares fell as investors weighed tighter Chinese restrictions alongside continued enforcement pressure on the export-control regime. The developments add uncertainty to Nvidia’s China revenue outlook ahead of its fiscal second-quarter results.
+U.S. markets opened strongly and futures rose modestly after an announced cease-fire with Iran that would reopen the Strait of Hormuz toll-free, pushing Treasury yields lower and boosting stocks, including a big jump in the Nasdaq. Oil prices fell broadly on the news, with Brent and West Texas Intermediate ending down, even as analysts noted supply flows may not rebound immediately, while gold finished higher and crypto trading was described as roaring. In stock-specific coverage, Zacks highlighted the AI-driven revival of server CPU demand as agentic AI expands infrastructure needs, citing projections that the server CPU market could exceed $170 billion by 2030 and noting NVIDIA sees a $200 billion opportunity; Zacks’ top five picks in AMD, Intel, Arm, NVIDIA, and Qualcomm were all rated a Hold. Wall Street’s Monday analyst activity also skewed constructive, with UBS upgrading Dynatrace to buy and other firms initiating or reiterating bullish calls across sectors, including tech and AI exposure such as semiconductor equipment and enterprise software. Coverage launches and upgrades extended beyond semiconductors to areas like biotech and industrials, while some calls remained more cautious, such as Goldman Sachs keeping Tesla at neutral despite improved delivery expectations.
 
 **Key Points:**
-- China’s ban target, Nvidia’s RTX 5090D V2, was engineered to comply with U.S. export restrictions while appealing to Chinese gamers—and it drew scrutiny because AI developers had found ways to use it to access Nvidia’s Blackwell platform (with Nvidia yet to issue a statement).
-- For the H200 permissions, Reuters reported the Commerce Department cleared about 10 Chinese firms—named as Alibaba, Tencent, ByteDance, and JD.com—to buy up to 75,000 H200 chips each through approved distributors including Lenovo and Foxconn.
-- At a Senate hearing, Commerce Secretary Howard Lutnick said Chinese firms are “trying to keep their investment focused on their own domestic” suppliers, citing Huawei as an example.
+- The Iran cease-fire coverage said the Strait of Hormuz would reopen toll-free, but that “details will still be worked out over the next 60 days,” with leaders acknowledging the deal and aiming to conclude fighting that had been ongoing since February.
+- On the Monday session tied to the cease-fire news, major indexes logged specific gains and levels: the Nasdaq rose 3.06% to 26,683, the S&P 500 gained 1.65% to 7,554, and the Dow Jones finished up 0.92% to 51,671 (a new all-time high). The Russell 2000 climbed 0.72% to 2,973.
+- Bond-market details in the same coverage included yield levels and Fed timing: the article said the 30-year Treasury closed at 4.98% and the 10-year at 4.48%, and noted Kevin Warsh’s first Fed Chairman meeting was upcoming with expectations that rates would remain on hold.
 
 ---
 
-### 2026-05-21 | Dividend Aristocrats $750 Annual Income Projections
-**Sentiment:** +0.15 (pos: 0.32, neg: 0.17, neu: 0.51)
+### 2026-06-18 | XLP DeMark Pivot Points Mark June 17
+**Sentiment:** +0.36 (pos: 0.45, neg: 0.09, neu: 0.46)
 
-Across income investing coverage, dividends are presented as a steadier alternative to paycheck-like income, emphasizing predictability and the potential for rising payouts from companies that keep increasing distributions through different economic cycles. One screen of Dividend Aristocrats highlights durable cash-flow businesses such as Johnson & Johnson, while another analysis ties the ability to retire from dividends to portfolio yield growth and the capital needed to fund a target annual income without selling shares. Several pieces stress that account placement can materially change after-tax results, recommending tax-deferred retirement accounts for income taxed as ordinary income (such as REIT and BDC distributions) and taxable brokerage accounts for assets that benefit from more favorable long-term capital gains treatment. For investors who find traditional stocks and broad indexes insufficient on yield, coverage argues that higher-yield opportunities often appear in areas many retail investors overlook, including midstream energy partnerships (despite K-1s) and preferred stocks (despite limited perceived upside). Finally, an “ultra-high-yield” approach targets risk-tolerant investors seeking double-digit dividend income, projecting that a concentrated basket could produce more than $12,000 annually if invested as outlined.
+Two articles examine the Consumer Staples Sector SPDR ETF XLP as a defensive, low-volatility way to invest in staples—contrasting it with the food-and-beverage-focused PBJ ETF. XLP tracks the broader consumer staples heavyweight exposure in the S&P 500 with a low expense ratio and a higher trailing distribution yield than PBJ, while both funds have delivered positive five-year total returns with betas well below the market. One comparison highlights XLP’s portfolio concentration in major staples firms and notes its long history and steady payouts, while PBJ uses a more selective Intellidex approach aimed at food-related capital appreciation. A separate trading-focused piece applies DeMark analysis to identify key pivot levels for XLP, flagging $85.97 as a pivot high and $84.71 as a pivot low relative to a current price around the mid-$85 range. It also characterizes XLP’s fundamentals as moderately strong and points to a valuation premium versus its historical median P/E, even while emphasizing the ETF’s relatively low beta and defensive positioning.
 
 **Key Points:**
-- Johnson & Johnson’s dividend-payout case is underpinned not just by healthcare demand but also by credit strength: the company has “one of only two AAA corporate credit ratings in the United States,” and its board raised the quarterly dividend to $1.34 per share, a 3.1% increase—supporting 64 consecutive years of dividend growth.
-- For a 62-year-old retiring five years early, Detik Finance reported a wide capital range to fund $40,000 per year from dividends alone—about $800,000 to $1.14 million—depending on the yield tier selected. The same analysis highlights that a 3.5% yield that grows 8% annually can “double income by age 71,” while a 12% flat yield can still leave income “stagnant forever.”
-- A concrete “three-bucket” income example from Finance Yahoo quantified how critical tax account placement can be: the article warned that using the wrong account types can cost “22–24% of income,” and cautioned that required minimum distributions (RMDs) at age 73 can “derail the plan unless addressed now.” In the example, a 66-year-old couple used $400,000 in a traditional IRA, $200,000 in a Roth IRA, and $250,000 in a taxable brokerage account to generate about $4,612 per month (roughly $55,344 annually) with a blended ~6.5% yield using Realty Income (O), STAG, and Ares Capital (ARCC).
+- XLP is described as tracking the Consumer Staples Select Sector Index and holding 36 companies, with the portfolio composition running “almost entirely” in consumer defensives (99.00%) versus a 1.00% tilt to consumer cyclicals—while top weights include Walmart (11.12%), Costco Wholesale (9.21%), and Procter & Gamble (7.27%).
+- The State Street fund’s payout details are specific: XLP was “launched in 1998” and has paid “$2.18 per share over the trailing 12 months.”
+- For PBJ’s portfolio mix (in addition to its Intellidex selection approach), the article cites a materially different sector allocation: 79.00% consumer defensives, 10.00% consumer cyclicals, and 6.00% industrials (across 31 holdings).
 
 ---
 
-### 2026-05-21 | Oil Prices Drop After Trump Iran Strike Postponed
-**Sentiment:** -0.24 (pos: 0.13, neg: 0.37, neu: 0.51)
+### 2026-06-18 | Meta’s Jamnagar AI Data Center and G7 AI Coordination
+**Sentiment:** -0.06 (pos: 0.28, neg: 0.34, neu: 0.38)
 
-Several reports said President Donald Trump paused a planned strike on Iran after appeals from Qatar, Saudi Arabia and the UAE, and Vice President JD Vance said talks have made “significant progress” with Washington’s goal to ensure Iran cannot obtain a nuclear weapon. Despite the de-escalation signal, Brent and WTI fell roughly 1–3% as traders remained skeptical that escalation risk has eased and the Strait of Hormuz is still effectively constricted. Analysts said lingering shortages and continued market sensitivity are keeping prices supported, including fuel-price increases reported in India and IEA estimates that the market could remain severely undersupplied even if the conflict ends soon. Separately, the U.S. Commodity Futures Trading Commission said it is reviewing unusually timed trading in oil futures worth about $800 million tied to a social-media post by Trump.
+Meta said its planned 168-megawatt AI-enabled data centre in Jamnagar, Gujarat, will operate as part of a global, interconnected computing network to flexibly support many AI workloads. The company framed the investment as reflecting India’s growing centrality to digital infrastructure, with user benefits expected to be indirect at first. In telecom, industry commentary said AI is shifting networking from automating operations to building an “intelligent network” that can sense, anticipate demand, and act, with many operators expecting AI-native networks ahead of 6G. Separately, G7 leaders called for democratic coordination on advanced AI after U.S. export controls on Anthropic’s latest models raised allied concerns. Anthropic CEO Dario Amodei urged partners to avoid “splintering,” warning abrupt export cutoffs could harm the competitiveness of frontier-model firms, while OpenAI CEO Sam Altman backed expanding access to cyberdefense tools. French President Emmanuel Macron and India’s Prime Minister Narendra Modi emphasized the geopolitical and security stakes, including risks to critical infrastructure and harms from non-cooperation among democracies.
 
 **Key Points:**
-- Oil declines came alongside specific market levels and contract timing: Brent July fell $3.01 (2.7%) to $109.09/bbl and WTI June dropped $1.38 (1.3%) to $107.28/bbl, after both had touched their highest levels since May 5 (Brent) and April 30 (WTI). The June WTI contract was set to expire Tuesday while the more active July contract slid further.
-- Traders were skeptical that de-escalation was real, with KCM Trade’s Tim Waterer telling Reuters: “The market is now watching whether Trump's comments represent a genuine shift toward de-escalation or just a tactical pause.”
-- In a quoted statement, Trump said he was asked to pause a “scheduled attack” by Qatar’s Emir Tamim bin Hamad Al Thani, Saudi Crown Prince Mohammed bin Salman, and UAE President Mohamed bin Zayed Al Nahyan, and added that “I have been asked…to hold off on our planned Military attack…which was scheduled for tomorrow…[because] serious negotiations are now taking place.”
+- Meta infrastructure VP Santosh Janardhan said the Jamnagar site would be “part of a global fleet serving that global audience,” and that “we’re opening this data centre in India because we think India is an attractive investment destination.”
+- Janardhan described the facility as more than a local cluster, saying: “Think about infrastructure as a bunch of super-connected supercomputers, all interconnected globally,” and said the Jamnagar centre will support “a wide range of services and AI workloads globally,” not a single product or workload.
+- In telecom, Amdocs executive Abhishek Singh drew a sharp line between automation and AI-driven autonomy: a script that “restarts a failed node” is automation, while an autonomous system “detects conditions… reroutes traffic preemptively… resolves the root cause and learns from the event.”
 
 ---
 
-### 2026-05-21 | KOSPI jumps 8% on Samsung,Nvidia
-**Sentiment:** +0.41 (pos: 0.62, neg: 0.21, neu: 0.16)
+### 2026-06-18 | Nvidia to Sell $20 Billion in Bonds
+**Sentiment:** +0.33 (pos: 0.43, neg: 0.10, neu: 0.47)
 
-South Korea’s KOSPI surged more than 8% in a sharp one-day rebound, closing at 7,815.59, led by gains in chip-related shares after Samsung Electronics reached a tentative wage deal with its labor union to avert a potential strike and Nvidia posted upbeat results. Samsung jumped about 8.5%, lifting broader market sentiment as investors expected disruption risk for key memory supply chains to ease amid strong artificial-intelligence demand. Nvidia’s better-than-expected quarterly performance—including first-quarter revenue growth and earnings above forecasts—fueled a tech-led rally across Asia, with sentiment also supported by moderating oil prices and retreating U.S. Treasury yields. Market volatility controls kicked in as buy-side circuit breakers were triggered in both KOSPI and KOSDAQ, reflecting the speed and scale of the rebound. Easing geopolitical worries added tailwinds after U.S. President Donald Trump said negotiations with Iran were in the “final stages,” alongside reports that some oil tankers resumed passage through the Strait of Hormuz. While regional markets generally participated in the rally, Chinese equities lagged and Hong Kong was muted, underscoring uneven risk appetite beyond South Korea.
+Nvidia is preparing to sell at least $20 billion of high-grade corporate bonds on Monday in seven tranches with maturities ranging from about two to 30 years, returning to the debt market after its last sale in June 2021. Early indications have the longest-dated tranche pricing around 0.9 percentage points above Treasuries, with the final size and coupon to be set at pricing based on investor demand. The company said proceeds will be used for general corporate purposes, including refinancing and repayment of existing notes, as it continues to fund AI-related expansion. The offering fits Nvidia’s broader capital strategy, including an $80 billion share buyback and a dividend increase, and is being viewed as part of a wider Big Tech borrowing spree tied to AI infrastructure spending. Separately, a social-media claim about a “$BMARK” Nvidia offering in seven parts appears misleading, with $BMARK referring to unrelated commercial mortgage-backed securities rather than Nvidia debt.
 
 **Key Points:**
-- KOSPI’s rebound was not just large but historic: the daily gain of 606.64 points was the biggest on record, topping the previous record rise of 490.36 points (set March 5) and marking the first close above 7,800 since May 14. The index also touched an intraday high of 7,819.23.
-- The “buy-side” sidecars were triggered by specific mechanics: on KOSPI, they kick in when KOSPI 200 futures move more than 5% from the prior session’s close and remain at that level for at least one minute; once triggered, the curbs halt program buy orders for five minutes. The Korea Times also notes the sidecar on KOSPI occurred about 24 minutes after trading began, and that the simultaneous activation in both KOSPI and KOSDAQ was the first since April 8.
-- Nvidia’s earnings beat came with concrete figures that helped fuel the tech-led rally: it reported first-quarter revenue of $81.62 billion (up 85% year over year), and adjusted EPS of $1.87 versus the Wall Street estimate of $1.76. Nvidia also delivered a 12th consecutive quarter of record revenue.
+- A preliminary SEC filing and Monday prospectus specify seven note series due between 2028 and 2056, and the filing leaves key deal details (dollar amounts and coupon/interest rates) blank until final pricing.
+- The underwriting syndicate includes Goldman Sachs, JPMorgan Chase, and Morgan Stanley leading the bond sale.
+- Nvidia is not borrowing because it needs cash; reporting characterizes the move as a “treasury move” to lock in fixed-rate, long-dated funding across maturities while preserving cash for investment and shareholder payouts.
 
 ---
 
-### 2026-05-21 | Wall Street analysts adjust Nvidia price targets
-**Sentiment:** +0.52 (pos: 0.61, neg: 0.10, neu: 0.29)
+### 2026-06-18 | Nvidia Sells $25B Bonds to Fund AI Expansion
+**Sentiment:** +0.25 (pos: 0.38, neg: 0.13, neu: 0.49)
 
-Several Wall Street firms reiterated a bullish stance on Nvidia after strong quarterly results and an upbeat outlook tied to continued artificial intelligence infrastructure demand. Truist raised its price target to $307, citing re-accelerating growth, a large and expanding AI opportunity, and valuation metrics that suggest the stock is trading below peers and below its growth potential. Barclays kept an Overweight rating with a $275 target, pointing to revenue growth and guidance that includes roughly $1 trillion in cumulative Blackwell, Rubin, and networking revenue from 2025 through 2027, alongside heavier supplier purchase commitments and a dividend increase. TD Cowen also maintained a Buy rating and $275 target, arguing demand is shifting toward inference and agentic workloads while noting near-term investor skepticism and potential limits to operating leverage from rising expenses, even as it viewed Vera Rubin shipments as on track. Wolfe Research reiterated an Outperform rating and $275 target, highlighting strong datacenter performance and the company’s plan to better segment revenue by customer exposure to show resilience versus ASIC competition, while still flagging that the stock trades at a premium multiple despite “undervalued” fair-value signals. Across the coverage, the shared theme is sustained data-center momentum through the next platform cycle (Blackwell/Rubin) with ongoing debate about execution details such as CPU/LPU ramp assumptions and the timing of certain shipments.
+Nvidia sold $25 billion of senior unsecured bonds in a highly oversubscribed offering, reinforcing its role in enterprise AI through both capital markets and infrastructure. The company also invested $2 billion in AI data-center builder Nebius to expand “AI factory” capacity. Oracle said GPU utilization remains persistently high, and additional large-scale data-center capex points to continued demand for Nvidia accelerators. Wall Street is increasingly paying premiums for contracted AI/HPC energy capacity ahead of construction, reflecting how AI infrastructure has become its own pricing category.
 
 **Key Points:**
-- Truist’s bull case is tied to specific valuation and estimate changes: it raised Nvidia’s calendar-year 2027 EPS forecast to $12.29 (from $11.48) and set its $307 target using a “25 times” multiple—described as a “10 times discount to peers.” Truist also flagged the “law of large numbers” as the biggest challenge for Nvidia scaling.
-- Barclays pointed to additional investor watch-items beyond demand: it highlighted scrutiny around a $20 billion CPU revenue figure, comments on the LPU market, an “unexpected reorganization of business segments,” and Nvidia’s position at hyperscale customers running custom silicon programs.
-- Despite Nvidia reiterating its shipment timeline, Barclays’ Asia supply-chain checks suggested a potential delay “toward the end of the year” for Rubin shipments—while Nvidia stated there was “no change to its timeline” and that shipments would begin in the third quarter.
+- Nvidia’s bond sale included unusually strong credit signals: Moody’s assigned the notes an Aa1 rating with a positive outlook and S&P rated them AA; investors accepted yields just “20 basis points over” Treasuries on the shortest maturities and up to “65 basis points” on the 2056 bonds.
+- The $25 billion issuance was structured into “seven slices” with maturities spanning 2028 through 2056 and coupons from 4.250% to 5.625%, with Goldman Sachs, JPMorgan, and Morgan Stanley as joint bookrunners; net proceeds were about $24.9 billion.
+- Nvidia’s $2 billion investment in Nebius targets more than just physical capacity: Nebius “specializes in designing and building dedicated AI and high-performance computing (HPC) data centers” and also provides a software stack for customers to “create, deploy, and scale AI applications” and run inference.
 
 ---
 
-### 2026-05-21 | ARM shares jump on earnings optimism
-**Sentiment:** +0.62 (pos: 0.70, neg: 0.07, neu: 0.23)
+### 2026-06-18 | SK Hynix readies HBM4E samples early
+**Sentiment:** +0.78 (pos: 0.82, neg: 0.04, neu: 0.14)
 
-Arm shares have surged sharply amid a bullish shift in the company’s AI narrative, as investors increasingly focus on Arm’s AGI CPU for data centers alongside its traditional smartphone-focused licensing and chip business. Multiple reports cite strong recent financial results, rising data-center royalty growth, accelerating customer commitments for the AGI CPU, and high-profile hyperscaler and cloud momentum, with analysts also reiterating or upgrading their outlook and price targets. Trading activity has reflected heightened optimism—ranging from heavy call buying and rising implied volatility to strong technical momentum—while near-term risks remain, including very high valuation multiples, potential supply constraints for the AGI CPU, and uncertainty tied to handset memory shortages. Adding to the mixed picture, insider selling by senior executives was reported, and the U.S. Federal Trade Commission is described as investigating potential antitrust or licensing-related conduct that could affect the business model. Overall, the coverage portrays a stock rally driven by AI/data-center upside expectations, tempered by regulatory scrutiny and execution-and-magnitude-of-growth questions.
+SK Hynix is signaling both blistering AI-driven earnings momentum and a faster-than-expected ramp of next-generation HBM4E memory, as customers’ need for high-bandwidth DRAM outstrips supply. Finlit projects a major second-quarter operating profit jump, while analysts cite a DRAM shortage and predict HBM prices could roughly double, making memory a dominant cost in AI hardware. Multiple reports say SK Hynix has achieved positive HBM4E development progress and will ship engineering samples to key customers as early as this month or by July, ahead of prior expectations for the second half of 2026. Nvidia is positioned as the first major recipient for HBM4E tied to its “Rubin Ultra” platform, and early sampling could help widen SK Hynix’s lead in validation and mass-production orders. Daiwa simultaneously raised its stock outlook on SK Hynix’s pricing power and stronger fundamentals, while industry estimates suggest SK Hynix is already winning a large share of the upcoming HBM4 supply contracts for Nvidia’s platform. Competition with Samsung is intensifying as Samsung begins its own HBM4E sample deliveries, with observers expecting the shipment pace and customer certification timing to be decisive through the second half of the year.
 
 **Key Points:**
-- CEO Rene Haas attributed the data-center momentum to shifting AI workloads, saying: “As AI becomes more agentic, demand for Arm AGI CPU… has exceeded expectations.” The same coverage also noted margin/expense pressure as non-GAAP operating margin fell from 52.8% to 49.1% while R&D rose 43% to $1.91B.
-- Insider activity included a specific transaction: Chief Commercial Officer William Abbey sold 10,154 shares for $2,151,751 on April 23, 2026, according to the report (while also noting he still controlled 54,240 shares).
-- Options positioning showed very specific “where” buyers focused: heavy call buying was reported around the June 18 weekly 300 strike and the August 26 170 strike, alongside an increase in implied volatility.
+- TrendForce reported that SK Hynix’s HBM4E for Nvidia’s upcoming Rubin Ultra would increase HBM capacity per GPU to 384GB, giving Nvidia more headroom for validation and mass-production ramp.
+- At Computex 2026, SK Hynix showcased a “12-layer stacked 48GB HBM4E” product with a single-stack data-transfer bandwidth of 4.0 TB/s—described as a 38% jump versus the previous generation—and a 33% increase in die capacity; the DRAM core uses a 1c-nanometer process and the base die is manufactured by TSMC using a 3-nanometer process, targeting large-scale training, generative AI, and HPC.
+- Nvidia CEO Jensen Huang visited SK Hynix’s booth during the Computex showing and left a message on an HBM4E wafer saying, “Please produce more.” SK Group Chairman Chey Tae-won added, “As long as the customers are ready, we are ready at any time.”
 
 ---
 
-### 2026-05-21 | AI optical networking expected $154B by 2028
-**Sentiment:** +0.28 (pos: 0.47, neg: 0.18, neu: 0.35)
+### 2026-06-18 | FaceSign facial payments debut at Inventario 2026
+**Sentiment:** -0.22 (pos: 0.22, neg: 0.44, neu: 0.33)
 
-Marvell remains a focus for investors betting on the next phase of AI infrastructure, driven by demand for datacenter networking, custom AI silicon, and high-speed connectivity used to move large volumes of data. The company’s IP- and design-led model can benefit margins when cloud capex and customer ramps are strong, but results are sensitive to customer concentration and the pace of major cloud spending. In parallel, optical networking is gaining momentum as AI systems require lower-latency, higher-bandwidth links to support larger GPU clusters, with Goldman Sachs projecting optical networking scale-up and CPO adoption could push the market to about $154 billion by 2028. Marvell has signaled this shift by leaning into optical interconnect solutions for AI data centers and raising its growth forecast for those interconnects to 50% in FY27. AMD’s new equity stake in Marvell further points to tighter ecosystem integration around AI data-center interconnect and silicon-photonics capabilities, while investor coverage also flags that valuation and near-term swings can add risk even amid strong momentum.
+Nvidia CEO Jensen Huang said society needs new norms for artificial intelligence and argued people should actively use AI rather than resist its spread, framing adoption as inevitable. He supported clearer government guidance alongside safety standards and national-security rules, saying policy should help steer development and use. Huang argued AI can enable advanced work without requiring users to learn programming and could help narrow the technology divide while accelerating research and economic growth. He also acknowledged critics’ concerns about workforce displacement and compared the social adjustment around AI to earlier changes societies made as automobiles became common, such as building safer infrastructure and restricting children’s access to streets.
 
 **Key Points:**
-- Goldman Sachs described networking as “the next frontier in AI infrastructure,” saying it is “poised to enhance computing capability through seamless data exchange and low latency,” positioning networking as a key enabler for connecting AI chips to unlock more performance.
-- Goldman Sachs’ optical networking TAM estimate includes a detailed split: scale-up networking is expected to make up about 69% of the total USD 154 billion opportunity (nearly USD 106 billion), while Co-Packaged Optics (CPO) is projected at about 59% (around USD 91 billion) by 2028.
-- Marvell’s datacenter products are described as being used in switching, interconnect, and storage—capabilities framed as essential for handling dense AI/cloud workloads in modern environments.
+- In his AP interview, Jensen Huang said, “We need to create new social norms,” and urged: “I would advocate that everybody use AI. Just go engage it.”
+- Huang gave concrete examples of what AI could help non-programmers do—such as “building websites,” “analysing complex documents,” “supporting advanced research,” and even “planning a kitchen remodelling project.”
+- Separately, at Korea’s stationery fair ‘Inventario 2026,’ a visitor said they only learned about Naver’s facial payment after seeing on TV that, when Nvidia CEO Jensen Huang visited Korea, “Haejin Lee… paid just by showing his face without taking out his wallet or card,” adding: “now that I’ve used it myself, it’s really convenient.”
 
 ---
 
 ## FMP Articles (30 articles)
 
-### 2026-05-21 | Kawasaki Heavy, Nvidia plan Silicon Valley robotics center, Nikkei reports
-**Source:** Reuters
-**URL:** https://www.reuters.com/world/asia-pacific/kawasaki-heavy-nvidia-plan-silicon-valley-robotics-center-nikkei-reports-2026-05-21/
-
-Japan's Kawasaki Heavy Industries ​will partner with Nvidia to ‌develop solutions integrating robotics with physical artificial intelligence, and will set up ​a joint development center ​in Silicon Valley, the Nikkei newspaper ⁠reported on Thursday.
-
----
-
-### 2026-05-21 | Nvidia Price Prediction: After Record Earnings, Here Is How High The Stock Will Rally
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/21/nvidia-price-prediction-after-record-earnings-here-is-how-high-the-stock-will-rally/
-
-NVIDIA (NASDAQ:NVDA | NVDA Price Prediction) just delivered one of the most consequential quarters in semiconductor history, and the stock is responding.
-
----
-
-### 2026-05-21 | Nvidia's Huang Is 'Dunking' on Competition, Luria Says
-**Source:** Bloomberg Markets and Finance
-**URL:** https://www.youtube.com/watch?v=26ASdjjDucs
-
-Gil Luria, DA Davidson head of technology research, says Nvidia CEO Jensen Huang is "dunking" on all the competition. Joe Kaiser of Switchyard Partners also reacts to Nvidia's earnings and SpaceX going public.
-
----
-
-### 2026-05-21 | NVIDIA Q1 Earnings Beat on Blackwell Ramp-Up, Data Center Strength
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2924818/nvidia-q1-earnings-beat-on-blackwell-ramp-up-data-center-strength?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2924818
-
-NVDA tops Q1'27 estimates as Blackwell ramps up and Data Center revenues jump 92%, with Q2 guidance calling for $91B sales.
-
----
-
-### 2026-05-21 | NVDA Data Center Revenue Nearly Doubles, Announces $80B Buyback & Dividend Boost
-**Source:** Schwab Network
-**URL:** https://www.youtube.com/watch?v=ofSvhkNUmDU
-
-Jenny Horne talks about Nvidia's (NVDA) beat on earnings as data center revenues continue to soar. She says Nvidia announced a $80 billion additional share buyback while stating it's not assuming any revenue from China in its outlook.
-
----
-
-### 2026-05-21 | GOWIN Participates in NVIDIA APAC Robotics and Edge AI Partner Day
-**Source:** GlobeNewsWire
-**URL:** https://www.globenewswire.com/news-release/2026/05/21/3299531/0/en/GOWIN-Participates-in-NVIDIA-APAC-Robotics-and-Edge-AI-Partner-Day.html
-
-SAN JOSE, Calif. and GUANGZHOU, China, May 21, 2026 (GLOBE NEWSWIRE) -- GOWIN is honored to be invited by NVIDIA to participate in NVIDIA's APAC Robotics and Edge AI Partner Day, part of NVIDIA GTC Taipei 2026 during COMPUTEX Taipei 2026.
-
----
-
-### 2026-05-21 | Why Nvidia stock is down 2% after blockbuster earnings
-**Source:** Invezz
-**URL:** https://invezz.com/news/2026/05/21/why-nvidia-stock-is-down-2-after-blockbuster-earnings/
-
-Nvidia (NVDA) delivered another blockbuster earnings report, but investors appeared unimpressed as the stock struggled to rally. Shares fell around 1.9% on Thursday morning, with the stock slipping to around $219.62 in early trading.
-
----
-
-### 2026-05-21 | Nvidia can deliver chips — but it can't buy Big Tech out of its credit and power-grid crisis
-**Source:** Market Watch
-**URL:** https://www.marketwatch.com/story/nvidia-can-deliver-chips-but-it-cant-buy-big-tech-out-of-its-credit-and-power-grid-crisis-9c114e62
-
-Corporate profits can't fix a chaotic trade war with China, climbing credit premiums and AI infrastructure limits.
-
----
-
-### 2026-05-21 | Jensen Huang's Other AI Empire Is Now Worth $42 Billion
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/markets/tech/26/05/52719705/jensen-huangs-other-ai-empire-is-now-worth-42-billion
-
-Investors know Nvidia Corp. (NASDAQ:NVDA) as the company selling the picks and shovels of the AI gold rush. What Nvidia's latest quarterly filing reveals, however, is that CEO Jensen Huang is also quietly building one of Silicon Valley's largest AI investment portfolios.
-
----
-
-### 2026-05-21 | Should You Buy NVIDIA After Impressive Q1 2027 Earnings and Guidance?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2924812/should-you-buy-nvidia-after-impressive-q1-2027-earnings-and-guidance?cid=CS-STOCKNEWSAPI-FT-analyst_blog|investment_ideas-2924812
-
-NVDA topped Q1 fiscal 2027 estimates, boosted guidance, and expanded AI ambitions beyond GPUs with its new Vera Rubin AI superchip.
-
----
-
-### 2026-04-21 | Why Nvidia (NVDA) Dipped More Than Broader Market Today
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2904878/why-nvidia-nvda-dipped-more-than-broader-market-today
-
-Nvidia (NVDA) concluded the recent trading session at $199.88, signifying a -1.08% move from its prior day's close.
-
----
-
-### 2026-04-21 | Is the Magnificent Seven Yesterday's News? Here's What History Says
+### 2026-06-18 | 11 Words From Nvidia CFO Colette Kress That Should Have AMD and Intel Investors Worried
 **Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/04/21/is-the-magnificent-seven-yesterdays-news-heres-wha/
+**URL:** https://www.fool.com/investing/2026/06/18/11-words-from-nvidia-cfo-colette-kress-that-should/
 
-Big tech stocks have demonstrated something over time.
-
----
-
-### 2026-04-21 | Something Historic Is Happening In Chip ETFs: SOXX And SMH Shatter Records
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/markets/tech/26/04/51957077/soxx-smh-record-inflows-april-2026
-
-SOXX is up 27% in April, its best month ever. Record $5.45B in combined inflows pour into SOXX and SMH as Hormuz ceasefire unleashes chip rally.
+The giant chipmaker is entering a $200 billion market that it has never competed in before.
 
 ---
 
-### 2026-04-21 | NVIDIA at $199: Buy, Sell or Hold
+### 2026-06-18 | The Magnificent 7 Is Dead. These 10 Stocks Are the New Market Favorites
 **Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/04/21/nvidia-at-199-buy-sell-or-hold/
+**URL:** https://247wallst.com/investing/2026/06/18/the-magnificent-7-is-dead-these-10-stocks-are-the-new-market-favorites/
 
-NVIDIA (NASDAQ:NVDA | NVDA Price Prediction) presents a compelling bull case at $199.
+For nearly three years, investors could explain much of the stock market with a single phrase: the Magnificent 7.
 
 ---
 
-### 2026-04-21 | NVIDIA CEO Jensen Huang Says Manufacturing Bottlenecks Are a ‘2–3 Year Problem.' Here's What That Means for Investors
+### 2026-06-18 | Jim Cramer Is Watching Marvell After Jensen Huang Called It the Next Trillion-Dollar Stock
 **Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/04/21/nvidia-ceo-jensen-huang-says-manufacturing-bottlenecks-are-a-2-3-year-problem-heres-what-that-means-for-investors/
+**URL:** https://247wallst.com/investing/2026/06/18/jim-cramer-is-watching-marvell-after-jensen-huang-called-it-the-next-trillion-dollar-stock/
 
-“Once you can build one, you can build 10. And once you can build 10, you can build a million.
-
----
-
-### 2026-04-21 | Steve Cohen's Point72 Is Aggressively Buying These 3 Stocks. Here's Why They're Worth a Closer Look
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/04/21/steve-cohens-point72-is-aggressively-buying-these-3-stocks-heres-why-theyre-worth-a-closer-look/
-
-Steve Cohen isn't known for making slow, passive bets. Through Point72 Asset Management , he runs one of the most aggressive multi-strategy hedge funds in the world, constantly reallocating capital toward where his team sees the best risk-reward.
+Jim Cramer told Mad Money viewers on June 16 that Marvell Technology (NASDAQ:MRVL | MRVL Price Prediction) is the AI hardware name he is tracking most closely, after NVIDIA (NASDAQ:NVDA) CEO Jensen Huang publicly tagged the chip designer as a candidate to join the trillion-dollar club.
 
 ---
 
-### 2026-04-21 | NVIDIA Sparks April Rally in 2 Quantum Stocks, 40%+ Upside Still Left
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2904806/nvidia-sparks-april-rally-in-2-quantum-stocks-40-upside-still-left
+### 2026-06-18 | PurePlay ETFs Makes Debut with the PurePlay NVIDIA Ecosystem Picks & Shovels Index ETF, the First ETF Designed to Track the NVIDIA Value Chain
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260617636905/en/PurePlay-ETFs-Makes-Debut-with-the-PurePlay-NVIDIA-Ecosystem-Picks-Shovels-Index-ETF-the-First-ETF-Designed-to-Track-the-NVIDIA-Value-Chain/
 
-NVIDIA-driven quantum-AI momentum fuels April rallies in IonQ and Rigetti, with up to 40%+ upside still expected in these volatile plays.
-
----
-
-### 2026-04-21 | Why Navitas Semiconductor Rallied Today
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/04/21/why-navitas-semiconductor-rallied-today/
-
-Navitas has become a meme stock as it attempts a transformation into an AI power chip company.
+DETROIT--(BUSINESS WIRE)--PurePlay ETFs, a thematic ETF issuer, today announced the launch of the PurePlay NVIDIA Ecosystem Picks & Shovels Index ETF (Nasdaq: NVPS), the first ETF in the US market designed to provide end-to-end exposure to the NVIDIA value chain under a single ticker. The fund seeks targeted, global exposure to the complete upstream and downstream value chain supporting the NVIDIA ecosystem. Using FactSet Supply Chain Relationship data, the strategy identifies companies tie.
 
 ---
 
-### 2026-04-21 | CEO Jensen Huang Says NVIDIA Was ‘Top of the List NOT to Make It.’ Here’s the Lesson He Learned
+### 2026-06-18 | Nvidia Stock Gains as the Chip Maker Looks to Growth Outside the U.S.
+**Source:** Barrons
+**URL:** https://www.barrons.com/articles/nvidia-stock-price-ai-chips-mistral-2e82db33
+
+Nvidia stock was gaining as the chip maker promoted its growth in Europe, amid a debate about access to U.S. artificial-intelligence models.
+
+---
+
+### 2026-06-18 | Forget Big Tech: Nancy Pelosi Just Poured Millions Into This Under-the-Radar Dividend Stock
 **Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/04/21/ceo-jensen-huang-says-nvidia-was-top-of-the-list-not-to-make-it-heres-the-lesson-he-learned/
+**URL:** https://247wallst.com/investing/2026/06/18/forget-big-tech-nancy-pelosi-just-poured-millions-into-this-under-the-radar-dividend-stock/
 
-NVIDIA (NASDAQ: NVDA) is worth nearly $4.8 trillion today. But Jensen Huang, the company's co-founder and CEO, is quick to remind people that NVIDIA almost didn't make it. Fast-forward to today, and NVIDIA's disciplined approach of investing in all foundation model companies and avoiding direct competition with partners has produced tangible results: The stock has gained... CEO Jensen Huang Says NVIDIA Was 'Top of the List NOT to Make It.' Here's the Lesson He Learned
-
----
-
-### 2026-04-21 | Why is Nvidia stock slipping despite strong AI demand?
-**Source:** Invezz
-**URL:** https://invezz.com/news/2026/04/21/why-is-nvidia-stock-slipping-despite-strong-ai-demand/
-
-Shares of Nvidia edged lower on Tuesday, even as broader investor confidence in artificial intelligence demand remained intact, and the stock hovered near record levels. The chipmaker's shares fell about 0.9% in afternoon trading, despite a strong recent rally that has seen the stock gain roughly 15% over the past month.
+Nancy Pelosi filed a Periodic Transaction Report earlier this year, disclosing a purchase of AllianceBernstein (NYSE: AB) units in the $1,000,001 to $5,000,000 range, with a transaction date of January 16, 2026. That is a notable swerve. Her filings have historically leaned into mega-cap tech optionality, the Nvidias (NASDAQ: NVDA) and Broadcoms (NASDAQ: AVGO) of the world, so a check written to a Nashville-headquartered... Forget Big Tech: Nancy Pelosi Just Poured Millions Into This Under-the-Radar Dividend Stock
 
 ---
 
-### 2026-03-22 | My Top 2 AI Stocks to Buy for 2026 (and Hold for Years)
+### 2026-06-18 | Exchange Traded Concepts Announces Launch of PurePlay Nvidia Ecosystem Picks & Shovels Index ETF (Nasdaq: NVPS) with PurePlay ETFs
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/exchange-traded-concepts-announces-launch-of-pureplay-nvidia-ecosystem-picks--shovels-index-etf-nasdaq-nvps-with-pureplay-etfs-302803742.html
+
+OKLAHOMA CITY, June 18, 2026 /PRNewswire/ -- Exchange Traded Concepts, LLC ("ETC") today announced, in conjunction with PurePlay ETFs, the launch of the PurePlay Nvidia Ecosystem Picks & Shovels Index ETF (Nasdaq: NVPS). This passive exchange-traded funds that seeks to track the total return performance of the Solactive Nvidia Ecosystem Picks & Shovels Index.
+
+---
+
+### 2026-06-18 | 3 Top Artificial Intelligence (AI) Stocks to Buy With $1,000 Right Now
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/06/18/3-top-artificial-intelligence-ai-stocks-to-buy-wit/
+
+The market is full of AI stocks ready to explode higher.
+
+---
+
+### 2026-06-18 | 3 AI Stocks You Will Regret Not Buying in June
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/06/18/3-ai-stocks-you-will-regret-not-buying-in-june/
+
+The spring volatility that rattled mega-cap AI names has created an opening. Three of the largest AI franchises in the market are trading meaningfully below their 52-week highs, yet the operating data underneath them keeps accelerating.
+
+---
+
+### 2026-06-18 | Breakfast News: Fed Shock Fades as Markets Recover
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/breakfast-news/2026/06/18/breakfast-news-fed-shock-fades-as-markets-recover/
+
+FOMC signal shift toward hiking potential, U.S -Iran peace deal signed, and more
+
+---
+
+### 2026-05-19 | Should You Buy Nvidia Stock Before Its Next Earnings Report?
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/top-2-ai-stocks-to-buy-for-2026-and-hold-for-years/
+**URL:** https://www.fool.com/investing/2026/05/19/should-you-buy-nvidia-stock-before-its-next-earnin/
 
-Nvidia is the largest public company in the world, yet it still trades at an affordable valuation given its earnings growth. Meta Platforms has used AI to drive growth in impressions and conversions with its ads business.
+Nvidia's stock has soared over the past year. It still looks cheap relative to its long-term growth potential.
 
 ---
 
-### 2026-03-22 | Nvidia Trades at 21 Times Forward Earnings. Is the World's Biggest Artificial Intelligence (AI) Stock Actually a Value Play?
+### 2026-05-19 | Nvidia Earnings On The Horizon — Will Jensen Huang Say 'Meta' Or 'Data Center'? Crypto Prediction Markets Bets Have A Story To Tell
+**Source:** Benzinga
+**URL:** https://www.benzinga.com/markets/prediction-markets/26/05/52681592/nvidia-earnings-jensen-huang-meta-data-center-prediction-markets
+
+AI darling Nvidia Corp. (NASDAQ: NVDA) is set to release its first-quarter financials on Wednesday, May 19, after the closing bell, and cryptocurrency bettors are speculating on a variety of topics that could be mentioned during the earnings call.
+
+---
+
+### 2026-05-19 | Jensen Huang Delivers Massive News for Nvidia Stock Investors!
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/is-nvidia-a-value-stock-now/
+**URL:** https://www.fool.com/investing/2026/05/19/jensen-huang-delivers-massive-news-for-nvidia-stoc/
 
-Nvidia stock soared over the past few years thanks to its strengths in AI. Following recent declines in its stock price, Nvidia is considerably cheaper than it was just a few months ago.
+This could be a huge catalyst for growth for Nvidia (NVDA 0.79%).
 
 ---
 
-### 2026-03-22 | History Says Right Now Is the Turning Point for Nvidia's Stock
+### 2026-05-19 | Should Investors Buy AMD Stock Instead of Nvidia?
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/history-says-now-is-turning-point-for-nvidia-stock/
+**URL:** https://www.fool.com/investing/2026/05/19/should-investors-buy-amd-stock-instead-of-nvidia/
 
-The market is skeptical about artificial intelligence (AI) spending. Nvidia told investors to expct $1 trillion in combined system sales through 2027.
+These are two of the biggest winners in the data center market.
 
 ---
 
-### 2026-03-22 | Oil Is Above $100 a Barrel for the First Time Since 2022. Here's Why Artificial Intelligence (AI) Investors Should Care.
+### 2026-05-19 | Nvidia: A Deep Dive Into the Future of AI and Investment Potential
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/oil-is-above-100-a-barrel-for-the-first-time-since/
+**URL:** https://www.fool.com/investing/2026/05/19/nvidia-a-deep-dive-into-the-future-of-ai-and-inves/
 
-Oil and natural gas are rising amid the geopolitical conflict unfolding in the Middle East. Energy is vital to the world economy, and higher prices could cause major disruptions, even to AI.
+Explore the exciting world of Nvidia (NVDA 0.79%) with our contributing expert analysts in this Motley Fool Scoreboard episode. Check out the video below to gain valuable insights into market trends and potential investment opportunities!
 
 ---
 
-### 2026-03-22 | Nvidia's CEO Jensen Huang Just Guided for $1 Trillion of GPU Orders Through 2027. Why Aren't Investors Buying the Stock?
+### 2026-05-19 | Gibbs: Stock Market "Running Out of Steam," NVDA Earnings Next Catalyst
+**Source:** Schwab Network
+**URL:** https://www.youtube.com/watch?v=WxaZKB1H4IE
+
+"We're potentially running out of steam" in market momentum, says Erin Gibbs, pointing to the stunning rally in stocks as reason for equities to take a pause. Nvidia's (NVDA) earnings will also be an indicator for what's to come.
+
+---
+
+### 2026-05-19 | Why Nvidia's stock is mispriced, and Wall Street is underestimating its earnings power. 🧐
+**Source:** Yahoo Finance
+**URL:** https://www.youtube.com/shorts/-N1D1oYMCiE
+
+Why Nvidia's stock is mispriced, and Wall Street is underestimating its earnings power. 🧐 Sign up for AlphaSpace today to create your own custom, AI-powered investing workspace ahead of Nvidia earnings.
+
+---
+
+### 2026-05-19 | Here's How Much Traders Expect Nvidia's Stock to Move After Earnings
+**Source:** Investopedia
+**URL:** https://www.investopedia.com/here-is-how-much-traders-expect-nvidia-stock-to-move-after-earnings-nvda-q1-fy2027-update-11973942
+
+Nvidia is set to report earnings after the closing bell Wednesday, with traders anticipating a big move in the chipmaker's stock that could see it near its record high.
+
+---
+
+### 2026-05-19 | Nvidia says “Physical AI is here”. Is Your Blue Collar Job in Danger?
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/19/nvidia-says-physical-ai-is-here-is-your-blue-collar-job-in-danger/
+
+During Nvidia's ( NASDAQ :NVDA | NVDA Price Prediction ) Q4 FY2026 earnings call in late February this year, the company's VP of Investor Relations said “Physical AI is here,” something that the company's financials are also corroborating.
+
+---
+
+### 2026-05-19 | QIAGEN to advance AI-driven drug discovery with graph-based AI and curated bioinformatics knowledge with NVIDIA
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260519902250/en/QIAGEN-to-advance-AI-driven-drug-discovery-with-graph-based-AI-and-curated-bioinformatics-knowledge-with-NVIDIA/
+
+VENLO, Netherlands & REDWOOD CITY, Calif.--(BUSINESS WIRE)---- $QGEN #QIAGEN--QIAGEN (NYSE: QGEN; Frankfurt Prime Standard: QIA) announced at the 2026 BIO-IT World Conference & Expo in Boston that the QIAGEN Digital Insights bioinformatics business and its curated knowledge bases and bioinformatics expertise will be integrating NVIDIA accelerated computing and the NVIDIA BioNeMo platform to help researchers use AI more effectively in drug discovery. The integration is designed to help pharmaceutical and biot.
+
+---
+
+### 2026-04-19 | SK hynix Begins Mass Production of 192GB SOCAMM2 'Setting a New Standard for AI Server Memory Performance'
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/sk-hynix-begins-mass-production-of-192gb-socamm2--setting-a-new-standard-for-ai-server-memory-performance-302746711.html
+
+-     Mass production of 192GB high capacity products designed for the NVIDIA Vera Rubin platform -     Maximizes power efficiency by featuring high density DRAM based on the latest 1cnm process -     Company to closely collaborate with NVIDIA to solve bottlenecks in AI infrastructure and provide optimal performance SEOUL, South Korea, April 19, 2026 /PRNewswire/ -- SK hynix Inc. (or "the company", www.skhynix.com) announced today that it has begun mass production of the 192GB SOCAMM2, a next-generation memory module standard based on the 1cnm process (sixth-generation of the 10-nanometer technology) LPDDR5X low-power DRAM. SOCAMM2[1] is a module that adapts low-power memory – which was previously used mainly in mobile products like smartphones – for server environments.
+
+---
+
+### 2026-04-19 | Wall Street Turbulence: How Resilient is Nvidia?
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/nvidia-ceo-jensen-huang-guide-trillion-gpu-chip/
+**URL:** https://www.fool.com/investing/2026/04/19/wall-street-turbulence-how-resilient-is-nvidia/
 
-The $1 trillion guidance is twice what Nvidia expects in sales for 2025 and 2026. Nvidia said that sales will be driven by its Grace Blackwell and Vera Rubin platforms.
-
----
-
-### 2026-03-22 | The Era of AI Agents Has Arrived. 2 Stocks on Track to Win.
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/the-era-of-ai-agents-has-arrived-2-stocks-on-track/
-
-AI agents are bringing the power of AI into the real world. Companies that help others deploy agents, as well as those that use agents, should benefit.
+Nvidia's earnings have exploded higher quarter after quarter thanks to its AI products. Investors have wondered whether Nvidia's dependence on AI could be a weakness down the road.
 
 ---
 
-### 2026-03-22 | AI picks 2 tech stocks to buy in Q2 2026
-**Source:** Finbold
-**URL:** https://finbold.com/ai-picks-2-tech-stocks-to-buy-in-q2-2026/
-
-The technology sector remains a focal point for investors seeking growth, even as the broader stock market experiences volatility.
-
----
-
-### 2026-03-22 | Nvidia: AI Is Here To Stay, And The Fear Is Misplaced (Rating Upgrade)
+### 2026-04-19 | Alger Capital Appreciation Fund Q1 2026 Portfolio Update
 **Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4884808-nvidia-ai-is-here-to-stay-and-the-fear-is-misplaced-rating-upgrade
+**URL:** https://seekingalpha.com/article/4891883-alger-capital-appreciation-fund-q1-2026-portfolio-update
 
-AI demand is structural, not fleeting; hyperscaler capex and falling compute costs support sustained NVDA growth through cycles. Cyclical fears likely reflect digestion phases, not collapse; expanding enterprise and sovereign use broadens NVDA's TAM. NVDA appears undervalued on growth metrics; the base case implies ~35% upside despite macro and financing-chain risks.
+Class A shares of the Alger Capital Appreciation Fund underperformed the Russell 1000 Growth Index during the first quarter of 2026. Western Digital Corporation, Nebius Group, and Vertiv Holdings Co. were among the top contributors to performance. Microsoft Corporation, AppLovin Corp. Class A, NVIDIA Corporation, were among the top detractors from performance.
 
 ---
 
-### 2026-03-22 | Nvidia and Advanced Micro Devices Have Sounded a $711 Billion Warning to Wall Street That AI Investors Simply Can't Ignore
+### 2026-04-19 | D-Wave Soared 46% On Nvidia's Quantum Bet. Here's The Surprise Winner
+**Source:** Forbes
+**URL:** https://www.forbes.com/sites/petercohan/2026/04/19/d-wave-soared-46-on-nvidias-quantum-bet-heres-the-surprise-winner/
+
+Nvidia stock is up about 13% this year.
+
+---
+
+### 2026-04-19 | Will Nvidia Be Worth $6 Trillion a Year From Now? Wall Street Has a Clear Answer.
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/nvidia-amd-sound-711-billion-warning-to-wall-st-ai/
+**URL:** https://www.fool.com/investing/2026/04/19/will-nvidia-be-worth-6-trillion-a-year-from-now-wa/
 
-AI is a game-changing technology that PwC analysts believe can create $15.7 trillion in global economic value by 2030. Demand for Nvidia's and AMD's graphics processing units (GPUs) has been insatiable, leading to sales growth of 68% and 32% for their respective data center segments last year.
+Nvidia stock has been under pressure in recent months. An acceleration in earnings growth could send it soaring once again.
 
 ---
 
-### 2026-03-22 | NVIDIA Corporation $NVDA Shares Sold by Narus Financial Partners LLC
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/22/nvidia-corporation-nvda-shares-sold-by-narus-financial-partners-llc.html
+### 2026-04-19 | Billionaire Ray Dalio Is Betting Big on These 4 AI Stocks
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/04/19/billionaire-ray-dalio-is-betting-big-on-these-4-ai-stocks/
 
-Narus Financial Partners LLC reduced its position in shares of NVIDIA Corporation (NASDAQ: NVDA) by 59.3% during the undefined quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The institutional investor owned 16,484 shares of the computer hardware maker's stock after selling 24,040 shares during the quarter.
+Bridgewater has built meaningful positions in four technology companies tied to different parts of the AI ecosystem, including NVIDIA (NASDAQ:NVDA | NVDA Price Prediction), Lam Research (NASDAQ:LRCX), Salesforce (NYSE:CRM), and Alphabet (NASDAQ:GOOGL).
+
+---
+
+### 2026-04-19 | The Best AI Stock to Buy Now: Micron vs. Nvidia
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/19/the-best-ai-stock-to-buy-now-micron-vs-nvidia/
+
+Nvidia's business continues to grow quickly. Micron is thriving on the memory chip shortage.
+
+---
+
+### 2026-04-19 | Prediction: This AI Stock Will Become the First $20 Trillion Company, According to a Wall Street Analyst
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/19/prediction-this-artificial-intelligence-ai-stock-w/
+
+Nvidia currently trades at a discount to its historical premiums and below comparable AI chip stocks. Its data center business is expected to double over the next couple of years.
+
+---
+
+### 2026-04-19 | Why FFLG Is the Best Fidelity ETF You’ve Never Heard Of
+**Source:** 247 Wallst
+**URL:** https://247wallst.com/investing/2026/04/19/why-fflg-is-the-best-fidelity-etf-youve-never-heard-of/
+
+FFLG has returned 44% over the past year, beating both the S&P 500 and Nasdaq 100 over the same stretch. That kind of outperformance from an actively managed fund with $521 million in assets would normally generate headlines. Instead, most growth investors default to passive index funds and never look twice at what Fidelity is... Why FFLG Is the Best Fidelity ETF You've Never Heard Of
+
+---
+
+### 2026-04-19 | Trueblood Wealth Management LLC Has $4.29 Million Stake in NVIDIA Corporation $NVDA
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/19/trueblood-wealth-management-llc-has-4-29-million-stake-in-nvidia-corporation-nvda.html
+
+Trueblood Wealth Management LLC boosted its holdings in shares of NVIDIA Corporation (NASDAQ: NVDA) by 16.2% during the undefined quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission. The firm owned 23,003 shares of the computer hardware maker's stock after buying an additional 3,211
 
 ---

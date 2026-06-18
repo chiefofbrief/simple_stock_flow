@@ -1,32 +1,175 @@
 # ASML News Data
-**Generated:** 2026-05-11 20:30
-**Date Range:** 2026-02-10 to 2026-05-11
+**Generated:** 2026-06-18 15:00
+**Date Range:** 2026-03-20 to 2026-06-18
 
 ## Summary Statistics
 
 ### Coverage
 - **Perigon:** 30 stories (aggregated from 30 media items)
-- **FMP:** 30 articles from 13 sources
+- **FMP:** 30 articles from 14 sources
 - **Total:** 60 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 1 | 10 |
-| 2026-04 | 15 | 10 |
-| 2026-03 | 11 | 10 |
-| 2026-02 | 3 | 0 |
+| 2026-06 | 10 | 10 |
+| 2026-05 | 3 | 10 |
+| 2026-04 | 17 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.022)
-- Positive-leaning: 18 stories
+**Perigon** (avg composite: +0.071)
+- Positive-leaning: 21 stories
 - Neutral: 0 stories
-- Negative-leaning: 12 stories
+- Negative-leaning: 9 stories
 
 ---
 
 ## Perigon Stories (30 stories)
+
+### 2026-06-18 | Silvant Capital Management boosts Astera Labs stake
+**Sentiment:** +0.26 (pos: 0.39, neg: 0.13, neu: 0.48)
+
+Multiple investors adjusted positions in Astera Labs, underscoring continued institutional attention on the company’s high-volatility stock. Silvant Capital Management LLC increased its stake by 85.1%, while Barclays PLC cut its holdings by 40.4%, and Focus Partners Wealth trimmed its position slightly by 0.9%. Other investors also made smaller additions to Astera Labs shares, and the company remains majority held by institutions and hedge funds. In company-specific news, Astera Labs’ COO sold a large block of shares in a reported transaction. Analysts have issued bullish commentary as well, including at least one price-target increase and a reiteration of a buy rating. Overall, the filings reflect a mix of profit-taking by some large holders and continued accumulation by others.
+
+**Key Points:**
+- ALAB’s trading/valuation snapshot reported with the 13F coverage: the stock opened at $389.20, and it was cited with a 50-day moving average of $242.61 and a 200-day moving average of $180.88. The article also lists a 12-month range of $84.78 to $398.13, a beta of 3.94, and a P/E ratio of 262.97 (market cap $66.71 billion).
+- Beyond Silvant and Barclays, the article details multiple other hedge-fund moves in ALAB: Assetmark Inc. increased its stake by 374.1% to 128 shares (about $25,000), Smartleaf Asset Management LLC rose by 422.2% to 188 shares (about $32,000), and Hilltop National Bank doubled its position by 100% to 200 shares (about $33,000). It also notes new positions by Aventura Private Wealth LLC and Towarzystwo Funduszy Inwestycyjnych PZU SA (each about $33,000).
+- Focus Partners Wealth’s ALAB trim is quantified in the filing: it cut its holdings by 0.9%, selling 2,918 shares to end with 322,325 shares valued at about $55.301 million. The same coverage adds that COO Sanjay Gajendra sold 400,000 shares on Thursday, May 21, at an average price of $290.3 per share.
+
+---
+
+### 2026-06-18 | ASML shares slip 3.56% amid AI valuation
+**Sentiment:** +0.26 (pos: 0.40, neg: 0.14, neu: 0.46)
+
+ASML Holding is seeing renewed market pressure as investors weigh risk-off moves in technology and semiconductors ahead of the Federal Reserve meeting, contributing to a sharp pullback in the shares. While the stock has benefited from strong AI-driven chip demand and ASML’s EUV leadership, analysts and tracking services note that valuation concerns could make swings feel larger when sentiment cools. The company’s outlook remains a key anchor, with reported expectations for second-quarter 2026 total net sales in a roughly mid–€8 billion to €8.9 billion range. Recent SEC filing-based reporting shows mixed institutional positioning: some investors increased stakes significantly, while Hollow Brook Wealth Management cut its holding by about 10% and reduced the position to around 1.3% of its portfolio. Other large managers likewise adjusted exposure, with several adding new shares or boosting holdings after earlier quarters. Overall, the articles portray ASML as a high-beta proxy for the next wave of semiconductor investment, where execution and guidance compete with market sentiment and valuation risk.
+
+**Key Points:**
+- Zacks attributed ASML’s prior strength to AI-driven chip demand and said the stock had surged about 36% over the past three months—helping explain why subsequent pullbacks can feel sharper when momentum cools.
+- TradingKey reported ASML shares fell 3.56% on June 16, linking the move to broader risk-off trading in technology and semiconductors ahead of the Federal Open Market Committee meeting.
+- GuruFocus flagged ASML as significantly overvalued versus its GF Value estimate, noting that valuation pressure can magnify the impact of day-to-day sentiment moves.
+
+---
+
+### 2026-06-18 | Dow hits record high, WTI sinks before Warsh
+**Sentiment:** -0.40 (pos: 0.23, neg: 0.63, neu: 0.15)
+
+U.S. markets moved unevenly as investors rotated out of high-flying technology and into economically sensitive areas like financials, utilities, and industrials, pushing the Dow Jones Industrial Average to fresh record territory while the S&P 500 and Nasdaq slipped. Traders pointed to easing energy risk after signs of progress toward reopening the Strait of Hormuz, which helped drag oil lower, though analysts warned normalization of shipments could take months. The rotation theme was reinforced by commentary that the rally may be shifting from tech toward cyclical and value sectors as geopolitical and rate pressures cool. A major focus for investors is the Fed’s two-day meeting under new Chair Kevin Warsh, with markets largely expecting rates to stay unchanged while watching Warsh’s signals for the policy path and any balance-sheet changes. Middle East headlines remained a back-and-forth driver, including calls from the current president to prepare for a promised reopening, even as skepticism about durability lingered. Among individual names, technology weakness weighed on the Nasdaq even as SpaceX shares surged for multiple sessions.
+
+**Key Points:**
+- Investors were focused not just on whether the Fed would hold rates, but on Warsh’s framing of the Fed’s dual mandate: Schwab Center for Financial Research said, “Warsh's words will be examined closely for clues on how he'll oversee the dual mandate of stable prices and maximum employment,” and CME FedWatch put the odds of unchanged rates at 99.6%.
+- Even as optimism about Strait of Hormuz reopening faded, David Rosenberg (Rosenberg Research) cautioned that “fully normalizing oil transport through the critical waterway could require as long as six months.”
+- Treasury yields stayed elevated during the session, with the 10-year hovering around 4.46% and the 2-year near 4.08%, which analysts interpreted as investors emphasizing the upcoming Fed meeting over the Iran/strait developments.
+
+---
+
+### 2026-06-17 | ASML CEO Warns Terafab Supply Constraints
+**Sentiment:** +0.33 (pos: 0.48, neg: 0.16, neu: 0.36)
+
+ASML CEO Christophe Fouquet said the company must avoid supply constraints when servicing major new semiconductor projects like Elon Musk’s Terafab, emphasizing that new demand is an opportunity only if capacity can be maintained. ASML’s warning lands against the backdrop of its monopoly on extreme ultraviolet lithography tools, which are essential for producing leading-edge AI and other advanced chips. Multiple reports describe Terafab as an effort by Musk’s companies to expand advanced chip production to serve needs across Tesla, SpaceX, and related AI and autonomous systems, making ASML a critical bottleneck-pacing supplier. Investors are also watching ASML’s own actions: one account highlights large share buybacks and notes that tightening capacity for advanced lithography could further strengthen ASML’s position as demand from megafab plans grows. Overall, the coverage frames Terafab as a potentially transformative deal for ASML while also raising the question of whether the industry’s advanced-chip tool supply can keep up for years.
+
+**Key Points:**
+- ASML said earlier this month it would collaborate on Musk’s Terafab project, positioning the supplier not only as a bottleneck but as an active participant in the initiative. 
+- Terafab is described as a Tesla–SpaceX joint venture aimed at ending chip bottlenecks, with an initial $55 billion investment that could grow to $119 billion and a target of 2-nanometer production; the scale would require roughly 80 to 100 extreme ultraviolet (EUV) lithography tools (each about €400 million).
+- Investors’ watch on ASML’s capacity-constrained outlook is paired with concrete capital-return activity: the buyback program runs at roughly €16 million per day, capped at €12 billion through 2028, and ASML has been repurchasing about 10,000 shares daily at €1,481–€1,540, with most repurchased shares destined for cancellation.
+
+---
+
+### 2026-06-16 | JPMorgan trims, LPL boosts AstraZeneca stake
+**Sentiment:** +0.33 (pos: 0.42, neg: 0.09, neu: 0.49)
+
+Multiple asset managers adjusted their holdings in AstraZeneca, according to recent SEC filings and market disclosures. LPL Financial increased its AstraZeneca stake by about 7.9%, while JPMorgan Chase cut its position by 22.3% during the fourth quarter, reflecting diverging investor views on the drugmaker. Other investors also initiated or added positions, including Monetary Management Group, Endeavor Private Wealth, and Palladiem, each disclosing new purchases of AstraZeneca shares in the latest reporting periods. Several additional funds reported smaller increases, contributing to ongoing institutional activity around the company. AstraZeneca is a global biopharmaceutical firm with R&D focused across oncology, cardiovascular/renal/metabolism, and respiratory/inflammation/autoimmunity, and with its stock trading near recent ranges while maintaining a low beta profile. Overall, the reports underscore continued institutional reshuffling rather than a single-direction consensus move.
+
+**Key Points:**
+- JPMorgan Chase & Co. didn’t just reduce its stake by 22.3%—it sold 1,077,087 AstraZeneca shares, leaving it with 3,746,985 shares worth $657.596 million, or about 0.24% of the company’s stock.
+- Monetary Management Group Inc. initiated a position by buying 6,250 AstraZeneca shares valued at approximately $1.097 million in the 4th quarter, according to its SEC filing.
+- Palladiem LLC’s AstraZeneca purchase was small but specific to its portfolio construction: it bought 2,823 shares for about $495,000, and AstraZeneca accounted for roughly 0.5% of Palladiem’s portfolio—its 25th-largest holding.
+
+---
+
+### 2026-06-13 | ASML finalizes social plan, delays 1,700 job cuts
+**Sentiment:** -0.45 (pos: 0.11, neg: 0.56, neu: 0.33)
+
+ASML, the Dutch semiconductor equipment maker, has agreed with Dutch and Belgian unions to soften its planned reduction of about 1,700 jobs by delaying compulsory layoffs and expanding internal redeployment. Under the finalized two-year social plan, employees are protected from forced layoffs until May 1, 2027, with affected staff to be informed in coming weeks and given time to apply for vacancies elsewhere in the company before the no-layoff period ends. The restructuring targets roles mainly in Development & Engineering and IT & Data, alongside plans to flatten management layers and potentially save hundreds of jobs through reassignment. Union officials say the company has not fully locked in the final headcount reductions and that any severance settlements could be substantial, while workers also retain options such as voluntary departures with reduced severance. Investor-focused reporting frames the labor outcome against ASML’s crucial role supplying advanced lithography for AI-driven chip demand, highlighting that scaling production fast enough remains a key challenge. Overall, the deal reflects the Netherlands’ labor-model approach, aiming to minimize forced job loss while ASML shifts resources toward engineering needs tied to the AI infrastructure buildout.
+
+**Key Points:**
+- ASML spokesperson Monique Mols said workers whose roles may be affected will be notified “before the end of June 2026,” adding, “We want to see as few people as possible forced to leave,” as the company implements the social plan.
+- De Unie spokesperson Diederik Bonarius said settlements for impacted workers could reach “a maximum of €400,000,” and that employees are expected to learn next month whether their positions are affected after consultation with the works council.
+- The finalized two-year social plan applies retroactively from 1 June (i.e., “provisions are already in force from that date”), with the agreement covering the company’s restructuring during the retroactive period.
+
+---
+
+### 2026-06-12 | ASML becomes Europe’s most valuable listed company
+**Sentiment:** +0.50 (pos: 0.61, neg: 0.11, neu: 0.28)
+
+ASML’s recent surge reflects strengthening expectations for AI-driven semiconductor equipment demand, with the company benefiting from raised guidance, high margins, and a deep backlog that underpins confidence in continued growth. After earlier investor anxiety over potential production ramp-up and export-control impacts, ASML’s latest results and commentary—along with reminders that memory makers are constrained beyond 2026—have helped widen the perception of its “moat,” even as a touted European free-electron-laser rival (xLight) has not yet emerged beyond the lab stage. The stock momentum has also been supported by internal-operating uncertainty easing after ASML reached a social-planning agreement with Dutch unions to reduce layoffs versus initial plans, alongside broad analyst optimism on its ability to deliver advanced lithography to key customers like Samsung and TSMC. Additional bullish signals cited include large-cap AI spending from customers such as Oracle, which is raising tens of billions for data centers and could translate into more orders and downstream capex across chipmaking suppliers. Not all views are uniformly positive: some coverage continues to flag competitive risk in EUV lithography, including speculation that Canon could challenge ASML’s leadership. Overall, the combined message across sources is that AI infrastructure buildouts are pulling forward demand for cutting-edge lithography while near-term execution and talent concerns have eased.
+
+**Key Points:**
+- ASML highlighted technical progress in EUV/High-NA capabilities, including demonstrating a “1,000-watt EUV source” and noting that High NA can “reduce the number of process steps from 100 to 10,” reinforcing why demand for cutting-edge lithography is expected to stay strong.
+- ASML’s rally propelled it to “the most valuable listed company in European history,” reaching a market value of about $674 billion during Wednesday’s trading session—surpassing the previous record peak held by Novo Nordisk.
+- Beyond guidance and backlog, ASML also reiterated shareholder-return signals: it launched a “€12 billion buyback program through December 31, 2028.” The article also cites strong operating results from the prior year’s reporting cycle (record full-year revenue of €9.7 billion; Q4 net orders of €13.16 billion; backlog of €38.80 billion).
+
+---
+
+### 2026-06-11 | ASML Stock Surges on Record $700B Market Cap
+**Sentiment:** +0.52 (pos: 0.60, neg: 0.08, neu: 0.32)
+
+ASML’s shares hit new highs, making it the most valuable European company as its market capitalization rose to roughly $674 billion to $700 billion amid demand for AI-driven semiconductor capacity. The Dutch firm remains a chokepoint supplier, producing the only EUV lithography systems, including high-NA and low-NA variants used for leading-edge chips from customers such as TSMC, Samsung, and Intel. Analysts lifted price targets after concluding ASML can deliver more EUV systems than previously assumed, pointing to strong order visibility and plans to expand manufacturing capacity in Eindhoven. Coverage also linked ASML’s backlog and outlook to customers’ capital spending on next-generation fabs. The momentum coincided with Elon Musk praising ASML and confirming he will attend its technology conference virtually. Some reporting still characterizes the stock as relatively cheap versus peers even as at least one investor platform warns it trades above an estimated fair-value model.
+
+**Key Points:**
+- Bloomberg noted that while ASML shares were up 64% in 2026 to fresh records, the rally “has lagged” the broader U.S. semiconductor sector and underperformed peers including Applied Materials and key customer Samsung.
+- JPMorgan and Morgan Stanley both raised ASML targets, arguing output is higher than expected: JPMorgan cited ASML’s ability to deliver “more than 110 low-NA EUV systems without adding new building capacity” (vs. roughly 90 previously cited), raising its target to €1,900 from €1,515; Morgan Stanley lifted its target to €1,660 from €1,400 and said near-term confidence came from ASML’s April AGM plans to start Eindhoven’s Brainport Industries Campus construction in Q3 2026—though it warned the campus “needs to be the start of a multi-phase build-out.”
+- Yahoo/Simply Wall St put the valuation debate in specific terms: at about $1,749.04, ASML traded roughly in line with the $1,758 analyst price target, but was still modeled as overvalued—“130.6% above the estimated fair value.”
+
+---
+
+### 2026-06-11 | Prinano claims 8-inch photonic chips without DUV
+**Sentiment:** +0.32 (pos: 0.41, neg: 0.09, neu: 0.50)
+
+Chinese startup Prinano says it has validated mass production of photonic chip wafers using 8-inch silicon while completely avoiding deep-ultraviolet lithography equipment restricted for export to China, potentially reducing dependence on ASML tools. Prinano attributes the result to its PL-AS vacuum air-cushion nanoimprint lithography approach, which physically stamps nanoscale patterns into a resist layer instead of using optical projection, and it claims the method can cut manufacturing costs to about one-tenth of DUV-based processes. Multiple reports describe the system as designed for wafer-level photonic manufacturing, targeting sub-10nm resolution and emphasizing uniform pressure control across the wafer for consistent patterning. The company says it worked with Shenzhen Litra Technology and that the chips can be used for optical communications and applications such as sensing and LiDAR. However, coverage also notes lingering uncertainty about real-world production scale, yields, throughput, template wear, and how well the process would integrate into broader manufacturing—meaning it is not yet clear it will displace established lithography leaders. Overall, the announcement is positioned as a potential stopgap for China’s chip industry amid ongoing lithography supply constraints, but industry observers caution it may not “shake” ASML’s dominance without demonstrated commercial performance.
+
+**Key Points:**
+- Prinano’s PL-AS platform is described as meeting tight wafer-level specifications beyond just “uniform pressure,” including wafer pressure uniformity controlled within 0.5%, “residue-free imprinting,” alignment precision tunable to sub-100nm, and residual layer thickness (RLT) variation reduced to below 2nm; the reporting also says it has higher throughput than Canon’s step-and-repeat NIL systems because it uses full-wafer compression rather than sequential exposure.
+- In its June 5 WeChat announcement, Prinano said it had “successfully manufactured 8-inch optical chip wafers using NIL (Natural In-Layer) technology,” adding that it was able to make optical chips “without using DUV lithography equipment” and that “Costs were reduced to about one-tenth.”
+- Coverage characterizes Prinano’s strategy as narrower than “advanced chip” disruption: one report notes the company has “no intention of competing in advanced processor or AI chip manufacturin[g],” positioning the work more as a photonics/wafer-level manufacturing approach rather than a direct substitute for leading logic-chip lithography flows.
+
+---
+
+### 2026-06-11 | Multiple investors cut ASML stakes, sold shares
+**Sentiment:** +0.19 (pos: 0.36, neg: 0.17, neu: 0.48)
+
+Multiple institutional filings show investors adjusting positions in ASML Holding, with TD Asset Management trimming its stake by 4.3% and reducing holdings to about 32,730 shares worth roughly $35 million. Capital World Investors cut its stake by 7.3% to 3,881,791 shares, while Capital International Sarl and Capital International Inc. CA reduced their positions by about 10.8% and 10.6%, respectively. Across these moves, other funds were buying or adding, including several small but incremental increases from wealth managers, alongside larger additions reported by other institutional investors. Collectively, institutional investors and hedge funds continue to hold about 26.07% of ASML stock, underscoring broad market participation despite pockets of trimming. The reports also reflect the continued scrutiny of ASML’s outlook, with recent analyst actions cited alongside the trading activity.
+
+**Key Points:**
+- TD Asset Management’s 4.3% trim was accompanied by multiple small “add” positions, including Family Capital Management (up 0.8% to 919 shares after buying 7), 44 Wealth Management (up 1.1% to 657 shares after buying 7), and Sky Investment Group (up 2.1% to 384 shares after buying 8), alongside White Lighthouse Investment Management (up 2.2% to 365 shares) and Main Management ETF Advisors (up 1.0% to 783 shares).
+- Additional hedge-fund buying activity in the filings included North Star Investment Management (lifted its stake by 68.8% to 27 shares after buying 11), Binnacle Investments (up 78.9% to 34 shares after buying 15), and Kohmann Bosshard Financial Services plus Evolution Wealth Management, which each initiated small new positions (about $32,000 and $33,000, respectively).
+- Analyst actions cited in the reports were concrete and bullish from multiple firms: Royal Bank of Canada raised its price objective for ASML from $1,625 to $1,700 and reiterated an “outperform” rating (April 16), Deutsche Bank reiterated a “buy” (April 16), and Freedom Capital upgraded ASML from “hold” to “strong-buy.”
+
+---
+
+### 2026-05-18 | ASML Tata Sign MoU for $11B Dholera Foundry
+**Sentiment:** +0.38 (pos: 0.46, neg: 0.08, neu: 0.46)
+
+ASML and Tata Electronics signed an MoU to help establish and ramp up Tata’s first commercial 300-millimeter semiconductor foundry in Dholera, Gujarat, using ASML’s advanced lithography tools. The planned investment is roughly $11 billion, aimed at producing chips for sectors including AI, automotive and mobile devices, along with cooperation on training local talent and building India’s R&D and supply-chain capabilities. ASML’s role was described as a “holistic” deployment of tools rather than a simple equipment purchase. The MoU was announced during Prime Minister Narendra Modi’s visit to the Netherlands, where Modi and Dutch leaders also discussed broader economic ties and defense and security cooperation. For India, the project supports reducing import dependence and expanding domestic chip manufacturing capacity. For ASML, it provides a deeper foothold in a growing semiconductor market amid rising demand tied to AI-driven computing.
+
+**Key Points:**
+- ASML’s technology focus is specifically tied to EUV lithography: multiple outlets note that ASML is the world’s only producer of EUV (extreme ultraviolet) lithography machines, which are used by leading chipmakers to manufacture the most advanced silicon chips.
+- Tata Electronics’ Dholera fab is described as India’s first planned commercial semiconductor fabrication plant, with an expected total monthly capacity of 50,000 wafers for analog and logic IC chips using 28nm to 110nm technologies.
+- Several articles describe the partnership as a “calibrated” rollout rather than an immediate leap to the latest-node chips: one report says ASML and Tata are likely to first test the limits and contours of the partnership, implying advanced-node capabilities like 5nm/3nm would come later.
+
+---
+
+### 2026-05-17 | Goldman Sachs lifts ASML target to EUR 1,600
+**Sentiment:** +0.35 (pos: 0.54, neg: 0.19, neu: 0.26)
+
+ASML, the Netherlands-based leader in extreme ultraviolet lithography systems, remains a key bottleneck supplier for manufacturing the most advanced AI and high-performance chips for major U.S.-linked customers. Goldman Sachs raised its ASML price target to EUR 1,600, pointing to strong AI-driven semiconductor equipment demand and confidence in ASML’s entrenched position in next-generation chipmaking. ASML’s recent results also backed the bullish outlook, including EUR 8.8 billion in revenue that beat expectations and Q1 2026 net sales of €7.7 billion, up year over year. The company’s EUV dominance supports production at the smallest process nodes, while a growing mix of systems, upgrades, and long-term services helps sustain visibility through multi-year customer commitments. ASML’s stock strength has reflected this narrative, climbing more than 40% year-to-date in early 2026. Looking ahead, High-NA EUV is positioned as the next step after current EUV demand, with shipments expected to begin in 2026.
+
+**Key Points:**
+- ASML says its EUV technology enables chips at the 3nm node and below—critical for next-generation processors—and it sells EUV systems priced roughly between €100 million and €400 million each, reflecting the capital intensity of advanced AI chip fabrication.
+- In Q1 2026, ASML reported that systems remain the core of its business model (about 80% of total revenue), and it stated that EUV systems accounted for 52% of Q1 2026 sales—supported by a mix of upgrades plus broader lithography services such as metrology and software.
+- Beyond current EUV demand, ASML’s High-NA EUV offering is described as capable of ~8nm resolution, with reporting that initial deliveries have gone to Intel—adding specificity to the “next step” timeline beyond just first shipments starting in 2026.
+
+---
 
 ### 2026-05-09 | AI supply-chain leaders highlight chip,data,energy bottlenecks
 **Sentiment:** -0.09 (pos: 0.21, neg: 0.31, neu: 0.48)
@@ -148,6 +291,78 @@ Multiple institutional investors adjusted their positions in Analog Devices (ADI
 
 ---
 
+### 2026-04-18 | ASML Raises 2026 Net Sales Guidance on Strong Q1
+**Sentiment:** +0.29 (pos: 0.46, neg: 0.17, neu: 0.37)
+
+ASML reported first-quarter results ahead of expectations and raised its 2026 net sales outlook to €36 billion–€40 billion from €34 billion–€39 billion, citing artificial-intelligence-driven demand that is outpacing supply. Management said customers—especially for memory and advanced logic—are accelerating capacity plans, and ASML expects it can ship about 60 low-NA EUV tools in 2026 and about 80 in 2027 given constrained industry capacity. The company said gross margin is healthy at around 53%. ASML also guided second-quarter revenue of about €8.7 billion at the midpoint, which is below consensus, and it flagged near-term export-control and China-related headwinds as China’s share of shipments declines. Analysts reiterated bullish views, though some cautioned that valuations already embed high expectations. The update reinforces ASML’s “picks-and-shovels” role for leading-edge chipmaking, with export restrictions and the timing of demand remaining key swing factors for sentiment.
+
+**Key Points:**
+- In the quarter, ASML reported revenue of €9.72 billion and net profit of €2.84 billion, compared with €9.26 billion revenue and €2.69 billion net profit a year earlier.
+- EUV revenue rose 14% sequentially to €4.1 billion, and ASML shipped 16 EUV tools in the quarter; the analyst also said memory was “particularly strong,” while advanced logic declined due to timing issues and China, with a “rebound strongly” expected in the back half of 2026.
+- ASML CEO Christophe Fouquet said, “We expect that supply will not meet demand for the foreseeable future,” adding that “customers on the memory side were saying they were already sold out for the year,” while advanced-logic customers were continuing to build capacity for the AI boom.
+
+---
+
+### 2026-04-18 | Reported US chip curbs bill narrows ASML DUV
+**Sentiment:** -0.44 (pos: 0.10, neg: 0.54, neu: 0.36)
+
+U.S. lawmakers have scaled back the proposed “Multilateral Alignment of Technology Controls on Hardware Act” (MATCH Act), narrowing earlier, more sweeping export-curb measures against China while retaining key limits on advanced chipmaking equipment. The revised draft still imposes a countrywide restriction on ASML’s deep ultraviolet (DUV) immersion lithography machines and keeps targeted prohibitions on foreign firms supplying equipment to specific Chinese chipmakers (including ChangXin Memory Technologies, Yangtze Memory Technologies, and Semiconductor Manufacturing International Corp) for facilities barred from using U.S. technology, along with licensing requirements for servicing equipment at those sites. Several broader countrywide tool restrictions—such as on cryogenic etching equipment—have been removed after industry groups warned the original approach could disrupt supply chains and reduce exports for manufacturers. Reuters reported that the early version “upset” the industry and that a Chinese expert said the U.S. had to adjust because prior restrictions failed to halt China’s technological development and backfired on American chipmakers. The bill is designed to align controls with allies such as Japan and the Netherlands and to maintain U.S. AI leadership, with supporters arguing China is exploiting U.S. and allied equipment for military modernization and global AI dominance. The House Foreign Affairs Committee is set to consider the revised bill next Wednesday as part of a larger package of AI, semiconductor, and export-control legislation.
+
+**Key Points:**
+- ASML, the Netherlands-based supplier of the restricted DUV immersion lithography machines, “declined to comment on the changes” in the revised bill.
+- Reuters reported that the early-April draft “upset the industry” because it was described by an expert as a “runaway train,” imposing “new countrywide and expansive company-tied restrictions,” which manufacturers said would reduce exports and harm sales.
+- House Republican Rep. Bill Huizenga said, “As the chairman of the House subcommittee overseeing export controls, I’ve seen how China is exploiting access to American and allies’ chipmaking equipment to modernize its military and pursue global AI dominance,” adding that the “bipartisan MATCH Act advances the security, economic prosperity and technological leadership of the United States.”
+
+---
+
+### 2026-04-18 | ASML Earnings Show Export-Ban Pressure on China
+**Sentiment:** +0.03 (pos: 0.39, neg: 0.36, neu: 0.25)
+
+ASML reported strong Q1 2026 results, with revenue up 13% to €8.77 billion and EPS rising 19%, beating analyst estimates even as the stock fell after the release. The company raised its full-year 2026 sales outlook to €36–€40 billion (about $42–$47B), citing continued customer capacity expansions as chip demand outpaces supply, despite slightly weaker-than-expected Q2 guidance. ASML also said export bans reduced the share of net system sales to China to 19% in Q1 from 36% in the prior quarter. Analysts are expected to track downstream chipmakers such as TSMC for further demand signals. Broader AI and data-center investment trends remain strong, and ASML is seen as a bottleneck provider because it is the sole maker of EUV lithography machines used for leading-edge chips.
+
+**Key Points:**
+- ASML CEO Christophe Fouquet said the company expects ongoing demand strength because customers are “accelerating their capacity expansion plans for 2026 and beyond” due to chips “outpac[ing]” supply, tying the outlook directly to customer behavior rather than just market expectations.
+- ASML highlighted how uneven quarterly orders can be: its most advanced high-NA extreme ultraviolet lithography machine costs around “$400 million,” making results and guidance lumpy quarter to quarter even when the full-year trend is solid.
+- While ASML raised full-year guidance, Bloomberg-derived figures in the coverage showed Q2 sales guidance of about $9.91B–$10.62B versus Wall Street’s roughly $10.70B expectation, helping explain the post-earnings stock weakness despite the upgrade.
+
+---
+
+### 2026-04-15 | European defense stocks slump on reported truce
+**Sentiment:** -0.12 (pos: 0.20, neg: 0.32, neu: 0.48)
+
+European defense stocks fell sharply on Friday after signs of potential de-escalation in the Russia-Ukraine war raised peace hopes, including a Putin-ordered Orthodox Easter truce and Ukraine’s signals it would respond “symmetrically,” even as both sides stressed the pause is temporary. Optimism was further fueled by comments from Ukraine’s chief negotiator adviser Kyrylo Budanov suggesting a resolution could come sooner than expected, prompting a selloff in major defense contractors such as Rheinmetall and Leonardo. Investors simultaneously rotated into construction and materials firms positioned to benefit from potential postwar rebuilding, with shares in companies like Buzzi, Holcim, and Heidelberg Materials rising, amid estimates that reconstruction could cost as much as $800 billion over the coming decade. Some analysts and officials urged caution, noting Budanov’s remarks did not amount to concrete deal progress and reflecting skepticism based on the history of violated truces and ongoing battlefield realities. Broader market pressure also included moves in European natural-gas futures and spillover risk concerns, including the prospect of de-escalation in the Iran war. Overall, the reporting highlighted how sensitive the rearmament-reliant defense sector remains to any credible diplomatic momentum toward ending the war.
+
+**Key Points:**
+- A Goldman Sachs Group “basket” of defense shares fell as much as 5.1% after Kyrylo Budanov said a war resolution may not take long to achieve—underscoring that the selloff was broad-based, not limited to a single company.
+- Putin’s move was described as an “official theatre-wide cease-fire” for Orthodox Easter weekend, agreed Thursday—an added layer of formality that helped drive the market’s shift toward (brief) peace optimism.
+- Analyst firm Vital Knowledge said Budanov’s comments “do not point to concrete new developments,” suggesting the signal may instead reflect “broader limits on Russia’s ability to sustain the conflict rather than imminent agreement.”
+
+---
+
+### 2026-04-15 | ASX valuation check after March 2026 trading rebound
+**Sentiment:** +0.75 (pos: 0.80, neg: 0.05, neu: 0.15)
+
+The Simply Wall St valuation updates highlight several stocks gaining renewed investor attention on recent momentum, while each story balances upside forecasts against key risks. ASX’s March activity update coincided with a short-term rebound in trading and price performance, but longer-run shareholder returns lag and rising costs plus technology/governance scrutiny could pressure the assumptions behind its fair-value case (A$58.18). Astec Industries also rallied strongly, with analysts pointing to upside versus its market price, though Simply Wall St’s DCF model suggests the “undervalued” label may not hold in the same way if growth and margin outcomes miss. ASML’s strong 1-year return comes with a premium valuation (P/E 50.9x), argued to reflect expectations for its high-end semiconductor equipment earnings profile, even as fair-P/E estimates imply some mean-reversion risk. ASM International jumped after a US-Iran ceasefire triggered a broader semiconductor rebound, trading below model-implied fair value near €806, but the outlook remains vulnerable to China exposure and concentration among leading customers. In contrast, ASGN has been under pressure, and the update frames its weakness as potentially offering entry value versus its narrative fair value, supported by demand for cloud, AI, and cybersecurity services alongside durable federal and commercial pipelines.
+
+**Key Points:**
+- ASX’s March rebound came with specific trading/return figures—+2.19% on the day and +19.21% over 30 days—but longer-horizon shareholder performance has been weaker (+11.13% over 1 year vs. +3.91% over 5 years), underscoring the gap between near-term activity and longer-term outcomes.
+- Astec Industries’ rally is quantified as momentum: about +16% over the past month, +26% over 3 months, +37.17% year-to-date, and +83.34% over 1 year. The stock is also trading at US$61.22 versus a US$71.75 price target, while Simply Wall St notes its narrative implies an “intrinsic value estimate” above the market price.
+- For Astec, the upside case is tied to execution risks that go beyond generic “growth” concerns—specifically avoiding setbacks like weaker U.S. infrastructure funding and difficulties integrating TerraSource while still achieving the margin uplift that analysts model.
+
+---
+
+### 2026-04-13 | V Square Quantitative Management LLC buys ASML stake
+**Sentiment:** +0.28 (pos: 0.38, neg: 0.10, neu: 0.53)
+
+ASML has seen shifting positions from institutional investors, with V Square Quantitative Management adding about 1,322 shares in the fourth quarter while Naviter Wealth trimmed its stake by 6.5% to 7,644 shares, valuing the holding at roughly $8.18 million. Several other funds also reported modest adds or reductions, with institutional ownership cited at 26.07%. On the analyst side, sentiment remains largely positive, including multiple reiterations of “buy”/“outperform” ratings and price-target increases such as Wells Fargo’s move to an $1,650 target (overweight) and Royal Bank of Canada’s hike to $1,625 (outperform). Deutsche Bank reiterated a “buy,” KGI set an “outperform” target, and Weiss upgraded its rating to a “buy.” One notable bearish take came from Grupo Santander, which cut ASML to an “underperform” rating. Overall, the updates point to continued institutional repositioning alongside broadly supportive sell-side coverage.
+
+**Key Points:**
+- Naviter Wealth LLC said it cut its ASML stake by selling 530 shares, leaving it with 7,644 shares; the position was 1.1% of its portfolio and the firm’s 18th-largest holding, worth $8,178,000 in its latest SEC filing.
+- V Square Quantitative Management LLC’s ASML purchase in the fourth quarter was valued at about $1,414,000 for 1,322 shares (per the report citing the firm’s filings).
+- Other institutional activity included Sky Investment Group LLC increasing its ASML position by 2.1% to 384 shares (about $411,000) and BOS Asset Management LLC raising its stake by 2.4% to 377 shares (about $403,000).
+
+---
+
 ### 2026-04-11 | ASML reports €100 million buyback trades
 **Sentiment:** +0.20 (pos: 0.30, neg: 0.10, neu: 0.60)
 
@@ -172,460 +387,244 @@ A bipartisan “MATCH Act” in the U.S. House would extend the strictest U.S. s
 
 ---
 
-### 2026-04-06 | MATCH Act proposes ASML China export curbs
-**Sentiment:** -0.08 (pos: 0.21, neg: 0.29, neu: 0.51)
-
-A bipartisan group of House lawmakers introduced the proposed MATCH Act to tighten U.S.-led export restrictions on advanced semiconductor manufacturing equipment to China, aiming to protect America’s AI lead (Reuters, via Yahoo Finance). The bill targets technologies China imports it cannot produce domestically—most notably immersion DUV lithography—and would prohibit sales and also servicing/maintenance of restricted tools to major Chinese chipmakers including SMIC, Hua Hong, Huawei, CXMT and YMTC. While existing U.S.-coordinated rules already bar ASML from shipping its most advanced EUV systems to China, ASML has continued selling older DUV equipment, and the MATCH Act would close that gap by ending exemptions covering after-sales support (Reuters, via Yahoo Finance; Techzine). ASML is central to the DUV market, and China was its largest customer in 2025 at about 33% of revenue, a share ASML said would fall toward roughly 20%, meaning the legislation could materially pressure the company’s earnings (Reuters, via Yahoo Finance). The draft also calls for “diplomatic engagement” to align restrictions for allied countries—potentially extending the same limitations across Europe and Japan to prevent loopholes (TipRanks; Reuters, via Yahoo Finance). Supporters point to China’s rapid growth in semiconductor-machinery imports—rising from $10.7 billion in 2016 to about $51.1 billion last year—while the Netherlands’ foreign ministry declined to comment on the draft legislation (TipRanks; Reuters, via Yahoo Finance).
-
-**Key Points:**
-- The MATCH Act would effectively stop servicing/maintenance of ASML’s older DUV systems sold to China, which Techzine described as “effectively amount[ing] to a forced breach of contract and a significant reduction in sales for ASML.”
-- Beyond targeting Chinese firms, the Reuters report said the new law would also prohibit ASML from selling older DUV lines to leading South Korean and Taiwanese companies that operate in China—potentially expanding the impact of the rules outside China’s borders.
-- Reuters noted the contrast with earlier chip-export crackdowns: previous rounds were led by Presidents Donald Trump and Joe Biden via the executive branch, whereas the MATCH Act is introduced by Congress—signaling broader political consensus around technology competition with China.
-
----
-
-### 2026-04-05 | ASML stock slides; earnings set April 15
-**Sentiment:** -0.00 (pos: 0.36, neg: 0.36, neu: 0.28)
-
-ASML shares fell in the most recent session, closing down 3.13% and lagging broader indexes as investors looked ahead to upcoming results (finance.yahoo). Market watchers are focused on the company’s scheduled April 15, 2026 earnings report, with projected EPS of $7.64 and revenue of $10.21 billion, alongside full-year consensus estimates for higher earnings and revenue; one analysis also highlights that recent analyst-estimate changes can be tracked via its Zacks Rank framework (finance.yahoo). Multiple reports underscore ASML’s central role in semiconductor manufacturing through its EUV lithography systems—using 13.5-nanometer wavelength tools that enable advanced nodes needed for AI, high-performance computing, and other next-generation technologies—and note the near-monopoly-like market position that supports margins and long-term contracts (ad-hoc-news). Even with late-March 2026 share weakness on both NASDAQ and Euronext Amsterdam, coverage points to continued buybacks and a sizable €38.8 billion order backlog as signals of longer-term strength (ad-hoc-news). For North American investors, additional emphasis is placed on capital return via buybacks/dividends and on monitoring analyst targets as indicators of sentiment toward the semiconductor supply chain (ad-hoc-news).
-
-**Key Points:**
-- For the full year, Zacks Consensus Estimates project ASML earnings of $33.91 per share and revenue of $43.99 billion (up +21.32% and +18.98%, respectively, year over year). The same report also highlights Zacks Rank’s claimed history: #1 “Strong Buy” stocks have averaged about +25% annual return since 1988.
-- Despite late-March weakness, ASML carried out a specific buyback window from March 23–27, 2026: it repurchased 106,438 shares for a total of €125 million at weighted-average prices around €1,174 per share (with daily purchases listed, e.g., 21,829 shares on March 27 at €1,145.28).
-- One article details why the EUV supplier remains hard to displace: ASML’s near-monopoly is described as stemming from decades of R&D plus key partnerships—“partnerships with Zeiss for optics and Cymer for light sources”—along with the fact that ASML is the “sole commercial provider” and sells highly complex machines “priced in the tens of millions each,” supplemented by maintenance, upgrades, and software.
-
----
-
-### 2026-04-02 | Private Advisory Group Boosts ASML Stake 3.4%
-**Sentiment:** +0.38 (pos: 0.50, neg: 0.13, neu: 0.37)
-
-Private Advisory Group LLC increased its ASML Holding stake by 3.4% in the fourth quarter, buying 530 additional shares to hold 16,322 worth about $17.5 million, while Barlow Wealth Partners LLC cut its position by 21.7% to 23,772 shares worth about $25.4 million. Overall, institutional ownership remains substantial, with hedge funds and other investors holding roughly 26% of ASML. Analysts at Sanford C. Bernstein boosted their ASML price target to $1,971 and reaffirmed an “Outperform” view, pointing to record demand signals for ASML’s extreme ultraviolet (EUV) lithography—highlighted by SK Hynix ordering EUV systems valued at about $8 billion, with deliveries through 2027. Bernstein expects EUV system shipments to memory manufacturers to more than double by 2028 as AI-related memory buildouts drive additional capacity and supports the case with a large backlog cited near $45 billion. Separately, ASML raised its quarterly dividend to $3.18 per share to signal confidence in cash generation, even as the stock fell alongside broader semiconductor weakness amid macro and geopolitical headwinds.
-
-**Key Points:**
-- Other institutional investors were also actively changing ASML exposure in recent filings—e.g., Capital International Investors increased its stake by 17.3% to 3,919,154 shares, while AllianceBernstein L.P. boosted its holding by 75.6% to 790,869 shares (and Arrowstreet Capital and the University of California each initiated new positions).
-- Beyond Sanford C. Bernstein, multiple analysts reiterated bullish views and adjusted targets: Morgan Stanley reaffirmed an “overweight” rating; Wells Fargo raised its price target from $1,450 to $1,650 (overweight); Deutsche Bank reaffirmed a “buy” rating; and RBC increased its price objective from $1,550 to $1,625.
-- ASML’s dividend hike was from $1.88 to $3.18 per share, which the report noted annualizes to $12.71—framing the payment increase as a signal of confidence in sustained cash generation even amid sector pressure.
-
----
-
-### 2026-04-01 | Capinfo shareholders approve board changes
-**Sentiment:** -0.04 (pos: 0.17, neg: 0.21, neu: 0.62)
-
-Capinfo Co., Ltd. reported that shareholders at an extraordinary general meeting on March 31, 2026 approved all resolutions, including the election of Li Feng as a non-executive director, while non-executive director Xin Shuangbai resigned effective at the conclusion of the meeting due to other work arrangements. The company also set out terms for a final cash dividend for the year ended December 31, 2025 of RMB 0.07 per share, with shareholder approval scheduled for May 29, 2026 and payment planned for July 24, 2026, using an exchange rate to be announced and a June 4 record date. Capinfo said dividends paid to non-resident enterprise and individual H-shareholders will be subject to a 10% withholding tax under PRC rules, including for those holding through nominees. Separately, following the February 2026 resignation of former executive director and general manager Zhang Yiqian, Capinfo proposed appointing Party Secretary and Chairman Yu Donghui as general manager on an interim basis (subject to meeting approval), arguing his operating experience will help ensure continuity despite the temporary combination of chairman and general manager roles.
-
-**Key Points:**
-- At the March 31, 2026 EGM, shareholders not only elected Li Feng as a non-executive director but also authorized the board to enter into a service contract with him, according to the company’s EGM disclosure.
-- Non-executive director Xin Shuangbai’s resignation was described as effective at the conclusion of the EGM and accompanied by an explicit statement that there were no disagreements with the board, with the company citing “other work arrangements.”
-- For the proposed RMB 0.07 final cash dividend, Capinfo also specified key trading/processing dates: an ex-dividend date of June 2, 2026 and a book-closure period leading up to a June 4, 2026 record date (with dividends to be paid in Hong Kong dollars using an exchange rate “yet to be announced”).
-
----
-
-### 2026-03-30 | ASML seeks India EUV chip partnerships
-**Sentiment:** +0.42 (pos: 0.50, neg: 0.08, neu: 0.42)
-
-ASML, the Dutch maker of extreme ultraviolet (EUV) lithography systems—the world’s sole EUV supplier—has begun seeking partnerships with Indian semiconductor firms, with Union Electronics and IT Minister Ashwini Vaishnaw saying a technical team will visit semiconductor units and companies across India to discuss how ASML can support India’s chip strategy. The engagement is tied to India’s next phase of the India Semiconductor Mission (ISM 2.0), which is shifting from basic manufacturing toward a broader ecosystem covering design, materials, equipment, and even chemicals and gases. Vaishnaw said the focus includes deep collaboration such as equipment supply, talent development, and ongoing technical support, rather than immediate large-scale manufacturing investment by ASML. Reporting also indicates ISM 2.0’s preparatory phase is already underway, though financial specifics have not been disclosed, and the government has allocated ₹1,000 crore for ISM 2.0 in FY 2026–27. The move is widely framed as a vote of confidence in India’s longer-term semiconductor roadmap and a step toward supply-chain resilience through local capability building and support services for advanced wafer fabrication.
-
-**Key Points:**
-- On X, Union Minister Ashwini Vaishnaw said ASML’s team arrived for “detailed discussions” and that “ASML makes most advanced lithography machines,” which are “critical for transforming silicon wafers into semiconductor chips,” adding that ASML “briefed them on India’s semiconductor journey so far and future plans.”
-- Reporting said the visiting delegation will assess the “readiness of India’s nascent semiconductor ecosystem,” including facilities under construction in specific states such as Gujarat and Assam.
-- Communications Today said ASML is positioning itself as a long-term partner for India’s emerging fabs “including those planned in Gujarat,” while evaluating the scope for broader ecosystem engagement tied to New Delhi’s semiconductor acceleration.
-
----
-
-### 2026-03-29 | Wealth managers expand ASML stakes amid filings
-**Sentiment:** +0.27 (pos: 0.40, neg: 0.14, neu: 0.46)
-
-Several institutional investors and hedge funds reported changing stakes in ASML over recent quarters, including Wealth Management Partners (new position), Daymark Wealth Partners (increased holdings), Wealth Enhancement Advisory Services (slightly higher stake), Threadgill Financial (new stake), and Cyndeo Wealth Partners (cut its position by 94.8% to 209 shares). Larger shareholders such as Capital International Investors, WCM Investment Management, and AllianceBernstein also adjusted their holdings, and institutional/hedge funds collectively own about 26.07% of ASML. ASML shares were trading around the $1,399 level in the reports, with a market capitalization roughly in the $550 billion range and a P/E in the mid-50s. On the fundamentals side, Bank of America maintained a bullish view that the memory cycle is likely to remain strong through at least 1H27E, and ASML is also repurchasing shares under its buyback program. Customer demand signals include SK Hynix’s agreement to buy roughly 11.95 trillion won (about $8.0 billion) of ASML EUV scanners for mass production of next-generation memory. Separately, analyst commentary highlighted the idea that a recent pullback may make ASML attractive, pointing to durable AI-related demand for advanced lithography and a strong long-term track record.
-
-**Key Points:**
-- Threadgill Financial LLC disclosed a new ASML position of 1,870 shares (about $2.001 million), and ASML represented ~0.8% of Threadgill’s portfolio—its 21st-largest holding.
-- Cyndeo Wealth Partners LLC’s 94.8% stake cut (down to 209 shares) came after selling 3,835 shares; its remaining ASML stake was valued at about $224,000 per its most recent SEC filing.
-- ASML’s reported trading/financial profile in these filings included a beta of 1.88 plus liquidity/leverage metrics: quick ratio of 0.79, current ratio of 1.26, and debt-to-equity of 0.14.
-
----
-
-### 2026-03-28 | SK hynix files ADR bid alongside $7.9B ASML EUV
-**Sentiment:** +0.46 (pos: 0.57, neg: 0.11, neu: 0.32)
-
-SK hynix has begun moves to list American depositary receipts (ADRs) in the U.S., filing a confidential submission with the SEC and targeting an ADR listing within the year, subject to market conditions and SEC approval. Separately, SK hynix agreed to buy about $7.9 billion of ASML extreme ultraviolet (EUV) lithography tools, in what multiple outlets described as the largest publicly disclosed single EUV order by an ASML customer, with deliveries expected by December 2027. The equipment is intended to support next-generation manufacturing, including SK hynix’s transition toward its sixth-generation process, for products such as HBM and advanced DRAM. SK hynix said the tools will be used across facilities focused on HBM and next-generation DRAM, including the Cheongju M15X plant and the new Yongin Semiconductor Cluster, where it has accelerated cleanroom readiness. Analysts cited by outlets said the order could help secure ASML supply ahead of competitors, and SK hynix may also add faster-delivery DUV tools to match capacity ramps.
-
-**Key Points:**
-- Mirae Asset Securities analyst Kim Young-gun said SK hynix’s potential U.S. ADR listing could provide a “valuation boost,” arguing the ADR could highlight a valuation gap versus its locally traded shares.
-- Beyond the confidential SEC submission, SK hynix said it plans to make another related regulatory filing within six months (or earlier if there are updates), and that the final ADR decision would be made by the SEC.
-- On the EUV deal, Bernstein analyst David Dao estimated the order covers about 30 new EUV machines over two years, “slightly above” his prior forecast of 26.
-
----
-
-### 2026-03-27 | New Age Exploration shares plunge 33%
-**Sentiment:** +0.18 (pos: 0.41, neg: 0.23, neu: 0.36)
-
-New Age Exploration Limited (NAE.AX) is trading at roughly A$0.00, well below its 52-week high of A$0.01 and showing a sharp recent decline (about -33% versus a week ago). On 25 Mar 2026, the stock closed at A$0.002, down A$0.001 (33.33%), with a very low trading participation profile—volume far below the 50-day average—raising execution risk for larger orders. The analysis notes thin liquidity and weak bid conditions as drivers, alongside negative short-term technical signals. Fundamental metrics are characterized by losses (P/E and earnings not meaningful) and modest per-share balance-sheet figures, including cash per share around A$0.001. A Meyka AI model assigns NAE.AX a 62.80/100 score and a B (HOLD) recommendation, with oversold momentum readings (RSI 37.72; Williams %R -83.33). Overall, both the price snapshot and the trading/valuation commentary point to high volatility and caution despite the “hold” rating.
-
-**Key Points:**
-- Intelligent Investor’s quote for NAE notes that the share price is “delayed by at least 20 minutes.”
-- NAE’s dividend profile is listed as having no current dividend (“dividend yield: n/a this year”), with last year’s dividend yield at 0%.
-- On 25 Mar 2026, NAE.AX traded in a tight range—session high A$0.003 and session low A$0.002—with only 1,294,252 shares changing hands versus an average daily volume of 21,964,477 shares (highlighting the depth/liquidity constraint).
-
----
-
-### 2026-03-09 | Institutional Funds Increase Stakes in ASML, WM, JBS
-**Sentiment:** +0.39 (pos: 0.47, neg: 0.09, neu: 0.44)
-
-Third‑quarter 13F filings show a flurry of institutional repositioning, with Longfellow Investment Management particularly active across several names. Baltimore Washington Financial Advisors raised its ASML stake by 10.4% to 9,176 shares, while Heron Bay Capital opened a new position and large managers including Fisher and WCM also added to ASML, which is roughly 26% institutionally owned. Longfellow initiated a new position in Waste Management with 3,946 shares (about $871,000) as other funds made modest incremental changes to WM, which is about 80.4% owned by institutions. The firm also raised its JBS holding by 80.2% to 185,783 shares and boosted its Ambev stake by 32.0% to 1,317,682 shares, making both modest but notable parts of its portfolio. Collectively, the filings reflect reallocations across semiconductors, waste services and consumer/food companies during the quarter.
-
-**Key Points:**
-- Regents of the University of California acquired a new ASML stake in Q3 valued at roughly $413.3 million, one of the largest new institutional positions reported.
-- WCM Investment Management increased its ASML position by 24.9% to 1,933,748 shares (about $1.861 billion) after adding 385,502 shares during the quarter.
-- Heron Bay Capital’s new ASML stake consisted of 474 shares, valued at approximately $459,000, per its Q3 13F filing.
-
----
-
-### 2026-03-08 | China chip leaders urge national ASML program
-**Sentiment:** +0.04 (pos: 0.28, neg: 0.24, neu: 0.48)
-
-Senior Chinese semiconductor executives from firms including SMIC, YMTC, Naura and Empyrean urged Beijing to launch a coordinated national push during the 2026–2030 (15th Five-Year Plan) period to build a homegrown alternative to ASML and a full EUV ecosystem. They warned the sector is too small, fragmented and underfunded—citing hundreds of EDA developers, thousands of chip designers and scores of equipment firms—and argued dispersed public resources are slowing progress. The authors said U.S. export controls since 2020, especially on EDA, silicon wafers and EUV lithography needed for sub‑7nm chips, make self-reliance urgent and require consolidated funding and talent. Executives pointed to ASML’s model—its EUV tools rely on roughly 100,000 components from some 5,000 suppliers—and said China has made component‑level advances (lasers, stages, optics) but still lacks the systems‑integration capability. Observers note state investment vehicles such as Big Fund III are already redirecting capital toward lithography and EDA, while ASML itself is moving into advanced packaging and AI, underscoring the technological race and long lead times involved.
-
-**Key Points:**
-- Tom’s Hardware reports China’s state-backed Big Fund III — roughly $47.5 billion — has already been redirecting fresh capital toward lithography and EDA as substitutes for ASML and Synopsys tools.
-- Tom’s Hardware notes that China’s most advanced domestically produced DUV lithography system from Yuliangsheng is technically comparable to ASML’s Twinscan NXT:1950i, highlighting progress at the DUV level even as full EUV systems remain out of reach.
-- Tom’s Hardware says the public call was co‑authored by additional senior figures including SMIC co‑founder Wang Yangyuan alongside leaders from YMTC, Naura and Empyrean, underscoring broad senior-level industry backing for the proposal.
-
----
-
-### 2026-03-07 | ASML shares slide 4.4% after Zacks downgrade
-**Sentiment:** -0.06 (pos: 0.29, neg: 0.35, neu: 0.36)
-
-ASML shares dipped after Zacks Research downgraded the stock from a strong-buy to a hold, triggering a roughly 4.4% intraday drop amid elevated volume. Analysts remain mixed but largely positive—many firms still rate ASML Buy/Outperform and some have raised targets following strong Q4 2025 results and upbeat full-year guidance, while the company continues share buybacks. Management is broadening ASML’s addressable market by developing tools for advanced packaging, larger chip designs and 3D stacking to capture AI-chip growth, and the CTO disclosed an EUV light-source advance that could raise wafer throughput materially by 2030. Consensus earnings estimates show about a 20% year-over-year gain this fiscal period, supporting medium-term fair-value expectations even as short-term volatility and profit-taking persist. Short interest has fallen significantly (about 17.7%), producing a very low days-to-cover ratio, though some observers warn of execution risk and irregularities in short-interest reporting that could affect near-term price action.
-
-**Key Points:**
-- ASML announced a materially higher quarterly dividend of $3.1771 (annualized $12.71) to be paid May 5, with a record date of April 27; this is a notable increase from the prior quarterly dividend of $1.88 and implies a payout ratio around 25.1% and a yield of roughly 0.9%.
-- Large institutional investor activity: Arrowstreet Capital increased its ASML position by 195.8% in Q4, purchasing an additional 1,022,532 shares and holding 1,544,705 shares valued at about $1.653 billion after the purchases.
-- Wells Fargo raised its price target on ASML from $1,450 to $1,650 and rated the stock as 'overweight', one of the more bullish specific target upgrades cited alongside other firms reaffirming buy/outperform calls.
-
----
-
-### 2026-03-06 | US stocks end lower, Dow down 403 points
-**Sentiment:** -0.60 (pos: 0.13, neg: 0.73, neu: 0.15)
-
-U.S. stocks closed lower on Tuesday, with the Dow falling 403.51 points (0.83%) to 48,501.27, the S&P 500 losing 64.99 points (0.94%) to 6,816.63, and the Nasdaq dropping 232.17 points (1.02%) to 22,516.69. All 11 primary S&P 500 sectors finished in the red, led by materials and industrials, which fell about 2.69% and 1.96% respectively, while financials posted the smallest decline at roughly 0.18%. The Nasdaq’s drop underscores ongoing sensitivity in high-tech markets to broader U.S. political and economic developments.
-
-**Key Points:**
-- The Dow Jones Industrial Average was created by Wall Street Journal editor and Dow Jones & Company co-founder Charles Dow.
-- The S&P 500 'measures the performance of 500 widely held common stocks of large-cap U.S. companies.'
-- MENAFN's article carries a legal disclaimer noting the information is provided 'as is' and that the publisher does not accept responsibility or liability for the accuracy, completeness, legality or reliability of the information.
-
----
-
-### 2026-03-05 | Amundi ETFs Reported Gaining US Market Share
-**Sentiment:** +0.20 (pos: 0.34, neg: 0.14, neu: 0.52)
-
-Amundi ETF has become a quietly dominant European ETF provider—part of Amundi S.A.—expanding aggressively across core equity, fixed income and ESG strategies (notably after acquiring Lyxor) and offering ultra-low-cost, rules-based exposure that increasingly shapes benchmarks investors use, though many U.S. brokerages do not list its funds and access rules vary. For U.S. investors seeking U.S. large-cap exposure, the iShares Core S&P 500 ETF (IVV) delivers broader diversification, a slightly lower expense ratio, higher yield and more holdings compared with Vanguard’s Mega Cap Growth ETF (MGK), which is far more concentrated in mega-cap growth and technology names. For international allocations, the iShares Core MSCI Total International Stock ETF (IXUS) provides broad developed-plus-emerging coverage with thousands of holdings and a modestly higher dividend yield, while the Schwab Emerging Markets Equity ETF (SCHE) targets only emerging markets and is much more concentrated in a handful of large Asian tech firms, so investors should choose based on desired geographic scope, sector concentration and income needs.
-
-**Key Points:**
-- Amundi S.A. is Europe’s largest asset manager by assets under management and has been aggressively expanding its ETF lineup into responsible investing and climate indexes and core market trackers — often undercutting rivals on fees while using well-known index providers such as MSCI, S&P and Solactive.
-- The iShares Core S&P 500 ETF (IVV) holds about 503 stocks, has a multi-decade track record (25+ years), is highly liquid, and tilts sector exposure toward technology (about 34%), financial services (13%) and communication services (11%); its largest individual weights include Nvidia (~7.31%), Apple (~6.63%) and Microsoft (~4.96%).
-- Vanguard’s Mega Cap Growth ETF (MGK) is far more concentrated: roughly 69% in technology (with smaller allocations to consumer cyclicals and healthcare) and much heavier top-stock weights — e.g., Nvidia (~13.52%), Apple (~11.72%) and Microsoft (~9.61%).
-
----
-
-### 2026-03-05 | ASML plans advanced AI chip packaging expansion
-**Sentiment:** +0.29 (pos: 0.35, neg: 0.07, neu: 0.58)
-
-ASML is moving beyond its exclusive EUV lithography business to develop tools for advanced chip packaging, bonding, interconnects and AI-driven machine inspection as it targets the growing market for AI processors, CEO/CTO statements to Reuters say. The company sees packaging as a premium, strategic capability because modern AI chips increasingly use vertical stacking and multi-die interconnects — techniques already employed by firms such as TSMC for Nvidia and AMD designs — creating an opportunity for ASML to supply new equipment. ASML’s High-NA EUV platforms have processed roughly 500,000 wafers and reached technical readiness, though broad manufacturing adoption will likely take another two to three years; improvements to EUV light sources could boost wafer throughput by up to about 50% and scale toward 2,000 watts. Strong 2025 financial results and a large order backlog, plus a sharp run-up in ASML’s shares, reflect investor confidence in the firm’s expansion into advanced packaging and continued EUV innovation.
-
-**Key Points:**
-- ASML’s High-NA EUV systems are extremely expensive — roughly $400 million per unit — about twice the cost of earlier EUV generations.
-- ASML reported very strong FY2025 financials: about $39.16 billion in net revenue, $11.5 billion in net profit, and an order backlog of roughly $46.47 billion.
-- ASML’s shares have rallied sharply — up more than 30% in 2025 and more than 106% over the trailing twelve months — reflecting investor confidence in its EUV and packaging expansion plans.
-
----
-
-### 2026-03-01 | ASML slides 6% amid China, EUV demand reassessment
-**Sentiment:** -0.16 (pos: 0.35, neg: 0.51, neu: 0.14)
-
-ASML announced an EUV light‑source upgrade that boosts power from roughly 600W to 1,000W, which the company says could raise wafer throughput by about 50% to ~330 wafers/hour by 2030 and pave a path toward even higher power levels, reinforcing its technological lead amid U.S. export controls and global competition. The announcement supports ASML’s strong financial momentum—the company reports multibillion‑euro revenue and profit, has delivered substantial multi‑year returns, and analysts expect solid upcoming EPS and revenue results. At the same time the stock has been volatile: investors recently reassessed ASML’s 2026 outlook, particularly China exposure and normalization of backlog‑driven shipments, contributing to a one‑day drop of about 6.3%. Institutional trading has been active, with large reallocations including major reductions by some firms and additions by others, and members of Congress have also traded the stock, highlighting intense market attention. Given a rich valuation (headline P/E figures in the 40s–50s) and a strong rally, the market is weighing whether ASML’s future growth and the new EUV gains are already fully priced in.
-
-**Key Points:**
-- ASML’s lead technologist Michael Purvis said the upgraded EUV light source can consistently sustain 1,000 watts under the same operating conditions customers require, and the company sees a clear path to 1,500 watts with "no fundamental barrier" to reaching 2,000 watts in the future.
-- For historical context, early EUV machines ran at roughly 250 watts, which limited throughput to about 125 wafers per hour — underlining how significant the move from ~600W to 1,000W is for high-volume manufacturing.
-- U.S. policy and private funding are backing domestic challengers: startups such as Substrate and xLight have attracted hundreds of millions to build U.S.-based EUV alternatives, and xLight has received backing from President Trump’s administration.
-
----
-
-### 2026-02-26 | ASML 1,000W EUV boosts throughput 50%, rollout after 2030
-**Sentiment:** +0.35 (pos: 0.47, neg: 0.11, neu: 0.42)
-
-ASML says it has developed a factory-ready extreme ultraviolet (EUV) light source that reaches about 1,000 watts—up from roughly 600W today—and could raise wafer throughput per tool from about 220 to about 330 wafers per hour (roughly +50%), lowering per-chip costs. The gain was achieved by doubling tin-droplet frequency to roughly 100,000 drops per second and adding a second “shaping” laser pulse, in a design compatible with existing NXE hardware. Company technologists say this is more than a lab demo and see a path toward still higher power (1,500–2,000W) to help ASML fend off U.S. startups and Chinese programs. However, ASML warns major engineering challenges remain—new debris collectors, upgraded lasers and droplet generators are required—and says commercial deployment will take years, with systems projected around or after 2030. The advance targets capacity for AI and high-performance chips and could reshape long-term fab investment decisions while reinforcing ASML’s strategic position in advanced semiconductor manufacturing.
-
-**Key Points:**
-- ASML’s EUV light is produced by vaporizing molten tin droplets with a high‑power carbon dioxide (CO2) laser into a plasma ‘hotter than the surface of the Sun,’ and the emitted 13.5 nm photons are captured by Zeiss‑made mirrors and directed onto the wafer.
-- The existing laser‑pulse sequence ASML uses includes a 1 μm pre‑pulse to flatten droplets, a 1 μm rarefaction pulse to rarefy them, and a main 10 μm pulse to create the EUV plasma; ASML has previously hit ~740W in lab tests and has filed patents exploring three‑pulse sequences.
-- ASML intends the new 1,000W source to be part of its Twinscan NXE family (building on production models such as the NXE:3800E and NXE:3800D), i.e., an evolution of its current commercial scanner line rather than an entirely new product family.
-
----
-
-### 2026-02-18 | ASML raises outlook on AI, repurchases €127M
-**Sentiment:** +0.42 (pos: 0.46, neg: 0.04, neu: 0.50)
-
-ASML disclosed it repurchased 105,800 shares between Feb. 9–13 under the buyback program announced Jan. 28, 2026, spending roughly €126.8 million at volume‑weighted average prices near €1,193–€1,208 and reporting the transactions under the EU Market Abuse Regulation. The company has raised its sales outlook and cited a strong Q4 net‑bookings pickup driven by AI‑related data‑center buildout, giving clearer visibility into customers’ capacity plans. Management expects meaningful revenue growth through 2026 as the industry moves to 2‑nanometer nodes and begins high‑volume adoption of High‑NA EUV systems, supporting continued capital returns. Concurrently, ASML is central to Europe’s semiconductor push: imec opened a cleanroom expansion to host ASML’s High‑NA EUV scanner for the €2.5 billion NanoIC pilot line under the European Chips Act, with installation slated for mid‑March. Taken together, the buyback, stronger order trends and strategic European investments signal company confidence in near‑term demand and longer‑term industry tailwinds that investors should weigh against semiconductor cyclicality.
-
-**Key Points:**
-- The precise aggregate consideration for the week’s repurchases was €126,811,025 (more exact than the rounded figure in the summary).
-- The filings include a daily transaction breakdown — for example, on Feb. 9 ASML bought 20,923 shares at an average price of €1,192.93 for a total of €24.96 million.
-- Imec’s new cleanroom expansion at Leuven is about 2,000 square meters — the dedicated space for ASML’s High‑NA EUV scanner.
-
----
-
-### 2026-02-15 | European firms report mass layoffs amid US tariffs
-**Sentiment:** -0.51 (pos: 0.10, neg: 0.61, neu: 0.29)
-
-Across Europe, major exporters from autos and banks to energy and consumer goods have announced widespread layoffs and hiring freezes as weakening global demand, rising costs, and trade frictions squeeze profit margins. Automakers and suppliers lead the cuts—Bosch said it will eliminate about 13,000 roles, Continental and Daimler Truck have announced thousands more reductions, and firms such as MAN and Renault are planning or considering large-scale trims—while banks including Lloyds and ABN AMRO and energy company OMV have also moved to shrink payrolls. Technology and industrial suppliers like AMS Osram and ASML are reducing staff, and consumer-sector names such as Nestlé, Heineken and Novo Nordisk (which has warned of up to roughly 9,000 job reductions) have joined the trend. Analysts and company statements point to a mix of weak demand, higher costs, automation and reshoring as drivers, with many outlets and executives citing President Trump’s tariffs and U.S. trade policies as an aggravating factor. Firms say they are restructuring supply chains and refocusing investment toward automation and innovation, but the measures leave workers and communities facing heightened economic uncertainty across the region.
-
-**Key Points:**
-- Orsted canceled plans to build one of the U.K.'s largest offshore wind farms and has faced policy headwinds in the U.S., where leases on several large offshore wind projects were suspended in December.
-- Novo Nordisk warned that its profits and sales could fall by as much as 13% this year, alongside its announcement of significant job reductions.
-- ASML said it would cut about 1,700 jobs (roughly 3.8% of its workforce) and pursue a broader reshuffle to eliminate some 3,000 management posts while hiring more engineers to focus on innovation.
-
----
-
 ## FMP Articles (30 articles)
 
-### 2026-05-08 | Why ASX and IONQ May Gain 15%+ in the Quantum-Semiconductor Space
+### 2026-06-18 | ASML Holding N.V. (ASML) is Attracting Investor Attention: Here is What You Should Know
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2918423/why-asx-and-ionq-may-gain-15-in-the-quantum-semiconductor-space?cid=CS-STOCKNEWSAPI-FT-analyst_blog|investment_ideas-2918423
+**URL:** https://www.zacks.com/stock/news/2939227/asml-holding-n-v-asml-is-attracting-investor-attention-here-is-what-you-should-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2939227
 
-ASE Technology and IonQ are gaining attention as quantum and semiconductor investments surge, with analysts projecting 15%+ upside potential.
-
----
-
-### 2026-05-06 | Semiconductor Leaders SOXX, SMH, and FTXL Are Crushing It on AI Infrastructure Demand
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/06/semiconductor-leaders-soxx-smh-and-ftxl-are-crushing-it-on-ai-infrastructure-demand/
-
-The semiconductor sector continues to absorb capital at a pace tied to the AI infrastructure buildout, and three exchange-traded funds offer distinct angles on it: iShares Semiconductor ETF (NASDAQ:SOXX | SOXX Price Prediction), VanEck Semiconductor ETF (NASDAQ:SMH), and First Trust Nasdaq Semiconductor ETF (NASDAQ:FTXL).
+ASML (ASML) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.
 
 ---
 
-### 2026-05-06 | ASML Holding N.V. (ASML) Is a Trending Stock: Facts to Know Before Betting on It
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2915655/asml-holding-n-v-asml-is-a-trending-stock-facts-to-know-before-betting-on-it?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks-2915655
-
-Zacks.com users have recently been watching ASML (ASML) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.
-
----
-
-### 2026-05-06 | ASML CEO Says Jensen Huang 'Totally Right' On Exporting Products With An Eight-Generation Gap— Denies Top Chip Access To China
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/markets/tech/26/05/52315891/asml-ceo-says-jensen-huang-totally-right-on-exporting-products-with-an-eight-generation-gap-denies-t
-
-ASML CEO backs Nvidia's "generation gap" strategy, balancing export limits while preserving a technological edge over China
-
----
-
-### 2026-05-05 | The Tech Interactive Receives $1.65 Million ASML Grant to Expand STEM Access
-**Source:** GlobeNewsWire
-**URL:** https://www.globenewswire.com/news-release/2026/05/05/3288409/0/en/The-Tech-Interactive-Receives-1-65-Million-ASML-Grant-to-Expand-STEM-Access.html
-
-Three-year grant will support Title I field trips, expand participation in The Tech Challenge, and create more opportunities for students to engage in hands-on STEM learning. Three-year grant will support Title I field trips, expand participation in The Tech Challenge, and create more opportunities for students to engage in hands-on STEM learning.
-
----
-
-### 2026-05-05 | ASML CEO Christophe Fouquet: No one is coming for us
-**Source:** TechCrunch
-**URL:** https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/
-
-Every time you use AI, you are, in some small way, depending on a 42-year-old, 44,000-person Dutch company that spends €4.5 billion each year to advance its technology.
-
----
-
-### 2026-05-05 | Forget AMD: 4 AI Stocks That Could Beat the Crowd
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/05/forget-amd-4-ai-stocks-that-could-beat-the-crowd/
-
-Advanced Micro Devices (NASDAQ:AMD | AMD Price Prediction) keeps grabbing headlines as the consensus “NVDA alternative” in AI GPUs, the trade every retail account and hedge fund analyst seems to be piling into at the same time.
-
----
-
-### 2026-05-05 | Why the VanEck Semiconductor ETF Rallied Over 30% in April
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/05/why-the-vaneck-semiconductor-etf-rallied-over-30-i/
-
-Semiconductors had a very good month on the back of several earnings blowouts and a tentative U.S.-Iran ceasefire.
-
----
-
-### 2026-05-05 | Prediction: The Nasdaq's Artificial Intelligence (AI) Rally Has More Room to Run. Here Are the Best Growth Stocks to Own.
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/05/predict-nasdaq-artificial-intelligence-ai-growth/
-
-These fast-growing companies are poised to keep rising following impressive performances so far this year.
-
----
-
-### 2026-05-04 | Bernstein Analyst: AI Agents Drive Chip Demand ‘Off the Charts,' Supply Can't Keep Up
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/04/bernstein-analyst-ai-agents-drive-chip-demand-off-the-charts-supply-cant-keep-up/
-
-Bernstein Research's Stacy Rasgon has been making the rounds with a deceptively simple thesis: stop arguing about market share.
-
----
-
-### 2026-04-11 | Prediction: The Nasdaq Downturn Is Going to End Next Week
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/11/prediction-the-nasdaq-downturn-is-going-to-end-nex/
-
-Tech stocks have taken a breather in recent months due to external factors, but the underlying demand for AI remains strong enough to reignite a rally. The two semiconductor bellwether companies set to release results next week could boost investor confidence in tech stocks once again.
-
----
-
-### 2026-04-10 | ASML: GDP Fears Are Rising, But The Technology Edge Isn't Cracking
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4889923-asml-gdp-fears-are-rising-but-technology-edge-isnt-cracking
-
-ASML Holding N.V. remains a Buy with a raised price target of $1,643.21, implying 11% upside. Recent Middle East turmoil has not led to material downward revisions in ASML's revenue or EPS estimates. EBITDA and free cash flow estimates for 2026–2028 have increased by 7.2% and 6%, respectively, supporting long-term growth.
-
----
-
-### 2026-04-10 | TSM, ASML And Goldman Sachs Lead Earnings Amid Iran War Volatility | IBD
-**Source:** Investors Business Daily
-**URL:** https://www.youtube.com/watch?v=NQi95W6IQnM
-
-IBD's Alexis Garcia and Ed Carson preview key upcoming earnings reports from Goldman Sachs, ASML and Taiwan Semiconductor. Check out our daily newsletter!
-
----
-
-### 2026-04-10 | Stock Market Today (LIVE): Court Greenlights Meta Addiction Suit; TSMC Revenue Hits Record High
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/04/10/stock-market-today-live-coverage/
-
-Top insights from the latest market news from Friday, April 10, from The Motley Fool analysts on Team Rule Breakers and Team Hidden Gems.
-
----
-
-### 2026-04-10 | Netflix, ASML, CRH And A Financial Stock: CNBC's 'Final Trades'
-**Source:** Benzinga
-**URL:** https://www.benzinga.com/trading-ideas/long-ideas/26/04/51752908/netflix-asml-crh-and-a-financial-stock-cnbcs-final-trades
-
-Joshua Brown of Ritholtz Wealth Management chose Netflix as his final trade on CNBC's Halftime Report. Jim Lebenthal picked CRH plc, Malcolm Ethridge recommended ASML Holding, and Jenny Van Leeuwen Harrington named The Charles Schwab Corporation as her final trade.
-
----
-
-### 2026-04-09 | Why ASML (ASML) Outpaced the Stock Market Today
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2897770/why-asml-asml-outpaced-the-stock-market-today
-
-The latest trading day saw ASML (ASML) settling at $1, representing a +1.95% change from its previous close.
-
----
-
-### 2026-04-09 | ASML: What Will Happen?
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4889478-asml-q1-earnings-preview-strong-growth-tailwinds-valuation-stretched
-
-ASML Holding N.V. is set to report Q1 earnings amid strong AI-driven chip demand but trades at a premium valuation above $1,400 per share. Analysts expect Q1 revenue growth of 14–15% and EPS growth of 13%, with potential for outperformance given ASML's history of beating consensus. Gross margin guidance for Q1 is 51–53%, down from 54% last year, due to product mix and weaker servicing, but management targets 57% by 2030.
-
----
-
-### 2026-04-09 | 1,000 Shares in ASML Holding N.V. $ASML Acquired by Cache Advisors LLC
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/09/1000-shares-in-asml-holding-n-v-asml-acquired-by-cache-advisors-llc.html
-
-Cache Advisors LLC acquired a new position in shares of ASML Holding N.V. (NASDAQ: ASML) in the undefined quarter, according to the company in its most recent filing with the SEC. The fund acquired 1,000 shares of the semiconductor company's stock, valued at approximately $1,070,000. Several other large investors have also recently modified
-
----
-
-### 2026-04-08 | Why ASML Stock Popped Today
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/04/08/why-asml-stock-popped-today/
-
-Stocks rose broadly in response to the ceasefire in Iran. Asian stocks surged as they depend on oil from the Strait of Hormuz.
-
----
-
-### 2026-04-08 | ASML Set To Report Q1 Earnings: Here's What to Expect
+### 2026-06-17 | ASML CEO Flags Terafab Opportunity as AI Demand Stays Enormous
 **Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8780303/asml-set-to-report-q1-earnings-heres-what-to-expect
+**URL:** https://www.gurufocus.com/news/8921087/asml-ceo-flags-terafab-opportunity-as-ai-demand-stays-enormous
 
-ASML (ASML) is scheduled to release its first-quarter 2026 results before the market opens on April 15.Analysts expect earnings of $7.2 per share on revenue of
-
----
-
-### 2026-03-12 | Bank of Montreal Can Sells 29,105 Shares of ASML Holding N.V. $ASML
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/12/bank-of-montreal-can-sells-29105-shares-of-asml-holding-n-v-asml.html
-
-Bank of Montreal Can cut its stake in shares of ASML Holding N.V. (NASDAQ: ASML) by 17.6% during the undefined quarter, according to its most recent Form 13F filing with the SEC. The institutional investor owned 136,239 shares of the semiconductor company's stock after selling 29,105 shares during the period. Bank of Montreal
+ASML Holding (ASML) CEO Christophe Fouquet has indicated that new semiconductor projects such as Elon Musk's Terafab could create meaningful business opportunit
 
 ---
 
-### 2026-03-11 | Capital Group Private Client Services Inc. Has $4.30 Million Holdings in ASML Holding N.V. $ASML
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/11/capital-group-private-client-services-inc-has-4-30-million-holdings-in-asml-holding-n-v-asml.html
+### 2026-06-17 | Applied Materials, ASML, Lam Hit Record Highs, Lead Chip Gear Stocks Rally
+**Source:** Investors Business Daily
+**URL:** https://www.investors.com/news/technology/asml-stock-chip-gear-stocks-hit-record-highs/
 
-Capital Group Private Client Services Inc. decreased its stake in shares of ASML Holding N.V. (NASDAQ: ASML) by 36.4% during the undefined quarter, according to its most recent 13F filing with the Securities and Exchange Commission. The fund owned 4,446 shares of the semiconductor company's stock after selling 2,544 shares during the quarter.
-
----
-
-### 2026-03-10 | ASML And The AI Race: One Technology To Rule Them All
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4880844-asml-stock-ai-race-one-technology-to-rule-them-all
-
-ASML holds a near-total monopoly on EUV lithography, underpinning all advanced chip manufacturing across TSMC, Samsung, and Intel. ASML's technological moat is exceptionally deep, with 30 years of EUV R&D and no credible near-term competitors, even as China invests heavily. Despite a high TTM GAAP PE of 45.87 and PS of 13.48, ASML's 29.42% net income margin and industry resilience justify a buy rating.
+Shares of several leading semiconductor equipment firms, including ASML, hit record highs on Wednesday.
 
 ---
 
-### 2026-03-10 | ASML (ASML) Advances While Market Declines: Some Information for Investors
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2881892/asml-asml-advances-while-market-declines-some-information-for-investors?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2881892
+### 2026-06-17 | Energy Is A Trillion-Dollar Problem for the AI Boom
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/energy-is-a-trillion-dollar-problem-for-the-ai-boom-302803356.html
 
-In the most recent trading session, ASML (ASML) closed at $1, indicating a +1.91% shift from the previous trading day.
-
----
-
-### 2026-03-10 | Why ASML Investors Shouldn't Worry About Competition From China
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/03/10/why-asml-investors-shouldnt-worry-about-competition-from-china/
-
-ASML Holding ( NASDAQ:ASML ) stock tumbled 5.5% last Friday after reports surfaced that top Chinese semiconductor executives are urging national policies to develop “China's ASML.
+/PRNewswire/ -- If you've been following in the AI boom, you probably are aware of the same names everyone else is. NVIDIA for the chips. Microsoft, Google and
 
 ---
 
-### 2026-03-10 | ASML: Energy And Recession Fears Rise, But AI Semiconductor Demand Is Solid For Now
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4880424-asml-energy-and-recession-fears-rise-but-ai-semiconductor-demand-is-solid-for-now
+### 2026-06-17 | ASML CEO on AI Demand, Data Centers in Space and Musk's Terafab
+**Source:** Bloomberg Markets and Finance
+**URL:** https://www.youtube.com/watch?v=ktEsOBgToWY
 
-ASML Holding N.V. remains a Buy despite recent geopolitical tensions and minor downward price target revision to $1,596.27, reflecting 18% upside. Middle East conflict has increased logistics and energy costs, but these are minor relative to ASML's cost structure and buffered by a robust backlog. Export controls on China remain a key risk; any easing could benefit ASML, but no major breakthrough is expected from the Trump-Xi meeting.
+ASML Holding NV CEO Christophe Fouquet says the demand for AI infrastructure is still "enormous" and discusses the potential for data centers in space. Speaking during an interview on Bloomberg Television, Fouquet also says the company has to make sure it doesn't experience supply constraints when servicing new projects such as on Elon Musk's Terafab.
 
 ---
 
-### 2026-03-09 | Prediction: The Artificial Intelligence (AI) Pick-and-Shovel Trade Isn't Over. Here Are 2 Stocks to Buy for 2026
+### 2026-06-17 | Why Is ASML Stock Up Again Today?
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/09/prediction-the-artificial-intelligence-ai-picks-an/
+**URL:** https://www.fool.com/investing/2026/06/17/why-is-asml-stock-up-again-today/
 
-Several big tech companies are increasing their spending on AI hardware dramatically. Taiwan Semiconductor Manufacturing is the leader in chip manufacturing globally and all data centers need semiconductors.
+SpaceX just raised more than $80 billion in cash last week. One private equity firm expects a lot of that SpaceX cash to end up at ASML.
 
 ---
 
-### 2026-03-09 | Should You Buy, Sell or Hold ASML Stock at a P/E of 36.67X?
+### 2026-06-16 | Here's Why ASML (ASML) Fell More Than Broader Market
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2880903/should-you-buy-sell-or-hold-asml-stock-at-a-p-e-of-36-67x?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2880903
+**URL:** https://www.zacks.com/stock/news/2938275/here-s-why-asml-asml-fell-more-than-broader-market?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2938275
 
-ASML Holding trades at a steep 36.67X P/E after an 89% one-year rally, but EUV dominance, AI-driven chip demand and a EUR 38.8B backlog support outlook.
-
----
-
-### 2026-03-09 | Live Nasdaq Composite: Market Turmoil Persists With All Eyes On $100 Oil
-**Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/03/09/live-nasdaq-composite-market-turmoil-persists-with-all-eyes-on-100-oil/
-
-Live Updates Finally! Access 25+ Cryptocurrencies The Easy Way After years of waiting for a good option, SoFi now offers access to major cryptocurrencies like Bitcoin, Ethereum, and Solana, along with more than 25 total digital assets. What stands out isn't just the selection, it's the integration. You don't need a separate app, a new... Live Nasdaq Composite: Market Turmoil Persists With All Eyes On $100 Oil.
+ASML (ASML) closed at $1 in the latest trading session, marking a -4.69% move from the prior day.
 
 ---
 
-### 2026-03-09 | 3 European Stocks for Riding Out Market Volatility
+### 2026-06-16 | Elon Musk Just Delivered Fantastic News for ASML Stock Investors
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/06/16/elon-musk-delivered-fantastic-news-asml-stock/
+
+The Terafab initiative signals strong future demand for ASML's EUV machines. Terafab's massive investment could drive significant business for ASML.
+
+---
+
+### 2026-06-16 | ASML Surges 36% in 3 Months: Should Investors Buy the Stock?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2938246/asml-surges-36-in-3-months-should-investors-buy-the-stock?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2938246
+
+ASML's 36% three-month surge highlights AI-driven chip demand and EUV leadership, but premium valuation and mixed estimates suggest caution.
+
+---
+
+### 2026-06-16 | ASML Could Soar Higher in 12 Months and Here's Why We'd Buy It
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/06/16/asml-could-soar-higher-in-12-months-and-heres-why-wed-buy-it/
+
+ASML (NASDAQ:ASML | ASML Price Prediction) has been one of 2026's defining AI infrastructure trades, with the Dutch lithography monopolist riding a record order book, a raised full-year guide, and renewed mega-cap enthusiasm to fresh highs.
+
+---
+
+### 2026-05-19 | Here's How TSM Targets Growth With Strong Cash Position
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2923641/here-s-how-tsm-targets-growth-with-strong-cash-position?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2923641
+
+Taiwan Semiconductor's $106B cash pile fuels AI and advanced chip expansion as it ramps up spending and forecasts up to $40.2 billion Q2 revenues.
+
+---
+
+### 2026-05-19 | Stop Buying Intel. You've Missed the Train.
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/19/stop-buying-intel-youve-missed-the-train-buy-this-instead/
+
+Intel is having a moment again, with the Intel (NASDAQ:INTC | INTC Price Prediction) turnaround story dragging retail money back into a name that has spent the past four years as a cautionary tale.
+
+---
+
+### 2026-05-19 | ASML Expects First High-NA Chip Products Within Months
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8869304/asml-expects-first-highna-chip-products-within-months
+
+ASML (ASML, Financials) said it expects the first chip products developed with its new High-NA EUV machines to arrive within the next few months.CEO Christophe
+
+---
+
+### 2026-05-19 | ASML says first chips from new High-NA machines to arrive in months
+**Source:** Reuters
+**URL:** https://www.reuters.com/business/asml-says-first-chips-new-high-na-machines-arrive-months-2026-05-19/
+
+ASML expects to see ​the first products ‌created on the company's new High-NA ​machines within ​months, the chief executive ⁠of the world's ​top computer chip ​equipment maker, Christophe Fouquet, said on Tuesday.
+
+---
+
+### 2026-05-18 | 3 International ETFs for Investors Looking Beyond U.S. Stocks
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/05/18/x-international-etfs-for-investors-looking-beyond/
+
+These three international ETFs offer diversification and surprisingly strong dividends -- with the same low expense ratio of 0.07%.
+
+---
+
+### 2026-05-18 | ASML Expands Globally, Joins Tata for India Semiconductor Hub
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2922901/asml-expands-globally-joins-tata-for-india-semiconductor-hub?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2922901
+
+ASML teams up with Tata Electronics to help ramp a $11B Dholera 300mm fab, boosting its India footprint and future DUV-to-EUV sales.
+
+---
+
+### 2026-05-18 | Is It Worth Investing in ASML (ASML) Based on Wall Street's Bullish Views?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2922500/is-it-worth-investing-in-asml-asml-based-on-wall-street-s-bullish-views?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|average_broker_rating-2922500
+
+Investors often turn to recommendations made by Wall Street analysts before making a Buy, Sell, or Hold decision about a stock. While media reports about rating changes by these brokerage-firm employed (or sell-side) analysts often affect a stock's price, do they really matter?
+
+---
+
+### 2026-05-18 | ASML reports transactions under its current share buyback program
+**Source:** GlobeNewsWire
+**URL:** https://www.globenewswire.com/news-release/2026/05/18/3296534/0/en/ASML-reports-transactions-under-its-current-share-buyback-program.html
+
+ASML reports transactions under its current share buyback program VELDHOVEN, the Netherlands – ASML Holding N.V. (ASML) reports the following transactions, conducted under ASML's current share buyback program.
+
+---
+
+### 2026-05-18 | Is ASML Overvalued? DCF Says Worth $1075
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8865945/is-asml-overvalued-dcf-says-worth-1075
+
+On May 18, 2026, we take a closer look at the DCF analysis for ASML Holding NV (ASML), a leading supplier in the semiconductor industry. The stock has shown imp
+
+---
+
+### 2026-05-16 | Tata Electronics and ASML partner on India's first semiconductor fab
+**Source:** Reuters
+**URL:** https://www.reuters.com/world/india/tata-electronics-asml-partner-indias-first-semiconductor-fab-2026-05-16/
+
+Tata Electronics and ASML on Saturday signed an agreement to build India's first front-end ​semiconductor fabrication plant in the state of Gujarat, ‌as the country accelerates efforts to develop a domestic chip industry.
+
+---
+
+### 2026-04-19 | Is ASML Stock a Buy After It Raises Its Outlook on AI Demand?
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/19/asml-stock-buy-after-raise-outlook-ai-demand/
+
+ASML issued an upbeat outlook, but investors were hoping for more. The company remains a key player in the artificial intelligence (AI) infrastructure market, but its stock valuation is a bit frothy.
+
+---
+
+### 2026-04-19 | Birch Hill Investment Advisors LLC Buys 641 Shares of ASML Holding N.V. $ASML
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/19/birch-hill-investment-advisors-llc-buys-641-shares-of-asml-holding-n-v-asml.html
+
+Birch Hill Investment Advisors LLC boosted its stake in shares of ASML Holding N.V. (NASDAQ: ASML) by 1.6% during the fourth quarter, according to the company in its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The institutional investor owned 39,658 shares of the semiconductor company's stock after purchasing
+
+---
+
+### 2026-04-18 | Inside AI: TSM & ASML Wave Green Flags for Tech Trade
+**Source:** Schwab Network
+**URL:** https://www.youtube.com/shorts/ytSbwg4GRgU
+
+TSMC (TSM) and ASML Holding (ASML) showed strong numbers in earnings and guidance this week. Nicole Petallides explains how the metrics shape sentiment in the AI trade.
+
+---
+
+### 2026-04-18 | ASML: Lower Margins Are The Best News Investors Could Get
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4891773-asml-lower-margins-best-news-investors-could-get
+
+ASML reported Q1 2026 results in line with guidance, with sales of €8.8B and gross margins at 53%. Raised full-year revenue guidance to €36–€40B, but margin improvement is deferred due to ramp-up costs and production scaling. Free cash flow burn widened, yet future EBITDA and cash flow estimates for 2027–2028 have increased, supporting a positive long-term outlook.
+
+---
+
+### 2026-04-17 | ASML vs. AAOI: Which Stock Leads the Data Center Supply Chain?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2902493/asml-vs-aaoi-which-stock-leads-the-data-center-supply-chain
+
+ASML Holding's EUV dominance, rising chip demand and strong 2026 outlook position it ahead of Applied Optoelectronics despite booming AI data center growth.
+
+---
+
+### 2026-04-17 | The Best Artificial Intelligence (AI) Chip Equipment Stock Just Raised Guidance. Here's What ASML's Earnings Mean for the Nasdaq.
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/17/the-best-artificial-intelligence-ai-chip-equipment/
+
+ASML's Q1 earnings beat analysts' expectations. It raised its full-year revenue guidance and reaffrimed its gross margin outlook.
+
+---
+
+### 2026-04-17 | ASML Holding N.V. (NASDAQ:ASML) Sees Large Decline in Short Interest
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/17/asml-holding-n-v-nasdaqasml-sees-large-decline-in-short-interest.html
+
+ASML Holding N.V. (NASDAQ: ASML - Get Free Report) was the recipient of a significant drop in short interest during the month of March. As of March 31st, there was short interest totaling 692,629 shares, a drop of 28.5% from the March 15th total of 968,476 shares. Based on an average daily volume of 1,693,962 shares,
+
+---
+
+### 2026-04-16 | ASML Q1 2026 Earnings Update
+**Source:** Seeking Alpha
+**URL:** https://seekingalpha.com/article/4891371-asml-q1-2026-earnings-update
+
+I find it quite remarkable how quickly ASML was able to expand the capacity despite having a maze-like supply chain. ASML management declined to take advantage of its customers for what could turn out to be a temporary phenomenon. ASML increased the revenue guidance from EUR 34-39 billion to EUR 36-40 billion for 2026.
+
+---
+
+### 2026-04-16 | ASML Falls Post-Earnings, Chip-Making Expansion Anchors Outlook
 **Source:** MarketBeat
-**URL:** https://www.marketbeat.com/stock-ideas/3-european-stocks-for-riding-out-market-volatility/
+**URL:** https://www.marketbeat.com/originals/asml-falls-post-earnings-chip-making-expansion-anchors-outlook/
 
-War, what is it good for? For European equities, nothing.
+Semiconductor manufacturing equipment maker ASML Holding NASDAQ: ASML took off in 2025, and hasn't looked back much since. Shares delivered a total return of nearly 56% last year, and 2026 has seen more of the same.
+
+---
+
+### 2026-04-16 | ASML Premium Shrinks To Decade Low As Shares Rise 36% YTD
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8798852/asml-premium-shrinks-to-decade-low-as-shares-rise-36-ytd
+
+ASML Holding (ASML) is increasingly standing out as a valuation anomaly within semiconductors, with its relative pricing versus US-listed peers falling to level
 
 ---
