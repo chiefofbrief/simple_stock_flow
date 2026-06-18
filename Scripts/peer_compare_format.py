@@ -546,6 +546,11 @@ NEWS = """### News (last ~90 days, through 2026-06-18)
 | AI packaging / HDFO / smartphone demand | Bull | "Amkor shares surge 7.6% amid packaging targets" [Perigon, 2026-06-12]; "Can HDFO Adoption Strengthen Amkor's Compute Growth Opportunity?" [FMP, 2026-06-12] |"""
 
 
+ADDITIONAL_CONTEXT = """## Additional Context
+
+*Qualitative context from third-party articles and TSMC investor reports (Q1 2026 + 2025 annual). Raw verbatim excerpts are retained in `Additional_Context_Sources.md`. Synthesis to follow — focus: the advanced-packaging (CoWoS) chokepoint, TSM's deliberate under-pricing, and what mainstream analysis is missing.*"""
+
+
 doc = (f"# TSM ANALYSIS\n\n*Generated {date}. All figures USD. Part 1 = financials; Part 2 = narrative.*\n\n"
        + "> Read **Section 4 — Data-Quality Notes** before drawing conclusions. An asterisk (\\*) marks a figure the notes flag as potentially misleading.\n\n"
        + DETERMINATION + "\n\n"
@@ -556,7 +561,8 @@ doc = (f"# TSM ANALYSIS\n\n*Generated {date}. All figures USD. Part 1 = financia
        + GLOSSARY + "\n\n"
        + NARRATIVE + "\n\n"
        + EARNINGS_QA + "\n\n"
-       + NEWS + "\n")
+       + NEWS + "\n\n"
+       + ADDITIONAL_CONTEXT + "\n")
 
 with open(os.path.join(base, "..", "TSM ANALYSIS.md"), "w") as f:
     f.write(doc)

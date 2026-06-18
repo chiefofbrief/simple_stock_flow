@@ -533,3 +533,7 @@ Technical: The Q1 2026 effective tax rate was 12.8% versus a 20% full-year targe
 | Earnings beat but stock dipped | Neutral | "Amkor Q1 Beats; Issues Q2 and 2026 Guidance" [Perigon, 2026-04-29]; "Amkor Shares Dip After Q1 2026 Earnings Beat" [Perigon, 2026-05-01] |
 | Debt financing ($1.15B convertible) | Concern | "Amkor stock rise after $1.15 billion debt deal" [Perigon, 2026-05-12]; "Amkor plans $1B convertible notes offering" [Perigon, 2026-05-02] |
 | AI packaging / HDFO / smartphone demand | Bull | "Amkor shares surge 7.6% amid packaging targets" [Perigon, 2026-06-12]; "Can HDFO Adoption Strengthen Amkor's Compute Growth Opportunity?" [FMP, 2026-06-12] |
+
+## Additional Context
+
+*Qualitative context from third-party articles and TSMC investor reports (Q1 2026 + 2025 annual). Raw verbatim excerpts are retained in `Additional_Context_Sources.md`. Synthesis to follow — focus: the advanced-packaging (CoWoS) chokepoint, TSM's deliberate under-pricing, and what mainstream analysis is missing.*
