@@ -1,510 +1,474 @@
 # AVGO News Data
-**Generated:** 2026-05-22 18:06
-**Date Range:** 2026-02-21 to 2026-05-22
+**Generated:** 2026-06-18 15:00
+**Date Range:** 2026-03-20 to 2026-06-18
 
 ## Summary Statistics
 
 ### Coverage
-- **Perigon:** 20 stories (aggregated from 20 media items)
+- **Perigon:** 17 stories (aggregated from 17 media items)
 - **FMP:** 30 articles from 13 sources
-- **Total:** 50 items
+- **Total:** 47 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 10 | 10 |
-| 2026-04 | 10 | 10 |
-| 2026-03 | 0 | 10 |
+| 2026-06 | 10 | 10 |
+| 2026-05 | 7 | 10 |
+| 2026-04 | 0 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.325)
-- Positive-leaning: 19 stories
+**Perigon** (avg composite: +0.159)
+- Positive-leaning: 14 stories
 - Neutral: 0 stories
-- Negative-leaning: 1 stories
+- Negative-leaning: 3 stories
 
 ---
 
-## Perigon Stories (20 stories)
+## Perigon Stories (17 stories)
 
-### 2026-05-22 | Stoneridge Investment Partners $5.40M Broadcom stake grows
-**Sentiment:** +0.36 (pos: 0.45, neg: 0.09, neu: 0.46)
+### 2026-06-18 | Broadcom plans $2.5B bond buyback amid AI miss
+**Sentiment:** +0.18 (pos: 0.33, neg: 0.16, neu: 0.51)
 
-Multiple investors adjusted their Broadcom Inc. positions in recent SEC filings, with some funds adding shares while others trimmed exposure, underscoring continued institutional trading interest in the semiconductor maker. Stoneridge Investment Partners increased its stake, while Independent Solutions Wealth Management reduced its holding and STF Management LP cut back substantially; Hills Bank & Trust Co also boosted its position. Several large managers expanded their Broadcom exposure, including Vanguard and Arrowstreet, while PayPay Securities reported a sharp percentage increase in its smaller stake. The filings also referenced insider selling activity, including notable share sales by Broadcom insiders S. Ram Velaga and Charlie B. Kawwas. Analyst coverage cited in the reports remains largely positive, with firms raising price targets and reiterating buy or outperform ratings.
+Broadcom announced it would launch a bond tender offer to repurchase up to $2.5 billion of debt, supported by strong free cash flow, as its stock pulled back on concerns about its artificial intelligence outlook. The pullback followed guidance that set third-quarter AI-related revenue at about $16 billion, below analyst expectations, alongside an outlook for adjusted gross margins to fall to around 74% due to a shift toward lower-margin custom AI accelerators. Valuation debate is intensifying: one model view flags Broadcom as materially overvalued versus fair value, while another suggests shares may be closer to intrinsic value, and a separate analysis frames the dip as a valuation gap rather than a broken growth story. Market commentary after the earnings miss centers on hyperscaler demand for custom chips as the key near-term swing factor, with traders noting the stock slipping below some moving averages despite longer-term AI infrastructure tailwinds. Institutional investors appear to be accumulating, including a disclosed fund that increased its Broadcom stake significantly, even as recent insider activity over the past six months skewed heavily toward sales rather than purchases.
 
 **Key Points:**
-- Insider selling detail: Broadcom insider S. Ram Velaga sold 38,841 shares at an average price of $321.60 for about $12,491,265.60, trimming his stake by 28.77% to 96,147 shares.
-- Insider selling detail: Broadcom insider Charlie B. Kawwas sold 10,000 shares at an average price of $345.23 for about $3,452,300, reducing his direct ownership by 1.25% to 787,184 shares.
-- Analyst coverage included specific target increases/recaps: Truist raised its price objective on Broadcom from $510 to $545 and reiterated a “buy” rating (March 5); TD Cowen reiterated “buy” and set a $500 target (up from $405) (May 15); Mizuho reiterated “outperform” with a $480 target (April 16).
+- Broadcom’s guidance disappointment came after a strong prior quarter: in Q2, AI momentum helped drive revenue up 48% year over year to $22.2 billion, and management kept its full-year outlook unchanged despite the Q3 AI revenue miss.
+- For the debt tender, Broadcom said it set a Tuesday deadline and expects settlement to begin on Wednesday; the company also tied the ability to execute the buyback to roughly $10 billion of free cash flow in the prior quarter—described as nearly half its total revenue at the time.
+- Institutional accumulation was evidenced with specific disclosure: Towarzystwo Funduszy Inwestycyjnych PZU SA increased its Broadcom position by 51.8% in Q4, buying 5,735 shares to hold 16,811 shares; Broadcom was about 1.5% of its portfolio (12th largest holding), valued at $5.818 million in the firm’s latest SEC filing.
 
 ---
 
-### 2026-05-22 | Baader Bank boosts ServiceNow stake 358.8%
-**Sentiment:** -0.02 (pos: 0.25, neg: 0.27, neu: 0.48)
+### 2026-06-18 | Tesco plans 40,000-workload VMware exit, sues Broadcom
+**Sentiment:** -0.63 (pos: 0.06, neg: 0.69, neu: 0.26)
 
-Multiple institutional filings show investors adjusting holdings across a range of U.S. stocks, with Baader Bank repeatedly increasing stakes. Baader Bank disclosed new or larger positions in Bunge Global, Old Republic International, ServiceNow, and AppLovin, alongside activity from other hedge funds and asset managers that also added shares in several cases. In Bunge Global, Baader Bank’s latest purchase adds to a broader pattern of institutional ownership, with other managers reporting notable percentage increases as well. For AppLovin, Baader Bank boosted its stake and New York Life Investment Management increased holdings, while analyst coverage included rating and target changes reflecting mixed expectations for near-term performance. ServiceNow also saw large buying activity from multiple institutions, signaling continued interest in the software and IT services sector.
+Tesco is migrating roughly 40,000 server workloads away from VMware while suing Broadcom in the UK High Court, alleging “abusive conduct” over changes to perpetual license and support terms after Broadcom’s VMware acquisition. The dispute centers on a 2021 deal under which Tesco bought perpetual vSphere and Cloud Foundation licenses, along with support and software updates through 2026 (with an option to extend), but Tesco says Broadcom stopped honoring standalone perpetual support and demanded pricier subscription bundles instead. Tesco seeks more than £100 million in damages and says the loss of proper updates and support forced it to pay for third-party maintenance and to replace software where functionality would be reduced. Despite the lawsuit filed in mid-2025 remaining active into 2026 and proceeding toward a November 2027 hearing, Tesco has set an end-2027 deadline for completing the migration, underscoring how quickly it is trying to avoid operational disruption. The case is being viewed as part of a wider enterprise backlash to Broadcom’s subscription-only pivot, with industry estimates warning of significant workload attrition as customers test alternatives such as Nutanix and Microsoft Hyper-V. In parallel, vendors are marketing VMware migration tools and incentives, while Broadcom’s leadership argues its strategy is increasingly driven by organic AI growth rather than major new acquisitions.
 
 **Key Points:**
-- In Bunge Global, Baader Bank disclosed a new Q4 position of 5,304 shares valued at about $472,000, and the filing noted that 86.23% of the company’s stock is owned by institutional investors and hedge funds.
-- For Old Republic International, Baader Bank bought 13,645 shares in the fourth quarter worth roughly $607,000; the report also highlighted Goldman Sachs’ materially large position increase (to 1,593,065 shares valued at about $62.48M after adding 148,891 shares) and said institutional investors own 70.92% of ORI.
-- In ServiceNow, Baader Bank increased its stake by 358.8% in Q4, ending with 10,928 shares (after adding 8,546), while several other investors made unusually large additions—for example, Sumitomo Mitsui Trust Group increased by 385.9% (buying 2,064,440 shares to reach 2,599,397) and Jennison Associates grew by 280.1% (adding 6,213,762 shares to reach 8,432,389).
+- Tesco’s High Court lawsuit (filed July 15, 2025) names multiple parties: Broadcom, VMware International, and Computacenter—while Dell’s role as a distributor is described as adding “another layer of complexity” to the proceedings.
+- The dispute is broader than just VMware virtualization: Tesco also uses Broadcom’s mainframe software and wanted to extend support for it, but filings say Tesco has now decided to quit VMware and “Broadcom’s mainframe products” as part of its migration.
+- Beyond “abusive conduct” and breach-of-contract allegations, the Register reports Tesco also claims anti-competitive behavior by Broadcom after the VMware acquisition.
 
 ---
 
-### 2026-05-22 | Tucker, Blume reduce SPDR BIL stakes
-**Sentiment:** +0.30 (pos: 0.43, neg: 0.13, neu: 0.44)
+### 2026-06-17 | Multiple investors boost Broadcom AVGO stakes
+**Sentiment:** +0.21 (pos: 0.32, neg: 0.11, neu: 0.56)
 
-Multiple investment managers reported trimming or adding exposure to short-duration Treasury and core bond ETFs. Tucker Asset Management cut its position in the SPDR Bloomberg 1-3 Month T-Bill ETF (BIL) by 39.4% in the fourth quarter, reducing its stake to 78,562 shares, while several other investors increased theirs, including AQR and Bank of America. Blume Capital Management sharply reduced its BIL holdings by 96.3% to 2,545 shares, even as other funds and banks reported smaller purchases of the same ETF. Blume also reduced its holdings in the Dimensional Core Fixed Income ETF (DFCF) by 4.1% to 426,293 shares and trimmed its stake in the Goldman Sachs Access Treasury 0-1 Year ETF (GBIL) by 75.5% to 15,181 shares. In both DFCF and GBIL, the articles also note that other institutional investors initiated new positions or modestly increased stakes during recent quarters.
+Multiple institutional investors increased their stakes in Broadcom during the fourth quarter, with funds such as Clal Insurance, Pinpoint Asset Management Singapore, Quadrant Capital, Lyell Wealth Management, and Canopy Partners all adding shares and keeping Broadcom among their larger portfolio positions. Broader ownership data across the articles shows that hedge funds and other institutions collectively hold the majority of Broadcom’s stock, including major holders that expanded positions or initiated new ones. At the same time, Broadcom insiders reduced their holdings, including the company’s CFO and other executives selling shares in late March at prices around the low-$320s per share, signaling a decline in at least some insider positions. Separately, Broadcom’s recent quarterly results were highlighted as a key driver for investors, with revenue growth, rapid expansion in semiconductor and AI semiconductor demand, and strong AI-related bookings cited as evidence of momentum. Overall, the coverage points to rising institutional confidence paired with notable insider selling and a recently strong earnings backdrop for the semiconductor and AI infrastructure supplier.
 
 **Key Points:**
-- Tucker Asset Management said its BIL position fell to 78,562 shares, worth about $7.179 million, and that BIL represented 2.1% of its portfolio—its 7th largest holding—after selling 51,125 shares in the quarter.
-- Other investors were adding aggressively to BIL at the same time: Captrust Financial Advisors increased its stake by 75.6% in Q2 to 5,777,775 shares (about $529.995 million), and AQR Capital Management more than doubled its position (+103.5%) to 4,497,115 shares (about $412.610 million).
-- In DFCF, Blume’s cut left it holding 426,293 shares worth about $18.143 million, where the ETF comprised 3.3% of its portfolio and became its 4th largest holding.
+- Norges Bank acquired a new stake in Broadcom during the fourth quarter valued at about $24.252 billion, according to the institutional-ownership changes cited in the coverage.
+- Additional insider selling was reported beyond the CFO: insider Charlie B. Kawwas sold 39,116 shares on March 17 at an average price of $321.61 (totaling $12,580,096.76), leaving him with 74,626 shares and a 34.39% decrease in his position.
+- CFO Kirsten M. Spears’ reported sale was for 36,292 shares at an average price of $321.60 on March 17, bringing in $11,671,507.20 and reducing her holdings by 9.97% (to 327,760 shares).
 
 ---
 
-### 2026-05-22 | Merck & Co. institutional stakes rise
-**Sentiment:** +0.21 (pos: 0.34, neg: 0.14, neu: 0.52)
+### 2026-06-14 | Inceptionr LLC increases Dynatrace stake 104.2%
+**Sentiment:** +0.18 (pos: 0.33, neg: 0.15, neu: 0.52)
 
-Multiple investment firms increased their stakes in Merck & Co. during the fourth quarter, including Cambridge Investment Research Advisors, which raised its position by 3.8%, and Integrated Investment Consultants LLC, which grew its holding by 53.9% to about 28,816 shares. Other investors also expanded exposure, with iA Global Asset Management lifting its stake by 69.5% and multiple additional hedge funds making smaller percentage adjustments. Across the coverage, institutional investors and hedge funds collectively own 76.07% of Merck’s shares, underscoring broad market participation in the stock. On the analyst side, several firms issued more constructive outlooks, with price targets and ratings trending upward, including upgrades or higher target estimates from major research houses. Overall, the articles point to continued institutional accumulation alongside a generally supportive shift in Wall Street sentiment toward Merck.
+Inceptionr LLC reported notable portfolio changes across several public companies, boosting its stakes in Dynatrace, International Flavors & Fragrances, RenaissanceRe, and Trimble while cutting its position in Tyson Foods. For Dynatrace, the firm increased its holding by over 100% and disclosed end-of-quarter value of about $1.46 million, alongside continued buying by large asset managers such as Vanguard and other institutional investors. In International Flavors & Fragrances, Inceptionr raised its stake by roughly 145%, with other funds also adding meaningfully to their positions, indicating broadly active institutional interest in the specialty chemicals maker. The firm similarly expanded its exposure to RenaissanceRe and Trimble by more than 140% and nearly 280%, respectively, in both cases while other hedge funds and asset managers adjusted their holdings as well. By contrast, Inceptionr reduced its stake in Tyson Foods by about 31%, leaving the stock as a smaller share of its overall portfolio despite multiple other investors increasing theirs. Overall, the filings highlight a strategy of selective reallocation rather than a single-theme bet, with institutional ownership remaining heavily concentrated across all these names.
 
 **Key Points:**
-- Beyond Cambridge Investment Research Advisors, the Cambridge-related filing roundup also detailed other Merck stake increases—e.g., O Brien Greene & Co. lifted its stake by 4.1% (to 4,668 shares), WealthPlan Investment Management increased by 63.4% (to 23,003 shares), and Hills Bank & Trust Co raised its stake by 56.8% (to 4,373 shares), reinforcing that accumulation was broad across institutional managers.
-- In addition to iA Global Asset Management’s 69.5% increase, the iA-focused article cited multiple other investors making sizable moves: May Hill Capital LLC boosted its position by 115.9% (to 10,820 shares), Barr E S & Co. increased by 135.9% (to 9,586 shares), and Guardian Capital LLC acquired a new stake valued at about $505,000.
-- Wall Street sentiment was mixed in analysts’ rating changes: JPMorgan Chase & Co. raised its price target to $135 and reiterated an “overweight” rating (up from a $125 target), but Wall Street Zen simultaneously lowered Merck from a “buy” to a “hold.”
+- For Dynatrace, Inceptionr LLC disclosed it held 33,627 shares after buying an additional 17,158 shares, worth about $1.457 million at quarter end—and the article notes Wellington Management Group LLP’s stake jump of 719.3% to 7,340,127 shares (about $355.6 million), with hedge funds/institutions owning 94.28% of Dynatrace.
+- For International Flavors & Fragrances (IFF), the filing details Inceptionr owned 18,407 shares after purchasing 10,883 more; additionally, the article highlights Eurizon Capital SGR S.p.A. initiating a new position valued at about $211.703 million and Ameriprise Financial Inc. increasing its stake by 1,842.0% in the prior quarter.
+- For RenaissanceRe (RNR), the article says Inceptionr owned 3,660 shares after buying 2,162 more (worth about $1.029 million) and reports very large moves by other holders—e.g., M&T Bank Corp increasing its position by 8,296.5% to 290,352 shares (about $81.635 million). It also states RNR “opened at $296.54” and that hedge funds/institutions own 99.97% of the company’s stock.
 
 ---
 
-### 2026-05-22 | Corning stake cut 53.1% after 58,885 share sale
-**Sentiment:** +0.06 (pos: 0.27, neg: 0.21, neu: 0.51)
+### 2026-06-14 | Broadcom shares slide after earnings AI outlook
+**Sentiment:** +0.12 (pos: 0.29, neg: 0.17, neu: 0.53)
 
-Soltis Investment Advisors trimmed several positions across its portfolio in recent filings, cutting its stake in the iShares Mortgage Real Estate ETF and the iShares Russell 2000 ETF, as well as reducing holdings in Zions Bancorporation and Corning. For Zions, Soltis also reduced its position while other large investors added shares, and analysts issued generally cautious-to-neutral views with price-target increases. Soltis’ cut in Corning came as the company also disclosed insider selling by its CEO. In a separate move, Pacific Heights Asset Management increased its stake in Twilio, adding shares and making the stock a mid-sized holding within its portfolio. Across the covered funds and stocks, institutional activity appeared mixed, with some managers trimming while others were taking or expanding positions.
+Broadcom shares slid sharply after earnings despite results that beat Wall Street forecasts, with investors focusing on a softer-than-expected outlook for its custom AI business. A Motley Fool podcast attributed the “whiplash” largely to an expectations-driven market, where even a small miss can overpower strong underlying performance. Broadcom also paired the earnings report with capital-structure and AI ecosystem moves, including a $2.5 billion cash tender offer for some senior notes and a new $35 billion AI XPV Platform backing AI infrastructure investments. Recent earnings showed strong momentum, including major growth in AI semiconductor sales, while management said it remains comfortable and is working to improve AI chip capabilities by 2027. Trading indicators and near-term technicals pointed to a volatile setup with mixed momentum signals—oversold conditions alongside signals that leaned bearish in the short run.
 
 **Key Points:**
-- The iShares Mortgage Real Estate ETF (REM) is based on the FTSE Nareit All Mortgage Capped index, is market-cap weighted, was launched May 1, 2007, and is managed by BlackRock.
-- Pacific Heights Asset Management’s Twilio increase left TWLO at about 1.1% of its portfolio and made Twilio its 21st-largest position; the fund reported owning 210,000 shares after adding 10,000, and noted that hedge funds and other institutions own 84.27% of Twilio.
-- For Zions (ZION), analyst coverage included Truist raising its price objective from $64.00 to $66.00 with a “hold” rating and JPMorgan lifting its target from $62.00 to $67.00 with a “neutral” rating (both dated April 21).
+- Broadcom reported revenue of $22.19 billion versus $22.13 billion expected, and EPS of $2.44 versus $2.40 expected—implying 47.9% year-over-year revenue growth and 54.4% year-over-year EPS growth, even as the stock slid on custom-AI guidance.
+- Management said it is seeing stability across its chip supply chain while continuing work to improve the capabilities of its AI chips by 2027—an additional operational detail behind its comfort with the results.
+- The $35 billion AI XPV Platform was launched not just by Broadcom, but “together with Apollo and Blackstone,” with “initial expansion with Anthropic” and “possible support for OpenAI.”
 
 ---
 
-### 2026-05-22 | Triton Wealth Management increases JEPI stake 90.6%
-**Sentiment:** +0.43 (pos: 0.49, neg: 0.06, neu: 0.45)
+### 2026-06-13 | Capital International adds 20,008 American Express shares
+**Sentiment:** +0.38 (pos: 0.47, neg: 0.09, neu: 0.44)
 
-Triton Wealth Management PLLC disclosed in recent SEC filings that it boosted positions across several exchange-traded funds, including JPMorgan Equity Premium Income ETF (JEPI), PGIM Aaa CLO ETF (PAAA), Invesco S&P 500 Momentum ETF (SPMO), First Trust Structured Credit Income Opportunities ETF (SCIO), and Alger AI Enablers & Adopters ETF (ALAI). The firm’s largest move cited was a sizable increase in its SPMO stake, where the ETF became its second-biggest holding, and it also expanded exposure to income and credit-oriented products such as JEPI, PAAA, and SCIO. Triton’s increase in ALAI added to its exposure to AI-focused equities, while its JEPI and PAAA positions remained material but smaller components of the overall portfolio. Other institutional investors also continued to adjust their stakes—such as Bank of America in JEPI, Ameritas Advisory Services in PAAA, and multiple large asset managers in SPMO—suggesting broadly active institutional interest in these funds. Across the updates, Triton’s ownership percentages ranged from a fraction of a percent to low double digits within the specific ETF portfolios, reflecting a strategy of spreading risk across different themes and factor exposures rather than concentrating in a single vehicle. The filings underscore how capital allocation shifts are being tracked through quarter-by-quarter changes in fund holdings.
+Multiple institutional investors increased their positions in American Express, according to recent SEC and 13F filings, including Capital International and World Investment Advisors among others. Capital Group Investment Management also disclosed a new stake, while Victrix Investment Advisors added shares, reinforcing the broader trend that about 84% of the company’s stock is held by institutions and hedge funds. Several fund filings highlighted continued shareholder support and sector tailwinds, alongside a broader rally in financial stocks that boosted sentiment. American Express also announced a quarterly dividend of $0.95 per share, payable in early August for shareholders of record in early July. Coverage noted American Express card spending is growing at its fastest pace in three years, even as competition from newer fintech and travel-expense tools remains a longer-term backdrop rather than a near-term catalyst. Analyst interest appears constructive as well, with Bank of America raising its price target for American Express.
 
 **Key Points:**
-- Triton’s JEPI buy in Q4 was a 90.6% increase, bringing its position to 30,678 shares (after adding 14,579 shares). Triton said the holding was worth about $1.785 million at quarter-end and that JEPI made up ~0.7% of its portfolio—its 27th-largest holding.
-- Triton boosted its SCIO stake by 221.2% in Q4, increasing the position to 37,420 shares (from a quarter-start baseline implied by the purchase of 25,770 additional shares). Triton reported SCIO accounted for ~0.44% of its portfolio, with the position valued at about $779,000 at the end of the period.
-- Beyond Triton’s ALAI increase of 231.3% (to 24,173 shares, worth about $851,000 and ~0.29% of its portfolio), the ETF’s reported market data in the filings showed heightened volatility: a beta of 1.84, a market cap of about $391.03 million, and a P/E of 29.71, along with a one-year range of $26.87–$43.64 and 50/200-day moving averages near $36.58/$36.37.
+- Capital International Inc. CA reported a 39.4% increase in its American Express stake in the fourth quarter, buying 20,008 shares to total 70,836 shares worth about $26.206 million (per its latest SEC filing cited by the report).
+- World Investment Advisors increased its American Express position by 37.3% in the fourth quarter, adding 3,220 shares to reach 11,846 shares valued at about $4.383 million.
+- Evolution Wealth Management Inc. disclosed an outsized percentage increase—raising its American Express stake by 6,600.0% in the fourth quarter—moving to 67 shares (after buying 66), valued at roughly $25,000.
 
 ---
 
-### 2026-05-22 | Alcoa stake: Leuthold invests $2.62 million
-**Sentiment:** +0.27 (pos: 0.37, neg: 0.10, neu: 0.53)
+### 2026-06-13 | Broadcom shares plunge after AI guidance
+**Sentiment:** +0.41 (pos: 0.55, neg: 0.15, neu: 0.30)
 
-Leuthold Group LLC reported multiple new or expanded positions in ETFs and stocks via recent SEC filings, including a new stake in Alcoa and additional exposure across several sector-focused exchange-traded funds. In equities, the firm disclosed buying about 49,245 shares of Alcoa, and it also purchased shares of the SPDR S&P Retail ETF, the Invesco Building & Construction ETF, and the iShares Biotechnology ETF. Leuthold further increased its biotechnology exposure by lifting its stake in the iShares Biotechnology ETF by 41% during the fourth quarter. The filings also show Leuthold initiating a position in ProShares Short S&P 500, an ETF designed to deliver inverse daily exposure to the S&P 500. Other hedge funds and institutional investors were simultaneously active in many of the same vehicles, suggesting broader market participation beyond Leuthold’s trades. Overall, the disclosures point to Leuthold using a mix of targeted sector bets and hedging or defensive positioning as reflected in its ETF selection.
+Broadcom’s latest quarter showed strong results, including accelerating AI revenue, but the stock still plunged as investors focused on AI guidance and expectations that were not exceeded. Several reports said the selloff reflected disappointment that Broadcom kept its fiscal 2027 AI semiconductor revenue target unchanged despite quarterly AI growth and a bullish outlook for continued demand, with some analysts pointing to a “short-term noise” overreaction. The reaction spilled into the broader semiconductor market, where a weak tone after the earnings and a strong jobs report contributed to steep declines across major chip names. Commentary around the drop also highlighted valuation concerns, with investors rethinking how much future AI growth is already priced in after the rapid rally. At least one prominent analyst argued the decline was shortsighted and reiterated a constructive stance, citing visibility into AI compute and networking demand through the late 2020s and expectations for continued operating leverage. Overall, Broadcom appears to be at a crossroads for investors weighing resilient long-term fundamentals against a sharper near-term reset in AI expectations.
 
 **Key Points:**
-- Leuthold disclosed that its new Alcoa position of 49,245 shares was valued at about $2.617 million and noted Alcoa’s upcoming dividend timing: the quarterly dividend is scheduled to be paid on Friday, June 5, with investors of record on Tuesday, May 19.
-- For the SPDR S&P Retail ETF (XRT), Leuthold bought 10,286 shares worth approximately $877,000 and the filing indicates Leuthold owned about 0.17% of the fund as of its most recent SEC submission.
-- In the Invesco Building & Construction ETF (PKB), Leuthold initiated exposure with 9,580 shares valued at roughly $887,000; the article also highlights unusually large activity by other investors, including Goldman Sachs increasing its PKB stake by 1,539.1% to 47,207 shares.
+- Broadcom’s fiscal Q2 beat key numbers despite the selloff: adjusted EPS was $2.44 (vs. $2.40 expected) and revenue was $22.19 billion (vs. $22.27 billion), while net income jumped 88% to $9.31 billion. Management said AI revenue reached $10.8 billion in the quarter (more than doubling year over year) and projected AI revenue of $16 billion in the next quarter; it also forecast Q3 total revenue of about $29.4 billion (vs. $28.53 billion).
+- At least one driver of the drop was not just the AI outlook: one report said the stock sank because Broadcom missed analysts’ informal EPS “whisper number” by a slim margin even though it beat Wall Street’s headline expectations.
+- The broader market impact was severe across major chip names: the PHLX Semiconductor Index fell more than 10% (its steepest drop since March 2020), Nvidia dropped more than 6% (market cap loss of over $300 billion), Micron slid about 13%, and Taiwan Semiconductor (TSM) fell nearly 7%.
 
 ---
 
-### 2026-05-22 | Broadcom stake cut by Naples Global Advisors
-**Sentiment:** +0.40 (pos: 0.48, neg: 0.08, neu: 0.45)
+### 2026-06-12 | Vanguard All-World ETF slips amid index reshuffle
+**Sentiment:** -0.57 (pos: 0.11, neg: 0.69, neu: 0.20)
 
-Naples Global Advisors LLC reduced its stake in Broadcom by 6% during the fourth quarter, cutting holdings to 112,534 shares, where the stock represents about 2.9% of the firm’s portfolio. The Broadcom move came as other large investors increased their positions in the chipmaker, suggesting mixed but active institutional sentiment. In Avnet, MGO One Seven LLC initiated a new position of 6,137 shares valued at about $295,000. In contrast, Crossmark Global Holdings trimmed its Avnet stake by 95.8%, selling most of its shares and leaving it with 10,696 shares worth about $514,000. Across the two companies, the filings underscore how institutional investors are frequently rotating exposure, with Avnet remaining heavily held by institutions. Separately, news coverage notes that Bank of America upgraded Avnet and that analysts raised a price target to $83.13, pointing to a more constructive view despite some investor selling.
+Vanguard’s FTSE All-World UCITS ETF has struggled in June as an unusually disruptive mix of catalysts hits its tech-heavy portfolio, including a semiconductor selloff sparked by Broadcom’s weaker-than-expected AI-chip revenue outlook and lack of guidance increases. The drop in megacap technology has been amplified by a hot US inflation reading that revived rate-hike fears and by geopolitical tensions after US-Iran military escalation, both of which have pressured risk assets. The ETF fell to around €158–€160 in recent sessions, extending short-term declines even as the fund remains up meaningfully over longer horizons. At the same time, structural index changes are reshaping the fund’s future holdings: FTSE Russell has adjusted free-float rules to accommodate SpaceX’s planned mega-IPO, creating an automatic buy effect despite S&P not following suit for similar inclusion. Additional tech pressure came from Apple’s AI-focused messaging at its developer event, which analysts said lacked a clear timeline for key features, further weighing on major ETF constituents. Overall, the articles frame the month as a “perfect storm” of positioning, macro uncertainty, and index mechanics rather than a break in the ETF’s broader upward trend.
 
 **Key Points:**
-- Naples Global Advisors didn’t just trim Broadcom’s position size—it sold 7,226 Broadcom shares in the quarter, leaving it with holdings worth about $38.948 million in its latest SEC filing, where Broadcom was described as its 2nd-largest portfolio holding.
-- While Naples reduced Broadcom exposure, other investors moved the opposite direction: Kepler Cheuvreux Suisse SA increased its Broadcom stake by 61.9% to 86,568 shares, adding 33,098 shares during the period.
-- For Avnet, institutional concentration is quantified in the filings at 95.78% of shares held by institutional investors; the same coverage also lists several notable adds, including Vest Financial LLC increasing its Avnet position by 80.3% to 7,941 shares (valued at about $382,000).
+- Broadcom’s AI outlook miss was quantified: it projected AI-chip revenue of about $16 billion versus analysts’ $17.2 billion, and it also declined to raise full-year AI guidance—events that helped trigger a sector-wide wipeout of more than $1.3 trillion in market value and major index damage (Nasdaq Composite -4%, Philadelphia Semiconductor Index -6%+).
+- The inflation data’s composition mattered: May’s 4.2% year-over-year headline CPI increase was attributed largely to “surging gasoline/petrol prices linked to the confrontation with Iran,” while core inflation was 2.9%. The coverage also notes markets had moved from expecting a pause at the mid-June Fed meeting to pricing in a potential rate hike by December.
+- Apple’s developer event added specific timeline risk: at WWDC, shares fell 3.64% after the company unveiled a revamped Siri and software upgrades but pushed most key AI features to late 2026 or 2027. Analyst Gene Munster said the problem was the lack of a concrete timeline for Siri, arguing that the AI narrative supporting Apple’s stock for two years was “losing steam.”
 
 ---
 
-### 2026-05-22 | Virginia Retirement Systems trims Nutanix stake 69.2%
-**Sentiment:** +0.19 (pos: 0.40, neg: 0.21, neu: 0.39)
+### 2026-06-12 | Apollo, Blackstone $35B AI deal for Anthropic
+**Sentiment:** +0.65 (pos: 0.69, neg: 0.04, neu: 0.28)
 
-Institutional investors reduced their stakes in Nutanix (NTNX) in recent filings, led by Virginia Retirement Systems et Al, which cut its holding by 69.2% to 16,100 shares after selling 36,200, a position valued at about $832,000. The selling was partly offset by increases from other institutional investors, including AQR Capital Management, Vanguard Group, Northern Trust, and Nordea Investment Management, which collectively boosted their NTNX exposure in the latest quarters. Another large move came from Baader Bank Aktiengesellschaft, which trimmed its NTNX stake by 93.4%, leaving it with 10,019 shares worth roughly $518,000. Across the coverage, institutional and hedge-fund ownership of Nutanix remains high at 85.25%.
+Apollo and Blackstone are leading a $35 billion capital initiative tied to Broadcom’s new AI XPV Platform to expand AI computing capacity for Anthropic and other frontier labs, targeting more than 20 gigawatts by 2028. The initial tranche is set to add over 1 gigawatt of capacity (enough to power hundreds of thousands of homes) with deployments beginning in mid-2026 at data centers operated by Fluidstack. Broadcom will supply custom AI chips and networking to reduce training costs and power while helping tech customers diversify away from Nvidia. In parallel, reporting describes the financing as a multi-tranche private credit structure in which the proceeds are used to acquire and lease Google custom accelerators, including Tensor Processing Units, to support Anthropic’s Claude models across a planned U.S. data-center footprint. The overall effort underscores how private capital and chip- and infrastructure-centered deals are increasingly stepping in to meet demand for constrained, expensive AI compute.
 
 **Key Points:**
-- In the same SEC-linked update, AQR Capital Management increased its Nutanix position by 40.6%, moving to 6,626,271 shares valued at about $492.9 million (after buying 1,914,005 additional shares).
-- M&T Bank Corp made a particularly large relative move: it boosted its Nutanix stake by 17,534.8% in the fourth quarter, ending with 1,281,342 shares valued at about $66.2 million (after acquiring 1,274,076 additional shares).
-- Other investors listed in the filings included Crestwood Advisors Group LLC, which raised its Nutanix stake by 0.4% to 43,499 shares (worth about $3.236 million), and Asset Management One Co. Ltd., which increased by 0.3% to 93,016 shares (worth about $4.868 million).
+- The financing was structured as a multi-tranche private credit facility using Apollo’s Atlas SP Partners platform, with Bloomberg describing “three layers of notes.” The top tranches are designed to trade off Broadcom’s stronger credit profile (instead of Anthropic’s standalone rating), and Broadcom guarantees back the senior slices of the debt.
+- Proceeds are intended to fund Google custom AI accelerators—specifically Tensor Processing Units—that Anthropic will lease; one report lists expected deployment states for the leased chips as New York, Texas, Louisiana, and Indiana.
+- Apollo said the initial transaction reflects a “deeply collaborative relationship” and is meant to deliver “committed, certain capital across a multi-year draw schedule,” describing the platform as a new model for mobilizing institutional capital at the scale required for AI infrastructure.
 
 ---
 
-### 2026-05-21 | Broadcom expects custom AI chips revenue surge
-**Sentiment:** +0.39 (pos: 0.54, neg: 0.15, neu: 0.31)
+### 2026-06-11 | Marvell Technology expected joins S&P 500 June 22
+**Sentiment:** +0.31 (pos: 0.50, neg: 0.19, neu: 0.31)
 
-Broadcom is positioning its custom AI chip business for major growth as hyperscalers scale data-center buildouts in 2026 and 2027, bolstered by new customer agreements and heavy R&D investment. The company reported $8.4 billion of AI semiconductor revenue in the first quarter of fiscal 2026 and forecasts and analyst work suggest AI-related revenues could accelerate sharply over the next several years. Wells Fargo’s bullish update argues traditional sizing models may be underestimating demand, using a “pluggable gigawatt-driven” framework that links AI semiconductor revenue to expanding data-center power capacity. A separate market analysis expects custom-designed AI chips to expand rapidly, with multiple launches approaching and some estimates suggesting custom-chip revenue could surpass $100 billion in 2027, even as Nvidia continues to dominate flexible GPU-based computing. Meanwhile, geopolitical and supply-chain concerns are pushing some international customers to diversify manufacturing away from a single Taiwan-focused base, strengthening opportunities for Samsung and Intel Foundry as they expand advanced-node and packaging capabilities for AI workloads. Additional semiconductor and packaging suppliers like MKS are also pointing to AI-driven demand and capacity additions as support for broader growth across the supply chain.
+Flex shares have surged over the past year and are set for inclusion in the S&P 500 on June 22, a move expected to attract more institutional investors. Separately, Flex announced a spinoff of its cloud and power infrastructure unit, which is guided for very rapid growth in the late 2020s as it targets end-to-end power and thermal management demand from AI data centers. Marvell also has June 22 in focus, as investor attention centers on its connectivity chips powering AI and data-center buildouts, with management pointing to accelerating data-center revenue growth and multiple new large product ramps. In the geopolitical risk category, the U.S. Department of Defense added Alibaba and Baidu to its list of Chinese military companies, with procurement restrictions starting June 30 and broader supply-chain or investment impacts following. Nvidia faces scrutiny around U.S.-China advanced chip export concerns, after reports said CEO Jensen Huang declined a Senate Banking Committee invitation connected to China and national security. Meanwhile, KLA’s 10-for-1 forward stock split begins June 12 to improve share accessibility and liquidity, alongside a continued outlook supported by strong demand for semiconductor process control tied to AI chip manufacturing.
 
 **Key Points:**
-- Broadcom said its custom AI chip agreements include specific hyperscalers: Alphabet’s Google, Meta, Anthropic, and OpenAI (plus two unnamed customers).
-- Broadcom’s investment and funding details were unusually specific: it reported $63.9B in FY2025 revenue supported by $11B in R&D, generated $26.9B free cash flow in FY2025, and said a potential ~$35B financing arrangement involving Apollo Global Management and Blackstone could fund its growth push.
-- Samsung’s pitch to international AI customers (in response to security concerns about concentration in Taiwan) included bundling HBM/DRAM with 4nm and 3nm process offerings and charging customers “for only a working wafer” to reduce yield risk; AMD and Tesla were cited as among the biggest clients evaluating a full package.
+- Flex’s spinoff guidance included specific growth targets: the standalone cloud and power infrastructure unit is expected to deliver fiscal 2027 top-line growth of 65% to 75%, with growth accelerating to “more than 80%” in fiscal 2028.
+- Marvell provided detailed data-center growth metrics and longer-range targets: CEO Matt Murphy said data-center revenue rose 46% last year, is on track for ~50% growth this year, and is expected to grow ~55% next year; he also discussed targeting $16.5 billion in revenue (from just over $2 billion annually when he took the job in 2016).
+- Murphy and investor relations chief Ashish Saran pointed to concrete growth engines beyond the connectivity theme, including “three new $1 billion businesses” launching in the next year and an early push into “scale-up” optics expected to bring in $300 million next year.
 
 ---
 
-### 2026-04-22 | Broadcom, Google launch multi-cloud monitoring platform
-**Sentiment:** +0.13 (pos: 0.39, neg: 0.26, neu: 0.35)
+### 2026-05-19 | April short interest drops across Eiffage, Dunelm
+**Sentiment:** -0.05 (pos: 0.19, neg: 0.24, neu: 0.57)
 
-Broadcom and Google Cloud expanded their partnership by launching Cloud Network Insights, a native Google Cloud offering built on Broadcom’s AppNeta technology to provide end-to-end network observability across hybrid and multi-cloud environments. The service is designed to close an observability gap created by workloads spread across multiple clouds, on-premises infrastructure, and SaaS—where traditional tools often lack visibility beyond customer network boundaries. Cloud Network Insights includes network experience monitoring with end-to-end path visualization, along with application and agent performance monitoring spanning on-premises, cloud, and SaaS. It also offers diagnostic capabilities to help teams rapidly isolate performance problems and determine whether the root cause is in the network or the application layer, aiming to reduce mean time to resolution. The offering is currently operational for Google Cloud subscribers and targets complex, geographically distributed deployments. (Sources describe the same core product positioning, feature set, and foundation in AppNeta.)
+In April, several thinly traded OTC stocks saw sharp declines in short interest, with days-to-cover ratios staying very low. Eiffage SA’s short interest fell to 1,522 shares (down 75.7%) and the stock carries an “overweight” stance from Morgan Stanley, alongside a MarketBeat consensus of “Buy.” Dunelm Group’s short interest dropped to 542 shares (down 60.4%) with short selling near zero, while analyst views were mixed after a Zacks downgrade to “hold” and a Jefferies upgrade to “strong-buy,” leaving a MarketBeat average “Buy.” Edenred saw short interest plunge to just 1 share (down 99.7%), and although the stock traded higher into the period, analyst sentiment was largely cautious, resulting in a “Hold” consensus despite a range of individual ratings. Pure Energy Minerals also experienced an extreme short-interest reduction to 1 share (from 10,413), with the company focused on developing lithium brine resources at its Clayton Valley South project in Nevada.
 
 **Key Points:**
-- Broadcom’s and Google Cloud’s announcement ties the need for the product directly to workloads like AI and agents that are adopting cross-cloud strategies—spanning multiple clouds and on-prem, with dependencies on SaaS, internet-facing applications, and high-performance networking—conditions that traditional monitoring tools can’t cover well, especially beyond customer-managed network boundaries.
-- In the service’s stated design goal for Network Experience Monitoring, Broadcom says teams can “determin[e] application versus network-related impact to eliminate finger-pointing,” not just to view network paths or isolate latency in the abstract.
-- Google Cloud describes Cloud Network Insights as a “native first-party” offering developed specifically for Google Cloud’s customer base, leveraging AppNeta’s “advanced monitoring infrastructure” to deliver “operational transparency” for applications running in “geographically distributed and architecturally diverse environments.”
+- For Eiffage SA (EFGSY), the reported “days-to-cover” was 0.3 days based on an average daily volume of 4,640 shares, after short interest fell to 1,522 shares as of April 30 from 6,258 on April 15.
+- For Dunelm Group (DNLMY), short selling was shown as ~0.0% of shares sold short, and the days-to-cover was 0.9 days using average trading volume of 635 shares (short interest down to 542 shares as of April 30).
+- Edenred (EDNMY) was reported to have traded up $0.45 to $12.80, with 2,573 shares changing hands versus an average volume of 12,742—while short interest fell to just 1 share and the days-to-cover was listed as 0.0 days.
 
 ---
 
-### 2026-04-22 | Institutional investors boost Broadcom stakes in Q4
-**Sentiment:** +0.21 (pos: 0.39, neg: 0.18, neu: 0.44)
+### 2026-05-19 | Short Interest Drops 55.8% For RPG ETF
+**Sentiment:** +0.03 (pos: 0.26, neg: 0.23, neu: 0.51)
 
-Several money managers increased positions in Broadcom (AVGO) based on recent SEC filings, including U.S. Capital Wealth Advisors LLC, which raised its stake by 3.0% to 79,104 shares (worth about $27.38 million). Legacy Financial Strategies LLC boosted its holdings by 23.4% to 7,040 shares (about $2.44 million), while Hardman Johnston Global Advisors LLC nearly 10x’d its stake, adding 9,828 shares to total 10,828 shares (about $3.75 million). Kelsey Financial LLC also initiated a new position, buying 25,297 shares worth roughly $8.76 million, where Broadcom became its fifth-largest holding at about 7.5% of the firm’s portfolio. Other institutional activity highlighted in the filings included large share increases by firms such as Arrowstreet and Nordea, with institutional investors owning 76.43% of Broadcom’s stock. In addition to fund buying, an insider transaction was reported: Charlie B. Kawwas sold 39,116 shares in March, reducing his holdings by about 34.4%. On the analyst side, DA Davidson reiterated a “hold” rating while Benchmark reaffirmed a “buy” rating and set a $485 price target.
+Across five exchange-traded funds, short interest fell by roughly half in April, with declines ranging from about 55% to 57% for each fund. SPDR Bloomberg 1-10 Year TIPS ETF (TIPX) still had the largest remaining short position at about 402,000 shares, while several other funds had comparatively minimal shorting, including the SPDR S&P Kensho Intelligent Structures ETF (SIMS) near 38 shares. The short-interest dynamics also translated into very low days-to-cover readings for most funds, suggesting limited short-covering pressure. In trading activity around mid-to-late April’s reporting period, several ETFs also posted small declines in price on the most recent Friday mentioned in the articles. The reports also note ongoing institutional reshuffling, with various hedge funds and investment managers adding to or trimming positions based on recent filings and quarterly updates. Overall, the common theme is widespread reduction in short exposure despite differing fund sizes and strategies.
 
 **Key Points:**
-- Insider Charlie B. Kawwas’ March sale of 39,116 Broadcom shares was executed at an average price of $321.61, for a total transaction value of $12,580,096.76; after the sale, he directly owned 74,626 shares valued at about $24,000,467.86 (a 34.39% decrease).
-- Among other institutional add-ons, Arrowstreet Capital Limited Partnership increased its Broadcom position by 499.4% in the 3rd quarter—buying an additional 4,694,313 shares to reach 5,634,232 shares valued at $1,858,789,000.
-- Nordea Investment Management AB also substantially increased its Broadcom stake, lifting holdings by 47.5% in the 4th quarter—adding 3,160,586 shares to hold 9,814,757 shares valued at $3,406,211,000.
+- Invesco S&P 500 Pure Growth ETF (RPG) cut short interest to 124,780 shares as of April 30 (down 55.8% from April 15), with short interest representing 0.4% of shares and a short-interest ratio of 0.3 days (based on average daily volume of 477,049). RPG also fell $1.04 on Friday to $57.00.
+- SPDR S&P Kensho Intelligent Structures ETF (SIMS) saw short interest drop to just 38 shares by April 30 (down 57.3% from April 15), with a days-to-cover figure of 0.1 days and “0.0%” of shares sold short. Susquehanna International Group LLP also bought a new SIMS position, acquiring 5,169 shares (about $219,000) and ending the quarter holding ~2.58% of the fund.
+- SPDR Bloomberg 1-10 Year TIPS ETF (TIPX) had notable investor re-positioning alongside the short-interest drop: Qube Research & Technologies increased its stake by 943.5% in the 3rd quarter, reaching 2,160 shares (about $42,000) after adding 1,953 shares. TIPX was also reported trading down $0.06 midday Friday to $19.16.
 
 ---
 
-### 2026-04-20 | Meta, Broadcom Extend Custom AI Chip Deal Through 2029
-**Sentiment:** +0.70 (pos: 0.74, neg: 0.04, neu: 0.21)
+### 2026-05-19 | Investment firm cuts $40.16M DFAC stake
+**Sentiment:** +0.27 (pos: 0.39, neg: 0.12, neu: 0.50)
 
-Meta and Broadcom extended their custom AI-chip partnership through 2029 for Meta’s Meta Training and Inference Accelerator (MTIA) chips used for training and inference in data centers. The expanded collaboration has Broadcom providing technology spanning chip design and advanced packaging, plus networking for Meta’s AI compute clusters. Broadcom said the work centers on developing industry-leading 2-nanometer custom AI accelerator technology using its XPU platform, along with Ethernet and high-bandwidth interconnects. Meta committed to an initial deployment of more than 1 gigawatt of MTIA compute, with a multi-gigawatt rollout planned over time, though no specific sites or timelines were disclosed. As part of the deal, Broadcom CEO Hock Tan will leave Meta’s board and move into an advisory role focused on Meta’s custom silicon roadmap. Following the announcement, Broadcom’s stock rose in extended trading/after-hours while Meta’s shares were mostly flat.
+Cambridge Investment Research Advisors Inc. reduced its holdings in the Dimensional U.S. Core Equity 2 ETF (DFAC) and the iShares Russell Mid-Cap Growth ETF (IWP), trimming DFAC by about a third and cutting IWP by just under 10%. The firm simultaneously increased exposure elsewhere, adding to the iShares Russell 1000 Value ETF (IWD) and boosting its position in the Invesco S&P MidCap Momentum ETF (XMMO). In equities, Cambridge also raised its stake in Amgen (AMGN) by a little over 2%, with its total AMGN position valued at roughly $35 million at the end of the most recent reporting period. Taken together, the filings show a rotation within broad ETF categories—moving between core, mid-cap growth, value, and momentum—while also adding to a large-cap biotechnology holding.
 
 **Key Points:**
-- The partnership agreement’s financial terms were not disclosed, and even the deployment specifics beyond the initial power commitment (sites and detailed schedules) remain undetailed.
-- In announcing the expanded deal, Meta emphasized it is building a “massive computing foundation” aimed at delivering “real-time AI experiences to billions of people,” with Zuckerberg later framing the goal as “personal superintelligence to billions of people.”
-- Broadcom CEO Hock Tan characterized the initial MTIA deployment as the start of “a sustained, multi-generation roadmap,” citing Broadcom’s “unmatched leadership in AI networking” and the “foundational XPU custom accelerator platform.”
+- For the iShares Russell 1000 Value ETF (IWD), Cambridge increased its stake by 1.9% in the fourth quarter—ending the period with 147,031 shares (after buying 2,756 shares)—worth about $30.926 million.
+- In Dimensional U.S. Core Equity 2 ETF (DFAC), Cambridge cut its position by 32.5% but still ended the quarter owning 1,014,430 shares, valued at about $40.161 million (after selling 488,826 shares).
+- In iShares Russell Mid-Cap Growth ETF (IWP), Cambridge trimmed 9.6% in the fourth quarter to 252,692 shares (after selling 26,820 shares), with holdings valued at roughly $34.604 million; the fund is reported as having 74.49% held by institutional investors and hedge funds.
 
 ---
 
-### 2026-04-18 | Institutional investors cut Broadcom stakes
-**Sentiment:** +0.32 (pos: 0.46, neg: 0.13, neu: 0.41)
+### 2026-05-19 | Cascade Financial Partners expands bond ETF holdings
+**Sentiment:** +0.44 (pos: 0.50, neg: 0.06, neu: 0.44)
 
-Multiple institutional investors trimmed Broadcom positions in recent filings: Addenda Capital cut its stake by 11.2% to 167,800 shares (about $58.1 million), while Yousif Capital Management reduced its stake by 5.4% to 509,938 shares (about $169.6 million), and Center for Asset Management lowered its holding by 17.8% to 8,217 shares (about $2.84 million). Seascape Capital Management also pared its position by 25.0%, selling down to 8,967 shares (about $3.10 million). In a separate corporate filing, Broadcom ISG president Velaga S. Ram sold 8,000 shares on April 10, 2026 for about $2.96 million at an average price of $370.52, bringing his direct ownership to 57,932 shares. The insider sale comes as Broadcom shares have surged 115% over the past year, and one analysis cited in the report suggests the stock is slightly overvalued versus fair value. The company is simultaneously advancing its AI strategy, including a multi-year partnership with Meta (through 2029) to develop training and inference accelerator chips, and Broadcom has also rolled out an AI-driven fraud detection rules engine. Additional coverage noted UBS reiterated a Buy rating with a $475 price target amid expanded partnerships, including with Google.
+Cascade Financial Partners LLC reported boosting positions across several exchange-traded funds in its latest SEC 13F filings, including a larger stake in the SPDR Bloomberg 1-3 Month T-Bill ETF and increases in intermediate-duration Treasury and TIPS exposures through the iShares 1-3 Year Treasury Bond ETF and the iShares 0-5 Year TIPS Bond ETF. The firm also raised its holdings in the Global X U.S. Infrastructure Development ETF and added to Avantis Emerging Markets Value ETF, expanding beyond fixed-income into thematic and international equity exposure. In each case, the reported increases were accompanied by additional purchases during the quarter, with holdings valued in the millions for several funds. Other institutional investors and hedge funds also made concurrent changes—ranging from modest adds to large percentage increases—suggesting broader rebalancing among market participants rather than a single-firm move.
 
 **Key Points:**
-- Broadcom ISG president Velaga S. Ram’s April 10, 2026 stock sale wasn’t a single flat price: the Form 4 reports shares sold at a weighted average of $370.5223, with individual sale prices ranging from $370.500 to $370.605 per share. The filing also notes indirect ownership of 35 shares held by Child.
-- While some investors trimmed Broadcom, others added to positions. Addenda Capital’s report-style coverage also listed increases by Brighton Jones LLC (+21.8% to 29,683 shares), Revolve Wealth Partners LLC (+10.4% to 7,997 shares), and United Bank (+76.5% to 2,339 shares), among others—underscoring that not all institutional flows were negative.
-- More broadly, other large managers reported net increases in Broadcom during recent quarters, including Invesco (+1.8% to 39,149,651 shares), Legal & General Group (+2.3% to 33,450,786 shares), Franklin Resources (+4.0% to 29,511,195 shares), Amundi (+3.3% to 22,216,816 shares), and Fisher Asset Management (+1.9% to 12,611,740 shares).
+- Cascade Financial Partners LLC increased its stake in the SPDR Bloomberg 1-3 Month T-Bill ETF (BIL) by 66.0%, moving to 46,172 shares after purchasing an additional 18,350 shares; the holding was valued at $4,219,000 in its SEC filing.
+- For the iShares 1-3 Year Treasury Bond ETF (SHY), Cascade reported a 56.0% stake increase to 157,949 shares after adding 56,707 shares during the quarter; the fund represented about 1.2% of its portfolio and was its 15th-largest holding, valued at $13,081,000.
+- Cascade boosted the iShares 0-5 Year TIPS Bond ETF (STIP) by 45.7%, ending the period with 113,452 shares after buying 35,588 additional shares; the position made up about 1.1% of its portfolio and was its 18th-largest holding, worth $11,616,000.
 
 ---
 
-### 2026-04-17 | Navitas appoints Gregory M. Fischer to board
-**Sentiment:** +0.40 (pos: 0.47, neg: 0.08, neu: 0.45)
+### 2026-05-19 | Julius Baer boosts MercadoLibre stake 763%
+**Sentiment:** +0.28 (pos: 0.39, neg: 0.11, neu: 0.50)
 
-Navitas Semiconductor appointed semiconductor veteran Gregory M. Fischer to its board effective immediately, as the company continues its push into high-power GaN and SiC technologies used in areas like AI data centers, energy infrastructure, and industrial electrification. The company also expanded its board from eight to 10 members and designated the two new seats as Class III, with Fischer serving until the 2027 annual meeting and taking roles on the Compensation and Executive Steering committees. Fischer brings more than 40 years of semiconductor industry leadership experience, including senior roles at Broadcom and other technology firms, which Navitas says will support its strategic transformation and growth. Separately, investor commentary highlighted that Navitas shares around $10.26 have recently risen and appear to trade above a referenced valuation benchmark, implying expectations for strong future growth and margins. That same analysis cautioned about pressure points such as revenue softness in some end markets and a large reported net loss, raising questions about whether the stock’s upside is already priced in. Overall, the board appointment is positioned as a move to strengthen expertise as Navitas scales in a highly competitive AI-power semiconductor market.
+Investment managers reported notable 13F changes across several major U.S.-listed stocks, signaling ongoing portfolio reshuffling. Bank Julius Baer & Co. Ltd Zurich sharply increased its stake in MercadoLibre, buying additional shares to take its holding to 1,105 shares valued at about $2.2 million. Commerzbank Aktiengesellschaft FI also raised exposure to American Tower, adding shares to hold 65,696 shares worth roughly $11.5 million. In industrials, Julius Baer & Co. Ltd Zurich boosted its Alcoa position by 58.3% to 41,950 shares valued at about $2.2 million, while other investors made smaller but varied moves. In semiconductors and manufacturing equipment, Applied Finance Capital Management LLC trimmed Applied Materials by 7% to 164,210 shares worth about $42.2 million, even as other institutional investors increased positions in the company.
 
 **Key Points:**
-- Navitas Chairman Richard Hendrix said Fischer is joining "at a pivotal time" and that adding him will help ensure management ("Chris and our full management team") has "support and access to key insights" to succeed in a "highly competitive, fast moving market."
-- Fischer said he is "thrilled to join" to support Navitas’ transformation and "rapid growth" tied to the "AI revolution," adding he believes his background will strengthen Navitas’ "foundation" as it scales "leading-edge GaN and high-voltage SiC technologies"—and called the effort the "pivot to Navitas 2.0."
-- Navitas’ SEC filing details Fischer’s standard non-employee director pay structure: a pro-rata portion of an annual board retainer of $45,000, plus $7,500 for the Compensation Committee and $7,500 for the Executive Steering Committee.
+- In MercadoLibre, Bank Julius Baer & Co. Ltd Zurich’s 13F shows the stake jump came from purchasing an additional 977 shares—taking its holdings to 1,105 shares after a reported 763.3% increase—while institutional investors and hedge funds hold 87.62% of the company’s stock.
+- For American Tower, Commerzbank Aktiengesellschaft FI reported adding 4,299 shares to reach 65,696 shares, and the filing noted that institutional investors and hedge funds own 92.69% of AMT.
+- Alcoa also had a specific corporate event alongside the 13F buying: the company announced a quarterly dividend of $0.10 per share, with stockholders of record on May 19 and payment due June 5.
 
 ---
 
-### 2026-04-17 | U.S. stock futures steady on Snap, Iran blockade
-**Sentiment:** +0.53 (pos: 0.68, neg: 0.15, neu: 0.16)
+### 2026-05-19 | Passumpsic Savings Bank buys $514,000 ExxonMobil stake
+**Sentiment:** +0.30 (pos: 0.38, neg: 0.08, neu: 0.54)
 
-U.S. stock index futures were mostly steady as investors weighed Middle East developments and a heavy earnings slate. Optimism about potential U.S.-Iran negotiations persisted, but Trump said he is not considering extending the ceasefire and the U.S. military announced a full blockade of the Strait of Hormuz, raising supply-disruption concerns. Snap CEO Evan Spiegel announced a restructuring that will cut about 1,000 jobs (around 16% of the workforce) to reduce annualized expenses by more than $500 million and focus on community growth, revenue reacceleration, and augmented reality while stopping “non-core” projects; the moves follow pressure from activist investor Irenic Capital Management, and Snap shares rose in premarket trading despite a 31% year-to-date decline. Separately, StoneCo shares jumped after its board approved a one-time extraordinary cash dividend of $2.53 per share, paid May 4, 2026, funded by proceeds from its Linx software business sale. Traders also continued to parse bank results, with some lenders such as Bank of America and Morgan Stanley gaining while JPMorgan and Wells Fargo fell, as analysts warned equities could face sharp reversals if escalation risks return.
+Passumpsic Savings Bank reported new equity positions across several energy and utilities names, including ExxonMobil, Duke Energy, Dominion Energy, and ONEOK, alongside a larger allocation to the Vanguard Total International Stock ETF. For ExxonMobil, the filings and related market coverage point to higher oil-price tailwinds and ongoing developments such as resumed drilling in Guyana, while a Texas jury decision reportedly removed a legal overhang tied to historic disclosure claims. Despite that support, at least one analyst trimmed ExxonMobil’s price target, suggesting some investors remain cautious about near-term upside. In the utilities sector, Passumpsic’s buys in Duke Energy and Dominion Energy add to broadly high institutional ownership, with Dominion also noting a recent quarterly dividend. For ONEOK, recent brokerage research coverage appears mixed, reflecting differing views on the stock even as Passumpsic established a new position.
 
 **Key Points:**
-- In an ABC News interview, President Donald Trump said he is “not considering extending the ceasefire” and added, “I think you’re going to be watching an amazing two days ahead,” signaling he does not view an extension as necessary.
-- Trump also said Tehran reached out to Washington “just hours after” the U.S. initiated a naval blockade of Iranian oil shipments in the Strait of Hormuz, underscoring the fast-moving diplomacy around the blockade.
-- Analysts at BofA Global Research warned that markets may be discounting external risks: “U.S. equities appear to be looking through risks still being priced in commodity markets,” and that “With the ceasefire appearing fragile… the equity retracement appears to be looking through the risks of re-escalation.”
+- For ExxonMobil, Passumpsic disclosed it bought 4,273 shares worth about $514,000 in the 4th quarter (with institutional investors owning 61.80% of the company’s stock).
+- The ExxonMobil Guyana update was specifically about “resum[ed] drilling in Guyana’s Canje block,” which the coverage says “could support longer-term growth if exploration results are encouraging.”
+- The Texas jury decision described in the ExxonMobil coverage was tied to alleged misstatements “over Canadian oil sands and Rocky Mountain gas disclosures,” and the jury found Exxon Mobil “not liable” in the lawsuit.
 
 ---
 
-### 2026-04-17 | Goldman Sachs Lowers Lear Price Target, Keeps Neutral
-**Sentiment:** +0.46 (pos: 0.55, neg: 0.09, neu: 0.36)
+### 2026-05-19 | Navalign boosts SCHD stake 6.7%
+**Sentiment:** +0.20 (pos: 0.34, neg: 0.15, neu: 0.51)
 
-The provided Benzinga Pro links were promotional, headline-only samples summarizing Goldman Sachs rating and price-target updates across multiple stocks. The pages say Goldman maintained a “Neutral” rating for Lear and lowered its price target to $115, kept “Neutral” on CF Industries Holdings while raising its price target to $132, and maintained “Neutral” on CAVA Group while raising its price target to $86. The links also cite additional Goldman updates, including maintaining a “Buy” on Vertiv Holdings and raising its price target to $31.1, and maintaining “Neutral” on Mobileye Global while lowering its price target to $8. Overall, the common thread is that these rating/price-target changes are presented via Benzinga Pro marketing alerts rather than as full analyst reports.
-
-**Key Points:**
-- Each Benzinga Pro page shown is framed as a marketing pitch for the product—starting with the line “Never miss a trade again with the fastest news alerts in the world!” and positioning the post as a “headline only article.”
-- The pages explicitly invite readers to “Join 10,000+ serious traders in the Benzinga Pro community,” indicating the content being provided is meant to drive subscriptions rather than reproduce the underlying research report.
-- Benzinga’s pitch also promises “EXCLUSIVE stories originated by Benzinga reporters,” reinforcing that the displayed content is promotional boilerplate paired with headline snippets about broker/rating changes.
-
----
-
-### 2026-04-17 | Broadcom, Commvault Roll Out AI Agent Governance Tools
-**Sentiment:** +0.17 (pos: 0.31, neg: 0.14, neu: 0.54)
-
-Commvault announced expansions to Commvault Cloud with AI-focused controls aimed at making agentic AI adoption more predictable by acting as a “system of record” for AI resilience, with workflows intended to stop failures from cascading and speed recovery. The update also adds agent governance capabilities such as agent discovery and monitoring plus full-stack recovery, which Commvault says will be important as AI shifts from analysis to active execution. Separately, Broadcom unveiled “VMware Tanzu Platform agent foundations,” an agentic runtime within the Tanzu PaaS offering secure-by-default, deny-by-default security and governance guardrails for moving from siloed AI experiments to governed production. Broadcom says the runtime uses trusted Buildpacks for automatically patched and verified agent containers, structural secrets isolation to prevent agents from accessing each other’s credentials, and zero-trust networking with explicit authorization to restrict agent connectivity to internal systems and approved resources. It also supports resource limits to curb runaway agentic loops and is designed to fit existing Tanzu developer workflows and deploy on VMware Cloud Foundation (VCF) in private cloud or on-premises environments.
+Navalign LLC reported shifting ETF holdings in recent SEC filings, increasing its stake in the Schwab US Dividend Equity ETF (SCHD) while trimming its position in the SPDR Portfolio S&P 500 Growth ETF (SPYG). It also bought a new position in the iShares 0-3 Month Treasury Bond ETF (SGOV), indicating a move toward short-term Treasurys. The filings show SCHD and SGOV holdings alongside Navalign’s SPYG exposure, with the firm positioning SCHD as a relatively large portfolio allocation. Separately, Landmark Wealth Management LLC reduced its exposure to the Vanguard International Dividend Appreciation ETF (VIGI), selling shares and keeping the fund as a mid-sized holding. Across the ETFs, the articles note that other institutional investors also adjusted their positions, reflecting broadly active rebalancing rather than a single-firm change.
 
 **Key Points:**
-- Commvault said its Commvault Cloud is built as a “system of record” for AI resilience—aimed at making recovery “predictable, repeatable” by containing issues early instead of letting “small issues cascading across systems” escalate, and it warned MSPs face added complexity managing AI-driven activity “across multiple customer environments” while maintaining consistent governance and recovery standards.
-- Commvault’s agent governance capabilities are branded as “AI Protect,” which the company says will let organizations “discover and inventory agents,” “map how they interact with data and systems,” and “monitor their behavior across multiple cloud environments.”
-- Broadcom said the Tanzu Platform agent foundations runtime confines agents to “a set of authorized boundaries,” with guardrails embedded in the PaaS—so that “each AI agent is prevented from reading any other set of credentials at runtime other than the ones that have been assigned to it.”
-
----
-
-### 2026-04-16 | Broadcom Shares Rise on AI-Chip Deal News
-**Sentiment:** +0.63 (pos: 0.68, neg: 0.05, neu: 0.27)
-
-Broadcom shares rose 2.21% to $379.75 on Monday, extending a fifth straight day of gains as the broader market advanced, and traders cited strong momentum alongside resistance near $380. Separately, Benzinga’s order-flow analysis flagged a “Power Inflow” alert as the stock traded around $371.35, with an intraday high of $378.54 by 2:00 p.m. ET. Broadcom also rallied sharply over the prior two weeks, up about 21% to roughly $393 in after-hours trading, with investors focused on major AI-chip contract wins. Broadcom’s expanded deal with Meta runs through 2029 and involves custom 2nm AI processors for both training and inference under Meta’s MTIA initiative, starting with more than one gigawatt of computational capacity for an initial phase of a larger multi-gigawatt rollout. Broadcom additionally extended its partnership with Google through 2031 for next-generation Tensor Processing Units and networking infrastructure.
-
-**Key Points:**
-- Several analysts kept Broadcom (AVGO) at a “Strong Buy,” with a consensus price target of $464.32—implying roughly 22% upside from the reported levels.
-- Broadcom shares were described as trading just shy of their record peak near $414.61 after the rally pushed the stock to about $393 in after-hours trading.
-- Meta’s initial phase of the MTIA rollout was quantified as more than one gigawatt of computing power, described as sufficient to “power approximately 750,000 American households.”
-
----
-
-### 2026-04-16 | Funds lift Qualcomm positions, Greenup up 456%
-**Sentiment:** +0.34 (pos: 0.45, neg: 0.11, neu: 0.45)
-
-Recent SEC filings and investment disclosures show continued institutional activity in Qualcomm (QCOM), including large stake increases by Greenup Street Wealth Management and Carnegie Investment Counsel, with their holdings rising during the fourth quarter. Greenup Street added shares to reach 23,266 shares worth about $3.98 million, while Carnegie Investment Counsel increased to 366,879 shares valued at roughly $62.76 million. Other institutional investors also boosted positions, including Robeco Institutional Asset Management and various wealth management firms noted for incremental buying. Not all activity was net positive, however: Douglas Lane & Associates trimmed its Qualcomm stake, selling shares to hold 977,426 shares worth about $167.19 million. Overall, the coverage highlights a mixed but clearly active pattern of institutional rebalancing around Qualcomm during the most recent reporting periods.
-
-**Key Points:**
-- Carnegie Investment Counsel said Qualcomm is a 1.2% allocation of its portfolio and the stock is its 16th-largest holding, after the firm added 19,787 shares in the fourth quarter to reach 366,879 shares worth about $62.755 million.
-- Douglas Lane & Associates’ reduction was specifically reported as a 2.8% stake decrease: it sold 28,305 Qualcomm shares in the fourth quarter (ending with 977,426 shares). The filing also described Qualcomm as 2.3% of its portfolio and its 4th-largest position.
-- Among the additional 4th-quarter buyers, Choreo LLC increased its Qualcomm position by 2.1%, adding 733 shares to hold 36,455 shares valued at about $6.33 million.
+- Navalign said it increased SCHD holdings by 6.7% in the fourth quarter, buying an additional 18,127 shares to reach 290,702 shares; SCHD was reported as 2.0% of Navalign’s portfolio (its 14th-largest holding) and worth $7,974,000 in the latest SEC filing.
+- Navalign’s new SGOV position (short-term Treasurys) totaled 7,465 shares, valued at approximately $749,000; the article also notes SGOV tracks a market-value weighted index of U.S. Treasurys maturing in ≤ three months and is managed by BlackRock.
+- Landmark Wealth Management reduced its VIGI stake by 8.9% in the fourth quarter, selling 10,399 shares to leave it with 105,868 shares; VIGI accounted for about 3.7% of Landmark’s holdings (its 5th-largest position) and was valued at $9,682,000 at quarter-end.
 
 ---
 
 ## FMP Articles (30 articles)
 
-### 2026-05-22 | Qualcomm Surges 12%, Skyworks Rallies 9%, Qorvo Rises 7%: The Mobile Chip Trade Picks Smaller Winners
+### 2026-06-18 | The Magnificent 7 Is Dead. These 10 Stocks Are the New Market Favorites
 **Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/22/qualcomm-surges-12-skyworks-rallies-9-qorvo-rises-7-the-mobile-chip-trade-picks-smaller-winners/
+**URL:** https://247wallst.com/investing/2026/06/18/the-magnificent-7-is-dead-these-10-stocks-are-the-new-market-favorites/
 
-Shares of Qualcomm (NASDAQ:QCOM | QCOM Price Prediction) are up 11% at midday Friday, with Skyworks Solutions (NASDAQ:SWKS) higher by 9% and Qorvo (NASDAQ:QRVO) tacking on 7%.
-
----
-
-### 2026-05-22 | This Will be Broadcom's Stock Price In 2030
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/22/this-will-be-broadcoms-stock-price-in-2030/
-
-Few mega-caps have ridden the AI infrastructure wave as cleanly as Broadcom (NASDAQ:AVGO | AVGO Price Prediction).
+For nearly three years, investors could explain much of the stock market with a single phrase: the Magnificent 7.
 
 ---
 
-### 2026-05-22 | Broadcom Nears Buy Point With Earnings Ahead
-**Source:** Investors Business Daily
-**URL:** https://www.investors.com/stock-lists/sector-leaders/broadcom-avgo-stock-ai-chip-earnings/
+### 2026-06-18 | Forget Big Tech: Nancy Pelosi Just Poured Millions Into This Under-the-Radar Dividend Stock
+**Source:** 247 Wallst
+**URL:** https://247wallst.com/investing/2026/06/18/forget-big-tech-nancy-pelosi-just-poured-millions-into-this-under-the-radar-dividend-stock/
 
-Broadcom stock is below a pivot of 414.61 with its earnings report due June 3.
-
----
-
-### 2026-05-21 | Meta, Broadcom and others to launch $125 million semiconductor research hub at UCLA
-**Source:** CNBC
-**URL:** https://www.cnbc.com/2026/05/21/meta-broadcom-others-to-launch-125-million-semiconductor-research-hub-at-ucla.html
-
-Broadcom, Meta, Applied Materials, GlobalFoundries and Synopsys are joining forces to launch a $125 million "Semiconductor Hub" at the UCLA Samueli School of Engineering. The new partnership will support research across chip design, equipment, software, manufacturing and other parts of the semiconductor ecosystem, according to a UCLA press release.
+Nancy Pelosi filed a Periodic Transaction Report earlier this year, disclosing a purchase of AllianceBernstein (NYSE: AB) units in the $1,000,001 to $5,000,000 range, with a transaction date of January 16, 2026. That is a notable swerve. Her filings have historically leaned into mega-cap tech optionality, the Nvidias (NASDAQ: NVDA) and Broadcoms (NASDAQ: AVGO) of the world, so a check written to a Nashville-headquartered... Forget Big Tech: Nancy Pelosi Just Poured Millions Into This Under-the-Radar Dividend Stock
 
 ---
 
-### 2026-05-21 | Bull v. Bear: Weighing AVGO Value Against Earnings Growth
-**Source:** Schwab Network
-**URL:** https://www.youtube.com/watch?v=w6eaeT-FLvI
-
-Characteristics and Risks of Standardized Options: https://bit.ly/2v9tH6D. As investors digest Nvidia's (NVDA) earnings, @CharlesSchwab's Joe Mazzola and Kevin Hincks turn their attention to Broadcom (AVGO).
-
----
-
-### 2026-05-21 | Is Broadcom Inc. (AVGO) a Solid Growth Stock? 3 Reasons to Think "Yes"
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2925020/is-broadcom-inc-avgo-a-solid-growth-stock-3-reasons-to-think-yes?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_11_growth-2925020
-
-Broadcom Inc. (AVGO) possesses solid growth attributes, which could help it handily outperform the market.
-
----
-
-### 2026-05-21 | Google Reveals Plan to Dominate AI: Copy Apple
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/05/21/google-reveals-plan-to-dominate-ai-copy-apple/
-
-Artificial intelligence has become the new arms race for Big Tech, but the battle is no longer just about who has the smartest chatbot.
-
----
-
-### 2026-05-21 | Broadcom: A Structural Reality Not To Be Missed
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4907420-broadcom-a-structural-reality-not-to-be-missed
-
-Broadcom is my top 'picks and shovels' play on AI infrastructure, underpinned by robust Q1 FY'26 results and a Strong Buy rating. AVGO delivered 29% YoY revenue growth, 34% GAAP net income growth, and 41% free cash flow margin, driven by hyperscaler AI demand and custom silicon leadership. Despite a 47x P/E and significant re-rating, AVGO's lowest PEG among mega-caps signals strong profit growth expectations relative to peers.
-
----
-
-### 2026-05-20 | These Super Stocks Could Be the Biggest Winners in the AI Inference and Agentic AI Economy
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/05/20/super-stocks-big-winners-ai-inference-agentic/
-
-Nvidia is the biggest winner of the AI boom so far, but these three stocks could be the big winners from the shift toward inference and agentic AI.
-
----
-
-### 2026-05-20 | 5 Stocks With High ROE to Profit as Markets Skid on Tech Slump
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2924181/5-stocks-with-high-roe-to-profit-as-markets-skid-on-tech-slump?cid=CS-STOCKNEWSAPI-FT-analyst_blog|rw-2924181
-
-Markets slide as tech slumps and yields spike - screen flags high-ROE cash cows: ROST, TEL, AVGO, COP and ANET.
-
----
-
-### 2026-04-22 | 3 AI Chipmakers With Far More Upside Than AMD
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/04/22/3-ai-chip-makers-with-far-more-upside-than-amd/
-
-AMD trades at a premium despite having far slower growth than this trio.
-
----
-
-### 2026-04-22 | Broadcom just became the sixth company in U.S. history to achieve this feat
-**Source:** Market Watch
-**URL:** https://www.marketwatch.com/story/broadcom-just-became-the-sixth-company-in-u-s-history-to-achieve-this-feat-beb7b10d
-
-Google's announcement of new TPUs helped drive Broadcom's stock into record territory.
-
----
-
-### 2026-04-22 | Nvidia Is Cooling, Microsoft Is Stumbling, and the Fed Won't Cut. Here's Why I'm Still Buying Artificial Intelligence (AI) Stocks.
-**Source:** Fool - Investing News
-**URL:** https://www.fool.com/investing/2026/04/22/nvidia-is-down-microsoft-is-stumbling-and-the-fed/
-
-The AI market is still filled with great buying opportunities.
-
----
-
-### 2026-04-22 | Micron, AMD and Broadcom Shares Jump as AI Chip Demand Roars Back
+### 2026-06-18 | Good News for Broadcom Stock Fans
 **Source:** GuruFocus
-**URL:** https://www.gurufocus.com/news/8810020/micron-amd-and-broadcom-shares-jump-as-ai-chip-demand-roars-back
+**URL:** https://www.gurufocus.com/news/8922224/good-news-for-broadcom-stock-fans
 
-Micron Technology (MU), Advanced Micro Devices (AMD) and Broadcom (AVGO) rose on Wednesday as investors rotated back into AI chip stocks after each company repo
-
----
-
-### 2026-04-22 | Amazon’s $100 Billion Anthropic Bet Could Supercharge These 2 Overlooked Chip Stocks
-**Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/04/22/amazons-100-billion-anthropic-bet-could-supercharge-these-2-overlooked-chip-stocks/
-
-The AI arms race isn't just about who builds the smartest chatbot - it's about who supplies the plumbing. When Anthropic expanded its partnership with Amazon (NASDAQ: AMZN) to a reported $100 billion scale, the headlines focused on cloud dominance and model training. But here's the real question investors should be asking: who quietly benefits every... Amazon's $100 Billion Anthropic Bet Could Supercharge These 2 Overlooked Chip Stocks
+Broadcom (AVGO) said it has priced cash tender offers to buy up to $2.5 billion of its outstanding senior notes across six bond series, and the stock climbed ab
 
 ---
 
-### 2026-04-22 | Micron Soars 6%, AMD Rallies 4%, Broadcom Climbs 4% on Reignited AI Chip Demand
-**Source:** 247 Wallst
-**URL:** https://247wallst.com/investing/2026/04/22/micron-soars-6-amd-rallies-4-broadcom-climbs-4-on-reignited-ai-chip-demand/
+### 2026-06-18 | Tech Stocks Just Did Something That Should Only Happen Once Every 4 Million Years
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/06/18/tech-stocks-just-did-something-that-should-only-ha/
 
-Micron Technology (NASDAQ: MU) shares are up 6% in midday trading, leading a broad-based rally across AI chip names. Advanced Micro Devices (NASDAQ: AMD) stock gained 4% and Broadcom (NASDAQ: AVGO) shares are also up 4% as investors re-embrace the AI infrastructure trade on Wednesday. The catalyst is a renewed wave of conviction around AI chip demand, with... Micron Soars 6%, AMD Rallies 4%, Broadcom Climbs 4% on Reignited AI Chip Demand
-
----
-
-### 2026-04-22 | 5 Top-Ranked AI Infrastructure Bigwigs for Sparkling Returns in 2026
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2905202/5-top-ranked-ai-infrastructure-bigwigs-for-sparkling-returns-in-2026
-
-MU, AVGO, CIEN, SNDK and CRDO are five AI infra giants poised for strong 2026 gains as booming data center demand and massive hyperscaler spending fuel growth.
+The tech sector outperformed the S&P 500 by 29.7% over a 50-day trading period -- a "six-sigma" event. Not surprisingly, tech stocks have pulled back after such a huge run.
 
 ---
 
-### 2026-04-22 | Bingham Private Wealth LLC Invests $3.72 Million in Broadcom Inc. $AVGO
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/22/bingham-private-wealth-llc-invests-3-72-million-in-broadcom-inc-avgo.html
+### 2026-06-17 | Broadcom Inc. Announces Results and Upsize of Offers to Purchase for Cash Certain of its Outstanding Debt Securities
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8921837/broadcom-inc-announces-results-and-upsize-of-offers-to-purchase-for-cash-certain-of-its-outstanding-debt-securities
 
-Bingham Private Wealth LLC acquired a new position in Broadcom Inc. (NASDAQ: AVGO) during the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The institutional investor acquired 10,757 shares of the semiconductor manufacturer's stock, valued at approximately $3,723,000. Broadcom accounts for 3.1% of Bingham
-
----
-
-### 2026-04-22 | Broadcom Inc. $AVGO Shares Bought by Bernardo Wealth Planning LLC
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/04/22/broadcom-inc-avgo-shares-bought-by-bernardo-wealth-planning-llc.html
-
-Bernardo Wealth Planning LLC grew its stake in Broadcom Inc. (NASDAQ: AVGO) by 143.3% during the undefined quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission. The firm owned 2,830 shares of the semiconductor manufacturer's stock after purchasing an additional 1,667 shares during the quarter. Bernardo
+Broadcom Inc. Announces Results and Upsize of Offers to Purchase for Cash Certain of its Outstanding Debt Securities PR Newswir
 
 ---
 
-### 2026-04-21 | NVIDIA at $199: Buy, Sell or Hold
+### 2026-06-17 | Broadcom Inc. Announces Results and Upsize of Offers to Purchase for Cash Certain of its Outstanding Debt Securities
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/broadcom-inc-announces-results-and-upsize-of-offers-to-purchase-for-cash-certain-of-its-outstanding-debt-securities-302803781.html
+
+PALO ALTO, Calif., June 17, 2026 /PRNewswire/ -- Broadcom Inc. (NASDAQ: AVGO) ("Broadcom") today announced the expiration and results of its previously announced cash tender offers (collectively, the "Offers") to purchase any and all of its outstanding 4.926% Senior Notes due 2037; 4.900% Senior Notes due 2038; 5.050% Senior Notes due 2030; 5.200% Senior Notes due 2032; 5.150% Senior Notes due 2031 and 4.900% Senior Notes due 2032 (collectively, the "Notes").
+
+---
+
+### 2026-06-17 | The SpaceX IPO Could Trigger a Massive Rotation Across AI Stocks. Here's Why.
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/06/17/the-spacex-ipo-could-trigger-a-massive-rotation-ac/
+
+The biggest IPO in history could send shockwaves across the AI market.
+
+---
+
+### 2026-06-17 | Legendary Short Seller Jim Chanos Issues Dire Prediction: “We Have the Same Setup” As the Dot-Com Crash. Here's How the AI Bull Market Ends
 **Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/04/21/nvidia-at-199-buy-sell-or-hold/
+**URL:** https://247wallst.com/investing/2026/06/17/legendary-short-seller-jim-chanos-issues-dire-prediction-we-have-the-same-setup-as-the-dot-com-crash-heres-how-the-ai-bull-market-ends/
 
-NVIDIA (NASDAQ:NVDA | NVDA Price Prediction) presents a compelling bull case at $199.
-
----
-
-### 2026-03-23 | Broadcom's AI Revenue Just Doubled to $8.4 Billion. Is This the Most Underrated Artificial Intelligence (AI) Stock of 2026?
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/23/broadcoms-ai-revenue-just-doubled-to-84-billion-is/
-
-Broadcom is a leading designer of AI hardware. It's partnered with Google and OpenAI and supplies chips to Anthropic.
+Shares across the AI infrastructure complex are trading mixed midday Wednesday after well-known short seller Jim Chanos publicly compared today's artificial intelligence capital spending boom to the 1999-2000 telecom build-out.
 
 ---
 
-### 2026-03-23 | Geopolitical Thaw: Why this Rally has Legs
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/commentary/2888219/geopolitical-thaw-why-this-rally-has-legs?cid=CS-STOCKNEWSAPI-FT-investment_ideas-2888219
+### 2026-06-17 | Broadcom Inc. Announces Pricing Terms of Offers to Purchase for Cash Certain of its Outstanding Debt Securities
+**Source:** PRNewsWire
+**URL:** https://www.prnewswire.com/news-releases/broadcom-inc-announces-pricing-terms-of-offers-to-purchase-for-cash-certain-of-its-outstanding-debt-securities-302803433.html
 
-Ultimately, Wall Street thrives on the resolution of uncertainty. With the immediate threat of conflict cooling and technical indicators pointing toward a washout of sellers, the path of least resistance appears to be higher.
-
----
-
-### 2026-03-23 | The Big 3: SPY, AVGO, VRT
-**Source:** Schwab Network
-**URL:** https://www.youtube.com/watch?v=dHUeHyLpYQg
-
-"Everyone needs to be cautious" with Monday's pop in markets, says @ProsperTradingAcademy's Scott Bauer, pointing out that any headline can reverse the rally. In maneuvering around market action for today's Big 3, he explains how to "navigate the news flow" with the SPY ETF, technical resistance to watch in Broadcom (AVGO), and opportunity in Vertiv (VRT) to harvest "lots of premium.
+PALO ALTO, Calif., June 17, 2026 /PRNewswire/ -- Broadcom Inc. (NASDAQ: AVGO) ("Broadcom") today announced the pricing terms of its previously announced cash tender offers (collectively, the "Offers") to purchase the outstanding notes described below, in each case upon the terms and subject to the conditions set forth in the Offer to Purchase dated June 11, 2026 (the "Offer to Purchase") and the accompanying notice of guaranteed delivery (the "Notice of Guaranteed Delivery").
 
 ---
 
-### 2026-03-23 | Why Broadcom Stock Popped Today
-**Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/23/10-template/
+### 2026-06-17 | Broadcom Stock Pops After JPMorgan Calls For Aggressive Buying
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8920886/broadcom-stock-pops-after-jpmorgan-calls-for-aggressive-buying
 
-Bernstein analyst Stacy A. Rasgon says Broadcom is a buy.
+Broadcom (AVGO) shares climbed about 4% on Wednesday after analysts at JPMorgan (JPM) reiterated a positive stance on the semiconductor company and said recent
 
 ---
 
-### 2026-03-23 | Broadcom Introduces Symantec CBX, Delivering Enterprise-Grade Security to Under-Resourced SOC Teams
+### 2026-05-19 | Up 23%, Should You Buy Broadcom Stock?
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/05/19/up-23-should-you-buy-broadcom-stock/
+
+The stock's recent run has closed the discount window. However, Broadcom's XPU deals could still justify buying shares near their latest highs.
+
+---
+
+### 2026-05-19 | 5 Stocks That Keep Working Even When Markets Don't
+**Source:** The Street
+**URL:** https://www.youtube.com/watch?v=Wt5woxz2wDw
+
+JoAnne Feeney reveals the five stocks—from Broadcom to TJX—that she thinks stay strong even when markets lose momentum.
+
+---
+
+### 2026-05-19 | Most Retirees Skip Over Vanguard's $100 Billion VYM Despite Its 2.9 Percent Yield and Almost Zero Maintenance
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/19/most-retirees-skip-over-vanguards-100-billion-vym-despite-its-2-9-percent-yield-and-almost-zero-maintenance/
+
+A retiree holding $200,000 of Vanguard High Dividend Yield ETF (NYSEARCA:VYM | VYM Price Prediction) collects roughly $5,800 in annual income at the fund's 2.9% distribution yield, with no rebalancing and no concentration risk to monitor.
+
+---
+
+### 2026-05-19 | AMD, Broadcom and Qualcomm Lead Chip Stock Sell-Off Ahead of Nvidia Earnings
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8869830/amd-broadcom-and-qualcomm-lead-chip-stock-selloff-ahead-of-nvidia-earnings
+
+Nvidia (NVDA) and other AI chip names fell on Tuesday as traders waited for the semiconductor leader's first-quarter results on Wednesday and weighed fresh bets
+
+---
+
+### 2026-05-19 | Chamath Flags AI Compute Crunch: 8 Stocks To Watch
+**Source:** Benzinga
+**URL:** https://www.benzinga.com/markets/tech/26/05/52669609/chamath-flags-ai-compute-crunch-8-stocks-to-watch
+
+Investor Chamath Palihapitiya is calling out exploding compute demand and rising token prices. Yet the market may not be rewarding the companies positioned to solve the shortage.
+
+---
+
+### 2026-05-19 | Trump's Bull Market Is Standing on Shaky Legs. Just 5 Stocks Account for 52% of the S&P's Gains
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/19/trumps-bull-market-is-standing-on-shaky-legs-just-5-stocks-account-for-52-of-the-sps-gains/
+
+President Donald Trump has had little trouble pointing to Wall Street as evidence his second term economy is working.
+
+---
+
+### 2026-05-19 | Wall Street sets Broadcom stock price target for next 12 months
+**Source:** Finbold
+**URL:** https://finbold.com/wall-street-sets-broadcom-stock-price-target-for-next-12-months/
+
+Wall Street analysts are maintaining a bullish outlook on Broadcom (NASDAQ: AVGO) stock for the next 12 months as the company solidifies its position as one of the leading beneficiaries of the artificial intelligence infrastructure boom.
+
+---
+
+### 2026-05-19 | 3 Incredible AI Stocks That Aren't Too Late to Buy Now
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/05/19/3-incredible-ai-stocks-that-arent-too-late-to-buy/
+
+The long-term trajectory of AI spending will drive this trio higher.
+
+---
+
+### 2026-05-19 | LSEG Renews Partnership with Broadcom to Enhance Technology Infrastructure and Client Experience
+**Source:** Globe News Wire
+**URL:** https://www.globenewswire.com/news-release/2026/05/19/3297153/19933/en/lseg-renews-partnership-with-broadcom-to-enhance-technology-infrastructure-and-client-experience.html
+
+LONDON and PALO ALTO, Calif. , May 19, 2026 (GLOBE NEWSWIRE) -- LSEG and Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops, and supplies semiconductor and infrastructure software solutions, today announced a renewal of their long-standing technology partnership, underpinned by a new five-year agreement centered on VMware Cloud Foundation.
+
+---
+
+### 2026-05-19 | LSEG Renews Partnership with Broadcom to Enhance Technology Infrastructure and Client Experience
 **Source:** GlobeNewsWire
-**URL:** https://www.globenewswire.com/news-release/2026/03/23/3260460/19933/en/Broadcom-Introduces-Symantec-CBX-Delivering-Enterprise-Grade-Security-to-Under-Resourced-SOC-Teams.html
+**URL:** https://www.globenewswire.com/news-release/2026/05/19/3297153/19933/en/LSEG-Renews-Partnership-with-Broadcom-to-Enhance-Technology-Infrastructure-and-Client-Experience.html
 
-PALO ALTO, Calif., March 23, 2026 (GLOBE NEWSWIRE) -- Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops and supplies semiconductor and infrastructure software solutions, today announced Symantec CBX (Carbon Black XDR), a cloud-based platform that combines the best Symantec and Carbon Black technologies in one intuitive solution.
-
----
-
-### 2026-03-23 | IAM Advisory LLC Sells 1,655 Shares of Broadcom Inc. $AVGO
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/23/iam-advisory-llc-sells-1655-shares-of-broadcom-inc-avgo.html
-
-IAM Advisory LLC decreased its position in Broadcom Inc. (NASDAQ: AVGO) by 8.4% in the fourth quarter, according to its most recent Form 13F filing with the SEC. The firm owned 17,980 shares of the semiconductor manufacturer's stock after selling 1,655 shares during the period. Broadcom accounts for about 1.4% of IAM Advisory
+LONDON and PALO ALTO, Calif., May 19, 2026 (GLOBE NEWSWIRE) -- LSEG and Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops, and supplies semiconductor and infrastructure software solutions, today announced a renewal of their long-standing technology partnership, underpinned by a new five-year agreement centered on  VMware Cloud Foundation.
 
 ---
 
-### 2026-03-22 | Is Broadcom a Buy?
+### 2026-04-19 | 2 Stocks That Could Be Worth More Than Apple by 2028
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/is-broadcom-a-buy/
+**URL:** https://www.fool.com/investing/2026/04/19/2-stocks-that-could-be-worth-more-than-apple-by-20/
 
-Broadcom's management says artificial intelligence (AI) sales will double in 2027. The company will have an estimated 60% of the application-specific integrated circuits market next year and is benefiting from surging AI spending.
-
----
-
-### 2026-03-22 | Wall Street Week Ahead
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4884798-wall-street-week-ahead
-
-Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m.
+Broadcom is a core AI infrastructure play with strong recent growth and long demand visibility. TSMC is the manufacturing gatekeeper for leading-edge chips, making it indispensable to the AI boom.
 
 ---
 
-### 2026-03-22 | 3 Genius Artificial Intelligence (AI) Stocks You'll Regret Not Buying Now
+### 2026-04-19 | Prediction: It's Not Too Late to Buy Broadcom Stock After Another Win for the Company
 **Source:** The Motley Fool
-**URL:** https://www.fool.com/investing/2026/03/22/3-genius-artificial-intelligence-ai-stocks-youll-r/
+**URL:** https://www.fool.com/investing/2026/04/19/prediction-its-not-too-late-to-buy-broadcom-stock/
 
-Microsoft's stock has rarely been this cheap over the past decade. The market expects only one year of growth from Nvidia.
+Broadcom won another big deal, extending its agreement with Meta Platforms. The company's huge custom AI chip opportunity keeps growing.
 
 ---
 
-### 2026-03-22 | Broadcom Inc. $AVGO Shares Sold by Canal Capital Management LLC
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/22/broadcom-inc-avgo-shares-sold-by-canal-capital-management-llc.html
+### 2026-04-19 | Top Wall Street analysts are bullish on these 3 stocks for the long haul
+**Source:** CNBC
+**URL:** https://www.cnbc.com/2026/04/19/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html
 
-Canal Capital Management LLC trimmed its position in Broadcom Inc. (NASDAQ: AVGO) by 5.3% in the fourth quarter, according to its most recent 13F filing with the Securities and Exchange Commission. The fund owned 55,064 shares of the semiconductor manufacturer's stock after selling 3,108 shares during the quarter. Broadcom makes up approximately 2.7%
+Picking stocks can be challenging due to the vast universe of equities. Investors can follow the ratings of top Street analysts and make informed decisions.
+
+---
+
+### 2026-04-19 | Robbins Farley Sells 2,034 Shares of Broadcom Inc. $AVGO
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/19/robbins-farley-sells-2034-shares-of-broadcom-inc-avgo.html
+
+Robbins Farley trimmed its holdings in shares of Broadcom Inc. (NASDAQ: AVGO) by 9.4% during the fourth quarter, according to its most recent Form 13F filing with the SEC. The firm owned 19,504 shares of the semiconductor manufacturer's stock after selling 2,034 shares during the period. Broadcom makes up approximately 3.1% of Robbins
+
+---
+
+### 2026-04-19 | Integrated Financial Solutions Inc. Has $25.50 Million Position in Broadcom Inc. $AVGO
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/19/integrated-financial-solutions-inc-has-25-50-million-position-in-broadcom-inc-avgo.html
+
+Integrated Financial Solutions Inc. decreased its position in Broadcom Inc. (NASDAQ: AVGO) by 2.2% in the fourth quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission. The institutional investor owned 73,673 shares of the semiconductor manufacturer's stock after selling 1,649 shares during the quarter. Broadcom makes
+
+---
+
+### 2026-04-19 | Broadcom Inc. $AVGO is Sumitomo Mitsui Trust Group Inc.’s 6th Largest Position
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/19/broadcom-inc-avgo-is-sumitomo-mitsui-trust-group-inc-s-6th-largest-position.html
+
+Sumitomo Mitsui Trust Group Inc. reduced its stake in Broadcom Inc. (NASDAQ: AVGO) by 4.3% in the undefined quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 11,584,281 shares of the semiconductor manufacturer's stock after selling 522,604 shares during the quarter. Broadcom comprises about 2.4% of
+
+---
+
+### 2026-04-19 | 18,467 Shares in Broadcom Inc. $AVGO Acquired by Dara Capital US Inc.
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/19/18467-shares-in-broadcom-inc-avgo-acquired-by-dara-capital-us-inc.html
+
+Dara Capital US Inc. purchased a new position in Broadcom Inc. (NASDAQ: AVGO) during the fourth quarter, according to the company in its most recent 13F filing with the SEC. The institutional investor purchased 18,467 shares of the semiconductor manufacturer's stock, valued at approximately $6,391,000. Broadcom accounts for about 5.7% of Dara Capital
+
+---
+
+### 2026-04-19 | Curtis Advisory Group LLC Purchases 4,922 Shares of Broadcom Inc. $AVGO
+**Source:** Defense World
+**URL:** https://www.defenseworld.net/2026/04/19/curtis-advisory-group-llc-purchases-4922-shares-of-broadcom-inc-avgo.html
+
+Curtis Advisory Group LLC boosted its position in Broadcom Inc. (NASDAQ: AVGO) by 117.9% during the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The fund owned 9,098 shares of the semiconductor manufacturer's stock after acquiring an additional 4,922 shares during the period. Curtis
+
+---
+
+### 2026-04-18 | The Best Stocks to Invest $1,000 in Right Now
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/18/the-best-stocks-to-invest-1000-in-right-now/
+
+Palantir's stock is down 20% on the year right now, but its revenue continues to skyrocket. Nebius Group could see revenue of nearly $10 billion next year.
+
+---
+
+### 2026-04-18 | Broadcom vs. AMD: Which AI Chipmaker Is the Better Buy?
+**Source:** The Motley Fool
+**URL:** https://www.fool.com/investing/2026/04/18/broadcom-vs-amd-which-ai-chipmaker-is-the-better-b/
+
+Broadcom and AMD have high-profile customers and recently expanded relationships with several of them. Both companies have similar revenue growth, but Broadcom has much higher profit margin.
 
 ---

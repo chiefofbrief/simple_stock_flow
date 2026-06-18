@@ -1,22 +1,22 @@
 # Analyst Consensus: AMKR
-*Generated: 2026-05-20 | Price as of: 2026-05-20*
+*Generated: 2026-06-18 | Price as of: 2026-06-18*
 
 ## Price Targets
 
-**Current Price:** $67.67
-**Median Target:** $67.00 — implied -1.0% vs current price
-**Consensus Target:** $66.75 — implied -1.4%
-**Target Range:** $43.00 (low) — $90.00 (high)
+**Current Price:** $90.34
+**Median Target:** $74.50 — implied -17.5% vs current price
+**Consensus Target:** $76.00 — implied -15.9%
+**Target Range:** $65.00 (low) — $90.00 (high)
 
-**Coverage:** 13 analyst target(s) in past year | 3 last quarter | 3 last month
+**Coverage:** 14 analyst target(s) in past year | 4 last quarter | 1 last month
 
 **Target Trend:**
 
 | Window | Avg Target | Count | Note |
 |--------|-----------|-------|------|
-| Last month | $74.67 | 3 |  |
-| Last quarter | $74.67 | 3 |  |
-| Last year | $50.46 | 13 |  |
+| Last month | $80.00 | 1 | ⚠ low coverage — treat as unreliable |
+| Last quarter | $76.00 | 4 |  |
+| Last year | $52.57 | 14 |  |
 
 ## Grade Actions — Last 90 Days
 
@@ -24,7 +24,7 @@
 
 | Date | Firm | Action | Previous | New |
 |------|------|--------|----------|-----|
-| 2026-04-28 | Goldman Sachs | Maintain | Neutral | Neutral |
+| 2026-04-28 | B. Riley Securities | Maintain | Neutral | Neutral |
 | 2026-04-28 | Needham | Maintain | Buy | Buy |
 | 2026-04-28 | Morgan Stanley | Maintain | Equal Weight | Equal Weight |
-| 2026-04-28 | B. Riley Securities | Maintain | Neutral | Neutral |
+| 2026-04-28 | Goldman Sachs | Maintain | Neutral | Neutral |

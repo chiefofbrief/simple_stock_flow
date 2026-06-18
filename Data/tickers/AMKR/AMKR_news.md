@@ -1,31 +1,103 @@
 # AMKR News Data
-**Generated:** 2026-05-20 16:35
-**Date Range:** 2026-02-19 to 2026-05-20
+**Generated:** 2026-06-18 15:00
+**Date Range:** 2026-03-20 to 2026-06-18
 
 ## Summary Statistics
 
 ### Coverage
-- **Perigon:** 10 stories (aggregated from 10 media items)
-- **FMP:** 30 articles from 8 sources
-- **Total:** 40 items
+- **Perigon:** 13 stories (aggregated from 13 media items)
+- **FMP:** 30 articles from 9 sources
+- **Total:** 43 items
 
 ### Time Distribution
 | Month | Perigon | FMP |
 |-------|---------|-----|
-| 2026-05 | 5 | 10 |
+| 2026-06 | 3 | 10 |
+| 2026-05 | 8 | 10 |
 | 2026-04 | 2 | 10 |
-| 2026-03 | 3 | 10 |
 
 ### Sentiment Distribution
 
-**Perigon** (avg composite: +0.212)
-- Positive-leaning: 10 stories
+**Perigon** (avg composite: +0.204)
+- Positive-leaning: 12 stories
 - Neutral: 0 stories
-- Negative-leaning: 0 stories
+- Negative-leaning: 1 stories
 
 ---
 
-## Perigon Stories (10 stories)
+## Perigon Stories (13 stories)
+
+### 2026-06-18 | Amkor shares jump on 10-year TSMC partnership
+**Sentiment:** +0.65 (pos: 0.74, neg: 0.09, neu: 0.17)
+
+Amkor Technology shares jumped after the company announced a 10-year agreement with Taiwan Semiconductor Manufacturing Company to expand advanced semiconductor packaging and testing in Arizona, with TSMC expected to procure those services from Amkor. The deal is being framed as a way to accelerate the U.S. semiconductor supply chain and improve resiliency as demand grows for AI, high-performance computing, and advanced mobile electronics. Analysts and investors also view the partnership as validation of Amkor’s multi-year investments to move beyond a more cyclical outsourced assembly and test model into the performance-critical packaging “system-level” path, supporting stronger revenue visibility into the decade. Several reports linked the news to broader industry tailwinds, including the shift toward advanced packaging and tighter supply conditions that have helped boost memory and related chipmakers. Market coverage also highlighted Amkor’s momentum in trading, including a breakout to new 52-week highs and favorable technical indicators suggesting continued buying interest. Overall, the agreement is portrayed as strengthening Amkor’s customer base while helping TSMC deepen its U.S.-based production footprint.
+
+**Key Points:**
+- Amkor CEO Kevin Engel said the TSMC deal gives customers “a full U.S.-based supply chain, from advanced silicon manufacturing to tested packaged devices,” citing Arizona facilities as the physical backbone of that end-to-end coverage.
+- The agreement is tied to TSMC’s “newly expanded campus in Peoria, Arizona,” where TSMC will procure Amkor’s advanced packaging and testing services.
+- One report connected the timing to a broader “memory-chip shortage” caused by “the rapid build-out of infrastructure for artificial intelligence,” arguing that tight supply conditions are pushing up prices and benefiting not just memory producers but also companies in their commercial radius.
+
+---
+
+### 2026-06-12 | Amkor shares surge 7.6% amid packaging targets
+**Sentiment:** +0.34 (pos: 0.47, neg: 0.12, neu: 0.41)
+
+Amkor Technology shares jumped about 7.6% in mid-June 2026, with the move largely driven by a broader rally in the semiconductor equipment sector as multiple peer stocks rose in tandem and trading volume picked up. Reporting around the stock suggested the strength also aligns with renewed optimism for Amkor’s advanced packaging roadmap and multi-year growth targets, alongside AI-related supply-chain tailwinds, though a clear single company-specific catalyst wasn’t identified. Insider activity over the prior six months showed only sales and no purchases, while institutional investors were mixed with net share increases from some and reductions from others. Longer-term themes in focus include Amkor’s role in co-packaged optics for next-generation data centers, with upcoming testing challenges highlighted as AI infrastructure expands. Separately, the company made materials available from its Investor Day and published its 2025 Corporate Responsibility Report, reinforcing attention to strategy and sustainability alongside market momentum. Technical coverage characterized the setup as broadly bullish on medium-to-long time horizons but with near-term resistance and consolidation risk after the sharp run-up.
+
+**Key Points:**
+- Amkor’s 7.6% jump was explicitly tied to a coordinated sector move: on June 12, 2026 it rose to $81.90 while semiconductor-equipment/related peers also gained—ONTO +6.8%, TER +5.9%, ENTG +4.5%, MKSI +3.9%, and KLAC +3.8%—pointing to sector-wide momentum rather than a single-company catalyst.
+- Insider trading details show only sales (no purchases) over the prior six months: 24 open-market transactions, all sales. The article breaks out several executives’ large disposals, including CEO Kevin K. Engel selling 28,816 shares (~$1.36M), EVP & General Counsel Mark N. Rogers selling 45,000 shares (~$2.22M), and Guilaumme Marie Jean Rutten selling 40,000 shares (~$1.96M).
+- Ahead of/around Investor Day, Amkor made the Investor Day presentation available for download and offered a webcast replay, with the materials promoted alongside specific hashtags: #OneAmkor, #InvestorDay, #Semiconductors, #AdvancedPackaging, and #AMKR.
+
+---
+
+### 2026-06-04 | Mizuho raises Micron price target, keeps Outperform
+**Sentiment:** +0.22 (pos: 0.36, neg: 0.14, neu: 0.50)
+
+Mizuho analyst Vijay Rakesh maintained an “Outperform” rating on Advanced Micro Devices (AMD) and raised its price target to $615 from $515, signaling confidence in AMD’s ability to capture growth tied to AI and gaming. The analyst decision follows recent insider activity showing about $117.3 million in shares sold over the last three months. AMD’s bull case centers on its position in the AI GPU market and broader semiconductor demand across data centers and gaming. However, GuruFocus analysis cited in the report flags that the stock appears priced well above intrinsic value, with a very high trailing P/E that could raise concerns about whether current valuation levels are sustainable. Overall, the updates reflect a positive analyst stance on AMD’s near- to mid-term prospects while highlighting valuation and momentum risks for new buyers.
+
+**Key Points:**
+- GuruFocus calculated AMD’s GF Value™ at $231.13, saying the stock at roughly $516.10 was about 123.3% “overvalued” versus that intrinsic-value estimate—an additional numeric detail beyond the summary’s general valuation caution.
+- GuruFocus also put specific valuation figures on the concern: AMD’s trailing P/E (TTM) was cited at 169.21x, versus a 5-year median P/E of 92.59x—supporting the report’s argument that current pricing may be difficult to sustain.
+- The GuruFocus write-up described AMD’s business footprint and scale more concretely, citing a market capitalization of about $841.55 billion and stating AMD designs semiconductors for PCs, gaming consoles, data centers, industrial applications, and automotive markets.
+
+---
+
+### 2026-05-25 | Amkor $7B Arizona advanced packaging expansion plans
+**Sentiment:** +0.22 (pos: 0.42, neg: 0.20, neu: 0.39)
+
+Amkor Technology is expanding its advanced semiconductor packaging footprint in Arizona, adding a 67-acre parcel to bring the campus to 171 acres and committing about $7 billion to increase capacity for AI, high-performance computing, automotive, and communications demand. The company’s plan is tied to US industrial policy support, including up to $407 million in CHIPS Act funding, and it includes an AMD collaboration for advanced chip packaging with production targeted to begin in early 2028 after a staged ramp from facilities slated for completion in 2027. At its investor updates, Amkor outlined financial goals alongside the build-out, including revenue guidance of $8.5 billion to $9.5 billion for 2028 and $11 billion by 2030. Bulls point to advanced packaging’s growing importance for faster, more power-efficient chips and argue the Arizona shift could improve execution and align the company with a more US-linked supply chain. Bears and valuation-focused commentary note the stock debate centers on execution risk and profitability, citing pressures from costs, weak free-cash-flow margins, and valuation that may already price in strong results. Recent results and management commentary also emphasize a continuing recovery in advanced packaging demand while maintaining investment for automotive and high-performance computing applications.
+
+**Key Points:**
+- After Amkor disclosed its May 21 AMD advanced-packaging collaboration, shares fell 2.6% when the company’s 2028 revenue guidance ($8.5B–$9.5B) came in slightly below Wall Street expectations.
+- Amkor’s Arizona build has already moved into construction: groundbreaking for the advanced packaging campus took place on October 6, 2025, with the first manufacturing facility targeted for completion by mid-2027.
+- Amkor and its partners emphasize the technical rationale: advanced packaging approaches such as 2.5D and 3D packaging can stack/connect multiple dies, boosting performance and energy efficiency. The company also cites marquee customers including Nvidia and Apple as part of its positioning.
+
+---
+
+### 2026-05-23 | Amkor plans 67-acre Arizona expansion
+**Sentiment:** -0.34 (pos: 0.17, neg: 0.51, neu: 0.33)
+
+Amkor Technology used its May 21, 2026 Investor Day to lay out a growth plan centered on advanced semiconductor packaging as the industry shifts due to geopolitics, supply-chain regionalization, and the slowing of Moore’s Law. The company projected revenue rising from $6.7 billion in 2025 to about $11 billion or more by 2030, with earnings per share growing from $1.50 to more than $5, supported by a mix shift toward higher-value packaging and expanding customer commitments. A key pillar of that strategy is U.S. capacity expansion in Arizona, including the purchase of 67 additional acres adjacent to its Peoria Innovation Core, enabling a high-volume OSAT-style advanced packaging and test footprint and relying in part on government and partner incentives. Amkor also emphasized earlier customer engagement and co-development, including relationships tied to major customers and an extended collaboration with TSMC to connect advanced front-end fabrication with back-end packaging and test in the region. While analysts highlighted the strategy’s improved visibility and potential margin expansion, some commentary pointed to valuation headwinds and weaker free-cash-flow conversion, and at least one report noted notable insider selling during the prior three months. Overall, Amkor is positioning its Arizona buildout and advanced-packaging leadership as the engine for a structurally stronger earnings profile over the next several years.
+
+**Key Points:**
+- Amkor tied its Arizona expansion to specific incentive amounts, saying it expects about $2 billion in investment tax credits and about $400 million in CHIPS Act incentives, alongside land grants and partner co-investments.
+- Management laid out additional operating assumptions for the buildout, including ramp-up costs for the Arizona facility in 2027–28 (i.e., near-term margin/cash-flow drag before volume scales).
+- Amkor also quantified margin progress beyond the topline/EPS targets, projecting gross margin expansion from about 14% to roughly 22% as the higher-value advanced packaging mix scales.
+
+---
+
+### 2026-05-23 | Peoria OKs Amkor 67 Acres for Chip Campus
+**Sentiment:** +0.34 (pos: 0.41, neg: 0.07, neu: 0.52)
+
+Peoria’s City Council approved the sale of 67 acres of State Trust Land to Amkor Technology in the Peoria Innovation Core, with the parcel priced at just under $32.5 million. The land sits next to Amkor’s already-owned 104-acre site and is intended to give the company space to expand its advanced semiconductor packaging and testing campus as demand rises for AI and high-performance chips. Amkor has outlined about a $7 billion investment that would include substantial cleanroom manufacturing capacity and ultimately about 3,000 jobs, according to city and company statements. The project is planned in phases, with the first phase expected to open in early 2028 and earlier construction milestones tied to the campus buildout. City leaders framed the deal as part of a broader “smart growth” strategy for the innovation hub, supported through the partnership between the city and the Arizona State Land Department.
+
+**Key Points:**
+- Amkor’s planned expansion includes “more than 750,000 square feet of cleanroom manufacturing space,” with early reporting placing the overall campus at “a roughly 2.3 million square foot buildout across two phases,” with the first phase targeted for completion in mid-2027 and production expected to start in early 2028.
+- The land parcel was specifically identified as “Parcel D” and approval came as part of “an anticipated” May 19 action; the reporting also notes the city had previously granted Amkor “the right to have the first opportunity to buy the property.”
+- Peoria Mayor Jason Beck tied the deal to the details of the Peoria Innovation Core (PIC) partnership, saying the city’s approach includes investing after a “historic state land purchase of 834 acres,” obtaining “master-developer rights within the entire 7,300-acre PIC,” and using upfront infrastructure funding that is “subject to reimbursement.”
+
+---
 
 ### 2026-05-20 | Amkor earnings beat, dividend, AI packaging plans
 **Sentiment:** +0.12 (pos: 0.27, neg: 0.14, neu: 0.59)
@@ -111,49 +183,85 @@ Amkor Technology is positioning itself as a key supplier for AI computing throug
 
 ---
 
-### 2026-03-20 | Amkor stock rises on NVIDIA-backed packaging plans
-**Sentiment:** +0.45 (pos: 0.58, neg: 0.13, neu: 0.29)
-
-Amkor’s stock rally is being framed as a structural re-rating as investors shift it from a traditional packaging supplier to critical infrastructure for the next AI compute wave, following Nvidia’s late-2025 validation of Amkor as an advanced packaging partner tied to U.S. chip-reshoring and AI buildout. The bull case centers on sustained demand growth for advanced packaging technologies such as 2.5D and high-density fan-out, with advanced packaging expected to nearly triple over 2026 and Amkor guiding first-quarter 2026 sales of $1.60–$1.70 billion (about 25% year over year at the midpoint). Institutional interest is reinforcing that narrative, including iMGP Global Partner’s fourth-quarter 2025 investor letter highlighting Amkor as a top performer for AI-driven advanced packaging momentum. Separately, Nvidia is pushing AI infrastructure expansion through a $2 billion investment in cloud provider Nebius (taking an 8.3% stake) and a collaboration with Palantir, aiming to accelerate large AI data centers—Nebius plans facilities with more than five gigawatts of computing capacity by 2030, including a 1.2 gigawatt campus in Missouri, with early access to Nvidia’s hardware and software. At the same time, the surge in data-center buildouts is raising energy and environmental concerns, even as Nvidia points to chip efficiency improvements and introduced its Rubin data-center architecture. More broadly, research cited in the coverage describes GPU demand shifting toward data-center accelerators amid compute-scarcity, “software moat,” and supply-chain risks, while the broader stock market still logged a losing week that left major indexes hovering near key support levels at their 200-day moving averages.
-
-**Key Points:**
-- The broader market weakness cited alongside Amkor’s rally was quantified as a “lousy week,” with the S&P 500 down about 1.6%, the Nasdaq down about 1.3%, and the Dow down about 2%, leaving each index “in tests [of] support at their 200-day moving averages.”
-- After Nvidia’s $2 billion investment announcement, the coverage reports that investors reacted positively—Nebius shares “jumping significantly” while Nvidia’s own stock saw only a “modest gain.”
-- Nebius’s stated growth plan—more than five gigawatts of computing capacity by 2030—was described as electricity demand “comparable to the power consumption of millions of homes,” underscoring why energy constraints are a central issue for AI data-center buildouts.
-
----
-
-### 2026-03-06 | Amkor Technology Receives Hold Consensus from Analysts
-**Sentiment:** +0.21 (pos: 0.39, neg: 0.18, neu: 0.43)
-
-Analysts issued mixed ratings across several financial and semiconductor names: Ameriprise Financial (NYSE:AMP) holds a MarketBeat consensus of Hold from 11 brokers (ranging from sell to strong-buy) with an average one‑year target near $555, and the firm topped quarter estimates with $10.83 EPS on $4.92 billion in revenue. Amprius Technologies (NYSE:AMPX) carries a MarketBeat consensus of Moderate Buy from nine analysts (one sell, eight buys) with an average 12‑month target around $16.63, as multiple brokerages initiated or raised coverage and institutional holders increased positions. Amkor Technology (NASDAQ:AMKR) has a consensus Hold from 11 analysts (eight hold, three buy) and an average target near $49.86, even as several firms raised price targets, Wall Street Zen upgraded the stock to strong-buy, and the company reported stronger-than-expected quarterly results ($0.69 EPS on $1.89 billion revenue). Filing and 13F activity show modest portfolio adjustments — including Royce & Associates trimming Amkor — highlighting active institutional repositioning. Overall, the coverage reflects differing views on earnings momentum, guidance and valuation across these companies.
-
-**Key Points:**
-- Ameriprise reported a net margin of 19.28% and an exceptionally high return on equity of 63.04% for the quarter; the company earned $9.54 EPS in the same quarter a year earlier.
-- Institutional investors materially increased stakes in Amprius: AQR Capital Management boosted its holding by 86.7% to 77,764 shares (about $208,000), while Bank of America grew its position by 31.1% to 12,890 shares (about $36,000).
-- Royce & Associates trimmed its Amkor position by 1.6%, selling 11,019 shares and ending the period with 661,741 shares valued at $18,793,000; overall, institutional investors and hedge funds own about 42.76% of Amkor.
-
----
-
-### 2026-03-01 | Mid-Cap Fund Sells Amkor Stake Over Valuation
-**Sentiment:** +0.25 (pos: 0.40, neg: 0.14, neu: 0.46)
-
-Align Technology supplies Invisalign clear aligners, Vivera retainers, iTero intraoral scanners and a suite of digital and 3D-printing solutions for practitioners treating children, teens and adults. AMTD IDEA Group operates as an investment holding company offering capital market, digital, media, hospitality and strategic investment services across China, Hong Kong, Europe, the U.S. and Southeast Asia. Despite a 73% revenue increase for Nvidia, its stock fell about 5%, dragging down AMD and Intel as investors questioned AI-driven profitability and were rattled by rising oil prices. Amentum Holdings provides large-scale engineering and technology solutions—ranging from intelligence analytics, space systems and cybersecurity to environmental remediation, nuclear services and supply-chain support—for U.S. government and commercial clients. Harbor Capital Advisors’ Mid Cap Value Fund outperformed in Q4 2025 and for the year, with the Institutional Class returning 4.07% in Q4 and 15.95% for 2025, citing disciplined value selection and naming holdings such as Amkor Technology.
-
-**Key Points:**
-- Align offers Invisalign First Phase I and Invisalign First Comprehensive Phase II packages specifically for younger patients (ages six to ten, with mixed primary and permanent teeth), and sells devices such as the 3D‑printed Invisalign Palatal Expander; its Imaging Systems segment also includes exocad CAD/CAM software, the iTero TimeLapse comparison tool and the Invisalign outcome simulator (chair‑side and cloud‑based).
-- AMTD IDEA Group was formerly known as AMTD International Inc., was founded in 2003 and is based in Paris; its business includes a Media & Entertainment segment (video production, social media activation, experiential marketing and branded content) and a Strategic Investments arm that even invests in movie income rights.
-- Amentum was incorporated in 2023 and is headquartered in Chantilly, Virginia; it operates through two reported segments (Digital Solutions and Global Engineering Solutions) and provides services including environmental remediation, nuclear power solutions, platform engineering and sustainment, plus supply‑chain management for U.S. government and allied clients.
-
----
-
 ## FMP Articles (30 articles)
 
-### 2026-05-20 | Why Amkor Technology (AMKR) is a Top Growth Stock for the Long-Term
+### 2026-06-17 | Can Strong Smartphone Demand Sustain AMKR's Growth Momentum?
 **Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2924042/why-amkor-technology-amkr-is-a-top-growth-stock-for-the-long-term?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|zacks_education_growth_score-2924042
+**URL:** https://www.zacks.com/stock/news/2938731/can-strong-smartphone-demand-sustain-amkr-s-growth-momentum?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2938731
 
-The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.
+Amkor Technology is benefiting from premium smartphone demand, 5G adoption and AI-driven chip complexity, fueling advanced packaging revenue growth.
+
+---
+
+### 2026-06-16 | 1 Under-the-Radar Stock Riding the AI Boom (Hint: It's Not Nvidia)
+**Source:** Fool - Investing News
+**URL:** https://www.fool.com/investing/2026/06/16/1-under-the-radar-stock-riding-the-ai-boom-hint-it/
+
+This semiconductor packaging company is benefiting from a key bottleneck in the AI supply chain.
+
+---
+
+### 2026-06-16 | Amkor Technology (AMKR) Increases Despite Market Slip: Here's What You Need to Know
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2938328/amkor-technology-amkr-increases-despite-market-slip-here-s-what-you-need-to-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6v2-2938328
+
+In the most recent trading session, Amkor Technology (AMKR) closed at $86.55, indicating a +1.3% shift from the previous trading day.
+
+---
+
+### 2026-06-16 | TSMC and Amkor Technology Announce Long Term Partnership to Accelerate Advanced Packaging in the United States
+**Source:** GuruFocus
+**URL:** https://www.gurufocus.com/news/8918699/tsmc-and-amkor-technology-announce-long-term-partnership-to-accelerate-advanced-packaging-in-the-united-states
+
+Taiwan Semiconductor Manufacturing Company (NYSE: TSM) and Amkor Technology, Inc. (Nasdaq: AMKR) today announced a 10-year agreement to foster a strong partner
+
+---
+
+### 2026-06-16 | TSMC and Amkor Technology Announce Long Term Partnership to Accelerate Advanced Packaging in the United States
+**Source:** Business Wire
+**URL:** https://www.businesswire.com/news/home/20260616574153/en/TSMC-and-Amkor-Technology-Announce-Long-Term-Partnership-to-Accelerate-Advanced-Packaging-in-the-United-States/
+
+HSINCHU, Taiwan & TEMPE, Ariz.--(BUSINESS WIRE)-- #AdvancedPackaging--Taiwan Semiconductor Manufacturing Company (NYSE: TSM) and Amkor Technology, Inc. (Nasdaq: AMKR) today announced a 10-year agreement to foster a strong partnership that will enhance advanced semiconductor packaging capabilities in Arizona, strengthening and accelerating investment in the U.S. semiconductor supply chain ecosystem. The agreement establishes a collaboration framework for TSMC to procure from Amkor advanced packaging and testing serv.
+
+---
+
+### 2026-06-15 | Amkor vs. Micron: Which AI Semiconductor Stock is the Better Buy?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2937070/amkor-vs-micron-which-ai-semiconductor-stock-is-the-better-buy?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2937070
+
+AI workloads are driving demand for MU's memory and AMKR's packaging, setting up a key comparison for investors.
+
+---
+
+### 2026-06-12 | Can HDFO Adoption Strengthen Amkor's Compute Growth Opportunity?
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2936692/can-hdfo-adoption-strengthen-amkor-s-compute-growth-opportunity?cid=CS-STOCKNEWSAPI-FT-analyst_blog|quick_take-2936692
+
+AMKR's HDFO platform gains traction as AI-driven packaging demand rises, but supply limits and fierce competition could test execution.
+
+---
+
+### 2026-06-10 | Amkor Technology (AMKR) Suffers a Larger Drop Than the General Market: Key Insights
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2935538/amkor-technology-amkr-suffers-a-larger-drop-than-the-general-market-key-insights?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6v2-2935538
+
+In the closing of the recent trading day, Amkor Technology (AMKR) stood at $69.64, denoting a -1.79% move from the preceding trading day.
+
+---
+
+### 2026-06-10 | Investors Heavily Search Amkor Technology, Inc. (AMKR): Here is What You Need to Know
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2934963/investors-heavily-search-amkor-technology-inc-amkr-here-is-what-you-need-to-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks_v1-2934963
+
+Amkor Technology (AMKR) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.
+
+---
+
+### 2026-06-05 | Here's Why Amkor Technology (AMKR) is a Strong Growth Stock
+**Source:** Zacks Investment Research
+**URL:** https://www.zacks.com/stock/news/2933047/here-s-why-amkor-technology-amkr-is-a-strong-growth-stock?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|zacks_education_growth_score-2933047
+
+Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores.
 
 ---
 
@@ -226,6 +334,14 @@ Nvidia Corp (NASDAQ:NVDA) may still be the center of the AI trade. But Wall Stre
 **URL:** https://www.zacks.com/stock/news/2914800/should-you-buy-sell-or-hold-amkor-technology-stock-post-q1-earnings?cid=CS-STOCKNEWSAPI-FT-analyst_blog|most_popular_stocks-2914800
 
 AMKR drops after Q1 beat as supply constraints, heavy capex and Arizona expansion costs weigh on near-term outlook.
+
+---
+
+### 2026-05-05 | Forget Intel: Consider These Stocks Instead
+**Source:** 24/7 Wall Street
+**URL:** https://247wallst.com/investing/2026/05/05/forget-intel-consider-these-stocks-instead/
+
+Intel (NASDAQ:INTC | INTC Price Prediction) is the chip story everyone is shouting about, with the stock up 159.57% year to date on a
 
 ---
 
@@ -306,85 +422,5 @@ One year ago today, President Trump stepped into the White House Rose Garden and
 **URL:** https://www.defenseworld.net/2026/04/02/financial-review-iqe-otcmktsiqepf-amkor-technology-nasdaqamkr.html
 
 Amkor Technology (NASDAQ: AMKR - Get Free Report) and IQE (OTCMKTS:IQEPF - Get Free Report) are both computer and technology companies, but which is the better business? We will contrast the two businesses based on the strength of their analyst recommendations, risk, valuation, profitability, earnings, institutional ownership and dividends. Volatility and Risk Amkor Technology has a
-
----
-
-### 2026-03-21 | Amkor Technology: Advanced Packaging Turns From A Future Bet To Reality
-**Source:** Seeking Alpha
-**URL:** https://seekingalpha.com/article/4884743-amkor-technology-advanced-packaging-turns-from-a-future-bet-to-reality
-
-Amkor Technology (AMKR) is capitalizing on advanced packaging demand, with 82.8% of FY2025 revenues from advanced products and strong semiconductor partnerships. AMKR's Arizona facility, backed by federal subsidies and free cash flow, is set to boost capacity and revenue, despite near-term CapEx-driven margin pressure. FY2025 revenues reached $6.71 billion (6% YoY growth), with net income at $374 million and EPS of $1.50, both beating analyst estimates.
-
----
-
-### 2026-03-17 | Is Most-Watched Stock Amkor Technology, Inc. (AMKR) Worth Betting on Now?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2885038/is-most-watched-stock-amkor-technology-inc-amkr-worth-betting-on-now?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks_v1-2885038
-
-Recently, Zacks.com users have been paying close attention to Amkor Technology (AMKR). This makes it worthwhile to examine what the stock has in store.
-
----
-
-### 2026-03-16 | Is Amkor Stock Undervalued Amid Rising AI Packaging & HPC Demand?
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2884364/is-amkor-stock-undervalued-amid-rising-ai-packaging-hpc-demand?cid=CS-STOCKNEWSAPI-FT-analyst_blog|hybrid-2884364
-
-AMKR rides AI and HPC demand while trading at a steep valuation discount, even as heavy 2026 capex, seasonal Q1 softness and a secondary share sale shape outlook.
-
----
-
-### 2026-03-14 | Amkor vs. Ichor: Two AI Hardware Enablers the Market Is Sleeping On
-**Source:** 24/7 Wall Street
-**URL:** https://247wallst.com/investing/2026/03/14/amkor-vs-ichor-two-ai-hardware-enablers-the-market-is-sleeping-on/
-
-Amkor Technology ( NASDAQ:AMKR ) and Ichor Holdings ( NASDAQ:ICHR ) both reported Q4 2025 earnings on February 9, 2026.
-
----
-
-### 2026-03-13 | Amkor Eyes Strong Second Half 2026 as AI, HPC Packaging Demand Surges
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2884059/amkor-eyes-strong-second-half-2026-as-ai-hpc-packaging-demand-surges?cid=CS-STOCKNEWSAPI-FT-analyst_blog|hybrid-2884059
-
-AMKR heads toward a pivotal H2 2026 as AI and HPC demand drives advanced packaging ramps, with CPU launches and 2.5D/HDFO platforms set to nearly triple activity.
-
----
-
-### 2026-03-13 | Amkor Eyes Strong 2026 as AI and HPC Packaging Ramps Accelerate
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2884004/amkor-eyes-strong-2026-as-ai-and-hpc-packaging-ramps-accelerate?cid=CS-STOCKNEWSAPI-FT-analyst_blog|hybrid-2884004
-
-AMKR eyes 2026 as an advanced packaging step-up year as AI and HPC demand drive strong computing growth, though early-year margins face seasonal pressure.
-
----
-
-### 2026-03-10 | Amkor Technology (AMKR) Advances While Market Declines: Some Information for Investors
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2881913/amkor-technology-amkr-advances-while-market-declines-some-information-for-investors?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6v1-2881913
-
-Amkor Technology (AMKR) closed the most recent trading day at $43.94, moving +1.67% from the previous trading session.
-
----
-
-### 2026-03-09 | Focus Partners Advisor Solutions LLC Takes $432,000 Position in Amkor Technology, Inc. $AMKR
-**Source:** Defense World
-**URL:** https://www.defenseworld.net/2026/03/09/focus-partners-advisor-solutions-llc-takes-432000-position-in-amkor-technology-inc-amkr.html
-
-Focus Partners Advisor Solutions LLC bought a new position in Amkor Technology, Inc. (NASDAQ: AMKR) during the undefined quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission. The fund bought 15,201 shares of the semiconductor company's stock, valued at approximately $432,000. A number of other large investors
-
----
-
-### 2026-03-05 | Amkor Technology, Inc. (AMKR) is Attracting Investor Attention: Here is What You Should Know
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2879216/amkor-technology-inc-amkr-is-attracting-investor-attention-here-is-what-you-should-know?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|most_searched_stocks_v1-2879216
-
-Amkor Technology (AMKR) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.
-
----
-
-### 2026-03-03 | Amkor Technology (AMKR) Declines More Than Market: Some Information for Investors
-**Source:** Zacks Investment Research
-**URL:** https://www.zacks.com/stock/news/2878259/amkor-technology-amkr-declines-more-than-market-some-information-for-investors?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6v1-2878259
-
-In the most recent trading session, Amkor Technology (AMKR) closed at $44.59, indicating a -6.73% shift from the previous trading day.
 
 ---
