@@ -1,0 +1,42 @@
+PRICE & EARNINGS — 2026-06-20
+Tickers: AVGO
+
+--- PRICE ---
+
+Ticker |   Price | vs1Y |  vs2Y |  vs3Y |  vs5Y |   CV | Z-Score | 52w Pos | Drop/MaxDD | Revert↑ | 5yr CAGR
+-------+---------+------+-------+-------+-------+------+---------+---------+------------+---------+---------
+  AVGO | $411.35 | +50% | +161% | +391% | +846% | 0.79 |    -1.1 |     67% |        19% |    -14% |   +55.0%
+
+----------------------------------------
+
+Recent Trend: AVGO
+      Date |   Close |  MoM %
+-----------+---------+-------
+2026-06-18 | $411.35 |  -7.9%
+2026-05-29 | $446.77 |  +7.0%
+2026-04-30 | $417.43 | +34.9%
+2026-03-31 | $309.51 |  -2.9%
+2026-02-27 | $318.88 |  -3.5%
+2026-01-30 | $330.61 |  -4.3%
+2025-12-31 | $345.38 | -13.9%
+2025-11-28 | $401.35 |  +9.0%
+2025-10-31 | $368.15 | +12.0%
+2025-09-30 | $328.59 | +11.1%
+2025-08-29 | $295.69 |  +1.3%
+2025-07-31 | $292.02 |  +6.5%
+
+--- EARNINGS ---
+
+Ticker | GAAP P/E | Adj P/E | vs1Y |  vs3Y |  vs5Y | vsAvg | 1yCorr | || | EPS CAGR | Stability | Fwd Delta
+-------+----------+---------+------+-------+-------+-------+--------+----+----------+-----------+----------
+  AVGO |    66.5x |   50.6x |  +8% | +146% | +191% |  +49% |   0.58 | || |   +26.6% |      0.38 |     $0.78
+
+LEGEND (Price):
+CV: Volatility relative to price. Z-Score: Std devs of recent 1mo return.
+52w Pos: Position in 52-week range. Drop/MaxDD: Recent drop as % of worst 5yr drawdown.
+Revert↑: Upside if price reverts to 1yr average.
+
+LEGEND (Earnings):
+vsXY: % diff between current P/E and P/E X years ago.
+1yCorr: Correlation between price and earnings over last 12 months.
+Stability: CV of annual EPS (lower = smoother). Fwd Delta: Next est minus last actual.

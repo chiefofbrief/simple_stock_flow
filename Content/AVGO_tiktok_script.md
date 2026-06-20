@@ -6,7 +6,23 @@
 
 ---
 
-## THE SCRIPT (voiceover)
+## THE SCRIPT (voiceover) — Bull vs Bear
+
+**[0:00] Intro**
+> "Broadcom is up 50% over the past year. It's now worth almost 2 trillion dollars. Why is it climbing this fast, and is it really worth that much?"
+
+**[0:08] Bull case**
+> "Google, Meta, and OpenAI all want their own AI chips instead of buying Nvidia, and Broadcom designs those chips. They also make the switches that connect entire data centers. And it's working — their AI chip revenue doubled in a year, hitting 8.4 billion dollars in one quarter. They've also got 45 billion in signed orders and contracts locked through 2031. That revenue isn't hoped for, it's already booked."
+
+**[0:21] Bear case**
+> "But the stock trades at 68 times earnings and is climbing faster than the company's actual profits. The whole price depends on one bet: hitting 100 billion in AI revenue by 2027. And it's not guaranteed — Google is already buying some of its chips from a competitor, so Broadcom's share could shrink."
+
+**[0:32] Wrap-up**
+> "So it comes down to this. If Broadcom hits its targets, today's price makes sense. If it stumbles, there's a long way to fall. Almost 2 trillion dollars leaves no room for mistakes."
+
+---
+
+## OLD DRAFT (superseded)
 
 **[0:00–0:04] — HOOK**
 > "This is the second most important chip company in AI — and almost nobody talks about it."
