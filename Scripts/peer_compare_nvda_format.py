@@ -557,7 +557,47 @@ NEWS = """### News (last ~90 days, through 2026-06-23)
 
 ADDITIONAL_CONTEXT = """## Additional Context
 
-*[To be written. NVDA-specific source excerpts to follow.]*"""
+*Context behind the numbers, from NVIDIA's own Q1 FY2027 report (**[N]**) and outside sources (**[S]**); tags are keyed to the verbatim excerpts in `Additional_Context_Sources_NVDA.md`. The financials showed NVIDIA priced as the cheapest high-quality name in the group. The takeaways below argue why — and the through-line is that the discount is mostly about the **quality and durability of the demand**, not the chips.*
+
+### 1. The bear case fights at the chip level; NVIDIA has moved the game to the system level — but Rubin is also the near-term risk
+
+The custom-chip threat everyone prices in attacks a single *chip*. What NVIDIA increasingly sells is the whole *rack*. Its next platform, Vera Rubin, is not a GPU refresh — it is a full system: the Rubin GPU plus a new Vera CPU, new networking, a BlueField-4 data processor, an in-house low-latency inference processor (Groq 3), and a reference blueprint partners build to, sold as one integrated "AI factory" [S19, S20]. NVIDIA even concedes the shape of the threat in its own words — customers are building "their own ASICs… that may not require all of the features and functionality our data center systems provide" [N13] — which is the tell: a custom chip is a *partial* substitute for one box, not for the integrated room. So the widely-held "ASIC erosion" fear is aimed largely at where NVIDIA used to compete, not where it competes now.
+
+The same move is also the near-term risk. Rubin is a from-scratch overhaul entering volume production with more than 350 partners across 30 countries, first complete systems due this fall [S19, S21, S24] — consistent with NVIDIA's "second half of fiscal year 2027" guidance, read against the report's own quarter-end of April 26, 2026 [N1]. Big transitions create their own air pocket, and NVIDIA spells it out: customers "delay adopting new architectures," demand for the current generation falls "when customers anticipate new architectures," and the yearly cadence "may… create volatility in our revenue" [N17]. So the platform that widens the moat is also a concrete, well-flagged reason the price could be marking time until Rubin lands cleanly.
+
+### 2. The cleanest reason NVIDIA is cheap isn't competition or size — it's how much of the demand NVIDIA funds itself
+
+A real slice of NVIDIA's record revenue is paid for, directly or indirectly, by NVIDIA. The filing shows $18.6 billion put into "private companies and infrastructure funds," with the plain admission that "some of these investments include AI model makers that may indirectly purchase or use our products" [N3]. The "neocloud" relationships go further: NVIDIA has invested about $2 billion into each of CoreWeave and Nebius (not for the first time), and under one deal it is "obligated to purchase the residual unsold capacity through April 13, 2032" of CoreWeave's data centers — initial value $6.3 billion [S10]. Analysts call this "one of the most identifiable instances of circular financing" [S10].
+
+None of this makes the demand fake — NVIDIA threw off $119 billion of free cash flow over the last year, second only to Apple [S10]. But it means the trailing earnings overstate *independent* end-demand, and that is the most defensible reason a top-quality business trades at the bottom of the group: a buyer is taking a view on how much of the "E" stands on its own.
+
+### 3. NVIDIA's diversification and its demand-fragility are the same trend
+
+Coverage cheers that NVIDIA is reducing its reliance on a few hyperscalers: under the new reporting, hyperscalers are only "approximately 50% of Data Center revenue," with the rest from "AI Clouds, industrial, enterprise, and sovereign customers" — and that second group (ACIE) grew 74% year-on-year, far faster than the hyperscale half [N5, N6]. That is genuine diversification.
+
+But it is diversification *down the credit ladder*. NVIDIA is still concentrated — three direct customers were 21%, 17%, and 16% of revenue (about 54% combined), and one outside AI company drove "a meaningful amount" of revenue through its clouds [N10] — and the new customers are weaker than the ones they dilute: neoclouds "do not have the same cash nor operating cash flow profiles of Big Tech," which is what drives their "circular financing structures, raising some red flags" [S8]. So the concentration ratio improves while the creditworthiness of the marginal dollar gets worse. The good news and the risk are the same fact.
+
+### 4. The real ceiling on growth is power and capital, not silicon — and it sits outside NVIDIA's control
+
+The binding constraint on NVIDIA's future isn't whether it can make chips; it's whether the ecosystem can be powered and financed. NVIDIA says so itself: "the availability of data centers, energy, and capital… is crucial," building power is "a complex, multi-year process," and financing is "particularly constrained for less-capitalized companies" — shortages of which "could delay customer and partner deployments" [N16]. The neocloud data shows the constraint biting now: CoreWeave and Nebius have each lined up about 3.5 gigawatts of power on paper, but "the vast majority… has yet to come online," with CoreWeave targeting 1.7 GW live by end-2026 and Nebius under 1 GW [S8].
+
+This reframes the growth debate from "can NVIDIA sell?" to "can the build-out be powered and paid for?" — and it explains takeaway 2 from a different angle: NVIDIA bankrolling its own customers is partly an effort to relieve the capital constraint on its own demand.
+
+### 5. Inference is the hinge — NVIDIA's strongest moat claim and its biggest margin risk at once
+
+The shift from training to inference is where NVIDIA presses its advantage *and* where it is most exposed. On the moat side, inference "is not a chip problem… it is a systems architecture problem," and on a full-system basis NVIDIA's current generation delivers "up to 50x higher throughput per megawatt and up to 35x lower cost per token" than the prior one — an *independent* measurement (SemiAnalysis), unlike NVIDIA's own ~10x claims for Rubin [S1, S3, S22]. NVIDIA is widening that system lead through networking, putting $2 billion into each of two optical suppliers and shipping the first co-packaged-optics switches in Rubin [S12, S13, S22].
+
+On the risk side, inference is exactly where cheaper custom silicon competes hardest: ASIC-based servers are forecast to rise to about 28% of 2026 shipments, Google has begun selling its TPUs to outside operators, and its new inference chip (TPU v8i) is "positioning itself to beat out Nvidia on… coherent shared memory" [S14, S15, S16]. The stakes are the margin itself — outside analysts tie this directly to "the case for premium pricing and 70% gross margins" [S14] — and that margin already flatters the trend, since the 74.9% print looks so strong partly because the prior year carried a $4.5 billion H20 charge [N11]. The most balanced outside view has NVIDIA's share easing from ~80% to ~68% by 2030 inside a much bigger market [S6]: erosion concentrated in inference, not collapse.
+
+### 6. Physical AI and robotics is a real new leg the market isn't paying for
+
+This is the genuine upside that sits almost entirely outside today's numbers, and NVIDIA is building the whole thing rather than waiting for it. It offers the full robot toolchain — simulation (Omniverse, Cosmos), robot models (GR00T), and on-board computers (AGX) [S5] — and has just released open robot models and frameworks on Hugging Face and GitHub (Cosmos Transfer/Predict 2.5, Cosmos Reason 2, Isaac GR00T N1.6; Isaac Lab-Arena, OSMO) [S17]. Adoption is already real at the top of the industry: FANUC, ABB, Yaskawa, and KUKA — over 2 million installed robots — are integrating NVIDIA's software [S18], and NVIDIA's CEO frames robotics' "ChatGPT moment" as near [S7].
+
+It also connects to the rest of the platform. NVIDIA has reframed its Edge business around "agentic and physical AI including… robotics and automotive" [N4], and the new Vera CPU is built for agentic workloads, on the bet that "AI agents will be the largest users of computing" [S23] — the same lane AMD spent its whole earnings call chasing. The honest caveat is the one we used for TSM: this is earlier and less certain than the data-center wave. The difference is that TSM would only capture the make-and-package slice of a robot, whereas NVIDIA is building "the brain, eyes, and hands" [S7] — so if physical AI lands, NVIDIA captures far more of it.
+
+### Bottom line
+
+NVIDIA defends its moat better than the bears allow — it sells a widening *system*, not a chip, and is pulling the specialized threats (inference, agentic CPUs, robotics) inside the platform — but it does so on demand that is more self-propped and ecosystem-dependent than the clean trailing numbers show. That is why a business ranked #1 on quality can still trade at the bottom of the group: the market is paying up less for record earnings it suspects are partly NVIDIA-financed, power-gated, and concentrated, with a once-a-year platform transition (Rubin) as the near-term swing factor. One large risk is deliberately missing here — a hyperscaler cutting capex and others following — because the source material barely touches it (coverage still sees "few signs" of a slowdown [S6]); that obvious overhang is carried to the Synthesis."""
 
 
 doc = (f"# NVDA ANALYSIS\n\n*Generated {date}. All figures USD. Anchored on NVDA (peer cells show the gap vs NVDA). Top-down: Synthesis, then Numbers, Narrative, and Additional Context.*\n\n"
