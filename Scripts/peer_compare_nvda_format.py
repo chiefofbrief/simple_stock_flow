@@ -326,18 +326,18 @@ NARRATIVE = """## Narrative
 
 ### Analyst Grades
 
-*Manually pulled 2026-06-18 (AMD pending). The FMP analyst feed was unreliable (thin coverage; split-distorted price targets for KLAC), so this hand-collected rating distribution replaces it. "% Bullish" = (Buy + Overweight) / Total; the trend column shows % Bullish three months ago to now.*
+*Manually pulled 2026-06-18 (AMD 2026-06-23). The FMP analyst feed was unreliable (thin coverage; split-distorted price targets for KLAC), so this hand-collected rating distribution replaces it. "% Bullish" = (Buy + Overweight) / Total; the trend column shows % Bullish three months ago to now.*
 
 | Company | Buy | OW | Hold | UW | Sell | Total | % Bullish (Buy+OW) | % Bullish 3mo->now |
 |---|---|---|---|---|---|---|---|---|
 | NVDA | 57 | 7 | 3 | 0 | 1 | 68 | 94% | 93% -> 94% |
 | TSM | 38 | 8 | 1 | 0 | 0 | 47 | 98% | 98% -> 98% |
 | AVGO | 41 | 10 | 4 | 0 | 0 | 55 | 93% | 96% -> 93% |
+| AMD | 37 | 11 | 9 | 0 | 0 | 57 | 84% | 80% -> 84% |
 | ASML | 28 | 6 | 5 | 3 | 0 | 42 | 81% | 81% -> 81% |
 | KLAC | 15 | 4 | 11 | 1 | 1 | 32 | 59% | n/a -> 59% |
-| AMD | — | — | — | — | — | — | pending (manual) | — |
 
-*Data note: AMD's distribution is pending — to be supplied manually. KLAC had no rating distribution three months ago (source coverage begins ~1 month ago).*"""
+*Data note: AMD's source "consensus" label reads Overweight; its mix shifted modestly more bullish over three months (Buy 39→37, Overweight 6→11, Hold 11→9). KLAC had no rating distribution three months ago (source coverage begins ~1 month ago).*"""
 
 
 EARNINGS_QA = """### Earnings-Call Q&A (latest call)
