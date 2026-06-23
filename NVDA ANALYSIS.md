@@ -326,7 +326,27 @@ Technical: Revenue was essentially flat 2022-2024 ($23.6B → $22.7B → $25.8B)
 
 ### Narrative Determination
 
-*[To be written.]*
+*Narrative only — drawn from the Analyst Grades, Earnings-Call Q&A, and News subsections below. No financials; geopolitics appears only where it surfaces in the coverage itself.*
+
+**NVDA — the prevailing narrative.** NVDA is covered as *the indispensable platform of the AI buildout* — the demand anchor the rest of the set is measured against. The story is supply-constrained demand against an ever-widening market: management frames three growth lanes (hyperscalers; AI-native clouds + enterprise + sovereign AI; robotic edge), endorses a $3–4T data-center build by 2030, and says it keeps growing faster than hyperscaler capex. It is the **loudest and most retail-driven** narrative in the peer set — management's Q&A tone is confident-to-expansive throughout, and the news skews heavily Bull. Tellingly, even the *valuation* chatter leans bullish ("mispriced," "Wall Street underestimating its earnings power," "$6 trillion") rather than the balanced cheap-vs-bubble debate that surrounds the others.
+
+**Most excited about:**
+- **Supply-constrained demand + an expanding TAM.** The shortage is treated as a quality problem; management points to two engines (hyperscalers plus a huge fragmented second category) both growing fast.
+- **A strong product cycle.** Vera Rubin called "more successful than Grace Blackwell," fast inference-share gains, and a new standalone "agentic CPU" (Vera, ~$20B) opening an adjacent lane.
+- **"Underappreciated earnings power."** After a huge run, coverage still argues the Street under-models NVDA — the bull tell that the market is seen as behind, not ahead.
+- **Physical AI / robotics** as the next chapter ("Physical AI is here").
+
+**Most concerned about:**
+- **Competition and customer in-sourcing** — the single recurring crack across Q&A and News: AMD gaining ground (its own coverage is turning more bullish, "three AI giants bet big on AMD"), hyperscaler custom ASICs (the AVGO/TPU/Trainium/Maia route), and new inference parts (AWS/Qualcomm AI200). This is the mirror image of TSM's "customers diversify to Samsung" worry — here it's customers and rivals building alternatives *to* NVDA.
+- **Debt-funded expansion** — $20–25B of new bond issuance to fund the AI buildout, read in coverage as aggressive and cycle-dependent.
+- **A lone dissenter + bubble framing.** NVDA carries the only Sell rating in the peer set, and dot-com / "bubble" framing recurs in adjacent chip coverage — background noise rather than a thesis, but present.
+
+**NVDA vs the peer set — narrative is a strong tailwind, but the most crowded one:**
+- **Analyst conviction:** NVDA is #2 at 94% bullish — just behind TSM (98%) and ahead of AVGO (93%), AMD (84%, and rising), ASML (81%), KLAC (59%) — but with the loudest coverage and the only Sell in the group.
+- **It is the reference point.** Every peer's story is told relative to NVDA: AMD is "the Nvidia competitor," AVGO's custom ASICs are "the alternative to NVDA GPUs," and TSM fabricates and packages NVDA's chips. NVDA sits at the center of the set's demand narrative.
+- **NVDA vs TSM (the two euphoric names).** Both are demand-constrained and confident, but TSM's narrative is institutional and execution-based (record results, capacity, little drama) while NVDA's is louder, more retail-driven, and more self-promotional (bond raises, "$6 trillion," "buy the dip"). TSM's is the steadier; NVDA's is the more crowded.
+
+**Narrative caveat (narrative-only).** NVDA's story is euphoric and one-directional — even the valuation talk is bullish — so the narrative itself leaves little room for positive surprise and a lot of room for a drop if the one genuine crack (competition / customer in-sourcing) widens or the cycle turns. The rising bullishness on AMD *inside this very set* is the live version of that crack. A loud, unanimous narrative is a tailwind today but a thin margin of safety on sentiment — and it is the narrative, not the trailing numbers, that is pricing in continued dominance.
 
 ### Analyst Grades
 
