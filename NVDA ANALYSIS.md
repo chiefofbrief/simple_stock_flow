@@ -10,7 +10,25 @@
 
 ### Financial Determination
 
-*[To be written.]*
+**Question:** On the financials alone, is NVDA priced below what its quality and growth warrant, relative to the AI-supply-chain peer set? Peers are benchmarks only. Figures below are note-adjusted (Section 4); raw values are in the tables, flagged with an asterisk.
+
+**Honest figures used.** NVDA's headline 31.7x GAAP P/E is *flattered* — paper gains on its equity stakes (~$15.9B/quarter) inflate reported profit — so the truer multiple is the ~36x non-GAAP. Its 82% ROIC is the opposite, *understated*: a ~$74B investment portfolio sits in the capital base earning no operating profit, so operational ROIC is ~117%. Its free cash flow is clean cash (paper gains don't touch it). For the peers: TSM ~39x is clean (GAAP = non-GAAP); AVGO's 63.6x GAAP is amortization-inflated, read toward ~48x; KLAC's split-broken non-GAAP is replaced by GAAP ~75x; AMD's 179.6x GAAP is depressed by Xilinx amortization, read at ~120x non-GAAP (and ~132x on owner-earnings); ASML cash is read off TTM.
+
+**Where NVDA ranks:**
+- **Valuation — cheapest in the set, on two measures.** Honest P/E (TTM): **NVDA ~36x < TSM ~39x < AVGO ~48x < ASML ~64x < KLAC ~75x < AMD ~120x.** Price/Owner-Earnings (TTM), the cash-based measure: **NVDA 45x < TSM 69x < ASML 76x < AVGO 78x < KLAC 95x < AMD 132x** — NVDA is cheapest here by a wide margin, and this number is clean (it's struck on cash, so the paper-gains flattering doesn't apply).
+- **Quality — #1 on everything.** Operating margin 64% is the highest in the group; ROIC ~82% raw (~117% adjusted) is the highest; cash conversion (FCF/OCF) is 95%. There is no weak spot in the quality column.
+- **Growth — #1 by a mile.** 3-yr revenue CAGR is 100% (next-closest is AVGO at 24%, TSM at 19%); OCF CAGR 163%. Margins and returns are rising, not fading.
+- **Earnings honesty — middling, not clean.** Unlike TSM (spotless), NVDA's GAAP earnings are flattered by paper gains, and the picture carries two quality caveats below. The cash measure (owner-earnings) is the more trustworthy anchor, and it's still the cheapest.
+
+**Is there a financial reason a discount is deserved?** This is where NVDA differs sharply from TSM. TSM's lower multiple had a clean financial explanation — it spends 31% of revenue on factories and converts under half its operating cash to free cash, so a dollar of profit becomes far less spendable cash. **NVDA has no such penalty:** it is asset-light (capex just 2.6% of revenue) and converts 95% of operating cash to free cash. There is no capital-intensity story to explain why the highest-quality, fastest-growing name is also the cheapest. What *is* visible in or near the numbers, and could justify the market not paying up:
+- **Earnings may be near a cyclical peak (the durability question).** A 100% growth rate and 64% margins are extraordinary, and the market may simply not believe the trailing "E" is durable — pricing earnings it expects to normalize. This is forward-looking, not in the trailing data, but it's the most plausible financial-adjacent reason.
+- **Size / law of large numbers.** At $253B of trailing revenue, the growth rate mechanically must decelerate; a high multiple on a huge base is harder to sustain.
+- **Customer concentration.** Three customers are 54% of revenue (up from 36%), so the trailing earnings rest on a narrow base.
+- **Part of the "E" is lower-quality and self-funded (secondary, but real).** GAAP profit is flattered by paper gains, and part of demand is circular: NVDA put ~$18.6B in one quarter (~23% of free cash flow) into AI startups that in turn buy its chips — good in an up-cycle, ugly in a down-cycle. This narrows the quality of the trailing earnings without erasing the cheapness.
+
+**Determination — the financials show apparent relative underpricing, with the catch sitting outside the financials.** Taken at face value, the trailing numbers are unusual: NVDA is the cheapest name in the AI-supply-chain set on both P/E and owner-earnings while ranking #1 on margins, returns, and growth — and, unlike TSM, there is no capital-intensity penalty to explain the gap. On the page, that is the signature of relative underpricing. But the trailing financials cannot answer the question that actually decides it — whether these earnings last — and they come with real quality flags (paper-gain-flattered GAAP, ~23%-of-FCF circular demand, 54% customer concentration) that a single clean snapshot hides. So: cheap relative to quality on the numbers, yes; whether that's deserved turns on earnings durability, which is a forward and qualitative question for the later sections.
+
+**Scope:** Financials only. Whatever explains the residual — durability, concentration, the self-funding loop — is for the Narrative and Additional Context sections, not here.
 
 > The tables below are raw. An asterisk (\*) marks a figure flagged in the Data-Quality Notes (Section 4) as potentially misleading.
 
