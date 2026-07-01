@@ -183,15 +183,15 @@ def score(rows):
 # Output
 # --------------------------------------------------------------------------- #
 HEADERS = [
-    "Ticker", "Company", "Market Cap ($B)",
+    "Ticker", "Company",
     "Score: growth-weighted (0-100)", "Score: equal (0-100)",
     "Sales growth: TTM vs prior-year TTM (%)", "Sales growth: latest Q vs year-ago Q (%)",
     "Gross profit / Sales (%)", "FCF / Sales (%)", "EV / Sales (x)",
     "Price vs. 3 months ago (%)", "Years since IPO (yrs)",
     "Worst annual sales growth, last 7y (%)", "Worst net profit / Sales, last 7y (%)",
-    "Industry", "Description",
+    "Market Cap ($B)", "Industry", "Description",
 ]
-PROFILE_HEADERS = ["Ticker", "Company", "Market Cap ($B)", "Sector", "Industry", "Description"]
+PROFILE_HEADERS = ["Ticker", "Company", "Sector", "Market Cap ($B)", "Industry", "Description"]
 
 
 def pct(v):
@@ -207,13 +207,13 @@ def build_row(r):
     # 7-year cyclicality flags unreliable if <7 years public
     reliable = (yrs is not None and yrs >= 7)
     return [
-        r["ticker"], r["company"], bil(r["mktcap"]), r["score_growth"], r["score_equal"],
+        r["ticker"], r["company"], r["score_growth"], r["score_equal"],
         pct(r["sg_ttm"]), pct(r["sg_q"]), pct(r["gm"]), pct(r["fcfs"]),
         round(r["evs"], 1) if r["evs"] is not None else "",
         pct(r["mom3"]), yrs if yrs is not None else "",
         pct(r["worst_rev"]) if reliable else "",
         pct(r["worst_nm"]) if reliable else "",
-        r["industry"], r["description"],
+        bil(r["mktcap"]), r["industry"], r["description"],
     ]
 
 
@@ -270,8 +270,8 @@ def main():
             w = csv.writer(f)
             w.writerow(PROFILE_HEADERS)
             for r in rows:
-                w.writerow([r["ticker"], r["company"], bil(r["mktcap"]),
-                            r["sector"], r["industry"], r["description"]])
+                w.writerow([r["ticker"], r["company"], r["sector"],
+                            bil(r["mktcap"]), r["industry"], r["description"]])
         print(f"\nWrote {out_path} ({len(rows)} rows)")
         return
 
