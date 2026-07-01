@@ -9,9 +9,9 @@ new batch. Works for any batch size (tens to thousands); each ticker that fails
 after retries is skipped, and progress is printed as it goes.
 
 Usage:
-    python prioritization_screen.py NVDA,TSM,MU            # tickers (comma-sep)
-    python prioritization_screen.py @tickers.txt          # tickers from file (one per line or comma-sep)
-    python prioritization_screen.py @tickers.txt out.csv  # tickers from file + output path
+    python "prioritization metrics.py" NVDA,TSM,MU            # tickers (comma-sep)
+    python "prioritization metrics.py" @tickers.txt          # tickers from file (one per line or comma-sep)
+    python "prioritization metrics.py" @tickers.txt out.csv  # tickers from file + output path
 
 Env: FMP_API_KEY must be set.
 """
@@ -190,7 +190,7 @@ def main():
         sys.exit("Error: FMP_API_KEY not set.")
     args = sys.argv[1:]
     if not args:
-        sys.exit("Usage: prioritization_screen.py <TICKERS|@file> [out.csv]\n"
+        sys.exit("Usage: prioritization metrics.py <TICKERS|@file> [out.csv]\n"
                  "  TICKERS: comma-separated (e.g. NVDA,TSM,MU) or @path to a file\n"
                  "           (tickers one-per-line or comma-separated). No default list.")
     a = args[0]
@@ -201,7 +201,7 @@ def main():
         tickers = [x.strip().upper() for x in a.split(",") if x.strip()]
     if not tickers:
         sys.exit("No tickers provided.")
-    out_path = args[1] if len(args) > 1 else "prioritization_screen.csv"
+    out_path = args[1] if len(args) > 1 else "prioritization metrics.csv"
 
     today = date.today()
     eur, twd = get_fx()
