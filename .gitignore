@@ -14,3 +14,6 @@ setup_env.sh
 Data/**/raw/
 Data/**/__pycache__/
 # Everything else in Data (Screening files, Thesis files) will be tracked automatically
+
+# Generated screen output (regenerable via Scripts/prioritization_screen.py)
+prioritization_screen.csv
