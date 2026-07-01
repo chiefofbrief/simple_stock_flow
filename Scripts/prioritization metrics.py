@@ -15,7 +15,7 @@ Usage:
 
 Env: FMP_API_KEY must be set.
 """
-import os, sys, csv, json, time, ssl, urllib.request
+import os, sys, csv, json, time, ssl, collections, urllib.request
 from datetime import date, datetime
 
 FMP_KEY = os.getenv("FMP_API_KEY")
@@ -23,14 +23,32 @@ FMP_BASE = "https://financialmodelingprep.com/stable"
 CA = "/root/.ccr/ca-bundle.crt"
 _CTX = ssl.create_default_context(cafile=CA) if os.path.exists(CA) else None
 
+# Rate limiting: FMP plan allows 300 calls/min. Cap at 290 call-starts per
+# rolling 60s (safety margin), enforced across ALL calls including retries.
+RATE_LIMIT = 290
+_CALL_TIMES = collections.deque()
+
+
+def _throttle():
+    now = time.monotonic()
+    while _CALL_TIMES and now - _CALL_TIMES[0] >= 60:
+        _CALL_TIMES.popleft()
+    if len(_CALL_TIMES) >= RATE_LIMIT:
+        time.sleep(60 - (now - _CALL_TIMES[0]) + 0.05)
+        now = time.monotonic()
+        while _CALL_TIMES and now - _CALL_TIMES[0] >= 60:
+            _CALL_TIMES.popleft()
+    _CALL_TIMES.append(time.monotonic())
+
 
 # --------------------------------------------------------------------------- #
-# FMP fetch (with light retry/backoff)
+# FMP fetch (rate-limited, with retry/backoff)
 # --------------------------------------------------------------------------- #
 def _get(path, retries=4):
     url = f"{FMP_BASE}/{path}{'&' if '?' in path else '?'}apikey={FMP_KEY}"
     for i in range(retries):
         try:
+            _throttle()
             with urllib.request.urlopen(url, context=_CTX, timeout=120) as r:
                 return json.load(r)
         except Exception as e:
