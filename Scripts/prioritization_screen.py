@@ -4,11 +4,14 @@
 Reproduces the screen described in `prioritization metrics explanation.md`.
 Per-ticker FMP `stable` calls only (no bulk endpoints).
 
+A ticker list is REQUIRED (there is no default) — the screen is always run on a
+new batch. Works for any batch size (tens to thousands); each ticker that fails
+after retries is skipped, and progress is printed as it goes.
+
 Usage:
-    python prioritization_screen.py                      # default ticker list
-    python prioritization_screen.py NVDA,TSM,MU,...      # custom tickers (comma-sep)
-    python prioritization_screen.py @tickers.txt         # tickers from file (one per line or comma-sep)
-    python prioritization_screen.py NVDA,TSM out.csv     # custom tickers + output path
+    python prioritization_screen.py NVDA,TSM,MU            # tickers (comma-sep)
+    python prioritization_screen.py @tickers.txt          # tickers from file (one per line or comma-sep)
+    python prioritization_screen.py @tickers.txt out.csv  # tickers from file + output path
 
 Env: FMP_API_KEY must be set.
 """
@@ -19,10 +22,6 @@ FMP_KEY = os.getenv("FMP_API_KEY")
 FMP_BASE = "https://financialmodelingprep.com/stable"
 CA = "/root/.ccr/ca-bundle.crt"
 _CTX = ssl.create_default_context(cafile=CA) if os.path.exists(CA) else None
-
-DEFAULT_TICKERS = ["TSM", "NVDA", "AVGO", "AMD", "ASML", "KLAC", "AMKR", "INTC", "MU",
-                   "CRWV", "AMZN", "GOOGL", "MSFT", "META", "ADBE", "INTU", "CRM",
-                   "WDAY", "NOW"]
 
 
 # --------------------------------------------------------------------------- #
@@ -190,27 +189,38 @@ def main():
     if not FMP_KEY:
         sys.exit("Error: FMP_API_KEY not set.")
     args = sys.argv[1:]
-    tickers, out_path = DEFAULT_TICKERS, "prioritization_screen.csv"
-    if args:
-        a = args[0]
-        if a.startswith("@"):
-            txt = open(a[1:]).read()
-            tickers = [x.strip().upper() for x in txt.replace(",", "\n").split() if x.strip()]
-        else:
-            tickers = [x.strip().upper() for x in a.split(",") if x.strip()]
-        if len(args) > 1:
-            out_path = args[1]
+    if not args:
+        sys.exit("Usage: prioritization_screen.py <TICKERS|@file> [out.csv]\n"
+                 "  TICKERS: comma-separated (e.g. NVDA,TSM,MU) or @path to a file\n"
+                 "           (tickers one-per-line or comma-separated). No default list.")
+    a = args[0]
+    if a.startswith("@"):
+        txt = open(a[1:]).read()
+        tickers = [x.strip().upper() for x in txt.replace(",", "\n").split() if x.strip()]
+    else:
+        tickers = [x.strip().upper() for x in a.split(",") if x.strip()]
+    if not tickers:
+        sys.exit("No tickers provided.")
+    out_path = args[1] if len(args) > 1 else "prioritization_screen.csv"
 
     today = date.today()
     eur, twd = get_fx()
-    print(f"FX: EURUSD {eur:.3f}  USDTWD {twd:.2f}  |  {len(tickers)} tickers")
+    n = len(tickers)
+    print(f"FX: EURUSD {eur:.3f}  USDTWD {twd:.2f}  |  {n} tickers")
 
-    rows = []
-    for t in tickers:
+    rows, failed = [], []
+    for i, t in enumerate(tickers, 1):
         try:
             rows.append(fetch_ticker(t, eur, twd, today))
+            status = "ok"
         except Exception as e:
-            print(f"  [{t}] FAILED: {str(e)[:80]}")
+            failed.append(t)
+            status = f"FAILED: {str(e)[:60]}"
+        if i % 25 == 0 or n <= 50 or status != "ok":
+            print(f"  [{i}/{n}] {t} {status}")
+    if failed:
+        print(f"  {len(failed)} ticker(s) skipped after retries: {', '.join(failed[:20])}"
+              + (" ..." if len(failed) > 20 else ""))
     if not rows:
         sys.exit("No data fetched.")
 
