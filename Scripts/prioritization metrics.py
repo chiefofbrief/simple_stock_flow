@@ -134,7 +134,7 @@ def fetch_ticker(t, eur, twd, today):
     worst_nm = min(nms) if nms else None
 
     return dict(
-        ticker=t, company=pr.get("companyName", t),
+        ticker=t, company=pr.get("companyName", t), mktcap=mc,
         sg_ttm=sg_ttm, sg_q=sg_q,
         gm=(gp / rev) if rev else None,
         fcfs=(fcf / rev) if rev else None,
@@ -142,6 +142,14 @@ def fetch_ticker(t, eur, twd, today):
         mom3=mom3, yrs=yrs, worst_rev=worst_rev, worst_nm=worst_nm,
         industry=pr.get("industry", ""), description=(pr.get("description", "") or "").strip(),
     )
+
+
+def fetch_profile_only(t):
+    """Triage pass: one call per ticker (profile), no financials."""
+    pr = _get(f"profile?symbol={t}")[0]
+    return dict(ticker=t, company=pr.get("companyName", t), mktcap=pr.get("marketCap"),
+                sector=pr.get("sector", ""), industry=pr.get("industry", ""),
+                description=(pr.get("description", "") or "").strip())
 
 
 # --------------------------------------------------------------------------- #
@@ -175,17 +183,23 @@ def score(rows):
 # Output
 # --------------------------------------------------------------------------- #
 HEADERS = [
-    "Ticker", "Company", "Score: growth-weighted (0-100)", "Score: equal (0-100)",
+    "Ticker", "Company", "Market Cap ($B)",
+    "Score: growth-weighted (0-100)", "Score: equal (0-100)",
     "Sales growth: TTM vs prior-year TTM (%)", "Sales growth: latest Q vs year-ago Q (%)",
     "Gross profit / Sales (%)", "FCF / Sales (%)", "EV / Sales (x)",
     "Price vs. 3 months ago (%)", "Years since IPO (yrs)",
     "Worst annual sales growth, last 7y (%)", "Worst net profit / Sales, last 7y (%)",
     "Industry", "Description",
 ]
+PROFILE_HEADERS = ["Ticker", "Company", "Market Cap ($B)", "Sector", "Industry", "Description"]
 
 
 def pct(v):
     return round(v * 100, 0) if v is not None else ""
+
+
+def bil(v):
+    return round(v / 1e9, 1) if v is not None else ""
 
 
 def build_row(r):
@@ -193,7 +207,7 @@ def build_row(r):
     # 7-year cyclicality flags unreliable if <7 years public
     reliable = (yrs is not None and yrs >= 7)
     return [
-        r["ticker"], r["company"], r["score_growth"], r["score_equal"],
+        r["ticker"], r["company"], bil(r["mktcap"]), r["score_growth"], r["score_equal"],
         pct(r["sg_ttm"]), pct(r["sg_q"]), pct(r["gm"]), pct(r["fcfs"]),
         round(r["evs"], 1) if r["evs"] is not None else "",
         pct(r["mom3"]), yrs if yrs is not None else "",
@@ -203,33 +217,20 @@ def build_row(r):
     ]
 
 
-def main():
-    if not FMP_KEY:
-        sys.exit("Error: FMP_API_KEY not set.")
-    args = sys.argv[1:]
-    if not args:
-        sys.exit("Usage: prioritization metrics.py <TICKERS|@file> [out.csv]\n"
-                 "  TICKERS: comma-separated (e.g. NVDA,TSM,MU) or @path to a file\n"
-                 "           (tickers one-per-line or comma-separated). No default list.")
-    a = args[0]
-    if a.startswith("@"):
-        txt = open(a[1:]).read()
-        tickers = [x.strip().upper() for x in txt.replace(",", "\n").split() if x.strip()]
-    else:
-        tickers = [x.strip().upper() for x in a.split(",") if x.strip()]
-    if not tickers:
-        sys.exit("No tickers provided.")
-    out_path = args[1] if len(args) > 1 else "prioritization metrics.csv"
+def _parse_tickers(spec):
+    if spec.startswith("@"):
+        txt = open(spec[1:]).read()
+        return [x.strip().upper() for x in txt.replace(",", "\n").split() if x.strip()]
+    return [x.strip().upper() for x in spec.split(",") if x.strip()]
 
-    today = date.today()
-    eur, twd = get_fx()
+
+def _run(tickers, fetch_fn, label):
+    """Fetch loop with progress + skip-on-fail. Returns (rows, failed)."""
     n = len(tickers)
-    print(f"FX: EURUSD {eur:.3f}  USDTWD {twd:.2f}  |  {n} tickers")
-
     rows, failed = [], []
     for i, t in enumerate(tickers, 1):
         try:
-            rows.append(fetch_ticker(t, eur, twd, today))
+            rows.append(fetch_fn(t))
             status = "ok"
         except Exception as e:
             failed.append(t)
@@ -239,27 +240,70 @@ def main():
     if failed:
         print(f"  {len(failed)} ticker(s) skipped after retries: {', '.join(failed[:20])}"
               + (" ..." if len(failed) > 20 else ""))
+    return rows, failed
+
+
+def main():
+    if not FMP_KEY:
+        sys.exit("Error: FMP_API_KEY not set.")
+    argv = sys.argv[1:]
+    profile_only = "--profile-only" in argv
+    args = [a for a in argv if not a.startswith("--")]
+    if not args:
+        sys.exit("Usage: prioritization metrics.py <TICKERS|@file> [out.csv] [--profile-only]\n"
+                 "  TICKERS: comma-separated (e.g. NVDA,TSM,MU) or @path to a file. No default list.\n"
+                 "  --profile-only: triage pass — 1 call/ticker; outputs Ticker, Company,\n"
+                 "                  Market Cap, Sector, Industry, Description (no metrics/scores).")
+    tickers = _parse_tickers(args[0])
+    if not tickers:
+        sys.exit("No tickers provided.")
+    n = len(tickers)
+
+    # -- triage pass: profile only, 1 call/ticker --
+    if profile_only:
+        out_path = args[1] if len(args) > 1 else "prioritization triage.csv"
+        print(f"Profile-only (triage) | {n} tickers | 1 call/ticker")
+        rows, _ = _run(tickers, fetch_profile_only, "profile")
+        if not rows:
+            sys.exit("No data fetched.")
+        with open(out_path, "w", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(PROFILE_HEADERS)
+            for r in rows:
+                w.writerow([r["ticker"], r["company"], bil(r["mktcap"]),
+                            r["sector"], r["industry"], r["description"]])
+        print(f"\nWrote {out_path} ({len(rows)} rows)")
+        return
+
+    # -- full screen: ~6 calls/ticker --
+    out_path = args[1] if len(args) > 1 else "prioritization metrics.csv"
+    today = date.today()
+    eur, twd = get_fx()
+    print(f"FX: EURUSD {eur:.3f}  USDTWD {twd:.2f}  |  {n} tickers | ~6 calls/ticker")
+    rows, _ = _run(tickers, lambda t: fetch_ticker(t, eur, twd, today), "full")
     if not rows:
         sys.exit("No data fetched.")
 
     score(rows)
     rows.sort(key=lambda r: -r["score_growth"])
-
     with open(out_path, "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(HEADERS)
         for r in rows:
             w.writerow(build_row(r))
 
-    # console preview (numeric columns only)
-    print(f"\n{'Tk':<6}{'GwWt':>6}{'Eq':>6}{'sTTM':>7}{'sQ':>7}{'GM':>5}{'FCF':>6}{'EV/S':>6}"
-          f"{'3mo':>7}{'IPO':>6}{'WrstRev':>8}{'WrstNM':>8}")
+    # console preview (numeric columns)
+    fmt = lambda x: (str(x) if x != "" else "—")
+    print(f"\n{'Tk':<6}{'GwWt':>6}{'Eq':>6}{'MC$B':>8}{'sTTM':>7}{'sQ':>7}{'GM':>5}"
+          f"{'FCF':>6}{'EV/S':>6}{'3mo':>7}{'IPO':>6}{'WrstRev':>8}{'WrstNM':>8}")
     for r in rows:
-        b = build_row(r)
-        fmt = lambda x: (str(x) if x != "" else "—")
-        print(f"{r['ticker']:<6}{fmt(b[2]):>6}{fmt(b[3]):>6}{fmt(b[4]):>7}{fmt(b[5]):>7}"
-              f"{fmt(b[6]):>5}{fmt(b[7]):>6}{fmt(b[8]):>6}{fmt(b[9]):>7}{fmt(b[10]):>6}"
-              f"{fmt(b[11]):>8}{fmt(b[12]):>8}")
+        rel = (r["yrs"] is not None and r["yrs"] >= 7)
+        print(f"{r['ticker']:<6}{fmt(r['score_growth']):>6}{fmt(r['score_equal']):>6}"
+              f"{fmt(bil(r['mktcap'])):>8}{fmt(pct(r['sg_ttm'])):>7}{fmt(pct(r['sg_q'])):>7}"
+              f"{fmt(pct(r['gm'])):>5}{fmt(pct(r['fcfs'])):>6}"
+              f"{fmt(round(r['evs'],1) if r['evs'] is not None else ''):>6}"
+              f"{fmt(pct(r['mom3'])):>7}{fmt(r['yrs'] if r['yrs'] is not None else ''):>6}"
+              f"{fmt(pct(r['worst_rev']) if rel else ''):>8}{fmt(pct(r['worst_nm']) if rel else ''):>8}")
     print(f"\nWrote {out_path} ({len(rows)} rows)")
 
 

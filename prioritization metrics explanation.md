@@ -53,7 +53,8 @@ Legend: **TTM0** = latest 4 quarters, **TTM-1** = the 4 quarters ending one year
 
 | # | Column | Endpoint(s) | Formula | Description / rationale |
 |---|---|---|---|---|
-| 1 | Ticker / Company / Sector / Industry / Description | `profile` | — | Identity + business context. Sector/Industry allow scoring within peer groups. |
+| 1 | Ticker / Company / Industry / Description | `profile` | — | Identity + business context. Industry allows scoring/filtering within peer groups. (Sector also available; included in the triage pass.) |
+| 1b | Market Cap ($B) | `profile` + EOD price | `adjClose × sharesOutstanding` (full run); `profile.marketCap` (triage) | Size reference / filter. Not scored. |
 | 2 | Sales growth: TTM vs prior-year TTM (%) | income (quarter) | TTM0 revenue / TTM-1 revenue − 1 | Structural growth rate, smoothed (no seasonality, not a one-quarter blip). **Scored.** |
 | 3 | Sales growth: latest Q vs year-ago Q (%) | income (quarter) | Q0 revenue / Q-4 revenue − 1 | Current momentum / inflection detector. **Scored.** |
 | 4 | Gross profit / Sales (%) | income (quarter) | TTM grossProfit / TTM revenue | Unit economics — can the growth ever become profit. **Scored.** |
@@ -116,3 +117,43 @@ Columns 7–10. These are judgment overlays, deliberately kept out of the score:
   score low on FCF/Sales).
 - **Worst-margin / worst-sales-growth flags catch "cheap because at cycle peak"** — e.g., a memory
   company shows the lowest multiples exactly when earnings are most inflated; the trough flags reveal it.
+
+---
+
+## Running the script (`Scripts/prioritization metrics.py`)
+
+Implements this spec. Per-ticker `stable` calls only (no bulk). `FMP_API_KEY` env var required.
+
+**Arguments**
+- **`<TICKERS|@file>` (required, no default):** either a comma-separated list (`NVDA,TSM,MU`)
+  or `@path` to a file (tickers one-per-line or comma-separated). The screen is always run on a
+  supplied batch.
+- **`[out.csv]` (optional):** output path. Defaults: `prioritization metrics.csv` (full run) or
+  `prioritization triage.csv` (`--profile-only`).
+- **`--profile-only` (optional flag):** triage pass.
+
+**Two modes**
+- **Full run (default):** ~6 calls/ticker (profile, EOD price, income quarter+annual, cashflow
+  quarter, balance quarter). Outputs all columns above + both scores. Scores are **percentiles
+  within the batch supplied** — a ticker's rank depends on what else is in the run.
+- **`--profile-only` (triage):** **1 call/ticker** (profile only). Outputs Ticker, Company,
+  Market Cap, Sector, Industry, Description — no metrics or scores. Use it to classify/narrow a
+  large universe, then feed the survivors back into a full run.
+
+**Behavior at scale**
+- **Rate limiting:** self-throttled to **≤290 call-starts per rolling 60s** (margin under the
+  300/min plan), enforced across all calls including retries.
+- **Failure handling:** each call retries 4× with backoff (1/2/4/8s); a ticker that still fails is
+  skipped and logged, so a large batch completes.
+- **Progress** printed as it runs; failed tickers summarized at the end.
+
+**Rough runtimes** (at ~290 calls/min)
+- Triage (`--profile-only`, 1 call/ticker): ~290 tickers/min → **~10 min for 3,000**.
+- Full run (~6 calls/ticker): ~48 tickers/min → **~60 min for 3,000**.
+
+**Data note on the 5-year price cap:** the plan caps *daily price history* at 5 years — this only
+feeds the 3-month momentum column (needs ~3 months), so it does not affect the 7-year trough flags,
+which come from *annual statements* (8 years available).
+
+**Not yet implemented (future robustness for very large runs):** checkpoint/resume (a total crash
+loses in-progress fetches) and the automated data-sanity guardrail described above.
