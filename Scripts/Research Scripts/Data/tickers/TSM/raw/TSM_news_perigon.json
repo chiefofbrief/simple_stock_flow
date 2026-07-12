@@ -1,0 +1,566 @@
+{
+  "date_range": {
+    "from": "2026-04-13",
+    "to": "2026-07-12"
+  },
+  "stories": [
+    {
+      "clusterId": null,
+      "name": "Meta plans September AI chip production, doubles capacity",
+      "summary": "Meta Platforms plans to begin manufacturing its in-house AI chip Iris in September as part of its four-generation MTIA program, using Broadcom for design and TSMC for fabrication to reduce dependence on external suppliers. An internal memo shows Meta aiming for seven gigawatts of computing infrastructure this year and to double that capacity by 2027, with projected infrastructure spending as high as $145 billion in 2026 amid a broader $700 billion tech industry outlay. The move is accompanied by long-term supply agreements with Samsung, SanDisk, and Sumitomo to secure components, while Iris is slated to be produced in-house and a chip every six months through 2027. Reuters reports that Meta plans to boost total computing power to about 14 gigawatts next year, highlighting accelerated progress and momentum despite execution challenges. Separately, Samsung is developing GAIA, a 4nm, memory-centric AI accelerator for PCs aimed at on-device AI and improved performance, reflecting growing competition in AI hardware across sectors. In another development, Meta is reportedly in talks with Samsung\u2019s foundry to design and manufacture MTIA chips, potentially worth around $6.5 billion, signaling ongoing diversification of Meta\u2019s chip-supply arrangements.",
+      "keyPoints": [
+        "Six-week validation/testing of Meta's Iris chip reportedly completed with no major issues, signaling positive momentum for the MTIA in-house AI accelerator program.",
+        "Meta is reportedly in talks with Samsung's foundry to design and manufacture MTIA chips using Samsung's 2nm process, with an anticipated order around $6.5 billion, signaling a move to diversify suppliers beyond TSMC.",
+        "China's MetaX Integrated Circuits claims domestic AI computing demand far exceeds supply, with MXC600 chips moving into mass production on a fully domestic supply chain, highlighting China's push to build homegrown AI hardware."
+      ],
+      "sentiment": {
+        "positive": 0.29186618,
+        "negative": 0.31077924,
+        "neutral": 0.39735457
+      },
+      "updatedAt": "2026-07-12T17:14:07.785888+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Nvidia supplier King Yuan plans $1.4B factory",
+      "summary": "LG Electronics is finalizing a prototype AI server rack designed to support Nvidia\u2019s Vera Rubin compute trays, with mass production planned for next year as part of LG\u2019s broadened One LG data center strategy and cooling technology transfer from its long-standing HVAC innovations. Separately, King Yuan Electronics (KYEC), a major Taiwanese semiconductor testing and packaging company and Nvidia supplier, plans to invest up to $1.4 billion to establish a U.S. facility to strengthen its global footprint amid rising AI chip demand. The announcements reflect a broader push by Asian chipmakers to diversify and relocate testing, production, and server assembly closer to U.S. customers, alongside other major players expanding in the American market. Industry observers view these moves as strengthening the supply chain for AI hardware, with KYEC\u2019s investment aiming to support future growth and safeguard Nvidia\u2019s chip shipments. The developments underscore a trend toward expanded US-based semiconductor testing and manufacturing capacity to meet accelerating demand for AI infrastructure.",
+      "keyPoints": [
+        "LG Electronics has developed a prototype AI server rack for Nvidia's Vera Rubin compute trays that houses 108 AI chips per rack, built around a 1.8-megawatt data center cluster at LG PRI's Pyeongtaek site, and employs a direct-to-chip (DTC) cooling method tied to LG's 58 years of HVAC innovation.",
+        "KYEC plans to invest up to $1.4 billion to establish a U.S. testing facility to expand its semiconductor testing and packaging operations; the location, construction timeline, and customers are not disclosed, and KYEC is described as the world's largest professional testing factory and a major Nvidia supplier.",
+        "KYEC's U.S. expansion reflects a broader push by Taiwanese chipmakers to relocate testing, production, and server assembly closer to U.S. customers, alongside TSMC's Arizona plants and Foxconn/Wistron's Texas AI server capacity."
+      ],
+      "sentiment": {
+        "positive": 0.7332812,
+        "negative": 0.02559592,
+        "neutral": 0.2411229
+      },
+      "updatedAt": "2026-07-12T09:10:31.653674+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "AI Demand Drives TSMC, Samsung Wafer Price Hikes",
+      "summary": "Surging demand for AI-related chips is reshaping the economics of the semiconductor foundry market, with TSMC and Samsung leveraging tighter capacity to push prices higher across both advanced and legacy nodes. TSMC has begun raising wafer prices by roughly 5% to 10% on cutting-edge 3nm and 5nm lines while also extending price increases to older nodes, signaling a broader pricing power amid capital-intensive expansion. The company\u2019s mid-year earnings outlook remains strong, with revenue around $40 billion and margins under pressure from new 2nm ramp costs and a geopolitically complicated supply chain, even as market dynamics remain tight across multiple nodes. Investors are digesting a shift toward higher profitability through a heavier mix of advanced chips and aggressive capacity expansion, aided by a dividend strategy and a buoyant stock rally supported by AI-driven demand. Analysts warn that margins may compress in the near term as 2nm production scales up and external costs rise, but the broader AI demand narrative supports continued pricing power and large-scale investments.",
+      "keyPoints": [
+        "Samsung Electronics is targeting new clients with price increases of up to 15% on 5nm and 4nm lines, signaling a more aggressive effort to normalize pricing amid persistent capacity constraints.",
+        "TSMC has raised tariffs/prices on 7nm and below by 5% to 10%, with utilization on its newest production lines topping 120%, underscoring broad capacity tightness that extends beyond cutting-edge nodes.",
+        "TSMC plans to pay dividends in US dollars starting in Q3 2026 to insulate foreign shareholders from NT dollar volatility, a shift that accompanies a credit upgrade to AA-."
+      ],
+      "sentiment": {
+        "positive": 0.63358384,
+        "negative": 0.10861149,
+        "neutral": 0.2578047
+      },
+      "updatedAt": "2026-07-11T14:16:58.847279+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Rapidus Plans 2nm Mass Production 2026",
+      "summary": "Rapidus, the Japanese government-backed chipmaker, is accelerating its 2-nanometer ambition with mass production targeted for the second half of fiscal 2027, aiming to compete on price and capability with Taiwan\u2019s TSMC. The company says it will price 2nm chips at or below TSMC levels, with current estimates around 3 million to 3.5 million yen per wafer, signaling a deliberate challenge to TSMC\u2019s dominance in leading-edge manufacturing. Rapidus has also disclosed collaborations, including work with IBM on advanced packaging, and is actively courting more than 60 potential customers as it ramps up manufacturing capacity at its Chitose, Hokkaido site. Despite the optimistic plans, questions persist about whether a single fab can deliver mass production by 2027, as no volume agreements have been signed and the project remains heavily government-supported with substantial risk if demand does not materialize. The broader market context shows TSMC maintaining a sizable edge in scale and valuation, which Rapidus is seeking to narrow through competitive pricing and a rapid 2nm roadmap while pursuing a multiyear capacity ramp.",
+      "keyPoints": [
+        "Rapidus targets pricing of 2nm chips at 3 million to 3.5 million yen per wafer, aiming to be no more expensive than, or cheaper than, TSMC's pricing.",
+        "TSMC dominates the market in leading-edge logic; reports place its share around 70% of the market as of 2025, with a market cap near $2.2 trillion and a high price-to-earnings multiple, underscoring Rapidus's competitiveness challenge.",
+        "Japan has installed its first mass-production-grade EUV system at the IIM-1 fab in Chitose (ASML NXE:3800E); Rapidus has also demonstrated a 2nm gate-all-around prototype with electrical characteristics, signaling progress on the advanced-node roadmap."
+      ],
+      "sentiment": {
+        "positive": 0.37132245,
+        "negative": 0.14414546,
+        "neutral": 0.4845321
+      },
+      "updatedAt": "2026-07-10T14:34:39.804582+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "AI-First Banking Amid Turbulence",
+      "summary": "June market turmoil exposed vulnerabilities and mounting systemic risks, with investors reacting to geopolitical tensions, inflation concerns, and AI-related investment bubbles flagged by a US Treasury analysis as potentially destabilizing. In the retail financial-services sector, regulators anticipate substantial AI-driven change by 2030, noting growing public willingness to trust autonomous AI for personal finance while warning about fraud, cybersecurity, and market concentration risks. The industry is urged to shift from digitization to an AI-first approach that can anticipate customer intent, validate risk, and personalize interactions, starting with banking onboarding. Some firms, such as Revolut, are building a unified AI foundation across the entire customer journey to support fraud detection, credit decisions, and customer service, signaling a move toward integrated AI ecosystems. Thought leaders stress governance and explainability, arguing AI should enhance strategic planning and risk management rather than merely automate tasks. Open standards like the Model Context Protocol enable richer AI-agent integration into enterprise tools but also introduce security risks from manipulated tool descriptions that require robust safeguards.",
+      "keyPoints": [
+        "A US Treasury internal analysis flagged 'serious financial stability risks' from AI-related investments, detailing inflated valuations, concentrated capital flows, and interconnected exposures that could amplify shocks across markets.",
+        "Security researchers demonstrated a denial-of-service style vulnerability where an evolutionary prompt-corruption attack can induce AI models to engage in excessive 'overthinking,' producing outputs up to 26 times longer than normal across major systems such as DeepSeek-R1, Alibaba Qwen3-Thinking, OpenAI GPT-o3, and Google Gemini 2.5 Flash.",
+        "The Finextra piece outlines a practical AI-first onboarding approach where banks use intelligent orchestration to infer context from existing records, registries, third-party sources, digital footprints, and internal data\u2014allowing low-risk applicants to move quickly while exceptions are escalated with contextual justification."
+      ],
+      "sentiment": {
+        "positive": 0.22044505,
+        "negative": 0.41227087,
+        "neutral": 0.3672841
+      },
+      "updatedAt": "2026-07-10T14:19:30.403856+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Intel Plans Dual-Side Power for 14A2 Against Rivals",
+      "summary": "Intel is reportedly pursuing a hybrid dual-side power delivery approach for its 1.4nm-class 14A2 process to counter rival moves from TSMC and Samsung, driven by lithography limits and the density challenge of shrinking interconnects to 21nm pitch. The plan would pair PowerDirect backside power delivery with repurposed front-side metal layers to handle supplemental power and clock signals, aiming to avoid IR drop as wiring resistance rises. This shift builds on prior BSPDN work and seeks to enable higher chip density\u2014roughly 1.3x versus the 18A node\u2014while enabling continued use of High-NA EUV lithography with double patterning. Industry timelines suggest Samsung\u2019s SF2Z could reach risk production by 2027 and mass production by 2029, with Intel\u2019s 14A2 risk production targeted for 2028 and high-volume manufacturing in 2029. The broader race centers on who first delivers 1.4nm-class performance, with Intel positioning itself to close the gap against TSMC\u2019s A14/N2 and Samsung\u2019s SF2Z programs.",
+      "keyPoints": [
+        "Industry-wide shift toward backside power delivery is strengthening, with TSMC's Super PowerRail architecture for the A16 node and Samsung incorporating BSPDN into its SF2 and SF2Z programs.",
+        "Intel's 14A2 is evaluating a dual-side power delivery architecture that combines its PowerDirect BSPDN with front-side metal for signals due to the 21 nm M0 pitch and associated routing conflicts.",
+        "IR drop concerns at 21 nm interconnect pitch are linked to the nTSV infrastructure originally built for backside power delivery, prompting Intel to keep BSPDN as the primary path while reallocating portions of front-side metal for supplemental power and clock signaling."
+      ],
+      "sentiment": {
+        "positive": 0.3008879,
+        "negative": 0.20563267,
+        "neutral": 0.49347943
+      },
+      "updatedAt": "2026-07-10T08:16:54.816000+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "US Semiconductor Shortage Up to 157,000 by 2030",
+      "summary": "A nationwide shortage of high-skilled workers could delay billions in U.S. semiconductor plant construction and constrain future chip production. A McKinsey/SEMI/NSF analysis projects a deficit of up to 157,000 full-time skilled workers by 2030, with Texas, California, Arizona, New York, and Ohio hardest hit. The shortage threatens investments by TSMC, Micron, Samsung, and Intel, while rising costs for copper, steel and cement add to construction challenges amid broader inflation. The AI boom is linked to layoffs in other sectors, complicating the labor picture as the industry seeks funding and scaling training, including CHIPS Act support. Industry projections also estimate about 115,000 new semiconductor jobs by 2030, with roughly 67,000 unfilled, underscoring substantial unmet demand and the need for rapid training and partnerships. Proposed solutions emphasize government funding, expanded curricula, and stronger ties between chipmakers, community colleges, and apprenticeship programs.",
+      "keyPoints": [
+        "102,000 AI-related job cuts announced so far this year, underscoring labor-market churn even as the chip industry expands.",
+        "The US semiconductor workforce is roughly 345,000 today and must grow to about 460,000 by 2030\u2014a 33% increase\u2014with about 67,000 of the roughly 115,000 new roles potentially remaining unfilled.",
+        "Federal CHIPS Act incentives (over $52 billion) have helped catalyze roughly $640 billion in private investments across about 140 projects nationwide."
+      ],
+      "sentiment": {
+        "positive": 0.04027056,
+        "negative": 0.8336467,
+        "neutral": 0.12608275
+      },
+      "updatedAt": "2026-07-10T02:45:46.589242+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Yuanta Plans NT$42B Syndicated Loans Amid Boom",
+      "summary": "Taiwan\u2019s stock market has been buoyed by a broad rally, with Taiex gains and rising investor borrowing fueling a surge in brokerage funding, highlighted by Yuanta Securities seeking up to NT$42 billion in syndicated loans to support working capital and debt repayment. The market backdrop includes a two-out-of-three-session decline recent trend, but analysts expect an upside opening as global tech and energy sectors provide mixed to positive cues. TSMC demonstrated resilience amid a wider AI stock selloff, underscoring its critical role in the chip supply chain and projecting robust AI-related revenue growth, while tokenized TSMC shares on Ethereum illustrate evolving liquidity dynamics in on-chain markets. Within Taiwan\u2019s banking and financials, Taiwan Business Bank and E.Sun Financial Holding are framed by lending growth, funding costs, and deposit competition as key drivers of earnings stability and balance-sheet discipline. The broader outlook for Taiwanese markets remains nuanced, with investors watching funding costs, loan growth, and the performance of AI-linked tech stocks that continue to shape sentiment. Overall, the convergence of tech-driven equity demand, critical semiconductor exposure, and influential bank earnings remains central to Taiwan\u2019s market trajectory.",
+      "keyPoints": [
+        "Yuanta Securities is seeking up to NT$42 billion through two syndicated loans to bolster working capital and debt repayment: NT$25 billion for Yuanta Securities (potentially up to NT$30 billion) and NT$10 billion for Yuanta Securities Finance (up to NT$12 billion), both with three-year tenors. The Yuanta loan is priced at 37 basis points over Taibor with potential ESG-based margin relief of up to 2 basis points; the Yuanta Securities Finance loan is priced at 38 basis points over Taibor with a 1.7% floor.",
+        "Yuanta\u2019s revenue surged 116% year-on-year to NT$65.6 billion in the first five months, as the Taiex has surged more than 60% this year; investor borrowing from brokerages to fund stock purchases has jumped about 160% over the past 12 months, near the all-time high seen before the 2000 stock crash.",
+        "TSMC projects AI-related revenue to grow 55% CAGR through 2029, up from a prior 45% target, supported by capital expenditure guidance of $52\u2013$56 billion for 2026 and CEO CC Wei\u2019s assertion that AI demand remains extremely robust."
+      ],
+      "sentiment": {
+        "positive": 0.2583352,
+        "negative": 0.4103723,
+        "neutral": 0.33129254
+      },
+      "updatedAt": "2026-07-09T02:03:08.465286+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC Stock Surges 32% as Citi Raises Target",
+      "summary": "Citi has raised its price target for Taiwan-listed Taiwan Semiconductor Manufacturing Co. (TSMC) to T$3,800 while maintaining a Buy rating, reflecting confidence in sustained demand for advanced AI chips and expectations for stronger 2026 revenue growth. Analysts anticipate TSMC's Q2 2026 results on July 16 with EPS of about $3.80 and revenue near $40.02 billion, up significantly from the previous year, supported by May 2026 sales rising about 30% year over year. Citi argues the AI semiconductor cycle is broadening to include GPUs, specialized chips, TPUs, networking components, and CPUs, with wafer pricing likely to rise into 2027 amid continued leadership in N2 and N3 processes and packaging. The firm also notes TSMC's capacity expansion plans and higher end capital expenditure guidance, suggesting improved long-term growth prospects and the potential to raise 2026 revenue targets with robust demand. Across multiple outlets, consensus targets and optimistic outlooks reinforce the view that TSMC's scale and customer base (Apple, Nvidia, AMD) underpin its competitive edge despite rising depreciation and margin pressures from newer nodes.",
+      "keyPoints": [
+        "Citi estimates TSMC's advanced chip production capacity could reach 350,000 to 400,000 wafers per month, highlighting the scale and capacity expansion potential beyond current levels.",
+        "GuruFocus notes TSMC is currently overvalued by about 48% relative to its GF Value, suggesting a narrower margin of safety at current prices.",
+        "TipRanks shows a consensus target for TSMC of around $520, with a Strong Buy and about 19.7% potential upside, underscoring bullish sentiment across analysts."
+      ],
+      "sentiment": {
+        "positive": 0.6237768,
+        "negative": 0.114927284,
+        "neutral": 0.2612959
+      },
+      "updatedAt": "2026-07-08T15:26:24.077074+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "AI Backlash and Deregulation Debate Reshapes Industry",
+      "summary": "A White House adviser argues there will be no FDA-like licensing for AI and pushes for deregulation to avoid slowing innovation, noting recent government actions against some AI models have spurred public pushback. Separately, a piece clarifies the distinction between Functional AI and more advanced agents, emphasizing that Functional AI is a pattern generator that does not act independently and has limited legal exposure. Another article highlights that AI is already embedded in daily life, from device authentication to recommendations, underscoring its broad consumer impact. At the same time, local opposition to data centers fueling AI infrastructure signals ongoing public skepticism and potential regulatory or economic risks for AI companies. Meanwhile, as major AI players prepare for large IPOs, tech workers face wealth concentration and anxieties about job displacement amid a booming but uneven distribution of benefits. Taken together, the coverage maps a landscape of regulatory debate, technical understanding gaps, everyday AI adoption, civic pushback over infrastructure, and a wealth-driven transformation of the tech economy.",
+      "keyPoints": [
+        "White House AI adviser Sriram Krishnan, a former venture capitalist who worked with Elon Musk, emphasizes a deregulated approach and has argued there will be no FDA for AI, describing burdensome rules as 'sand in the gears' of progress.",
+        "Public and local opposition to AI infrastructure persists even as polls show broad appetite for regulation: Data Center Watch notes a majority of Americans support tougher AI rules, while more than six dozen data-center projects were blocked or delayed in Q1 due to local opposition.",
+        "Governance discussions around AI can be misdirected if they treat Functional AI as an autonomous actor; the article argues Functional AI is a pattern generator, not a mind or agent, and highlights that 'Agentic AI' is a different category with actors and actions."
+      ],
+      "sentiment": {
+        "positive": 0.21102951,
+        "negative": 0.40608585,
+        "neutral": 0.38288465
+      },
+      "updatedAt": "2026-07-05T23:18:38.784254+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC SVP Kevin Zhang buys 62 shares",
+      "summary": "Taiwan Semiconductor Manufacturing insiders have continued adding to their positions, with SVP and Deputy Co-COO Kevin Xiaoqiang Zhang buying 62 shares on June 5, 2026, increasing his holdings by about 0.9% to 7,162 shares. Over the past six months, TSM insiders made 74 trades on the open market, with 73 purchases and just 1 sale, suggesting a net buying tilt among company officers. Separate Form 4 filings also show routine share purchases carried out by the administrator of TSM\u2019s Employee Stock Purchase Plan on behalf of employees. Other filings reference common shares acquired and held through the ESPP or via trusts tied to the company\u2019s Long-Term Incentive bonus plan, reflecting employee compensation structures rather than discretionary market-timing. Together, the reports highlight both direct insider buying and ongoing employee-linked equity accumulation as a steady source of demand for TSM stock.",
+      "keyPoints": [
+        "Beyond Kevin Xiaoqiang Zhang\u2019s purchase, the Quiver Quant breakdown shows multiple other TSM executives also bought shares in the same six-month window\u2014for example, Chairman and CEO Che-Chia Wei bought 336 shares (estimated $22,165) and VP Tzu-Sou Chuang made two purchases of 104 shares (estimated $6,852), alongside other VP/SVP buys reported in the same table.",
+        "The same Quiver Quant insider-trading table also highlights the single reported sale in the last six months: VP Tzu-Sou Chuang sold 200,000 shares for an estimated $13,966,000\u2014an outsize transaction compared with the smaller purchase lots listed for other insiders.",
+        "StockTitan\u2019s Form 4 filings include the standard Section 16 disclosures and also indicate whether a transaction was made under a contract, instruction, or written plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) (the filing contains the explicit Rule 10b5-1(c) reference/check-box language)."
+      ],
+      "sentiment": {
+        "positive": 0.1684976,
+        "negative": 0.21689053,
+        "neutral": 0.61461186
+      },
+      "updatedAt": "2026-06-12T13:14:55.895631+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC warns AI chip prices could rise",
+      "summary": "TSMC, the key supplier of advanced chips for AI and major device makers, says rising inflation is increasing its operating costs, though it does not expect sharp, sudden wafer price hikes; management also continues to weigh price changes cautiously amid industry watchfulness. Investors are paying attention to the broader AI semiconductor cycle, where capital expenditure discipline and heavy spending trajectories\u2014rather than just unit demand\u2014are shaping how financial vehicles like closed-end funds deliver exposure, often helped by structural discount dynamics. The theme of AI-driven infrastructure investment also shows up in Wall Street coverage of IBM, where growth and margin strength are attributed to enterprise software, consulting, and hybrid cloud demand tied to AI workloads, alongside a push in quantum computing. Separately, funding momentum reflects how AI is spreading beyond chatbots into industrial engineering: London-based PhysicsX raised $300 million to scale \u201clarge physics models\u201d trained on large sets of physical designs, targeting faster simulation-driven development for sectors like aviation, turbines, and semiconductors. Taken together, the articles portray AI demand as persistent, while highlighting that pricing, investment cycles, and specialized industrial applications are the key near-term variables investors are tracking.",
+      "keyPoints": [
+        "TSMC said it is expanding manufacturing capacity in the U.S., Germany and Japan while continuing to invest heavily in Taiwan\u2014underscoring that cost pressures from inflation are emerging alongside a major global capex footprint.",
+        "At TSMC\u2019s shareholder meeting, Chairman and CEO C.C. Wei said, \u201cI would like to raise prices,\u201d but added that the company intends to maintain stability and avoid the abrupt pricing shocks \u201cseen in parts of the memory-chip market.\u201d",
+        "A closed-end fund\u2019s structure\u2014rather than discount arbitrage\u2014is tied to capital-spending cycles: the article notes CEFs deploy \u201c100% of [their] capital,\u201d while open-end funds typically hold a \u201ccash buffer - typically 1% to 3% of assets\u201d to cover redemptions."
+      ],
+      "sentiment": {
+        "positive": 0.63788307,
+        "negative": 0.1704577,
+        "neutral": 0.19165926
+      },
+      "updatedAt": "2026-06-12T10:49:31.081395+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Phoenix Financial discloses 5.01% stake in TSEM",
+      "summary": "Recent SEC disclosures show Cerity Partners LLC reduced its Taiwan Semiconductor Manufacturing stake by about 1.3% in the fourth quarter, while other institutional investors increased or initiated positions, leaving institutions owning roughly 16.5% of the company. Separately, an investment analysis highlights TSMC\u2019s pricing power, including a reported 15% increase on 3nm process nodes and expectations for higher-priced 2nm manufacturing that is already progressing faster than 3nm at a comparable stage, supported by customer tapeouts such as Apple. The filing also indicates routine employee share buying activity through TSM\u2019s employee stock purchase plan, reflecting continued internal participation in the stock. Meanwhile, market-focused commentary notes strong recent share performance and frames the debate around whether the current price already reflects future growth, citing a fair-value estimate below the latest trading level. That valuation view comes with key risks, particularly geopolitical disruption to Taiwan-based production and the possibility that heavy capital spending does not keep pace with chip demand.",
+      "keyPoints": [
+        "Cerity Partners\u2019 Form 13F showed it owned 552,566 Taiwan Semiconductor shares after selling 7,511 in the fourth quarter, worth about $167.92 million in the filing.",
+        "Other institutions materially increased exposure with named examples: Life Cycle Investment Partners bought a new stake worth $495.16 million; SurgoCap Partners bought a new stake worth $360.44 million; Capital Research Global Investors raised its stake by 66.3% to 3,215,353 shares worth $976.82 million; and Man Group grew its stake by 337.1% to 1,053,421 shares worth $238.59 million (Danica Pension Lifvsforsikringsaktieselskab also initiated a $232.92 million position).",
+        "On advanced-node economics, TSMC was described as having entered high-volume manufacturing of its 2nm process in Q4 2025, with 2nm wafers priced at about $30,000\u2014roughly 50% above 3nm pricing\u2014supporting expectations for higher revenue and margins."
+      ],
+      "sentiment": {
+        "positive": 0.36791793,
+        "negative": 0.09350876,
+        "neutral": 0.5385733
+      },
+      "updatedAt": "2026-06-11T09:25:35.845592+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Taiwan mulls AI chip export curbs to China",
+      "summary": "Taiwan is considering significantly tighter export controls on AI chips and related advanced hardware sold to China in an effort to align more closely with U.S. rules and curb diversion or smuggling through Taiwan. A Bloomberg report says Taipei may move beyond current measures\u2014such as adding firms to an export-control framework and restricting exports to listed entities\u2014toward a broader restriction covering all buyers on the Chinese mainland, though officials have not formally confirmed a blanket ban. Taiwan\u2019s Economic Ministry said it will strengthen management mechanisms for strategic high-tech goods to address national security concerns, including the transshipment risk, even though illegal sales are not currently treated as a criminal offense under Taiwanese law. If expanded controls were enacted, sources say Taiwan could gain new legal tools to prosecute unauthorized diversion as a criminal matter, following earlier steps such as detentions tied to alleged chip smuggling. Critics in China and some Taiwan media outlets warn the policy could raise compliance costs and harm Taiwan\u2019s semiconductor-centered role in global AI supply chains, pointing to the economic exposure of major manufacturers such as TSMC to China demand. The decision is unfolding amid broader U.S.-Taiwan semiconductor security pressure, with government and industry stakeholders weighing tradeoffs between national-security alignment and the operational impact on manufacturers, data-center supply chains, and related cross-border business.",
+      "keyPoints": [
+        "A Chinese mainland expert criticized the possible Taiwanese move as Beijing-friendly alignment with Washington, saying the DPP is using Taiwan\u2019s semiconductor industry as a \u201ccertificate of loyalty\u201d to \u201cplease the US,\u201d warning it could turn the island into a \u201chollow-out island.\u201d",
+        "Taiwan media outlets warned of added burdens for industry: United Daily News, citing industry insiders, said a mainland-wide ban would \u201cincrease corporate compliance costs.\u201d",
+        "Economic impact detail: reports cited in Global Times said Chinese mainland customers accounted for about 7% of TSMC\u2019s total revenue in the first quarter."
+      ],
+      "sentiment": {
+        "positive": 0.13863078,
+        "negative": 0.43460825,
+        "neutral": 0.42676097
+      },
+      "updatedAt": "2026-06-11T09:01:35.776805+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TAIEX tumbles 2,600 points; TSMC plunges",
+      "summary": "Taiwan\u2019s Taiex fell sharply on Monday, closing down about 3.5% and retreating for a third straight session as a Wall Street tech sell-off spilled into Asian markets. Investors also worried that a more hawkish Federal Reserve and prolonged high interest rates could cool the AI-driven rally, with additional caution tied to escalating Middle East tensions after Israel\u2019s retaliatory strikes against Iran. TSMC, accounting for more than 40% of the market\u2019s value, led the decline with its largest-ever intraday drop, dragging the index toward a two-week low, while other major Taiwanese tech names also fell. Foreign institutional investors sold heavily, but bargain hunters\u2014including reportedly government-linked funds\u2014stepped in after the index slipped below its 20-day moving average. The sell-off extended beyond Taiwan, with South Korea\u2019s benchmark also plunging as the region\u2019s technology stocks came under pressure. Traders said the initial losses were amplified by strong U.S. jobs data that raised expectations for fewer rate cuts and potentially more tightening later this year.",
+      "keyPoints": [
+        "The Taiex\u2019s Monday drop was the third heaviest point decline in its history, closing down 1,568.16 points (3.48%) at 43,502.78 after trading between 42,376.86 and 44,507.49; turnover reached NT$1.13 trillion (US$35.51 billion). CNA also noted the only larger recorded point drops were 2,065.87 points on April 7, 2025, and 1,807.21 points on Aug. 5, 2024.",
+        "CNA reported that foreign institutional investors sold a net NT$93.85 billion of shares on Monday, while local investment trust firms bought a net NT$9.07 billion\u2014figures not included in the summary.",
+        "Sectors were broadly hit, with TradingView citing declines of 3.7% for electronic technology, 5.1% for technology services, and 4.9% for energy minerals."
+      ],
+      "sentiment": {
+        "positive": 0.028567446,
+        "negative": 0.8964952,
+        "neutral": 0.07493731
+      },
+      "updatedAt": "2026-06-11T03:16:47.801318+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "MarketBeat industrial stocks watchlist June 6",
+      "summary": "MarketBeat\u2019s stock screeners highlight industrial and manufacturing stocks showing unusually high recent trading volume, framing them as potential proxies for broader economic and infrastructure-driven growth. In the industrial category, the focus is on Caterpillar, Coherent, and onsemi, spanning construction and mining equipment, engineered optical/laser components, and power/analog semiconductors for automotive, industrial, and energy applications. On the manufacturing side, the screener points to Taiwan Semiconductor Manufacturing, Applied Materials, and FREYR Battery, emphasizing exposure to semiconductor supply chains and end-market demand. Another manufacturing list broadens the slate to include Flex, Cerebras Systems, Johnson Controls International, and Fabrinet alongside TSMC and Applied Materials, underscoring continued investor interest in both chip-related manufacturing and industrial hardware. Separately, a June 18 Manufacturing Lunch + Learn webinar will feature experts discussing practical upgrades for aerospace producers, including variable speed screw vacuum systems to improve quality, cut operating costs, and reduce downtime. The session will also address workholding and automation trends through SMW Autoblok\u2019s leadership.",
+      "keyPoints": [
+        "Caterpillar\u2019s \u201cConstruction Industries\u201d segment spans a wide range of off-highway equipment\u2014including asphalt pavers, compactors, road reclaimers, forestry machines, excavators, telehandlers, motor graders, pipelayers, and multiple loader/tracked-tractor categories\u2014underscoring why the company is positioned as a direct play on physical infrastructure activity.",
+        "The June 18 Manufacturing Lunch + Learn is explicitly described as a \u201cfree educational hour\u201d scheduled for \u201c12PM ET,\u201d with the session split into two half-hours: (1) Quincy Compressor vacuum modernization led by business development specialist Monroe Glover and (2) a workholding/automation outlook featuring SMW Autoblok CEO Larry Robbins.",
+        "Monroe Glover\u2019s webinar role is detailed as working with \u201cmanufacturers, end users and sales engineers\u201d to \u201cidentify operational efficiencies, optimize systems, and implement solutions that deliver measurable business results\u201d specifically through vacuum-system improvements\u2014framing the upgrade discussion around quantifiable outcomes rather than only general best practices."
+      ],
+      "sentiment": {
+        "positive": 0.447095,
+        "negative": 0.051300213,
+        "neutral": 0.5016048
+      },
+      "updatedAt": "2026-06-08T09:27:38.562709+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC CEO Warns AI Chip Supply Will Stay Tight",
+      "summary": "TSMC CEO C.C. Wei said AI-driven demand for advanced chips will continue to outstrip supply for years, even as the company accelerates capacity expansions. He said fully meeting U.S. customer needs through domestic production will take \u201ca very long time,\u201d citing permitting, labor, and broader capacity constraints as TSMC invests in new U.S. fabs along with advanced packaging and R&D. Wei projected strong growth and signaled TSMC is open to higher prices, but would avoid abrupt, memory-style price spikes to protect long-term relationships. Taiwan-based rivals also said AI chip scaling is constrained not just by wafer capacity but by bottlenecks across the ecosystem, including memory, advanced packaging, semiconductor materials analysis, and related equipment. Collectively, the comments suggest ongoing pressure on chip availability could contribute to higher consumer device prices, and Wei argued Taiwan\u2019s AI supply-chain advantages are difficult for competitors such as South Korea to replicate quickly.",
+      "keyPoints": [
+        "TSMC CEO C.C. Wei said the AI-driven surge has \u201cleft the entire supply and ecosystem unprepared and unable to cope,\u201d adding, \u201cSupply \u2018restrictions are everywhere.\u2019\u201d",
+        "Wei said TSMC is also dealing with \u201cshort supply of chip manufacturing equipment for advanced chips,\u201d and that equipment makers attribute the problem to \u201ccomponent shortages from their suppliers.\u201d",
+        "Reporting on the same shareholder remarks, The Verge said the AI boom has already constrained the memory industry, with widespread shortages of \u201cRAM and NAND Flash memory expected to last for years.\u201d"
+      ],
+      "sentiment": {
+        "positive": 0.25204083,
+        "negative": 0.39988178,
+        "neutral": 0.3480774
+      },
+      "updatedAt": "2026-06-07T06:56:16.420411+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC starts 2nm mass production, plans expansion",
+      "summary": "TSMC and Micron are playing different but complementary roles in AI hardware: TSMC is the leading contract logic chip manufacturer, while Micron supplies high-bandwidth memory used in AI accelerators. Micron reported a strong fiscal first quarter, driven by tight HBM supply and its cloud memory business, and it guided further improvement with an outlook that extends demand visibility. TSMC, meanwhile, has begun mass production of 2nm chips using nanosheet Gate-All-Around transistors, positioning it as the only foundry producing this advanced node at scale and ramping 2nm capacity to meet AI and high-performance computing needs. Multiple reports emphasize TSMC\u2019s technological lead at the N2 node, including yield and performance/power advantages and customer capacity commitments from major AI and consumer electronics companies. Beyond the chip roadmap, TSMC\u2019s Arizona expansion\u2014covering land purchases, new fabrication and packaging plans, and major U.S. investment\u2014aims to build a long-term \u201cgigafab\u201d cluster to support growth through the mid-2030s. Overall, the coverage depicts TSMC\u2019s manufacturing scale and process leadership alongside Micron\u2019s memory tightness and momentum as key drivers of the AI compute supply chain.",
+      "keyPoints": [
+        "Micron\u2019s fiscal Q1 results were not just \u201cstrong\u201d\u2014the company reported revenue of $13.643 billion (5.91% above projections) and non-GAAP EPS of $4.78 (vs. $3.94 consensus), with its Cloud Memory business generating $5.28 billion and a 66% gross margin amid continued HBM tightness.",
+        "Micron\u2019s guidance included both scale and visibility: it projected the next quarter at $18.70 billion in revenue and $8.42 EPS, and it said \u201corder availability\u201d extends out to 2027. The coverage also noted CEO Sanjay Mehrotra selling 31,000 Micron shares.",
+        "On the 2nm ramp, TSMC\u2019s N2 node is described as clearing early performance and process hurdles\u2014Green Alpha (via Detik Finance) cited initial 2nm yields of 70\u201380%, plus a 15% performance increase at the same power or a 25\u201330% power reduction versus 3nm, and an expectation of reaching 100,000 wafers/month of 2nm capacity by year-end 2026."
+      ],
+      "sentiment": {
+        "positive": 0.72089994,
+        "negative": 0.04232892,
+        "neutral": 0.23677112
+      },
+      "updatedAt": "2026-06-06T13:27:45.212046+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC stock climbs 4.1% to $435.63",
+      "summary": "TSMC shares rose about 4.1% to $435.63 in early June. CEO C.C. Wei told shareholders AI demand continues to outstrip supply for years, with customers remaining positive about continued AI spending. He said TSMC is working with major clients to expand capacity but that it will take a very long time to fully meet U.S. demand from new domestic production. Wei defended a long-term, relationship-focused pricing approach and pointed to strong profitability, including 2025 record revenue, earnings, a more than doubling of the stock, and dividend increases of over 30%. He also highlighted a longer growth runway beyond data centers, positioning \u201cphysical AI\u201d for autonomous driving and robotics, and said TSMC is investing heavily\u2014about $165 billion in Arizona\u2014while continuing advanced tooling work such as High-NA EUV that remains largely in R&D due to cost.",
+      "keyPoints": [
+        "Wei said he \u201cwould like to\u201d raise prices because \u201cwe still need to make money,\u201d but argued against suddenly hiking like some memory makers do, saying it \u201cisn\u2019t sustainable.\u201d He added: \u201cWe don\u2019t want to suddenly raise prices like memory companies do. That\u2019s not sustainable. TSMC is focused on long-term, sustainable operations.\u201d",
+        "TSMC reported record 2025 results: consolidated revenue of NT$3.81 trillion (US$120.98 billion), up 31.6% year over year, and diluted EPS up 46.4% to a record NT$66.25, according to Wei\u2019s remarks at the annual shareholders\u2019 meeting.",
+        "On spending, Wei said 2026 capital expenditures are expected to come near the upper end of TSMC\u2019s projected US$52 billion\u2013US$56 billion range, and when asked when spending might plateau he replied: \u201cHonestly, I don\u2019t know,\u201d adding he saw no signs justifying a slowdown."
+      ],
+      "sentiment": {
+        "positive": 0.18789905,
+        "negative": 0.56986505,
+        "neutral": 0.24223591
+      },
+      "updatedAt": "2026-06-06T06:48:39.864699+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "AI Power Bottleneck Drives Grid and Data-Center Push",
+      "summary": "Malaysia\u2019s Prime Minister said the country\u2019s energy transition must be \u201cjust\u201d and keep supplies secure and affordable as AI demand accelerates electricity needs, amid regional supply strains linked to events such as the Strait of Hormuz. Industry executives said the AI bottleneck is shifting from obtaining frontier models and GPUs to securing the electricity, grid capacity, and cooling capacity needed for large data centers and advanced computing. In semiconductors, TSMC\u2019s leadership said customers increasingly prioritize energy efficiency over raw compute power when evaluating AI chip investments. Energy-sector advocates argued AI should be used for earlier warnings and prevention to improve reliability, resilience, cybersecurity, safety, and day-to-day operational decisions, while still requiring thoughtful governance. Telecom and communications companies reported using AI to cut costs and pursue new services such as Physical AI and fiber partnerships, but they said scaling remains constrained by electrical and broader infrastructure limits.",
+      "keyPoints": [
+        "Malaysia\u2019s Prime Minister Anwar Ibrahim tied the country\u2019s energy-transition \u201cmeasure of this work\u201d directly to AI serving national interests, saying the transition must be \u201cjust\u201d and energy \u201csecure,\u201d and explicitly argued that ASEAN needs an \u201cAsean Power Grid\u201d because \u201cno single country can meet this demand efficiently on its own.\u201d",
+        "Harvard Business Review framed AI\u2019s infrastructure constraint as a sequence of shifting scarcities: first \u201caccess to the frontier model,\u201d then GPUs/cloud/data-center space, and now the emerging \u201cnew constraint\u2026 electricity,\u201d describing it as \u201cthe energy-intensive infrastructure required to produce and deliver\u201d AI.",
+        "T-Mobile\u2019s transcript at the Evercore Global TMT Conference attributed momentum to network and customer results: \u201cExecution on best network, value, and customer experience\u201d drove \u201cindustry-leading growth in Q1,\u201d citing \u201cstrong broadband and postpaid performance,\u201d \u201crising CLVs,\u201d and \u201cdisciplined capital allocation,\u201d along with \u201cAI-driven cost savings\u201d and further upside from Physical AI and fiber joint ventures."
+      ],
+      "sentiment": {
+        "positive": 0.39188904,
+        "negative": 0.18819281,
+        "neutral": 0.41991815
+      },
+      "updatedAt": "2026-06-06T02:25:18.275532+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Intel shares surge 490% amid comeback pursuit",
+      "summary": "Intel\u2019s turnaround story is driving a dramatic market reaction, with the company\u2019s shares up roughly 490% over the past year after CEO Lip-Bu Tan took over in March 2025 and focused early on dealmaking rather than immediate restructuring. Reporting says Tan secured a government-backed arrangement that made the U.S. government Intel\u2019s third-largest shareholder, and pursued potential manufacturing collaborations tied to Elon Musk, along with preliminary deals with Apple and Tesla\u2014moves that Wall Street views as confidence boosters and possible pathways to high-volume customers. That optimism, however, is tempered by persistent operational problems: Intel\u2019s chip yields still lag TSMC, and closing the gap likely requires years of investment in new fabrication processes and equipment. Multiple accounts also suggest internal execution concerns, with employees describing Tan as vague on plans and pointing to teams that adjust missed deadlines rather than fully fixing root causes. While Intel is positioning its U.S. fab footprint as aligned with national chipmaking goals, investors are ultimately waiting for evidence that these partnerships translate into sustained manufacturing improvements and financial results.",
+      "keyPoints": [
+        "Barron\u2019s frames Intel\u2019s predicament in the broader tech shift: the company has been \u201cpushed aside\u201d as generative AI workloads increasingly run on GPUs (used for far more than graphics).",
+        "Bloomberg reporting cited by Autogpt.net says the U.S. government stake is specifically \u201ca 10% stake\u201d and notes Washington\u2019s preference for domestically produced chips\u2014while also describing how that backing could provide \u201cpolitical protection and potential future contracts\u201d for Intel.",
+        "Autogpt.net adds an additional strategic detail: unlike many chipmakers, Intel \u201cactually builds its own factories, called fabs, right here in the U.S.,\u201d which it says fits neatly into the national push for onshore manufacturing."
+      ],
+      "sentiment": {
+        "positive": 0.53238183,
+        "negative": 0.18819757,
+        "neutral": 0.27942058
+      },
+      "updatedAt": "2026-05-11T22:01:15.725638+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Sony, TSMC Plan Japan Image-Sensor JV",
+      "summary": "TSMC and Sony Semiconductor Solutions have signed a non-binding memorandum of understanding to form a Japan-based joint venture in Kumamoto to develop and produce next-generation image sensors. Sony will be the majority controlling shareholder, with development and production planned for Sony\u2019s newly built fab in Koshi City, combining Sony sensor design expertise with TSMC process and manufacturing strength. The partners also plan to pursue physical AI opportunities, including potential automotive and robotics use cases. They are discussing phased investments through the JV and additional capital spending at Sony\u2019s existing Nagasaki facility, with expectations of Japanese government support. The arrangement remains subject to a definitive binding agreement and standard closing conditions.",
+      "keyPoints": [
+        "TSMC Senior Vice President and Deputy Co-COO Kevin Zhang said the companies are \u201cexcited to elevate our collaboration to the next level,\u201d calling it \u201ca key step forward in driving future sensing technology in the AI era.\u201d",
+        "Engadget, citing Bloomberg, reported that Sony CEO Hiroki Totoki described the move as \u201cthe first step to becoming fab-light,\u201d linking the JV to a broader strategy to reduce Sony\u2019s in-house manufacturing footprint and focus more on IP.",
+        "Engadget also noted Totoki\u2019s prior restructuring actions as context for the fab-light push, including Sony\u2019s exit from TV manufacturing\u2014handing control of its Bravia TV business to TCL."
+      ],
+      "sentiment": {
+        "positive": 0.80276334,
+        "negative": 0.025265958,
+        "neutral": 0.17197071
+      },
+      "updatedAt": "2026-05-11T11:02:30.226900+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC Reports April Revenue Surge",
+      "summary": "TSMC reported April consolidated revenue of about NT$410.73 billion, down 1.1% month over month but up 17.5% year over year, and said first-quarter-to-date revenue for the first four months reached roughly NT$1.54 trillion, up 29.9% from the same period a year earlier. The company attributed the strength largely to sustained demand for advanced chips tied to the AI boom, with hyperscale customers continuing to expand AI-related spending. TSMC also raised its outlook, projecting full-year revenue growth above 30% and expecting capital expenditures to approach the upper end of its previously guided range (up to $56 billion). While the results underscore TSMC\u2019s resilience and market position as the world\u2019s leading contract chipmaker, some analysts warn that current valuation metrics look stretched versus historical norms. Overall, the revenue momentum suggests continued spending intensity across semiconductors and the broader AI supply chain, even as the company faces month-to-month volatility.",
+      "keyPoints": [
+        "Bloomberg News cited that hyperscale firms are continuing to invest heavily in AI, noting Alphabet, Amazon, Meta Platforms, and Microsoft have previously stated plans to invest $725 billion in the AI sector this year\u2014supporting the demand backdrop TSMC is benefiting from.",
+        "GuruFocus reported that TSMC has a low debt-to-equity ratio of 0.15, highlighting balance-sheet strength alongside the revenue momentum.",
+        "GuruFocus added granular valuation context: it calculated TSMC\u2019s GF Value\u2122 at $295.59 versus a stock price around $414.15, implying the shares were about 40.1% overvalued on that metric; it also cited a trailing P/E of 34.4x versus a 5-year median P/E of 22.78x."
+      ],
+      "sentiment": {
+        "positive": 0.47071955,
+        "negative": 0.28353608,
+        "neutral": 0.24574439
+      },
+      "updatedAt": "2026-05-09T07:49:59.800943+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC signs 30-year 1,022MW Hai Long CPPA",
+      "summary": "Northland Power has signed a 30-year corporate power purchase agreement with Taiwan Semiconductor Manufacturing Company (TSMC) to offtake 294MW of additional electricity from the Hai Long offshore wind project off Taiwan\u2019s Changhua coast, bringing TSMC\u2019s total contracted capacity at the site to 1.022GW. The deal expands a 2022 arrangement under which TSMC already contracted to receive power from Hai Long 2B and Hai Long 3, and the new structure will make TSMC the sole offtaker for 100% of the wind farm\u2019s total generation. The Hai Long project is a joint development by Northland Power (30.6%), Mitsui & Co. (40%), and Gentari International Renewables (29.4%), comprising Hai Long 2A (294MW), 2B (224MW), and Hai Long 3 (504MW). Northland said the long-term contract is designed to improve cash-flow predictability and reduce market risk, while TSMC sees the additional supply as part of its broader decarbonization push for its electricity-intensive Taiwanese fabs. The project is expected to reach full operations around 2027, with related regulatory and administrative approvals anticipated later in 2026 before the expanded CPPA takes effect.",
+      "keyPoints": [
+        "Northland CEO Christine Healy said the revised arrangement will \u201creinforce the strategic importance of Hai Long,\u201d adding that once the \u201cswitch is complete\u201d it will \u201cenhance the project\u2019s long-term economic fundamentals\u201d and support value creation for shareholders.",
+        "The earlier 2022 CPPA has a stated 20-year tenor, and the article says it will \u201ccommence once Hai Long reaches full commercial operations\u201d (i.e., the start timing is tied to when the wind project becomes fully operational).",
+        "TSMC is described as accounting for roughly \u201cnine to 10 percent of the country\u2019s national electricity usage,\u201d with targets including \u201c100 percent of renewable energy for global operations by 2040\u201d and \u201cnet-zero emissions by 2050.\u201d The article also lists other renewable supply agreements TSMC has signed (including a 20-year 20,000GWh deal with Ark Power, a 1GW wind deal with WPD, and a 920MW PPA with Orsted)."
+      ],
+      "sentiment": {
+        "positive": 0.63969845,
+        "negative": 0.052272744,
+        "neutral": 0.30802882
+      },
+      "updatedAt": "2026-05-08T20:06:28.540638+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "AMD reported advanced talks with Samsung for 2nm",
+      "summary": "Samsung Foundry is positioning itself as an increasingly credible alternative to TSMC as demand for leading-edge 2nm chips outstrips available supply, with TSMC reported to have much of its 2nm and below capacity booked out through 2028. Multiple reports say AMD is nearing a deal with Samsung for 2nm production after CEO Lisa Su visited Samsung\u2019s Pyeongtaek facilities in March and discussions have progressed steadily. The talks are tied to the expected growth in agentic AI workloads, which require more CPU and GPU performance and are pushing datacenter customers to diversify supply chains. Coverage also suggests AMD\u2019s manufacturing would include next-gen 2nm AI CPU/accelerator designs with product codenames such as Venice and Verano, as Samsung\u2019s yields improve. Beyond wafers, AMD is also reported to have arrangements with Samsung for memory components, potentially deepening the commercial relationship for both companies. If the partnership materializes, it would broaden AMD\u2019s production beyond TSMC\u2019s constraints and give Samsung another high-profile foundry customer alongside other recent wins such as Tesla.",
+      "keyPoints": [
+        "Samsung plans to manufacture the advanced AI chips tied to a potential AMD 2nm partnership at its Taylor facility, according to reporting cited by SammyFans.",
+        "Wccftech reports that Samsung\u2019s 2nm process being discussed is characterized as a GAA (gate-all-around) technology, a technical detail not included in the summary.",
+        "Product-level descriptions cited by Wccftech go beyond the codenames: Venice is described as a compute-optimized Zen 6 offering, while Verano is described as a Venice variant specifically designed for agentic AI workloads such as inferencing."
+      ],
+      "sentiment": {
+        "positive": 0.58960456,
+        "negative": 0.073238514,
+        "neutral": 0.3371569
+      },
+      "updatedAt": "2026-05-07T20:36:29.698123+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Apple Explores Intel, Samsung U.S. Chip Backup",
+      "summary": "Apple is holding early, exploratory talks with Intel and Samsung about producing some of its core device processors in the United States as a backup to its long-running reliance on Taiwan Semiconductor Manufacturing Co. (TSMC), including discussions with Intel\u2019s foundry services and a visit to Samsung\u2019s chip plant under construction in Texas. Bloomberg reports no manufacturing orders have been placed. The effort is driven by tightening chip availability, with Apple\u2019s supply-chain flexibility reduced and advanced-processor capacity constrained by AI data-center demand and stronger-than-expected demand for AI-capable Macs. Apple is also said to be concerned Intel and Samsung may not match TSMC on yield, performance, timing, and consistent scaling on leading-edge nodes. Reporting suggests Apple would not abandon TSMC, instead diversifying selectively\u2014potentially using Intel or Samsung for lower-end M-series parts\u2014while keeping its highest-performance silicon on TSMC, with any non-TSMC chips likely not shipping before the second or third quarter of 2027. The push also reflects geopolitical and operational risk tied to TSMC\u2019s Taiwan concentration, alongside the limits of Apple\u2019s existing U.S. production such as TSMC\u2019s Arizona output being behind cutting-edge Taiwan nodes.",
+      "keyPoints": [
+        "On an earnings call, Tim Cook said Apple\u2019s situation is materially tighter than normal: \u201cwe have less flexibility in the supply chain than we normally would.\u201d",
+        "Cook also pointed to specific Mac-product bottlenecks, saying Mac mini and Mac Studio supply is constrained and that it may take \u201cseveral months\u201d for Apple to reach supply-demand balance.",
+        "One potential upside of using Intel is political: Article 3 reports that partnering with Intel could \u201cenhance Apple\u2019s standing with the Trump administration,\u201d which supports Intel\u2019s domestic operations."
+      ],
+      "sentiment": {
+        "positive": 0.47665212,
+        "negative": 0.15775466,
+        "neutral": 0.36559322
+      },
+      "updatedAt": "2026-05-07T20:02:50.654734+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "Delta Electronics plans higher capex on AI",
+      "summary": "Delta Electronics said it expects stronger profitability and growth this quarter and for the full year, citing rising demand for its power and thermal-management products as AI data centers expand. Management projects gross margin to exceed the prior-year second quarter level, supported by larger contributions from higher-margin shipments to major cloud operators, and it highlighted product plans including faster adoption of its \u00b1400-volt HVDC solutions this year and further 800-volt HVDC development for next-generation platforms. The company also pointed to continued momentum in liquid-to-air thermal management, which generated more than $1.6 billion in revenue last year. At the same time, Delta warned that costs are likely to rise in coming quarters as oil prices, persistent material shortages, and inflation pressures tied to AI demand strain supply chains and keep production capacity tight. To address bottlenecks, it plans to accelerate plant expansions and broaden manufacturing footprints across China, Southeast Asia, the U.S., and Taiwan, while increasing capital spending (already estimated at T$46.1 billion in 2025) by more than 10% this year. Overall, Delta\u2019s outlook is bullish on AI-driven demand but tempered by potential margin pressure from higher input costs and component constraints.",
+      "keyPoints": [
+        "Delta said its gross margin this quarter is expected to surpass the 35.51% recorded in the second quarter of last year, with chairman Ping Cheng citing higher-margin AI-related product mix.",
+        "Delta linked demand momentum to major cloud providers\u2019 planned investment surge, saying they are forecasting a 60% annual jump in spending to US$670 billion this year.",
+        "For next-generation systems, Delta said its 800-volt HVDC architecture is being developed alongside Nvidia\u2019s next-generation AI platforms, with volume production slated for next year and expected deployment in rack designs such as Nvidia\u2019s Kyber power rack."
+      ],
+      "sentiment": {
+        "positive": 0.83162636,
+        "negative": 0.034778483,
+        "neutral": 0.13359517
+      },
+      "updatedAt": "2026-05-02T02:39:15.513100+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC completes $231 million Arm exit",
+      "summary": "Taiwan Semiconductor Manufacturing Co. has fully exited its Arm Holdings investment, selling its remaining stake through its subsidiary, TSMC Partners. In filings reported Wednesday, TSMC sold about 1.11 million Arm shares at $207.65 each between April 28 and 29, raising roughly $231 million, and said the deal would affect retained earnings by about $174 million. After the sale, TSMC no longer holds any Arm shares. TSMC originally invested around $100 million in Arm during its 2023 IPO and had already reduced its position by selling 850,000 shares in 2024, as part of an ongoing equity-disposal strategy. Following the transaction, Arm\u2019s shares fell to about $198.65, reflecting market volatility around the divestment.",
+      "keyPoints": [
+        "TSMC said it originally bought Arm shares at about $51 per share during Arm\u2019s 2023 IPO\u2014around a $100 million total investment made alongside other \u201cstrategic\u201d investors, before later trimming the position.",
+        "As part of the gradual exit, TSMC previously sold 850,000 Arm shares in 2024 at $119.47 each, generating about $102 million\u2014details that were not included in the summary.",
+        "In the immediate market reaction, TSMC shares were last down 0.2% at NT$2,210 while Arm stock ended down 8.0% at $198.65\u2014showing how both companies\u2019 shares moved alongside the divestment news."
+      ],
+      "sentiment": {
+        "positive": 0.12382178,
+        "negative": 0.48459414,
+        "neutral": 0.39158407
+      },
+      "updatedAt": "2026-05-01T15:50:57.649155+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC delays ASML high-NA EUV rollout to 2029",
+      "summary": "TSMC shares have outperformed the broader market recently, with Zacks noting +16.8% over the past month versus the S&P 500 composite\u2019s +12.2%, alongside strength in the semiconductor foundry industry. Zacks attributes near-term direction largely to improving sell-side earnings projections, citing a current-quarter estimate of $3.66 per share (+48.2% year over year) and upward revisions over the last 30 days for both the current and next fiscal years. On the business side, TSMC said it will delay ASML\u2019s high-NA EUV machine deployments until at least 2029, pointing to extremely high costs (over \u20ac350 million per unit), while continuing to optimize existing EUV for A13 chips expected to enter production in 2029; the company also expects to sustain a 56% gross margin amid roughly $56 billion of 2026 capex. TSMC has also been expanding collaborations for next-generation AI silicon and toolchains, including partnerships with Synopsys and an extended relationship with Cadence. Institutional investors continue to add shares, such as Sigma Planning increasing its stake by 6.8% in the fourth quarter, while other funds also reported stake changes; analyst coverage includes a DA Davidson \u201cbuy\u201d with a $450 price target and TD Cowen raising its target to $370 while keeping a \u201chold.\u201d Despite the recent momentum, Simply Wall St. flags valuation risk as well as geopolitical and capital-spending execution concerns, arguing the market is close to a ~$400 per-share \u201cfair value\u201d narrative but could reprice quickly if advanced-node demand or macro conditions deteriorate.",
+      "keyPoints": [
+        "TSMC\u2019s decision to delay ASML\u2019s high-NA EUV tool deployments until at least 2029 is described as a \u201cstrategic challenge\u201d for ASML because ASML anticipated high-volume production \u201cby 2027,\u201d per the report citing TSMC\u2019s rationale.",
+        "One article frames TSMC as a Harvard University stock portfolio \u201cTop 10 Stock Pick,\u201d adding that the stock is included in the Harvard University Stock Portfolio selection.",
+        "A market-performance/valuation snapshot puts TSMC at $392.34 per share, notes a one-day decline of about 3.1% alongside week and month gains (roughly +6.6% over a week and +20% over a month), and says the stock is trading below the average analyst target of $444.36\u2014suggesting upside versus consensus targets even though narrative \u201cfair value\u201d is near $400."
+      ],
+      "sentiment": {
+        "positive": 0.40002665,
+        "negative": 0.10060726,
+        "neutral": 0.4993661
+      },
+      "updatedAt": "2026-05-01T14:58:09.547886+00:00",
+      "source": "Unknown",
+      "url": null
+    },
+    {
+      "clusterId": null,
+      "name": "TSMC expects 2nm capacity surging 70% through 2028",
+      "summary": "TSMC expects its 2-nanometer (2nm) chip capacity to rise at a 70% compound annual growth rate from 2026 to 2028, with five fabs beginning volume production this year and first-year 2nm output projected to be 45% higher than 3nm\u2019s initial year in 2023, according to Cliff Hou. (https://focustaiwan.tw/sci-tech/202604280010) The company also projects continued expansion of 3nm capacity, with about 25% annual growth from 2022 to 2027, while ramping advanced packaging\u2014CoWoS capacity is expected to grow more than 80% annually from 2022 to 2027 and SoIC more than 90% annually. (https://focustaiwan.tw/sci-tech/202604280010) Overseas, TSMC says its Arizona fab should increase output by 80% in 2026 versus 2025 and its Kumamoto, Japan plant by 130% year-on-year. (https://focustaiwan.tw/sci-tech/202604280010) Separately, supply-chain reporting cited by TrendForce says TSMC\u2019s 3nm monthly capacity target has been lifted to about 180,000 wafers by end-2026 and that 2nm monthly capacity should approach nearly 100,000 wafers by then, as new fabs in Taiwan, Arizona and Japan support AI-driven demand. (https://www.trendforce.com/news/2026/04/27/news-tsmc-3nm-monthly-capacity-may-hit-180k-wafers-by-2026-up-over-40-yoy-on-ai-demand/) During an earnings call, CEO C.C. Wei said TSMC is investing to accelerate capacity, but a shortage is expected to last until 2027, amid strong orders and renewals from major customers; TSMC shares also rose to a record high. (https://www.bitget.com/news/detail/12560605386235) TSMC further unveiled its A13 next-generation process, targeting volume production in 2029 for AI and high-performance computing. (https://www.newkerala.com/news/a/tsmc-projects-70-annual-growth-2nm-capacity-through-943.htm)",
+      "keyPoints": [
+        "TSMC said the five 2nm fabs starting volume production this year are located in Hsinchu (two fabs) and Kaohsiung (three fabs), as Cliff Hou detailed at the company\u2019s 2026 Technology Symposium in Silicon Valley.",
+        "For 3nm, TSMC\u2019s additional capacity plans include a new 3nm fab in Southern Taiwan Science Park entering mass production in the first half of 2027; a second Arizona fab (construction completed) starting 3nm mass production in the second half of 2027; and the second Kumamoto, Japan fab beginning 3nm mass production in 2028.",
+        "TrendForce\u2019s supply-chain reporting said 3nm monthly output was around 120,000 to 130,000 wafers at end-2025, and is projected to reach about 180,000 wafers by end-2026\u2014an increase of more than 40% year-on-year."
+      ],
+      "sentiment": {
+        "positive": 0.7751528,
+        "negative": 0.029862817,
+        "neutral": 0.19498439
+      },
+      "updatedAt": "2026-04-30T08:28:52.728209+00:00",
+      "source": "Unknown",
+      "url": null
+    }
+  ],
+  "monthly_summary": {
+    "2026-04": {
+      "count": 1,
+      "avg_sentiment": 0.745
+    },
+    "2026-05": {
+      "count": 9,
+      "avg_sentiment": 0.385
+    },
+    "2026-06": {
+      "count": 10,
+      "avg_sentiment": 0.028
+    },
+    "2026-07": {
+      "count": 10,
+      "avg_sentiment": 0.071
+    }
+  }
+}
