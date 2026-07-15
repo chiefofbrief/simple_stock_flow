@@ -10,8 +10,9 @@ three filters, enriched per-symbol, then scored on growth and risk.
       dollar volume     >= $1M / day   (price x volume, from the screener)
       prior-year sales  >= $10M USD    (after currency conversion)
   scores:
-      growth_score  — 80% sales growth (TTM / latest-Q / 3v3), 20% GP/sales quality
-      risk_score    — HIGH = SAFER; leverage + FCF/GP/sales floors & peak-risk
+      growth_score       — 80% sales growth (TTM / latest-Q / 3v3), 20% GP/sales quality
+      risk_score         — HIGH = SAFER; leverage + FCF/GP/sales floors & peak-risk
+      growth_risk_score  — combined headline: 2/3 growth_score + 1/3 risk_score
 
 Flow (exact order):
   1. Baseline: own screener pull, one call per exchange
@@ -65,6 +66,7 @@ Scores:
       + 0.10 *P(sales_7y_worst) + 0.10 *(100 - P(sales_vs_trough))
     The 7y-worst LEVELS are computed for the percentiles but not written out;
     the floor is recoverable from any displayed current value minus its delta.
+  growth_risk_score = (2*growth_score + risk_score)/3  (re-normalised if one missing)
 
 Saves:   Large_Actives_with_Metrics.csv  (repo root)
 API key: FMP_API_KEY.  ~60 min (7 calls/symbol + FX).
@@ -118,21 +120,22 @@ RISK_COMPONENTS = [
     ("sales_growth_vs_7yr_trough_pp", 0.10, True),
 ]
 OUT_COLS = [
-    "symbol", "company_name", "sector", "industry", "exchange",
-    "market_cap_usd", "volume", "ipo_date",
-    "growth_score", "risk_score",
-    "sales_ttm_usd", "sales_prior_ttm_usd",
+    "symbol", "company_name", "market_cap_usd", "ipo_date",
+    "growth_risk_score", "growth_score", "risk_score",
+    "ev_to_sales_ttm", "pe_ratio_ttm", "analyst_buy_pct", "analyst_count",
+    "description", "sector", "industry",
+    "sales_ttm_usd",
     "sales_growth_ttm_vs_prior_ttm_pct", "sales_growth_latest_q_yoy_pct",
     "sales_growth_3yr_vs_prior_3yr_pct",
     "gross_profit_to_sales_ttm_pct", "gross_profit_to_sales_yoy_change_pp",
     "fcf_to_sales_ttm_pct", "total_debt_to_sales_pct",
-    "ev_to_sales_ttm", "pe_ratio_ttm",
-    "analyst_buy_pct", "analyst_count",
-    "shares_outstanding_yoy_change_pct",
     "sales_growth_vs_7yr_trough_pp", "gross_profit_to_sales_vs_7yr_trough_pp",
     "fcf_to_sales_vs_7yr_trough_pp",
-    "description",
+    "shares_outstanding_yoy_change_pct",
+    "exchange", "volume",
 ]
+# sales_prior_ttm_usd is still computed in main() (it is the >=$10M filter key) but
+# is no longer written — the growth delta already captures current-vs-prior.
 
 
 class RateLimiter:
@@ -441,6 +444,19 @@ def add_scores(rows):
                 num += w * (100.0 - p if inv else p)
                 den += w
         r["risk_score"] = round(num / den, 1) if den > 0 else ""
+
+    # combined headline: 2/3 growth + 1/3 risk (re-normalised if one is missing)
+    for r in rows:
+        g = r["growth_score"] if isinstance(r["growth_score"], (int, float)) else None
+        rk = r["risk_score"] if isinstance(r["risk_score"], (int, float)) else None
+        if g is not None and rk is not None:
+            r["growth_risk_score"] = round((2 * g + rk) / 3, 1)
+        elif g is not None:
+            r["growth_risk_score"] = g
+        elif rk is not None:
+            r["growth_risk_score"] = rk
+        else:
+            r["growth_risk_score"] = ""
 
 
 def main():
