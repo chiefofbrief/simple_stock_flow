@@ -66,7 +66,7 @@ Scores:
       + 0.10 *P(sales_7y_worst) + 0.10 *(100 - P(sales_vs_trough))
     The 7y-worst LEVELS are computed for the percentiles but not written out;
     the floor is recoverable from any displayed current value minus its delta.
-  growth_risk_score = (2*growth_score + risk_score)/3  (re-normalised if one missing)
+  growth_risk_score = (2*growth_score + risk_score)/3  (BLANK if either is blank)
 
 Saves:   Large_Actives_with_Metrics.csv  (repo root)
 API key: FMP_API_KEY.  ~60 min (7 calls/symbol + FX).
@@ -445,18 +445,12 @@ def add_scores(rows):
                 den += w
         r["risk_score"] = round(num / den, 1) if den > 0 else ""
 
-    # combined headline: 2/3 growth + 1/3 risk (re-normalised if one is missing)
+    # combined headline: 2/3 growth + 1/3 risk. BLANK unless BOTH are present
+    # (no partial fallback — a one-sided blend would misrepresent the row).
     for r in rows:
         g = r["growth_score"] if isinstance(r["growth_score"], (int, float)) else None
         rk = r["risk_score"] if isinstance(r["risk_score"], (int, float)) else None
-        if g is not None and rk is not None:
-            r["growth_risk_score"] = round((2 * g + rk) / 3, 1)
-        elif g is not None:
-            r["growth_risk_score"] = g
-        elif rk is not None:
-            r["growth_risk_score"] = rk
-        else:
-            r["growth_risk_score"] = ""
+        r["growth_risk_score"] = round((2 * g + rk) / 3, 1) if (g is not None and rk is not None) else ""
 
 
 def main():
@@ -510,7 +504,7 @@ def main():
     kept = [r for r in merged if isinstance(r.get("sales_prior_ttm_usd"), int)
             and r["sales_prior_ttm_usd"] >= MIN_PRIOR_SALES_USD]
     add_scores(kept)
-    kept.sort(key=lambda r: (r["growth_score"] if isinstance(r["growth_score"], (int, float)) else -1),
+    kept.sort(key=lambda r: (r["growth_risk_score"] if isinstance(r["growth_risk_score"], (int, float)) else -1),
               reverse=True)
 
     with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:
