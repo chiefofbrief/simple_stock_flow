@@ -504,7 +504,7 @@ def main():
     kept = [r for r in merged if isinstance(r.get("sales_prior_ttm_usd"), int)
             and r["sales_prior_ttm_usd"] >= MIN_PRIOR_SALES_USD]
     add_scores(kept)
-    kept.sort(key=lambda r: (r["growth_risk_score"] if isinstance(r["growth_risk_score"], (int, float)) else -1),
+    kept.sort(key=lambda r: (r["growth_score"] if isinstance(r["growth_score"], (int, float)) else -1),
               reverse=True)
 
     with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:
