@@ -17,7 +17,10 @@ three filters, enriched per-symbol, then scored on growth and risk.
 Flow (exact order):
   1. Baseline: own screener pull, one call per exchange
        {NASDAQ, NYSE, AMEX, OTC, PNK} & isEtf=false & isFund=false
-       & isActivelyTrading=true.  A call returning >= 10,000 STOPS and flags.
+       & isActivelyTrading=true & marketCapMoreThan=$1B.  The market-cap floor is
+       applied server-side (before the screener's 10k row cap) so the OTC/PNK
+       small-cap flood never truncates the large caps we keep.  A call still
+       returning >= 10,000 STOPS and flags.
   2. Filter: marketCap >= $1B AND price*volume >= $1M/day (both from screener).
   3. Per surviving symbol, 7 calls:
        /profile                              -> description, ipoDate
@@ -208,8 +211,13 @@ def _savg(lst, a, b):
 
 # ---------------- 1-2. baseline + market-cap & dollar-volume filters ----------------
 def screener(exchange):
+    # marketCapMoreThan filters server-side, BEFORE the screener's 10k row cap,
+    # so the OTC/PNK small-cap flood never truncates the >=$1B names we keep.
+    # Set one dollar below MIN_MARKET_CAP so the exact >= boundary is still owned
+    # by the post-pull filter in get_baseline().
     q = {"exchange": exchange, "isEtf": "false", "isFund": "false",
-         "isActivelyTrading": "true", "limit": LIM, "apikey": API_KEY}
+         "isActivelyTrading": "true", "marketCapMoreThan": MIN_MARKET_CAP - 1,
+         "limit": LIM, "apikey": API_KEY}
     url = f"{BASE}/company-screener?" + "&".join(f"{k}={v}" for k, v in q.items())
     r = requests.get(url, timeout=TIMEOUT)
     r.raise_for_status()
