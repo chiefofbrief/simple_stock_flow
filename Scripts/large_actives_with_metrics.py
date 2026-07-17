@@ -10,9 +10,8 @@ three filters, enriched per-symbol, then scored on growth and risk.
       dollar volume     >= $1M / day   (price x volume, from the screener)
       prior-year sales  >= $10M USD    (after currency conversion)
   scores:
-      growth_score       — 80% sales growth (TTM / latest-Q / 3v3), 20% GP/sales quality
-      risk_score         — HIGH = SAFER; leverage + FCF/GP/sales floors & peak-risk
-      growth_risk_score  — combined headline: 2/3 growth_score + 1/3 risk_score
+      growth_score  — sales growth level + acceleration (50/50)
+      risk_score    — HIGH = SAFER; debt, margin (level+YoY), market cap, fcf (level+YoY)
 
 Flow (exact order):
   1. Baseline: own screener pull, one call per exchange
@@ -23,13 +22,14 @@ Flow (exact order):
        returning >= 10,000 STOPS and flags.
   2. Filter: marketCap >= $1B AND price*volume >= $1M/day (both from screener).
   3. Per surviving symbol, 7 calls:
-       /profile                              -> description, ipoDate
-       /income-statement    period=quarter   -> sales, gross profit, net income (TTM)
-       /income-statement    period=annual    -> 7y troughs, 3v3 growth, dilution
-       /cash-flow-statement period=quarter   -> FCF (TTM)
-       /cash-flow-statement period=annual    -> FCF/sales 7y trough
-       /balance-sheet-statement period=quarter -> total debt, cash (latest)
-       /grades-consensus                     -> analyst buy % and count
+       /profile                                -> description, ipoDate
+       /income-statement    period=quarter(12) -> sales/gross profit/net income,
+                                                  growth levels + acceleration
+       /income-statement    period=annual      -> 5y troughs (growth, GP/sales), dilution
+       /cash-flow-statement period=quarter      -> FCF (TTM + YoY change)
+       /cash-flow-statement period=annual       -> FCF/sales 5y trough
+       /balance-sheet-statement period=quarter  -> total debt, cash (latest)
+       /grades-consensus                        -> analyst sell % and count
   4. Currency -> USD: /quote-short per distinct reportedCurrency.  Only absolute
        dollar figures are converted (sales, and the EV/PE inputs net income, debt,
        cash); every "/sales" ratio is same-currency numerator/denominator so the
@@ -43,33 +43,31 @@ Flow (exact order):
   7. Scores (last) — percentile blend within the filtered batch:
        P_f = (# strictly lower)/(N-1)*100 ; missing field re-normalises weights.
 
-Metrics (quarters newest-first; [0:4]=TTM, [4:8]=prior TTM):
+Metrics (quarters newest-first; [0:4]=TTM, [4:8]=prior TTM, [8:12]=2-yr-ago TTM):
   sales_growth_ttm_vs_prior_ttm_pct = (Srev[0:4]/Srev[4:8] - 1)*100
   sales_growth_latest_q_yoy_pct     = (rev[0]/rev[4] - 1)*100
+  sales_growth_ttm_accel_pp = [(Srev[0:4]/Srev[4:8]-1) - (Srev[4:8]/Srev[8:12]-1)]*100
+  sales_growth_q_accel_pp   = [(rev[0]/rev[4]-1) - (rev[1]/rev[5]-1)]*100
   gross_profit_to_sales_ttm_pct     = Sgp[0:4]/Srev[0:4] *100
   gross_profit_to_sales_yoy_change_pp = (Sgp[0:4]/Srev[0:4] - Sgp[4:8]/Srev[4:8])*100
   fcf_to_sales_ttm_pct              = Sfcf[0:4]/Srev[0:4] *100
+  fcf_to_sales_yoy_change_pp        = (Sfcf[0:4]/Srev[0:4] - Sfcf[4:8]/Srev[4:8])*100
   total_debt_to_sales_pct           = totalDebt(latest Q)/Srev[0:4] *100
-Annual (newest-first):
-  sales_growth_3yr_vs_prior_3yr_pct = (avg(rev_a[0:3])/avg(rev_a[3:6]) - 1)*100
+Annual (newest-first) — context columns, blank if < 5 annual periods:
   shares_outstanding_yoy_change_pct = (shs_a[0]/shs_a[1] - 1)*100  (+dilution/-buyback)
-  worst_growth = min over <=7 of (rev_a[i]/rev_a[i+1] - 1)
-  worst_gm     = min over <=7 of (gp_a[i]/rev_a[i])
-  worst_fcf    = min over <=7 of (fcf_a[year]/rev_a[year])         (year-matched)
-  *_vs_7yr_trough_pp = current - worst*100        (blank if years-since-IPO < 7)
+  worst_growth = min over the last 5y of (rev_a[i]/rev_a[i+1] - 1)
+  worst_gm     = min over the last 5y of (gp_a[i]/rev_a[i])
+  worst_fcf    = min over the last 5y of (fcf_a[year]/rev_a[year])  (year-matched)
+  *_vs_5yr_trough_pp = current - worst*100     (context only, NOT scored)
 
 Scores:
-  growth_score = 0.35*P(sales_growth_ttm) + 0.25*P(sales_growth_q)
-               + 0.20*P(sales_growth_3v3) + 0.10*P(gp_to_sales)
-               + 0.10*P(gp_to_sales_chg)
+  growth_score = 0.25*P(sales_growth_ttm) + 0.25*P(sales_growth_q)
+               + 0.25*P(sales_growth_ttm_accel) + 0.25*P(sales_growth_q_accel)
   risk_score (HIGH=SAFER) =
-        0.30 *(100 - P(debt_to_sales))
-      + 0.125*P(fcf_7y_worst)   + 0.125*(100 - P(fcf_vs_trough))
-      + 0.125*P(gp_7y_worst)    + 0.125*(100 - P(gp_vs_trough))
-      + 0.10 *P(sales_7y_worst) + 0.10 *(100 - P(sales_vs_trough))
-    The 7y-worst LEVELS are computed for the percentiles but not written out;
-    the floor is recoverable from any displayed current value minus its delta.
-  growth_risk_score = (2*growth_score + risk_score)/3  (BLANK if either is blank)
+        0.30*(100 - P(debt_to_sales))
+      + 0.15*P(gp_to_sales) + 0.15*P(gp_to_sales_yoy_change)
+      + 0.20*P(market_cap)
+      + 0.10*P(fcf_to_sales) + 0.10*P(fcf_to_sales_yoy_change)
 
 Saves:   Large_Actives_with_Metrics.csv  (repo root)
 API key: FMP_API_KEY.  ~60 min (7 calls/symbol + FX).
@@ -81,7 +79,6 @@ import sys
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date
 
 import requests
 
@@ -98,42 +95,40 @@ TIMEOUT = 60
 LIM = 200000
 CAP = 10000
 CALLS_PER_SYMBOL = 7
-TODAY = date.today()
 
 DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root
 OUT_PATH = os.path.join(DATA_DIR, "Large_Actives_with_Metrics.csv")
 
-# growth_score: 80% sales growth (TTM/latest-Q/3v3), 20% GP/sales quality
+# growth_score: 50% sales-growth levels, 50% acceleration
 GROWTH_WEIGHTS = {
-    "sales_growth_ttm_vs_prior_ttm_pct": 0.35,
+    "sales_growth_ttm_vs_prior_ttm_pct": 0.25,
     "sales_growth_latest_q_yoy_pct": 0.25,
-    "sales_growth_3yr_vs_prior_3yr_pct": 0.20,
-    "gross_profit_to_sales_ttm_pct": 0.10,
-    "gross_profit_to_sales_yoy_change_pp": 0.10,
+    "sales_growth_ttm_accel_pp": 0.25,
+    "sales_growth_q_accel_pp": 0.25,
 }
 # risk_score: HIGH = SAFER.  (field, weight, invert) — invert=True flips to 100-P
-# so "lower is safer" (debt) and "bigger gap is riskier" (deltas) score as safety.
+# so "lower is safer" (debt) scores as safety.  margin & fcf each = level + YoY change.
 RISK_COMPONENTS = [
     ("total_debt_to_sales_pct", 0.30, True),
-    ("_fcf_to_sales_7y_worst_pct", 0.125, False),
-    ("fcf_to_sales_vs_7yr_trough_pp", 0.125, True),
-    ("_gp_to_sales_7y_worst_pct", 0.125, False),
-    ("gross_profit_to_sales_vs_7yr_trough_pp", 0.125, True),
-    ("_sales_growth_7y_worst_pct", 0.10, False),
-    ("sales_growth_vs_7yr_trough_pp", 0.10, True),
+    ("gross_profit_to_sales_ttm_pct", 0.15, False),
+    ("gross_profit_to_sales_yoy_change_pp", 0.15, False),
+    ("market_cap_usd", 0.20, False),
+    ("fcf_to_sales_ttm_pct", 0.10, False),
+    ("fcf_to_sales_yoy_change_pp", 0.10, False),
 ]
 OUT_COLS = [
     "symbol", "company_name", "market_cap_usd", "ipo_date",
-    "growth_risk_score", "growth_score", "risk_score",
-    "ev_to_sales_ttm", "pe_ratio_ttm", "analyst_buy_pct", "analyst_count",
-    "description", "sector", "industry",
+    "growth_score", "risk_score",
+    "ev_to_sales_ttm", "pe_ratio_ttm", "analyst_sell_pct", "analyst_count",
+    "industry", "description",
     "sales_ttm_usd",
     "sales_growth_ttm_vs_prior_ttm_pct", "sales_growth_latest_q_yoy_pct",
-    "sales_growth_3yr_vs_prior_3yr_pct",
+    "sales_growth_ttm_accel_pp", "sales_growth_q_accel_pp",
     "gross_profit_to_sales_ttm_pct", "gross_profit_to_sales_yoy_change_pp",
-    "fcf_to_sales_ttm_pct", "total_debt_to_sales_pct",
-    "sales_growth_vs_7yr_trough_pp", "gross_profit_to_sales_vs_7yr_trough_pp",
-    "fcf_to_sales_vs_7yr_trough_pp",
+    "fcf_to_sales_ttm_pct", "fcf_to_sales_yoy_change_pp",
+    "total_debt_to_sales_pct",
+    "sales_growth_vs_5yr_trough_pp", "gross_profit_to_sales_vs_5yr_trough_pp",
+    "fcf_to_sales_vs_5yr_trough_pp",
     "shares_outstanding_yoy_change_pct",
     "exchange", "volume",
 ]
@@ -189,24 +184,11 @@ def _num(x):
         return None
 
 
-def years_since_ipo(ipo):
-    try:
-        y, m, d = map(int, ipo.split("-"))
-        return (TODAY - date(y, m, d)).days / 365.25
-    except Exception:
-        return None
-
-
 def _ssum(lst, a, b):
     if b > len(lst):
         return None
     seg = lst[a:b]
     return None if any(v is None for v in seg) else sum(seg)
-
-
-def _savg(lst, a, b):
-    s = _ssum(lst, a, b)
-    return None if s is None else s / (b - a)
 
 
 # ---------------- 1-2. baseline + market-cap & dollar-volume filters ----------------
@@ -238,7 +220,7 @@ def get_baseline():
             if not sym or sym in by_symbol:
                 continue
             by_symbol[sym] = {"symbol": sym, "company_name": r.get("companyName", ""),
-                              "market_cap_usd": r.get("marketCap", ""), "sector": r.get("sector", ""),
+                              "market_cap_usd": r.get("marketCap", ""),
                               "industry": r.get("industry", ""), "volume": r.get("volume", ""),
                               "exchange": ex, "_price": r.get("price", "")}
     active = list(by_symbol.values())
@@ -259,15 +241,14 @@ def enrich(symbol):
         "_sales_ttm_local": None, "_sales_ttm_prior_local": None,
         "_net_income_ttm_local": None, "_total_debt_local": None, "_cash_local": None,
         "sales_growth_ttm_vs_prior_ttm_pct": "", "sales_growth_latest_q_yoy_pct": "",
-        "sales_growth_3yr_vs_prior_3yr_pct": "",
+        "sales_growth_ttm_accel_pp": "", "sales_growth_q_accel_pp": "",
         "gross_profit_to_sales_ttm_pct": "", "gross_profit_to_sales_yoy_change_pp": "",
-        "fcf_to_sales_ttm_pct": "", "total_debt_to_sales_pct": "",
-        "analyst_buy_pct": "", "analyst_count": "",
+        "fcf_to_sales_ttm_pct": "", "fcf_to_sales_yoy_change_pp": "",
+        "total_debt_to_sales_pct": "",
+        "analyst_sell_pct": "", "analyst_count": "",
         "shares_outstanding_yoy_change_pct": "",
-        "sales_growth_vs_7yr_trough_pp": "", "gross_profit_to_sales_vs_7yr_trough_pp": "",
-        "fcf_to_sales_vs_7yr_trough_pp": "",
-        "_sales_growth_7y_worst_pct": "", "_gp_to_sales_7y_worst_pct": "",
-        "_fcf_to_sales_7y_worst_pct": "",
+        "sales_growth_vs_5yr_trough_pp": "", "gross_profit_to_sales_vs_5yr_trough_pp": "",
+        "fcf_to_sales_vs_5yr_trough_pp": "",
     }
 
     # profile
@@ -276,38 +257,52 @@ def enrich(symbol):
         out["description"] = p[0].get("description") or ""
         out["ipo_date"] = p[0].get("ipoDate") or ""
 
-    # income-statement quarter -> TTM sales / gross profit / net income
-    sales_ttm = None
-    d = gated_get(f"{BASE}/income-statement?symbol={q}&period=quarter&limit=8&apikey={API_KEY}")
+    # income-statement quarter (12) -> TTM sales/gross profit/net income + growth accel
+    sales_ttm = sales_ttm_prior = None
+    d = gated_get(f"{BASE}/income-statement?symbol={q}&period=quarter&limit=12&apikey={API_KEY}")
     if isinstance(d, list) and d:
         d = sorted(d, key=lambda r: r.get("date") or "", reverse=True)
         out["reportedCurrency"] = d[0].get("reportedCurrency") or ""
         rev = [_num(r.get("revenue")) for r in d]
         gp = [_num(r.get("grossProfit")) for r in d]
         ni = [_num(r.get("netIncome")) for r in d]
-        rn, rp = _ssum(rev, 0, 4), _ssum(rev, 4, 8)
+        rn, rp, rpp = _ssum(rev, 0, 4), _ssum(rev, 4, 8), _ssum(rev, 8, 12)
         gn, gpp = _ssum(gp, 0, 4), _ssum(gp, 4, 8)
-        sales_ttm = rn
+        sales_ttm, sales_ttm_prior = rn, rp
         out["_sales_ttm_local"] = rn
         out["_sales_ttm_prior_local"] = rp
         out["_net_income_ttm_local"] = _ssum(ni, 0, 4)
+        # levels
         if rn is not None and rp not in (None, 0):
             out["sales_growth_ttm_vs_prior_ttm_pct"] = round((rn / rp - 1) * 100, 2)
         if len(rev) >= 5 and rev[0] is not None and rev[4] not in (None, 0):
             out["sales_growth_latest_q_yoy_pct"] = round((rev[0] / rev[4] - 1) * 100, 2)
+        # TTM acceleration: recent TTM growth - prior-year TTM growth (needs 12 quarters)
+        if rn is not None and rp not in (None, 0) and rpp not in (None, 0):
+            out["sales_growth_ttm_accel_pp"] = round(((rn / rp - 1) - (rp / rpp - 1)) * 100, 2)
+        # quarterly acceleration: latest-quarter YoY - previous-quarter YoY (needs 6 quarters)
+        if (len(rev) >= 6 and rev[0] is not None and rev[4] not in (None, 0)
+                and rev[1] is not None and rev[5] not in (None, 0)):
+            out["sales_growth_q_accel_pp"] = round(
+                ((rev[0] / rev[4] - 1) - (rev[1] / rev[5] - 1)) * 100, 2)
+        # gross profit / sales
         if gn is not None and rn not in (None, 0):
             out["gross_profit_to_sales_ttm_pct"] = round(gn / rn * 100, 2)
         if gn is not None and rn not in (None, 0) and gpp is not None and rp not in (None, 0):
             out["gross_profit_to_sales_yoy_change_pp"] = round((gn / rn - gpp / rp) * 100, 2)
 
-    # cash-flow quarter -> FCF TTM ; FCF/sales (currency cancels)
+    # cash-flow quarter -> FCF/sales TTM + YoY change (currency cancels)
     cq = gated_get(f"{BASE}/cash-flow-statement?symbol={q}&period=quarter&limit=8&apikey={API_KEY}")
-    if isinstance(cq, list) and cq and sales_ttm not in (None, 0):
+    if isinstance(cq, list) and cq:
         cq = sorted(cq, key=lambda r: r.get("date") or "", reverse=True)
         fcf = [_num(r.get("freeCashFlow")) for r in cq]
-        fn = _ssum(fcf, 0, 4)
-        if fn is not None:
+        fn, fp = _ssum(fcf, 0, 4), _ssum(fcf, 4, 8)
+        if fn is not None and sales_ttm not in (None, 0):
             out["fcf_to_sales_ttm_pct"] = round(fn / sales_ttm * 100, 2)
+        if (fn is not None and sales_ttm not in (None, 0)
+                and fp is not None and sales_ttm_prior not in (None, 0)):
+            out["fcf_to_sales_yoy_change_pp"] = round(
+                (fn / sales_ttm - fp / sales_ttm_prior) * 100, 2)
 
     # balance-sheet quarter -> total debt, cash (latest) ; debt/sales (currency cancels)
     bs = gated_get(f"{BASE}/balance-sheet-statement?symbol={q}&period=quarter&limit=4&apikey={API_KEY}")
@@ -322,14 +317,12 @@ def enrich(symbol):
         if out["_total_debt_local"] is not None and sales_ttm not in (None, 0):
             out["total_debt_to_sales_pct"] = round(out["_total_debt_local"] / sales_ttm * 100, 2)
 
-    # income-statement annual -> 3v3 growth, dilution, 7y-worst growth & GP/sales
+    # income-statement annual -> dilution + 5y-worst growth & GP/sales
     wg = wm = None
     rev_by_year = {}
-    n_annual = 0
     a = gated_get(f"{BASE}/income-statement?symbol={q}&period=annual&limit=8&apikey={API_KEY}")
     if isinstance(a, list) and a:
         a = sorted(a, key=lambda r: r.get("date") or "", reverse=True)
-        n_annual = len(a)
         ra = [_num(r.get("revenue")) for r in a]
         ga = [_num(r.get("grossProfit")) for r in a]
         for r in a:
@@ -337,10 +330,6 @@ def enrich(symbol):
             rv = _num(r.get("revenue"))
             if y and rv is not None:
                 rev_by_year[y] = rv
-        # 3-year-vs-prior-3-year smoothed growth
-        a3n, a3p = _savg(ra, 0, 3), _savg(ra, 3, 6)
-        if a3n is not None and a3p not in (None, 0):
-            out["sales_growth_3yr_vs_prior_3yr_pct"] = round((a3n / a3p - 1) * 100, 2)
         # dilution: diluted weighted-average shares YoY (fallback to basic)
         def _shs(r):
             v = _num(r.get("weightedAverageShsOutDil"))
@@ -350,15 +339,15 @@ def enrich(symbol):
         sh = [_shs(r) for r in a]
         if len(sh) >= 2 and sh[0] is not None and sh[1] not in (None, 0):
             out["shares_outstanding_yoy_change_pct"] = round((sh[0] / sh[1] - 1) * 100, 2)
-        # 7y troughs (levels)
-        gs = [ra[i] / ra[i + 1] - 1 for i in range(min(7, len(ra) - 1))
+        # 5-year troughs — worst single year over the last 5 fiscal years (needs 5 years)
+        gs = [ra[i] / ra[i + 1] - 1 for i in range(min(4, len(ra) - 1))
               if ra[i] is not None and ra[i + 1] not in (None, 0)]
-        ms = [ga[i] / ra[i] for i in range(min(7, len(ra)))
+        ms = [ga[i] / ra[i] for i in range(min(5, len(ra)))
               if ga[i] is not None and ra[i] not in (None, 0)]
-        wg = min(gs) if gs else None
-        wm = min(ms) if ms else None
+        wg = min(gs) if len(gs) >= 4 else None
+        wm = min(ms) if len(ms) >= 5 else None
 
-    # cash-flow annual -> FCF/sales 7y trough (year-matched to annual revenue)
+    # cash-flow annual -> FCF/sales 5y trough (year-matched to annual revenue)
     wfcf = None
     ca = gated_get(f"{BASE}/cash-flow-statement?symbol={q}&period=annual&limit=8&apikey={API_KEY}")
     if isinstance(ca, list) and ca and rev_by_year:
@@ -370,32 +359,22 @@ def enrich(symbol):
             rv = rev_by_year.get(y)
             if f_ is not None and rv not in (None, 0):
                 margins.append(f_ / rv)
-            if len(margins) >= 7:
+            if len(margins) >= 5:
                 break
-        wfcf = min(margins) if margins else None
+        wfcf = min(margins) if len(margins) >= 5 else None
 
-    # cyclicality: current-vs-7y-worst deltas + internal trough levels
-    # (blank on short history — an unreliable trough)
-    yrs = years_since_ipo(out["ipo_date"])
-    short = (yrs is not None and yrs < 7) or (yrs is None and n_annual < 8)
-    if not short:
-        cg = out["sales_growth_ttm_vs_prior_ttm_pct"]
-        cm = out["gross_profit_to_sales_ttm_pct"]
-        cf = out["fcf_to_sales_ttm_pct"]
-        if wg is not None:
-            out["_sales_growth_7y_worst_pct"] = round(wg * 100, 2)
-            if isinstance(cg, (int, float)):
-                out["sales_growth_vs_7yr_trough_pp"] = round(cg - wg * 100, 2)
-        if wm is not None:
-            out["_gp_to_sales_7y_worst_pct"] = round(wm * 100, 2)
-            if isinstance(cm, (int, float)):
-                out["gross_profit_to_sales_vs_7yr_trough_pp"] = round(cm - wm * 100, 2)
-        if wfcf is not None:
-            out["_fcf_to_sales_7y_worst_pct"] = round(wfcf * 100, 2)
-            if isinstance(cf, (int, float)):
-                out["fcf_to_sales_vs_7yr_trough_pp"] = round(cf - wfcf * 100, 2)
+    # cyclicality context: current - worst*100 (blank if < 5 annual periods; NOT scored)
+    cg = out["sales_growth_ttm_vs_prior_ttm_pct"]
+    cm = out["gross_profit_to_sales_ttm_pct"]
+    cf = out["fcf_to_sales_ttm_pct"]
+    if wg is not None and isinstance(cg, (int, float)):
+        out["sales_growth_vs_5yr_trough_pp"] = round(cg - wg * 100, 2)
+    if wm is not None and isinstance(cm, (int, float)):
+        out["gross_profit_to_sales_vs_5yr_trough_pp"] = round(cm - wm * 100, 2)
+    if wfcf is not None and isinstance(cf, (int, float)):
+        out["fcf_to_sales_vs_5yr_trough_pp"] = round(cf - wfcf * 100, 2)
 
-    # analyst grades consensus -> % buy + count
+    # analyst grades consensus -> % sell + count
     g = gated_get(f"{BASE}/grades-consensus?symbol={q}&apikey={API_KEY}")
     if isinstance(g, list) and g:
         row = g[0]
@@ -403,7 +382,7 @@ def enrich(symbol):
                            _f(row.get("sell")), _f(row.get("strongSell")))
         tot = sb + b + h + s + ss
         if tot > 0:
-            out["analyst_buy_pct"] = round((sb + b) / tot * 100, 1)
+            out["analyst_sell_pct"] = round((s + ss) / tot * 100, 1)
             out["analyst_count"] = int(tot)
     return out
 
@@ -452,13 +431,6 @@ def add_scores(rows):
                 num += w * (100.0 - p if inv else p)
                 den += w
         r["risk_score"] = round(num / den, 1) if den > 0 else ""
-
-    # combined headline: 2/3 growth + 1/3 risk. BLANK unless BOTH are present
-    # (no partial fallback — a one-sided blend would misrepresent the row).
-    for r in rows:
-        g = r["growth_score"] if isinstance(r["growth_score"], (int, float)) else None
-        rk = r["risk_score"] if isinstance(r["risk_score"], (int, float)) else None
-        r["growth_risk_score"] = round((2 * g + rk) / 3, 1) if (g is not None and rk is not None) else ""
 
 
 def main():
