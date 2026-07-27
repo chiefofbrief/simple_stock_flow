@@ -3,15 +3,35 @@
 Large Actives with Metrics — STANDALONE (no file reads).
 
 The Active Stock Universe (majors + OTC/PNK, active common stock) put through
-three filters, enriched per-symbol, then scored on growth and risk.
+three filters, enriched per-symbol, then scored and flagged for a
+read-at-a-glance dashboard.
 
   filters (all in this script):
       market cap        >= $1B
       dollar volume     >= $1M / day   (price x volume, from the screener)
       prior-year sales  >= $10M USD    (after currency conversion)
-  scores:
-      growth_score  — sales growth level + acceleration (50/50)
-      risk_score    — HIGH = SAFER; debt, margin (level+YoY), market cap, fcf (level+YoY)
+
+  scores & flags (all DYNAMIC — every cutoff is recomputed from the batch each run):
+      growth_score        4 equal parts: TTM growth, latest-Q YoY growth, TTM
+                          accel, Q accel.  The two LEVEL parts are floored — below
+                          the batch top-third bar they score 0, so only genuinely
+                          rapid growers rank.  Accel parts are not floored, not capped.
+      growth_context      "Base · Acceleration · Alignment":
+                            Base         Strong (TTM growth in top third) / Weak
+                            Acceleration Accelerating (TTM accel > +10pp) /
+                                         Steady (-10..+10) / Decelerating (< -10)
+                            Alignment    Aligned (TTM & latest-Q growth agree — both
+                                         top-third or both not) / Not aligned
+      profitability_score 50% percentile(gross profit/sales)
+                        + 50% percentile(FCF/sales)
+      gross_profit_vs_trough, fcf_vs_trough
+                          High (top 10% of the vs-5yr-trough delta) /
+                          Low (bottom 10%) / blank.  Extremes only.
+      debt_risk           HIGH for the worst one-third of the universe by debt
+                          burden — FCF<=0-with-debt is automatically worst, the rest
+                          ranked by total debt / FCF.  Blank otherwise.
+      ev_sales_flag       Low (cheapest third) / High (priciest third) / blank
+      pe_flag             Low / High (thirds) / None (no positive P/E) / blank
 
 Flow (exact order):
   1. Baseline: own screener pull, one call per exchange
@@ -25,23 +45,24 @@ Flow (exact order):
        /profile                                -> description, ipoDate
        /income-statement    period=quarter(12) -> sales/gross profit/net income,
                                                   growth levels + acceleration
-       /income-statement    period=annual      -> 5y troughs (growth, GP/sales), dilution
-       /cash-flow-statement period=quarter      -> FCF (TTM + YoY change)
+       /income-statement    period=annual      -> 5y GP/sales trough, dilution
+       /cash-flow-statement period=quarter      -> FCF (TTM); debt/FCF input
        /cash-flow-statement period=annual       -> FCF/sales 5y trough
        /balance-sheet-statement period=quarter  -> total debt, cash (latest)
        /grades-consensus                        -> analyst sell % and count
   4. Currency -> USD: /quote-short per distinct reportedCurrency.  Only absolute
        dollar figures are converted (sales, and the EV/PE inputs net income, debt,
-       cash); every "/sales" ratio is same-currency numerator/denominator so the
-       currency cancels and no conversion is needed.
+       cash); every "/sales" and the debt/FCF ratio is same-currency numerator and
+       denominator so the currency cancels and no conversion is needed.
   5. EV/Sales and P/E are computed IN-HOUSE in USD (not taken from FMP TTM
        endpoints, which mix USD price with local-currency financials):
          ev_to_sales_ttm = (market_cap + total_debt - cash) / sales_ttm     [all USD]
          pe_ratio_ttm    =  market_cap / net_income_ttm                     [all USD]
        EV/Sales is present for every name; P/E is blank when TTM net income <= 0.
   6. Sales filter: keep prior-year TTM sales >= $10M USD.
-  7. Scores (last) — percentile blend within the filtered batch:
-       P_f = (# strictly lower)/(N-1)*100 ; missing field re-normalises weights.
+  7. Scores & flags (last) — percentile within the filtered batch:
+       P_f = (# strictly lower)/(N-1)*100 ; a missing field re-normalises weights.
+       Top third = P >= 66.67 ; bottom third = P <= 33.33 ; deciles = 90 / 10.
 
 Metrics (quarters newest-first; [0:4]=TTM, [4:8]=prior TTM, [8:12]=2-yr-ago TTM):
   sales_growth_ttm_vs_prior_ttm_pct = (Srev[0:4]/Srev[4:8] - 1)*100
@@ -49,25 +70,14 @@ Metrics (quarters newest-first; [0:4]=TTM, [4:8]=prior TTM, [8:12]=2-yr-ago TTM)
   sales_growth_ttm_accel_pp = [(Srev[0:4]/Srev[4:8]-1) - (Srev[4:8]/Srev[8:12]-1)]*100
   sales_growth_q_accel_pp   = [(rev[0]/rev[4]-1) - (rev[1]/rev[5]-1)]*100
   gross_profit_to_sales_ttm_pct     = Sgp[0:4]/Srev[0:4] *100
-  gross_profit_to_sales_yoy_change_pp = (Sgp[0:4]/Srev[0:4] - Sgp[4:8]/Srev[4:8])*100
   fcf_to_sales_ttm_pct              = Sfcf[0:4]/Srev[0:4] *100
-  fcf_to_sales_yoy_change_pp        = (Sfcf[0:4]/Srev[0:4] - Sfcf[4:8]/Srev[4:8])*100
-  total_debt_to_sales_pct           = totalDebt(latest Q)/Srev[0:4] *100
-Annual (newest-first) — context columns, blank if < 5 annual periods:
+  total_debt_to_fcf                 = totalDebt(latest Q) / Sfcf[0:4]  (currency
+                                      cancels; negative when TTM FCF < 0)
+Annual (newest-first) — context, blank if < 5 annual periods:
   shares_outstanding_yoy_change_pct = (shs_a[0]/shs_a[1] - 1)*100  (+dilution/-buyback)
-  worst_growth = min over the last 5y of (rev_a[i]/rev_a[i+1] - 1)
-  worst_gm     = min over the last 5y of (gp_a[i]/rev_a[i])
-  worst_fcf    = min over the last 5y of (fcf_a[year]/rev_a[year])  (year-matched)
-  *_vs_5yr_trough_pp = current - worst*100     (context only, NOT scored)
-
-Scores:
-  growth_score = 0.25*P(sales_growth_ttm) + 0.25*P(sales_growth_q)
-               + 0.25*P(sales_growth_ttm_accel) + 0.25*P(sales_growth_q_accel)
-  risk_score (HIGH=SAFER) =
-        0.30*(100 - P(debt_to_sales))
-      + 0.15*P(gp_to_sales) + 0.15*P(gp_to_sales_yoy_change)
-      + 0.20*P(market_cap)
-      + 0.10*P(fcf_to_sales) + 0.10*P(fcf_to_sales_yoy_change)
+  worst_gm  = min over the last 5y of (gp_a[i]/rev_a[i])
+  worst_fcf = min over the last 5y of (fcf_a[year]/rev_a[year])  (year-matched)
+  *_vs_5yr_trough_pp = current - worst*100     (raw backup for the trough flags)
 
 Saves:   Large_Actives_with_Metrics.csv  (repo root)
 API key: FMP_API_KEY.  ~60 min (7 calls/symbol + FX).
@@ -99,41 +109,44 @@ CALLS_PER_SYMBOL = 7
 DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root
 OUT_PATH = os.path.join(DATA_DIR, "Large_Actives_with_Metrics.csv")
 
-# growth_score: 50% sales-growth levels, 50% acceleration
+# growth_score: 4 equal parts.  The two LEVEL parts are floored below the batch
+# top-third bar (they score 0 unless in the top third); the two ACCEL parts are not.
 GROWTH_WEIGHTS = {
     "sales_growth_ttm_vs_prior_ttm_pct": 0.25,
     "sales_growth_latest_q_yoy_pct": 0.25,
     "sales_growth_ttm_accel_pp": 0.25,
     "sales_growth_q_accel_pp": 0.25,
 }
-# risk_score: HIGH = SAFER.  (field, weight, invert) — invert=True flips to 100-P
-# so "lower is safer" (debt) scores as safety.  margin & fcf each = level + YoY change.
-RISK_COMPONENTS = [
-    ("total_debt_to_sales_pct", 0.30, True),
-    ("gross_profit_to_sales_ttm_pct", 0.15, False),
-    ("gross_profit_to_sales_yoy_change_pp", 0.15, False),
-    ("market_cap_usd", 0.20, False),
-    ("fcf_to_sales_ttm_pct", 0.10, False),
-    ("fcf_to_sales_yoy_change_pp", 0.10, False),
-]
+GROWTH_LEVEL_FIELDS = {"sales_growth_ttm_vs_prior_ttm_pct", "sales_growth_latest_q_yoy_pct"}
+# profitability_score: gross profit/sales and FCF/sales, equal weight, no floor.
+PROFIT_WEIGHTS = {"gross_profit_to_sales_ttm_pct": 0.5, "fcf_to_sales_ttm_pct": 0.5}
+
+# dynamic percentile-rank cutoffs (P is 0..100, recomputed from the batch each run)
+TOP_THIRD = 200.0 / 3   # 66.67
+BOT_THIRD = 100.0 / 3   # 33.33
+TOP_DECILE = 90.0
+BOT_DECILE = 10.0
+ACCEL_BAND = 10.0       # +/- pp band for growth_context Acceleration (fixed, not ranked)
+
 OUT_COLS = [
     "symbol", "company_name", "market_cap_usd", "ipo_date",
-    "growth_score", "risk_score",
-    "ev_to_sales_ttm", "pe_ratio_ttm", "analyst_sell_pct", "analyst_count",
+    "growth_score", "growth_context", "profitability_score",
+    "gross_profit_vs_trough", "fcf_vs_trough", "debt_risk",
+    "ev_sales_flag", "pe_flag",
+    "analyst_sell_pct", "analyst_count",
     "industry", "description",
     "sales_ttm_usd",
     "sales_growth_ttm_vs_prior_ttm_pct", "sales_growth_latest_q_yoy_pct",
     "sales_growth_ttm_accel_pp", "sales_growth_q_accel_pp",
-    "gross_profit_to_sales_ttm_pct", "gross_profit_to_sales_yoy_change_pp",
-    "fcf_to_sales_ttm_pct", "fcf_to_sales_yoy_change_pp",
-    "total_debt_to_sales_pct",
-    "sales_growth_vs_5yr_trough_pp", "gross_profit_to_sales_vs_5yr_trough_pp",
-    "fcf_to_sales_vs_5yr_trough_pp",
+    "gross_profit_to_sales_ttm_pct", "fcf_to_sales_ttm_pct",
+    "total_debt_to_fcf",
+    "gross_profit_to_sales_vs_5yr_trough_pp", "fcf_to_sales_vs_5yr_trough_pp",
+    "ev_to_sales_ttm", "pe_ratio_ttm",
     "shares_outstanding_yoy_change_pct",
     "exchange", "volume",
 ]
 # sales_prior_ttm_usd is still computed in main() (it is the >=$10M filter key) but
-# is no longer written — the growth delta already captures current-vs-prior.
+# is not written — the growth delta already captures current-vs-prior.
 
 
 class RateLimiter:
@@ -240,14 +253,15 @@ def enrich(symbol):
         "description": "", "ipo_date": "", "reportedCurrency": "",
         "_sales_ttm_local": None, "_sales_ttm_prior_local": None,
         "_net_income_ttm_local": None, "_total_debt_local": None, "_cash_local": None,
+        "_fcf_ttm_local": None,
         "sales_growth_ttm_vs_prior_ttm_pct": "", "sales_growth_latest_q_yoy_pct": "",
         "sales_growth_ttm_accel_pp": "", "sales_growth_q_accel_pp": "",
-        "gross_profit_to_sales_ttm_pct": "", "gross_profit_to_sales_yoy_change_pp": "",
-        "fcf_to_sales_ttm_pct": "", "fcf_to_sales_yoy_change_pp": "",
-        "total_debt_to_sales_pct": "",
+        "gross_profit_to_sales_ttm_pct": "",
+        "fcf_to_sales_ttm_pct": "",
+        "total_debt_to_fcf": "",
         "analyst_sell_pct": "", "analyst_count": "",
         "shares_outstanding_yoy_change_pct": "",
-        "sales_growth_vs_5yr_trough_pp": "", "gross_profit_to_sales_vs_5yr_trough_pp": "",
+        "gross_profit_to_sales_vs_5yr_trough_pp": "",
         "fcf_to_sales_vs_5yr_trough_pp": "",
     }
 
@@ -267,7 +281,7 @@ def enrich(symbol):
         gp = [_num(r.get("grossProfit")) for r in d]
         ni = [_num(r.get("netIncome")) for r in d]
         rn, rp, rpp = _ssum(rev, 0, 4), _ssum(rev, 4, 8), _ssum(rev, 8, 12)
-        gn, gpp = _ssum(gp, 0, 4), _ssum(gp, 4, 8)
+        gn = _ssum(gp, 0, 4)
         sales_ttm, sales_ttm_prior = rn, rp
         out["_sales_ttm_local"] = rn
         out["_sales_ttm_prior_local"] = rp
@@ -288,23 +302,18 @@ def enrich(symbol):
         # gross profit / sales
         if gn is not None and rn not in (None, 0):
             out["gross_profit_to_sales_ttm_pct"] = round(gn / rn * 100, 2)
-        if gn is not None and rn not in (None, 0) and gpp is not None and rp not in (None, 0):
-            out["gross_profit_to_sales_yoy_change_pp"] = round((gn / rn - gpp / rp) * 100, 2)
 
-    # cash-flow quarter -> FCF/sales TTM + YoY change (currency cancels)
+    # cash-flow quarter -> FCF/sales TTM (currency cancels); store TTM FCF for debt/FCF
     cq = gated_get(f"{BASE}/cash-flow-statement?symbol={q}&period=quarter&limit=8&apikey={API_KEY}")
     if isinstance(cq, list) and cq:
         cq = sorted(cq, key=lambda r: r.get("date") or "", reverse=True)
         fcf = [_num(r.get("freeCashFlow")) for r in cq]
-        fn, fp = _ssum(fcf, 0, 4), _ssum(fcf, 4, 8)
+        fn = _ssum(fcf, 0, 4)
+        out["_fcf_ttm_local"] = fn
         if fn is not None and sales_ttm not in (None, 0):
             out["fcf_to_sales_ttm_pct"] = round(fn / sales_ttm * 100, 2)
-        if (fn is not None and sales_ttm not in (None, 0)
-                and fp is not None and sales_ttm_prior not in (None, 0)):
-            out["fcf_to_sales_yoy_change_pp"] = round(
-                (fn / sales_ttm - fp / sales_ttm_prior) * 100, 2)
 
-    # balance-sheet quarter -> total debt, cash (latest) ; debt/sales (currency cancels)
+    # balance-sheet quarter -> total debt, cash (latest)
     bs = gated_get(f"{BASE}/balance-sheet-statement?symbol={q}&period=quarter&limit=4&apikey={API_KEY}")
     if isinstance(bs, list) and bs:
         bs = sorted(bs, key=lambda r: r.get("date") or "", reverse=True)
@@ -314,11 +323,14 @@ def enrich(symbol):
         if csh is None:
             csh = _num(b0.get("cashAndCashEquivalents"))
         out["_cash_local"] = csh
-        if out["_total_debt_local"] is not None and sales_ttm not in (None, 0):
-            out["total_debt_to_sales_pct"] = round(out["_total_debt_local"] / sales_ttm * 100, 2)
+    # total debt / TTM FCF (both local -> currency cancels).  Raw multiple backup;
+    # negative when TTM FCF < 0.  The debt_risk flag carries the real signal.
+    td_, fcf_ = out["_total_debt_local"], out["_fcf_ttm_local"]
+    if td_ is not None and fcf_ not in (None, 0):
+        out["total_debt_to_fcf"] = round(td_ / fcf_, 2)
 
-    # income-statement annual -> dilution + 5y-worst growth & GP/sales
-    wg = wm = None
+    # income-statement annual -> dilution + 5y-worst GP/sales
+    wm = None
     rev_by_year = {}
     a = gated_get(f"{BASE}/income-statement?symbol={q}&period=annual&limit=8&apikey={API_KEY}")
     if isinstance(a, list) and a:
@@ -339,12 +351,9 @@ def enrich(symbol):
         sh = [_shs(r) for r in a]
         if len(sh) >= 2 and sh[0] is not None and sh[1] not in (None, 0):
             out["shares_outstanding_yoy_change_pct"] = round((sh[0] / sh[1] - 1) * 100, 2)
-        # 5-year troughs — worst single year over the last 5 fiscal years (needs 5 years)
-        gs = [ra[i] / ra[i + 1] - 1 for i in range(min(4, len(ra) - 1))
-              if ra[i] is not None and ra[i + 1] not in (None, 0)]
+        # 5-year trough — worst single-year GP/sales over the last 5 years (needs 5)
         ms = [ga[i] / ra[i] for i in range(min(5, len(ra)))
               if ga[i] is not None and ra[i] not in (None, 0)]
-        wg = min(gs) if len(gs) >= 4 else None
         wm = min(ms) if len(ms) >= 5 else None
 
     # cash-flow annual -> FCF/sales 5y trough (year-matched to annual revenue)
@@ -363,12 +372,10 @@ def enrich(symbol):
                 break
         wfcf = min(margins) if len(margins) >= 5 else None
 
-    # cyclicality context: current - worst*100 (blank if < 5 annual periods; NOT scored)
-    cg = out["sales_growth_ttm_vs_prior_ttm_pct"]
+    # cyclicality context: current - worst*100 (blank if < 5 annual periods).
+    # Raw backup for the gross_profit_vs_trough / fcf_vs_trough flags.
     cm = out["gross_profit_to_sales_ttm_pct"]
     cf = out["fcf_to_sales_ttm_pct"]
-    if wg is not None and isinstance(cg, (int, float)):
-        out["sales_growth_vs_5yr_trough_pp"] = round(cg - wg * 100, 2)
     if wm is not None and isinstance(cm, (int, float)):
         out["gross_profit_to_sales_vs_5yr_trough_pp"] = round(cm - wm * 100, 2)
     if wfcf is not None and isinstance(cf, (int, float)):
@@ -400,7 +407,7 @@ def fx_rate(cur):
     return None
 
 
-# ---------------- 7. scores ----------------
+# ---------------- 7. scores & flags ----------------
 def _percentiles(rows, field):
     vals = sorted(r[field] for r in rows if isinstance(r.get(field), (int, float)))
     n = len(vals)
@@ -412,25 +419,97 @@ def _percentiles(rows, field):
     return pm
 
 
-def add_scores(rows):
-    gmaps = {f: _percentiles(rows, f) for f in GROWTH_WEIGHTS}
+def add_debt_risk(rows):
+    # HIGH = worst one-third of the universe by debt burden.  FCF<=0-with-debt is
+    # automatically worst (can't service debt from cash flow at all); the rest are
+    # ranked by total debt / FCF (higher = worse).  No-debt or can't-compute names
+    # are never flagged.  Recomputed every run.
+    target = round(len(rows) / 3)
+    auto = []            # FCF <= 0 while carrying debt -> worst possible
+    ranked = []          # (debt/FCF, row) for FCF > 0 with debt
     for r in rows:
+        td = r.get("_total_debt_local")
+        fcf = r.get("_fcf_ttm_local")
+        if td is None or td <= 0 or fcf is None:
+            continue
+        if fcf <= 0:
+            auto.append(r)
+        else:
+            ranked.append((td / fcf, r))
+    ranked.sort(key=lambda x: x[0], reverse=True)
+    flagged = {id(r) for r in auto}
+    for _, r in ranked[:max(0, target - len(auto))]:
+        flagged.add(id(r))
+    for r in rows:
+        r["debt_risk"] = "HIGH" if id(r) in flagged else ""
+
+
+def add_scores_and_flags(rows):
+    gmaps = {f: _percentiles(rows, f) for f in GROWTH_WEIGHTS}
+    pmaps = {f: _percentiles(rows, f) for f in PROFIT_WEIGHTS}
+    ann = gmaps["sales_growth_ttm_vs_prior_ttm_pct"]
+    qtr = gmaps["sales_growth_latest_q_yoy_pct"]
+    ev_map = _percentiles(rows, "ev_to_sales_ttm")
+    pe_map = _percentiles(rows, "pe_ratio_ttm")
+    gp_tr = _percentiles(rows, "gross_profit_to_sales_vs_5yr_trough_pp")
+    fcf_tr = _percentiles(rows, "fcf_to_sales_vs_5yr_trough_pp")
+
+    for r in rows:
+        rid = id(r)
+
+        # growth_score — the two LEVEL parts score 0 below the batch top third.
         num = den = 0.0
         for f, w in GROWTH_WEIGHTS.items():
-            if id(r) in gmaps[f]:
-                num += w * gmaps[f][id(r)]
+            if rid in gmaps[f]:
+                p = gmaps[f][rid]
+                contrib = 0.0 if (f in GROWTH_LEVEL_FIELDS and p < TOP_THIRD) else p
+                num += w * contrib
                 den += w
         r["growth_score"] = round(num / den, 1) if den > 0 else ""
 
-    rmaps = {f: _percentiles(rows, f) for f, _, _ in RISK_COMPONENTS}
-    for r in rows:
+        # profitability_score — 50/50 percentiles of gross profit/sales and FCF/sales.
         num = den = 0.0
-        for f, w, inv in RISK_COMPONENTS:
-            if id(r) in rmaps[f]:
-                p = rmaps[f][id(r)]
-                num += w * (100.0 - p if inv else p)
+        for f, w in PROFIT_WEIGHTS.items():
+            if rid in pmaps[f]:
+                num += w * pmaps[f][rid]
                 den += w
-        r["risk_score"] = round(num / den, 1) if den > 0 else ""
+        r["profitability_score"] = round(num / den, 1) if den > 0 else ""
+
+        # growth_context = Base · Acceleration · Alignment (built from existing columns).
+        base = ("Strong" if ann[rid] >= TOP_THIRD else "Weak") if rid in ann else "n/a"
+        av = r.get("sales_growth_ttm_accel_pp")
+        if isinstance(av, (int, float)):
+            accel = ("Accelerating" if av > ACCEL_BAND
+                     else "Decelerating" if av < -ACCEL_BAND else "Steady")
+        else:
+            accel = "n/a"
+        if rid in ann and rid in qtr:
+            align = "Aligned" if (ann[rid] >= TOP_THIRD) == (qtr[rid] >= TOP_THIRD) else "Not aligned"
+        else:
+            align = "n/a"
+        r["growth_context"] = f"{base} · {accel} · {align}"
+
+        # trough flags — extremes only (top / bottom decile of the vs-trough delta).
+        for src, col in ((gp_tr, "gross_profit_vs_trough"), (fcf_tr, "fcf_vs_trough")):
+            if rid in src:
+                p = src[rid]
+                r[col] = "High" if p >= TOP_DECILE else "Low" if p <= BOT_DECILE else ""
+            else:
+                r[col] = ""
+
+        # affordability flags — thirds.  Low = cheap (low percentile), High = pricey.
+        if rid in ev_map:
+            p = ev_map[rid]
+            r["ev_sales_flag"] = "Low" if p <= BOT_THIRD else "High" if p >= TOP_THIRD else ""
+        else:
+            r["ev_sales_flag"] = ""
+        if isinstance(r.get("pe_ratio_ttm"), (int, float)):
+            p = pe_map[rid]
+            r["pe_flag"] = "Low" if p <= BOT_THIRD else "High" if p >= TOP_THIRD else ""
+        else:
+            r["pe_flag"] = "None"
+
+    add_debt_risk(rows)
 
 
 def main():
@@ -483,7 +562,7 @@ def main():
 
     kept = [r for r in merged if isinstance(r.get("sales_prior_ttm_usd"), int)
             and r["sales_prior_ttm_usd"] >= MIN_PRIOR_SALES_USD]
-    add_scores(kept)
+    add_scores_and_flags(kept)
     kept.sort(key=lambda r: (r["growth_score"] if isinstance(r["growth_score"], (int, float)) else -1),
               reverse=True)
 
