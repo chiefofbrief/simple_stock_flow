@@ -242,7 +242,8 @@ def get_baseline():
              and _f(r["_price"]) * _f(r["volume"]) >= MIN_DOLLAR_VOLUME]
     for r in large:
         r.pop("_price", None)
-    print(f"Active universe: {len(active):,}  ->  marketCap>=$1B & $-vol>=$1M/day: {len(large):,}")
+    print(f"Active commons >=$1B (server-side floor): {len(active):,}  ->  "
+          f"after >=$1M/day $-vol filter: {len(large):,}")
     return large
 
 
