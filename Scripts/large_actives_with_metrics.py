@@ -30,8 +30,12 @@ read-at-a-glance dashboard.
       debt_risk           HIGH for the worst one-third of the universe by debt
                           burden — FCF<=0-with-debt is automatically worst, the rest
                           ranked by total debt / FCF.  Blank otherwise.
-      ev_sales_flag       Low (cheapest third) / High (priciest third) / blank
-      pe_flag             Low / High (thirds) / None (no positive P/E) / blank
+      affordability_context  "EV <x> · PE <y>", ranked ONLY among the fast-grower
+                          cohort (growth_score >= 66); blank below that bar.
+                            EV  Low / Mid / High  (cheap..pricey third of the cohort)
+                            PE  Low / Mid / High  (cohort thirds) / None (no positive P/E)
+                          Cheap/pricey is relative to fast growers; the raw
+                          ev_to_sales_ttm & pe_ratio_ttm columns hold the absolute value.
 
 Flow (exact order):
   1. Baseline: own screener pull, one call per exchange
@@ -127,12 +131,14 @@ BOT_THIRD = 100.0 / 3   # 33.33
 TOP_DECILE = 90.0
 BOT_DECILE = 10.0
 ACCEL_BAND = 10.0       # +/- pp band for growth_context Acceleration (fixed, not ranked)
+FAST_GROWER_MIN = 66.0  # growth_score bar for the "fast grower" cohort; affordability
+                        # (EV/sales + P/E) is ranked only within it, blank below.
 
 OUT_COLS = [
     "symbol", "company_name", "market_cap_usd", "ipo_date",
     "growth_score", "growth_context", "profitability_score",
     "gross_profit_vs_trough", "fcf_vs_trough", "debt_risk",
-    "ev_sales_flag", "pe_flag",
+    "affordability_context",
     "analyst_sell_pct", "analyst_count",
     "industry", "description",
     "sales_ttm_usd",
@@ -450,8 +456,6 @@ def add_scores_and_flags(rows):
     pmaps = {f: _percentiles(rows, f) for f in PROFIT_WEIGHTS}
     ann = gmaps["sales_growth_ttm_vs_prior_ttm_pct"]
     qtr = gmaps["sales_growth_latest_q_yoy_pct"]
-    ev_map = _percentiles(rows, "ev_to_sales_ttm")
-    pe_map = _percentiles(rows, "pe_ratio_ttm")
     gp_tr = _percentiles(rows, "gross_profit_to_sales_vs_5yr_trough_pp")
     fcf_tr = _percentiles(rows, "fcf_to_sales_vs_5yr_trough_pp")
 
@@ -498,17 +502,31 @@ def add_scores_and_flags(rows):
             else:
                 r[col] = ""
 
-        # affordability flags — thirds.  Low = cheap (low percentile), High = pricey.
+    # affordability_context — EV/sales and P/E ranked ONLY among the fast-grower
+    # cohort (growth_score >= FAST_GROWER_MIN), so Low/High means cheap/pricey
+    # *for a fast grower*.  Blank below the bar.  Raw ev_to_sales_ttm / pe_ratio_ttm
+    # keep the absolute value.
+    cohort = [r for r in rows if isinstance(r.get("growth_score"), (int, float))
+              and r["growth_score"] >= FAST_GROWER_MIN]
+    ev_map = _percentiles(cohort, "ev_to_sales_ttm")
+    pe_map = _percentiles(cohort, "pe_ratio_ttm")
+    cohort_ids = {id(r) for r in cohort}
+    for r in rows:
+        rid = id(r)
+        if rid not in cohort_ids:
+            r["affordability_context"] = ""
+            continue
         if rid in ev_map:
             p = ev_map[rid]
-            r["ev_sales_flag"] = "Low" if p <= BOT_THIRD else "High" if p >= TOP_THIRD else ""
+            ev = "Low" if p <= BOT_THIRD else "High" if p >= TOP_THIRD else "Mid"
         else:
-            r["ev_sales_flag"] = ""
-        if isinstance(r.get("pe_ratio_ttm"), (int, float)):
+            ev = "n/a"
+        if isinstance(r.get("pe_ratio_ttm"), (int, float)) and rid in pe_map:
             p = pe_map[rid]
-            r["pe_flag"] = "Low" if p <= BOT_THIRD else "High" if p >= TOP_THIRD else ""
+            pe = "Low" if p <= BOT_THIRD else "High" if p >= TOP_THIRD else "Mid"
         else:
-            r["pe_flag"] = "None"
+            pe = "None"
+        r["affordability_context"] = f"EV {ev} · PE {pe}"
 
     add_debt_risk(rows)
 
