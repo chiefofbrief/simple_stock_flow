@@ -1,0 +1,86 @@
+[
+  {
+    "symbol": "AI",
+    "companyName": "C3.ai, Inc.",
+    "price": 9.86,
+    "mktCap": 1498217140
+  },
+  {
+    "symbol": "ASAN",
+    "companyName": "Asana, Inc.",
+    "price": 8.68,
+    "mktCap": 2062575070
+  },
+  {
+    "symbol": "BILL",
+    "companyName": "Bill.com Holdings, Inc.",
+    "price": 47,
+    "mktCap": 4681044900
+  },
+  {
+    "symbol": "DDOG",
+    "companyName": "Datadog, Inc.",
+    "price": 229.29,
+    "mktCap": 81618108296
+  },
+  {
+    "symbol": "DOCU",
+    "companyName": "DocuSign, Inc.",
+    "price": 56.9,
+    "mktCap": 10864770500
+  },
+  {
+    "symbol": "FROG",
+    "companyName": "JFrog Ltd.",
+    "price": 83.04,
+    "mktCap": 10057804800
+  },
+  {
+    "symbol": "GTLB",
+    "companyName": "GitLab Inc.",
+    "price": 35.68,
+    "mktCap": 6026352036
+  },
+  {
+    "symbol": "INTU",
+    "companyName": "Intuit Inc.",
+    "price": 321.91,
+    "mktCap": 88054295670
+  },
+  {
+    "symbol": "MNDY",
+    "companyName": "monday.com Ltd.",
+    "price": 87.57,
+    "mktCap": 4439623422
+  },
+  {
+    "symbol": "SHOP",
+    "companyName": "Shopify Inc.",
+    "price": 147.44,
+    "mktCap": 191326206462
+  },
+  {
+    "symbol": "SNOW",
+    "companyName": "Snowflake Inc.",
+    "price": 318,
+    "mktCap": 110218800000
+  },
+  {
+    "symbol": "TEAM",
+    "companyName": "Atlassian Corporation",
+    "price": 110.17,
+    "mktCap": 28938829284
+  },
+  {
+    "symbol": "WDAY",
+    "companyName": "Workday, Inc.",
+    "price": 170.24,
+    "mktCap": 44593024296
+  },
+  {
+    "symbol": "ZM",
+    "companyName": "Zoom Communications, Inc.",
+    "price": 101.3,
+    "mktCap": 29704424190
+  }
+]
