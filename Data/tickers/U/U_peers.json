@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "BSY",
+    "companyName": "Bentley Systems, Incorporated",
+    "price": 35.41,
+    "mktCap": 10349689579
+  },
+  {
+    "symbol": "DOCU",
+    "companyName": "DocuSign, Inc.",
+    "price": 60.085,
+    "mktCap": 11472930325
+  },
+  {
+    "symbol": "DT",
+    "companyName": "Dynatrace, Inc.",
+    "price": 50.53,
+    "mktCap": 14728268788
+  },
+  {
+    "symbol": "FN",
+    "companyName": "Fabrinet",
+    "price": 533.78,
+    "mktCap": 19125177266
+  },
+  {
+    "symbol": "GEN",
+    "companyName": "Gen Digital Inc.",
+    "price": 29.3346,
+    "mktCap": 17559018771
+  },
+  {
+    "symbol": "IONQ",
+    "companyName": "IonQ, Inc.",
+    "price": 42.7,
+    "mktCap": 15938626780
+  },
+  {
+    "symbol": "KSPI",
+    "companyName": "Joint Stock Company Kaspi.kz",
+    "price": 94.07,
+    "mktCap": 17875864913
+  },
+  {
+    "symbol": "OKTA",
+    "companyName": "Okta, Inc.",
+    "price": 152.25,
+    "mktCap": 25291770000
+  },
+  {
+    "symbol": "QXO",
+    "companyName": "QXO, Inc.",
+    "price": 15.475,
+    "mktCap": 11221492738
+  },
+  {
+    "symbol": "RBRK",
+    "companyName": "Rubrik, Inc.",
+    "price": 99.535,
+    "mktCap": 20486945157
+  }
+]
