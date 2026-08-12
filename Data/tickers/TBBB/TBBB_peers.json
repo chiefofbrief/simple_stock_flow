@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "AKO",
+    "companyName": "Embotelladora Andina S.A.",
+    "price": null,
+    "mktCap": 0
+  },
+  {
+    "symbol": "ATGE",
+    "companyName": "Adtalem Global Education Inc.",
+    "price": 106.64,
+    "mktCap": 3874076359
+  },
+  {
+    "symbol": "CHA",
+    "companyName": "Chagee Holdings Limited American Depositary Shares",
+    "price": 10.0183,
+    "mktCap": 1911124209
+  },
+  {
+    "symbol": "COTY",
+    "companyName": "Coty Inc.",
+    "price": 2.77,
+    "mktCap": 2438890820
+  },
+  {
+    "symbol": "FIZZ",
+    "companyName": "National Beverage Corp.",
+    "price": 30.69,
+    "mktCap": 2872955410
+  },
+  {
+    "symbol": "FRPT",
+    "companyName": "Freshpet, Inc.",
+    "price": 72.48,
+    "mktCap": 3561869492
+  },
+  {
+    "symbol": "IPAR",
+    "companyName": "Inter Parfums, Inc.",
+    "price": 117.66,
+    "mktCap": 3768153392
+  },
+  {
+    "symbol": "LRN",
+    "companyName": "Stride, Inc.",
+    "price": 77.93,
+    "mktCap": 3313957664
+  },
+  {
+    "symbol": "PSMT",
+    "companyName": "PriceSmart, Inc.",
+    "price": 178.34,
+    "mktCap": 5503665850
+  },
+  {
+    "symbol": "RLX",
+    "companyName": "RLX Technology Inc.",
+    "price": 2.01,
+    "mktCap": 2456731820
+  }
+]
