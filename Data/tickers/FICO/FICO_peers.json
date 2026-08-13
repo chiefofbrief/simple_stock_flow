@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "CLS",
+    "companyName": "Celestica Inc.",
+    "price": 358.92,
+    "mktCap": 41269339440
+  },
+  {
+    "symbol": "CTSH",
+    "companyName": "Cognizant Technology Solutions Corporation",
+    "price": 58.72,
+    "mktCap": 26450083952
+  },
+  {
+    "symbol": "GRMN",
+    "companyName": "Garmin Ltd.",
+    "price": 313.04001,
+    "mktCap": 60370705049
+  },
+  {
+    "symbol": "NOK",
+    "companyName": "Nokia Oyj",
+    "price": 10.6048,
+    "mktCap": 57275379482
+  },
+  {
+    "symbol": "PTC",
+    "companyName": "PTC Inc.",
+    "price": 149.08,
+    "mktCap": 17219634480
+  },
+  {
+    "symbol": "TEAM",
+    "companyName": "Atlassian Corporation",
+    "price": 160.62,
+    "mktCap": 42190748475
+  },
+  {
+    "symbol": "TTD",
+    "companyName": "The Trade Desk, Inc.",
+    "price": 14.105,
+    "mktCap": 6630878079
+  },
+  {
+    "symbol": "UI",
+    "companyName": "Ubiquiti Inc.",
+    "price": 581.5,
+    "mktCap": 35193592428
+  },
+  {
+    "symbol": "XYZ",
+    "companyName": "Block, Inc.",
+    "price": 81.67,
+    "mktCap": 48608429983
+  },
+  {
+    "symbol": "ZM",
+    "companyName": "Zoom Communications, Inc.",
+    "price": 106.7401,
+    "mktCap": 31299636806
+  }
+]

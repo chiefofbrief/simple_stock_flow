@@ -1,0 +1,1243 @@
+
+Search in video
+55% Selloff
+0:00
+For years, FICO was the poster child of a business with impenetrable modes.
+0:06
+Their use was literally regulatory mandated, and they became a national
+0:12
+standard in credit scoring. Every single mortgage in the United States required
+0:18
+not one but three FICO credit scores, one from each of the three credit
+0:24
+bureaus. Almost every single card transaction in the country also touches
+0:29
+one of their fraud detection models. If you took out an auto loan, it was a FICO
+0:34
+score that the dealer would pull. And for years, they underpriced themselves
+0:40
+relative to their value. That has recently changed with price hikes, which are pretty aggressive, and it shows up
+0:48
+in the company's operating margins. In just the past 8 years, they moved from a
+0:53
+high teens operating margin business to almost 50% margins, and they think they
+0:59
+have much room to grow from there. Since the current CEO, William Lancing, took
+1:04
+over in 2012, the stock has gone up 60 times or 6,000%
+1:11
+when measured at peak just a little over a year ago. At the time, investors were
+1:16
+so confident in this business model that they were putting a 90 times earnings
+1:22
+multiple on it. Now though, the stock is down 55% and earnings multiples have collapsed.
+1:30
+They now trade at 42 times trailing last 12 months earnings or 32 times forward
+1:37
+2026 earnings. What once looked like a monopoly is now looking more like a
+1:43
+slowm moving legacy incumbent that was very greedy raising pricing which opened
+1:49
+the door for their first competitor ever in the scoring segment. And on top of
+1:55
+that with AI and a ton of new fintech lenders which have all sorts of different alternative ways to use data
+2:02
+to measure risk aren't FICO scores kind of antiquidated? What really are FICO's
+2:07
+moes and are they really at risk of losing market share? Or is this stock drawdown an overreaction led by
+2:16
+investors misunderstanding in the business model and not really fully groing what their real competitive edge
+2:23
+is? Could it be an opportunity to take advantage of these investors who don't
+2:28
+understand the real FICO business model with shares now at $1,60
+2:33
+down from $2,400 at peak? We will cover all of this and more in this video.
+2:39
+Starting with the business, really breaking down what is FICO, where is everywhere they sell to, what's the
+2:45
+difference between the B2B and the BTOC business, their platform versus their point solutions, and why do people use
+2:52
+FICO scores in the first place given that a lot of people know there's more sophisticated credit models out there
+2:57
+that are better able to predict defaults. And so we'll start with the business section first talking on that
+3:03
+score segment, then moving on to their software segment, and then moving on to competition, talking about competition
+3:10
+in the score segment for the first time ever, and finally moving into valuation to figure out what's priced in. And so
+3:16
+investors could get some context on to whether or not they think that this is an opportunity for them. But first, if
+3:23
+you're new to this channel, you're probably thinking, why should you listen to me? And who am I? Well, my name is
+3:29
+Drew Cohen and I used to work at Goldman Sachs in investment research. Later, I
+3:34
+worked at Capital Group on the buy side helping manage billions of dollars and now I'm a registered investment adviser
+3:41
+and I manage money for individuals. And just before we get started though, I just want to thank everyone for their
+3:47
+support. I wasn't sure there was an audience for super in-depth hour plus videos of me just talking at the camera,
+3:53
+but it appears there is. And I just really appreciate uh everyone's support and the comments. And if you are
+3:59
+enjoying these videos and want to see more of them like that in the future, go ahead and hit like and subscribe. And if
+4:05
+you don't like the video, you can always take the like back later in the video. But let us get started because we have a
+4:11
+lot to get through. So the FICO business right now is generating $2.1 billion in
+4:16
+revenue. It's growing 16%. Gross margins are 83% and then operating margins are
+4:23
+going to be 48%. And we're going to go into segment by segment in a moment, but you should know
+4:29
+that the score segment is going to be the majority of those profits. The margins there are going to be 88%.
+4:35
+That's 88% operating margins, and that's going to be their big profit pool. So, you're going to want to pay extra
+4:40
+attention to what is going on in that segment. The second segment is going to be the software segment. It kind of
+4:46
+works together a little bit with the score segment, but it's also a much more competitive business. And so we we'll
+4:52
+touch on both of those. The other thing you should know is that this is a US- ccentric business. 87% of revenues are
+4:59
+based in the US and 92% of their customers are going to be financial institutions. Now, we're not going to
+5:05
+talk too much about international growth. It doesn't really exist much in the score segment. It could be an
+5:11
+opportunity more in the software segment, which we'll say a few words about later on. Uh, but as you're going to see as we're describing the score
+5:18
+segment, how it came about, it was very kind of idiosyncratic to the way the US market works. And so, it'd be very hard
+5:24
+for them to replicate that somewhere else. But, I'm already getting ahead of myself. All this is going to become much more clear as we start to talk about the
+5:32
+score segment. And I'll also say that this was a fascinating business to research because none of the moes that I
+5:39
+thought would have existed for them were actually their real competitive advantages. I would have thought, oh,
+5:44
+they're kind of a standard at knowing whether or not someone is going to default. And while they're a standard, almost every single bank, financial
+5:51
+institution, they have their own risk models that they layer on top. And they don't actually really just trust the
+5:56
+FICO scores. The FICO scores are used for something very different. And so really fascinating to learn about. Let's
+6:02
+just get into it. The score segment is going to be 59% of revenues but 83% of
+Business Overview & Score Segment
+6:08
+profits. Just so we say it up front what a FICO score is. Uh it's going to be a three-digit number that ranges from 300
+6:16
+to 850. And it's supposed to basically predict the likelihood of a borrower
+6:21
+defaulting. And because of that, if you have a very high credit score, someone is more likely to give you credit
+6:27
+because you're going to be less likely to default. And so that's the idea behind the score. Now, it's interesting
+6:32
+to note though that FICO is basically an algorithm. They don't have data on any
+6:39
+consumers. That's not the business they're in. There's credit bureaus. There's three big ones. Their business
+6:44
+is collecting data on all sorts of consumers, all the data they can get. Then they run the FICO algorithm on
+6:52
+their data to produce a FICO score. Then once that FICO score is produced, it
+6:57
+gets distributed to usually lenders and then the lenders can use that to make a decision on whether or not to loan to
+7:04
+someone. So it's worth pointing out upfront FICO scores are basically just an algorithm. The underlying data itself
+7:11
+is held by the credit bureaus or sometimes you know different banks will have their own data. If you're a banking
+7:16
+customer of Bank of America, they have a lot of data on you. They have maybe you know your pay stubs when you're depositing, what's in your checking
+7:23
+account, saving account. So they could feed all of that too into their own proprietary risk models. That's separate
+7:28
+though from what FICO is doing. So FICO algorithm get that gets run by the
+7:33
+credit bureaus. They produce the FICO score three-digit score. Okay, we got the boilerplate stuff down. So there's
+7:40
+going to be two subsegments here in the score segment. It's going to be B2B, which is business to business, and B
+7:46
+TOC, business to consumer. So the business to consumer segment is going to be only 18% of revenues. we could just
+7:52
+talk about it really quickly and then get on to the B2B segment which is much more important for them. So the B TOC
+7:59
+segment is basically myfico.com. They have a website. You could go to the website, sign up for it. You could see
+8:06
+your own FICO score there. They also have different credit and debt management tools. So if you want to
+8:11
+monitor your credit, uh you can do that there. It's also very popular, you know, right before maybe you get a mortgage,
+8:16
+you want to know what your credit score is to get a sense of if there's going to be any surprises. And so that's kind of
+8:22
+what consumers use that for. There's also different end consumer apps like Experian has their own app that
+8:28
+showcases a FICO score and then they'll pay FICO a royalty for using that. This is not a big driver of the business.
+8:34
+It's a low mid to singledigit growth uh business for them. They don't talk about it that much. Uh it did have a moment
+8:40
+during COVID when everyone I guess was checking their credit scores a lot more because they were spending a lot of money and taking out loans, but other
+8:46
+than that it's kind of just been a low growth business. Not too much real opportunity for them there. And so that's all we really need to say on the
+8:52
+B TOC segment. Let's now get into the B2B segment, which within the score
+8:57
+segment is about 82% of revenues. So big picture, there's going to be four
+9:04
+categories of loans. There's going to be mortgages, auto loans, credit card, and
+9:10
+then personal loans. So those are going to be the four big categories of loans. The thing that FICO is used for in each
+9:18
+of these different lending verticals is entirely different. And so there's different competitive advantages in each
+9:25
+of them. So the first one we're going to talk about is going to be mortgage. This is going to be within everything their
+9:30
+biggest business. I know it's like a business within a subsegment within a sub segment, but mortgage is going to be
+9:36
+half of all B2B revenues. Okay. So, there's a few other players we need to talk about before we kind of get into
+9:43
+understanding how the mortgage market works. So, I mentioned the credit bureaus. There's three big ones. There's
+9:49
+Experian, Equifax, and TransUnion. They're known as the big three credit bureaus. So, these credit bureaus, as I
+9:55
+mentioned, they're the ones that actually carry all of the data. FICO
+10:00
+then licenses their algorithm to that. They produce a FICO score. Now, the way
+10:06
+the mortgage market works is that you usually need something called a trimerge
+10:11
+report. A trige report is going to basically be a credit report from each
+10:16
+of the three credit bureaus. The ones who make the trimerge report though are
+10:22
+called resellers. And there's a bunch of them. Core Logic, Credo, uh Factual Data, uh Equifax has their own reseller
+10:29
+as well. And so the resellers, they take each of these three uh reports from each
+10:35
+of the three credit bureaus. They take them together. They create that try merge report. That is what a lender uses
+10:41
+then in underwriting a mortgage. And so very different than other markets
+10:46
+because you have the credit bureaus and then you have the resellers on top of the credit bureaus that take uh the
+10:52
+reports, package them together. Basically, that is what the lender then ultimately sees. So they'll get three
+10:59
+FICO scores. They'll get a FICO score from each of the credit bureaus. That's important in understanding this value
+11:05
+chain is important as well. Now, the FHFA, which is the Federal Housing
+11:10
+Finance Authority, is currently basically the regulator of Fanny May and
+11:15
+Freddy Mack. Now, these are names I'm I'm sure you've heard. Maybe you have some idea of what they do. Maybe you
+11:20
+know them well, but in short, what these entities exist for is to help provide
+11:27
+liquidity to the mortgage market. So, the way it works is that Fanny May and
+11:32
+Freddy Mack are known as GSE, government sponsored entities. And so,
+11:38
+they're kind of private companies, but they kind of also have the backing of the government. And maybe, you know, they infamously went under during the
+11:45
+financial crisis, so now they're technically in conservatorship. And so they're in this weird place, but that
+11:50
+doesn't matter for us. What matters for us is that we understand just the crux of what they're trying to do. So let's
+11:57
+say that you are a bank. You underwrite a loan. You have a loan and now you
+12:03
+don't want to keep it on your balance sheet. So what you want to do is you want to sell it. So Fanny May and Freddy
+12:09
+Mack will basically automatically buy any loan, any mortgage, it doesn't
+12:15
+matter, so long as it's a conforming mortgage. So they have certain standards
+12:20
+basically as to what counts as a conforming mortgage. There's certain limits. So in some areas it has to be
+12:26
+under $830,000. In other areas, more expensive areas it can be up to like $1 and a4 million. And
+12:33
+so that's the loan size. It has to be under that amount. And then it has to fit all sorts of other lending criteria.
+12:40
+One of which was mandated that it have FICO scores. So I'll skip to the end and
+12:46
+give you a spoiler. Now FICO scores are no longer mandated, but they were mandated for a long period of time. So
+12:52
+the entire mortgage market now all their underpinnings, workflow, everything has moved to work with FICO scores. Now, the
+13:00
+bank lender themselves when they get the FICO score, it's going to come from that trimerge report that I was mentioning
+13:06
+earlier. So, that report is going to only be a part though of their underwriting. The bank is going to have their own risk models and everything
+13:14
+that will also dictate whether or not they end up lending to someone. So, you have the lender, they're going to get
+13:19
+that trimerge report. Then, they're going to say, "Great, we're going to issue you a loan. Congratulations on
+13:25
+your new home. It's a million dollar mortgage. I don't want to keep this on my balance sheet. I want to sell it. So
+13:30
+Fanny May, they already basically agree to buy any loan that meets their standards. This loan meets their
+13:36
+standards. And so then Fanny May is going to buy the loan. And then Fanny May doesn't want to keep that on their
+13:42
+balance sheet either because that's going to be a lot of money if they have to hold all of the mortgages in the United States. And so instead they sell
+13:49
+it to investors. And the way they sell it to investors is called securization. Now maybe this rings a bell from when
+13:55
+people are thinking about the financial crisis. And yeah, that's why Fanny May, Freddy Mack were at the center of it. So
+14:00
+they would buy a lot of these mortgages, they would sell them, but before they sold them, they did an important thing
+14:06
+that was that they told the investors, "We will protect you against any losses." And so you could buy all of
+14:13
+these loans without worrying about credit default risk because if they do default, we'll make you whole. And so
+14:19
+why would Fanny and Freddy Mack do that? Well, they're government sponsored entities. And the idea behind this was
+14:26
+we're going to help a lot more capital flow into the mortgage market. And since it's also focused on smaller loan sizes,
+14:32
+it's going to help make homes more affordable for people. And when you're buying a home, you put a 20% down
+14:38
+payment on it. And so in order for Fanny May to lose money, the house has to go
+14:43
+down more than 20%. Which never happens. Well, until it did happen that one time.
+14:49
+And that's, by the way, why everyone's risk models were wrong. No one thought that home prices could drop more than
+14:55
+20%. And if the home prices only dropped 10%, well then it wouldn't have been a problem because Fanny May would have
+15:00
+been able to sell the home, assuming the homeowner defaulted, and recover, you know, the full cost of everything. And
+15:06
+maybe even the homeowner would have been able to get a little bit of equity back as well. Of course, what happened during the financial crisis was some areas home
+15:13
+prices dropped as much as 40%. So that blew out their risk models. Nevertheless, though, this is still something we do. uh we basically assume
+15:20
+that the 20% down payment is going to be good enough uh in any sort of adverse scenario. There's tighter lending
+15:26
+standards and all that today other issues uh about the financial crisis. Maybe I'll make a video on that one if
+15:32
+there's uh any interest in that. But anyway, Fanny May, they'll buy the loan now. They're going to sell it to investors in that process. They kind of
+15:39
+guaranteed that you will not lose any money. So the investor who buys that loan now is not worried about credit
+15:46
+default risk. And so again, where FICO's fitting into all of this is that it was
+15:51
+required by Fanny May, Freddy Mack, in order for it to be called a conforming loan and be a part of this process, it
+15:58
+had to have a FICO score. Now, I gave you a lot more info in this for a very specific reason, which I'm going to get
+16:05
+back to later, because right now, what I was talking about with Fanny May and Freddy Mack, them basically protecting
+16:11
+investors against losses. Well, think about what FICO is. It's, you know, a credit score to help, you know, dictate
+16:18
+who's going to lose money or not. Well, if you're an investor, do you really care about the FICO score anymore? If
+16:23
+now you have Fanny May that's going to protect you against losses, the answer is not so much. And so, FICO serves a
+16:30
+very different purpose in this business, which I'll get into a second, just need to cover a little bit more. And so, just
+16:35
+to rewind a little bit, uh, what we've been talking about is kind of the traditional model where there's the credit bureaus. They're the one that
+16:41
+licensed it from FICO. Then they sell it to the reseller. The reseller gets you that trimerge report. So if you're a
+16:47
+home buyer and you're getting a loan, you get a try merger report. If you're applying jointly, you get two of them.
+16:53
+And so FICO in that case is making three to six scores because it's one score for each of the credit bureaus and then
+16:59
+times two if it's two people applying jointly. So they used to charge just 60 cents per score. They then jacked up
+17:05
+their prices to $5 and now they have a new pricing model where it's going to be $10 if you just want the score or
+17:12
+they're having a new model where they're going to be able to go direct. And so when I say direct, what that means is
+17:17
+now the resellers instead of them buying the FICO score from the credit bureaus,
+17:23
+they instead just buy raw data from the credit bureaus score it themselves and
+17:28
+then give uh the FICO score as a part of that trimerge report. So, it's basically instead of the credit bureau doing the
+17:34
+FICO scoring, it's going to be the reseller. If the reseller does it, they'll charge them $5. If the credit
+17:39
+bureau does it, they'll charge them $10. Okay? Why are they doing this? Because they want to add a $33 success fee onto
+17:47
+it. So, basically, 25 to 35% of all mortgages don't close. And so, the idea
+17:53
+is that if the mortgage closes, then we'll charge this $33 success fee. If it
+17:58
+doesn't, then the fee for the reseller was lower. it was only $5 instead of $10. And so that's kind of the gist of
+18:04
+the idea behind it. Now, if you're doing the math on the total cost of that, it actually still is more money at the end
+18:11
+of the day for the reseller. But the thing is, the reseller is passing off all of these costs to the consumer to
+18:18
+the home buyer basically. And when you're buying a home, your closing cost can be like $5,000. And so all of a
+18:24
+sudden, if you're hit with a $33 fee next to a $5,000 plus dollar closing fee, no one's really going to bat an
+18:30
+eye. That's kind of the gist behind it. And in which case, if the mortgage doesn't close, then they're on the hook
+18:35
+for less money, only $15 basically instead of 30. So that's kind of what they're trying to do. They're trying to
+18:40
+go direct and then take that success fee, which is basically another way to kind of deacto raise pricing a little
+18:46
+bit more. the resellers aren't going to really push back because again they're passing off all that cost to the customer and it's a little better for
+18:53
+them in the event that the mortgage doesn't sell. Now, in reaction to that, the credit bureaus, and this is actually
+18:59
+a while ago they did this, they created their own scoring methodology called Vantage Score that they're trying to get
+19:05
+people to use. Uh, and they're just very aggressively undercutting on pricing with that to try to get it used. Now,
+19:11
+the reason why it is not getting such good broad uptake has to do back with
+19:17
+that Fanny May, Freddy Mack, and securitization aspect we're talking about. And so, I already mentioned if
+19:22
+you are an investor who's buying a mortgage back security from Fanny May, you don't care so much about the credit
+19:29
+default risk because at the end of the day, it's going to be Fanny May that's going to make you whole. What you care
+19:35
+about is actually the prepayment risk. So, a prepayment risk is basically,
+19:41
+let's say you went out and you bought a bunch of mortgages at a 6% rate, and it was a 30-year mortgage, and so you
+19:48
+thought you were going to collect 6% for 30 years. Then interest rates drop a point or two, and the home buyers go
+19:55
+ahead and pay down their loans and refinance them, and you as an investor, you get handed back your money, which it
+20:01
+turns out is a bad thing because now you have to go and reinvest that money back in a lower interest rate environment. So
+20:08
+that's what repayment risk is. People basically paying too early and you're not getting that investment return you
+20:14
+thought you would. Now FICO since it's been used and around for literally
+20:19
+decades, they have the best data on what homeowners are going to do in variant
+20:25
+credit score tiers in response to interest rate changes. This in turn gets
+20:30
+fed into all of these Wall Street models to try to figure out what the prepayment risk is going to be. They need a long
+20:37
+data series that goes across different interest rate cycles. And so it's really
+20:43
+the investors that want the FICO score in there. It's no one else really cares that much at the end of the day. You
+20:49
+know, Fanny May, Freddy Mack, they've now approved Vantage score. They're happy enough with it. It's good enough.
+20:54
+Um, but it's the Wall Street investors who are looking at this prepayment risk and if there's a Vantage score with it,
+21:01
+they don't know how to price that. They don't know how that corresponds to different uh prepayment risks. You know,
+21:06
+back in early 2000s, they have no data on that. And since there's no data on that, they're not going to be willing to
+21:13
+pay as high of a price for these mortgages. And so if you're thinking about the cost of using FICO, which
+21:19
+you're complaining about a $5 price hike or, you know, a $33 success fee, which
+21:24
+by the way is eaten by the consumer versus the Wall Street investor, which if they do price in some ambiguity
+21:30
+because the mortgage was underwritten on Vantage Score, that could be thousands of dollars of difference. So there's an
+21:37
+incentive for everyone to stay on FICO basically, at least until there's a long time series on Vantage Score. There's
+21:44
+really no benefit to it at all. Yes, the end consumer is saving, you know, 15 bucks, 30 bucks, whatever it is. Maybe
+21:51
+it's a $100 if you're including, you know, success fees across multiple reports and all that. Okay, that's
+21:57
+relative to them paying, you know, 5,000 plus in closing cost on the biggest transaction in their life. And so, for
+22:04
+that reason, it kind of does seem a little bit like it's really just the credit bureaus making a big deal about
+22:10
+this because they don't want their cost going up. you know, they are, you know, more margin challenged, I'll say, than
+22:15
+FICO. You know, their margins are high teens 20% and so they're more costsensitive for sure. Uh, but they
+22:20
+also just see this as an opportunity to try to propagate their Vantage score in order to try to reduce the pricing power
+22:27
+in mortgage. Now, mortgage for FICO is their most important franchise. It is
+22:32
+really the only franchise where they have this level of pricing power and it ultimately it all draws back to those
+22:39
+Wall Street investors who are buying uh the mortgage back securities from Fanny May Freddy Mack. Even though they're
+22:46
+allowed to use Vantage scores, they're not going to because they don't have that same time series uh that the FICO
+22:51
+score has. There's even something called LLPA which is the loan level price adjustment. This is basically a grid
+22:58
+that shows the LTV, the loan to value uh against a FICO score and then that'll
+23:03
+dictate pricing and so a lot of pricing is used on that too. So FICO is also kind of a pricing tool and if you're
+23:10
+using a Vantage score, it doesn't really correspond. The scores are different. As CEO William Lancing pointed out on the
+23:15
+last earnings call, 30% of Vantage scores are 20 points or more different
+23:21
+than a FICO score in either direction. So, it's kind of a little unreliable if you're trying to say that it's going to
+23:27
+be the same as FICO. It's not. Now, since July 2025, it has been allowed in mortgage underwriting, but if you're an
+23:34
+originator, you're not going to really want to switch to them because you are potentially going to be losing money if
+23:39
+you do. you know, you're talking about trying to pass off tens of dollars to a customer, which they're probably going to pay anyway because again, it's just
+23:46
+wrapped into all these other closing costs with the potential downside that if you do move to a Vantage score and
+23:53
+you go to sell your loan to Fanny May, Freddy Mack, the pricing is going to be less. They're going to give you less
+23:58
+money. So, that's a very clean, simple reason why you would not want to use them. So, I think this kind of covers
+24:03
+the the mortgage franchise pretty well. Uh they have a pretty good moat here still, but you know it is cracking a
+24:10
+little bit because they've never had a competitor before. Their competitor is new and I'll I'll talk about more later
+24:16
+on what they're trying to do to get Vantage Score used more broadly over time. It'll take a while though. So the
+24:21
+next segments we'll talk about they're simpler. They're a little more straightforward. Now the first one is going to be credit card. Now different
+24:28
+aspects at play here because a lot of credit card lenders keep credit card loans on balance sheet. Yes, there's
+24:33
+still a securization market. it's just smaller. That's not as big of a factor here, too, because you never really had
+24:39
+Fanny May Freddy Mack pushing everyone onto these FICO standards. So, it's a little bit uh less rigid when you are
+24:46
+looking at, you know, a credit card securization. It's not the expectation that there's going to be a FICO in
+24:52
+there. Although, it is a positive if there is that. It is still there, but it's just not necessary. And again, this
+24:58
+market's kind of smaller in that respect because a lot of credit card companies and banks hold their credit card loans on their balance sheet, so they never
+25:04
+bother selling them. So, they don't care about that. Also, if you're thinking about a credit card, it's shorter duration. So, the prepayment risk isn't
+25:11
+really as big of a factor there, too, as well. So, the thing you need to understand about the credit card market is that there's a lot of marketing cost
+25:18
+involved in getting a customer. Now, in order for, let's say, a bank or a credit card company like Capital One to figure
+25:25
+out who they can market to, they have to get a list of customers. So, if they want, let's say, a list of customers
+25:31
+with FICO over 750, they're going to have to go to FICO and a credit bureau to get that list of data. They're going
+25:37
+to then pass off just a very limited amount of data to the financial institution by law. And so, they're
+25:44
+really only allowed to get a name and an address. and then they'll go ahead and send out all those flyers, mailers for
+25:50
+credit cards. So that's kind of what's known as a softpool because they're not actually getting the full credit card
+25:56
+report on the customer. They're really just getting a name. This is kind of more a marketing thing, this aspect of
+26:01
+the business. And so FICO though, they only get a fraction of a cent for doing this. They may though do this for
+26:07
+millions and millions of different customers though, so it does add up. Now once a customer actually applies for a
+26:13
+credit card, that's when they could do the hard pull. And so that's when they're allowed to actually get the full
+26:18
+credit card report, which is going to be a lot more data. FICO score is going to be run again. They're going to charge
+26:24
+again for this, like 10 to 20 cents, so a little bit more. But the credit card company themselves, they don't really
+26:31
+rely on FICO itself to decide who to give credit to or not. It's not like, oh, a 750 FICO score, automatic, yes.
+26:38
+No. They have their own credit risk models that they layer on top of that. This is their business. They have to be
+26:44
+able to figure out who's going to default or not. Who do I give a credit limit to? Do I make it lower and then raise it a little bit more over time. So
+26:51
+all of that is a part of their business model. They have their own proprietary data to because if you are a credit card
+26:57
+company, you have all sorts of different customers you've collected data on across time that you want to be able to
+27:02
+apply some sort of predictive analysis to and then see whether or not that can apply for better risk analysis over
+27:08
+time, who's going to default or not. So FICO in this regard, since they're not really being used just for default or
+27:15
+not, why are they used? Well, it has to do with safe harbor. So safe harbor is
+27:21
+basically uh indemnifying the company against a certain liability. And so what
+27:26
+that means is that the CFPB, the Consumer Finance Protection Bureau, there's something called the Equal
+27:33
+Opportunity Credit Act. And basically uh if you ever reject an applicant for uh
+27:39
+credit, it's potentially a liability. You could potentially get sued if they feel like you were doing it unfairly. By
+27:46
+having a FICO score in the mix and if the FICO score agrees with their model and says, "Oh, you know, it was a 500
+27:52
+FICO score. It's okay for me to reject it." They are now getting coverage in the event of getting sued basically. So
+27:58
+now it's, oh, well, you know, FICO told me it was a low FICO score, too. And so that gives a credit card company
+28:05
+basically protection. And so the CFPB can't really go after them the same way if you know the FICO score said that I
+28:11
+shouldn't lend to that person anyway. So that's what safe harbor is. And that's actually a big reason why people use
+28:18
+FICO. It's not what you would expect it to be. The other reason is it's just kind of like a sanity check, a second
+28:23
+score. Make sure their own proprietary models kind of agree with FICO. FICO's, you know, this external model. And so if
+28:30
+they both agree then you know there's a better shot that this is the right decision but it's not on its own ever
+28:35
+used to actually make credit decisions which is a little bit surprising. The securization market in credit card is a
+28:41
+little bit a part of this too. If you do have FICO scores it could just help with pricing. Maybe you are getting a little
+28:46
+bit better rates but as I mentioned before this is not as big of a market as it is for mortgage or for auto which
+28:52
+we're going to talk about next. But in this business they're basically are trying to just be very cheap. um you
+28:58
+know, it's still a good business for them because even though it's 10 20 cents for a hard pull, as it's called,
+29:03
+when you're getting that real credit bureau report, it still adds up when it's across all these transactions. And
+29:08
+so Vantage Score is trying to compete with them here. They're trying to undercut them on price. For a lot of
+29:13
+credit card companies, though, you know, you're kind of using FICO, it's in your workflow, it's in your models and all that. And it's not that egregiously
+29:20
+expensive. They're not jacking up prices here like they are in mortgage. That's exclusively a thing happening in mortgage. And so for many reasons,
+29:27
+they're probably just going to keep things as they are. But I should mention that there was one big loss for them
+29:32
+with Synchry. And so Synchry is a big credit card company, but they focus
+29:38
+mainly on retailers. So if you go to Macy's, you get a credit card there. It's probably run by Synchry. That
+29:44
+market's a little bit different, though, because it's a market where the credit card limits are very low. And also,
+29:50
+you're allowed to go off a stated income, which means basically whatever the person says their income is, you're
+29:56
+allowed to say, "Okay, that's correct." and just lend based off that. So, it's kind of a different market, but it's
+30:01
+definitely not a positive that they lost uh you know, a big credit card company switching over to Vantage Score. There's
+30:07
+no signs others are going to leave yet, but we'll talk more about that in competition. So, the auto market, this
+30:12
+is also going to be a pretty interesting idiosyncratic market because FICO scores don't matter. What matters the most is
+30:19
+LTVs, loan to value. So what is the value of the loan versus the value of
+30:24
+the vehicle you're giving and also the rate of depreciation of the vehicle. So
+30:29
+an auto loan is a little bit different than other sort of loans because if someone defaults on it, you could
+30:34
+repossess the car and recover hopefully a lot of the money that you lent out. That's not the case with credit cards.
+30:41
+You know, you can't really go and repossess everything they bought on it. And it's also not the case with personal loans. So because of that, LTVs and
+30:48
+depreciation schedules are what's going to matter the most. And there's a lot of specialized auto lenders that have a lot
+30:54
+better data on that. FICO doesn't have any data on that actually on on depreciation, all that. And so what
+30:59
+they're used for here is first, it's like a sorting function. So let's say you go want to buy a car and you want to
+31:05
+see the financing offers. They're going to go shotgun five to 10 different applications to different financial
+31:11
+institutions to see what the offers are going to be. Now, the way they'll decide who to send that to is by first pulling
+31:17
+your FICO. So, if you have a FICO of, you know, a subprime credit, there's going to be some lenders for you. Or if
+31:22
+you're, you know, 800, there's going to be other lenders for you. So, that's what the FICO does. It kind of decides where to send that uh application to.
+31:30
+So, as you can imagine, that's not a particularly high price service. Now, the big reason though why FICO does have
+31:37
+actually a better moat here in auto than credit card has again to do with the ABS
+31:42
+market. um asset back security market, but it's for a different reason than Fanny and Freddy because prepayment risk
+31:48
+is not a thing here because if you imagine you have a $30,000 loan on your car and interest rates drop, you know,
+31:56
+1% 2% that's going to be, you know, 30 bucks a month or something like that. So, not many people are going to want to
+32:02
+refinance their car for that and it's pretty rare to do. Also, uh the biggest prepayment risk for a vehicle is either
+32:09
+an accident. you get in an accident, well, you got to pay off the loan from your insurance money that you're getting
+32:15
+hopefully uh or you're trading in your car because you want a new one. You're paying off the loan and FICO scores
+32:20
+can't predict that at all. So, it's not helpful with the prepayment risk. Instead, what it does is it allows um
+32:27
+basically when they're creating the asset back security for them to not have to over collateralize. So, what that
+32:32
+means is let's say you have a $100 million in auto loans and none of them
+32:37
+have FICO scores. So, you're going to go to S&P Global and Moody's to get this all rated, and they're going to
+32:43
+basically say, you know, this is fine, but if you want, you know, a certain amount of this rated uh class A, uh
+32:49
+usually different nomenclature for auto loans, uh you're going to have to put in even more collateral, even more assets,
+32:56
+which means here more auto loans. So, instead of a $100 million structure, it's going to be $105 million structure.
+33:03
+Adding that extra $5 million is called a credit enhancement. So, if there's no FICO scores, they might demand that
+33:09
+credit enhancement. So, then if you are the auto lender, the calculation you're doing is, is it worth paying for a FICO
+33:16
+score versus locking up an extra $5 million of capital here? Very often, you
+33:23
+rather pay the FICO score. That is going to be much much cheaper than you having to have five more million dollars of
+33:29
+capital locked up in this asset back security that you're creating. And so, that is a reason why it's really used in
+33:35
+auto. again kind of has to do with the secondary market. That's what's important, but it's not about the prepayment risk. Um, it's about not
+33:42
+having to overcolateralize. Now, the personal lending market, this is going to be more similar to the credit card
+33:47
+market. You're using FICO to pre-screen to get basically your marketing list of who you should send it out to. But a lot
+33:54
+of these personal lenders, and there's a lot of these new fintech lenders out there, uh, they use a lot of alternative
+33:59
+data, very sophisticated data modeling, AI now too. It is much better than what
+34:05
+the FICO score offers. So the FICO score is not really used in credit decisions there. It is still used for safe harbor.
+34:12
+That same idea that if you're rejecting someone, you do kind of want to have that backing. Oh, FICO said that they
+34:17
+would reject them, too. So that's kind of the the personal lending market. That's I think probably their worst quality business because you do have a
+34:24
+lot of these personal lenders that have their own risk modeling and all that. Securization is a little bit a part of
+34:29
+this, but a lot of the ABS uh that would exist in personal loans, the asset back securities here are also going to be
+34:36
+kind of a mly of different loans. So, it's going to be more bespoke and it's not really standardized. You know,
+34:41
+mortgage MBS that's standardized. People are looking at, you know, the FICO uh price level adjustments versus the LTVs
+34:48
+and and you could get a very clean price. if you're putting together a bunch of different personal loans, the the weighted FICO of that it's not that
+34:55
+meaningful because again the FICO isn't that great at telling the default risk versus their own kind of internal risk
+35:01
+modeling and all of that. So that is the score segment. Uh we made it through it. Congratulations. The software segment is
+35:08
+much quicker. Uh but total revenues in the score segment is going to be $1.2 billion growing 28% with operating
+35:16
+income of $1.1 billion. Those are going to be those really high margins growing a little bit quicker at 29%.
+35:22
+And so the big growth drivers here in the future, it's going to be price hikes in in the mortgage, but that's also
+35:29
+running through still. And then also that direct lending program we talked about trying to go around the credit
+35:34
+bureaus to get the credit resellers uh to sell the FICO scores themselves and get that $33 success fee on top of that.
+35:42
+Okay, so the software segment is going to be $825 million in revenue and it's
+35:47
+basically not growing. You know, 1% to 2% something like that. Operating income is going to be $245 million and it
+Software Segment
+35:55
+actually is contracting. It was down 7% year-over-year and that is because
+36:00
+they're investing more in this business as they transition from being a mly of different point solutions into having a
+36:06
+unified platform. So, the FICO platform. So, there's three subsegments here. are
+36:11
+basically professional services, platform, and then non-platform. Professional services is basically just
+36:18
+installation. So, when you're installing their products, you have people that go on site, help set it up. Sometimes
+36:24
+they're customizing uh different solutions to fit with like a bank's uh data modeling. They're integrating
+36:30
+stuff. That's what the professional services is, that revenue involved in all that. Now, the the platform and not
+36:36
+platform revenue is where we're going to focus on. So they have a bunch of different products though that can go
+36:43
+through both basically. So the platform versus non-platform is basically a push from them selling their products
+36:50
+individually to them wanting to bundle it on a unified platform which even if you don't use them all it's easier to
+36:56
+cross-ell. So what used to happen is that let's say a product like one of their big ones is Falcon Fraud Manager.
+37:04
+So I mentioned at the intro basically every single card transaction touches a
+37:09
+FICO fraud detection model. That is what this part of the business is going to be. Anytime you swipe a card, that few
+37:15
+second delay whether or not you're getting authorized, part of that is going to touch a FICO model that says
+37:21
+whether or not you should approve or decline this transaction given all of the data they have on all of these
+37:27
+different card transactions. And so they're making a fraction of a cent on that, but there's a lot of volume. And
+37:32
+so that's a part of it. Uh the bank still does usually layer on their own credit risk modeling is is a part of
+37:38
+that too is the same thing. You're kind of having the second check there as well. Another product they have is Triad. That's going to be account
+37:44
+management. That's when you randomly get bumped up to a higher credit card limit. That's them running these models in the
+37:50
+back constantly deciding what credit limit should be for different people and also maybe whether or not you need to
+37:56
+cretail it if someone's going to be a risk. They also have an origination manager, which is basically what it sounds like. Helps originate uh loans
+38:03
+and that whole process. They have a weird one called Express Optimizer, which doesn't really have to do with financial institutions. It's more about
+38:10
+using algorithms to help optimize logistics. I don't believe it is that big, but the idea is if you are
+38:16
+Southwest and you're rerouting some planes because of a blizzard, here's the way you reroute them to save the most
+38:22
+fuel. I know that's a that's a random one in there. They also have FICO blaze advisor which is a decision engine uh
+38:28
+that you could customize. So uh think of all these rules you know if a customer shows all these habits and the FICO
+38:35
+scores this and you know they have this much money okay approve and so that's that. There's a bunch of other products
+38:41
+they actually have that we won't go into everything covering collections marketing insurance claims um and also
+38:48
+compliance. So there's a lot of these other products. So the way it worked before was that they would sell these
+38:53
+products basically individually to a bank. And so they would have to set up every product individually each time.
+38:59
+And so that made the sales cycle a lot harder because there's a lot of work in doing that. So they're trying to push to
+39:05
+this unified platform. So even if a bank is only using, you know, Falcon Fraud and Triad right now, it's a lot easier
+39:12
+in the future for them to also cross-ell collections or something like that. And if you're looking at the difference
+39:17
+between onplatform and non-platform, onplatform is growing about 33% year-over-year and has net dollar
+39:24
+retention of 122%. Which means of all of the customers of last year, they are now
+39:30
+spending 22% more basically. And so that's a good sign that this is actually working. You're getting them on the
+39:35
+platform and their spend is going up. In contrast, the non-platform revenues are going down 8%. So it's the same products
+39:42
+basically across both. It's just kind of the delivery mechanism whether or not it's on this cloud-based product or it
+39:48
+is actually installed kind of silo by silo at the actual bank. They do still have a lot of onrem as well too which
+39:54
+means on premise. So the software is actually installed on the bank servers on their physical location. So they're
+40:00
+undergoing that transition investing more in the platform hopeful that this means that they can then continue to
+40:06
+grow and cross-ell. There's a little bit of an opportunity for the international market here. This is also a very
+40:12
+competitive set, but this is something that could potentially travel better internationally instead of scores, which
+40:18
+it's really not. The market structures are just very different in all these different places. It doesn't seem that
+40:24
+likely that FICO is going to get that embedded if they haven't already, basically. So, let us move on to
+40:29
+competition and kind of just clarify a little bit of everything we talked about, the competitive advantages and
+Competition
+40:36
+where their edges and where their potential weaknesses are. So the first thing we need to talk about is Vantage
+40:41
+score. This is kind of the biggest threat in a way to FICO scores. So
+40:47
+Vantage score created as a JV by these three credit bureaus and they're really just trying to wedge FICO scores out as
+40:54
+much as they can everywhere they can. And so they're looking at that big margin that FICO is making and they're
+41:01
+saying we are happy to make a much lower margin. Also, if we are able to reduce
+41:06
+the price of this since it's a cost center for us in making credit reports, then we're also saving money there. So,
+41:13
+Vantage Score is really competing on price. They're undercutting them in credit card sometimes by as much as 50
+41:18
+to 75%. Uh they're undercutting them in mortgage. they're actually offering it
+41:23
+free very often alongside a FICO score. And so the thing they're trying to do
+41:29
+here is basically just bring up adoption and get people using them because let's take the mortgage market for instance,
+41:35
+they kind of know it's a little bit useless right now because back to this idea that the investors need uh the long
+41:42
+time series of FICO scores to see how it's going to react in different interest rate environments and the
+41:47
+Vantage score doesn't have that. And it's not going to get that either until it is attached to a lot of different
+41:53
+mortgages. So you have a lot of data to see what works and doesn't. So the kind
+41:58
+of scary thing I think for FICO is that it's very cheap, trivially cheap actually for them to just attach a
+42:04
+Vantage score to every single FICO report that they put out. So you order a
+42:10
+FICO report, hey here, here's also a Vantage score. And what that does is
+42:15
+over time, if you do this long enough, then you could go back and see how the Vantage score versus the FICO score
+42:21
+reacted in different environments. Now, this would have to be a really really long play that they would be willing to
+42:27
+do because you have to have it long enough with enough data across different interest rate cycles. So you're talking
+42:32
+about I I figure at least 10 years uh if not longer really because if you think about all the different interest rate
+42:38
+cycles you'd want to observe and you just want more data as much as possible and I feel like you know maybe at least
+42:43
+10 years is what you would need to see how this would interact in different interest rate uh cycles and so right now
+42:49
+they are offering it free and they committed to this for like 2026 was one
+42:54
+bureau the other one did the other one said the end of 2027 they'll do it until I feel like they just need to do it
+43:00
+indefinitely for a long period of time. Uh because even if it's charging a small amount of money, I don't see why people
+43:06
+would use it. I I don't really understand why that would happen because ultimately the secondary market is still
+43:12
+pricing everything off of FICO. And that is going to be such a bigger impact in
+43:17
+terms of potential, you know, cost lost versus, you know, a $5, $10 cost saving
+43:23
+on using Vantage Score versus FICO. So, it's a pretty strong moat there. It
+43:28
+doesn't feel great that competition is kind of latent and it's just standing by. I think that if they did decide to
+43:35
+just go ahead and say, "Hey, we're going to attach Vantage scores to FICO scores for the next 10 years," uh then you
+43:42
+could really be looking at uh kind of potential inroads into their moat. But then again, you know, the end investor,
+43:48
+the Wall Street investor buying Fanny May's mortgage back securities, they're not going to want to change their models
+43:53
+to Vantage Score if they don't have any reason to. Everything's already coded on FICO. It works. why change it? So, weird
+43:59
+as it is that competition is there and, you know, it seems a little scary, I kind of just don't think that the
+44:05
+mortgage market's going to be that threatened, at least on a 10-year time frame, maybe longer. Um, I do think it
+44:11
+could weigh on their ability to increase prices, though. Uh, but then the flip side is you could also say that gives
+44:16
+them coverage because regulators were saying before, hey, you were kind of a monopoly and we kind of granted you that
+44:22
+monopoly status and now you're abusing it. They could say, hey, there's a competitor in the mix and it's much cheaper. So people could switch to that
+44:28
+and they know no one can switch to that. And so that's kind of the mortgage market. It's still their strongest moat
+44:34
+by far. Uh credit cards weaker as I mentioned with the marketing aspect of it. Vantage score is cheaper. And these
+44:40
+credit card companies, they just really want a list of names to send people to. And so if it's good enough, close enough, I could see some people
+44:46
+switching to that. It also covers them in regards to Safe Harbor. Now, a lot of these models for credit card companies,
+44:53
+they're still entwined embedded with FICO scores, but a cost savings to them kind of could be good enough because
+44:59
+they're not actually using the the FICO score for default risk. So, I'd be more worried about credit card for sure. And
+45:04
+again, we saw Synchrony already switched. Uh personal loans, similar deal, kind of pretty worrisome from them
+45:10
+there. That's not a huge market for them, though. Um and then auto, they they have a stronger position there. I
+45:15
+think it'd be tough for a vantage score to really wedge in. But you also see them taking different pricing behaviors
+45:22
+in different markets. They haven't been aggressive in pricing in credit card or auto. You know, they're they're taking
+45:27
+pretty standard, you know, mid-s singledigit uh price increases on on contract renewals, stuff like that.
+45:33
+Whereas in mortgage, you know, as we saw, it went from 60 cents, you know, a decade ago to now it's $10 basically. Or
+45:39
+if you're going to do the direct program as a reseller, it'll be $5 with the $33 success fee. And so, uh, is there more
+45:45
+pricing power to that in the future? Potentially, because again, this is against a closing cost of $5,000. But,
+45:52
+you know, are they pissing off a lot of people in this uh value chain? Yes. Uh, but it's really mostly the credit
+45:58
+bureaus that are making kind of the largest noise of it. There are different politicians that look at these price
+46:03
+hikes and will say that's crazy. Uh, the Justice Department actually opened an investigation on them in 2020, but then
+46:10
+ended up closing it. It actually just happened today that um the FTC is now investigating in them as well, opened a
+46:16
+new investigation. But I think what they're going to find out is that reason why homes are very expensive doesn't
+46:22
+have to do with FICO raising their prices even to $33. uh if you're thinking about the thousands and
+46:28
+thousands of dollars involved in the closing cost of a home or you know the million plus dollars a home costs you
+46:33
+know multiple millions of dollars in many areas uh doesn't really have to do with the fact that FICO raised their pricing you know those tens of dollars
+46:40
+and so what I think happens in these investigations is they see a very large percent increase they assume some sort
+46:46
+of malfeasants and yes it is a very kind of aggressive increase but again it's such a small portion of the overall cost
+46:52
+of everything involved in here and so at the end of the day the consumer probably is paying, you know, 20 bucks, 30 bucks
+46:58
+more. But if you're going to pick one area to reduce home pricing in the entire value chain, this is probably not
+47:06
+where you want to focus. And so there is a new investigation as of today. Again, uh open to them. My guess is it'll
+47:13
+probably go similar to the last one. The Justice Department ended up closing it with no actions or recommendations. And
+47:18
+so uh that is though, you know, a risk, something else kind of changing there. But the other thing to keep in mind is the Vantage score is still 20 points off
+47:25
+in either direction from a FICO score 30% of the time. So these are not comparable scores. And so you can't just
+47:32
+switch from one to the other. You have to kind of change your entire system, the way you look at the score. It's just
+47:37
+going to be a different thing. It's like changing, you know, your grading system in a way. And so that's not so likely
+47:43
+unless it just really doesn't matter to your process what that score number is, which again is the case for, you know,
+47:49
+credit card for instance. If you're just getting a marketing list, you don't care that much and you just want safe harbor, then that's fine. That's probably not
+47:56
+going to be most credit card companies, they're going to still want, you know, that just sanity check at the FICO score. And also, you know, banks,
+48:02
+financial institutions, they're known to be pretty riskadverse. And so, if there's not a real benefit to it, and
+48:09
+they can lower their cost as much as they want relative to, you know, having more defaults,
+48:14
+not going to be a great risk uh reward there. But if they stick at it long enough, I again do see them gaining more
+48:19
+share in credit card personal loan than I would see them in mortgage or auto. But anything can happen within the the
+48:26
+software segment. That is where competition is more fierce. There's a lot of competitors, a lot of people
+48:31
+doing similar thing. They also compete against uh in-house sort of build. So a lot of times a financial institution, a
+48:38
+bank, JP Morgan, they want to build their own systems. They think of a lot of this as being pretty core to their business. So they want to do it right.
+48:45
+They want to build it. They want to own it. They want to make uh it run with all their proprietary data. And if they use
+48:50
+FICO, it's just kind of for an aspect of that. It's kind of weaved into all of that. So, lot of competitors there
+48:56
+including SAS, Pegas, Experian is also a competitor there. Nice. Actimize is
+49:02
+another one. There's a whole crop of newer ones. Uh Feeds Eye and all sorts of different, you know, AI startups
+49:08
+trying to do more of the risk modeling, try to embed themselves in all of that. And so FICO's response so far has been
+49:14
+that they have their own sort of AI response as well. It's called the FICO
+49:19
+foundation model for financial services. It's basically trained on financial data. It's also designed to be a
+49:25
+thousand times less compute inensive. So the idea is if you're running a lot of transactions, you actually want a small
+49:31
+model. You don't want a LLM, a large language model. You want a smaller model that'll be cheaper to run, quicker to
+49:37
+run. You want the audit trails, the guardrails, all of that. So, they have that out there. If you're thinking is
+49:43
+FICO the most AI forward company, no, probably not. Um, it kind of goes back
+49:49
+to this idea, too, that a lot of people aren't really using their FICO scores solely to tell whether or not there's
+49:54
+going to be a default or not. And so, there's been a lot of other risk modeling that is more accurate and better that financial institutions use
+50:01
+alongside and rely on more usually, especially their own proprietary models. And so, I think competition here is also
+50:08
+going to be more intense for them. Uh it does seem like you know a lot of competitors have pretty similar products
+50:13
+and all of that. FICO you know of course though kind of is pretty entrenched with a lot of these businesses. They're
+50:18
+moving to that unified platform which will help them cross-ell other products. The question is can they be good enough
+50:24
+in a lot of these respects that a bank doesn't want to rip them out and replace them with someone. You know if someone
+50:30
+else is 10 times better they're going to get out. But can they be good enough that it's not really worth replacing them? So, that's kind of where they're
+50:35
+trying to be, and I I think they're basically there, but a lot of banks have multiple different modules, software
+50:40
+modules, providers. They'll use them for different things. They also just don't want to use one supplier provider for
+50:46
+everything. It's kind of a business operational risk. The other thing they're doing that's worth mentioning is
+50:51
+they're rolling out a new FICO score called FICO 10T. This is now using kind
+50:56
+of uh trending data as well, and this is meant to compete with uh Vantage Scores
+51:01
+4.0, which was their latest one. And so they say that this one is 17% better at
+51:06
+predicting defaults. And so they're hopeful that kind of shifting to this score alleviates them wanting to switch
+51:12
+to anyone else because they're saying, "Hey, now we're even better and we're better than the competition by even more." It it's a little discordant
+51:20
+though of a value prop because again, a lot of these companies, they have their own risk models that they're relying on
+51:25
+alongside FICO. So yeah, you do want FICO to be better, but it's not sufficient on its own. And in fact,
+51:31
+actually a lot of times you're legally not allowed to rely just on FICO because of the ability to repay law that the
+51:38
+CFPB has. You need to collect like LTVs and debt to income ratios. And so you
+51:43
+actually need other data anyway to work alongside the FICO score. So are there moes intact? Yes. Does it seem that the
+51:51
+moes are going to be worse or better in 5 to 10 years? That is a key thing an
+51:56
+investor needs to take into consideration. To me, it doesn't seem like there's any chance they're going to be stronger or better, especially now
+52:03
+with kind of the first competitor in the score segment. But how much is that really going to weigh on them over time
+52:09
+and their ability to generate profit? That's very questionable. And an investor is going to need to take an
+52:14
+opinion on that. Uh but ultimately, you're still talking about a stock that trades at 42 times trailing earnings.
+52:21
+So, you still need a lot of growth. And so despite it being down so much, the market is still pretty optimistic on
+52:28
+their growth prospects. And so let us talk about that and the valuation. So the stock price right now is $1,60
+52:36
+per share, down from $2,375 at peak. They have a market cap of about
+Valuation
+52:42
+$25 billion and an enterprise value of $28 billion. Now, they put out 2026
+52:50
+forward guidance with an EPS of about $33.50 per share, which if you're doing the
+52:56
+math on that, it comes out to about 32 times earnings. So, even though revenues are growing a lot now, and they'll
+53:02
+probably grow more as that uh direct mortgage model starts to take off a
+53:08
+little bit, not a lot of resellers are on it right now. I think there's actually only one that's officially been using it. And so, that's not really in
+53:14
+the results yet. So that could further uh increase sort of revenues and a lot of that's going to flow down to the
+53:20
+operating profit line item. But that's also, you know, considered in that 2026 guidance that we were talking about. We
+53:27
+need to think about what revenue growth looks like even after that. So for some context, it's worth kind of just looking
+53:33
+at the history of revenue growth. And when I'm doing this, I like using the fiscal AI dashboard, who's the sponsor
+53:40
+of these videos, but I was using them before uh they sponsored these videos. And I like them because they just show a
+53:47
+lot of data. You're able to get a lot of historical data in a single place and it just makes it much easier to get kind of
+53:53
+financial context on a business. And so if you do want to see what I'm talking
+53:58
+about, you could use the link in the show notes. You'll get a free trial, be able to see that, see if it helps you uh
+54:04
+catch things and catch numbers that you wouldn't have otherwise. I know it's helped me do that. Um, and you'll also
+54:09
+get uh 15% off if you end up signing up and you're helping support the show. Uh, but that is enough of a plug. Uh, it is
+54:17
+true though that I did pull that up and I was looking at the revenue growth and if you go back it was a high singledigit
+54:23
+grower basically. And then price hikes took that up much more. And if you're looking at the operating uh income,
+54:28
+that's also been growing a lot uh really from that mortgage segment that's really been pulling a lot of the weight and
+54:34
+kind of feels like that's kind of a one-time thing and they just put a really big shot of that in. And I don't
+54:40
+know that they're going to be able to take pricing up that much more at least anytime soon. They can always try
+54:45
+certainly. And if you're looking at the closing cost of a mortgage, it's five grand and you know the credit card reports are, you know, a hundred bucks.
+54:52
+So how much more of that can we take it up? Well, I I think they're gonna eventually find the line. I have no
+54:58
+doubt about that. Um, but that's gonna be a question you're gonna have to figure out as an investor. So, what I
+55:04
+want to do when I'm doing my sort of valuation is I want to make relatively conservative assumptions. Some of my
+55:10
+assumptions you're going to disagree with. You can use your own assumptions. You can increase them. Some of mine you
+55:16
+may think are too aggressive. You can decrease them. I'm just trying to give you a framework of how to think about the valuation here. So, if you're
+55:23
+looking at 2026 revenue numbers that management gave, so that's going to be $2.35 billion in 2026 revenues. Now,
+55:31
+right off the bat, just be aware that's a management number. So, you're already making an assumption that they're going
+55:36
+to hit that. So, just be aware of that. But, I'm okay with that assumption. So, the 2.35 billion, I'm going to grow this
+55:43
+for four more years thereafter in a revenue growth range of 10 to 15%. So,
+55:48
+that's going to take us up to 2030 basically. Then I'm also going to make a margin assumption. So right now they're
+55:54
+at around 48% operating margins. I'm going to assume they could get to actually 60% at the high end. So the CFO
+56:01
+said on the last call that they are very bullish is the actual word used on long-term margin. So if they're
+56:07
+continuing to grow the scores business, particularly mortgage, a lot of that flows through. So we'll be able to see
+56:14
+whether or not uh that 88% margin operating margin in that segment, the score segment can get even higher. Um,
+56:20
+I'm going to do a range though. I'll do 50% to 60% operating margin. So, if we're looking then at 2030, that gets us
+56:27
+1.4 to2 billion in earnings. So, that's the range. 1.4 to2 billion in earnings
+56:33
+in 2030. What multiple do you want to put on that? So, the multiple you want to put on that in 2030 is going to be
+56:40
+dictated by two things basically. It's really one thing. I'm going to call it two things, though. uh it's going to be
+56:45
+dictated by whether or not you believe this moat is still really strong and they'll be able to protect their earnings for a long time and what you
+56:51
+believe growth is going to be. Now, the reason why I said it's really one thing is because how much it's going to grow in the future is of course going to be
+56:57
+dictated by what the moat is currently. So, the two kind of work together, but keep those in mind because if it turns
+57:04
+out that the moat does start to erode, Vantage score starts to gain even a little bit of traction in the mortgage
+57:11
+uh market, then you're probably going to see the terminal valuation uh decline and probably rightly so because it means
+57:16
+they're not going to have the pricing power they thought they would. But, I'll give you some numbers here. So, if you believe they're going to in 2030 still
+57:23
+be growing low double digits, then you can put a 30 times multiple on that. You're probably going to want to see at
+57:28
+least 3 to 5 more years of double digit growth thereafter though. So if you're comfortable with that assumption from
+57:34
+2030 there out 30 times multiples fair that gets you a 42 to60 billion market
+57:40
+cap or a annualized return of 11 to 19%. So that's going to be the 30 time
+57:45
+scenario. That's kind of the biggest scenario we're doing. We'll take it down a little bit. If we want to do a 25
+57:51
+times multiple, that's going to be you believing that it's going to be a high singledigit grower in 2030 and there
+57:57
+out. That is going to be a 7 to 15% annualized return. Now, if you want a little bit more of kind of a bare case
+58:04
+scenario, maybe it's a 20 times multiple at that point because it's a low singledigit grower. And if it grows low
+58:11
+single digits and they didn't get as much margin improvement as they're hoping, now it's only a 50% margin
+58:17
+business, you could be looking at just a 2% return across that time. That's still
+58:22
+not a bad scenario. You know, at least you didn't lose money. But that's also not the most negative scenario. The most
+58:28
+negative scenario is that competition does actually take a hold. Vantage score
+58:33
+does start to gain prominence or some of these other risks we didn't talk much about at all actually. You know that try
+Risks
+58:40
+merge report that we talked about? What if it moved to a buy merge report? Because now lenders no longer wanted
+58:46
+three credit uh bureau rating agencies scoring it. They were okay with two. So FICO now has one-third less scores. This
+58:54
+is something that's currently being talked about. Doesn't seem to have gained a lot of traction yet. But if that changes, that could really be a hit
+59:01
+to the business. There is still regulatory risk. Even though I I shared my thoughts on that, it's still a risk.
+59:06
+they could do something to limit uh FICO's pricing power or some other sort of actions against them. Not exactly
+59:13
+clear though what that would be. And then there's also just you know the competition risk that we talked about. A lot of competition in the software
+59:19
+segment but then also Vantage score kind of stocking them up and maybe it just limits pricing power. They feel like in
+59:26
+this environment they can't take pricing up as much and that weighs on results and all of that. But in the most draconian of scenarios it is Vantage
+59:33
+score actually gaining prominence. Maybe not so much in mortgage, but undercutting them in credit card,
+59:38
+personal loan, maybe getting a foothold in auto, maybe just a little bit of of a foothold in mortgage. Then it could be a
+59:45
+15 times multiple stock because now you're talking about a business that has real terminal valuation risk and it's
+59:50
+going to only get worse over time, especially if you have a competitor that is dead set on displacing you and
+59:56
+doesn't care about making a profit. That is not a position that you really want to be in. Now again, you know, we talked
+1:00:02
+a lot about their moes, so I I don't feel like I need to reiterate all of that, but it is something unique where
+1:00:07
+you have a competitor that feels they don't need to make money in that business and are okay undercutting you
+1:00:13
+potentially indefinitely. And so if they don't gain a hold now, maybe they do in 5 years, 10 years, something to think
+1:00:20
+about because I think it's always worth considering some of the worst case scenarios. So that's some of them, but then there's also a more prosaic one
+1:00:26
+that you know you just don't get that revenue growth that you thought you would get uh for whatever reason it is
+1:00:32
+any of them. And so it's worth though just before we conclude talking about capital allocation because this is a
+1:00:38
+business that incredibly took their share count down 64% since 2006. So
+Capital Allocation
+1:00:45
+they've been buying back a lot of their stock. They've been doing so almost religiously. uh the CEO of uh the
+1:00:52
+company, William Lancing, actually now owns one and a half percent of the business. So very good insider
+1:00:58
+ownership. Uh he's been there for a long time. So very vested, a lot of skin in the game, making sure everything
+1:01:03
+continues to work out for them. Ultimately, it is going to be up to you to decide though whether or not you
+1:01:09
+think investor concerns about competition, regulatory action, and their potential future pricing power is
+1:01:16
+overblown. And if it continues to be, if not a phenomenal company, at least a still pretty great company. On the other
+1:01:23
+hand, you're still paying more than two times what the current S&P multiple is today for this stock. And so, you still
+1:01:30
+need to believe that it is a very high quality company and deserves that premium and is going to grow for many
+1:01:36
+years into the future. As an investor, you do have to look out into the future and wonder, are the modes of this
+1:01:41
+business increasing or shrinking? If they're shrinking, is it going to be shrinking at a slow enough rate that I'm
+1:01:47
+still confident I'm going to be able to get my capital back as an investor before that happens? That will be for
+1:01:54
+you to decide. But if you want to understand what time frame you should be looking at as an investor, check out
+1:02:00
+this interview here with Bill Ny. He talks about why 7 years is the right amount of time to look forward in an
+1:02:07
+investment. And he gives so much detail into his investing strategy. and you should listen to him because he's been
+1:02:13
+doing it for over 25 years and his fund performance has been pretty strong and I learned a lot talking to him. So, I
+1:02:19
+highly recommend you check that interview out if you haven't already. Or if you want another business breakdown,
+1:02:25
+check out one of these here. And if you have any questions, go ahead and drop them below in the comments. I'll try to get to all of them. And if you enjoyed
+1:02:31
+this, go ahead and hit like and subscribe. Thank you for watching.
