@@ -6,14 +6,14 @@ Management & Ownership Script
 Management quality and insider-conviction signals for a ticker:
   1. Track record     — IPO date and years public.
   2. Key executives   — active C-suite/officers: name, title, pay, year born, gender.
-  3. Insider trading  — OPEN-MARKET buys vs sells over the last 12 months (the real
+  3. Insider trading  — OPEN-MARKET buys vs sells over the last 6 months (the real
                         conviction signal), with a $ takeaway and a transaction table.
                         Routine option exercises / grants / tax-withholding / gifts are
                         excluded — only actual market purchases and sales count.
 
 Endpoints (FMP):
     /key-executives?symbol={T}
-    /insider-trading/search?symbol={T}&page=N&limit=100   (paginated to cover 12 months)
+    /insider-trading/search?symbol={T}&page=N&limit=100   (paginated to cover the window)
     ipoDate read from Stock Data/{T}/raw/{T}_profile.json (profile.py); falls back to /profile.
 
 Output:
@@ -42,7 +42,7 @@ from shared_utils import (
 
 FMP_BASE = "https://financialmodelingprep.com/stable"
 FMP_API_KEY = os.getenv("FMP_API_KEY")
-INSIDER_MONTHS = 12
+INSIDER_MONTHS = 6
 MAX_INSIDER_PAGES = 6   # 100 rows/page — cap so very active names don't run away
 
 
@@ -251,7 +251,7 @@ def process(ticker):
     yrs = years_since(ipo_date)
     print(f"  Public: {ipo_date or 'n/a'}" + (f" ({yrs} yrs)" if yrs is not None else ""))
     print(f"  Executives: {len([e for e in execs if e.get('active', True)])} active")
-    print(f"  Insider (12mo, open-market): {totals['buy_n']} buys / {totals['sell_n']} sells, "
+    print(f"  Insider ({INSIDER_MONTHS}mo, open-market): {totals['buy_n']} buys / {totals['sell_n']} sells, "
           f"net {f_money(totals['net'])}")
     print(f"  ✓ Saved: {out_path}")
 
