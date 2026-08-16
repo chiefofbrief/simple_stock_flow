@@ -360,9 +360,10 @@ def quarterly_accel(qr):
 # ============================================================================
 
 def segmentation(seg):
-    """Latest FY product segments: list of (name, revenue, pct_of_total, yoy). + fy label."""
+    """Latest FY product segments: list of (name, revenue, pct_of_total, prior_revenue, yoy),
+    plus the latest and prior fiscal-year labels."""
     if not seg or not isinstance(seg, list):
-        return [], None
+        return [], None, None
     rows = sorted(seg, key=lambda x: x.get("fiscalYear", 0), reverse=True)
     latest = rows[0]
     prior = rows[1] if len(rows) > 1 else None
@@ -373,9 +374,10 @@ def segmentation(seg):
     for name, val in sorted(data.items(), key=lambda kv: kv[1] if isinstance(kv[1], (int, float)) else 0, reverse=True):
         p = div(val, total)
         pv = prior_data.get(name)
-        yoy = pct(val, pv) if isinstance(pv, (int, float)) else None
-        out.append((name, val, p, yoy))
-    return out, latest.get("fiscalYear")
+        pv = pv if isinstance(pv, (int, float)) else None
+        yoy = pct(val, pv) if pv is not None else None
+        out.append((name, val, p, pv, yoy))
+    return out, latest.get("fiscalYear"), (prior.get("fiscalYear") if prior else None)
 
 # ============================================================================
 # Valuation + price
@@ -464,7 +466,7 @@ def build_bundle(ticker, raw):
     quote = raw.get("quote")
     price = sf(quote[0].get("price")) if isinstance(quote, list) and quote else None
 
-    segs, seg_fy = segmentation(raw.get("seg"))
+    segs, seg_fy, seg_prior_fy = segmentation(raw.get("seg"))
     mcloses = monthly_closes(raw.get("price"))
     trough_price = min([c for _, c in mcloses], default=None) if mcloses else None
 
@@ -475,7 +477,7 @@ def build_bundle(ticker, raw):
         "ttm": ttm, "ttm_yoy": ttm_yoy,
         "annual_accel": annual_accel(qr), "quarterly_accel": quarterly_accel(qr),
         "gm_trough": gm_trough, "fcfs_trough": fcfs_trough,
-        "segs": segs, "seg_fy": seg_fy,
+        "segs": segs, "seg_fy": seg_fy, "seg_prior_fy": seg_prior_fy,
         "price": price, "monthly_closes": mcloses, "trough_price": trough_price,
         "ev_sales": ev_to_sales(quote, ttm, raw.get("bal_q")),
         "gaap_pe": gaap_pe(raw["inc_q"], price),
@@ -645,12 +647,14 @@ def full_report(bundle):
         md.append(f"| {label} | {f_pct(g)} | {f_pp(a)} |")
     md.append("")
     if bundle["segs"]:
-        md.append(f"**Product segmentation** (FY{bundle['seg_fy']}):")
+        fy = bundle["seg_fy"]; pfy = bundle["seg_prior_fy"]
+        prior_hdr = f"FY{pfy} Revenue" if pfy else "Prior Revenue"
+        md.append(f"**Product segmentation** (FY{fy}):")
         md.append("")
-        md.append("| Segment | Revenue | % of Total | YoY |")
-        md.append("|---|---|---|---|")
-        for name, val, p, yoy in bundle["segs"]:
-            md.append(f"| {name} | {f_b(val)} | {f_pct_abs(p)} | {f_pct(yoy)} |")
+        md.append(f"| Segment | FY{fy} Revenue | % of Total | {prior_hdr} | YoY |")
+        md.append("|---|---|---|---|---|")
+        for name, val, p, pv, yoy in bundle["segs"]:
+            md.append(f"| {name} | {f_b(val)} | {f_pct_abs(p)} | {f_b(pv)} | {f_pct(yoy)} |")
         md.append("")
     else:
         md.append("*Product segmentation: not reported by FMP for this ticker.*")
@@ -715,7 +719,6 @@ def peer_comparison(bundles):
         ("R&D / Sales", lambda b: f_pct_abs(ttm(b, "rd_to_sales"))),
         ("ROIC", lambda b: f_pct_abs(ttm(b, "roic"))),
         ("Debt / Sales", lambda b: f_pct_abs(ttm(b, "debt_to_sales"))),
-        ("Interest Coverage", lambda b: f_x(ttm(b, "interest_coverage"))),
         ("EV / Sales", lambda b: f_x(b["ev_sales"])),
         ("GAAP P/E", lambda b: f_x(b["gaap_pe"])),
         ("Adjusted P/E", lambda b: f_x(b["adj_pe"])),
