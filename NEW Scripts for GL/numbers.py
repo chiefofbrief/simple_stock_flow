@@ -238,12 +238,23 @@ def period_metrics(inc, bal, cf, use_sm):
         "_oi": oi,
     }
 
+def period_label(rec):
+    """Filing-style label: 'FY2025' for annual, 'Q3 FY26' for quarters. Falls back to date."""
+    fy = rec.get("fiscalYear")
+    per = rec.get("period")
+    if fy is None:
+        return (rec.get("date") or "")[:7]
+    if per and per != "FY":
+        return f"{per} FY{str(fy)[-2:]}"
+    return f"FY{fy}"
+
+
 def align(inc_list, bal_list, cf_list, use_sm):
-    """Align statements by date (oldest first). Returns list of period_metrics dicts + dates."""
+    """Align statements by date (oldest first). Returns (metrics, dates, labels)."""
     inc_s = sorted([x for x in (inc_list or []) if x.get("date")], key=lambda x: x["date"])
     bal_by = {x["date"]: x for x in (bal_list or []) if x.get("date")}
     cf_by = {x["date"]: x for x in (cf_list or []) if x.get("date")}
-    metrics, dates = [], []
+    metrics, dates, labels = [], [], []
     for inc in inc_s:
         d = inc["date"]
         bal = bal_by.get(d)
@@ -252,7 +263,8 @@ def align(inc_list, bal_list, cf_list, use_sm):
             continue
         metrics.append(period_metrics(inc, bal, cf, use_sm))
         dates.append(d)
-    return metrics, dates
+        labels.append(period_label(inc))
+    return metrics, dates, labels
 
 def ttm_metrics(inc_q, bal_q, cf_q, use_sm):
     """TTM: sum last 4 quarters of flows, latest quarter of balance-sheet stocks."""
@@ -301,14 +313,14 @@ def ttm_metrics(inc_q, bal_q, cf_q, use_sm):
 # ============================================================================
 
 def quarterly_rev(inc_q):
-    """Newest-first list of (date, revenue) from quarterly income statements."""
+    """Newest-first list of (date, label, revenue) from quarterly income statements."""
     rows = sorted([x for x in (inc_q or []) if x.get("date")], key=lambda x: x["date"], reverse=True)
-    return [(x["date"], sf(x.get("revenue"))) for x in rows]
+    return [(x["date"], period_label(x), sf(x.get("revenue"))) for x in rows]
 
 def annual_accel(qr):
     """TTM 4-quarter-sum basis. Returns up to 3 rows: (label, yoy_growth, accel_pp)."""
-    rev = [r for _, r in qr]
-    dates = [d for d, _ in qr]
+    rev = [r for _, _, r in qr]
+    labels = [l for _, l, _ in qr]
     def ttm(a):
         return ssum(rev, a, a + 4)
     # growth at window-start s: TTM(s)/TTM(s+4) - 1 ; windows Y0,Y-1,Y-2,Y-3 at s=0,4,8,12
@@ -322,14 +334,14 @@ def annual_accel(qr):
             break
         g = growth[s]
         a = (g - growth[s + 4]) if (g is not None and growth.get(s + 4) is not None) else None
-        label = f"TTM to {dates[s]}" if s < len(dates) else "-"
+        label = f"TTM to {labels[s]}" if s < len(labels) else "-"
         rows.append((label, g, a))
     return rows
 
 def quarterly_accel(qr):
-    """Single-quarter YoY. Returns up to 4 rows: (quarter_date, yoy_growth, accel_pp)."""
-    rev = [r for _, r in qr]
-    dates = [d for d, _ in qr]
+    """Single-quarter YoY. Returns up to 4 rows: (quarter_label, yoy_growth, accel_pp)."""
+    rev = [r for _, _, r in qr]
+    labels = [l for _, l, _ in qr]
     def yoy(i):
         if i + 4 < len(rev) and rev[i] is not None and rev[i + 4] not in (None, 0):
             return rev[i] / rev[i + 4] - 1
@@ -340,7 +352,7 @@ def quarterly_accel(qr):
             break
         g = yoy(i)
         a = (g - yoy(i + 1)) if (g is not None and yoy(i + 1) is not None) else None
-        rows.append((dates[i], g, a))
+        rows.append((labels[i], g, a))
     return rows
 
 # ============================================================================
@@ -419,10 +431,10 @@ def monthly_closes(price):
 
 def build_bundle(ticker, raw):
     use_sm = decide_use_sm(raw["inc_a"], raw["inc_q"])
-    ann, ann_dates = align(raw["inc_a"], raw["bal_a"], raw["cf_a"], use_sm)
-    ann, ann_dates = ann[-5:], ann_dates[-5:]           # last 5 fiscal years
-    qtr, qtr_dates = align(raw["inc_q"], raw["bal_q"], raw["cf_q"], use_sm)
-    qtr, qtr_dates = qtr[-5:], qtr_dates[-5:]           # last 5 quarters for the detail table
+    ann, ann_dates, ann_labels = align(raw["inc_a"], raw["bal_a"], raw["cf_a"], use_sm)
+    ann, ann_dates, ann_labels = ann[-5:], ann_dates[-5:], ann_labels[-5:]   # last 5 fiscal years
+    qtr, qtr_dates, qtr_labels = align(raw["inc_q"], raw["bal_q"], raw["cf_q"], use_sm)
+    qtr, qtr_dates, qtr_labels = qtr[-5:], qtr_dates[-5:], qtr_labels[-5:]    # last 5 quarters
     ttm = ttm_metrics(raw["inc_q"], raw["bal_q"], raw["cf_q"], use_sm)
 
     # operating leverage series (annual + quarterly)
@@ -438,7 +450,7 @@ def build_bundle(ticker, raw):
 
     qr = quarterly_rev(raw["inc_q"])
     ttm_yoy = None
-    _rev = [r for _, r in qr]
+    _rev = [r for _, _, r in qr]
     cur, prev = ssum(_rev, 0, 4), ssum(_rev, 4, 8)
     if cur and prev:
         ttm_yoy = cur / prev - 1
@@ -458,8 +470,8 @@ def build_bundle(ticker, raw):
 
     return {
         "ticker": ticker,
-        "ann": ann, "ann_dates": ann_dates, "ann_oplev": ann_oplev,
-        "qtr": qtr, "qtr_dates": qtr_dates, "qtr_oplev": qtr_oplev,
+        "ann": ann, "ann_dates": ann_dates, "ann_labels": ann_labels, "ann_oplev": ann_oplev,
+        "qtr": qtr, "qtr_dates": qtr_dates, "qtr_labels": qtr_labels, "qtr_oplev": qtr_oplev,
         "ttm": ttm, "ttm_yoy": ttm_yoy,
         "annual_accel": annual_accel(qr), "quarterly_accel": quarterly_accel(qr),
         "gm_trough": gm_trough, "fcfs_trough": fcfs_trough,
@@ -540,7 +552,7 @@ def detail_table(bundle):
     ]
 
     ann, ttm = bundle["ann"], bundle["ttm"]
-    dates = [d[:7] for d in bundle["ann_dates"]]
+    dates = list(bundle["ann_labels"])
     dates = ["-"] * (5 - len(dates)) + dates
 
     # annual header: Y1 | Y2 Δ% | ... | Y5 Δ% | TTM | 5yr Avg | CAGR | CV
@@ -580,7 +592,7 @@ def detail_table(bundle):
     annual_md = "\n".join(lines)
 
     # quarterly table
-    qdates = [d[:7] for d in bundle["qtr_dates"]]
+    qdates = list(bundle["qtr_labels"])
     disp = qdates[1:] if len(qdates) > 1 else qdates
     disp = ["-"] * (4 - len(disp)) + disp
     qhdr = "| Metric | " + " | ".join(f"{d} | Δ%" for d in disp) + " |"
@@ -614,14 +626,18 @@ def full_report(bundle):
     md.append("")
     md.append(f"**TTM Sales:** {f_b(ttm.get('revenue'))}  |  **TTM YoY Growth:** {f_pct(bundle['ttm_yoy'])}")
     md.append("")
-    md.append("**Annual acceleration** (TTM 4-quarter-sum basis):")
+    md.append("**Annual acceleration.** *Growth = trailing 12 months (sum of the last 4 quarters) "
+              "vs the prior TTM. Accel = the pp change in that growth rate vs the year before "
+              "(+ = growth speeding up, − = slowing).*")
     md.append("")
     md.append("| Window | YoY Growth | Accel (pp) |")
     md.append("|---|---|---|")
     for label, g, a in bundle["annual_accel"]:
         md.append(f"| {label} | {f_pct(g)} | {f_pp(a)} |")
     md.append("")
-    md.append("**Quarterly acceleration** (single-quarter YoY):")
+    md.append("**Quarterly acceleration.** *Growth = each quarter vs the same quarter one year "
+              "earlier (YoY, so seasonality cancels). Accel = the pp change vs the prior quarter's "
+              "YoY growth.*")
     md.append("")
     md.append("| Quarter | YoY Growth | Accel (pp) |")
     md.append("|---|---|---|")
@@ -642,6 +658,10 @@ def full_report(bundle):
 
     # --- 2. Key Metrics ---
     md.append("## 2. Key Metrics")
+    md.append("")
+    md.append("*5yr Trough = the worst single fiscal year for the metric over the last 5 years. "
+              "Δ vs Trough = current TTM minus that trough, in percentage points — how far above "
+              "(or below) the 5-year low it sits. Troughs apply to gross margin and FCF/Sales.*")
     md.append("")
     md.append("| Metric | TTM / Current | 5yr Trough | Δ vs Trough |")
     md.append("|---|---|---|---|")
@@ -755,6 +775,12 @@ def main():
     md = full_report(bundles[0]) + "\n\n---\n\n"
     if len(bundles) > 1:
         md += peer_comparison(bundles)
+        for pb in bundles[1:]:
+            annual_md, quarterly_md = detail_table(pb)
+            md += "\n\n---\n\n"
+            md += f"## {pb['ticker']} — Detailed Financials\n\n"
+            md += "### Annual & Long-Term Trends\n" + annual_md + "\n\n"
+            md += "### Recent Quarterly Trends\n" + quarterly_md + "\n"
 
     out_dir = get_writeup_directory(target)
     ensure_directory_exists(out_dir)
