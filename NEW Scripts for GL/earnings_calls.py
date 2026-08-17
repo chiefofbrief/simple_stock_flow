@@ -3,13 +3,13 @@
 Earnings Calls Script
 =====================
 
-Fetches the latest 2 quarterly earnings-call transcripts (Alpha Vantage), splits each
-into prepared remarks vs Q&A, and writes:
+Fetches the latest 2 quarterly earnings-call transcripts (Alpha Vantage) and writes
+ONE file per quarter, each with a Prepared Remarks section and a Q&A section:
 
-    Stock Data/{T}/{T}_earnings_remarks.md   CEO/CFO prepared remarks (per quarter)
-    Stock Data/{T}/{T}_earnings_qa.md        Q&A — every turn labeled by speaker/title,
-                                             so analyst questions and management answers
-                                             are clearly segmented in one file.
+    Stock Data/{T}/{T}_earnings_{Q}.md       one combined call per quarter — Prepared
+                                             Remarks + Q&A, every turn labeled by
+                                             speaker/title (analyst = question,
+                                             management = answer).
     Stock Data/{T}/{T}_earnings_report.md    summary: quarter, call/report date,
                                              transcript entries, analyst questions
     Stock Data/{T}/raw/{T}_ecall_{Q}.json    raw transcript per quarter
@@ -152,39 +152,29 @@ def save_raw(data, ticker, quarter):
 
 
 def generate_markdown(ticker, quarters_data):
+    """One combined file per quarter: a Prepared Remarks section + a Q&A section."""
     writeup = get_writeup_directory(ticker)
     ensure_directory_exists(writeup)
-    remarks_path = os.path.join(writeup, f"{ticker}_earnings_remarks.md")
-    qa_path = os.path.join(writeup, f"{ticker}_earnings_qa.md")
-
-    quarters_label = ", ".join(q["quarter"] for q in quarters_data)
-
-    with open(remarks_path, "w", encoding="utf-8") as f:
-        f.write(f"# Earnings Call Remarks: {ticker}\n\n**Quarters:** {quarters_label}\n\n")
-        for i, q in enumerate(quarters_data):
-            transcript = q["data"].get("transcript", [])
-            qa_idx = find_qa_start_index(transcript)
-            label = "CURRENT QUARTER" if i == 0 else "PRIOR QUARTER"
-            f.write(f"---\n# {label}: {q['quarter']} (reported {q.get('reported_date','n/a')})\n\n")
+    paths = []
+    for i, q in enumerate(quarters_data):
+        transcript = q["data"].get("transcript", [])
+        qa_idx = find_qa_start_index(transcript)
+        label = "CURRENT QUARTER" if i == 0 else "PRIOR QUARTER"
+        path = os.path.join(writeup, f"{ticker}_earnings_{q['quarter']}.md")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(f"# Earnings Call: {ticker} {q['quarter']}\n")
+            f.write(f"*{label} — reported {q.get('reported_date', 'n/a')}*\n\n")
+            f.write("## Prepared Remarks\n\n")
             f.write(format_segment(transcript[:qa_idx] if qa_idx else transcript))
-            f.write("\n")
-
-    with open(qa_path, "w", encoding="utf-8") as f:
-        f.write(f"# Earnings Call Q&A: {ticker}\n\n**Quarters:** {quarters_label}\n\n")
-        f.write("*Each turn is labeled by speaker and title — Analyst turns are the "
-                "questions, management turns are the answers.*\n\n")
-        for i, q in enumerate(quarters_data):
-            transcript = q["data"].get("transcript", [])
-            qa_idx = find_qa_start_index(transcript)
-            label = "CURRENT QUARTER" if i == 0 else "PRIOR QUARTER"
+            f.write("\n\n## Q&A\n\n")
             if qa_idx:
-                f.write(f"---\n# {label}: {q['quarter']} (reported {q.get('reported_date','n/a')})\n\n")
+                f.write("*Analyst turns are the questions; management turns are the answers.*\n\n")
                 f.write(format_segment(transcript[qa_idx:]))
-                f.write("\n")
             else:
-                f.write(f"---\n# {label}: {q['quarter']}\n\n*Q&A boundary not detected in transcript.*\n\n")
-
-    return remarks_path, qa_path
+                f.write("*Q&A boundary not detected in this transcript.*\n")
+            f.write("\n")
+        paths.append(path)
+    return paths
 
 
 def generate_report(ticker, quarters_data):
@@ -240,10 +230,10 @@ def main():
             print(f"  ✗ {q['quarter']} — no transcript returned")
 
     if quarters_data:
-        remarks_path, qa_path = generate_markdown(ticker, quarters_data)
+        paths = generate_markdown(ticker, quarters_data)
         report_path = generate_report(ticker, quarters_data)
-        print(f"\n  ✓ Remarks: {remarks_path}")
-        print(f"  ✓ Q&A:     {qa_path}")
+        for p in paths:
+            print(f"\n  ✓ Call: {p}")
         print(f"  ✓ Summary: {report_path}")
 
     if failures:
