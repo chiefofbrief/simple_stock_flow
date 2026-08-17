@@ -3,11 +3,21 @@
 News Script  (Perigon + FMP, self-contained)
 ============================================
 
-Ticker-focused recent news from two sources, folded into one file:
-  - Perigon  (goperigon /stories/all): clustered stories with summaries + key points.
-    Fetched PER MONTH (from/to filter on the story's createdAt) so coverage is spread
-    across the window instead of collapsing onto the most recently-updated clusters.
-  - FMP      (/news/stock): individual articles, also fetched per-month for even coverage.
+Ticker-focused recent news from two sources, folded into one file.
+
+Coverage strategy — both sources are fetched PER 30-day window across the lookback
+(default 3 months), so news is spread across the whole period instead of collapsing
+onto whatever cluster was touched most recently.
+
+Perigon (/stories/all) is fetched TWICE per window and merged/deduped:
+  - sortBy=relevance : the stories that are actually ABOUT the company (drops the
+    generic multi-ticker short-interest roundups that only mention it), but these
+    time-cluster around big-news weeks.
+  - sortBy=createdAt : the freshest stories in the window (recency the relevance
+    sort misses).
+Together they give significant + fresh. (sortBy=count is avoided — it surfaces junk.)
+
+FMP (/news/stock) returns individual articles per window, newest first.
 
 Output:
     Stock Data/{T}/{T}_news.md
@@ -25,7 +35,7 @@ import argparse
 import time
 import requests
 from datetime import datetime, timedelta
-from collections import Counter
+from collections import Counter, OrderedDict
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from shared_utils import (
@@ -42,27 +52,32 @@ FMP_BASE = "https://financialmodelingprep.com/stable"
 PERIGON_URL = "https://api.goperigon.com/v1/stories/all"
 FMP_API_KEY = os.getenv("FMP_API_KEY")
 PERIGON_API_KEY = os.getenv("PERIGON_API_KEY")
-ITEMS_PER_MONTH = 10
+
+# Per-window pull sizes — tuned so each source lands near ~50 items over 3 windows.
+PERIGON_RELEVANCE = 12   # significant stories (junk-free)
+PERIGON_FRESH = 8        # freshest stories (recency)
+FMP_PER_WINDOW = 16
 
 
 def month_windows(months):
-    """Yield (from_date, to_date) strings for each 30-day window, newest first."""
+    """Yield (from_date, to_date, label) for each rolling 30-day window, newest first."""
     today = datetime.now()
     for i in range(months):
         to_d = (today - timedelta(days=i * 30)).strftime("%Y-%m-%d")
         from_d = (today - timedelta(days=(i + 1) * 30)).strftime("%Y-%m-%d")
-        yield from_d, to_d
+        yield from_d, to_d, f"{from_d} → {to_d}"
 
 
 # ---------------------------------------------------------------------------
-# Perigon  — clustered stories, fetched per month (from/to filter on createdAt)
+# Perigon
 # ---------------------------------------------------------------------------
 
-def simplify_perigon_story(story):
-    """Keep only what /stories/all actually provides (it is a cluster, no single URL)."""
+def simplify_perigon_story(story, window):
     kps = [kp.get("point") for kp in (story.get("keyPoints") or [])[:3] if kp.get("point")]
     return {
-        "date": story.get("createdAt"),           # when the story broke (not last-updated)
+        "id": story.get("id"),
+        "window": window,
+        "date": story.get("createdAt"),           # when the story broke
         "name": story.get("name"),
         "summary": story.get("summary") or story.get("shortSummary"),
         "keyPoints": kps,
@@ -70,30 +85,35 @@ def simplify_perigon_story(story):
     }
 
 
+def _perigon_call(ticker, from_d, to_d, sort_by, size):
+    params = {"apiKey": PERIGON_API_KEY, "companySymbol": ticker, "sortBy": sort_by,
+              "size": size, "showReprints": False, "from": from_d, "to": to_d}
+    data = make_request_with_retry(lambda: requests.get(PERIGON_URL, params=params, timeout=REQUEST_TIMEOUT))
+    if isinstance(data, dict) and data.get("results"):
+        return data["results"]
+    if isinstance(data, dict) and data.get("error"):
+        print(f"  ⚠ Perigon [{sort_by} {from_d}..{to_d}]: {data['error']}")
+    return []
+
+
 def fetch_perigon(ticker, months):
     if not PERIGON_API_KEY:
         print("  ⚠ PERIGON_API_KEY not set — skipping Perigon")
         return []
-    out = []
-    for i, (from_d, to_d) in enumerate(month_windows(months)):
-        params = {
-            # sortBy=relevance keeps stories that are actually ABOUT the company; count/date
-            # surface generic multi-ticker roundups (short-interest dumps) that only mention it.
-            "apiKey": PERIGON_API_KEY, "companySymbol": ticker, "sortBy": "relevance",
-            "size": ITEMS_PER_MONTH, "showReprints": False, "from": from_d, "to": to_d,
-        }
-        data = make_request_with_retry(lambda: requests.get(PERIGON_URL, params=params, timeout=REQUEST_TIMEOUT))
-        if isinstance(data, dict) and data.get("results"):
-            out.extend(simplify_perigon_story(s) for s in data["results"][:ITEMS_PER_MONTH])
-        elif isinstance(data, dict) and data.get("error"):
-            print(f"  ⚠ Perigon [{from_d}..{to_d}]: {data['error']}")
-        if i < months - 1:
-            time.sleep(0.4)
-    return sorted(out, key=lambda s: s.get("date") or "", reverse=True)
+    by_id = OrderedDict()
+    for i, (from_d, to_d, label) in enumerate(month_windows(months)):
+        # relevance (significant) + createdAt (fresh), merged & deduped per window
+        for sort_by, size in (("relevance", PERIGON_RELEVANCE), ("createdAt", PERIGON_FRESH)):
+            for s in _perigon_call(ticker, from_d, to_d, sort_by, size):
+                sid = s.get("id")
+                if sid and sid not in by_id:
+                    by_id[sid] = simplify_perigon_story(s, label)
+            time.sleep(0.3)
+    return sorted(by_id.values(), key=lambda s: s.get("date") or "", reverse=True)
 
 
 # ---------------------------------------------------------------------------
-# FMP  — individual articles, fetched per month
+# FMP
 # ---------------------------------------------------------------------------
 
 def fetch_fmp(ticker, months):
@@ -101,13 +121,15 @@ def fetch_fmp(ticker, months):
         print("  ⚠ FMP_API_KEY not set — skipping FMP")
         return []
     articles = []
-    for i, (from_d, to_d) in enumerate(month_windows(months)):
-        params = {"symbols": ticker, "from": from_d, "to": to_d, "limit": ITEMS_PER_MONTH, "apikey": FMP_API_KEY}
+    for i, (from_d, to_d, label) in enumerate(month_windows(months)):
+        params = {"symbols": ticker, "from": from_d, "to": to_d, "limit": FMP_PER_WINDOW, "apikey": FMP_API_KEY}
         data = make_request_with_retry(lambda: requests.get(f"{FMP_BASE}/news/stock", params=params, timeout=REQUEST_TIMEOUT))
         if isinstance(data, list):
+            for a in data:
+                a["_window"] = label
             articles.extend(data)
         if i < months - 1:
-            time.sleep(0.4)
+            time.sleep(0.3)
     return sorted(articles, key=lambda x: x.get("publishedDate", ""), reverse=True)
 
 
@@ -115,7 +137,7 @@ def fetch_fmp(ticker, months):
 # Markdown
 # ---------------------------------------------------------------------------
 
-def generate_markdown(ticker, stories, articles, from_date, to_date):
+def generate_markdown(ticker, stories, articles, months, from_date, to_date):
     md = [f"# {ticker} News", f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')}",
           f"**Date Range:** {from_date} to {to_date}", ""]
 
@@ -127,15 +149,13 @@ def generate_markdown(ticker, stories, articles, from_date, to_date):
            f"- **FMP:** {len(articles)} articles from {len(fmp_sources)} sources",
            f"- **Total:** {len(stories) + len(articles)} items", ""]
 
-    # time distribution — Perigon by createdAt month, FMP by publishedDate month
-    p_month = Counter((s.get("date") or "")[:7] for s in stories if s.get("date"))
-    f_month = Counter((a.get("publishedDate") or "")[:7] for a in articles if a.get("publishedDate"))
-    months = sorted((set(p_month) | set(f_month)) - {""}, reverse=True)
-    if months:
-        md += ["### Time Distribution", "| Month | Perigon | FMP |", "|---|---|---|"]
-        md += [f"| {m} | {p_month.get(m, 0)} | {f_month.get(m, 0)} |" for m in months]
-        md.append("")
-    md += ["---", ""]
+    # coverage by fetch window (rolling 30-day windows, newest first)
+    p_win = Counter(s.get("window") for s in stories)
+    f_win = Counter(a.get("_window") for a in articles)
+    md += ["### Coverage by Window (rolling 30-day)", "| Window | Perigon | FMP |", "|---|---|---|"]
+    for _, _, label in month_windows(months):
+        md.append(f"| {label} | {p_win.get(label, 0)} | {f_win.get(label, 0)} |")
+    md += ["", "---", ""]
 
     # --- Perigon stories ---
     md.append(f"## Perigon Stories ({len(stories)})")
@@ -196,7 +216,7 @@ def process(ticker, months):
     ensure_directory_exists(writeup_dir)
     out_path = os.path.join(writeup_dir, f"{ticker}_news.md")
     with open(out_path, "w") as f:
-        f.write(generate_markdown(ticker, stories, articles, from_date, to_date))
+        f.write(generate_markdown(ticker, stories, articles, months, from_date, to_date))
 
     print(f"  Perigon: {len(stories)} stories | FMP: {len(articles)} articles")
     print(f"  ✓ Saved: {out_path}")
