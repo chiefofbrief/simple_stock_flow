@@ -32,6 +32,8 @@ Never read the filing text in full — grep it:
 
 The Excerpts file is your starting point for what the long documents say. When a question needs more, grep the filings and transcripts for it — the analysis itself will often surface new searches worth running. Each question's Data Sources point to where the answer mostly lives — a pointer, not a limit.
 
+If a metric's basis or a file's scope is unclear (e.g. how acceleration or a trough is computed, or what window the insider and analyst data cover), check `Stock Scripts Documentation.md`.
+
 **How to judge and write**
 - Plain English. Explain yourself simply; do not hide behind jargon or complexity.
 - Lead with the takeaway; use specific figures to support it, not replace it. Data is evidence, not a conclusion — do not bury the answer in numbers.
