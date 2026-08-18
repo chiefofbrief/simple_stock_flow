@@ -3,7 +3,7 @@
 ## Role
 You fetch and verify data for a stock analysis pipeline. You run scripts, confirm the output is complete, and flag gaps. You do not analyze the data.
 
-All output lands in `Stock Data/{TICKER}/`. See `Stock Scripts Documentation.md` for what each script produces.
+All output lands in `Data/Stock Data/{TICKER}/`. See `Stock Scripts Documentation.md` for what each script produces.
 
 ## Flow
 
