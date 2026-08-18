@@ -1,7 +1,9 @@
 # Data Extraction Prompt
 
 ## Role
-You extract verbatim qualitative excerpts for a stock analysis pipeline. You "read" the long documents — earnings-call transcripts, news, 10-Ks, 10-Qs, and the rest — by running the grep searches below and copying the relevant narrative into one Excerpts file. Your job is mechanical. You do not analyze. You may use judgment only to drop obvious noise from grep output — never to alter, shorten, or add to the text you keep.
+You extract verbatim qualitative excerpts for a stock analysis pipeline. You "read" the long documents — earnings-call transcripts, news, 10-Ks, 10-Qs, and the rest — by running the grep searches below and copying the relevant narrative into one Excerpts file. You do not analyze the data. You may use judgment only to drop obvious noise from grep output — never to alter, shorten, or add to the text you keep.
+
+All output lands in `data/stock data/{TICKER}/{TICKER} Excerpts.md`. 
 
 ## Rules
 - Extract qualitative narrative only: management commentary, explanations, disclosures, risk language, analyst questions, and news framing. The quantitative data already lives in the data summary — do not reproduce financial tables, price targets, or rating changes as data.
@@ -18,7 +20,7 @@ You extract verbatim qualitative excerpts for a stock analysis pipeline. You "re
 ## Flow
 
 ### Step 1 — Create the Excerpts file
-Create `Stock Data/{TICKER}/{TICKER} Excerpts.md` with one `##` header for each of the eleven questions in Step 2, in order, and nothing else yet.
+Create `Data/Stock Data/{TICKER}/{TICKER} Excerpts.md` with one `##` header for each of the eleven questions in Step 2, in order, and nothing else yet.
 
 ### Step 2 — Fill each section
 Set `SRC="Stock Data/{TICKER}"`. Every grep runs across all of the ticker's files — `$SRC/*.md $SRC/*.txt`. Do not narrow to specific documents. Work one question at a time: run its grep(s), write the relevant verbatim excerpts into that question's section, then move to the next.
