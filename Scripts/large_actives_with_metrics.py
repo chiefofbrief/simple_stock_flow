@@ -137,6 +137,7 @@ CALLS_PER_SYMBOL = 7
 
 DATA_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root
 OUT_PATH = os.path.join(DATA_DIR, "Large_Actives_with_Metrics.csv")
+DIGEST_PATH = os.path.join(DATA_DIR, "digest_stock_reference.csv")
 
 # Industries removed BEFORE enrichment — non-comparable accounting, monetary
 # commodities, or lottery-outcome names that would pollute the percentile scale.
@@ -195,6 +196,16 @@ OUT_COLS = [
 ]
 # sales_prior_ttm_usd is still computed in main() (it is the >=$10M filter key) but
 # is not written — the growth delta already captures current-vs-prior.
+
+# Stripped-down reference written alongside the full CSV on every run — raw growth,
+# margin and valuation numbers only (no scores/percentiles), same row set.
+DIGEST_COLS = [
+    "symbol", "company_name",
+    "sales_growth_ttm_vs_prior_ttm_pct", "sales_growth_latest_q_yoy_pct",
+    "sales_growth_ttm_accel_pp", "sales_growth_4q_net_accel_pp",
+    "gross_profit_to_sales_ttm_pct", "fcf_to_sales_ttm_pct",
+    "ev_to_sales_ttm", "pe_ratio_ttm",
+]
 
 
 class RateLimiter:
@@ -612,8 +623,15 @@ def main():
         w.writeheader()
         w.writerows(kept)
 
+    # side effect: stripped-down digest (same rows, 10 raw reference columns)
+    with open(DIGEST_PATH, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=DIGEST_COLS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(kept)
+
     print("\n================== LARGE ACTIVES WITH METRICS ==================")
     print(f"Saved: {OUT_PATH}")
+    print(f"Saved: {DIGEST_PATH}")
     print(f"Baseline (>=$1B & >=$1M/day $-vol, excl. industries): {total:,}  |  "
           f"dropped (prior sales < $10M USD): {total-len(kept):,}  |  kept: {len(kept):,}")
     if fx_blanked:
